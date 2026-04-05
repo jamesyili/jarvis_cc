@@ -1,0 +1,46 @@
+# Dalton Caldwell — Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more
+*Theme: entrepreneurship-traction | Extracted: 2026-04-04*
+
+## Good pivots move toward expertise, not away from it
+
+Lenny Rachitsky (00:14:26): Wow, that's an amazing story. It's a great segue to just another theme that emerged from talking to founders about advice that you've shared. A lot of people tell me you are the king of the pivot of helping people figure out how to pivot. I'm curious just what you've seen makes a good pivot.
+
+Dalton Caldwell (00:14:45): Usually a successful pivot gets warmer instead of colder from what you're an expert at and somehow builds on what you learned on the prior idea. Right? And so in the case of Brex, it was they had worked on a FinTech company in Brazil when they were younger, and so I'm like, "You need to work more on the thing all about and not the thing nothing about." And that was what worked for them. In the case of Retool, it was the same thing. They had built similar internal tools both at their internships as well as for Cashew. They had all these dashboards they built to operate their Venmo competitor. And so they knew a lot about what to build in the case of postprod, pivoting and through idea, they knew a lot about analytics and had strong opinions about it. And so it was much closer than what the original idea is.
+
+In the case of Zip, Rujul knows a lot about a lot of things and he knew a lot about the crazy picture and process at Airbnb because he worked there. A good pivot is like going home. It's warmer, it's closer to something that you... And it never occurred to you that this thing you know all about would be a good idea or maybe you consciously are like, "I don't want to work on this because burnt out on it." Sometimes someone has to get over this barrier they have on why they don't want to work on a certain idea.
+
+Lenny Rachitsky (00:16:18): These are amazing. I like how modest you are. I'm like, "Oh, here's a big idea." And then you just give very tactical items to look for. So essentially a good pivot in your experience is you're getting closer, warmer towards something you have actual experience in, and two, it builds on something you've done. Can be essentially the core idea of a pivot, right? Where you're...
+
+Dalton Caldwell (00:16:38): In the example of Segment, which is obviously a really big successful company, they started with something to tell your professor you were confused in class. It was software that they sold to universities. And then they ended up pivoting to something like a mixed panel competitor after two years and it's because they learned about how analytics works running their first idea, okay? And then no one wanted to adopt their mixed panel competitor. And so they were like, "We should make this JavaScript thing that you embed on your website that can send events to multiple endpoints at the same time so that way people would be willing to try our mixed panel competitor side by side with mixed panels to show that it's better." And then they were like, "Oh yeah, no one actually wants that. They just want this JavaScript to send events to different locations." And so there's no way those founders could have started with the final idea. You get what I mean?
+
+There was no universe where they would've made up the idea for Segment because they didn't know anything about how analytics worked, but because they were grinding for multiple years and became experts on these things is a side effect of their earlier ideas. They ended up with really good unique insights.
+
+---
+
+## Tarpit ideas: seductive, validatable, and consistently fatal
+
+Lenny Rachitsky (00:23:45): This is a good segue to something I definitely want to spend time on, which is you have this concept of tarpit ideas, which are essentially ideas people all gravitate towards and get stuck in and either pivot into and then can't pivot out of or try to pivot out of. And essentially it's just consistently bad startup ideas that people continue to try to start. Can you just talk about this and then what is examples of just bad startup ideas that people should stop trying to start?
+
+Dalton Caldwell (00:24:10): For people that are familiar with this terminology from us, sometimes they get defensive and don't get what we were saying. By definition it is only a tarpit if it seems like it's not. If it's just a regular idea that is hard, that is not a tarpit. The weird aspect of what we call a tarpit idea is an idea that a lot of people come up with and then it seems like an unsolved problem and you get lots of positive feedback for. Right? And you have a really good set of arguments that it's a really good startup idea. And that's different than a bad startup idea. Do you get what I'm trying to say? A bad startup idea is, I don't know, something that is obviously bad or something where you just can't get any positive feedback on. But some of the most common tarpit would be something like building an app to coordinate with your friends to decide where to go out at night or where to meet up with people, which is really, it's coming from a good place. It's a good idea.
+
+If you ask your friends, "Hey, would you like an app for us to coordinate to hang out more so we can be friends?" They're like, "Yeah, I would love that." You'll get all this positive feedback from the world. And man, people have been starting that startup since the '90s and so you can validate it. Part of being a true tarpit is that you can get good initial validation. Do you get what I mean? And so anyway. And honestly I worked on tarpit ideas myself as a founder, which is a music discovery. This is something I did in my first startup. Music startups are hard and trying to be like, "Oh, we're going to fix music discovery." This was classic things where you can get lots of positive feedback and even get users to work on those things, but there are aspects of it that make it a very hard idea. So does that make sense?
+
+---
+
+## Customer validation first, building second
+
+Lenny Rachitsky (00:40:57): Yeah, I think when I talked to aspiring founders about this a lot, they're like, "Yeah, yeah, yeah, I talked to customers. We get it. Cool." And I'm like, "Cool. Well, how many customers do you talk to?" And they're like, "Well." And they get really quiet. And so I think this is one of those things like, hey, you should have a healthy diet and exercise every day or whatever, where people know it and that doesn't mean they do it. And so I think to start with, you have to get out in the world and talk to people in person. And you can't just hide behind your keyboard and call that talking to customers. Right? I think a lot of folks, the inclinations are to build a landing page and buy some Instagram ads and try to get people to sign up for something. And again, maybe that's something, but I think a lot of the reason people do that is they're just shy and they don't want to put themselves out there because it's a little awkward to go talk to people.
+
+And you have to set yourself up to go out in the physical world, get people to meet with you, get them to take you seriously, show them a product you're building. And so again, it'd be very tactical here. You can do a self-assessment. In the past month, how many in-person physical meetings have I had with potential customers? Maybe you've done a lot, I don't know, listener, maybe you have, but it's shocking how many companies I talk to, they're like, "Well, we're focused on raising our pre-seed round before we talk to customers." Things like that. And again, I think the core, core thing going on is just social anxiety and looking stupid. And I think you just got to get past that. You just got to start doing it until it doesn't feel bad anymore. Think about how stupid the Airbnb founders must have felt. They were like, "Hey, you should rent out your house and I'm going to come and sleep in your house, and here's an airbag."
+
+The whole thing is a little awkward, right? So you got power through the awkwardness of talking to people, and once you start doing it's actually fun. And so once you get used to overcoming this awkwardness, I think people do much better at talking to customers.
+
+Lenny Rachitsky (00:43:08): When someone does this self-evaluation, is there a heuristic that tells you this is enough? What do you look for? Is there a number? How many per week? How many per month?
+
+Dalton Caldwell (00:43:17): Yeah, I don't know if I know a good number. I think it's look at your calendar and there should be 20 or 30% of your time that the calendar says something like customer meeting, customer call, meeting with who, meeting with this person. And when the calendar is not that or it's all... Again, what you're actually doing is just buying ads to try to validate your idea, I don't think that's talking to customers. I think that's something else.
+
+Lenny Rachitsky (00:43:46): That's an awesome heuristic. So roughly fifth of your time at least should be talking to customers.
+
+Dalton Caldwell (00:43:51): Yeah. And again, it depends on the idea space you're working on. Some are more, some are less. So yeah, it should be a fair amount of time. And nothing substitutes for an actual conversation versus just staring at analytics dashboards.
+
+---

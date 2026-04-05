@@ -1,0 +1,24 @@
+# Elizabeth Stone — How Netflix builds a culture of excellence | Elizabeth Stone (CTO)
+*Theme: managing-up-exec-presence | Extracted: 2026-04-04*
+
+## Technical-to-nontechnical translation as career accelerant
+
+Lenny (00:14:00): I took a few notes here. A few things you mentioned is just like, dedication, essentially working really hard and taking your work seriously, being part of a team and setting other people up for success, translating complex tech language and problems to non-tech people, and then being really good at observing and learning from other people around you. Is there an example or two that you could share of some of these to make it even more concrete for people?
+
+Elizabeth Stone (00:14:35): No, and it's a good clarification because the dedication piece really isn't about long working hours. It's more about how much I care about excellence, I guess. So giving it my best in those situations. And that might not mean that I work really wild hours or I work weekends or I'm the one who's willing to sacrifice the vacation. I've actually tried to avoid setting that as an expectation, but more that I hold myself to a very high standard.
+
+So an example would be, especially as I've gotten more senior in roles, there can be an expectation that it's okay for other people to wait on me. So whether it's the timing for a meeting or providing input on something or reviewing a document or following through on something I said that I was going to do, and I really try to avoid that, which means that if someone sends me something, I try to be very responsive about it. If I know that I said I'm going to do something, I follow through on it in the timeline that I said I was going to do. If I have a meeting, I try to be on time to that meeting.
+
+Those are all flavors of dedication to the work that show up in, 'Oh, it seems like Elizabeth works really hard,' but the motivation factor is other people are relying on me and I want to show up for them. And so that's when I say dedication and it's related to the second point around showing up well for the team, those would all be examples of I feel urgency in responding to people and doing high quality work.
+
+For the other parts of technical to non-technical, I think a great example is actually a very timely one at Netflix, which is, we are making strides to offer live content types. So live events, live TV shows... That is easier said than done. Netflix has really been in the streaming content business, so live content is something new for us and it's something that's going to require a really close partnership between our content organization and our products and technology organization because there's a content strategy to it, there's a business strategy, there's a technology strategy to it. A big part of my role is, can I explain how we're going to approach those technical problems in a way that builds competence with the content team? Can I try to understand their content strategy in a way that sets the technical teams up for success and we understand what we need to be able to deliver on here in terms of requirements. I don't think I'd be able to do my current role well if I wasn't able to do that type of translation for something that's going to be a big bet for the business.
+
+---
+
+## Context not control: sharing leadership meeting notes org-wide
+
+Lenny (00:47:55): Maybe a last question around just the culture. We talked about candor a bit. I'm just curious if there's an example that comes to mind of an example of candor that you recently saw or had to be the candid person that might be interesting to share where it's like, 'Oh wow, that's what you mean when you say a culture of candor.'
+
+Elizabeth Stone (00:48:15): There's a couple things that come to mind. I am generally a transparent leader, meaning I share information freely and openly. It's part of the culture to context, not control, which means part of my job is to make sure that people have the context they need to do their jobs well. And in practice, that means I take notes in leadership meetings and I share those notes with the whole organization. And that is sometimes it includes candor around reflections on things that aren't going well or problems we need to solve. Sometimes it's just letting people know, 'Here's what leadership's talking about so that they have a sense of what's top of mind.' But it's a version of transparency that I feel strongly about, doesn't exist a lot of other places. I think it's a version of candor too in being able to share... I can't always share every detail of everything that we're talking about, but I do try to share things that probably push the boundary a little bit in the team, feeling like they understand what's happening across the company and what I'm thinking about.
+
+---

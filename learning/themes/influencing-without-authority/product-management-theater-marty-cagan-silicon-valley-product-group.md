@@ -1,0 +1,19 @@
+# Marty Cagan — Product management theater | Marty Cagan (Silicon Valley Product Group)
+*Theme: influencing-without-authority | Extracted: 2026-04-04*
+
+## ICs have more agency than they think to change company culture
+
+Marty Cagan (00:29:48):
+That's the pessimistic version of the world. Either I might be overreacting. Might be. I'm not really known for being alarmist, but maybe. It's possible. I hope so, but I doubt it. I think these trends are real. Now, does that mean people are... It's hopeless? They should all start retraining to be, I don't know what, housing construction, something that GenAI won't replace maybe? No. I think what really this does is you need to raise your skills. Enough with the silly facades of delivery teams and feature teams. You should raise your skills. And a lot of product managers, they reach out and they're like, "I know I'm in a feature team and I don't like it." I often use the phrase they're trapped in a feature team and they're like, "This isn't what I signed up for. The New York Times article about product management wasn't this. This was different." And they're like, "What should I do? Should I just leave my company and go to one of these other companies?"
+
+And I try to explain that they actually have a lot more agency than they realize. There is a lot an individual contributor... Of course, there's way more than a product leader could do. And that's the biggest shame in all this, is they're not doing this. Most product leaders are not doing this 'cause they of course have a lot of agency, a lot of ability to change a company. But an individual can do it as well. They can raise their game. They can literally do a self-assessment and raise the skills from a product owner or a feature team product manager to a real product manager. At a minimum, I tell people, and I've seen this countless times, at a minimum, your company will appreciate it and probably promote you because you will be one of the few that actually understands these things. Hopefully even more than that, they'll say, hey, why don't we try running a set of teams this way and see how we do? So it can happen from the ground up too.
+
+Lenny (00:32:05):
+I imagine many people are wondering, how do I do this? I know you've written books, I guess there's courses, there's all kinds of things. If you could give people a couple tips of how to get better at this and what skills to focus on, what's a quick piece of advice you could share there?
+
+Marty Cagan (00:32:19):
+Well, this is maybe the most frustrating thing to me of all. And in fact, I should have answered when you asked me what motivated me to get spicy, what pushed me over the edge. Maybe I was in a bad mood that day, I don't know. But it was this article that made the rounds online by probably the biggest certification institution for product managers. And they had this big article saying, "This is what a product manager does." And it was a big graphic, and I'm looking at it and I was thinking, I cannot believe they said this out loud. This is 100% project manager, 100%. They didn't even pretend to put a little of the product, which most people of course are more creative than that. They bend over a little bit to make it look like a product manager, but not even close.
+
+And what I realized is what's so frustrating here is you have all these people that realize things aren't good yet most places they turn are just propagating that same model. So these certifications, which in my opinion are bogus, but most people don't know. And just imagine you're a brand new product manager. You look online probably what, 90% of the content out there is from the feature team world or worst. And so unless they get really lucky or they happen to be really lucky and have a manager that is guiding them in a good direction, it just propagates.
+
+---

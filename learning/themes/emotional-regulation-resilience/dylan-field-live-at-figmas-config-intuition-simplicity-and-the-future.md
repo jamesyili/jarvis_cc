@@ -1,0 +1,16 @@
+# Dylan Field — Dylan Field live at Figma's Config: Intuition, simplicity, and the future of design
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-03*
+
+## Keeping team focused after the Adobe deal fell through
+
+Lenny Rachitsky (00:05:50): Let me actually ask you about that exact thing. Most leaders, most teams would get super discouraged, and demoralized, and distracted by something like this. Basically, there was a bunch of money ready to be wired to their bank accounts. This deal was going to sell. It's like, "Oh, amazing." Then, it doesn't happen. Easy for people just to get, "Oh, no, what the hell's going on here? Why am I working here? All these news about us." How did you very specifically keep people focused and keep momentum up, as you said, almost accelerate it to this very successful IPO?
+
+Dylan Field (00:06:23): Communication is obviously a big part of it, first of all. You have some legal constraints in the regulatory process, but to however degree we really could, we would do just quarterly check-ins and updates on here's how things are going. At some point those became more frequent. Yeah, every few weeks. It was check-in towards the end and at some point it was like, "Okay, the path is narrowing." At some point I was able to share with people, "Hey, the path is narrow." Not everyone picked up on that. Some people still had in their heads, this is going to go through, of course, it's just a matter of time.
+
+I think tactically one thing that was really important coming out of the process, we announced the company the day after we went on break, basically. It was like, Friday we went on a winter break, not everybody, but most of the company was on vacation for probably a week and a half, two weeks for the winter. Some folks are of course still on for support and keeping servers up and all that. But yeah, I think that the Monday after that we all went on break, reconvene everyone, just establishing, "Hey, this didn't happen, here's what's next." Then, coming back from break, and one thing we did was a program we called Detach, which is a Figma pun for detaching components.
+
+But it was just a way for us to say, "Hey, look, maybe you joined and you thought you were joining Adobe, and surprise, you're at this hard charging startup." Or, maybe after a long time of working at Figma you're tired. That's okay. If anyone wants to take three months of severance, and this is not a forever goodbye, you can reapply in six months, it's fine. You're free to do so and we're still in good terms. A little bit over 4% of the company took us up on that. But I think it was also like, along with that reinforcing of the pace that we're going to be operating at, the challenge in front of us that we can go and meet, and the opportunity, and making sure people are aware of that too.
+
+It's like, "Okay, great, if you're bought in, let's go. If you're not there, that's okay." It was actually really interesting to see the folks that did take it, how many of them ended up doing career changes. Some folks went from sales to politics or something. People went in totally different directions sometimes. I think it was a reset moment not just for the company but also for some folks for their lives and their careers, and that's been fascinating to watch how that's worked out for them.
+
+---

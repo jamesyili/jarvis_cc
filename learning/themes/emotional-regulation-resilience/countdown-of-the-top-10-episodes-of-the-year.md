@@ -1,0 +1,47 @@
+# Various (April Dunford, Crystal Widjaja, Julie Zhou, Shishir Mehrotra, Kristen Berman, Elena Verna, Ethan Smith, Shreyas Doshi, Marty Cagan, Matt Mochary) — Countdown of the top 10 episodes of the year
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-03*
+
+## Imposter syndrome for 7–8 years, tools to cope
+
+Lenny (00:12:06):
+Going back to your time at Facebook, you've made it sound like you just kind of like, ah, I joined as a designer, figured out design became a manager, and then somehow you became VP of design and it sounded too easy. That's an insane trajectory for someone to follow. Do you have any thoughts or advice on what contributed to your success rising through the ranks that quickly for folks that are just early in their career maybe?
+
+Julie Zhou (00:12:30):
+Absolutely. And I want to make it really clear, I would say that the first seven or eight years that I was at Facebook every single week I felt like an imposter. I had no idea really what I was doing. The constant refrain in my head is like, well, do you really deserve to be here? Do you really know what's happening? You're not really prepared for this job. You've never done this before. What do you have to be put in this situation and get to do what you do? And that was really a constant refrain in my head.
+
+But looking back, I think it probably took me about seven or eight years until I became a little bit more comfortable with that. After seven or eight years I could look back, I could see all of the things that I got to work on, I could see all the ways that I had grown and learned in that experience. And something clicked for me where I realized it's kind of two sides of the same coin. Being in an uncomfortable situation, being in a position where you feel like, hey, do I really know how to do this, I'm not prepared for it, kind of coincides with the fastest and most intense periods of growth in one's career. I started to realize, well maybe it's not so much of a bad thing. Maybe if I constantly putting myself in this situation where I haven't seen this problem before, that's also what's going to push me to grow and learn.
+
+So yes, you asked for specific advice, I think there's two things. The first is, well, I was lucky I was in the right place at the right time. I was at a company that was scaling. And when you're at a company that grows, there's always a lot more opportunity to then be able to try something new, to raise their hand, to volunteer for things to be just thrown into because somebody has to do it because it's a growing company and there aren't a lot of other people. So the first piece of advice I would have would be like if you want those types of opportunities, sometimes you just have to be at a smaller place and you have to be at a place that is going through that rate of growth.
+
+The second thing is embrace the fact that it's okay to be in a position where maybe you don't know what to do, you haven't been trained for. It does coincide with that intense learning. Maybe approach it with that sense of curiosity and that sense of, yes, it's hard, yes, I might be an imposter and I might feel that way for a while, but this is also what's going to help me get there. It's going to be what forces me to do the work and in that process learn and become better.
+
+Lenny (00:15:02):
+It's amazing to hear that you had imposter syndrome for such a long period of time and you basically ran design for the Facebook app, right?
+
+Julie Zhou (00:15:11):
+Yeah.
+
+Lenny (00:15:11):
+It's kind of an empowering, inspiring insight that someone that at your level went through that for so long and made it through that. Do you have any other advice or thoughts on just for folks that are going through that? Because I have that to you for a number of years, just like, what the hell am I doing here? People are going to see I don't really know what I'm doing and it's all going to crumble as soon as I make my next mistake. Do you have any other advice there for folks going through that themselves?
+
+Julie Zhou (00:15:34):
+I think that so much of just exactly what you said, Lenny, I think so much of it that helped me was realizing that everyone feels this way to some extent. And that's also why I always want to talk about that. Because I feel like sometimes you can see from the outside you're like, oh, this person has this title, they have this position, they have these responsibilities. Clearly they've made it, they know what they're doing. But that's never the case.
+
+I mean, logically, let's think about it. If you're going to do anything new for the first time, how are you ever going to feel totally comfortable, totally prepared? Every time there's something new that you hadn't encountered before it's always going to be a little bit rough, you're never going to feel like perfectly at ease. It's only upon doing something multiple times that you start to see the patterns, you start to realize, okay, it's going to be all right. Even now, the people that I talk to, the people I really look up to, the people who I think are role models and mentors for me, I mean they regularly also share with me that it's the same. They still encounter things that are unprecedented. If we work in tech, I mean the rate of change, the rate of the industry and companies and these new experiences that we have, that never goes away. That's just par for the course. So I think that feeling always exists.
+
+What I have learned is that there are better tools in your toolkit for dealing with it. One of them is of course me just reminding myself that if I feel uncomfortable, okay, other people feel that way too. Everyone does. It's totally natural. But then to also find other pieces in that toolkit. One is I am much better at asking for help now than I was earlier in my career. I used to actually just try and hold it all in. I was like, hey, I better fake it till I make it. If everyone thinks that maybe I'm coming to the table like I know it then I can fool them.
+
+Now I realize I was preventing myself from being able to get that support and that empathy and that camaraderie and that advice that would've helped me actually grow faster and maybe with a little bit less pain in the process. So one of the things I've learned is it's okay to ask for help. It's okay to reach out to people who both may be going through the same things you're going or maybe are a step or two ahead of you in the journey, who have actually gone through that and have lived to tell the tale and can tell you it's going to be okay. Because often that's just what you need, you just need people to tell you it's going to be fine. You're fine. You're good. You've got this. That's so meaningful whenever we sometimes feel down about ourselves. So that's another, I would say tool in the toolkit, asking for help, finding groups of support.
+
+And then I think the third is it's also okay to just be vulnerable and just talk to people about. I found that some of the most meaningful conversations I had, whether with people at managers or whether with my own reports is when we can be much more open about what it is that we find hard, what are we struggling with? And in that way you actually form deeper connections and people are more able to help out. We can spread the load a little bit. We can put our heads together and brainstorm a better way to solve the problem. And I find that too, even as the head of a department or a founder, it's not going to solve everything myself. I'm never going to have all the answers. Sometimes by just sharing what the problem is by sharing the load, we're all going to collectively come up with a better solution.
+
+---
+
+## Amygdala priming before delivering hard news
+
+Matt Mochary (00:57:17):
+Whenever I have a difficult conversation I start it off, hey, this is going to be a difficult conversation. I want you to take a few seconds and prepare yourself. You are not going to enjoy this. What I found is that the way the amygdala gets triggered is often because of surprise. So if you give someone just a few seconds to mentally prepare, then the amygdala often doesn't get triggered nearly as hard because if they're aware that they're going to go into fear, if they're going to go into anger, they're going to go into sadness, then they can see it coming and they go, oh, that's what it is. But if they don't see it coming, just surprise and all of a sudden, it grips their whole brain and now they're in it and they don't even know they're in it. So, that's the first thing I do. This is going to be a difficult conversation. Are you ready? Person says yes. Then I share the news. I'm letting you go. Here's why, da, da, da.
+
+Then the second, I deliver the message. The third thing is now they're feeling emotions, strong ones. Even though I warned them, they're still feeling them. Now, you want them to be able to release those emotions. And so I say to them, my guess is you're feeling a lot of anger right now, fear, sadness. Is that true? And if so, would you be willing to share with me what you're feeling and what you're thinking? And sometimes they don't answer but many times they do and they share with me and they let it out, and that's important to allow them to let it out. And then I make them feel heard and I actively listen, and that makes them realize that I'm not trying to run away from the pain that they're feeling. I'm not trying to leave them alone with it. I sit with them as they have it, and then I try to help them get through it.
+
+---

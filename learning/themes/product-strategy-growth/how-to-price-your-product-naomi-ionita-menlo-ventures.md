@@ -1,0 +1,36 @@
+# Naomi Ionita — How to price your product | Naomi Ionita (Menlo Ventures)
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## Three biggest pricing mistakes founders make
+
+Lenny (08:40): Cool. So, to dive into that first topic of monetization, if you think about when you're starting a company, what are some of the biggest challenges you face? Start building a product, especially a B2B product, I always think about pricing and trying to figure out how much to charge, how to charge, your pricing model, how to evolve your pricing, when to charge, all these things. And so I know that you work with founders helping them figure these sorts of things out. And so maybe a first question here is just what do you find startups most often miss or get wrong when they're starting to think about monetization?
+
+Naomi Ionita (09:12): There's a lot to cover here. I'll cover a few missteps that I think are most common. One is waiting too long to monetize. Another one is underpricing. And this isn't just setting the base price too low, but it's also leaving money on the table by not offering different plans to cater to different segments. And the third one is all too often with pricing, people set it and forget it. So, this idea that when your product development work is never done, neither is your pricing, and you need to combat that along the way. So, those are three areas I think we can cover here.
+
+Maybe starting with one, I can jump right in, I think waiting too long to monetize. The beginning of a startup's journey is all about creating something of value. Right? That's the whole point. Hopefully, founders have some unique market insight or some authenticity around a pain point and some novel solution that's going to change the world. So, that business value is really critical. But the other side of the same coin is being properly compensated for that value as a business. I understand the vulnerability of being a new startup. You just want people to use your product. And I view that early free beta user feedback loop as an R&D cost to make sure you're building the best possible product and that they're driving a lot of value.
+
+But I see companies way too long to make that shift from building a product to building a business. And I think that's the true signal of product-market fit, is ultimately having people open up their wallets and pay you, so looking for people to get to that end goal. And so again, these things aren't mutually exclusive. You're going to create business value, but you're going to be compensated for it and prioritize your roadmap over time so that you're building based on what people actually want and are willing to pay you for.
+
+So, when you don't monetize, I think you're doing yourself a disservice. The things that I see as the pain of leaving money on the table, you're inadvertently cheapening your product. People attribute a lower dollar value or a $0 value to what you've built. You're missing out on critical feedback loops to understand what people are willing to pay. And you're shooting your future self in the foot because this is the other problem, is at some point you're going to start charging, and you're going to experience some backlash.
+
+---
+
+## Day one vs day 100 features: freemium packaging framework
+
+Lenny (13:23): You also have this model that you didn't mention that you mentioned in a previous chat we were having offline of this idea of day one versus day 100, stuff people need on day one versus what they need down the road. Do you still believe in that? And what should people know about that?
+
+Naomi Ionita (13:36): I do believe in that. That was tied to... We had done this experiment at my last company, Invoice2go, where... Typically on the demand curve, the higher you raise the price, the average revenue per user or ARPU, the lower the conversion rate. So, these things are inversely correlated. And we were able to do this rebalancing of our pricing and packaging so that we actually doubled our upgrade rate from our starter plan to our pro plan while also increasing the price of the pro plan. So, to actually get twice as many people to upgrade while paying something like 30% more for that new plan is pretty rare to get the compounding benefits of that. And what we did was thought a lot about what is a day one premium feature? What is a premium feature that you can get value from the very first time you engage with the product? That's different than your day 100 features. Those are the ones that represent more advanced functionality. Maybe they're ones where the value is derived from having a certain scale of data in the platform.
+
+And so, those you shouldn't waste cognitive load for your users to have to even understand or try to appreciate when they're first getting going. Push those into a more advanced pro version of your product, and monetize them down the road through an upsell. So, big believer in how do you really keep pricing simple? And we've all seen those SaaS pricing pages where there's a laundry list or just a gnarly matrix of features and functionality. So, do what you can to think about that journey for a user and how they're going to continue to increase value with your product over time, and how you can map your pricing and packaging against that journey.
+
+---
+
+## Single-player to multiplayer chasm: Evernote vs Figma
+
+Lenny (06:22): One thing you mentioned is Evernote. I don't know how much you can talk about this, but they just got sold, right? Someone bought Evernote. And if I think back to Evernote, it feels like they could have been Notion, which is killing it right now. Any thoughts on what maybe they missed and didn't turn into Notion along the way?
+
+Naomi Ionita (06:39): Yeah. We're going to clear some cobwebs here. It's been a while. But one challenge that Evernote really struggled with was this evolution from single-player to multiplayer to team to enterprise. It's a chasm that a lot of bottom-up SaaS businesses struggle to cross. Evernote was philosophically antisocial. It was meant to be your second brain, kind of your personal tool. And I think that capped the company's growth potential. I always used to say you can't retrofit collaboration. You have to be collaboration-first. And a lot of companies now really take that for granted. But back in mid-2000s, this was kind of a new way of building product. And so we missed that bridge.
+
+If companies do that well, it benefits every metric. That bridge from single-player to multiplayer. Acquisition goes up. You grow organically through referrals and shared workflows. Retention goes up because now you have these shared workflows that are incredibly sticky. Employees are accountable to each other to say, 'This is how work gets done.' Design in Figma, roadmap planning and ticketing in Jira are linear. It just becomes the default platform. And modernization goes up. Revenue scales with usage. And so the more people using it, the more they use it. You start tripping the wire on paying more and more over time. And so Evernote really struggled in crossing that chasm from the prosumer tool of choice that employees wall-to-wall were using, but never became this larger high-ACV contract from a sales perspective.
+
+---

@@ -49,6 +49,7 @@ Last updated: 2026-04-02
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `session-log.md` | Rolling session log for cross-session continuity | 2026-04-01 |
+| `lennys_podcast_pipeline.md` | Lenny's podcast extraction pipeline: purpose, status, next steps, file locations | 2026-04-05 |
 | `leo_backlog.md` | Leo improvement ideas: skills to build, system improvements, automation | 2026-03-29 |
 | `backlog.md` | General thinking backlog: articles, ideas to explore | 2026-04-02 |
 
@@ -63,7 +64,7 @@ Last updated: 2026-04-02
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `learning_agenda.md` | 5-track curriculum, prioritized for Q2 2026 | Unknown |
+| `learning_agenda.md` | 5-track curriculum, prioritized for Q2 2026; new modules 1.10, 2.8, 4.4 on AI systems thinking | 2026-04-03 |
 | `clr_codebase_notes.md` | CLR/P2P learning notes from codebase exploration | Unknown |
 | `sources.md` | Knowledge base source registry — 13 curated feeds, sync status | 2026-04-02 |
 | `articles/` | 945 ingested articles across 13 sources, organized by source slug | 2026-04-02 |

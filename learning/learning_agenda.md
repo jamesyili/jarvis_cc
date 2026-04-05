@@ -14,15 +14,15 @@ Personal structured curriculum. Five tracks, each independent. Prioritized for Q
 
 ### Tier 1 — Now (Q2 2026)
 - **Track 5:** Model Architecture & Transformers — directly supports UPP decisions happening right now
-- **Track 2:** Evals modules — PINvestigator Q2 shift to eval-driven development
-- **Track 1:** Claude Code hooks, skills, best practices — daily workflow compound gains
+- **Track 2:** Evals modules + **Module 2.8 (Verification Checkpoints)** — PINvestigator Q2 eval-driven development + knowing where to insert human checkpoints
+- **Track 1:** Claude Code hooks, skills, best practices + **Module 1.10 (AI Pipeline Failure Modes)** — daily workflow + systems thinking for Leo/PINvestigator/Rekko
 
 ### Tier 2 — Next (Q3 2026)
 - **Track 3:** ML System Design interview prep — when closer to wanting optionality
 - **Track 2:** RL/bandit modules — when Retentive Recs feedback loop work is more active
 
 ### Tier 3 — Ongoing
-- **Track 4:** Engineering Leadership — practiced in live situations, reflected on in session logs
+- **Track 4:** Engineering Leadership + **Module 4.4 (Human Judgment in AI Systems)** — practiced in live situations, reflected on in session logs; governance questions increasingly relevant as PINvestigator and Rekko automate more decisions
 
 ---
 
@@ -60,6 +60,8 @@ Granularity is intentionally variable. "Two-tower retrieval" and "condition toke
 
 ## Why This Track
 Building Leo, PINvestigator, and daily workflow all run on Claude Code. This track fills gaps systematically so I stop discovering features by accident and start wielding the full toolkit intentionally.
+
+**Deepened priority (2026-04-03):** The differentiating skill isn't prompt fluency — it's AI systems architecture. Where do pipelines fail silently? How do I instrument agentic systems for observability? Where do I insert human checkpoints before errors propagate? Module 1.10 addresses this directly. Prioritize alongside 1.1 and 1.4.
 
 ---
 
@@ -291,10 +293,48 @@ Spread over 4-6 weeks at ~6-8 hrs/week. Start with Claude Code in Action, then a
 
 ---
 
+## Module 1.10: AI Pipeline Failure Modes & Observability
+
+### Why this module
+Most AI systems fail silently. A subagent returns a plausible-sounding wrong answer. An extraction script skips edge cases without logging them. A pipeline degrades gradually as data drifts. The gap between "it ran" and "it worked correctly" is where systems thinking lives.
+
+This applies directly to Leo (ingest + theme extraction pipelines), PINvestigator (multi-subagent orchestration), and Rekko (content generation + trading analysis pipelines).
+
+### What to learn
+- **Failure mode taxonomy**: Silent failures (bad output, no error), graceful degradation (partial output), catastrophic failures (crash). Know which your system produces.
+- **Observability primitives**: Logging inputs/outputs at each stage. Structured logs > print statements. What to measure: latency, token usage, output length, error rate, downstream impact.
+- **Feedback loops**: Where does the system get signal that it's wrong? If nowhere, that's the first gap to close.
+- **Assumption surfacing**: What does this pipeline assume is true about inputs? Where does it break when inputs are malformed, empty, or adversarial?
+- **Human checkpoint design**: Where in an automated flow should a human review before the output propagates? Cost of a bad checkpoint (friction) vs. cost of no checkpoint (errors at scale).
+
+### Applied to my systems
+| System | Known failure modes | Checkpoint to add |
+|--------|--------------------|--------------------|
+| **Theme extraction** | JSON parse errors silently skipped; context fatigue degrades quality after N episodes | Log parse failures; spot-check every 50th episode |
+| **PINvestigator** | Subagent returns empty SQL result, orchestrator proceeds anyway; Slack MCP timeout returns null | Validate subagent outputs before Phase 2; inject failures in evals |
+| **Rekko pipeline** | 302 scripts generated, 9 videos finished — gap unmonitored | Build completion rate metric; alert when ratio drops below threshold |
+| **Leo ingest** | Unicode errors silently skip episodes (saw this with Gustav Söderström) | Log all skips to manifest with reason |
+
+### Practice
+- Add structured logging to the theme extraction script — log episode slug, themes written, parse errors, and processing time per episode.
+- Identify one silent failure mode in PINvestigator and add a validation step before Phase 2 orchestration.
+- Write down the assumptions behind the Rekko content pipeline. Pick the most fragile one.
+
+### Resources
+| Resource | What you get |
+|----------|-------------|
+| **Demystifying evals for AI agents** (Anthropic) | Failure handling as a first-class eval dimension |
+| **A Field Guide to Improving AI Products** (Hamel) | Production observability patterns for LLM systems |
+| **Langfuse** | Open-source observability for LLM pipelines — traces, spans, scores |
+
+---
+
 # Track 2: RL & Evaluation for Rec Systems
 
 ## Why This Track
 Retentive Recommendations is fundamentally an explore/exploit problem. The Geometric Bandit (Section 6 of the spec) is active design work. PINvestigator needs a proper eval harness for Q2. This track formalizes the RL and eval concepts directly applicable to both.
+
+**Deepened priority (2026-04-03):** Evals are verification. The skill isn't just knowing eval metrics — it's knowing where to insert human checkpoints in automated AI systems before bad outputs propagate downstream. Module 2.8 addresses this: verification discipline as a design practice, not just a testing afterthought. Prioritize alongside 2.7.
 
 ---
 
@@ -543,6 +583,37 @@ PINvestigator is shifting to eval-driven development in Q2. The agent has 3 para
 
 ### Module 2.7 time estimate: ~22-30 hours
 Read Anthropic + Hamel blog posts first (Week 1). Then hands-on: build evals with Inspect or DeepEval (Weeks 2-4). Papers last.
+
+---
+
+## Module 2.8: Verification Checkpoints in Agentic Systems
+
+### Why this module
+AI outputs are confidently wrong. The professional edge isn't catching every error — it's knowing *where* errors are most likely to propagate and inserting lightweight checkpoints at those exact points before downstream impact compounds.
+
+This is distinct from evals (which run offline against golden sets). Checkpoints are live, in-pipeline gates that catch bad outputs before they reach users, databases, or irreversible decisions.
+
+### What to learn
+- **Checkpoint placement heuristics**: High-stakes irreversible actions (DB writes, external API calls, trading decisions) always warrant a checkpoint. Low-stakes reversible actions (drafting text, intermediate computations) usually don't.
+- **Checkpoint design patterns**:
+  - *Threshold gates*: Output must meet a minimum confidence/quality bar. Below threshold → route to human or fallback.
+  - *Cross-validation*: Run two independent paths, compare outputs. Divergence = flag for review.
+  - *Schema validation*: Enforce output structure before downstream consumption. Catches malformed JSON, missing fields, type errors.
+  - *Canary outputs*: For batch jobs, validate the first N outputs manually before releasing the full run.
+- **Human-in-the-loop design**: Where does human review add the most value per unit of friction? Not everywhere — the goal is targeted, not exhaustive.
+- **Confidence calibration**: AI models are often over-confident. Learn to recognize when low-information outputs should trigger review vs. proceed.
+
+### Applied to my systems
+| Decision point | Risk if unchecked | Checkpoint design |
+|---------------|-------------------|-------------------|
+| PINvestigator Phase 2 synthesis | Subagent failure → orchestrator hallucinates correlation | Validate each subagent output is non-empty + schema-valid before Phase 2 |
+| Rekko trade execution | Bad analysis → live trade placed | Shadow mode first; require human confirm for any live trade above $X |
+| Theme extraction JSON | Parse failure → episode silently skipped | Canary: manually review first 5 extracted episodes per model change |
+| Leo context updates | Stale/wrong info → Leo gives bad advice | Flag files not updated in >30 days; prompt James to verify before acting |
+
+### Practice
+- Add a canary check to theme extraction: after first 5 episodes, print a summary and pause for review before continuing.
+- Design (on paper) the checkpoint architecture for Rekko live trading: what are the 3 gates before a trade executes?
 
 ---
 
@@ -874,6 +945,8 @@ The soft skills are load-bearing for everything else. Strategic thinking shapes 
 
 This track is qualitatively different: it's practiced in live situations and reflected on, not studied in blocks.
 
+**Deepened priority (2026-04-03):** As AI automates more execution, the leadership edge shifts to human judgment in automated systems — knowing when to override, where accountability sits, and how to build governance that doesn't just rubber-stamp AI decisions. Module 4.4 addresses this. Relevant now for PINvestigator (who owns the investigation output?), Rekko (who is accountable for a bad trade?), and any AI-adjacent work at Pinterest.
+
 ---
 
 ## Module 4.1: Strategic Thinking
@@ -980,6 +1053,42 @@ The SSJ/Kurchi/Jinfeng dynamic is a live case for all three skills:
 | **Crucial Conversations** (Patterson et al.) | High-stakes dialogue when opinions differ and emotions run hot. |
 | **Nonviolent Communication** (Rosenberg) | Observation, feeling, need, request framework. Reduces reactivity. |
 | **The Inner Game of Tennis** (Gallwey) | Self 1 (conscious) vs Self 2 (unconscious). Quiet the inner critic. |
+
+---
+
+## Module 4.4: Human Judgment in AI-Automated Systems
+
+### Why this module
+When AI handles execution, humans don't disappear — they move upstream. The leadership question shifts from "how do we do this?" to "who is accountable when this goes wrong?" and "what decisions should never be automated?"
+
+This is practical now: PINvestigator produces investigation reports that engineers act on. Rekko will eventually execute trades. At Pinterest, AI-generated recommendations shape user experience at scale. Where does accountability sit? How do leaders govern these systems without just rubber-stamping outputs?
+
+### What to learn
+- **Accountability mapping**: For any AI-automated decision, answer: who reviews the output? Who can override? Who is responsible when it's wrong? If the answer is "nobody," that's the gap.
+- **Edge case ownership**: AI handles the common case well. Humans own the tail. Define what constitutes an edge case *before* deployment, not after the first incident.
+- **Ethical tripwires**: What outputs would be unacceptable regardless of confidence? Define these explicitly as hard stops — not soft guidelines.
+- **Governance without theater**: The failure mode is governance that looks rigorous (review boards, checklists) but doesn't actually change outcomes. Good governance is fast and targeted, not exhaustive.
+- **The "last human in the chain" problem**: Someone signs off on an AI decision. That person needs enough context to actually evaluate it, not just approve it. How do you design for informed sign-off?
+
+### Applied to my systems
+| System | Who reviews? | Override mechanism? | Hard stops defined? |
+|--------|-------------|--------------------|--------------------|
+| **PINvestigator** | Engineer receiving report | Manual investigation | Hallucinated SQL query with no real table |
+| **Rekko trading** | James/Daniel | Manual cancel | Trade above $X; trade on unvalidated analysis |
+| **Leo context updates** | James | James rejects/modifies | Leo proposing to delete a file |
+| **Pinterest recs** | Team + A/B test | Holdout, manual override | Undefined — worth defining |
+
+### Key question for every AI system I build
+*"If this system produces a confidently wrong output that propagates downstream — what happens, how quickly do we find out, and who is responsible?"*
+
+If the answer is "we find out eventually, and it's unclear who owns it," that's the design gap.
+
+### Suggested reading
+| Resource | What you learn |
+|----------|---------------|
+| **The Alignment Problem** (Christian) | How AI systems embed and amplify human values/mistakes |
+| **Weapons of Math Destruction** (O'Neil) | How automated systems create accountability vacuums at scale |
+| **Human Compatible** (Russell) | CAIS framing — building AI that defers to human judgment by design |
 
 ---
 

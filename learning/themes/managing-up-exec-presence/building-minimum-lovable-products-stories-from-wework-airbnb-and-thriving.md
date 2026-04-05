@@ -1,0 +1,22 @@
+# Jiaona Zhang — Building minimum lovable products, stories from WeWork & Airbnb, and thriving as a PM
+*Theme: managing-up-exec-presence | Extracted: 2026-04-03*
+
+## How to push back on a founder's bad idea
+
+Lenny (00:14:18): I guess is there anything you've learned about how to push back on these sorts of things that the founder's really into when it makes sense to go along? Like "Cool, let's do it. Let's buy in." As a leader, you have to be excited and he needs to feel like, "Oh, JZ is really excited about this too. We got to try it." Even though maybe you feel like it's not going to work out. So I guess the question is when do you think it makes sense to try convince the founder, "No, this is the bad idea" versus like "Let's go for it"?
+
+Jiaona Zhang (00:14:42): I think first it comes down to your conviction. Do you actually have conviction that this is a bad idea or are you personally still learning? Right. I think if you're at the point, if you're like, "I have total conviction," then your job is to say, no, you really... If you do not, you're not doing your job. And then the question is what are the tips in how to convince someone who's very bought into an idea that that's not the right idea? And there what I would say is it's understanding the spirit of what they're trying to achieve. Being able to go back with, "Hey, I understand the spirit. The spirit is that we're trying to get people who previously didn't consider Airbnb before to come and use Airbnb, but the right way to do it is not this very time-intensive, cost-intensive way to inspect all these homes. The way to do it is to be much more granular in what we ask people when they upload their home and more checks in that. And that could be automated and through technology as opposed to through humans."
+
+(00:15:37): It's coming back with actual options. It's like saying... And I think we did that a little bit to be honest, when we as a team evolve, we learn and we're like, "This isn't going to work." And I explicitly moved off the team and I was like, "I'm going to work on the review system. I'm going to continue to evolve this and make it better because that is the actual scalable way to do this as opposed to keep going at it in the very manual process."
+
+(00:15:59): And so I think that the biggest tip I would have for people in this situation is really understand whether it's the founder or your manager or whoever it is, what is it that they're trying to accomplish for the user and for the business? Remind them of that, get aligned on that. And then come back with better options. A lot of these people, they're very smart and they're very motivated. They ultimately want to just do the right thing for their users. When you come back with a much better solution and you have the data and you have the thinking behind it's very rare that someone will be like, "I still want to go after this solution despite the fact that it's not working and you proposed a much better path forward."
+
+---
+
+## First 90 days: building context and flagging gaps to leadership
+
+Jiaona Zhang (00:46:34): So that was another big piece, which is getting all the strategic pieces in place, having a plan laid out and explicitly articulating in that plan, "Keep moving. These are things that we got to do a lot more research on." And then assigning people like, "Hey, you're going to do this research and then we're going to come back and talk about it in the two months that I was out." And I also took the time, I actually... Funny story, I think I literally had a board meeting the day before I went in for a checkup, and then in the checkup they're like, "You're in labor." And it was really important for me to do that because I was like, "For the things that I'm seeing, for the gaps that I'm seeing. I want everyone to be aware. I don't want to just be with one founder. I want the whole leadership team. I want all the founders, I want the board. I want everyone to be aware that."
+
+(00:47:14): For example, engineering hiring was really, really important. And I was communicating, "Hey, we are just not staffed in a way where we can deliver some of the ambitious things that we want to do." And so explicitly calling those things out and creating awareness around them and then asking other executives to step in and be accountable, those were big pieces of what I wanted to achieve in my first 90 days.
+
+---

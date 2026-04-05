@@ -1,0 +1,16 @@
+# Alex Hardiman — An inside look at how the New York Times builds product | Alex Hardiman (CPO, the New York Times)
+*Theme: storytelling | Extracted: 2026-04-03*
+
+## One-off story experiments that scale into platform
+
+Lenny (00:26:47):
+What's interesting about what you're talking about, on that info piece, that reminds me of something I definitely wanted to talk about, which is something New York Times is really known for is the visualizations and these immersive stories that you all put out. I'm so curious just how that gets done. I feel like if I was on a product team at a regular, like a big tech FAANG company, I'd be like, "Shit, all these ad hoc things I got to do for all these stories, such a pain in the butt." That's so important to the New York Times and the online experience. I'm curious just like what is it like to build these things, say the election widgets, and all of that stuff?
+
+Alex Hardiman (00:27:01):
+Well, first, thanks for saying that. I really appreciate it. I do think there's something really special about some of the ways that we marry the journalism and the presentation. I want to start just by giving credit where credit's due, which is I think some of the most interesting and inventive and compelling formats, they actually do start off as one-off experiments that are spun up in the newsroom by embedded teams that we have within graphics, visual journalism, interactive news teams. This is where we have editors, journalists, engineers, data scientists, designers, literally all hunkered down together focusing on how to make one story come to life in the best possible way.
+
+She recently did a piece on how employers are tracking and monitoring remote workers with tools like productivity scores. The story itself was designed to show a person's own productivity score in the moment as they read the article. It was super visceral, really creepy in the most effective way. In my mind, that's the type of magical experience that only happens when you actually have dedicated designers, engineers, and others who can really sit down with a reporter to say, "Let's figure out how to shape that story in the most magical way." The speed of news is so fast that you don't have time to mess with roadmaps. We really have teams who are freed up from some of the normal processes around that, so they can really just focus on storytelling for really big stories and pieces. But on top of that, what we do have is a storytelling product team. What they do is they really take notice of things that are starting to work in more of the experimental phase, some of these one-offs.
+
+Then, they work closely with editors to test and find product market fit for new formats that can actually scale across many parts of the report, so that over time when you open the app, the app is more accessible, more engaging, because we still have the traditional story based article, but we're also shifting more of the distribution of stories into video, into visuals, into live. If you even look at live, we've broken out of the tyranny of the article in many ways, where you have live reporter updates that are the size of length of tweets. People filing from the ground in Ukraine, trying to give you a sense of what's happening in a very immediate and real way.
+
+---

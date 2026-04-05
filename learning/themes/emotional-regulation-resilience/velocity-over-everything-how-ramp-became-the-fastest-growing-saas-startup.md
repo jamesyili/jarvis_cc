@@ -1,0 +1,14 @@
+# Geoff Charles — Velocity over everything: How Ramp became the fastest-growing SaaS startup ever
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-03*
+
+## Velocity prevents burnout — low impact, not long hours, causes it
+
+Lenny (00:29:17): It's a good segue to this idea of burnout. Hearing a team operate incredibly fast and velocity, velocity, velocity makes you think about, are people burning out? Are they enjoying their work? How are they sustainably going to last at Ramp? I'm curious just what that's like and how you think about avoiding burnout for folks that are just constantly shipping, shipping, shipping.
+
+Geoff Charles (00:29:38): I think the debate around working hard and burnout misses a key point, which is all about how much impact and how good you feel about the work that you're doing. And I think that for me, when I felt burnout, it was actually at the time where I had the lowest amount of velocity. But it was when I felt like I was putting a lot of effort into things that weren't actually moving. And so I actually think velocity is a way to potentially avoid burnout. I'm not asking people to work endless hours a week. I'm asking people to get out of their own way and to focus on what truly matters, which is building great products for our customers. And I think you do that if you get into a flow state, if you get into a cadence where everything becomes easier, where work can really become thrilling.
+
+And I think sometimes organizations, especially as they grow, make that really hard. They make it really hard to just be in that flow state with a ton of distractions, a ton of meetings, a ton of cross-functional teams that are all asking for your attention and grabbing for attention. Another parallel of this is running. The best runners are the ones that love running and they feel like running isn't a chore, work isn't a chore. And I think as a runner, I try to evaluate that whenever we're doing something hard, that's challenging, that's exhausting. If you love what you do, you feel much better about the amount of effort you're putting into it. And work doesn't feel like work.
+
+Geoff Charles (00:32:22): And you said something there, which is meaningful to you. So not meaningful to your boss or your boss's boss's boss, but meaningful to you. And I think that that's the role of management is to make everyone on your team feel like it's their goal. And the way to do that is to, again, align on that goal and give it to them and to problems to solve. If everyone feels like it's their team, it's their company, their mini company, then they will radically avoid burnout. But if they feel like the work is being pushed onto them, they feel like they're not aligned on the goal or they don't feel empowered with the solution, then the burnout will absolutely happen.
+
+---

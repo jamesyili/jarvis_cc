@@ -28,17 +28,6 @@ Run the grill-me protocol, focused on session capture. Ask ONE question at a tim
 
 5. **Anything to update in context files?** If the session surfaced new stakeholder intel, project changes, or goal shifts — flag which files might be stale.
 
-### Phase 1b: Reconcile Backlog and Session Log
-
-Before writing the session log, reconcile decisions made during this session against tracked items:
-
-1. **Read `system/leo_backlog.md`** and scan for any items whose status changed during this session (deprioritized, completed, deferred, cut).
-2. **Check that all decision changes are already persisted** in the backlog file. If any were acknowledged verbally but not written to the file, fix them now.
-3. **Cross-check "Next time" items** you're about to write against the backlog. Don't list items that were deprioritized or cut. Don't omit items that are still active.
-4. If you find a mismatch, fix the source file and flag it: "Caught a missed update — [what was fixed]."
-
-This phase exists because decisions made mid-conversation can get lost if only captured verbally. The backlog and session log must agree.
-
 ### Phase 2: Produce Session Log
 
 Once aligned, write a new session log file in `system/session-logs/`:
@@ -54,13 +43,12 @@ Once aligned, write a new session log file in `system/session-logs/`:
 
 ### Phase 3: Commit Changes
 
-**MANDATORY — never skip this step.** After writing the session log, commit and push all changes:
+After writing the session log, commit all changes from the session:
 
 1. Run `git status` to review what's being committed.
-2. Stage all relevant files by name (session log, context files, skill files, backlog, etc.).
+2. Mark any in-progress or completed tasks in the task list as done.
 3. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
-4. Commit and `git push` to remote.
-5. **Verify the push succeeded.** If it fails, diagnose and retry.
+4. `git add -A`, commit, and push to remote.
 
 ### Phase 4: Self-Improvement Pass
 
@@ -86,20 +74,43 @@ After applying, present a summary in two sections:
 **No action needed:**
 1. [what was observed] — already covered / too minor / not actionable
 
-### Phase 4b: Memory Extraction
+### Phase 4b: Instinct Extraction
 
 Scan the conversation for **correction signals** (James pushing back, redirecting, or saying "not like that") and **confirmation signals** (James accepting a non-obvious approach, saying "yes exactly," or not pushing back where he easily could have).
 
 For each signal found:
 
-1. **Check `MEMORY.md`** for an existing memory that covers this behavior.
-2. **If match found:** Update the existing memory file with the new evidence or refinement.
-3. **If no match and it's a durable pattern:** Create a new feedback memory using the standard memory format (see CLAUDE.md auto memory instructions).
+1. **Check `system/instincts/`** for an existing instinct that matches the behavior.
+2. **If match found:** Bump its `confidence` (add 0.15 for corrections, 0.1 for confirmations), increment `evidence_count`, append the new evidence with date and quote.
+3. **If no match:** Create a new instinct file in `system/instincts/` using this format:
+
+```markdown
+---
+id: kebab-case-name
+trigger: When [specific situation where this behavior applies]
+behavior: [What Leo should do / not do]
+confidence: 0.3
+evidence_count: 1
+created: YYYY-MM-DD
+last_updated: YYYY-MM-DD
+status: active
+---
+
+## Evidence
+
+### YYYY-MM-DD
+> "[Quote or paraphrase of the correction/confirmation]"
+Context: [Brief description of what was happening]
+Signal: [correction | confirmation]
+```
+
+4. **Promotion check:** If any instinct reaches confidence >= 0.8, flag it for promotion — it should become a CLAUDE.md operating principle, a skill modification, or a permanent memory. Present the candidate to James: "This instinct has hit 0.8 confidence — ready to promote to [target]. Agree?"
 
 **Rules:**
-- Only save behavioral patterns that apply to future sessions, not one-time factual corrections
+- Cap confidence at 0.95 (never fully certain — leave room for edge cases)
+- Only create instincts for behavioral patterns, not one-time factual corrections
 - If the Stop hook already flagged corrections during the session (via `detect-corrections.sh`), use those as a starting point but review them — the hook pattern-matches, you understand context
-- If no corrections or notable confirmations occurred, say "No memory signals this session" and move on
+- If no corrections or notable confirmations occurred, say "No instinct signals this session" and move on
 
 ### Phase 5: Context Update
 
@@ -111,10 +122,6 @@ Run `/context-update` in end-of-session mode (tight, not deep). This:
 5. Asks 1-2 targeted probing questions about potential gaps (keep it brief — James is wrapping up)
 
 If context files were already heavily updated during the session, this may be a quick "nothing additional needed" pass. Don't re-propose updates that were already made.
-
-### Phase 6: Final Commit
-
-If phases 4, 4b, or 5 produced any file changes (memory files, CLAUDE.md edits, backlog updates, context file updates), commit and push them now. Use a message like "End-session: self-improvement + context updates". **Never end a session with uncommitted changes.**
 
 ## Rules
 

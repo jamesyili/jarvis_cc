@@ -1,0 +1,34 @@
+# Katie Dill — Building beautiful products with Stripe's Head of Design | Katie Dill (Stripe, Airbnb, Lyft)
+*Theme: product-strategy-growth | Extracted: 2026-04-03*
+
+## Quality is growth — design ROI and 10.5% checkout revenue lift
+
+Lenny (00:10:56): Zooming out a little bit, I think the elephant in the room a lot of times with design is this idea that I'd say most PMs, most founders, intellectually understand the value of design, understand the value of high quality. But day-to-day it's often not actually prioritized versus new features, new product launches, partly because the ROI is just really unclear.
+
+If we spend another month making this more awesome and making this even more amazing design-wise, experience-wise, what is that going to get us? Clearly, at Airbnb design was highly prioritized. At Stripe, from an outsider's perspective, it clearly is. I'm just curious what you've learned about how to make the case for the ROI of design and just how Stripe, and Airbnb, and Lyft have done that.
+
+Katie Dill (00:11:39): It's a great question, and I think this is like an age-old question that I don't know if will ever go away, and probably because the quality bar keeps evolving, keeps rising. But I think first to kind of level set before we dive into that I would say that there are levels of quality. There is the, does the thing work? Does it provide some sort of value proposition? It like executes on its job. That's baseline quality.
+
+Next is that, does it do it exceedingly well? Is it error-free? Actually, maybe that's not even exceedingly well but just error-free and it actually works in a well-rounded way. Then beyond that, like level three, level four, level five, does it exceed expectations and it does something that you weren't even seeking for as a user? And I do think the levels of quality should be based on user expectations. I don't believe that there are disciplines that just don't care about quality.
+
+I think it's more about that prioritization and kind of like what you talked about is just like, is it really worth getting something to that exceedingly well state or is it, what about just like another feature and being seduced by the chase of another feature versus actually taking your features to a level of being great? That is hard. And I get it when you look at your user base and they're all shouting from the rooftops for this additional feature.
+
+Of course you're going to want to prioritize that over something they never asked for. Then the other thing would be you end up with like you've got three things that you could possibly do to make perhaps the next stage in your product development. Two of them you know you can measure and they're going to line up to business goals, and one of them you can't.
+
+Of course that's going to be enchanting to want to go after the things that you can actually measure, you know that they're going to have that impact. But the companies that know that quality is non-negotiable, it is a long-term necessary aspect of what they build, don't play that numbers game. Or what they do is they recognize that it is absolutely functionality, but the quality of those features that is actually going to get to great usability, desirability in their product.
+
+Actually, I think it's kind of like an analogy for going to the gym or working out. I don't know about you, but literally every time I think to do this, there's a fight in my head of like, "Ah, do I really need to work out today? Is this one day going to give me six-pack abs?" Like, "Of course not." So like, "Why go? Why not just skip it today?" But of course then at some point, hopefully, I realize that it's like, "Well, if I skip it today, what's to stop me from skipping it another day?"
+
+And really in the belief of that these things, it really does add up to a better outcome in the end, and so a longer, healthier life. So hopefully I can get myself together and go to the gym. I do think some of the best companies on the planet think that way. I recognize that customers don't always ask for it. I mean, you might see it in support cases for example. Like clearly they don't know how to use this next step and that is probably a quality issue and that they might be asking for in more improved features.
+
+But some of the levels of quality, the level two, and three, and four, you might not get direct asked for. But I guess I'll give you another analogy. If you don't have competition, that's fine. Right? If you think about the first car, I am sure that wheel was really hard to turn, and I'm sure that seat was not comfortable, and you could have any color you want as long as it's black. Right? But there was no competition. The competition was a horse, so no big deal. For cars today it's like the stitching, the choice of the leather, the sound of the door.
+
+These distinguish a, hmm, okay car to a high-end special car with higher value. This is very much by understanding how the details matter and how execution of quality will take it to the next level. Lastly, I'll just say that I know there's this saying of it's growth versus quality, but quality is growth. And if you think about how you can make your product easier to use and more understandable, that will of course drive people to use it, and use more of it, and have a better experience with it that they'll want to talk about with others.
+
+In fact, at Stripe our Growth team I would say is pretty much maniacally focused on building better experiences because we've seen it tied directly to our business metrics. We have things that we've improved on in our onboarding flow, for example, to make it easier to understand the products, understand how they work for your different use cases such that then we have seen activations increase because we've made these quality improvements that are just directly tied to growth.
+
+One of the biggest examples that I've seen of business impact through quality is actually in the checkout experience. We've done research on the checkout experience in some of the top e-commerce sites. We found that 99% of the top e-commerce sites have errors in their checkout flow that actually hinder more impactful, more seamless, quicker checkout, and therefore higher conversion with their customers. These small things, really they're quality issues.
+
+They're just that if you really understand what a consumer is trying to get out of the experience, then you can make it better. So we have been maniacally focused on that over many years, trying to make the checkout experience so much better for businesses and their consumers. So by improving the quality of the checkout experience through details small and large, we have seen a 10.5% increase in business' revenue from an older form of checkout to a newer form of checkout. And those little details matter to have such a material impact on one's revenue.
+
+---

@@ -1,0 +1,12 @@
+# Logan Kilpatrick — Inside OpenAI | Logan Kilpatrick (head of developer relations)
+*Theme: entrepreneurship-traction | Extracted: 2026-04-05*
+
+## This is the moment to build with AI
+
+Lenny (00:55:34): Say you're a product manager at a big company, or even a founder, what do you think are the biggest opportunities for them to leverage the tech that you guys are building, GPT-4, all the other APIs? How should people be thinking about, "Here's how we should really think about leveraging this power in our existing product," or new product, whichever direction you want to go.
+
+Logan Kilpatrick (00:55:34): Yeah, I think going back to this theme of new experiences is really exciting to me. I think consumers are just going to be... You are going to have an edge on other people if you're providing AI that's not accessible in a Chatbot. People are using a ton of chat and it's a really valuable service area. It's clearly valuable because people are using it. But I think products that move beyond this chat interface really are going to have such an advantage. And also, thinking about how to take your use case to the next level... I've used this product that allows you to essentially manage or view the conversations that are happening online around certain topics and stuff like that. So I can go and look online. What are people saying about GPT-4? And what I just said out loud, "What are people saying about GPT-4," is the actual question that I have. And in a normal product experience today, I have to go into a bunch of dashboards and change a bunch of filters and stuff like that. And what I really want is just ask my question. What are people doing? What are people saying about GPT-4? Get an answer to that question in a very data grounded way... I think it just takes a little bit more engineering effort to make that happen. But I think it's like that is the magical unlock of like, "Wow, this is an incredible product that I'm going to continue to use," instead of like, "Yeah, this is kind of useful, but I really want more."
+
+Logan Kilpatrick (00:58:31): I've made this statement a few times online and other places, but for people who have cool ideas that they should build with AI, this is the moment. There are so many cool things that need to be built for the world using AI. And again, if I or other folks on the team at OpenAI can be helpful in getting you over the hump of starting that journey of building something really cool, please reach out. The world needs more cool solutions using these tools.
+
+---

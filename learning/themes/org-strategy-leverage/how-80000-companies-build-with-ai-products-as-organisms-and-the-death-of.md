@@ -1,0 +1,20 @@
+# Asha Sharma — How 80,000 companies build with AI: Products as organisms and the death of org charts | Asha Sharma
+*Theme: org-strategy-leverage | Extracted: 2026-04-03*
+
+## Org chart becomes work chart in agentic era
+
+Lenny Rachitsky (22:59): This comment you made about the work chart becomes the org chart is such a profound concept because I don't know if this is what you meant, but what I'm imagining is you build these teams and here's your mission and goal and KPIs and it's humans and like, "Oh cool, go do this first." And what I'm recognizing as you're talking is like, "Okay, but if you have agents doing that, that is their prompt, go drive conversion." And then you have all these agents and that's the org. This is the conversion onboarding team and that's like a bunch of agents off doing their work. Is that what you mean?
+
+Asha Sharma (23:33): Yeah, I think today we think in terms of, "Hey, who reports to who in the org chart and who's responsible for these areas?" And I think at the end of the day, when you have a set of capable agents and people are capable of more things, you're not going to start to think in hierarchy and communicating up or during start to figure out outward task base type of opportunities. I think that humans will always decide in organizations how AI is used and what we want to apply it to. But yeah, it's exciting when a new issue comes up or new tasks comes up, how do you actually automatically decide where to route it? Who's working on that task? How do you actually go work on it? How do you observe if they, it's doing the right thing, how do you fine-tune it if they're not, all of those things. So I think that I'm just speculating that there's a world in which that could be pretty exciting and I think that's great because we can just accomplish more.
+
+---
+
+## Full-stack polymath builder as the new org unit
+
+Asha Sharma (11:54): I feel like you have to actually build for the slope instead of the snapshot of where you are. So that's kind of what I see at the enterprise level. I think the builders themselves are actually changing pretty fundamentally too. Every single advent change a technology has invented a changing set of roles like mainframes to PCs like the whole garage engineers, and then when we went from server to cloud and mobile, there was like SEO specialists and CDNs and growth VMs and UXR and front end, back end, and yada yada. And now I think we're seeing this advent of the polymath and where I think that full stack builders are kind of having their renaissance where if you take an average organization, it takes probably 10 steps to launch a product. It could be security review, it could be spec, it could be user research, and there's what? Five plus functions, maybe six or seven. I'm being generous for a normal organization, and then you have six or seven layers. So all of a sudden, you have 500 different touch points that have to happen to get a product out and when there are 500 models available a week or 500 new technologies, that is insufficient. And so I really believe in the concept of the full stack builder. You're seeing it with a bunch of the AI native companies that are coming up. I'm even seeing it in enterprises that have been around for 50 years starting to operate in that way. And I think that gives you velocity and throughput and then gives you the whole loop to start to actually metabolize and go through that much faster.
+
+Lenny Rachitsky (13:35): That's definitely a recurring theme in these conversations is just the Venn diagrams of PM engineering design or starting to converge and more and more of other disciplines within your role. So PM needs to level up on design or engineering.
+
+Asha Sharma (13:50): Yeah, I completely agree. I think it's all about the loop, not the lane here. And so I think that whatever function you are, you have to be obsessed with trying to understand the efficiency or the cost of the product, the actual rewards or system design that you're going after, the actual UI, UX, how that actually manifests for agents or people. You have to start to get really good at that really quickly.
+
+---

@@ -1,0 +1,24 @@
+# Ami Vora — Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)
+*Theme: storytelling | Extracted: 2026-04-04*
+
+## Metaphors let teams self-coordinate without micromanagement
+
+Lenny Rachitsky (00:29:34): On this kind of broader idea of metaphors and imagery, is there something there that you've learned of just like, this works really well, I'm going to invest in becoming better at this, or is this something that's come natural to you?
+
+Ami Vora (00:29:46): I think this one came from, I worked for a manager, his name was Eric Antino, and he was just a master of the metaphor and analogies. And so whenever I would bring him something, he would be like, how is this product going to make you feel, and when is the last time that you felt this way? And you can say, oh, I felt this way when I was hanging with my friends in Dolores Park and he'd be like, cool, tell me what it feels like, why that's the analogy, what ramifications come out of that?
+
+And one thing I like to do is try to build an emulator for different people in my head, because I've just had the good fortune of working with an amazing number of very different leaders, and so he's one of the people I tried to build an emulator for where I'd be like, okay, I see this thing. I don't know how to solve this problem. How would Eric describe this? I've tried to build one for Boz, which is all about principle of decision making and principle of trade-offs. There's a few other people where I'm like, I don't know how to solve this problem. Can I load this other person into my head and how would they approach it? And that gives me a fresh lens on it.
+
+And I really like metaphors and analogies because I think especially as you scale a team, narrative becomes increasingly important. Narrative can carry so much weight and water where otherwise it's similar to the product review point, where either you can tell everybody exactly what to do at every point or you can create a story that we all agree on. And when we all agree on that story, people just know better what to do. If we all agree that the feeling of something should be, I'm sitting in Dolores Park with my friends on a sunny Saturday. You know what the iconography, the designers know what iconography should look like. You know what the communication and join pattern should look like. You're not going to build something cold and corporate, you're not going to build something strobe light, you're not going to build something flashy, but you don't have to go and make all those individual decisions. You can buy into the same story and then people will just naturally build something that feels more consistent.
+
+---
+
+## WhatsApp face-to-face metaphor: universal feeling drives product coherence
+
+Lenny Rachitsky (00:31:56): This is such a powerful and important skill. Is there an example that comes to mind where you did this really well, say at WhatsApp or Facebook of the story that carried a lot of water for you and the team?
+
+Ami Vora (00:32:08): Yeah, I mean I think the product metaphor we arrived at for WhatsApp was face-to-face communication. Our goal there was to make it so that every person in the world could feel connected to the people they cared most about, even when they were separate, even they're distant geographically for whatever reason, we were always going to be apart from the people you cared about. And we really had to build something that would work for literally everyone in the world. People who are carrying these high-end devices in western markets who are very tech comfortable and savvy, and people in the low end markets who were carrying these low end devices, they weren't that familiar with technology, it was maybe their first time online. We had to build something that worked for everyone.
+
+And the most universal form of communication is face-to-face. When you talk to someone face-to-face, you're not thinking, how do I present? What tool do I have to learn? You just open your mouth and words come out, and that's the feeling that we wanted to create. And that involved a lot of the app stepping back from communication, creating spaces that felt really intimate so people wouldn't have to think to themselves, what kind of space am I in? They could immediately map where they were in the app to the, okay, I'm sitting around in my kitchen table and people are joining and leaving calls just like they're walking in and out of my living room, but it is a family space and the family is there. Or, in one-on-one disappearing messages, you're like, cool, this is my close friend. We don't need to keep track of everything that we're saying. We're here for a little bit of banter, a little bit of relationship, a little bit of quick, what's your wifi password and stuff, and whatever's really important, that's what we'll hold onto and the rest is just day-to-day, normal intimacy.
+
+---

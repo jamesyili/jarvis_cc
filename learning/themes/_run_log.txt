@@ -1,0 +1,1978 @@
+Thematic extraction — 263 episodes remaining (9 done)
+
+[1/263]   Processing: 10-growth-tactics-that-never-work-elena-verna-amplitude-miro-dropbox
+    Timeout for 10-growth-tactics-that-never-work-elena-verna-amplitude-miro-dropbox — skipping
+    Skipping 10-growth-tactics-that-never-work-elena-verna-amplitude-miro-dropbox — no response
+
+[2/263]   Processing: a-guide-to-difficult-conversations-building-high-trust-teams-and-designing-a-lif
+    5 themes written, 3 new themes discovered
+
+[3/263]   Processing: a-step-by-step-guide-to-crafting-a-sales-pitch-that-wins-april-dunford-author
+    5 themes written, 2 new themes discovered
+
+[4/263]   Processing: ai-and-product-management-marily-nika-meta-google
+    6 themes written, 2 new themes discovered
+
+[5/263]   Processing: ai-prompt-engineering-in-2025-what-works-and-what-doesnt-sander-schulhoff
+    7 themes written, 2 new themes discovered
+
+[6/263]   Processing: al-engineering-101-with-chip-huyen-nvidia-stanford-netflix
+    6 themes written, 3 new themes discovered
+
+[7/263]   Processing: an-inside-look-at-deels-unprecedented-growth-meltem-kuran-berkowitz-head
+    5 themes written, 3 new themes discovered
+
+[8/263]   Processing: an-inside-look-at-figmas-unique-gtm-motion-claire-butler-first-gtm-hire
+    7 themes written, 2 new themes discovered
+
+[9/263]   Processing: an-inside-look-at-how-cnn-builds-product-upasna-gautam
+    5 themes written, 3 new themes discovered
+
+[10/263]   Processing: an-inside-look-at-how-figma-builds-product-yuhki-yamashita-cpo-of-figma
+    7 themes written, 3 new themes discovered
+
+[11/263]   Processing: an-inside-look-at-how-miro-builds-product-varun-parmar-cpo-of-miro
+    Error for an-inside-look-at-how-miro-builds-product-varun-parmar-cpo-of-miro: 
+    Skipping an-inside-look-at-how-miro-builds-product-varun-parmar-cpo-of-miro — no response
+
+[12/263]   Processing: an-inside-look-at-how-the-new-york-times-builds-product-alex-hardiman-cpo
+    Error for an-inside-look-at-how-the-new-york-times-builds-product-alex-hardiman-cpo: 
+    Skipping an-inside-look-at-how-the-new-york-times-builds-product-alex-hardiman-cpo — no response
+
+[13/263]   Processing: an-inside-look-at-mixpanels-product-journey-vijay-iyengar
+    Error for an-inside-look-at-mixpanels-product-journey-vijay-iyengar: 
+    Skipping an-inside-look-at-mixpanels-product-journey-vijay-iyengar — no response
+
+[14/263]   Processing: an-inside-look-at-xs-community-notes-keith-coleman-jay-baxter
+    Error for an-inside-look-at-xs-community-notes-keith-coleman-jay-baxter: 
+    Skipping an-inside-look-at-xs-community-notes-keith-coleman-jay-baxter — no response
+
+[15/263]   Processing: an-operators-guide-to-product-strategy-chandra-janakiraman-cpo-at-vrchat
+    Error for an-operators-guide-to-product-strategy-chandra-janakiraman-cpo-at-vrchat: 
+    Skipping an-operators-guide-to-product-strategy-chandra-janakiraman-cpo-at-vrchat — no response
+
+[16/263]   Processing: anthropics-cpo-on-what-comes-next-mike-krieger-co-founder-of-instagram
+    Error for anthropics-cpo-on-what-comes-next-mike-krieger-co-founder-of-instagram: 
+    Skipping anthropics-cpo-on-what-comes-next-mike-krieger-co-founder-of-instagram — no response
+
+[17/263]   Processing: are-your-fears-giving-you-terrible-advice-matt-mochary
+    Error for are-your-fears-giving-you-terrible-advice-matt-mochary: 
+    Skipping are-your-fears-giving-you-terrible-advice-matt-mochary — no response
+
+[18/263]   Processing: be-fundamentally-different-not-incrementally-better-jag-duggal-nubank
+    Error for be-fundamentally-different-not-incrementally-better-jag-duggal-nubank: 
+    Skipping be-fundamentally-different-not-incrementally-better-jag-duggal-nubank — no response
+
+[19/263]   Processing: becoming-evidence-guided-itamar-gilad-gmail-youtube-microsoft
+    Error for becoming-evidence-guided-itamar-gilad-gmail-youtube-microsoft: 
+    Skipping becoming-evidence-guided-itamar-gilad-gmail-youtube-microsoft — no response
+
+[20/263]   Processing: becoming-more-strategic-navigating-difficult-colleagues-founder-mode-more
+    Error for becoming-more-strategic-navigating-difficult-colleagues-founder-mode-more: 
+    Skipping becoming-more-strategic-navigating-difficult-colleagues-founder-mode-more — no response
+
+[21/263]   Processing: behind-the-founder-drew-houston-dropbox
+    Error for behind-the-founder-drew-houston-dropbox: 
+    Skipping behind-the-founder-drew-houston-dropbox — no response
+
+[22/263]   Processing: behind-the-founder-marc-benioff
+    Error for behind-the-founder-marc-benioff: 
+    Skipping behind-the-founder-marc-benioff — no response
+
+[23/263]   Processing: behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-retention
+    Error for behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-retention: 
+    Skipping behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-retention — no response
+
+[24/263]   Processing: behind-the-product-replit-amjad-masad-co-founder-and-ceo
+    Error for behind-the-product-replit-amjad-masad-co-founder-and-ceo: 
+    Skipping behind-the-product-replit-amjad-masad-co-founder-and-ceo — no response
+
+[25/263]   Processing: behind-the-scenes-of-calendlys-rapid-growth-annie-pearl-cpo
+    Error for behind-the-scenes-of-calendlys-rapid-growth-annie-pearl-cpo: 
+    Skipping behind-the-scenes-of-calendlys-rapid-growth-annie-pearl-cpo — no response
+
+[26/263]   Processing: bending-the-universe-in-your-favor-claire-vo-launchdarkly-color-optimizely
+    Error for bending-the-universe-in-your-favor-claire-vo-launchdarkly-color-optimizely: 
+    Skipping bending-the-universe-in-your-favor-claire-vo-launchdarkly-color-optimizely — no response
+
+[27/263]   Processing: billion-dollar-failures-and-billion-dollar-success-tom-conrad-quibi-pandora
+    Error for billion-dollar-failures-and-billion-dollar-success-tom-conrad-quibi-pandora: 
+    Skipping billion-dollar-failures-and-billion-dollar-success-tom-conrad-quibi-pandora — no response
+
+[28/263]   Processing: brian-cheskys-new-playbook
+    Error for brian-cheskys-new-playbook: 
+    Skipping brian-cheskys-new-playbook — no response
+
+[29/263]   Processing: build-better-products-with-continuous-product-discovery-teresa-torres
+    Error for build-better-products-with-continuous-product-discovery-teresa-torres: 
+    Skipping build-better-products-with-continuous-product-discovery-teresa-torres — no response
+
+[30/263]   Processing: building-a-culture-of-excellence-david-singleton-cto-of-stripe
+    Error for building-a-culture-of-excellence-david-singleton-cto-of-stripe: 
+    Skipping building-a-culture-of-excellence-david-singleton-cto-of-stripe — no response
+
+[31/263]   Processing: building-a-long-and-meaningful-career-nikhyl-singhal-meta-google
+    Error for building-a-long-and-meaningful-career-nikhyl-singhal-meta-google: 
+    Skipping building-a-long-and-meaningful-career-nikhyl-singhal-meta-google — no response
+
+[32/263]   Processing: building-a-magical-ai-code-editor-used-by-over-1m-developers-in-4-months
+    Error for building-a-magical-ai-code-editor-used-by-over-1m-developers-in-4-months: 
+    Skipping building-a-magical-ai-code-editor-used-by-over-1m-developers-in-4-months — no response
+
+[33/263]   Processing: building-a-meaningful-career-jason-shah-airbnb-amazon-microsoft-alchemy
+    Error for building-a-meaningful-career-jason-shah-airbnb-amazon-microsoft-alchemy: 
+    Skipping building-a-meaningful-career-jason-shah-airbnb-amazon-microsoft-alchemy — no response
+
+[34/263]   Processing: building-a-world-class-data-org-jessica-lachs-vp-of-analytics-and-data-science
+    Error for building-a-world-class-data-org-jessica-lachs-vp-of-analytics-and-data-science: 
+    Skipping building-a-world-class-data-org-jessica-lachs-vp-of-analytics-and-data-science — no response
+
+[35/263]   Processing: building-anchor-selling-to-spotify-and-lessons-learned-maya-prohovnik-head
+    Error for building-anchor-selling-to-spotify-and-lessons-learned-maya-prohovnik-head: 
+    Skipping building-anchor-selling-to-spotify-and-lessons-learned-maya-prohovnik-head — no response
+
+[36/263]   Processing: building-beautiful-products-with-stripes-head-of-design-katie-dill-stripe
+    Error for building-beautiful-products-with-stripes-head-of-design-katie-dill-stripe: 
+    Skipping building-beautiful-products-with-stripes-head-of-design-katie-dill-stripe — no response
+
+[37/263]   Processing: building-better-roadmaps-janna-bastow-mind-the-product-prodpad
+    Error for building-better-roadmaps-janna-bastow-mind-the-product-prodpad: 
+    Skipping building-better-roadmaps-janna-bastow-mind-the-product-prodpad — no response
+
+[38/263]   Processing: building-high-performing-teams-melissa-tan-webflow-dropbox-canva
+    Error for building-high-performing-teams-melissa-tan-webflow-dropbox-canva: 
+    Skipping building-high-performing-teams-melissa-tan-webflow-dropbox-canva — no response
+
+[39/263]   Processing: building-lovable-10m-arr-in-60-days-with-15-people-anton-osika-ceo-and
+    Error for building-lovable-10m-arr-in-60-days-with-15-people-anton-osika-ceo-and: 
+    Skipping building-lovable-10m-arr-in-60-days-with-15-people-anton-osika-ceo-and — no response
+
+[40/263]   Processing: building-minimum-lovable-products-stories-from-wework-airbnb-and-thriving
+    Error for building-minimum-lovable-products-stories-from-wework-airbnb-and-thriving: 
+    Skipping building-minimum-lovable-products-stories-from-wework-airbnb-and-thriving — no response
+
+[41/263]   Processing: building-product-at-stripe-craft-metrics-and-customer-obsession-jeff
+    Error for building-product-at-stripe-craft-metrics-and-customer-obsession-jeff: 
+    Skipping building-product-at-stripe-craft-metrics-and-customer-obsession-jeff — no response
+
+[42/263]   Processing: building-substack-sachin-monga-substack-facebook
+    Error for building-substack-sachin-monga-substack-facebook: 
+    Skipping building-substack-sachin-monga-substack-facebook — no response
+
+[43/263]   Processing: building-wiz-the-fastest-growing-startup-in-history-raaz-herzberg-cmo
+    Error for building-wiz-the-fastest-growing-startup-in-history-raaz-herzberg-cmo: 
+    Skipping building-wiz-the-fastest-growing-startup-in-history-raaz-herzberg-cmo — no response
+
+[44/263]   Processing: business-strategy-with-hamilton-helmer-author-of-7-powers
+    Error for business-strategy-with-hamilton-helmer-author-of-7-powers: 
+    Skipping business-strategy-with-hamilton-helmer-author-of-7-powers — no response
+
+[45/263]   Processing: career-frameworks-ab-testing-onboarding-tips-selling-to-engineers-laura
+    Error for career-frameworks-ab-testing-onboarding-tips-selling-to-engineers-laura: 
+    Skipping career-frameworks-ab-testing-onboarding-tips-selling-to-engineers-laura — no response
+
+[46/263]   Processing: category-creation-and-brand-building-barbra-gago-pando-miro-greenhouse
+    Error for category-creation-and-brand-building-barbra-gago-pando-miro-greenhouse: 
+    Skipping category-creation-and-brand-building-barbra-gago-pando-miro-greenhouse — no response
+
+[47/263]   Processing: competing-with-giants-an-inside-look-at-how-the-browser-company-builds-product
+    Error for competing-with-giants-an-inside-look-at-how-the-browser-company-builds-product: 
+    Skipping competing-with-giants-an-inside-look-at-how-the-browser-company-builds-product — no response
+
+[48/263]   Processing: conscious-leadership-unlocking-vision-strategy-and-purpose-jm-nickels
+    Error for conscious-leadership-unlocking-vision-strategy-and-purpose-jm-nickels: 
+    Skipping conscious-leadership-unlocking-vision-strategy-and-purpose-jm-nickels — no response
+
+[49/263]   Processing: countdown-of-the-top-10-episodes-of-the-year
+    Error for countdown-of-the-top-10-episodes-of-the-year: 
+    Skipping countdown-of-the-top-10-episodes-of-the-year — no response
+
+[50/263]   Processing: crafting-a-compelling-product-vision-ebi-atawodi-youtube-netflix-uber
+    Error for crafting-a-compelling-product-vision-ebi-atawodi-youtube-netflix-uber: 
+    Skipping crafting-a-compelling-product-vision-ebi-atawodi-youtube-netflix-uber — no response
+
+[51/263]   Processing: customer-led-growth-georgiana-laudi-forget-the-funnel
+    Error for customer-led-growth-georgiana-laudi-forget-the-funnel: 
+    Skipping customer-led-growth-georgiana-laudi-forget-the-funnel — no response
+
+[52/263]   Processing: daniel-lereya
+    Error for daniel-lereya: 
+    Skipping daniel-lereya — no response
+
+[53/263]   Processing: developing-a-growth-model-marketplace-growth-strategy-dan-hockenmaier
+    Error for developing-a-growth-model-marketplace-growth-strategy-dan-hockenmaier: 
+    Skipping developing-a-growth-model-marketplace-growth-strategy-dan-hockenmaier — no response
+
+[54/263]   Processing: driving-alignment-within-teams-work-life-balance-and-the-changing-pm-landscape
+    Error for driving-alignment-within-teams-work-life-balance-and-the-changing-pm-landscape: 
+    Skipping driving-alignment-within-teams-work-life-balance-and-the-changing-pm-landscape — no response
+
+[55/263]   Processing: dumbest-idea-ive-heard-to-100m-arr-inside-the-rise-of-gamma-grant-lee
+    Error for dumbest-idea-ive-heard-to-100m-arr-inside-the-rise-of-gamma-grant-lee: 
+    Skipping dumbest-idea-ive-heard-to-100m-arr-inside-the-rise-of-gamma-grant-lee — no response
+
+[56/263]   Processing: dylan-field-live-at-figmas-config-intuition-simplicity-and-the-future
+    Error for dylan-field-live-at-figmas-config-intuition-simplicity-and-the-future: 
+    Skipping dylan-field-live-at-figmas-config-intuition-simplicity-and-the-future — no response
+
+[57/263]   Processing: everyones-an-engineer-now-inside-v0s-mission-to-create-100-million-builders
+    Error for everyones-an-engineer-now-inside-v0s-mission-to-create-100-million-builders: 
+    Skipping everyones-an-engineer-now-inside-v0s-mission-to-create-100-million-builders — no response
+
+[58/263]   Processing: everything-youve-ever-wanted-to-know-about-safe-and-the-product-owner-role
+    Error for everything-youve-ever-wanted-to-know-about-safe-and-the-product-owner-role: 
+    Skipping everything-youve-ever-wanted-to-know-about-safe-and-the-product-owner-role — no response
+
+[59/263]   Processing: failure
+    Error for failure: 
+    Skipping failure — no response
+
+[60/263]   Processing: feeling-stuck-heres-how-to-know-when-its-time-to-leave-your-job-ada-chen
+    Error for feeling-stuck-heres-how-to-know-when-its-time-to-leave-your-job-ada-chen: 
+    Skipping feeling-stuck-heres-how-to-know-when-its-time-to-leave-your-job-ada-chen — no response
+
+[61/263]   Processing: figmas-ceo-why-ai-makes-design-craft-and-quality-the-new-moat-for-startups
+    Error for figmas-ceo-why-ai-makes-design-craft-and-quality-the-new-moat-for-startups: 
+    Skipping figmas-ceo-why-ai-makes-design-craft-and-quality-the-new-moat-for-startups — no response
+
+[62/263]   Processing: finding-hidden-growth-opportunities-in-your-product-albert-cheng-duolingo
+    Error for finding-hidden-growth-opportunities-in-your-product-albert-cheng-duolingo: 
+    Skipping finding-hidden-growth-opportunities-in-your-product-albert-cheng-duolingo — no response
+
+[63/263]   Processing: founder-led-sales-pete-kazanjy-founding-sales-atrium
+    Error for founder-led-sales-pete-kazanjy-founding-sales-atrium: 
+    Skipping founder-led-sales-pete-kazanjy-founding-sales-atrium — no response
+
+[64/263]   Processing: frameworks-for-product-differentiation-team-building-and-first-principles
+    Error for frameworks-for-product-differentiation-team-building-and-first-principles: 
+    Skipping frameworks-for-product-differentiation-team-building-and-first-principles — no response
+
+[65/263]   Processing: from-managing-people-to-managing-ai-the-leadership-skills-everyone-needs
+    Error for from-managing-people-to-managing-ai-the-leadership-skills-everyone-needs: 
+    Skipping from-managing-people-to-managing-ai-the-leadership-skills-everyone-needs — no response
+
+[66/263]   Processing: gain-attention-as-an-underdog-with-this-framework-lulu-cheng-meservey
+    Error for gain-attention-as-an-underdog-with-this-framework-lulu-cheng-meservey: 
+    Skipping gain-attention-as-an-underdog-with-this-framework-lulu-cheng-meservey — no response
+
+[67/263]   Processing: geoffrey-moore-on-finding-your-beachhead-crossing-the-chasm-and-dominating
+    Error for geoffrey-moore-on-finding-your-beachhead-crossing-the-chasm-and-dominating: 
+    Skipping geoffrey-moore-on-finding-your-beachhead-crossing-the-chasm-and-dominating — no response
+
+[68/263]   Processing: gokul-rajaram-on-designing-your-product-development-process-when-and-how-to-hire
+    Error for gokul-rajaram-on-designing-your-product-development-process-when-and-how-to-hire: 
+    Skipping gokul-rajaram-on-designing-your-product-development-process-when-and-how-to-hire — no response
+
+[69/263]   Processing: good-strategy-bad-strategy-richard-rumelt
+    Error for good-strategy-bad-strategy-richard-rumelt: 
+    Skipping good-strategy-bad-strategy-richard-rumelt — no response
+
+[70/263]   Processing: growth-tactics-from-openai-and-stripes-first-marketer-krithika-shankarraman
+    Error for growth-tactics-from-openai-and-stripes-first-marketer-krithika-shankarraman: 
+    Skipping growth-tactics-from-openai-and-stripes-first-marketer-krithika-shankarraman — no response
+
+[71/263]   Processing: hard-won-lessons-building-0-to-1-inside-atlassian-tanguy-crusson-head-of
+    Error for hard-won-lessons-building-0-to-1-inside-atlassian-tanguy-crusson-head-of: 
+    Skipping hard-won-lessons-building-0-to-1-inside-atlassian-tanguy-crusson-head-of — no response
+
+[72/263]   Processing: he-saved-openai-invented-the-like-button-and-built-google-maps-bret-taylor
+    Error for he-saved-openai-invented-the-like-button-and-built-google-maps-bret-taylor: 
+    Skipping he-saved-openai-invented-the-like-button-and-built-google-maps-bret-taylor — no response
+
+[73/263]   Processing: hot-takes-and-techno-optimism-from-techs-top-power-couple-sriram-and-aarthi
+    Error for hot-takes-and-techno-optimism-from-techs-top-power-couple-sriram-and-aarthi: 
+    Skipping hot-takes-and-techno-optimism-from-techs-top-power-couple-sriram-and-aarthi — no response
+
+[74/263]   Processing: how-80000-companies-build-with-ai-products-as-organisms-and-the-death-of
+    Error for how-80000-companies-build-with-ai-products-as-organisms-and-the-death-of: 
+    Skipping how-80000-companies-build-with-ai-products-as-organisms-and-the-death-of — no response
+
+[75/263]   Processing: how-a-great-founder-becomes-a-great-ceo-jonathan-lowenhar-co-founder-of
+    Error for how-a-great-founder-becomes-a-great-ceo-jonathan-lowenhar-co-founder-of: 
+    Skipping how-a-great-founder-becomes-a-great-ceo-jonathan-lowenhar-co-founder-of — no response
+
+[76/263]   Processing: how-block-is-becoming-the-most-ai-native-enterprise-in-the-world-dhanji-r
+    Error for how-block-is-becoming-the-most-ai-native-enterprise-in-the-world-dhanji-r: 
+    Skipping how-block-is-becoming-the-most-ai-native-enterprise-in-the-world-dhanji-r — no response
+
+[77/263]   Processing: how-embracing-your-emotions-will-accelerate-your-career-joe-hudson-art-of
+    Error for how-embracing-your-emotions-will-accelerate-your-career-joe-hudson-art-of: 
+    Skipping how-embracing-your-emotions-will-accelerate-your-career-joe-hudson-art-of — no response
+
+[78/263]   Processing: how-have-i-been-complicit-in-creating-the-conditions-i-say-i-dont-want
+    Error for how-have-i-been-complicit-in-creating-the-conditions-i-say-i-dont-want: 
+    Skipping how-have-i-been-complicit-in-creating-the-conditions-i-say-i-dont-want — no response
+
+[79/263]   Processing: how-intercom-rose-from-the-ashes-by-betting-everything-on-ai-eoghan-mccabe
+    Error for how-intercom-rose-from-the-ashes-by-betting-everything-on-ai-eoghan-mccabe: 
+    Skipping how-intercom-rose-from-the-ashes-by-betting-everything-on-ai-eoghan-mccabe — no response
+
+[80/263]   Processing: how-marketplaces-win-liquidity-growth-levers-quality-more-benjamin-lauzier
+    Error for how-marketplaces-win-liquidity-growth-levers-quality-more-benjamin-lauzier: 
+    Skipping how-marketplaces-win-liquidity-growth-levers-quality-more-benjamin-lauzier — no response
+
+[81/263]   Processing: how-netflix-builds-a-culture-of-excellence-elizabeth-stone-cto
+    Error for how-netflix-builds-a-culture-of-excellence-elizabeth-stone-cto: 
+    Skipping how-netflix-builds-a-culture-of-excellence-elizabeth-stone-cto — no response
+
+[82/263]   Processing: how-notion-leveraged-community-to-build-a-10b-business-camille-ricketts
+    Error for how-notion-leveraged-community-to-build-a-10b-business-camille-ricketts: 
+    Skipping how-notion-leveraged-community-to-build-a-10b-business-camille-ricketts — no response
+
+[83/263]   Processing: how-palantir-built-the-ultimate-founder-factory-nabeel-s-qureshi-founder
+    Error for how-palantir-built-the-ultimate-founder-factory-nabeel-s-qureshi-founder: 
+    Skipping how-palantir-built-the-ultimate-founder-factory-nabeel-s-qureshi-founder — no response
+
+[84/263]   Processing: how-revolut-trains-world-class-pms-the-u201clocal-ceou201d-model-raw-intellect-b
+    Error for how-revolut-trains-world-class-pms-the-u201clocal-ceou201d-model-raw-intellect-b: 
+    Skipping how-revolut-trains-world-class-pms-the-u201clocal-ceou201d-model-raw-intellect-b — no response
+
+[85/263]   Processing: how-shopify-builds-a-high-intensity-culture-farhan-thawar-vp-and-head-of
+    Error for how-shopify-builds-a-high-intensity-culture-farhan-thawar-vp-and-head-of: 
+    Skipping how-shopify-builds-a-high-intensity-culture-farhan-thawar-vp-and-head-of — no response
+
+[86/263]   Processing: how-snyk-built-a-product-led-growth-juggernaut-ben-williams-vp-of-product
+    Error for how-snyk-built-a-product-led-growth-juggernaut-ben-williams-vp-of-product: 
+    Skipping how-snyk-built-a-product-led-growth-juggernaut-ben-williams-vp-of-product — no response
+
+[87/263]   Processing: how-to-achieve-hypergrowth-in-your-business-and-career-carilu-dietrich-atlassian
+    Error for how-to-achieve-hypergrowth-in-your-business-and-career-carilu-dietrich-atlassian: 
+    Skipping how-to-achieve-hypergrowth-in-your-business-and-career-carilu-dietrich-atlassian — no response
+
+[88/263]   Processing: how-to-ask-the-right-questions-project-confidence-and-win-over-skeptics
+    Error for how-to-ask-the-right-questions-project-confidence-and-win-over-skeptics: 
+    Skipping how-to-ask-the-right-questions-project-confidence-and-win-over-skeptics — no response
+
+[89/263]   Processing: how-to-be-more-innovative-sam-schillace-microsoft-deputy-cto-creator-of
+    Error for how-to-be-more-innovative-sam-schillace-microsoft-deputy-cto-creator-of: 
+    Skipping how-to-be-more-innovative-sam-schillace-microsoft-deputy-cto-creator-of — no response
+
+[90/263]   Processing: how-to-be-the-best-coach-to-product-people-petra-wille-strong-product-people
+    Error for how-to-be-the-best-coach-to-product-people-petra-wille-strong-product-people: 
+    Skipping how-to-be-the-best-coach-to-product-people-petra-wille-strong-product-people — no response
+
+[91/263]   Processing: how-to-become-a-category-pirate-christopher-lochhead-author-of-play-bigger
+    Error for how-to-become-a-category-pirate-christopher-lochhead-author-of-play-bigger: 
+    Skipping how-to-become-a-category-pirate-christopher-lochhead-author-of-play-bigger — no response
+
+[92/263]   Processing: how-to-break-out-of-autopilot-and-create-the-life-you-want-graham-weaver
+    Error for how-to-break-out-of-autopilot-and-create-the-life-you-want-graham-weaver: 
+    Skipping how-to-break-out-of-autopilot-and-create-the-life-you-want-graham-weaver — no response
+
+[93/263]   Processing: how-to-build-a-high-performing-growth-team-adam-fishman-patreon-lyft-imperfect
+    Error for how-to-build-a-high-performing-growth-team-adam-fishman-patreon-lyft-imperfect: 
+    Skipping how-to-build-a-high-performing-growth-team-adam-fishman-patreon-lyft-imperfect — no response
+
+[94/263]   Processing: how-to-build-a-powerful-marketing-machine-emily-kramer-asana-carta-mkt1
+    Error for how-to-build-a-powerful-marketing-machine-emily-kramer-asana-carta-mkt1: 
+    Skipping how-to-build-a-powerful-marketing-machine-emily-kramer-asana-carta-mkt1 — no response
+
+[95/263]   Processing: how-to-build-a-team-that-can-take-a-punch-hilary-gridley-head-of-core
+    Error for how-to-build-a-team-that-can-take-a-punch-hilary-gridley-head-of-core: 
+    Skipping how-to-build-a-team-that-can-take-a-punch-hilary-gridley-head-of-core — no response
+
+[96/263]   Processing: how-to-build-deeper-more-robust-relationships-carole-robin-stanford-professor
+    Error for how-to-build-deeper-more-robust-relationships-carole-robin-stanford-professor: 
+    Skipping how-to-build-deeper-more-robust-relationships-carole-robin-stanford-professor — no response
+
+[97/263]   Processing: how-to-build-trust-and-grow-as-a-product-leader-fareed-mosavat-reforge
+    Error for how-to-build-trust-and-grow-as-a-product-leader-fareed-mosavat-reforge: 
+    Skipping how-to-build-trust-and-grow-as-a-product-leader-fareed-mosavat-reforge — no response
+
+[98/263]   Processing: how-to-build-your-product-strategy-stack-ravi-mehta-tinder-facebook-tripadvisor
+    Error for how-to-build-your-product-strategy-stack-ravi-mehta-tinder-facebook-tripadvisor: 
+    Skipping how-to-build-your-product-strategy-stack-ravi-mehta-tinder-facebook-tripadvisor — no response
+
+[99/263]   Processing: how-to-discover-your-superpowers-own-your-story-and-unlock-personal-growth
+    Error for how-to-discover-your-superpowers-own-your-story-and-unlock-personal-growth: 
+    Skipping how-to-discover-your-superpowers-own-your-story-and-unlock-personal-growth — no response
+
+[100/263]   Processing: how-to-drive-word-of-mouth-nilan-peiris-cpo-of-wise
+    Error for how-to-drive-word-of-mouth-nilan-peiris-cpo-of-wise: 
+    Skipping how-to-drive-word-of-mouth-nilan-peiris-cpo-of-wise — no response
+
+[101/263]   Processing: how-to-find-work-you-love-bob-moesta-jobs-to-be-done-co-creator-author
+    Error for how-to-find-work-you-love-bob-moesta-jobs-to-be-done-co-creator-author: 
+    Skipping how-to-find-work-you-love-bob-moesta-jobs-to-be-done-co-creator-author — no response
+
+[102/263]   Processing: how-to-foster-innovation-and-big-thinking-eeke-de-milliano-retool-stripe
+    Error for how-to-foster-innovation-and-big-thinking-eeke-de-milliano-retool-stripe: 
+    Skipping how-to-foster-innovation-and-big-thinking-eeke-de-milliano-retool-stripe — no response
+
+[103/263]   Processing: how-to-get-press-for-your-product-jason-feifer-editor-in-chief-of-entrepreneur
+    Error for how-to-get-press-for-your-product-jason-feifer-editor-in-chief-of-entrepreneur: 
+    Skipping how-to-get-press-for-your-product-jason-feifer-editor-in-chief-of-entrepreneur — no response
+
+[104/263]   Processing: how-to-grow-a-subscription-business-yuriy-timen-grammarly-canva-airtable
+    Error for how-to-grow-a-subscription-business-yuriy-timen-grammarly-canva-airtable: 
+    Skipping how-to-grow-a-subscription-business-yuriy-timen-grammarly-canva-airtable — no response
+
+[105/263]   Processing: how-to-hit-revenue-targets-in-a-recession-sahil-mansuri-bravado
+    Error for how-to-hit-revenue-targets-in-a-recession-sahil-mansuri-bravado: 
+    Skipping how-to-hit-revenue-targets-in-a-recession-sahil-mansuri-bravado — no response
+
+[106/263]   Processing: how-to-measure-ai-developer-productivity-in-2025-nicole-forsgren
+    Error for how-to-measure-ai-developer-productivity-in-2025-nicole-forsgren: 
+    Skipping how-to-measure-ai-developer-productivity-in-2025-nicole-forsgren — no response
+
+[107/263]   Processing: how-to-nail-your-product-positioning-april-dunford-obviously-awesome
+    Error for how-to-nail-your-product-positioning-april-dunford-obviously-awesome: 
+    Skipping how-to-nail-your-product-positioning-april-dunford-obviously-awesome — no response
+
+[108/263]   Processing: how-to-price-your-product-naomi-ionita-menlo-ventures
+    Error for how-to-price-your-product-naomi-ionita-menlo-ventures: 
+    Skipping how-to-price-your-product-naomi-ionita-menlo-ventures — no response
+
+[109/263]   Processing: how-to-scrappily-hire-for-measure-and-unlock-growth-crystal-widjaja-gojek
+    Error for how-to-scrappily-hire-for-measure-and-unlock-growth-crystal-widjaja-gojek: 
+    Skipping how-to-scrappily-hire-for-measure-and-unlock-growth-crystal-widjaja-gojek — no response
+
+[110/263]   Processing: how-to-see-like-a-designer-the-hidden-power-of-typography-and-logos-jessica
+    Error for how-to-see-like-a-designer-the-hidden-power-of-typography-and-logos-jessica: 
+    Skipping how-to-see-like-a-designer-the-hidden-power-of-typography-and-logos-jessica — no response
+
+[111/263]   Processing: how-to-sell-your-ideas-and-rise-within-your-company-casey-winters-eventbrite
+    Error for how-to-sell-your-ideas-and-rise-within-your-company-casey-winters-eventbrite: 
+    Skipping how-to-sell-your-ideas-and-rise-within-your-company-casey-winters-eventbrite — no response
+
+[112/263]   Processing: how-to-speak-more-confidently-and-persuasively-matt-abrahams-professor
+    Error for how-to-speak-more-confidently-and-persuasively-matt-abrahams-professor: 
+    Skipping how-to-speak-more-confidently-and-persuasively-matt-abrahams-professor — no response
+
+[113/263]   Processing: how-to-tell-better-stories-matthew-dicks-storyworthy
+    Error for how-to-tell-better-stories-matthew-dicks-storyworthy: 
+    Skipping how-to-tell-better-stories-matthew-dicks-storyworthy — no response
+
+[114/263]   Processing: how-to-unlock-your-product-leadership-skills-ken-norton-ex-google
+    Error for how-to-unlock-your-product-leadership-skills-ken-norton-ex-google: 
+    Skipping how-to-unlock-your-product-leadership-skills-ken-norton-ex-google — no response
+
+[115/263]   Processing: how-to-win-friends-influence-decisions-julie-zhuo-lenny-friends-summit
+    Error for how-to-win-friends-influence-decisions-julie-zhuo-lenny-friends-summit: 
+    Skipping how-to-win-friends-influence-decisions-julie-zhuo-lenny-friends-summit — no response
+
+[116/263]   Processing: how-to-work-through-fear-give-hard-feedback-and-doing-layoffs-with-grace
+    Error for how-to-work-through-fear-give-hard-feedback-and-doing-layoffs-with-grace: 
+    Skipping how-to-work-through-fear-give-hard-feedback-and-doing-layoffs-with-grace — no response
+
+[117/263]   Processing: how-we-restructured-airtables-entire-org-for-ai-howie-liu-co-founder-and
+    Error for how-we-restructured-airtables-entire-org-for-ai-howie-liu-co-founder-and: 
+    Skipping how-we-restructured-airtables-entire-org-for-ai-howie-liu-co-founder-and — no response
+
+[118/263]   Processing: humanizing-product-development-adriel-frederick-reddit-lyft-facebook
+    Error for humanizing-product-development-adriel-frederick-reddit-lyft-facebook: 
+    Skipping humanizing-product-development-adriel-frederick-reddit-lyft-facebook — no response
+
+[119/263]   Processing: i-deliberately-understaff-every-project-leadership-lessons-from-ripplings-16b-jo
+    Error for i-deliberately-understaff-every-project-leadership-lessons-from-ripplings-16b-jo: 
+    Skipping i-deliberately-understaff-every-project-leadership-lessons-from-ripplings-16b-jo — no response
+
+[120/263]   Processing: i-like-being-scared-molly-grahams-frameworks-for-rapid-career-growth
+    Error for i-like-being-scared-molly-grahams-frameworks-for-rapid-career-growth: 
+    Skipping i-like-being-scared-molly-grahams-frameworks-for-rapid-career-growth — no response
+
+[121/263]   Processing: improve-strategy-influence-and-decision-making-by-understanding-your-brain
+    Error for improve-strategy-influence-and-decision-making-by-understanding-your-brain: 
+    Skipping improve-strategy-influence-and-decision-making-by-understanding-your-brain — no response
+
+[122/263]   Processing: inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history
+    Error for inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history: 
+    Skipping inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history — no response
+
+[123/263]   Processing: inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing
+    Error for inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing: 
+    Skipping inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing — no response
+
+[124/263]   Processing: inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai
+    Error for inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai: 
+    Skipping inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai — no response
+
+[125/263]   Processing: inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code
+    Error for inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code: 
+    Skipping inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code — no response
+
+[126/263]   Processing: inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of
+    Error for inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of: 
+    Skipping inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of — no response
+
+[127/263]   Processing: inside-googles-ai-turnaround-ai-mode-ai-overviews-and-vision-for-ai-powered
+    Error for inside-googles-ai-turnaround-ai-mode-ai-overviews-and-vision-for-ai-powered: 
+    Skipping inside-googles-ai-turnaround-ai-mode-ai-overviews-and-vision-for-ai-powered — no response
+
+[128/263]   Processing: inside-linear-building-with-taste-craft-and-focus-karri-saarinen-co-founder
+    Error for inside-linear-building-with-taste-craft-and-focus-karri-saarinen-co-founder: 
+    Skipping inside-linear-building-with-taste-craft-and-focus-karri-saarinen-co-founder — no response
+
+[129/263]   Processing: inside-openai-logan-kilpatrick-head-of-developer-relations
+    Error for inside-openai-logan-kilpatrick-head-of-developer-relations: 
+    Skipping inside-openai-logan-kilpatrick-head-of-developer-relations — no response
+
+[130/263]   Processing: inside-the-expert-network-training-every-frontier-ai-model-garrett-lord
+    Error for inside-the-expert-network-training-every-frontier-ai-model-garrett-lord: 
+    Skipping inside-the-expert-network-training-every-frontier-ai-model-garrett-lord — no response
+
+[131/263]   Processing: ive-run-75-businesses-heres-why-youre-probably-chasing-the-wrong-idea
+    Error for ive-run-75-businesses-heres-why-youre-probably-chasing-the-wrong-idea: 
+    Skipping ive-run-75-businesses-heres-why-youre-probably-chasing-the-wrong-idea — no response
+
+[132/263]   Processing: jason-fried-challenges-your-thinking-on-fundraising-goals-growth-and-more
+    Error for jason-fried-challenges-your-thinking-on-fundraising-goals-growth-and-more: 
+    Skipping jason-fried-challenges-your-thinking-on-fundraising-goals-growth-and-more — no response
+
+[133/263]   Processing: kunal-shah-on-winning-in-india-second-order-thinking-the-philosophy-of-startups
+    Error for kunal-shah-on-winning-in-india-second-order-thinking-the-philosophy-of-startups: 
+    Skipping kunal-shah-on-winning-in-india-second-order-thinking-the-philosophy-of-startups — no response
+
+[134/263]   Processing: land-your-dream-job-in-todays-market-negotiation-tactics-job-search-councils
+    Error for land-your-dream-job-in-todays-market-negotiation-tactics-job-search-councils: 
+    Skipping land-your-dream-job-in-todays-market-negotiation-tactics-job-search-councils — no response
+
+[135/263]   Processing: launching-and-growing-a-podcast-chris-hutchins-all-the-hacks-wealthfront
+    Error for launching-and-growing-a-podcast-chris-hutchins-all-the-hacks-wealthfront: 
+    Skipping launching-and-growing-a-podcast-chris-hutchins-all-the-hacks-wealthfront — no response
+
+[136/263]   Processing: leading-with-empathy-keith-yandell-doordash-uber
+    Error for leading-with-empathy-keith-yandell-doordash-uber: 
+    Skipping leading-with-empathy-keith-yandell-doordash-uber — no response
+
+[137/263]   Processing: leaving-big-tech-to-build-the-1-technology-newsletter-gergely-orosz-the
+    Error for leaving-big-tech-to-build-the-1-technology-newsletter-gergely-orosz-the: 
+    Skipping leaving-big-tech-to-build-the-1-technology-newsletter-gergely-orosz-the — no response
+
+[138/263]   Processing: lessons-from-1000-yc-startups-resilience-tar-pit-ideas-pivoting-more
+    Error for lessons-from-1000-yc-startups-resilience-tar-pit-ideas-pivoting-more: 
+    Skipping lessons-from-1000-yc-startups-resilience-tar-pit-ideas-pivoting-more — no response
+
+[139/263]   Processing: lessons-from-airtables-unconventional-growth-strategy-zoelle-egner
+    Error for lessons-from-airtables-unconventional-growth-strategy-zoelle-egner: 
+    Skipping lessons-from-airtables-unconventional-growth-strategy-zoelle-egner — no response
+
+[140/263]   Processing: lessons-from-atlassian-megan-cook-head-of-product-jira
+    Error for lessons-from-atlassian-megan-cook-head-of-product-jira: 
+    Skipping lessons-from-atlassian-megan-cook-head-of-product-jira — no response
+
+[141/263]   Processing: lessons-from-one-of-the-worlds-top-executive-recruiters-lauren-ipsen-daversa
+    Error for lessons-from-one-of-the-worlds-top-executive-recruiters-lauren-ipsen-daversa: 
+    Skipping lessons-from-one-of-the-worlds-top-executive-recruiters-lauren-ipsen-daversa — no response
+
+[142/263]   Processing: lessons-from-scaling-ramp-sri-batchu-ramp-instacart-opendoor
+    Error for lessons-from-scaling-ramp-sri-batchu-ramp-instacart-opendoor: 
+    Skipping lessons-from-scaling-ramp-sri-batchu-ramp-instacart-opendoor — no response
+
+[143/263]   Processing: lessons-from-scaling-stripe-claire-hughes-johnson-ex-coo-of-stripe
+    Error for lessons-from-scaling-stripe-claire-hughes-johnson-ex-coo-of-stripe: 
+    Skipping lessons-from-scaling-stripe-claire-hughes-johnson-ex-coo-of-stripe — no response
+
+[144/263]   Processing: lessons-from-scaling-uber-and-opendoor-brian-tolkin-head-of-product-at-opendoor
+    Error for lessons-from-scaling-uber-and-opendoor-brian-tolkin-head-of-product-at-opendoor: 
+    Skipping lessons-from-scaling-uber-and-opendoor-brian-tolkin-head-of-product-at-opendoor — no response
+
+[145/263]   Processing: lessons-from-working-with-600-yc-startups-gustaf-alströmer-y-combinator
+    Error for lessons-from-working-with-600-yc-startups-gustaf-alströmer-y-combinator: 
+    Skipping lessons-from-working-with-600-yc-startups-gustaf-alströmer-y-combinator — no response
+
+[146/263]   Processing: lessons-in-product-leadership-and-ai-strategy-from-glean-google-amazon-and
+    Error for lessons-in-product-leadership-and-ai-strategy-from-glean-google-amazon-and: 
+    Skipping lessons-in-product-leadership-and-ai-strategy-from-glean-google-amazon-and — no response
+
+[147/263]   Processing: lessons-on-product-sense-ai-the-first-mile-experience-and-the-messy-middle
+    Error for lessons-on-product-sense-ai-the-first-mile-experience-and-the-messy-middle: 
+    Skipping lessons-on-product-sense-ai-the-first-mile-experience-and-the-messy-middle — no response
+
+[148/263]   Processing: leveraging-growth-advisors-mastering-seo-and-honing-your-craft-luc-levesque
+    Error for leveraging-growth-advisors-mastering-seo-and-honing-your-craft-luc-levesque: 
+    Skipping leveraging-growth-advisors-mastering-seo-and-honing-your-craft-luc-levesque — no response
+
+[149/263]   Processing: leveraging-mentors-to-uplevel-your-career-jules-walter-youtube-slack
+    Error for leveraging-mentors-to-uplevel-your-career-jules-walter-youtube-slack: 
+    Skipping leveraging-mentors-to-uplevel-your-career-jules-walter-youtube-slack — no response
+
+[150/263]   Processing: linears-secret-to-building-beloved-b2b-products-nan-yu-head-of-product
+    Error for linears-secret-to-building-beloved-b2b-products-nan-yu-head-of-product: 
+    Skipping linears-secret-to-building-beloved-b2b-products-nan-yu-head-of-product — no response
+
+[151/263]   Processing: linkedins-product-evolution-and-the-art-of-building-complex-systems-hari
+    Error for linkedins-product-evolution-and-the-art-of-building-complex-systems-hari: 
+    Skipping linkedins-product-evolution-and-the-art-of-building-complex-systems-hari — no response
+
+[152/263]   Processing: ma-competition-pricing-and-investing-julia-schottenstein-dbt-labs
+    Error for ma-competition-pricing-and-investing-julia-schottenstein-dbt-labs: 
+    Skipping ma-competition-pricing-and-investing-julia-schottenstein-dbt-labs — no response
+
+[153/263]   Processing: making-an-impact-through-authenticity-and-curiosity-ami-vora-cpo-at-faire
+    Error for making-an-impact-through-authenticity-and-curiosity-ami-vora-cpo-at-faire: 
+    Skipping making-an-impact-through-authenticity-and-curiosity-ami-vora-cpo-at-faire — no response
+
+[154/263]   Processing: making-meta-andrew-boz-bosworth-cto
+    Error for making-meta-andrew-boz-bosworth-cto: 
+    Skipping making-meta-andrew-boz-bosworth-cto — no response
+
+[155/263]   Processing: making-time-for-what-matters-jake-knapp-and-john-zeratsky-authors-of-make
+    Error for making-time-for-what-matters-jake-knapp-and-john-zeratsky-authors-of-make: 
+    Skipping making-time-for-what-matters-jake-knapp-and-john-zeratsky-authors-of-make — no response
+
+[156/263]   Processing: managing-nerves-anxiety-and-burnout-jonny-miller-nervous-systems-mastery
+    Error for managing-nerves-anxiety-and-burnout-jonny-miller-nervous-systems-mastery: 
+    Skipping managing-nerves-anxiety-and-burnout-jonny-miller-nervous-systems-mastery — no response
+
+[157/263]   Processing: marketplace-lessons-from-uber-airbnb-bumble-and-more-ramesh-johari-stanford
+    Error for marketplace-lessons-from-uber-airbnb-bumble-and-more-ramesh-johari-stanford: 
+    Skipping marketplace-lessons-from-uber-airbnb-bumble-and-more-ramesh-johari-stanford — no response
+
+[158/263]   Processing: mastering-onboarding-lauryn-isford-head-of-growth-at-airtable
+    Error for mastering-onboarding-lauryn-isford-head-of-growth-at-airtable: 
+    Skipping mastering-onboarding-lauryn-isford-head-of-growth-at-airtable — no response
+
+[159/263]   Processing: mastering-product-strategy-and-growing-as-a-pm-maggie-crowley-toast-drift
+    Error for mastering-product-strategy-and-growing-as-a-pm-maggie-crowley-toast-drift: 
+    Skipping mastering-product-strategy-and-growing-as-a-pm-maggie-crowley-toast-drift — no response
+
+[160/263]   Processing: mental-models-for-building-products-people-love-ft-stewart-butterfield
+    Error for mental-models-for-building-products-people-love-ft-stewart-butterfield: 
+    Skipping mental-models-for-building-products-people-love-ft-stewart-butterfield — no response
+
+[161/263]   Processing: metas-head-of-product-on-working-with-mark-zuckerberg-early-growth-tactics
+    Error for metas-head-of-product-on-working-with-mark-zuckerberg-early-growth-tactics: 
+    Skipping metas-head-of-product-on-working-with-mark-zuckerberg-early-growth-tactics — no response
+
+[162/263]   Processing: microsoft-cpo-if-you-arent-prototyping-with-ai-youre-doing-it-wrong-aparna
+    Error for microsoft-cpo-if-you-arent-prototyping-with-ai-youre-doing-it-wrong-aparna: 
+    Skipping microsoft-cpo-if-you-arent-prototyping-with-ai-youre-doing-it-wrong-aparna — no response
+
+[163/263]   Processing: monetizing-passions-scaling-marketplaces-and-stories-from-a-creator-economy
+    Error for monetizing-passions-scaling-marketplaces-and-stories-from-a-creator-economy: 
+    Skipping monetizing-passions-scaling-marketplaces-and-stories-from-a-creator-economy — no response
+
+[164/263]   Processing: moving-fast-and-navigating-uncertainty-jeremy-henrickson-rippling-coinbase
+    Error for moving-fast-and-navigating-uncertainty-jeremy-henrickson-rippling-coinbase: 
+    Skipping moving-fast-and-navigating-uncertainty-jeremy-henrickson-rippling-coinbase — no response
+
+[165/263]   Processing: nickey-skarstad-airbnb-etsy-shopify-duolingo-on-translating-vision-into-goals-op
+    Error for nickey-skarstad-airbnb-etsy-shopify-duolingo-on-translating-vision-into-goals-op: 
+    Skipping nickey-skarstad-airbnb-etsy-shopify-duolingo-on-translating-vision-into-goals-op — no response
+
+[166/263]   Processing: notions-lost-years-near-collapse-during-covid-staying-small-to-move-fast-buildin
+    Error for notions-lost-years-near-collapse-during-covid-staying-small-to-move-fast-buildin: 
+    Skipping notions-lost-years-near-collapse-during-covid-staying-small-to-move-fast-buildin — no response
+
+[167/263]   Processing: openai-researcher-on-why-soft-skills-are-the-future-of-work-karina-nguyen
+    Error for openai-researcher-on-why-soft-skills-are-the-future-of-work-karina-nguyen: 
+    Skipping openai-researcher-on-why-soft-skills-are-the-future-of-work-karina-nguyen — no response
+
+[168/263]   Processing: openais-cpo-on-how-ai-changes-must-have-skills-moats-coding-startup-playbooks
+    Error for openais-cpo-on-how-ai-changes-must-have-skills-moats-coding-startup-playbooks: 
+    Skipping openais-cpo-on-how-ai-changes-must-have-skills-moats-coding-startup-playbooks — no response
+
+[169/263]   Processing: pattern-breakers-how-to-find-a-breakthrough-startup-idea-mike-maples-jr
+    Error for pattern-breakers-how-to-find-a-breakthrough-startup-idea-mike-maples-jr: 
+    Skipping pattern-breakers-how-to-find-a-breakthrough-startup-idea-mike-maples-jr — no response
+
+[170/263]   Processing: persuasive-communication-and-managing-up-wes-kao-maven-altmba-section4
+    Error for persuasive-communication-and-managing-up-wes-kao-maven-altmba-section4: 
+    Skipping persuasive-communication-and-managing-up-wes-kao-maven-altmba-section4 — no response
+
+[171/263]   Processing: peter-deng
+    Error for peter-deng: 
+    Skipping peter-deng — no response
+
+[172/263]   Processing: picking-sharp-problems-increasing-virality-and-unique-product-frameworks
+    Error for picking-sharp-problems-increasing-virality-and-unique-product-frameworks: 
+    Skipping picking-sharp-problems-increasing-virality-and-unique-product-frameworks — no response
+
+[173/263]   Processing: pricing-your-ai-product-lessons-from-400-companies-and-50-unicorns-madhavan
+    Error for pricing-your-ai-product-lessons-from-400-companies-and-50-unicorns-madhavan: 
+    Skipping pricing-your-ai-product-lessons-from-400-companies-and-50-unicorns-madhavan — no response
+
+[174/263]   Processing: product-lessons-from-waymo-shweta-shrivastava-waymo-amazon-cisco
+    Error for product-lessons-from-waymo-shweta-shrivastava-waymo-amazon-cisco: 
+    Skipping product-lessons-from-waymo-shweta-shrivastava-waymo-amazon-cisco — no response
+
+[175/263]   Processing: product-management-theater-marty-cagan-silicon-valley-product-group
+    Error for product-management-theater-marty-cagan-silicon-valley-product-group: 
+    Skipping product-management-theater-marty-cagan-silicon-valley-product-group — no response
+
+[176/263]   Processing: redefining-success-money-and-belonging-paul-millerd-the-pathless-path
+    Error for redefining-success-money-and-belonging-paul-millerd-the-pathless-path: 
+    Skipping redefining-success-money-and-belonging-paul-millerd-the-pathless-path — no response
+
+[177/263]   Processing: reflections-on-a-movement-eric-ries-creator-of-the-lean-startup-methodology
+    Error for reflections-on-a-movement-eric-ries-creator-of-the-lean-startup-methodology: 
+    Skipping reflections-on-a-movement-eric-ries-creator-of-the-lean-startup-methodology — no response
+
+[178/263]   Processing: relentless-curiosity-radical-accountability-and-hubspots-winning-growth
+    Error for relentless-curiosity-radical-accountability-and-hubspots-winning-growth: 
+    Skipping relentless-curiosity-radical-accountability-and-hubspots-winning-growth — no response
+
+[179/263]   Processing: rethinking-seo-in-the-age-of-ai-eli-schwartz-seo-advisor-author
+    Error for rethinking-seo-in-the-age-of-ai-eli-schwartz-seo-advisor-author: 
+    Skipping rethinking-seo-in-the-age-of-ai-eli-schwartz-seo-advisor-author — no response
+
+[180/263]   Processing: scale-ai-ceo-on-metas-14b-deal-scaling-uber-eats-to-80b-what-frontier-labs-are-b
+    Error for scale-ai-ceo-on-metas-14b-deal-scaling-uber-eats-to-80b-what-frontier-labs-are-b: 
+    Skipping scale-ai-ceo-on-metas-14b-deal-scaling-uber-eats-to-80b-what-frontier-labs-are-b — no response
+
+[181/263]   Processing: scaling-duolingo-embracing-failure-and-insight-into-latin-americas-tech
+    Error for scaling-duolingo-embracing-failure-and-insight-into-latin-americas-tech: 
+    Skipping scaling-duolingo-embracing-failure-and-insight-into-latin-americas-tech — no response
+
+[182/263]   Processing: scripts-for-navigating-difficult-conversations-alisa-cohn-executive-coach
+    Error for scripts-for-navigating-difficult-conversations-alisa-cohn-executive-coach: 
+    Skipping scripts-for-navigating-difficult-conversations-alisa-cohn-executive-coach — no response
+
+[183/263]   Processing: seth-godins-best-tactics-for-building-remarkable-products-strategies-brands
+    Error for seth-godins-best-tactics-for-building-remarkable-products-strategies-brands: 
+    Skipping seth-godins-best-tactics-for-building-remarkable-products-strategies-brands — no response
+
+[184/263]   Processing: she-turned-100-rejections-into-a-42b-company-melanie-perkins
+    Error for she-turned-100-rejections-into-a-42b-company-melanie-perkins: 
+    Skipping she-turned-100-rejections-into-a-42b-company-melanie-perkins — no response
+
+[185/263]   Processing: storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and
+    Error for storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and: 
+    Skipping storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and — no response
+
+[186/263]   Processing: strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal
+    Error for strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal: 
+    Skipping strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal — no response
+
+[187/263]   Processing: succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like
+    Error for succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like: 
+    Skipping succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like — no response
+
+[188/263]   Processing: superhumans-secret-to-success-rahul-vohra-ceo-and-founder
+    Error for superhumans-secret-to-success-rahul-vohra-ceo-and-founder: 
+    Skipping superhumans-secret-to-success-rahul-vohra-ceo-and-founder — no response
+
+[189/263]   Processing: taking-control-of-your-career-ethan-evans-amazon
+    Error for taking-control-of-your-career-ethan-evans-amazon: 
+    Skipping taking-control-of-your-career-ethan-evans-amazon — no response
+
+[190/263]   Processing: taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup
+    Error for taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup: 
+    Skipping taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup — no response
+
+[191/263]   Processing: teaser-2021
+    Error for teaser-2021: 
+    Skipping teaser-2021 — no response
+
+[192/263]   Processing: the-10-traits-of-great-pms-ai-and-slacks-approach-to-product-noah-weiss
+    Error for the-10-traits-of-great-pms-ai-and-slacks-approach-to-product-noah-weiss: 
+    Skipping the-10-traits-of-great-pms-ai-and-slacks-approach-to-product-noah-weiss — no response
+
+[193/263]   Processing: the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible
+    Error for the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible: 
+    Skipping the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible — no response
+
+[194/263]   Processing: the-ai-native-startup-5-products-7-figure-revenue-100-ai-written-code
+    Error for the-ai-native-startup-5-products-7-figure-revenue-100-ai-written-code: 
+    Skipping the-ai-native-startup-5-products-7-figure-revenue-100-ai-written-code — no response
+
+[195/263]   Processing: the-art-and-science-of-pricing-madhavan-ramanujam-monetizing-innovation
+    Error for the-art-and-science-of-pricing-madhavan-ramanujam-monetizing-innovation: 
+    Skipping the-art-and-science-of-pricing-madhavan-ramanujam-monetizing-innovation — no response
+
+[196/263]   Processing: the-art-and-wisdom-of-changing-teams-heidi-helfand-author-of-dynamic-reteaming
+    Error for the-art-and-wisdom-of-changing-teams-heidi-helfand-author-of-dynamic-reteaming: 
+    Skipping the-art-and-wisdom-of-changing-teams-heidi-helfand-author-of-dynamic-reteaming — no response
+
+[197/263]   Processing: the-art-of-building-legendary-brands-arielle-jackson-google-square-first
+    Error for the-art-of-building-legendary-brands-arielle-jackson-google-square-first: 
+    Skipping the-art-of-building-legendary-brands-arielle-jackson-google-square-first — no response
+
+[198/263]   Processing: the-art-of-product-management-shreyas-doshi-stripe-twitter-google-yahoo
+    Error for the-art-of-product-management-shreyas-doshi-stripe-twitter-google-yahoo: 
+    Skipping the-art-of-product-management-shreyas-doshi-stripe-twitter-google-yahoo — no response
+
+[199/263]   Processing: the-crazy-story-of-landing-uber-as-a-client-jonathan-becker-thrive-digital
+    Error for the-crazy-story-of-landing-uber-as-a-client-jonathan-becker-thrive-digital: 
+    Skipping the-crazy-story-of-landing-uber-as-a-client-jonathan-becker-thrive-digital — no response
+
+[200/263]   Processing: the-disease-of-process-people-marty-cagan
+    Error for the-disease-of-process-people-marty-cagan: 
+    Skipping the-disease-of-process-people-marty-cagan — no response
+
+[201/263]   Processing: the-engineering-mindset-will-larson-carta-stripe-uber-calm-digg
+    Error for the-engineering-mindset-will-larson-carta-stripe-uber-calm-digg: 
+    Skipping the-engineering-mindset-will-larson-carta-stripe-uber-calm-digg — no response
+
+[202/263]   Processing: the-essence-of-product-management-christian-idiodi-svpg
+    Error for the-essence-of-product-management-christian-idiodi-svpg: 
+    Skipping the-essence-of-product-management-christian-idiodi-svpg — no response
+
+[203/263]   Processing: the-full-stack-pm-anuj-rathi-swiggy-jupiter-money-flipkart
+    Error for the-full-stack-pm-anuj-rathi-swiggy-jupiter-money-flipkart: 
+    Skipping the-full-stack-pm-anuj-rathi-swiggy-jupiter-money-flipkart — no response
+
+[204/263]   Processing: the-future-of-ai-in-software-development-inbal-shani-cpo-of-github
+    Error for the-future-of-ai-in-software-development-inbal-shani-cpo-of-github: 
+    Skipping the-future-of-ai-in-software-development-inbal-shani-cpo-of-github — no response
+
+[205/263]   Processing: the-godmother-of-ai-on-jobs-robots-why-world-models-are-next-dr-fei-fei
+    Error for the-godmother-of-ai-on-jobs-robots-why-world-models-are-next-dr-fei-fei: 
+    Skipping the-godmother-of-ai-on-jobs-robots-why-world-models-are-next-dr-fei-fei — no response
+
+[206/263]   Processing: the-happiness-and-pain-of-product-management-noam-lovinsky-grammarly-fb
+    Error for the-happiness-and-pain-of-product-management-noam-lovinsky-grammarly-fb: 
+    Skipping the-happiness-and-pain-of-product-management-noam-lovinsky-grammarly-fb — no response
+
+[207/263]   Processing: the-hierarchy-of-engagement-sarah-tavel-benchmark-greylock-pinterest
+    Error for the-hierarchy-of-engagement-sarah-tavel-benchmark-greylock-pinterest: 
+    Skipping the-hierarchy-of-engagement-sarah-tavel-benchmark-greylock-pinterest — no response
+
+[208/263]   Processing: the-new-ai-growth-playbook-for-2026-how-lovable-hit-200m-arr-in-one-year
+    Error for the-new-ai-growth-playbook-for-2026-how-lovable-hit-200m-arr-in-one-year: 
+    Skipping the-new-ai-growth-playbook-for-2026-how-lovable-hit-200m-arr-in-one-year — no response
+
+[209/263]   Processing: the-one-question-that-saves-product-careers-matt-lemay
+    Error for the-one-question-that-saves-product-careers-matt-lemay: 
+    Skipping the-one-question-that-saves-product-careers-matt-lemay — no response
+
+[210/263]   Processing: the-original-growth-hacker-reveals-his-secrets-sean-ellis-author-of-hacking
+    Error for the-original-growth-hacker-reveals-his-secrets-sean-ellis-author-of-hacking: 
+    Skipping the-original-growth-hacker-reveals-his-secrets-sean-ellis-author-of-hacking — no response
+
+[211/263]   Processing: the-paths-to-power-how-to-grow-your-influence-and-advance-your-career-jeffrey
+    Error for the-paths-to-power-how-to-grow-your-influence-and-advance-your-career-jeffrey: 
+    Skipping the-paths-to-power-how-to-grow-your-influence-and-advance-your-career-jeffrey — no response
+
+[212/263]   Processing: the-power-of-strategic-narrative-andy-raskin
+    Error for the-power-of-strategic-narrative-andy-raskin: 
+    Skipping the-power-of-strategic-narrative-andy-raskin — no response
+
+[213/263]   Processing: the-rise-of-cursor-the-300m-arr-ai-tool-that-engineers-cant-stop-using
+    Error for the-rise-of-cursor-the-300m-arr-ai-tool-that-engineers-cant-stop-using: 
+    Skipping the-rise-of-cursor-the-300m-arr-ai-tool-that-engineers-cant-stop-using — no response
+
+[214/263]   Processing: the-rituals-of-great-teams-shishir-mehrotra-coda-youtube-microsoft
+    Error for the-rituals-of-great-teams-shishir-mehrotra-coda-youtube-microsoft: 
+    Skipping the-rituals-of-great-teams-shishir-mehrotra-coda-youtube-microsoft — no response
+
+[215/263]   Processing: the-role-of-ai-in-new-product-development-ryan-j-salva-vp-of-product-at
+    Error for the-role-of-ai-in-new-product-development-ryan-j-salva-vp-of-product-at: 
+    Skipping the-role-of-ai-in-new-product-development-ryan-j-salva-vp-of-product-at — no response
+
+[216/263]   Processing: the-science-of-product-big-bets-and-how-ai-is-impacting-the-future-of-music
+    Error for the-science-of-product-big-bets-and-how-ai-is-impacting-the-future-of-music: 
+    Skipping the-science-of-product-big-bets-and-how-ai-is-impacting-the-future-of-music — no response
+
+[217/263]   Processing: the-social-radar-y-combinators-secret-weapon-jessica-livingston-co-founder
+    Error for the-social-radar-y-combinators-secret-weapon-jessica-livingston-co-founder: 
+    Skipping the-social-radar-y-combinators-secret-weapon-jessica-livingston-co-founder — no response
+
+[218/263]   Processing: the-surprising-truth-about-what-closes-deals-insights-from-25m-sales-conversatio
+    Error for the-surprising-truth-about-what-closes-deals-insights-from-25m-sales-conversatio: 
+    Skipping the-surprising-truth-about-what-closes-deals-insights-from-25m-sales-conversatio — no response
+
+[219/263]   Processing: the-things-engineers-are-desperate-for-pms-to-understand-camille-fournier
+    Error for the-things-engineers-are-desperate-for-pms-to-understand-camille-fournier: 
+    Skipping the-things-engineers-are-desperate-for-pms-to-understand-camille-fournier — no response
+
+[220/263]   Processing: the-ultimate-guide-to-ab-testing-ronny-kohavi-airbnb-microsoft-amazon
+    Error for the-ultimate-guide-to-ab-testing-ronny-kohavi-airbnb-microsoft-amazon: 
+    Skipping the-ultimate-guide-to-ab-testing-ronny-kohavi-airbnb-microsoft-amazon — no response
+
+[221/263]   Processing: the-ultimate-guide-to-adding-a-plg-motion-hila-qu-reforge-gitlab
+    Error for the-ultimate-guide-to-adding-a-plg-motion-hila-qu-reforge-gitlab: 
+    Skipping the-ultimate-guide-to-adding-a-plg-motion-hila-qu-reforge-gitlab — no response
+
+[222/263]   Processing: the-ultimate-guide-to-aeo-how-to-get-chatgpt-to-recommend-your-product
+    Error for the-ultimate-guide-to-aeo-how-to-get-chatgpt-to-recommend-your-product: 
+    Skipping the-ultimate-guide-to-aeo-how-to-get-chatgpt-to-recommend-your-product — no response
+
+[223/263]   Processing: the-ultimate-guide-to-founder-led-sales-jen-abel-co-founder-of-jjellyfish
+    Error for the-ultimate-guide-to-founder-led-sales-jen-abel-co-founder-of-jjellyfish: 
+    Skipping the-ultimate-guide-to-founder-led-sales-jen-abel-co-founder-of-jjellyfish — no response
+
+[224/263]   Processing: the-ultimate-guide-to-jtbd-bob-moesta-co-creator-of-the-framework
+    Error for the-ultimate-guide-to-jtbd-bob-moesta-co-creator-of-the-framework: 
+    Skipping the-ultimate-guide-to-jtbd-bob-moesta-co-creator-of-the-framework — no response
+
+[225/263]   Processing: the-ultimate-guide-to-martech-austin-hay-reforge-ramp-runway
+    Error for the-ultimate-guide-to-martech-austin-hay-reforge-ramp-runway: 
+    Skipping the-ultimate-guide-to-martech-austin-hay-reforge-ramp-runway — no response
+
+[226/263]   Processing: the-ultimate-guide-to-okrs-christina-wodtke-stanford
+    Error for the-ultimate-guide-to-okrs-christina-wodtke-stanford: 
+    Skipping the-ultimate-guide-to-okrs-christina-wodtke-stanford — no response
+
+[227/263]   Processing: the-ultimate-guide-to-paid-growth-timothy-davis-shopify
+    Error for the-ultimate-guide-to-paid-growth-timothy-davis-shopify: 
+    Skipping the-ultimate-guide-to-paid-growth-timothy-davis-shopify — no response
+
+[228/263]   Processing: the-ultimate-guide-to-pr-emilie-gerber-founder-of-six-eastern
+    Error for the-ultimate-guide-to-pr-emilie-gerber-founder-of-six-eastern: 
+    Skipping the-ultimate-guide-to-pr-emilie-gerber-founder-of-six-eastern — no response
+
+[229/263]   Processing: the-ultimate-guide-to-product-led-sales-elena-verna
+    Error for the-ultimate-guide-to-product-led-sales-elena-verna: 
+    Skipping the-ultimate-guide-to-product-led-sales-elena-verna — no response
+
+[230/263]   Processing: the-ultimate-guide-to-product-operations-melissa-perri-and-denise-tilles
+    Error for the-ultimate-guide-to-product-operations-melissa-perri-and-denise-tilles: 
+    Skipping the-ultimate-guide-to-product-operations-melissa-perri-and-denise-tilles — no response
+
+[231/263]   Processing: the-ux-research-reckoning-is-here-judd-antin-airbnb-meta
+    Error for the-ux-research-reckoning-is-here-judd-antin-airbnb-meta: 
+    Skipping the-ux-research-reckoning-is-here-judd-antin-airbnb-meta — no response
+
+[232/263]   Processing: thinking-like-a-gardener-slime-mold-the-adjacent-possible-product-advice
+    Error for thinking-like-a-gardener-slime-mold-the-adjacent-possible-product-advice: 
+    Skipping thinking-like-a-gardener-slime-mold-the-adjacent-possible-product-advice — no response
+
+[233/263]   Processing: this-will-make-you-a-better-decision-maker-annie-duke-thinking-in-bets
+    Error for this-will-make-you-a-better-decision-maker-annie-duke-thinking-in-bets: 
+    Skipping this-will-make-you-a-better-decision-maker-annie-duke-thinking-in-bets — no response
+
+[234/263]   Processing: tobi-lütkes-leadership-playbook-first-principles-infinite-games-and-maximizing-h
+    Error for tobi-lütkes-leadership-playbook-first-principles-infinite-games-and-maximizing-h: 
+    Skipping tobi-lütkes-leadership-playbook-first-principles-infinite-games-and-maximizing-h — no response
+
+[235/263]   Processing: twitters-ex-head-of-product-on-elon-consumer-products-culture-more-kayvon
+    Error for twitters-ex-head-of-product-on-elon-consumer-products-culture-more-kayvon: 
+    Skipping twitters-ex-head-of-product-on-elon-consumer-products-culture-more-kayvon — no response
+
+[236/263]   Processing: unconventional-product-lessons-from-binance-n26-google-more-mayur-kamat
+    Error for unconventional-product-lessons-from-binance-n26-google-more-mayur-kamat: 
+    Skipping unconventional-product-lessons-from-binance-n26-google-more-mayur-kamat — no response
+
+[237/263]   Processing: understanding-the-role-of-product-ops-christine-itwaru-pendo
+    Error for understanding-the-role-of-product-ops-christine-itwaru-pendo: 
+    Skipping understanding-the-role-of-product-ops-christine-itwaru-pendo — no response
+
+[238/263]   Processing: unorthodox-frameworks-for-growing-your-product-career-and-impact-bangaly
+    Error for unorthodox-frameworks-for-growing-your-product-career-and-impact-bangaly: 
+    Skipping unorthodox-frameworks-for-growing-your-product-career-and-impact-bangaly — no response
+
+[239/263]   Processing: unorthodox-pm-tips-automating-user-insights-unselling-candidates-decision
+    Error for unorthodox-pm-tips-automating-user-insights-unselling-candidates-decision: 
+    Skipping unorthodox-pm-tips-automating-user-insights-unselling-candidates-decision — no response
+
+[240/263]   Processing: unpacking-amazons-unique-ways-of-working-bill-carr-author-of-working-backwards
+    Error for unpacking-amazons-unique-ways-of-working-bill-carr-author-of-working-backwards: 
+    Skipping unpacking-amazons-unique-ways-of-working-bill-carr-author-of-working-backwards — no response
+
+[241/263]   Processing: using-behavioral-science-to-improve-your-product-kristen-berman-irrational
+    Error for using-behavioral-science-to-improve-your-product-kristen-berman-irrational: 
+    Skipping using-behavioral-science-to-improve-your-product-kristen-berman-irrational — no response
+
+[242/263]   Processing: velocity-over-everything-how-ramp-became-the-fastest-growing-saas-startup
+    Error for velocity-over-everything-how-ramp-became-the-fastest-growing-saas-startup: 
+    Skipping velocity-over-everything-how-ramp-became-the-fastest-growing-saas-startup — no response
+
+[243/263]   Processing: vision-conviction-and-hype-how-to-build-0-to-1-inside-a-company-mihika
+    Error for vision-conviction-and-hype-how-to-build-0-to-1-inside-a-company-mihika: 
+    Skipping vision-conviction-and-hype-how-to-build-0-to-1-inside-a-company-mihika — no response
+
+[244/263]   Processing: we-replaced-our-sales-team-with-20-ai-agentsheres-what-happened-next-jason
+    Error for we-replaced-our-sales-team-with-20-ai-agentsheres-what-happened-next-jason: 
+    Skipping we-replaced-our-sales-team-with-20-ai-agentsheres-what-happened-next-jason — no response
+
+[245/263]   Processing: what-ai-means-for-your-product-strategy-paul-adams-cpo-of-intercom
+    Error for what-ai-means-for-your-product-strategy-paul-adams-cpo-of-intercom: 
+    Skipping what-ai-means-for-your-product-strategy-paul-adams-cpo-of-intercom — no response
+
+[246/263]   Processing: what-differentiates-the-highest-performing-product-teams-john-cutler-the
+    Error for what-differentiates-the-highest-performing-product-teams-john-cutler-the: 
+    Skipping what-differentiates-the-highest-performing-product-teams-john-cutler-the — no response
+
+[247/263]   Processing: what-it-takes-to-become-a-top-1-pm-ian-mcallister-uber-amazon-airbnb
+    Error for what-it-takes-to-become-a-top-1-pm-ian-mcallister-uber-amazon-airbnb: 
+    Skipping what-it-takes-to-become-a-top-1-pm-ian-mcallister-uber-amazon-airbnb — no response
+
+[248/263]   Processing: what-sets-great-teams-apart-lane-shackleton-cpo-of-coda
+    Error for what-sets-great-teams-apart-lane-shackleton-cpo-of-coda: 
+    Skipping what-sets-great-teams-apart-lane-shackleton-cpo-of-coda — no response
+
+[249/263]   Processing: what-world-class-gtm-looks-like-in-2026-jeanne-dewitt-grosser-vercel-stripe
+    Error for what-world-class-gtm-looks-like-in-2026-jeanne-dewitt-grosser-vercel-stripe: 
+    Skipping what-world-class-gtm-looks-like-in-2026-jeanne-dewitt-grosser-vercel-stripe — no response
+
+[250/263]   Processing: when-enough-is-enough-andy-johns-ex-fb-twitter-quora
+    Error for when-enough-is-enough-andy-johns-ex-fb-twitter-quora: 
+    Skipping when-enough-is-enough-andy-johns-ex-fb-twitter-quora — no response
+
+[251/263]   Processing: when-to-invest-in-new-acquisition-channels-adam-grenier-uber-masterclass
+    Error for when-to-invest-in-new-acquisition-channels-adam-grenier-uber-masterclass: 
+    Skipping when-to-invest-in-new-acquisition-channels-adam-grenier-uber-masterclass — no response
+
+[252/263]   Processing: why-ai-evals-are-the-hottest-new-skill-for-product-builders-hamel-husain
+    Error for why-ai-evals-are-the-hottest-new-skill-for-product-builders-hamel-husain: 
+    Skipping why-ai-evals-are-the-hottest-new-skill-for-product-builders-hamel-husain — no response
+
+[253/263]   Processing: why-ai-is-disrupting-traditional-product-management-tomer-cohen-linkedin
+    Error for why-ai-is-disrupting-traditional-product-management-tomer-cohen-linkedin: 
+    Skipping why-ai-is-disrupting-traditional-product-management-tomer-cohen-linkedin — no response
+
+[254/263]   Processing: why-chatgpt-will-be-the-next-big-growth-channel-and-how-to-capitalize-on-it
+    Error for why-chatgpt-will-be-the-next-big-growth-channel-and-how-to-capitalize-on-it: 
+    Skipping why-chatgpt-will-be-the-next-big-growth-channel-and-how-to-capitalize-on-it — no response
+
+[255/263]   Processing: why-experts-writing-ai-evals-is-creating-the-fastest-growing-companies-in-histor
+    Error for why-experts-writing-ai-evals-is-creating-the-fastest-growing-companies-in-histor: 
+    Skipping why-experts-writing-ai-evals-is-creating-the-fastest-growing-companies-in-histor — no response
+
+[256/263]   Processing: why-great-ai-products-are-all-about-the-data-shaun-clowes-cpo-at-confluent
+    Error for why-great-ai-products-are-all-about-the-data-shaun-clowes-cpo-at-confluent: 
+    Skipping why-great-ai-products-are-all-about-the-data-shaun-clowes-cpo-at-confluent — no response
+
+[257/263]   Processing: why-most-ai-products-fail-lessons-from-50-ai-deployments-at-openai-google-amazon
+    Error for why-most-ai-products-fail-lessons-from-50-ai-deployments-at-openai-google-amazon: 
+    Skipping why-most-ai-products-fail-lessons-from-50-ai-deployments-at-openai-google-amazon — no response
+
+[258/263]   Processing: why-most-product-managers-are-unprepared-for-the-demands-of-a-real-startup
+    Error for why-most-product-managers-are-unprepared-for-the-demands-of-a-real-startup: 
+    Skipping why-most-product-managers-are-unprepared-for-the-demands-of-a-real-startup — no response
+
+[259/263]   Processing: why-most-public-speaking-advice-is-wrongand-how-to-finally-overcome-anxiety
+    Error for why-most-public-speaking-advice-is-wrongand-how-to-finally-overcome-anxiety: 
+    Skipping why-most-public-speaking-advice-is-wrongand-how-to-finally-overcome-anxiety — no response
+
+[260/263]   Processing: why-not-asking-for-what-you-want-is-holding-you-back-kenneth-berger-exec
+    Error for why-not-asking-for-what-you-want-is-holding-you-back-kenneth-berger-exec: 
+    Skipping why-not-asking-for-what-you-want-is-holding-you-back-kenneth-berger-exec — no response
+
+[261/263]   Processing: why-securing-ai-is-harder-than-anyone-expected-and-guardrails-are-failing
+    Error for why-securing-ai-is-harder-than-anyone-expected-and-guardrails-are-failing: 
+    Skipping why-securing-ai-is-harder-than-anyone-expected-and-guardrails-are-failing — no response
+
+[262/263]   Processing: why-ubers-cpo-delivers-food-on-weekends-sachin-kansal
+    Error for why-ubers-cpo-delivers-food-on-weekends-sachin-kansal: 
+    Skipping why-ubers-cpo-delivers-food-on-weekends-sachin-kansal — no response
+
+[263/263]   Processing: zigging-vs-zagging-how-hubspot-built-a-30b-company-dharmesh-shah-co-foundercto
+    Error for zigging-vs-zagging-how-hubspot-built-a-30b-company-dharmesh-shah-co-foundercto: 
+    Skipping zigging-vs-zagging-how-hubspot-built-a-30b-company-dharmesh-shah-co-foundercto — no response
+
+Done. 18 episodes processed.
+Thematic extraction — 254 episodes remaining (18 done)
+
+[1/254]   Processing: 10-growth-tactics-that-never-work-elena-verna-amplitude-miro-dropbox
+    5 themes written, 3 new themes discovered
+
+[2/254]   Processing: an-inside-look-at-how-miro-builds-product-varun-parmar-cpo-of-miro
+    5 themes written, 3 new themes discovered
+
+[3/254]   Processing: an-inside-look-at-how-the-new-york-times-builds-product-alex-hardiman-cpo
+    5 themes written, 3 new themes discovered
+
+[4/254]   Processing: an-inside-look-at-mixpanels-product-journey-vijay-iyengar
+    5 themes written, 3 new themes discovered
+
+[5/254]   Processing: an-inside-look-at-xs-community-notes-keith-coleman-jay-baxter
+    7 themes written, 2 new themes discovered
+
+[6/254]   Processing: an-operators-guide-to-product-strategy-chandra-janakiraman-cpo-at-vrchat
+    7 themes written, 3 new themes discovered
+
+[7/254]   Processing: anthropics-cpo-on-what-comes-next-mike-krieger-co-founder-of-instagram
+    6 themes written, 3 new themes discovered
+
+[8/254]   Processing: are-your-fears-giving-you-terrible-advice-matt-mochary
+    6 themes written, 3 new themes discovered
+
+[9/254]   Processing: be-fundamentally-different-not-incrementally-better-jag-duggal-nubank
+    6 themes written, 1 new themes discovered
+
+[10/254]   Processing: becoming-evidence-guided-itamar-gilad-gmail-youtube-microsoft
+    5 themes written, 2 new themes discovered
+
+[11/254]   Processing: becoming-more-strategic-navigating-difficult-colleagues-founder-mode-more
+    8 themes written, 2 new themes discovered
+
+[12/254]   Processing: behind-the-founder-drew-houston-dropbox
+    Timeout for behind-the-founder-drew-houston-dropbox — skipping
+    Skipping behind-the-founder-drew-houston-dropbox — no response
+
+[13/254]   Processing: behind-the-founder-marc-benioff
+    6 themes written, 3 new themes discovered
+
+[14/254]   Processing: behind-the-product-duolingo-streaks-jackson-shuttleworth-group-pm-retention
+    3 themes written, 3 new themes discovered
+
+[15/254]   Processing: behind-the-product-replit-amjad-masad-co-founder-and-ceo
+    5 themes written, 2 new themes discovered
+
+[16/254]   Processing: behind-the-scenes-of-calendlys-rapid-growth-annie-pearl-cpo
+    JSON parse error for behind-the-scenes-of-calendlys-rapid-growth-annie-pearl-cpo: Expecting ',' delimiter: line 12 column 290 (char 3978)
+
+[17/254]   Processing: bending-the-universe-in-your-favor-claire-vo-launchdarkly-color-optimizely
+    10 themes written, 3 new themes discovered
+
+[18/254]   Processing: billion-dollar-failures-and-billion-dollar-success-tom-conrad-quibi-pandora
+    6 themes written, 3 new themes discovered
+
+[19/254]   Processing: brian-cheskys-new-playbook
+    7 themes written, 3 new themes discovered
+
+[20/254]   Processing: build-better-products-with-continuous-product-discovery-teresa-torres
+    4 themes written, 2 new themes discovered
+
+[21/254]   Processing: building-a-culture-of-excellence-david-singleton-cto-of-stripe
+    4 themes written, 2 new themes discovered
+
+[22/254]   Processing: building-a-long-and-meaningful-career-nikhyl-singhal-meta-google
+    6 themes written, 3 new themes discovered
+
+[23/254]   Processing: building-a-magical-ai-code-editor-used-by-over-1m-developers-in-4-months
+    6 themes written, 2 new themes discovered
+
+[24/254]   Processing: building-a-meaningful-career-jason-shah-airbnb-amazon-microsoft-alchemy
+    5 themes written, 2 new themes discovered
+
+[25/254]   Processing: building-a-world-class-data-org-jessica-lachs-vp-of-analytics-and-data-science
+    6 themes written, 3 new themes discovered
+
+[26/254]   Processing: building-anchor-selling-to-spotify-and-lessons-learned-maya-prohovnik-head
+    6 themes written, 3 new themes discovered
+
+[27/254]   Processing: building-beautiful-products-with-stripes-head-of-design-katie-dill-stripe
+    4 themes written, 2 new themes discovered
+
+[28/254]   Processing: building-better-roadmaps-janna-bastow-mind-the-product-prodpad
+    5 themes written, 2 new themes discovered
+
+[29/254]   Processing: building-high-performing-teams-melissa-tan-webflow-dropbox-canva
+    Timeout for building-high-performing-teams-melissa-tan-webflow-dropbox-canva — skipping
+    Skipping building-high-performing-teams-melissa-tan-webflow-dropbox-canva — no response
+
+[30/254]   Processing: building-lovable-10m-arr-in-60-days-with-15-people-anton-osika-ceo-and
+    6 themes written, 3 new themes discovered
+
+[31/254]   Processing: building-minimum-lovable-products-stories-from-wework-airbnb-and-thriving
+    7 themes written, 3 new themes discovered
+
+[32/254]   Processing: building-product-at-stripe-craft-metrics-and-customer-obsession-jeff
+    7 themes written, 2 new themes discovered
+
+[33/254]   Processing: building-substack-sachin-monga-substack-facebook
+    6 themes written, 3 new themes discovered
+
+[34/254]   Processing: building-wiz-the-fastest-growing-startup-in-history-raaz-herzberg-cmo
+    5 themes written, 3 new themes discovered
+
+[35/254]   Processing: business-strategy-with-hamilton-helmer-author-of-7-powers
+    4 themes written, 2 new themes discovered
+
+[36/254]   Processing: career-frameworks-ab-testing-onboarding-tips-selling-to-engineers-laura
+    7 themes written, 2 new themes discovered
+
+[37/254]   Processing: category-creation-and-brand-building-barbra-gago-pando-miro-greenhouse
+    3 themes written, 3 new themes discovered
+
+[38/254]   Processing: competing-with-giants-an-inside-look-at-how-the-browser-company-builds-product
+    5 themes written, 3 new themes discovered
+
+[39/254]   Processing: conscious-leadership-unlocking-vision-strategy-and-purpose-jm-nickels
+    5 themes written, 3 new themes discovered
+
+[40/254]   Processing: countdown-of-the-top-10-episodes-of-the-year
+    7 themes written, 2 new themes discovered
+
+[41/254]   Processing: crafting-a-compelling-product-vision-ebi-atawodi-youtube-netflix-uber
+    8 themes written, 3 new themes discovered
+
+[42/254]   Processing: customer-led-growth-georgiana-laudi-forget-the-funnel
+    3 themes written, 3 new themes discovered
+
+[43/254]   Processing: daniel-lereya
+    8 themes written, 3 new themes discovered
+
+[44/254]   Processing: developing-a-growth-model-marketplace-growth-strategy-dan-hockenmaier
+    4 themes written, 3 new themes discovered
+
+[45/254]   Processing: driving-alignment-within-teams-work-life-balance-and-the-changing-pm-landscape
+    JSON parse error for driving-alignment-within-teams-work-life-balance-and-the-changing-pm-landscape: Expecting ',' delimiter: line 8 column 626 (char 863)
+
+[46/254]   Processing: dumbest-idea-ive-heard-to-100m-arr-inside-the-rise-of-gamma-grant-lee
+    8 themes written, 3 new themes discovered
+
+[47/254]   Processing: dylan-field-live-at-figmas-config-intuition-simplicity-and-the-future
+    7 themes written, 3 new themes discovered
+
+[48/254]   Processing: everyones-an-engineer-now-inside-v0s-mission-to-create-100-million-builders
+    4 themes written, 3 new themes discovered
+
+[49/254]   Processing: everything-youve-ever-wanted-to-know-about-safe-and-the-product-owner-role
+    4 themes written, 2 new themes discovered
+
+[50/254]   Processing: failure
+    6 themes written, 2 new themes discovered
+
+[51/254]   Processing: feeling-stuck-heres-how-to-know-when-its-time-to-leave-your-job-ada-chen
+    4 themes written, 2 new themes discovered
+
+[52/254]   Processing: figmas-ceo-why-ai-makes-design-craft-and-quality-the-new-moat-for-startups
+    7 themes written, 3 new themes discovered
+
+[53/254]   Processing: finding-hidden-growth-opportunities-in-your-product-albert-cheng-duolingo
+    5 themes written, 3 new themes discovered
+
+[54/254]   Processing: founder-led-sales-pete-kazanjy-founding-sales-atrium
+    4 themes written, 3 new themes discovered
+
+[55/254]   Processing: frameworks-for-product-differentiation-team-building-and-first-principles
+    5 themes written, 3 new themes discovered
+
+[56/254]   Processing: from-managing-people-to-managing-ai-the-leadership-skills-everyone-needs
+    4 themes written, 2 new themes discovered
+
+[57/254]   Processing: gain-attention-as-an-underdog-with-this-framework-lulu-cheng-meservey
+    4 themes written, 2 new themes discovered
+
+[58/254]   Processing: geoffrey-moore-on-finding-your-beachhead-crossing-the-chasm-and-dominating
+    3 themes written, 2 new themes discovered
+
+[59/254]   Processing: gokul-rajaram-on-designing-your-product-development-process-when-and-how-to-hire
+    6 themes written, 3 new themes discovered
+
+[60/254]   Processing: good-strategy-bad-strategy-richard-rumelt
+    5 themes written, 2 new themes discovered
+
+[61/254]   Processing: growth-tactics-from-openai-and-stripes-first-marketer-krithika-shankarraman
+    7 themes written, 2 new themes discovered
+
+[62/254]   Processing: hard-won-lessons-building-0-to-1-inside-atlassian-tanguy-crusson-head-of
+    8 themes written, 3 new themes discovered
+
+[63/254]   Processing: he-saved-openai-invented-the-like-button-and-built-google-maps-bret-taylor
+    5 themes written, 2 new themes discovered
+
+[64/254]   Processing: hot-takes-and-techno-optimism-from-techs-top-power-couple-sriram-and-aarthi
+    5 themes written, 2 new themes discovered
+
+[65/254]   Processing: how-80000-companies-build-with-ai-products-as-organisms-and-the-death-of
+    5 themes written, 3 new themes discovered
+
+[66/254]   Processing: how-a-great-founder-becomes-a-great-ceo-jonathan-lowenhar-co-founder-of
+    5 themes written, 3 new themes discovered
+
+[67/254]   Processing: how-block-is-becoming-the-most-ai-native-enterprise-in-the-world-dhanji-r
+    6 themes written, 3 new themes discovered
+
+[68/254]   Processing: how-embracing-your-emotions-will-accelerate-your-career-joe-hudson-art-of
+    5 themes written, 3 new themes discovered
+
+[69/254]   Processing: how-have-i-been-complicit-in-creating-the-conditions-i-say-i-dont-want
+    3 themes written, 2 new themes discovered
+
+[70/254]   Processing: how-intercom-rose-from-the-ashes-by-betting-everything-on-ai-eoghan-mccabe
+    6 themes written, 2 new themes discovered
+
+[71/254]   Processing: how-marketplaces-win-liquidity-growth-levers-quality-more-benjamin-lauzier
+    Error for how-marketplaces-win-liquidity-growth-levers-quality-more-benjamin-lauzier: 
+    Skipping how-marketplaces-win-liquidity-growth-levers-quality-more-benjamin-lauzier — no response
+
+[72/254]   Processing: how-netflix-builds-a-culture-of-excellence-elizabeth-stone-cto
+    Error for how-netflix-builds-a-culture-of-excellence-elizabeth-stone-cto: 
+    Skipping how-netflix-builds-a-culture-of-excellence-elizabeth-stone-cto — no response
+
+[73/254]   Processing: how-notion-leveraged-community-to-build-a-10b-business-camille-ricketts
+    Error for how-notion-leveraged-community-to-build-a-10b-business-camille-ricketts: 
+    Skipping how-notion-leveraged-community-to-build-a-10b-business-camille-ricketts — no response
+
+[74/254]   Processing: how-palantir-built-the-ultimate-founder-factory-nabeel-s-qureshi-founder
+    Error for how-palantir-built-the-ultimate-founder-factory-nabeel-s-qureshi-founder: 
+    Skipping how-palantir-built-the-ultimate-founder-factory-nabeel-s-qureshi-founder — no response
+
+[75/254]   Processing: how-revolut-trains-world-class-pms-the-u201clocal-ceou201d-model-raw-intellect-b
+    Error for how-revolut-trains-world-class-pms-the-u201clocal-ceou201d-model-raw-intellect-b: 
+    Skipping how-revolut-trains-world-class-pms-the-u201clocal-ceou201d-model-raw-intellect-b — no response
+
+[76/254]   Processing: how-shopify-builds-a-high-intensity-culture-farhan-thawar-vp-and-head-of
+    Error for how-shopify-builds-a-high-intensity-culture-farhan-thawar-vp-and-head-of: 
+    Skipping how-shopify-builds-a-high-intensity-culture-farhan-thawar-vp-and-head-of — no response
+
+[77/254]   Processing: how-snyk-built-a-product-led-growth-juggernaut-ben-williams-vp-of-product
+    Error for how-snyk-built-a-product-led-growth-juggernaut-ben-williams-vp-of-product: 
+    Skipping how-snyk-built-a-product-led-growth-juggernaut-ben-williams-vp-of-product — no response
+
+[78/254]   Processing: how-to-achieve-hypergrowth-in-your-business-and-career-carilu-dietrich-atlassian
+    Error for how-to-achieve-hypergrowth-in-your-business-and-career-carilu-dietrich-atlassian: 
+    Skipping how-to-achieve-hypergrowth-in-your-business-and-career-carilu-dietrich-atlassian — no response
+
+[79/254]   Processing: how-to-ask-the-right-questions-project-confidence-and-win-over-skeptics
+    Error for how-to-ask-the-right-questions-project-confidence-and-win-over-skeptics: 
+    Skipping how-to-ask-the-right-questions-project-confidence-and-win-over-skeptics — no response
+
+[80/254]   Processing: how-to-be-more-innovative-sam-schillace-microsoft-deputy-cto-creator-of
+    Error for how-to-be-more-innovative-sam-schillace-microsoft-deputy-cto-creator-of: 
+    Skipping how-to-be-more-innovative-sam-schillace-microsoft-deputy-cto-creator-of — no response
+
+[81/254]   Processing: how-to-be-the-best-coach-to-product-people-petra-wille-strong-product-people
+    Error for how-to-be-the-best-coach-to-product-people-petra-wille-strong-product-people: 
+    Skipping how-to-be-the-best-coach-to-product-people-petra-wille-strong-product-people — no response
+
+[82/254]   Processing: how-to-become-a-category-pirate-christopher-lochhead-author-of-play-bigger
+    Error for how-to-become-a-category-pirate-christopher-lochhead-author-of-play-bigger: 
+    Skipping how-to-become-a-category-pirate-christopher-lochhead-author-of-play-bigger — no response
+
+[83/254]   Processing: how-to-break-out-of-autopilot-and-create-the-life-you-want-graham-weaver
+    Error for how-to-break-out-of-autopilot-and-create-the-life-you-want-graham-weaver: 
+    Skipping how-to-break-out-of-autopilot-and-create-the-life-you-want-graham-weaver — no response
+
+[84/254]   Processing: how-to-build-a-high-performing-growth-team-adam-fishman-patreon-lyft-imperfect
+    Error for how-to-build-a-high-performing-growth-team-adam-fishman-patreon-lyft-imperfect: 
+    Skipping how-to-build-a-high-performing-growth-team-adam-fishman-patreon-lyft-imperfect — no response
+
+[85/254]   Processing: how-to-build-a-powerful-marketing-machine-emily-kramer-asana-carta-mkt1
+    Error for how-to-build-a-powerful-marketing-machine-emily-kramer-asana-carta-mkt1: 
+    Skipping how-to-build-a-powerful-marketing-machine-emily-kramer-asana-carta-mkt1 — no response
+
+[86/254]   Processing: how-to-build-a-team-that-can-take-a-punch-hilary-gridley-head-of-core
+    Error for how-to-build-a-team-that-can-take-a-punch-hilary-gridley-head-of-core: 
+    Skipping how-to-build-a-team-that-can-take-a-punch-hilary-gridley-head-of-core — no response
+
+[87/254]   Processing: how-to-build-deeper-more-robust-relationships-carole-robin-stanford-professor
+    Error for how-to-build-deeper-more-robust-relationships-carole-robin-stanford-professor: 
+    Skipping how-to-build-deeper-more-robust-relationships-carole-robin-stanford-professor — no response
+
+[88/254]   Processing: how-to-build-trust-and-grow-as-a-product-leader-fareed-mosavat-reforge
+    Error for how-to-build-trust-and-grow-as-a-product-leader-fareed-mosavat-reforge: 
+    Skipping how-to-build-trust-and-grow-as-a-product-leader-fareed-mosavat-reforge — no response
+
+[89/254]   Processing: how-to-build-your-product-strategy-stack-ravi-mehta-tinder-facebook-tripadvisor
+    Error for how-to-build-your-product-strategy-stack-ravi-mehta-tinder-facebook-tripadvisor: 
+    Skipping how-to-build-your-product-strategy-stack-ravi-mehta-tinder-facebook-tripadvisor — no response
+
+[90/254]   Processing: how-to-discover-your-superpowers-own-your-story-and-unlock-personal-growth
+    Error for how-to-discover-your-superpowers-own-your-story-and-unlock-personal-growth: 
+    Skipping how-to-discover-your-superpowers-own-your-story-and-unlock-personal-growth — no response
+
+[91/254]   Processing: how-to-drive-word-of-mouth-nilan-peiris-cpo-of-wise
+    Error for how-to-drive-word-of-mouth-nilan-peiris-cpo-of-wise: 
+    Skipping how-to-drive-word-of-mouth-nilan-peiris-cpo-of-wise — no response
+
+[92/254]   Processing: how-to-find-work-you-love-bob-moesta-jobs-to-be-done-co-creator-author
+    Error for how-to-find-work-you-love-bob-moesta-jobs-to-be-done-co-creator-author: 
+    Skipping how-to-find-work-you-love-bob-moesta-jobs-to-be-done-co-creator-author — no response
+
+[93/254]   Processing: how-to-foster-innovation-and-big-thinking-eeke-de-milliano-retool-stripe
+    Error for how-to-foster-innovation-and-big-thinking-eeke-de-milliano-retool-stripe: 
+    Skipping how-to-foster-innovation-and-big-thinking-eeke-de-milliano-retool-stripe — no response
+
+[94/254]   Processing: how-to-get-press-for-your-product-jason-feifer-editor-in-chief-of-entrepreneur
+    Error for how-to-get-press-for-your-product-jason-feifer-editor-in-chief-of-entrepreneur: 
+    Skipping how-to-get-press-for-your-product-jason-feifer-editor-in-chief-of-entrepreneur — no response
+
+[95/254]   Processing: how-to-grow-a-subscription-business-yuriy-timen-grammarly-canva-airtable
+    Error for how-to-grow-a-subscription-business-yuriy-timen-grammarly-canva-airtable: 
+    Skipping how-to-grow-a-subscription-business-yuriy-timen-grammarly-canva-airtable — no response
+
+[96/254]   Processing: how-to-hit-revenue-targets-in-a-recession-sahil-mansuri-bravado
+    Error for how-to-hit-revenue-targets-in-a-recession-sahil-mansuri-bravado: 
+    Skipping how-to-hit-revenue-targets-in-a-recession-sahil-mansuri-bravado — no response
+
+[97/254]   Processing: how-to-measure-ai-developer-productivity-in-2025-nicole-forsgren
+    Error for how-to-measure-ai-developer-productivity-in-2025-nicole-forsgren: 
+    Skipping how-to-measure-ai-developer-productivity-in-2025-nicole-forsgren — no response
+
+[98/254]   Processing: how-to-nail-your-product-positioning-april-dunford-obviously-awesome
+    Error for how-to-nail-your-product-positioning-april-dunford-obviously-awesome: 
+    Skipping how-to-nail-your-product-positioning-april-dunford-obviously-awesome — no response
+
+[99/254]   Processing: how-to-price-your-product-naomi-ionita-menlo-ventures
+    Error for how-to-price-your-product-naomi-ionita-menlo-ventures: 
+    Skipping how-to-price-your-product-naomi-ionita-menlo-ventures — no response
+
+[100/254]   Processing: how-to-scrappily-hire-for-measure-and-unlock-growth-crystal-widjaja-gojek
+    Error for how-to-scrappily-hire-for-measure-and-unlock-growth-crystal-widjaja-gojek: 
+    Skipping how-to-scrappily-hire-for-measure-and-unlock-growth-crystal-widjaja-gojek — no response
+
+[101/254]   Processing: how-to-see-like-a-designer-the-hidden-power-of-typography-and-logos-jessica
+    Error for how-to-see-like-a-designer-the-hidden-power-of-typography-and-logos-jessica: 
+    Skipping how-to-see-like-a-designer-the-hidden-power-of-typography-and-logos-jessica — no response
+
+[102/254]   Processing: how-to-sell-your-ideas-and-rise-within-your-company-casey-winters-eventbrite
+    Error for how-to-sell-your-ideas-and-rise-within-your-company-casey-winters-eventbrite: 
+    Skipping how-to-sell-your-ideas-and-rise-within-your-company-casey-winters-eventbrite — no response
+
+[103/254]   Processing: how-to-speak-more-confidently-and-persuasively-matt-abrahams-professor
+    Error for how-to-speak-more-confidently-and-persuasively-matt-abrahams-professor: 
+    Skipping how-to-speak-more-confidently-and-persuasively-matt-abrahams-professor — no response
+
+[104/254]   Processing: how-to-tell-better-stories-matthew-dicks-storyworthy
+    Error for how-to-tell-better-stories-matthew-dicks-storyworthy: 
+    Skipping how-to-tell-better-stories-matthew-dicks-storyworthy — no response
+
+[105/254]   Processing: how-to-unlock-your-product-leadership-skills-ken-norton-ex-google
+    Error for how-to-unlock-your-product-leadership-skills-ken-norton-ex-google: 
+    Skipping how-to-unlock-your-product-leadership-skills-ken-norton-ex-google — no response
+
+[106/254]   Processing: how-to-win-friends-influence-decisions-julie-zhuo-lenny-friends-summit
+    Error for how-to-win-friends-influence-decisions-julie-zhuo-lenny-friends-summit: 
+    Skipping how-to-win-friends-influence-decisions-julie-zhuo-lenny-friends-summit — no response
+
+[107/254]   Processing: how-to-work-through-fear-give-hard-feedback-and-doing-layoffs-with-grace
+    Error for how-to-work-through-fear-give-hard-feedback-and-doing-layoffs-with-grace: 
+    Skipping how-to-work-through-fear-give-hard-feedback-and-doing-layoffs-with-grace — no response
+
+[108/254]   Processing: how-we-restructured-airtables-entire-org-for-ai-howie-liu-co-founder-and
+    Error for how-we-restructured-airtables-entire-org-for-ai-howie-liu-co-founder-and: 
+    Skipping how-we-restructured-airtables-entire-org-for-ai-howie-liu-co-founder-and — no response
+
+[109/254]   Processing: humanizing-product-development-adriel-frederick-reddit-lyft-facebook
+    Error for humanizing-product-development-adriel-frederick-reddit-lyft-facebook: 
+    Skipping humanizing-product-development-adriel-frederick-reddit-lyft-facebook — no response
+
+[110/254]   Processing: i-deliberately-understaff-every-project-leadership-lessons-from-ripplings-16b-jo
+    Error for i-deliberately-understaff-every-project-leadership-lessons-from-ripplings-16b-jo: 
+    Skipping i-deliberately-understaff-every-project-leadership-lessons-from-ripplings-16b-jo — no response
+
+[111/254]   Processing: i-like-being-scared-molly-grahams-frameworks-for-rapid-career-growth
+    Error for i-like-being-scared-molly-grahams-frameworks-for-rapid-career-growth: 
+    Skipping i-like-being-scared-molly-grahams-frameworks-for-rapid-career-growth — no response
+
+[112/254]   Processing: improve-strategy-influence-and-decision-making-by-understanding-your-brain
+    Error for improve-strategy-influence-and-decision-making-by-understanding-your-brain: 
+    Skipping improve-strategy-influence-and-decision-making-by-understanding-your-brain — no response
+
+[113/254]   Processing: inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history
+    Error for inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history: 
+    Skipping inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history — no response
+
+[114/254]   Processing: inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing
+    Error for inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing: 
+    Skipping inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing — no response
+
+[115/254]   Processing: inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai
+    Error for inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai: 
+    Skipping inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai — no response
+
+[116/254]   Processing: inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code
+    Error for inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code: 
+    Skipping inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code — no response
+
+[117/254]   Processing: inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of
+    Error for inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of: 
+    Skipping inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of — no response
+
+[118/254]   Processing: inside-googles-ai-turnaround-ai-mode-ai-overviews-and-vision-for-ai-powered
+    Error for inside-googles-ai-turnaround-ai-mode-ai-overviews-and-vision-for-ai-powered: 
+    Skipping inside-googles-ai-turnaround-ai-mode-ai-overviews-and-vision-for-ai-powered — no response
+
+[119/254]   Processing: inside-linear-building-with-taste-craft-and-focus-karri-saarinen-co-founder
+    Error for inside-linear-building-with-taste-craft-and-focus-karri-saarinen-co-founder: 
+    Skipping inside-linear-building-with-taste-craft-and-focus-karri-saarinen-co-founder — no response
+
+[120/254]   Processing: inside-openai-logan-kilpatrick-head-of-developer-relations
+    Error for inside-openai-logan-kilpatrick-head-of-developer-relations: 
+    Skipping inside-openai-logan-kilpatrick-head-of-developer-relations — no response
+
+[121/254]   Processing: inside-the-expert-network-training-every-frontier-ai-model-garrett-lord
+    Error for inside-the-expert-network-training-every-frontier-ai-model-garrett-lord: 
+    Skipping inside-the-expert-network-training-every-frontier-ai-model-garrett-lord — no response
+
+[122/254]   Processing: ive-run-75-businesses-heres-why-youre-probably-chasing-the-wrong-idea
+    Error for ive-run-75-businesses-heres-why-youre-probably-chasing-the-wrong-idea: 
+    Skipping ive-run-75-businesses-heres-why-youre-probably-chasing-the-wrong-idea — no response
+
+[123/254]   Processing: jason-fried-challenges-your-thinking-on-fundraising-goals-growth-and-more
+    Error for jason-fried-challenges-your-thinking-on-fundraising-goals-growth-and-more: 
+    Skipping jason-fried-challenges-your-thinking-on-fundraising-goals-growth-and-more — no response
+
+[124/254]   Processing: kunal-shah-on-winning-in-india-second-order-thinking-the-philosophy-of-startups
+    Error for kunal-shah-on-winning-in-india-second-order-thinking-the-philosophy-of-startups: 
+    Skipping kunal-shah-on-winning-in-india-second-order-thinking-the-philosophy-of-startups — no response
+
+[125/254]   Processing: land-your-dream-job-in-todays-market-negotiation-tactics-job-search-councils
+    Error for land-your-dream-job-in-todays-market-negotiation-tactics-job-search-councils: 
+    Skipping land-your-dream-job-in-todays-market-negotiation-tactics-job-search-councils — no response
+
+[126/254]   Processing: launching-and-growing-a-podcast-chris-hutchins-all-the-hacks-wealthfront
+    Error for launching-and-growing-a-podcast-chris-hutchins-all-the-hacks-wealthfront: 
+    Skipping launching-and-growing-a-podcast-chris-hutchins-all-the-hacks-wealthfront — no response
+
+[127/254]   Processing: leading-with-empathy-keith-yandell-doordash-uber
+    Error for leading-with-empathy-keith-yandell-doordash-uber: 
+    Skipping leading-with-empathy-keith-yandell-doordash-uber — no response
+
+[128/254]   Processing: leaving-big-tech-to-build-the-1-technology-newsletter-gergely-orosz-the
+    Error for leaving-big-tech-to-build-the-1-technology-newsletter-gergely-orosz-the: 
+    Skipping leaving-big-tech-to-build-the-1-technology-newsletter-gergely-orosz-the — no response
+
+[129/254]   Processing: lessons-from-1000-yc-startups-resilience-tar-pit-ideas-pivoting-more
+    Error for lessons-from-1000-yc-startups-resilience-tar-pit-ideas-pivoting-more: 
+    Skipping lessons-from-1000-yc-startups-resilience-tar-pit-ideas-pivoting-more — no response
+
+[130/254]   Processing: lessons-from-airtables-unconventional-growth-strategy-zoelle-egner
+    Error for lessons-from-airtables-unconventional-growth-strategy-zoelle-egner: 
+    Skipping lessons-from-airtables-unconventional-growth-strategy-zoelle-egner — no response
+
+[131/254]   Processing: lessons-from-atlassian-megan-cook-head-of-product-jira
+    Error for lessons-from-atlassian-megan-cook-head-of-product-jira: 
+    Skipping lessons-from-atlassian-megan-cook-head-of-product-jira — no response
+
+[132/254]   Processing: lessons-from-one-of-the-worlds-top-executive-recruiters-lauren-ipsen-daversa
+    Error for lessons-from-one-of-the-worlds-top-executive-recruiters-lauren-ipsen-daversa: 
+    Skipping lessons-from-one-of-the-worlds-top-executive-recruiters-lauren-ipsen-daversa — no response
+
+[133/254]   Processing: lessons-from-scaling-ramp-sri-batchu-ramp-instacart-opendoor
+    Error for lessons-from-scaling-ramp-sri-batchu-ramp-instacart-opendoor: 
+    Skipping lessons-from-scaling-ramp-sri-batchu-ramp-instacart-opendoor — no response
+
+[134/254]   Processing: lessons-from-scaling-stripe-claire-hughes-johnson-ex-coo-of-stripe
+    Error for lessons-from-scaling-stripe-claire-hughes-johnson-ex-coo-of-stripe: 
+    Skipping lessons-from-scaling-stripe-claire-hughes-johnson-ex-coo-of-stripe — no response
+
+[135/254]   Processing: lessons-from-scaling-uber-and-opendoor-brian-tolkin-head-of-product-at-opendoor
+    Error for lessons-from-scaling-uber-and-opendoor-brian-tolkin-head-of-product-at-opendoor: 
+    Skipping lessons-from-scaling-uber-and-opendoor-brian-tolkin-head-of-product-at-opendoor — no response
+
+[136/254]   Processing: lessons-from-working-with-600-yc-startups-gustaf-alströmer-y-combinator
+    Error for lessons-from-working-with-600-yc-startups-gustaf-alströmer-y-combinator: 
+    Skipping lessons-from-working-with-600-yc-startups-gustaf-alströmer-y-combinator — no response
+
+[137/254]   Processing: lessons-in-product-leadership-and-ai-strategy-from-glean-google-amazon-and
+    Error for lessons-in-product-leadership-and-ai-strategy-from-glean-google-amazon-and: 
+    Skipping lessons-in-product-leadership-and-ai-strategy-from-glean-google-amazon-and — no response
+
+[138/254]   Processing: lessons-on-product-sense-ai-the-first-mile-experience-and-the-messy-middle
+    Error for lessons-on-product-sense-ai-the-first-mile-experience-and-the-messy-middle: 
+    Skipping lessons-on-product-sense-ai-the-first-mile-experience-and-the-messy-middle — no response
+
+[139/254]   Processing: leveraging-growth-advisors-mastering-seo-and-honing-your-craft-luc-levesque
+    Error for leveraging-growth-advisors-mastering-seo-and-honing-your-craft-luc-levesque: 
+    Skipping leveraging-growth-advisors-mastering-seo-and-honing-your-craft-luc-levesque — no response
+
+[140/254]   Processing: leveraging-mentors-to-uplevel-your-career-jules-walter-youtube-slack
+    Error for leveraging-mentors-to-uplevel-your-career-jules-walter-youtube-slack: 
+    Skipping leveraging-mentors-to-uplevel-your-career-jules-walter-youtube-slack — no response
+
+[141/254]   Processing: linears-secret-to-building-beloved-b2b-products-nan-yu-head-of-product
+    Error for linears-secret-to-building-beloved-b2b-products-nan-yu-head-of-product: 
+    Skipping linears-secret-to-building-beloved-b2b-products-nan-yu-head-of-product — no response
+
+[142/254]   Processing: linkedins-product-evolution-and-the-art-of-building-complex-systems-hari
+    Error for linkedins-product-evolution-and-the-art-of-building-complex-systems-hari: 
+    Skipping linkedins-product-evolution-and-the-art-of-building-complex-systems-hari — no response
+
+[143/254]   Processing: ma-competition-pricing-and-investing-julia-schottenstein-dbt-labs
+    Error for ma-competition-pricing-and-investing-julia-schottenstein-dbt-labs: 
+    Skipping ma-competition-pricing-and-investing-julia-schottenstein-dbt-labs — no response
+
+[144/254]   Processing: making-an-impact-through-authenticity-and-curiosity-ami-vora-cpo-at-faire
+    Error for making-an-impact-through-authenticity-and-curiosity-ami-vora-cpo-at-faire: 
+    Skipping making-an-impact-through-authenticity-and-curiosity-ami-vora-cpo-at-faire — no response
+
+[145/254]   Processing: making-meta-andrew-boz-bosworth-cto
+    Error for making-meta-andrew-boz-bosworth-cto: 
+    Skipping making-meta-andrew-boz-bosworth-cto — no response
+
+[146/254]   Processing: making-time-for-what-matters-jake-knapp-and-john-zeratsky-authors-of-make
+    Error for making-time-for-what-matters-jake-knapp-and-john-zeratsky-authors-of-make: 
+    Skipping making-time-for-what-matters-jake-knapp-and-john-zeratsky-authors-of-make — no response
+
+[147/254]   Processing: managing-nerves-anxiety-and-burnout-jonny-miller-nervous-systems-mastery
+    Error for managing-nerves-anxiety-and-burnout-jonny-miller-nervous-systems-mastery: 
+    Skipping managing-nerves-anxiety-and-burnout-jonny-miller-nervous-systems-mastery — no response
+
+[148/254]   Processing: marketplace-lessons-from-uber-airbnb-bumble-and-more-ramesh-johari-stanford
+    Error for marketplace-lessons-from-uber-airbnb-bumble-and-more-ramesh-johari-stanford: 
+    Skipping marketplace-lessons-from-uber-airbnb-bumble-and-more-ramesh-johari-stanford — no response
+
+[149/254]   Processing: mastering-onboarding-lauryn-isford-head-of-growth-at-airtable
+    Error for mastering-onboarding-lauryn-isford-head-of-growth-at-airtable: 
+    Skipping mastering-onboarding-lauryn-isford-head-of-growth-at-airtable — no response
+
+[150/254]   Processing: mastering-product-strategy-and-growing-as-a-pm-maggie-crowley-toast-drift
+    Error for mastering-product-strategy-and-growing-as-a-pm-maggie-crowley-toast-drift: 
+    Skipping mastering-product-strategy-and-growing-as-a-pm-maggie-crowley-toast-drift — no response
+
+[151/254]   Processing: mental-models-for-building-products-people-love-ft-stewart-butterfield
+    Error for mental-models-for-building-products-people-love-ft-stewart-butterfield: 
+    Skipping mental-models-for-building-products-people-love-ft-stewart-butterfield — no response
+
+[152/254]   Processing: metas-head-of-product-on-working-with-mark-zuckerberg-early-growth-tactics
+    Error for metas-head-of-product-on-working-with-mark-zuckerberg-early-growth-tactics: 
+    Skipping metas-head-of-product-on-working-with-mark-zuckerberg-early-growth-tactics — no response
+
+[153/254]   Processing: microsoft-cpo-if-you-arent-prototyping-with-ai-youre-doing-it-wrong-aparna
+    Error for microsoft-cpo-if-you-arent-prototyping-with-ai-youre-doing-it-wrong-aparna: 
+    Skipping microsoft-cpo-if-you-arent-prototyping-with-ai-youre-doing-it-wrong-aparna — no response
+
+[154/254]   Processing: monetizing-passions-scaling-marketplaces-and-stories-from-a-creator-economy
+    Error for monetizing-passions-scaling-marketplaces-and-stories-from-a-creator-economy: 
+    Skipping monetizing-passions-scaling-marketplaces-and-stories-from-a-creator-economy — no response
+
+[155/254]   Processing: moving-fast-and-navigating-uncertainty-jeremy-henrickson-rippling-coinbase
+    Error for moving-fast-and-navigating-uncertainty-jeremy-henrickson-rippling-coinbase: 
+    Skipping moving-fast-and-navigating-uncertainty-jeremy-henrickson-rippling-coinbase — no response
+
+[156/254]   Processing: nickey-skarstad-airbnb-etsy-shopify-duolingo-on-translating-vision-into-goals-op
+    Error for nickey-skarstad-airbnb-etsy-shopify-duolingo-on-translating-vision-into-goals-op: 
+    Skipping nickey-skarstad-airbnb-etsy-shopify-duolingo-on-translating-vision-into-goals-op — no response
+
+[157/254]   Processing: notions-lost-years-near-collapse-during-covid-staying-small-to-move-fast-buildin
+    Error for notions-lost-years-near-collapse-during-covid-staying-small-to-move-fast-buildin: 
+    Skipping notions-lost-years-near-collapse-during-covid-staying-small-to-move-fast-buildin — no response
+
+[158/254]   Processing: openai-researcher-on-why-soft-skills-are-the-future-of-work-karina-nguyen
+    Error for openai-researcher-on-why-soft-skills-are-the-future-of-work-karina-nguyen: 
+    Skipping openai-researcher-on-why-soft-skills-are-the-future-of-work-karina-nguyen — no response
+
+[159/254]   Processing: openais-cpo-on-how-ai-changes-must-have-skills-moats-coding-startup-playbooks
+    Error for openais-cpo-on-how-ai-changes-must-have-skills-moats-coding-startup-playbooks: 
+    Skipping openais-cpo-on-how-ai-changes-must-have-skills-moats-coding-startup-playbooks — no response
+
+[160/254]   Processing: pattern-breakers-how-to-find-a-breakthrough-startup-idea-mike-maples-jr
+    Error for pattern-breakers-how-to-find-a-breakthrough-startup-idea-mike-maples-jr: 
+    Skipping pattern-breakers-how-to-find-a-breakthrough-startup-idea-mike-maples-jr — no response
+
+[161/254]   Processing: persuasive-communication-and-managing-up-wes-kao-maven-altmba-section4
+    Error for persuasive-communication-and-managing-up-wes-kao-maven-altmba-section4: 
+    Skipping persuasive-communication-and-managing-up-wes-kao-maven-altmba-section4 — no response
+
+[162/254]   Processing: peter-deng
+    Error for peter-deng: 
+    Skipping peter-deng — no response
+
+[163/254]   Processing: picking-sharp-problems-increasing-virality-and-unique-product-frameworks
+    Error for picking-sharp-problems-increasing-virality-and-unique-product-frameworks: 
+    Skipping picking-sharp-problems-increasing-virality-and-unique-product-frameworks — no response
+
+[164/254]   Processing: pricing-your-ai-product-lessons-from-400-companies-and-50-unicorns-madhavan
+    Error for pricing-your-ai-product-lessons-from-400-companies-and-50-unicorns-madhavan: 
+    Skipping pricing-your-ai-product-lessons-from-400-companies-and-50-unicorns-madhavan — no response
+
+[165/254]   Processing: product-lessons-from-waymo-shweta-shrivastava-waymo-amazon-cisco
+    Error for product-lessons-from-waymo-shweta-shrivastava-waymo-amazon-cisco: 
+    Skipping product-lessons-from-waymo-shweta-shrivastava-waymo-amazon-cisco — no response
+
+[166/254]   Processing: product-management-theater-marty-cagan-silicon-valley-product-group
+    Error for product-management-theater-marty-cagan-silicon-valley-product-group: 
+    Skipping product-management-theater-marty-cagan-silicon-valley-product-group — no response
+
+[167/254]   Processing: redefining-success-money-and-belonging-paul-millerd-the-pathless-path
+    Error for redefining-success-money-and-belonging-paul-millerd-the-pathless-path: 
+    Skipping redefining-success-money-and-belonging-paul-millerd-the-pathless-path — no response
+
+[168/254]   Processing: reflections-on-a-movement-eric-ries-creator-of-the-lean-startup-methodology
+    Error for reflections-on-a-movement-eric-ries-creator-of-the-lean-startup-methodology: 
+    Skipping reflections-on-a-movement-eric-ries-creator-of-the-lean-startup-methodology — no response
+
+[169/254]   Processing: relentless-curiosity-radical-accountability-and-hubspots-winning-growth
+    Error for relentless-curiosity-radical-accountability-and-hubspots-winning-growth: 
+    Skipping relentless-curiosity-radical-accountability-and-hubspots-winning-growth — no response
+
+[170/254]   Processing: rethinking-seo-in-the-age-of-ai-eli-schwartz-seo-advisor-author
+    Error for rethinking-seo-in-the-age-of-ai-eli-schwartz-seo-advisor-author: 
+    Skipping rethinking-seo-in-the-age-of-ai-eli-schwartz-seo-advisor-author — no response
+
+[171/254]   Processing: scale-ai-ceo-on-metas-14b-deal-scaling-uber-eats-to-80b-what-frontier-labs-are-b
+    Error for scale-ai-ceo-on-metas-14b-deal-scaling-uber-eats-to-80b-what-frontier-labs-are-b: 
+    Skipping scale-ai-ceo-on-metas-14b-deal-scaling-uber-eats-to-80b-what-frontier-labs-are-b — no response
+
+[172/254]   Processing: scaling-duolingo-embracing-failure-and-insight-into-latin-americas-tech
+    Error for scaling-duolingo-embracing-failure-and-insight-into-latin-americas-tech: 
+    Skipping scaling-duolingo-embracing-failure-and-insight-into-latin-americas-tech — no response
+
+[173/254]   Processing: scripts-for-navigating-difficult-conversations-alisa-cohn-executive-coach
+    Error for scripts-for-navigating-difficult-conversations-alisa-cohn-executive-coach: 
+    Skipping scripts-for-navigating-difficult-conversations-alisa-cohn-executive-coach — no response
+
+[174/254]   Processing: seth-godins-best-tactics-for-building-remarkable-products-strategies-brands
+    Error for seth-godins-best-tactics-for-building-remarkable-products-strategies-brands: 
+    Skipping seth-godins-best-tactics-for-building-remarkable-products-strategies-brands — no response
+
+[175/254]   Processing: she-turned-100-rejections-into-a-42b-company-melanie-perkins
+    Error for she-turned-100-rejections-into-a-42b-company-melanie-perkins: 
+    Skipping she-turned-100-rejections-into-a-42b-company-melanie-perkins — no response
+
+[176/254]   Processing: storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and
+    Error for storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and: 
+    Skipping storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and — no response
+
+[177/254]   Processing: strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal
+    Error for strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal: 
+    Skipping strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal — no response
+
+[178/254]   Processing: succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like
+    Error for succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like: 
+    Skipping succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like — no response
+
+[179/254]   Processing: superhumans-secret-to-success-rahul-vohra-ceo-and-founder
+    Error for superhumans-secret-to-success-rahul-vohra-ceo-and-founder: 
+    Skipping superhumans-secret-to-success-rahul-vohra-ceo-and-founder — no response
+
+[180/254]   Processing: taking-control-of-your-career-ethan-evans-amazon
+    Error for taking-control-of-your-career-ethan-evans-amazon: 
+    Skipping taking-control-of-your-career-ethan-evans-amazon — no response
+
+[181/254]   Processing: taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup
+    Error for taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup: 
+    Skipping taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup — no response
+
+[182/254]   Processing: teaser-2021
+    Error for teaser-2021: 
+    Skipping teaser-2021 — no response
+
+[183/254]   Processing: the-10-traits-of-great-pms-ai-and-slacks-approach-to-product-noah-weiss
+    Error for the-10-traits-of-great-pms-ai-and-slacks-approach-to-product-noah-weiss: 
+    Skipping the-10-traits-of-great-pms-ai-and-slacks-approach-to-product-noah-weiss — no response
+
+[184/254]   Processing: the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible
+    Error for the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible: 
+    Skipping the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible — no response
+
+[185/254]   Processing: the-ai-native-startup-5-products-7-figure-revenue-100-ai-written-code
+    Error for the-ai-native-startup-5-products-7-figure-revenue-100-ai-written-code: 
+    Skipping the-ai-native-startup-5-products-7-figure-revenue-100-ai-written-code — no response
+
+[186/254]   Processing: the-art-and-science-of-pricing-madhavan-ramanujam-monetizing-innovation
+    Error for the-art-and-science-of-pricing-madhavan-ramanujam-monetizing-innovation: 
+    Skipping the-art-and-science-of-pricing-madhavan-ramanujam-monetizing-innovation — no response
+
+[187/254]   Processing: the-art-and-wisdom-of-changing-teams-heidi-helfand-author-of-dynamic-reteaming
+    Error for the-art-and-wisdom-of-changing-teams-heidi-helfand-author-of-dynamic-reteaming: 
+    Skipping the-art-and-wisdom-of-changing-teams-heidi-helfand-author-of-dynamic-reteaming — no response
+
+[188/254]   Processing: the-art-of-building-legendary-brands-arielle-jackson-google-square-first
+    Error for the-art-of-building-legendary-brands-arielle-jackson-google-square-first: 
+    Skipping the-art-of-building-legendary-brands-arielle-jackson-google-square-first — no response
+
+[189/254]   Processing: the-art-of-product-management-shreyas-doshi-stripe-twitter-google-yahoo
+    Error for the-art-of-product-management-shreyas-doshi-stripe-twitter-google-yahoo: 
+    Skipping the-art-of-product-management-shreyas-doshi-stripe-twitter-google-yahoo — no response
+
+[190/254]   Processing: the-crazy-story-of-landing-uber-as-a-client-jonathan-becker-thrive-digital
+    Error for the-crazy-story-of-landing-uber-as-a-client-jonathan-becker-thrive-digital: 
+    Skipping the-crazy-story-of-landing-uber-as-a-client-jonathan-becker-thrive-digital — no response
+
+[191/254]   Processing: the-disease-of-process-people-marty-cagan
+    Error for the-disease-of-process-people-marty-cagan: 
+    Skipping the-disease-of-process-people-marty-cagan — no response
+
+[192/254]   Processing: the-engineering-mindset-will-larson-carta-stripe-uber-calm-digg
+    Error for the-engineering-mindset-will-larson-carta-stripe-uber-calm-digg: 
+    Skipping the-engineering-mindset-will-larson-carta-stripe-uber-calm-digg — no response
+
+[193/254]   Processing: the-essence-of-product-management-christian-idiodi-svpg
+    Error for the-essence-of-product-management-christian-idiodi-svpg: 
+    Skipping the-essence-of-product-management-christian-idiodi-svpg — no response
+
+[194/254]   Processing: the-full-stack-pm-anuj-rathi-swiggy-jupiter-money-flipkart
+    Error for the-full-stack-pm-anuj-rathi-swiggy-jupiter-money-flipkart: 
+    Skipping the-full-stack-pm-anuj-rathi-swiggy-jupiter-money-flipkart — no response
+
+[195/254]   Processing: the-future-of-ai-in-software-development-inbal-shani-cpo-of-github
+    Error for the-future-of-ai-in-software-development-inbal-shani-cpo-of-github: 
+    Skipping the-future-of-ai-in-software-development-inbal-shani-cpo-of-github — no response
+
+[196/254]   Processing: the-godmother-of-ai-on-jobs-robots-why-world-models-are-next-dr-fei-fei
+    Error for the-godmother-of-ai-on-jobs-robots-why-world-models-are-next-dr-fei-fei: 
+    Skipping the-godmother-of-ai-on-jobs-robots-why-world-models-are-next-dr-fei-fei — no response
+
+[197/254]   Processing: the-happiness-and-pain-of-product-management-noam-lovinsky-grammarly-fb
+    Error for the-happiness-and-pain-of-product-management-noam-lovinsky-grammarly-fb: 
+    Skipping the-happiness-and-pain-of-product-management-noam-lovinsky-grammarly-fb — no response
+
+[198/254]   Processing: the-hierarchy-of-engagement-sarah-tavel-benchmark-greylock-pinterest
+    Error for the-hierarchy-of-engagement-sarah-tavel-benchmark-greylock-pinterest: 
+    Skipping the-hierarchy-of-engagement-sarah-tavel-benchmark-greylock-pinterest — no response
+
+[199/254]   Processing: the-new-ai-growth-playbook-for-2026-how-lovable-hit-200m-arr-in-one-year
+    Error for the-new-ai-growth-playbook-for-2026-how-lovable-hit-200m-arr-in-one-year: 
+    Skipping the-new-ai-growth-playbook-for-2026-how-lovable-hit-200m-arr-in-one-year — no response
+
+[200/254]   Processing: the-one-question-that-saves-product-careers-matt-lemay
+    Error for the-one-question-that-saves-product-careers-matt-lemay: 
+    Skipping the-one-question-that-saves-product-careers-matt-lemay — no response
+
+[201/254]   Processing: the-original-growth-hacker-reveals-his-secrets-sean-ellis-author-of-hacking
+    Error for the-original-growth-hacker-reveals-his-secrets-sean-ellis-author-of-hacking: 
+    Skipping the-original-growth-hacker-reveals-his-secrets-sean-ellis-author-of-hacking — no response
+
+[202/254]   Processing: the-paths-to-power-how-to-grow-your-influence-and-advance-your-career-jeffrey
+    Error for the-paths-to-power-how-to-grow-your-influence-and-advance-your-career-jeffrey: 
+    Skipping the-paths-to-power-how-to-grow-your-influence-and-advance-your-career-jeffrey — no response
+
+[203/254]   Processing: the-power-of-strategic-narrative-andy-raskin
+    Error for the-power-of-strategic-narrative-andy-raskin: 
+    Skipping the-power-of-strategic-narrative-andy-raskin — no response
+
+[204/254]   Processing: the-rise-of-cursor-the-300m-arr-ai-tool-that-engineers-cant-stop-using
+    Error for the-rise-of-cursor-the-300m-arr-ai-tool-that-engineers-cant-stop-using: 
+    Skipping the-rise-of-cursor-the-300m-arr-ai-tool-that-engineers-cant-stop-using — no response
+
+[205/254]   Processing: the-rituals-of-great-teams-shishir-mehrotra-coda-youtube-microsoft
+    Error for the-rituals-of-great-teams-shishir-mehrotra-coda-youtube-microsoft: 
+    Skipping the-rituals-of-great-teams-shishir-mehrotra-coda-youtube-microsoft — no response
+
+[206/254]   Processing: the-role-of-ai-in-new-product-development-ryan-j-salva-vp-of-product-at
+    Error for the-role-of-ai-in-new-product-development-ryan-j-salva-vp-of-product-at: 
+    Skipping the-role-of-ai-in-new-product-development-ryan-j-salva-vp-of-product-at — no response
+
+[207/254]   Processing: the-science-of-product-big-bets-and-how-ai-is-impacting-the-future-of-music
+    Error for the-science-of-product-big-bets-and-how-ai-is-impacting-the-future-of-music: 
+    Skipping the-science-of-product-big-bets-and-how-ai-is-impacting-the-future-of-music — no response
+
+[208/254]   Processing: the-social-radar-y-combinators-secret-weapon-jessica-livingston-co-founder
+    Error for the-social-radar-y-combinators-secret-weapon-jessica-livingston-co-founder: 
+    Skipping the-social-radar-y-combinators-secret-weapon-jessica-livingston-co-founder — no response
+
+[209/254]   Processing: the-surprising-truth-about-what-closes-deals-insights-from-25m-sales-conversatio
+    Error for the-surprising-truth-about-what-closes-deals-insights-from-25m-sales-conversatio: 
+    Skipping the-surprising-truth-about-what-closes-deals-insights-from-25m-sales-conversatio — no response
+
+[210/254]   Processing: the-things-engineers-are-desperate-for-pms-to-understand-camille-fournier
+Thematic extraction — 151 episodes remaining (121 done)
+
+[1/151]   Processing: behind-the-founder-drew-houston-dropbox
+    6 themes written, 3 new themes discovered
+
+[2/151]   Processing: behind-the-scenes-of-calendlys-rapid-growth-annie-pearl-cpo
+    4 themes written, 3 new themes discovered
+
+[3/151]   Processing: building-high-performing-teams-melissa-tan-webflow-dropbox-canva
+    3 themes written, 3 new themes discovered
+
+[4/151]   Processing: driving-alignment-within-teams-work-life-balance-and-the-changing-pm-landscape
+    4 themes written, 3 new themes discovered
+
+[5/151]   Processing: how-marketplaces-win-liquidity-growth-levers-quality-more-benjamin-lauzier
+    4 themes written, 2 new themes discovered
+
+[6/151]   Processing: how-netflix-builds-a-culture-of-excellence-elizabeth-stone-cto
+    4 themes written, 3 new themes discovered
+
+[7/151]   Processing: how-notion-leveraged-community-to-build-a-10b-business-camille-ricketts
+    5 themes written, 3 new themes discovered
+
+[8/151]   Processing: how-palantir-built-the-ultimate-founder-factory-nabeel-s-qureshi-founder
+    6 themes written, 3 new themes discovered
+
+[9/151]   Processing: how-revolut-trains-world-class-pms-the-u201clocal-ceou201d-model-raw-intellect-b
+    6 themes written, 3 new themes discovered
+
+[10/151]   Processing: how-shopify-builds-a-high-intensity-culture-farhan-thawar-vp-and-head-of
+    7 themes written, 3 new themes discovered
+
+[11/151]   Processing: how-snyk-built-a-product-led-growth-juggernaut-ben-williams-vp-of-product
+    5 themes written, 2 new themes discovered
+
+[12/151]   Processing: how-to-achieve-hypergrowth-in-your-business-and-career-carilu-dietrich-atlassian
+    7 themes written, 3 new themes discovered
+
+[13/151]   Processing: how-to-ask-the-right-questions-project-confidence-and-win-over-skeptics
+    8 themes written, 3 new themes discovered
+
+[14/151]   Processing: how-to-be-more-innovative-sam-schillace-microsoft-deputy-cto-creator-of
+    4 themes written, 3 new themes discovered
+
+[15/151]   Processing: how-to-be-the-best-coach-to-product-people-petra-wille-strong-product-people
+    3 themes written, 3 new themes discovered
+
+[16/151]   Processing: how-to-become-a-category-pirate-christopher-lochhead-author-of-play-bigger
+    5 themes written, 2 new themes discovered
+
+[17/151]   Processing: how-to-break-out-of-autopilot-and-create-the-life-you-want-graham-weaver
+    4 themes written, 2 new themes discovered
+
+[18/151]   Processing: how-to-build-a-high-performing-growth-team-adam-fishman-patreon-lyft-imperfect
+    4 themes written, 2 new themes discovered
+
+[19/151]   Processing: how-to-build-a-powerful-marketing-machine-emily-kramer-asana-carta-mkt1
+    6 themes written, 2 new themes discovered
+
+[20/151]   Processing: how-to-build-a-team-that-can-take-a-punch-hilary-gridley-head-of-core
+    7 themes written, 2 new themes discovered
+
+[21/151]   Processing: how-to-build-deeper-more-robust-relationships-carole-robin-stanford-professor
+    5 themes written, 3 new themes discovered
+
+[22/151]   Processing: how-to-build-trust-and-grow-as-a-product-leader-fareed-mosavat-reforge
+    5 themes written, 1 new themes discovered
+
+[23/151]   Processing: how-to-build-your-product-strategy-stack-ravi-mehta-tinder-facebook-tripadvisor
+    6 themes written, 3 new themes discovered
+
+[24/151]   Processing: how-to-discover-your-superpowers-own-your-story-and-unlock-personal-growth
+    4 themes written, 3 new themes discovered
+
+[25/151]   Processing: how-to-drive-word-of-mouth-nilan-peiris-cpo-of-wise
+    4 themes written, 3 new themes discovered
+
+[26/151]   Processing: how-to-find-work-you-love-bob-moesta-jobs-to-be-done-co-creator-author
+    3 themes written, 3 new themes discovered
+
+[27/151]   Processing: how-to-foster-innovation-and-big-thinking-eeke-de-milliano-retool-stripe
+    JSON parse error for how-to-foster-innovation-and-big-thinking-eeke-de-milliano-retool-stripe: Expecting ',' delimiter: line 8 column 470 (char 705)
+
+[28/151]   Processing: how-to-get-press-for-your-product-jason-feifer-editor-in-chief-of-entrepreneur
+    4 themes written, 2 new themes discovered
+
+[29/151]   Processing: how-to-grow-a-subscription-business-yuriy-timen-grammarly-canva-airtable
+    5 themes written, 3 new themes discovered
+
+[30/151]   Processing: how-to-hit-revenue-targets-in-a-recession-sahil-mansuri-bravado
+    5 themes written, 2 new themes discovered
+
+[31/151]   Processing: how-to-measure-ai-developer-productivity-in-2025-nicole-forsgren
+    5 themes written, 3 new themes discovered
+
+[32/151]   Processing: how-to-nail-your-product-positioning-april-dunford-obviously-awesome
+    7 themes written, 2 new themes discovered
+
+[33/151]   Processing: how-to-price-your-product-naomi-ionita-menlo-ventures
+    5 themes written, 2 new themes discovered
+
+[34/151]   Processing: how-to-scrappily-hire-for-measure-and-unlock-growth-crystal-widjaja-gojek
+    4 themes written, 3 new themes discovered
+
+[35/151]   Processing: how-to-see-like-a-designer-the-hidden-power-of-typography-and-logos-jessica
+    5 themes written, 2 new themes discovered
+
+[36/151]   Processing: how-to-sell-your-ideas-and-rise-within-your-company-casey-winters-eventbrite
+    7 themes written, 3 new themes discovered
+
+[37/151]   Processing: how-to-speak-more-confidently-and-persuasively-matt-abrahams-professor
+    5 themes written, 2 new themes discovered
+
+[38/151]   Processing: how-to-tell-better-stories-matthew-dicks-storyworthy
+    5 themes written, 2 new themes discovered
+
+[39/151]   Processing: how-to-unlock-your-product-leadership-skills-ken-norton-ex-google
+    4 themes written, 3 new themes discovered
+
+[40/151]   Processing: how-to-win-friends-influence-decisions-julie-zhuo-lenny-friends-summit
+    6 themes written, 3 new themes discovered
+
+[41/151]   Processing: how-to-work-through-fear-give-hard-feedback-and-doing-layoffs-with-grace
+    4 themes written, 2 new themes discovered
+
+[42/151]   Processing: how-we-restructured-airtables-entire-org-for-ai-howie-liu-co-founder-and
+    6 themes written, 3 new themes discovered
+
+[43/151]   Processing: humanizing-product-development-adriel-frederick-reddit-lyft-facebook
+    6 themes written, 3 new themes discovered
+
+[44/151]   Processing: i-deliberately-understaff-every-project-leadership-lessons-from-ripplings-16b-jo
+    9 themes written, 3 new themes discovered
+
+[45/151]   Processing: i-like-being-scared-molly-grahams-frameworks-for-rapid-career-growth
+    6 themes written, 3 new themes discovered
+
+[46/151]   Processing: improve-strategy-influence-and-decision-making-by-understanding-your-brain
+    5 themes written, 3 new themes discovered
+
+[47/151]   Processing: inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history
+    Error for inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history: 
+    Skipping inside-bolt-from-near-death-to-one-of-the-fastest-growing-products-in-history — no response
+
+[48/151]   Processing: inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing
+    Error for inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing: 
+    Skipping inside-canva-coaches-not-managers-giving-away-your-legos-and-embracing — no response
+
+[49/151]   Processing: inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai
+    Error for inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai: 
+    Skipping inside-chatgpt-the-fastest-growing-product-in-history-nick-turley-openai — no response
+
+[50/151]   Processing: inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code
+    Error for inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code: 
+    Skipping inside-devin-the-ai-engineer-thats-set-to-write-50-of-its-companys-code — no response
+
+[51/151]   Processing: inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of
+    Error for inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of: 
+    Skipping inside-etsys-product-growth-and-marketplace-evolution-tim-holley-vp-of — no response
+
+[52/151]   Processing: inside-googles-ai-turnaround-ai-mode-ai-overviews-and-vision-for-ai-powered

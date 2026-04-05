@@ -1,0 +1,48 @@
+# Various (April Dunford, Crystal Widjaja, Julie Zhou, Shishir Mehrotra, Kristen Berman, Elena Verna, Ethan Smith, Shreyas Doshi, Marty Cagan, Matt Mochary) — Countdown of the top 10 episodes of the year
+*Theme: product-strategy-growth | Extracted: 2026-04-03*
+
+## Five-step positioning framework: competitive alternatives to market category
+
+Lenny (00:03:06):
+Say that you're a PM or founder that's ready to start figuring out their positioning for their product. What's the first thing that you do?
+
+April Dunford (00:03:15):
+I actually think the first step in a good positioning exercise is to really understand what do we have to position against? So put another way, it's like saying, what do I have to beat in order to win a deal? So in positioning work we call this competitive alternatives. Now, how people mess up this first step is, I say competitive alternatives and they think competition. So things that look exactly like me. But in B2B we kind of have two sets of competitors. We have status quo, which is whatever the company is doing to attempt to solve the problem right now, even if it's crappy and not great. And then there's, if the company does decide they're going to buy something different, they usually make a short list. So, it's whoever else lands on the short list. I need to be able to put a stake in the ground and say, I got to beat all that in order to win a deal.
+
+Now most folks will discount the status quo, but they shouldn't because in B2B we lose about 40% of our deals to, "No decision," which actually means we lost to the spreadsheet, we lost to pen and paper, we lost to interns. And if we're not positioning well against that, we're never going to get the customer to come off of that. So I got to win against status quo, but I also have to win, most of the time, if it's B2B, you don't just buy the first thing you come across, you make a short list of alternatives and I got to win against those as well.
+
+So step number one, what am I positioning against? Once I have that stake in the ground, then I can start thinking about what makes us different. So the easiest way to do this is, okay, this is what I have to position against, what have I got capabilities wise that the alternatives don't have? So feature function or even capabilities of the company, which could be pricing or professional services around other things that you've got, but also capabilities of the product. What have I got that the alternatives don't have? And I can make a giant list of these things. And then I can translate that stuff into value by going down the list and saying, okay, we have this great feature, so what? Why does a customer care about it? What is the value that feature enables?
+
+When I do that mapping over to value, what generally happens is I end up with two or three value buckets or value themes. And quite often those value buckets or value themes are different than what I would've gotten if I got all the smart people in my company together and said, hey, why does everybody love our stuff? When I do it this way I'm ensured that those value themes are differentiated and not just things that are generally valuable, but any alternative could get it done so why are we even talking about it? So in my mind, that's kind of how we do it.
+
+Once I've got differentiated value, then I can start thinking about, well look, I could sell this product to any company that has this problem, but not everybody cares about this value the same way. And so what are the characteristics of a target account that make them really, really care a lot about that value? If I do some deep thinking about that, that's going to be my definition of a really best fit customer.
+
+And then the last piece of positioning of course is market category. And so again, a lot of people will just start with market category and then try to back up, which I think is crazy 'cause then we don't have any way to judge the goodness of a market category. But if I've got, look, this is the value only I can deliver, these are the kind of people that really care a lot about that value. If I start thinking about positioning is like the context I position my product in, then the best market category is the context I position my product in such that this value is kind of obvious to these people. This is my long-winded way of doing it, but this is the only way I know how to get positioning done.
+
+---
+
+## Product-led retention must come before product-led acquisition
+
+Elena Verna (00:34:00):
+I think every single company has to first focus on being product led and retention, period. The only way that you will ever have any chance of acquisition being product led is if you nail your product led retention. Let me break it down. Retention falls into two main KPIs, which is activation and then engagement. If your product is not able to activate and more importantly engage via habitual loops and be in the habit forming zone, then you'll have no chance to hooking an acquisition engine into your product. Because acquisition and product led means users and buy it or users refer or users create content that attracts other users.
+
+Well, if your users are not habitually using your product, there's less and less opportunities for you to actually create any sort of product led acquisition. So never start with product led acquisition. You first always have to start with product led retention, activation, and engagement. Then you can choose, is your product has a relationship of one to many? If it has a collaboration at its core, say Slack or Miro or even the Amplitude. Or does it have more of a single mode relationship? So let's say Snowflake, there is not one to many relationships there between users. Well, if you have one to many relationships, product led is a fantastic way for you to prototype that model. If you don't have them, then it becomes increasingly hard. Most of the B2B products don't have that one to many relationship, so it's very difficult to stand up product led acquisition. So you rely on marketing led and sales led and that's fantastic, those are fantastic growth models as well.
+
+Lenny (00:36:31):
+For a product leader or founder who's thinking about what they should make free in their freemium model, do you have kind of a mental model of how you think about here's what you should make free? Or, is that too big of a question for a quick answer?
+
+Elena Verna (00:36:44):
+So I mean you first have to align on what your strategic value of free is. I do have a general framework of saying freemium has to check one of these boxes. Does it help my indirect monetization? So some sort of virality or network effects. If it does, I'm probably going to make it free. Does it suffice for every single user regardless of their complexity? If it does, then it's probably commoditization of the feature anyways and I should make it free. Does it help my aha moment? If it does, then I definitely want to have a POC as part of my free and I'm going to put it in the free offering. Does it create habit loops for me? So let's say notifications or some sort of channel communication. If it does, then I'm probably going to put it for free. So anything that actually creates friction for my growth model, I'll probably gate it in the paid. Anything that promotes my growth model, I will put it into free. Now it is very heavily dependent on your actual monetization strategies. So it's a little bit of over encompassing statement, but at the end of the day, I'm thinking about it very much. How does free help me achieve my growth model outcomes without sacrificing monetization potential?
+
+---
+
+## Four things PMs must master to earn team and stakeholder trust
+
+Marty Cagan (00:51:47):
+I hate the idea those companies that have separate product owners, because product owner is just an administrative role. Product owners almost never have the skills to be a product manager, and that's a problem. But let's just say there's a product manager and nobody's ever coached this poor person and so they really don't know much. So the first thing that product manager needs to do is get themselves prepared to contribute to their team the way they need to.
+
+In general, that means four things. First of all, they have to really get to know the users and customers. The second thing is they have to be an expert in the data. How is your product used? How is that change over time? What's the sales analytics? What's the user analytics? The third thing is, and this is usually the hardest one and it's the one that your stakeholders will judge you on, is you have to learn the different parts of the business. You have to know how it's marketed, how it's sold, how it's paid for, how it monetizes. If there are any compliance, regulatory, privacy, security issues, you need to know what those are. So that you have to convince those stakeholders that you understand what the issues are and you understand what to look for and that you convince them that if there's ever any question you will bring them a prototype that they can see and make sure it's okay. So you need that trust with the different parts of the business. The fourth area is you have to know the competitive landscape, you have to know the industry, you have to know the trends.
+
+Those are the four things you bring to the team. Realize the designer doesn't have this info, the engineers don't have this info. If the team is going to be an empowered team and they're going to come up with solutions, they need somebody on the team that brings this knowledge, and that is you as product manager. That is the single biggest area empowered teams fall down, the product manager is ill-equipped, or a nice way of saying incompetence.
+
+---

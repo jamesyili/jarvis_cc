@@ -1,0 +1,18 @@
+# Sam Schillace — How to be more innovative | Sam Schillace (Microsoft deputy CTO, creator of Google Docs)
+*Theme: entrepreneurship-traction | Extracted: 2026-04-04*
+
+## Writely origin — accidental collaboration, PMF almost immediately
+
+Lenny (00:31:07): I want to spend more time on Google Docs and the story there. A couple questions. How long did it take from starting on it to feeling like it's working? Whatever you consider product market fit.
+
+Sam Schillace (00:31:17): Almost immediately, honestly. It was weird, the process of it was, I had this idea, we set this thing up, we started working together. We're like, "Ah, that's actually pretty..." So basically history is like I noticed contents editable, so the browser would do some editing for you. And then I noticed JavaScript, I never realized that JavaScript is out there. And we had done word processors in the past, this team, and for a long time. In fact, my co-founder, Steve, the other person on that document, wrote this thing called Full Write way back in 1987 or something like that, that was a direct competitor. '85 I think even, that was a direct competitor to Word one.
+
+So we knew word processors, and so we decided to just try it. What's it like to build a word processor? And the fact that you could collaborate on them was kind of an accident. They're just these things on the server. We hadn't built the thing that would lock somebody out yet. So there was just like, "Here's a document, you can edit these two things." Which we, A, immediately realized was really cool. We could both work in the same document at the same time. And then, B, realized, "Oh, crap, we're colliding with each other, because there's no presence or anything like that. And there's no collision detection or anything like that."
+
+So pretty quickly we're like, "Oh, that's kind of cool. That feels good as a development team to have these shared documents, not to send stuff around and not... So that's cool. So let's build that out." But like, "Oh, bummer, collaboration's a problem. We'll have to go fix that." And naively figured out that that's a problem. And it took forever to get that working. It was really, really hard in the time, because we didn't do operational transform. I don't think that technique had been quite invented yet. And so we did three-way merge, which doesn't work that well, because the browsers... The logical document, a document can be rendered differently in HTML. There's not a canonical representation.
+
+And so you're doing merges where alphabetization can change, the order of attributes can change, the tree structure can change. Firefox would do a blank paragraph with a singleton BR tag, and IE would do it with an open closed paragraph tag. And so even the tree doesn't match. So it's a really hard merge problem. So that turned out to be a gnarly hard problem to solve. But once we had seen the value of working together, we were motivated to do that.
+
+The interesting thing too with that is, I think if we'd gotten it in the other order, we might not have done it. It's another good example of why not and what if, right? Where we got really lucky that we saw the what if part, that we saw how cool a document in a browser that you could collaborate on would be, because if we understood how hard the collaboration piece would've been first without understanding that value, we might've been like, "Eh, it's not worth it. It's going to be so hard to solve that problem. It's probably not a useful app." So I think it's a good little counter example of that optimistic, pessimistic perspective we were talking about. We could easily have missed that idea, easily have missed that idea. And we just got lucky I think in the order it got presented to us.
+
+---

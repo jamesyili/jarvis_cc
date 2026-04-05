@@ -1,0 +1,28 @@
+# Rachel Lockett — A guide to difficult conversations, building high-trust teams, and designing a life you love
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-03*
+
+## Avoiding burnout by living in your gifts
+
+Lenny Rachitsky (00:42:05): What I'm talking about is stuff that often leads to burnout. I'm definitely not burnt out, but this is a common problem in tech. Where people feel depleted and just go too hard. So many people I've worked with just left tech. I had a colleague at Airbnb, he's like a park ranger now near woods. That's how far tech- So peaceful and so wonderful. But I think that's just people go so hard sometimes and then just get burnt out and never want to do anything like this again. I know that you've spent a lot of time on this with founders and you have a really helpful approach. So just talk about what you've learned about helping leaders in tech avoid burnout and feel energized and excited about their work for a long time.
+
+Rachel Lockett (00:42:47): Yeah. Well first of all, I'm glad you brought it up. It's a huge problem. I remember when I was coaching top talent at Stripe, Patrick Collison is really committed to retaining top talent. And I created a program with my team for the top 50 executives in the tech side of the house. And we looked at their engagement scores, we did coaching circles. And it was so sad to see how exhausted that group of incredibly creative and committed leaders was in that moment.
+
+And it's so common that people who start with incredible inspiration and incredible capacity start to feel like they've been pushing and pushing and pushing for years. They're parenting, they're leading, crazy things are happening to the business. And they just can't muster the same kind of motivation they once had. And I see this with my clients all the time.
+
+So I've also witnessed people who are still inspired and continually energetic and seem to have some secret well of some diesel battery, or I guess I should say a Tesla battery that helps them through really hard challenges, and they're still having a good time. And so what I make of that is that when people are in their gifts and their strengths firmly, most of the time, they have more energy. We all have more energy when we're operating from the things we naturally are good at and the things we innately love doing.
+
+So I try to help my leaders see that they can design their lives so they're spending 80% of their time in their gifts. That seems really ambitious because you're stuck within a context that requires a lot of you. Especially when you're executive at a huge company. But I also interact with founders who started a company with great inspiration, an entrepreneurial vision, and their job has obviously changed every six months. Once you fundraise, once you grow a team. And sometimes, especially technical founders will start solving a technical problem they're absolutely obsessed with. They spend three years doing it, the product ships, and then they're stuck managing a board and a team. And they don't even realize they're doing a completely different job than the one that played to their strengths.
+
+So one tool I like to give is for people to actually take two weeks and every night reflect on, what are the five things today that gave me the most energy? And what are the five things that depleted my energy the most? If you do that for two weeks and you look at patterns, you can tell, what are the natural gifts that I'm living in? And what are the things that I'm stuck doing that are exhausting? And they're just slowly ... it's like a slow leak in your gas tank that over time shows up in your daily amount of energy.
+
+---
+
+## Reframing conflict and difficult conversations as growth
+
+Rachel Lockett (01:21:11): Yeah. Well, first of all, difficult conversations makes you want to run away. The marketing on conflict is poor, so I want to reframe that. My belief is when we feel internally ambivalent, we have two inner parts at war. And there's something really beautiful and important to pay attention to, there's something to learn, when we have ambivalence. When we are in conflict, something important is at stake. We care deeply about what we're building, about the person that's letting us down. So the reason it's hard, is because there's such an emotional component to it. And there's something to learn from it.
+
+So first, I want leaders who are listening to think, 'This is hard, because I have something to learn here, and because it matters. So instead of avoiding it and running away, I'm going to lean into this moment. And I'm going to come out of it not just having solved this dynamic, and not just having said my piece, but having built a skill.' The reason I focus on interpersonal dynamics is because the quality of our relationships determines the quality of our life. I really believe that. And if you cannot have conflict, you can't have healthy relationships. We are going to disagree with the people we love, or care about, or are building a business with. So first, I just want listeners to reframe ambivalence and interpersonal challenge, think of them as a growth opportunity.
+
+Second, there is always something that we're doing to contribute to the conflict, even if it feels like the other person is insane, and is driving us crazy, and we're the innocent party. So entering any conflict conversation with humility, and curiosity about the other person's experience, is critical to setting the table for a commitment to come out better and stronger. So no model, NVC or otherwise, can fix a person who's coming in rigid and full of blame.
+
+---

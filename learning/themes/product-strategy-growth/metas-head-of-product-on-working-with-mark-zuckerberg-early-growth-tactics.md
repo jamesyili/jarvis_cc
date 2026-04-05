@@ -1,0 +1,38 @@
+# Naomi Gleit — Meta's head of product on working with Mark Zuckerberg, early growth tactics, and more
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## Growth accounting framework — retention over acquisition
+
+Lenny Rachitsky (00:26:30): Sure. So yes, seven friends in 10 days was a thing. 10 friends in 14 days was also a thing. They're the same thing, they're just different points on a retention curve. I would say the key insight here is when we started the growth team, I think we were pretty focused on acquisition. We had a notion though of growth accounting, which looks at what's our net growth every day? And that would look at the number of new users that registered minus the number of users that actually went stale. So after a 30-day period, that's how we define it, they no longer logged in. And then plus the number of users that resurrected, which is after 30 days they came back. And what we found was the churn in resurrection lines were actually much larger than the new user line, which implied to us that retention and driving those two lines was actually our biggest lever to drive net growth.
+
+And so while we were focused on acquisition, a lot of our focus shifted to be around engagement and retention. How do we drive engagement and retention? We look at the variables that correlate most with that outcome. What we found was friending. And so those two magic moments, having seven friends in 10 days or 10 friends in 14 days really just map to when we feel like your likelihood of being a retained user goes up because you've seen the value in Facebook. And it makes sense, Facebook is much more compelling if you have 14 friends. And the other thing around 10 or 14 days is we wanted it to happen quickly, we wanted to have you experience the magic moment soon after you had registered on the site to prevent you from churning and then us having to resurrect you again.
+
+Lenny Rachitsky (00:43:06): Final little thing I would just want to highlight again that you said that I think is so important, and I've always thought is true and I love that you confirmed it, is that the activation metric that you all rallied around the biggest value of it wasn't this is exactly the right regression connection to retention, it's more that we have something we are all going to focus on, and that is where most of the impact comes from is let's get more people to that point, whether it's perfectly right or not, it doesn't really matter.
+
+Naomi Gleit (00:43:32): Yes.
+
+---
+
+## Understand-identify-execute: data-driven product-driven growth
+
+Naomi Gleit (00:29:43): One of my Naomi-isms is really understand, identify, and execute. That framework came from 2009 where the growth team at the time, it was fledgling and it just started, was focused on only instrumenting data. And Alex often wears a shirt that says, 'I guess when you can know.' We just didn't have the data that we needed to make informed decisions to know really what were the biggest levers to drive growth. And so in 2009 in January, we basically stopped doing anything on our roadmap except data instrumentation. And that's when we instrumented every step of the registration flow, instrumented every step of the news or onboarding experience. We knew where there was drop off. And so we understood, which allowed us to identify what were the key opportunities to drive growth and maybe, hey, it's increasing friending in the user experience or 20% drop off on registered users at the email confirmation step, how can we address that? These are the opportunities that we identified and then we would execute by building products.
+
+So having this data-driven product-driven approach to what I think historically was more of a business responsibility at a company was sort of the special sauce of the growth team. We eventually extended that approach. I think that approach started with the growth team, but we extended to other areas. So for example, one of the projects that I took on after growth was social impact. And instead of what I think a normal company might do, which is start a corporate social responsibility wing, we decided, no, we're going to take a data-driven product-driven approach to driving social impact. Instead of having a foundation that's distributing money, we're going to build a product that actually raises money from our community. And many years later we've raised billions of dollars from the community for charity.
+
+Lenny Rachitsky (00:38:36): Well, definitely the understand, identify, execute. I would just ask yourselves, do you have the data that you need to know what you need to do on growth? And if not, definitely take the time to instrument that data.
+
+The thing that, I think we were relatively lucky, I talked about why I was bullish on Facebook in 2005 even was because there was product-market fit. And so for us growth, as much credit as we give to the growth team, I'm actually not sure how much credit we deserve and how much incremental growth we drove above and beyond the fact that this was a product that had product-market fit and we benefited in a huge amount from having high demand for the product.
+
+---
+
+## Micro and macro barrier removal as growth framework
+
+Naomi Gleit (00:39:23): So at every step, and I talked about the growth team, the projects that we were working on were really at a high level around removing barriers. There were macro barriers, like the first project I worked on was high school students on Facebook, which is an interesting story in and of itself because at that time we almost created a separate website called Facebook High just to keep them separate from the college students. But at that time we were like, 'No, this is one graph. This is one community. College students have friends and people they're connected to of all different ages. Why bifurcate the graph?' And obviously we've maintained that principle ever since.
+
+But it was about removing barriers. So you had to be a college student, then you had to be a high school student, then you had to be in a work network, then you had to have any email address. One of the next projects I worked on was not everyone has access to a smartphone, how can we remove the barrier of having access to a smartphone and building more of a rich Facebook experience for someone that was using a feature phone or a lower-end device? Internet.org, what about removing the barrier of having access to the internet or being able to afford a data plan? And so those are the macro barriers that thematically the growth team has worked on.
+
+What I would say is maybe applicable is really the micro barriers. All of the work that we did on growth around optimizing the flows were really about removing micro barriers. One of the things that I thought was just so elegant was after we did that 2009 instrumentation of all the flows, the product flows relevant to growth, what we found is 20% of people aren't actually confirming their email. We tried sending them an SMS, so maybe they would confirm the SMS instead. What we found was a lot of people are actually still clicking on notifications that they're getting, but because it wasn't the specific confirmation email, we weren't able to confirm the account.
+
+And so what we did was allow people to get notifications even as an unconfirmed account, and then if they clicked on any of those notifications, that would count as an account confirmation as well because they proved ownership of the email. It's just removing a micro barrier of having to go find the confirmation email, click it before you can do anything on the site.
+
+---

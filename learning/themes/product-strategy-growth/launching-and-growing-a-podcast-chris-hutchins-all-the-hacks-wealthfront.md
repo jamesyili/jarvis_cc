@@ -1,0 +1,16 @@
+# Chris Hutchins — Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)
+*Theme: product-strategy-growth | Extracted: 2026-04-05*
+
+## Self-Driving Money: product-market fit vs. engagement metric win
+
+Lenny (00:09:22): Can you talk about the impact this had on the company and also just how long of a endeavor this was within Wealthfront?
+
+Chris Hutchins (00:09:29): It was a quick endeavor to try to start talking to people. This was just throw in the mix. I have a very poor sense of time, but let's say somewhere between six and 12 months maybe before we put something really in front of someone that could execute on all the features, there was a lot of prototype UI testing. I think Andy, he's legendary. If anyone listening to this, wants to learn about product market fit, Andy is your guy. I believe he coined the term, he teaches the class at Stanford. And the lesson was really find something people are reaching over the table want, and make sure you have that validation. And so we were putting things in front of people, clickable, full prototypes, and I remember we got to one where someone was like, "Can I go get my husband? I need to show him this."
+
+And then I created this thing, which I'm sure is not that new, but I would start pretending that the product existed in the interviews. Only to find out, at the end, people was like, "Oh, it's not out yet." And they're like, "What I want to use..." You could really feel the like, "No, no, no, no, this has to be out. I want to start using it." So we found this thing that a small number of people were very excited about and we knew that a product, this was going to be a high risk bet because people don't automate their financial lives today.
+
+And I think the takeaway, I would say the impact on the company was not as high as we had wanted in that it didn't become this wild top of funnel. I think it's similar to Tesla's autopilot. It's like nobody goes and says, "I just want to buy this car because of this feature." I'm sure some people do, but once you're in the ecosystem, it had huge impact on making it easier for people to start saving more, making it easier for people to be more confident in their finances and just automate all that behavior. So I would say the letdown was, it wasn't the big, huge top of funnel thing where people are like, "Oh, this is all I've ever wanted." Even though if you interview people and you're like, "Gosh, would you like a product that could just automate all this stuff?" They're like, "Yes, I would love it."
+
+And then you hand it to them and you're like, "Do you want to use this thing?" And they're like, "Well." It's very hard to test that. And so what we found was it was a win in terms of it. It moved a lot of metrics for saving more money, increasing contributions and that kind of stuff, but it didn't become this growth channel, which Andy would say product market fit is exponential organic growth. So I would say by that metric, we didn't have product market fit, but as a tool to make a system of products so much better. We have the cash account with all the checking features, we have an investing account, we have retirement accounts. So this really brought it all together and that was super valuable.
+
+---

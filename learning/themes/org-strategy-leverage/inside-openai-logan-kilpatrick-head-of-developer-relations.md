@@ -1,0 +1,18 @@
+# Logan Kilpatrick — Inside OpenAI | Logan Kilpatrick (head of developer relations)
+*Theme: org-strategy-leverage | Extracted: 2026-04-05*
+
+## High agency and urgency as core hiring criteria
+
+Lenny (00:34:35): That is so cool. I really like these two characteristics because I haven't heard this before. Those are the two, maybe the two most important things you guys look for, high agency, high urgency. To give people a clear sense of what these actually look like when you're hiring, you shared maybe this example of customer service. Someone's hearing a bug and then going to fix it. Is there anything else that can illustrate what that looks like, high agency? And then a similar question on urgency other than just move, move, move, ship, ship, ship.
+
+Logan Kilpatrick (00:35:01): I think the assistants API that we released for dev day, we continue to get this feedback from developers that people wanted these higher levels of abstraction on top of our existing APIs, and a bunch of folks on the team just came together and were like, "Hey, let's put together what the plan would look like to build something like this," And then very quickly came together and actually built the actual API that now powers so many people's assistant applications that are out there. And I think that's a great example of it wasn't this top down, oh, someone's sitting there being like, "Oh, let's do these five things," and then like, "Okay, team, go and do that." It's like people really seeing these problems that are coming up and knowing that they can come together as a team and solve these problems really quickly. And I think the assistants API, and there's like 1,001 other examples of teams taking agency and doing this, but I think that's a great one at the top of my head.
+
+---
+
+## Keeping research teams small to preserve innovation speed
+
+Lenny (00:43:03): Maybe one last question here. So you're growing, maybe getting to 1,000 people, clearly still very innovative and moving incredibly fast. Is there anything you've seen about what OpenAI does well to enable innovation and not slow down new big ideas?
+
+Logan Kilpatrick (00:43:19): Yeah, there's a couple of things, one of which is the actual research team, who seed most of the innovation that happens at OpenAI, is intentionally small. Most of the growth that OpenAI has seen is around our customer facing roles, our engineering roles to provide the infrastructure for ChatGPT and things like that. The research team is, again, intentionally kept small and there's all of this talk. And it's really interesting. I just saw this thread from one of our research folks who was talking about how in a world where you're constrained by the amount of GPU capacity that you have as a researcher, which is the case for open AI researchers, but also researchers everywhere else, each new researcher that you add is actually a net productivity loss for the research group unless that person is up-leveling everyone else in such a profound way that it increases the efficiency. If you just add somebody who's going to go and tackle some completely different research direction, you now have to share your GPUs with that person and everyone else is now slower on their experiments. So it's a really interesting trade-off that research folks have that I don't think product folks... If I add another engineer to our API team or to some of the ChatGPT teams, you can actually write more code and do more. And that's actually a net beneficial improvement for everybody. And that's always not the case in the case of researchers, which is interesting, in a GPU constrained world, which hopefully we won't always be in.
+
+---

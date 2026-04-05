@@ -1,0 +1,12 @@
+# Dhanji R. Prasanna — How Block is becoming the most AI-native enterprise in the world
+*Theme: decision-making | Extracted: 2026-04-03*
+
+## Question base assumptions: do we even need to build this?
+
+Lenny Rachitsky (00:53:34): Wise words makes me think about Elon has this whole process for optimize stuff and one of the steps is like, 'Do we even need this thing before we start out optimizing and automating it?' Before I zoom out and ask about just general lessons that you've learned over the course of your career, is there anything else that you think might be really valuable or useful to folks that are trying to lean in further into AI or just help their teams think a little bit more forward thinking?
+
+Dhanji R. Prasanna (01:12:21): Those two are the big ones, but I would also say question base assumptions on everything. Sometimes we get into traps where we are as professionals, hyper focused on what we're building that day, that week, that month. And we don't stop to think should we even build this at all? Or what's the purpose of building this? Could we build something completely different that would matter more to our core reason for being? So I would say, yeah, question the sort of base assumptions. It's somewhat of a cliche, but you really need to remind yourself to apply it over and over and over again.
+
+Dhanji R. Prasanna (00:38:43): I'd say it was more around things like process automation or a lot of times I'll get this sort of request where a team will say, 'We need to buy this new tool from this vendor because our current tool is entering X, Y and Z.' Another team will say, 'No, no, no, we can just use Goose to build an app that will do the same thing for us in half the time or less.' And then as a human, you're sitting there thinking, 'Is any of this necessary? If we just change the process, do we even need to think about building tools?' And this is the thing that AI isn't good at, it's not able to have this portfolio judgment or judgment across a global sense of what's important and what matters. So a lot of times, I tell teams just question the base assumption, particularly our InfoSec teams because they'll twist themselves into knot sometimes trying to secure something and you'll be like, 'We'll just ask the team that's building it to do it differently or to not build that at all if it doesn't matter, and then you won't have to increase your surface area of securing it.' So I think those are the areas where it's better for a human to use judgment and AI has not done a great job.
+
+---

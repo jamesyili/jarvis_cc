@@ -1,0 +1,26 @@
+# Dylan Field — Dylan Field live at Figma's Config: Intuition, simplicity, and the future of design
+*Theme: product-strategy-growth | Extracted: 2026-04-03*
+
+## Time to value and removing blockers as important as shipping new features
+
+Lenny Rachitsky (00:39:32): I want to talk about making all this stuff that you talked about, because it connects really well, but I have another question I want to get to before we do that, which is around this idea of time to value. I heard this a lot this term when I was talking to people that work at Figma. That you're obsessed with this idea of time to value, especially when a product is about to launch. You're just like, "Let's increase time to value." What is time to value? Why is it so important?
+
+Dylan Field (00:39:52): I think it is important to get someone into a product and very quickly have them experience some special sauce, something that's amazing about the product. If they're not able to go, for example, you go into Figma Design, you see a blank canvas, how do we get you to create something as fast as possible? If you go into Figma Make, how do we get you to prompt and have an awesome experience very quickly? I think that shortening the time to scene and having that incredible moment and seeing the true value of the product. For example, in Figma Design, can we get you to have a collaborative multiplayer moment? Same with FigJam, that's super important to see what this could unlock for you.
+
+Lenny Rachitsky (00:40:41): I'll read you a quote from Zach Loyd, who's the founder of Warp... he said, specific things that he's encouraged us to focus on are not just innovative features but a consistent emphasis on fixing the blocking issues that might prevent a user from adopting Warp. There's a lot of blocking tackling that isn't always the most fun part for the team to work on. But from Figma, I think he's learned that removing the blockers is as important for retaining users as adding cool new stuff.
+
+Dylan Field (00:42:08): Absolutely agree. That's one I deeply resonate with and talk about it all the time with my teams. The journey of making Figma Design was a lot of table stakes features had to be built, as well as the shiny cool new stuff. We literally at some point had a team that was called Blockers. They just went in one by one, struck them down. Each time we saw improvement in retention, improvement in activation, the metrics, as we addressed each one, you could literally see the change in the graph. It was pretty wild.
+
+Lenny Rachitsky (00:42:47): Amazing. Okay, so this is connected to this whole idea of time to value, of just like, if something is keeping you from even using the thing and finding value. It often makes sense to prioritize that above something new and cool.
+
+Dylan Field (00:42:59): Yeah, you have to have the balance. If you only do the table stakes features, you don't have a cool product, and you don't have something that's amazing or awesome. You have to sprinkle in at least something around, why is this exciting? Where is this going? What can people believe in? You have to have a vision for the product that you can communicate to user when they're first trying to use it, even for your first or early releases. I think it's very important. I think it's not enough to have the MVP. You got to have something that's a little bit awesome at least.
+
+---
+
+## Product expansion strategy: follow the workflow, not the TAM
+
+Lenny Rachitsky (00:32:13): Okay, I did not know yet these many products, so even better to ask this question. A lot of companies are thinking about, when should we launch our first expansion? When do we go beyond that? What are a couple of lessons you learned from going through that that might be helpful to other founders?
+
+Dylan Field (00:32:27): I think for us we had a framing of, we're going to go trace a workflow. If you've got an idea, go express it through Slides or hop in FigJam and brainstorm with your team. Okay, what's next? Go design, hop in Figma Design. If you need to go to development after that, Dev Mode will help you take you there, Dev Mode MCP. Then, for Draw, I think there's a thesis of, there was an era where everything was Flash in the internet, things were more dynamic, a bit more wild and perhaps chaotic... Buzz is an example of, I think like all the others we've talked about, following the workflow. What are people doing in Figma Design and what are they asking for that it is probably best to actually take out a Figma Design instead make its own surface? In the case of Buzz, a lot of requests around, okay, brand and marketing are collaborating. Brand wants to create a way for marketing to stay on track, not ship marketing assets that are totally off brand. Marketing wants to really quickly do bulk creation of assets. You could try to pack all of that in Figma Design, but it would be complex for the marketing use case and it would add complexity on the brand use case. Just like we noticed there's slides made in Figma Design, pulled it out and made Figma Slides, white-boarding, pulled that out in FigJam. Did the same thing for Buzz, same thing for Dev Mode, Sites as well. People want to complete that journey. I've designed a website, now what? I want to ship it. How do we create a surface to let them publish?
+
+---

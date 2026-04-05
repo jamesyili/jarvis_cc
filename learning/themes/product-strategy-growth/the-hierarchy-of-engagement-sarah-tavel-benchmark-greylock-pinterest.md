@@ -1,0 +1,39 @@
+# Sarah Tavel — The hierarchy of engagement | Sarah Tavel (Benchmark, Greylock, Pinterest)
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## Hierarchy of engagement: core action, retention, self-perpetuating loops
+
+Sarah Tavel (00:04:02):
+Sure. I think one thing you'll notice about me is that I have an allergic reaction to vanity metrics, what people talk about as vanity metrics. When I made the transition from Pinterest, where I was leading product for the discovery team, so I was responsible for all the discovery surfaces on Pinterest. The home feed, the search, the recommendations, a couple other teams. Ultimately, what those teams were about was about engagement, increasing engagement of Pinterest. It was helping people, when they were on Pinterest, find something that they loved enough that they wanted to pin it to one of their boards.
+
+When I started to meet with all these really talented consumer founders building consumer social products, this was during a time when everybody was getting excited about growth hacking. What you would see is that you would see all these founders coming in, and they all had these up and to the right graphs, whether it was sign-ups, or downloads, or MAUs. It felt to me like it wasn't obvious that those metrics that they were all getting very attached, and focused on, and showing in these presentations was the wrong thing to focus on. It didn't get to the heart of whether they were on the path to building enduring consumer social product. They were missing, at the core, the criticality of engagement.
+
+I just started to feel this and it became like a pebble in my shoe. I started just to go through that process that you've gone through many times before of writing and distilling it, and that's where I came up with this hierarchy. What you realize when you look at social products is that they're almost is this action which I call the core action of that product that forms the foundation of the product. When a user completes this action, it's clear that they both understand the utility of the product, they understand what that product is all about, and it's an action that, if they perform the action, they're very likely to come back. So for Facebook, the obvious action is friending, in the beginning days. For Pinterest, it's pinning. I don't know if you're an Evernote user. For Evernote, it's writing a note. When you perform that action, that means you're an engaged user. Of course, there's a lot of other actions that you have to do. You can follow people on Pinterest, you comment on Facebook. But the end of the day, if you're not doing that action, you're not really a user to the product. That's why the MAU thing doesn't really mean anything. It's really looking at, I think, of users completing the core action.
+
+---
+
+## Level two retention: product must get better the more you use it
+
+Sarah Tavel (00:10:32):
+Perfect. Let's say you're building your product and you're starting to see that you have users completing the core action. Then, the next challenge you have, and I've seen this many times before, is that then you have to figure out how to get those users to stick around. You want to retain those users. Obviously, if they do the core action once or twice, and then they run out of steam, you're going to be in a really challenged position to build something that endures.
+
+The test for me, of whether you're building a product that has the ingredients to create a retentive product on a micro level, just at the user level, is that the product should get better the more you use it, and you'll have more to lose by leaving it. I'll give you a couple examples there, a couple of my favorite products.
+
+Obviously, Pinterest. One of the features that I worked on when I was at Pinterest and we shipped was this idea of a picked for you feed. The idea was every time you pinned something to a board, we would take that information that the user gave us and use it to create recommendations in their home feed. It may have been the first algorithmic feed that was in a social product because, suddenly your home feed wasn't just things and people that you followed. The truth is, people weren't really following other people on Pinterest so we needed a way to make the experience get better the more you used it, so we started to do these recommendations in your home feed.
+
+It was this experience that, the more you pinned, the more personalized your home feed got for you. Then, the more you pinned, you also had more to lose by leaving Pinterest because, all of a sudden, you had all your favorite books, articles you wanted to remember, the recipes that you were planning on cooking one day, the holiday planning that you were doing. So you wouldn't abandon Pinterest because Pinterest was this repository for these different expressions of your identity, or these different bookmarks that you wanted to back to. That was this idea. It's very important that the core action is the thing that you use as the product to make the experience better over time.
+
+---
+
+## Level three: self-perpetuating growth and re-engagement loops
+
+Sarah Tavel (00:13:57):
+Yes. Yeah, it's very true. Let's say, now, you have a product, it's growing, more people are completing the core action. When they complete that core action, the product gets more retentive for them. It gets better the more they use it, they have more to lose by leaving it. Then, your tall task, and this is the hardest thing to overcome, is how do you make the product self-perpetuating? This is where I love to think of every time a user users your product, let's say they're clicking on the mouse or they're tapping on their phone, I love to think of it as this kinetic energy that they're putting into your product. You're taking that energy, and your job with a great product, is to take that energy and, as much as possible, convert it back to the experience that they're having with your product.
+
+Now, the biggest thing that you can do is a network effect. The more I pin something on Pinterest, the better the experience for every user on Pinterest. Every time I add a pin to a board, I'm creating a new edge in Pinterest Graph, that Pinterest then uses to create recommendations and enrich their understanding of all those objects on Pinterest. The network effect is the strongest thing that you can do. And obviously, if you have that, which all social products have to in some way, you have to spend time, as much as possible, just maximizing where that shows up, fine-tuning it, removing friction so that it's a flywheel that spins faster and faster.
+
+But, there's other loops too, that you have to identify and then maximize. These are the growth and re-engagement loops. These are classic loops, you talk about these a lot, they exist in marketplaces and social products. How do you get it so that, as your users use the product, they want to share it with other people? They create metadata that you can then use for SEO. You have collaborative experiences that pull other people in. There's all different things you can do here. And then, there's also things that you can do to re-engage a user.
+
+As an example, in the early days of Pinterest, if you pinned something, you're pinning something that you found on Pinterest that somebody else pinned. So we would send a push notification, "Hey, Lenny, Sarah just pinned your pin to her art board." Now, if you were a dormant user at that point, it's been a couple weeks since you'd used Pinterest, that notification might pull you back into Pinterest and be like, "Hey, I wonder what other pins Sarah has on her art board." It's a great re-engagement loop where Pinterest doesn't have to do anything there intentional. The user is creating the action that drives the outcome that Pinterest wants in that example.
+
+---

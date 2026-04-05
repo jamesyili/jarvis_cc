@@ -1,0 +1,12 @@
+# Austin Hay — The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)
+*Theme: product-strategy-growth | Extracted: 2026-04-03*
+
+## Attribution infrastructure: design for MTA from day one
+
+Austin Hay (00:44:58): And you also need any parameters from the advertising networks that might give them the ability to counter a conversion. Every ad network out there has little things they stuff into your URL that tell you that you came from them. Facebook has FVP, FPID, they sometimes encode it. Google has this thing called Google Click ID, which is just a really long string of characters that don't matter unless you know how to decode it. But all advertisers, and for the longest time advertising worked by putting parameters in URLs, pushing somebody through to your website, collecting those parameters and then passing it back to the ad network so they could get credit for it. And so in my mind, the best practice that everybody should stand up from day one is to basically design the system for MTA and then use whatever makes sense as you grow.
+
+(00:45:45): And so the way that I typically recommend to people is like imagine when a user comes to your website, you collect the URL, collect the referring URL, collect all the additional marketing parameters that you might want, [inaudible 00:45:57], TikTok ID, Microsoft ID, you should just make a list of them. And if you don't have that list, I can give them to you. And then you should collect all UTMs. So, in the URL, you're going to have UTM campaign, UTM medium. Most marketers use this to note what the campaign type was. Now the thing is that UTM is only going to be specific to the moment in time that the person came to your website. So, back to example about Lenny's podcast. If I come to LE's podcast and I came from a Google ad, then my UTM is only for that Google ad.
+
+(00:47:55): Let's just get the infrastructure right from the beginning. Let's set up so that you have users, you have user attributes, you're collecting first and last UTM on users. You're firing events with all those. There's some other more complex things you can do too. You can set them in first party cookies and you can also set them in your third party cookies for your tooling vendors. At the end of the day though, what matters is you just are collecting this information from the beginning. That way when you actually want to progress your attribution model, you don't have to wait a really long time to start gathering that data.
+
+---

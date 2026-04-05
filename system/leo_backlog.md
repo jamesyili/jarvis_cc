@@ -11,6 +11,10 @@ Last updated: 2026-04-04
 - [x] **Refresh the org chart** — Full leadership chain, Dylan's directs, Jeff's directs, team structure by workstream. *(done 2026-04-03)*
 
 
+## Subagents to Build / Improve
+
+- [ ] **Build `mgrep` skill** — Upgraded grep with smarter ranking, multi-term support, and relevance scoring. Once built, swap into the `search` subagent (`/Users/jamesli/code/leo/.claude/agents/search.md`) — replace the native `Grep` tool call with mgrep.
+
 ## Skills to Build
 
 - [x] **`/prep`** — Pre-meeting preparation skill. Reads stakeholder profiles, recent context, generates talking points and watch-fors. *(done 2026-03-31)*

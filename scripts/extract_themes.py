@@ -26,7 +26,7 @@ THEMES_DIR = BASE_DIR / "learning" / "themes"
 MANIFEST_FILE = BASE_DIR / "learning" / ".themes_manifest.json"
 DISCOVERED_FILE = THEMES_DIR / "_discovered.md"
 
-CLAUDE_MODEL = "claude-opus-4-6"
+CLAUDE_MODEL = "claude-sonnet-4-6"
 RATE_LIMIT_WAIT = 60  # seconds to wait on rate limit
 CLAUDE_TIMEOUT = 900  # 15 min — long transcripts through Opus can be slow
 
@@ -164,9 +164,10 @@ Respond with ONLY valid JSON. No preamble, no commentary, no markdown code fence
 # Claude CLI call
 # ---------------------------------------------------------------------------
 
-def call_claude(prompt, episode_slug):
-    """Call claude CLI with the prompt. Retries on rate limit."""
-    while True:
+def call_claude(prompt, episode_slug, max_retries=5):
+    """Call claude CLI with the prompt. Retries on rate limit or empty response."""
+    attempts = 0
+    while attempts < max_retries:
         try:
             result = subprocess.run(
                 ["claude", "-p", prompt, "--model", CLAUDE_MODEL],
@@ -179,16 +180,26 @@ def call_claude(prompt, episode_slug):
             return None
 
         if result.returncode == 0:
-            return result.stdout.strip()
+            output = result.stdout.strip()
+            if output:
+                return output
+            attempts += 1
+            print(f"    Empty response for {episode_slug} (attempt {attempts}/{max_retries}), waiting {RATE_LIMIT_WAIT}s...")
+            time.sleep(RATE_LIMIT_WAIT)
+            continue
 
         stderr = result.stderr.lower()
         if "rate limit" in stderr or "429" in stderr or "overloaded" in stderr:
-            print(f"    Rate limited. Waiting {RATE_LIMIT_WAIT}s...")
+            attempts += 1
+            print(f"    Rate limited (attempt {attempts}/{max_retries}). Waiting {RATE_LIMIT_WAIT}s...")
             time.sleep(RATE_LIMIT_WAIT)
             continue
 
         print(f"    Error for {episode_slug}: {result.stderr[:200]}")
         return None
+
+    print(f"    Max retries reached for {episode_slug} — skipping")
+    return None
 
 
 # ---------------------------------------------------------------------------

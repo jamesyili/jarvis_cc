@@ -1,0 +1,10 @@
+# Dhanji R. Prasanna — How Block is becoming the most AI-native enterprise in the world
+*Theme: entrepreneurship-traction | Extracted: 2026-04-03*
+
+## Build in controlled chaos; creativity requires freedom
+
+Lenny Rachitsky (01:05:32): Absolutely. And I think again, it's just there's so much more that is more important to the success of a business. And it's what you said is are you solving a real problem for people? Can you get in their hands? Can you continue solving real problems for them? It's not about the quality of the code, it's not how well you operate internally.
+
+Dhanji R. Prasanna (01:05:32): Absolutely. I think on Cash App we had that as well. So in the early days of Cash App, I was head of engineering from when we were about 10 engineers to 200 plus and took us to about 10 plus or 20 million users thereabouts. And there was a very similar thing there. From the outside it looked like everything was really chaotic. It's like people would build random experiments and ship them and it just didn't look like we were following strict policies on things like software life cycle and stuff like that, and it was kind of true. And my philosophy was always, we have all these brilliant engineers and I'm going to do more harm than good by trying to harness them into very strict blinkered areas. If they want to spin their wheels building something that is a complete waste of time for a little bit. But at the same time, if they're delivering these amazing things on the flip side, then I'll almost allow that. I'll be okay with that. And it's a fine balance because engineers can really go off and into rabbit holes if you let them. But yeah, there's a certain amount of creativity that chaos breeds and you have to know how to build controlled chaos in some ways. So you have to create a foundation that isn't liable to rupture. You have major liability problems or something like that, or you're going to lose money in our case. And so as long as those things are bedded down and you allow your engineers to have the freedom to experiment and iterate and do the things that energizes them, that's the ideal.
+
+---

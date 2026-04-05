@@ -1,0 +1,24 @@
+# Ryan J. Salva — The role of AI in new product development | Ryan J. Salva (VP of Product at GitHub)
+*Theme: org-strategy-leverage | Extracted: 2026-04-04*
+
+## R&D team separation and transition to product
+
+Lenny (00:30:39): This is so interesting. There's a lot of companies that have these sorts of R&D groups, new product experience team at Facebook and Google has one. I'm not sure how many successes have come out of these teams. From what I've seen, and I'm curious, what have you... And clearly you had a huge success as far as I can tell so far. Is there anything you've learned about how to do this, where you invest in these big moonshots within a larger company?
+
+Ryan J. Salva (00:31:05): I mean, I think the first step is to invest in it. The first step is really hire really smart people, attract smart people, and give them the opportunity to be creative. Don't expect anything out of them that is going to turn into a money maker or something that is going to be beholden to fundamentals around security, privacy, uptime, accessibility, all that groovy kind of stuff upfront. They need space to create and experiment.
+
+And also, when you do get to a place where that team has an idea that is clearly connected to a representative set of customers who have a genuine problem and there is signal with at least medium confidence that this solution, whatever it is, solves it in a novel way, that's the time to start thinking about, okay, let's actually put a little bit of... I'm going to call this market testing. It's nothing so formal as market testing. It's really just like, let's start to actually bring prototypes of this in front of more and more customers to kind of test it out and see, hey, is this actually solving a problem for you? Is this something that you would use? This is where the transition between Next and EPD at GitHub really started.
+
+This is actually where my role in the product cycle kind of really started to increase. I had kind of been in tight connection and been monitoring the work and kind of consulting a little bit with the Next team prior to that. But it was that moment when we identified that, okay, this is actually something real. Customers are saying, developers are saying, 'This is magical. This does something extraordinary that I could not do on my own,' that we started to think about, okay, how do we transition this over? From there, we're really just like, okay, we think we've got a hit here. We think we've got something that we can actually bring to developers.
+
+We made an intentional decision to take some of the researchers who were in the Next team and for a finite period of time, move them over to create a new EPD squad. We want them to be researchers, but we need to do knowledge transfer and we needed to actually provide the seed for a team that could eventually operationalize and productize.
+
+---
+
+## Resource allocation across horizons: percentages for bold bets vs incremental
+
+Lenny (00:54:23): Just looking back at this whole experience of, one, just building, incubating, launching this big bold bet within a big company, you can go in either direction, either just any lessons on just taking a bold bet versus incremental wins and how you think about investing in these two kind of categories, or just within a large company, a lesson of just how to build something like this, like a massive new product from just a seed of an idea to a large new business line potentially.
+
+Ryan J. Salva (00:54:51): As both a product manager and a portfolio manager of multiple products, I'm responsible for multiple product lines at GitHub, the allocation of time, of focus, energy, and resources becomes a really challenging question. The answer to which isn't always the same, depending upon the time, world circumstances, organizational circumstances, technology circumstances. As a general rule, as a general principle, I certainly try to make sure that we're always reserving some capacity for bold, audacious experimental research projects. You can think of those really uncertain bets as being five to 10% of the team's capacity. About 25, maybe 30% of the team's capacity should generally be on just operations. How do we keep our in-market products meeting customer expectations? And then the remainder of it, what is that, about 60% or so, is really on incremental progress for our end market products. How do we make iterative improvements and continue to actually realize payoff for the larger bets that we made one, two, three, four years back? And from a rough distribution, that's generally how I run my larger teams. That works when you have larger teams though. At startups, where we were pretty much only a big bet, obviously your percentages get very different and it becomes a matter of you're all in for that one proverbial lottery ticket.
+
+---

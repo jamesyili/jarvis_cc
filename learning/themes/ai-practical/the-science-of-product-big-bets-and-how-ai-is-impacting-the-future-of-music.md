@@ -1,0 +1,26 @@
+# Gustav Söderström — The science of product, big bets, and how AI is impacting the future of music
+*Theme: ai-practical | Extracted: 2026-04-04*
+
+## AI DJ: the first Spotify product that couldn't exist without generative AI
+
+Gustav Söderström (00:15:07):
+But so far, we've only really done one real generative product in the hard definition, which is a product that couldn't have existed without generative AI, and that is the AI DJ. So that's a concept that we've been thinking about for a very long time. And the AI DJ is you press a button, a digitized person, there's a real person named X, digitized X. So he's now an AI, comes on and talks to you about music that you like and suggests music, and you can listen to it. And if you don't like it, you can just call him back and he says, "Okay, now, let's listen to something maybe from a few summers ago," or "Here's some new stuff that were trending yesterday in The Last of Us episode or something like that."
+
+So that product couldn't have existed without generative AI, both generating the voice and generating the content of what the voice says. So you can have individualized, personalized voice at the scale of half a billion people. And so we had the use case we have seen for many, many years. Sometimes people call it the radio use case. We called it the zero intent use case internally when you actually don't know what you want to listen to at all.
+
+Spotify wasn't that good. Spotify was good when, at least roughly, you knew the use case of what you want to do, if it was a workout or dinner. We had lots of options for all of those. But if you really didn't know at all, it was hard to open Spotify and stare at it. And people used to say longingly that this was the one thing that radio was good at. Radio was quite bad, to be honest. I mean, it's not personalized to you at all. It's not on demand. You come in in the middle of things, it's actually terrible in many ways. But people still often say that there was something good about it. And I think that's something was the fact that you had a knob and you could just switch between contexts. It's like no, boring, boring, boring, boring, okay, this is good.
+
+And Spotify never had that mode of, I don't know what I want, but I want to cycle through things until I find something that I like. And I think with the AI DJ, that's actually the use case we managed to solve. So X comes on and says, "I'm going to suggest something to you that you can listen to." And if you like it, you can keep listening, but if you don't like it, you bring him back again and you change channel.
+
+---
+
+## Fault-tolerant UI: designing interfaces to match your ML's actual performance
+
+Gustav Söderström (00:18:09):
+One that I really like that is not my principle at all, I think it is straight from Chris Dixon, is the principle of fault-tolerant user interfaces. So I can't say how many times during the early machine learning era when we said we're moving from curation to recommendation. I saw a design sketch that was a single big play button because clearly that is the simplest user interface you can do, but if you don't understand the performance of your machine learning, you can't design for it. The quality of your machine learning, if you're going to have a single play button, needs to be literally 100% or zero prediction error, and that's never the case. So let's say that you have a one in five hits, four out of five things are done, then you need a UI that probably at least shows five things at the same time on screen. So you have a one in five of something being relevant on screen.
+
+So you need to understand the performance of your machine learning to design for it. It needs to be fault tolerant and often you need an escape hatch for the user. So you make a prediction. But if you were wrong, it needs to be super easy for the user say, "No, you're wrong, I want to go to my library or to this or to that." So we have that principle of having fault-tolerant user interface and a user interface that corresponds to the current performance of your algorithms. And I think that is going to be true for generative machine learning as well. I think a very clear example actually is Mid Journey. If you think about the early Mid Journey user interface inside the Discord channel, actually generating an image was very, very slow.
+
+It took a long time to generate high-quality image and they could have built the silver button thing where you put in a prompt, you wait for minutes, you get an image, and I think one out of four times, it's going to be bad. So you would've been disappointed three out of four times and it's a minute each, so like four minutes later, you'd be, "This is a shitty product." What they did was they generated four simultaneous low-res images very quickly and you could say, "So apparently, their performance was probably one in four, that's why they showed four and not six." And so one in four was usually pretty good. You click that one and either continue to iterate or scale it up. So that's also an example of, I think, people understanding where the performance of generative AI was when they built the UI. So that's something that I would be inspired by.
+
+---

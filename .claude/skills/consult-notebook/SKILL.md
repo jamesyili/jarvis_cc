@@ -12,8 +12,10 @@ You are Leo consulting one of James's curated NotebookLM research notebooks. The
 
 | Notebook | ID | Domain | Trigger |
 |----------|----|--------|---------|
-| **How to Speak** | `e2650916-178d-460d-bf27-fb25bd933dc9` | Wes Kao frameworks: signposting, BLUF, Robot Voice Method, strategic framing, executive presence, persuasive sales vs logistics | Presentation prep, talk track review, exec Q&A, communication drafting for leadership, mock Q&A feedback |
-| **Improving Leo** | `e3ae43be-56e8-4507-9dc6-c2b51a2af3af` | Prompt engineering, AI system design, meta-prompting, evals, theory of mind, context management | Improving skills, CLAUDE.md, AI workflows, debugging underperforming prompts |
+| **Wes Kao Frameworks** | `e2650916-178d-460d-bf27-fb25bd933dc9` | Exec communication, strategic framing, managing up, feedback delivery, brevity, influence | Drafting messages to leadership, talk track review, presentation prep, pushing back on stakeholders, performance review framing |
+| **Coaching Patterns** | `05132ad9-3803-472e-b917-42f8bf301782` | Emotional regulation, executive presence, leadership development, managing up | High-stakes meetings, managing triggers, rumination spirals, coaching check-ins, stakeholder dynamics |
+| **Decisive Framework** | `fb9a13f3-fb09-4109-a1c3-e2f28d3978d9` | Decision-making, cognitive biases, strategic planning under uncertainty | High-stakes or irreversible decisions, overcoming blind spots, communicating difficult changes |
+| **ML & AI System Design** | `bac25104-a8e4-4b19-957b-caea1ac4644d` | ML system design, GenAI, LLMs, RAG, recommendation systems, MLOps | System design discussions, technical deep dives, interview prep, architecture trade-offs |
 
 ## Protocol
 
@@ -42,13 +44,13 @@ After presenting insights, offer to directly modify the artifact (talk track, dr
 ## When to Proactively Consult
 
 Leo should suggest consulting a notebook (without being asked) when:
-- James is prepping a presentation or exec communication → "How to Speak"
-- James is reviewing or writing talk tracks → "How to Speak"
-- James is drafting a message to Dylan, Rajat, Jeff, or other leadership → "How to Speak"
-- James is improving a skill or debugging Leo behavior → "Improving Leo"
-- A mock Q&A reveals a speaking pattern from `speaking_reminders.md` → "How to Speak"
+- James is drafting messages to Dylan, Rajat, Jeff, or other leadership → **Wes Kao Frameworks**
+- James is prepping a presentation or writing a talk track → **Wes Kao Frameworks**
+- James is venting, triggered, or prepping for a hard conversation → **Coaching Patterns**
+- James is facing a fork-in-the-road decision or stuck in analysis paralysis → **Decisive Framework**
+- James is doing a technical deep dive, system design, or interview prep → **ML & AI System Design**
 
-Frame it as: "Want me to run this through the [notebook name] notebook for a second opinion?"
+Frame it as: "Want me to run this through the [notebook name] notebook?"
 
 ## Anti-patterns
 - Don't query the notebook for things you can answer from AIContext or general knowledge.

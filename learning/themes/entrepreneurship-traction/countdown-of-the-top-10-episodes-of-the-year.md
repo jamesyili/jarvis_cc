@@ -1,0 +1,13 @@
+# Various (April Dunford, Crystal Widjaja, Julie Zhou, Shishir Mehrotra, Kristen Berman, Elena Verna, Ethan Smith, Shreyas Doshi, Marty Cagan, Matt Mochary) — Countdown of the top 10 episodes of the year
+*Theme: entrepreneurship-traction | Extracted: 2026-04-03*
+
+## Product-led growth requires retention before acquisition; PLG will disrupt every sector
+
+Elena Verna (00:34:00):
+I think every single company has to first focus on being product led and retention, period. The only way that you will ever have any chance of acquisition being product led is if you nail your product led retention. Let me break it down. Retention falls into two main KPIs, which is activation and then engagement. If your product is not able to activate and more importantly engage via habitual loops and be in the habit forming zone, then you'll have no chance to hooking an acquisition engine into your product. Because acquisition and product led means users and buy it or users refer or users create content that attracts other users.
+
+Well, if your users are not habitually using your product, there's less and less opportunities for you to actually create any sort of product led acquisition. So never start with product led acquisition. You first always have to start with product led retention, activation, and engagement. Then you can choose, is your product has a relationship of one to many? If it has a collaboration at its core, say Slack or Miro or even the Amplitude. Or does it have more of a single mode relationship? So let's say Snowflake, there is not one to many relationships there between users. Well, if you have one to many relationships, product led is a fantastic way for you to prototype that model. If you don't have them, then it becomes increasingly hard. Most of the B2B products don't have that one to many relationship, so it's very difficult to stand up product led acquisition. So you rely on marketing led and sales led and that's fantastic, those are fantastic growth models as well.
+
+The only other question becomes in the self-serve monetization, that's product led. Otherwise you go in the sales led and you chase after those large contract values. And you can still be product led and monetization with sales team via product led sales or you can just be self-serve if you have a specific segment that is valuable for. But the question there is your use cases and your market matureness to handle self-serve or do you need that sales touch? Every industry and every sector is going through transformation at different velocities. So even if you don't have that product like sales or self-serve in your industry now, I guarantee you it will pop up in the next 10 years. And if you are not going to introduce it, you will get disrupted by it.
+
+---

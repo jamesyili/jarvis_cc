@@ -1,0 +1,10 @@
+# Carole Robin — How to build deeper, more robust relationships | Carole Robin (Stanford professor, "Touchy Feely")
+*Theme: influencing-without-authority | Extracted: 2026-04-04*
+
+## Giving interpersonal feedback upward without triggering defensiveness
+
+Carole Robin (00:55:58): Here's an example. Somebody walks into... A manager or a team leader or whatever, walks into a room meeting, starts a meeting by say, so I want to make sure we hear from everybody. I want to make sure that we have a very full conversation. I want to talk about X. And now let's say that I start to say something and before I have finished, he says, yeah, and the other thing we should talk about is blah, blah. And then a little later a similar thing happens. I start to suggest that there's another way to look at this and he turns back to somebody else, what somebody else had said and never says anything in response to what I just said. And I'm being very specific here, very behaviorally specific. And then after a while, what happens to me is I feel less and less inclined to offer up anything. Now, maybe he doesn't care, but if he cares because he started by think he wanted to hear from everybody, then I'm not being very caring if I don't tell him what the impact was of his behavior. So I don't call him out in the middle of the meeting because I don't want to embarrass him, but I might go to his office later and say, 'So, John, do you have a few minutes?' I have an observation.
+
+I've got something that I experienced that you might want to know. 'Sure, Carole.' So when I started to say x, you did y. When I started to say z, you did it. I said, and when that you started the meeting by saying you want to hear from everybody. When that happened, I felt less and less... I felt shut down, and I felt less and less inclined to offer up my opinion. Maybe that's okay, but I wondered whether you knew that that was the impact. And I'm telling you, because as far as I am concerned, in that meeting, you did not accomplish your stated desire. Your desired outcome was to hear from everybody. And after a while, I just gave up trying to give you my...
+
+---

@@ -1,0 +1,26 @@
+# Julie Zhuo — How To Win Friends & Influence Decisions (Julie Zhuo) | Lenny & Friends Summit
+*Theme: org-strategy-leverage | Extracted: 2026-04-04*
+
+## Dissolving role boundaries — builders over titles
+
+Lenny Rachitsky (00:16:30): That's funny. That's the term I've been actually using more and more. I used to orient this podcast as a newsletter around product managers and then I started using just product to be a little more broad. And now I'm actually using that term builder and I love that term because it's exactly what you're saying. And this is very much a theme that comes up often in these conversations more and more, just the lines are blurring. I'm curious at your company, how does that look? What are you doing differently? What are you seeing on the ground within your company that maybe would be different from a few years ago?
+
+Julie Zhuo (00:17:01): So we have eliminated more roles. For example, we thought we would need a bunch of product managers. It's turned out that actually if you don't have a product manager, I know this might be going against a little bit of the ethos of where Lenny started, but I find that sometimes when you have a designer or a product manager, and let's say I'm an engineer, then when I have a problem, like I need to figure out the product definition, my default will be, well, I've got these people and that's kind of their job description, so I'm just going to delegate that to them. And I think that in doing so, again, we want to be polite, we want to respect everyone's lanes. I think that's a missed opportunity for that, if I'm the engineer, to be like, "Wait a second, I should probably focus a lot, too." I need to understand and have an opinion about what to build or what the user experience is.
+
+And so we found that if we actually make teams smaller and we even in the past, pre-AI, just have fewer of these, it allowed everyone to be like, "Wait, we don't have product manager on the team, so communication's up to me. Figuring out how we get greatest value to users is something that is now strictly in my charter. And so that's why I'm such a big fan of we can make teams smaller and we can eliminate these lines. Sure. Again, I'm not trying to say everyone has to do everything. We still can respect the fact that you might be much better at this particular skill than me, but it's less about the role and it's more about the specific context that we're in.
+
+And I find that whenever you have teams and you empower them to be able to take more action on their specific context rather than having these higher level of rules or policies or this is how it's supposed to be, then you get better work. You get faster work and you get happier employees because people feel like they actually can have the power to create the thing that they want.
+
+---
+
+## Manager as clarity-setter — goal, purpose, process
+
+Lenny Rachitsky (00:09:20): I 100% believe that and agree with that. So along those lines, I have your book right here. You have this list of a manager's job is to build a team that works well together, support members in reaching their career goals and create processes to get work done smoothly and efficiently, which is basically exactly what you just said.
+
+Julie Zhuo (00:09:20): I 100% believe that and agree with that, which is that management is just about, in my mind, having an outcome. So you want to get something done. That's the thing. You have a north star, you have a vision, and you're just trying to figure out how to use the resources that you have to get that thing done. And typically when we talk about management in traditional settings, we talk about the resources being people, and getting the right talent, and making sure that you've got the assemble the Avengers, so you've got the right mix of skills that you need. The second lever is around, okay, what's the purpose? Does everyone know what they're supposed to do with their talents? Do we have a goal? Do we have a purpose? And then the third thing is process, which is how should all of these different people and tools come together?
+
+And these are still the fundamentals of working with agentic systems. You still need a goal. You need to be very clear about what the outcome is and you have to understand the strengths of, used to be people, but now it's basically models. And different models have different strengths, so it's like they have different personalities. And so you kind have to get to know it, develop an intuition for it so that you can use the right tools for the right purposes. And I mean, we talk about agents, but we also talk about what are the tools that agents have access to? So you still have to make decisions around that and then there's of course process, which is how you do it. And now I think with better and better models, perhaps the agents get smarter so they can deal with higher and higher levels of figuring out how to do something, but I think it's still very important for us to be able to provide the right context, provide the right high level instruction so that we get what we want.
+
+So really, it's the same principles and I absolutely agree with you that more and more of us are going to have to double down on these skills to be able to use these tools very effectively.
+
+---
