@@ -30,6 +30,10 @@ Last updated: 2026-04-04
 
 ## Automation & Proactive Leo
 
+- [ ] **Auto-restart extraction pipeline on frozen process detection** — The Lenny extraction pipeline kept dying from laptop lid closes. Current flow: Leo detects frozen process (CPU time unchanged across checks) and manually restarts. Could be improved with a smarter cron that checks CPU time delta and auto-restarts if no progress after 2 checks. Worth building into any future long-running batch scripts as a pattern.
+
+- [ ] **Extraction second pass for promoted discovered themes** — After reviewing `learning/themes/_discovered.md` (710 passages), any themes worth promoting to seeds need a second systematic pass across all 272 episodes. The current pipeline supports adding new themes to `THEMES` dict and re-running — but only unprocessed episodes would be picked up. Need a `--force-theme` flag or separate pass mode for this.
+
 - [ ] **Cron scraper: aman.ai → NotebookLM** — Build a scheduled agent that scrapes new content from aman.ai and feeds it into relevant NotebookLM notebooks. Goal: keep notebooks current with the latest AI/ML content from Aman's writing. Details to figure out: scrape frequency, which notebooks to target, how to push content into NotebookLM (API or manual upload flow), dedup logic so the same content isn't re-added.
 
 

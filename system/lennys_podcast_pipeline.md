@@ -55,7 +55,7 @@ Processes each transcript through Claude (Sonnet 4.6 via `claude -p`) and extrac
 
 ## Current Status
 
-**261/272 episodes processed (96%).** Pipeline running as PID 59580 as of 2026-04-05 morning. ~11 episodes remaining, estimated ~90 minutes to complete.
+**272/272 episodes complete.** Finished 2026-04-05. All theme files committed and pushed.
 
 ### Pipeline history
 - Started 2026-04-03 with Opus 4.6; switched to Sonnet 4.6 after quality comparison showed comparable results at ~2x speed
@@ -67,10 +67,9 @@ Processes each transcript through Claude (Sonnet 4.6 via `claude -p`) and extrac
 
 ## What's Next
 
-### 1. Finish the run
-Wait for PID 59580 to complete the final ~11 episodes. Check with `python3 scripts/extract_themes.py --status`.
+### 1. ~~Finish the run~~ ✅ Done
 
-### 2. Commit the theme files
+### 2. ~~Commit the theme files~~ ✅ Done (committed in two batches, final push 2026-04-05)
 Hundreds of untracked files in `Learning/themes/` need to be committed once extraction completes. Run a `git add learning/themes/ && git commit`.
 
 ### 3. Review `_discovered.md`
