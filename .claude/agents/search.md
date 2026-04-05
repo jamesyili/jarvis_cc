@@ -41,7 +41,7 @@ Generate 2-3 search terms including synonyms and related terms.
 
 ### Step 2: Search in parallel
 
-Run Grep searches across all `.md` files simultaneously (TODO: swap for mgrep once built — see leo_backlog.md):
+Run Grep searches across all `.md` files simultaneously:
 - Search context files with exact + related terms
 - Search `learning/articles/` with the same terms
 - Search titles (file names via Glob) for topic matches

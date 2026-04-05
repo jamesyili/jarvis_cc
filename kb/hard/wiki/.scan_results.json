@@ -1,0 +1,3710 @@
+{
+  "concepts": [
+    {
+      "concept_slug": "recommendation-systems-design",
+      "concept_name": "Recommendation Systems Design",
+      "description": "End-to-end design of recommendation systems covering retrieval, ranking, feature engineering, and evaluation for platforms like Netflix, news feeds, and marketplaces.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-6-video-recommendation-system.md",
+        "hard/raw/aman-ai/chapter-7-event-recommendation-system.md",
+        "hard/raw/aman-ai/chapter-9-similar-listings-on-vacation-rental-platforms.md",
+        "hard/raw/aman-ai/chapter-10-personalized-news-feed.md",
+        "hard/raw/aman-ai/chapter-11-people-you-may-know.md",
+        "hard/raw/aman-ai/distilled-netflix-recsys-design.md",
+        "hard/raw/aman-ai/distilled-marketplace-recsys-design.md",
+        "hard/raw/aman-ai/distilled-newsfeed-recsys-design.md",
+        "hard/raw/aman-ai/distilled-newsfeed-recsys-design-engineering.md",
+        "hard/raw/aman-ai/distilled-people-you-may-know-pymk-recsys-design.md",
+        "hard/raw/aman-ai/apple-music.md",
+        "hard/raw/aman-ai/cheat-sheet.md"
+      ],
+      "related_concepts": [
+        "two-tower-retrieval",
+        "learning-to-rank",
+        "feature-engineering-for-ml-systems",
+        "ml-evaluation-metrics-and-losses",
+        "embeddings-and-representation-learning"
+      ],
+      "tags": [
+        "recsys",
+        "ml-fundamentals",
+        "system-design"
+      ]
+    },
+    {
+      "concept_slug": "two-tower-retrieval",
+      "concept_name": "Two-Tower / Dual Encoder Retrieval",
+      "description": "Embedding-based candidate retrieval using dual-encoder architectures for efficient approximate nearest neighbor search in recommendation and search systems.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-2-visual-search.md",
+        "hard/raw/aman-ai/chapter-2-youtube-video-search.md",
+        "hard/raw/aman-ai/chapter-6-video-recommendation-system.md",
+        "hard/raw/aman-ai/chapter-9-similar-listings-on-vacation-rental-platforms.md",
+        "hard/raw/aman-ai/chapter-11-people-you-may-know.md",
+        "hard/raw/aman-ai/distilled-people-you-may-know-pymk-recsys-design.md",
+        "hard/raw/aman-ai/distilled-search-engine-recsys-design.md"
+      ],
+      "related_concepts": [
+        "recommendation-systems-design",
+        "embeddings-and-representation-learning",
+        "learning-to-rank",
+        "search-and-ranking-systems"
+      ],
+      "tags": [
+        "recsys",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "learning-to-rank",
+      "concept_name": "Learning to Rank",
+      "description": "Pointwise, pairwise, and listwise LTR approaches for ranking candidates in recommendation, search, and ad systems.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-7-event-recommendation-system.md",
+        "hard/raw/aman-ai/chapter-10-personalized-news-feed.md",
+        "hard/raw/aman-ai/chapter-11-people-you-may-know.md",
+        "hard/raw/aman-ai/distilled-search-engine-recsys-design.md",
+        "hard/raw/aman-ai/distilled-rental-search-ranking.md",
+        "hard/raw/aman-ai/distilled-newsfeed-recsys-design.md",
+        "hard/raw/aman-ai/distilled-ad-click-prediction-recsys-design.md",
+        "hard/raw/aman-ai/cheat-sheet.md"
+      ],
+      "related_concepts": [
+        "recommendation-systems-design",
+        "feature-engineering-for-ml-systems",
+        "ml-evaluation-metrics-and-losses",
+        "two-tower-retrieval"
+      ],
+      "tags": [
+        "recsys",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "ad-click-prediction-systems",
+      "concept_name": "Ad Click Prediction & Ad Systems",
+      "description": "ML systems for predicting ad CTR, auction mechanisms, end-to-end ad serving pipelines, and revenue optimization.",
+      "source_articles": [
+        "hard/raw/aman-ai/ad-click-aggregator.md",
+        "hard/raw/aman-ai/ad-end-to-end.md",
+        "hard/raw/aman-ai/ad-online-auction.md",
+        "hard/raw/aman-ai/distilled-ad-click-prediction-recsys-design.md",
+        "hard/raw/aman-ai/distilled-ad-prediction-recsys-design.md",
+        "hard/raw/aman-ai/cheat-sheet.md"
+      ],
+      "related_concepts": [
+        "learning-to-rank",
+        "feature-engineering-for-ml-systems",
+        "recommendation-systems-design",
+        "distributed-systems-scalability"
+      ],
+      "tags": [
+        "system-design",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "convolutional-neural-networks",
+      "concept_name": "Convolutional Neural Networks",
+      "description": "Architecture, design, training, and evolution of CNNs including AlexNet, VGG, ResNet, and their visual recognition applications.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-convolutional-neural-networks-for-text-classification.md",
+        "hard/raw/aman-ai/cs230-convolutional-neural-networks.md",
+        "hard/raw/aman-ai/cnns-for-visual-recognition.md",
+        "hard/raw/aman-ai/cs231n-image-classification.md",
+        "hard/raw/aman-ai/cs231n-introduction-to-computer-vision.md",
+        "hard/raw/aman-ai/coursera-dl-convolutional-neural-network.md",
+        "hard/raw/aman-ai/primers-convolutional-neural-networks.md",
+        "hard/raw/aman-ai/cs231n-convolutional-neural-networks.md",
+        "hard/raw/aman-ai/cs231n-convolutional-neural-networks-for-visual-recognition.md",
+        "hard/raw/aman-ai/cs231n-cnn-architectures.md",
+        "hard/raw/aman-ai/deep-learning-architectures-comparative-analysis.md"
+      ],
+      "related_concepts": [
+        "neural-network-training-and-optimization",
+        "object-detection-and-segmentation",
+        "transfer-learning-and-fine-tuning",
+        "image-generation-and-generative-models"
+      ],
+      "tags": [
+        "computer-vision",
+        "deep-learning"
+      ]
+    },
+    {
+      "concept_slug": "transformer-and-attention-mechanisms",
+      "concept_name": "Transformer Architecture & Attention Mechanisms",
+      "description": "Self-attention, multi-head attention, positional encoding, and transformer-based architectures for NLP and multimodal tasks.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-2-gmail-smart-compose.md",
+        "hard/raw/aman-ai/chapter-4-chatbot.md",
+        "hard/raw/aman-ai/chapter-2-youtube-video-search.md",
+        "hard/raw/aman-ai/chapter-3-google-translate.md",
+        "hard/raw/aman-ai/cs224n-natural-language-processing-with-deep-learning.md",
+        "hard/raw/aman-ai/coursera-dl-sequence-models.md",
+        "hard/raw/aman-ai/cs230-sequence-models.md"
+      ],
+      "related_concepts": [
+        "nlp-fundamentals",
+        "embeddings-and-representation-learning",
+        "sequence-models-and-rnns",
+        "llm-agents-and-agentic-systems",
+        "retrieval-augmented-generation"
+      ],
+      "tags": [
+        "nlp",
+        "deep-learning",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "image-generation-and-generative-models",
+      "concept_name": "Image Generation & Generative Models",
+      "description": "Generative model approaches for image synthesis \u2014 GANs, VAEs, diffusion models, and autoregressive generation \u2014 with system design implications.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-1-introduction.md",
+        "hard/raw/aman-ai/cs230-generative-adversarial-networks.md",
+        "hard/raw/aman-ai/cs231n-generative-models.md",
+        "hard/raw/aman-ai/chapter-7-realistic-face-generation.md",
+        "hard/raw/aman-ai/chapter-8-high-resolution-image-synthesis.md",
+        "hard/raw/aman-ai/chapter-9-text-to-image-generation.md",
+        "hard/raw/aman-ai/chapter-10-headshot-generation.md"
+      ],
+      "related_concepts": [
+        "convolutional-neural-networks",
+        "transfer-learning-and-fine-tuning",
+        "multimodal-learning"
+      ],
+      "tags": [
+        "generative-models",
+        "deep-learning",
+        "computer-vision"
+      ]
+    },
+    {
+      "concept_slug": "retrieval-augmented-generation",
+      "concept_name": "Retrieval-Augmented Generation (RAG)",
+      "description": "Systems that augment LLM generation with retrieved documents, covering indexing, retrieval strategies, and integration with LLM pipelines.",
+      "source_articles": [
+        "hard/raw/aman-ai/deep-research.md",
+        "hard/raw/aman-ai/primers-personalizing-large-language-models.md",
+        "hard/raw/eugene-yan/obsidian-copilot-an-assistant-for-writing-reflecting.md",
+        "hard/raw/aman-ai/concepts-llmops.md",
+        "hard/raw/eugene-yan/ai-engineer-2023-keynote-building-blocks-for-llm-systems.md",
+        "hard/raw/eugene-yan/what-weve-learned-from-a-year-of-building-with-llms.md",
+        "hard/raw/aman-ai/primers-vector-databases.md",
+        "hard/raw/aman-ai/primers-retrieval-augmented-generation.md",
+        "hard/raw/eugene-yan/mailbag-how-to-bootstrap-labels-for-relevant-docs-in-search.md",
+        "hard/raw/eugene-yan/experimenting-with-llms-to-research-reflect-and-plan.md",
+        "hard/raw/aman-ai/chapter-4-chatbot.md",
+        "hard/raw/eugene-yan/building-ai-reading-club-features-behind-the-scenes.md",
+        "hard/raw/jay-alammar/the-illustrated-retrieval-transformer.md",
+        "hard/raw/eugene-yan/patterns-for-building-llm-based-systems-products.md",
+        "hard/raw/lilian-weng/how-to-build-an-open-domain-question-answering-system.md",
+        "hard/raw/aman-ai/chapter-6-retrieval-augmented-generation.md",
+        "hard/raw/aman-ai/customer-support.md"
+      ],
+      "related_concepts": [
+        "llm-agents-and-agentic-systems",
+        "embeddings-and-representation-learning",
+        "transformer-and-attention-mechanisms",
+        "two-tower-retrieval"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "llm-agents-and-agentic-systems",
+      "concept_name": "LLM Agents & Agentic AI Systems",
+      "description": "Design of LLM-based autonomous agents including tool use, multi-agent orchestration, memory, and planning for coding assistants, research, and customer support.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-13-code-cli.md",
+        "hard/raw/aman-ai/chapter-14-computer-use-agent.md",
+        "hard/raw/aman-ai/chapter-15-reminder-service-for-chatbot.md",
+        "hard/raw/aman-ai/deep-research.md",
+        "hard/raw/aman-ai/customer-support.md"
+      ],
+      "related_concepts": [
+        "retrieval-augmented-generation",
+        "transformer-and-attention-mechanisms",
+        "model-deployment-and-mlops"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "neural-network-training-and-optimization",
+      "concept_name": "Neural Network Training & Optimization",
+      "description": "Practical techniques for training deep networks: initialization, activation functions, batch normalization, learning rate schedules, and hyperparameter tuning.",
+      "source_articles": [
+        "hard/raw/aman-ai/coursera-dl-improving-deep-neural-networks-hyperparameter-tuning-regularization.md",
+        "hard/raw/aman-ai/cs231n-training-neural-networks-i.md",
+        "hard/raw/aman-ai/cs231n-training-neural-networks-ii.md",
+        "hard/raw/aman-ai/cs230-applied-deep-learning.md",
+        "hard/raw/aman-ai/cs229-neural-networks.md",
+        "hard/raw/aman-ai/cs230-optimizing-and-structuring-neural-networks.md",
+        "hard/raw/aman-ai/coursera-dl-neural-networks-and-deep-learning.md",
+        "hard/raw/aman-ai/cs231n-neural-networks-and-backpropagation.md",
+        "hard/raw/aman-ai/cs230-introduction-to-deep-learning.md",
+        "hard/raw/aman-ai/cs230-neural-networks.md"
+      ],
+      "related_concepts": [
+        "gradient-descent-and-optimization-algorithms",
+        "bias-variance-and-regularization",
+        "normalization-techniques",
+        "convolutional-neural-networks"
+      ],
+      "tags": [
+        "deep-learning",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "bias-variance-and-regularization",
+      "concept_name": "Bias-Variance Tradeoff & Regularization",
+      "description": "Understanding the bias-variance tradeoff, diagnosing overfitting and underfitting, and applying regularization and cross-validation to improve generalization.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs229-learning-theory.md",
+        "hard/raw/aman-ai/cs229-regularization-and-model-selection.md",
+        "hard/raw/aman-ai/cs229-debugging-and-error-analysis.md",
+        "hard/raw/aman-ai/coursera-dl-improving-deep-neural-networks-hyperparameter-tuning-regularization.md",
+        "hard/raw/aman-ai/coursera-dl-structuring-machine-learning-projects.md",
+        "hard/raw/aman-ai/common-errors.md"
+      ],
+      "related_concepts": [
+        "neural-network-training-and-optimization",
+        "gradient-descent-and-optimization-algorithms",
+        "supervised-learning-algorithms"
+      ],
+      "tags": [
+        "ml-theory",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "gradient-descent-and-optimization-algorithms",
+      "concept_name": "Gradient Descent & Optimization Algorithms",
+      "description": "First- and second-order optimization methods including SGD, Adam, Newton's method, and learning rate scheduling for ML model training.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs229-linear-regression-and-gradient-descent.md",
+        "hard/raw/aman-ai/cs229-newton39s-method.md",
+        "hard/raw/aman-ai/coursera-dl-improving-deep-neural-networks-hyperparameter-tuning-regularization.md",
+        "hard/raw/aman-ai/cs231n-training-neural-networks-ii.md",
+        "hard/raw/aman-ai/aman39s-ai-journal-interview-questions.md"
+      ],
+      "related_concepts": [
+        "neural-network-training-and-optimization",
+        "bias-variance-and-regularization"
+      ],
+      "tags": [
+        "ml-theory",
+        "deep-learning"
+      ]
+    },
+    {
+      "concept_slug": "embeddings-and-representation-learning",
+      "concept_name": "Embeddings & Representation Learning",
+      "description": "Dense vector representations for words, items, and entities \u2014 covering word2vec, LSH-based retrieval, and learned embeddings for recommendation and search.",
+      "source_articles": [
+        "hard/raw/aman-ai/coursera-nlp-word-embeddings-and-vector-spaces.md",
+        "hard/raw/aman-ai/cs224n-natural-language-processing-with-deep-learning.md",
+        "hard/raw/aman-ai/coursera-nlp-machine-translation-using-locality-sensitive-hashing.md",
+        "hard/raw/aman-ai/chapter-9-similar-listings-on-vacation-rental-platforms.md",
+        "hard/raw/aman-ai/distilled-people-you-may-know-pymk-recsys-design.md",
+        "hard/raw/aman-ai/chapter-11-people-you-may-know.md"
+      ],
+      "related_concepts": [
+        "two-tower-retrieval",
+        "transformer-and-attention-mechanisms",
+        "nlp-fundamentals",
+        "recommendation-systems-design"
+      ],
+      "tags": [
+        "nlp",
+        "ml-fundamentals",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "sequence-models-and-rnns",
+      "concept_name": "Sequence Models & RNNs",
+      "description": "Recurrent neural network architectures (RNN, LSTM, GRU) and their role in sequence modeling before and alongside transformers.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs230-sequence-models.md",
+        "hard/raw/aman-ai/cs231n-recurrent-neural-networks.md",
+        "hard/raw/aman-ai/coursera-dl-sequence-models.md",
+        "hard/raw/aman-ai/cs224n-natural-language-processing-with-deep-learning.md",
+        "hard/raw/aman-ai/deep-learning-architectures-comparative-analysis.md",
+        "hard/raw/aman-ai/nlp-neural-architectures.md",
+        "hard/raw/aman-ai/natural-language-processing-xlstm.md",
+        "hard/raw/aman-ai/natural-language-processing-neural-networks.md"
+      ],
+      "related_concepts": [
+        "transformer-and-attention-mechanisms",
+        "nlp-fundamentals"
+      ],
+      "tags": [
+        "sequence-models",
+        "deep-learning"
+      ]
+    },
+    {
+      "concept_slug": "object-detection-and-segmentation",
+      "concept_name": "Object Detection & Image Segmentation",
+      "description": "CNN-based object detection architectures (YOLO, R-CNN family) and semantic/instance segmentation for applications like autonomous driving and healthcare.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs230-object-detection-algorithms.md",
+        "hard/raw/aman-ai/cs231n-detection-and-segmentation.md",
+        "hard/raw/aman-ai/chapter-3-google-street-view-blurring-system.md",
+        "hard/raw/aman-ai/cs230-ai-in-healthcare-and-a-case-study-of-cell-segmentation.md"
+      ],
+      "related_concepts": [
+        "convolutional-neural-networks",
+        "transfer-learning-and-fine-tuning"
+      ],
+      "tags": [
+        "computer-vision",
+        "deep-learning"
+      ]
+    },
+    {
+      "concept_slug": "normalization-techniques",
+      "concept_name": "Normalization Techniques",
+      "description": "Batch normalization, layer normalization, SELU, and other normalization methods that stabilize and accelerate deep network training.",
+      "source_articles": [
+        "hard/raw/aman-ai/aman39s-ai-journal-normalization-methods.md",
+        "hard/raw/aman-ai/coursera-dl-improving-deep-neural-networks-hyperparameter-tuning-regularization.md",
+        "hard/raw/aman-ai/cs231n-training-neural-networks-i.md"
+      ],
+      "related_concepts": [
+        "neural-network-training-and-optimization",
+        "convolutional-neural-networks"
+      ],
+      "tags": [
+        "deep-learning",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "ab-testing-and-causal-inference",
+      "concept_name": "A/B Testing & Causal Inference",
+      "description": "Experimental design, A/B test methodology, sampling strategies, and causal inference for measuring ML system impact.",
+      "source_articles": [
+        "hard/raw/aman-ai/concepts-ab-testing.md",
+        "hard/raw/aman-ai/airbnb.md",
+        "hard/raw/aman-ai/concepts-causal-inference.md"
+      ],
+      "related_concepts": [
+        "ml-evaluation-metrics-and-losses",
+        "feature-engineering-for-ml-systems"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "feature-engineering-for-ml-systems",
+      "concept_name": "Feature Engineering for ML Systems",
+      "description": "Designing, selecting, and transforming features for production ML models including categorical encoding, temporal features, and TFRecord-based data pipelines.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-1-introduction-and-overview.md",
+        "hard/raw/aman-ai/distilled-ad-click-prediction-recsys-design.md",
+        "hard/raw/aman-ai/distilled-rental-search-ranking.md",
+        "hard/raw/aman-ai/distilled-estimate-delivery-time.md",
+        "hard/raw/aman-ai/applied-machine-learning-for-industry.md",
+        "hard/raw/aman-ai/cheat-sheet.md",
+        "hard/raw/aman-ai/distilled-ad-prediction-recsys-design.md"
+      ],
+      "related_concepts": [
+        "recommendation-systems-design",
+        "learning-to-rank",
+        "ml-evaluation-metrics-and-losses"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "distributed-systems-scalability",
+      "concept_name": "Distributed Systems & Scalability",
+      "description": "Scalability patterns for distributed systems including consistent hashing, unique ID generation, message queues, and horizontal scaling strategies.",
+      "source_articles": [
+        "hard/raw/aman-ai/consistent-hashing.md",
+        "hard/raw/aman-ai/designing-a-unique-id-generator-in-distributed-systems.md",
+        "hard/raw/aman-ai/chat-system.md",
+        "hard/raw/aman-ai/distilled-instagram.md",
+        "hard/raw/aman-ai/distilled-notification-system.md",
+        "hard/raw/aman-ai/distilled-facebook-messengerwhatsapp.md",
+        "hard/raw/aman-ai/distilled-google-docs.md"
+      ],
+      "related_concepts": [
+        "real-time-systems-and-streaming",
+        "ad-click-prediction-systems"
+      ],
+      "tags": [
+        "system-design"
+      ]
+    },
+    {
+      "concept_slug": "graph-traversal-algorithms",
+      "concept_name": "Graph Traversal Algorithms",
+      "description": "BFS, DFS, topological sort, and graph problem-solving patterns for coding interviews.",
+      "source_articles": [
+        "hard/raw/aman-ai/distilled-leetcode-bfs.md",
+        "hard/raw/aman-ai/distilled-leetcode-dfs.md",
+        "hard/raw/aman-ai/distilled-leetcode-dfs-vs-bfs.md",
+        "hard/raw/aman-ai/distilled-leetcode-graphs.md",
+        "hard/raw/aman-ai/distilled-leetcode-topological-sort.md"
+      ],
+      "related_concepts": [
+        "dynamic-programming",
+        "coding-interview-algorithm-patterns"
+      ],
+      "tags": [
+        "algorithms",
+        "graph-neural-networks"
+      ]
+    },
+    {
+      "concept_slug": "dynamic-programming",
+      "concept_name": "Dynamic Programming",
+      "description": "Tabulation and memoization approaches for solving overlapping subproblems, with common DP patterns for coding interviews.",
+      "source_articles": [
+        "hard/raw/aman-ai/distilled-leetcode-dynamic-programming.md",
+        "hard/raw/aman-ai/distilled-leetcode.md"
+      ],
+      "related_concepts": [
+        "graph-traversal-algorithms",
+        "coding-interview-algorithm-patterns"
+      ],
+      "tags": [
+        "algorithms"
+      ]
+    },
+    {
+      "concept_slug": "reinforcement-learning",
+      "concept_name": "Reinforcement Learning",
+      "description": "Markov decision processes, value iteration, policy gradient, Q-learning, and deep RL including DQN and AlphaGo-style applications.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-rft.md",
+        "hard/raw/aman-ai/cs229-reinforcement-learning-and-adaptive-control.md",
+        "hard/raw/aman-ai/models-taskmatrixai.md",
+        "hard/raw/aman-ai/reinforcement-learning.md",
+        "hard/raw/aman-ai/cs230-deep-reinforcement-learning.md",
+        "hard/raw/aman-ai/cs231n-deep-reinforcement-learning.md",
+        "hard/raw/aman-ai/primers-deep-reinforcement-learning.md",
+        "hard/raw/aman-ai/cs229-linear-quadratic-regulation-differential-dynamic-programming-and-linear-qu.md",
+        "hard/raw/aman-ai/rl.md",
+        "hard/raw/aman-ai/primers-agentic-reinforcement-learning.md"
+      ],
+      "related_concepts": [
+        "neural-network-training-and-optimization"
+      ],
+      "tags": [
+        "reinforcement-learning",
+        "deep-learning"
+      ]
+    },
+    {
+      "concept_slug": "adversarial-robustness",
+      "concept_name": "Adversarial Robustness",
+      "description": "Adversarial examples, attack methods (FGSM, PGD), and defense strategies for building robust neural networks.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs230-adversarial-attacks-and-defenses.md",
+        "hard/raw/aman-ai/cs231n-adversarial-examples-and-adversarial-training.md"
+      ],
+      "related_concepts": [
+        "convolutional-neural-networks",
+        "neural-network-interpretability"
+      ],
+      "tags": [
+        "deep-learning",
+        "computer-vision"
+      ]
+    },
+    {
+      "concept_slug": "nlp-fundamentals",
+      "concept_name": "NLP Fundamentals",
+      "description": "Core natural language processing techniques: tokenization, probabilistic language models, HMMs, sentiment analysis, and text classification.",
+      "source_articles": [
+        "hard/raw/aman-ai/coursera-nlp-natural-language-processing-with-probabilistic-models.md",
+        "hard/raw/aman-ai/coursera-nlp-sentiment-analysis-using-logistic-regression.md",
+        "hard/raw/aman-ai/coursera-nlp-sentiment-analysis-using-naive-bayes.md",
+        "hard/raw/aman-ai/cs224n-natural-language-processing-with-deep-learning.md",
+        "hard/raw/aman-ai/chapter-3-google-translate.md"
+      ],
+      "related_concepts": [
+        "embeddings-and-representation-learning",
+        "sequence-models-and-rnns",
+        "transformer-and-attention-mechanisms"
+      ],
+      "tags": [
+        "nlp"
+      ]
+    },
+    {
+      "concept_slug": "supervised-learning-algorithms",
+      "concept_name": "Supervised Learning Algorithms",
+      "description": "Classical supervised ML algorithms including linear and logistic regression, SVMs, decision trees, naive Bayes, and generative classifiers.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs229-linear-regression.md",
+        "hard/raw/aman-ai/cs229-linear-regression-and-gradient-descent.md",
+        "hard/raw/aman-ai/cs229-logistic-regression.md",
+        "hard/raw/aman-ai/cs229-support-vector-machines.md",
+        "hard/raw/aman-ai/cs229-decision-trees.md",
+        "hard/raw/aman-ai/cs229-naive-bayes.md",
+        "hard/raw/aman-ai/cs229-gaussian-discriminant-analysis.md",
+        "hard/raw/aman-ai/coursera-ml-supervised-learning.md",
+        "hard/raw/aman-ai/cs229-generalized-linear-models.md",
+        "hard/raw/aman-ai/cs229-perceptron.md",
+        "hard/raw/aman-ai/cs229-machine-learning.md"
+      ],
+      "related_concepts": [
+        "bias-variance-and-regularization",
+        "ensemble-methods",
+        "gradient-descent-and-optimization-algorithms"
+      ],
+      "tags": [
+        "ml-theory"
+      ]
+    },
+    {
+      "concept_slug": "unsupervised-learning-and-clustering",
+      "concept_name": "Unsupervised Learning & Clustering",
+      "description": "Unsupervised methods including k-means, PCA, EM algorithm, factor analysis, and ICA for discovering latent structure in data.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs229-k-means-clustering-algorithm.md",
+        "hard/raw/aman-ai/cs229-principal-component-analysis.md",
+        "hard/raw/aman-ai/cs229-expectation-maximization-algorithms.md",
+        "hard/raw/aman-ai/cs229-factor-analysis.md",
+        "hard/raw/aman-ai/cs229-independent-component-analysis.md",
+        "hard/raw/aman-ai/coursera-ml-unsupervised-learning-work-in-progress.md"
+      ],
+      "related_concepts": [
+        "supervised-learning-algorithms",
+        "embeddings-and-representation-learning"
+      ],
+      "tags": [
+        "ml-theory"
+      ]
+    },
+    {
+      "concept_slug": "model-deployment-and-mlops",
+      "concept_name": "Model Deployment & MLOps",
+      "description": "Strategies for deploying ML models to production including blue-green, canary, A/B deployment, LLMOps best practices, and serving infrastructure.",
+      "source_articles": [
+        "hard/raw/aman-ai/aman39s-ai-journal-model-deployment.md",
+        "hard/raw/aman-ai/concepts-llmops.md",
+        "hard/raw/aman-ai/applied-machine-learning-for-industry.md",
+        "hard/raw/aman-ai/coursera-dl-structuring-machine-learning-projects.md",
+        "hard/raw/aman-ai/cs231n-deep-learning-hardware-and-software.md"
+      ],
+      "related_concepts": [
+        "llm-agents-and-agentic-systems",
+        "real-time-systems-and-streaming"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "search-and-ranking-systems",
+      "concept_name": "Search & Ranking Systems",
+      "description": "ML system design for search \u2014 video, text, proximity, and rental search \u2014 covering retrieval-ranking pipelines, indexing, and query understanding.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-2-youtube-video-search.md",
+        "hard/raw/aman-ai/chapter-4-youtube-video-search.md",
+        "hard/raw/aman-ai/distilled-search-engine-recsys-design.md",
+        "hard/raw/aman-ai/distilled-rental-search-ranking.md",
+        "hard/raw/aman-ai/distilled-statusposts-search.md",
+        "hard/raw/aman-ai/distilled-facebookyelp-proximity-settings.md"
+      ],
+      "related_concepts": [
+        "learning-to-rank",
+        "two-tower-retrieval",
+        "recommendation-systems-design"
+      ],
+      "tags": [
+        "system-design",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "multimodal-learning",
+      "concept_name": "Multimodal Learning",
+      "description": "Fusing information across modalities (text, image, video, audio) using early/late fusion and cross-attention for captioning, visual search, and text-to-image.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-4-youtube-video-search.md",
+        "hard/raw/aman-ai/chapter-5-image-captioning.md",
+        "hard/raw/aman-ai/chapter-2-visual-search.md",
+        "hard/raw/aman-ai/chapter-9-text-to-image-generation.md"
+      ],
+      "related_concepts": [
+        "transformer-and-attention-mechanisms",
+        "convolutional-neural-networks",
+        "image-generation-and-generative-models"
+      ],
+      "tags": [
+        "computer-vision",
+        "deep-learning",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "ml-evaluation-metrics-and-losses",
+      "concept_name": "ML Evaluation Metrics & Loss Functions",
+      "description": "Offline and online metrics for ML systems \u2014 AUC, log loss, NDCG, MAP, precision/recall \u2014 plus loss function design and model selection.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs231n-loss-functions.md",
+        "hard/raw/aman-ai/cheat-sheet.md",
+        "hard/raw/aman-ai/distilled-ad-prediction-recsys-design.md",
+        "hard/raw/aman-ai/distilled-netflix-recsys-design.md",
+        "hard/raw/aman-ai/distilled-search-engine-recsys-design.md",
+        "hard/raw/aman-ai/distilled-newsfeed-recsys-design.md"
+      ],
+      "related_concepts": [
+        "learning-to-rank",
+        "recommendation-systems-design",
+        "ab-testing-and-causal-inference"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "ensemble-methods",
+      "concept_name": "Ensemble Methods",
+      "description": "Bagging, boosting (AdaBoost, gradient boosting), and random forests as techniques to reduce variance and improve predictive performance.",
+      "source_articles": [
+        "hard/raw/aman-ai/natural-language-processing-ensemble-methods.md",
+        "hard/raw/aman-ai/ml-algorithms-comparative-analysis.md",
+        "hard/raw/aman-ai/primers-decision-trees-and-ensemble-methods.md",
+        "hard/raw/aman-ai/cs229-ensemble-methods.md",
+        "hard/raw/aman-ai/coursera-ml-advanced-ml-algorithms.md",
+        "hard/raw/aman-ai/cs229-decision-trees.md"
+      ],
+      "related_concepts": [
+        "supervised-learning-algorithms",
+        "bias-variance-and-regularization"
+      ],
+      "tags": [
+        "ml-theory"
+      ]
+    },
+    {
+      "concept_slug": "transfer-learning-and-fine-tuning",
+      "concept_name": "Transfer Learning & Fine-Tuning",
+      "description": "Adapting pretrained models to new tasks via fine-tuning, parameter-efficient methods (DreamBooth, LoRA), and prompt engineering vs. RAG trade-offs.",
+      "source_articles": [
+        "hard/raw/aman-ai/chapter-10-headshot-generation.md",
+        "hard/raw/aman-ai/chapter-6-retrieval-augmented-generation.md",
+        "hard/raw/aman-ai/cs231n-cnn-architectures.md",
+        "hard/raw/aman-ai/concepts-llmops.md"
+      ],
+      "related_concepts": [
+        "image-generation-and-generative-models",
+        "transformer-and-attention-mechanisms",
+        "convolutional-neural-networks"
+      ],
+      "tags": [
+        "deep-learning",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "neural-network-interpretability",
+      "concept_name": "Neural Network Interpretability & Visualization",
+      "description": "Techniques for understanding neural network decisions: saliency maps, occlusion sensitivity, feature visualization, and gradient-based analysis.",
+      "source_articles": [
+        "hard/raw/aman-ai/cs230-interpretability-of-neural-networks.md",
+        "hard/raw/aman-ai/cs231n-visualizing-and-understanding.md"
+      ],
+      "related_concepts": [
+        "convolutional-neural-networks",
+        "adversarial-robustness"
+      ],
+      "tags": [
+        "deep-learning",
+        "computer-vision"
+      ]
+    },
+    {
+      "concept_slug": "real-time-systems-and-streaming",
+      "concept_name": "Real-Time Systems & Streaming",
+      "description": "Architectures for real-time data ingestion, streaming pipelines, live-updating recommendations, and low-latency inference serving.",
+      "source_articles": [
+        "hard/raw/aman-ai/apple-music.md",
+        "hard/raw/aman-ai/distilled-live-commenting.md",
+        "hard/raw/aman-ai/ad-click-aggregator.md",
+        "hard/raw/aman-ai/chat-system.md"
+      ],
+      "related_concepts": [
+        "distributed-systems-scalability",
+        "recommendation-systems-design"
+      ],
+      "tags": [
+        "system-design"
+      ]
+    },
+    {
+      "concept_slug": "coding-interview-algorithm-patterns",
+      "concept_name": "Coding Interview Algorithm Patterns",
+      "description": "Common LeetCode problem-solving patterns including sliding window, two pointers, heap, binary search, stack, trie, and hash table.",
+      "source_articles": [
+        "hard/raw/aman-ai/distilled-leetcode.md",
+        "hard/raw/aman-ai/distilled-leetcode-two-pointers.md",
+        "hard/raw/aman-ai/distilled-leetcode-slidingrollingmoving-window.md",
+        "hard/raw/aman-ai/distilled-leetcode-heap.md",
+        "hard/raw/aman-ai/distilled-leetcode-binary-search.md",
+        "hard/raw/aman-ai/distilled-leetcode-stack.md",
+        "hard/raw/aman-ai/distilled-leetcode-trie.md",
+        "hard/raw/aman-ai/distilled-leetcode-misc.md",
+        "hard/raw/aman-ai/distilled-leetcode-dictionaryhash-tableset.md",
+        "hard/raw/aman-ai/distilled-leetcode-asymptotic-notations.md",
+        "hard/raw/aman-ai/distilled-leetcode-sortingsearching.md",
+        "hard/raw/aman-ai/distilled-leetcode-grid.md"
+      ],
+      "related_concepts": [
+        "graph-traversal-algorithms",
+        "dynamic-programming"
+      ],
+      "tags": [
+        "algorithms"
+      ]
+    },
+    {
+      "concept_slug": "privacy-preserving-machine-learning",
+      "concept_name": "Privacy-Preserving Machine Learning",
+      "description": "Techniques for ML with privacy guarantees: federated learning, differential privacy, on-device inference, and privacy-safe NLP/LLM deployment.",
+      "source_articles": [
+        "hard/raw/aman-ai/concepts-privacy.md",
+        "hard/raw/aman-ai/concepts-llmops.md"
+      ],
+      "related_concepts": [
+        "model-deployment-and-mlops"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "transformer-architecture",
+      "concept_name": "Transformer Architecture",
+      "description": "Core self-attention-based architecture underlying modern NLP and LLMs, including BERT, GPT, encoder-decoder variants, and efficiency extensions like BigBird.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-transformers.md",
+        "hard/raw/aman-ai/recommendation-systems-transformers.md",
+        "hard/raw/lilian-weng/the-transformer-family-version-20.md",
+        "hard/raw/lilian-weng/the-transformer-family.md",
+        "hard/raw/aman-ai/primers-bigbird.md",
+        "hard/raw/jay-alammar/how-gpt3-works-visualizations-and-animations.md",
+        "hard/raw/jay-alammar/the-illustrated-retrieval-transformer.md",
+        "hard/raw/aman-ai/primers-fine-tuning-and-evaluating-bert.md",
+        "hard/raw/aman-ai/natural-language-processing-transformers.md",
+        "hard/raw/aman-ai/primers-model-acceleration.md",
+        "hard/raw/eugene-yan/some-intuition-on-attention-and-the-transformer.md",
+        "hard/raw/aman-ai/primers-encoder-vs-decoder-vs-encoder-decoder-models.md",
+        "hard/raw/aman-ai/primers-on-device-transformers.md",
+        "hard/raw/jay-alammar/interfaces-for-explaining-transformer-language-models.md",
+        "hard/raw/aman-ai/primers-vision-transformer-vit.md",
+        "hard/raw/aman-ai/models-llama.md",
+        "hard/raw/lilian-weng/attention-attention.md",
+        "hard/raw/aman-ai/primers-bidirectional-encoder-representations-from-transformers-bert.md"
+      ],
+      "related_concepts": [
+        "attention-mechanisms",
+        "large-language-models",
+        "llm-fine-tuning",
+        "sequence-models-and-rnns"
+      ],
+      "tags": [
+        "transformers",
+        "nlp",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "attention-mechanisms",
+      "concept_name": "Attention Mechanisms",
+      "description": "Mechanisms that allow models to dynamically weight input elements, from the original seq2seq attention to multi-head self-attention and memory-efficient FlashAttention.",
+      "source_articles": [
+        "hard/raw/aman-ai/natural-language-processing-attention.md",
+        "hard/raw/aman-ai/primers-flashattention.md",
+        "hard/raw/aman-ai/natural-language-processing-transformers.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "large-language-models"
+      ],
+      "tags": [
+        "attention",
+        "transformers",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "large-language-models",
+      "concept_name": "Large Language Models",
+      "description": "Scaled neural language models\u2014GPT, LLaMA, Claude, DeepSeek, Qwen, Kimi\u2014covering architecture overviews, capability comparisons, and context length extension.",
+      "source_articles": [
+        "hard/raw/aman-ai/natural-language-processing-language-models.md",
+        "hard/raw/aman-ai/models-meena.md",
+        "hard/raw/aman-ai/nlp-llm-context-length-extension.md",
+        "hard/raw/jay-alammar/applying-massive-language-models-in-the-real-world-with-cohere.md",
+        "hard/raw/aman-ai/models-generative-pre-trained-transformer-4-gpt-4.md",
+        "hard/raw/aman-ai/primers-gemini.md",
+        "hard/raw/aman-ai/models-chatgpt.md",
+        "hard/raw/jay-alammar/how-gpt3-works-visualizations-and-animations.md",
+        "hard/raw/aman-ai/primers-overview-of-large-language-models.md",
+        "hard/raw/aman-ai/primers-claude-4.md",
+        "hard/raw/karpathy/deep-neural-nets-33-years-ago-and-33-years-from-now.md",
+        "hard/raw/aman-ai/kimi-k2.md",
+        "hard/raw/eugene-yan/what-weve-learned-from-a-year-of-building-with-llms.md",
+        "hard/raw/aman-ai/primers-alibaba-qwen-25.md",
+        "hard/raw/aman-ai/primers-deepseek-v3.md",
+        "hard/raw/eugene-yan/open-llms-a-list-of-llms-for-commercial-use.md",
+        "hard/raw/aman-ai/primers-generative-pre-trained-transformer-gpt.md",
+        "hard/raw/aman-ai/primers-qwen-3.md",
+        "hard/raw/karpathy/microgpt.md",
+        "hard/raw/aman-ai/primers-deepseek-r1.md",
+        "hard/raw/lilian-weng/generalized-language-models.md",
+        "hard/raw/cameron-wolfe/gpt-oss-from-the-ground-up.md",
+        "hard/raw/aman-ai/models-llama.md",
+        "hard/raw/aman-ai/token-sampling-methods.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "llm-fine-tuning",
+        "hallucination-and-factuality",
+        "mixture-of-experts",
+        "ai-agents-and-agentic-systems"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "llm-fine-tuning",
+      "concept_name": "LLM Fine-tuning and Alignment",
+      "description": "Techniques for adapting pre-trained models to specific tasks, including SFT, RLHF, PEFT, instruction tuning, and parameter-efficient methods.",
+      "source_articles": [
+        "hard/raw/aman-ai/natural-language-processing-finetuning.md",
+        "hard/raw/aman-ai/primers-fine-tuning-models.md",
+        "hard/raw/aman-ai/primers-fine-tuning-and-evaluating-bert.md",
+        "hard/raw/aman-ai/models-alpaca.md",
+        "hard/raw/aman-ai/huggingface.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "transformer-architecture",
+        "reinforcement-learning"
+      ],
+      "tags": [
+        "fine-tuning",
+        "ml-fundamentals",
+        "llms"
+      ]
+    },
+    {
+      "concept_slug": "evaluation-metrics",
+      "concept_name": "Evaluation Metrics and Experimentation",
+      "description": "Metrics for measuring model performance\u2014precision, recall, F1, AUC, information retrieval metrics\u2014plus biases that affect offline and online experiments.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-evaluation-metrics.md",
+        "hard/raw/aman-ai/primers-f-beta-score.md",
+        "hard/raw/aman-ai/primers-experimentation-biases.md",
+        "hard/raw/aman-ai/models-information-retrieval-methods.md",
+        "hard/raw/aman-ai/primers-cross-validation.md"
+      ],
+      "related_concepts": [
+        "ml-system-design",
+        "bias-variance-and-generalization",
+        "retrieval-and-rag"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "evaluation"
+      ]
+    },
+    {
+      "concept_slug": "diffusion-and-generative-models",
+      "concept_name": "Diffusion and Generative Models",
+      "description": "Models that generate new data through forward/reverse diffusion processes, including DDPM, stable diffusion, and unified multimodal generators like Janus-Pro.",
+      "source_articles": [
+        "hard/raw/aman-ai/models-diffusion-models.md",
+        "hard/raw/aman-ai/primers-diffusion-models.md",
+        "hard/raw/aman-ai/nlp-generative-ai.md",
+        "hard/raw/aman-ai/primers-deepseek-janus-pro.md"
+      ],
+      "related_concepts": [
+        "multimodal-machine-learning",
+        "large-language-models"
+      ],
+      "tags": [
+        "generative-models",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "word-embeddings-and-representations",
+      "concept_name": "Word Embeddings and Representations",
+      "description": "Dense vector representations of words and sentences\u2014Word2Vec, GloVe, contextual embeddings, and contrastive vision-language models like CLIP.",
+      "source_articles": [
+        "hard/raw/aman-ai/natural-language-processing-word-vectors.md",
+        "hard/raw/aman-ai/natural-language-processing-word-vectorsembeddings.md",
+        "hard/raw/aman-ai/models-clip.md",
+        "hard/raw/aman-ai/primers-approximate-nearest-neighbors-for-similarity-search.md"
+      ],
+      "related_concepts": [
+        "recommendation-systems",
+        "retrieval-and-rag",
+        "transformer-architecture",
+        "nlp-tasks-and-applications"
+      ],
+      "tags": [
+        "embeddings",
+        "nlp",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "retrieval-and-rag",
+      "concept_name": "Information Retrieval and RAG",
+      "description": "Methods for retrieving relevant documents\u2014TF-IDF, BM25, dense retrieval, knowledge graphs\u2014and retrieval-augmented generation pipelines for grounding LLMs.",
+      "source_articles": [
+        "hard/raw/aman-ai/models-information-retrieval-methods.md",
+        "hard/raw/aman-ai/nlp-hallucination-detection-and-mitigation.md",
+        "hard/raw/aman-ai/multi-agent-ads-customer-support.md",
+        "hard/raw/aman-ai/primers-factuality-in-llms.md",
+        "hard/raw/aman-ai/natural-language-processing-knowledge-graphs.md"
+      ],
+      "related_concepts": [
+        "hallucination-and-factuality",
+        "word-embeddings-and-representations",
+        "ai-agents-and-agentic-systems",
+        "large-language-models"
+      ],
+      "tags": [
+        "retrieval",
+        "ml-fundamentals",
+        "llms"
+      ]
+    },
+    {
+      "concept_slug": "recommendation-systems",
+      "concept_name": "Recommendation Systems",
+      "description": "End-to-end systems for personalized content ranking\u2014two-tower models, matrix factorization, neural collaborative filtering, and ANN-based retrieval.",
+      "source_articles": [
+        "hard/raw/aman-ai/ml-system-design-questions.md",
+        "hard/raw/eugene-yan/mlops-community-system-design-for-recsys-search.md",
+        "hard/raw/eugene-yan/how-to-measure-and-mitigate-position-bias.md",
+        "hard/raw/aman-ai/pinterest-similar-products.md",
+        "hard/raw/aman-ai/internal-project-deep-dive.md",
+        "hard/raw/aman-ai/left-to-right.md",
+        "hard/raw/eugene-yan/building-a-strong-baseline-recommender-in-pytorch-on-a-laptop.md",
+        "hard/raw/aman-ai/internal-netflix.md",
+        "hard/raw/eugene-yan/counterfactual-evaluation-for-recommendation-systems.md",
+        "hard/raw/eugene-yan/bandits-for-recommender-systems.md",
+        "hard/raw/eugene-yan/beating-the-baseline-recommender-with-graph-nlp-in-pytorch.md",
+        "hard/raw/aman-ai/primers-approximate-nearest-neighbors-for-similarity-search.md",
+        "hard/raw/eugene-yan/datascience-sg-meetup-recsys-beyond-the-baseline.md"
+      ],
+      "related_concepts": [
+        "ml-system-design",
+        "word-embeddings-and-representations",
+        "retrieval-and-rag"
+      ],
+      "tags": [
+        "system-design",
+        "ml-system-design",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "ml-system-design",
+      "concept_name": "ML System Design",
+      "description": "Framework for designing production ML systems end-to-end\u2014requirements, feature engineering, model selection, metrics definition, and scaling.",
+      "source_articles": [
+        "hard/raw/aman-ai/ml-system-design-questions.md",
+        "hard/raw/aman-ai/video-recommendation.md",
+        "hard/raw/aman-ai/system-design-questions.md",
+        "hard/raw/aman-ai/youtube-video-search.md",
+        "hard/raw/aman-ai/intro-to-ml-design.md",
+        "hard/raw/aman-ai/recommendation-systems-system-design.md",
+        "hard/raw/aman-ai/visual-search.md",
+        "hard/raw/aman-ai/google-street-view-blurring.md",
+        "hard/raw/aman-ai/pinterest.md",
+        "hard/raw/aman-ai/internal-resource-system-design.md",
+        "hard/raw/aman-ai/uber.md",
+        "hard/raw/aman-ai/ml-system-design-framework.md"
+      ],
+      "related_concepts": [
+        "evaluation-metrics",
+        "recommendation-systems",
+        "mlops-and-cloud-infrastructure",
+        "distributed-system-design"
+      ],
+      "tags": [
+        "ml-system-design",
+        "system-design"
+      ]
+    },
+    {
+      "concept_slug": "distributed-system-design",
+      "concept_name": "Distributed System Design",
+      "description": "Design patterns and trade-offs for scalable distributed systems\u2014key-value stores, web crawlers, typeahead, notification fans, and rate limiting.",
+      "source_articles": [
+        "hard/raw/aman-ai/system-design-engineering.md",
+        "hard/raw/aman-ai/snapchat.md",
+        "hard/raw/aman-ai/youtube.md",
+        "hard/raw/aman-ai/pinterest-follow-pins.md",
+        "hard/raw/aman-ai/distilled-web-crawler.md",
+        "hard/raw/aman-ai/rate-limiter-engineering-design.md",
+        "hard/raw/aman-ai/loginlogout.md",
+        "hard/raw/aman-ai/distilled-typeahead-suggestionsautocomplete.md",
+        "hard/raw/aman-ai/distilled-top-n-trending-topicssongs.md",
+        "hard/raw/aman-ai/system-design-tooling.md",
+        "hard/raw/aman-ai/key-value-db.md"
+      ],
+      "related_concepts": [
+        "stream-processing-infrastructure",
+        "mlops-and-cloud-infrastructure",
+        "ml-system-design"
+      ],
+      "tags": [
+        "system-design"
+      ]
+    },
+    {
+      "concept_slug": "stream-processing-infrastructure",
+      "concept_name": "Stream Processing Infrastructure",
+      "description": "Tools and patterns for real-time data pipelines\u2014Kafka Streams, Apache Flink, Spark Streaming, and Kinesis\u2014including state management and fault tolerance.",
+      "source_articles": [
+        "hard/raw/aman-ai/infrastructure-apache-spark-streams.md",
+        "hard/raw/aman-ai/infrastructure-flink.md",
+        "hard/raw/aman-ai/infrastructure-kafka-streams.md",
+        "hard/raw/aman-ai/infrastructure-kinesis.md",
+        "hard/raw/aman-ai/ml-infrastructure.md"
+      ],
+      "related_concepts": [
+        "distributed-system-design",
+        "mlops-and-cloud-infrastructure"
+      ],
+      "tags": [
+        "infrastructure"
+      ]
+    },
+    {
+      "concept_slug": "mlops-and-cloud-infrastructure",
+      "concept_name": "MLOps and Cloud Infrastructure",
+      "description": "Cloud and containerization tools for deploying ML systems\u2014Docker, Kubernetes, SageMaker, EMR, Glue\u2014covering job orchestration and cost management.",
+      "source_articles": [
+        "hard/raw/aman-ai/infrastructure-apache-emr.md",
+        "hard/raw/aman-ai/infrastructure-apache-glue.md",
+        "hard/raw/aman-ai/infrastructure-docker.md",
+        "hard/raw/aman-ai/infrastructure-kubernetes.md",
+        "hard/raw/aman-ai/infrastructure-sagemaker.md",
+        "hard/raw/aman-ai/ml-infrastructure.md",
+        "hard/raw/aman-ai/infrastructure-faqs.md"
+      ],
+      "related_concepts": [
+        "distributed-training",
+        "stream-processing-infrastructure",
+        "ml-system-design"
+      ],
+      "tags": [
+        "infrastructure",
+        "ml-system-design"
+      ]
+    },
+    {
+      "concept_slug": "distributed-training",
+      "concept_name": "Distributed Training and Memory Optimization",
+      "description": "Techniques for training large models across GPUs\u2014data/model/pipeline parallelism, gradient checkpointing, ZeRO offloading, and DeepSpeed.",
+      "source_articles": [
+        "hard/raw/aman-ai/gradient-accumulation-and-checkpointing.md",
+        "hard/raw/aman-ai/primers-distributed-training-parallelism.md",
+        "hard/raw/aman-ai/primers-distributed-training.md"
+      ],
+      "related_concepts": [
+        "mlops-and-cloud-infrastructure",
+        "large-language-models",
+        "mixture-of-experts"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "infrastructure"
+      ]
+    },
+    {
+      "concept_slug": "neural-network-fundamentals",
+      "concept_name": "Neural Network Fundamentals",
+      "description": "Core building blocks of neural networks\u2014activation functions, backpropagation, batch normalization, dropout, and gradient flow through the chain rule.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-activation-functions.md",
+        "hard/raw/aman-ai/primers-backprop-guide.md",
+        "hard/raw/aman-ai/primers-batchnorm.md",
+        "hard/raw/aman-ai/primers-chain-rule.md",
+        "hard/raw/aman-ai/primers-dropout.md",
+        "hard/raw/aman-ai/primers-derivative-of-the-relu.md",
+        "hard/raw/aman-ai/primers-derivative-of-the-sigmoid-function.md",
+        "hard/raw/aman-ai/primers-derivative-of-the-tanh-function.md",
+        "hard/raw/aman-ai/primers-expression-for-partial-gradient-of-batchnorm.md",
+        "hard/raw/aman-ai/natural-language-processing-neural-networks.md",
+        "hard/raw/aman-ai/mlai-fundamental-concepts.md",
+        "hard/raw/aman-ai/oai.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "bias-variance-and-generalization",
+        "model-debugging-and-diagnostics",
+        "convolutional-neural-networks"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "bias-variance-and-generalization",
+      "concept_name": "Bias-Variance Tradeoff and Generalization",
+      "description": "Statistical learning theory around underfitting/overfitting, bias-variance decomposition, the double descent phenomenon, and validation strategies.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-bias-variance-tradeoff.md",
+        "hard/raw/aman-ai/primers-double-descent.md",
+        "hard/raw/aman-ai/primers-cross-validation.md",
+        "hard/raw/aman-ai/primers-dropout.md"
+      ],
+      "related_concepts": [
+        "neural-network-fundamentals",
+        "data-quality-and-preprocessing",
+        "evaluation-metrics"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "data-quality-and-preprocessing",
+      "concept_name": "Data Quality and Preprocessing",
+      "description": "Techniques for preparing training data\u2014denoising, filtering, sampling strategies, handling class imbalance, and detecting and correcting data drift.",
+      "source_articles": [
+        "hard/raw/aman-ai/nlp-preprocessing.md",
+        "hard/raw/aman-ai/primers-data-drift.md",
+        "hard/raw/aman-ai/primers-data-filtering.md",
+        "hard/raw/aman-ai/primers-data-sampling.md",
+        "hard/raw/aman-ai/primers-data-imbalance.md"
+      ],
+      "related_concepts": [
+        "ml-system-design",
+        "bias-variance-and-generalization",
+        "tokenization-and-text-processing"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "multimodal-machine-learning",
+      "concept_name": "Multimodal Machine Learning",
+      "description": "Systems that jointly model multiple modalities (text, image, video)\u2014fusion strategies, contrastive learning, cross-modal transfer, and unified generative models.",
+      "source_articles": [
+        "hard/raw/aman-ai/multimodal-machine-learning.md",
+        "hard/raw/aman-ai/multimodal-machine-learning-introduction.md",
+        "hard/raw/aman-ai/multimodal-machine-learning-multimodal-challenges.md",
+        "hard/raw/aman-ai/models-clip.md",
+        "hard/raw/aman-ai/primers-document-intelligence.md",
+        "hard/raw/aman-ai/models-visual-chatgpt.md",
+        "hard/raw/aman-ai/primers-deepseek-janus-pro.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "diffusion-and-generative-models",
+        "word-embeddings-and-representations"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "computer-vision"
+      ]
+    },
+    {
+      "concept_slug": "ai-agents-and-agentic-systems",
+      "concept_name": "AI Agents and Agentic Systems",
+      "description": "Architectures for autonomous AI agents\u2014planning, tool use, memory, reflection, multi-agent coordination, and computer control frameworks.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-agentic-design-patterns.md",
+        "hard/raw/aman-ai/primers-agentic-reinforcement-learning.md",
+        "hard/raw/aman-ai/primers-agents.md",
+        "hard/raw/aman-ai/models-taskmatrixai.md",
+        "hard/raw/aman-ai/models-toolformer.md",
+        "hard/raw/aman-ai/multi-agent-ads-customer-support.md",
+        "hard/raw/aman-ai/primers-computer-control.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "reinforcement-learning",
+        "retrieval-and-rag"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "llms"
+      ]
+    },
+    {
+      "concept_slug": "privacy-and-security-in-ml",
+      "concept_name": "Privacy and Security in ML",
+      "description": "Techniques for training and deploying models with privacy and robustness guarantees\u2014differential privacy, federated learning, and adversarial attack defenses.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-differential-privacy.md",
+        "hard/raw/aman-ai/primers-federated-learning.md",
+        "hard/raw/aman-ai/primers-adversarial-attacks.md"
+      ],
+      "related_concepts": [
+        "ml-system-design",
+        "distributed-training"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "model-debugging-and-diagnostics",
+      "concept_name": "Model Debugging and Training Diagnostics",
+      "description": "Systematic approaches to diagnosing and fixing model training failures\u2014loss curve analysis, gradient issues, data pipeline bugs, and underfitting/overfitting patterns.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-debugging-deep-learning-projects.md",
+        "hard/raw/aman-ai/primers-debugging-model-training.md"
+      ],
+      "related_concepts": [
+        "neural-network-fundamentals",
+        "bias-variance-and-generalization"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "nlp-tasks-and-applications",
+      "concept_name": "NLP Tasks and Applications",
+      "description": "Core NLP tasks and their architectures\u2014NER, machine translation, textual entailment, WSD, conversational AI, CRF-based sequence labeling, and AI text detection.",
+      "source_articles": [
+        "hard/raw/aman-ai/natural-language-processing-nlp-tasks.md",
+        "hard/raw/aman-ai/natural-language-processing-textual-entailment.md",
+        "hard/raw/aman-ai/nlp-conversational-ai.md",
+        "hard/raw/aman-ai/nlp-wsd.md",
+        "hard/raw/aman-ai/natural-language-processing-machine-translation.md",
+        "hard/raw/aman-ai/nlp-ai-text-detection-techniques.md",
+        "hard/raw/aman-ai/nlp-pipeline.md",
+        "hard/raw/aman-ai/primers-conditional-random-fields.md",
+        "hard/raw/aman-ai/primers-code-mixing-and-switching.md",
+        "hard/raw/aman-ai/natural-language-processing-specialization-on-coursera-offered-by-deeplearningai.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "word-embeddings-and-representations",
+        "sequence-models-and-rnns",
+        "tokenization-and-text-processing"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "nlp"
+      ]
+    },
+    {
+      "concept_slug": "hallucination-and-factuality",
+      "concept_name": "Hallucination and Factuality in LLMs",
+      "description": "Sources and taxonomy of LLM hallucination\u2014intrinsic vs extrinsic factuality, faithfulness, grounding\u2014and mitigation strategies including RAG, CoVe, and active detection.",
+      "source_articles": [
+        "hard/raw/aman-ai/nlp-hallucination-detection-and-mitigation.md",
+        "hard/raw/aman-ai/primers-factuality-in-llms.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "retrieval-and-rag"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "mixture-of-experts",
+      "concept_name": "Mixture of Experts",
+      "description": "Sparse activation architectures that route tokens to subsets of parameters, enabling efficient scaling in models like DeepSeek-R1, DeepSeek-V3, and Kimi K2.",
+      "source_articles": [
+        "hard/raw/nathan-lambert/latest-open-artifacts-18-arcees-400b-moe-liquidais-underrated-1b-model-new-kimi.md",
+        "hard/raw/aman-ai/primers-deepseek-v3.md",
+        "hard/raw/sebastian-raschka/beyond-standard-llms.md",
+        "hard/raw/sebastian-raschka/noteworthy-ai-research-papers-of-2024-part-one.md",
+        "hard/raw/sebastian-raschka/the-big-llm-architecture-comparison.md",
+        "hard/raw/aman-ai/primers-gemini.md",
+        "hard/raw/cameron-wolfe/nanomoe-mixture-of-experts-moe-llms-from-scratch-in-pytorch.md",
+        "hard/raw/aman-ai/primers-qwen-3.md",
+        "hard/raw/simon-willison/gemma-4-byte-for-byte-the-most-capable-open-models.md",
+        "hard/raw/aman-ai/primers-deepseek-r1.md",
+        "hard/raw/aman-ai/primers-mixture-of-experts.md",
+        "hard/raw/aman-ai/models-gemma-3n.md",
+        "hard/raw/aman-ai/kimi-k2.md",
+        "hard/raw/cameron-wolfe/mixture-of-experts-moe-llms.md",
+        "hard/raw/cameron-wolfe/llama-4-the-challenges-of-creating-a-frontier-level-llm.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "distributed-training"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "llms"
+      ]
+    },
+    {
+      "concept_slug": "tokenization-and-text-processing",
+      "concept_name": "Tokenization and Text Processing",
+      "description": "Converting raw text to model-ready tokens\u2014BPE, WordPiece, byte-level tokenizers\u2014and the full NLP preprocessing pipeline from raw text to embeddings.",
+      "source_articles": [
+        "hard/raw/aman-ai/natural-language-processing-tokenizer.md",
+        "hard/raw/aman-ai/nlp-preprocessing.md",
+        "hard/raw/aman-ai/nlp-pipeline.md"
+      ],
+      "related_concepts": [
+        "nlp-tasks-and-applications",
+        "word-embeddings-and-representations",
+        "data-quality-and-preprocessing"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "nlp"
+      ]
+    },
+    {
+      "concept_slug": "clustering-and-unsupervised-learning",
+      "concept_name": "Clustering and Unsupervised Learning",
+      "description": "Unsupervised methods for discovering latent structure\u2014k-means, EM algorithm, fuzzy clustering, Bayesian inference, and latent variable models.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-clustering.md",
+        "hard/raw/aman-ai/natural-language-processing-expectation-maximization.md",
+        "hard/raw/aman-ai/primers-bayes39-theorem.md"
+      ],
+      "related_concepts": [
+        "recommendation-systems",
+        "data-quality-and-preprocessing"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "data-structures-and-algorithms",
+      "concept_name": "Data Structures and Algorithms",
+      "description": "Fundamental CS problem-solving patterns\u2014array operations, sliding window, subarray/subsequence distinctions\u2014as tested in coding interviews.",
+      "source_articles": [
+        "hard/raw/aman-ai/distilled-subarray-vs-substring-vs-subsequence-vs-subset.md",
+        "hard/raw/aman-ai/leetcode-26-best-time-to-buy-and-sell-stock-ii.md",
+        "hard/raw/aman-ai/leetcode-26-remove-duplicates-from-sorted-array.md"
+      ],
+      "related_concepts": [],
+      "tags": [
+        "algorithms"
+      ]
+    },
+    {
+      "concept_slug": "embeddings",
+      "concept_name": "Embeddings and Vector Representations",
+      "description": "Dense vector representations of words, users, and items for similarity search and downstream ML tasks.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-gemini-embedding.md",
+        "hard/raw/aman-ai/primers-overview-of-large-language-models.md",
+        "hard/raw/aman-ai/recsys-embeddings.md",
+        "hard/raw/aman-ai/word2vec.md",
+        "hard/raw/aman-ai/recommendation-systems-toolkit.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "vector-databases",
+        "candidate-generation-retrieval",
+        "retrieval-augmented-generation"
+      ],
+      "tags": [
+        "embeddings",
+        "recsys",
+        "ml-fundamentals",
+        "nlp"
+      ]
+    },
+    {
+      "concept_slug": "llm-alignment-rlhf",
+      "concept_name": "LLM Alignment and RLHF",
+      "description": "Techniques for aligning language models with human preferences, including RLHF, DPO, and GRPO.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-preference-optimization.md",
+        "hard/raw/aman-ai/primers-rft.md",
+        "hard/raw/aman-ai/primers-tulu-3.md",
+        "hard/raw/cameron-wolfe/direct-preference-optimization-dpo.md",
+        "hard/raw/cameron-wolfe/group-relative-policy-optimization-grpo.md",
+        "hard/raw/cameron-wolfe/continual-learning-with-rl-for-llms.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "reinforcement-learning",
+        "parameter-efficient-fine-tuning",
+        "llm-reasoning"
+      ],
+      "tags": [
+        "llms",
+        "rlhf",
+        "reinforcement-learning",
+        "fine-tuning"
+      ]
+    },
+    {
+      "concept_slug": "parameter-efficient-fine-tuning",
+      "concept_name": "Parameter-Efficient Fine-Tuning",
+      "description": "Methods for adapting pre-trained models with minimal parameter updates, including LoRA, adapters, and prompt tuning.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-parameter-efficient-fine-tuning.md",
+        "hard/raw/aman-ai/primers-personalizing-large-language-models.md",
+        "hard/raw/aman-ai/recommendation-systems-llm.md"
+      ],
+      "related_concepts": [
+        "llm-alignment-rlhf",
+        "pre-training-and-transfer-learning",
+        "large-language-models"
+      ],
+      "tags": [
+        "fine-tuning",
+        "llms",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "recsys-funnel-architecture",
+      "concept_name": "Recommendation System Funnel Architecture",
+      "description": "Multi-stage pipeline design for recommendation systems from retrieval through scoring to final re-ranking.",
+      "source_articles": [
+        "hard/raw/aman-ai/recommendation-systems-introduction.md",
+        "hard/raw/aman-ai/recommendation-systems.md",
+        "hard/raw/aman-ai/recommendation-systems-system-design.md",
+        "hard/raw/aman-ai/recommendation-systems-popular-architectures.md"
+      ],
+      "related_concepts": [
+        "candidate-generation-retrieval",
+        "ranking-and-scoring",
+        "recsys-bias-and-fairness",
+        "ml-system-design"
+      ],
+      "tags": [
+        "recsys",
+        "ml-fundamentals",
+        "system-design"
+      ]
+    },
+    {
+      "concept_slug": "candidate-generation-retrieval",
+      "concept_name": "Candidate Generation and Retrieval",
+      "description": "First-stage retrieval in recommendation and search systems using ANN search, two-tower models, and content-based filtering.",
+      "source_articles": [
+        "hard/raw/aman-ai/recommendation-systems-candidate-generation.md",
+        "hard/raw/aman-ai/recommendation-systems-toolkit.md",
+        "hard/raw/aman-ai/recommendation-systems-search.md",
+        "hard/raw/aman-ai/visual-search.md",
+        "hard/raw/aman-ai/youtube-video-search.md",
+        "hard/raw/aman-ai/recsys-embeddings.md"
+      ],
+      "related_concepts": [
+        "embeddings",
+        "vector-databases",
+        "recsys-funnel-architecture",
+        "ranking-and-scoring"
+      ],
+      "tags": [
+        "candidate-generation",
+        "recsys",
+        "ml-system-design"
+      ]
+    },
+    {
+      "concept_slug": "ranking-and-scoring",
+      "concept_name": "Ranking and Scoring",
+      "description": "Learning-to-rank methods, scoring functions, and re-ranking strategies for recommendation and search systems.",
+      "source_articles": [
+        "hard/raw/aman-ai/recommendation-systems-rankingscoring.md",
+        "hard/raw/aman-ai/recommendation-systems-re-ranking.md",
+        "hard/raw/aman-ai/recommendation-systems-eval-metrics-and-loss.md",
+        "hard/raw/aman-ai/recommendation-systems-evaluation-metrics-and-loss-functions.md"
+      ],
+      "related_concepts": [
+        "recsys-funnel-architecture",
+        "candidate-generation-retrieval",
+        "recsys-bias-and-fairness",
+        "multi-armed-bandits"
+      ],
+      "tags": [
+        "ranking",
+        "recsys",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "recsys-bias-and-fairness",
+      "concept_name": "Bias and Fairness in Recommendation Systems",
+      "description": "Position bias, popularity bias, calibration, diversity, and content moderation challenges in recommendation pipelines.",
+      "source_articles": [
+        "hard/raw/aman-ai/recommendation-systems-bias.md",
+        "hard/raw/aman-ai/recommendation-systems-calibration.md",
+        "hard/raw/aman-ai/recommendation-systems-re-ranking.md",
+        "hard/raw/aman-ai/recommendation-systems-content-moderation.md",
+        "hard/raw/aman-ai/primers-probability-calibration.md"
+      ],
+      "related_concepts": [
+        "ranking-and-scoring",
+        "recsys-funnel-architecture",
+        "online-experimentation"
+      ],
+      "tags": [
+        "recsys",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "graph-neural-networks",
+      "concept_name": "Graph Neural Networks",
+      "description": "GNN architectures (GCN, GAT, GraphSAGE) and their application to recommendation via user-item interaction graphs.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-graph-neural-networks.md",
+        "hard/raw/aman-ai/recommendation-systems-graph-neural-networks.md",
+        "hard/raw/aman-ai/recsys-embeddings.md"
+      ],
+      "related_concepts": [
+        "embeddings",
+        "candidate-generation-retrieval",
+        "recsys-funnel-architecture"
+      ],
+      "tags": [
+        "graph-neural-networks",
+        "recsys",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "model-inference-optimization",
+      "concept_name": "Model Inference Optimization",
+      "description": "Techniques to accelerate and compress models for efficient inference, including quantization, speculative decoding, and on-device deployment.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-quantization.md",
+        "hard/raw/aman-ai/primers-model-compression-for-on-device-ai.md",
+        "hard/raw/aman-ai/primers-model-acceleration.md",
+        "hard/raw/aman-ai/primers-ml-runtimes.md",
+        "hard/raw/aman-ai/primers-on-device-transformers.md",
+        "hard/raw/aman-ai/primers-speculative-decoding.md",
+        "hard/raw/aman-ai/primers-gpu-architecture.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "large-language-models",
+        "mixture-of-experts"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "transformers"
+      ]
+    },
+    {
+      "concept_slug": "vision-language-models",
+      "concept_name": "Vision-Language Models",
+      "description": "Multimodal models that jointly process image and text inputs, covering VLM architectures, training, and benchmarks.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-gpt-4o-native-image-generation.md",
+        "hard/raw/aman-ai/primers-llmvlm-benchmarks.md",
+        "hard/raw/aman-ai/primers-vision-language-models.md",
+        "hard/raw/eugene-yan/text-to-image-diffusion-text-conditioning-guidance-latent-space.md",
+        "hard/raw/jay-alammar/the-illustrated-stable-diffusion.md",
+        "hard/raw/lilian-weng/how-to-build-an-open-domain-question-answering-system.md",
+        "hard/raw/aman-ai/primers-vision-transformer-vit.md",
+        "hard/raw/lilian-weng/generalized-visual-language-models.md",
+        "hard/raw/aman-ai/primers-vlm-architectures.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "large-language-models",
+        "generative-models",
+        "cnn-and-vision"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "llm-reasoning",
+      "concept_name": "LLM Reasoning and Test-Time Compute",
+      "description": "Chain-of-thought prompting, inference-time scaling, and reasoning models that extend compute at test time.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-reasoning-in-llms.md",
+        "hard/raw/aman-ai/primers-openai-o1.md",
+        "hard/raw/aman-ai/primers-prompt-engineering.md",
+        "hard/raw/cameron-wolfe/demystifying-reasoning-models.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "llm-alignment-rlhf",
+        "llm-agents",
+        "reinforcement-learning"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "llm-evaluation",
+      "concept_name": "LLM Evaluation and Benchmarking",
+      "description": "Methods for evaluating LLMs including benchmark suites, LLM-as-a-judge autoraters, and statistical rigor in evaluation.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-llm-as-a-judge-autoraters.md",
+        "hard/raw/aman-ai/primers-llmvlm-benchmarks.md",
+        "hard/raw/cameron-wolfe/applying-statistics-to-llm-evaluations.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "online-experimentation",
+        "mlops-production"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "online-experimentation",
+      "concept_name": "Online Experimentation and A/B Testing",
+      "description": "Experimental design for ML systems including A/B tests, SUTVA assumptions, and multi-armed bandit online testing.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-online-testing.md",
+        "hard/raw/aman-ai/recommendation-systems-eval-metrics-and-loss.md",
+        "hard/raw/aman-ai/recommendation-systems-multi-armed-bandits.md"
+      ],
+      "related_concepts": [
+        "multi-armed-bandits",
+        "recsys-bias-and-fairness",
+        "mlops-production",
+        "llm-evaluation"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "training-optimization",
+      "concept_name": "Training Optimization and Regularization",
+      "description": "Gradient descent, backpropagation, loss functions, regularization, weight initialization, and hyperparameter tuning for neural networks.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-gradient-descent-and-backprop.md",
+        "hard/raw/aman-ai/primers-loss-functions.md",
+        "hard/raw/aman-ai/primers-regularization.md",
+        "hard/raw/aman-ai/primers-hyperparameter-tuning.md",
+        "hard/raw/aman-ai/primers-xavier-initialization.md",
+        "hard/raw/aman-ai/primers-model-traininglearning-strategy.md",
+        "hard/raw/aman-ai/primers-partial-gradient-of-batchnorm.md",
+        "hard/raw/aman-ai/primers-tensorboard.md"
+      ],
+      "related_concepts": [
+        "pre-training-and-transfer-learning",
+        "mlops-production",
+        "cnn-and-vision"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "mlops-production",
+      "concept_name": "MLOps and Production ML",
+      "description": "Tooling, testing pipelines, experiment tracking, and operational practices for deploying and maintaining ML systems.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-mlops-testing.md",
+        "hard/raw/aman-ai/primers-mlops-tooling.md",
+        "hard/raw/aman-ai/primers-hyperparameter-logging.md",
+        "hard/raw/aman-ai/primers-pytorch-vs-tensorflow.md",
+        "hard/raw/cameron-wolfe/a-guide-for-debugging-llm-training-data.md"
+      ],
+      "related_concepts": [
+        "training-optimization",
+        "online-experimentation",
+        "ml-system-design"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "llm-agents",
+      "concept_name": "LLM Agents and Tool Use",
+      "description": "Architectures for LLM-based autonomous agents that plan multi-step tasks, use tools, and interact with environments.",
+      "source_articles": [
+        "hard/raw/cameron-wolfe/ai-agents-from-first-principles.md",
+        "hard/raw/aman-ai/primers-prompt-engineering.md",
+        "hard/raw/eugene-yan/patterns-for-building-llm-based-systems-products.md",
+        "hard/raw/eugene-yan/reflections-on-ai-engineer-summit-2023.md",
+        "hard/raw/eugene-yan/what-weve-learned-from-a-year-of-building-with-llms.md",
+        "hard/raw/lilian-weng/llm-powered-autonomous-agents.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "llm-reasoning",
+        "retrieval-augmented-generation"
+      ],
+      "tags": [
+        "llms",
+        "architectures"
+      ]
+    },
+    {
+      "concept_slug": "generative-models",
+      "concept_name": "Generative Models",
+      "description": "Non-autoregressive generative architectures including GANs and video/image generation models.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-generative-adversarial-networks-gans.md",
+        "hard/raw/aman-ai/primers-gpt-4o-native-image-generation.md",
+        "hard/raw/aman-ai/primers-veo3.md"
+      ],
+      "related_concepts": [
+        "vision-language-models",
+        "large-language-models",
+        "cnn-and-vision"
+      ],
+      "tags": [
+        "generative-models",
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "recsys-cold-start",
+      "concept_name": "Cold Start in Recommendation Systems",
+      "description": "Strategies for generating recommendations for new users or items with sparse or no interaction history.",
+      "source_articles": [
+        "hard/raw/aman-ai/recommendation-systems-cold-start.md",
+        "hard/raw/aman-ai/recommendation-systems-challenges-of-building-a-recommender-system.md"
+      ],
+      "related_concepts": [
+        "candidate-generation-retrieval",
+        "recsys-funnel-architecture",
+        "recsys-bias-and-fairness"
+      ],
+      "tags": [
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "pre-training-and-transfer-learning",
+      "concept_name": "Pre-training and Transfer Learning",
+      "description": "Self-supervised pre-training objectives (MLM, NTP), learning paradigms, and estimating transferability of learned representations.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-learning-paradigms.md",
+        "hard/raw/aman-ai/primers-transferability-estimation.md",
+        "hard/raw/aman-ai/primers-inductive-bias.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "parameter-efficient-fine-tuning",
+        "training-optimization"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "feature-preprocessing",
+      "concept_name": "Feature Engineering and Data Preprocessing",
+      "description": "Normalization, train/val/test splits, sequence padding, and sparse/dense feature representation for ML pipelines.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-standardization-vs-normalization.md",
+        "hard/raw/aman-ai/primers-splitting-datasets.md",
+        "hard/raw/aman-ai/primers-padding-and-packing.md",
+        "hard/raw/aman-ai/recommendation-systems-candidate-generation.md"
+      ],
+      "related_concepts": [
+        "training-optimization",
+        "mlops-production"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "vector-databases",
+      "concept_name": "Vector Databases and ANN Search",
+      "description": "Storage and retrieval infrastructure for high-dimensional embeddings using approximate nearest neighbor algorithms and product quantization.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-vector-databases.md",
+        "hard/raw/aman-ai/recsys-embeddings.md",
+        "hard/raw/aman-ai/recommendation-systems-toolkit.md",
+        "hard/raw/aman-ai/recommendation-systems-search.md"
+      ],
+      "related_concepts": [
+        "embeddings",
+        "retrieval-augmented-generation",
+        "candidate-generation-retrieval"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "multi-armed-bandits",
+      "concept_name": "Multi-Armed Bandits and Exploration",
+      "description": "Bandit algorithms for exploration-exploitation trade-offs in online recommendation, testing, and multi-objective optimization.",
+      "source_articles": [
+        "hard/raw/aman-ai/recommendation-systems-multi-armed-bandits.md",
+        "hard/raw/aman-ai/recommendation-systems-multi-objective-optimization.md"
+      ],
+      "related_concepts": [
+        "online-experimentation",
+        "ranking-and-scoring",
+        "reinforcement-learning"
+      ],
+      "tags": [
+        "recsys",
+        "reinforcement-learning"
+      ]
+    },
+    {
+      "concept_slug": "cnn-and-vision",
+      "concept_name": "CNNs and Computer Vision",
+      "description": "Convolutional neural network architectures, operations, receptive fields, and skip connections for image understanding.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-separable-convolutions.md",
+        "hard/raw/aman-ai/primers-partial-gradient-of-a-convolutional-layer.md",
+        "hard/raw/aman-ai/primers-receptive-field.md",
+        "hard/raw/aman-ai/primers-skip-connections.md",
+        "hard/raw/aman-ai/vision.md"
+      ],
+      "related_concepts": [
+        "vision-language-models",
+        "generative-models",
+        "training-optimization"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "sequence-modeling",
+      "concept_name": "Sequence Modeling and Classical NLP",
+      "description": "Pre-transformer sequence models including HMMs, MEMMs, word embeddings, state-space models, and speech processing.",
+      "source_articles": [
+        "hard/raw/aman-ai/primers-named-entity-recognition.md",
+        "hard/raw/aman-ai/primers-maximum-entropy-markov-models.md",
+        "hard/raw/aman-ai/primers-relationship-between-hidden-markov-model-and-naive-bayes.md",
+        "hard/raw/aman-ai/primers-state-space-models.md",
+        "hard/raw/aman-ai/word2vec.md",
+        "hard/raw/aman-ai/primers-speech-processing.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "embeddings",
+        "pre-training-and-transfer-learning"
+      ],
+      "tags": [
+        "ml-fundamentals"
+      ]
+    },
+    {
+      "concept_slug": "llm-for-recsys",
+      "concept_name": "LLMs for Recommendation Systems",
+      "description": "Applying large language models as rankers, generators, and feature extractors within recommendation pipelines.",
+      "source_articles": [
+        "hard/raw/aman-ai/recommendation-systems-llm.md",
+        "hard/raw/aman-ai/recommendation-systems-generative-ai-in-recommender-systems.md",
+        "hard/raw/aman-ai/recommendation-systems-research-papers.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "recsys-funnel-architecture",
+        "parameter-efficient-fine-tuning"
+      ],
+      "tags": [
+        "llms",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "rl-for-llms",
+      "concept_name": "Reinforcement Learning for LLMs",
+      "description": "Training LLMs with RL algorithms including PPO, GRPO, and REINFORCE, covering both online and offline approaches.",
+      "source_articles": [
+        "hard/raw/cameron-wolfe/grpo-tricks-for-making-rl-actually-work.md",
+        "hard/raw/cameron-wolfe/ppo-for-llms-a-guide-for-normal-people.md",
+        "hard/raw/cameron-wolfe/reinforce-easy-online-rl-for-llms.md",
+        "hard/raw/cameron-wolfe/online-versus-offline-rl-for-llms.md"
+      ],
+      "related_concepts": [
+        "reward-modeling",
+        "llm-training-and-finetuning",
+        "llm-inference-and-sampling"
+      ],
+      "tags": [
+        "llms",
+        "rlhf",
+        "reinforcement-learning",
+        "ppo",
+        "grpo",
+        "training"
+      ]
+    },
+    {
+      "concept_slug": "reward-modeling",
+      "concept_name": "Reward Models and Reward Design",
+      "description": "Designing and training reward models for RLHF, including rubric-based rewards and process reward approaches.",
+      "source_articles": [
+        "hard/raw/cameron-wolfe/reward-models.md",
+        "hard/raw/cameron-wolfe/rubric-based-rewards-for-rl.md"
+      ],
+      "related_concepts": [
+        "rl-for-llms",
+        "llm-evaluation-and-benchmarking"
+      ],
+      "tags": [
+        "llms",
+        "rlhf",
+        "reward-models",
+        "alignment",
+        "training"
+      ]
+    },
+    {
+      "concept_slug": "multimodal-models",
+      "concept_name": "Multimodal and Vision Language Models",
+      "description": "Architectures, training, and applications of models that process multiple modalities including text, image, and audio.",
+      "source_articles": [
+        "hard/raw/cameron-wolfe/vision-large-language-models-vllms.md",
+        "hard/raw/chip-huyen/multimodality-and-large-multimodal-models-lmms.md"
+      ],
+      "related_concepts": [
+        "mixture-of-experts",
+        "generative-ai-platform-design",
+        "llm-training-and-finetuning"
+      ],
+      "tags": [
+        "llms",
+        "vision",
+        "multimodal",
+        "architectures"
+      ]
+    },
+    {
+      "concept_slug": "llm-evaluation-and-benchmarking",
+      "concept_name": "LLM Evaluation and Benchmarking",
+      "description": "Methods for evaluating LLM outputs including benchmark design, LLM-as-judge, hallucination detection, and eval-driven development.",
+      "source_articles": [
+        "hard/raw/cameron-wolfe/the-anatomy-of-an-llm-benchmark.md",
+        "hard/raw/eugene-yan/evaluating-the-effectiveness-of-llm-evaluators-aka-llm-as-judge.md",
+        "hard/raw/eugene-yan/evaluating-long-context-question-answer-systems.md",
+        "hard/raw/eugene-yan/evaluation-hallucination-detection-for-abstractive-summaries.md",
+        "hard/raw/eugene-yan/an-llm-as-judge-wont-save-the-productfixing-your-process-will.md",
+        "hard/raw/eugene-yan/aligneval-building-an-app-to-make-evals-easy-fun-and-automated.md"
+      ],
+      "related_concepts": [
+        "reward-modeling",
+        "ml-testing-and-evaluation",
+        "generative-ai-platform-design"
+      ],
+      "tags": [
+        "llms",
+        "evaluation",
+        "benchmarking",
+        "hallucination",
+        "llm-as-judge"
+      ]
+    },
+    {
+      "concept_slug": "llm-training-and-finetuning",
+      "concept_name": "LLM Training and Fine-tuning",
+      "description": "Techniques for training and adapting LLMs including pretraining at scale, instruction tuning, and synthetic data generation.",
+      "source_articles": [
+        "hard/raw/cameron-wolfe/llama-4-the-challenges-of-creating-a-frontier-level-llm.md",
+        "hard/raw/cameron-wolfe/olmo-3-and-the-open-llm-renaissance.md",
+        "hard/raw/chip-huyen/open-challenges-in-llm-research.md",
+        "hard/raw/eugene-yan/how-to-generate-and-use-synthetic-data-for-finetuning.md"
+      ],
+      "related_concepts": [
+        "rl-for-llms",
+        "reward-modeling",
+        "data-labeling-and-annotation",
+        "mixture-of-experts"
+      ],
+      "tags": [
+        "llms",
+        "training",
+        "finetuning",
+        "pretraining",
+        "synthetic-data"
+      ]
+    },
+    {
+      "concept_slug": "llm-inference-and-sampling",
+      "concept_name": "LLM Inference Configuration and Sampling",
+      "description": "Generation parameters (temperature, top-k, top-p) and test-time compute strategies that control LLM output quality and diversity.",
+      "source_articles": [
+        "hard/raw/chip-huyen/generation-configurations-temperature-top-k-top-p-and-test-time-compute.md",
+        "hard/raw/cameron-wolfe/grpo-tricks-for-making-rl-actually-work.md",
+        "hard/raw/chip-huyen/open-challenges-in-llm-research.md"
+      ],
+      "related_concepts": [
+        "generative-ai-platform-design",
+        "rl-for-llms"
+      ],
+      "tags": [
+        "llms",
+        "inference",
+        "sampling",
+        "test-time-compute",
+        "generation"
+      ]
+    },
+    {
+      "concept_slug": "open-source-llm-ecosystem",
+      "concept_name": "Open Source LLM Ecosystem",
+      "description": "The landscape of open-weight LLMs and open source AI tooling, including key models, releases, and surrounding infrastructure.",
+      "source_articles": [
+        "hard/raw/cameron-wolfe/olmo-3-and-the-open-llm-renaissance.md",
+        "hard/raw/chip-huyen/what-i-learned-from-looking-at-900-most-popular-open-source-ai-tools.md"
+      ],
+      "related_concepts": [
+        "genai-strategy",
+        "generative-ai-platform-design",
+        "llm-training-and-finetuning"
+      ],
+      "tags": [
+        "llms",
+        "open-source",
+        "ml-systems",
+        "ecosystem"
+      ]
+    },
+    {
+      "concept_slug": "llms-for-recsys-and-search",
+      "concept_name": "LLMs for Recommendation and Search",
+      "description": "Applying large language models to improve recommendation systems and search via semantic IDs, data augmentation, and unified foundation models.",
+      "source_articles": [
+        "hard/raw/eugene-yan/improving-recommendation-systems-search-in-the-age-of-llms.md",
+        "hard/raw/eugene-yan/ai-engineer-2025-improving-recsys-search-with-llm-techniques.md",
+        "hard/raw/eugene-yan/netflix-prs-2024-applying-llms-to-recommendation-experiences.md",
+        "hard/raw/eugene-yan/experimenting-with-llms-to-research-reflect-and-plan.md"
+      ],
+      "related_concepts": [
+        "recommendation-systems",
+        "retrieval-augmented-generation",
+        "generative-ai-platform-design"
+      ],
+      "tags": [
+        "recsys",
+        "llms",
+        "search",
+        "ml-systems",
+        "semantic-search"
+      ]
+    },
+    {
+      "concept_slug": "exploration-exploitation-in-recsys",
+      "concept_name": "Exploration-Exploitation in Recommendation",
+      "description": "Bandit algorithms, counterfactual evaluation, and position bias mitigation for balancing exploration and exploitation in recommenders.",
+      "source_articles": [
+        "hard/raw/eugene-yan/bandits-for-recommender-systems.md",
+        "hard/raw/eugene-yan/counterfactual-evaluation-for-recommendation-systems.md",
+        "hard/raw/eugene-yan/how-to-measure-and-mitigate-position-bias.md"
+      ],
+      "related_concepts": [
+        "recommendation-systems",
+        "ml-testing-and-evaluation"
+      ],
+      "tags": [
+        "recsys",
+        "bandits",
+        "exploration",
+        "evaluation",
+        "bias"
+      ]
+    },
+    {
+      "concept_slug": "generative-ai-platform-design",
+      "concept_name": "Generative AI Platform Design",
+      "description": "Architecture and components of production GenAI platforms including model serving, guardrails, caching, orchestration, and observability.",
+      "source_articles": [
+        "hard/raw/chip-huyen/building-a-generative-ai-platform.md",
+        "hard/raw/chip-huyen/common-pitfalls-when-building-generative-ai-applications.md",
+        "hard/raw/eugene-yan/ai-engineer-2023-keynote-building-blocks-for-llm-systems.md",
+        "hard/raw/eugene-yan/ai-engineer-2024-keynote-what-we-learned-from-a-year-of-llms.md",
+        "hard/raw/eugene-yan/nvidia-gtc-2025-building-llm-powered-applications.md",
+        "hard/raw/eugene-yan/how-to-match-llm-patterns-to-problems.md"
+      ],
+      "related_concepts": [
+        "ai-agents",
+        "retrieval-augmented-generation",
+        "llm-evaluation-and-benchmarking",
+        "genai-strategy"
+      ],
+      "tags": [
+        "ml-systems",
+        "mlops",
+        "llms",
+        "genai",
+        "platform",
+        "architecture"
+      ]
+    },
+    {
+      "concept_slug": "genai-strategy",
+      "concept_name": "Generative AI Strategy and Adoption",
+      "description": "Organizational strategy for adopting GenAI, including model selection, build-vs-buy decisions, model routing, and avoiding common pitfalls.",
+      "source_articles": [
+        "hard/raw/chip-huyen/generative-ai-strategy.md",
+        "hard/raw/chip-huyen/common-pitfalls-when-building-generative-ai-applications.md",
+        "hard/raw/chip-huyen/open-challenges-in-llm-research.md",
+        "hard/raw/chip-huyen/predictive-human-preference-from-model-ranking-to-model-routing.md"
+      ],
+      "related_concepts": [
+        "generative-ai-platform-design",
+        "open-source-llm-ecosystem"
+      ],
+      "tags": [
+        "ml-systems",
+        "genai",
+        "strategy",
+        "mlops",
+        "model-selection"
+      ]
+    },
+    {
+      "concept_slug": "ai-agents",
+      "concept_name": "AI Agents and Agentic Systems",
+      "description": "Design, frameworks, and practical implementation of AI agents including tool use, multi-step reasoning, and agentic workflow automation.",
+      "source_articles": [
+        "hard/raw/chip-huyen/agents.md",
+        "hard/raw/eugene-yan/building-news-agents-for-daily-news-recaps-with-mcp-q-and-tmux.md",
+        "hard/raw/eugene-yan/building-an-ai-coach-to-help-tame-my-monkey-mind.md"
+      ],
+      "related_concepts": [
+        "generative-ai-platform-design",
+        "retrieval-augmented-generation",
+        "llm-ux-design"
+      ],
+      "tags": [
+        "llms",
+        "agents",
+        "ml-systems",
+        "agentic-ai",
+        "automation"
+      ]
+    },
+    {
+      "concept_slug": "llm-ux-design",
+      "concept_name": "LLM User Experience Design",
+      "description": "Designing interaction patterns and product UX for LLM-powered applications beyond basic chat interfaces.",
+      "source_articles": [
+        "hard/raw/eugene-yan/interacting-with-llms-with-minimal-chat.md",
+        "hard/raw/eugene-yan/building-ai-reading-club-features-behind-the-scenes.md",
+        "hard/raw/eugene-yan/building-an-ai-coach-to-help-tame-my-monkey-mind.md"
+      ],
+      "related_concepts": [
+        "ai-agents",
+        "generative-ai-platform-design"
+      ],
+      "tags": [
+        "llms",
+        "ux",
+        "product",
+        "ml-systems",
+        "interaction-design"
+      ]
+    },
+    {
+      "concept_slug": "ml-production-engineering",
+      "concept_name": "ML Production Engineering",
+      "description": "Deploying, maintaining, and monitoring machine learning systems in production, including failure modes, testing, and operational practices.",
+      "source_articles": [
+        "hard/raw/eugene-yan/6-little-known-challenges-after-deploying-machine-learning.md",
+        "hard/raw/eugene-yan/a-practical-guide-to-maintaining-machine-learning-in-production.md",
+        "hard/raw/eugene-yan/dont-mock-machine-learning-models-in-unit-tests.md",
+        "hard/raw/eugene-yan/how-to-test-machine-learning-code-and-systems.md",
+        "hard/raw/eugene-yan/39-lessons-on-building-ml-systems-scaling-execution-and-more.md"
+      ],
+      "related_concepts": [
+        "ml-design-patterns",
+        "feature-stores-and-data-infrastructure",
+        "ml-testing-and-evaluation"
+      ],
+      "tags": [
+        "ml-systems",
+        "mlops",
+        "production",
+        "deployment",
+        "monitoring"
+      ]
+    },
+    {
+      "concept_slug": "ml-testing-and-evaluation",
+      "concept_name": "ML Testing and Evaluation Methodology",
+      "description": "Testing ML code, validating model behavior, and designing evaluation datasets and metrics across both classical ML and LLM systems.",
+      "source_articles": [
+        "hard/raw/eugene-yan/how-to-test-machine-learning-code-and-systems.md",
+        "hard/raw/eugene-yan/dont-mock-machine-learning-models-in-unit-tests.md",
+        "hard/raw/eugene-yan/evaluating-long-context-question-answer-systems.md",
+        "hard/raw/eugene-yan/aligneval-building-an-app-to-make-evals-easy-fun-and-automated.md",
+        "hard/raw/cameron-wolfe/the-anatomy-of-an-llm-benchmark.md"
+      ],
+      "related_concepts": [
+        "ml-production-engineering",
+        "llm-evaluation-and-benchmarking",
+        "exploration-exploitation-in-recsys"
+      ],
+      "tags": [
+        "ml-systems",
+        "testing",
+        "evaluation",
+        "benchmarking"
+      ]
+    },
+    {
+      "concept_slug": "ml-design-patterns",
+      "concept_name": "ML System Design Patterns",
+      "description": "Reusable architectural and operational patterns for building robust ML systems, including HITL, hard mining, cascades, and data flywheels.",
+      "source_articles": [
+        "hard/raw/eugene-yan/design-patterns-in-machine-learning-code-and-systems.md",
+        "hard/raw/eugene-yan/more-design-patterns-for-machine-learning-systems.md"
+      ],
+      "related_concepts": [
+        "ml-production-engineering",
+        "recommendation-systems",
+        "content-moderation-and-trust-safety"
+      ],
+      "tags": [
+        "ml-systems",
+        "design-patterns",
+        "architecture",
+        "mlops"
+      ]
+    },
+    {
+      "concept_slug": "data-labeling-and-annotation",
+      "concept_name": "Data Labeling and Annotation",
+      "description": "Creating labeled datasets using bootstrapping, semi-supervised and active learning, human-in-the-loop pipelines, and annotation guideline design.",
+      "source_articles": [
+        "hard/raw/eugene-yan/bootstrapping-labels-via-supervision-human-in-the-loop.md",
+        "hard/raw/eugene-yan/how-to-write-data-labelingannotation-guidelines.md",
+        "hard/raw/eugene-yan/mailbag-how-to-bootstrap-labels-for-relevant-docs-in-search.md",
+        "hard/raw/eugene-yan/how-to-generate-and-use-synthetic-data-for-finetuning.md"
+      ],
+      "related_concepts": [
+        "llm-training-and-finetuning",
+        "ml-production-engineering",
+        "content-moderation-and-trust-safety"
+      ],
+      "tags": [
+        "ml-systems",
+        "data",
+        "labeling",
+        "annotation",
+        "synthetic-data"
+      ]
+    },
+    {
+      "concept_slug": "feature-stores-and-data-infrastructure",
+      "concept_name": "Feature Stores and ML Data Infrastructure",
+      "description": "Design and operation of feature stores and data discovery platforms that underpin ML systems in production.",
+      "source_articles": [
+        "hard/raw/eugene-yan/feature-stores-a-hierarchy-of-needs.md",
+        "hard/raw/eugene-yan/data-discovery-platforms-and-their-open-source-solutions.md"
+      ],
+      "related_concepts": [
+        "ml-production-engineering",
+        "ml-design-patterns"
+      ],
+      "tags": [
+        "ml-systems",
+        "mlops",
+        "data-infrastructure",
+        "feature-engineering"
+      ]
+    },
+    {
+      "concept_slug": "content-moderation-and-trust-safety",
+      "concept_name": "Content Moderation and Fraud Detection",
+      "description": "ML patterns for detecting harmful content and fraudulent behavior at scale, including cascade architectures and ground truth collection.",
+      "source_articles": [
+        "hard/raw/eugene-yan/content-moderation-fraud-detection-patterns-in-industry.md",
+        "hard/raw/eugene-yan/more-design-patterns-for-machine-learning-systems.md"
+      ],
+      "related_concepts": [
+        "ml-design-patterns",
+        "ml-production-engineering",
+        "data-labeling-and-annotation"
+      ],
+      "tags": [
+        "ml-systems",
+        "trust-safety",
+        "content-moderation",
+        "fraud-detection"
+      ]
+    },
+    {
+      "concept_slug": "ml-for-healthcare",
+      "concept_name": "ML Applications in Healthcare",
+      "description": "Applying machine learning to clinical prediction and healthcare systems, including production deployment considerations.",
+      "source_articles": [
+        "hard/raw/eugene-yan/datascience-sg-x-odsc-meetup-applying-ml-to-healthcare.md",
+        "hard/raw/eugene-yan/datax-a-production-ml-system-for-seas-biggest-hospital-group.md"
+      ],
+      "related_concepts": [
+        "ml-production-engineering",
+        "data-labeling-and-annotation"
+      ],
+      "tags": [
+        "ml-systems",
+        "healthcare",
+        "production",
+        "applied-ml"
+      ]
+    },
+    {
+      "concept_slug": "data-science-career",
+      "concept_name": "Data Science Career Development",
+      "description": "Navigating careers in DS/ML from entry-level to principal IC, including role clarity, leveling, hiring, and career decision-making.",
+      "source_articles": [
+        "hard/raw/eugene-yan/advice-for-new-principal-tech-ics-ie-notes-to-myself.md",
+        "hard/raw/eugene-yan/choosing-problems-in-data-science-and-machine-learning.md",
+        "hard/raw/eugene-yan/tech-in-asia-my-journey-in-data-science-and-advice-for-others.md",
+        "hard/raw/eugene-yan/mailbag-im-now-a-senior-dshow-should-i-approach-this.md",
+        "hard/raw/karpathy/a-survival-guide-to-a-phd.md",
+        "hard/raw/eugene-yan/my-journey-from-psych-grad-to-leading-data-science-at-lazada.md",
+        "hard/raw/eugene-yan/red-flags-to-look-out-for-when-joining-a-data-team.md",
+        "hard/raw/eugene-yan/unpopular-opinion-data-scientists-should-be-more-end-to-end.md",
+        "hard/raw/eugene-yan/commando-soldier-police-and-your-career-choices.md",
+        "hard/raw/eugene-yan/mailbag-how-to-get-experienced-ds-resume-noticed-by-recruiters.md",
+        "hard/raw/eugene-yan/what-does-a-data-scientist-really-do.md",
+        "hard/raw/eugene-yan/how-to-get-started-in-data-science.md",
+        "hard/raw/eugene-yan/how-to-prevent-or-deal-with-a-data-science-role-or-title-mismatch.md",
+        "hard/raw/eugene-yan/smu-masters-in-it-how-to-get-started-in-data-science.md",
+        "hard/raw/eugene-yan/planning-your-career-values-and-superpowers.md",
+        "hard/raw/eugene-yan/applied-research-scientist-ml-engineer-whats-the-difference.md",
+        "hard/raw/eugene-yan/why-have-a-data-science-portfolio-and-what-it-shows.md",
+        "hard/raw/eugene-yan/how-to-interview-and-hire-mlai-engineers.md",
+        "hard/raw/eugene-yan/smu-what-is-data-analytics-and-how-do-i-get-into-it.md"
+      ],
+      "related_concepts": [
+        "data-science-team-leadership",
+        "personal-growth-and-mindset",
+        "continuous-learning-and-research"
+      ],
+      "tags": [
+        "career",
+        "data-science",
+        "ml-engineering",
+        "leveling",
+        "hiring"
+      ]
+    },
+    {
+      "concept_slug": "data-science-team-leadership",
+      "concept_name": "Data Science Team Leadership",
+      "description": "Building, managing, and leading DS teams\u2014culture, hiring, vision setting, mechanisms for effectiveness, and the IC-to-manager transition.",
+      "source_articles": [
+        "hard/raw/eugene-yan/building-a-strong-data-science-team-culture.md",
+        "hard/raw/eugene-yan/growing-and-running-your-data-science-team.md",
+        "hard/raw/eugene-yan/mechanisms-for-effective-technical-teams.md",
+        "hard/raw/eugene-yan/my-first-100-days-as-data-science-lead.md",
+        "hard/raw/eugene-yan/mailbag-how-to-define-a-data-teams-vision-and-roadmap.md",
+        "hard/raw/eugene-yan/exceptional-leadership-some-qualities-behaviors-and-styles.md"
+      ],
+      "related_concepts": [
+        "data-science-career",
+        "ml-project-management",
+        "data-science-and-business-alignment"
+      ],
+      "tags": [
+        "leadership",
+        "team-management",
+        "data-science",
+        "culture"
+      ]
+    },
+    {
+      "concept_slug": "ml-project-management",
+      "concept_name": "ML Project Management and Execution",
+      "description": "Adapting agile and other frameworks to the unique challenges of data science and ML project execution.",
+      "source_articles": [
+        "hard/raw/eugene-yan/data-science-and-agile-frameworks-for-effectiveness.md",
+        "hard/raw/eugene-yan/data-science-and-agile-what-works-and-what-doesnt.md",
+        "hard/raw/eugene-yan/mechanisms-for-effective-machine-learning-projects.md",
+        "hard/raw/eugene-yan/data-science-project-quick-start.md"
+      ],
+      "related_concepts": [
+        "data-science-team-leadership",
+        "ml-production-engineering"
+      ],
+      "tags": [
+        "ml-systems",
+        "project-management",
+        "agile",
+        "execution"
+      ]
+    },
+    {
+      "concept_slug": "data-science-and-business-alignment",
+      "concept_name": "Data Science and Business Alignment",
+      "description": "Connecting DS work to business outcomes, influencing stakeholders without authority, and using prototypes to gain buy-in.",
+      "source_articles": [
+        "hard/raw/eugene-yan/mailbag-qns-on-the-intersection-of-data-science-and-business.md",
+        "hard/raw/eugene-yan/how-prototyping-can-help-you-to-get-buy-in.md",
+        "hard/raw/eugene-yan/influencing-without-authority-for-data-scientists.md",
+        "hard/raw/eugene-yan/big-data-analytics-summit-data-science-challenges-lazada.md"
+      ],
+      "related_concepts": [
+        "data-science-team-leadership",
+        "data-science-career"
+      ],
+      "tags": [
+        "data-science",
+        "business",
+        "leadership",
+        "influence",
+        "stakeholders"
+      ]
+    },
+    {
+      "concept_slug": "technical-writing-for-practitioners",
+      "concept_name": "Technical Writing for Practitioners",
+      "description": "Writing effectively as a technical practitioner\u2014processes, frameworks, structuring design docs, blogging, and why writing compounds career growth.",
+      "source_articles": [
+        "hard/raw/eugene-yan/amazon-science-eugene-yan-and-the-art-of-writing-about-science.md",
+        "hard/raw/eugene-yan/datatalksclub-the-importance-of-writing-in-a-tech-career.md",
+        "hard/raw/eugene-yan/how-to-write-advice-from-david-perell-and-sahil-lavingia.md",
+        "hard/raw/eugene-yan/how-to-write-better-with-the-why-what-how-framework.md",
+        "hard/raw/eugene-yan/is-writing-as-important-as-coding.md",
+        "hard/raw/eugene-yan/frequently-asked-questions-about-my-writing-process.md",
+        "hard/raw/eugene-yan/5-lessons-i-learned-from-writing-online-guest-post-by-susan-shu.md",
+        "hard/raw/eugene-yan/how-to-write-design-docs-for-machine-learning-systems.md"
+      ],
+      "related_concepts": [
+        "data-science-career",
+        "data-science-team-leadership"
+      ],
+      "tags": [
+        "writing",
+        "communication",
+        "career",
+        "documentation"
+      ]
+    },
+    {
+      "concept_slug": "continuous-learning-and-research",
+      "concept_name": "Continuous Learning and Research Habits",
+      "description": "Strategies for staying current in ML/AI: reading and synthesizing research papers, running paper clubs, and building learning communities.",
+      "source_articles": [
+        "hard/raw/eugene-yan/how-reading-papers-helps-you-be-a-more-effective-data-scientist.md",
+        "hard/raw/eugene-yan/how-to-run-a-weekly-paper-club-and-build-a-learning-community.md",
+        "hard/raw/eugene-yan/language-modeling-reading-list-to-start-your-paper-club.md",
+        "hard/raw/eugene-yan/how-to-keep-learning-about-machine-learning.md"
+      ],
+      "related_concepts": [
+        "data-science-career",
+        "personal-growth-and-mindset"
+      ],
+      "tags": [
+        "career",
+        "learning",
+        "research",
+        "papers",
+        "community"
+      ]
+    },
+    {
+      "concept_slug": "personal-growth-and-mindset",
+      "concept_name": "Personal Growth and Professional Mindset",
+      "description": "Navigating imposter syndrome, maintaining a beginner's mind, receiving feedback constructively, and measuring personal development.",
+      "source_articles": [
+        "hard/raw/eugene-yan/how-to-live-with-chronic-imposter-syndrome.md",
+        "hard/raw/eugene-yan/my-impostor-syndrome-stories-guest-post-by-susan-shu.md",
+        "hard/raw/eugene-yan/embrace-beginners-mind-avoid-the-wrong-way-to-be-an-expert.md",
+        "hard/raw/eugene-yan/how-to-apply-crockers-law-for-feedback-and-growth.md",
+        "hard/raw/chip-huyen/measuring-personal-growth.md"
+      ],
+      "related_concepts": [
+        "data-science-career",
+        "continuous-learning-and-research"
+      ],
+      "tags": [
+        "career",
+        "mindset",
+        "growth",
+        "imposter-syndrome",
+        "feedback"
+      ]
+    },
+    {
+      "concept_slug": "recsys-architecture",
+      "concept_name": "Recommendation System Architecture",
+      "description": "End-to-end design of recommendation systems including candidate retrieval, ranking, real-time serving, and offline evaluation.",
+      "source_articles": [
+        "hard/raw/eugene-yan/system-design-for-recommendations-and-search.md",
+        "hard/raw/eugene-yan/real-time-machine-learning-for-recommendations.md",
+        "hard/raw/eugene-yan/sf-big-analytics-system-design-for-recsys-search.md",
+        "hard/raw/eugene-yan/patterns-for-personalization-in-recommendations-and-search.md",
+        "hard/raw/eugene-yan/recsys-2020-takeaways-and-notable-papers.md",
+        "hard/raw/eugene-yan/recsys-2021-papers-and-talks-to-chew-on.md",
+        "hard/raw/eugene-yan/recsys-2022-recap-favorite-papers-and-lessons.md",
+        "hard/raw/eugene-yan/recsys-2022-keynote-is-the-juice-worth-the-squeeze.md",
+        "hard/raw/eugene-yan/strata-x-hadoop-2016-how-lazada-ranks-products.md",
+        "hard/raw/eugene-yan/training-an-llm-recsys-hybrid-for-steerable-recs-with-semantic-ids.md"
+      ],
+      "related_concepts": [
+        "personalization-recsys",
+        "search-systems",
+        "embeddings-representation-learning",
+        "reinforcement-learning-fundamentals",
+        "bandits-exploration-exploitation"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "system-design",
+        "ranking",
+        "retrieval"
+      ]
+    },
+    {
+      "concept_slug": "llm-evals",
+      "concept_name": "LLM Evaluation",
+      "description": "Methods and frameworks for evaluating LLM outputs, including task-specific evals, LLM-as-judge, and alignment with human labels.",
+      "source_articles": [
+        "hard/raw/eugene-yan/product-evals-in-three-simple-steps.md",
+        "hard/raw/eugene-yan/task-specific-llm-evals-that-do-dont-work.md",
+        "hard/raw/eugene-yan/weights-biases-llm-evaluator-hackathon-hackathon-judge.md",
+        "hard/raw/eugene-yan/patterns-for-building-llm-based-systems-products.md",
+        "hard/raw/eugene-yan/what-weve-learned-from-a-year-of-building-with-llms.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "llm-safety-hallucination",
+        "data-annotation-labeling",
+        "generative-ai-products"
+      ],
+      "tags": [
+        "llms",
+        "evals",
+        "ml-systems",
+        "recsys"
+      ]
+    },
+    {
+      "concept_slug": "prompt-engineering",
+      "concept_name": "Prompt Engineering",
+      "description": "Techniques for crafting and optimizing prompts to steer LLM behavior, including chain-of-thought, few-shot, and structured output.",
+      "source_articles": [
+        "hard/raw/eugene-yan/prompting-fundamentals-and-how-to-apply-them-effectively.md",
+        "hard/raw/lilian-weng/prompt-engineering.md",
+        "hard/raw/lilian-weng/controllable-neural-text-generation.md",
+        "hard/raw/eugene-yan/patterns-for-building-llm-based-systems-products.md",
+        "hard/raw/eugene-yan/what-weve-learned-from-a-year-of-building-with-llms.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "llm-evals",
+        "llm-agents",
+        "llm-safety-hallucination"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals",
+        "prompting",
+        "deep-learning"
+      ]
+    },
+    {
+      "concept_slug": "reinforcement-learning-fundamentals",
+      "concept_name": "Reinforcement Learning",
+      "description": "Core RL algorithms and techniques including policy gradients, Q-learning, exploration strategies, reward shaping, and sim-to-real transfer.",
+      "source_articles": [
+        "hard/raw/lilian-weng/a-long-peek-into-reinforcement-learning.md",
+        "hard/raw/lilian-weng/policy-gradient-algorithms.md",
+        "hard/raw/lilian-weng/exploration-strategies-in-deep-reinforcement-learning.md",
+        "hard/raw/lilian-weng/curriculum-for-reinforcement-learning.md",
+        "hard/raw/lilian-weng/meta-reinforcement-learning.md",
+        "hard/raw/lilian-weng/implementing-deep-reinforcement-learning-models-with-tensorflow-openai-gym.md",
+        "hard/raw/lilian-weng/reward-hacking-in-reinforcement-learning.md",
+        "hard/raw/lilian-weng/domain-randomization-for-sim2real-transfer.md",
+        "hard/raw/karpathy/deep-reinforcement-learning-pong-from-pixels.md",
+        "hard/raw/eugene-yan/omscs-cs7642-reinforcement-learning-review-and-tips.md",
+        "hard/raw/eugene-yan/reinforcement-learning-for-recommendations-and-search.md"
+      ],
+      "related_concepts": [
+        "bandits-exploration-exploitation",
+        "meta-learning-few-shot",
+        "recsys-architecture",
+        "neural-network-training"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "reinforcement-learning",
+        "llms"
+      ]
+    },
+    {
+      "concept_slug": "generative-image-models",
+      "concept_name": "Generative Image Models",
+      "description": "Architectures for image generation including GANs, VAEs, normalizing flows, and diffusion models.",
+      "source_articles": [
+        "hard/raw/lilian-weng/from-gan-to-wgan.md",
+        "hard/raw/lilian-weng/from-autoencoder-to-beta-vae.md",
+        "hard/raw/lilian-weng/flow-based-deep-generative-models.md",
+        "hard/raw/lilian-weng/diffusion-models-for-video-generation.md",
+        "hard/raw/jay-alammar/the-illustrated-stable-diffusion.md",
+        "hard/raw/eugene-yan/text-to-image-diffusion-text-conditioning-guidance-latent-space.md",
+        "hard/raw/jay-alammar/remaking-old-computer-graphics-with-ai-image-generation.md"
+      ],
+      "related_concepts": [
+        "computer-vision-object-detection",
+        "embeddings-representation-learning",
+        "vision-language-models"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "generative-models",
+        "diffusion",
+        "visual-explanations"
+      ]
+    },
+    {
+      "concept_slug": "embeddings-representation-learning",
+      "concept_name": "Embeddings & Representation Learning",
+      "description": "Methods for learning dense vector representations of words, items, and users, including word2vec, contrastive learning, and self-supervised approaches.",
+      "source_articles": [
+        "hard/raw/lilian-weng/learning-word-embedding.md",
+        "hard/raw/lilian-weng/contrastive-representation-learning.md",
+        "hard/raw/lilian-weng/self-supervised-representation-learning.md",
+        "hard/raw/eugene-yan/search-query-matching-via-lexical-graph-and-embedding-methods.md",
+        "hard/raw/eugene-yan/patterns-for-personalization-in-recommendations-and-search.md",
+        "hard/raw/jay-alammar/applying-massive-language-models-in-the-real-world-with-cohere.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "recsys-architecture",
+        "search-systems",
+        "transformer-architecture"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "recsys",
+        "embeddings"
+      ]
+    },
+    {
+      "concept_slug": "ml-production-systems",
+      "concept_name": "ML Production Systems & MLOps",
+      "description": "End-to-end practices for productionizing ML models, including APIs, pipelines, testing, experimentation, and monitoring.",
+      "source_articles": [
+        "hard/raw/eugene-yan/product-categorization-api-part-3-creating-an-api.md",
+        "hard/raw/eugene-yan/product-classification-api-part-1-data-acquisition.md",
+        "hard/raw/eugene-yan/product-classification-api-part-2-data-preparation.md",
+        "hard/raw/eugene-yan/unpopular-opinion-data-scientists-should-be-more-end-to-end.md",
+        "hard/raw/eugene-yan/writing-robust-tests-for-data-machine-learning-pipelines.md",
+        "hard/raw/eugene-yan/why-are-my-airflow-jobs-running-one-day-late.md",
+        "hard/raw/eugene-yan/the-data-scientist-show-building-end-to-end-ml-systems.md",
+        "hard/raw/eugene-yan/simpler-experimentation-with-jupyter-papermill-and-mlflow.md"
+      ],
+      "related_concepts": [
+        "data-science-project-methodology",
+        "recsys-architecture",
+        "simplicity-in-ml"
+      ],
+      "tags": [
+        "ml-systems",
+        "recsys",
+        "mlops",
+        "production"
+      ]
+    },
+    {
+      "concept_slug": "llm-safety-hallucination",
+      "concept_name": "LLM Safety, Hallucination & Alignment",
+      "description": "Challenges and mitigation techniques for LLM failure modes including hallucination, adversarial attacks, toxicity, and guardrails.",
+      "source_articles": [
+        "hard/raw/lilian-weng/adversarial-attacks-on-llms.md",
+        "hard/raw/lilian-weng/extrinsic-hallucinations-in-llms.md",
+        "hard/raw/lilian-weng/reducing-toxicity-in-language-models.md",
+        "hard/raw/eugene-yan/out-of-domain-finetuning-to-bootstrap-hallucination-detection.md",
+        "hard/raw/eugene-yan/patterns-for-building-llm-based-systems-products.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "llm-evals",
+        "prompt-engineering"
+      ],
+      "tags": [
+        "llms",
+        "ml-fundamentals",
+        "safety",
+        "alignment"
+      ]
+    },
+    {
+      "concept_slug": "search-systems",
+      "concept_name": "Search Systems & Query Matching",
+      "description": "Architecture and algorithms for information retrieval including lexical, graph, embedding, and hybrid search approaches.",
+      "source_articles": [
+        "hard/raw/eugene-yan/search-query-matching-via-lexical-graph-and-embedding-methods.md",
+        "hard/raw/eugene-yan/system-design-for-recommendations-and-search.md",
+        "hard/raw/eugene-yan/sf-big-analytics-system-design-for-recsys-search.md",
+        "hard/raw/lilian-weng/how-to-build-an-open-domain-question-answering-system.md"
+      ],
+      "related_concepts": [
+        "recsys-architecture",
+        "embeddings-representation-learning",
+        "retrieval-augmented-generation"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "search",
+        "information-retrieval"
+      ]
+    },
+    {
+      "concept_slug": "neural-network-training",
+      "concept_name": "Neural Network Training & Optimization",
+      "description": "Practical and theoretical aspects of training neural networks including debugging, optimization, overfitting, and architecture search.",
+      "source_articles": [
+        "hard/raw/karpathy/a-recipe-for-training-neural-networks.md",
+        "hard/raw/lilian-weng/an-overview-of-deep-learning-for-curious-people.md",
+        "hard/raw/lilian-weng/are-deep-neural-networks-dramatically-overfitted.md",
+        "hard/raw/lilian-weng/some-math-behind-neural-tangent-kernel.md",
+        "hard/raw/karpathy/deep-neural-nets-33-years-ago-and-33-years-from-now.md",
+        "hard/raw/lilian-weng/anatomize-deep-learning-with-information-theory.md",
+        "hard/raw/lilian-weng/evolution-strategies.md",
+        "hard/raw/lilian-weng/neural-architecture-search.md",
+        "hard/raw/eugene-yan/omscs-cs7641-machine-learning-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs6601-artificial-intelligence-review-and-tips.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "reinforcement-learning-fundamentals",
+        "large-language-models",
+        "llm-inference-efficiency"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "llms",
+        "optimization"
+      ]
+    },
+    {
+      "concept_slug": "llm-inference-efficiency",
+      "concept_name": "LLM Inference & Training Efficiency",
+      "description": "Techniques for scaling and optimizing large model training and inference including parallelism, quantization, distillation, and MoE.",
+      "source_articles": [
+        "hard/raw/lilian-weng/large-transformer-model-inference-optimization.md",
+        "hard/raw/lilian-weng/how-to-train-really-large-models-on-many-gpus.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "transformer-architecture",
+        "neural-network-training"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "llms",
+        "infrastructure"
+      ]
+    },
+    {
+      "concept_slug": "generative-ai-products",
+      "concept_name": "Generative AI Products & Strategy",
+      "description": "Business and architectural considerations for building products on LLMs, including competitive moats, deployment challenges, and multimodality.",
+      "source_articles": [
+        "hard/raw/jay-alammar/generative-ai-and-ai-product-moats.md",
+        "hard/raw/eugene-yan/what-weve-learned-from-a-year-of-building-with-llms.md",
+        "hard/raw/eugene-yan/patterns-for-building-llm-based-systems-products.md",
+        "hard/raw/eugene-yan/reflections-on-ai-engineer-summit-2023.md",
+        "hard/raw/eugene-yan/open-llms-a-list-of-llms-for-commercial-use.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "llm-agents",
+        "llm-evals",
+        "llm-safety-hallucination"
+      ],
+      "tags": [
+        "ml-systems",
+        "recsys",
+        "llms",
+        "strategy",
+        "products"
+      ]
+    },
+    {
+      "concept_slug": "model-explainability",
+      "concept_name": "Model Explainability & Interpretability",
+      "description": "Tools and methods for understanding and explaining ML model predictions, including attention visualization, SHAP, and probing techniques.",
+      "source_articles": [
+        "hard/raw/jay-alammar/explainable-ai-cheat-sheet.md",
+        "hard/raw/jay-alammar/interfaces-for-explaining-transformer-language-models.md",
+        "hard/raw/jay-alammar/finding-the-words-to-say-hidden-state-visualizations-for-language-models.md",
+        "hard/raw/lilian-weng/how-to-explain-the-prediction-of-a-machine-learning-model.md"
+      ],
+      "related_concepts": [
+        "large-language-models",
+        "transformer-architecture",
+        "llm-safety-hallucination"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "visual-explanations",
+        "deep-learning",
+        "explainability"
+      ]
+    },
+    {
+      "concept_slug": "bandits-exploration-exploitation",
+      "concept_name": "Bandits & Exploration-Exploitation",
+      "description": "Multi-armed bandit algorithms and exploration-exploitation trade-offs applied to recommendation, experimentation, and online learning.",
+      "source_articles": [
+        "hard/raw/lilian-weng/the-multi-armed-bandit-problem-and-its-solutions.md",
+        "hard/raw/lilian-weng/exploration-strategies-in-deep-reinforcement-learning.md",
+        "hard/raw/eugene-yan/patterns-for-personalization-in-recommendations-and-search.md",
+        "hard/raw/eugene-yan/reinforcement-learning-for-recommendations-and-search.md"
+      ],
+      "related_concepts": [
+        "reinforcement-learning-fundamentals",
+        "recsys-architecture",
+        "personalization-recsys"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "recsys",
+        "bandits"
+      ]
+    },
+    {
+      "concept_slug": "personalization-recsys",
+      "concept_name": "Personalization in Recommendations",
+      "description": "Techniques for modeling user preferences and delivering personalized experiences, including user embeddings, sequence models, and context-aware filtering.",
+      "source_articles": [
+        "hard/raw/eugene-yan/patterns-for-personalization-in-recommendations-and-search.md",
+        "hard/raw/eugene-yan/push-notifications-what-to-push-what-not-to-push-and-how-often.md",
+        "hard/raw/eugene-yan/real-time-machine-learning-for-recommendations.md",
+        "hard/raw/eugene-yan/serendipity-accuracys-unpopular-best-friend-in-recommenders.md"
+      ],
+      "related_concepts": [
+        "recsys-architecture",
+        "embeddings-representation-learning",
+        "bandits-exploration-exploitation"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "personalization",
+        "recommendations"
+      ]
+    },
+    {
+      "concept_slug": "meta-learning-few-shot",
+      "concept_name": "Meta-Learning & Low-Data Learning",
+      "description": "Techniques for learning with limited labeled data including meta-learning, few-shot learning, semi-supervised learning, and active learning.",
+      "source_articles": [
+        "hard/raw/lilian-weng/meta-learning-learning-to-learn-fast.md",
+        "hard/raw/lilian-weng/meta-reinforcement-learning.md",
+        "hard/raw/lilian-weng/learning-with-not-enough-data-part-1-semi-supervised-learning.md",
+        "hard/raw/lilian-weng/learning-with-not-enough-data-part-2-active-learning.md",
+        "hard/raw/lilian-weng/learning-with-not-enough-data-part-3-data-generation.md"
+      ],
+      "related_concepts": [
+        "reinforcement-learning-fundamentals",
+        "neural-network-training",
+        "data-annotation-labeling"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "meta-learning",
+        "few-shot"
+      ]
+    },
+    {
+      "concept_slug": "data-annotation-labeling",
+      "concept_name": "Data Quality & Human Annotation",
+      "description": "Principles and methods for obtaining, curating, and evaluating high-quality labeled training data, including active learning and crowdsourcing strategies.",
+      "source_articles": [
+        "hard/raw/lilian-weng/thinking-about-high-quality-human-data.md",
+        "hard/raw/lilian-weng/learning-with-not-enough-data-part-2-active-learning.md",
+        "hard/raw/eugene-yan/product-evals-in-three-simple-steps.md"
+      ],
+      "related_concepts": [
+        "meta-learning-few-shot",
+        "llm-evals",
+        "ml-production-systems"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "data",
+        "annotation"
+      ]
+    },
+    {
+      "concept_slug": "computer-vision-object-detection",
+      "concept_name": "Computer Vision & Object Detection",
+      "description": "Foundations and deep learning approaches for CV tasks including feature extraction, region proposals, and object detection architectures.",
+      "source_articles": [
+        "hard/raw/lilian-weng/object-detection-for-dummies-part-1-gradient-vector-hog-and-ss.md",
+        "hard/raw/lilian-weng/object-detection-for-dummies-part-2-cnn-dpm-and-overfeat.md",
+        "hard/raw/lilian-weng/object-detection-for-dummies-part-3-r-cnn-family.md",
+        "hard/raw/lilian-weng/object-detection-part-4-fast-detection-models.md",
+        "hard/raw/eugene-yan/omscs-cs6476-computer-vision-review-and-tips.md"
+      ],
+      "related_concepts": [
+        "neural-network-training",
+        "generative-image-models",
+        "vision-language-models"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "computer-vision"
+      ]
+    },
+    {
+      "concept_slug": "recurrent-sequential-models",
+      "concept_name": "Recurrent & Sequential Models",
+      "description": "RNN, LSTM, and sequence modeling architectures for time series, NLP, and recommendation tasks, and how attention superseded them.",
+      "source_articles": [
+        "hard/raw/lilian-weng/predict-stock-prices-using-rnn-part-1.md",
+        "hard/raw/lilian-weng/predict-stock-prices-using-rnn-part-2.md",
+        "hard/raw/lilian-weng/attention-attention.md",
+        "hard/raw/eugene-yan/patterns-for-personalization-in-recommendations-and-search.md"
+      ],
+      "related_concepts": [
+        "transformer-architecture",
+        "neural-network-training",
+        "recsys-architecture"
+      ],
+      "tags": [
+        "ml-fundamentals",
+        "deep-learning",
+        "sequence-models",
+        "rnn"
+      ]
+    },
+    {
+      "concept_slug": "data-science-project-methodology",
+      "concept_name": "Data Science Project Methodology",
+      "description": "Best practices for scoping, executing, and following up on data science projects \u2014 from problem framing to delivery and iteration.",
+      "source_articles": [
+        "hard/raw/eugene-yan/what-i-do-before-a-data-science-project-to-ensure-success.md",
+        "hard/raw/eugene-yan/what-i-do-during-a-data-science-project-to-deliver-success.md",
+        "hard/raw/eugene-yan/why-you-need-to-follow-up-after-your-data-science-project.md",
+        "hard/raw/eugene-yan/one-way-to-help-a-data-science-team-innovate-successfully.md",
+        "hard/raw/eugene-yan/what-i-love-about-scrum-for-data-science.md",
+        "hard/raw/eugene-yan/the-metagame-of-applying-machine-learning.md",
+        "hard/raw/eugene-yan/the-first-rule-of-machine-learning-start-without-machine-learning.md"
+      ],
+      "related_concepts": [
+        "ml-production-systems",
+        "simplicity-in-ml",
+        "data-science-career"
+      ],
+      "tags": [
+        "ml-systems",
+        "recsys",
+        "data-science",
+        "methodology"
+      ]
+    },
+    {
+      "concept_slug": "simplicity-in-ml",
+      "concept_name": "Simplicity & Baselines in ML",
+      "description": "The value of simple models, heuristic baselines, and minimal complexity as starting points before adding sophistication.",
+      "source_articles": [
+        "hard/raw/eugene-yan/simplicity-is-an-advantage-but-sadly-complexity-sells-better.md",
+        "hard/raw/eugene-yan/the-first-rule-of-machine-learning-start-without-machine-learning.md",
+        "hard/raw/eugene-yan/traversing-high-level-intent-and-low-level-requirements.md"
+      ],
+      "related_concepts": [
+        "data-science-project-methodology",
+        "ml-production-systems"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "engineering",
+        "design"
+      ]
+    },
+    {
+      "concept_slug": "technical-writing",
+      "concept_name": "Technical Writing & Online Publishing",
+      "description": "Principles and practices for writing clearly, building a writing habit, and publishing technical content online.",
+      "source_articles": [
+        "hard/raw/eugene-yan/seemingly-paradoxical-rules-of-writing.md",
+        "hard/raw/eugene-yan/what-i-did-not-learn-about-writing-in-school.md",
+        "hard/raw/eugene-yan/what-i-learned-from-writing-online-for-fellow-non-writers.md",
+        "hard/raw/eugene-yan/writing-is-learning-how-i-learned-an-easier-way-to-write.md",
+        "hard/raw/eugene-yan/why-you-should-write-weekly-15-5s.md",
+        "hard/raw/eugene-yan/towards-data-science-author-spotlight-with-eugene-yan.md"
+      ],
+      "related_concepts": [
+        "knowledge-management",
+        "productivity-habits"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "writing",
+        "communication"
+      ]
+    },
+    {
+      "concept_slug": "knowledge-management",
+      "concept_name": "Knowledge Management & Learning Systems",
+      "description": "Personal systems for capturing, connecting, and retrieving knowledge \u2014 including Zettelkasten, AI-assisted tools, and learning strategies.",
+      "source_articles": [
+        "hard/raw/eugene-yan/stop-taking-regular-notes-use-a-zettelkasten-instead.md",
+        "hard/raw/eugene-yan/obsidian-copilot-an-assistant-for-writing-reflecting.md",
+        "hard/raw/eugene-yan/you-dont-really-need-another-mooc.md",
+        "hard/raw/eugene-yan/writing-is-learning-how-i-learned-an-easier-way-to-write.md"
+      ],
+      "related_concepts": [
+        "technical-writing",
+        "productivity-habits",
+        "retrieval-augmented-generation"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "knowledge-management",
+        "learning"
+      ]
+    },
+    {
+      "concept_slug": "onboarding-team-dynamics",
+      "concept_name": "Onboarding & Cross-Team Collaboration",
+      "description": "Strategies for joining a new team, building trust with stakeholders, and navigating dependency relationships effectively.",
+      "source_articles": [
+        "hard/raw/eugene-yan/what-i-wish-i-knew-about-onboarding-effectively.md",
+        "hard/raw/eugene-yan/what-to-do-if-dependency-teams-cant-help.md",
+        "hard/raw/eugene-yan/red-flags-to-look-out-for-when-joining-a-data-team.md"
+      ],
+      "related_concepts": [
+        "data-science-career",
+        "productivity-habits"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "career",
+        "teams"
+      ]
+    },
+    {
+      "concept_slug": "productivity-habits",
+      "concept_name": "Productivity & Personal Optimization",
+      "description": "Systems, habits, and frameworks for sustained high performance \u2014 including routines, health, time management, and compounding habits.",
+      "source_articles": [
+        "hard/raw/eugene-yan/seven-habits-that-shaped-my-last-decade.md",
+        "hard/raw/eugene-yan/routines-and-tools-to-optimize-my-day-guest-post-by-susan-shu.md",
+        "hard/raw/eugene-yan/the-85-rule-when-giving-it-your-100-gets-you-less-than-85.md",
+        "hard/raw/karpathy/biohacking-lite.md",
+        "hard/raw/karpathy/a-survival-guide-to-a-phd.md"
+      ],
+      "related_concepts": [
+        "data-science-career",
+        "technical-writing",
+        "knowledge-management"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "llms",
+        "productivity",
+        "habits"
+      ]
+    },
+    {
+      "concept_slug": "omscs-course-reviews",
+      "concept_name": "OMSCS Course Reviews & Tips",
+      "description": "First-hand reviews, tips, and takeaways from Georgia Tech's Online Master's in Computer Science program across multiple courses.",
+      "source_articles": [
+        "hard/raw/eugene-yan/omscs-cs6200-introduction-to-os-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs6300-software-development-process-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs6440-intro-to-health-informatics-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs6460-education-technology-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs6476-computer-vision-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs6601-artificial-intelligence-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs6750-human-computer-interaction-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs7641-machine-learning-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs7642-reinforcement-learning-review-and-tips.md",
+        "hard/raw/eugene-yan/omscs-cs7646-machine-learning-for-trading-review-and-tips.md"
+      ],
+      "related_concepts": [
+        "data-science-career",
+        "neural-network-training",
+        "reinforcement-learning-fundamentals"
+      ],
+      "tags": [
+        "recsys",
+        "ml-systems",
+        "education",
+        "omscs"
+      ]
+    },
+    {
+      "concept_slug": "llm-reasoning-inference-scaling",
+      "concept_name": "LLM Reasoning and Inference-Time Scaling",
+      "description": "Techniques for improving LLM output quality by spending more compute at inference time, including chain-of-thought, search strategies, and test-time RL.",
+      "source_articles": [
+        "hard/raw/lilian-weng/why-we-think.md",
+        "hard/raw/sebastian-raschka/categories-of-inference-time-scaling-for-improved-llm-reasoning.md",
+        "hard/raw/sebastian-raschka/the-state-of-llm-reasoning-model-inference.md",
+        "hard/raw/sebastian-raschka/understanding-reasoning-llms.md",
+        "hard/raw/sebastian-raschka/the-state-of-reinforcement-learning-for-llm-reasoning.md",
+        "hard/raw/sebastian-raschka/first-look-at-reasoning-from-scratch-chapter-1.md"
+      ],
+      "related_concepts": [
+        "rlhf-post-training",
+        "kv-cache-inference-efficiency",
+        "llm-recursive-self-improvement"
+      ],
+      "tags": [
+        "llms",
+        "reasoning",
+        "inference",
+        "reinforcement-learning",
+        "ml-research"
+      ]
+    },
+    {
+      "concept_slug": "transformer-attention-mechanisms",
+      "concept_name": "Transformer Attention Mechanisms",
+      "description": "Variants of self-attention (MHA, MQA, GQA, MLA) used in modern LLMs and their trade-offs for memory efficiency and inference speed.",
+      "source_articles": [
+        "hard/raw/sebastian-raschka/a-visual-guide-to-attention-variants-in-modern-llms.md",
+        "hard/raw/sebastian-raschka/understanding-and-coding-the-kv-cache-in-llms-from-scratch.md",
+        "hard/raw/sebastian-raschka/understanding-and-implementing-qwen3-from-scratch.md",
+        "hard/raw/sebastian-raschka/the-big-llm-architecture-comparison.md"
+      ],
+      "related_concepts": [
+        "kv-cache-inference-efficiency",
+        "llm-architecture-evolution",
+        "llm-implementation-from-scratch"
+      ],
+      "tags": [
+        "llms",
+        "transformers",
+        "attention",
+        "ml-research",
+        "deep-learning"
+      ]
+    },
+    {
+      "concept_slug": "llm-architecture-evolution",
+      "concept_name": "LLM Architecture Evolution",
+      "description": "How large language model architectures have evolved from GPT-2 through modern flagships like DeepSeek, Qwen, and Llama, comparing design choices across generations.",
+      "source_articles": [
+        "hard/raw/sebastian-raschka/the-big-llm-architecture-comparison.md",
+        "hard/raw/sebastian-raschka/a-dream-of-spring-for-open-weight-llms-10-architectures-from-jan-feb-2026.md",
+        "hard/raw/sebastian-raschka/from-gpt-2-to-gpt-oss-analyzing-the-architectural-advances.md",
+        "hard/raw/sebastian-raschka/from-deepseek-v3-to-v32-architecture-sparse-attention-and-rl-updates.md",
+        "hard/raw/sebastian-raschka/understanding-and-implementing-qwen3-from-scratch.md",
+        "hard/raw/nathan-lambert/olmo-hybrid-and-future-llm-architectures.md"
+      ],
+      "related_concepts": [
+        "transformer-attention-mechanisms",
+        "mixture-of-experts",
+        "hybrid-llm-architectures",
+        "open-weight-llm-ecosystem"
+      ],
+      "tags": [
+        "llms",
+        "architecture",
+        "transformers",
+        "ml-research"
+      ]
+    },
+    {
+      "concept_slug": "hybrid-llm-architectures",
+      "concept_name": "Hybrid LLM Architectures (SSM + Attention)",
+      "description": "Models combining attention with state-space models (e.g. Mamba) to balance long-context efficiency with model quality.",
+      "source_articles": [
+        "hard/raw/nathan-lambert/olmo-hybrid-and-future-llm-architectures.md",
+        "hard/raw/sebastian-raschka/beyond-standard-llms.md",
+        "hard/raw/sebastian-raschka/a-dream-of-spring-for-open-weight-llms-10-architectures-from-jan-feb-2026.md"
+      ],
+      "related_concepts": [
+        "llm-architecture-evolution",
+        "transformer-attention-mechanisms",
+        "mixture-of-experts"
+      ],
+      "tags": [
+        "llms",
+        "architecture",
+        "ssm",
+        "ml-research"
+      ]
+    },
+    {
+      "concept_slug": "open-weight-llm-ecosystem",
+      "concept_name": "Open-Weight LLM Ecosystem",
+      "description": "The landscape of publicly released model weights \u2014 who releases them, why, how they compare to closed models, and what drives adoption.",
+      "source_articles": [
+        "hard/raw/nathan-lambert/8-plots-that-explain-the-state-of-open-models.md",
+        "hard/raw/nathan-lambert/arcee-ai-goes-all-in-on-open-models-built-in-the-us.md",
+        "hard/raw/nathan-lambert/gemma-4-and-what-makes-an-open-model-succeed.md",
+        "hard/raw/nathan-lambert/what-comes-next-with-open-models.md",
+        "hard/raw/nathan-lambert/open-models-in-perpetual-catch-up.md",
+        "hard/raw/nathan-lambert/open-models-hot-or-not-with-nathan-lambert-florian-brand.md",
+        "hard/raw/nathan-lambert/why-nvidia-builds-open-models-with-bryan-catanzaro.md",
+        "hard/raw/nathan-lambert/latest-open-artifacts-17-nvidia-arcee-minimax-deepseek-zai-and-others-close-an-e.md",
+        "hard/raw/nathan-lambert/latest-open-artifacts-18-arcees-400b-moe-liquidais-underrated-1b-model-new-kimi.md",
+        "hard/raw/nathan-lambert/latest-open-artifacts-19-qwen-35-glm-5-minimax-25-chinese-labs-latest-push-of-th.md",
+        "hard/raw/nathan-lambert/latest-open-artifacts-20-new-orgs-new-types-of-models-with-nemotron-super-sarvam.md",
+        "hard/raw/sebastian-raschka/a-dream-of-spring-for-open-weight-llms-10-architectures-from-jan-feb-2026.md",
+        "hard/raw/sebastian-raschka/the-state-of-llms-2025-progress-problems-and-predictions.md",
+        "hard/raw/simon-willison/gemma-4-byte-for-byte-the-most-capable-open-models.md"
+      ],
+      "related_concepts": [
+        "llm-architecture-evolution",
+        "us-china-ai-geopolitics",
+        "model-distillation",
+        "llm-evaluation-benchmarks"
+      ],
+      "tags": [
+        "llms",
+        "open-source",
+        "ml-research",
+        "rlhf"
+      ]
+    },
+    {
+      "concept_slug": "rlhf-post-training",
+      "concept_name": "RLHF and LLM Post-Training",
+      "description": "Techniques for aligning and improving LLMs after pretraining, including RLHF, DPO, reward modeling, and supervised fine-tuning.",
+      "source_articles": [
+        "hard/raw/sebastian-raschka/the-state-of-reinforcement-learning-for-llm-reasoning.md",
+        "hard/raw/sebastian-raschka/understanding-reasoning-llms.md",
+        "hard/raw/sebastian-raschka/from-deepseek-v3-to-v32-architecture-sparse-attention-and-rl-updates.md",
+        "hard/raw/nathan-lambert/arcee-ai-goes-all-in-on-open-models-built-in-the-us.md",
+        "hard/raw/lilian-weng/why-we-think.md"
+      ],
+      "related_concepts": [
+        "llm-reasoning-inference-scaling",
+        "model-distillation",
+        "open-weight-llm-ecosystem"
+      ],
+      "tags": [
+        "rlhf",
+        "reinforcement-learning",
+        "llms",
+        "post-training",
+        "alignment"
+      ]
+    },
+    {
+      "concept_slug": "model-distillation",
+      "concept_name": "Model Distillation and Knowledge Transfer",
+      "description": "Compressing knowledge from large frontier models into smaller, more deployable models, and the policy debates around cross-lab distillation.",
+      "source_articles": [
+        "hard/raw/nathan-lambert/how-much-does-distillation-really-matter-for-chinese-llms.md",
+        "hard/raw/nathan-lambert/lossy-self-improvement.md",
+        "hard/raw/sebastian-raschka/noteworthy-ai-research-papers-of-2024-part-one.md",
+        "hard/raw/sebastian-raschka/noteworthy-ai-research-papers-of-2024-part-two.md"
+      ],
+      "related_concepts": [
+        "rlhf-post-training",
+        "open-weight-llm-ecosystem",
+        "us-china-ai-geopolitics"
+      ],
+      "tags": [
+        "llms",
+        "distillation",
+        "ml-research",
+        "rlhf"
+      ]
+    },
+    {
+      "concept_slug": "llm-evaluation-benchmarks",
+      "concept_name": "LLM Evaluation and Benchmarks",
+      "description": "Methods for evaluating LLM capability \u2014 automated benchmarks, human eval, and growing concerns about benchmark saturation and gaming.",
+      "source_articles": [
+        "hard/raw/sebastian-raschka/understanding-the-4-main-approaches-to-llm-evaluation-from-scratch.md",
+        "hard/raw/nathan-lambert/opus-46-codex-53-and-the-post-benchmark-era.md",
+        "hard/raw/nathan-lambert/gpt-54-is-a-big-step-for-codex.md",
+        "hard/raw/sebastian-raschka/the-state-of-llms-2025-progress-problems-and-predictions.md"
+      ],
+      "related_concepts": [
+        "ai-coding-agents",
+        "llm-reasoning-inference-scaling",
+        "llm-research-survey-landscape"
+      ],
+      "tags": [
+        "llms",
+        "evaluation",
+        "benchmarks",
+        "ml-research"
+      ]
+    },
+    {
+      "concept_slug": "kv-cache-inference-efficiency",
+      "concept_name": "KV Cache and Inference Efficiency",
+      "description": "How key-value caching reduces redundant computation in LLM inference, and the attention variants (MQA, GQA) designed to shrink its memory footprint.",
+      "source_articles": [
+        "hard/raw/sebastian-raschka/understanding-and-coding-the-kv-cache-in-llms-from-scratch.md",
+        "hard/raw/sebastian-raschka/the-state-of-llm-reasoning-model-inference.md",
+        "hard/raw/sebastian-raschka/categories-of-inference-time-scaling-for-improved-llm-reasoning.md",
+        "hard/raw/sebastian-raschka/a-visual-guide-to-attention-variants-in-modern-llms.md"
+      ],
+      "related_concepts": [
+        "transformer-attention-mechanisms",
+        "llm-reasoning-inference-scaling",
+        "local-llm-deployment"
+      ],
+      "tags": [
+        "llms",
+        "inference",
+        "efficiency",
+        "ml-research"
+      ]
+    },
+    {
+      "concept_slug": "ai-coding-agents",
+      "concept_name": "AI Coding Agents",
+      "description": "Autonomous agents designed to write, debug, and refactor code \u2014 how they work architecturally, how they're evaluated, and how to use them effectively.",
+      "source_articles": [
+        "hard/raw/nathan-lambert/claude-code-hits-different.md",
+        "hard/raw/nathan-lambert/get-good-at-agents.md",
+        "hard/raw/nathan-lambert/gpt-54-is-a-big-step-for-codex.md",
+        "hard/raw/nathan-lambert/opus-46-codex-53-and-the-post-benchmark-era.md",
+        "hard/raw/sebastian-raschka/components-of-a-coding-agent.md",
+        "hard/raw/simon-willison/highlights-from-my-conversation-about-agentic-engineering-on-lennys-podcast.md",
+        "hard/raw/simon-willison/the-cognitive-impact-of-coding-agents.md",
+        "hard/raw/simon-willison/quoting-matt-webb.md"
+      ],
+      "related_concepts": [
+        "vibe-coding-ai-workflows",
+        "ai-impact-software-engineering",
+        "llm-evaluation-benchmarks",
+        "llm-recursive-self-improvement"
+      ],
+      "tags": [
+        "llms",
+        "agents",
+        "ai-engineering",
+        "coding"
+      ]
+    },
+    {
+      "concept_slug": "vibe-coding-ai-workflows",
+      "concept_name": "Vibe Coding and AI-Assisted Development Workflows",
+      "description": "Using AI coding tools to rapidly prototype and ship software with minimal manual effort \u2014 practical workflows, wins, and where the approach breaks down.",
+      "source_articles": [
+        "hard/raw/simon-willison/vibe-coding-swiftui-apps-is-a-lot-of-fun.md",
+        "hard/raw/simon-willison/we-rewrote-jsonata-with-ai-in-a-day-saved-500kyear.md",
+        "hard/raw/simon-willison/python-vulnerability-lookup.md",
+        "hard/raw/nathan-lambert/claude-code-hits-different.md"
+      ],
+      "related_concepts": [
+        "ai-coding-agents",
+        "ai-impact-software-engineering",
+        "local-llm-deployment"
+      ],
+      "tags": [
+        "ai-engineering",
+        "llm-tooling",
+        "coding",
+        "productivity"
+      ]
+    },
+    {
+      "concept_slug": "ai-impact-software-engineering",
+      "concept_name": "AI's Impact on Software Engineering",
+      "description": "How AI coding tools are reshaping developer productivity, job markets, code quality expectations, and the economics of software development.",
+      "source_articles": [
+        "hard/raw/simon-willison/quoting-kyle-daigle.md",
+        "hard/raw/simon-willison/quoting-soohoon-choi.md",
+        "hard/raw/simon-willison/quoting-matt-webb.md",
+        "hard/raw/simon-willison/the-cognitive-impact-of-coding-agents.md",
+        "hard/raw/nathan-lambert/thoughts-on-the-job-market-in-the-age-of-llms.md",
+        "hard/raw/nathan-lambert/get-good-at-agents.md"
+      ],
+      "related_concepts": [
+        "ai-coding-agents",
+        "vibe-coding-ai-workflows",
+        "ai-vulnerability-research"
+      ],
+      "tags": [
+        "ai-engineering",
+        "llms",
+        "software-engineering",
+        "jobs"
+      ]
+    },
+    {
+      "concept_slug": "llm-python-library-tooling",
+      "concept_name": "LLM Python Library and CLI Tooling",
+      "description": "Simon Willison's `llm` Python library \u2014 plugin architecture, model abstraction layer, async support, and CLI interface spanning dozens of providers.",
+      "source_articles": [
+        "hard/raw/simon-willison/llm-030.md",
+        "hard/raw/simon-willison/llm-all-models-async-01.md",
+        "hard/raw/simon-willison/llm-echo-03.md",
+        "hard/raw/simon-willison/llm-echo-04.md",
+        "hard/raw/simon-willison/llm-gemini-030.md",
+        "hard/raw/simon-willison/llm-mrchatterbox-01.md",
+        "hard/raw/simon-willison/research-llm-apis-2026-04-04.md"
+      ],
+      "related_concepts": [
+        "datasette-llm-integration",
+        "multi-model-strategies",
+        "local-llm-deployment"
+      ],
+      "tags": [
+        "llm-tooling",
+        "ai-engineering",
+        "python",
+        "open-source"
+      ]
+    },
+    {
+      "concept_slug": "datasette-llm-integration",
+      "concept_name": "Datasette + LLM Plugin Ecosystem",
+      "description": "Plugins integrating LLMs into Datasette for data enrichment, extraction, usage tracking, and purpose-specific model routing.",
+      "source_articles": [
+        "hard/raw/simon-willison/datasette-enrichments-llm-02a0.md",
+        "hard/raw/simon-willison/datasette-enrichments-llm-02a1.md",
+        "hard/raw/simon-willison/datasette-extract-03a0.md",
+        "hard/raw/simon-willison/datasette-files-01a3.md",
+        "hard/raw/simon-willison/datasette-llm-01a3.md",
+        "hard/raw/simon-willison/datasette-llm-01a4.md",
+        "hard/raw/simon-willison/datasette-llm-01a5.md",
+        "hard/raw/simon-willison/datasette-llm-01a6.md",
+        "hard/raw/simon-willison/datasette-llm-usage-02a0.md"
+      ],
+      "related_concepts": [
+        "llm-python-library-tooling",
+        "multi-model-strategies"
+      ],
+      "tags": [
+        "llm-tooling",
+        "ai-engineering",
+        "datasette",
+        "plugins"
+      ]
+    },
+    {
+      "concept_slug": "ai-vulnerability-research",
+      "concept_name": "AI-Assisted Vulnerability Research",
+      "description": "How frontier AI models and coding agents are transforming security research \u2014 dramatically accelerating bug discovery and flooding open-source projects with reports.",
+      "source_articles": [
+        "hard/raw/simon-willison/quoting-daniel-stenberg.md",
+        "hard/raw/simon-willison/quoting-greg-kroah-hartman.md",
+        "hard/raw/simon-willison/quoting-willy-tarreau.md",
+        "hard/raw/simon-willison/vulnerability-research-is-cooked.md",
+        "hard/raw/simon-willison/python-vulnerability-lookup.md"
+      ],
+      "related_concepts": [
+        "software-supply-chain-security",
+        "ai-coding-agents",
+        "secret-scanning-tools"
+      ],
+      "tags": [
+        "llm-tooling",
+        "security",
+        "ai-engineering",
+        "vulnerability-research"
+      ]
+    },
+    {
+      "concept_slug": "software-supply-chain-security",
+      "concept_name": "Software Supply Chain Security",
+      "description": "Attacks and defenses targeting the open-source dependency ecosystem, including malicious dependency injection via social engineering of maintainers.",
+      "source_articles": [
+        "hard/raw/simon-willison/supply-chain-attack-on-axios-pulls-malicious-dependency-from-npm.md",
+        "hard/raw/simon-willison/the-axios-supply-chain-attack-used-individually-targeted-social-engineering.md"
+      ],
+      "related_concepts": [
+        "ai-vulnerability-research",
+        "secret-scanning-tools"
+      ],
+      "tags": [
+        "security",
+        "supply-chain",
+        "npm",
+        "open-source"
+      ]
+    },
+    {
+      "concept_slug": "secret-scanning-tools",
+      "concept_name": "Secret Scanning and API Key Detection",
+      "description": "Tooling for detecting accidentally committed API keys, credentials, and secrets in codebases and published transcripts.",
+      "source_articles": [
+        "hard/raw/simon-willison/scan-for-secrets-01.md",
+        "hard/raw/simon-willison/scan-for-secrets-011.md",
+        "hard/raw/simon-willison/scan-for-secrets-02.md"
+      ],
+      "related_concepts": [
+        "software-supply-chain-security",
+        "ai-vulnerability-research"
+      ],
+      "tags": [
+        "llm-tooling",
+        "security",
+        "secrets",
+        "devtools"
+      ]
+    },
+    {
+      "concept_slug": "us-china-ai-geopolitics",
+      "concept_name": "US-China AI Geopolitics and Open Model Policy",
+      "description": "The geopolitical dynamics of the US-China AI race, including open-model strategies as competitive weapons, export controls, distillation debates, and government regulation.",
+      "source_articles": [
+        "hard/raw/nathan-lambert/8-plots-that-explain-the-state-of-open-models.md",
+        "hard/raw/nathan-lambert/dean-ball-on-open-models-and-government-control.md",
+        "hard/raw/nathan-lambert/how-much-does-distillation-really-matter-for-chinese-llms.md",
+        "hard/raw/nathan-lambert/latest-open-artifacts-19-qwen-35-glm-5-minimax-25-chinese-labs-latest-push-of-th.md",
+        "hard/raw/nathan-lambert/what-comes-next-with-open-models.md"
+      ],
+      "related_concepts": [
+        "open-weight-llm-ecosystem",
+        "model-distillation"
+      ],
+      "tags": [
+        "llms",
+        "ai-policy",
+        "geopolitics",
+        "open-source",
+        "rlhf"
+      ]
+    },
+    {
+      "concept_slug": "llm-recursive-self-improvement",
+      "concept_name": "LLM Self-Improvement and Recursive Capability Growth",
+      "description": "Whether and how LLMs can improve themselves \u2014 from RL self-play to the risks and limits of recursive self-improvement and fast takeoff.",
+      "source_articles": [
+        "hard/raw/nathan-lambert/lossy-self-improvement.md",
+        "hard/raw/lilian-weng/why-we-think.md",
+        "hard/raw/nathan-lambert/get-good-at-agents.md"
+      ],
+      "related_concepts": [
+        "rlhf-post-training",
+        "ai-coding-agents",
+        "llm-reasoning-inference-scaling"
+      ],
+      "tags": [
+        "llms",
+        "rlhf",
+        "alignment",
+        "agents",
+        "safety"
+      ]
+    },
+    {
+      "concept_slug": "multi-model-strategies",
+      "concept_name": "Multi-Model Strategies and Provider Abstraction",
+      "description": "Using multiple AI models together \u2014 routing by task type, building abstraction layers across providers, and selecting the right model for each job.",
+      "source_articles": [
+        "hard/raw/nathan-lambert/use-multiple-models.md",
+        "hard/raw/simon-willison/research-llm-apis-2026-04-04.md",
+        "hard/raw/nathan-lambert/opus-46-codex-53-and-the-post-benchmark-era.md"
+      ],
+      "related_concepts": [
+        "llm-python-library-tooling",
+        "llm-evaluation-benchmarks",
+        "local-llm-deployment"
+      ],
+      "tags": [
+        "llm-tooling",
+        "ai-engineering",
+        "model-selection"
+      ]
+    },
+    {
+      "concept_slug": "local-llm-deployment",
+      "concept_name": "Local LLM Deployment and On-Device Inference",
+      "description": "Running LLMs on local hardware \u2014 capabilities, tooling quirks around chat templates and prompt construction, and tradeoffs vs. API-based models.",
+      "source_articles": [
+        "hard/raw/simon-willison/vibe-coding-swiftui-apps-is-a-lot-of-fun.md",
+        "hard/raw/simon-willison/quoting-georgi-gerganov.md",
+        "hard/raw/simon-willison/mr-chatterbox-is-a-weak-victorian-era-ethically-trained-model-you-can-run-on-you.md",
+        "hard/raw/simon-willison/llm-mrchatterbox-01.md"
+      ],
+      "related_concepts": [
+        "llm-python-library-tooling",
+        "kv-cache-inference-efficiency",
+        "multi-model-strategies"
+      ],
+      "tags": [
+        "llm-tooling",
+        "ai-engineering",
+        "local-inference",
+        "open-source"
+      ]
+    },
+    {
+      "concept_slug": "llm-research-survey-landscape",
+      "concept_name": "LLM Research Survey and Landscape",
+      "description": "Curated surveys and annual roundups tracking the most important LLM research papers and developments across the field.",
+      "source_articles": [
+        "hard/raw/sebastian-raschka/llm-research-papers-the-2025-list-january-to-june.md",
+        "hard/raw/sebastian-raschka/llm-research-papers-the-2025-list-july-to-december.md",
+        "hard/raw/sebastian-raschka/noteworthy-ai-research-papers-of-2024-part-one.md",
+        "hard/raw/sebastian-raschka/noteworthy-ai-research-papers-of-2024-part-two.md",
+        "hard/raw/sebastian-raschka/the-state-of-llms-2025-progress-problems-and-predictions.md"
+      ],
+      "related_concepts": [
+        "llm-architecture-evolution",
+        "llm-evaluation-benchmarks",
+        "open-weight-llm-ecosystem"
+      ],
+      "tags": [
+        "llms",
+        "ml-research",
+        "survey",
+        "research-papers"
+      ]
+    },
+    {
+      "concept_slug": "llm-implementation-from-scratch",
+      "concept_name": "Implementing LLMs from Scratch",
+      "description": "Hands-on tutorials for building LLM components from scratch \u2014 KV cache, attention variants, tokenization, and full model implementations in code.",
+      "source_articles": [
+        "hard/raw/sebastian-raschka/coding-llms-from-the-ground-up-a-complete-course.md",
+        "hard/raw/sebastian-raschka/understanding-and-coding-the-kv-cache-in-llms-from-scratch.md",
+        "hard/raw/sebastian-raschka/understanding-and-implementing-qwen3-from-scratch.md"
+      ],
+      "related_concepts": [
+        "transformer-attention-mechanisms",
+        "kv-cache-inference-efficiency",
+        "llm-architecture-evolution"
+      ],
+      "tags": [
+        "llms",
+        "ml-research",
+        "tutorial",
+        "deep-learning",
+        "implementation"
+      ]
+    }
+  ],
+  "scanned_date": "2026-04-05"
+}

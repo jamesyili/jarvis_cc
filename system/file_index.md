@@ -50,8 +50,7 @@ Last updated: 2026-04-02
 |------|-------------|-------------|
 | `session-log.md` | Rolling session log for cross-session continuity | 2026-04-01 |
 | `lennys_podcast_pipeline.md` | Lenny's podcast extraction pipeline: purpose, status, next steps, file locations | 2026-04-05 |
-| `leo_backlog.md` | Leo improvement ideas: skills to build, system improvements, automation | 2026-03-29 |
-| `backlog.md` | General thinking backlog: articles, ideas to explore | 2026-04-02 |
+| `karen_observations.md` | Karen's longitudinal pattern tracking | 2026-04-05 |
 
 ## sideprojects/
 

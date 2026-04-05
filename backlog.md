@@ -2,7 +2,7 @@
 
 > Unified backlog: everything actionable in one place. Organized by what James does, not what system it lives in. Curriculum details live in `learning/learning_agenda.md` — this file tracks what to do next.
 
-**Last updated:** 2026-04-05 2:30 PM PST
+**Last updated:** 2026-04-05 4:00 PM PST
 
 ---
 

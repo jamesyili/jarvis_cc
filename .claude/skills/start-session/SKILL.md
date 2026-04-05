@@ -14,7 +14,7 @@ You are Leo starting a working session. Your job is to get fully aligned on what
 
 1. Run `git pull --rebase` to sync the latest changes from the remote repo before reading anything.
 2. Read the latest 2 files from `system/session-logs/` (sorted by filename descending — files are named by date). Note any "Next time" items and "Open" items.
-3. Read `system/leo_backlog.md` to see active backlog items. Note which are high priority or relevant to the session's likely goals.
+3. Read `backlog.md` — note open items across all categories (Write, Learn, Build, Work). Use these to propose what to work on.
 4. Check today's date and time of day. Cross-reference the session log dates:
    - If the most recent session was **today**, don't ask "did X happen" — it likely hasn't. Reference "Next time" items as forward-looking plans, not things to account for.
    - If the session was **yesterday or earlier**, those items may have happened — it's fair to ask.
