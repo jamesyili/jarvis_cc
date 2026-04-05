@@ -25,10 +25,22 @@ from datetime import datetime, date
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
-LEARNING_DIR = BASE_DIR / "learning"
-ARTICLES_DIR = LEARNING_DIR / "articles"
-DIGEST_DIR = LEARNING_DIR / "digest"
-MANIFEST_FILE = LEARNING_DIR / ".ingested_manifest.json"
+KB_DIR = BASE_DIR / "kb"
+MANIFEST_FILE = KB_DIR / ".ingested_manifest.json"
+
+# Source slug → domain mapping
+HARD_SLUGS = {
+    "aman-ai", "chip-huyen", "eugene-yan", "lilian-weng", "karpathy",
+    "cameron-wolfe", "sebastian-raschka", "nathan-lambert", "simon-willison", "jay-alammar",
+    "louis-wang",
+}
+SOFT_SLUGS = {"wes-kao", "jefferson-fisher", "ethan-evans", "lennys-podcast"}
+
+
+def get_articles_dir(source_slug):
+    """Route source to correct kb directory."""
+    domain = "hard" if source_slug in HARD_SLUGS else "soft"
+    return KB_DIR / domain / "raw" / source_slug
 
 
 # ---------------------------------------------------------------------------
@@ -49,6 +61,7 @@ RSS_SOURCES = [
     ("wes-kao", "https://newsletter.weskao.com/feed", ["managing-up", "exec-comms", "leadership"]),
     ("jefferson-fisher", "https://jeffersonfisher.substack.com/feed", ["communication", "soft-skills"]),
     ("ethan-evans", "https://levelupwithethanevans.substack.com/feed", ["leadership", "career", "managing-up"]),
+    ("louis-wang", "https://louiswang524.github.io/rss.xml", ["llms", "recsys", "ai-agents", "ml-systems"]),
 ]
 
 SUBSTACK_BACKFILL_SOURCES = [
@@ -131,7 +144,7 @@ def save_manifest(manifest):
 
 def create_article_md(title, source_slug, url, content, tags=None):
     """Create a markdown article file. Returns (filepath, was_created)."""
-    source_dir = ARTICLES_DIR / source_slug
+    source_dir = get_articles_dir(source_slug)
     source_dir.mkdir(parents=True, exist_ok=True)
 
     slug = slugify(title)
@@ -521,13 +534,20 @@ def backfill_lenny():
 
         body = "\n".join(lines[body_start:]).strip() if frontmatter_done else content
 
-        filepath, was_created = create_article_md(
-            title=title,
-            source_slug="lennys-podcast",
-            url=raw_url,
-            content=body,
-            tags=tags,
-        )
+        # Lenny transcripts go to do_not_index_sources/ (long-form archive, not compiled)
+        source_dir = KB_DIR / "soft" / "raw" / "do_not_index_sources" / "lennys-podcast"
+        source_dir.mkdir(parents=True, exist_ok=True)
+        slug = slugify(title)
+        if not slug:
+            path_part = path.split("/")[1] if "/" in path else "untitled"
+            slug = slugify(path_part) or "untitled"
+        filepath = source_dir / f"{slug}.md"
+        was_created = False
+        if not filepath.exists():
+            tags_str = ", ".join(tags) if tags else "untagged"
+            md = f"# {title}\n\n**Source:** {raw_url}\n**Ingested:** {date.today().isoformat()}\n**Tags:** {tags_str}\n\n---\n\n{body}\n"
+            filepath.write_text(md, encoding='utf-8')
+            was_created = True
 
         if was_created:
             created_articles.append((title, filepath))
@@ -551,9 +571,10 @@ def backfill_lenny():
 
 def create_digest(articles_by_source):
     """Create a daily digest file linking to new articles."""
-    DIGEST_DIR.mkdir(parents=True, exist_ok=True)
+    digest_dir = KB_DIR / ".digests"
+    digest_dir.mkdir(parents=True, exist_ok=True)
     today = date.today().isoformat()
-    digest_path = DIGEST_DIR / f"{today}.md"
+    digest_path = digest_dir / f"{today}.md"
 
     total = sum(len(arts) for arts in articles_by_source.values())
 
@@ -569,7 +590,7 @@ def create_digest(articles_by_source):
         if articles:
             lines.append(f"\n## {source_slug}\n")
             for title, filepath in articles:
-                rel_path = os.path.relpath(filepath, DIGEST_DIR)
+                rel_path = os.path.relpath(filepath, digest_dir)
                 lines.append(f"- [{title}]({rel_path})")
 
     digest_path.write_text('\n'.join(lines) + '\n', encoding='utf-8')
@@ -589,19 +610,23 @@ def show_status():
     for source, ts in sorted(manifest.get("last_synced", {}).items()):
         print(f"  {source}: {ts}")
 
-    print(f"\nArticle directories:")
-    if ARTICLES_DIR.exists():
-        for d in sorted(ARTICLES_DIR.iterdir()):
-            if d.is_dir():
-                count = len(list(d.glob("*.md")))
-                print(f"  {d.name}: {count} articles")
-
-    print(f"\nDigests:")
-    if DIGEST_DIR.exists():
-        digests = sorted(DIGEST_DIR.glob("*.md"))
-        print(f"  {len(digests)} digest files")
-        if digests:
-            print(f"  Latest: {digests[-1].name}")
+    print(f"\nKB directories:")
+    for domain in ("hard", "soft"):
+        raw_dir = KB_DIR / domain / "raw"
+        if raw_dir.exists():
+            print(f"\n  {domain}/raw:")
+            for d in sorted(raw_dir.iterdir()):
+                if d.is_dir() and d.name != "do_not_index_sources":
+                    count = len(list(d.glob("*.md")))
+                    if count > 0:
+                        print(f"    {d.name}: {count} articles")
+            sources_dir = raw_dir / "do_not_index_sources"
+            if sources_dir.exists():
+                for d in sorted(sources_dir.iterdir()):
+                    if d.is_dir():
+                        count = len(list(d.glob("*")))
+                        if count > 0:
+                            print(f"    do_not_index_sources/{d.name}: {count} files")
 
 
 # ---------------------------------------------------------------------------
@@ -615,9 +640,8 @@ def main():
 
     command = sys.argv[1]
 
-    # Ensure directories exist
-    ARTICLES_DIR.mkdir(parents=True, exist_ok=True)
-    DIGEST_DIR.mkdir(parents=True, exist_ok=True)
+    # Ensure KB directories exist
+    KB_DIR.mkdir(parents=True, exist_ok=True)
 
     if command == "backfill-aman":
         ingest_aman(check_only=False)

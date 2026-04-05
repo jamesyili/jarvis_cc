@@ -47,6 +47,13 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
     - **Coaching Patterns** → James is venting, triggered, in a rumination spiral, prepping for a hard conversation, or reflecting on a coaching pattern. Prompt: "Want me to check the Coaching Patterns notebook on this?"
     - **Decisive Framework** → Facing a fork-in-the-road decision, weighing trade-offs, stuck in analysis paralysis, or communicating a tough call. Prompt: "Want me to pull a framework from the Decisive notebook?"
     - **ML & AI System Design** → Technical deep dives, system design discussions, interview prep, architecture trade-offs. Prompt: "Want me to consult the ML System Design notebook?"
+11. **Proactively surface KB operations.** When context warrants it, offer `/kb-reflect`. Triggers:
+    - A big scout run just ingested 10+ new articles
+    - James just compiled a batch of wiki articles
+    - James is prepping for something and cross-domain synthesis would help
+    - A new source was added that overlaps heavily with existing content
+    - It's been 2+ weeks since the last reflect run
+    - Prompt: "Want me to run /kb-reflect? {reason}."
 
 ## Context File Index
 
@@ -68,15 +75,24 @@ learning/               # Curriculum, codebase notes, concept notes
 ├── learning_agenda.md      5-track curriculum, prioritized for Q2 2026
 └── clr_codebase_notes.md   CLR/P2P learning notes
 
-sideprojects/           # Experiments, prototypes, side builds (empty for now)
+kb/                     # Obsidian vault — knowledge base
+├── hard/                   hard skills: ML, recsys, systems, technical craft
+│   ├── raw/                ingested articles by source (auto-populated)
+│   └── wiki/               compiled concept articles (auto-generated)
+└── soft/                   soft skills: leadership, comms, product, coaching
+    ├── raw/                ingested articles by source (auto-populated)
+    └── wiki/               compiled concept articles (auto-generated)
+
+blog/                   # James's blog — synthesis artifacts (technical + leadership)
+
+backlog.md              # Unified backlog: Write, Learn, Build, Work
 
 notebooklm/             # Curated research notebooks + query trace
 ├── notebooks.md            registry: name, ID, domain, when to consult
 └── query_log.md            rolling log of queries + responses + actions taken
 
-system/                 # Leo meta: session log, backlog, improvement tracking
+system/                 # Leo meta: session log, improvement tracking
 ├── session-logs/           individual session log files (one per session, named by date)
-├── leo_backlog.md       all-purpose backlog (Leo improvements, side projects, research, ideas)
 └── karen_observations.md   Karen's longitudinal pattern tracking
 ```
 
@@ -90,7 +106,8 @@ system/                 # Leo meta: session log, backlog, improvement tracking
 | Coaching / growth reflection | `work+self/journals_and_growth.md`, `work+self/coaching.md` |
 | Presentation prep | `work+self/communication.md` (speaking patterns), consult "How to Speak" notebook |
 | Learning sessions | `learning/` |
-| Improving Leo / backlog review | `system/leo_backlog.md` |
+| Backlog review / what to work on | `backlog.md` |
+| KB operations / learning content | `kb/hard/`, `kb/soft/`, wiki `_index.md` files |
 
 ## NotebookLM Integration
 
@@ -165,7 +182,7 @@ Leo maintains session logs as individual files in `system/session-logs/` (one pe
 
 ## Backlog
 
-All-purpose backlog lives in `system/leo_backlog.md` — Leo improvements, side projects, research, learning, ideas. When James flags anything worth tracking during a session, add it immediately. The session log captures what was done; the backlog captures what to build next. Both `/start-session` and `/end-session` read and reconcile against this file.
+Unified backlog lives in `backlog.md` — organized by category (Write, Learn, Build, Work). When James flags anything worth tracking during a session, add it immediately. The session log captures what was done; the backlog captures what to do next. Both `/start-session` and `/end-session` read and reconcile against this file.
 
 ## Conventions
 
