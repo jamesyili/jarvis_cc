@@ -13673,3 +13673,376 @@ Gergely Orosz (01:04:07):
 And I guess one last advice is, do some side projects. All of this starts as a side project. At work, no-one's really going to appreciate that you're doing a newsletter or this or that. Try stuff on the side, assuming that you have time. Or if you don't have time, try to make time. Because I feel a lot of what we're doing is pretty entrepreneurial, and the only way you're going to get these muscles, if you start some small things.
 
 ---
+
+## [delegation-frameworks] Wes Kao — Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)
+*Description: Structured frameworks for effective delegation — ensuring comprehension, excitement, de-risking, alignment, and tight feedback loops so delegated work lands well.*
+
+**CEDAF: five-part framework for delegating well**
+
+Lenny Rachitsky (01:09:19): This resonates with Toby Lutke when he is doing the podcast, talked about how... He had this quote that I love that just "No human in history has come anywhere near their potential and everyone is way, way, way better than they think are," and these are really cool tactics and really effective ways to actually get closer to your potential. Okay. Two more things I want to talk about real quick. One is your advice on delegating, but also continuing to have high standards. This is something I spent a lot of time on because a lot of people don't delegate because they're afraid it's not going to be as great. I just want this to be really good. I don't trust that it's going to go as well. If I did it my way, it'd be great. So just advice on how to delegate effectively while maintaining high standards.
+
+Wes Kao (01:10:04): Yeah. I have a framework called CEDAF. C-E-D-A-F.
+
+Lenny Rachitsky (01:10:08): Mm-hmm. I love all these acronyms.
+
+Wes Kao (01:10:09): It's kind of like Cedar, but with an F at the end. I need acronyms for myself. All of these are really reminders for myself because I need a short way to remind myself. So CEDAF stands for the C is comprehension. So have I given this person that I'm delegating to everything that they need to understand what it is that I want them to do. That includes more simple things like logins to all the right software tools that they need to look up, whatever you need to look up. And understanding what the end result should look like, right? So that's all under C for comprehension. E is excitement. Am I explaining this in a way that is making this as exciting as it could be? There are a lot of tasks that aren't inherently that exciting, but by explaining the why behind we're doing this or why it's important to the project we're working on, that makes people more likely to understand and be excited about how this fits into everything.
+
+So E is for excitement. D is for de-risk. Am I de-risking any obvious risks from delegating this? So usually when I ask clients this, they immediately think of something. They're like, "Oh yeah, I wouldn't want my direct report to spend a ton of time going in the wrong direction, filling out a hundred rows of the spreadsheet if actually it took longer than we expected." Okay, great. If that's a risk, then maybe you have them do 10 rows, see how long it takes, see if we need all the information that they're actually gathering, and then regroup, right? So what's an obvious risk? Another might be I can see this person misunderstanding and thinking I'm looking for this where I'm really looking for that. Okay, perfect. Just tell them, "When I explain this, you might think I mean this, but really I don't want that. I actually want this," right? So just vocalize it. The A is for align. So am I giving the other person a chance to speak up and make sure we are actually aligned, that they're picking up what I'm putting down? Because you might be explaining a bunch of stuff, but how much are they actually absorbing? You won't ever know if you wrap up your little spiel and then say, "Okay, go off. Come back to me when you're done." So give people a chance to ask questions to see what parts are resonating, what parts they might be a little bit confused on.
+
+And then F is feedback. How can you have the shortest feedback loop possible? I am a huge fan of shorting the feedback loop as much as possible and then shortening it again. So even within that initial conversation where I'm delegating something, instead of waiting a week, what if we waited a day and checked in on the initial direction that person was going? And let's do it even more. What if after I finished explaining, at the end of that conversation, we brainstormed a couple things that, that person wants to do? So within this same conversation, I'm delegating, I'm already getting a sense of, where do you want to go with this? Once you start, do you see any bottlenecks?
+
+And so just really keeping that feedback loop super tight. I found that when I run through the CDAP acronym, there's usually one letter that I could amp up a little bit more like, oh, I didn't really put much thought into making this exciting for the person. How can I connect this to their career goals or to the company's priorities this quarter or to something else? So it's a nice mental checklist.
+
+---
+
+## [feedback-giving] Wes Kao — Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)
+*Description: How to give feedback that actually changes behavior — trimming the self-expression impulse and focusing only on what will motivate the other person to act differently.*
+
+**Strategy not self-expression: feedback for behavior change**
+
+Lenny Rachitsky (01:04:32): If you're not having success with this, if you're hearing this and be like, but it never worked, my manager doesn't listen to me, listen to the rest of this podcast we just did, which is basically advice on how to effectively convince someone of a thing. It's like, tell them why this is a problem, be really concise about it, sign post words, all these things. That's exactly what this whole conversation's been about. Okay. Let's see. We have a couple more really cool tactics that people have suggested we talk about. One is how to give feedback well, how to do better, how to be more effective at giving feedback. What's your advice there?
+
+Wes Kao (01:05:05): I have a framework called strategy, not self-expression. And so the idea here is that most of the time, by the time we are giving feedback to someone, we have been frustrated for a while. I used to be very conflict diverse, so I would wait and try to convince myself that I wasn't bothered by something until I really couldn't hold it in anymore. Then I would schedule a one-on-one with a coworker to tell them the feedback and it would inevitably turn into a venting session where I was in the name of sharing the impact of what they did would share all my frustrations and all the ways that they have basically harmed me and made my life difficult. And this would be very counterproductive because the person would either feel like and feel really demoralized or they'd get really defensive and they'd want to argue with me about how what they did actually was not that bad or it was partially my fault too or whatever.
+
+And so I realized that a better way of giving feedback is thinking about motivating the person's behavior change. The goal is behavior change. So if that's the goal, trim everything else that you were about to say that does not actually contribute to that goal and only keep the part that will make the person want to change, help them understand the benefit to them as well as to the people around them. And so usually for me, that's trimming 90% of the initial stuff that I want to say and really keeping only that 10%. And that's made a really big difference. Whenever I am giving constructive feedback of any kind, I always keep that in mind. And when I don't do it, I almost always regret it.
+
+Lenny Rachitsky (01:06:46): Someone close to me in my life is working on the skill, which is there's just, "I want people to know how they messed up. Justice. I need this to be fair." And what I always recommend is just think about what you want to get out of this conversation, what do you want from them? And then, okay, what's the best way to get that? Versus just making sure they hear you and making sure they understand how screwed up this was. And that's basically what you're saying is focus on the outcome you want to achieve, not something that's useful, something that will make you just feel better.
+
+---
+
+## [calibrated-confidence] Wes Kao — Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)
+*Description: Speaking with accurately calibrated conviction — neither overstating certainty as fact nor undermining strong recommendations, so that your credibility and your argument hold up.*
+
+**Speak accurately: match your words to your actual conviction level**
+
+Lenny Rachitsky (00:42:17): Yeah, which everyone can do. There's no magic here, it's just spend a little more time and use some of these tactics that we're talking about. Speaking of that, let me talk about another tactic. Apparently you have some really good advice on finding the right level of confidence in what you're saying. There's always this question of, "I come to this leader. How confident should I be about, 'This is the answer,' versus, 'Here's a bunch of ideas'?" What do you think? What's your advice there?
+
+Wes Kao (00:42:41): I find that people tend to naturally be on the spectrum a little bit too confident as a baseline or not confident enough. So people who are too confident might state hypotheses as if they are fact. So that really bothers me. That's another one of my pet peeves, where if you say, "This is X," or, "This will X," that is different than saying, "This could X," or, "This might X," or, "This will increase the likelihood of X."
+
+So I'm a big proponent of speaking accurately. You can avoid a lot of problems if you speak accurately about your level of conviction and about the actual amount of evidence that you have for something. It's okay for something to be an initial hunch. Say, "It's an initial hunch." Don't act like this is something that you are super sure about. You've proven out that this is absolutely this way because the rest of your team is listening to you at face value. And y'all might spend real headcount and dollars pursuing something that you have advocated for in a way where you overreached with your level of confidence.
+
+So, that's for people who are overconfident. It's equally a problem if you're under-confident. So I have some clients who their CEO asked them to share some recommendations with another team because they've run something before and so they share all this amazing information and at the end they're like, "Oh, but you can ignore everything I just said. Obviously, make your own decision. Do what you think is best. And if you want to just ignore everything, that's totally cool too." And it's like you just didn't have to say that. You could say, "Make your own decision, take all this into account," but you don't have to diminish to that degree.
+
+And so again, speaking accurately, if you have really strong reasons to recommend something to the cross-functional team, it's almost irresponsible to act like you are not really sure and it's just this random idea, "Hey, try it if you want to." We might lose a lot of money and time if we don't take this idea, right? So again, speaking accurately is so, so important.
+
+Lenny Rachitsky (00:44:56): Is a simple way to think about then the right balance is have a point of view, have a recommendation, present accurate facts, and be clear when you are not? "It's not actually 100% true, but here's a hunch I have, or here's a theory we have."
+
+Wes Kao (00:45:11): Yeah, I think sharing a point of view, sharing a recommendation, and then backing it up with evidence, with logic, with first principles, with examples, with data, if you have it. Not every situation you're going to have data for, especially if you're building something new. So this is where first principles comes in. Even explaining how you got to where you got to and why you think this is going to work, that all gives your team, your manager, something to push back on, to poke holes on or to align on and say, "Yeah, I agree here, but I disagree on this part."
+
+So you can talk about ideas with a lot more specificity when you share your thought process. And you can frame it all kicking off saying, "My initial thinking is," or, "Based on what we know, my hunch is, blank." So speaking accurately and then still bringing up those facts so that we can all make as informed of a decision as we can make given what we know.
+
+---
+
+## [game-design-product] Rahul Vohra — Superhuman's secret to success | Rahul Vohra (CEO and founder)
+*Description: Applying game design principles (not gamification) to build intrinsically motivating products that people love and share.*
+
+**Game design vs gamification: intrinsic motivation in software**
+
+Lenny Rachitsky (00:59:33): Okay, next topic that I'm excited to get your take on, is game design versus gamification. This is one of the more unique ways you think about designing product. When people hear you talk about this, they think it's like, "Oh, gamification making things like games. Oh, it's Zynga, Farmville, I don't want to do that." But you actually have a really different perspective on why you need to think about game design as you design products. Talk about your insights there.
+
+Rahul Vohra (00:59:58): Well, I strongly believe that we should make business software like we make games, because when we make products like we make games, people find them fun. They tell their friends, they fall in love with them. It's another way actually of backing into where we open this conversation, which is you're making a brand, you are giving reason for word of mouth. It's actually an altogether different kind of product development. So how do we do this? Well, as you've said, it's not gamification, that doesn't work. Game design works, but game design is not gamification. It's not, for example, simply taking your product and adding points, levels, trophies or badges. To understand why gamification does not work, we actually have to start with human motivation. There's a very interesting study from Stanford that demonstrates the difference perfectly. In the 1970s, these Stanford researchers recruited children who were aged three to four years old, and all of these kids were generally pre-interested in drawing. Some kids were told they would get a reward, a certificate with a gold seal and a ribbon. And some kids were not told about any reward and they did not even expect one or didn't know of one. Now each child was then invited into a separate room to draw for six minutes and afterwards they would either get the reward or not. Over the next few days, the children were observed to see how much they would continue to draw by themselves. So the children with no reward, they spent 17% of their time drawing, but the children who expected a reward, sadly they only spent 8% of their time drawing. The very presence of a reward halved their motivation. So what's happening? What's happening here, is researchers differentiate intrinsic motivation and extrinsic motivation. With intrinsic motivation we do things because they are inherently interesting and satisfying, and with extrinsic motivation, we do things to earn rewards and to achieve external goals. That's the problem with rewards, is they just massively undermine intrinsic motivation. That's why gamification doesn't work. And when gamification does work, it's because the underlying experience was already designed like a game.
+
+Lenny Rachitsky (01:02:19): What makes something like a game? I know Superhuman is really good at this, of just your inbox zero quest that you're on. Just to make that a little more real, what is game design? What does that mean to you? What makes it feel like a game?
+
+Rahul Vohra (01:02:32): Well, maybe folks don't know this, but before I was a founder, you can probably tell, I was actually professionally a game designer. And as it turns out, there is no unifying theory of game design. To create games, what we need to do is draw upon the arts and the science of psychology, mathematics, storytelling, interaction design. And at Superhuman we've identified five key areas that we really care about, goals, emotions, toys, controls and flow. And across these we've identified many principles of game design. One example principle would be, make fun toys and then combine those into games. A question I like to ask is, are toys the same as games? They do seem different. For example, we play with toys, but we play games. A ball is a toy, but football is a game. As it turns out, the best games are constructed out of toys. Why? Because then they are fun on both levels, the toy and the game itself. So for example, in Superhuman, one of our favorite toys is the time auto-completer. If you use Superhuman, this is the thing that appears when you hit H, when you snooze or set reminders on emails. You can type whatever you want, it can be gibberish and it does its best to understand you. For example, if you type in 2D, that becomes two days, 3H is three hours, one MO is one month. The time auto-completer is fun because it indulges your playful exploration. In onboardings, it wasn't long before I saw people asking, "What can it do? Where does it break? How does it work? What happens if I keep on typing in a series of tens? Well, it turns out that's October the 10th at 10:10 PM. Well, how about a series of twos? Well, that's February the second, 2022 at 2:00 PM." Then you start trying more complex inputs like in a fortnight and a day, and that works, which is a pleasant surprise. And it's not long before you find more pleasant surprises like time zone math happens without you thinking about it. You can just type in 8:00 AM in Tokyo and it turns out that's 8:00 PM Eastern Time and you no longer have to do the time zone math. Then most people were really delighted to find out that if you really want, you can snooze emails until never, i.e. you can literally type in never, and the email will never come back. It had like a little shrug emoji at the same time. Is this toy going to win awards? Nope. But is it fun actually, surprisingly yes. So what I would encourage people to do is, think about the features of their product. Do those features indulge, playful, exploration? Are they fun even without a goal? And do they elicit moments of pleasant surprise? If so, you have a toy and you can combine that with other toys and actually start to build a game.
+
+---
+
+## [attention-to-detail-craft] Rahul Vohra — Superhuman's secret to success | Rahul Vohra (CEO and founder)
+*Description: Obsessive craft and attention to detail — especially pre-launch — as a strategic product differentiator and brand foundation.*
+
+**Custom typography and craft before 15 users as product philosophy**
+
+Lenny Rachitsky (00:33:11): I love this story. I love all these stories you're sharing I've never heard before. And by the way, it is awesome. We're talking about him coming on the podcast, maybe breaking our VC rule. So specifically the story he shared with me that is maybe an example of you and your attention to detail is, he said that you created your own font because existing fonts weren't good enough. Is that true?
+
+Rahul Vohra (00:33:31): Kind of. Okay. The font that we use today is a modified version of Adelle Sans. The story there is, I looked at all of the major font families, and honestly none of them was what I would call truly excellent. That may sound like an odd thing to say. The first thing we did was, we took our UI and we laid it out in about 15 different styles using examples of the major font families. We actually printed these out and we left them on a desk in the middle of our office. Sometimes with design, you want to tune in to your immediate most visceral response, but sometimes you want to truly let a design marinate. And this was the latter. So we let these designs marinate, we let these font choices percolate. Like I said, none of them was truly excellent. Number one, I was looking for a font that was in and of itself gorgeous. Number two, I was looking for a font that could also convey a message of any kind, without overpowering the sentiment of that message. For example, does the font work when this is inviting you to a party? Many fonts, including almost all serif fonts, are actually too somber or too sober for that. Or to pick another extreme, does the font work if it is informing you of somebody's passing, many fonts are just too jaunty for that. You wouldn't want that kind of message in Comic Sans, for example. And number three, I was optimizing for a font that made reading speed and comprehension really fast. And number four, I was looking for a font that made email addresses themselves look great. So I discarded all the 15 because they weren't good enough, and after searching high and low, I came across a font called Adelle Sans, which is designed by a foundry called Type Together. And if you go through my list, number one, Adelle Sans is gorgeous. I think each character is a work of art. It's beautifully formed. Number two, Adelle Sans is, I would say upbeat, it's optimistic, yet it's serious enough to convey any kind of message. It has just the right amount of personality, yet not too much personality. Number three, Adelle Sans is also unusually narrow, and that actually fits email particularly well. One of my pet peeves with Gmail, which by default uses Ariel, is that the lines are as wide as your window. So if you're in a wide screen, then the lines get really arbitrarily long. The problem with really wide and really long lines, is that they decrease reading speed. Because by the time you've reached the end of one line, your eyes have lost track of the start of the next line. So at Superhuman we fix the line length or the typographical measure to the optimal length for reading speed, which depending on the font is around 90 to 120 characters.
+
+Lenny Rachitsky (00:37:55): And this was pre-launch or this was after you'd already launched?
+
+Rahul Vohra (00:37:58): We'd probably had about 10, 15 users at the time.
+
+Lenny Rachitsky (00:38:03): So I think that's pretty contrarian unique to be this focused on the font and the typeface before you even launched. This was like, "Is this even going to be a thing? Will anyone even care?" And I think this says a lot about the way you think about product.
+
+Rahul Vohra (00:38:17): Oh yeah, that thought never crossed my mind. I think we'll probably come to it later, but the idea that, is this never going to be a thing? I think that's a dangerous thought. We can't start thinking that way, because at what point do you stop second-guessing yourself?
+
+---
+
+## [positioning-strategy] Rahul Vohra — Superhuman's secret to success | Rahul Vohra (CEO and founder)
+*Description: Defining a singular, memorable brand position before pricing or product decisions — finding the unique, available claim that reinforces strategy.*
+
+**Positioning before pricing: cocktail party test and brand claim**
+
+Lenny Rachitsky (00:01:05:28): Let's talk about pricing strategy and your approach to pricing. Another very contrarian approach that you guys took where you charge $30 a month for email that was free, that people don't need to pay for anywhere. And it's worked and now a lot of companies are thinking of it this way. You've even raised your prices recently. What have you learned about pricing strategy that you think might be helpful to folks?
+
+Rahul Vohra (00:01:05:58): I always say the same thing when it comes to pricing, which is before you figure out pricing, you must first figure out positioning. Superhuman is the best email tool on the market. We fortunately have the metrics to show this.
+
+Lenny Rachitsky (00:43:03): This reminds me of something else that when your early investors shared with me, Bill Trenchard from First-Round Capital. He talked about how speed was the thing that you just dialed up as a lever to 11. That's where you just, "We will make this the focus. Speed, speed, speed." I think maybe the lesson there is, you pick the thing that you think will most differentiate you, make you significantly better than what's out there. So just thoughts on how you decided speed was the thing you were going to obsess with, and advice for folks that are trying to decide where to dial up things to 11?
+
+Rahul Vohra (00:43:37): Bill is right and I agree with him, you have to pick something. Knowing what to pick is the trick. In the early days of Superhuman, I read a book on positioning that really influenced my thinking. It is, I believe called Positioning the Battle for Your Mind. It struck me how the most well-known brands have stood for one clear thing, they have a clear position. So in order for Superhuman to be memorable, I believed that we needed to occupy a clear position that was unique and which was available and which reinforced our product strategy. In the first year of Superhuman, therefore, I interviewed hundreds of potential customers about their experience with Gmail and with Outlook. And predictably, almost everybody says that email takes way too much time. But interestingly, many people also said that Gmail and Outlook were way too slow. That was how I first thought that speed could be an interesting position for us. I then asked myself, "Is the position of speed unique and is it available?" And the answer was overwhelmingly yes, because almost no software was being sold or has ever been sold on the value proposition of speed. The last time I could remember anyone trying to do this, was when Google launched Chrome, and obviously that went incredibly well for them. You may remember they had slow-motion videos where they were comparing Chrome render webpages and showing that was faster than an actual strike of lightning. No one had done it since then. I then asked, "Well, does speed reinforce our product strategy?" And again, the answer was overwhelmingly yes. I knew that our competition was not going to be startups, it was incumbents. And I also knew that incumbents generally struggle with speed, because by definition they have massive scale and usually entrenched architecture. Then finally I did what I call the cocktail party test, which is to look at the cocktail parties and to watch how people pitch your product to other people. In our case the pitches were simple. People would say, "Dude, you have to use it, it's really fucking fast." And that's it. That was the pitch. That's how I knew that speed would be a really great position for us to start with.
+
+---
+
+## [product-principles-as-shared-language] Noah Weiss — The 10 traits of great PMs, AI, and Slack's approach to product | Noah Weiss
+*Description: How to distill a founder's product intuition into explicit principles that give teams a shared creative language, reducing Goldilocks review cycles and enabling autonomous decision-making at scale.*
+
+**Principles as common language for founder-aligned teams**
+
+Lenny (00:11:56): I think this is interesting not just as a product leader working with very product-minded CEOs, but also as a first PM at a startup you're often put in this tough spot of just the founders just telling you what to do and you have to go build it versus having a lot of say in agency. I'm curious what you've learned about working and being successful in that position, which is often really hard.
+
+Noah Weiss (00:12:14): I would say to folks in general, if you're joining company and the CEO does the role that is your functional area of expertise, it's probably the area where you'll learn the most because they're hopefully world class at it. But also, one will you'll be the most frustrated at times because you're going to feel like you have less agency. You should just know that going into it.
+
+If you go to company to run by a former marketer and you're in marketing, they'll probably want to have a lot of say and influence over that. I think just going into knowing that is good. Looking back, I would say probably two main things stand out of what's really worked with both Dennis and Stewart, not just for me but I think for the teams that work with him as well.
+
+The first is, I think as much as possible, I think maybe we'll talk about this a little bit later as well, is getting to the point where you have alignment on the principles for what it means to build a great product of that company. Not just about if the intuition and tasting gut, but how do you distill that to principles that become the language of the company so that everybody else can start thinking through a similar frame or similar lens when you're designing a product.
+
+Because otherwise it can feel a little bit Goldilocks every time a team builds something, they take it to the CEO. CEO is like, "No, not quite right. Again, no, not exactly that." Then you don't have the language to actually have a more constructive review.
+
+Lenny (00:16:54): You talked about creating these principles, which is an awesome approach of just creating guardrails for the team so they think the way the founder and the head of product think. What are some examples of principles you have and had early on maybe at Foursquare or Slack?
+
+Noah Weiss (00:17:07): I mean Slack I think is where we enshrined them much more because we scaled the org so much, more that we needed principles. I think for us, they were really about unpacking just the mission, which for Slack is making people's working lives simpler, more pleasant, more productive. That's the mission of the company. The question is how does software help do that? That's what the principles or their answer.
+
+For us, we've got five, four principles. They've largely stayed the same. Some of the language has changed over the last couple of years. But at least for the last four or five years we've had these. The first is be a great host, which is all about that level of craft, the relentlessly saving people's steps. If you're, let's say, a host at Airbnb, it's like putting clean towels on the bed. No one has to wonder "Are these for me?" That type of foresight.
+
+There's a famous user design book called Don't Make Me Think, which we sold the title of for our next principle. That's really just about as people building the software, you know how it works so well. You care about all the nuances and intricacies and you really want your users to love it as much as you do. But often actually, that owner's delusion that someone else will care as much about the software that you built as you do, prevents you from actually making something that's simple, comprehensible, understandable.
+
+---
+
+## [customer-research-rituals] Noah Weiss — The 10 traits of great PMs, AI, and Slack's approach to product | Noah Weiss
+*Description: Concrete rituals and processes for keeping product teams continuously grounded in real customer feedback — complaint storms, usability session Slack threads, customer love sprints, and pilot programs — rather than building in isolation.*
+
+**Complaint storms and customer love sprints as team rituals**
+
+Lenny (00:27:00): I heard that you have a process internally called Complaint-Storms. I'd love to understand what that is.
+
+Noah Weiss (00:27:05): It something that started. I want to say back in end of 2019, maybe early 2020. The idea a little bit was how do we help as a team look at the software that we build with fresh eyes, because we've been set at Slack for a long time. Slack maybe more than almost any other company maybe like Figma is probably similar. I was listening to the podcast just earlier today where if you work on Figma, you work on Slack.
+
+You also live in Slack and you live in Figma all day so you can become more of a power user than anyone else on earth. What we were realizing, especially for people trying to build Slack for the next million customers, the people who have never used Slack before, it was becoming increasingly hard to have empathy for what their usage of Slack would look like. How would they look at it in a more critical way? How would they care less than we cared?
+
+What we started doing with these complaints storms and idea was really simple, which is we'd get a team together often Stewart myself would also join and we'd actually start off with other products first in adjacent spaces and we'd say, "Okay. As a group we're going to go through the customer journey from the moment you land on the website through, let's say it's a workplace product, getting your first account going, getting the first couple of users on board, getting to the point of value.
+
+We're going to do it on one screen. Someone's going to project and then people are going to fill in every issue, everything that's confusing, every pain point, not bones, but ways in which if you didn't care about the software, you don't work on it, what would actually confuse you? What would stop you in your tracks?
+
+From that you went generating a bunch of amazing inspiration by looking at someone else's product in a really critical way for things you might want to try in your own product. Once you get to that, then it becomes easier to actually do with your own software, but it is a little painful obviously. Same with watching usability tests to look at your own baby in a way that is, "Okay. I'm trying to find all the words. I'm trying to find all the problems."
+
+But that's one up being a pretty great source. Whenever a team I think either gets stuck or feels like they reach a dead end in a direction is doing complaint-storms about the product area that they're in or using adjacent products just to get inspiration. Then I think it unlocks a lot more creative views than the problem space.
+
+Lenny (00:30:01): I'm imagining some PMs might be hearing this and wonder, "Okay. Great. Now the founders and the execs have all these things that they want us to fix. I have goals to hit. I got a roadmap. How do you think about prioritizing things that come up in these sorts of sessions for the team and how do they mix and match versus all the other stuff that you want to do? Or is it just like they don't actually have a huge roadmap and this is a way to inform the roadmap?
+
+Noah Weiss (00:30:23): No. I mean, more broadly, I think the way that we think about, or us to think about our roadmap for any feature team at Slack is that it's a portfolio and it's meant to be a portfolio that's diversified a couple different ways. I think one is you want to diversify things that are meant to be new capabilities versus making the thing you've already built a little bit better every day. Similar to parenting.
+
+Are there things that are meant to be risky that you aren't sure are going to work but might have a lot of upside versus things that are known bets. Then I think often you're balancing are you doing things that are meant to have impact that you're already very confident in versus things that are meant to learn about a new possibility space.
+
+I think for most teams, this stuff usually wind up tactically filling up that bucket of, "Let's make the existing product a little bit better every day for users." At Slack we have this thing we call customer Love Sprints, which is an interesting way team to figure out how to get this on their roadmap is it's hard to allocate that work throughout the quarter.
+
+What we'll wind up doing often is have a team do a two-week customer love sprint, almost like a hackathon, but with that burndown list of what we think is the lowest effort, highest impact changes that we can make to generate more love from our customers and whatever that feature areas. Then people just sprint for two weeks, design product engineering, and then you have a bunch of things that you celebrate.
+
+At the end, the goal is to ship all of them. This isn't hacks that you throw away. That's how we end up prioritizing it off in that work is actually making it this really fun total change of pace throughout the quarter to not do big feature work that may take months, but to do all these small delightful things that customers are going to love at the end. That's the other way that we figure out how to balance it in.
+
+---
+
+## [craft-and-product-taste] Noah Weiss — The 10 traits of great PMs, AI, and Slack's approach to product | Noah Weiss
+*Description: The role of subjective craft, delight, and taste in product development — how to maintain consumer-grade quality in a B2B product, operationalize polish, and develop intuition for what users will love before testing it.*
+
+**Product taste, craft DNA, and operationalizing delight at Slack**
+
+Lenny (00:32:26): Wow. I didn't know about that. That connects to ... Slack has always been a very delightful product. I remember early on the animations were so awesome, the little twirly, I don't know, pounds hashtag thing. It feels like Slack has always invested in delight. How do you operationalize that? Is it these customer Love Sprints? Is there something else that's just like we need to allocate some percentage, just make things really fun even though it's not going to move any metric?
+
+Noah Weiss (00:32:51): I would say it's a little bit good DNA of the company, honestly, which is that for co-founders trying to build a massive online role playing game for many years that was called Glitch and their background was all in building delightful, playful experiences. Glitch didn't work out. But, yeah, there's a whole long backstory. But the short version is a tool they had built internally that they then wound up spitting out a company from which became Slack.
+
+I think that DNA we're trying to build a consumer grade experience that just happens to be for work is really ingrained in the company. It's also a big part of how we hire. I would say certainly the majority of PMs designers and engineers who joined Slack had never worked at an enterprise software company before. It's not like most people had worked at Oracle or SAP, it's most people had worked at consumer companies or game companies.
+
+Noah Weiss (01:13:49): I know it's a controversial statement now to say that there is taste for product. But I do think in all the love of the frameworks and the analytics and everything else and in the field of product, I think people sometimes lose sight of, "It's a creative field." It's not art on its own. But you could get all the inspiration from art and I actually think there's a lot ... there's a book, I think it's called Creative Selection, I forget the exact name of it, about some of the early iPhone development teams at Apple and working with Steve Jobs there.
+
+I've never worked at Apple. But I actually think it's the best book I've read about the just iterating creative work of building new products and what it means to have taste, which is to say you've developed some amount of intuition for what people will likely love before you're able to test it. Anyway, I think taste plus fluency and data, that too is a combination, is a pretty powerful combo.
+
+---
+
+## [women-in-tech-ai-gap] Elena Verna — The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year
+*Description: The gender gap in AI adoption and building — why women are underrepresented in the vibe coding wave and what practitioners are doing about it.*
+
+**Women left behind in AI wave; SheBuilds as a response**
+
+Lenny Rachitsky (01:19:44):
+Awesome. Okay. Last question. I want to talk about something that you've written about that I think it's a really important topic, something that we should surface, is you wrote this post called I'm Worried About Women In Tech. Talk about what you're seeing here, what you're noticing, what you think might be going in the wrong direction.
+
+Elena Verna (01:20:00):
+Yeah. There's actually conflicting data points about how women... You're talking about women, right?
+
+Lenny Rachitsky (01:20:00):
+Yeah, women in tech.
+
+Elena Verna (01:20:06):
+Women in tech? Yeah, yeah.
+
+Lenny Rachitsky (01:20:06):
+Yeah.
+
+Elena Verna (01:20:07):
+There's conflicting data points about how women are keeping up with AI technology and wave, because there's a bunch of reports that has been done that show massive gap between women adopting AI versus men adopting AI, which points the story that men are just widening the gap of accessibility for technology. And whoever's adopting AI right now is getting paid the most, gets the most opportunities. I mean, we're seeing insane acqui-hires right now, where people are getting paid more for their talent than for the companies that they've created. And that's a really interesting trend that is occurring, and a lot of it is fueled on this wave of AI.
+
+And women are not really present there. If you can think about one million-dollar acqui-hire that has been in the news that is a woman, I can't think of one. If you look at AI companies and their CEOs, most of it is men. If you look at the company's composition in AI companies, it's mostly men. To me, this really came to the head of when I came to Lovable, and I'm like, "It's pink, it's purple brand. It's a heart. It's lovable." I'm like, "I'm sure this is where it's 50/50 men versus a woman."
+
+And although we don't collect this information, but just through third-party autofill, we saw it's like 20% at most. And I'm like, "What is happening? Not again. Why is this, again, not being adopted by a woman?"
+
+And obviously I don't know all of the answers. I think that this is early on that we can shortcut it. And by the way, I also don't want to put this as a indication that men are to blame because I think men are doing wonderful job really spearheading the horizons and showing us what's possible and leading the charge. I'm just afraid that so many women are stuck in that latent majority that is just not catching up. And my worry is that it's going to affect the hireable talent. It's going to step us back again in the composition of the workplace, of the diversity. And maybe it matters, maybe it doesn't, like whichever side that you sit on. But I think that it needs to be built for everybody in the world, and for that, it needs to be built by a representative sample of people that are behind the product as well.
+
+So I just find it fascinating that even when the barrier to building has been lowered versus you don't need computer science degree, which I appreciate there's not that many women that are getting. We're still seeing the gaping gap on the adoption between genders, which, I don't know, there's something very frustrating about that.
+
+Lenny Rachitsky (01:22:50):
+Yeah. The thing that struck with me from your post is there has been a lot of progress being made in the last decade, and now AI is just kind of turning it all back, turning it all around.
+
+Elena Verna (01:23:00):
+Hopefully not. I think that we're early on enough that we can bridge the gap. I think sometimes women just need space and ability to discover it, and that's what we're doing at Lovable. We have this initiative, SheBuilds, where we create a hackathon for women only and we give them unlimited access to Lovable for 48 hours, and they come together as a community and they build together. And there's beautiful things that start to come out of it, which I've never anticipated before. But so many women in that hackathon for us build help with their elderly parents or with their kids or with the household or for their church group or for the kids' basketball team solutions, which have hyper-local, hyper-relevant, very needed for what they need in their life and something that was never been able to build before because of how expensive software was, because it would never going to become potentially a hundred-million-dollar companies, but it also doesn't need to be anymore.
+
+So I just want to bring women to build more and vibe code more so we can have more diversity in software that is even created because I think that we all have a unique take on what problems that we can solve, and I want everybody's voices to be heard.
+
+---
+
+## [talent-strategy-ai-native] Elena Verna — The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year
+*Description: How the ideal employee profile is shifting at AI-native companies — new grads, ex-founders, and the rise of AI-native talent over traditional credentialed hires.*
+
+**New grads and ex-founders as hottest AI company talent**
+
+Elena Verna (01:25:38):
+I guess the only other thing that I will share is for AI companies when it comes to hiring. It's really interesting, also, kind of the shift in the type of personas that end up being hired that I see. For me, at least it's quite different compared to anywhere that I worked before. And that is, there's this narrative going in the market always that new hires, sorry, new grads have no jobs in the market left because all of the entry-level jobs are automated.
+
+I actually think that's quite false, because new grads, especially AI-native new grads... So it's very important for kids that are entering into the, I shouldn't say kids, young adults that are entering into the workforce that they really know AI, which there's another really big issue that our schools are not teaching AI students. So this is something else that we need to fix as a category, because otherwise we're literally setting up our young for a complete failure. But I think it's incredible to see some of those new graduates come in and what they're capable of doing.
+
+We have multiple new graduates at Lovable that are working, and I learned so much from them. And you need to obviously have the right atmosphere where people with experience, like a old guard like me, that can look at the new guard and really hear them and see them and really change the way that I operate based on how they do things. So make sure that you bring some of that fresh talent that doesn't understand any of the baggage that we came from and that can really look at the future in technology and what can unlock from a completely new lens. So highly recommend putting those into your team as little fireballs that are going to be sometimes hard to contain but can start the best initiatives for you forward.
+
+And then it's also interesting that there's a really high demand for ex-founders now, for those people that truly have a lot of agency and high autonomy. So instead of just having people that have been working in the corporate world, the failed startup founders are now hot demand for a lot of these AI companies. So these personas that we traditionally would not prioritize in companies to hire are now becoming the hottest commodity and the highest-going talent, which I think is fascinating and is the wonderful thing that is changing how the culture inside operates.
+
+Lenny Rachitsky (01:28:09):
+That is really interesting and really empowering, just this idea that if you need grad, there's hope. You're not going to be out of a job.
+
+Elena Verna (01:28:09):
+Absolutely. Absolutely.
+
+Lenny Rachitsky (01:28:16):
+And you might have an advantage. Yeah.
+
+Elena Verna (01:28:18):
+You have to lead with that. That's the thing. You have to lead with the things that you are capable of achieving, knowing what you have with AI, because that is a lot of people. Especially in traditional tech or in more traditional companies, they're looking for somebody to show them because it's really hard to figure it out on your own versus coming in and seeing and then copying.
+
+---
+
+## [community-as-growth-lever] Elena Verna — The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year
+*Description: Building and activating community as an amplifier for word of mouth, retention, and product adoption in new product categories.*
+
+**Discord community as retention, resurrection, and WOM amplifier**
+
+Lenny Rachitsky (00:49:47):
+Let me go back to summarize just real quick the growth levers... Things that help Lovable grow. One is just build something that blows your socks off, as you said. I love these phrases out here. The second is make noise in the market... This point about activation being embedded within the product team of the AI agent essentially... It feels like those are the main growth levers. Is there anything else that I missed?
+
+Elena Verna (00:50:38):
+Community. I think community is really important here because you need to bring people together as they're exploring these capabilities and as they're seeing what's possible so they can bounce off each other and they can help each other out. I would say community also amplifies that word of mouth. It amplifies all of the social posting. It amplifies retention mechanisms for you as well. The community has been a huge part of Lovable's success as well, and that's something that was started very early on.
+
+It runs on Discord, so it's nothing fancy. It's not like we build anything completely from scratch for ourselves. And it has hundreds of thousands of members and it's very lively. We have community managers that are making sure that all of the questions get answered and the right groups are being created. We have incredible ambassador program now as well of people doing it. I would say community here, again, of really making software more human is very important role. Now, obviously not everybody can build a community, but maybe at least plugging in into somebody's community is quite important as well.
+
+---
+
+## [knowledge-management-reflection] Alex Komoroske — Thinking like a gardener, slime mold, the adjacent possible: Product advice from Alex Komoroske
+*Description: Personal knowledge management systems — structured practices for capturing, processing, and synthesizing ideas over time to compound insight and productivity.*
+
+**Bits and Bobs: weekly reflection as compound insight engine**
+
+Lenny Rachitsky (00:02:02):
+I love the way your brain works. My brain immediately starts buzzing anytime I start reading some of your stuff. And one of the more interesting things that you write and do and a really interesting habit you have is you actually have this doc that you keep called Bits and Bobs that I love, and we're going to be touching on a lot of the things that you share in this doc, Bits and Bobs, and we'll link to it. First of all, can you just explain this doc, Bits and Bobs, what's it about?
+
+Alex Komoroske (00:02:27):
+Yeah. I think it's like 600 pages now. It's this one Google Doc. Every so often, almost every day, someone will accidentally add a suggestion like add a space or something because it takes so long to load that while they're waiting, they'll tap on the screen and then it'll turn into taps on adding a comment or something. And I take a lot of notes. And people, I tell people when I'm in meetings with them of like, "If you see me on my phone or typing, that means I think you said something very interesting and I'm writing it down. It's not that I'm just that I'm disengaged. I try to collect all these ideas." And then once a week, I go through, I take a few hours and I just reflect to myself and try to find patterns and unpack and find meaning and things.
+
+I have a thing called The Compendium, which is an open source tool. I use it every day. And so I have, I think let's see, I currently have 17,248 unpublished working notes. And so what I do during the week is I'm taking notes very quickly in meetings, and then every day or two, I go through and I process them and put them in as working notes in The Compendium, and this is where I correct misspellings. I add just a little bit more context so that it will make sense to me if I were to read it in a year. And also, I built a feature into it that uses embeddings to find similar cards. I find similar ideas from the past. And then what I do on Friday afternoons is I sit down and I go through all the notes I added that week and I just click and check the ones that still resonate with me, they still seem interesting in some way. And then I have a little export thing. I put it into a Google Doc, and while the kids are napping on the weekends, I just go through them and try to distill them a little bit more in a more long-term format. And then on Monday mornings, I publish them.
+
+Lenny Rachitsky (00:07:39):
+As we get into the conversation, people get to see how deeply you think about stuff. Part of the reason you're able to think so deeply about stuff is you have this practice where you take time to reflect and share and crystallize. There's so much power in just forcing yourself to write it out, I imagine versus, just not.
+
+Alex Komoroske (00:07:54):
+100%. I find that when you're busy, you're constantly just go, go, go, go. There's no time to do any deep thinking. Deep thinking takes time and space, and you got to create that space. The mundane, pointless bullshit will take every square inch you give it. So you got to make that space to sit back and reflect and luxuriate in these ideas. And when you do, you're often like, "Oh my God. Oh wow, that's one I'll keep."
+
+---
+
+## [seeing-potential-in-people] Alex Komoroske — Thinking like a gardener, slime mold, the adjacent possible: Product advice from Alex Komoroske
+*Description: The leadership practice of identifying and naming others' superpowers early — treating everyone as having seeds of greatness — to unlock outsized performance and loyalty.*
+
+**Name the superpower: see potential before people see it themselves**
+
+Alex Komoroske (00:39:00):
+Yeah, it sucks. They're just like this ugly thing that barely works or... But this is why what I try to do is I try to see the greatness, the seeds of greatness in everything. Everyone and everything around me, I look for, I try to find and see, man, what is the most compelling part of this? And let me lean into that. And so one of the things I try to do when I meet with people, when I mentor them, I try with it within the first session or two, whenever I can get a hypothesis, I say, "I think your superpower is..." And I describe to them what I think I can see them being truly exceptional at.
+
+And sometimes I get it wrong, especially if I try to do it earlier, but when people feel very seen and they feel acknowledged for that, they now are willing, they're going to stretch farther and they're going to respond to nudging feedback even better because they know that you're not trying to tell them be different. You're trying to tell them be more, and you now the nudges will feel less like a stop energy and more like someone who gets me and can help me grow even more. And you can get some amazing things out of people when you just treat them with the respect. I assume that everyone I talk to, everyone I talk to is interesting, has seeds of greatness in them, even if they don't recognize necessarily where they are.
+
+Someone described to me actually this morning in one of my little dirt clubs I run about they help facilitate about treat everybody like the Buddha. I think is I'm messing this up, but this notion of imagine everyone you talk to is the Buddha, in a Buddhist mindset, and how do you see and find those seeds of greatness and treat everyone with respect intrinsically as an end of themselves. This is one of those things that you do to be a compassionate human. It's also, I believe, a way to maximize the amount of value, direct and indirect value, that's created. So it's one of those win-win-win-win-wins where just it's the right thing to do as a person and a member of society, and it's also the thing that can create a lot of business value and create real value in the world.
+
+---
+
+## [systems-thinking-emergence] Alex Komoroske — Thinking like a gardener, slime mold, the adjacent possible: Product advice from Alex Komoroske
+*Description: Understanding organizations and products as emergent systems where dysfunctional outcomes arise from rational individual behavior — and designing with emergence rather than fighting it.*
+
+**Designing for emergence vs. top-down control**
+
+Lenny Rachitsky (00:34:47):
+Along the same lines, you also advise people to think more emergence-oriented versus top-down, kind of what you were just saying. But I think that's another really interesting way of thinking about the same idea, create opportunities for emergence, bottom-up versus top-down control. You just chat about that.
+
+Alex Komoroske (00:35:03):
+100%. I think the emergence is one of the most powerful forces if you know how to marshal it and you know how to work with it. And the only thing that's hard about it in my opinion is you're going to look like you aren't very serious. You're going to look like a weirdo. You're going to look like a cook. And one of the downsides, if you're working on something and you're doing the normal top-down approach where you make the plan, you execute the plan, even if the plan turns out to not be useful, you produce a thing and nothing interesting happens, no one can say you didn't work hard. But if you try doing this designing for emergence and something amazing happens, even once it happens, people go, "Ah, it's luck. Where was the miraculous moment, the heroic moment where you made that happen? So therefore you had nothing to do with it."
+
+And this was the biggest unlock in my career actually was when I stopped my guts. I was promoted to director at Google. I was like, "Cool, I never want to be promoted inside of a large organization ever again." And the freedom to now do the highest impact work, even if I can't make it legible to the organization, was so powerful and I was able to 10X my impact for the organization because I didn't have to worry about making it measurable specifically in a way that would show individual work effort.
+
+Also, I think acknowledging that is an important way to help navigate and still make good grounded things happen. How can you allow disconfirming evidence to show up that doesn't kill you, that helps make you stronger? And if it all has to come in one massive moment that could ruin everything, then you aren't going to hear it. And then it will build up and build up and build up and build up into a super critical state that could shatter.
+
+Because I think so much pain and misery is caused by us being not acknowledging these fundamental, inescapable things. It's almost impossible. Entropy is one of those things. Entropy emerges because there's more ways to go away from a point than towards a point. It fundamentally must be true in really any universe you can possibly imagine. And so if you're going to fight entropy, you're going to lose at a certain point. If you are aware of these things, you can find subsets of ideas that do work despite these challenges.
+
+---
+
+## [constraints-as-opportunity] Matt LeMay — The one question that saves product careers
+*Description: Reframing business constraints — regulation, B2B dynamics, quarterly targets — as guideposts that give product work its shape rather than obstacles to fight or route around.*
+
+**Business constraints as product strategy guideposts**
+
+Lenny Rachitsky (00:44:23): Okay. So I think that's really empowering. You're not saying, "You need to change the way product is built at your company. It's up to you. You're an ICPM, it's up to you. No excuses." What's a simple way to describe what you're actually saying, which I think is going to make people feel a lot better?
+
+Matt LeMay (00:44:38): What I'm actually saying is that the things you think you're fighting against are usually the things that are giving your work shape, if you let them be.
+
+Lenny Rachitsky (00:41:51): Yeah, I mean, the reality is that most companies that product managers work at aren't big tech companies. And when I worked with product teams at those companies, at insurance companies or at banks or at CPG companies, or I worked with a company a while ago that makes audio equipment, which was obviously really fun for me, the first thing they usually tell me is, "Well, we can't do product the right way because we're a regulated industry," or, "because we're B2B," or, "because we have these quarterly earnings targets we need to hit."
+
+And that always makes me a little sad because yes, there's a way of looking at it where you can say, "All right, if these five famous companies do product management the right way, then anything that puts us in a different situation from those companies must mean that we're doing product management the wrong way," which is demoralizing and distressing, and again, leads people to these kind of quixotic battles of like, "I have to turn a bank into a search engine," which is not going to happen.
+
+But the other way of looking at it is that those constraints are how you do product management. Those are what guides you to the commercial decisions you should be making. If you're regulated, your competitors are regulated too. If you can really understand those constraints, figure out how to work well within them, that's a huge commercial advantage for your business. If you're B2B, I honestly prefer working with B2B companies in a lot of situations because they have such immediate access to their customers and they can understand the whole system of their customers and their users and how these things connect in a way that's really immediate and actionable.
+
+Similarly, if your company has quarterly financial targets to hit, congratulations, you know what the business really cares about. You don't have to go looking much farther than that. You don't necessarily need to cascade that 10 different levels into 45 OKRs if you can do work that you know feeds directly into what the company cares about the most.
+
+So yes, these things are constraints, but they're the constraints that shape the work that we do. And if we embrace them as such, if we treat them as guides, not restrictions, if we say we're working with not against the commercial realities of our business, there's so much we can do.
+
+---
+
+## [okr-process-theater] Matt LeMay — The one question that saves product careers
+*Description: The trap of treating goal-setting frameworks (OKRs, KPIs, strategy) as ends in themselves rather than means to business impact — 'sweating the middle' while losing connection to what the company actually needs.*
+
+**OKR season as process theater disconnected from outcomes**
+
+Lenny Rachitsky (00:20:15): So what is it that you think people are thinking instead most often?
+
+Matt LeMay (00:20:21): It's interesting. We live in a world where for the last 20 years of product development, we've been all about best practices. We love best practices.
+
+And I love best practices too. I think best practices can be really valuable, can be really useful. I love how much knowledge sharing there is out there. When I started 15 years ago, it was so much harder to get any sense of how anybody was doing anything.
+
+But I think the downside of this is that there are a lot of folks who are really, really fixated on doing things the right way. And a lot of the writing and thinking about doing things the right way exists in kind of this middle layer, between impact and day-to-day work.
+
+So if you have impact, the overall success of the business, revenue, growth, profits. Then from there you set objectives and you do initiatives, and then you do bets, and then you make a strategy, and then you do your day-to-day work.
+
+I think the tendency among a lot of product teams is to key to those middle pieces, to say, "Okay, what we're doing is on strategy. What we're doing is part of objectives. We did OKRs, right? We spent three weeks coming up with our OKRs for three months. It's OKR season, everybody. We have to pretend to care about our goals, and I read a book that says we have to have five to seven objectives with five to seven key results, and we want the score of each one to be a 0.6 or a 0.7."
+
+And at the end of the day, you've actually spent so much time and energy being really clever and cascading these things into these intermediate steps, that each step has incurred more and more risk that we might not achieve that impact we seek to drive.
+
+Each time we abstract things out, each time we cascade things from impact to something else until we wind up with a checklist of features to build, we're assuming that if we then build that checklist of features... We will have a successful business.
+
+But honestly, most of the companies and teams I work with, if I ask them how their lowest-level goals add up to their highest-level goals, they look at me like I just asked them the most impossible question in the world.
+
+Because by the time you get things down to that level, maybe it's going to work, maybe it's not going to work. There are assumptions baked into each of those levels.
+
+You might go through the motions of doing OKRs the right way or doing strategy the right way, but that doesn't guarantee that your strategy is going to work. It doesn't mean that your OKRs are going to add up to what your investors or your shareholders need to see.
+
+So I think there's a tendency among product teams to really sweat the middle, and to get really stressed out if the middle is not in perfect theoretical harmony with itself.
+
+---

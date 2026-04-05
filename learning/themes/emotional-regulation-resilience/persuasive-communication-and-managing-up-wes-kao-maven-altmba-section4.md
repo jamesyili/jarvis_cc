@@ -1,0 +1,14 @@
+# Wes Kao — Persuasive communication and managing up | Wes Kao (Maven, altMBA, Section4)
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-05*
+
+## Vent before feedback to stay grounded and strategic
+
+Lenny Rachitsky (01:07:23): Someone close to me in my life is working on the skill, which is there's just, "I want people to know how they messed up. Justice. I need this to be fair." And what I always recommend is just think about what you want to get out of this conversation, what do you want from them? And then, okay, what's the best way to get that? Versus just making sure they hear you and making sure they understand how screwed up this was. And that's basically what you're saying is focus on the outcome you want to achieve, not something that's useful, something that will make you just feel better.
+
+Wes Kao (01:07:23): Yeah. I definitely think that having a space to vent and to share those frustrations is important. So you want to get that out before you go into the conversation with your counterpart. So whether it's talking to your therapist or your partner or friend, you want to basically get all that energy out because otherwise you bring it into the conversation and it doesn't take much to set you off. You might have a whole script, you're controlled, you're calm, and then you start talking and the other person raises an eyebrow and is acting a little incredulous at what you're saying, and that's all it takes for you to snap and be like, "You're surprised? You're incredulous? Why are you incredulous?" Right? And then you're off, right? Yeah. Getting that energy out, I would say step one, so that you can go into the conversation clear, grounded, setting that emotional tone that is more positive and that allows you to stay focused on only the part that will get them to behave in the way you want them to behave.
+
+Lenny Rachitsky (01:08:23): Such good advice. And I think we come back to are you getting the outcomes you want? If you're not, this is another reason it might be the case is you just need them to hear your mind. I just need you to know. And I think a lesson here is that may not be the best path to getting what you want, but it may feel good. Maybe people are like, "Ah, but I really want them to know this."
+
+Wes Kao (01:08:42): There's that great Einstein quote about insanity being repeating things that you're doing expecting a different outcome. And I feel like that applies so much to the workplace and to communication. Most of us have certain patterns that we are used to and certain ways of responding, and if you believe that there is untapped upside that whatever you are at is kind of a local maximum and that there's better out there, then that's where switching things up could be useful and not just doing everything that you've been doing and getting the same result that you might be getting.
+
+---

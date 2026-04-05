@@ -1,0 +1,34 @@
+# Matt LeMay — The one question that saves product careers
+*Theme: managing-up-exec-presence | Extracted: 2026-04-05*
+
+## MailChimp CPO sets org-wide impact goal, PM rallies team
+
+Matt LeMay (00:28:04): I worked with MailChimp for three years leading up to their acquisition by Intuit, when they were on this really interesting journey of going from a single product company to a platform company [...] So I was brought on shortly after they did a reorg. They went into a domains model. They had different teams that were supposed to be experts on different parts of this marketing platform that were building in new features and their VP product, Natalia Williams, who then became their CPO, she said, "This is great that we're doing this, but I'm worried that we're going to lose sight of the commercial fundamentals. We have these teams building this really cool stuff and we've been so clear that we're excited about the teams that are working on initiative, that are building these new things, that are building out this platform, but let's make sure we stay focused on making sure that the entire platform grows in a healthy and sustainable way."
+
+So she set a very clear goal for the product team. She wanted a specific change in the rate of users who successfully send their first email. She was like, "As we build these new things, email is still where people are coming in. We want to make sure that they can do this successfully." And she set a really ambitious goal for the entire product organization. And she put it forth to the product teams and a lot of product teams were understandably hesitant to take this on, for a number of reasons. They said, "If we mess this up, that's the entire commercial heart of the business. That's really risky."
+
+Other ones said, "That's great, but we're building out these new parts of the platform that are really important. We don't want to risk slowing those things down." There was one product manager I worked with who really understood how important this was. She had worked on enough different parts of the app at that point. She had been on a growth team, so she really had that kind of user-centric, how do we hit the metrics we need to hit mindset? And she came to me and she was like, "I want to make sure we do this because I'm worried about what'll happen if we don't do this, right? I don't want to be on the product team that failed to deliver what matters most to the business."
+
+So she went and worked with some user researchers and found where people were getting stuck. She did this amazing study finding where people were getting stuck before they sent that first email and she gathered together a group of product managers [...] She looks around the room and she says, "You know what? I'm going to haunt all of you in your dreams if you do not take this on. This is the most important thing for the business." And everyone laughed. It was a strong comment, but it was a strong comment made in really good faith that in its own way, I think acknowledged the fear that people had about taking this on. She was like, "Look, this is really important and if we work together, if we care less about the constraints and parameters and borders of our domains and care more about how we work together to deliver the thing that our leader has told us is the most important thing for the business, we can get this done."
+
+And they did get it done, and they got it done through subtracting. They streamlined the experience. They took out steps that people were getting stuck on. They made things easier.
+
+---
+
+## Pushing back up: options plus recommendation, not yes or no
+
+Lenny Rachitsky (01:07:58): Speaking of boundaries, a lot of the advice you share will involve people saying no, and pushing back, and convincing people they're wrong, which is very hard. That's not a natural happy place for most people. What advice do you have? What have you learned works well for pushing back, helping people see how they're not... What they want you to build is wrong.
+
+Matt LeMay (01:08:24): So this is where I have the benefit, I suppose, of being a conflict-averse, people pleaser. So I've been through this, and I think the thing I am proudest of saying in product management and practice is that if you're doing product management really well, you never have to say yes and you never have to say no. You're giving people options and you're helping them understand the trade-offs.
+
+So in keeping with this idea that there are things outside of your control, as a product manager, you're not always going to be the one who makes the decision. There are going to be other people who come to you and say, "Build this," or who say, "I don't see the value in that. Do this, do that. I want this, I want that." If those people are in a position of formal authority in the organization, I've certainly never had luck telling them no.
+
+Furthermore, I've found myself in situations where they just know things that I don't know. Where they're pursuing an acquisition, so there are certain things that we have to do or can't do. Where there's some serious financial challenge that they're working their way through right now, which is shifting around priorities, but they are not at liberty to discuss that with the broader organization. It is quite possible that the folks who are asking you to do things that don't make sense, have access to information that you don't. And that in trying to convince them otherwise, you are not only going to fail, but you are going to lose some of that trust and degrade that relationship that could in time be really important for you.
+
+Lenny Rachitsky (01:11:19): Tell me if you disagree. In my experience, you also want to recommend a path. Because a lot of people don't want PMs just, "Here's all the options. I have no opinion, no bias of any kind. You decide." I find that people want you to have a perspective.
+
+Matt LeMay (01:11:33): Absolutely. Options and a recommendation is kind of the magic formula. I did when I was working with MailChimp, we actually did a workshop with all the product managers at the company where we had people roleplay trying to sell in a single option versus multiple options with a recommendation. And it was amazing how when you present a single option, people's instinct is just to, well, I don't know, you start poking holes in it. Not because you're a jerk, but because you're looking at one thing and you're like, "Oh, well, what about this? What about that?"
+
+Again, all of your own anxieties and fears and the things that you don't feel represented in there, and where you're worried, "What if this happens? What if that happens?" All of that kind of detracts from the momentum, whereas if you come in and say, "Here are three options, here are the trade-offs, here's the one we recommend," then every little bit of back and forth makes those options clearer and stronger.
+
+---
