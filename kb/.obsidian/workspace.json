@@ -185,6 +185,8 @@
   },
   "active": "42a287248ae2d354",
   "lastOpenFiles": [
+    "hard/raw/AgenticRecommendations/summaries.md",
+    "hard/raw/AgenticRecommendations/summaries.md.tmp.58800.1775446781297",
     "hard/wiki/open-models-ecosystem.md",
     "hard/wiki/open-models-ecosystem.md.tmp.21738.1775445775205",
     "hard/wiki/privacy-federated-learning.md",
@@ -199,7 +201,6 @@
     "hard/wiki/bandits-exploration-exploitation.md.tmp.21738.1775445329664",
     "hard/wiki/bandits-exploration-exploitation.md.tmp.21738.1775445316407",
     "hard/wiki/feature-engineering.md.tmp.21738.1775445306715",
-    "hard/wiki/bandits-exploration-exploitation.md.tmp.21738.1775445293429",
     "hard/wiki/recsys-beyond-accuracy.md",
     "hard/wiki/generative-recommendation.md",
     "hard/wiki/counterfactual-evaluation.md",
@@ -220,7 +221,6 @@
     "hard/wiki/diffusion-models.md",
     "hard/wiki/personalization-patterns.md",
     "hard/wiki/ml-system-design-framework.md",
-    "hard/wiki/vision-language-models.md",
     "Untitled.canvas"
   ]
 }

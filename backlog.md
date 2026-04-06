@@ -11,7 +11,7 @@ Blog posts, technical memos, opinions — synthesis artifacts where James wrestl
 
 | Item | Why / Goal | Description / Subtasks | Rough Time | Progress | Priority |
 |------|-----------|----------------------|------------|----------|----------|
-| Pretrain-finetune in recsys | G1 (UPP), technical depth, interview prep | Survey the pretrain+finetune paradigm in recsys. Cover CLR architecture, what's pretrained vs fine-tuned, why this paradigm, UPP angle, predictions. See `blog/pretrain-finetune-recsys.md` | 3-4 hrs | Not started | P0 |
+| Pretrain-finetune in recsys | G1 (UPP), technical depth, interview prep | Survey the pretrain+finetune paradigm in recsys. Cover CLR architecture, what's pretrained vs fine-tuned, why this paradigm, UPP angle, predictions. See `blog/pretrain-finetune-recsys.md` | 3-4 hrs | **Not started — hard deadline 2026-04-11 (next Saturday)** | P0 |
 | Retentive recs / predicted serendipity | G1 (Retentive Recs flagship) | Own the technical narrative on retention-optimized recommendations. Explore-exploit, serendipity as objective, long-term user value. See `blog/retentive-recs.md` | 3-4 hrs | Not started | P0 |
 | Generative recsys survey | Technical frontier, interview prep | RecGPT, PinRec, OneRec, semantic IDs. What works in production vs paper-only. My take on hybrid future. See `blog/generative-recsys.md` | 3-4 hrs | Not started | P1 |
 | EM growth in age of AI | G2 + G4, unique voice | Lived experience of using AI as EM. What changes, what can't be automated, the avoidance trap. See `blog/em-growth-age-of-ai.md` | 2-3 hrs | Not started | P1 |
@@ -51,7 +51,8 @@ Pinterest deliverables, stakeholder actions, team tasks.
 
 | Item | Why / Goal | Description / Subtasks | Rough Time | Progress | Priority |
 |------|-----------|----------------------|------------|----------|----------|
-| Feed Pinsight M1 spec into work-Leo | G2 (Pinsight) | Start T-1 (scaffold) and T-2 (SQLite traces) on Monday. Spec at `work+self/projects/pinsight-m1-spec.md` | 2-3 hrs | Not started — Monday | P0 |
+| Feed Pinsight M1 spec into work-Leo | G2 (Pinsight) | Start T-1 (scaffold) and T-2 (SQLite traces) on Monday. Spec at `work+self/projects/pinsight-m1-spec.md`. **Forward-looking roadmap at `work+self/projects/pinsight-agentic-vision.md`** (6-phase trajectory through agentic augmentation; Fork A commitment to Phase 4 simulation harness). | 2-3 hrs | Not started — Monday | P0 |
+| Pinsight research synthesis | G2 (Pinsight) | ~~Comprehensive review of 5 agentic recsys papers + vision doc + paper summaries.~~ **Done 2026-04-05** — `work+self/projects/pinsight-agentic-vision.md`, `kb/hard/raw/AgenticRecommendations/summaries.md`. | 3 hrs | Done | — |
 | Share HF funnel table schema with Alok | G2 (Pinsight) | Alok is building the logging. Needs proposed schema for alignment. | 15 min | Not started — Monday | P0 |
 | Port agents/skills/hooks to work-leo | Leo deployment | Use `work-leo-setup/TRANSFER.md`. Agents are direct copies with path updates. | 1-2 hrs | Not started | P1 |
 | Update work-leo CLAUDE.md | Leo deployment | Add subagent dispatch section + session log restructure. | 30 min | Not started | P1 |
