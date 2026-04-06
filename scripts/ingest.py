@@ -31,7 +31,7 @@ MANIFEST_FILE = KB_DIR / ".ingested_manifest.json"
 # Source slug → domain mapping
 HARD_SLUGS = {
     "aman-ai", "chip-huyen", "eugene-yan", "lilian-weng", "karpathy",
-    "cameron-wolfe", "sebastian-raschka", "nathan-lambert", "simon-willison", "jay-alammar",
+    "cameron-wolfe", "sebastian-raschka", "nathan-lambert", "jay-alammar",
     "louis-wang",
 }
 SOFT_SLUGS = {"wes-kao", "jefferson-fisher", "ethan-evans", "lennys-podcast"}
@@ -57,7 +57,6 @@ RSS_SOURCES = [
     ("karpathy", "https://karpathy.github.io/feed.xml", ["llms", "deep-learning"]),
     ("cameron-wolfe", "https://cameronrwolfe.substack.com/feed", ["llms", "rlhf", "architectures"]),
     ("nathan-lambert", "https://www.interconnects.ai/feed", ["rlhf", "reinforcement-learning", "llms"]),
-    ("simon-willison", "https://simonwillison.net/atom/everything/", ["llm-tooling", "ai-engineering"]),
     ("wes-kao", "https://newsletter.weskao.com/feed", ["managing-up", "exec-comms", "leadership"]),
     ("jefferson-fisher", "https://jeffersonfisher.substack.com/feed", ["communication", "soft-skills"]),
     ("ethan-evans", "https://levelupwithethanevans.substack.com/feed", ["leadership", "career", "managing-up"]),

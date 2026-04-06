@@ -1,0 +1,14 @@
+# Jiaona Zhang — Building minimum lovable products, stories from WeWork & Airbnb, and thriving as a PM
+*Theme: external-personal-branding | Extracted: 2026-04-03*
+
+## Be known for one thing to accelerate your career
+
+Lenny (00:28:02): Moving to a different topic, what is your number one piece of advice to new PMs who want to accelerate their career? What do you find most often is the blocker or thing holding them back or something they can change that'll accelerate things?
+
+Jiaona Zhang (00:28:18): There's so many parts to it, but I'll pick one... I think it's really important to become really good at and also known for something. And what I mean by that is when you're known in your company for a particular thing.... I'll give you a couple examples. You could be known for shepherding the most complex launches because you're just so good at quarterbacking, working with go-to market teams and cross-functional stakeholders, that could be your thing. You could be known for working on the most technically complex problems. You could be known for working on things that are really regulatory complex. Find something that you can be really, really good at. And the reason I give that advice is because when you do that, you can crush the projects that you get. Because you're making a name for yourself, reputation, and then you are giving more responsibility. People tend to flock and give responsibility to the people that are known for being excellent at something.
+
+Lenny (00:29:16): Is there something you were known to be excellent at in the course of your career?
+
+Jiaona Zhang (00:29:20): I would say early on in my career, it was actually the fact that I had a strong analytics background... I also learned as I was doing that I was actually really good at execution, and so being able to keep a lot of plates spinning and working on the largest studio and managing all the complex pieces of that, that was what I discovered... And so that was something I brought to Dropbox. When I joined Dropbox. It was like I knew that I could work with a lot of different teams and make sure that we hit a launch deadline, and so I would find myself trying to lean into that superpower and then when delivering upon that, getting more responsibility... So when you're like, "I can do something like this," you end up getting more responsibility because people were like, "Oh, she was able to do something that was really hard with a small team," and so that's how you get more responsibility. But it has evolved in my career. I think that at the beginning of your career, you do want to lean into some of these pieces. It makes sense, but also even when you start to manage, it shifts dramatically. Being known as the best executor is not necessarily the thing that gives you and your team the most responsibility.
+
+---

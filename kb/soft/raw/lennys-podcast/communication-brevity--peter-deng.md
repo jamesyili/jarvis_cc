@@ -1,0 +1,16 @@
+# Peter Deng — Peter Deng on Building from Zero to Billions
+*Theme: communication-brevity | Extracted: 2026-04-04*
+
+## Language affects thought; obsessing over precise words
+
+Lenny Rachitsky (00:16:53): I want to get back to product, but first of all, I know something that you think a lot about along these lines. This came up in many conversations I had with folks that you worked with. Is your emphasis on the power and importance of language, being really good at thinking about the words you use both in writing and speaking. Just talk about how you think about that, just the importance and power of language as a leader.
+
+Peter Deng (00:17:14): I remember taking this class that really stuck with me in college. It was called Language and Thought. And it was taught by Herbert Clark. And he had this thesis that kind of blew my mind, which is that, "Language actually affects the way you think." That's one of the parts of the thesis. And once I heard that and read that in his book and listened to the lecture, I couldn't stop thinking about that because it just rang so true. I grew up speaking Chinese and I think that there's a lot of things of just the Chinese language that I feel like I noticed, I thought differently when I learned English. And there were some studies around this too, I think that there's, I think in, I'm not sure exactly, I just have to go check up on this. But I think in Russian there are two different words for blue, there's a greenish blue and a bright blue or something.
+
+Lenny Rachitsky (00:18:11): I speak Russian but it's like... I moved to the U.S. when I was 6 and so my Russian is not great. So, I'm trying to think of this as you say it, but keep going.
+
+Peter Deng (00:18:17): Well, so then this is great. So, I need to get a way to validate this. But from what I remember, because there were these two different words for these different shades of blue Russian speakers who then learned English had an easier time distinguishing between these two shades of blue than, and a faster time doing so than people who had just grown up speaking English. So, I read some studies over there. And also there's some other languages that don't actually have a word for blue, I think. And then that's actually really hard for them to distinguish over time. So, that really stuck with me and I think that it's kind of rings true. So, when I, how I put it in practice, is that when I make slide decks, I gave a presentation to a class a couple of weeks ago and there were probably a total of 20 words on the entire slide deck.
+
+And I spent hours obsessing over them because I really wanted to make sure I captured the right essence of what I was trying to say. And I think that crafting is really important when you're working in product, because if you're sitting down and you're writing a vision doc or you're writing a PRD, and if you don't pay attention to the words you use, and you're not intentional about it, those have downstream effects. People might misinterpret things, the connotations may not actually come through. And so I really am very careful about it because I think that there's a multiplicative effect and a downstream effect for using the wrong word. And I really believe in that kind of language affecting thought thesis which is why I've just really, really paid attention to that.
+
+---

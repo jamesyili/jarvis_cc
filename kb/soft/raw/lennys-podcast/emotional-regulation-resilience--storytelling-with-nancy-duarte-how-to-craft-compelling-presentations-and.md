@@ -1,0 +1,16 @@
+# Nancy Duarte — Storytelling with Nancy Duarte: How to craft compelling presentations
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-04*
+
+## Managing stage fright: fight-or-flight and pre-talk rituals
+
+Lenny (00:55:46):
+So, let's talk about nerves and stage fright. So, I hate public speaking. I get extremely nervous people. They may not feel this when they watch me, but it's not my natural state. You work with a lot of people that I imagine are like, oh my god, I'm so scared to give this presentation. What advice do you give them to help them through that and feel more comfortable?
+
+Nancy Duarte (00:56:06):
+Yeah, I think people who are more thoughtful and contemplative about speaking have better content. They tend to really think through stuff than someone who's like, I got this. I'll just wing it. I'll just walk on the stage. Anyone who's like, tells me I am a nervous presenter, I'm like, you have probably got gorgeous content in your heart that the world needs to hear, because usually they are really deep and thoughtful. Like you already mentioned, you're a pattern finder and you like to do thoughtful work. And so it's hard. My husband is actually a brilliant communicator, just getting him to feel like he wants to take up the space. He's a better communicator than I am. And so what happens is the reason you get scared, it's a fight or flight instinct. For some reason stepping out on that stage, you feel your body and your mind and your psyche is feeling threatened like you would be attacked by an animal.
+
+That's literally what's happening. And so you couple things you could do. You can actually sit in one of the seats of the auditorium and just sit there and look at the stage, look at the setting so you can imagine yourself on it. But then picture yourself as that friendly face, the one that's happy to see you, the one that's delighted that you're speaking. And then as you're standing up, remember that you saw yourself sitting there smiling and very happy. You have to change your visual model that people's faces will be scowling, they'll be judging you, they'll be doubting you. All of those things are only in your head because getting you out on the stage to be able to start to expose people to this amazing content you have, the biggest battle is to get you out on this stage and delivering it.
+
+And I asked a bunch of people once, I did a survey of all these public speakers and was like, how do you prepare? How do you prepare? What's your pre-talk ritual? And some of them were like, "I play heavy metal music and I skip around the entire convention center, just get all fired up." I'm like, "Wow, I have to calm myself down because I already have over to the top energy." So, I literally find the dark. I don't go to the green room, that stuff. I don't like to hear gibber jabber. I have to be focused on my content. And so I find the darkest corner of the backstage and calmly sit and just breathe. I just breathe. Sometimes if I'm nervous, if there's someone real famous in the audience, I have a little list playlist of funny things that people sent me, but I never watch. And that way right before I walk on stage, I chemically, my whole body chemically shifts from nervous to laughter. And that really helps me too, because it's chemical and you have to train your chemistry a bit.
+
+---

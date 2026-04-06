@@ -1,6 +1,6 @@
 # goals.md
 
-Last Updated: 2026-03-31
+Last Updated: 2026-04-05
 
 ---
 
@@ -179,19 +179,28 @@ Last Updated: 2026-03-31
 
 ---
 
-### 5) Expand internal network: broader alliances beyond direct chain
-- **[Rationale]** Director path needs multi-threaded trust: product, infra, adjacent ML orgs, exec sponsors. Build this through real collaboration, not performance.
+### 5) Build interview readiness: technical optionality for the next window
+- **[Rationale]** The AI wave is a decade-long transformation, not one boat. James doesn't need to jump now, but needs to be ready when the right opportunity appears. The gap isn't knowledge — it's the ability to articulate what he knows under interview pressure. This also directly compounds Goals 2 and 4: writing case study answers forces synthesis, and mock interviews build executive presence under pressure.
 - **[What "done" looks like]**
-  - A small set of senior cross-org partners who advocate for scope growth.
-  - Bowen/TLs also building relationships so influence scales beyond you.
+  - Can pass ML system design interviews at OpenAI/Anthropic/top-tier AI companies at EM/engineering leader level.
+  - UPP and PINvestigator case studies written as structured interview answers (tradeoffs, evolution stories, architecture decisions).
+  - Blog posts published (pretrain-finetune, generative recsys) that double as technical depth artifacts.
+  - Regular mock practice (1x/month minimum).
+- **[Why now]**
+  - Track 3 promoted from P2/Tier 2 to P1/Tier 1 (April 2026). Not actively interviewing — building optionality at moderate pace.
+  - Status sensor activations (March 27 comp, April 5 AI boat) are fuel, not fire alarms. Channel the energy into preparation.
 - **[Leading signals]**
-  - Included earlier in planning/strategy, not just execution.
-  - Cross-org asks come with context and respect for constraints.
+  - Written case study answers exist and are practiced.
+  - Can explain UPP architecture, PINvestigator eval strategy, and cross-surface pretraining tradeoffs in 45 minutes under pressure.
+  - Technical depth feels genuine, not crammed.
 - **[Risks]**
-  - Network-building becomes performative or time-expensive.
+  - Prep becomes another collection activity (reading about interviews) instead of synthesis (writing answers, doing mocks).
+  - Time investment crowds out core Pinterest work.
 - **[Mitigations]**
-  - Focus on earned network: collaborate around real outcomes and recurring cadences.
-- **[Confidence]** Medium.
+  - Blog posts serve triple duty: synthesis artifact + interview prep + technical depth.
+  - Moderate pace: 3-4 hrs/week alongside existing work, not intensive grind.
+  - Karen's test: is James producing his own written thinking, or building more infrastructure?
+- **[Confidence]** Medium-High (the inputs exist; the gap is writing and practicing, which is fully within control).
 
 ---
 
@@ -227,6 +236,12 @@ Last Updated: 2026-03-31
   - Time cost repeatedly crowds out core outcomes with no compounding artifacts.
   - Internal constraints make a meaningful prototype infeasible near-term.
 - **[Confidence]** High.
+
+### Bet E: Interview readiness is synthesis, not a separate track
+- **[Hypothesis]** The blog posts, case study writeups, and technical depth work that serve Goal 5 (interview readiness) are the same synthesis artifacts that serve Goals 1-2. Writing about pretrain-finetune in recsys forces understanding of CLR architecture. Writing PINvestigator interview answers forces articulation of eval strategy. There is no separate "interview prep" track — there's a synthesis practice that compounds into both Pinterest impact and external optionality.
+- **[Prediction]** If James writes 2-3 blog posts and structured case study answers by mid-2026, he will be interview-ready without dedicated cramming.
+- **[What would change my mind]** If the blog/case study work doesn't translate to interview performance in mocks — if the gap is fundamentally about format-specific practice rather than depth.
+- **[Confidence]** Medium-High.
 
 ---
 
@@ -310,19 +325,19 @@ This section operates on a longer timeline deliberately. The 6–12 month goals 
 - **[Why this belongs in your 12–18 month goals]**
   UPP is the most strategically important project in Rajat's purview right now. It is also directly analogous to how frontier AI labs think about model platform problems — pretraining, fine-tuning, adapter architectures, cross-surface representation learning. This is not just a Pinterest infra project. It's where you develop the intuition and vocabulary that makes you credible in the next chapter of your career.
 
-  Bowen owns the EM relationship. Piyush is the primary IC technical driver. Your role is different and more valuable: strategic sponsorship, narrative ownership, cross-team unblocking, and ensuring the project doesn't die quietly under resource pressure.
+  Bowen departed March 2026 for OpenAI. Piyush is the primary IC technical driver. Your role is strategic sponsorship, narrative ownership, cross-team unblocking, and ensuring the project doesn't die quietly under resource pressure. The EM hire is the critical next step.
 
 - **[What "done" looks like]**
   - The Base CLR proof point lands successfully (Notif fine-tune matches or beats standalone Notif CLR) and the narrative is clear: this is Pinterest's model platform, not just a ranking infra project.
   - Q2 expansion to Search and P2P is sequenced correctly, with feature alignment work (Zihao Chen's surface documentation) completed and dependencies managed.
   - Cross-team blockers — Notif feature logging, ATG FM integration, CSI GPU serving — are cleared without Bowen or Piyush having to fight those battles alone.
   - Rajat associates UPP's success with your strategic leadership, not just with Bowen and Piyush's execution.
-  - If Bowen leaves, the project does not collapse. You have a succession plan and the institutional knowledge is distributed.
+  - Bowen's departure did not collapse the project. Institutional knowledge is being distributed and EM hire is in progress.
 
 - **[Your specific role]**
   1. **Strategic sponsorship and priority defense.** UPP competes for resources against surface-specific metric wins. You can credibly argue that UPP unblocks HF metric velocity — not just Notif — which is the framing that gets org-wide buy-in from Dylan and Rajat.
   2. **Cross-team coordination.** The Notif team needs to start logging HF-specific features. ATG needs to support FM integration. CSI is needed for GPU serving. These are exactly the cross-functional blockers that stall IC-driven projects. Clearing them is a Director-caliber contribution.
-  3. **Bowen's development and retention.** UPP is Bowen's best argument for staying — high-visibility, technically meaty, genuine GenAI-at-scale experience. How you set him up to succeed here is also a retention play.
+  3. **EM hire and knowledge continuity.** Bowen departed March 2026. Institutional knowledge must be distributed across Piyush and TLs. EM backfill is the critical hire for Q2 stability.
   4. **Q2 planning for Search and P2P.** The architecture is designed for this, but the execution complexity jumps significantly. Search has a different retrieval paradigm (query-conditioned, latency-sensitive); P2P has its own label distribution. Feature alignment work must complete by end of March to sequence Q2 properly.
 
 - **[Risks]**

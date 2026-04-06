@@ -1,0 +1,32 @@
+# Stewart Butterfield — Mental models for building products people love ft. Stewart Butterfield
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## Utility curves: features as S-curves, not binaries
+
+Lenny Rachitsky (00:06:45): To prep for this chat, I talked to so many people that have worked with you over the years to try to figure out what you taught them about building product, building teams, building companies that most stuck with them, that most helped them build amazing products. The first is a concept called utility curves. This came up a bunch across so many people that have worked with you. Talk about what is a utility curve, how you use that to build better products.
+
+Stewart Butterfield (00:07:08): This is pretty easy because it's a very familiar S-curve where you have, it's flat and it starts arcing up and then there's a really steep part and then it levels off again. And on the horizontal axis, you can think of cost or effort and on the vertical axis, it's value or convenience. It depends exactly what you're talking about, but the idea is the first bit of effort you put into something doesn't result in a huge amount of value. And then there's some magic threshold where it produces an enormous amount of value and then continued investment doesn't really pay off. The most basic example I can think of is let's say you're making a hammer, and on that bottom axis, it's now quality, and if the hammer has a handle that breaks with any impact, then is totally useless. And if you make it a little bit stronger, it's still pretty useless and it's like junk, junk, junk, junk, junk. Okay, good, great. Then it doesn't matter anymore.
+
+If you're making an app, okay, this app's going to have users and so let's make a user's table and a database, and so far you have generated no value. The reason I felt like this was so important is because we would talk about a feature, and usually features are thought of as a binary. You either have this feature or you don't. The argument I guess was have we just not invested enough in this or have we got all the value or convenience or quality or whatever that we could get out of this? And we had pointed diminishing returns and it just doesn't matter.
+
+I think in many cases, people will add a feature, it's not good enough and so people don't use it or appreciate it, but now you've added some complexity to the app and then people give up or take it back or they try something in testing and they don't get the results they want, and so they decide that this a thing is worth doing. We would try to really investigate and decide whether we were on the first shallow part of the curve, the second shallow part of the curve, or we're just coming up to it. So I think it's a lot easier to understand the value of this when you're talking about a specific app and a specific feature, but I think it was ultimately helpful in getting people to understand whether something was worth it or not.
+
+---
+
+## We Don't Sell Saddles Here: creating the market not just the product
+
+Lenny Rachitsky (01:08:32): Okay. Before we run out of time, I want to touch on two other topics. One is, when people think of Stewart Butterfield, I think a lot of people think of, We Don't Sell Saddles Here. Your legendary Medium post that is just, I don't know, it's become a historic piece of literature in the annals of product building and in startups. I haven't heard people ask you much about this recently. So let me just ask a couple of questions. What was the reason you put that out? What was the backstory on writing that memo? Why was it necessary?
+
+Stewart Butterfield (01:09:01): Well, it really was an internal memo and there's a bit of a digression. One of the crappy things about Slack is if all your corporate communication is on email, depending on exactly how it works and what system you use, you probably walk away with an archive of everything you said at Company X. If it's Slack, once you're turned off, you lose access to all that history. And so it's kind of like, 'Oh, man. If I had only exported all of my messages before I left, I would have all this stuff,' but that was absolutely verbatim. I did not change a word of what I said inside the company. Well, I think we were still eight people. Maybe at most 10, but I think it was eight people.
+
+Lenny Rachitsky (01:09:45): It was before Slack launched even.
+
+Stewart Butterfield (01:09:47): Yeah, it was before Slack launched. It was when we're doing private beta. And the point of it was to start to instill those ideas as early as possible and really create this alignment inside of that small team so that it could persist to survive as we grew and scaled. Yeah, that was the idea.
+
+Lenny Rachitsky (01:10:11): And the gist, just for people that aren't super familiar with it, but we'll link to it, is just it's not enough just to build a great product. You just as much have to put effort into communicating what this does for them, the problem this is solving for them, the outcome this is going to achieve for them. Is that a good way to think about it?
+
+Stewart Butterfield (01:10:28): Yeah. And again, comparing it to beer or cars, beer goes back to pre-civilization. Cars were obviously, but at some point you had to convince people why they would want a car instead of a horse. For your new AI-based recruiting tool or your calendar app or whatever, there's some reason why you think that people should use yours instead of the thing that they're using now, which might be a wholesale one-for-one replacement, or more often is a change in the way that you're working that has a bunch of other adjacencies and you want to expand into these other categories. You're not just responsible for creating the product, but also, to a certain degree, creating the market.
+
+There's this book, Positioning, which is an absolute classic. It's very short. I would recommend everyone read it, where the point of it is, from my perspective, it's almost impossible to create a new idea in someone's head. It's much easier to take a couple of existing ideas and put them together. So it's much easier to say it's like Jaws meets Star Wars, or it's Uber for Pets or something like that, than to come up with an actual new idea. But you have to do that because if your thing is different in any significant way from the alternatives, you're not just creating the product. You're creating the market. They're really kind of one and the same.
+
+---

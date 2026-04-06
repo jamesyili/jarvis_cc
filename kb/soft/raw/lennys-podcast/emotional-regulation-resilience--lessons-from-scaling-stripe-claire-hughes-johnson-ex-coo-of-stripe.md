@@ -1,0 +1,12 @@
+# Claire Hughes Johnson — Lessons from scaling Stripe | Claire Hughes Johnson (ex-COO of Stripe)
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-04*
+
+## Self-awareness as the foundation of effective management
+
+Lenny (00:26:38): I definitely want to go one layer deeper on that, but there's this area I wanted to get to before we dive into some of the weeds around that, which is I found it really interesting that you started your book with this idea of personal operating principles versus here's how the company should work. It starts with here's how you should think about yourself. So I want to go... There's four of them... But before I get into them, can you just describe what is the idea of a personal operating principle and why is that important?
+
+Claire Hughes Johnson (00:27:02): Remember the book is about two things, company building and company structures, and all that, replicating all that good step and management. So the other thing that the book is really about is management tactical guides to... It would be easy to build companies if there weren't humans involved, right? But there's humans and they're complicated, and I'm complicated and you're complicated. And there are things that motivate us. There are things that demotivate us. They're not the same things, though Lenny and I, I think you and I have some things in common, but point is the book starts with you. And I think a lot of people think management starts with the team, or even the company. And actually, I think founders make this mistake. Founders think, well, it starts with my product. And yeah, but it actually starts with you. And so the book starts with sort of my belief system, which is self-awareness, which is the first operating principle. Self-awareness to build mutual awareness is actually the most fundamental thing you need to crack if you're going to succeed at company building or management, in my opinion.
+
+But I would say I'm one of those people who has strong opinions that are pretty loosely held. This one is a strong opinion strongly held, which is the more that you can seek feedback, seek to understand your motivators, your strengths, your blind spots, your tendencies, and take that on board and expose it to others, you're going to be a much more effective company builder and manager. So it starts with you. And those operating principles that I articulate are sort of mine, but they're also foundational to the content of the whole book.
+
+---

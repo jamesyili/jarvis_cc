@@ -1,0 +1,14 @@
+# Melissa Perri — Everything you've ever wanted to know about SAFe and the product owner role
+*Theme: external-personal-branding | Extracted: 2026-04-03*
+
+## How to reframe a product owner resume for PM roles
+
+Lenny Rachitsky (01:04:15): Okay. I want to spend more time here because this is so important. This is highlighting here's the difference between a product owner and a product manager. If you want to move into product management and become a great PM, if you're a product owner today, even if you're not a product owner and just want to get into product management, can you again just highlight here's the big difference and here's the skills that people value most in a PM versus a product owner.
+
+Melissa Perri (01:04:38): Yeah. When I see product owners write out their resumes or describe their job functions, they always approach it from a process standpoint. I prioritize the backlog, I worked with the developers to break down the work, I checked the developer's work and did the acceptance criteria, I wrote the user stories, all those functions is what I see over and over and over again in product owner resume. What you want to do instead is say, "I led the," we can even do the login API, "I led the work around the login API. The problem that I was solving around it was trying to enhance security for our login protocols to meet regulatory requirements. I interviewed a bunch of users, I got up to speed on the regulatory requirements, I worked really closely with our legal teams and our compliance teams to translate that into something that was going to secure our bank, and when we launched, we were able to meet our compliance, save our bank a couple million dollars, and we smoothly transitioned into these new security requirements without disrupting any service for customers for four million customers."
+
+Way different story than I prioritized backlog and I shipped it off to developers. Take it a step further. If you're working on customer-facing things, who are your customers? Did you go out and talk to them? By interfacing with customers and understanding them, I was able to solve XY, and Z problem with them, which resulted in a measurable amount of XY and Z metric going up for the business. I ran this function, I ran this feature, I launched this feature, I watched it through, I iterated on it, I did the stuff that was needed to make this successful. That's what I want to see on a resume.
+
+Even if you have a product owner title, I'll still read the details and everybody else will too, but I will say there's sometimes a poor connotation when you have that title unfortunately because of the baggage that's associated with agile. Even just on resumes, I would say do product owner/product manager in there just to let people know that I know how to do this and I've been doing this well. If you do that in your bullet points, that shows up as well.
+
+---

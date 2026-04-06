@@ -1,0 +1,38 @@
+# Michael Truell — The rise of Cursor: The $300M ARR AI tool that engineers can't stop using
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## IDE vs. chatbot vs. model-only: strategic product direction reasoning
+
+Lenny Rachitsky (00:18:30):
+Let's come back to the IDE questions. So there's a few routes you could have taken, and other companies are doing different routes. So there's building an IDE for engineers to work within and adding AI magic to it, there's another route of just a full AI agentic dev product, and then there's just a model that is very good at coding, and focusing on building the best possible coding model. What made you decide and see that the IDE path was the best route?
+
+Michael Truell (00:18:54):
+The folks who were from the get-go working on just a model were working on end-to-end automation programming. I think they were trying to build something very different from us, which is, we care about giving humans control over all of the decisions in the end tool that they're building. And I think those folks were very much thinking of a future where end-to-end, the whole thing is done by AI, and maybe the AI is making all the decisions too. And so, one, there was a personal interest component. Two, I think that always, we've tried to be intense realists about where the technology is today, very, very, very excited about how AI is going to mature over the course of many decades. But I think that sometimes people... There's an instinct to see AI do magical things in one area, and then kind of anthropomorphize these models, and think it's better than a smart person here, and so it must be better than a smart person there.
+
+But these things have massive issues, and we... From the very start, our product development process was really about dogfooding, and using the tool intensely every day. And we never wanted to ship anything that wasn't useful to us, and we had the benefit of doing that because we were the end users part of our product. And I think that that instills a realism in you around where the tech is right now, and so that definitely made us think that we need the humans to be in the driver's seat, the AI cannot do everything. We're also interested in giving humans that control too for personal reasons, and so that gets you away from just your model company that also gets you away from just this end-end stuff without the human having control.
+
+And then the way you get to an IDE versus maybe a plug-in to an existing coding environment is the belief that programming is going to flow through these models, and the active programming is going to change a lot over the course of the next few years. And that the extensibility that existing coding environments have is so, so, so limited, so if you think that the UIs may change a lot, if you think that the form factor programming is going to change a lot, necessarily need to have control over the entire application.
+
+---
+
+## Market sizing, moats, and competitive dynamics in AI
+
+Lenny Rachitsky (00:38:42):
+This leads to a discussion that a lot of AI founders always think about and investors, which is moats, and defensibility in AI. So it feels like one is custom models, is a moat in the space. How do you just think about long-term defensibility in the space, knowing there's other folks, as you said, launching constantly trying to eat your lunch?
+
+Michael Truell (00:39:03):
+I think that there are ways to build in inertia and traditional moats, but I think by and large, we're in a space where it is incumbent on us to continue to try to build the best thing, and everyone in this industry. And I truly just think that the ceiling is so high that no matter what entrenchment you build, you can be leapfrogged. And I think that this resembles markets that are maybe a little bit different from normal software markets, normal enterprise markets of the past. I think one that comes to mind is the market for search engines at the end of 1999, or at the end of the '90s and beginning of the 2000s. I think another market that comes to mind that resembles this market in many ways, it's actually just the development of the peripheral computer and many computers in the '70s, '80s, '90s.
+
+And I think that, yes, in each of those markets, the ceiling was incredibly high, it was possible to swish. You could keep getting value for the incremental hour of a smart person's time, the incremental R&D dollar for a really long time, you wouldn't run out of useful things to build. And then in search in particular, not on the computer case, adding distribution was helpful for making the product better too, in that you could tune the algorithms, you could tune the learning based off of the data and the feedback you're getting from users. And I think that all of those dynamics exist in our market too. And so I think maybe the sad truth for people like us, but then the amazing truth for the world is, I think that there are many leapfrogs that exist, there's more useful things to build. We're a long way away from where we can compete in 5, 10 years, and it's incumbent in our state to keep that going.
+
+Lenny Rachitsky (00:41:48):
+Do you think in the future there's one winner in this space, or do you think it's going to be a world of a number of products like this?
+
+Michael Truell (00:41:53):
+I think the market is just so very big. You asked about the IDE thing early on, and one thing that I think a trip of some people that were thinking about the space is, they looked at the IDE market of the past 10 years, and they said, "Who's making money off of the editors?" It's this super fragmented space where everyone kind of has their own thing, with their own figuration, and there's one company that actually makes money off of making great editors, but that company is only so big. And then the conclusion was, it was going to look like that in the future. And I think that the thing that people missed was that there was only so much you could do building an editor in the 2010s for coders, and the company that made money off of editors was doing things like making it easy to navigate around a code base, and doing some error checking and type checking for things, and having good debugging tools.
+
+Which were all very useful, but I think that the set of things you can build for programmers, I think the set of things you can build for knowledge workers in many different areas just goes very far and very deep. The problem in front of all of us is the automation of a lot of busy work and knowledge work, and really changing all the areas of knowledge work in front of us to be much higher level and more productive.
+
+So that was a long-winded way to say, I think the market's really, really big that we're in. I think it's much bigger than people have realized than the other building tools for developers in the past. And I think that there will be a bunch of different solutions. I think that there will be one company, to be determined if it's going to be us, but I do think that there will be one company that builds the general tool that builds almost all the world's software, and that will be a very, very generationally big business. But I think that there will be kind of niches you can occupy in doing something for a particular segment of the market, or for a very particular part of the software development life cycle. But the general programming shifts from just writing formal programming languages to something way higher level. This is the application you purchase and use to do that. I think that there will be generally one winner there, and it will be a very big business.
+
+---

@@ -1,0 +1,20 @@
+# Ami Vora — Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## Execution eats strategy: good enough strategy plus great execution wins
+
+Lenny Rachitsky (00:37:35): Let me go in a slightly different direction. One of my favorite posts of yours is called execution beats strategy every time, and I think another way you phrase it is, execution eats strategy for breakfast. I'd love to hear about this because I completely agree. I think a lot of people obsess with strategy and vision and got to get this right and forget that most of the work is execution.
+
+Ami Vora (00:37:58): Yeah, I don't know if I coined execution eats strategy for breakfast, I think a lot of things eat other things for breakfast, but I'm a believer. I do think execution eats strategy for breakfast and that's something we used to say a lot at Meta. It was just the most important part and I was well-trained in that. That was one of the key lessons that I learned there, and it's because when you have... Look, strategy is super fun. You get to think about all this pie in the sky stuff. You get to think about if the world operated in rational patterns and you could predict the future, what is going to be the second and third order effect? You get to use your brain in a really fun, philosophical way, but customers don't care. Customers don't care about your fancy strategies and your five-year plan. They care about the product that's in their hands. And so anything that distracts you from thinking about the product in your hands I think, or maybe worse, takes you away from solving customer's problems today, I think is a distraction.
+
+And I think one of the things that you learn is if you have great strategy, perfect strategy but poor execution, you don't win because your strategy never makes it to the market. And what's even worse is that you have learned nothing. You don't know whether it was your strategy that was wrong or whether it was your execution that was wrong, all you know is you didn't win. Whereas when you have a pretty good strategy, a good enough strategy, you're in the right direction and you have perfect execution, you still don't win immediately, but you know your execution was great. So then you learn, what do you need to do to improve your strategy? You've got the execution machine, you go back, you update your strategy, you relaunch, and you keep on doing it until your strategy is perfect and then you do win. And that's the lesson I repeatedly learned.
+
+---
+
+## Strategy must change behavior — customer outcomes are the test
+
+Lenny Rachitsky (00:44:08): You have this great quote. 'For strategy to be useful, it actually has to change our behavior as a team to create better customer outcomes.' Can you talk about that?
+
+Ami Vora (00:44:08): Yeah. I mean, I think again, some of the joy of strategy is the philosophy and excitement of thinking about all the long-term stuff that will happen, but I try to always come back to, what's going to change for the customer? If we have all of these conversations and we come out with this shiny five-year plan, but then we change nothing about the products that we're building or how we are building, what was the point of that exercise? It made us feel good, and there's something to making us feel good. That is good, it's important for teams to feel good and connected and this is a good exercise for that, but it's so much more powerful when it's an exercise that translates into us doing something differently, whether that's prioritizing different products, whether that's changing our portfolio allocation, like moving people to the things we think are most important now versus things that are going to be less important right now. What's the change, or coming out with a strategy that'll align people because we have the story, we have the narrative, we have the sequence. What's going to change for our customers as a result of this strategy exercise?
+
+---

@@ -1,0 +1,36 @@
+# Adam Grenier — When to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-04*
+
+## Distinguishing burnout from depression through broader motivation signals
+
+Lenny (01:00:03): I don't know if you mentioned this, but I imagine parts of those points were depression, not burnout. What have you found to be that line of just like, "Oh wow, this is a lot more serious than I'm just working way too hard?"
+
+Adam Grenier (01:00:14): For me, it's hard to describe, but I personally now can pretty cleanly tell the difference between exhaustion and depression. And it tends to tie to my broader motivations, not just my motivation to work. So, when I'm exhausted, I'll still show up to work, I'll still execute, I'll still do those types of things, but I'm going to go and if I can take an improv class, it's going to be a blast. I'm going to enjoy it and I'm going to love it. If I'm depressed, I won't go to that improv class. I'll just cancel it. I won't go to it. Or if I go to it, I'll go home immediately. One of the things I love about actual improv classes, is the community. Is, "Hey, let's all go grab a drink now." And this is a totally different group of people. It's not my family, it's not my work people, it's just me.
+
+And I wouldn't do that. And so it's kind of noticing where else is this impacting and to what degree and why, can help me understand what's going on in my life. Because more often than not, I can then take those feelings and it'll be like, "Oh, I've felt this way for three weeks now. I should think about this and dissect it a little bit." And so again, I'll spend time with my therapist. One of the tools that my therapist has given me is to open up with my friends and have these conversations with my friends. And so now I went from five, six years ago really just having my therapist or my wife to talk about this kind of stuff to, I don't know, I have five or six different friends that we're massively transparent with each other about this stuff, because the second I shared any of this with them, they shared it with me.
+
+And now we've become safe places to have those conversations where I can be like, "Hey, there's this thing going on." My dad has ALS and so he's been really sick and I've got three kids and I've got jobs and work and money and the market crash. And there's so many different things. It's like, okay, let me actually figure out which one of these things is causing this energy right now. And having many years of therapy now and those resources can help me get to that solution to get to that answer so that I can figure out, okay, what do I need to do right now? Do I need to actually take time for myself and dig deeper into these personal things? Do I actually need to change something with the shape of my career? Those types of things.
+
+---
+
+## Therapy uncovering the root driver beneath perceived burnout
+
+Lenny (00:56:08): So, you mentioned the valley of despair, and that's a good segue to our next topic. So, I found this old tweet of yours where you talk about burnout and depression, and you kind of make this point that a lot of times you feel like it's burnout and it's actually depression. And just broadly mental health is just this topic that's not really spoken a lot about in tech and in business. And so I'd love to just spend a little time on this. I know you're a big proponent of talking about these sorts of things, so I'm curious, I know you've been through both these things and I'm curious just to hear your journey, what that's been like, and what you've learned about how to get through it?
+
+Adam Grenier (00:57:20): And then at Uber, I got to a spot where I was incredibly exhausted and tired and just down, not excited about work and things like that, and so I started going to therapy and with this assumption that I was just working too hard. That was kind of my like, "Man, I need to go to therapy to figure out the tools that I need to deal with me working too hard." And I just uncovered so many interesting things that I wouldn't have expected. So, one was that I'm the youngest child in my family and I did something pretty different than a lot of my relatives and things like that. So, recognition is something I long for, and it turns out I get that at work and I just hadn't gotten that in other parts of my life. And so this thing that I'm like, "This is my problem," was actually a solution to my real problem.
+
+And knowing that just helped me totally just change my perspective of how hard I work. I was getting judgemental about myself around, "Man, I'm working too hard. I shouldn't be doing this, but I have to." And then I got in the spot where I'm like, "Oh, I'm working hard because I love it, because I like it, I'm having an impact and I'm working with people I like and people respect the work that I do." And that helped me identify that I can work just as hard, but I can work smarter. I can work more on the things I have impact on. I can work more with people that actually respected the type of work that I'm doing. And that actually just started to relax me and get me to the spot of, "Oh, okay," I still some burnout in there, and that's part of the innovation.
+
+---
+
+## Burnout signal: loss of adaptability and appetite for new challenges
+
+Lenny (01:05:25): I wanted to come back to the burnout piece. I imagine some folks are listening to this and they're like, "Am I burnt out? I don't know." What are signs that you're burnt out versus just working a lot and tired?
+
+Adam Grenier (01:05:37): The one that I see the most is adaptability goes down really fast. And this is more me noticing I've managed a lot of people and coached a lot of people, so when I see that from people that I'm working with, I usually immediately bring up, I'm like, "Look, your openness to change in the business, or trying new things, or going back and trying things that maybe we tried before and didn't work has shifted from, 'Oh, here are the flags that we should be aware of, but let's give it a shot' to 'Why are we wasting our time? Let's not do this.'"
+
+This energy around, let's just do the thing we're supposed to do. And I think that's maybe specifically applicable to our environment, to high growth and marketing and product where it's just, that's just a key ingredient to doing this job well, is adaptability and flexibility and exploration. And if you're losing that, it's probably not because you've gotten bad at it, right? It's probably because you're just over it, right? Where you're like, "I just don't want to deal with the BS around this. I want to go do the thing that makes my job easier."
+
+Which again, most of the people that have chosen this career path want their jobs to be harder, because it's more fun, it's more interesting, it's more rewarding. And so when you're looking for ways to minimize the challenge or the opportunity, I think that's a pretty good signal that they may be more burnt out than just exhaustion. Because if anything, I see the opposite for people that are exhausted, where they get re-motivated by new stuff, by opportunities to go do something different and that kind of stuff.
+
+---

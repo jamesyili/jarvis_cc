@@ -18,7 +18,7 @@ Personal structured curriculum. Five tracks, each independent. Prioritized for Q
 - **Track 1:** Claude Code hooks, skills, best practices + **Module 1.10 (AI Pipeline Failure Modes)** — daily workflow + systems thinking for Leo/PINvestigator/Rekko
 
 ### Tier 2 — Next (Q3 2026)
-- **Track 3:** ML System Design interview prep — when closer to wanting optionality
+- **Track 3:** ML System Design interview prep — promoted to Tier 1 (April 2026). Start with UPP + PINvestigator interview answer writeups. Building optionality, not actively interviewing.
 - **Track 2:** RL/bandit modules — when Retentive Recs feedback loop work is more active
 
 ### Tier 3 — Ongoing
@@ -1120,6 +1120,19 @@ UPP decisions happen at the architecture level — pretraining, fine-tuning, tow
 | **Jay Alammar: The Illustrated Transformer** | jalammar.github.io/illustrated-transformer/ | 1-2 | High |
 | **Attention Is All You Need** (Vaswani et al.) | arxiv.org/abs/1706.03762 | 2-3 | High |
 | **Stanford CS224N** (selected lectures) | web.stanford.edu/class/cs224n/ | 3-4 | Medium |
+| **Karpathy: Deep Dive into LLMs like ChatGPT** | youtube.com (watch-and-code) | 2 | High |
+| **Karpathy: How I use LLMs** | youtube.com (watch-and-code) | 1 | High |
+| **Karpathy: Let's build GPT from scratch** | youtube.com (watch-and-code) | 3-4 | High |
+| **Karpathy: Intro to language modeling (makemore)** | youtube.com (watch-and-code) | 2 | High |
+| **Karpathy: LLM Tokenization / GPT Tokenizer** | youtube.com (watch-and-code) | 2 | High |
+| **Karpathy: makemore Part 2: MLP** | youtube.com (watch-and-code) | 2 | Medium |
+| **Karpathy: makemore Part 3: Activations & Gradients** | youtube.com (watch-and-code) | 2 | Medium |
+| **Karpathy: makemore Part 4: Backprop Ninja** | youtube.com (watch-and-code) | 2 | Medium |
+| **Karpathy: makemore Part 5: Building a WaveNet** | youtube.com (watch-and-code) | 2 | Medium |
+| **Stanford CS229: Building LLMs** | youtube.com (Stanford Online) | 1.5 | High |
+| **Stanford CS25 V2: Intro to Transformers w/ Karpathy** | youtube.com (Stanford Online) | 1.5 | High |
+| **Grant Sanderson: Visualizing transformers and attention** | youtube.com (TNG Big Tech Day '24) | 1 | High (intuition) |
+| **Stanford CME295: Transformers & LLMs Lecture 1** | youtube.com (Stanford Online, Autumn 2025) | 1.5 | Medium |
 
 ---
 

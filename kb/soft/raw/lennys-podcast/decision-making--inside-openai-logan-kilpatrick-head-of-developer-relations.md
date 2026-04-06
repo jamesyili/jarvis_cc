@@ -1,0 +1,10 @@
+# Logan Kilpatrick — Inside OpenAI | Logan Kilpatrick (head of developer relations)
+*Theme: decision-making | Extracted: 2026-04-05*
+
+## Mission as first filter for every roadmap decision
+
+Lenny (00:35:55): That makes me want to ask. Just how does planning work at OpenAI? So in this example is just like, "Hey, we think we need to build this. Let's just go and build it." I imagine there's still a roadmap and priorities and goals and things that that team had. How does road mapping and prioritization and all of that generally work to allow for something like that?
+
+Logan Kilpatrick (00:36:14): I think this is one of the more challenging pieces at OpenAI. There's so many. Everyone wants everything from us, and today, especially, in the world of ChatGPT and how large and well-used our API is, people will just come to us and say, "Hey, we want all of these things." I think there's a bunch of core guiding principles that we look at. One, going back to the mission, is this actually going to help us get to AGI? So there's a huge focus on there's this potential shiny reward right in front of us, which is optimize user engagement, or whatever it is. And is that really the thing? Maybe the answer is yes. Maybe that is what is going to help us get to AGI sooner, but looking at it through that lens I think is always the first step of deciding any of these problems. I think, on the developer side, there's also these core tenets of reliability like, "Hey, it would be awesome if we had additional APIs that did all these cool things like new endpoints, new modalities, new abstractions, but are we giving customers a robust and reliable experience on our API?" And that's often the first question. And I think there have been times where we've fallen short on that, and there was a bunch of other things that we've been thinking about doing and really bringing the focus and priority back to that reliability piece because, at the end of the day, nobody cares if you have something great if they can't use it robust and reliably.
+
+---

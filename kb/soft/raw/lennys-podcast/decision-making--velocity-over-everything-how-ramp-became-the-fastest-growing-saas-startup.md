@@ -1,0 +1,22 @@
+# Geoff Charles — Velocity over everything: How Ramp became the fastest-growing SaaS startup ever
+*Theme: decision-making | Extracted: 2026-04-03*
+
+## Context over control: debating upstream of solutions
+
+Lenny (00:15:11): I know another important ingredient to how you all operate is you really like to empower product teams and give them a lot of control over how they operate and what they build and how they set goals and things like that versus micromanaging them. I think you have this concept of context over control. I'm curious how you actually operationalize that. A lot of people love the idea of empowering their teams and then they do that and then they do the wrong thing or they take too long or they set the wrong goals. So how do you actually make that work and create empowerment within your teams?
+
+Geoff Charles (00:15:43): Yeah, it was one of the biggest cultural differences, I think, in Ramp versus other companies that were as a part of where my boss, the CTO, Karim, was extremely hands-off in terms of the actual pride decisions because we were extremely aligned on the goals themselves. And so that's where you really just start alignment is, what is the goal that you're going after? What is the hypothesis that you have to reach that goal? What is the data by which you're coming up with that hypothesis? And then what is the potential solution to test that hypothesis? And oftentimes, more junior leaders, and I was certainly in that camp earlier on, kept focusing on the solutions and debating the right solution when in fact you should really be debating upstream of that. You should be debating the interpretation of data, you should be debating the hypotheses and the different ideas that you have there as to what's really going on or you should be debating the goals themselves.
+
+And so whenever things went wrong at Ramp, it was when I was being prescriptive with regards to the solution without actually explaining and aligning upstream on the goal, the hypothesis, and the data. And if you do that, you realize that the solutions actually can come much better from teams that are much closer to the ground. I think that's the biggest goal that I have now in my role is to continue giving context so that teams focus on the right goals, come up with the right hypotheses and focus on the right data points. And I spent most of my time just repeating myself, most of my time just sharing the context that I think they might be missing, especially given that I'm in certain meetings or certain groups in certain forms that they're not a part of and my responsibility to represent them and then share back the context for them to make better decisions over time.
+
+---
+
+## Velocity as decision de-risker: low cost of being wrong
+
+Lenny (00:08:44): To build on that, there's a lot of companies that say they move fast, that talk about moving fast, that say velocity is really important, moving fast is really important to us, but I feel like Ramp is very different from that, where it's actually incredibly, incredibly fast and it's actually something you come back to again and again, this idea of, how do we move faster? Can you just share an example or two of what velocity actually looks like at Ramp and what the reality of that is?
+
+Geoff Charles (00:09:12): Yeah. So when I joined, we were about 10-ish folks, about eight engineers, and in three months, we built a competitor to Amex. Six months after that, we built a competitor to Expensify, both publicly traded companies. We hit a hundred million in annual revenue. I think we were under at that point 50 total in the R&D department, less than four engineers and three PMs. And then we started expanding into accounts payable. We basically gave a team goal of building a competitor, Bill.com. It was three engineers, one designer, one PM three months, and they hit out of the park. And that product is moving in billions of dollars a year.
+
+And I think the recipe for all this is constantly small teams have a single-threaded focus, give them the resources they need to execute big lofty goals, very tight timelines, and then shield them from the chaos that is the rest of the organization. So basically don't bother them and don't even tell the rest of the company that you're doing these things until they find product market fit, until they actually find that early traction and then they can bring in more resources. So it's like gravity and you need gravitational pull to this thing.
+
+---

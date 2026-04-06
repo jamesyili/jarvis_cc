@@ -1,0 +1,20 @@
+# Matt MacInnis — "I deliberately understaff every project" | Leadership lessons from Rippling's $16B journey
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## Product hierarchy of needs: do things in order
+
+Lenny Rachitsky (00:22:46): I love hearing this because so many people have teams that are not functioning incredibly well and hearing from someone that is not a longtime product person come in and try to fix these problems, I think is really useful and interesting for people to hear. To dig into this a little bit more, was the big lesson and kind of eye-opening moment that there's a lot of foundational work that needs to happen to achieve this outcome that you're trying to achieve, which is measure engagement and adoption well? Is it like tracking and metrics and data science? Is that kind of the lesson there?
+
+Matt MacInnis (00:23:18): The lesson is that everything must be done in its time and order, and you can move really, really quickly. There's no sort of excuse not to move with urgency on all of these things, but you got to do them in order and you have to lead bottom up. You got to lead from the specific circumstances you observe. And I think for me, one of the best things that's happened over the last 11 months is that I've gained a greater trust in my own instincts, that sort of patterns I've matched across other functions do indeed apply in product, but I have both the advantage and disadvantage of not having led a product function before and therefore must think about every problem from first principles. I have no choice.
+
+I don't actually give a shit about adoption metrics as a matter of principle. I care about adoption metrics when I care about adoption metrics. I realize that that's a total logical statement, but it's like I'll get there. And so in certain parts of our product, I really do care about adoption metrics. I care a lot about adoption metrics in our applicant tracking system, our recruiting product, because it's in a really good place from a usability standpoint, it's very well instrumented, it's got very happy users, it's got an awesome growth profile, and so we should still be really focused on the adoption metrics because I think that's going to be an important ingredient to low churn over time, removing friction from the implementation process as an example.
+
+There are other parts of our product where I would say I don't care at all about adoption and am much more focused on foundational things like I said earlier, test coverage or whatever, just to make sure that the thing is stable and good and delivering exactly what it's supposed to deliver once it's adopted.
+
+---
+
+## PMF as drug/receptor binding: fate decides, not marketing
+
+Matt MacInnis (00:52:56): Well, if you recognize that the market is immutable, no amount of tweeting, LinkedIn posting, advertising is going to change whether the market wants your product. It might raise awareness about your product, but it's not going to change whether somebody wants it. Then you take a different mindset. You have to view your startup as running an experiment in the universe to see what you get in return for that, and this analogy of drug discovery and binding receptors is like nobody at Genentech thinks they can market their way to better performance inside your body. The binding receptors for that drug, they exist or they don't, and when they build their product, their goal is to find out whether the binding receptors exist, but fate already has decided the outcome. This is absolutely true of every software product you build. Fate has already decided the outcome. The market's either going to latch onto your product and run with it or it's not. Do not ship the product, find a lack of success, and then try to market your way through that, because the binding receptors likely don't exist, and for me, it was a very liberating mindset, because now I just have to find the right drug, and I can forget trying to convince the body to develop the binding receptors for whatever it is that I'm building.
+
+---

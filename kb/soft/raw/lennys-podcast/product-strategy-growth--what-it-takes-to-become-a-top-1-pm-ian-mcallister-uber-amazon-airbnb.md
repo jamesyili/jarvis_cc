@@ -1,0 +1,20 @@
+# Ian McAllister — What it takes to become a top 1% PM | Ian McAllister (Uber, Amazon, Airbnb)
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## Prioritization as the #1 PM skill — 5x impact multiplier
+
+Ian McAllister (00:17:24): I guess prioritize as the next one. And so I think this is the number one key tool of a product manager is prioritization. Because so many things come from being good at prioritizing. And it's not just what project do you do next or do you do this project or that project. There's so many different dimensions to prioritization. There's which themes are you going to prioritize in a roadmap and which projects within a theme and how are you going to sequence those projects, how much of a project you're going to build. And also just time management is also a prioritization function. Like what are you going to choose to spend your time on? Which things are you going to really go all out to make great and which things are you going to starve for attention or just not do? Given the same amount of skill intelligence and resources, a product manager with a great innate ability to prioritize is going to generate 5X the impact of someone without that skill.
+
+My early, if you could call it success at Amazon, I think was completely dependent. It wasn't because I worked smarter or I was smarter, I worked longer hours or I was more technical than other people. I think it was just because I was one, super hungry for impact. And if there was a number or a metric that measured success at the business I was running, I wanted that to go up and to the right. Not to hit a goal, but just to go as far and as fast up to the right as possible. And if anything, it was just working with a team to hone in on the projects that would do that with the greatest leverage and just marshaling all the team's resources.
+
+---
+
+## Working backwards — start with the problem, not the solution
+
+Lenny (00:46:33): Before we move on to the working backwards piece, which I'm excited to get into, is there anything else you want to share on this thread?
+
+Ian McAllister (00:47:11): Well, working backwards is all about the problem and starting there and obsessing about the problem and being guided by it to then go into the solution. So when teams that do it wrong is they don't do that. They don't work backwards. They have something they want to build. These things look similar. These two technologies or whatever. We could combine them and then do this. And if you say we could and it's not grounded in a customer or customer's problem, you're not working backwards. And then you may use "the working backwards process", but you already have the solution. And so you're adding the problem after the solution. You're retrofitting the problem, retrofitting the customer. And so that I think is the number one thing is that they don't get the importance of truly starting with the problem that you're trying to solve and being faithful to that working backwards from the problem.
+
+When I first started at Amazon and community, we had this business of automated merchandising using community content, and that was the core thing we were doing is to grow that. But there was this Jeff idea that a team was super excited about. Because I think in some meeting he'd kind of sketched it out or whatever. And so that there was already all this momentum to build this thing that was actually a Jeff project, but I should have known at the time, in hindsight I do, because the name they had for this project was ASIN to ASIN linking. And ASIN was the identifier for a product on Amazon. And so it was kind of this not working backwards idea ultimately of if you could link to products by a subjected attributes and then you could build a feature around it that allowed customers to vote on these things and then it would be kind of ... So in spirit, it really wasn't working backwards. But the team was all excited and so we eventually wrote the press release and we did it. And it turned out, it wasn't successful. We ended up shutting it down later.
+
+---

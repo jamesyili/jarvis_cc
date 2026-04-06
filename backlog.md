@@ -2,7 +2,7 @@
 
 > Unified backlog: everything actionable in one place. Organized by what James does, not what system it lives in. Curriculum details live in `learning/learning_agenda.md` — this file tracks what to do next.
 
-**Last updated:** 2026-04-05 4:00 PM PST
+**Last updated:** 2026-04-05 6:00 PM PST
 
 ---
 
@@ -23,9 +23,9 @@ Specific concepts to study and internalize. Full curriculum in `learning/learnin
 | Item | Why / Goal | Description / Subtasks | Rough Time | Progress | Priority |
 |------|-----------|----------------------|------------|----------|----------|
 | CLR pretraining/fine-tuning deep dive | G1 (UPP), feeds blog post #1 | Model architecture, loss functions, features, condition handling. Feynman test with Leo, then write. Use KB raw articles as reference. Track in `kb/hard/wiki/progression-log.md` | 2-3 hrs | Not started — initial assessment pending | P0 |
-| Model architecture & transformers (Track 5) | G1, Tier 1 curriculum | Attention mechanisms, positional encoding, decoder-only vs encoder-decoder, scaling laws. See `learning/learning_agenda.md` Track 5 | Ongoing | Not started | P1 |
+| Model architecture & transformers (Track 5) | G1, Tier 1 curriculum | Attention mechanisms, positional encoding, decoder-only vs encoder-decoder, scaling laws. Karpathy watch-and-code series (9 videos) added to learning agenda. See `learning/learning_agenda.md` Track 5 | Ongoing | Resources queued | P1 |
 | Evals + verification checkpoints (Track 2) | G2 (Pinsight), Tier 1 curriculum | Eval-driven development, human checkpoints in agentic systems. See `learning/learning_agenda.md` Track 2 | Ongoing | Not started | P1 |
-| ML system design interview prep (Track 3) | Interview optionality | End-to-end system design practice. See `learning/learning_agenda.md` Track 3 | Ongoing | Not started — Tier 2, start Q3 | P2 |
+| ML system design interview prep (Track 3) | Interview optionality | End-to-end system design practice. Start with UPP + PINvestigator interview answer writeups (8+8 hrs). See `learning/learning_agenda.md` Track 3 | Ongoing | Not started — promoted to Tier 1, start April 2026 | P1 |
 
 ## Build
 Leo system, KB, side projects, infrastructure.
@@ -34,14 +34,16 @@ Leo system, KB, side projects, infrastructure.
 |------|-----------|----------------------|------------|----------|----------|
 | First `/kb-compile` run (hard domain) | KB value unlock | Run the 3-phase wiki compiler on hard skills: scan concepts across 851 articles → review plan → compile wiki articles. The big payoff from the KB skill surface built 2026-04-05. | 2-3 hrs | Not started | P0 |
 | KB lint cleanup | KB quality | Fix 11 broken wikilinks, review 31 near-duplicate slugs. 791 thin articles are RSS stubs (re-fetch or accept). 1,432 missing tags are Lenny extractions (batch-tag or accept). | 1-2 hrs | Not started | P1 |
-| Schedule cron jobs for KB scrapers | KB automation | Wire `scrape_aman.py` (weekly) and `scout.py` (daily) into cron. Could use Claude Code remote triggers or system cron. | 30 min | Not started | P1 |
+| YouTube transcript ingestion | KB content | 16 videos queued in `scripts/yt_backlog.json`. Script: `scripts/yt_ingest.py`. Running via overnight remote trigger. 1 video has subtitles disabled (Claude Code mastering). | 1 hr (automated) | Pipeline built, running overnight | P0 |
+| Overnight KB automation | KB automation | Two remote triggers configured: Daily KB Scout (6 AM PT, `trig_017ew...`), Overnight KB Work (1:17 AM PT, `trig_0132A...`). Overnight does: YT ingest, wiki compile, lint fixes. | Done | Running | P0 |
+| Schedule cron jobs for KB scrapers | KB automation | ~~Wire `scrape_aman.py` (weekly) and `scout.py` (daily) into cron.~~ Replaced by Daily KB Scout remote trigger. | — | Done | — |
 | Download and hook up open-source LLM | Cost savings, local inference | Find best model for James's PC, set up ollama/llama.cpp, wire into KB scripts as alternative to `claude -p`. | 2-3 hrs | Not started — need to check VRAM/RAM | P1 |
 | KB semantic search fallback | KB quality | Sentence-transformer embeddings as fallback when TF-IDF confidence is low. Depends on local LLM infra. Reference: Louis Wang's `llm-knowledge-base` uses all-MiniLM-L6-v2. | 2 hrs | Not started — blocked on local LLM | P2 |
 | Better context structure | Leo efficiency | Audit CLAUDE.md and context files for optimal loading. Minimize context waste. | 2 hrs | Not started | P2 |
 | Recommendation system from scratch | ML craft, interview artifacts | Build recsys from first principles: embeddings → two-tower → training → eval → serving. `projects/recsys-from-scratch/` | 20+ hrs | Not started | P2 |
 | Investigate kuberwastaken/claude-code | Leo improvement ideas | Explore patterns, prompt engineering, automation approaches. Cloned at `/home/james/src/claude-code-reference/` | 1-2 hrs | Not started | P3 |
 | Integrate GSD for side projects | Workflow | Explore `get-shit-done` framework. Does it complement Leo? | 1 hr | Not started | P3 |
-| Interview-prep mode | Career optionality | Framework for side projects that double as interview prep for OpenAI/Anthropic. | 2 hrs | Not started | P3 |
+| Interview-prep mode | Career optionality | Framework for side projects that double as interview prep for OpenAI/Anthropic. Folded into Track 3 + blog posts. | 2 hrs | Subsumed by Track 3 + Write items | P3 |
 
 ## Work
 Pinterest deliverables, stakeholder actions, team tasks.

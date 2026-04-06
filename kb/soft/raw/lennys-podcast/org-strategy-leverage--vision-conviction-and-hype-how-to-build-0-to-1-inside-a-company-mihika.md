@@ -1,0 +1,32 @@
+# Mihika Kapoor — Vision, conviction, and hype: How to build 0 to 1 inside a company | Mihika Kapoor (Product, Figma)
+*Theme: org-strategy-leverage | Extracted: 2026-04-03*
+
+## Building entrepreneurial culture: hackathons, bottoms-up innovation
+
+Lenny Rachitsky (00:18:20): Awesome. And clearly, Figma is very good at this. Let's dive a little deeper. Say, somebody wants to make their culture more entrepreneurial or wants to become better at this individually, maybe just broadly, what does it take to do this well, to go from idea to, "Okay, that's a huge new product for a business"? What have you learned just broadly, what are kind of the steps or the important elements of that, well?
+
+Mihika Kapoor (00:18:46): I think that there's this interesting metaphor that you were calling out earlier about a zero-to-one project being like a flame. And flames are interesting, because they're sort of destined to die at the end of the day. And I think about the person who is pushing a zero-to-one idea as kind of being the keeper of the flame.
+
+Mihika Kapoor (00:19:13): And in particular, there's this metaphor that really sticks with me, which is in Greek mythology, all the gods sit on Mount Olympus, and there's this Goddess Hestia who is the keeper of the hearth, and it is her job to always keep the hearth burning, even when all the gods peace out to go on their various quests. And I kind of think about the person or the team or the group of people who are pushing a zero-to-one idea as being the Hestias or the keepers of the hearth. And it is your job to stoke the flames and the embers if they are at risk of dying out. And it is also your job to ensure that the idea can spread like wildfire and can build that level of hype you need for an entire company or an entire set of people to be clamoring for something to get built.
+
+Mihika Kapoor (00:20:04): And so more concretely, I think that there are three things you need to do in order to be successful at bringing an idea into existence. The first is you need to have the right idea, right? And that's the empathy piece. That's the piece that you will get from having conversations day in, day out with your users. The second is you need to secure buy-in for that idea. So that's the vision piece. You need to be able to rally an entire set of folks, but honestly, most importantly, your leadership and your team behind an idea. And then, the third is you need to be able to make it spread like that wildfire. You need to get it to a point where someone joins the company and they're like, "Oh, what is that flame burning there? And how can I learn more about that?"
+
+---
+
+## Hiring for blind spots; understanding team motivations
+
+Lenny Rachitsky (01:15:11): Awesome. Thanks for sharing all that. This touches on something that came up in a previous podcast episode. Nikhil from Meta had this really interesting metaphor, where every superpower has a shadow. Basically, everything you're amazing at, there's something that'll be a problem, a liability basically for you. And so, I think, what you're pointing out is you're amazing at some of these things, but there's downsides. And I think that's really important for people to know. And we already talked about just something you believe that I also believe, it's just, you'll have things you're not good at, focus on things you're amazing at, and just getting better at those things, and use that to achieve, because it ends up being a lot more.
+
+Mihika Kapoor (01:15:48): Also, building off of that is as you scale your team, it's really important to be self-aware of what those blind spots are and to hire for that. Because, you want individuals to be spiky and you want team to be well-rounded.
+
+Lenny Rachitsky (01:29:58): Is there anything else you want to touch on or share or leave listeners with before we get to a very exciting lightning round?
+
+Mihika Kapoor (01:29:22): If you have an insight that only you have, I think on one hand, you can kind of believe, "Oh, other people aren't thinking similar to me. Therefore, maybe, I'm wrong," but I would actually flip that, because I think if you have an insight that other people are not seeing, it is even more on you to get people onto the same page. And so to the extent that you can shout from the rooftops about all the insights that you're learning, I think that, in and of itself, creates a more entrepreneurial culture within the company, because chances are other people will see you doing that. They'll be inspired to contribute in the same way as well.
+
+Mihika Kapoor (01:29:58): I think the last thing that I would say is, which is maybe an aspect that we did not touch on, is that understanding motivations is, in my opinion, one of the keys to running a team successfully and driving an idea forward. So, for example, if you think about the composition of a product team, you have engineers, you have designers, you have researchers, data scientists, et cetera, and different people want to be involved in the kind of product visioning phase to a different extent. There's some people who do want a solution handed to them, because for them, the most exciting part of the process is to find the technical solution in the code. On the other hand, there are other people who find it really hard to feel passionately about a thing that they have not contributed to. And so I think to the extent that you can understand these motivations of your team, of your leadership, of your peers, and constantly ensure that you are catering to the individual, as opposed to the average, that is what, in my opinion, leads to one of the highest-functioning teams.
+
+Lenny Rachitsky (01:31:11): Such a cool point. It comes back to the personality tests that you spoke of earlier. Is that the best way to figure this out? Is it more just watch people and try to guess at what they're most excited about—
+
+Mihika Kapoor (01:31:21): Oh, I think you have to directly ask them. So anytime someone joins my team, especially on the engineering side, because I think this is where there's the greatest variance, I will literally ask, "How much do you like being involved in product decisions?" And to the extent that you can take decisions in the open, that is excellent. And even if the decision is something along the lines of like, "Okay, we have four options," and you can go in with a leading point of view, but giving everyone the opportunity to voice their perspective and push back, if they want to, I think that that's very powerful.
+
+---

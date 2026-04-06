@@ -1,6 +1,6 @@
 # Hard Skills — Raw Content Index
 
-> Auto-generated. 851 articles across 11 sources. Last updated: 2026-04-05
+> Auto-generated. 795 articles across 10 sources. Last updated: 2026-04-05
 
 | Title | Source | Tags | Path | Wiki Concepts |
 |-------|--------|------|------|---------------|
@@ -58,7 +58,6 @@
 | Coursera-NLP • Sentiment Analysis using Logistic Regression | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/coursera-nlp-sentiment-analysis-using-logistic-regression.md]] | |
 | Coursera-NLP \| Sentiment Analysis using Naive Bayes | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/coursera-nlp-sentiment-analysis-using-naive-bayes.md]] | |
 | Coursera-NLP • Word Embeddings and Vector Spaces | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/coursera-nlp-word-embeddings-and-vector-spaces.md]] | |
-| CS224n: Natural Language Processing with Deep Learning | aman-ai | nlp | [[hard/raw/aman-ai/cs224n-natural-language-processing-with-deep-learning.md]] | |
 | CS229 • Debugging and Error Analysis | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-debugging-and-error-analysis.md]] | |
 | CS229 • Decision Trees | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-decision-trees.md]] | |
 | CS229 • Ensemble Methods | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-ensemble-methods.md]] | |
@@ -74,7 +73,6 @@
 | CS229 • Linear Regression | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-linear-regression.md]] | |
 | CS229 • Locally Weighted Linear Regression | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-locally-weighted-linear-regression.md]] | |
 | CS229 • Logistic Regression | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-logistic-regression.md]] | |
-| CS229: Machine Learning | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-machine-learning.md]] | |
 | CS229 • Naive Bayes | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-naive-bayes.md]] | |
 | CS229 • Neural Networks | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-neural-networks.md]] | |
 | CS229 • Newton&#39;s method | aman-ai | ml-theory | [[hard/raw/aman-ai/cs229-newton39s-method.md]] | |
@@ -87,7 +85,6 @@
 | CS230 • AI in Healthcare and a Case Study of Cell Segmentation | aman-ai | deep-learning | [[hard/raw/aman-ai/cs230-ai-in-healthcare-and-a-case-study-of-cell-segmentation.md]] | |
 | CS230 • Applied Deep Learning | aman-ai | deep-learning | [[hard/raw/aman-ai/cs230-applied-deep-learning.md]] | |
 | CS230 • Convolutional Neural Networks | aman-ai | computer-vision, deep-learning | [[hard/raw/aman-ai/cs230-convolutional-neural-networks.md]] | |
-| CS230: Deep Learning | aman-ai | deep-learning | [[hard/raw/aman-ai/cs230-deep-learning.md]] | |
 | CS230 • Deep Reinforcement Learning | aman-ai | reinforcement-learning, deep-learning | [[hard/raw/aman-ai/cs230-deep-reinforcement-learning.md]] | |
 | CS230 • Generative Adversarial Networks | aman-ai | generative-models, deep-learning | [[hard/raw/aman-ai/cs230-generative-adversarial-networks.md]] | |
 | CS230 • Interpretability of Neural Networks | aman-ai | deep-learning | [[hard/raw/aman-ai/cs230-interpretability-of-neural-networks.md]] | |
@@ -98,7 +95,6 @@
 | CS230 • Sequence Models | aman-ai | deep-learning | [[hard/raw/aman-ai/cs230-sequence-models.md]] | |
 | CS231n • Adversarial Examples and Adversarial Training | aman-ai | computer-vision | [[hard/raw/aman-ai/cs231n-adversarial-examples-and-adversarial-training.md]] | |
 | CS231n • CNN Architectures | aman-ai | computer-vision | [[hard/raw/aman-ai/cs231n-cnn-architectures.md]] | |
-| CS231n: Convolutional Neural Networks for Visual Recognition | aman-ai | computer-vision | [[hard/raw/aman-ai/cs231n-convolutional-neural-networks-for-visual-recognition.md]] | |
 | CS231n • Convolutional Neural Networks | aman-ai | computer-vision | [[hard/raw/aman-ai/cs231n-convolutional-neural-networks.md]] | |
 | CS231n • Deep Learning Hardware and Software | aman-ai | computer-vision | [[hard/raw/aman-ai/cs231n-deep-learning-hardware-and-software.md]] | |
 | CS231n • Deep Reinforcement Learning | aman-ai | computer-vision | [[hard/raw/aman-ai/cs231n-deep-reinforcement-learning.md]] | |
@@ -114,7 +110,6 @@
 | CS231n • Visualizing and Understanding | aman-ai | computer-vision | [[hard/raw/aman-ai/cs231n-visualizing-and-understanding.md]] | |
 | Customer Support | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/customer-support.md]] | |
 | Deep Learning Architectures Comparative Analysis | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/deep-learning-architectures-comparative-analysis.md]] | |
-| Deep Learning Specialization on Coursera (offered by deeplearning.ai) | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/deep-learning-specialization-on-coursera-offered-by-deeplearningai.md]] | |
 | Deep Research | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/deep-research.md]] | |
 | DeepMind | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/deepmind.md]] | |
 | Designing a Unique ID Generator in Distributed Systems | aman-ai | system-design | [[hard/raw/aman-ai/designing-a-unique-id-generator-in-distributed-systems.md]] | |
@@ -187,14 +182,11 @@
 | Left to Right | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/left-to-right.md]] | |
 | Linkedin | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/linkedin.md]] | |
 | Login/Logout | aman-ai | system-design | [[hard/raw/aman-ai/loginlogout.md]] | |
-| Machine Learning Specialization on Coursera (offered by deeplearning.ai) | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/machine-learning-specialization-on-coursera-offered-by-deeplearningai.md]] | |
 | MAI | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/mai.md]] | |
 | Manager interview notes | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/manager-interview-notes.md]] | |
 | Meta | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/meta.md]] | |
 | ML Algorithms Comparative Analysis | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/ml-algorithms-comparative-analysis.md]] | |
-| ML Infrastructure | aman-ai | infrastructure | [[hard/raw/aman-ai/ml-infrastructure.md]] | |
 | ML System Design Framework | aman-ai | ml-system-design | [[hard/raw/aman-ai/ml-system-design-framework.md]] | |
-| ML System Design Questions | aman-ai | ml-system-design | [[hard/raw/aman-ai/ml-system-design-questions.md]] | |
 | ML/AI Fundamental Concepts | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/mlai-fundamental-concepts.md]] | |
 | Models • Alpaca | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/models-alpaca.md]] | |
 | Models • ChatGPT | aman-ai | llms, ml-fundamentals | [[hard/raw/aman-ai/models-chatgpt.md]] | |
@@ -211,7 +203,6 @@
 | Multi Agent Ads Customer Support | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/multi-agent-ads-customer-support.md]] | |
 | Multimodal Machine Learning • Introduction | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/multimodal-machine-learning-introduction.md]] | |
 | Multimodal Machine Learning • Multimodal Challenges | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/multimodal-machine-learning-multimodal-challenges.md]] | |
-| Multimodal Machine Learning | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/multimodal-machine-learning.md]] | |
 | Natural Language Processing • Attention | aman-ai | attention, ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-attention.md]] | |
 | Natural Language Processing • Ensemble Methods | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-ensemble-methods.md]] | |
 | Natural Language Processing • Expectation Maximization | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-expectation-maximization.md]] | |
@@ -221,7 +212,6 @@
 | Natural Language Processing • Machine Translation | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-machine-translation.md]] | |
 | Natural Language Processing • Neural Networks | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-neural-networks.md]] | |
 | Natural Language Processing • NLP Tasks | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-nlp-tasks.md]] | |
-| Natural Language Processing Specialization on Coursera (offered by deeplearning.ai) | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-specialization-on-coursera-offered-by-deeplearningai.md]] | |
 | Natural Language Processing • Textual Entailment | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-textual-entailment.md]] | |
 | Natural Language Processing • Tokenizer | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/natural-language-processing-tokenizer.md]] | |
 | Natural Language Processing • Transformers | aman-ai | transformers, nlp | [[hard/raw/aman-ai/natural-language-processing-transformers.md]] | |
@@ -264,7 +254,7 @@
 | Primers • Bidirectional Encoder Representations from Transformers (BERT) | aman-ai | transformers, ml-fundamentals | [[hard/raw/aman-ai/primers-bidirectional-encoder-representations-from-transformers-bert.md]] | |
 | Primers • BigBird | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-bigbird.md]] | |
 | Primers • Chain Rule | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-chain-rule.md]] | |
-| Primers • Claude 4 | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-claude-4.md]] | |
+| Claude 4 System Primer (Maximum Technical Density) | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-claude-4.md]] | |
 | Primers • Clustering | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-clustering.md]] | |
 | Primers • Code Mixing and Switching | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-code-mixing-and-switching.md]] | |
 | Primers • Computer Control | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-computer-control.md]] | |
@@ -282,7 +272,7 @@
 | Primers • Deep Reinforcement Learning | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-deep-reinforcement-learning.md]] | |
 | Primers • DeepSeek Janus-Pro | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-deepseek-janus-pro.md]] | |
 | Primers • DeepSeek-R1 | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-deepseek-r1.md]] | |
-| Primers • DeepSeek V3 | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-deepseek-v3.md]] | |
+| DeepSeek-V3 Technical Primer | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-deepseek-v3.md]] | |
 | Primers • Derivative of the ReLU | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-derivative-of-the-relu.md]] | |
 | Primers • Derivative of the Sigmoid Function | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-derivative-of-the-sigmoid-function.md]] | |
 | Primers • Derivative of the tanh function | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-derivative-of-the-tanh-function.md]] | |
@@ -370,7 +360,7 @@
 | Primers • Python | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-python.md]] | |
 | Primers • PyTorch vs. TensorFlow | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-pytorch-vs-tensorflow.md]] | |
 | Primers • Quantization | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-quantization.md]] | |
-| Primers • Qwen 3 | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-qwen-3.md]] | |
+| Qwen3 Technical Primer (Maximum Density) | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-qwen-3.md]] | |
 | Primers • Reasoning in LLMs | aman-ai | llms, ml-fundamentals | [[hard/raw/aman-ai/primers-reasoning-in-llms.md]] | |
 | Primers • Receptive Field | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-receptive-field.md]] | |
 | Primers • Regularization | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/primers-regularization.md]] | |
@@ -428,19 +418,16 @@
 | Recommendation Systems • System Design | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/recommendation-systems-system-design.md]] | |
 | Recommendation Systems • Toolkit | aman-ai | recsys | [[hard/raw/aman-ai/recommendation-systems-toolkit.md]] | |
 | Recommendation Systems • Transformers | aman-ai | transformers, recsys | [[hard/raw/aman-ai/recommendation-systems-transformers.md]] | |
-| Recommendation Systems | aman-ai | recsys | [[hard/raw/aman-ai/recommendation-systems.md]] | |
 | Recsys - Embeddings | aman-ai | embeddings, recsys | [[hard/raw/aman-ai/recsys-embeddings.md]] | |
 | Reinforcement Learning | aman-ai | reinforcement-learning, ml-fundamentals | [[hard/raw/aman-ai/reinforcement-learning.md]] | |
 | RL | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/rl.md]] | |
 | SnapChat | aman-ai | system-design | [[hard/raw/aman-ai/snapchat.md]] | |
 | System Design Engineering | aman-ai | system-design | [[hard/raw/aman-ai/system-design-engineering.md]] | |
-| System Design Questions | aman-ai | system-design | [[hard/raw/aman-ai/system-design-questions.md]] | |
 | System design • Subscription | aman-ai | system-design | [[hard/raw/aman-ai/system-design-subscription.md]] | |
 | System design • Tooling | aman-ai | system-design | [[hard/raw/aman-ai/system-design-tooling.md]] | |
 | Token Sampling Methods | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/token-sampling-methods.md]] | |
 | Uber | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/uber.md]] | |
 | Video Recommendation | aman-ai | system-design | [[hard/raw/aman-ai/video-recommendation.md]] | |
-| Vision | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/vision.md]] | |
 | Visual Search | aman-ai | ml-system-design | [[hard/raw/aman-ai/visual-search.md]] | |
 | Watch List | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/watch-list.md]] | |
 | Word2Vec | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/word2vec.md]] | |
@@ -676,7 +663,6 @@
 | What I Wish I Knew About Onboarding Effectively | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/what-i-wish-i-knew-about-onboarding-effectively.md]] | |
 | What Machine Learning Can Teach Us About Life - 7 Lessons | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/what-machine-learning-can-teach-us-about-life-7-lessons.md]] | |
 | What To Do If Dependency Teams Can’t Help | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/what-to-do-if-dependency-teams-cant-help.md]] | |
-| What We've Learned From A Year of Building with LLMs | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/what-weve-learned-from-a-year-of-building-with-llms.md]] | |
 | Why Are My Airflow Jobs Running “One Day Late”? | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/why-are-my-airflow-jobs-running-one-day-late.md]] | |
 | Why Have a Data Science Portfolio and What It Shows | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/why-have-a-data-science-portfolio-and-what-it-shows.md]] | |
 | Why I switched from Netlify back to GitHub Pages | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/why-i-switched-from-netlify-back-to-github-pages.md]] | |
@@ -695,13 +681,13 @@
 | Remaking Old Computer Graphics With AI Image Generation | jay-alammar | ml-fundamentals, visual-explanations | [[hard/raw/jay-alammar/remaking-old-computer-graphics-with-ai-image-generation.md]] | |
 | The Illustrated Retrieval Transformer | jay-alammar | ml-fundamentals, visual-explanations | [[hard/raw/jay-alammar/the-illustrated-retrieval-transformer.md]] | |
 | The Illustrated Stable Diffusion | jay-alammar | ml-fundamentals, visual-explanations | [[hard/raw/jay-alammar/the-illustrated-stable-diffusion.md]] | |
-| A from-scratch tour of Bitcoin in Python | karpathy | llms, deep-learning | [[hard/raw/karpathy/a-from-scratch-tour-of-bitcoin-in-python.md]] | |
-| A Recipe for Training Neural Networks | karpathy | llms, deep-learning | [[hard/raw/karpathy/a-recipe-for-training-neural-networks.md]] | |
+| (Proof of Work difficulty is dynamically adjusted to make it so) | karpathy | llms, deep-learning | [[hard/raw/karpathy/a-from-scratch-tour-of-bitcoin-in-python.md]] | |
+| conquer world here | karpathy | llms, deep-learning | [[hard/raw/karpathy/a-recipe-for-training-neural-networks.md]] | |
 | A Survival Guide to a PhD | karpathy | llms, deep-learning | [[hard/raw/karpathy/a-survival-guide-to-a-phd.md]] | |
 | Biohacking Lite | karpathy | llms, deep-learning | [[hard/raw/karpathy/biohacking-lite.md]] | |
 | Deep Neural Nets: 33 years ago and 33 years from now | karpathy | llms, deep-learning | [[hard/raw/karpathy/deep-neural-nets-33-years-ago-and-33-years-from-now.md]] | |
 | Deep Reinforcement Learning: Pong from Pixels | karpathy | llms, deep-learning | [[hard/raw/karpathy/deep-reinforcement-learning-pong-from-pixels.md]] | |
-| microgpt | karpathy | llms, deep-learning | [[hard/raw/karpathy/microgpt.md]] | |
+| Repeat in sequence | karpathy | llms, deep-learning | [[hard/raw/karpathy/microgpt.md]] | |
 | Short Story on AI: A Cognitive Discontinuity. | karpathy | llms, deep-learning | [[hard/raw/karpathy/short-story-on-ai-a-cognitive-discontinuity.md]] | |
 | Short Story on AI: Forward Pass | karpathy | llms, deep-learning | [[hard/raw/karpathy/short-story-on-ai-forward-pass.md]] | |
 | (started posting on Medium instead) | karpathy | llms, deep-learning | [[hard/raw/karpathy/started-posting-on-medium-instead.md]] | |
@@ -813,45 +799,3 @@
 | Understanding and Implementing Qwen3 From Scratch | sebastian-raschka | llms, ml-research | [[hard/raw/sebastian-raschka/understanding-and-implementing-qwen3-from-scratch.md]] | |
 | Understanding Reasoning LLMs | sebastian-raschka | llms, ml-research | [[hard/raw/sebastian-raschka/understanding-reasoning-llms.md]] | |
 | Understanding the 4 Main Approaches to LLM Evaluation (From Scratch) | sebastian-raschka | llms, ml-research | [[hard/raw/sebastian-raschka/understanding-the-4-main-approaches-to-llm-evaluation-from-scratch.md]] | |
-| Can JavaScript Escape a CSP Meta Tag Inside an Iframe? | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/can-javascript-escape-a-csp-meta-tag-inside-an-iframe.md]] | |
-| datasette-enrichments-llm 0.2a0 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-enrichments-llm-02a0.md]] | |
-| datasette-enrichments-llm 0.2a1 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-enrichments-llm-02a1.md]] | |
-| datasette-extract 0.3a0 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-extract-03a0.md]] | |
-| datasette-files 0.1a3 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-files-01a3.md]] | |
-| datasette-llm 0.1a3 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-llm-01a3.md]] | |
-| datasette-llm 0.1a4 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-llm-01a4.md]] | |
-| datasette-llm 0.1a5 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-llm-01a5.md]] | |
-| datasette-llm 0.1a6 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-llm-01a6.md]] | |
-| datasette-llm-usage 0.2a0 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-llm-usage-02a0.md]] | |
-| datasette-showboat 0.1a2 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/datasette-showboat-01a2.md]] | |
-| Gemma 4: Byte for byte, the most capable open models | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/gemma-4-byte-for-byte-the-most-capable-open-models.md]] | |
-| Highlights from my conversation about agentic engineering on Lenny's Podcast | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/highlights-from-my-conversation-about-agentic-engineering-on-lennys-podcast.md]] | |
-| llm 0.30 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/llm-030.md]] | |
-| llm-all-models-async 0.1 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/llm-all-models-async-01.md]] | |
-| llm-echo 0.3 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/llm-echo-03.md]] | |
-| llm-echo 0.4 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/llm-echo-04.md]] | |
-| llm-gemini 0.30 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/llm-gemini-030.md]] | |
-| llm-mrchatterbox 0.1 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/llm-mrchatterbox-01.md]] | |
-| March 2026 sponsors-only newsletter | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/march-2026-sponsors-only-newsletter.md]] | |
-| Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/mr-chatterbox-is-a-weak-victorian-era-ethically-trained-model-you-can-run-on-you.md]] | |
-| Pretext — Under the Hood | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/pretext-under-the-hood.md]] | |
-| Pretext | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/pretext.md]] | |
-| Python Vulnerability Lookup | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/python-vulnerability-lookup.md]] | |
-| Quoting Daniel Stenberg | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/quoting-daniel-stenberg.md]] | |
-| Quoting Georgi Gerganov | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/quoting-georgi-gerganov.md]] | |
-| Quoting Greg Kroah-Hartman | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/quoting-greg-kroah-hartman.md]] | |
-| Quoting Kyle Daigle | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/quoting-kyle-daigle.md]] | |
-| Quoting Matt Webb | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/quoting-matt-webb.md]] | |
-| Quoting Richard Fontana | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/quoting-richard-fontana.md]] | |
-| Quoting Soohoon Choi | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/quoting-soohoon-choi.md]] | |
-| Quoting Willy Tarreau | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/quoting-willy-tarreau.md]] | |
-| research-llm-apis 2026-04-04 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/research-llm-apis-2026-04-04.md]] | |
-| scan-for-secrets 0.1 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/scan-for-secrets-01.md]] | |
-| scan-for-secrets 0.1.1 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/scan-for-secrets-011.md]] | |
-| scan-for-secrets 0.2 | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/scan-for-secrets-02.md]] | |
-| Supply Chain Attack on Axios Pulls Malicious Dependency from npm | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/supply-chain-attack-on-axios-pulls-malicious-dependency-from-npm.md]] | |
-| The Axios supply chain attack used individually targeted social engineering | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/the-axios-supply-chain-attack-used-individually-targeted-social-engineering.md]] | |
-| The cognitive impact of coding agents | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/the-cognitive-impact-of-coding-agents.md]] | |
-| Vibe coding SwiftUI apps is a lot of fun | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/vibe-coding-swiftui-apps-is-a-lot-of-fun.md]] | |
-| Vulnerability Research Is Cooked | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/vulnerability-research-is-cooked.md]] | |
-| We Rewrote JSONata with AI in a Day, Saved $500K/Year | simon-willison | llm-tooling, ai-engineering | [[hard/raw/simon-willison/we-rewrote-jsonata-with-ai-in-a-day-saved-500kyear.md]] | |

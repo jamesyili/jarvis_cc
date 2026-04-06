@@ -1,0 +1,10 @@
+# Adriel Frederick — Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)
+*Theme: influencing-without-authority | Extracted: 2026-04-04*
+
+## Empathy as tool for cross-functional alignment across difference
+
+Adriel Frederick: The second is empathy. Where a step of that was just like you have to have that as a PM for your user, but I think it's different to having it for a peer and another function or somebody else on one of your teams. And the hardest part of it is they say getting in somebody else's shoes. The hardest part is taking my own shoes off. Basically going, Yo, okay, I came into this, there's something I wanted, I wanted to get rid of that. Now just talk to this person and try to understand what's going on with them, what they care about for their life goals and motivations, what they're scared of, what they're excited by, how you might be able to help them. Once I was able to get out my shoes, clear my mind, try to get into their head, then I could be like, All right, cool, let's find a nice happy middle ground in the middle here. But that's something that works for both of us together.
+
+And sometimes for me it was, Yo, what I care about, I'm good. I'm going to let you do your thing. I've gotten into your shoes, I need to leave you alone. Like you're good. Other times I'm ready to push. But I think once I have the empathy, I'm then able to think about what we as an organization broadly want to achieve and try to put the two shoes on at the same time and find something that works for both of us. So what's that common objective? And I think that's how I try to approach almost every conversation is, especially being a guy who looks different, talks different, comes from somewhere else, first thought they might have is and unconsciously might be like this guy isn't one of us. But then once I make it clear to them that we have the same objectives, we're about the same thing and I want to know what's going on with you so that I can help you achieve what you want to achieve. Dude, problems go away.
+
+---

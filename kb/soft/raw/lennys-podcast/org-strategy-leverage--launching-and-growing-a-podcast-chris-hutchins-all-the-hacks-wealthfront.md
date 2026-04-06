@@ -1,0 +1,22 @@
+# Chris Hutchins — Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)
+*Theme: org-strategy-leverage | Extracted: 2026-04-05*
+
+## Repeating vision/mission to align teams internally
+
+Lenny (00:12:18): Awesome. So here's my big question. What have you learned? You spent a lot of time thinking about big bets, big innovations, working within a company to come up with something totally new. What have you learned about how to approach that within a larger company? How do I successfully innovate? How to think about launching big bets, how to structure teams, anything along those lines?
+
+Chris Hutchins (00:12:37): I've learned a few things and I think some of them I've learned came naturally being a founder before being a PM. But you think that customer research is all you need to build a product at a company, but figuring out how to create excitement internally and get buy-in from other teams because they're the ones that are going to build it. They're the ones that are going to help market. It's all a team effort. Sometimes you get caught up, at least I found, as a PM of like, "Oh, we got the customer insights, we did the testing. It's all positive." And then you show the ratings you got from sub survey or the engagement or some clips and that's not the end of it. The end is creating this compelling vision for what you're building. And then the thing I learned from being a founder is, gosh, you have to state your vision and your mission and why you're here, every all-hands.
+
+It seems so crazy because it's core to you why we would build this, what it's purposes, why it's amazing. But as a founder, I was like every week I was like, "Hey everybody, before we get started, this is the mission we're on, this is why we're doing it. This is the thing we're doing in the world." And as a PM sometimes you're like, "Well, I told people three weeks ago and I put it in that email that I sent out to everyone and it was in the top of the PRD, so why hasn't everyone understood why this product exists?" And I realized very quickly that, that same thing is true. So if you want to make a big bet, if you want to make a big impactful product, you have to bring people along with you. And your ability to speak publicly, persuade people, build influence within the company. Those things are all as important as your ability to identify a user need and build a product that solves it.
+
+---
+
+## Connecting teams to North Star through layered vision
+
+Lenny (00:16:06): One thing I'll add to your point about reminding people of the strategy and the vision is if you can also help them understand how their team and project connects up through that, create kind of a little tree of, "Here's all the teams, what they're doing. Here's all connects to the pillars of focus and themes and then here's how it connects to the North Star metric and or vision mission. That kind of adds another wrinkle of like, "Oh, wow. I get it. I get why this team's important."
+
+Chris Hutchins (00:16:30): There's a great analogy, I'm sure if I send a link you could put in the show notes or something about a football team. And it's like the GM's goal is to sell out the tickets and win the conference championship and it actually tiers it down. It's like, "Well, there's a defensive line coordinator." I'm not even that big of a sports person, but it's like the defensive line coordinator's job is just one specific thing, but they kind of explain how it all levels up to this one North Star metric for the company or two in that case. And I think that's just so important and when you're talking to people at your company with your colleagues, it's not just what it does. It's like, "This product will automate people's money movement so they don't have to move their money and it happens automatically." And that's cool, but it's equally as important to remind everyone, "And then they don't have to worry about their money every week and then they don't have to worry that their contributions might leave them without enough money in their checking account to pay their rent."
+
+There's these two components of it which are, what does it do, but what's the feeling you want someone to have? And that gets into product vision versus just the product feature set. And whenever we've written product visions statements about things we're building, it's like, "Imagine a world where someone can feel this way about their money." And it's like, "And then this thing will do that." That's the product strategy. It's how you execute on it.
+
+---

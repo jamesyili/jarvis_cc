@@ -1,0 +1,14 @@
+# Chris Hutchins — Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)
+*Theme: influencing-without-authority | Extracted: 2026-04-05*
+
+## Stating intent disarms skepticism when pushing big ideas
+
+Chris Hutchins (00:18:10): The last little skill, and I know you, you've talked about this, but I think it's something that I was fortunate enough to not care about. Which I think is, when you focus too much at a company about like, "Ooh, I want the promotion" you get caught up in this world where you're like, "If I want the promotion, I need to do what my boss wants." And I had this fortunate benefit of... Like my last job, I was the CEO. I didn't care about my title, I didn't care about leveling up. I came in and I was like, "I want to continue trying to execute on this vision of this thing that I wanted to do." What that actually meant was my only metric I cared about was impact and trying to build a product that would work. And I think in any job in any company, it turns out you think that doing what your boss wants is actually what's going to get you promoted.
+
+But the people that I've had work for me or I've worked alongside that seem to always be the outperformers, are always the people that are just solely focused on having the most impact on the company. I think the thing I learned, which I thanks to Andy Rachleff for teaching me this is when you push so hard for your ideas and you have really strong beliefs, you have to also make sure you state your intent. Because sometimes people think you're acting out of self-interest. I'd be like, "Oh, we should delete this feature and build this crazy thing. It's going to be amazing." And people are like, "Oh, Chris just thinks his idea is better than everyone."
+
+And so he taught me, he's like, "It would go a long way before you said that, you said, 'Hey guys, I've got some crazy ideas, but before I say them, I just want you to know that all I care about is that the company is successful. And I think this idea will make the company successful. And that's why I'm so excited about it. I don't need to own it. I don't care who owns it, I'm just really excited about it.'" And when you state your intent, you give people a little bit of ease in thinking you know what it might be. And even though I'm sure half the people listening work at a company where their culture is like assume best intent is one of the pillars, it's still our nature to assume that if someone's shooting down an idea we have that maybe it's out of their own self-interest.
+
+And I've learned that when you have crazy ideas and when you're pushing back against a lot of people, if you can make sure you constantly remind them why you're doing it and what you care about, it goes a lot further than if you just kind of come in there with sharp elbows and try to push for crazy things.
+
+---

@@ -1,0 +1,16 @@
+# Jeff Weinstein — Building product at Stripe: craft, metrics, and customer obsession
+*Theme: managing-up-exec-presence | Extracted: 2026-04-03*
+
+## John Collison: focus on problems 1 and 2, not 3 through 100
+
+Lenny Rachitsky (02:30:39): Final question. You worked with Patrick Collison and John Collison for many years. I'm curious what the most useful feedback or advice you have heard from them or learned from them?
+
+Jeff Weinstein (02:30:40): On my first month working here, which I guess is six, seven years ago now, they had put me in charge of our payments infrastructure services. That's all the backend systems that communicate with the financial system and all the internal APIs where we build the external APIs and products on top of, so quite a lot of stuff. I knew nothing about finance. I knew nothing about the scale that we're talking about. They entrusted me, somewhat insanely, with that responsibility. On the first month we had our quarterly business review where... The normal quarterly process, and I was like, "Okay, cool. I'll do the next one. I'll write the next one." I've been here one month. They're like, "No, you write it. It'll be even better that you write it." It's like, oh my God. It's forcing me to have to, in the fourth week, have that catalyst to understand the whole business and with the permission, because I was going to have to write this doc about how we're doing. The company had been in existence for seven years before I got here. It was already at some reasonable scale.
+
+It was an intense operation, and I remember writing the first draft and sending it to him because it was... I didn't want to send... He had pushed me to do it a bit, and I figured I'd give him an early draft and he wrote back, "This doesn't sound like you yet." The willingness to entrust a new person to provide their own perspective and bring it into a very formalized document like that was an impressive... That really spoke to me, and I rewrote it completely, and I made it sound like me, and I've tried to make things sound like me since.
+
+John's is more of a gut punch, I'll say. I reported to John, the co-founder. Maybe nine months into reporting to him, I would run around with a clipboard. I was a little bit manic of getting a lot done. A lot going on at Stripe at the time. We'd have a one-hour one-on-one, I'd be listing all of the things that we had accomplished and the problems we have and where we need escalation help and where we're stuck and all this that and the other. Lots of stuff. I had checklists and physical paper, flipping it over a little bit frantically. And he said, "You are one of the best people I've ever worked with at solving problems three through 100, but I need you stuck on problems one and two."
+
+Oh man, that hurt. I was like, "Oh, shoot." I am productive on the non-hardest problems and I was trying to mask, not on purpose mask, but who wants to be stuck on something so hard when there's so much else to do? From then on, I would show up to him with problems one and two and not talk about problems three through 100. Even if we were working on them, we would just not talk about them and we would get stuck on problems one and two. That was phenomenal advice, which I was like, "Oh, shoot, I'm going to be fired." But it was really a deeply impactful sentence.
+
+---

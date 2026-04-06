@@ -1,0 +1,10 @@
+# Marty Cagan — The disease of process people | Marty Cagan
+*Theme: ai-practical | Extracted: 2026-04-04*
+
+## AI disrupts output-focused PM roles; viability becomes more critical
+
+Lenny (00:52:07): Something along those lines I wanted to chat about. Which skills of a product manager will be most disrupted by AI? So I think short term, there's communication is getting improved... But in the five or 10 years, are there any skills that will potentially go away or 95% of it will be done by AI?
+
+Marty Cagan (00:52:38): Absolutely. And I think that is happening more on the engineering side right now and also on the design side, but I fully expect it will happen... If you are fundamentally a backlog administrator, good luck protecting that because already people are doing that. It's only a matter of time before that becomes pretty well-supported. That is not a good job prospect. Now, then we can talk about a feature team, project manager. There's very little that's going on in there that is truly value add. Most of these are administrative kinds of things that can be done at least significantly with help. So I wouldn't feel confident if I was a feature team product manager that I could keep doing this for any amount of years at least. Now, for an empowered product manager, if your responsibility is value and viability, if you boil it down, that's the real challenge left with ChatGPT or GenAI, is viability becomes even more the important question... For a product manager, especially with viability, I've been on so many of these calls where we've been talking about the implications of probabilistic software versus deterministic software and what is okay? The lawyers are weighing in already with the legal perspective, but also ethical perspective and just if this is mission critical, is this something that we could be okay with having a probabilistic answer? We don't know, trying to figure that out. So what is that really? That's a viability and a value question. So a lot more is landing squarely on the product manager than I think in general in the past.
+
+---

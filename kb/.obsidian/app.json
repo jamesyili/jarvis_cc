@@ -1,5 +1,6 @@
 {
   "useMarkdownLinks": false,
   "newLinkFormat": "relative",
-  "attachmentFolderPath": ".attachments"
+  "attachmentFolderPath": ".attachments",
+  "watchVault": false
 }

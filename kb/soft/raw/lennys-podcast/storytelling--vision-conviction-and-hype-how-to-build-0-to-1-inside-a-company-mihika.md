@@ -1,0 +1,18 @@
+# Mihika Kapoor — Vision, conviction, and hype: How to build 0 to 1 inside a company | Mihika Kapoor (Product, Figma)
+*Theme: storytelling | Extracted: 2026-04-03*
+
+## Vision pitch as pain-solution-proof loop; single unified artifact
+
+Lenny Rachitsky (00:17:52): So, what's an example of that? Is it like a deck in Figma?
+
+Mihika Kapoor (00:17:54): Yeah, exactly. So, we often make our decks in Figma, and I think that we lean heavily into designing and prototyping even before a project gets a green light. So, I think that's something that's really unique about Figma is normally you will talk about the market space or the opportunity of the sizing, and then decide to invest. Versus Figma is very much a see to believe and see to feel that emotional pull towards this is something worth investing in.
+
+Lenny Rachitsky (00:18:25): Got it. So, that's what I was trying to get to is how do you actually deliver a vision? So, a lot of people, " Here, I need to create a vision. I'm going to write out a paragraph or a memo describing it." You can create mock-ups. The way you're describing it, essentially, is make it as real as possible, not just mocks, but actual prototypes potentially. Many people don't have design skills or designers on their team or engineering skills to build a prototype. Is there anything you can share for how to do this where you don't have those skills?
+
+Mihika Kapoor (00:18:54): Yeah. Well, the good thing is that with AI, it's getting way easier. So a couple of weeks ago, Cognition launched, which for those who don't know, is a startup that made this AI agent called Devin, which can code anything for you, supposedly. It definitely took Twitter by storm and got me super stoked. And so, I think something that's interesting about the current AI revolution is that it's very much lowering the floor to starting out and to building something. And so, recently, I was doing a chat with David Huang from Replit, and he's the head of marketing and design at Replit. And he was basically talking about how if Replit does their job right, you start seeing it as your technical co-founder. And I think, conversely at Figma we kind of think about if we're doing our job, maybe in the future people will think about Figma as their designer co-founder, where you can go in and use it to start bringing things into existence.
+
+Mihika Kapoor (00:20:03): So, I think one is, yeah, I do think that we're just trending in a direction, and this was not true a year ago, where the floor to building something is just so much lower. So, that's one piece. I think the second piece is just go around and ask people. And so, for example, for the project that I'm currently working on, I used a hackathon to pitch it. And basically, I built conviction in the idea many months before the hackathon, and I was verbally pitching it. And it was kind of like, "Oh yeah, maybe at some point in the future we would make an investment like this."
+
+Mihika Kapoor (00:20:43): But what actually ended up happening was we have this concept called Maker Week, which is our internal hackathon, where the entire company goes on pause for a week. And I think that most people think that, "Oh, hackathons are only a time for engineers to build." And I think that that's one of the biggest mistakes ever. I think that anyone can have an idea and can... Literally, what I did was walk around the New York office asking every single person, "Will you work on this thing with me?" And eventually, someone says yes, and then you can use that to build momentum, grow the team, and build something great. But I think that never letting your own skills stop you from going out there making a pitch and then turning that into reality is really important.
+
+---

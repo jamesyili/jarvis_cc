@@ -1,0 +1,12 @@
+# Jeff Weinstein — Building product at Stripe: craft, metrics, and customer obsession
+*Theme: communication-brevity | Extracted: 2026-04-03*
+
+## Metric naming as cultural currency: brevity drives team alignment
+
+Jeff Weinstein (01:05:00) [from the metrics section]: Picking metric titles that make you feel something. So we could have called that measure of companies, number of companies that do not send a support ticket over X period and Y period with min... You sometimes see these charts where the metric itself named itself. This is just companies with zero support, that's it. And the brevity and the focus and the customer mindset built into the chart name can become currency inside the company. It's like, oh, I'm working on making this chart go up and it feels good to just say the name out loud rather than some complicated underscores and mins and maxes and the database field name is still in the chart title.
+
+These are aesthetic choices, but I think make dramatic differences in the cultural willingness for people to buy in and get excited about it and reduce the need of a product person to just remind everyone every day why they're doing it. It's like the metric is motivating us because it's a motivating thing to talk about. And then lastly on metrics is there's just good hygiene that people should bring to their measures. Percentages shouldn't have 41 significant digits if only two of the digits are relevant. You should keep all the measures of your dashboard on the same X-axis. These are just stylistic things that increase the frequency that people want to just wake up every day and open the dashboard and look at it. And that is so powerful if your whole team is looking at the same set of information that has the heartbeat of the customer every single day.
+
+In fact, we can measure at Stripe the usage of our dashboards by team, and so we can see which teams are themselves looking at their own metrics and that is an incredibly useful predictor of how on the same page they are and how customer obsessed they are. So I just think it's not an area that's sort of behind the scenes, bean counting reliability is the machine hot. You can make metrics that mean something to the customer and you would be proud if they were to be screenshot and put on the internet and be like, "Wow, I feel like that company is taking their promise to me seriously. And I can see myself on those metrics as a customer." That's where we're really shooting for.
+
+---

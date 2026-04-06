@@ -1,0 +1,11 @@
+# Joe Hudson — How embracing your emotions will accelerate your career | Joe Hudson (Art of Accomplishment)
+*Theme: influencing-without-authority | Extracted: 2026-04-03*
+
+## Emotional state, not words, determines influence
+
+Joe Hudson (00:34:41):
+Hey, sweetheart, I really hear you want me to take out the trash, and that's not my truth. That's going to be very different than defending that shame. The defending the shame is going to be like, no, it's not my job to take out the chat. You're trying not to feel the experience, which is what's going to do it. The response isn't the important thing. It's really where the response comes from. It's so interesting because people are taught constantly, this is something we teach in the connection courses that it's really not about the conversation, it's about where you're at in the conversation. For instance, when my friend said to me, "Hey, you're a dick." Here's what he didn't do, he's like, he didn't go, "You're a dick. You asshole. You're being an asshole. You're being a dick. Fucking stop it." He was like, "Eh, you're a dick, so what? What's the problem?" He was coming from a place of love for me, and so I could not be defended in my response to him. It's really where you come from.
+
+It's the emotionally where you come from, that's the important part. Not as much what you say. You can see this, a perfect example of this is, this happens all the time in my work. Let's say there's a person who has a CEO and the person is scared of their CEO. Let's say this is the CMO, and they're, "I'm scared of the CEO. I can't say my truth. They're always getting upset. They're going to yell, blah, blah, blah, blah, blah, blah, blah, blah." I'll say, yeah, there's one person who says it though. The answer is always yes. That CEO has one person who they don't yell at, who they listen to, who they'll take the objection from, that they don't get angry with. It's because there's somebody who doesn't approach them in fear. It's because somebody approaches them a different way. Not with judgment, but like, "Hey, look, this is what we have to pay attention to." It's really about how you're coming at it and not what you're saying typically.
+
+---

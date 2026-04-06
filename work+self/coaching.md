@@ -142,6 +142,7 @@
   4. The rule: energy goes to my own scoreboard. Not to prove anything. Not to close a gap.
 * **Why it works for James:** "Sit with the feeling" doesn't land. He processes through action. The old action was comparison math. The new action is building. Same energy, different target.
 * **Origin:** Cheng Ju comp conversation, March 27 2026 — less than 48 hours after Exceeds + $1.2M grant. The status sensor fired anyway. See journal entry for full context.
+* **Second activation (April 5 2026):** Same trigger (Cheng Ju), compounded by Bowen's departure to OpenAI and friends at OAI/Anthropic approaching IPO windfalls. Pattern confirmed: status sensor fires regardless of recent wins or objective financial security (FIRE-ready). New element: James redirected the fuel into a concrete action — promoted interview prep (Track 3) from P2/Tier 2 to P1/Tier 1. Reframe: "There are future boats I can catch, and I should be preparing now." Energy went to the internal scoreboard.
 
 ### On Position in Senior Rooms
 * **Speaking power** comes from being the practitioner, not the strategist.

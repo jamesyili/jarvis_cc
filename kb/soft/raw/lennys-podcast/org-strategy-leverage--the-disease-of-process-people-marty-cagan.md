@@ -1,0 +1,24 @@
+# Marty Cagan — The disease of process people | Marty Cagan
+*Theme: org-strategy-leverage | Extracted: 2026-04-04*
+
+## Empowered product teams vs feature teams — outcomes over output
+
+Lenny (00:20:46): I know you talk about teams and product teams a lot. I imagine people still aren't 100% sure of exactly what you mean when you say that. So let's spend a little time on just what does it look like when you're on a feature team, feature factory versus an empowered product team?
+
+Marty Cagan (00:21:01): Well, there's a lot of clues for sure. Some of the easiest is on a feature team, you're basically given a roadmap of output. That's the key, is output. In other words, their features are projects that usually it could have come from an executive, could have come from a big pocket customer, could have come from wherever. But it's a bunch of features and literally you're being asked to design, build, test, deploy that feature. You're usually given dates and timeframes as well, but that's a feature team. You deliver. And don't get me wrong, that's still work, but that's output. It is a lot easier to deliver output than it is to deliver outcomes. And a product team, an empowered product team, instead of being given that roadmap of features, they're given problems to solve. Now they're customer problems or they're business problems or both, but they're given a problem to solve. Usually one or two a quarter on top of of course the keep the lights on kind of work that everybody does, but they're given hard problems to solve and the measure is not ship the thing. The measure is it solves the problem. And that's why really the biggest difference between a strong product company and the rest is strong product companies understand it's all about outcomes. You just don't get points for shipping, you get points for delivering the value. A lot of the CEOs and CFOs I talk to, they resonate best when I frame it as it's about time to money more than time to market. We know how to do time to market. If you insist on time to market, we know how to do that. The techniques are well-known. The harder part is time to money and I know that's what they care about and that's harder and that's what a product team really does.
+
+---
+
+## Product leaders set strategy, teams solve problems — not top-down
+
+Lenny (00:44:22): I want to touch on something. So I interviewed the CTO of Meta... the way that he framed it is it's actually very top-down at Meta. Zuck and the execs come up with here's what we're working on, here's our strategy, here's our big bets... thoughts on that?
+
+Marty Cagan (00:45:03): So first of all, I would argue what he described is exactly what I see in good product companies, exactly. But we don't frame it as top-down. Top-down is really means something very different. In fact, handing a team a roadmap of features, that's very top-down. Another very common misunderstanding, which comes, again, a lot of the agile coaches, they have misguided so many organizations, but product teams don't do product strategy. Product leaders do product strategy. They need to do the product strategy... Empowerment does not mean you set up this product team and they go decide what to work on. No, that would just be anarchy, right? You'd have 50 teams doing 50 things. Instead, empowerment means the leaders do their job, come up with the bets, and then the teams are able to figure out the best way to solve those problems.
+
+---
+
+## Bloated roles and process theater — smaller teams produce more
+
+Marty Cagan (00:13:34): Here's another one that I think is not talked nearly enough about, and that is in a lot of companies, especially outside of Silicon Valley, team size has just gotten out of hand. I go into some companies and honestly I can't believe all the ridiculous roles that they have. And I'll go into that more if you want later, but no question that people realize that smaller teams can often produce more and better results. How many of your guests have said as much? I've heard it from many of them. It's reducing the size of the organization ironically can get you a lot more in terms of results. So there's this general appreciation that maybe we overdid it here with all of these roles. And of course I'm talking about agile coaches and product owners and product ops and business analysts and all these assistant product manager types... it's gotten out of hand at a lot of companies... And then on top of that, if you get outside of the Silicon Valley bubble, it's even worse because they have been investing at these companies, especially the big companies in all these extra roles... So what's going on in so much of the world is they have so little in the way of outcomes to show for all this cost. And we talked about the sheer number of people becomes a problem and the amount of that cost can be shocking and the amount of waste is basically embarrassing.
+
+---

@@ -1,0 +1,16 @@
+# Seth Godin — Seth Godin's best tactics for building remarkable products, strategies, brands
+*Theme: influencing-without-authority | Extracted: 2026-04-04*
+
+## Getting 40 engineers to work for you with no direct authority
+
+Lenny Rachitsky (10:05):
+On a different note, you mentioned that you were product manager, which I did not know. That's amazing. So most of the people listening to this podcast are product managers. They're either product managers, founders, people that want to be founders, and then people that work with product managers. So first of all, I guess could you just share that part of your life? Because I don't think people know that.
+
+Seth Godin (10:05):
+All right. So the origin story could take all day, but I'm not going to tell the whole thing. I'm going to tell the part that I thought was normal that turned out to be the luckiest thing in the world. The summers between the two years of business school are very important to establish your career arc. I got a job at Spinnaker Software. Spinnaker invented educational computer games. I was the 30th employee. And the summer was spent doing assistant brand manager kind of stuff, going to meetings with the ad agency, writing copy. But at the end of the summer, they had a lovely going away party for me, because I was flying back to California. And then at the end, the president of the company, the chairman of the company and the head of marketing bring me into this side when they say, "We have a secret project, we want you to work for us while you're at business school and we're all going to pay you almost nothing."
+
+"Okay, what's the secret project?" "We're going to do computer adventure games with illustrations and music based on science fiction novels, and we've already acquired the work of Ray Bradbury and Arthur C. Clarke." Now, I had read every science fiction book in the Clearfield Public Library from Asimov to Zelazny. This was a dream come true, but they thought my job was going to be make the packaging and run the ads. And what I discovered, first of all is that I couldn't really go back to business school. So I showed up hardly at all at Stanford and just took a lot of red eyes. But I discovered that the engineers, the development team, they had a lot of people vying for their time. And if I didn't figure out how to get them to give me way more than my fair share of development, I wasn't going to have any products to make next Christmas and then I was going to be out of a job.
+
+And so I started a newsletter internally, I was one of the first people in the world to have desktop publishing because I was a beta tester for the Mac, and in it I would mention anybody in the engineering team who had worked on my project and I would say something good about them. And then I would print it out and put it in every single person's inner office mailbox. And within three months, four months, partly because the project was really good, 40 engineers were working for me and no one was reporting to me. And so I became the de facto product manager and that is when I learned marketing is the product. You don't make a product and then hand it to some marketing yahoo and say, go put a logo on this. That the product we made, and five in a row went gold, saved the company. Though product is why it worked.
+
+---

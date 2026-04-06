@@ -356,3 +356,23 @@ February was about senior peers feeling like they were walking on eggshells — 
 
 ### The fix
 Not about being less direct. It's about building the relationship before the correction lands. The structural gap: James has no 1:1 or regular touchpoint with these PMs, so the *only* interactions are boundary enforcement. The ratio of collaboration-to-correction needs to flip. One warm DM to Akshanta + being visibly warmer in meetings will do more than any behavioral overhaul.
+
+## 2026-04-05 — Status sensor: AI boat edition (Tool 8, third activation)
+
+### What happened
+Thinking about Cheng Ju and Bowen — both now at OpenAI — plus friends at OAI and Anthropic who are approaching IPO windfalls worth $10M+. The feeling: "I missed the AI boat. The people who are good/smart/decisive went to frontier AI companies. I didn't."
+
+### The pattern
+Third activation of Tool 8 in 10 days. March 27: Cheng Ju comp data. April 1: promo positioning. April 5: AI IPO FOMO. Same mechanism each time: comparison point appears → "I feel behind" converts to "I AM behind" with zero gap → identity emergency. The status sensor fires regardless of objective reality (FIRE-ready at $11-12M, Exceeds rating, $1.2M grant, Dylan sponsorship).
+
+### The story I told myself
+"I missed the AI boat. Everyone who's good went to OAI/Anthropic. I'm still at Pinterest. I'm lower tier."
+
+### What's actually true
+The AI wave is a decade-long transformation, not one boat. The infrastructure layer hasn't been built yet. I'm already building the skills that matter — leading AI/ML platform at scale, building with LLMs hands-on, operating at the strategic layer. The people making IPO money joined at the right time, not because they're better. I already tested the external validation path (Meta) and walked away.
+
+### The redirect
+Named the pattern. Separated the feeling from the identity. Asked: "What would I have to believe for this feeling to have no power over me?" Answer: "There are future boats I can catch, and I should be preparing now." Redirected the fuel immediately: promoted ML System Design interview prep (Track 3) from P2/Tier 2 to P1/Tier 1. Not actively interviewing — building optionality. The blog posts (pretrain-finetune, generative recsys) double as interview prep. UPP + PINvestigator interview answer writeups are the first concrete action.
+
+### What's different this time
+The recovery was faster. Named the pattern within the conversation, redirected to concrete action within minutes. Didn't spiral into comp math or LinkedIn browsing. The fuel went straight to the internal scoreboard: what capability am I missing, and what's the first step to close the gap? That's progress.

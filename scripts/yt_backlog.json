@@ -1,0 +1,146 @@
+[
+  {
+    "id": "9vM4p9NN0Ts",
+    "title": "Stanford CS229: Building Large Language Models (LLMs)",
+    "channel": "Stanford Online",
+    "domain": "hard",
+    "source_dir": "stanford",
+    "tags": ["llms", "ml-fundamentals", "transformers"],
+    "duration": "~1.5h"
+  },
+  {
+    "id": "XfpMkf4rD6E",
+    "title": "Stanford CS25 V2: Introduction to Transformers w/ Andrej Karpathy",
+    "channel": "Stanford Online",
+    "domain": "hard",
+    "source_dir": "stanford",
+    "tags": ["transformers", "llms", "ml-fundamentals"],
+    "duration": "~1h"
+  },
+  {
+    "id": "KJtZARuO3JY",
+    "title": "Visualizing transformers and attention — Grant Sanderson",
+    "channel": "3Blue1Brown",
+    "domain": "hard",
+    "source_dir": "3blue1brown",
+    "tags": ["transformers", "attention", "visual-explanations"],
+    "duration": "~1h"
+  },
+  {
+    "id": "T9aRN5JkmL8",
+    "title": "AI prompt engineering: A deep dive",
+    "channel": "Anthropic",
+    "domain": "hard",
+    "source_dir": "anthropic",
+    "tags": ["prompt-engineering", "llms", "ai-agents"],
+    "duration": "~1h"
+  },
+  {
+    "id": "6eBSHbLKuN0",
+    "title": "Mastering Claude Code in 30 minutes",
+    "channel": "Anthropic",
+    "domain": "hard",
+    "source_dir": "anthropic",
+    "tags": ["claude-code", "ai-tools", "developer-workflow"],
+    "duration": "~30m"
+  },
+  {
+    "id": "CXhYDOvgpuU",
+    "title": "Lessons on AI agents from Claude Plays Pokemon",
+    "channel": "Anthropic",
+    "domain": "hard",
+    "source_dir": "anthropic",
+    "tags": ["ai-agents", "llms", "agentic-systems"],
+    "duration": "~45m"
+  },
+  {
+    "id": "ZkwYxYfkfYU",
+    "title": "How I Built an $8M Business with 0 Employees — Justin Welsh",
+    "channel": "Peter Yang",
+    "domain": "soft",
+    "source_dir": "peter-yang",
+    "tags": ["entrepreneurship", "solopreneur", "content-creation"],
+    "duration": "~1h"
+  },
+  {
+    "id": "xUN6udKi50E",
+    "title": "5 AI Prompts that I Use to Create Content for 100K+ Readers",
+    "channel": "Peter Yang",
+    "domain": "soft",
+    "source_dir": "peter-yang",
+    "tags": ["ai-tools", "content-creation", "writing"],
+    "duration": "~30m"
+  },
+  {
+    "id": "DL82mGde6wo",
+    "title": "State-Of-The-Art Prompting For AI Agents",
+    "channel": "Y Combinator",
+    "domain": "hard",
+    "source_dir": "youtube",
+    "tags": ["ai-agents", "prompt-engineering", "agentic-systems"],
+    "duration": "~30m"
+  },
+  {
+    "id": "1QhJAMu83eE",
+    "title": "How LLMs got to Where They are Today (RLHF)",
+    "channel": "Sean McConnachie",
+    "domain": "hard",
+    "source_dir": "youtube",
+    "tags": ["rlhf", "llms", "reinforcement-learning"],
+    "duration": "~30m"
+  },
+  {
+    "id": "zxQyTK8quyY",
+    "title": "Transformer Neural Networks, ChatGPT's foundation, Clearly Explained!!!",
+    "channel": "StatQuest with Josh Starmer",
+    "domain": "hard",
+    "source_dir": "statquest",
+    "tags": ["transformers", "ml-fundamentals", "visual-explanations"],
+    "duration": "~30m"
+  },
+  {
+    "id": "Ub3GoFaUcds",
+    "title": "Stanford CME295: Transformers & LLMs — Lecture 1 (Autumn 2025)",
+    "channel": "Stanford Online",
+    "domain": "hard",
+    "source_dir": "stanford",
+    "tags": ["transformers", "llms", "ml-fundamentals"],
+    "duration": "~1.5h"
+  },
+  {
+    "id": "Cs7QiSi8KLY",
+    "title": "Prompt Engineering is dead.",
+    "channel": "Confluent Developer",
+    "domain": "hard",
+    "source_dir": "youtube",
+    "tags": ["prompt-engineering", "llms", "ai-agents"],
+    "duration": "~30m"
+  },
+  {
+    "id": "rmvDxxNubIg",
+    "title": "No Vibes Allowed: Solving Hard Problems in Complex Codebases — Dex Horthy",
+    "channel": "AI Engineer",
+    "domain": "hard",
+    "source_dir": "ai-engineer",
+    "tags": ["ai-agents", "claude-code", "developer-workflow", "evals"],
+    "duration": "~30m"
+  },
+  {
+    "id": "wHhlvcQgi9M",
+    "title": "7 Habits of Highly Effective Generative AI Evaluations — Justin Muller",
+    "channel": "AI Engineer",
+    "domain": "hard",
+    "source_dir": "ai-engineer",
+    "tags": ["evals", "llms", "ai-systems"],
+    "duration": "~30m"
+  },
+  {
+    "id": "TcomhXpDjaA",
+    "title": "Building eval systems that improve your AI product",
+    "channel": "Lenny's Reads",
+    "domain": "hard",
+    "source_dir": "ai-engineer",
+    "tags": ["evals", "ai-systems", "product-development"],
+    "duration": "~30m"
+  }
+]

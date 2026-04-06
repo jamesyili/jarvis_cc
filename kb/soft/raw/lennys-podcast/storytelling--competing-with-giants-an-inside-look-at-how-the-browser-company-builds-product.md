@@ -1,0 +1,12 @@
+# Josh Miller — Competing with giants: An inside look at how The Browser Company builds product
+*Theme: storytelling | Extracted: 2026-04-03*
+
+## Naming things to force first-principles thinking
+
+Lenny (01:04:32): One last thought, I was going to mention it in terms of the storytelling movie-making elements of Airbnb. Fun fact, there was a period where product managers were actually called producers, because one of the founders was like, "We don't want to manage product, we want to produce beautiful experiences," like a movie producer. And so that was a year and a half maybe of Airbnb's history, where product managers were producers. The problem is, we got a lot of job applicants from Emmy-winning producers and they're like, "oh, I want to work at Airbnb."
+
+Josh Miller (01:05:01): I know this podcast is about very tactical advice. So, one tactical piece of advice I'll give is, whether or not you like the idea of the storytelling team or something else, a byproduct of some of these experiments that we've found works really well is when you give something a new name, it sheds a lot of preconceived notions of what the thing should be. We found that even with product. So if you say you're building a browser history feature, then the benefit is everyone knows what you're talking about. And the downside is, everyone knows what you're talking about. And you show up with these preconceived notions of what it has to be. And so, if you go back again to revalue ask what could be ... In many ways the point of calling the team, the storytelling team or the membership team, or not having PMs as an organization ... All of this stuff isn't meant to be novelty for novelty's sake. It's meant to almost be a rhetorical tactic, to make people think truly first principles about what are we trying to do here?
+
+And again, if at the end, producers are called PMs, that's fine. But I assume when it was called a producer, a much more intentionality was given to you communicating and talking and discussing, what does a producer do? What's their relationship with design? Because no one knew what the heck a producer was. And so, ultimately, that may have been failure in other ways. But that's one of the things we found tactically to be really helpful is, whether it's a product feature or a team, or whatever, give it a made up name just to really get to the root of what you're trying to do there. Or not borrow too much from wherever you worked before, whatever you've seen, popular media or whatever.
+
+---

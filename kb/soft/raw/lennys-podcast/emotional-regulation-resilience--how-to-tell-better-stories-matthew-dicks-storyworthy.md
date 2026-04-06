@@ -1,0 +1,15 @@
+# Matthew Dicks — How to tell better stories | Matthew Dicks (Storyworthy)
+*Theme: emotional-regulation-resilience | Extracted: 2026-04-04*
+
+## Recovering from failure: move on like a child after striking out
+
+Matthew Dicks (00:38:19):
+So a great example was, one of Boris's early stories, he came to me, and he said, "My son was at bat in the Little League Championship game. The bases were loaded, if my son got a hit, the team was going to win the championship. And if my son struck out, the team would lose the championship." It's a three and two count. It is like the ultimate baseball moment, and his son strikes out. He watches his son drag that bat back to the dugout. He's devastated. His son's devastated and Boris is devastated. So he is trying to collect himself so he can figure out the right thing to say to a boy who's just lost the championship for his team. By the time he makes it onto the other side of the field to catch up with his son, he sees his son running up a hill with his friends, and they're already laughing.
+
+They're heading to the cars so they can go to ice cream, and they can enjoy themselves. So Boris is falling apart. He's still devastated, but his son has already moved past the failure. Boris takes that story, and he crafts it as a beautiful story that he could tell on a stage, and perform and make, an audience laugh and cry. Once the story's done, he says to me, "So what are we going to do with it? How are we going to apply this to business?" And ultimately what happens is this, he's got a sales team. And quite often salespeople do not land the big account they're hoping to land, and Boris knows that when his salespeople fail to achieve what they want to achieve, they will often sulk for days. They'll wander around the office, and be useless because they're still trying to get past the fact that they just lost the million dollar contract.
+
+So he tells the story about his son, and he says, "Listen, there's nothing wrong with being sad, being upset with failure, but we cannot allow it to slow us down as much as we are right now. We have to think about my son. My son dragged his bat back to the dugout. He sat down, he sighed, his buddies patted him on the back, he collected himself, and he moved on. That's what we need to do. When we fail we're going to take a moment to collect ourselves, to think about the mistakes we made, to decide what we're going to do differently, and then we're going to move on." That becomes a really important moment in his company.
+
+It's much better than him standing up in front of his people and saying, "Listen, every time you guys fail to land a big sale, you wander around this office like you're dead, and you're wasting our time. It ends today. Today from now on when you fail, you're going to move on." The story becomes something meaningful to everyone because it reveals something about Boris. He's a father, he's a father who cares about his son. He's the kind of father that most of us are in life. He shares of himself with his people, and he creates a tangible vision of what the sales team can do.
+
+---

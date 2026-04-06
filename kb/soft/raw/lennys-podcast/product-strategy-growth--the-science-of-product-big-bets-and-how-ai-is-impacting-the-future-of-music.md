@@ -1,0 +1,31 @@
+# Gustav Söderström — The science of product, big bets, and how AI is impacting the future of music
+*Theme: product-strategy-growth | Extracted: 2026-04-04*
+
+## Curation to recommendation to generation: the three eras of the internet
+
+Lenny (00:12:38):
+I love that. So I was listening to it, as I said, and what was really interesting is I think episode four was actually all about AI, and I think your first attempts at leveraging machine learning in AI within Spotify. And I think that's what led to Discover Weekly and a few other tools. And that was years ago. And it's interesting listening to it now where AI is, again, a huge deal. And so I'm curious very tactically on the product team what you advise product managers and product teams on how to think about AI in their product thinking and also just in their day-to-day work.
+
+Gustav Söderström (00:13:12):
+I can give a few examples there and I don't know that we're more sophisticated than anyone else, but we'll be doing at least the traditional machine learning for quite a long time. And I think in the podcast, I think I talked about the journey of the internet in stages. And one way to think about it is that the internet started with curation of the user curation. So you took something, some good, like people or books or music and you digitize it and you put it online, and then you ask users to curate it. And that was your Facebook, Spotify and so forth. And then after a while, the world switched from curation to recommendation, where instead of people doing that work, you had algorithms. And that was a big change that required us and others to actually rethink the entire user experience and sometimes the business model as well.
+
+And I think what we're entering now is we're going from your curation to recommendation to generation. And I suspect it will be as big of a shift that you will eventually have to rethink your products. So that's one lens. So I tend to talk to my teams about, even though it's all machine learning, I ask them to think of this as something completely different. The recommendation error was one type of machine learning. The generation error is a different type, so don't think of it as just more of the same, think of it as something actually completely new instead. And what we learned in ... Well, a few things. So if you look at this new era of large language models and the fusion models and so forth, there are two types of applications. As I said for the recommendation error, we had to rethink the user interface and the experience for recommendation first error.
+
+And so what does that mean in the generative area? No one really knows yet. As usual, there are a bunch of iterative improvements. So we use these large language models to improve our recommendations. You can have bigger vectors that can have more cultural knowledge. You can use it for safety classification on podcasts that no one has listened to yet and so forth. So there's lots of obvious improvements and we're doing those. But so far, we've only really done one real generative product in the hard definition, which is a product that couldn't have existed without generative AI, and that is the AI DJ.
+
+---
+
+## The taste bubble problem: why discovery requires a fundamentally different paradigm
+
+Gustav Söderström (00:45:09):
+What we hear from users again and again, though, is that they say that they get trapped in a taste bubble. So I love my Spotify, I love this, but I'm a little bit bored with EDM now and Spotify's not suggesting something completely new. And if you think about that problem, it may sound similar to the recommendation problem, it's just another recommendation problem, but it's actually fundamentally different because when you're recommending another EDM track inside the EDM playlist, you have a lot of signal from that user that they like EDM. But if you're going to recommend a completely new genre, by definition, you have no idea. Because if you had an idea, it wasn't new to them. So you can't know anything. So back to hit rate, your hit rate is going to be incredibly low when you suggest something completely new to the user.
+
+So this problem of helping people get out of the taste bubble isn't that easy as it sounds. And we can't really take some genre that maybe isn't typical. So I'm a big fan of Reggaeton, for example. It's not typically ... It's not that common in Sweden. And if you would look the rest of my profile, it's EDM heaviness, you probably wouldn't have guessed it. And Spotify wouldn't have guessed it. So if I'm listening to my favorite EDM playlist in the background or maybe my metal playlist, metal is very big in Sweden, it's really hard for us to just insert a Reggaeton track in the middle of that. Most people are going to think Spotify's broken.
+
+What the way it works right now, and this is what you can see in the Twitter comment, if you remove the angry voices and try to see what they're saying, they're saying the following, which is actually quite clear in the quantitative data as well, that if you look at what people do on Spotify's homepage, the current one, it is almost 90% what we call recall.
+
+So it is either getting to a session that you're already in or a specific playlist that you know you want to get to or at least a specific use case. So you come in with a high intent, you actually knew what you wanted, and maybe only 10% of the time as a true discovery, like I don't know what I want. So if you think about, that is 90% recall and 10% discovery. When we tested the design ... So the subfeeds were working and not working, but when we tested some of them on Home, we switched it from 90/10 to 10/90. So 10% recall, 90% discovery. And while people want discovery, they probably don't want 90% discovery, instead of 90% recall. So if you then look at the comments on Twitter, what they're saying is like, "Hey, I can't find my playlists anymore. Where are these things?"
+
+They're not really complaining about the discovery, they're complaining about the things they don't get anymore. And we can see this in the quant data as well. And you can see traffic shifting from home into search and into library, which is a clear sign people are trying to find the things they can't find anymore.
+
+---

@@ -1,0 +1,18 @@
+# Casey Winters — How to sell your ideas and rise within your company | Casey Winters, Eventbrite
+*Theme: entrepreneurship-traction | Extracted: 2026-04-04*
+
+## How DoorDash disrupted Grubhub's network effects via new supply model
+
+Lenny (00:44:35): We've been talking about Grubhub a lot. Grubhub had some pretty strong network effects, in large part, thanks to the work you did. One of the benefits of network effects is it creates a barrier to entry. It's hard to replicate and compete with a company where they already have all this network effect, but famously, Grubhub got disrupted by DoorDash and Uber Eats. Maybe you can talk about how that happened and why that happened.
+
+Casey Winters (00:44:35): Sure. It's a great question. I think people do mistake any form of network effect as this perfect form of defensibility. They're the best form of defensibility, but that doesn't mean they're immune to disruption. I think the main way this happens with cross-side network effects that we typically talk about for marketplaces is when a disruptor dramatically expands selection.
+
+One important thing to remember is Grubhub was an asset-light marketplace model. Restaurants did their own delivery through their own delivery drivers that they hired. What happened about a year before I left Grubhub was that these competitors started to raise their seed rounds or series As to build delivery networks. Postmates and DoorDash were the first two that rose to prominence. Uber Eats would come later, but they actually started with a pretty different business model, and this is an extremely different business. You're hiring drivers, you're managing logistics. We call this a heavily managed marketplace model, as you are now facilitating the transaction versus just connecting buyers and sellers and taking payments like Grubhub did.
+
+DoorDash, when it started, operated in less dense suburbs and worked with restaurants that had never done delivery before, and they would provide the delivery drivers themselves. This allowed DoorDash to grow without much competition in the early days. These companies also took some real gambles. One of the things they did is they delivered from restaurants they didn't have an agreement with, and that caused controversy and lawsuits. What it meant is when these companies did launch in the cities to go after Grubhub, it felt like DoorDash, and Postmates, and Uber had dramatically larger selection of restaurants to choose from, and Grubhub was definitely no longer near comprehensive.
+
+Back when we talked about cross-side network effects, the more selection of restaurants, the more attractive it is to users and vice-versa. At that point, Grubhub's put in a very peculiar position. It had gone public after raising $80 million in venture capital and raising a $100 million in an IPO, telling investors it's an extremely profitable, high-growth, asset-light marketplace, but now it's got disruption pressure from operationally intensive negative-margin delivery services that were raising $100 million every six months from the private markets.
+
+What Grubhub assumed is that these businesses were just structurally unprofitable, and that VCs would stop subsidizing them eventually. Of course, that didn't happen. They kept raising more money. DoorDash eventually raised multiple billions of dollars in this market. Part of what they used that money for was to lock up agreements with national chains, which Grubhub never worked with. It was always like the local mom and pops, and promotions and discounts on the demand side. All of this is happening, and then the pandemic hits, and all of those negative margins turned positive for DoorDash for the first time.
+
+---

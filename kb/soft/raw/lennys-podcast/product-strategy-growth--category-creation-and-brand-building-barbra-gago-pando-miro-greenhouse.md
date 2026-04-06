@@ -1,0 +1,30 @@
+# Barbra Gago — Category creation and brand building | Barbra Gago (Pando, Miro, Greenhouse, Culture Amp)
+*Theme: product-strategy-growth | Extracted: 2026-04-03*
+
+## When to create a category vs. win an existing one
+
+Lenny (06:32): And so the first question is just say at Miro or Greenhouse, can you just talk through your thought process of trying to decide, should we invent a whole new category that we're going to win or should we just try to win an existing category and how did that go?
+
+Barbra Gago (06:45): They're both great examples because in one, we did create a new category and in the other, we tried and abandoned ship. With Miro, I think when I joined the company, there was this concept of an online whiteboard, which also is a category, but it's a much smaller category and it wasn't something that a lot of people searched for. And I think the biggest motivating factor of thinking about category creation at Miro was how do we become something really big and needed by every company and not just this little thing that maybe product teams would use or maybe engineering teams or schools or something like that.
+
+When you're thinking about category creation, it's really, for us, it was really about the scope of what we're trying to do and not wanting to be in something too small. And I think with Miro, the platform that it is, there is so much possibility. I used to joke that it was, even as a company, we were the ever expanding universe. There's just so much to do there, but online whiteboard was really small.
+
+Greenhouse is in the ATS category, which is applicant tracking system. And at the time, applicant tracking systems had a really bad name. I don't know if folks that listen to this know of Jobvite or remember Jobvite, and there were a lot of systems before that. Jobvite had come in the mid-2000s as the new and improved ATS and it was all about social recruiting, but it was very transactional and it wasn't very strategic. And so we wanted to steer clear of the ATS space even though we were an ATS. We can talk more about what we tried and what we ended up doing, but I think the main factors when you're thinking about category creation is really what budget companies have, if they have a budget, if they don't have a budget. Companies did have a budget for ATS, for example. Until now, I don't think companies had a budget for visual collaboration. For example, what's the language and the words that people use to describe their pain points and their situation, the things that they need? And then is their competition?
+
+And sometimes, competition, you would think like, 'Oh, we want to not have competition, so let's build a new category.' But ultimately, you're not building a category until there is competition. It's not officially actually a category until there's more companies that do that. And that was a big learning for me in this whole process of category creation, is that it's actually okay when new companies come in that say they're that category because it's just validating the fact that there is a new category.
+
+---
+
+## Abandoning category creation when buyers don't follow
+
+Lenny (16:35): You mentioned a few components of when it makes sense to come up with a category. One is there's budget already against it. Two is people use the words associated with that category. I imagine with Miro and this idea of, what was it, visual collaboration, there wasn't budget for that yet. So how does that work?
+
+Barbra Gago (16:53): No. That is more of the vision piece, I would say. Sometimes you can have a vision that customers, they don't have it yet or they don't share it, but they can grow to share it and they did in that case. And I think that with Miro, we still worked to optimize where we could in terms of the categories that we did fit into or how people talked about us, but it was also such a new format and it was really a disruptive product that didn't exist before in the enterprise so that it was called a lot of different things. So it was much more fluid and people talked about it in different ways, and this was our way of hearing the feedback about how people talked about it as online whiteboard or lots of jobs to be done were framed, mind mapping platform or diagramming or whatever, all of these little things.
+
+And so visual collaboration was our way of putting a nice bow around this thing that could then be an enterprise product that solves a lot of different problems for a lot of different use cases and different types of users. We started out selling and having a lot of users that were in product and in engineering and teams that were used to using whiteboards anyway and then needed to do it in a distributed way, but very quickly packaged different types of jobs for HR teams or marketing teams or design teams and pretty much anybody in the organization. But it needed to all come together cohesively; otherwise, it was like everybody in the org just calls it a different thing because they use it in a different way.
+
+Lenny (18:37): Part of what I'm hearing is that you don't stop working on the other categories that it already sits within and just keep optimizing those but in parallel, start to try to pull together, hey, there's this bigger vision of where this could be. Does that sound right?
+
+Barbra Gago (18:50): I think so. And it's really where you get the inputs from your customers and your users. We heard all these things. Miro, we did a lot of content marketing. That's a big piece of doing category creation generally I would say. But there's a lot of different ways that people talked about it, and so that's an opportunity to actually come and say, okay, here's what it is because no one knows, and it's all of these things and all of these things together equals this now. And then that created momentum where other companies started thinking like that and then they started tagging themselves as that category as well, and then you had a category of multiple companies now that were doing similar stuff.
+
+---

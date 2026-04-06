@@ -1,0 +1,8 @@
+# Casey Winters — Why most product managers are unprepared for the demands of a real startup
+*Theme: entrepreneurship-traction | Extracted: 2026-04-04*
+
+## Build growth loops before PMF so distribution is ready when product is
+
+Casey Winters (49:12): Yeah, sure. I think there was this conventional wisdom to just focus on building until you found product market fit and then you can worry about growth. And of course there's some truth in that statement, but now as I'm talking with more and more founders and I'm sure you're seeing this yourself, is we're seeing founders who are thinking about building growth loops into their product before they find product market fit. And it's not so that they can prematurely scale before they have product market fit. It's so that when they find product market fit, they have that built in distribution advantage to grow once they're ready. And founders are starting to intuit what I've written about a bit as well as you, which is that scalable acquisition or what we call an acquisition loop is a requirement for product market fit. Like if you got a product that retains well and you can't find more users for it, I don't think that's product market fit, so it's really exciting to see that evolution and to see founders think about like it's not about getting a bunch of users before you have a product that works. It's about thinking strategically about how this product's going to grow itself when it's ready to do so. I'm really excited to see the next generation of founders build that muscle early on and also leverage it when they're ready instead of just like, oh, I'm going to throw a bunch of paid ads at it and it's going to work, so that's something I'm really excited about.
+
+---

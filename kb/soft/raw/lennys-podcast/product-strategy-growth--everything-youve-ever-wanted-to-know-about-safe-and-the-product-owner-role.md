@@ -1,0 +1,20 @@
+# Melissa Perri — Everything you've ever wanted to know about SAFe and the product owner role
+*Theme: product-strategy-growth | Extracted: 2026-04-03*
+
+## Connecting product work to business outcomes, not just shipping
+
+Melissa Perri (00:33:23): With all of this stuff, people feel like they don't have time because they're in a million meetings, and the expectations of these companies is that every sprint, we're delivering software towards these roadmaps that we promised in the last quarter and we're not checking to see if they're right, we're not checking to see if they're actually helping us move it forward, and a lot of times the organizations are not set up with the right feedback mechanisms, the right user research and the right data to tell us if everything is working so they can feed that in to the next release planning. They're just planning, planning, planning, breaking it down into sprints and going.
+
+SAFe is not good at describing how you do all that other work. In a lot of this stuff too, there's pieces that they put onto this map of SAFe where they're like, "Hey, you should do OKRs," and it's like, "This is what OKRs are. You should do a roadmap. This is what a roadmap is." How all of that cycle works together where you're balancing discovery and delivery and feeding it in is really confusing in organizations. Then what it's basically saying is a lot of the discovery work goes into the product managers, and the product managers, the product owners report into the product managers. What I've seen that doesn't work here is that you're basically making these product owners order-takers. They are extremely tactical, and then when it's time to actually be more strategic, let's say you want to be promoted to a product manager, some organizations, that's not even the same business line, not even the same career path. It's product owners go over here and product managers go here and they report into different people.
+
+If you ever want to move from product owner to product manager, a lot of times you don't get experience with the strategy, figuring out what customers want, breaking it down, looking at the market research, determining is this valuable, is this what we should be working on. They're not even getting exposure or a chance to do that because SAFe is like, "No, that's the product manager's job. Your job is to go really deep and work with the developers."
+
+---
+
+## Software strategy must live at the C-suite level
+
+Melissa Perri (01:21:21): I see software strategies and digital strategies becoming so intertwined into the strategies of companies in general, whether you're an insurance company or a bank or anything. They're becoming so heavily entwined in the C-suite strategies. The first thing I would say, and where I see a lot of companies struggle with this is you have to make sure that it is thought of at the C-suite. What some organizations do is go, "Oh, no, that's IT work. Let me push all the software strategy down." If you're doing that, you're missing out on innovation, and this is where the product role comes in and where I think more organizations need chief product officers because they're the person in the C-suite saying, "How can software enable us to be 10 times better and crush our competition, whether we're a bank or insurance company or a pharmaceutical company? What can we do with our software that's going to put us ahead of the competition, that's going to put us ahead of the market?"
+
+If you're not having those conversations when you're thinking of your long-term company strategy, you're behind, you're behind because that is what every small high-growth startup is doing that's coming out to try to disrupt these big companies. The big companies are successful, they have a lot of money so they don't have as much urgency as sometimes these smaller companies do to change or somebody who's failing to change. That's why things are going so slow, but at the same time, if we don't pay attention to that and we're not considering it, that's where the danger comes in.
+
+---

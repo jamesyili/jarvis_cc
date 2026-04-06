@@ -1,0 +1,16 @@
+# Crystal Widjaja — How to scrappily hire for, measure, and unlock growth | Crystal Widjaja, Gojek
+*Theme: entrepreneurship-traction | Extracted: 2026-04-04*
+
+## Doing things that don't scale — Wizard of Oz testing at Gojek
+
+Lenny (00:13:02): Amazing. Okay. That's super interesting. Okay. So transitioning a bit to growth and things you've learned along the way. So you talked about how, I think Gojek, you said hired tens of thousands of drivers really quickly. Are there things that startups in Asia do that you think companies in the US should do and can learn from in terms of growth?
+
+Crystal Widjaja (00:13:22): Yeah, so we did crazy things. If someone told you, in the US, that they were going to rent out a stadium, pre-load a bunch of mobile devices, market that drivers should come here in mass for a job fair. They're going to give them a phone and send them on their way, some people would say, "No. That's crazy. Won't we get in trouble." And to an extent, maybe that's true. So maybe there are some limitations there, but this concept of doing things that are somewhat crazy, but validate a point, doing stuff that don't scale, especially I think is really the bread and butter of what we did at Gojek. We were insanely scrappy.
+
+(00:14:02): We would do things as simple as wanting to test a subscription feature, which was just released in Singapore a couple weeks ago. We ended up saying, "We have this voucher system that we can distribute vouchers in the back end. We obviously know our driver's phone numbers. Why don't we just add them to a WhatsApp group?" We'll add a hundred drivers randomly to a WhatsApp group. We'll tell them, "Every time you are on a ride with a customer, try to sell them this pitch. You are the only driver who can sell a subscription package. Have the customer give you $10. Text us when they say yes. Someone will be sitting by this phone all day, every day.
+
+(00:14:46): We'll look up the customer that you were on a ride with in the backend, we'll give them the vouchers in the back end, and then we'll deduct $10 from your balance." It works. It's really this Wizard of Oz experience. We don't have to build anything. I coordinated with a bunch of interns and we were able to validate some of the value prop and conversion rates that we would expect in a subscription service. When we wanted to do a new onboarding screen, but turns out we have lots of engineering work to do, we took a screenshot of the screen as is, and we just had our designer put what the onboarding flow might look like if we had to overlay it on top of the screen.
+
+(00:15:27): And we just sent that as an in-app message. And then eventually I think finding stuff that does scale intuitively. We knew that we were sending out lots of fake features through things like Typeform surveys. Things like a personality quiz can be very easily done through Typeform. And we realized that if we built in the in-app webpage and we made it easier for us to do a website deployment on our backend side, we wouldn't have to wait for a mobile app release to test some of these new features out that could be done on web. So it's really just like, what is the user experience that we want to create? How do we manifest that as quickly as possible? Let's just try that first.
+
+---

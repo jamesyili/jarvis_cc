@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-04-02
+Last updated: 2026-04-05
 
 ---
 
@@ -10,9 +10,9 @@ Last updated: 2026-04-02
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `goals.md` | Ranked goals G0-G5, bets, operating principles, internal scoreboard | 2026-03-31 |
-| `journals_and_growth.md` | Synthesized lessons, active growth edges, coaching triggers, chronological journal entries | 2026-04-03 |
-| `coaching.md` | David (strategy) + Rodney (mindset) session logs, tools, behavioral frameworks | 2026-04-01 |
+| `goals.md` | Ranked goals G0-G5, bets A-E, operating principles, internal scoreboard | 2026-04-05 |
+| `journals_and_growth.md` | Synthesized lessons, active growth edges, coaching triggers, chronological journal entries | 2026-04-05 |
+| `coaching.md` | David (strategy) + Rodney (mindset) session logs, tools, behavioral frameworks | 2026-04-05 |
 | `communication.md` | DISC profile, audience playbooks, speaking patterns + checklist | 2026-03-01 |
 
 ### work+self/people/
@@ -63,7 +63,7 @@ Last updated: 2026-04-02
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `learning_agenda.md` | 5-track curriculum, prioritized for Q2 2026; new modules 1.10, 2.8, 4.4 on AI systems thinking | 2026-04-03 |
+| `learning_agenda.md` | 5-track curriculum, prioritized for Q2 2026; Track 3 promoted to Tier 1 (April 2026) | 2026-04-05 |
 | `clr_codebase_notes.md` | CLR/P2P learning notes from codebase exploration | Unknown |
 | `sources.md` | Knowledge base source registry — 13 curated feeds, sync status | 2026-04-02 |
 | `articles/` | 945 ingested articles across 13 sources, organized by source slug | 2026-04-02 |

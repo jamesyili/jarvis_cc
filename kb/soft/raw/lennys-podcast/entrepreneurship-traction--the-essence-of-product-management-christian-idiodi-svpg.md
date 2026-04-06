@@ -1,0 +1,16 @@
+# Christian Idiodi — The essence of product management | Christian Idiodi (SVPG)
+*Theme: entrepreneurship-traction | Extracted: 2026-04-04*
+
+## Doing things that don't scale to discover what does
+
+Christian Idiodi (00:35:22): And I said, "Wow, that does sound like a problem." He's like, "Yeah, imagine if this breaks out in the news and all of that. But more importantly, we still need to get all their paperwork. So all these people are going to quit and we'll have a new bakery without employees." And my first question to him as a product guy is like, "Wow, would you give me a million dollars to solve this problem?" And it's like, "No, seriously?" I was like, "300,000." I'm throwing out numbers. He's like, "Maybe." I said, "Wow, you have my attention." I go to my CEO, I tell him to call. I grab a designer and an engineer. I just say, "Hey look, I would love to work on a little project with you all if you have some time." I kind of debrief them on the call. Now the first thing I have to do is to try to define the problem, identify problems. What really is the problem going on?
+
+Yeah, we're breaking it down, we're talking through this. We say, well, at the end of the day, Starbucks needs to hire like 800 people quickly because we can't fix getting everybody's paperwork. But they're going to lose these people and they need to hire those quickly. And I say, well, who else has this problem? We're trying to throw out guesses. I'm like, "What are we talking about? Let's go out." Everybody jumps in my car and we start driving around and this is where we're doing our product work from. We're talking in the car, just out of the building. We see a new construction site for a new McDonald's coming soon and we're curious. We're like, well, "Let's go find out." We start talking to people on sites.
+
+[...after iterating manually with McDonald's and Starbucks...]
+
+Around this time, it was the holiday season, so we reached out to the person at Macy's. We told them about our work with McDonald's. They say, "Oh, we'll try this." We started working with them. You can imagine through this, the engineer is thinking, how can I use technology to improve this? I always tell this to people, I never wrote a requirements document, I never wrote a story. So the designer is thinking, how can we improve the end-to-end experience? Okay, we need a recruiter experience, a job seeker experience. We had a funnel. We need to build a scheduling tool so that they can scale the interview. Oh, what about notification? Maybe text message. We can send them a map so that they can know how to get to the... I mean, all of these things, because they were involved from the very beginning in defining the problem, they were immersed in the solution to the problem. It takes us about eight and a half, almost nine months to build this. When we launched this product in its first 90 days, it booked $32 million in sales.
+
+Lenny (01:46:06): That's right. You do things that don't scale and then you do things that do scale. And it's so powerful when you discover how to do things that don't scale, when you actually know. Because it's the power of technology is just the beauty of what it can do at scale.
+
+---

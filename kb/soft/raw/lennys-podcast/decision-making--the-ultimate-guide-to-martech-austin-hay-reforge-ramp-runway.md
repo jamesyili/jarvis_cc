@@ -1,0 +1,24 @@
+# Austin Hay — The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)
+*Theme: decision-making | Extracted: 2026-04-03*
+
+## Thinking gray — don't decide until you must
+
+Lenny (01:11:14): Is there anything else you want to share before we get to our very exciting lightning round?
+
+Austin Hay (01:11:14): The only thing I had wanted to fit in, which I feel like is maybe a framework or maybe just a really good decision-making philosophy is this concept of thinking gray. Have you heard of it before?
+
+Lenny (01:11:26): No. Go on.
+
+Austin Hay (01:11:27): Okay. So, Steven B. Sample is a professor at USC. He wrote a book called The Contrarian's Guide to Leadership, really great book. It's one of his principles. There's actually a lot of great principles in the book, but this is the one that I think has stuck with me the most in my career. And the concept of thinking gray is so often in life and in our jobs, we are forced to make decisions very quickly. We have to think black or white about a problem set or a solution, and then decide. One of his tactics is this concept of thinking gray, which is actually to not decide for as long as you possibly can before you have to decide. It's really challenging because it involves this little thing called patience, which I do not have a lot of, most of the time, and I know most people don't as well. But it's particularly really relevant in systems thinking and product because so often we believe that we have to make a decision because our boss is telling us because there's an OPR, because we feel the pain because somebody's complaining to me.
+
+(01:12:30): But actually in reality, you don't have to make a decision at all. You can just let it sit for a while. And this also applies to, I think, how you move through the world and view people. A lot of times we will meet somebody in a company setting or in a business setting, and we are quick to make decisions about them. We even asked me questions about how I hire people very quickly. We're looking for shortcuts to make decisions about evaluating people. One of the best pieces of advice though about thinking gray is it gives you the grace to not decide about people until you have to decide. So, obviously for an interview decision, you have to decide.
+
+(01:13:05): You have to decide yes or no. But so often you'll come across people and you'll meet them once or twice. And I feel like there's this tendency in the back of everybody's brain to be like, do I like this person? Do I want to work with them? And the question often is not that it's do you have to even make a decision right now? And by leaving yourself to have space to decide, you actually open up the possibility that in the future you'll make a better decision. So, I think that's a really good lesson for systems, and it's obviously a lesson that you can apply to the rest of your life too.
+
+---
+
+## Build-and-buy vs. build-versus-buy as decision framework
+
+Austin Hay (01:08:59): And then another one that I've already mentioned too is it's B and B as opposed to BVB. So, build and buy as opposed to build versus buy. People all the time just think the second that you're talking about implementing a tool or procuring a solution, it's, Hey, I want to build this thing or I want to buy this really expensive thing. Build versus buy is a very narrowly constricting decision tree. If it's only build versus buy, then you've already made the decision that you can only do one or the other, which means you're already fighting somebody at your organization. Build and buy means that both of you can win and you can actually create a solution that is not only unique but saves the company time and resources and makes everybody happy. It's more of a consensus driven approach. Whenever I hear in a meeting or a call or some discussion about how we have a tool and it's really expensive and we want to build in herself, I try to just use the build and buy framework to tee people up and say, what about the problem? Can we buy? What about the problem can we build? And where does it make sense to invest our resources and our people accordingly to get the optimal outcome? A great example is a company that I was consulting for was thinking about building their own AB testing tool. And actually we had the same problem at Ramp recently, and they're like, well, we just think we should build ourself. This is core to our technology. We have the engineering resources to do it. And they were evaluating it to build the entire system themselves or buy a third party, I think it was split.io or something like that. And the entire engagement was basically designing a financial model to show them that they could make a lot more money, save money, move faster if they just bought the third party tool at the lowest possible cost and spent all of their resources that they were going to spend building it, building around it and making it their own.
+
+---

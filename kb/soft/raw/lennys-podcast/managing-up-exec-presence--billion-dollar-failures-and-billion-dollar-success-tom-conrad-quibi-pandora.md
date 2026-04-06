@@ -1,0 +1,22 @@
+# Tom Conrad — Billion dollar failures, and billion dollar success | Tom Conrad (Quibi, Pandora, Pets.com, Zero)
+*Theme: managing-up-exec-presence | Extracted: 2026-04-03*
+
+## Being a founder's right hand: knowing the tradeoff going in
+
+Tom Conrad (00:58:34): So I leave, and when some of that buzz wears off, I start to wonder if there's some red flags here maybe. So I tell Evan, "Listen, I'd like to come back and meet more of the leadership team and spend more time with you, go a little deeper on what this means." And so we extend our courtship by another week or so, and I'm super impressed by the rest of the leadership team and the product thinkers and the designers and things that I was going to get to work with on a daily basis. And so I take the job full knowing that it's going to be wildly different than Pandora, where I had all of this latitude to do whatever I might want to do, and in the context of Snapchat, at best, I was going to be Evan's right hand, a person that principally executed his vision.
+
+And that's certainly what it was. I mean, Evan and I ended up having a really great collaboration, but it was certainly most days, I was executing on his vision, both at a high level, and very much in the details. And Evan's truly brilliant, I mean, and he's also actually a really nice guy. I think in some ways, he gets a bad rep for... He has very high standards, but he's a very kind person, in my experiences with him. But it was a super exhausting job and not as soul satisfying as I wanted it to be. And after a couple of years, like I said, I thought maybe I just wanted to make croissants or something.
+
+But one really, really big important lesson that I learned at Snap is about risk taking. And when you have the financial support and the foundational relationship with your investors that Evan has, it really allowed him to take these really big swings, acquire a technology that he thought was game changing, build features speculatively that maybe would be pruned in any other product roadmap planning process because the odds of them having an outsized impact were modest. And it just allowed him time after time to make bets that paid off, and we forget about the ones that don't work when there are so many home runs in those years. And we didn't have... Environmentally, we weren't set up for that at Pandora, but I think in some ways, I wasn't temperamentally inclined to those kinds of big swings. And I think I take bigger risks and encourage bigger swings now because of things I learned from Evan and Snap.
+
+---
+
+## What board members actually care about: the equation, not the features
+
+Lenny (01:14:36): I really love that takeaway of as a CEO coming back to share, here's what you should be thinking about that the CEO is probably thinking about, as a product leader, you may not be, of trying to actually spend the time to think about the business model and understand it deeply because your founders are thinking about it all the time. And so if you're not, you're missing out on here's a way to influence them, here's a way to...
+
+Tom Conrad (01:14:57): It's so funny too because it's a thing I suddenly understand something that mystified me through my entire career, which was I'd go to board meetings and the investors would ask these probing questions, but they were really never about the product and what the product did and what the product roadmap was and what the features were and what this... It all seemed to operate at this level that was almost completely independent of the details of the "what is the solution you put into the world", which as a product-oriented thinker, was just completely baffling to me. And I now realize that they were tilling the soil that I'm talking about, they were tilling.
+
+It doesn't really matter what the screens are and what the features are. I mean, it certainly matters, but that there's another higher order way to look at a company, which is really about the optimization of this equation. And I think particularly, if you sit on 25 boards, it's probably a much more efficient way to evaluate how your companies are doing and where to spend your time and how to help by thinking about them abstracted up at that layer. So I will never stop thinking about software development as being an art form and I will never stop enjoying the days when I get to lean in on the details, but it's been pretty eyeopening.
+
+---

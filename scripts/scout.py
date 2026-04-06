@@ -44,7 +44,7 @@ def main():
             hard_touched = any(
                 slug in {"aman-ai", "chip-huyen", "eugene-yan", "lilian-weng", "karpathy",
                           "cameron-wolfe", "sebastian-raschka", "nathan-lambert",
-                          "simon-willison", "jay-alammar", "louis-wang"}
+                          "jay-alammar", "louis-wang"}
                 for slug in created.keys()
             )
             soft_touched = any(

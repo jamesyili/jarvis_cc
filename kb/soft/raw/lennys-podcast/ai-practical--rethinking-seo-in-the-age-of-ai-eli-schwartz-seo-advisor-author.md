@@ -1,0 +1,31 @@
+# Eli Schwartz — Rethinking SEO in the age of AI
+*Theme: ai-practical | Extracted: 2026-04-04*
+
+## AI Overviews eating top-of-funnel, mid-funnel survives
+
+Lenny Rachitsky (00:20:19):
+So help us understand even deeper this distinction between top of funnel and mid-funnel. So when people are maybe winning at one or the other, what does that look like? What are some examples of like, here's a top of funnel type of search that Google's going to eat and here's a mid-funnel experience that you can win that?
+
+Eli Schwartz (00:20:35):
+So in general, SEO has always been more at the top of the funnel generally, because you're curious about something. So let's say you're looking for a new software. You're looking for new podcasting software. So you search for top podcast tools, and you get back a list on let's say G2. G2 and all the sites like G2, like the Gartner sites like Capterra, all going to be massively disrupted. So you would get back a list from G2, which would give you out all the software. And you would look at some and it would say, 'This one's geared towards enterprise. This one's geared towards small podcasters. This one's free,' and then now you've narrowed down your list to these three tools. And that's when you start doing those searches. Now you're mid-funnel. Now let's say you've chosen Riverside and you've gotten enough information from those other searches. Now you start searching Riverside price, Riverside capacity, Riverside bandwidth. That's bottom of funnel, and that's where you'll now go buy Riverside. However, at the top, you were doing top podcast tools. So again, up until AI Overviews, up until this entire concept of LLM, whoever won on that long form piece of content would get that first click. But now that doesn't exist anymore. You just go to Google and Google tells you, 'These are the tools. Oh, you're looking for a new CRM? This is what a CRM is. You want to know, do you need a CRM or do you just need a calendar?' Look at that and Google will just tell you in a paragraph, and now you've redirected your search somewhere else into middle of the funnel. So I think that's where SEO always should have been because that's where conversions could potentially happen. However, SEO never was there before because the way most SEO measures its performance and its success is rankings. So they would say, 'Well, it doesn't really matter if we convert on the word CRM. But look, we're number one, so we're winning.'
+
+Lenny Rachitsky (00:22:24):
+First of all, as a user, this sounds great. I'm so tired of just all search results just being a bunch of SEO pages, just with a bunch of BS answers. And so I really prefer, Google, just tell me. Just tell me what I need to know. The other piece is if you really think about what Google has been trying to do, they've been trying to do this is like, here's our best shot at giving you an answer to this question, and here's links that'll point you to an answer. And this is just a better version of it where it takes all the actual information and just gives you the end result. So it makes a ton of sense that they're doing this and the technology has finally allowed them to do this.
+
+---
+
+## Using AI for content: tool not solution, e-commerce yes blogs no
+
+Lenny Rachitsky (00:59:23):
+Okay, so coming back to AI and its impact on SEO, can you use AI to help you with this, and use AI to create content for you?
+
+Eli Schwartz (00:59:49):
+AI is a tool. Everyone says AI is a tool, it's not a solution. You can use AI to create content if the content you're creating is a part of that journey. For example, before AI content really came on the scene, because AI's been around for a while, Jasper's been around for a while, Writer's been around for a while before ChatGPT. Before these tools, a lot of ways that companies created content for cheap is they went on Fiverr, and they went on Upwork, and they just created content. A lot of that content, completely worthless. If you're just creating content for the sake of content, and you paid someone on Upwork $50 for their content, now you can use an AI tool and just create the content, the same worthless content, for free. AI as a tool is a tool creating something that's not necessarily useful for the end journey of the company and for the user journey in general. However, if the content you were creating was pretty useful, and now you're using AI to create really useful content for cheaper and better, of course, you can use it. An example of a place you can use AI content is if you're an e-commerce site and you're selling your own products, of course, you can use AI content to write product descriptions. It's not a content website. There's a lot of big companies out there, and if anybody wants to look at some of the e-commerce sites and how they do SEO, a lot of them have large SEO teams. The typical JCPenney, the Nordstroms, the Macy's, they have a lot of content on their category pages, but if you look at the keywords that drive traffic to those pages, it's the products on the pages. If you're looking for shoes, the fact that a Macys.com page will have a lot of content about what shoes do doesn't do anything for the user. They're just looking for shoes, and then there's shoes on the page. I think Macy's actually ranks pretty well on those kinds of things. Using AI content to write more fluff content that's not necessary would just be a waste of time. Using AI content to feed in a product, and describe what that product is, and maybe some features of that product which help a user, that's not hurting your SEO, because what you're trying to optimize for is the product and the product name itself.
+
+Lenny Rachitsky (01:01:59):
+Got it. Basically, don't use AI to generate entire blog posts. I know people are doing this all over the place, but absolutely leverage AI to help you add to existing pages, descriptions, titles, things like that, which I can see why Google, Google would've no idea that you were helped to write this thing with AI, right, if it's just a small part of the page versus the entire page?
+
+Eli Schwartz (01:02:25):
+In their documentation, they say that AI itself is not the problem. It's the helpfulness, the usefulness of the content that would be a problem.
+
+---

@@ -1,0 +1,18 @@
+# Sachin Monga — Building Substack | Sachin Monga (Substack, Facebook)
+*Theme: org-strategy-leverage | Extracted: 2026-04-03*
+
+## Team structure oriented around customers not surfaces
+
+Lenny (00:08:28): Awesome. That makes sense. You currently align it around the type of user plus the platform stuff. Do you have a sense of where this might evolve over the next few years just structure wise? Do you think it'll stick to that? Do you have a plan of how this might radically shift as you grow?
+
+Sachin Monga (00:08:43): Yeah. I'm actually kind of shocked that it's lasted this long and stayed consistent. I remember at Facebook, we would change our team structure what felt like every three months or six months and just have a reorg every once in a while. Part of why I think it's remained pretty consistent is exactly what you mentioned, which is the teams aren't oriented around product surfaces. We don't have a team that's like the app team or a team that's like the dashboard team or the podcasting team. We have teams that are oriented around customers and solving bit of a timeless customer problem. We'll never be done serving writers. We just started honestly having a concerted focus on serving readers. Growth is never a problem that you check the box off on. I hope that we are able to maintain this general structure. I think as Substack grows and expands, I'm sure we'll have more than three teams. This is where we're at right now, but I really like the focus on a customer and a timeless mission really rather than orienting around what might be a bit more of an ephemeral surface area or product de jour.
+
+---
+
+## Process obsolescence as a feature of high-growth companies
+
+Lenny (00:16:03): The point you made about how things are going to keep changing as you grow is such an important point that I don't feel like comes up as much as I thought would come up on this podcast. People are always asking me for advice. How do I structure my product team? How do I prioritize? How do I do planning? The main thing I've learned is no matter what you end up with, it's going to change in three to six months anyway because you'll learn more. The advice is just do the best thing you can think of right now. Don't assume this will last anyway, and that's good enough. There's never the perfect way to do it. It's always the best way you could do it at this moment, and then you learn how to evolve it.
+
+Sachin Monga (00:14:19): Oh, let's start with the first one. I think the biggest challenge with this role/company phase, like I mentioned, we're going through this one-time transition from not really having a product function or a product process to having one, is almost by definition any time you figure out how to do a thing, you'll now reach this next phase of growth and it'll be obsolete. Something that I've repeated a bunch of the teams is I'm never too worried if we have the perfect planning process or the perfect execution cadence or the perfect communication process, whatever our process is, we're never going to have a perfect one. And even if we did, it would soon be obsolete because we did a really good job and now we've grown 2X or something and we have more people and the process needs to change. The main thing I care about is are we just getting better every week, every month, certainly every year. I think that's easier said than done. It sounds good in theory, but then when you're in the thick of it, you're constantly basically feeling like you don't know how to do the thing. Because as soon as you figure it out, it's obsolete. It's just really hard. I think that's true of basically just startups in general, high growth companies. Doing the thing well means that you're not going to know what you're doing.
+
+---
