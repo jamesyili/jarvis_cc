@@ -1,151 +1,107 @@
 ---
-concept: Retrieval-Augmented Generation (RAG)
-tags: [rag, retrieval, generation, llm, knowledge-grounding, chunking, hybrid-search, agentic-rag]
+concept: Retrieval-Augmented Generation
+tags: [rag, retrieval, generation, llm, chunking]
 sources:
-  - kb/hard/raw/aman-ai/primers-retrieval-augmented-generation.md
-  - kb/hard/raw/aman-ai/primers-personalizing-large-language-models.md
-  - kb/hard/raw/aman-ai/deep-research.md
+  - kb/hard/raw/aman-ai/chapter-6-retrieval-augmented-generation.md
   - kb/hard/raw/chip-huyen/building-a-generative-ai-platform.md
-  - kb/hard/raw/eugene-yan/obsidian-copilot-an-assistant-for-writing-reflecting.md
+  - kb/hard/raw/lilian-weng/how-to-build-an-open-domain-question-answering-system.md
+  - kb/hard/raw/jay-alammar/the-illustrated-retrieval-transformer.md
 last_compiled: 2026-04-05
 related:
-  - "[[hard/wiki/embeddings-and-representation-learning|Embeddings and Representation Learning]]"
-  - "[[hard/wiki/two-tower-retrieval|Two-Tower Retrieval]]"
-  - "[[hard/wiki/transformer-architecture|Transformer Architecture]]"
-  - "[[hard/wiki/ai-agents-and-agentic-systems|AI Agents and Agentic Systems]]"
-  - "[[hard/wiki/llm-evaluation|LLM Evaluation]]"
+  - "[[hard/wiki/embeddings-and-representation-learning|Embeddings & Representation Learning]]"
+  - "[[hard/wiki/large-language-models|Large Language Models]]"
+  - "[[hard/wiki/ai-agents-and-agentic-systems|AI Agents & Agentic Systems]]"
 ---
 
-# Retrieval-Augmented Generation (RAG)
+# Retrieval-Augmented Generation
 
-RAG, introduced by Lewis et al. (2020), enhances LLM outputs by conditioning generation on externally retrieved evidence rather than relying solely on parametric (weight-baked) knowledge. It directly addresses three failure modes: **knowledge cutoff** (static training data), **hallucination** (confident confabulation on unknown facts), and **domain specificity** (models not trained on proprietary corpora). RAG also supports dynamic corpora — new or updated documents are reflected immediately through the retriever, requiring no retraining.
+Retrieval-Augmented Generation (RAG) combines a retrieval system with a generative language model, grounding responses in external documents rather than relying on parametric knowledge baked into model weights. The motivation is fundamental: LLMs have training cutoffs, encode world knowledge inefficiently in parameters, and hallucinate when queried about facts outside training data. RAG addresses all three by making knowledge retrieval a first-class component of inference.
 
----
+DeepMind's RETRO transformer illustrated the core insight clearly — a 7.5B parameter model matching GPT-3 (175B) by retrieving from a 2-trillion-token database at generation time. Language structure lives efficiently in parameters; factual world knowledge is better stored externally and fetched on demand.
 
-## Core Architecture: Indexing → Retrieval → Generation
+## The Core Pipeline
 
-**Indexing (offline).** Source documents are loaded, split into chunks, and each chunk is encoded into an embedding vector stored in a vector index (or inverted index for BM25). The quality of this step sets the ceiling for everything downstream.
+RAG has two phases — offline indexing and online inference.
 
-**Retrieval (online).** At inference time, the user query is embedded (or tokenized for sparse retrieval) and the index is searched for the top-k most relevant chunks. These chunks are then passed as context to the LLM.
+**Offline indexing:** Documents are parsed (using rule-based or AI-based parsers for PDFs), chunked into manageable pieces, encoded into embedding vectors by a text encoder (BERT, sentence-transformers, or proprietary models), and stored in a vector database. For multimodal documents, image encoders (CLIP) produce embeddings in a shared text-image space.
 
-**Generation.** The LLM receives `[retrieved context] + [user query]` as its prompt and generates a grounded response. Because the model is conditioned on retrieved evidence, it has less need to rely on its own (potentially stale or incorrect) parametric knowledge.
+**Online inference:** Given a user query, the system (1) encodes the query with the same encoder, (2) performs nearest-neighbor search against indexed vectors, (3) retrieves top-k chunks, (4) assembles a prompt combining query and retrieved context, and (5) generates a response via an LLM.
 
----
+The retrieval component is the same backbone powering search engines and recommender systems — RAG borrows that machinery directly.
 
 ## Chunking Strategies
 
-Chunk size controls the precision–context trade-off: smaller chunks retrieve more precisely but lose surrounding context; larger chunks preserve context but introduce noise.
+Chunking decisions have outsized impact on retrieval quality. Key options:
 
-| Strategy | How it works | Best for |
-|---|---|---|
-| **Fixed-size** | Split by token count, with optional overlap | Simple baseline, low cost |
-| **Sentence splitting** | Split at sentence boundaries (NLTK, spaCy) | Sentence-level embedding models |
-| **Recursive** | Hierarchically apply multiple separators (LangChain `RecursiveCharacterTextSplitter`) | General-purpose text |
-| **Structure-aware** | Respect markdown/HTML/LaTeX structure | Formatted documents |
-| **Semantic chunking** | Group sentences by cosine similarity — split when similarity drops | Topically coherent retrieval |
-| **Late chunking** | Embed the full document first, then pool into chunks — preserves cross-chunk context | Long-context models (JinaAI) |
-| **Auto-merging** | Hierarchical chunks: merge small chunks into parent if enough retrieve the same parent | Reducing fragmentation |
+- **Length-based:** Fixed character or token windows with overlap. Simple but can split sentences mid-thought. LangChain's `RecursiveCharacterTextSplitter` handles this with adjustable chunk sizes and separators.
+- **Semantic/structural:** Split on document structure — headers, paragraph breaks, code blocks. Preserves logical units. MarkdownHeaderTextSplitter, HTMLHeaderTextSplitter.
+- **Sliding window:** Overlapping windows reduce boundary artifacts. Research shows 100-word passages with overlap outperform non-overlapping splits.
 
-**Late chunking vs. naive:** Naive chunking loses inter-chunk context (e.g., "she" can't resolve back to "Alice" in a prior chunk). Late chunking delays the split until after full-document embedding, preserving contextual relationships with the same storage cost. Late interaction (ColBERT) goes further — token-level MaxSim scoring for highest precision, but at ~500x the storage cost of naive chunking.
+The right chunk size balances a tension: too large and the embedding loses specificity; too small and individual chunks lack sufficient context for generation. A common production heuristic: 500–1000 tokens per chunk, 10–20% overlap. At scale, a 5M-page corpus at 3 text chunks and 3 image chunks per page yields ~40M indexed chunks — a scale where ANN algorithms are essential.
 
----
+## Retrieval Methods
 
-## Retrieval Approaches
+### Sparse (Term-Based)
+TF-IDF and BM25 are classical baselines — fast, no GPU required, strong out of the box for lexical matching. Elasticsearch implements BM25 at production scale. Key limitation: no semantic understanding. "Doctor" and "physician" are treated as unrelated terms.
 
-### Lexical (Sparse) Retrieval
-BM25 is the industry default sparse retrieval function. It improves on TF-IDF by adding term saturation (diminishing returns for repeated terms) and document-length normalization. It is sub-millisecond, deterministic, and fully interpretable. It excels at exact matches — identifiers, SKUs, medical codes, proper nouns — but fails on synonym and paraphrase queries.
+### Dense (Embedding-Based)
+Query and documents are encoded into shared vector spaces; similarity is measured by cosine or dot-product distance. Enables semantic retrieval — finding relevant chunks even when vocabulary doesn't overlap. Dense Passage Retrieval (DPR) pioneered this for open-domain QA, using BERT to encode questions and passages independently.
 
-### Semantic (Dense) Retrieval
-Queries and documents are encoded into dense vectors (typically via sentence transformers / bi-encoders). Retrieval becomes approximate nearest-neighbor (ANN) search using FAISS, HNSW, ScaNN, or ANNOY. Dense retrieval handles paraphrase, synonymy, and natural language questions well but has higher compute cost and degrades on rare or newly introduced terms. Document embeddings must be recomputed when the model is updated.
+Approximate Nearest Neighbor (ANN) makes dense retrieval practical at scale. See [[hard/wiki/approximate-nearest-neighbor|Approximate Nearest Neighbor]] for algorithms. In brief:
+- **LSH:** Hash similar vectors into the same bucket
+- **Clustering-based (FAISS):** IVF — search only within nearest centroid's cluster
+- **Graph-based (HNSW):** State-of-the-art recall/latency tradeoff
 
-**Contextual retrieval (Anthropic).** Prepend a model-generated chunk summary ("This chunk is from Q3 earnings call discussing APAC revenue") to each chunk before embedding. Reduces failed retrievals by 49%; combined with reranking, by 67%.
+Time complexity drops from O(N×D) exact search to O(log N) for ANN. FAISS (Meta), ScaNN (Google), and Elasticsearch all provide production-grade ANN backends.
 
-### Hybrid Retrieval
-The dominant production pattern: BM25 retrieves a high-recall candidate set (k ≈ 100–1000), then a semantic model reranks the candidates. This ensures exact facts are never missed (lexical anchor) while also capturing implied intent (semantic precision).
+### Hybrid Search
+Production systems combine sparse and dense. A common sequential pattern: BM25 retrieves a broad candidate set; vector search re-ranks for semantic relevance. Another pattern is ensemble — multiple retrievers score independently, then rankings are combined. Both preserve speed while improving recall on semantically complex queries.
 
-**Score fusion alternatives:**
-- *Linear fusion:* `score = α·BM25 + (1-α)·semantic_sim` — requires score normalization and tuning α.
-- *Reciprocal Rank Fusion (RRF):* `RRF(d) = Σ 1/(k + rank_i(d))` where k=60. Rank-based, calibration-free, robust — the most common production choice.
+## Reranking
 
-**Reranking.** Cross-encoders (e.g., MonoT5, MonoBERT) attend over the concatenated query+document and produce a high-precision relevance score. Used on the top-50 to top-200 candidates; too expensive for full-corpus scoring.
+Retrieved chunks are ordered by embedding similarity, not by quality of answer. A dedicated cross-encoder reranker — processing query and chunk jointly — significantly improves precision at the cost of additional latency. "Lost in the Middle" (Liu et al., 2023) research shows models attend better to content at the beginning and end of context, so ordering of retrieved chunks matters even after inclusion.
 
----
+## Advanced RAG Techniques
 
-## Advanced RAG
+**Query rewriting:** User queries are often ambiguous or context-dependent. A lightweight LLM call rewrites before retrieval — resolving coreference, decomposing compound questions, and adding context. Example: "How about Emily Doe?" → "When did Emily Doe last purchase from us?"
 
-**Query rewriting.** Conversational queries like "How about his wife?" are ambiguous. A small model rewrites the query to be self-contained before retrieval ("When did Emily Doe last purchase from us?"). Critical for multi-turn chatbots.
+**HyDE (Hypothetical Document Embeddings):** Generate a hypothetical answer to the query, embed that answer, use it as the retrieval query. The hypothesis is often geometrically closer to target documents than the raw question embedding.
 
-**HyDE (Hypothetical Document Embeddings).** Instead of embedding the query directly, prompt the LLM to generate a *hypothetical* answer document, embed that, and use it for retrieval. The synthetic document lives in the same embedding space as real documents, dramatically improving zero-shot dense retrieval performance. Risk: the hypothetical document can hallucinate, biasing retrieval.
+**Multi-hop retrieval:** For questions requiring synthesis across multiple documents, retrieve iteratively — first-pass results inform a refined query for a second pass.
 
-**Multi-hop RAG.** Some questions require chaining retrievals — retrieve intermediate facts, use them to formulate subsequent queries, repeat. Standard single-shot RAG fails here because intermediate facts don't appear directly relevant to the original question. Multi-hop pipelines formalize retrieval as a planning problem: decompose into sub-queries Q₁→Q₂→…→Qₙ, where each Qᵢ depends on the answer to Qᵢ₋₁.
+**RAG with structured data (Text-to-SQL):** External data can be tabular. The LLM generates SQL from natural language, executes it, and uses results as context for generation.
 
-**Iterative / FLARE.** Re-query the knowledge base mid-generation whenever the model's token confidence drops below a threshold. Bridges the gap between upfront retrieval and the model's need for information it discovers it needs during generation.
-
-**Metadata filtering.** Apply hard filters (access control, document type, recency) before retrieval. Not a scoring feature — a constraint. Prevents data leakage, compliance violations, and stale results surfacing before semantic retrieval runs.
-
----
-
-## Evaluation
-
-RAG evaluation has two layers: retrieval quality and generation quality.
-
-**Retrieval metrics:**
-- *Context precision* — are the retrieved chunks ranked by relevance? (relevant chunks surfaced early)
-- *Context recall* — are all facts needed to answer the question present in the retrieved set?
-- *Context relevance* — do retrieved chunks actually address the query?
-
-**Generation metrics:**
-- *Faithfulness / groundedness* — are all claims in the response inferable from the retrieved context? (measures hallucination)
-- *Answer relevance* — does the response address the original question?
-- *BLEU / ROUGE / exact match* — string-overlap metrics; useful for factoid Q&A, weak for open-ended generation.
-
-**RAGAS** (automated evaluation library) operationalizes these without requiring labeled data — only a few questions (plus reference answers for recall). The harmonic mean of faithfulness, answer relevance, context precision, and context recall is the RAGAS score.
-
----
-
-## Production Considerations
-
-**Latency.** Hybrid retrieval latency is additive: `T_total = T_filter + T_lexical + T_semantic + T_rerank`. Common optimizations: cache frequent query embeddings; apply reranker only to top-50 (not top-500); use query classifiers to skip semantic stages for identifier-heavy queries.
-
-**Index freshness.** With BM25, adding documents is cheap (update inverted index). With dense retrieval, document embeddings must be recomputed on corpus changes and when the embedding model is updated. This creates a versioning problem: embedding model and index must stay in sync.
-
-**Choosing k.** k controls recall vs. downstream cost. Rule of thumb: if a document doesn't appear in the top-k lexical candidates, the semantic reranker cannot recover it. Default: k ∈ [200, 500] for general-purpose RAG.
-
-**Long context vs. RAG.** A 10M-token context window for 100k-document corpora requires ~32 H100 GPUs and exceeds $100/hour in inference costs. The KV cache alone can exceed 1TB of VRAM. RAG remains the cost-efficient answer for large corpora. Additionally, LLMs exhibit the *lost-in-the-middle* effect — information buried in the center of a long context is less reliably attended to — making retrieval-first architectures more reliable even when long context is technically feasible.
-
----
+**RAFT (Retrieval-Augmented Fine-Tuning):** Fine-tunes the LLM to prioritize golden retrieved documents while ignoring distractor chunks. Addresses noisy retrieval degrading generation — the model learns to distinguish relevant from irrelevant context.
 
 ## RAG vs. Fine-Tuning vs. Long Context
 
-| Approach | What it changes | When to use |
+Three approaches address grounding LLM responses in domain knowledge:
+
+| Approach | Pros | Cons |
 |---|---|---|
-| **Prompt engineering** | Nothing — static in-context examples | Rapid prototyping, grounding open-ended conversations |
-| **RAG** | What information the model sees at inference time | Dynamic corpora, limited labeled data, need for traceability |
-| **Fine-tuning / PEFT** | The model's weights | Style, tone, task-specific behavior; requires labeled data + compute |
-| **Long context** | The model's attention window | Small-to-medium corpora, infrequent queries; high inference cost |
+| RAG | Dynamic, updatable, cites sources, scalable | Retrieval latency, chunking brittleness |
+| Fine-tuning | Deep domain adaptation, no retrieval cost | Expensive to retrain, knowledge becomes stale, no citations |
+| Long context | Simple architecture | Expensive per query, "lost in the middle" degradation, still needs document curation |
 
-**Practical rule:** Start with RAG. Once the retrieval pipeline works, add fine-tuning to improve linguistic style and vocabulary. RAG cannot adapt a model's voice; fine-tuning cannot give it fresh external knowledge. They are complementary.
+RAG is optimal when knowledge changes frequently, scale is large, and source citations matter. Fine-tuning adds value when the LLM generates poor responses even with good retrieval context. Long context windows complement RAG for short corpora or when retrieval latency is unacceptable. For most production enterprise use cases, RAG is the default starting point.
 
----
+## Evaluation
+
+RAG evaluation decomposes into a triad of axes:
+
+- **Context relevance:** Did the retriever fetch the right chunks? Metrics: Hit rate, MRR, NDCG, Precision@k.
+- **Faithfulness:** Does the generated response stay grounded in retrieved context, or does it hallucinate? Methods: automated fact-checkers (SelfCheckGPT, SAFE), consistency checks, human review.
+- **Answer relevance/correctness:** Does the response answer the question? Does it match the reference? Metrics: BLEU, ROUGE, METEOR; increasingly LLM-as-judge for semantic quality.
+
+A RAG system can fail at any stage. Poor chunking degrades retrieval; poor retrieval makes accurate generation impossible; good retrieval can still be ignored by a poorly prompted LLM.
 
 ## Agentic RAG
 
-In agentic RAG, retrieval becomes one tool among many that an LLM agent can invoke. The agent decides *whether* to retrieve, *which* source to query (vector DB, SQL, web search, API), and *how many times* to iterate.
-
-**Single-agent (router).** A single agent acts as a router, selecting the best retrieval tool per query. Handles queries that span multiple data sources.
-
-**Multi-agent.** A master orchestrator coordinates specialized sub-agents: internal DB agent, personal data agent, public web agent. Enables comprehensive responses across heterogeneous data channels.
-
-**Capabilities beyond retrieval.** Agentic RAG systems can also: validate retrieved facts by cross-referencing sources, perform multi-step reasoning before generation, update memory with user preferences, and execute write actions (with appropriate guardrails).
-
-**Deep Research pattern.** Production agentic research systems (e.g., Anthropic's deep research) decompose the user query with a planner/lead-researcher, spawn parallel sub-agents for different aspects, collect evidence with citations, and synthesize. The agent decides retrieval strategy dynamically, making iterative multi-hop retrieval tractable at scale. See [[hard/wiki/ai-agents-and-agentic-systems|AI Agents and Agentic Systems]] for orchestration patterns.
-
----
+When retrieval becomes a conditional decision — not always triggered, invoked based on the query — RAG becomes agentic. The LLM decides whether to search the web, query a vector store, execute SQL, or generate directly. Each retrieval action is a tool call. This architecture powers systems like Perplexity.ai. The model treats information sources as its environment to perceive and act upon — connecting directly to [[hard/wiki/ai-agents-and-agentic-systems|AI Agents & Agentic Systems]].
 
 ## Sources
 
-- `kb/hard/raw/aman-ai/primers-retrieval-augmented-generation.md` — primary source; comprehensive coverage of chunking, retrieval, hybrid search, HyDE, multi-hop, agentic RAG, evaluation
-- `kb/hard/raw/aman-ai/primers-personalizing-large-language-models.md` — RAG vs. fine-tuning vs. prompt engineering comparison
-- `kb/hard/raw/aman-ai/deep-research.md` — agentic RAG in production (multi-agent deep research architecture)
-- `kb/hard/raw/chip-huyen/building-a-generative-ai-platform.md` — platform framing; query rewriting, context construction, agentic RAG, production trade-offs
-- `kb/hard/raw/eugene-yan/obsidian-copilot-an-assistant-for-writing-reflecting.md` — applied RAG for personal knowledge base writing (minimal RAG-specific content)
+- Aman Chadha. *Chapter 6: Retrieval-Augmented Generation* — production ChatPDF design, chunking strategies, ANN categories, evaluation triad
+- Chip Huyen. *Building a Generative AI Platform* — RAG as context construction, hybrid search, query rewriting, agentic RAG, semantic caching
+- Lilian Weng. *How to Build an Open-Domain Question Answering System* — retriever-reader framework history, DPR, BM25, dense vs. sparse evolution, end-to-end joint training
+- Jay Alammar. *The Illustrated Retrieval Transformer* — RETRO architecture, key-value retrieval database, chunked cross-attention, separating language from world knowledge

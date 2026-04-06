@@ -1,144 +1,137 @@
 ---
-concept: AI Agents and Agentic Systems
-tags: [agents, agentic-ai, tool-use, planning, multi-agent, mcp, react, reinforcement-learning]
+concept: AI Agents & Agentic Systems
+tags: [agents, agentic-ai, tool-use, planning, mcp]
 sources:
   - kb/hard/raw/aman-ai/primers-agents.md
   - kb/hard/raw/aman-ai/primers-agentic-design-patterns.md
-  - kb/hard/raw/aman-ai/primers-agentic-reinforcement-learning.md
-  - kb/hard/raw/aman-ai/models-toolformer.md
-  - kb/hard/raw/aman-ai/primers-computer-control.md
   - kb/hard/raw/chip-huyen/agents.md
-  - kb/hard/raw/eugene-yan/building-news-agents-for-daily-news-recaps-with-mcp-q-and-tmux.md
-  - kb/hard/raw/simon-willison/highlights-from-my-conversation-about-agentic-engineering-on-lennys-podcast.md
+  - kb/hard/raw/lilian-weng/llm-powered-autonomous-agents.md
+  - kb/hard/raw/cameron-wolfe/ai-agents-from-first-principles.md
 last_compiled: 2026-04-05
-related: [large-language-models, retrieval-augmented-generation, llm-evaluation]
+related:
+  - "[[hard/wiki/large-language-models|Large Language Models]]"
+  - "[[hard/wiki/retrieval-augmented-generation|Retrieval-Augmented Generation]]"
+  - "[[hard/wiki/llm-evaluation|LLM Evaluation]]"
 ---
 
-# AI Agents and Agentic Systems
+# AI Agents & Agentic Systems
 
-An agent is anything that can perceive its environment and act upon it. In AI systems, the LLM is the *brain* — reasoning about tasks, planning action sequences, and deciding when goals have been met. The *environment* defines what tools are available and what the agent can affect. This distinction is central: a simple chatbot responds; an agent acts.
+An agent is anything that perceives its environment and acts upon it. In the AI context, an LLM-powered agent uses a language model as the reasoning core, augmented with tools, memory, and planning capabilities to accomplish multi-step tasks autonomously. The key upgrade over a static LLM: the system can iterate, observe outcomes, and adjust — rather than producing a single response and stopping.
 
-## What Makes a System "Agentic"
+The classic book *AI: A Modern Approach* (Russell & Norvig, 1995) defined the field of AI research as "the study and design of rational agents." Foundation models have finally made that goal tractable at a practical level.
 
-The boundary between a pipeline and an agent is autonomy. Anthropic's framework distinguishes two architectures:
+## What Makes a System Agentic
 
-- **Workflows**: LLMs and tools orchestrated through predefined code paths. Deterministic, auditable.
-- **Agents**: LLMs that dynamically direct their own processes — choosing tools, managing subtasks, revising plans based on feedback.
+A static LLM call: one prompt in, one response out. An agentic system:
+- Can **perceive** the environment (read files, call APIs, search the web)
+- Can **act** upon the environment (write code, send emails, update databases)
+- **Loops** — produces intermediate outputs, observes results, decides what to do next
+- Maintains **state** across steps
 
-The key enabling conditions for agentic behavior are (1) tool access, (2) planning ability, (3) a memory system that persists context across steps, and (4) a feedback loop so the agent can revise its behavior. Without all four, you have a sophisticated pipeline, not an agent.
+The clearest marker of agency is the loop: the model's output feeds back as input, driving continued action until a terminal condition is met.
 
-Single-shot LLM calls produce text. Agents produce *outcomes* by chaining actions over time. This creates the compound-mistake problem: at 95% per-step accuracy, a 10-step task hits ~60% success; a 100-step task drops to 0.6%. More capable models — or tighter loops with reflection — are required as task complexity grows.
+A RAG system is a simple agent — its tools are a text retriever, an image retriever, and an SQL executor. ChatGPT with web search is an agent. SWE-agent (built on GPT-4) is a coding agent whose environment is a terminal and file system, with actions like navigate, search, view, and edit.
 
-## Core Architecture: The Agent Loop
+## Core Design Patterns
 
-A typical agent operates in a cycle:
+**ReAct (Reasoning + Acting):** The foundational framework for LLM agents. The model interleaves *Thought* and *Action* steps in its output. A thought is a special kind of action — it lets the model plan explicitly before acting. The pattern:
+1. Observe current state
+2. Think: "I need to find X. I'll search for Y first."
+3. Act: call a tool
+4. Observe: process tool output
+5. Repeat until terminal action
 
-1. **Perceive** — receive a task or new environmental signal
-2. **Plan** — decompose the task into manageable steps; select tools
-3. **Execute** — invoke tools via function calling; take actions
-4. **Observe** — receive tool outputs; update internal state
-5. **Reflect** — evaluate progress; revise the plan or terminate
+ReAct enables language to serve as both the reasoning medium and the communication protocol. The agent explains its reasoning trace in natural language, making it interpretable.
 
-This loop maps cleanly to **ReAct** (Yao et al., 2022), the foundational pattern that interleaves Thought → Action → Observation at each step. ReAct let agents update plans based on observations rather than committing to an upfront plan, significantly improving multi-step task accuracy.
+**Reflection:** The agent critiques its own output and revises. Self-Refine, Reflexion, and CRITIC all implement variants. A reflection loop: generate → critique → revise → repeat. Multi-agent reflection uses a separate critic agent to evaluate the generator's output, avoiding self-serving evaluations.
 
-### Planning and Execution Decoupling
+**Tool Use:** Tools expand the agent's capability beyond text generation. Categories:
+- *Knowledge augmentation:* text retriever, SQL executor, web search, internal APIs
+- *Capability extension:* calculator, code interpreter, translator, calendar
+- *Write actions:* email sender, database writer, form submitter
 
-A critical design principle: separate plan generation from execution. Generate a plan first, validate it (check for invalid tools, unreasonable step counts, constraint violations), then execute. Without this, an agent can run 100 steps toward a bad plan before anyone notices. Plans can be validated via heuristics or an AI judge.
+Tools can be integrated via fine-tuning (early approaches like Toolformer) or prompt-based function calling (modern standard). Modern function calling: describe available tools in the prompt; the LLM generates a structured tool call; the system executes it and returns results to the context.
 
-Planning granularity is a tradeoff: specific function-level plans are easier to execute but brittle to API changes; natural-language plans are more robust but need a translation layer. Hierarchical planning — high-level plan → per-subtask plans — is common for complex tasks.
+**Planning:** Complex tasks require decomposing into subtasks. Planning involves generating a sequence of steps, validating the plan (via heuristics or an AI judge), and executing. Crucially: planning and execution should be decoupled. Generate a plan first, validate it, then execute — otherwise the agent can burn API credits on a flawed plan for hours. Key planning types: sequential (step by step), hierarchical (decompose into subtasks), reactive (plan incrementally based on observations).
 
-Control flows extend beyond sequential: **parallel** execution (fetch multiple data sources simultaneously), **if/else routing** (Anthropic calls this "routing"), and **for loops** (repeat until a stopping condition). Parallel execution is a key latency lever for production agents.
+**Multi-agent systems:** Architectures where multiple specialized agents collaborate:
+- *Supervisor (centralized):* One orchestrator routes tasks to specialized sub-agents
+- *Network (decentralized):* Agents communicate peer-to-peer
+- *Hierarchical:* Supervisors oversee supervisors, enabling complex workflows
 
-## The Four Core Design Patterns
+Multi-agent is not always better — single agents preserve context, are simpler to debug, and avoid coordination overhead. Use multi-agent when tasks naturally decompose into non-overlapping specializations.
 
-From Andrew Ng's widely-cited framing (echoed across sources):
+## Agentic Workflow Patterns
 
-1. **Reflection** — the agent evaluates its own output, identifies errors, and produces revised outputs. Reflexion (Shinn et al., 2023) formalizes this with an evaluator (scores outcomes) and a self-reflection module (diagnoses what went wrong). Can be done with a single agent via self-critique prompts, or as a two-agent setup (generator + critic). Low implementation cost, high ROI.
+**Prompt chaining:** Output of step N is input to step N+1. Enables complex pipelines where each LLM call focuses on one task. Failure compounds — errors early propagate through the chain.
 
-2. **Tool Use** — agents invoke external functions: web search, code execution, SQL queries, calculators, APIs. Introduced systematically by **Toolformer** (Schick et al., 2023), which trained GPT-J to self-supervise tool call insertion: sample candidate API calls, execute them, filter by whether they reduce prediction loss, finetune on the augmented dataset. Toolformer showed LLMs can decide *when* and *how* to use tools without heavy annotation. Core limitation: tool calls are independent (no chaining), and models are sensitive to exact input wording.
+**Routing:** An intent classifier directs queries to specialized handlers. Enables cost optimization (simple queries → cheap models) and specialization (billing queries → billing agent). Router models are typically small and fast.
 
-3. **Planning** — structured task decomposition before execution. Tree of Thoughts and similar approaches treat planning as search: enumerate paths, predict outcomes, prune bad branches. The key open question (Yann LeCun's position) is whether autoregressive LLMs can truly plan or only approximate it. Empirically: better models + better prompting + reflection get you far enough for most production tasks.
+**Parallelization:** Independent subtasks run concurrently; results are aggregated. Reduces wall-clock time for decomposable tasks.
 
-4. **Multi-Agent** — specialized agents collaborate, each handling a subproblem. Common patterns: orchestrator + worker agents (orchestrator decomposes, workers execute), generator + critic (one produces, one evaluates), or peer specialists (coding agent, QA agent, etc.). Frameworks: AutoGen, CrewAI, LangGraph, MetaGPT.
+**Orchestrator-Workers:** A central orchestrator breaks down the task and delegates to specialized workers. Workers return results; orchestrator synthesizes.
 
-## Tool Use, Function Calling, and MCP
-
-Tools divide into three categories: **knowledge augmentation** (retrieval, web search, SQL, email readers), **capability extension** (calculators, code interpreters, translators), and **write actions** (database writes, email senders, banking APIs). Write actions require careful trust calibration — automate read-only freely, gate writes behind approval.
-
-Function calling APIs follow a standard flow: declare tools with names, parameter schemas, and documentation; receive structured `tool_calls` responses; execute and feed results back. Inspect parameter values — models frequently hallucinate parameter contents even when they select the right function. More tools ≠ better agents: each tool adds selection difficulty and hallucination surface.
-
-**MCP (Model Context Protocol)** is Anthropic's open standard for LLM-to-tool connectivity — "the USB-C of AI integration." MCP standardizes the client-server layer between host apps (Claude Desktop, IDEs), protocol clients, and MCP servers (lightweight processes exposing capabilities). Why it became the de facto standard: AI-native design (unlike OpenAPI/GraphQL), major lab backing, built on the proven Language Server Protocol, and launched with complete first-party tooling.
+**Evaluator-Optimizer:** An evaluator scores the generator's output; if it fails quality thresholds, the optimizer generates a revised version. Loop until pass or max iterations.
 
 ## Memory Systems
 
-Three timescales: **short-term** (in-context window — volatile, bounded by context length), **long-term** (vector databases like Pinecone/Weaviate — persistent across sessions, retrieved by semantic similarity weighted by recency), and **episodic** (prior task trajectories, used to avoid repeating mistakes). In-context reasoning + external retrieval is what enables tasks that exceed the context window. See [[hard/wiki/retrieval-augmented-generation|Retrieval-Augmented Generation]].
+Memory is what enables agents to maintain state across turns and sessions. Four types:
+
+- **In-context (working) memory:** The current token window. Fast, but limited and ephemeral.
+- **External short-term (episodic):** Conversation history, recent actions — stored externally and retrieved as needed.
+- **Long-term semantic memory:** Persistent knowledge base, typically a vector store. Semantically similar past experiences retrieved by embedding similarity.
+- **Long-term structured memory:** Database or file-based logs — precise, temporal, queryable. Less flexible than vector memory but fully verifiable.
+
+Hybrid memory systems combine vector retrieval (for fuzzy semantic search) with structured logs (for precise episodic recall). The choice depends on whether retrieval needs to be semantic or exact.
 
 ## Failure Modes
 
-Agents fail in distinct ways: **invalid tool calls** (hallucinated function names), **valid tool / wrong parameters**, **goal failure** (steps complete but objective missed, or constraints ignored), **reflection failure** (agent incorrectly believes task is done), **efficiency failure** (correct outcome via wasteful path), **infinite loops** (no stopping condition fires), and **prompt injection** (malicious content in tool outputs hijacks subsequent actions — the "lethal trifecta": capable agent + write access + unsanitized inputs).
+Agents fail in characteristic ways that differ from single-call LLMs:
 
-Willison's framing: "97% effectiveness is a failing grade" for high-stakes agents. Tail failures are severe — unauthorized transactions, deleted data, wrong emails at scale.
+**Compound errors:** Multi-step accuracy degrades multiplicatively. At 95% accuracy per step, a 10-step task succeeds 60% of the time; at 100 steps, 0.6%. More steps = lower reliability. This pushes toward shorter plans with validation gates.
+
+**Tool misuse:** Agents call the wrong tool, pass wrong parameters, or misinterpret tool outputs. Particularly bad when agents have access to many similar tools.
+
+**Infinite loops:** Without a well-defined terminal condition, agents can loop indefinitely. Mitigation: step limits, explicit goal-checking, human checkpoints.
+
+**Prompt injection:** Malicious content in retrieved documents or tool outputs that hijacks the agent's behavior. Especially dangerous when agents have write access.
+
+**Hallucinated tool calls:** Agent invents a tool call to a non-existent function, or generates plausible-sounding but wrong parameters.
 
 ## Evaluation
 
-Agent evaluation is two-dimensional: **outcome-wise** (did the goal get achieved?) and **process-wise** (did the agent take an efficient, correct path?). A right answer via a bad trajectory is a reliability risk.
+Evaluating agents is harder than evaluating single LLM outputs because correctness is trajectory-dependent:
 
-For planning evaluation, measure over a (task, tool inventory) dataset: % valid plans generated, plans needed before a valid one, % tool calls with correct parameters. Ablate by task type and tool to isolate weaknesses.
+**Pass@k:** Run the task k times; success if at least one run completes correctly. Accounts for sampling variance.
 
-**Key metrics**: success rate, action accuracy (% correct tool calls), trajectory efficiency (steps to completion), robustness under distribution shift.
+**Trajectory evaluation:** Does the sequence of actions make sense? Were tool calls appropriate? Did the agent explore efficiently or wastefully?
 
-**Benchmarks**: SWE-Bench (code), OSWorld (computer use), WebArena (browser), GAIA (general multi-domain), Mind2Web.
+**Outcome evaluation:** Did the agent accomplish the stated goal? For software tasks (SWE-bench): does the code pass the test suite?
 
-**pass@k**: generate k completions; score if ≥1 passes. Measures possibility of success, not reliability — useful for coding tasks, misleading for production agents where every call must succeed.
+**Human-in-the-loop benchmarks:** For open-ended tasks, human raters evaluate whether the final output meets the user's intent.
 
-## Agentic Reinforcement Learning
+The Berkeley Function-Calling Leaderboard evaluates tool use specifically — assessing whether models generate correct, executable function calls across diverse APIs and programming languages.
 
-SFT alone is insufficient for production agents — it teaches imitation but cannot encode when to call a tool, which tool to pick, or the cost of unnecessary calls. RL optimizes for cumulative return over full episode trajectories.
+## Model Context Protocol (MCP)
 
-Key components:
+MCP (Anthropic, 2024) standardizes how external systems provide context to LLMs. Rather than each integration requiring custom code, MCP defines a universal format: tool schemas, resource descriptions, and prompt templates. Developers publish "MCP servers" — pre-built integrations for specific data sources (GitHub, Slack, databases) that any MCP-compatible LLM client can consume.
 
-- **Reward decomposition**: separate signals for (1) when to call a tool, (2) which tool, (3) argument quality, (4) execution success, (5) final task success
-- **Asymmetric rewards**: penalize incorrect calls more than missed calls — asymmetry stabilizes PPO/GRPO training
-- **Curriculum**: SFT bootstrapping → binary tool-invocation → tool selection → argument construction → multi-step pipelines
-- **Process-wise vs. outcome-based**: outcome rewards ensure goal fidelity but are sparse; process rewards provide dense signal
-
-PPO is standard. GRPO samples groups of completions and uses relative advantage, avoiding a separate value model.
-
-## Computer Use and Browser Agents
-
-Agents that control computer interfaces directly. Three paradigms:
-
-- **Anthropic Computer Use** (Claude): full desktop control — cursor, clicks, multi-app workflows. Runs locally; user must cede control during execution.
-- **OpenAI Operator**: browser-only, cloud-based. More constrained but safe.
-- **Manus**: independent virtual environment with browser, terminal, and code execution. SOTA on GAIA.
-
-Core challenge: visual grounding (identifying correct UI elements). **OmniParser v2** converts UI screenshots into structured elements, lifting GPT-4o from 0.8% to 39.6% accuracy on ScreenSpot Pro.
-
-Key benchmarks: OSWorld (open-ended OS tasks), WebArena (browser), WebVoyager (autonomous web exploration), GAIA (general multi-domain).
+The practical value: dramatically reducing the integration tax for adding new tools to agent systems. Instead of N×M integrations (N models × M tools), MCP enables N+M (each model and tool implements the standard once).
 
 ## Production Considerations
 
-**Cost and latency**: token burn scales with reasoning depth, reflection cycles, and tool roundtrips. Parallel tool execution is the primary latency lever. Monitor cost-per-task, not just per-call.
+**Write actions require trust:** Read-only tools are low-risk; write actions (database mutations, email sending, financial transactions) require explicit human approval gates. The principle of least privilege applies — agents should have the minimum write access required for their task.
 
-**Human-in-the-loop (HITL)**: practical pattern — automate read-only actions fully; require approval for write actions above a risk threshold. Define risk levels per action type explicitly before deployment.
+**Latency-accuracy tradeoff:** More planning and self-correction steps improve accuracy but increase latency. Production systems tune the number of reflection cycles based on task stakes.
 
-**Testing bottleneck** (Willison): as code generation collapses from weeks to hours, the bottleneck shifts to verification. AI can generate credible artifacts (code, reports) faster than humans can validate them. The signal: "I built this but haven't used it yet."
+**Cost management:** Multi-step agents can consume disproportionate API credits. Routing simple queries to cheaper models, caching intermediate results, and strict step budgets are essential cost controls.
 
-**Dark factory pattern**: fully automated code pipelines with no human writing or reading the code. Practical today in narrow domains, but requires trusted test suites as the safety net.
-
-**Prompt injection**: malicious content in tool outputs (web pages, documents) can hijack subsequent agent actions. High-stakes agents with write access and unsanitized inputs are the risk surface. Mitigate with output validation and sandboxed execution.
-
-## Connection to PINvestigator Architecture
-
-PINvestigator's parallel subagent design directly applies the multi-agent pattern: independent subagents handle separate retrieval/analysis tasks simultaneously, then an orchestrator synthesizes results. Parallel execution matters here for latency — subagents that don't depend on each other's outputs should run concurrently, not sequentially. Independent failure domains mean one subagent's hallucination or tool failure doesn't cascade. Each subagent should be scoped narrowly (single tool category or data source), with the orchestrator responsible for plan validation and final synthesis.
+**Monitoring:** Log every action, observation, and intermediate LLM call. Agent behavior is much harder to debug without complete traces. LangSmith, Weave, and similar tools provide trace visualization for agentic workflows.
 
 ## Sources
 
-- `kb/hard/raw/chip-huyen/agents.md` — primary reference: agent definition, tools taxonomy, planning patterns, failure modes, evaluation framework (from *AI Engineering*, Chip Huyen 2025)
-- `kb/hard/raw/aman-ai/primers-agents.md` — agent framework components, design patterns, MCP protocol, agentic RAG, multi-agent frameworks
-- `kb/hard/raw/aman-ai/primers-agentic-design-patterns.md` — pattern catalog: reflection, tool use, planning, multi-agent, HITL, guardrails, MCP integration
-- `kb/hard/raw/aman-ai/primers-agentic-reinforcement-learning.md` — RL for tool-calling agents: MDP formulation, reward decomposition, curriculum, PPO/GRPO, evaluation metrics
-- `kb/hard/raw/aman-ai/models-toolformer.md` — Toolformer: self-supervised tool call learning, filtering mechanism, limitations
-- `kb/hard/raw/aman-ai/primers-computer-control.md` — computer use agents: Anthropic, Operator, Manus, OmniParser, benchmarks
-- `kb/hard/raw/eugene-yan/building-news-agents-for-daily-news-recaps-with-mcp-q-and-tmux.md` — practical MCP + agentic workflow implementation
-- `kb/hard/raw/simon-willison/highlights-from-my-conversation-about-agentic-engineering-on-lennys-podcast.md` — practitioner perspective: agent reliability, testing bottleneck, dark factory pattern, prompt injection risks
+- Aman Chadha. *Primers: Agents* — agent framework (core, memory, tools, planning), design patterns, MCP, A2A protocol, agentic RAG, responsible AI agents
+- Aman Chadha. *Primers: Agentic Design Patterns* — what makes a system agentic, all major patterns with failure modes, state/adaptation/control, human-in-the-loop
+- Chip Huyen. *Agents* — agent definition, tool categories, planning as search, multi-step accuracy degradation, evaluation approaches
+- Lilian Weng. *LLM Powered Autonomous Agents* — planning/memory/tool-use framework, subgoal decomposition, reflection and refinement
+- Cameron Wolfe. *AI Agents from First Principles* — tool use evolution (finetuning → prompting), ReAct framework, reasoning models, MCP standardization

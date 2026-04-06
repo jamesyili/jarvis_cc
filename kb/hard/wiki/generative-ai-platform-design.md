@@ -1,178 +1,139 @@
 ---
 concept: Generative AI Platform Design
-tags: [genai, llm-platform, guardrails, model-serving, orchestration, ai-strategy]
+tags: [genai, llm-platform, guardrails, orchestration]
 sources:
   - kb/hard/raw/chip-huyen/building-a-generative-ai-platform.md
   - kb/hard/raw/chip-huyen/common-pitfalls-when-building-generative-ai-applications.md
-  - kb/hard/raw/chip-huyen/generative-ai-strategy.md
   - kb/hard/raw/chip-huyen/open-challenges-in-llm-research.md
-  - kb/hard/raw/eugene-yan/what-weve-learned-from-a-year-of-building-with-llms.md
-  - kb/hard/raw/eugene-yan/patterns-for-building-llm-based-systems-products.md
-  - kb/hard/raw/jay-alammar/generative-ai-and-ai-product-moats.md
 last_compiled: 2026-04-05
 related:
-  - hard/wiki/large-language-models
-  - hard/wiki/retrieval-augmented-generation
-  - hard/wiki/ai-agents-and-agentic-systems
-  - hard/wiki/llm-evaluation
+  - "[[hard/wiki/large-language-models|Large Language Models]]"
+  - "[[hard/wiki/retrieval-augmented-generation|Retrieval-Augmented Generation]]"
+  - "[[hard/wiki/llm-patterns|LLM Patterns]]"
 ---
 
 # Generative AI Platform Design
 
-## What It Is
+A generative AI platform is the infrastructure layer that turns a raw model API call into a production-grade application. The simplest form: receive query, send to model, return response. The production form: context construction, guardrails, model routing, caching, complex logic, write actions, observability, and orchestration — all layered progressively as application needs grow.
 
-A generative AI platform is the infrastructure layer that sits between raw model APIs and production user-facing applications. It is not a single component but a progressively assembled stack: context construction, guardrails, model routing, caching, complex orchestration, and observability. The right approach is to start minimal and add layers only as real needs emerge — premature complexity is one of the most common failure modes.
+Platform design is additive. Start minimal, add components as failure modes emerge. A component can be skipped if the system works without it. But evaluation is necessary at every step.
 
----
+## Step 1: Enhance Context (Context Construction)
 
-## Platform Architecture: The Five-Layer Stack
+The most common first expansion. Many queries need additional information to answer correctly — product specs, user history, internal documentation, real-time data. Providing this context dramatically reduces hallucination and improves specificity.
 
-### 1. Context Construction (RAG and Beyond)
+Context construction for foundation models is analogous to feature engineering for classical ML — giving the model the information it needs to process an input correctly.
 
-The first expansion beyond a bare model call is giving the model access to external information. Context construction is to GenAI what feature engineering is to classical ML — it determines what the model knows at inference time.
+**RAG (Retrieval-Augmented Generation):** The dominant pattern. A retriever fetches relevant chunks from external sources; these chunks augment the prompt. Term-based retrieval (BM25, Elasticsearch) is fast and cheap, works well out of the box. Embedding-based retrieval (vector search, ANN) handles semantic similarity but requires embedding infrastructure. Hybrid search combines both — term-based for initial candidates, vector search for semantic re-ranking. See [[hard/wiki/retrieval-augmented-generation|Retrieval-Augmented Generation]] for full treatment.
 
-**Retrieval-Augmented Generation ([[hard/wiki/retrieval-augmented-generation|RAG]])** is the dominant pattern. Documents are chunked, embedded, and stored in a vector index. At query time, the system retrieves the most relevant chunks and injects them into the prompt. Two core retrieval strategies:
+**RAG with structured data:** External data can be tabular. Text-to-SQL converts natural language queries to SQL, executes against the database, and uses results as context. Requires an intermediate step to identify relevant tables when many schemas are available.
 
-- **Term-based retrieval** (BM25, Elasticsearch): fast, cheap, no GPU, good baseline.
-- **Embedding-based retrieval** (ANN via FAISS, ScaNN, HNSW): semantically richer but compute-intensive. Key trade-offs: recall, QPS, build time, and index size.
+**Query rewriting:** User queries are often ambiguous or context-dependent. A preprocessing step rewrites queries — resolving coreference, adding context — before retrieval. Critical for multi-turn conversations where the most recent message only makes sense in prior context.
 
-Production systems typically combine both in **hybrid search**: term-based retrieval as a fast first-pass, embedding-based re-ranking as a precision filter. This mirrors the candidate generation → ranking pipeline familiar from [[hard/wiki/recommendation-systems|recommendation systems]].
+**Agentic context construction:** Web search, internal API calls, SQL execution, and other retrieval actions become tool calls in an agentic workflow. The model decides dynamically what information it needs. Each tool is a read-only action that augments context. See [[hard/wiki/ai-agents-and-agentic-systems|AI Agents & Agentic Systems]].
 
-For structured data, the pattern is **text-to-SQL**: model reads table schemas, generates a SQL query, executes it, then generates a final response. When context sources span multiple external systems (web search, databases, APIs), the architecture becomes **agentic RAG** — the model selects which retrieval action to take as part of its reasoning loop.
+## Step 2: Guardrails
 
-**Query rewriting** is a lightweight but high-leverage step: a small model rewrites the raw user query to make it self-contained and retrieval-friendly before it hits the retrieval layer.
-
-**"Lost in the Middle"**: models process documents at the beginning and end of context better than in the middle. Retrieval ordering matters.
-
-### 2. Guardrails
-
-Guardrails protect both users and the platform operator. They sit at two points: input and output.
+Guardrails protect users and developers from AI failures. Add them wherever potential failures exist. Two categories:
 
 **Input guardrails:**
-- **PII detection and masking**: intercept sensitive data before it leaves your org to a third-party API. Use a reversible placeholder dictionary to unmask in the returned response.
-- **Jailbreak and topic filtering**: classify inputs against a set of restricted topics or anomaly patterns. Out-of-scope detection also saves API costs by deflecting low-value queries.
+- *PII/sensitive data detection:* Prevent employees from inadvertently sending proprietary information to external APIs (the Samsung ChatGPT incident is the canonical example). Detect and mask — or block — sensitive content. A reversible PII dictionary allows masking at input and unmasking at output.
+- *Jailbreak/prompt injection prevention:* Filter inputs containing restricted topics, anomalous patterns, or phrases associated with adversarial behavior. Intent classifiers can identify out-of-scope requests.
 
 **Output guardrails:**
-- **Format validation**: regex, JSON schema validators, constrained decoding (guidance, outlines, instructor).
-- **Toxicity and brand-risk detection**: off-the-shelf classifiers or keyword monitors.
-- **Hallucination detection**: active research area; tools like SelfCheckGPT offer signal. Primary mitigation is providing sufficient context (RAG) plus chain-of-thought prompting.
-- **Sensitivity filters**: prevent retrieval-augmented systems from leaking retrieved private data into responses.
+- *Format validation:* Detect and retry on malformed JSON, invalid code, or missing required fields. Constrained sampling (outlines, guidance, instructor) prevents format failures at generation time.
+- *Toxicity detection:* Identify racist, sexist, or otherwise harmful outputs.
+- *Hallucination detection:* Check whether claims in the response are grounded in the provided context. SelfCheckGPT (sampling-based consistency check) and SAFE (search-engine factuality evaluation) are active approaches.
+- *Sensitive information in outputs:* Even correctly formatted responses can leak sensitive data retrieved from internal sources.
+- *Brand safety:* Monitor for responses that mischaracterize the company or competitors.
+- *Quality scoring (AI judges):* General-purpose LLMs or specialized scorers evaluate response quality. Should be validated against human judgments.
 
-**Failure management policy:** for failures, use retry logic with parallel calls (send 2 requests simultaneously, return the better one) to contain latency. Fall back to human operators for edge cases or high-stakes interactions. Some teams route to humans when sentiment analysis detects user frustration.
+**Failure management:** AI models are probabilistic — a bad response on retry may succeed. Basic retry logic addresses many failure modes. Parallel requests (send the same query twice simultaneously, return the better response) reduce latency at the cost of double API calls. Streaming mode conflicts with output guardrails — you can't evaluate a partial response.
 
-**Core tradeoff:** guardrails add latency. Most teams find the risk reduction worth it. Streaming mode creates a specific tension — unsafe tokens may reach the user before output guardrails can evaluate the full response.
+**Tradeoffs:** Guardrails add latency and cost. Some teams skip them when latency is paramount. Most find that the risk cost outweighs the latency cost. Self-hosting eliminates the need for input PII guardrails (no data leaves the organization) but requires implementing all output guardrails internally.
 
-### 3. Model Router and Gateway
+## Step 3: Model Router and Gateway
 
-**Router:** an intent classifier that directs queries to the best-suited model or solution path. Benefits: specialized models can outperform general-purpose ones on narrow tasks; simpler queries can be routed to cheaper models. The router also handles context window management — if a retrieval action bloats context beyond the intended model's limit, route to a larger-context model.
+**Router:** Routes queries to different models or handlers based on predicted intent. Benefits:
+- *Specialization:* Route billing queries to a billing-specialized model, technical queries to a technical model.
+- *Cost optimization:* Route simple queries to cheap models; reserve expensive models for complex ones.
+- *Out-of-scope handling:* Classify irrelevant queries and return stock responses without wasting an API call.
 
-**Gateway:** a unified API wrapper over all model endpoints (OpenAI, Anthropic, self-hosted). Core functions:
-- **Access control**: centralized credentials, fine-grained per-application permissions.
-- **Cost management**: usage monitoring, rate-limit enforcement.
-- **Fallback policies**: if the primary API is unavailable, route to a backup model or retry after backoff.
-- **Logging and analytics**: the gateway is already in the critical path, so it is a natural place to instrument.
+An intent classifier powers routing. It can be a general-purpose LLM or a specialized small classification model — the latter is much faster and cheaper, adding minimal latency. A next-action predictor can also help agents decide what to do next (ask for clarification vs. execute).
 
-The gateway and router models are typically small and fast (classification models rather than generation models) to avoid adding meaningful latency.
+**Gateway:** A centralized layer that abstracts access to multiple model APIs (OpenAI, Google, Anthropic, self-hosted) behind a unified interface. Core functions:
+- *Unified interface:* Application code calls one endpoint regardless of underlying model.
+- *Access control:* Single point for API key management, preventing token leakage.
+- *Cost management:* Monitor and limit API call volumes by user or application.
+- *Fallback policies:* Route to backup models on rate limit or API failure.
+- *Logging and analytics:* Centralize request/response logging.
 
-### 4. Caching
+Off-the-shelf gateways: Portkey, MLflow AI Gateway, Kong AI Gateway, Cloudflare AI Gateway.
 
-Cache is the most underrated cost and latency lever in a GenAI platform. Three distinct strategies:
+## Step 4: Caching
 
-| Cache Type | What It Does | When to Use |
-|---|---|---|
-| **Prompt cache** | Reuses computation for shared prefix text (e.g. system prompt) | Always — large system prompts, repeated long documents |
-| **Exact cache** | Stores and returns results for identical queries | High-repeat query patterns (FAQs, common searches) |
-| **Semantic cache** | Stores results and matches similar (not identical) queries via embedding similarity | Use cautiously — false similarity matches return wrong answers |
+Caching reduces latency and cost. Three techniques:
 
-Prompt cache is the most reliable and impactful: a 1,000-token system prompt with 1M daily API calls means ~1B tokens of avoidable computation per day. Major providers (Gemini) now offer discounted pricing for cached input tokens.
+**Prompt cache:** Cache processed prefixes (especially system prompts shared across queries). Without caching, the system prompt is processed with every query. With caching, only the first query pays that cost. For 1000-token system prompts at 1M daily API calls, prompt caching saves ~1 billion redundant input tokens per day. Gemini offers context caching at 75% token discount.
 
-Semantic cache is fragile. It depends on embedding quality, vector search correctness, and a well-calibrated similarity threshold. Only use it when cache hit rates are demonstrably high.
+**Exact cache:** Cache generated responses for processed items (summaries, SQL query results, retrieved chunks). Implement with Redis or in-memory storage. Requires an eviction policy (LRU, LFU, FIFO). Only makes sense for queries likely to be repeated — user-specific or time-sensitive queries should not be cached.
 
-Cache eviction policies (LRU, LFU, FIFO) are necessary to manage cache size in exact caches. User-specific or time-sensitive queries should not be cached.
+**Semantic cache:** Cache responses and retrieve them for semantically similar (not identical) queries. "What's the capital of Vietnam?" and "What's the capital city of Vietnam?" should return the same cached answer. Implementation: embed each query, store with its response; for new queries, find closest cached embedding; return cached result if similarity exceeds threshold. Critical caveat: semantic cache is prone to failure — bad embeddings, wrong similarity thresholds, or mistaken matches all cause incorrect responses to be returned. Evaluate carefully before deploying.
 
-### 5. Complex Logic and Write Actions
+## Step 5: Complex Logic and Write Actions
 
-Simple pipelines return model output directly. Complex pipelines add conditional branching, loops (feed model output back as input), and multi-step planning (model decides what action to take next, executes it, evaluates, continues).
+**Complex logic:** Model outputs can conditionally feed into other models, trigger different workflows, or loop back as inputs. Planning and self-correction patterns create these iterative flows. The output is returned to context construction, which feeds back to the model gateway.
 
-**Write actions** — sending emails, updating databases, placing orders — make a system dramatically more capable but dramatically riskier. Prompt injection attacks (equivalent to social engineering aimed at the model) become a live threat when the model has write access to systems. Mitigation: require human approval for high-impact write operations; implement defense-in-depth at the application layer, not just in the model prompt.
+**Write actions:** Actions that modify external state — send email, insert database record, execute API call, merge code. Write actions make agents vastly more capable. They also make failures vastly more consequential. Mitigations:
+- Require explicit human approval before irreversible write actions
+- Apply principle of least privilege — minimum write access required
+- Guard against prompt injection (malicious content hijacking write actions)
+- Define and enforce which actions can execute automatically vs. which require human confirmation
 
----
+## Observability
 
-## Observability: Logs, Traces, Metrics
+Observability must be built in from the start, not added later. Three pillars:
 
-Observability is not an afterthought — instrument from day one. Three pillars:
+**Metrics:** System metrics (throughput, memory, hardware utilization, uptime) plus model metrics (accuracy, toxicity, hallucination rate). Latency metrics matter most for user experience:
+- Time to First Token (TTFT)
+- Time Between Tokens (TBT)
+- Tokens Per Second (TPS)
+- Total Latency
 
-**Metrics:** track model performance (accuracy, toxicity, hallucination rate), system health (throughput, latency, memory), and cost drivers (input/output token volume, API call rate). For latency specifically: Time to First Token (TTFT) is the UX-critical signal; Total Latency covers the full response. For [[hard/wiki/retrieval-augmented-generation|RAG]] pipelines, track context relevance and precision separately from generation quality.
+Track cost metrics: query volume, input/output token counts, cost per query. Break down all metrics by user, release, prompt version, and query type.
 
-**Logs:** log everything — query, intermediate outputs, final response, component start/stop, failures. Tag logs with IDs that can be traced back to a specific pipeline component. Manual daily review of production data (even 15 minutes) consistently surfaces insights that automated analysis misses.
+**Logs:** Log everything — configurations, queries, outputs, intermediate states, component timing, failures. Structured logs with tags and IDs enabling attribution to specific pipeline stages. Manual inspection of production data (even 15 minutes/day) consistently reveals insights that automated analysis misses.
 
-**Traces:** record the full execution path of a request — what actions were taken, what was retrieved, what prompt was assembled, how long each step took. Traces enable root-cause diagnosis when a response fails: was it bad retrieval, bad context construction, or bad generation?
-
----
-
-## Orchestration
-
-An orchestrator chains components — models, retrievers, databases, tools — into an end-to-end pipeline. It handles data passing between steps and schema validation across step boundaries.
-
-**Key evaluation criteria for orchestration tools:**
-1. **Integration breadth**: does it support your model providers and databases?
-2. **Complex pipeline support**: branching, parallel execution, error handling.
-3. **Performance**: no hidden API calls or added latency.
-
-**The main risk of orchestrators:** they abstract away critical details. If a framework silently updates its default prompts, your system behavior changes without warning. Start without an orchestrator. Add one when the complexity demands it and you already understand the system deeply.
-
-Parallelism is a first-class optimization: independent steps (PII filtering + intent routing, for example) should run concurrently to minimize wall-clock latency.
-
----
-
-## Build vs. Buy
-
-The gateway, scoring models, and many guardrail components are commodity. Open-source options (LangChain, LlamaIndex, Portkey, Kong AI Gateway) cover most needs. The real differentiation is not in the infrastructure — it is in data, fine-tuned behavior, and product design. Because everyone uses the same foundation models, the platform components increasingly converge. **Moat lives in proprietary data, user behavioral signals, and the quality of the product layer built on top.**
-
----
-
-## AI Product Moats
-
-When foundation models are accessible to everyone, the defensible advantages are:
-
-1. **Proprietary data**: training data, fine-tuning data, user interaction logs that competitors cannot access.
-2. **Behavioral signals**: user feedback loops that continuously improve model behavior for your specific use case.
-3. **Distribution and workflow integration**: deep embedding in user workflows that creates switching costs independent of model quality.
-4. **Evaluation infrastructure**: teams that build rigorous [[hard/wiki/llm-evaluation|evaluation]] pipelines move faster and improve more reliably than teams that don't. Evaluation is itself a moat.
-
----
+**Traces:** End-to-end recording of a request's path through system components — which documents were retrieved, what prompt was assembled, how long each step took, what the final response was. LangSmith, Weave, and similar tools provide trace visualization.
 
 ## Common Pitfalls
 
-These failures are well-documented across production teams:
+**Use GenAI when you don't need it:** Not every problem needs an LLM. Before building a GenAI solution, ask whether a simpler approach (linear programming, rule-based logic, a standard ML model) achieves the same goal more reliably.
 
-**1. Using GenAI when you don't need it.** Many problems are better solved by simpler, cheaper methods (linear programming, rule-based systems, classical ML). GenAI should be chosen because it is the right tool, not because it is new.
+**Confuse bad product with bad AI:** Poor user experience is often a product design problem, not a model problem. Users may want action items from meeting transcripts, not summaries. They may want helpful (not just correct) responses. They may need suggested prompts rather than a blank text box.
 
-**2. Confusing bad product with bad AI.** AI is often the easy part. UX is hard. Teams that fail with GenAI frequently fail at product — wrong interface design, poor workflow integration, missing human-in-the-loop. Intuit improved chatbot satisfaction not by changing the model but by adding suggested questions to reduce blank-page friction.
+**Start too complex:** Don't use an agentic framework when direct API calls work. Don't insist on fine-tuning when prompting works. Don't implement semantic caching before proving it's needed. Abstractions obscure bugs; frameworks update their default prompts without warning. Start minimal.
 
-**3. Starting too complex.** Do not reach for agentic frameworks, vector databases, or fine-tuning before validating that simpler approaches are insufficient. Abstractions hide bugs and slow debugging. Term-based retrieval before embedding search. Direct API calls before orchestration frameworks.
+**Over-index on early success:** The 0→80% journey is typically fast. The 80→95% journey takes as long again. Hallucination at the margins, tool-calling reliability, tonal consistency, edge case handling — these dominate production engineering time. LinkedIn: 1 month to 80%, 4 additional months to 95%.
 
-**4. Over-indexing on early success.** The demo → production gap is severe. Getting from 0% to 80% takes roughly as long as getting from 80% to 95%. The last 5% can dominate the total engineering investment. Plan for it. Reliability (provider timeouts, silent model updates), compliance, and safety surface as the system scales.
+**Forgo human evaluation:** AI judges are useful but must be validated against human judgments. Daily human review of 30–1000 examples provides ground truth, catches judge drift, and surfaces user behavior patterns that automated systems miss.
 
-**5. Forgoing human evaluation.** AI-as-a-judge is useful but not sufficient. Best-performing teams have daily human review of 30–1,000 output samples. Human evaluation catches distribution drift that automated judges miss, and it calibrates whether the AI judge itself has drifted.
-
-**6. Crowdsourcing use cases without a strategy.** Individual contributors surface problems affecting their own workflows. Without executive strategy that filters for ROI, you end up with a portfolio of low-impact tools. Strategy precedes execution.
-
----
+**Crowdsource use cases without strategy:** Individual contributors suggest use cases relevant to their day-to-day work, not highest-ROI applications. Without an overarching strategy, teams end up with a proliferation of low-impact apps that together produce no meaningful return.
 
 ## Open Challenges
 
-- **Hallucination**: still the #1 production blocker. RAG mitigates it but does not eliminate it. Detection (SelfCheckGPT, SAFE) is improving but remains imprecise.
-- **Context efficiency**: longer context windows do not automatically improve performance. Context position matters ("Lost in the Middle"). Active research into better context construction and ordering.
-- **Latency and cost**: quantization (4-bit, 8-bit), knowledge distillation, and pruning are mature techniques for self-hosted models. Prompt caching and model routing are the primary levers for API-based deployment.
-- **Agent reliability**: [[hard/wiki/ai-agents-and-agentic-systems|Agentic systems]] that plan and act across multi-step tasks remain unreliable at production scale. Tool-calling accuracy, latency/accuracy tradeoffs, and safe write-action handling are open problems.
-- **Human preference alignment**: RLHF is effective but labeler demographics create bias. Whose preferences are being learned? This is as much a policy problem as a technical one.
+The hardest unsolved problems in production LLM systems:
 
----
+**Hallucination:** The #1 barrier to enterprise adoption. Measurement remains unsolved — there is no definitive hallucination metric. Mitigation via RAG, chain-of-thought, self-consistency helps but doesn't eliminate.
 
-## Key Principles
+**Context optimization:** "Lost in the Middle" shows models attend poorly to content in the middle of long contexts. More context is not always better. Efficient context construction — including only what's needed, ordering it well — is as important as context length.
 
-- **Add components incrementally.** Start with the simplest working system. Measure. Add layers only when a real bottleneck justifies the complexity cost.
-- **Instrument from day one.** Observability retrofitted later is always incomplete. Logs, traces, and metrics belong in the initial design.
-- **Keep humans in the loop.** Daily manual review of production outputs is among the highest-leverage activities in GenAI product development.
-- **The platform is not the moat.** Infrastructure converges to commodity. Differentiation comes from data, evaluation rigor, and product quality.
+**Latency/accuracy tradeoff:** More planning, self-correction, and parallel execution improves accuracy but increases latency and cost. Production systems must tune this tradeoff per application.
+
+**Reliability of API providers:** 10% timeout rates are reported in production. Model behavior changes when providers update underlying models. Building robust retry, fallback, and version-pinning strategies is essential but tedious.
+
+## Sources
+
+- Chip Huyen. *Building a Generative AI Platform* — complete platform architecture, context construction, guardrail types, router/gateway, caching, write actions, observability
+- Chip Huyen. *Common Pitfalls When Building Generative AI Applications* — use case selection, complexity, human evaluation, the 0→80→95% curve
+- Chip Huyen. *Open Challenges in LLM Research* — hallucination, context optimization, multimodality, cost/latency trends

@@ -1,139 +1,111 @@
 ---
 concept: Learning to Rank
-tags: [ranking, ltr, pointwise, pairwise, listwise, ml-system-design]
+tags: [ranking, ltr, deep-ranking, calibration, lambdamart]
 sources:
-  - kb/hard/raw/aman-ai/chapter-7-event-recommendation-system.md
-  - kb/hard/raw/aman-ai/chapter-10-personalized-news-feed.md
-  - kb/hard/raw/aman-ai/chapter-11-people-you-may-know.md
+  - kb/hard/raw/aman-ai/recommendation-systems-rankingscoring.md
   - kb/hard/raw/aman-ai/distilled-ad-click-prediction-recsys-design.md
   - kb/hard/raw/aman-ai/distilled-rental-search-ranking.md
-  - kb/hard/raw/aman-ai/chapter-9-similar-listings-on-vacation-rental-platforms.md
-  - kb/hard/raw/aman-ai/recommendation-systems.md
   - kb/hard/raw/aman-ai/recommendation-systems-popular-architectures.md
-  - kb/hard/raw/aman-ai/recommendation-systems-calibration.md
 last_compiled: 2026-04-05
-related: [recommendation-systems, two-tower-retrieval, feature-engineering, embeddings-and-representation-learning]
+related:
+  - "[[hard/wiki/recommendation-systems|Recommendation Systems]]"
+  - "[[hard/wiki/two-tower-retrieval|Two-Tower Retrieval]]"
+  - "[[hard/wiki/feature-engineering|Feature Engineering]]"
 ---
 
 # Learning to Rank
 
-Learning to Rank (LTR) is the application of supervised ML to ordering problems: given a query and a candidate set, produce the ordering that maximizes some relevance objective. It sits at the heart of every production recommendation and search system — after [[hard/wiki/two-tower-retrieval|retrieval]] narrows millions of candidates to hundreds, LTR is what determines what the user actually sees.
+Learning to rank (LTR) is the second major stage of a recommendation or search pipeline, operating on the hundreds of candidates produced by retrieval. Where retrieval optimizes for recall, ranking optimizes for precision — placing the most relevant items at the top of the list. The ranking stage justifies its additional compute cost by incorporating features that would have been prohibitively expensive to compute across the full catalog: cross features, dense user context, item embeddings, and session-level signals.
 
-## The Three Paradigms
+## Why a Separate Ranking Model?
 
-### Pointwise
-Each item is scored independently against the query. In practice this means a binary or regression model predicting P(click | user, item) or P(booking | user, listing). The final ranking is just a sort on predicted scores.
+Candidate generators (two-tower, matrix factorization) produce scores — why not use them to rank too? Three reasons:
 
-**Why it dominates production systems:** It's easy to frame as a standard classification problem, maps directly to existing data (impressions → labels), and scales cleanly. The news feed system (chapter 10) computes separate probabilities for click, like, share, comment, then blends them: `engagement_score = Σ weight_i × P(reaction_i)`. The event recommendation system (chapter 7) uses a single binary classifier for registration probability. The rental search ranking system frames booking likelihood as binary classification and sorts on that score.
+1. **Incommensurable scores**: A system with multiple candidate generators (matrix factorization + social graph + trending items) produces scores on different scales that can't be compared.
+2. **Limited feature expressiveness**: Retrieval models sacrifice feature richness for scalability. Ranking can use anything because it operates on ~100–1000 items, not millions.
+3. **Different objectives**: Retrieval optimizes recall; ranking can directly optimize NDCG, CTR, or multi-objective business metrics.
 
-**The tradeoff:** Pointwise treats each item in isolation, so the model has no awareness of how items compare. It can produce well-calibrated individual scores that generate a poor relative ordering.
+## The Three LTR Paradigms
 
-### Pairwise
-The model takes two items and predicts which is more relevant. Loss functions operate on pairs: **RankNet** uses cross-entropy on pairwise preferences; **LambdaRank** adds gradient weighting by the NDCG gain from swapping the pair; **LambdaMART** combines LambdaRank with gradient-boosted trees.
+### Pointwise Methods
 
-The key insight of LambdaRank: you don't need a well-defined loss to train a ranker — you only need gradients. By weighting gradients by |ΔNDCG|, the model focuses learning on swaps that matter most for ranking quality. This makes it more metric-aware than raw cross-entropy without requiring a differentiable NDCG formulation.
+Score each item independently, treating ranking as a classification or regression problem.
 
-### Listwise
-The model operates on the entire ranked list at once. SoftRank directly optimizes a smooth approximation to NDCG. ListNet models the probability of a permutation. AdaRank is a boosting approach that directly maximizes IR metrics.
+**Logistic regression**: Binary classification (clicked vs. not clicked). Simple, fast, and interpretable. Coefficients directly indicate feature importance. The classic hard-to-beat baseline with good cross features. Limitation: linear decision boundary, no pairwise context.
 
-Listwise is the most theoretically sound but hardest to implement and most expensive to train. Pairwise methods like LambdaMART routinely match or beat listwise approaches on benchmarks while being significantly more practical.
+**Gradient Boosted Decision Trees (GBDT)**: Ensemble method iteratively training decision trees on gradient residuals. Can optimize ranking metrics like NDCG. High predictive performance with complex feature interactions. Robustly handles missing values and mixed feature types. LinkedIn uses XGBoost for both retrieval (scoring top 1000) and as a feature generator for a downstream generalized linear model. Limitation: no pairwise context, computationally intensive for very large feature sets.
 
-**Interview heuristic:** Default to pointwise in system design. Justify pairwise/listwise only when you can explain the gradient formulation or the training cost is worth it for your scale.
+Pointwise methods are common in production because they're fast at inference (score each item independently, batch trivially) and easy to debug.
 
-## Deep Ranking Model Architectures
+### Pairwise Methods
 
-The evolution of ranking models is a story of progressively better feature interaction modeling. The central challenge: given hundreds of sparse categorical features (user ID, item ID, categories, device type), how do you capture the interactions that drive clicks without manual feature engineering?
+Learn to order pairs of items — "item A should rank above item B" — reducing ranking to binary classification over pairs.
 
-### Wide & Deep (Google, 2016)
-The wide component is a linear model over manually crafted cross features — `AND(user_installed=Netflix, impressed_app=Hulu)` — capturing memorization of specific co-occurrence patterns. The deep component is an MLP over learned embeddings, capturing generalization. Both are trained jointly. Wide & Deep improved app acquisitions on Google Play by ~1% over deep-only — small percentage, massive revenue at scale. The insight: memorization and generalization are complementary, not competing.
+**RankNet**: Neural network predicting pairwise preferences. Probabilistic cost function (logistic). End-to-end differentiable. Captures non-linear interactions. Limitation: quadratic number of pairs, slower convergence.
 
-### Deep & Cross Networks (DCN, 2017; DCN v2, 2020)
-DCN replaces the manual wide component with a cross network that applies explicit feature crosses iteratively: each cross layer computes `x_0 × x_l^T × w + x_l`, preserving the original input and accumulating higher-order interactions. The cross network and DNN run in parallel; their outputs are concatenated for final prediction. DCN automates cross feature generation to bounded polynomial degree, removing the need for manual feature engineering. DCN v2 uses a full-rank matrix instead of a vector per cross layer and introduces a Mixture of Experts structure for scalability.
+**LambdaRank**: Extends RankNet by computing gradients as if optimizing NDCG, without differentiating through the non-differentiable metric. "Lambda" encodes both pairwise preference and the NDCG gain from swapping a pair. Directly improves ranking quality. Standard in NDCG-focused pipelines.
 
-### DeepFM (2017)
-Combines Factorization Machines for second-order feature interactions with an MLP for higher-order interactions, sharing the same embedding layer between both components. FM captures pairwise interactions efficiently; the deep component handles non-linear combinations. DeepFM requires no manual feature engineering and outperforms Wide & Deep on CTR benchmarks.
+Pairwise methods generally outperform pointwise on NDCG while remaining more computationally feasible than listwise approaches.
 
-### DIN (Deep Interest Network)
-Introduces an attention mechanism over a user's historical interactions to model interest diversity. Instead of summing all past interactions into a single vector, DIN weights historical items by their relevance to the target item. This captures the fact that users have diverse interests, and only a subset is relevant for any given candidate.
+### Listwise Methods
 
-### DHEN (2022)
-Introduces a hierarchy of interaction types — dot products, self-attention (AutoInt-style), convolution, linear processing, and DCN-style crossing — applied together rather than choosing one. DHEN is not incremental over DLRM; it replaces DLRM's single dot product with a comprehensive interaction hierarchy, achieving state-of-the-art CTR on Criteo benchmarks.
+Treat the entire ranked list as a single unit to optimize.
 
-### Architecture Selection in Interviews
-- Simple baseline: logistic regression or GBDT (fast to train, interpretable, no embedding infrastructure required)
-- Standard production: Deep & Cross or DeepFM (automatic feature interactions, embedding-based)
-- High-quality production: DCN v2 or DHEN (more expressive, but harder to justify without scale)
-- When you need continual learning: neural networks over GBDT — GBDT requires full retraining; NNs support fine-tuning on new data
+**ListNet**: Models permutation probability distribution via softmax. Directly optimizes NDCG. Computationally expensive.
 
-## Feature Engineering for Rankers
+**LambdaMART**: Combines LambdaRank with gradient boosted trees. The practical gold standard for LTR. Optimizes NDCG list-wise using GBDT, inheriting strong handling of complex feature interactions. Highly scalable, dominant in IR competitions (Yahoo! LTR challenge). Well-supported in XGBoost/LightGBM.
 
-Features fall into four categories. What distinguishes good rankers from mediocre ones is usually feature quality, not model architecture.
+## Deep Ranking Architectures
 
-**User features:** Demographics (age, gender, location), account age, historical engagement rates by category, contextual signals (device, time of day, session recency). Passive users are a special case — for news feeds, dwell time and skip signals capture engagement without explicit reactions.
+When catalog scale and feature richness justify neural models, several architectures have become standard.
 
-**Item features:** Content embeddings (BERT for text, ResNet/CLIP for images), engagement statistics (total likes, share rate, impression-to-click ratio), recency/age. Items degrade differently: events expire; listings stay fresh longer; social posts decay within hours.
+**Wide & Deep (Google, 2016)**: Combines a linear model (wide component) for memorization of specific feature interactions, with a DNN (deep component) for generalization. Wide component takes cross features — explicit second-order interactions like `AND(user_installed_app='netflix', impression_app='hulu')`. Deep component takes embeddings of categorical features. Joint training with shared loss. Introduced the critical insight that cross features are essential for production ranking quality.
 
-**Cross features (user × item):** Cosine similarity between user interest vector and item embedding, user × item category affinity, user × price bucket historical preference. These are the most predictive features and the hardest to engineer at scale. Wide & Deep formalized the value of explicit cross features; DCN automates their generation.
+**DeepFM (2017)**: Replaces the wide component's manual feature engineering with a Factorization Machine that automatically learns pairwise feature interactions. Shares embedding layers between FM and DNN components. Handles both low-order (FM) and high-order (DNN) interactions without feature engineering overhead.
 
-**Context features:** Location distance, time remaining to event, travel time, day-of-week match against user's historical attendance pattern. Location-based systems (event recommendation, rental search) rely heavily on distance features — raw lat/long is poorly behaved; log-distance-from-center or bucketized distance categories work better.
+**Deep & Cross Network (DCN, 2017)**: Introduces a "cross network" that applies explicit polynomial feature crossing at each layer: `x_{l+1} = x_0 * x_l^T * w_l + b_l + x_l`. Each cross layer increases the polynomial degree by 1. More parameter-efficient than manually engineering cross features. Parallel cross and deep components combined at output.
 
-**Social features:** Number of friends registered for an event, friend-attended ratio, whether the host is a friend — these are among the most predictive signals for event and social content ranking (chapter 7). Mutual connections (PyMK chapter 11) are particularly strong for connection prediction: 92% of new friendships form via friends-of-friends.
+**DCN V2 (2020)**: Addresses DCN's scalability via low-rank approximations and mixture-of-experts in the cross network. DCN's cross network becomes expensive as embedding dimensions grow. DCN V2's MoE structure decomposes the weight matrix into smaller low-rank factors, reducing computation while maintaining expressiveness.
 
-## Multi-Objective Ranking
+**DIN (Deep Interest Network)**: Applies attention over the user's historical interaction sequence to compute a context-aware user representation for each candidate item. Instead of pooling all history into a fixed vector, DIN weights historical items by their relevance to the current candidate. Captures the fact that different items activate different aspects of user preference.
 
-Real systems don't optimize a single signal. The news feed system (chapter 10) blends click, like, comment, share, hide, block, and dwell time with learned or hand-tuned weights. Key decisions:
-
-- **Which signals to include:** Implicit (clicks, dwell time) have more data but weaker signal; explicit (likes, shares) are stronger but sparse. Blend both.
-- **How to weight them:** Weights can be hand-tuned to business objectives (a hide should negatively outweigh a click) or learned via constrained optimization.
-- **What you're implicitly optimizing:** Optimizing purely for engagement metrics can surface clickbait. Add quality signals (hide rate, block rate) as negative terms or constraints.
-- **Multi-task learning:** Train separate heads for each reaction on a shared representation — reduces training cost, shares signal across sparse tasks, and prevents the model from over-indexing on frequent reactions at the expense of rarer but higher-value ones (e.g., shares vs. clicks).
+**DHEN (2022)**: Deep Hierarchical Ensemble Network. Hierarchical interaction structure with multiple expert networks for feature interaction modeling.
 
 ## Position Bias and Debiasing
 
-Users click items in higher positions at higher rates regardless of quality. Training on click data without correction creates a feedback loop: items ranked high get more clicks → model learns they're relevant → ranks them higher.
+A fundamental problem in ranking training: items shown at higher positions receive more clicks simply due to position, not relevance. Training on this biased data creates a self-reinforcing feedback loop where position influences both what gets clicked and what the model learns, perpetuating suboptimal rankings.
 
-**Two-tower debiasing:** A separate "bias tower" learns position-related signals (position, device type, page context) while the main tower learns relevance. Outputs are combined multiplicatively or additively so the bias is factored out from the relevance score at serving time. Huawei's PAL model uses multiplicative combination; YouTube's Watch Next uses additive. Both show significant quality improvements.
+**Naive debiasing**: Add position as a feature during training, set it to 1 for all items at serving time. This teaches the model the relationship between position and click probability, which it then removes at inference. Recommended in Google's Rules of Machine Learning.
 
-**Inverse propensity weighting:** Re-weight training examples by 1/P(observed | position) to correct for the examination bias. Requires a propensity model to estimate P(examination).
+**Propensity weighting**: Use the measured position bias (examination probability at each position) to inverse-propensity-weight the training loss. Items in lower positions get higher weight since they were less likely to be examined.
 
-**Intervention harvesting:** A/B test positions to collect unbiased click data. Expensive but ground truth.
+**Expectation maximization (EM)**: Model clicks as a product of examination (position-dependent) and relevance (item-dependent). Fit the EM model on logged data to separate the two effects. Google demonstrated this on email and file storage search logs.
 
-## Evaluation Metrics
+See [[hard/wiki/counterfactual-evaluation|Counterfactual Evaluation]] for IPS-based debiasing at evaluation time.
 
-**Offline (ranking quality):**
-- **NDCG@K** (Normalized Discounted Cumulative Gain): Measures gain of retrieved items discounted by position. Works for graded relevance. The standard metric for ranking quality across most system design contexts. Rental search (distilled-rental-search-ranking) uses DCG/NDCG explicitly.
-- **MAP** (Mean Average Precision): Average precision across recall levels. Works for binary relevance — good fit for event recommendation where a user either registered or didn't.
-- **MRR** (Mean Reciprocal Rank): Position of the first relevant item. Use when there's a single right answer (search with one correct result). Avoid for multi-relevant recommendation scenarios.
-- **HR@K** (Hit Rate): Whether any relevant item appears in top K. Simple but useful for retrieval-stage evaluation.
+## Multi-Objective Ranking
 
-**Why Precision@K and Recall@K are weak:** They ignore ranking order. NDCG, MAP, and MRR all account for position; Precision@K does not.
+Production ranking models rarely optimize a single objective. A ranking model for YouTube needs to balance click probability, watch time, user satisfaction, and business goals (revenue, content diversity). Standard approaches:
 
-**Online:**
-- CTR, conversion rate, session book rate (rentals), registration rate (events), accepted connection rate (PyMK)
-- Revenue lift is the ultimate business metric but requires A/B tests and has high variance
-- Engagement blends (total time spent, reaction rates) for feed systems where implicit signals matter
+**Multi-task learning**: Shared lower layers (embeddings, feature interactions) with separate output heads per objective. Each head predicts a different label (CTR, watch time, share probability). The final ranking score is a weighted combination of head outputs, with business-defined weights.
 
-**Ad prediction special case:** Normalized Cross-Entropy (NCE) divides predictive log-loss by the cross-entropy of the background CTR, making the metric insensitive to CTR base rate. Useful when CTR varies by product surface.
+**Mixture of Experts (MMoE)**: Multiple expert networks, with gates that learn which experts to activate per task. Prevents task interference — negative transfer where optimizing one objective hurts another. TikTok and YouTube both use MMoE-based architectures.
 
-## Production Considerations
+**Constrained optimization**: Hard constraints on certain objectives (e.g., max diversity threshold, minimum coverage for new content) while optimizing a primary metric.
 
-**Latency:** Ranking happens after retrieval and must complete within 50-200ms total. Practical limits: feature computation (static features from feature store <10ms, dynamic features computed in real-time add latency), model inference (GBDT is faster than DNN; quantized DNNs are faster than full precision). Aggregator pattern: distribute candidate list to parallel ranking workers, collect and merge results.
+## Calibration and Production Patterns
 
-**Calibration:** Predicted scores are used downstream for blending, thresholding, and business decisions — they need to be true probabilities, not just ordinal scores. Platt scaling (fits a sigmoid to raw scores) is the simplest approach and works well when the calibration curve is approximately sigmoidal. Isotonic regression (non-parametric, monotone) fits more complex curves but overfits with limited data. Bayesian calibration (bins scores, uses Dirichlet prior) handles uncertainty explicitly. For CTR models, calibration drift with distribution shift is a persistent operational problem — monitor calibration metrics (reliability diagrams, Expected Calibration Error) continuously.
+**Calibration**: Ranking scores must reflect actual probabilities — miscalibrated outputs break ad auction pricing, blend weights, and multi-objective score combination. Downsampling negatives during training shifts the output distribution; correct post-training: `p_calibrated = p / (p + (1-p) / negative_sample_rate)`. For ad CTR prediction, Normalized Cross-Entropy (NCE) normalizes log-loss by background CTR, making it stable across different CTR baselines.
 
-**Continual learning:** User interests shift; event inventories turn over hourly. GBDT requires full retraining — expensive and slow. Neural networks support fine-tuning on new data incrementally. For highly dynamic systems (event recommendation, ad ranking), architecture choice directly constrains your retraining velocity.
+**Multi-stage ranking (Instagram Explore)**: Three passes with progressively more expensive models — distilled model (500 → 150 candidates), lightweight DNN with full dense features (150 → 50), full DNN with dense+sparse features (50 → 25). This cascading pattern trades precision for latency at each stage.
 
-**Class imbalance:** CTR in ads is ~1-2%; registration rates in events are similarly low. Strategies: downsample the negative class (keep training distribution manageable), use focal loss (down-weight easy negatives), or class-balanced loss. Never downsample the validation/test set — metrics must reflect true production distribution.
+**Airbnb rental search**: Binary classification (booking vs. not-booking). Training split by time; validation on days immediately following the training cutoff. Cold-start for new listings addressed with content features. 50–100ms serving budget.
 
-**Feature store:** Static features (user demographics, item metadata) are pre-computed and served with <10ms lookup from Redis/DynamoDB. Dynamic features (real-time interaction counts, live event capacity) are computed at request time from stream processors. Separating these is standard architecture: static store + streaming feature pipeline.
+**Ad click prediction**: CTR ~1–2% requires heavy negative downsampling and frequent retraining (multiple times daily) to track distribution shift.
 
 ## Sources
-- [[kb/hard/raw/aman-ai/chapter-7-event-recommendation-system|Chapter 7 – Event Recommendation System]]
-- [[kb/hard/raw/aman-ai/chapter-10-personalized-news-feed|Chapter 10 – Personalized News Feed]]
-- [[kb/hard/raw/aman-ai/chapter-11-people-you-may-know|Chapter 11 – People You May Know]]
-- [[kb/hard/raw/aman-ai/distilled-ad-click-prediction-recsys-design|Distilled – Ad Click Prediction RecSys Design]]
-- [[kb/hard/raw/aman-ai/distilled-rental-search-ranking|Distilled – Rental Search Ranking]]
-- [[kb/hard/raw/aman-ai/chapter-9-similar-listings-on-vacation-rental-platforms|Chapter 9 – Similar Listings on Vacation Rental Platforms]]
-- [[kb/hard/raw/aman-ai/recommendation-systems|Recommendation Systems (overview)]]
-- [[kb/hard/raw/aman-ai/recommendation-systems-popular-architectures|Recommendation Systems – Popular Architectures]]
-- [[kb/hard/raw/aman-ai/recommendation-systems-calibration|Recommendation Systems – Calibration]]
+
+- Aman.ai: [Recommendation Systems Ranking/Scoring](https://aman.ai/recsys/ranking/)
+- Aman.ai: [Distilled — Ad Click Prediction](https://aman.ai/sysdes/adclickpred/)
+- Aman.ai: [Distilled — Rental Search Ranking](https://aman.ai/sysdes/airbnb/)
+- Aman.ai: [Popular Architectures](https://aman.ai/recsys/architectures/)

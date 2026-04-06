@@ -1,149 +1,115 @@
 ---
 concept: Transformer Architecture
-tags: [transformer, attention, self-attention, positional-encoding, llm-foundations, kv-cache, flashattention]
+tags: [transformer, attention, self-attention, positional-encoding, mha, gqa, mla, flashattention]
 sources:
   - kb/hard/raw/aman-ai/primers-transformers.md
-  - kb/hard/raw/aman-ai/recommendation-systems-transformers.md
-  - kb/hard/raw/lilian-weng/the-transformer-family-version-20.md
-  - kb/hard/raw/lilian-weng/the-transformer-family.md
+  - kb/hard/raw/jay-alammar/how-gpt3-works-visualizations-and-animations.md
   - kb/hard/raw/sebastian-raschka/a-visual-guide-to-attention-variants-in-modern-llms.md
-  - kb/hard/raw/sebastian-raschka/understanding-and-coding-the-kv-cache-in-llms-from-scratch.md
-  - kb/hard/raw/aman-ai/natural-language-processing-transformers.md
-  - kb/hard/raw/aman-ai/natural-language-processing-attention.md
-  - kb/hard/raw/aman-ai/primers-flashattention.md
-  - kb/hard/raw/louis-wang/the-attention-bottleneck-how-modern-llms-solved-a-problem-that-nearly-broke-the.md
-  - kb/hard/raw/cameron-wolfe/gpt-oss-from-the-ground-up.md
+  - kb/hard/raw/lilian-weng/the-transformer-family-version-20.md
 last_compiled: 2026-04-05
-related: [embeddings-and-representation-learning, large-language-models, recommendation-systems]
+related:
+  - "[[hard/wiki/large-language-models|Large Language Models]]"
+  - "[[hard/wiki/llm-inference-serving|LLM Inference & Serving]]"
+  - "[[hard/wiki/embeddings-and-representation-learning|Embeddings & Representation Learning]]"
 ---
 
 # Transformer Architecture
 
-## The Core Idea
+The transformer, introduced by Vaswani et al. in "Attention Is All You Need" (2017), replaced sequential RNN-based processing with a fully parallel attention mechanism. It became the backbone of every major language model and most state-of-the-art vision systems. Understanding its internals — from scaled dot-product attention through positional encoding to the modern GQA/MLA attention variants — is essential for any serious ML practitioner.
 
-The Transformer (Vaswani et al., 2017 — "Attention Is All You Need") replaced RNN-based encoder-decoders by making attention the primary sequence-processing mechanism. The key insight: instead of compressing a sequence into a fixed-length context vector (the RNN bottleneck), every token can directly attend to every other token.
+## Why Transformers Replaced RNNs
 
-**Scaled dot-product attention** is the fundamental operation:
+RNNs process tokens sequentially, passing a hidden state left to right. That design created two fundamental problems: long-range dependencies degraded because gradients vanished over many timesteps, and sequential computation blocked parallelism, making training slow. Transformers eliminate both problems. Every token attends to every other token in a single operation, and the full sequence can be processed in parallel on GPUs. The trade-off is quadratic memory in sequence length — a limitation that has driven decades of subsequent research.
+
+The representational insight is that attention computes *contextual* embeddings. The word "bank" in "river bank" and "bank account" gets different vector representations after attention because its neighbors differ. Static word2vec embeddings cannot do this.
+
+## Self-Attention: The Core Operation
+
+Given an input sequence of length L with embedding dimension d, self-attention projects each token into three vectors: query (Q), key (K), and value (V) using learned weight matrices W_q, W_k, W_v ∈ R^{d × d_k}.
+
+Scaled dot-product attention:
 
 ```
-Attention(Q, K, V) = softmax(QK^T / sqrt(d_k)) · V
+A = softmax(QK^T / sqrt(d_k)) * V
 ```
 
-Q (queries), K (keys), and V (values) are linear projections of the input embeddings. The scaling by `sqrt(d_k)` prevents dot products from becoming large enough to push softmax into near-zero gradient regions. The result is a T×T attention matrix where each row encodes how much each token attends to every other token. In decoder-only models, the upper-right triangle is masked to enforce causality.
+The scaling by sqrt(d_k) prevents the dot products from growing so large that softmax saturates into near-zero gradients. The attention matrix A ∈ R^{L×L} captures every pairwise token relationship. Each row answers: "when updating this token, how much should each other token contribute?"
 
-**Multi-head attention (MHA)** runs H independent attention heads in parallel with different learned projections, then concatenates and projects the outputs. Different heads specialize — one might focus on local dependencies, another on long-range semantic relationships. Each head operates at dimension `d/H`, keeping total compute roughly constant.
+In **decoder-only** (GPT-style) models, a causal mask zeros out the upper-right triangle of A — each position can only attend to past tokens. This is enforced during both training and inference. In **encoder-only** (BERT-style) models, there is no mask and every position can attend to the full sequence bidirectionally.
 
-**The full transformer block** wraps attention with:
-1. Residual connection + layer norm (pre-norm is now standard)
-2. Position-wise feed-forward network (two linear layers with a nonlinearity, typically ~4× hidden dim)
-3. Another residual + layer norm
+## Multi-Head Attention (MHA)
 
-Multiple stacked blocks progressively build richer representations — the first layer attends to word-pair relationships; deeper layers attend to pairs-of-pairs, extending effective receptive field. [Aman AI: NLP Attention]
+Single-head attention captures one type of relationship. Multi-head attention (MHA) runs h parallel attention heads, each with its own learned projections, then concatenates and projects the outputs:
+
+```
+MultiHead(Q,K,V) = Concat(head_1,...,head_h) W^o
+where head_i = Attention(Q W_i^q, K W_i^k, V W_i^v)
+```
+
+Different heads specialize: one may capture syntactic dependencies, another semantic similarity, another positional proximity. GPT-2 used MHA with h=16 heads; modern LLMs have 32–128 heads. MHA is the baseline all other attention variants are measured against.
+
+## Multi-Query Attention (MQA) and Grouped-Query Attention (GQA)
+
+The KV cache is a major bottleneck at inference time. For a sequence of length L with h heads and dimension d_v, caching the K and V matrices costs O(L × h × d_v) memory per layer. For long contexts and large models, this becomes the binding constraint.
+
+**MQA** (Shazeer 2019) collapses all heads to share a single K and V projection. This reduces KV cache by a factor of h but can hurt model quality noticeably.
+
+**GQA** (Ainslie et al. 2023) is the practical compromise: group the h query heads into g groups, with each group sharing one K and V projection. If g = 1, GQA degrades to MQA; if g = h, it recovers MHA. Most modern models (Llama 3, Qwen3, Gemma 3) use GQA with g typically between 4 and 8. At long contexts, the KV cache savings become pronounced — the cache shrinks by h/g relative to MHA.
+
+The rule of thumb: GQA is simpler to implement than MLA, robust across model sizes, and the default choice for most labs building models under ~100B parameters.
+
+## Multi-Head Latent Attention (MLA)
+
+MLA, introduced in DeepSeek-V2 (2024) and central to DeepSeek-V3/R1, takes a different approach to KV cache compression. Rather than sharing heads (GQA), MLA compresses the K and V tensors into a low-dimensional latent representation before caching. At inference time, the latent is projected back to full resolution.
+
+The key advantage: ablation studies in the DeepSeek-V2 paper showed MLA maintained or exceeded MHA modeling performance at the same memory budget, while GQA degraded below MHA. This makes MLA compelling for very large models (100B+) where cache traffic dominates. The cost is implementation complexity — MLA is harder to build and serve than GQA.
+
+Current landscape (2025): GQA dominates dense models under ~100B (Llama 4 Maverick, Qwen3, Gemma 3). MLA is used in DeepSeek-V3, Kimi K2, Mistral Large 3, and increasingly in the 100B+ tier.
 
 ## Positional Encoding
 
-Transformers have no built-in notion of order, so position must be injected explicitly.
+Attention has no inherent notion of token order — it treats the input as a set. Positional encoding injects position information.
 
-**Sinusoidal (original):** Fixed sin/cos functions of position and frequency. Generalizes to unseen lengths but encodes absolute position.
+**Sinusoidal (absolute) PE**: The original transformer added fixed sinusoidal functions at different frequencies directly to token embeddings. Simple and parameter-free, but tokens at each position always get the same encoding regardless of neighbors. Struggles to generalize to sequence lengths longer than those seen during training.
 
-**Learned embeddings:** Each position gets a trainable vector. Simple, effective within training range, but doesn't extrapolate.
+**Rotary Position Embeddings (RoPE)**: Introduced in 2021, RoPE encodes position by rotating query and key vectors in a way that depends only on the *relative distance* between positions. The dot product QK^T then naturally encodes relative position. Crucially, RoPE enables context length extension: by adjusting the rotation frequencies (via positional interpolation or YaRN), models can be extended from 4K to 128K tokens with modest fine-tuning. Llama made RoPE the de-facto standard; virtually all modern LLMs use it.
 
-**RoPE (Rotary Position Embedding):** Applied to Q and K before the dot product by rotating vectors in 2D subspaces by an angle proportional to position. The key property: when Q and K are multiplied, the rotation matrices cancel to `R(θ, n-m)` — only the *relative* distance between tokens is encoded, not absolute position. This is why RoPE extrapolates better to longer contexts. Original base frequency is 10K; Llama 3 uses 500K, Gemma 3 uses 1M, enabling longer context windows. Extensions like NTK-aware interpolation and YaRN modify the base frequency or apply temperature scaling to the softmax for further context extension. [Cameron Wolfe: GPT-oss]
+**ALiBi (Attention with Linear Biases)**: Instead of encoding position in the embeddings, ALiBi adds a linear bias to attention scores — positions further apart get a larger negative bias. This makes attention naturally favor nearby tokens. ALiBi extrapolates well to longer sequences with no modification, making it attractive for long-context models, though it is less common than RoPE in recent frontier models.
 
-**ALiBi (Attention with Linear Biases):** Adds a learned linear bias to attention scores based on token distance. Doesn't modify embeddings; designed for length extrapolation without fine-tuning.
+## The Transformer Block
 
-## Architecture Variants
+Each transformer layer stacks two sub-modules with residual connections and normalization:
 
-Three canonical forms emerged from the original encoder-decoder design:
+1. **Multi-head attention** (causal or bidirectional depending on architecture)
+2. **Feed-forward network (FFN)**: two (or three, in SwiGLU) linear layers with a nonlinearity
 
-| Variant | Examples | Use case |
-|---------|----------|----------|
-| **Encoder-only** | BERT, RoBERTa | Classification, NLU, embeddings. Bidirectional — every token sees all others. Pre-trained with masked language modeling (MLM) and next-sentence prediction. |
-| **Decoder-only** | GPT family, Llama, Mistral | Autoregressive generation. Causal mask enforces left-to-right attention. |
-| **Encoder-decoder** | T5, BART | Seq2seq tasks: translation, summarization. Encoder has bidirectional attention; decoder uses cross-attention over encoder outputs. |
+Modern LLMs replace LayerNorm with **RMSNorm** (simpler, slightly faster — no mean centering) and move normalization *before* each sub-module (Pre-Norm), which stabilizes training gradients compared to Post-Norm. Some models (OLMo 2, Gemma 3) experiment with both pre- and post-norm simultaneously.
 
-BERT uses 12–24 transformer blocks, 768–1024 hidden dims, 12–16 attention heads, and pre-training on masked tokens lets the model condition on both left and right context. GPT-style models use the same decoder architecture but generate autoregressively. T5 frames all NLP tasks as text-to-text and pre-trains with a denoising objective. [Aman AI: NLP Transformers]
+The FFN is usually expanded 4x the model dimension. The SwiGLU variant uses three matrices and a gating mechanism that provides multiplicative interaction — this improves expressivity with similar parameter counts and is now standard (Llama, Qwen, gpt-oss).
 
-## Attention Variants: The KV Head Reduction Spectrum
+Stacking N such blocks, GPT-3 has 96 layers; LLaMA 3 8B has 32; DeepSeek-V3 has 61 (with MoE substituting the FFN in most).
 
-Standard MHA is memory-intensive at inference: every head caches its own K and V tensors, growing linearly with sequence length per head. This became the primary inference bottleneck at scale.
+## Encoder vs. Decoder Architectures
 
-**Multi-Query Attention (MQA)** (Shazeer, 2019): Keeps H query heads but collapses K/V to a single shared head. Cache shrinks by H×. Can cause quality degradation and training instability at scale. Used in PaLM.
+**Encoder-only** (BERT-style): All tokens attend to all others. Trained with masked language modeling (MLM) — predict randomly masked tokens. Best for classification, NLI, embedding tasks where understanding context from both directions matters. Not used for generation.
 
-**Grouped-Query Attention (GQA)** (Ainslie et al., 2023): G groups of query heads share K/V, where `1 < G < H`. MHA is GQA with G=H; MQA is GQA with G=1. At G=8 (Llama 3 configuration), cache is 8× smaller than MHA with near-identical quality. To convert an MHA checkpoint to GQA, mean-pool the H/G K/V projections within each group and continue training briefly. GQA is now the default in most production LLMs: Llama 2 70B, Llama 3, Mistral 7B, Gemma. [Louis Wang: Attention Bottleneck; Sebastian Raschka: Visual Guide]
+**Decoder-only** (GPT-style): Causal mask enforces left-to-right attention. Trained with next-token prediction (NTP). The dominant architecture for LLMs since GPT-2 showed it scales extremely well. At inference, tokens are generated autoregressively one at a time.
 
-**Multi-head Latent Attention (MLA)** (DeepSeek-V2, 2024): Instead of reducing the number of K/V heads, MLA compresses K and V into a low-dimensional latent vector `c_KV` and caches only that. Keys and values are reconstructed at attention time via up-projection. Only `c_KV` is stored, reducing the KV cache by 93.3% versus MHA — versus roughly 8× for GQA with G=8. Ablation studies show MLA maintains or slightly exceeds MHA quality while GQA can degrade below MHA at large scale. Trade-off: more implementation complexity. MLA is used in DeepSeek V2/V3/R1, Kimi K2, and Mistral Large 3. Practical observation: MLA seems to work better at 100B+ scale; GQA remains the easier choice for smaller models. [Sebastian Raschka: Visual Guide; Louis Wang: Attention Bottleneck]
+**Encoder-decoder** (T5, BART-style): Encoder processes the full input with bidirectional attention; decoder generates output with causal attention plus cross-attention over encoder states. Good for translation and summarization where the input and output are distinct sequences.
 
-| Variant | K/V heads | Cache vs. MHA | Quality vs. MHA |
-|---------|-----------|---------------|-----------------|
-| MHA | H | 1× (baseline) | Baseline |
-| GQA (G groups) | G | H/G× smaller | Near-identical |
-| MQA | 1 | H× smaller | Small degradation |
-| MLA | Compressed latent | ~57–93× smaller | Comparable or better |
+## FlashAttention
 
-**Sliding Window Attention (SWA):** Each token attends only to a fixed local window of W recent tokens rather than the full prefix. This reduces the attention matrix from O(n²) to O(n·W). Information still propagates globally because stacked layers chain local windows — with L layers and window W, information travels up to L×W tokens. Gemma 3 uses a 5:1 local-to-global layer ratio with W=1024, showing modest perplexity impact. SWA and GQA are often combined since they address different bottlenecks (attention pattern vs. cache size). [Sebastian Raschka: Visual Guide]
+Standard self-attention materializes the full L×L attention matrix in GPU HBM (high-bandwidth memory), requiring O(L²) memory and substantial memory bandwidth. For long contexts, this is both slow and memory-intensive.
 
-## KV Cache: Why It Matters for Inference
+FlashAttention (Dao et al. 2022; v2 2023) reorders attention computation to stay in GPU SRAM — faster by 2–4x and sublinear in memory with respect to sequence length. It uses tiling to compute attention in blocks without ever writing the full matrix to HBM. FlashAttention-2 is now standard in virtually all production LLM implementations. It makes 128K+ context windows practical.
 
-During autoregressive decoding, generating each new token requires attending over all previous tokens. Without caching, this means recomputing K and V for every prior token at every step — O(n²) total work. The KV cache stores computed K and V tensors for previously seen tokens. On each new step, only the new token's K/V are computed; prior values are retrieved from cache.
+## KV Cache
 
-The catch: cache size grows as `O(n · d · num_kv_heads · num_layers)` per sequence. At long contexts (100K+ tokens) with large models, this can exceed available GPU memory. GQA, MQA, and MLA all exist primarily to shrink this footprint. [Sebastian Raschka: KV Cache]
-
-## FlashAttention: Memory-Efficient Training
-
-Standard attention materializes the full N×N attention matrix in HBM (GPU high-bandwidth memory) — O(n²·d) reads/writes. FlashAttention (Dao et al., 2022) reframes this as an IO problem: the bottleneck is data movement between HBM and on-chip SRAM, not FLOPs.
-
-**Core technique:** Tile Q, K, V into blocks that fit in SRAM. Process tiles sequentially, accumulating partial results and recomputing per-block softmax normalization on the fly (online softmax with streaming max/sum updates). Never materialize the full N×N matrix. IO complexity drops from O(n²) to O(n·d) — provably optimal for typical SRAM sizes.
-
-**FlashAttention versions:**
-- **v1:** Fused CUDA kernel combining QK^T, masking, softmax, dropout, and output multiply. 3× speedup over PyTorch on GPT-2 (seq=1K); enables contexts up to 64K.
-- **v2:** Added parallelism over sequence length (not just batch/heads), reduced non-matmul FLOPs by delaying softmax scaling. 2× speedup over v1; 225 TFLOPs/s at 72% utilization on A100.
-- **v3:** Targets Hopper (H100) GPUs. Uses warp specialization + ping-pong scheduling to overlap GEMM and softmax. Adds FP8 block quantization with incoherent processing (2.6× lower RMSE than baseline FP8). 1.5–2× over v2; ~740 TFLOPs/s in FP16, ~1.2 PFLOPs/s in FP8.
-
-All versions compute exact attention (no approximation). FlashAttention 2 is the stable default for Ampere GPUs; v3 for H100s with FP8. [Aman AI: FlashAttention]
-
-## Transformers in Recommendation Systems
-
-The self-attention mechanism's ability to capture long-range dependencies in sequences maps naturally onto user behavior modeling.
-
-**Sequential recommendation:** User action histories are treated as sequences. The transformer attends over the full action history to build a context-aware user representation, unlike fixed-length pooling approaches.
-
-**SASRec / BST:** SASRec (Self-Attentive Sequential Recommendation) applies a causally-masked transformer decoder to item sequences, predicting the next interaction. BST (Behavior Sequence Transformer, Alibaba) applies transformer encoding over user behavior sequences for CTR prediction.
-
-**Pinterest examples:**
-- **PinnerFormer:** A transformer over user action sequences (pin saves, clicks, etc.), each action encoded with PinSage embedding + metadata (action type, surface, timestamp as sin/cos features). Uses a dense all-action loss — predicts engagement over a 14-day window rather than just the next action, bridging batch and real-time inference. Significantly improved homefeed engagement and DAU/WAU. [Aman AI: Recsys Transformers]
-- **ItemSage:** Transformer encoder that aggregates text and image features for product embeddings. A 1-layer transformer block over 32 feature embeddings via a [CLS] token, producing 256-dim embeddings compatible with PinSage and SearchSage for ANN retrieval. Multi-task training across purchases, add-to-cart, saves, and clicks.
-
-The cross-domain pattern: transformers in recsys are typically used for user representation (encoding action sequences) or item representation (encoding multimodal features), then plugged into standard candidate generation or ranking pipelines. See [[hard/wiki/recommendation-systems|Recommendation Systems]] for the broader retrieval and ranking context.
-
-## Scaling Laws and Emergent Capabilities
-
-Transformer performance on language modeling follows predictable power laws in compute, data, and parameter count (Chinchilla scaling laws). Key finding: for a fixed compute budget, optimal training balances model size and data volume roughly equally. Emergent capabilities — behaviors that appear abruptly at scale thresholds — include multi-step reasoning, few-shot learning, and instruction following. These are not explicitly trained; they arise from scale. The mechanisms are not fully understood but are empirically robust across architectures.
-
-## Quick-Reference: Architecture Choices in Modern LLMs
-
-| Model | Attention | Positional Encoding | Flash Attn |
-|-------|-----------|---------------------|------------|
-| GPT-2 | MHA | Learned | No |
-| PaLM (2022) | MQA | RoPE | Standard |
-| Llama 2 70B | GQA | RoPE | v2 |
-| Mistral 7B | GQA + SWA | RoPE | v2 |
-| Llama 3 | GQA | RoPE (base 500K) | v2 |
-| DeepSeek V2/V3 | MLA | RoPE | v2 |
-| Gemma 3 | GQA + SWA | RoPE (base 1M) | v2 |
+At inference, the transformer reprocesses all previous tokens at every generation step — a costly O(L²) operation. The KV cache stores the K and V projections for all previously seen tokens, reducing each new step to O(L) attention over the cached state. This is the core mechanism enabling fast autoregressive generation, but cache memory grows linearly with sequence length, which motivates GQA, MLA, and sliding window attention as compression strategies.
 
 ## Sources
 
-- Vaswani et al. (2017) — "Attention Is All You Need"
-- Ainslie et al. (2023) — "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints"
-- DeepSeek-V2 paper (2024) — MLA introduction and ablations
-- Dao et al. (2022, 2023, 2024) — FlashAttention v1/v2/v3
-- Su et al. (2024) — "RoFormer: Enhanced Transformer with Rotary Position Embedding"
-- [Lilian Weng: The Transformer Family v2.0](https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/)
-- [Sebastian Raschka: A Visual Guide to Attention Variants in Modern LLMs](https://magazine.sebastianraschka.com/p/visual-attention-variants)
-- [Sebastian Raschka: Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms)
-- [Louis Wang: The Attention Bottleneck](kb/hard/raw/louis-wang/the-attention-bottleneck-how-modern-llms-solved-a-problem-that-nearly-broke-the.md)
-- [Cameron Wolfe: GPT-oss From the Ground Up](kb/hard/raw/cameron-wolfe/gpt-oss-from-the-ground-up.md)
-- [Aman AI: FlashAttention Primer](https://aman.ai/primers/ai/flashattention/)
-- [Aman AI: NLP Attention](https://aman.ai/primers/ai/attention/)
-- [Aman AI: Recsys Transformers](https://aman.ai/recsys/transformer/)
+- Aman.ai Primers: Transformers — detailed walkthrough of every component with code
+- Jay Alammar: How GPT-3 Works — visual intuition for the forward pass and scale
+- Sebastian Raschka: A Visual Guide to Attention Variants in Modern LLMs — MHA, GQA, MLA, SWA comparison
+- Lilian Weng: The Transformer Family v2.0 — comprehensive survey of architecture variants

@@ -1,128 +1,109 @@
 ---
 concept: LLM Evaluation
-tags: [evals, llm-as-judge, benchmarks, evaluation, ai-quality]
+tags: [evals, llm-as-judge, benchmarks, evaluation, perplexity, human-eval, statistical-rigor]
 sources:
-  - kb/hard/raw/eugene-yan/product-evals-in-three-simple-steps.md
-  - kb/hard/raw/eugene-yan/task-specific-llm-evals-that-do-dont-work.md
   - kb/hard/raw/eugene-yan/evaluating-the-effectiveness-of-llm-evaluators-aka-llm-as-judge.md
-  - kb/hard/raw/aman-ai/primers-llm-as-a-judge-autoraters.md
-  - kb/hard/raw/aman-ai/primers-llmvlm-benchmarks.md
-  - kb/hard/raw/cameron-wolfe/applying-statistics-to-llm-evaluations.md
+  - kb/hard/raw/eugene-yan/task-specific-llm-evals-that-do-dont-work.md
   - kb/hard/raw/cameron-wolfe/the-anatomy-of-an-llm-benchmark.md
   - kb/hard/raw/sebastian-raschka/understanding-the-4-main-approaches-to-llm-evaluation-from-scratch.md
-  - kb/hard/raw/nathan-lambert/opus-46-codex-53-and-the-post-benchmark-era.md
 last_compiled: 2026-04-05
-related: [hard/wiki/learning-to-rank, hard/wiki/recommendation-systems, hard/wiki/large-language-models]
+related:
+  - "[[hard/wiki/ai-agents-and-agentic-systems|AI Agents & Agentic Systems]]"
+  - "[[hard/wiki/large-language-models|Large Language Models]]"
 ---
 
 # LLM Evaluation
 
-Evaluation is the primary feedback loop for LLM development. The thesis is simple: you cannot improve what you cannot measure, and the quality of your evals determines the quality of your iteration cycle. In production, evals are not a one-time audit — they are the development loop itself.
+Evaluating LLMs is harder than it looks. Models can perform well on benchmarks while failing at real tasks; LLM-as-judge correlates imperfectly with human judgment; benchmarks saturate within months of publication; and human evaluation doesn't scale. Building a reliable eval stack requires understanding the tradeoffs across four distinct approaches: benchmark-based evaluation, verifier-based evaluation, LLM-as-judge, and human evaluation.
 
-## Four Main Approaches
+## Four Approaches to LLM Evaluation
 
-**1. Multiple-choice / automated metrics.** Present the model with structured questions (e.g., MMLU's 57-subject, 16K-question dataset) and check accuracy against a known answer key. Fast and deterministic. The limitation: only tests selection from predefined options. High MMLU scores don't guarantee real-world utility; low scores do signal knowledge gaps. Variants include log-probability scoring (measuring confidence on each option) rather than just letter generation.
+Sebastian Raschka's taxonomy provides a clean mental model:
 
-**2. Verifier-based / answer extraction.** The model generates a free-form answer; a verifier (code interpreter, math checker) extracts and validates the final answer against a ground truth. Powers reasoning model evaluation (MATH, GSM8K, AIME). Enables unlimited programmatic problem generation. Constraint: only applies to verifiable domains — math, code, logic. Cannot measure style, tone, or helpfulness.
+**1. Multiple-choice / benchmark accuracy**: Evaluate on fixed datasets with known answers. MMLU, GPQA, BIG-Bench, ARC. Automated, cheap, reproducible. Best for knowledge breadth and capability thresholds. Limitations: saturates quickly, doesn't capture open-ended quality, susceptible to contamination.
 
-**3. LLM-as-judge.** An LLM evaluates another LLM's output using a structured scoring prompt. Scales human-like evaluation to arbitrary volumes at low cost. The dominant approach for open-ended generation tasks (summarization, dialogue, instruction following) where automated metrics fail. See section below for setup and failure modes.
+**2. Verifier-based evals**: Evaluate against a programmatic correctness check — test suite pass rates for code, exact answer matching for math. Used in RLVR training and for coding benchmarks like HumanEval, SWE-Bench. Objective and scalable when the domain is verifiable. Limitation: restricted to domains with deterministic correctness.
 
-**4. Human preference / leaderboards.** Users or trained annotators compare two model outputs and vote for the preferred one. Aggregated via Elo ratings into a ranked leaderboard (e.g., LM Arena). Most valid signal for real-world usability, but expensive, slow, and subject to population bias in who votes.
+**3. LLM-as-judge**: Use a frontier LLM to score or compare outputs. Direct scoring (rate 1–5), pairwise comparison (which response is better), or reference-based (does this match a gold response). Scales arbitrarily and handles open-ended tasks. Limitation: introduces model-specific biases that must be calibrated.
 
-These divide into two meta-categories: **benchmark-based** (methods 1–2, produce accuracy scores) and **judgment-based** (methods 3–4, produce preference rankings).
+**4. Human evaluation**: Gold standard for subjective quality, alignment, and edge cases. Expensive, slow, and hard to reproduce at scale. Essential for final validation before deployment; impractical as a daily development signal.
 
-## LLM-as-Judge: Setup and Calibration
+In practice, a mature eval stack combines all four: benchmarks for development velocity, verifiers for objective tasks, LLM judges for open-ended quality, and targeted human evaluation to calibrate the automated evals.
 
-The basic setup: provide the judge model with the input, the response, and a scoring rubric; ask it to return a score or binary verdict. Three scoring formats:
+## Benchmark Anatomy and Saturation
 
-- **Pointwise**: score a single response on a scale (e.g., 1–5). Simpler, maps to LTR pointwise ranking.
-- **Pairwise**: compare two responses and pick the better one. Higher agreement with human preferences, but combinatorially expensive across many outputs.
-- **Listwise**: rank multiple responses simultaneously. Efficient but requires careful prompt design.
+Good benchmarks share several properties:
+- **Data quality**: Expert-curated questions, validated answers, clear error taxonomy
+- **Difficulty ceiling**: Questions hard enough that current models don't saturate
+- **Diversity**: Broad coverage across domains and difficulty levels
+- **Contamination controls**: Tests not present in common pretraining corpora
 
-**Calibration against human raters** is the validation step that makes or breaks LLM judges. The goal is to measure how well judge scores correlate with human judgments on the same items. High-agreement configurations typically use stronger judge models (GPT-4 class), chain-of-thought critique before scoring, well-specified rubrics, and reference answers where available.
+**MMLU** (Hendrycks et al. 2020): 16K multiple-choice questions across 57 subjects from elementary to professional level. Simple format, broad coverage. Became the standard general-knowledge benchmark. Problem: ~6.5% of questions have errors (MMLU-Redux audit); easy questions inflated scores. **MMLU-Pro** removed easy questions, expanded choices from 4 to 10, and added harder reasoning questions — harder to saturate and more discriminative.
 
-**Failure modes:**
+**GPQA** (Graduate-level Google-Proof Q&A): 198–596 expert-written questions in biology, chemistry, and physics. PhD experts achieve 65–74%; non-experts with internet access achieve only 34%. Designed to be unsolvable by Googling. Much harder to saturate than MMLU; still being solved by frontier reasoning models at 87%+.
 
-- *Position bias*: judges prefer responses presented first (or last), regardless of quality. Mitigate by running both orders and averaging.
-- *Verbosity bias*: judges reward longer responses even when quality is equivalent. Explicitly instruct against length preference.
-- *Self-preference*: a judge model assigned GPT-4 favors GPT-4 outputs; Claude judges favor Claude outputs. Use different-family judge models or a panel.
-- *Prompt sensitivity*: small wording changes in the scoring prompt cause large score swings. Use stable, battle-tested rubrics.
-- *Reward hacking*: models fine-tuned to maximize judge scores learn surface features the judge rewards, not actual quality. Use held-out human evals for final validation.
-- *Over-confidence / hallucination blindness*: judges may not catch subtle factual errors, especially in domains requiring expert knowledge.
+**BIG-Bench / BIG-Bench Hard / BBEH**: Community-sourced, 204 diverse tasks. BIG-Bench Hard (23 tasks where models lagged humans at release) saturated by early 2025. BIG-Bench Extra Hard replaced each task with a harder version — requires many-hop reasoning, long-context retrieval, error detection in reasoning traces.
 
-**Panel of judges** (jury approach) addresses single-judge weaknesses by aggregating scores from multiple different models. Increases robustness at the cost of inference budget.
+**Benchmark saturation cycle**: MMLU → MMLU-Pro → GPQA → GPQA hard variants → new frontiers. The field invents harder benchmarks as models solve easier ones. Benchmarks for coding (SWE-Bench Verified, LiveCodeBench) and math (AIME, FrontierMath) are now the primary discriminators at the frontier.
 
-## Benchmark Anatomy and Failure Modes
+**Evaluation format matters**: Multiple-choice with 4 choices vs. 10 choices; zero-shot vs. few-shot (5-shot MMLU); chain-of-thought vs. direct answer. Performance can swing 5–15% based on format alone. Models should be evaluated consistently.
 
-A benchmark is a finite sample drawn from the super-population of all possible evaluation questions for a skill. Performance on the benchmark estimates performance on the underlying skill — not the benchmark itself. This framing is important: optimizing on the benchmark surface is not the same as improving the skill.
+## LLM-as-Judge: Calibration and Biases
 
-**Key design elements:** domain taxonomy (enables per-domain debugging), data sourcing strategy (expert-curated vs. web-scraped), question format (multiple choice vs. generative), difficulty calibration, and data quality verification.
+LLM-as-judge (also called LLM evaluator) uses a strong LLM to evaluate another model's output. Three approaches:
 
-**Saturation** happens when frontier models all cluster near ceiling performance, making the benchmark unable to discriminate between them. MMLU was effectively saturated by 2024; BIG-Bench Hard by early 2025. The response is iterative hardening: MMLU → MMLU-Pro (harder questions, 4 options → 10 options, difficulty filtering) → GPQA (expert-written, Google-proof, 65% expert / 34% non-expert accuracy). BIG-Bench Hard → BIG-Bench Extra Hard (same reasoning categories, dramatically harder tasks).
+**Direct scoring**: Rate a single response on a scale (1–5) across dimensions like factual consistency, relevance, helpfulness. More flexible; better for objective dimensions. Use one dimension per prompt — multi-dimension prompts yield noisier scores.
 
-**Contamination** is benchmark data appearing in training sets, inflating scores. Mitigations: hold out test sets, generate questions programmatically after the training cutoff (MathArena evaluates on competition problems shortly after release), and use dynamic benchmarks that can add fresh problems continuously.
+**Pairwise comparison**: Given two responses, which is better? More reliable for subjective quality; naturally handles ties. The standard method in Chatbot Arena (LMSYS). Limitation: position bias — responses in position A are sometimes preferred regardless of quality.
 
-**Gaming / overfitting**: models can be selected during development specifically because they score well on popular benchmarks (IFEval being one documented example). The benchmark becomes part of the training signal. IFBench (58 constraints vs. IFEval's 25) revealed 10–15 point performance drops on held-out instruction formats, confirming IFEval overfitting.
+**Reference-based**: Compare generated output to a gold reference. Works for summarization (does this capture the key facts?) and translation. Requires having ground-truth references.
 
-**Quality audits matter**: MMLU-Redux's audit of 5,700 questions found ~6.5% errors; in some subjects (Virology), error rates hit 57%. Removing incorrect data shifted model rankings significantly — Llama-3.1-405B moved from 16th to 1st place in Virology. Benchmark scores are only as reliable as the ground truth.
+**Key biases to calibrate**:
+- **Verbosity bias**: Longer responses are often rated higher even when they're not actually better
+- **Self-enhancement bias**: Models prefer their own style of output
+- **Position bias**: In pairwise comparison, the first or second option may be systematically preferred
+- **Sycophancy**: Judges may prefer responses that match their priors rather than being genuinely better
+
+**Chain-of-thought helps**: Asking the judge to explain its reasoning before scoring improves consistency. Large judges (52B+) competitive with finetuned preference models; smaller judges less reliable.
+
+**Correlating with humans**: Target LLM-human correlation ≥ human-human inter-annotator agreement. Human-human correlation on a task is the ceiling for automated evals. Cohen's κ (categorical agreement, chance-adjusted), Spearman's ρ, and Kendall's τ are the standard metrics. Prefer classification framing (binary good/bad) over 5-point scales where possible — binary outputs have better-defined precision and recall.
+
+**Finetuned evaluators**: For specific tasks (toxicity detection, factual inconsistency, NLI), a small finetuned classifier often outperforms a large general-purpose judge at orders-of-magnitude lower cost and latency. Finetuning on ~1000 task-specific labeled examples can lift ROC-AUC from 0.56 (essentially random) to 0.85 for factual consistency detection.
+
+## Task-Specific Eval Patterns That Work
+
+**Classification and extraction**: Use recall, precision, ROC-AUC, PR-AUC. Accuracy is too coarse — break it into class-level precision and recall across thresholds. Plot the distribution of predicted probabilities to assess separation quality; poor separation means no clean threshold for production.
+
+**Summarization (factual consistency)**: NLI-based evaluation — treat the source document as premise, the generated summary as hypothesis, and measure whether the summary is entailed by the source. Fine-tune an NLI model on factual inconsistency data; this outperforms ROUGE, BERTScore, and LLM-based evals in discriminativeness. Standard n-gram metrics (ROUGE) have poor separation between good and bad summaries — their distributions overlap too much to cut a reliable threshold.
+
+**Summarization (relevance)**: Train a reward model on human preference data or fine-tune an NLI model on relevance judgments. BARTScore and QA-based evals also work for aspect-level relevance in opinion summarization.
+
+**Translation**: Use learned metrics (BLEURT, COMET) rather than BLEU. For production quality monitoring, reference-free COMETKiwi enables quality estimation without human-written references.
+
+**Length adherence**: Trivial to compute but often overlooked. Directly count words/characters; essential for push notifications, UI summaries, and constrained generation contexts.
+
+## Eval-Driven Development
+
+Building evals is not just measurement — it's specification. A good eval suite forces clarity about what "good output" actually means. Key practices:
+
+- **Build evals before fine-tuning**: Don't discover failure modes after deployment
+- **Log and analyze failures**: Evals that only report aggregate accuracy miss systematic failure patterns
+- **Calibrate against human judgment early**: Run a human audit of your automated evals on a sample. If automated evals disagree with humans at a high rate, the eval is the problem.
+- **Include adversarial / edge-case tests**: The marginal failing case is usually more important than the average-case pass rate
 
 ## Statistical Rigor
 
-Most eval results are reported naively — a single accuracy number with no uncertainty quantification. This leads to mistaking noise for progress. The principled approach:
+Small eval datasets produce noisy rankings. The standard error of a proportion p over n samples is sqrt(p(1-p)/n). With n=100 and p=0.7, the 95% CI is ±9 percentage points — enough to make two models with 5-point differences indistinguishable. Most benchmark comparisons reported in papers have insufficient sample sizes to reliably rank models that are close. Use the full benchmark test set, not subsamples, and report confidence intervals alongside point estimates.
 
-**Standard error and confidence intervals.** Treat eval scores as samples from a super-population. Report `mean ± SE` alongside every eval result. For IID questions, SE = `s / sqrt(n)` where `s` is sample standard deviation. For Bernoulli scores, SE simplifies to `sqrt(μ(1-μ)/n)`. Derive 95% CI as `x̄ ± 1.96 × SE`.
+For pairwise comparisons in arena-style settings, Elo ratings accumulate enough games to stabilize but require accounting for time decay as models improve.
 
-**Clustered errors.** When questions are not independent (same document, same language variant, same topic cluster), the CLT SE formula underestimates uncertainty. Use clustered standard errors, which account for within-cluster correlations. Failing to do this can understate SE by 3× or more.
+## The Post-Benchmark Era Signal
 
-**Variance reduction.** Two strategies: (1) resample `K` outputs per question and average scores — reduces within-question variance by `1/K`; (2) use next-token log-probabilities instead of sampled outputs, which eliminates within-question variance entirely. Do not adjust sampling temperature for variance reduction — it changes the evaluation target.
-
-**Model comparison.** Comparing separate confidence intervals is too conservative (non-overlapping ≠ significant, overlapping ≠ not significant). Instead: compute the paired difference `d_i = score_A_i - score_B_i` for each shared question, then compute SE of the mean difference. Since models tend to agree on question difficulty, paired differences reduce variance for free. Report: mean difference, SE, CI, and cross-model score correlation.
-
-The practical mandate: report `n`, SE, and CI alongside every eval number. If questions are clustered, report cluster-adjusted SE and the number of clusters.
-
-## Eval-Driven Development (Product Evals)
-
-For production systems, the feedback loop is: label a small dataset → calibrate an LLM judge to match human labels → run automated eval harness on every change. This three-step loop — label, align, automate — is the core of eval-driven development.
-
-Task-specific considerations by output type:
-
-- **Classification**: accuracy, F1, confusion matrix. Deterministic and cheap.
-- **Summarization**: factual consistency (does the summary contain only information from the source?) is harder than fluency. LLM judges outperform ROUGE/BLEU for quality assessment.
-- **Translation**: BLEU is standard but misses semantic equivalence; LLM judges capture it better.
-- **Toxicity / copyright regurgitation**: requires domain-specific rubrics and classifiers; general-purpose judges are unreliable here.
-- **RAG / long-form QA**: evaluate retrieval precision/recall separately from generation quality.
-
-For agentic systems, eval complexity increases sharply: actions have downstream state effects, trajectories matter not just final outputs, and partial credit scoring becomes essential.
-
-## The Post-Benchmark Era
-
-As of 2025–2026, benchmark scores have largely decoupled from user-perceived quality. The pattern: benchmark deltas are minor at each release, but real-world capability (especially for coding agents, long-horizon tasks) still improves meaningfully. The Gemini 3 Pro episode illustrates the failure mode: declared leaderboard winner, effectively zero impact at the frontier of coding agents two months later.
-
-The shift is from static benchmark performance to continuous in-use evaluation: how does the model behave across a diverse range of real tasks, over time, as measured by actual usage outcomes? Industry is moving toward:
-- Agentic benchmarks (SWE-bench, AgentBench) that measure multi-step task completion
-- Human-in-the-loop evals tied to production deployment
-- Longitudinal usage metrics as the primary signal
-
-The implication for practitioners: run your own domain-specific evals rather than relying on published leaderboard numbers. A model's rank on MMLU-Pro tells you almost nothing about its rank on your task.
-
-## Practical Eval Pipeline Design
-
-For a production LLM product:
-
-1. **Collect golden examples** — 50–200 human-labeled input/output pairs that represent the full distribution of real requests, including edge cases.
-2. **Calibrate your judge** — run a small human study to confirm the LLM judge agrees with human raters at ≥80% rate on your task.
-3. **Automate the harness** — run the judge on every model change (prompt update, fine-tune, new model version). Store scores with timestamps.
-4. **Track significance, not just direction** — require the paired-difference CI to exclude zero before declaring an improvement.
-5. **Monitor for drift** — real-world inputs evolve; re-run golden set audits when input distribution shifts.
+By 2025-2026, leaderboard-driven evaluation has lost most of its discriminating power at the frontier. The gap between Opus 4.6 and Codex 5.3 is barely visible in benchmarks but is clearly felt in sustained agentic use across multi-day coding projects. This signals that the relevant evaluation unit has shifted from individual responses to multi-step task completion in realistic environments. The right eval for an agentic coding assistant is not MMLU — it's "does it complete a real GitHub issue correctly?" SWE-Bench Verified, SWE-Lancer, and similar agentic evals are the emerging standard for reasoning + coding agents.
 
 ## Sources
 
-- `kb/hard/raw/eugene-yan/product-evals-in-three-simple-steps.md` — three-step production eval loop
-- `kb/hard/raw/eugene-yan/task-specific-llm-evals-that-do-dont-work.md` — task-specific eval approaches
-- `kb/hard/raw/eugene-yan/evaluating-the-effectiveness-of-llm-evaluators-aka-llm-as-judge.md` — LLM-as-judge effectiveness
-- `kb/hard/raw/aman-ai/primers-llm-as-a-judge-autoraters.md` — deep treatment of judge biases, LTR integration, panel of judges
-- `kb/hard/raw/aman-ai/primers-llmvlm-benchmarks.md` — comprehensive benchmark survey (MMLU, GPQA, BIG-Bench, math, RAG, agent benchmarks)
-- `kb/hard/raw/cameron-wolfe/applying-statistics-to-llm-evaluations.md` — statistical framework: SE, CI, clustered errors, paired comparison
-- `kb/hard/raw/cameron-wolfe/the-anatomy-of-an-llm-benchmark.md` — benchmark construction, saturation, contamination, discriminability
-- `kb/hard/raw/sebastian-raschka/understanding-the-4-main-approaches-to-llm-evaluation-from-scratch.md` — four-method taxonomy with code
-- `kb/hard/raw/nathan-lambert/opus-46-codex-53-and-the-post-benchmark-era.md` — post-benchmark era, agentic evaluation shift
+- Eugene Yan: Evaluating LLM Evaluators — key considerations, biases, prompting techniques, finetuning evaluators
+- Eugene Yan: Task-Specific LLM Evals — classification metrics, summarization NLI approach, translation metrics
+- Cameron Wolfe: The Anatomy of an LLM Benchmark — MMLU, MMLU-Pro, GPQA, BIG-Bench family deep dives
+- Sebastian Raschka: Understanding the 4 Main Approaches to LLM Evaluation — multiple-choice, verifiers, leaderboards, LLM judges with code

@@ -2,7 +2,7 @@
 
 > Unified backlog: everything actionable in one place. Organized by what James does, not what system it lives in. Curriculum details live in `learning/learning_agenda.md` — this file tracks what to do next.
 
-**Last updated:** 2026-04-05 6:00 PM PST
+**Last updated:** 2026-04-05 late night PST
 
 ---
 
@@ -32,8 +32,9 @@ Leo system, KB, side projects, infrastructure.
 
 | Item | Why / Goal | Description / Subtasks | Rough Time | Progress | Priority |
 |------|-----------|----------------------|------------|----------|----------|
-| First `/kb-compile` run (hard domain) | KB value unlock | Run the 3-phase wiki compiler on hard skills: scan concepts across 851 articles → review plan → compile wiki articles. The big payoff from the KB skill surface built 2026-04-05. | 2-3 hrs | Not started | P0 |
-| KB lint cleanup | KB quality | Fix 11 broken wikilinks, review 31 near-duplicate slugs. 791 thin articles are RSS stubs (re-fetch or accept). 1,432 missing tags are Lenny extractions (batch-tag or accept). | 1-2 hrs | Not started | P1 |
+| First `/kb-compile` run (hard domain) | KB value unlock | Run the 3-phase wiki compiler on hard skills. | 2-3 hrs | **Done 2026-04-05** — 65 concepts compiled, 66 hard wiki articles, 2,417 docs indexed | — |
+| Soft wiki compile | KB value unlock | Run `/kb-compile --domain soft` on 1,556 raw articles (Lenny's, Wes Kao, Ethan Evans, Jefferson Fisher). | 3-4 hrs | Not started — plan phase needed | P1 |
+| KB lint cleanup | KB quality | Fix broken wikilinks, review near-duplicate slugs. ~~791 thin articles are RSS stubs~~ **Fixed 2026-04-05 — all stubs rescraped**. 1,432 missing tags are Lenny extractions. | 1 hr | Wikilinks + slug dedup remaining | P2 |
 | YouTube transcript ingestion | KB content | 16 videos queued in `scripts/yt_backlog.json`. Script: `scripts/yt_ingest.py --retry`. 1 video has no subtitles. Run locally on-demand. | 15 min | Pipeline built, pending IP cooldown | P0 |
 | Overnight KB automation | KB automation | Two remote triggers exist but disabled (cost): Daily KB Scout (`trig_017ew...`), Overnight KB Work (`trig_0132A...`). Re-enable via Leo when ready. On-demand for now. | Done | Disabled | P1 |
 | Schedule cron jobs for KB scrapers | KB automation | ~~Wire `scrape_aman.py` (weekly) and `scout.py` (daily) into cron.~~ Replaced by Daily KB Scout remote trigger (currently disabled). | — | Done | — |
