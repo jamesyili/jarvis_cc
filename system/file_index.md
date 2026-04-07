@@ -50,7 +50,7 @@ Last updated: 2026-04-05
 |------|-------------|-------------|
 | `session-log.md` | Rolling session log for cross-session continuity | 2026-04-01 |
 | `lennys_podcast_pipeline.md` | Lenny's podcast extraction pipeline: purpose, status, next steps, file locations | 2026-04-05 |
-| `karen_observations.md` | Karen's longitudinal pattern tracking | 2026-04-05 |
+| `karen_observations.md` | Karen's longitudinal pattern tracking | 2026-04-06 |
 
 ## sideprojects/
 

@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-04-06 — Wes Kao Frameworks + Dynamic Triggering Slack Delegation
+
+**Notebook:** Wes Kao Frameworks
+**Context:** James drafting cross-org Slack thread for Dynamic Triggering ELT follow-up (Sumanth/Mehdi/Sai). Strategic constraint: Dylan has told James to "let Mehdi drive" — needs to convene without inheriting ownership.
+
+**Query 1:** Apply Wes Kao to actual draft. Where is James betraying the facilitator framing? Is the lead buried? Is there a "convening without owning" pattern?
+- **Key insights extracted:**
+  - Holding the baton vs. passing it — James was structurally claiming ownership (4-point agenda, scheduled sync, "I want us to align") while verbally disclaiming it. Wes Kao relay-race frame: passed baton requires acknowledgment.
+  - "Insecure vibes" words — *"I'm just trying to..."* and *"happy for him to drive"* are weak modifiers that diminish authority and sound like apology.
+  - Sales then logistics violation — assigning work via 4-point plan before selling Mehdi on why this matters for HIM.
+  - **No-surprises rule** — public delegation in a group thread risks the named person getting put on the spot, defensive, or dropping the baton.
+- **Action:** Restructured into 2-step move — private DM to Mehdi first to pass baton with acknowledgment, then tight 5-sentence public group thread that hands the mic and steps out. The 4-point agenda saved as private input to the Mehdi DM, not as the public thread structure. Created instinct file `no-surprises-public-delegation.md` for future delegation drafts.
+
+---
+
 ## 2026-04-04 — Wes Kao Frameworks + Karen Agent Design
 
 **Notebook:** Wes Kao Frameworks (How to Speak)
