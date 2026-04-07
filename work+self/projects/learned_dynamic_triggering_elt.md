@@ -223,8 +223,9 @@ Two problems that initially seem disparate — (1) knob proliferation / engineer
 
 ### Next Steps
 
-1. Reply to Kartik — invite to feature review, offer architecture walkthrough
+1. ~~Reply to Kartik~~ — Done. Replied in Slack acknowledging interest, looped in Sumanth + Wes Cheng.
 2. Monitor Faisal thread — offer cold-start data walkthrough if he re-engages
-3. Sync with Mehdi this week — align on Ads scoping, sequencing, and roles
+3. **Cross-org working group thread (Sumanth/Mehdi/Sai)** — drafted as 2-step delegation per Wes Kao: (a) private DM to Mehdi first to pass baton w/ acknowledgment, (b) public group thread that hands the mic and steps out. Both messages ready in `system/session-logs/2026-04-06-evening.md`. Send Tuesday morning.
 4. Message Alok — 50% allocation, first deliverable is Ads scoping support for Mehdi
 5. Do NOT respond to Ads interest directly until Mehdi is aligned on approach
+6. Pull Kartik into the broader Ads review only AFTER Mehdi has scoped the technical response with Sumanth/Sai
