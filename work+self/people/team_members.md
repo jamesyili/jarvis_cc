@@ -2,7 +2,7 @@
 
 > James's direct reports and key team context. Updated as situations change.
 
-Last updated: 2026-03-29
+Last updated: 2026-04-06
 
 ---
 
@@ -103,7 +103,10 @@ Last updated: 2026-03-29
 ### Zili
 - **Workstream:** LWS
 - **1:1:** Tue 1:30pm monthly
-- **Performance:** Monitor via Piyush. Act if Yali flags.
+- **Performance:** Known underperformer. Not as urgent as Charlie — no backfill available, so manage rather than exit. Recurring pattern flagged by Bowen (previous manager) and multiple TLs: insufficient communication depth, doesn't show investigation work, escalates externally without demonstrating internal ownership.
+- **2026-04-06 incident:** FM training job failed on CPU resources. After 3 hours of surface-level slack updates ("Yali suggested X, Piyush suggested Y, asking ray team"), James pushed for a debugging doc showing her own investigation. She declined, citing "the thread already contains all the info." Confirmed the pattern. James documented via slack (paper trail). She knows she's an underperformer.
+- **Approach:** Backfill constraint means no active manage-out. Continue documenting pattern. Give clear, written expectations at next 1:1 (Tue 1:30pm). Don't invest disproportionate coaching capital — Charlie is the clearer case for action first.
+- **Watch-for:** Whether Piyush also starts flagging. If so, the performance picture tightens and the backfill calculus may need to be revisited with Dylan.
 
 ### Charlie
 - **Workstream:** AI projects (under James's direct TL supervision)
