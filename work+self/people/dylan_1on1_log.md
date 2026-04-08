@@ -4,6 +4,20 @@
 
 ---
 
+## 2026-04-07 (Tuesday) — Dylan 1:1 Debrief
+
+**Outcome:** Short and sweet. Went well.
+
+### What happened
+- Talked about AI and next steps. (Light agenda — no major escalations or surprises.)
+- **Charlie performance: PIP decision made and aligned.** Moving forward with formal PIP. Will get headcount back. Clearest action case on the team.
+
+### Notes
+- Pre-session prep had three priorities: (1) Pinsight agentic vision as "run things by me" co-ownership, (2) Charlie/Zili performance escalations, (3) close PM tone + EM hire loops. Actual conversation was lighter than prepped — went straight to AI + Charlie.
+- The Monday group-meeting AI demo concern (worry about overdoing it) did not surface in the 1:1. No need to acknowledge or repair. Pattern read was correct: don't bring it up unprompted.
+
+---
+
 ## 2026-04-03 (Thursday) — Dylan 1:1 Debrief
 
 **Outcome: Strong.** AI momentum confirmed. Dylan actively shielding James. PM tone feedback delivered.

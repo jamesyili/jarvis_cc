@@ -2,7 +2,7 @@
 
 > Unified backlog: everything actionable in one place. Organized by what James does, not what system it lives in. Curriculum details live in `learning/learning_agenda.md` — this file tracks what to do next.
 
-**Last updated:** 2026-04-05 late night PST
+**Last updated:** 2026-04-07 PST
 
 ---
 
@@ -43,6 +43,7 @@ Leo system, KB, side projects, infrastructure.
 | Better context structure | Leo efficiency | Audit CLAUDE.md and context files for optimal loading. Minimize context waste. | 2 hrs | Not started | P2 |
 | Recommendation system from scratch | ML craft, interview artifacts | Build recsys from first principles: embeddings → two-tower → training → eval → serving. `projects/recsys-from-scratch/` | 20+ hrs | Not started | P2 |
 | Investigate kuberwastaken/claude-code | Leo improvement ideas | Explore patterns, prompt engineering, automation approaches. Cloned at `/home/james/src/claude-code-reference/` | 1-2 hrs | Not started | P3 |
+| Fix consult-notebook agent live querying | Leo quality | The consult-notebook subagent is synthesizing from prior context instead of actually hitting NotebookLM via MCP. Surfaced 2026-04-07 when both Coaching Patterns + Wes Kao queries returned framework-based syntheses with explicit caveats. Investigate MCP wiring and skill file path. | 1-2 hrs | Not started | P2 |
 | Integrate GSD for side projects | Workflow | Explore `get-shit-done` framework. Does it complement Leo? | 1 hr | Not started | P3 |
 | Interview-prep mode | Career optionality | Framework for side projects that double as interview prep for OpenAI/Anthropic. Folded into Track 3 + blog posts. | 2 hrs | Subsumed by Track 3 + Write items | P3 |
 

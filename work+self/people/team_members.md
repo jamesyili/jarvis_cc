@@ -2,7 +2,7 @@
 
 > James's direct reports and key team context. Updated as situations change.
 
-Last updated: 2026-04-06
+Last updated: 2026-04-07
 
 ---
 
@@ -111,7 +111,7 @@ Last updated: 2026-04-06
 ### Charlie
 - **Workstream:** AI projects (under James's direct TL supervision)
 - **1:1:** Fri 2:30pm monthly
-- **Performance:** Meeting with Employee Relations next week. Performance clock starting. Clearest case for action. Ask Dylan for backfill if moving forward.
+- **Performance:** **2026-04-07 — PIP decision made.** Moving forward with formal PIP, will get headcount back. Clearest case for action on the team. Dylan aligned.
 
 ---
 
