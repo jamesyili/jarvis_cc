@@ -2,7 +2,7 @@
 
 > Unified backlog: everything actionable in one place. Organized by what James does, not what system it lives in. Curriculum details live in `learning/learning_agenda.md` — this file tracks what to do next.
 
-**Last updated:** 2026-04-07 PST
+**Last updated:** 2026-04-08 PST
 
 ---
 
@@ -33,7 +33,15 @@ Leo system, KB, side projects, infrastructure.
 | Item | Why / Goal | Description / Subtasks | Rough Time | Progress | Priority |
 |------|-----------|----------------------|------------|----------|----------|
 | First `/kb-compile` run (hard domain) | KB value unlock | Run the 3-phase wiki compiler on hard skills. | 2-3 hrs | **Done 2026-04-05** — 65 concepts compiled, 66 hard wiki articles, 2,417 docs indexed | — |
-| Soft wiki compile | KB value unlock | Run `/kb-compile --domain soft` on 1,556 raw articles (Lenny's, Wes Kao, Ethan Evans, Jefferson Fisher). | 3-4 hrs | Not started — plan phase needed | P1 |
+| graphify Phase 1 (graph backend) | KB value unlock, feeds Phase 2 | Build canonical graph.json at kb/.kb/graph/ via graphify. See plan at `~/.claude/plans/binary-mapping-perlis.md`. | 4-6 hrs | **Done 2026-04-08** — commits `8f8222d` + `d917b4e`. 6706 nodes / 474 hyperedges / 593 communities, god_nodes author filter, surprising.json (25 cross-community insights) | — |
+| graphify Phase 2 (wire compile_wiki.py) | KB quality uplift | Rewrite `compile_wiki.py:82-170` (scan) and `:249-323` (compile) to pull candidates from `build_graph.py` god_nodes + hyperedges instead of LLM-batching raw/. A/B run against current LLM scan (Option B — diff for one cycle before cutover). Populate `related:` field from graph neighbors. Kickstart soft-domain compilation (empty today). | 3-5 hrs | Not started — unblocked by Phase 1 fixes (commit d917b4e) | P1 |
+| graphify Phase 3 (search + reflection) | KB quality uplift | Add `--expand` flag to `kb_search.py` that follows graph edges. Rewrite `kb-reflect` SKILL.md to pull Leiden clusters from `communities.json` and synthesize to `kb/{domain}/reflections/` (committed, transferable). | 2-3 hrs | Not started — depends on Phase 2 | P2 |
+| graphify Phase 4 (graph-aware kb_lint) | KB health | Extend `kb_lint.py` with three checks: orphans (degree 0), god concepts (degree > 2σ, candidates for splitting), coverage gaps (high-degree concepts with no corresponding wiki article). | 1-2 hrs | Not started | P2 |
+| graphify refresh: fill 13 missing chunks | KB completeness | 13 chunks (mostly lennys-podcast tail files 116-123) missing from Phase 1 because the Claude Code subscription rate limit hit mid-run. Cache is empty so naive `--update` would re-extract everything. Need a strategy that only hits the missing file list — either manually stage the missing files, or pre-populate graphify's SHA256 cache from the salvaged chunk files. Revisit when Phase 2 soft-domain pass needs the coverage. | 1-2 hrs | Deferred — not a blocker | P3 |
+| graphify god_nodes filter hardening | Leo quality | Current filter catches 19/20 top concepts correctly. Gap: podcast guests whose names aren't in any node's `author`/`contributor` field AND whose source filename doesn't contain their slug will slip through. Only revisit if another false positive shows up in Phase 2. | 30 min | Acceptable as-is | P4 |
+| graphify HTML viz at full scale | Leo quality | graphify's `to_html` caps at 5000 nodes. Current `graph.html` is the degree≥2 subgraph (4,584 of 6,706 nodes). Consider: per-community HTML exports, or a custom viz. Gitignored anyway — low urgency. | 2-3 hrs | Not started | P3 |
+| Preserve raw graphify chunks durably | Phase 3 enabler | `/tmp/graphify-phase1/graphify-out/.graphify_chunk_*.json` are the only place the raw pre-consolidation extraction lives (needed to regenerate surprising.json, and potentially for future entity-resolution experiments). If /tmp gets wiped, a full rebuild is required. Copy to `kb/.kb/graph/raw_chunks/` (gitignored) if we expect to re-run `compute-surprising` or iterate on the consolidation algorithm. | 15 min | Not started | P2 |
+| Soft wiki compile | KB value unlock | Run `/kb-compile --domain soft` on 1,556 raw articles (Lenny's, Wes Kao, Ethan Evans, Jefferson Fisher). **Note:** graphify Phase 2 will likely drive this (graph-fed scan over soft raw). | 3-4 hrs | Not started — consider folding into graphify Phase 2 | P1 |
 | KB lint cleanup | KB quality | Fix broken wikilinks, review near-duplicate slugs. ~~791 thin articles are RSS stubs~~ **Fixed 2026-04-05 — all stubs rescraped**. 1,432 missing tags are Lenny extractions. | 1 hr | Wikilinks + slug dedup remaining | P2 |
 | YouTube transcript ingestion | KB content | 16 videos queued in `scripts/yt_backlog.json`. Script: `scripts/yt_ingest.py --retry`. 1 video has no subtitles. Run locally on-demand. | 15 min | Pipeline built, pending IP cooldown | P0 |
 | Overnight KB automation | KB automation | Two remote triggers exist but disabled (cost): Daily KB Scout (`trig_017ew...`), Overnight KB Work (`trig_0132A...`). Re-enable via Leo when ready. On-demand for now. | Done | Disabled | P1 |

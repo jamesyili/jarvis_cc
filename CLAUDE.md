@@ -94,6 +94,7 @@ scripts/                # Automation: KB scrapers, hooks, search, lint, extracti
 ├── kb_search.py            TF-IDF keyword search across KB
 ├── kb_lint.py              Health checks: thin articles, broken links, duplicates
 ├── build_index.py          Search index builder
+├── build_graph.py          graphify wrapper: build/query knowledge graph (kb/.kb/graph/)
 └── extract_themes.py       Thematic extraction pipeline (Lenny's podcast)
 
 blog/                   # James's blog — synthesis artifacts (technical + leadership)
@@ -174,6 +175,7 @@ Leo has 15+ skills invoked via `/skill-name`. Each skill is self-documenting (se
 | `/kb-compile` | Wiki synthesis — scan concepts → review plan → compile articles |
 | `/kb-merge` | Consolidate duplicate/overlapping wiki concepts |
 | `/kb-reflect` | Cross-cutting synthesis — themes, contradictions, gaps across KB |
+| `/kb-graph` | Query the knowledge graph — neighbors, god nodes, hyperedges, communities, surprising connections (backed by `kb/.kb/graph/graph.json`) |
 
 ### Cross-Project
 | Skill | Trigger |
@@ -225,12 +227,15 @@ Four hooks fire automatically (configured in `~/.claude/settings.json`):
 
 ## Knowledge Base
 
-Two-domain Obsidian vault at `kb/` with two layers per domain:
+Two-domain Obsidian vault at `kb/` with two layers per domain, plus a graph backend:
 
 - **Raw** (`kb/{hard,soft}/raw/`) — 2,600+ ingested articles from 13 tracked sources, organized by source
 - **Wiki** (`kb/{hard,soft}/wiki/`) — Compiled concept articles synthesized across sources (via `/kb-compile`)
-- **Scripts** (`scripts/`) — `scout.py` (RSS), `scrape_aman.py`, `scrape_louis.py`, `kb_search.py`, `kb_lint.py`, `build_index.py`, `extract_themes.py`
-- **7 KB skills** for operations — see Skills table above. Proactively offer `/kb-reflect` per Operating Principle 11.
+- **Graph** (`kb/.kb/graph/`) — Canonical knowledge graph built by graphify: `graph.json` (6,706 nodes, 474 hyperedges, 593 Leiden communities), `communities.json`, `surprising.json`, `GRAPH_REPORT.md`. Driven by `scripts/build_graph.py`. Query via `/kb-graph`. Downstream consumers: compile_wiki (Phase 2), kb_search (Phase 3), kb_lint (Phase 4), kb-reflect (Phase 3).
+- **Scripts** (`scripts/`) — `scout.py` (RSS), `scrape_aman.py`, `scrape_louis.py`, `kb_search.py`, `kb_lint.py`, `build_index.py`, `build_graph.py`, `extract_themes.py`
+- **8 KB skills** for operations — see Skills table above. Proactively offer `/kb-reflect` per Operating Principle 11.
+
+**Graph backend requirements**: `build_graph.py` imports from the `graphify.*` Python package. Install via `pip install graphifyy` into a venv (default: `~/.venvs/graphify/`). Run the script with the venv python: `~/.venvs/graphify/bin/python scripts/build_graph.py <cmd>`. The `/kb-graph` skill wraps this.
 
 ## Context Update Triggers
 
