@@ -14,7 +14,9 @@ notebooklm_cookies.txt
 .obsidian/themes/
 
 # KB graph backend (graphify outputs)
-# Committed: graph.json, communities.json, GRAPH_REPORT.md, manifest.json
-# Gitignored: the viz HTML (regenerable, 300KB+) and the SHA256 extraction cache
+# Committed: graph.json, communities.json, GRAPH_REPORT.md, manifest.json, surprising.json
+# Gitignored: the viz HTML (regenerable, ~4MB), the SHA256 extraction cache,
+# and the raw pre-consolidation chunks (7MB, preserved for compute-surprising regeneration)
 kb/.kb/graph/graph.html
 kb/.kb/graph/cache/
+kb/.kb/graph/raw_chunks/
