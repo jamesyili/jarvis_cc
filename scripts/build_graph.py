@@ -4,16 +4,18 @@ Graph backend for Leo's KB. Thin wrapper around graphify (https://github.com/saf
 
 Usage:
     python scripts/build_graph.py build [--domain all|hard|soft] [--mode deep|fast]
-    python scripts/build_graph.py refresh                 # incremental --update pass
-    python scripts/build_graph.py stats                   # print graph statistics
-    python scripts/build_graph.py show <node_id>          # node + neighbors + community
-    python scripts/build_graph.py neighbors <concept>     # find and list neighbors
-    python scripts/build_graph.py god-nodes [-n 20]       # top-degree concepts
-    python scripts/build_graph.py orphans                 # degree-0 articles
-    python scripts/build_graph.py communities             # Leiden clusters
-    python scripts/build_graph.py surprising              # cross-community insights
-    python scripts/build_graph.py open                    # open graph.html in browser
-    python scripts/build_graph.py postprocess             # filter scaffolding + consolidate
+    python scripts/build_graph.py refresh                     # incremental --update pass
+    python scripts/build_graph.py stats                       # print graph statistics
+    python scripts/build_graph.py show <node_id>              # node + neighbors + community
+    python scripts/build_graph.py neighbors <concept>         # find and list neighbors
+    python scripts/build_graph.py god-nodes [-n 20]           # top-degree concepts (authors filtered)
+    python scripts/build_graph.py god-nodes --include-people  # raw top-degree (no filter)
+    python scripts/build_graph.py orphans                     # degree-0 articles
+    python scripts/build_graph.py communities                 # Leiden clusters
+    python scripts/build_graph.py surprising                  # cross-community insights
+    python scripts/build_graph.py compute-surprising          # rebuild surprising.json from raw chunks
+    python scripts/build_graph.py open                        # open graph.html in browser
+    python scripts/build_graph.py postprocess                 # filter scaffolding + consolidate
 
 Requires: graphifyy installed. Intended python: ~/.venvs/graphify/bin/python.
 """
@@ -32,12 +34,26 @@ GRAPH_DIR = KB_ROOT / ".kb" / "graph"
 GRAPH_JSON = GRAPH_DIR / "graph.json"
 GRAPH_HTML = GRAPH_DIR / "graph.html"
 COMMUNITIES_JSON = GRAPH_DIR / "communities.json"
+SURPRISING_JSON = GRAPH_DIR / "surprising.json"
 
 MODEL = "claude-sonnet-4-6"
 
 # Post-processing filters — scaffolding and explicit excludes
 EXCLUDE_FILENAMES = {"_index.md", "_plan.md"}
 EXCLUDE_DIR_SEGMENTS = {"do_not_index_sources"}
+
+# Patterns that mark a node as a person/author/podcast, not a concept.
+_PERSON_QUALIFIER_RE = re.compile(
+    r"\(\s*(?:Author|Authors?|Host|Co-Host|Researcher|Professor|CEO|CTO|CPO|COO|CFO|CXO|"
+    r"SVP|VP|EVP|Founder|Co-Founder|Chief|Director|Coach|Guest|Speaker|Podcast|Partner|"
+    r"Principal|Investor|Angel|Advisor|Executive|Fellow|Engineer|Scientist|Lead)\s*\)",
+    re.IGNORECASE,
+)
+# Podcast / show / channel names that show up as god-nodes.
+_SHOW_PATTERNS = re.compile(
+    r"(Podcast|Show|Newsletter|Substack|YouTube Channel|Bulletin|Blog)\b",
+    re.IGNORECASE,
+)
 
 
 def _ensure_graphify():
@@ -413,19 +429,84 @@ def _resolve_node(G, query: str):
     return None
 
 
-def god_nodes(top_n: int = 20):
-    """Top-degree nodes. Delegates to graphify.analyze if available."""
+def _known_people_from_graph(data: dict) -> set[str]:
+    """Build a set of author/contributor names referenced anywhere in the graph.
+
+    Used to catch person nodes whose label is a bare name (no '(Author)' tag).
+    """
+    people: set[str] = set()
+    for n in data.get("nodes", []):
+        for field in ("author", "contributor"):
+            v = n.get(field)
+            if v and isinstance(v, str):
+                people.add(v.strip())
+    return people
+
+
+def _is_person_node(node: dict, known_people: set[str]) -> bool:
+    label = (node.get("label") or "").strip()
+    if not label:
+        return False
+    # Explicit qualifier like "(Author)", "(Host)", "(CEO)"
+    if _PERSON_QUALIFIER_RE.search(label):
+        return True
+    # Show/podcast/newsletter names
+    if _SHOW_PATTERNS.search(label):
+        return True
+    # Bare-name match against known authors/contributors
+    if label in known_people:
+        return True
+    # Strip parenthetical and retry (e.g. "Wes Kao (Founder, Maven)")
+    stripped = _PERSON_QUALIFIER_RE.sub("", label)
+    stripped = re.sub(r"\([^)]*\)", "", stripped).strip()
+    if stripped and stripped in known_people:
+        return True
+    # Podcast-guest heuristic: if node sourced from a podcast directory AND its
+    # label is a slug-matching substring of the source filename, it's likely
+    # the guest's name (e.g. "Ben Williams" appears in "...ben-williams-vp-of-product.md").
+    source_file = (node.get("source_file") or "").lower()
+    if any(marker in source_file for marker in ("lennys-podcast", "/podcast", "/youtube")):
+        slug = re.sub(r"[^a-z0-9]+", "-", label.lower()).strip("-")
+        if slug and len(slug) >= 5 and slug in source_file:
+            return True
+    return False
+
+
+def god_nodes(top_n: int = 20, concepts_only: bool = True):
+    """Top-degree nodes. If concepts_only is True, filter out author/podcast nodes.
+
+    Delegates degree ranking to graphify.analyze.god_nodes, then post-filters.
+    """
     _ensure_graphify()
+    data = load_raw()
+    known_people = _known_people_from_graph(data) if concepts_only else set()
+    label_by_id = {n["id"]: n for n in data.get("nodes", [])}
+
     try:
         from graphify.analyze import god_nodes as _g
-        return _g(load_graph(), top_n=top_n)
+        # Ask for more than top_n so we have headroom after filtering.
+        raw = _g(load_graph(), top_n=top_n * 4 if concepts_only else top_n)
     except Exception:
         G = load_graph()
-        ranked = sorted(G.degree, key=lambda x: -x[1])[:top_n]
-        return [
-            {"id": nid, "label": G.nodes[nid].get("label", nid), "degree": d}
+        ranked = sorted(G.degree, key=lambda x: -x[1])[: top_n * 4]
+        raw = [
+            {"id": nid, "label": G.nodes[nid].get("label", nid), "edges": d}
             for nid, d in ranked
         ]
+
+    if not concepts_only:
+        return raw[:top_n]
+
+    filtered = []
+    for entry in raw:
+        nid = entry.get("id")
+        node = label_by_id.get(nid, {"label": entry.get("label", nid)})
+        if _is_person_node(node, known_people):
+            continue
+        filtered.append(entry)
+        if len(filtered) >= top_n:
+            break
+    return filtered
 
 
 def communities():
@@ -480,13 +561,121 @@ def sources_for_concept(concept_label: str):
 
 
 def surprising_connections(top_n: int = 10):
-    """Cross-community high-confidence edges. Uses graphify.analyze."""
+    """Cross-community high-confidence edges.
+
+    Reads from kb/.kb/graph/surprising.json if present (computed on the
+    pre-consolidation raw graph — see compute_surprising_from_chunks). Otherwise
+    falls back to computing on the current post-processed graph, which often
+    returns an empty list because cross-community edges collapse to intra-
+    community after label-normalized merges.
+    """
+    if SURPRISING_JSON.exists():
+        data = json.loads(SURPRISING_JSON.read_text())
+        return data.get("edges", [])[:top_n]
+
     _ensure_graphify()
     from graphify.analyze import surprising_connections as _s
     G = load_graph()
     comms_raw = communities()
-    comms = {int(k): v for k, v in comms_raw.items()}
-    return _s(G, comms, top_n=top_n)
+    try:
+        comms = {int(k): v for k, v in comms_raw.items()}
+    except (TypeError, ValueError):
+        comms = comms_raw
+    try:
+        return _s(G, comms, top_n=top_n)
+    except Exception as e:
+        print(f"WARN: surprising_connections fallback failed: {e}", file=sys.stderr)
+        return []
+
+
+def compute_surprising_from_chunks(chunk_dir: Path, top_n: int = 25) -> Path:
+    """Rebuild the pre-consolidation graph from raw chunk files, compute
+    surprising_connections on it, and persist to SURPRISING_JSON.
+
+    This exists because Phase 1's label-normalized consolidation merges
+    cross-community edges back into their canonical node, which destroys
+    the graphify.analyze.surprising_connections signal on the post-processed
+    graph. Running on the pre-merge chunks preserves it.
+    """
+    _ensure_graphify()
+    from graphify.build import build_from_json
+    from graphify.cluster import cluster as _cluster
+    from graphify.analyze import surprising_connections as _sc
+
+    chunk_files = sorted(chunk_dir.glob(".graphify_chunk_*.json"))
+    if not chunk_files:
+        raise FileNotFoundError(
+            f"No .graphify_chunk_*.json files found in {chunk_dir}. "
+            "Run a fresh build first — chunks are written during the extraction phase."
+        )
+
+    merged_nodes: list = []
+    merged_edges: list = []
+    merged_hyperedges: list = []
+    seen_ids: set = set()
+    for p in chunk_files:
+        try:
+            d = json.loads(p.read_text())
+        except json.JSONDecodeError:
+            continue
+        for n in d.get("nodes", []):
+            nid = n.get("id")
+            if not nid or nid in seen_ids:
+                continue
+            seen_ids.add(nid)
+            merged_nodes.append(n)
+        merged_edges.extend(d.get("edges", []))
+        merged_hyperedges.extend(d.get("hyperedges", []))
+
+    # Prune dangling edges
+    valid_edges = [
+        e for e in merged_edges
+        if e.get("source") in seen_ids and e.get("target") in seen_ids
+    ]
+
+    extraction = {
+        "nodes": merged_nodes,
+        "edges": valid_edges,
+        "hyperedges": merged_hyperedges,
+        "input_tokens": 0,
+        "output_tokens": 0,
+    }
+    G = build_from_json(extraction)
+    communities_map = _cluster(G)
+    raw_surprises = _sc(G, communities_map, top_n=top_n)
+
+    # Enrich each surprise with labels + source files for committed readability.
+    node_by_id = {n["id"]: n for n in merged_nodes}
+    enriched = []
+    for s in raw_surprises:
+        src_id = s.get("source") or s.get("from") or ""
+        tgt_id = s.get("target") or s.get("to") or ""
+        src_node = node_by_id.get(src_id, {})
+        tgt_node = node_by_id.get(tgt_id, {})
+        enriched.append({
+            "source": src_id,
+            "source_label": src_node.get("label", src_id),
+            "source_file": src_node.get("source_file", ""),
+            "target": tgt_id,
+            "target_label": tgt_node.get("label", tgt_id),
+            "target_file": tgt_node.get("source_file", ""),
+            "relation": s.get("relation", ""),
+            "confidence": s.get("confidence", ""),
+            "confidence_score": s.get("confidence_score", 0.0),
+            "reason": s.get("reason", ""),
+        })
+
+    SURPRISING_JSON.parent.mkdir(parents=True, exist_ok=True)
+    SURPRISING_JSON.write_text(json.dumps({
+        "computed_from": "pre-consolidation raw chunks",
+        "chunk_dir": str(chunk_dir),
+        "chunk_count": len(chunk_files),
+        "raw_nodes": len(merged_nodes),
+        "raw_edges": len(valid_edges),
+        "raw_communities": len(communities_map),
+        "edges": enriched,
+    }, indent=2))
+    return SURPRISING_JSON
 
 
 # ---------------------------------------------------------------------------
@@ -534,7 +723,8 @@ def _cmd_neighbors(args):
 
 
 def _cmd_god_nodes(args):
-    for g in god_nodes(top_n=args.n):
+    concepts_only = not args.include_people
+    for g in god_nodes(top_n=args.n, concepts_only=concepts_only):
         deg = g.get("edges", g.get("degree", g.get("centrality", "?")))
         print(f"  [{deg}] {g.get('label', g.get('id', ''))}")
 
@@ -554,10 +744,26 @@ def _cmd_communities(args):
 
 def _cmd_surprising(args):
     for s in surprising_connections(top_n=args.n):
-        src = s.get("source", s.get("from", "?"))
-        tgt = s.get("target", s.get("to", "?"))
+        src = s.get("source_label") or s.get("source") or s.get("from", "?")
+        tgt = s.get("target_label") or s.get("target") or s.get("to", "?")
         rel = s.get("relation", "")
-        print(f"  {src} → {tgt}  [{rel}]")
+        conf = s.get("confidence", "")
+        reason = s.get("reason", "")
+        tag = f"[{rel}, {conf}]" if conf else f"[{rel}]"
+        line = f"  {src}  →  {tgt}  {tag}"
+        if reason:
+            line += f"\n    {reason}"
+        print(line)
+
+
+def _cmd_compute_surprising(args):
+    chunk_dir = Path(args.chunk_dir)
+    out = compute_surprising_from_chunks(chunk_dir, top_n=args.n)
+    data = json.loads(out.read_text())
+    print(f"Wrote {out} ({len(data.get('edges', []))} cross-community edges)")
+    print(f"  chunks: {data.get('chunk_count')}")
+    print(f"  raw nodes: {data.get('raw_nodes')}")
+    print(f"  raw communities: {data.get('raw_communities')}")
 
 
 def _cmd_open(args):
@@ -604,8 +810,9 @@ def main():
     sn.add_argument("--depth", type=int, default=1)
     sn.set_defaults(func=_cmd_neighbors)
 
-    sg = sub.add_parser("god-nodes", help="Top-degree concepts")
+    sg = sub.add_parser("god-nodes", help="Top-degree concepts (authors/podcasts filtered by default)")
     sg.add_argument("-n", type=int, default=20)
+    sg.add_argument("--include-people", action="store_true", help="Include author/podcast nodes (default: excluded)")
     sg.set_defaults(func=_cmd_god_nodes)
 
     so = sub.add_parser("orphans", help="Nodes with degree 0")
@@ -615,9 +822,18 @@ def main():
     sc.add_argument("-n", type=int, default=15)
     sc.set_defaults(func=_cmd_communities)
 
-    sx = sub.add_parser("surprising", help="Cross-community insights")
+    sx = sub.add_parser("surprising", help="Cross-community insights (reads surprising.json if present)")
     sx.add_argument("-n", type=int, default=10)
     sx.set_defaults(func=_cmd_surprising)
+
+    scs = sub.add_parser(
+        "compute-surprising",
+        help="Rebuild surprising.json from raw chunks (pre-consolidation graph)",
+    )
+    scs.add_argument("--chunk-dir", default="/tmp/graphify-phase1/graphify-out",
+                     help="Directory containing .graphify_chunk_*.json files")
+    scs.add_argument("-n", type=int, default=25)
+    scs.set_defaults(func=_cmd_compute_surprising)
 
     sp = sub.add_parser("open", help="Open graph.html in browser")
     sp.set_defaults(func=_cmd_open)
