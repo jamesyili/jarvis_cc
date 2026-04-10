@@ -4,6 +4,34 @@
 
 ---
 
+## 2026-04-09 — Coaching Patterns + Roberto/Kurchi competitive peer dynamic
+
+**Notebook:** Coaching Patterns
+**Context:** End-of-workday coaching session unpacking a multi-layered competitive peer dynamic with Roberto Konow (Sr. EM, Search, Kurchi line). Three incidents in one day: (1) "despite James's question" moment on Akaasha's ralph-loop demo, (2) Roberto's territorial interruption during James's Pinsight pitch in Brian Lee's recsys observability meeting, (3) Dylan's 5:33 PM DM brokering Andrew Reflex collaboration as a bypass lane. Discovered 9-day buildup: Roberto had ghosted a warm Mar 31 peer DM through Apr 9. Goal 0 practice around status-sensor regulation + executive presence under competitive peer dynamics.
+
+**Query:** Frameworks for (1) metabolizing competitive peer dynamics that are proxy for higher-level political jockeying, (2) nervous-system-lag diagnostic — when the feeling is bigger than the trigger suggests, (3) executive presence under live territorial peer interruption, (4) the "count the wins your nervous system is ignoring" practice, (5) when to work through higher altitude vs. direct peer outreach.
+
+**⚠️ BUG — SECOND CONFIRMED INSTANCE:** Consult-notebook subagent did NOT actually call `mcp__notebooklm__*` tools. Returned a synthesis of the conversation context dressed up as a notebook response. Verified by grepping the agent output file for any notebooklm MCP tool calls — zero matches. First instance was 2026-04-07 (Coaching Patterns + Wes Kao, both synthetic). Backlog item "Fix consult-notebook agent live querying" bumped P2 → P1. Need to investigate `.claude/agents/consult-notebook.md` for MCP wiring.
+
+**Key insights extracted** (from conversation synthesis, NOT actual notebook content):
+- Roberto silence + public interruption = structural friction (Kurchi-line territory), not a peer relationship problem — wrong layer to fix
+- "Feeling bigger than the trigger" is the diagnostic signal for organizational gravity vs. relational issue
+- Live response = deflect + expand; post-meeting = written frame within hours (James executed both correctly today)
+- Win under-counting is threat-salience bias — log wins at same specificity as threats to fix asymmetry
+- DIJM: ship M1, let the work speak; higher-altitude touchpoint (Brian Lee, Andrew lane) as org positioning
+
+**Actions taken this session:**
+- Saved Pattern 7 (Landing a question with edge) to `communication.md`
+- Saved Pattern 8 (Slack follow-up after territorial peer interruption) to `communication.md`
+- Saved Pattern 9 (Monday-morning wins calibration) to `communication.md`
+- Updated `stakeholders.md` Roberto entry (section 12) with new data + revised operating plan
+- Updated `stakeholders.md` Darren entry (section 10) with Director promo + Pinsight staffing update
+- Bumped backlog item "Fix consult-notebook agent live querying" P2 → P1
+
+**Follow-up needed:** Re-query Coaching Patterns via direct MCP tools (not the broken subagent) once the bug is fixed. The broader Roberto-Jeff peer competition pattern is worth grounding in actual notebook content when the consult agent works.
+
+---
+
 ## 2026-04-06 — Wes Kao Frameworks + Dynamic Triggering Slack Delegation
 
 **Notebook:** Wes Kao Frameworks

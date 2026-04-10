@@ -2,7 +2,7 @@
 
 LLM-powered deep analysis tool for Homefeed recommendation systems — user understanding, request debugging, and aggregate insight generation.
 
-Last Updated: 2026-03-31
+Last Updated: 2026-04-09
 
 ---
 
@@ -102,12 +102,13 @@ Original Pinsight vision included:
 | James | Architect / v0 builder | Timeboxed. Exit criteria TBD after M1 ships. |
 | Alok | Logging (done Friday) → DT → extends Pinsight later | Original hackathon team. Motivated. |
 | Darren's eval DS | Eval framework | Via partnership with Darren's infra team |
+| Darren's team (TBD — 2026-04-09 commit) | Additional contributors | Darren read the Pinsight proposal overnight 2026-04-08, loved it, and is actively searching his team. Candidates: someone named "Dylan" on Darren's team (NOT James's manager Dylan Wang) OR Analytics Agent folks. Expect confirmation on/after Darren's Director promo 2026-04-16. |
 
 ## Partnerships
 
 | Partner | What they bring | Play |
 |---------|----------------|------|
-| **Darren Regers** (Sr. EM, Infra) | Eval DS, willing to invest resources | Go deep. Primary partnership. Give milestones, get DS committed. |
+| **Darren Regers** (Sr. EM → Director, Infra — promo official 2026-04-16) | Eval DS, **actively staffing Pinsight contributors from his team as of 2026-04-09**, Director-track sponsor for James | **Deepened 2026-04-09.** Read + loves proposal. Searching his team for contributors ("Dylan" on his team OR Analytics Agent folks). Give milestones, get DS + contributors committed. Send congrats on promo day 4/16. |
 | **Brian Lee** (Activation/Growth) | Weekly AI forum, front-end tooling | Use forum for visibility/demos. Don't force engineering collab. |
 | **Kent** (Core Serving Infra) | System log debugging | Pass. Different domain, manager may leave. |
 | **Roberto** (Sr. EM, Search) | Search equivalent tool, Jeff's attention | Wait until M1 ships, then peer-to-peer shared platform conversation. |

@@ -1,5 +1,5 @@
 # communication.md 
-Last Updated: 2026-03-01 
+Last Updated: 2026-04-09 
 ---  
   
 # Communication & Thinking Style (How to work with me) 
@@ -434,6 +434,61 @@ Last updated: 2026-03-29
 **The fix:** Pivot to positive data without echoing the negative word. "We've actually seen a positive impact on engagement — repins are up 0.51% and latency dropped from 70ms to 15ms." Answer the Question Behind the Question (QBQ): they're really asking "will this break something?" — answer that directly with evidence.
 
 **Leo prompt:** In mock Q&A, if James echoes a negative frame from the question ("risk," "concern," "problem"), flag it immediately: "You just validated their negative frame. Pivot to the positive evidence instead."
+
+---
+
+## Pattern 7: Landing a Question with Edge (D:88% Calibration)
+
+**The habit:** Legitimate technical questions in high-excitement demo rooms can land sharper than intended because of James's D:88% directness default. The words are fine, but the delivery is slightly flatter than the room temperature, and the question becomes the center of gravity instead of the lead-in warmth.
+
+**Example (Akaasha ralph-loop demo, 2026-04-09):** During a demo from someone on Roberto's team, James led with "wow that's very impressive" and then asked "these are offline metrics only so far, right?" The question was technically standard, but Jeff publicly said *"despite James's question, it's still very impressive..."* The "despite" was the tell — Jeff heard slight deflation and smoothed it with a grace move. Small cost, not a relational debt, but a signal that the delivery had a shade more edge than intended.
+
+**The fix — the three-move shape:**
+1. **Specific praise** — name ONE specific thing you found impressive, 5-10 seconds. "The way you handled the retry logic in the eval loop is really clean" beats a generic "wow, that's impressive."
+2. **Intent label** — say why you're asking before you ask. "In the spirit of figuring out where to invest next..." or "I'm trying to understand the current maturity so I can think about next steps..." Disarms the question from reading as nitpicking.
+3. **Hopeful-framed question** — frame the question as curiosity about positive progress, not as confirming a limitation. "Have you started to see any online signal?" beats "These are offline metrics only, right?" Same information, different valence.
+
+**Why it works:** Specific praise proves you were actually watching. Intent labeling disarms the question from reading as retrospective nitpicking. Hopeful framing lets the presenter lean in instead of defend. The combined shape takes ~10 extra seconds and eliminates the "despite" cost.
+
+**Leo prompt:** Before James walks into any demo or cross-team forum where he may ask questions, ask: "What's the specific thing you'll praise, what's your intent for the question, and what's the hopeful frame?" If any is missing, flag it.
+
+---
+
+## Pattern 8: Slack Follow-Up After a Territorial Peer Interruption
+
+**The habit:** When a peer interrupts James's live pitch with a pre-apologized territorial move ("sorry to steal your thunder but I got X"), the reactive instinct is to either (a) match their flag-plant with a bigger one in the moment, which looks petty, or (b) let it go and absorb the loss of airtime. Neither is optimal. The right move is a durable written follow-up within hours.
+
+**Example (Brian Lee's recsys observability meeting, 2026-04-09):** Roberto interrupted James's Pinsight pitch with *"sorry to steal your thunder but I got agents working on search eval tool."* James's in-moment response was strong — he reframed peer-to-peer ("that's great, more to build upon each other's tooling, one component you might not have is the user understanding side"). Then within ~2 hours, he posted to #recsys-observability channel with the Pinsight CC skill link, the vision/roadmap, and an explicit partnership invite naming his team (Alok Malik, Chuxi Wang). The channel post set the durable terms the peer had to either accept or visibly reject.
+
+**The fix — the shape:**
+1. **Warm opener** — "Glad to speak with so many like-minded folks" or equivalent — signals collaboration, not competition.
+2. **Concrete artifact share** — the CC skill link, the vision doc, the roadmap. Put durable content in the channel where the interruption happened.
+3. **Partnership invite** — "Would love to partner with all who's interested."
+4. **Team name-drop** — "Or honestly just feel free to send a PR to myself, [teammate 1], [teammate 2]." This is delegation narrative — you have a team, you trust them, the work is mature enough to accept contributions. Three Director-track status signals in one sentence.
+
+**Why it works:** Converts an ephemeral verbal competitive move into a durable written record that timestamps your first-public of the vision. Out-frames the peer's *feature* with your *vision* (vision beats feature). Sets collaborative terms — if the peer wants to keep competing, they have to publicly reject the collaboration, which is socially expensive. The team name-drop is a Director-track status signal hiding in a casual Slack message.
+
+**Leo prompt:** After any meeting where a peer made a territorial move in James's pitch, ask: "Have you posted a written follow-up to the channel with the vision, the partnership invite, and your team named? If not, draft it now — within hours, not days."
+
+---
+
+## Pattern 9: Monday-Morning Wins Calibration (Pre-Communication Hygiene)
+
+**The habit:** James's status sensor has threat-salience bias — threats are logged at high specificity and replayed in detail; wins are logged vaguely and evaporate from memory. This asymmetry gives the internal scoreboard systematically wrong inputs, so James ends loaded days feeling behind even when the day was actually good. The cost manifests in tone and posture during Monday-morning comms — he walks into Slack carrying the threats from Friday and forgetting the wins.
+
+**Example (2026-04-09):** James had three wins in one day — (a) a peer-reframe response to Roberto's territorial interruption, (b) a Slack follow-up to #recsys-observability with vision + team name-drop, (c) a Dylan DM inviting him into Andrew's Reflex initiative with operational asks for technical depth. His nervous system was running the "Jeff + Roberto shared a joke" frame on loop and nearly erased all three wins from the day's internal ledger.
+
+**The practice:**
+
+Before opening Slack or email on Monday morning (or any morning after a status-sensor spike), open a note and write THREE specific wins from the prior loaded day at the **same level of specificity your nervous system uses to run threats.**
+
+**Not specific enough:** *"the demo landed well"* / *"handled the Roberto thing okay"* / *"Dylan seems happy"*
+
+**Specific enough:** *"Phil wanted to broker Akaasha's team to other teams — meaning the room stayed hot after my question"* / *"Dylan DM'd me at 5:33 and asked me for technical depth on deploy/remote host — he exposed his own gaps to me, which is a trust signal"* / *"The Slack follow-up shipped within 2 hours with Alok and Chuxi named — durable record, delegation narrative, partnership invite all in one message"*
+
+**Why it works:** Forcing equal specificity on both sides of the ledger fixes the threat-salience asymmetry. The nervous system can only over-weight threats if wins stay vague. Specific wins become as replayable as specific threats. Over time, the internal scoreboard starts reflecting reality instead of the status sensor's signal distortion.
+
+**Leo prompt:** If James opens a session on Monday morning (or any morning) visibly carrying status anxiety from the prior day, ask: "Have you run the wins calibration yet? Three specific wins from yesterday, same specificity as the threats." Do it before any other work.
 
 ---
 
