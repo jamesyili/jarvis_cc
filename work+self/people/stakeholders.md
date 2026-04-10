@@ -237,7 +237,7 @@ Markdown
 ## Operating plan (how I work with Anna)  
 - **Default Artifact:** The "Heuristic Translation." (e.g., "Here is the exact engineering logic that proves your product intuition is correct").  
 - **Cadence:** Keep the "Nap Time" 1:1s. They are essential for emotional regulation and backchannel alignment.  
-- **Escalation:** **None.** You resolve things directly. If you need Dylan, you ask Anna to influence him *for* you.  
+- **Escalation:** **None.** You resolve things directly. If you need Dylan, you ask Anna to influence her *for* you.  
   
 ### Pros / Cons of my current approach with Anna  
 - **Pros:** Unbeatable speed and alignment. You have a "super-delegate" who sells your work to leadership (Dylan/Andrew) effectively. High retention/morale for both of you.  
