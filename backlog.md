@@ -2,7 +2,7 @@
 
 > Unified backlog: everything actionable in one place. Organized by what James does, not what system it lives in. Curriculum details live in `learning/learning_agenda.md` — this file tracks what to do next.
 
-**Last updated:** 2026-04-09 PST
+**Last updated:** 2026-04-10 PST
 
 ---
 
@@ -51,6 +51,7 @@ Leo system, KB, side projects, infrastructure.
 | Better context structure | Leo efficiency | Audit CLAUDE.md and context files for optimal loading. Minimize context waste. | 2 hrs | Not started | P2 |
 | Recommendation system from scratch | ML craft, interview artifacts | Build recsys from first principles: embeddings → two-tower → training → eval → serving. `projects/recsys-from-scratch/` | 20+ hrs | Not started | P2 |
 | Investigate kuberwastaken/claude-code | Leo improvement ideas | Explore patterns, prompt engineering, automation approaches. Cloned at `/home/james/src/claude-code-reference/` | 1-2 hrs | Not started | P3 |
+| Investigate coleam00/Archon | Leo improvement, agentic patterns | Explore Archon framework — architecture, multi-agent orchestration patterns, what's applicable to Leo or side projects. | 1-2 hrs | Not started | P3 |
 | Fix consult-notebook agent live querying | Leo quality | The consult-notebook subagent is synthesizing from prior context instead of actually hitting NotebookLM via MCP. **Second confirmed instance 2026-04-09** — Coaching Patterns spawn on Roberto dynamic returned a synthesis of conversation context; verified zero calls to `mcp__notebooklm__*` tools. First instance 2026-04-07 (Coaching Patterns + Wes Kao). Bug is persistent — happens every time the consult-notebook subagent is spawned. Investigate `.claude/agents/consult-notebook.md` for MCP tool invocation + SKILL_INSTRUCTIONS wiring. | 1-2 hrs | Not started — **bumped P2 → P1 on 2026-04-09** after second confirmed instance | P1 |
 | Integrate GSD for side projects | Workflow | Explore `get-shit-done` framework. Does it complement Leo? | 1 hr | Not started | P3 |
 | Interview-prep mode | Career optionality | Framework for side projects that double as interview prep for OpenAI/Anthropic. Folded into Track 3 + blog posts. | 2 hrs | Subsumed by Track 3 + Write items | P3 |
