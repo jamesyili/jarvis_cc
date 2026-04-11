@@ -1,6 +1,101 @@
-# UPP Must-Win: Full Strategic Coaching & Preparation Log
+# UPP: March 2026 Must-Win + April 2026 Status
 
-**James Li • March 2026 • Exported from Claude conversation**
+**James Li • March–April 2026 • Originally exported from Claude conversation; updated April 2026 with post-must-win operational status**
+
+---
+
+## April 2026 Status Update (Added 2026-04-11)
+
+> This section captures UPP's operational status ~2 weeks after the March 30 must-win. The historical must-win log is preserved below starting at "Table of Contents." A full technical-side UPP context update is deferred to a later session per James's request; this update is operational-status only.
+
+### The headline — the strongest Director-readiness signal in James's portfolio
+
+**James has not been involved in any UPP execution work in the past 2 weeks, and the project is running extremely smoothly across 4 of 5 prongs with momentum building.**
+
+Name it: the biggest and highest-stakes project in James's portfolio is shipping without him. This is the operator → architect transition in its cleanest form. Every week UPP runs without James IS the case for Director.
+
+Every other lane in his portfolio (Pinsight M0 PRs, PINvestigator adoption, Reflex co-dev, Retentive Recs Engineering Blog editor role) is pulling James *toward* hands-on operator mode. UPP is the counter-example. Hold the distinction visibly — when Karen or anyone else audits the portfolio, UPP is the proof that James already operates at Director altitude on work he has cultivated to maturity.
+
+### Five-prong status (corrected + expanded 2026-04-11 from James's Dylan-facing update)
+
+**Prong 1: Scale up & improve HF / Base CLR** — Multiple shipped wins + active new workstreams.
+- **GPU Serving** — **✅ Done.** Notif will start adopting it; P2P already has.
+- **CLR router simplification** — **✅ Done.** Devin + ATG team members landed this with good engagement gains.
+- **FM in CLR** — **Initial results look promising.** First few days of data.
+- **Search-based CLR (NEW workstream)** — Scoping doc for Search CLR on HF is starting. **Dafang He** is guiding **Devin**, **Sophia**, and a UU team member on this. Earliest stage of the prong.
+
+**Prong 2: Cross-surface Training** — CFM unlock in active build.
+- **CFM unlock is large.** The team is leveraging a similar paradigm, but it's trickier for Retrieval because of batch composition and negative sampling — so it takes real work.
+- **Driven by Zihao Chen**, with **Piyush Maheshwari**, **Hongtao Lin**, and **Jaewon Yang** supporting.
+- **Cross-surface data loading PR landed.** Initial model training has started and **seems to be working**. Early positive signal.
+
+**Prong 3: P2P architectural discussions and socialization** — Major completion + ongoing partnership expansion.
+- **✅ Redesign of CLR with P2P best practices is DONE.** **Piyush worked on this personally.** This is a shipped architectural win, not in-flight — a major completion signal that James should cite explicitly in stakeholder conversations.
+- **Jiaxing Qu** (P2P Retrieval engineer, reports to Sai — likely the same person as "Jiaqing" from earlier verbal update; transliteration/spelling variation) mentioned to Piyush that **Sai** is **adding a few more engineers** to the effort.
+- **Sai has already asked James to add them to the weekly coordination meetings.** Proactive resource commitment from another peer Sr EM without James having to ask.
+- **UBR (Unified Cross Surface Retrieval) design doc** is the technical instantiation of Prong 3 — authored by Piyush Maheshwari + Jiaxing Qu, last updated 2026-04-05. See `ubr_design.md` for the full technical reference.
+
+**Prong 4: Notif & Improving Finetuning process** — Active iteration, operational handoff being scoped.
+- **Hongtao Lin will keep driving Notif FT.** **Zhenyu Tan** and Hongtao both confirmed to James that this is **Hongtao's major Q2 project**. Clear ownership signal.
+- **Rui** on the Notif ML team is also stepping up on finetuning work (parallel to Hongtao's ATG-side driving). Notif team members getting hands-on is the healthy-handoff signal.
+- **A couple of iterations happening**, including the **AB for the FT Surface Tower**. (Note: earlier James mentioned v2 starting and needing to check in with Piyush on v1 — verify state before messaging Dylan with confidence.)
+- **James plans to reach out to Dimitra** to connect on how things are going from her side and **to start discussing operational handoff**. Goal: **clean handoff milestone in April / May** where the Notif team is clearly driving everything on FT.
+
+**Prong 5: Finetuning models for HF and BMI** — Not started (deferred to junior development opportunity).
+- **Not started due to bandwidth.**
+- **Planned framing:** Give to a **junior team member as an end-to-end development opportunity.** This is EM-as-architect in one line — treating the unfunded workstream as a development opportunity, not a gap. Strong Director-altitude framing.
+
+**UPP Ranking momentum is also riding high.** (Adjacent workstream beyond the 5 prongs, healthy signal.)
+
+### Anticipation integration (captured partial — next section cut off in source screenshot)
+
+James's Dylan-facing update includes a section on **Anticipation** that was cut off in the screenshot Leo received. The intersection of UPP and Anticipation is interesting — via Retentive Recs, the Anticipation Vision is built on top of the UPP base model architecture. When the full Anticipation section is shared, capture it here and cross-reference with `retentive_recs.md` and the Anticipation Vision authorship context.
+
+### Suggested addition for Dylan update
+
+**One thing missing from James's Dylan-facing update:** No mention of **Sai's proactive engineer commitment** in Prong 3. Dylan likes Sai and would appreciate knowing she's leaning in. Consider a one-liner addition before sending:
+> "Sai proactively added engineers to the weekly sync — cross-team collaboration is tightening."
+
+Zero-cost credit share, reinforces the Sai-Dylan-James triangle. Full context in `stakeholders.md §27` (Sai entry).
+
+### James's operating stance (April 2026)
+
+**Hands-off on execution. Lightweight visibility only.**
+
+- **Monday review** of team updates is the minimum viable touch point. (It's clearly working — James rattled off every prong's status from memory.)
+- **Do not upgrade the touch point** unless a tripwire fires. Upgrading touch points has a hidden cost: it cues the team that James is re-entering the operator seat, and they start deferring decisions back to him.
+- **Do not re-engage "just because I have time."** If UPP needs James, UPP will signal it. The best thing he can do for UPP right now is protect its autonomy.
+
+### Two near-term actions (next 1-2 weeks)
+
+1. **Slack Sai directly.** She's proactively committing engineers and asked James to add them to the weekly coordination meetings. A 3-line Slack DM costs nothing and reinforces the partnership. Suggested template:
+   > "Hey Sai — thanks for staffing more folks on the cross-surface effort. Added them to the weekly sync. Really appreciate how this is coming together. Let me know if you want a quick 15-min sync sometime to share where I see this heading."
+   This is the *Observation-as-Contribution* pattern (Coaching Patterns / Dhruvil pattern): showing up as a strategic partner, not a project manager.
+
+2. **Check in with Piyush on Surface Tower v1.** Specifically: what happened with v1? What's the thesis for v2? What does success look like that would unblock the Notif handoff? James needs this information before he can give Dylan a clean "handoff imminent" signal.
+
+### Five tripwires (any one fires → re-engage)
+
+1. **Two-week stall on any active prong.** Cross-surface training, Base/HF CLR scaling, or P2P architectural work going silent for 2 weeks without progress. Silence on an active workstream is the earliest signal of a hidden blocker.
+2. **Dylan asks about UPP status in a 1:1 and James can't answer.** Visibility degradation. Current state is strong (James knows every prong cold); Monday review is the hedge.
+3. **Surface Tower v2 fails or stalls.** The Notif handoff is conditional on v2 success. If v2 doesn't land, handoff freezes and James needs to engage on triage — possibly architectural.
+4. **Prong 5 (HF/BMI fine-tuning) pushes past end of Q2 without anyone claiming it.** "Fine to do later in Q2" has an expiration date. If Q2 ends and no one has picked it up, it either needs to be descoped or re-staffed.
+5. **A launched experiment (CLR GPU Serving, Foundation Model, router simplification) shows neutral/negative results after initial rollout.** Early data is positive across the board. If any flip, Devin or the team may need architectural input from James to triage.
+
+### Cross-reference: UPP's silent relationship with blog post #1
+
+Blog post #1 is about pretrain-finetune in recsys. UPP's entire foundation is the pretrain-finetune paradigm. **UPP is shipping — in production, across launches, with CTO-visible momentum via the broader platform story.** James cannot cite UPP by name in the blog post (internal work-in-progress constraint), but the fact that the paradigm is *actively working in production at the company he is writing from* should shape the authorial voice. This is not a speculative post about a theoretical approach; it is a synthesis of an approach the author is watching work at scale, anchored on CLR (which is public). A more confident voice than "this might work someday."
+
+### Open: full technical UPP context update deferred
+
+James has explicitly deferred a full technical-side UPP context update to a later session. The operational status above does NOT include updates to:
+- The three-tier UPP hierarchy diagrams
+- Foundation Model architecture specifics
+- CLR technical details
+- Co-design artifact reviews
+- Technical trade-offs from post-must-win iteration
+
+When the technical update lands, rewrite or supplement the historical must-win log below with the April 2026 technical reality.
 
 ---
 
@@ -502,7 +597,7 @@ Retrieval is the only part of UPP with shipped online wins AND active cross-org 
 | Kurchi | Search Sr. Dir | Key skeptic but reasonable. Wants data. Concerned about semantic relevance. |
 | Huizhong | P2P Director | Making things difficult. Shut down pre-wiring attempts. |
 | Jinfeng | P2P ML Lead | Pushed for P2P LR as base. Misrepresented alignment. Now co-designing UPP CLR. |
-| Sai | P2P IC | Silent throughout. Following Jinfeng's lead. |
+| Sai | **Peer Sr EM, P2P Retrieval (she/her)** — **corrected 2026-04-11** | Originally logged as "P2P IC, silent, following Jinfeng's lead" — this was incorrect. Sai is a peer Sr EM who likes working with Dylan and James. As of April 2026 she is proactively committing engineers to the cross-surface effort and has asked James to add them to the weekly coordination meetings. Has complained privately that Huizhong is too controlling and too conservative about ML investment. See `stakeholders.md` for full profile. |
 
 ### ATG (External Support)
 

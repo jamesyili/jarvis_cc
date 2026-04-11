@@ -61,17 +61,16 @@ Skills are slash commands (`/skill-name`) with their own `SKILL.md` instruction 
 **Knowledge base (7 skills):**
 - `/kb-status`, `/kb-ingest`, `/kb-scout`, `/kb-lint`, `/kb-compile`, `/kb-merge`, `/kb-reflect`
 
-### Agents (5)
+### Agents (4)
 
 Custom subagents in `.claude/agents/` that run as isolated subprocesses:
 
 | Agent | Purpose |
 |-------|---------|
-| **Consult** | Queries NotebookLM notebooks, returns synthesized insights. Spawns on keyword triggers (managing up → Wes Kao, venting → Coaching Patterns, decisions → Decisive, system design → ML notebook). |
+| **Consult-Notebook** | Queries NotebookLM notebooks in isolation — keeps verbose NLM results out of main context. Spawns on keyword triggers (managing up → Wes Kao, venting → Coaching Patterns, decisions → Decisive, system design → ML notebook). Appends raw response to `notebooklm/query_log.md` as audit trail. **Rewritten 2026-04-11** to fix persistent context-synthesis bug. |
 | **Karen** | Adversarial strategic advisor. Fires every ~20% context window. Challenges blind spots, names patterns James is avoiding, proposes alternatives. Maintains her own observation file. |
 | **Code Planner** | Implementation architect. Grills on design decisions, then produces structured spec with task IDs and acceptance criteria. |
 | **Search** | Searches across KB articles and context files with context isolation. |
-| **Consult-Notebook** | Isolated NotebookLM query agent — keeps verbose NLM results out of main context. |
 
 ### Hooks (4)
 

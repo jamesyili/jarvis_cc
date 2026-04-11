@@ -185,15 +185,14 @@ Leo has 15+ skills invoked via `/skill-name`. Each skill is self-documenting (se
 
 ## Agents
 
-Five custom agents in `.claude/agents/`. Leo manages dispatch — agents don't self-invoke.
+Four custom agents in `.claude/agents/`. Leo manages dispatch — agents don't self-invoke.
 
 | Agent | Model | Mode | Trigger | Purpose |
 |-------|-------|------|---------|---------|
-| **Consult** | Sonnet | Background | Keyword triggers (see below) or ~50% context window | Query NotebookLM notebooks, return synthesized insights |
+| **Consult-Notebook** | Sonnet | Background | Keyword triggers (see below) or proactive consultation | Queries NotebookLM notebooks in isolation — keeps verbose NLM results out of main context. Appends raw response to `notebooklm/query_log.md` as audit trail. |
 | **Karen** | Opus 4.6 | Background | Every ~20% context window (~5x/session) | Adversarial advisor — blind spots, alternatives, accountability |
 | **Code Planner** | Opus 4.6 | Foreground | Explicit: "plan this", new build scoped | Interrogation → structured implementation spec |
 | **Search** | — | Foreground | KB search queries needing context isolation | Search across KB articles and context files |
-| **Consult-Notebook** | Sonnet | Background | Proactive notebook consultation | Isolated NLM query — keeps verbose results out of main context |
 
 ### Agent Dispatch Principles
 

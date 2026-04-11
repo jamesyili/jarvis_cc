@@ -66,25 +66,50 @@ Every file has an explicit role tag. At runtime, the agent reads only the files 
 
 7. **Human reference files don't consume agent context** — principles.md (~400 lines, full examples) is for human investigators. Subagents use compact inline excerpts instead.
 
-## Current Status (March 2026)
+## Current Status (April 2026)
 
-### Ownership Transition
-- **JJ is taking over as primary owner.** Picking it up fast and running with it.
-- **James provides judgment layer** — reviews output quality for metric debugging accuracy (1-2 hrs/week). JJ lacks deep metric debugging experience; James's intuition is the quality gate.
-- This builds JJ's debugging judgment, supporting his IC16 promo case.
+Last updated: 2026-04-11
 
-### Quality Control
-- Significant progress over past 2-3 weeks, but **quality issues in output** discovered — inaccurate or misleading metric investigation results could alarm leadership (Rajat, Jeff).
-- **Decision:** Hold off on Jeff demo until quality issues resolved. Bad news from an AI tool is worse than no demo.
-- **Next step:** Fix quality issues, then demo to Jeff at next bi-weekly standup. PINvestigator demos before Pinsight.
+### This week's milestones (week of 2026-04-07)
 
-### Reflex Connection
-PINvestigator is the **"Detect" layer** of Andrew Yaroshevsky's Reflex vision (self-healing discovery stack). It surfaces metric anomalies; Pinsight (separate project) handles diagnosis. Together they form the sensing foundation for Reflex.
+- **Eval harness landed.** 8 golden set examples generated (3 slow drift incidents + 5 cliff incidents). Evaluation harness built and code merged. Quality gate now exists — can A/B prompt/architecture changes against a fixed reference set instead of vibes.
+- **Demoed to Jeff and his directs.** ~10-minute slot. Body language was strong — clear "moment of recognition" in the room. Jeff did not commit verbally to anything concrete (see Jeff demo dynamic below).
+- **Dhruvil onboarded as a user.** Asked to play with the tool, James shared. Practitioner ally signal — Dhruvil is a peer Sr EM (Homefeed Ranking) and his hands-on engagement is a high-credibility internal endorsement.
 
-### Demo Strategy
-- Demo to Jeff at bi-weekly standup (after quality fix)
-- Demo at Brian Lee's weekly AI forum for broader visibility
-- Each demo builds toward the Reflex narrative
+### Jeff demo dynamic (and the Manu lane)
+
+During the demo, **Manu (Sr Director, Data Science)** publicly interjected: "Your team should follow my team — we're building something similar." Jeff went silent — no commitment, no follow-up. Read of Jeff's silence (stress-tested against Wes Kao + Coaching Patterns notebooks):
+
+- **Most likely cause:** time + Manu interjection. 10 minutes is below the threshold for an exec to switch context, absorb a tool, navigate a turf interjection, and commit publicly. Not a value miss.
+- **Comparison trap to avoid:** Reading Jeff's silence as "demo lost steam" relative to Akaasha's earlier ralph-loop demo (which got more Jeff/Phil questions) is the *Status Sensor* firing. Akaasha's was research/exploration → invites curiosity. PINvestigator is a production tool → invites adoption decisions, not out-loud commitments. Different stage, not lower value.
+- **Delivery lesson:** Did not preempt the **MOO (Most Obvious Objection)** — Manu's overlap. Wes Kao framework: when an adjacent team's work is in the room, address it head-on in the opening so you control the frame.
+- **Load-bearing fact often under-weighted:** Dylan strongly supports PINvestigator. She brokers upward to Jeff. Asking Jeff for sign-off post-silence reads needy; asking Dylan for partnership reads strategic.
+
+### Five committed next steps (2026-04-11)
+
+1. **Send Dylan a written follow-up using OAV (Wes Kao framework).** Originally drafted for Jeff; swapped to Dylan to get her blessing and let her broker upward.
+   - **Observe:** "Following up on yesterday's PINvestigator demo. Jeff's directs were engaged; Manu flagged that his team is exploring adjacent work."
+   - **Assert:** "Proposing a 2-week pilot on the next 3 recsys incidents to capture hard metrics on time-to-resolution and engineering hours saved. In parallel, I'll sync with Kareem (Manu's team) offline to deconflict and find consolidation opportunities. JJ is going to drive the eval harness expansion; I'll own the stakeholder layer and adoption metrics."
+   - **Validate:** "Want your blessing to proceed — and if the metrics land where I expect, your help framing this with Jeff for broader rollout. Sound right?"
+
+2. **Drive adoption metrics — that's the only signal that matters now.** Success = runs + hours saved. Operationalize: lightweight telemetry on every PINvestigator invocation (timestamp, user, incident type, outcome). **Target: 20+ runs across 3+ teams in 2 weeks.** Weekly summary line for Dylan's 1:1 and Jeff's follow-up thread.
+
+3. **Convert Manu's overlap into a Kareem partnership — not a competition.** Already in motion (James engaging Kareem). Accelerate it. Offer PINvestigator to Kareem's team as a co-pilot. The moment Manu's org is *using* the tool, the overlap dissolves and Jeff has nothing to referee. Related: Dylan shared a front-end DS tool from Manu's team for "integration possibilities." James's gut: not a front-end fit (PINvestigator is a Claude Code skill). Reframe back to Dylan as: "Not a front-end fit, but I see an analytics-agent integration path. I'll scope it with Kareem and JJ."
+
+4. **Delegate features to JJ aggressively.** JJ contributing to PINvestigator while on PTO is the strongest possible signal he wants this. Hand him: eval harness expansion, new surface integrations, better harnessing strategies. **James keeps:** adoption + stakeholder layer (Manu, Kareem, Dhruvil, Dylan, Jeff follow-up). **Why partition:** JJ gets a clean promo artifact for end-of-June with James as visible sponsor; James gets velocity without building himself into a corner. If the work merges, JJ's promo case gets muddy.
+
+5. **Stop benchmarking PINvestigator's reception against Akaasha's demo.** That comparison is the Roberto-line tournament re-asserting itself. Not a fair comp for James's Pinsight/PINvestigator track — Akaasha sits in the Kurchi-line dynamic, which is partly proxy for Dylan-vs-Kurchi director-level positioning. *Impact Over Approval audit:* James's scoreboard is **adoption volume**, not exec question count.
+
+### Reflex Connection (updated 2026-04-11)
+
+PINvestigator is the **"Detect" layer** of Andrew Yaroshevsky's Reflex vision (self-healing discovery stack). It surfaces metric anomalies; Pinsight (separate project) handles diagnosis.
+
+Reflex has escalated significantly this week — Andrew built a working prototype and has committed to landing the code in git **before Tuesday 2026-04-14** for explicit co-development with James. PINvestigator's adoption story is now load-bearing for the broader Reflex narrative: every PINvestigator run is also a hypothesis source Reflex can consume. See `pinsight/pinsight.md` for the full Reflex × Anticipation Vision context.
+
+### Ownership going forward
+
+- **JJ:** primary code/feature owner. Eval harness expansion, new surfaces, harnessing strategies. Promo artifact for end-of-June.
+- **James:** adoption + stakeholder layer. Manu, Kareem, Dhruvil, Dylan follow-up, Jeff follow-up via Dylan, telemetry/metrics narrative. Director-track signal: incubating a tool, sponsoring a contributor, and converting it into org-wide adoption.
 
 ---
 

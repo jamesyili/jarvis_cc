@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-04-09
+Last updated: 2026-04-11
 
 ---
 
@@ -19,7 +19,7 @@ Last updated: 2026-04-09
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks | 2026-04-09 |
+| `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks | 2026-04-11 |
 | `direct_manager.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis | 2026-04-03 |
 | `dylan_1on1_log.md` | Rolling 1:1 log + prep for upcoming meetings | 2026-04-03 |
 | `team_members.md` | Direct report profiles (if exists — may overlap with stakeholders §8) | Unknown |
@@ -28,12 +28,14 @@ Last updated: 2026-04-09
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `pinsight/pinsight.md` | Pinsight: milestones M1-M3, Reflex connection, partnerships, staffing | 2026-04-09 |
-| `pinvestigator.md` | PINvestigator: project context and status | Unknown |
-| `upp_must_win_march2026.md` | UPP Must-Win: strategic prep, stakeholder analysis, talking points | 2026-03 |
-| `retentive_recs.md` | Retentive Recommendations: product vision, signals, shipping plan | Unknown |
-| `clr_technical.md` | CLR (Conditional Learned Retrieval): technical architecture notes | Unknown |
-| `p2p_lr_technical.md` | P2P Learned Retrieval: technical reference for co-design | Unknown |
+| `pinsight/pinsight.md` | Pinsight: M0 in production, M1 active, Reflex × Anticipation Vision convergence, 4-way nexus, wave-ride tripwires | 2026-04-11 |
+| `pinvestigator/pinvestigator.md` | PINvestigator: eval harness landed, Jeff demo + Manu dynamic, 5 next steps, JJ delegation plan | 2026-04-11 |
+| `retentive_recs/retentive_recs.md` | Retentive Recommendations: program status (UCAN WAU stable), three prediction tracks, KDD 2026 paper plan, Engineering Blog editor role, co-author roster, Anticipation Vision. **Moved into `retentive_recs/` subdirectory 2026-04-11.** | 2026-04-11 |
+| `upp/upp_march_2026.md` | UPP: March 2026 must-win historical log + April 2026 status update (5-prong hands-off operating mode, Sai correction, Dylan-update corrections with Dafang He / Zihao Chen / Dimitra / Zhenyu Tan / Rui, tripwires). Renamed from `upp_must_win_march2026.md` and moved to `upp/` subdirectory on 2026-04-11. | 2026-04-11 |
+| `upp/ubr_design.md` | **NEW 2026-04-11.** Unified Cross Surface Retrieval (UBR) technical design reference. Piyush Maheshwari + Jiaxing Qu, last updated 2026-04-05. Two-tower architecture, per-surface Condition/Surface Towers, shared User Tower, three Model Adoption approaches, Alternative Design Choices with unified transformer backbone ablation, AppConfigs proposal. Captured from screenshots. | 2026-04-11 |
+| `upp/clr_technical.md` | CLR (Conditional Learned Retrieval): technical architecture notes. Moved into `upp/` subdirectory 2026-04-11. | Unknown |
+| `upp/clr_codebase_notes.md` | CLR/P2P learning notes from codebase exploration. Moved into `upp/` subdirectory 2026-04-11. | Unknown |
+| `upp/p2p_lr_technical.md` | P2P Learned Retrieval: technical reference for co-design. Moved into `upp/` subdirectory 2026-04-11. | Unknown |
 | `l1_utility.md` | L1 Utility layer: technical context | Unknown |
 | `learned_dynamic_triggering_elt.md` | Dynamic Triggering / PhP: ELT presentation context | Unknown |
 | `pinvestigator-skill/` | PINvestigator skill: architecture, MCP setup, prompts, references | Ongoing |

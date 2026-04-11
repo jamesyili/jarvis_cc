@@ -780,11 +780,12 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 - **Contingency:** Build YiPing (ATG) direct relationship before April 6 PTO. Test RecGPT continuity during 3-week absence.
 - **If leaves:** RecGPT shifts to ATG-led. Manageable if YiPing pairing established.
 
-## Yuke (IC15, Retentive Recs TL)
+## Yuke (IC15, Retentive Recs TL — updated 2026-04-11)
 - **Status:** Flight risk. Bowen reported Yuke asking interview questions about market pay. Unhappy about promo deferral.
 - **Retention anchor:** Green card process is primary.
 - **Promo:** Not ready by mid-year. Needs p(UIC) successfully built and landed. End of year is right window. Frame as strategy, not deferral.
 - **Key dynamic:** Doesn't get along with Devin. James designing Chuxi bridge arrangement to hedge against Yuke's departure.
+- **NEW (2026-04-11): KDD 2026 paper Prediction co-author.** Yuke is busy landing impact, but James will delegate Architecture/Prediction subsections of the KDD paper to him to support his career. Frame: this is a published-paper credit on his record before the end-of-year promo conversation. Career-aligned investment.
 
 ## Devin (CLR TL)
 - **Status:** Wants strong collaborators. Ryan (April) and Yichi (July) incoming.
@@ -796,10 +797,16 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 - **Risk:** Failure + Bowen departure + AI market = potent combination for JJ to look. Start packet April. Address ML depth gap.
 - **Essentially solo on Real-Time.** No coverage if he leaves post-promo.
 
-## Chuxi (Retentive Recs)
+## Chuxi (Retentive Recs + Pinsight, updated 2026-04-11)
 - **Status:** Primary IC for Retentive Recs. Promo vehicle is p(UIC) under Yuke.
 - **Strategic role:** Bridge between Yuke (retentive recs) and Devin (CLR). Insurance against Yuke departure.
+- **NEW: 20% Pinsight commit going forward (2026-04-11).** Excited specifically about the agentic recsys vision at the end of the Pinsight roadmap. Critical Alok-PTO bridge — covers 2 weeks. James now has a code reviewer + collaborator on Pinsight beyond Alok.
 - **Development:** Make sure she's in architectural decision rooms, not just execution.
+
+## Daniel Liu (contractor on James's team — added 2026-04-11)
+- **Role:** Strong contractor on James's team. Now Pinsight logging owner.
+- **Current state:** Shipped Pinsight logging this week. Field-name-too-long hiccup → fix shipping Monday 2026-04-13. Will execute Alok's verification plan during Alok's PTO.
+- **Why he matters:** Reliable execution layer on Pinsight infrastructure. Frees James to focus on Reflex co-dev + adoption layer.
 
 ## Alok
 - **Risk:** If PhP deprioritized after CTO presentation. Keep 20% bandwidth, have alternative scope ready.
@@ -809,26 +816,33 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 
 # 9) Andrew Yaroshevsky — Sr. Director of Product
 
+**Updated 2026-04-11: Major escalation this week.** Reflex co-development formalized; Anticipation Vision context now CTO-amplified; Andrew committed to landing Reflex code in git before Tuesday 2026-04-14 for explicit co-development with James.
+
 ## Role in my 6–12 month goals
-- **Reflex sponsor.** Andrew wrote the Reflex two-pager (self-healing discovery stack) and is pitching it to the CTO and Kartik (Chief Architect). He invited James to co-own the engineering side — specifically the Detect + Diagnose layers.
-- **Strategic amplifier for AI investments.** With Andrew championing the product vision and James building the sensing layer, the AI work is no longer a side project — it's a platform play with Sr. Director product sponsorship.
-- **Anna's manager.** James already has strong trust with Anna (Inner Circle level). Andrew is the next level up in the product chain.
+- **Anticipation Vision co-author.** Andrew + Dylan + Mira (Sr Director, Design) co-authored the Anticipation Vision — Pinterest's vision for ALL of 2026 personalization. One-sentence frame: "Pinterest should not just show you things you want, but anticipate what you might want next and show that to you instead." James + Anna's Retentive Recommendations is the named technical key under this vision.
+- **CTO pitch landed.** Andrew pitched the Anticipation Vision to **Matt Madrigal (CTO)**. Matt has subsequently talked about it **openly at a conference**, naming it as one of the things he is most excited about for personalization and ML/AI at Pinterest. CTO-level external surface area on the public record.
+- **Reflex co-developer.** Andrew built a working Reflex prototype (autonomous diagnostic agent generating Trello cards for investigation hypotheses). Two cards already in production (CG signal decay + non-English search relevance with VLM annotation). Dylan validated to Andrew externally: "it's great to see it's catching issues, and real ones, very promising." **Andrew committed Tuesday code drop + explicit co-development with James.**
+- **Strategic amplifier for AI investments.** With Andrew championing the product vision and James building the sensing layer + Reflex co-dev, the AI work is no longer a side project — it's a platform play with Sr. Director product sponsorship + CTO-level visibility.
+- **Anna's manager.** James already has Inner Circle trust with Anna. The 4-way nexus (Andrew + Dylan + Anna + James) is structurally over-determined for trust — no weak link.
 
 ## Current relationship
-- **Status:** Early but promising. Andrew approached James directly about Reflex. Invited James to add his name to the doc.
-- **Trust level:** Medium (new, based on shared excitement about AI + James's demonstrated prototypes)
-- **What Andrew wants:** Engineering leaders who will pick up the Reflex vision and make it real. He's shopping this around to see who leans in.
+- **Status:** **High and accelerating.** Co-development formalized in 3-way Slack DM with Dylan this week. Andrew is actively pulling James in deeper (Tuesday code drop + RLHF expert-feedback role).
+- **Trust level:** **High** (co-development + Dylan brokering + Anna bridging + Andrew pitched James's engineering work into the CTO pitch).
+- **What Andrew wants:** James's expert codepath knowledge (HF CG codepaths, engagement rate tables) to feed Reflex's hypothesis generation. Andrew is biased toward weighting engagement data over relevance signals going forward. Wants RLHF expert feedback in the loop.
 
 ## What Andrew optimizes for
 - **Vision + momentum.** He wrote a two-pager, not a PRD. He wants believers and builders, not process owners.
 - **Product narrative.** Reflex is framed as "the industrial revolution for recommendations" — Andrew thinks in big product narratives.
 - **Cross-team leverage.** Reflex touches all surfaces (HF, Search, P2P, Growth). Andrew wants this to be an org-wide shift, not a team project.
+- **Engagement data over relevance signals.** Currently nudging Reflex toward engagement data weighting and away from pure relevance scoring.
 
 ## Operating plan
-- **Add name to Reflex doc now.** He invited it; don't wait.
-- **Let Andrew own the CTO pitch.** James owns the engineering proof points (PINvestigator, Pinsight).
-- **Align after CTO pitch.** Once Andrew has CTO/Kartik feedback, converge on what the Detect + Diagnose roadmap looks like.
+- **Be ready for Tuesday 2026-04-14 code drop.** Andrew lands Reflex code in git; James plugs in for co-development.
+- **Default is let-the-work-speak.** Do NOT bring transactional credit/role conversations into this relationship. The trust topology with Dylan + Andrew + Anna does not need credit framing — the architecture is the credit. (See `feedback_credit_in_trust_relationships.md` memory.)
+- **High-leverage seat to occupy:** expert-in-the-loop providing codepath knowledge + RLHF feedback. Compounding position. Requires *consistent* presence, not one-shot inputs.
+- **Let Andrew own the CTO pitch.** Already done. James owns the engineering proof points (PINvestigator, Pinsight) + Reflex co-dev.
 - **Don't over-coordinate.** Andrew is a vision seller. James is a builder. Keep the interface lightweight.
+- **Watch:** Mira (Sr Director, Design) is the third Anticipation Vision co-author; James's direct line to her is unclear. Worth a direct touchpoint at some point — mediated-through-Dylan-and-Andrew is the current default.
 
 ---
 
@@ -1088,3 +1102,220 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 ## Operating plan
 - **No formal outreach.** The ask was justified (Yu Ke escalated). Just be noticeably warmer in future interactions.
 - **Don't over-correct.** A formal apology or sync would feel performative and draw more attention to the incident.
+
+---
+
+# 22) Manu — Senior Director, Data Science (added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **New stakeholder, surfaced via PINvestigator demo to Jeff (week of 2026-04-07).** Manu publicly interjected during James's demo: "Your team should follow my team — we're building something similar." Read as: legitimate adjacent work + competitive territorial signal in the room.
+- **PINvestigator overlap risk.** His team is building something adjacent to PINvestigator. This is the load-bearing reason Jeff stayed silent at James's demo (didn't want to publicly referee a turf overlap in a 10-minute slot).
+- **Dylan opened a door.** After the demo, Dylan shared a front-end DS tool from Manu's team to see if there are integration possibilities.
+
+## Current relationship
+- **Status:** New, low information, mildly competitive.
+- **Trust level:** Unknown. Has not had a 1:1.
+
+## Operating plan
+- **Route through Kareem** (Manu's report) — turn the overlap into a partnership, not a competition. James already engaging Kareem.
+- **Reframe Dylan's front-end integration ask:** "Not a front-end fit (PINvestigator is a Claude Code skill), but I see an analytics-agent integration path. I'll scope it with Kareem and JJ." Preserves the Dylan signal AND routes through the actual technical fit.
+- **Strategic goal:** Get Manu's team *using* PINvestigator. The moment Manu's org is a PINvestigator user, the overlap dissolves and Jeff has nothing to referee.
+- **Do not chase a direct relationship with Manu yet.** Build through Kareem first, then surface upward when there's a partnership story to tell.
+
+---
+
+# 23) Kareem — Manager, Data Science (under Manu, added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **PINvestigator partnership lead.** Already in motion as the manager James is engaging from Manu's org. Critical unlock for Manu-org goodwill and the path to converting Manu's "we're building something similar" into a co-pilot relationship.
+- **Defuses the Jeff demo political dynamic.** If Kareem's team is using PINvestigator, the territorial signal Manu sent in the demo evaporates.
+
+## Current relationship
+- **Status:** Active outreach in progress (James engaging Kareem).
+- **Trust level:** Building.
+
+## Operating plan
+- **Accelerate the partnership.** Offer PINvestigator to Kareem's team as a co-pilot. Make adoption easy.
+- **Position as practitioner-to-practitioner.** Don't lead with credit framing or scope battles. Lead with "let's both ship something better together."
+- **Update stakeholders.md once Kareem is committed** — promote from "in motion" to "active partnership."
+
+---
+
+# 24) Armando Ordorica — KDD Paper Operational Engine (added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **KDD 2026 paper load-bearing co-author.** Owns Representation, Prediction, Federation, and Evaluation subsections of the Architecture chapter — i.e., most of the technical heavy-lift sections. Setting up the new repo + Cursor environment for the team.
+- **The operational engine of the paper.** James is the architect (Prior Work + Architecture chapter lead + Future Work, all sole-author), but Armando is the one actually shipping the technical content for most subsections.
+- **Critical bridge between James + Anna's vision and the experimental engineering work.** His framing notes (OmniSage piggyback, "predict not at point-wise change," composite rewards / user-level Explore/Exploit / global SID, PinnerSage offline results as insurance) are the spine of the paper's defense strategy.
+
+## Current relationship
+- **Status:** Active KDD collaboration. Trust unknown (new stakeholder for Leo's map; in active partnership for the paper).
+- **Trust level:** Building.
+
+## Operating plan
+- **Treat as a load-bearing peer.** He owns more KDD paper sections than James does. Don't micromanage the technical subsections; trust his framing.
+- **Coordinate on the OmniSage piggyback defense.** James (Architecture author) needs the one-paragraph "what's reused, what's novel, why the new construction is non-trivial" defense ready before draft v1. Don't let Armando be the only one who can answer the novelty question under reviewer pressure.
+- **Watch the experiment-results dependency.** Armando flagged "feedback loop has good offline eval design, needs experiment results." If experiments slip past July 31, paper slips. PinnerSage offline results are the insurance.
+- **Default is let the work speak.** Don't push credit framing. (See `feedback_credit_in_trust_relationships.md`.)
+
+---
+
+# 25) Olafur Gudmundsson — KDD Paper Federation Co-Author + Active UBR Reviewer (added 2026-04-11, upgraded same day)
+
+## Role in my 6–12 month goals
+- **KDD 2026 paper Federation subsection co-author** (with Armando).
+- **Active reviewer on the UBR (Unified Cross Surface Retrieval) design doc** — his comment on 2026-04-03 ("can we outline or reference how this will be for different use cases where applicable?") is the classic senior-engineer "make the abstraction concrete" ask.
+- **Coupled role:** Olafur's engagement spans both the KDD paper (Retentive Recs Federation section) AND the UPP platform design (UBR architecture review). He is not a peripheral co-author — he is engaged on the actual platform Retentive Recs runs on.
+
+## Current relationship
+- **Status:** **Active cross-project collaborator** (upgraded 2026-04-11 same day). Engaged on UBR design review + KDD Federation subsection.
+- **Trust level:** Unknown, but engagement level is meaningful. Cross-artifact presence suggests broader investment.
+
+## Operating plan
+- **Take his UBR review comment seriously.** "Outline how this will be for different use cases" is a real ask for concreteness — worth addressing in the design doc revision. Route feedback via Piyush/Jiaxing, not directly (they own the doc).
+- **Federation subsection coordination on KDD paper stays via Armando.**
+- **Probe relationship directly if Olafur surfaces again on a third artifact.** One cross-project engagement is notable; two is a pattern worth investing in.
+
+---
+
+# 26) Jiacong He — Departing (Blending Team, added 2026-04-11)
+
+## Status
+- **Leaving Pinterest.** On the **blending team** — minimal impact on James's team retention.
+- **Wrote the Pinterest Engineering Blog draft for Retentive Recs.** James inheriting the editor role 2026-04-11.
+- **KDD paper Representation subsection co-author** (with Armando). His departure means Representation likely absorbs into Armando.
+
+## Why he matters going forward
+- **Inherit his Engineering Blog draft cleanly before his offboarding.** Critical handoff — losing the draft = losing the artifact.
+- **Confirm KDD paper Representation absorption with Armando.** Avoid orphan subsection.
+
+---
+
+# 27) Sai — Peer Sr EM, P2P Retrieval (she/her, added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **Peer Sr EM on the P2P Retrieval side.** Jiaqing (the P2P Retrieval engineer working closely with Piyush + Zihao on UPP cross-surface training) is one of Sai's reports.
+- **Active cross-team partnership on UPP Prong 3 (P2P architectural discussions) + Prong 1 (cross-surface training).** Sai is proactively committing more engineers to the cross-surface effort (new signal 2026-04-11) and has asked James to add them to the weekly coordination meetings.
+- **Correction:** Earlier UPP must-win log (March 2026) mistakenly logged Sai as "P2P IC, silent throughout, following Jinfeng's lead." **This was wrong.** Sai is a peer Sr EM, not an IC, and is a positive partner — not a Jinfeng proxy. Corrected in `projects/upp_march_2026.md` appendix 2026-04-11.
+
+## Current relationship
+- **Status:** **Positive and accelerating.** Likes Dylan. Likes collaborating with James. Proactively committing resources to UPP cross-surface work without needing to be asked.
+- **Trust level:** High (for a cross-org peer). Operating in good faith; actively engaged.
+- **What Sai wants:** Strong cross-team collaboration that moves UPP forward. Wants James and Dylan in the loop on her org's work.
+
+## Intel (added 2026-04-11)
+- **Has complained privately that Huizhong (P2P Director, Sai's manager) is too controlling and too conservative when it comes to investing in ML.** This is meaningful intel: Sai and Huizhong may have a friction point that James should be aware of when coordinating with both. Sai's frustration is not with UPP — it's with her own chain's ML investment stance. UPP is potentially a path that routes around Huizhong's conservatism via direct engagement with Dylan + James.
+- Do NOT surface this intel to Huizhong, Jinfeng, or anyone outside the trust perimeter (Dylan, possibly Rajat if strategically relevant).
+- **Karen-style note:** If Sai is frustrated with Huizhong's ML conservatism AND is actively committing to UPP, she may see UPP as the vehicle for the ML work Huizhong won't fund internally. That aligns incentives powerfully — Sai's self-interest and James's UPP success are coupled.
+
+## Operating plan
+- **Action this week: Slack DM Sai to acknowledge her proactive engineer commitment.** Don't wait. Short, warm, strategic:
+  > "Hey Sai — thanks for staffing more folks on the cross-surface effort. Added them to the weekly sync. Really appreciate how this is coming together. Let me know if you want a quick 15-min sync sometime to share where I see this heading."
+- **Continue including her in the weekly coordination meetings** as the default — she asked to be in the loop.
+- **Watch for an opportunity to mention her partnership positively to Dylan.** Dylan likes Sai; Sai likes Dylan. Credit-sharing upward is zero-cost and builds the Sai–Dylan–James triangle.
+- **Do NOT discuss Huizhong with Sai directly unless she brings it up.** Keep the intel as context, not content. If Sai vents about Huizhong, listen and validate; don't add fuel.
+- **Default is let the work speak.** Sai is operating in good faith; don't bring transactional framing into the relationship.
+
+---
+
+# 28) Dafang He — Search CLR Lead (added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **Leading the new Search-based CLR workstream** under UPP Prong 1. Scoping doc for Search CLR on HF is starting; Dafang is guiding **Devin**, **Sophia**, and a UU team member on this.
+- **Earliest stage of a new UPP prong expansion** — Search CLR extends UPP from HF/Notif/P2P into a 4th surface.
+- Already commenting on the UBR design doc (Apr 7 — "why device type..." nomenclature question).
+
+## Current relationship
+- **Status:** New stakeholder for Leo's map. Engagement via the Search CLR scoping effort and UBR design doc review.
+- **Trust level:** Unknown.
+
+## Operating plan
+- **Light touch for now.** The Search CLR workstream is at scoping-doc stage; don't insert into early design decisions. Let Dafang guide Devin/Sophia/UU-member without friction.
+- **Watch for hand-off opportunities.** If Search CLR matures to the point of needing cross-org alignment, James may need to broker introductions with SSJ/Kurchi's org.
+- **Cross-reference in `upp_march_2026.md` Prong 1 status.**
+
+---
+
+# 29) Zihao Chen — Cross-Surface Training Driver (added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **Driving UPP Prong 2 (Cross-surface training / CFM unlock for Retrieval)** with support from Piyush Maheshwari, Hongtao Lin, and Jaewon Yang.
+- **Cross-surface data loading PR has landed.** Initial model training has started and seems to be working. Zihao is the technical driver on the prong that is currently the most active new build.
+- Already active on UBR design doc technical discussions.
+
+## Current relationship
+- **Status:** IC engineer, active contributor. James has had operational visibility but not direct relationship building.
+- **Trust level:** Building — relationship is mediated through Piyush.
+
+## Operating plan
+- **Credit him by name when updating Dylan** (as James did in the Dylan update — "Zihao Chen driving this"). Named-in-updates is the lightweight version of manager recognition.
+- **Watch for promo/career signal.** If Zihao is the primary driver on a successful CFM unlock, that's promo material. James should be ready to advocate.
+- **Do not over-engage.** Zihao is Piyush's to manage at the technical level; James's altitude is stakeholder + narrative.
+
+---
+
+# 30) Dimitra — Notif-Side Partner for UPP Operational Handoff (added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **James's counterpart on the Notif side** for the UPP Prong 4 operational handoff. James plans to reach out to discuss how things are going from her side and to scope the clean handoff milestone in April/May.
+- Previously appeared in the March 2026 must-win outcome log: "UPP can evolve into the next generation of models" — Product org sees long-term thesis. That comment came from Dimitra.
+- She's seen UPP at the strategic level; now James is re-engaging her on the operational/handoff level.
+
+## Current relationship
+- **Status:** Historical strategic ally (March must-win). Current state: re-engaging for operational handoff.
+- **Trust level:** Low-to-medium — known to be supportive but not a frequent collaborator.
+
+## Operating plan
+- **Action (next 1-2 weeks): Outreach to Dimitra.** Specific ask: "Want to connect on how the Notif finetuning work is going from your side — Rui and Hongtao are making great progress and I'd like to scope a clean handoff milestone in April/May where your team is clearly driving everything on FT." Offers partnership, not transaction.
+- **Frame the handoff as her team's win**, not James's exit. Notif ML team taking ownership is a positive expansion of their scope, not James dumping work.
+- **Watch for her definition of "clean":** she may have different criteria for handoff (QA expectations, metric guarantees, operational readiness) than James assumes. Ask, don't assume.
+
+---
+
+# 31) Zhenyu Tan — Notif ML Manager (added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **Manager (likely) on the Notif ML side**, who — alongside Hongtao Lin — confirmed to James that Notif FT is Hongtao's **major Q2 project**. This is a clear ownership signal from a management peer.
+- **Potentially the Notif ML team's accountability owner for the UPP handoff.** Dimitra is the strategic counterpart; Zhenyu may be the operational one.
+
+## Current relationship
+- **Status:** New stakeholder. Engagement has been through Hongtao so far.
+- **Trust level:** Building — the Q2 confirmation is a positive signal.
+
+## Operating plan
+- **Confirm Zhenyu's role** (manager vs peer IC) in next session — Leo's reading is "manager" but unconfirmed.
+- **If Zhenyu is the manager:** he's the right person to broker the Notif handoff with, alongside Dimitra. Separate from the IC-level ownership conversation with Hongtao.
+- **Light touch for now.** Let Hongtao/James's existing channel handle coordination until the handoff gets closer.
+
+---
+
+# 32) Sophia — Search CLR Contributor (added 2026-04-11)
+
+## Role in my 6–12 month goals
+- **IC on the Search CLR workstream** under Dafang He's guidance. Part of the team scoping Search CLR on HF as an extension of UPP Prong 1.
+
+## Current relationship
+- **Status:** New stakeholder, early-stage workstream.
+- **Trust level:** Unknown.
+
+## Operating plan
+- **Light touch. Route through Dafang.** James does not need direct engagement with Sophia at this stage.
+- **Update this entry when the Search CLR workstream matures.**
+
+---
+
+# 33) Mira — Senior Director, Design (added 2026-04-11, renumbered from 28)
+
+## Role in my 6–12 month goals
+- **Anticipation Vision co-author.** Mira co-authored the Anticipation Vision (Pinterest's vision for ALL of 2026 personalization) with Andrew Yaroshevsky and Dylan Wang. James + Anna's Retentive Recommendations is the explicitly named technical key under this vision.
+- **Cross-functional Design × Engineering × Product play.** Mira is the third leg of the executive triangle on Anticipation. Her involvement is what makes this a *company-wide* vision and not just an Eng+Product play.
+- **Indirect, but load-bearing.** She is part of why the CTO is publicly amplifying the Anticipation Vision at conferences.
+
+## Current relationship
+- **Status:** **Unknown — direct relationship undefined.** Connection is currently mediated through Dylan/Andrew. James has not (as far as Leo knows) had a direct touchpoint with Mira on the Anticipation work.
+- **Trust level:** Unknown.
+
+## Operating plan
+- **Open question to resolve with James:** Does he have any direct relationship with Mira, or is the connection entirely mediated through Dylan/Andrew? Should there be a direct touchpoint at some point?
+- **Watch:** Mira is a high-leverage stakeholder James does not yet have a direct line to. Once Pinsight/Reflex have visible artifacts, a Mira touchpoint could be high-value (Design's stake in the personalization vision is meaningful). But do not force it — let the work create the moment.
+- **Do not surface to James as urgent.** This is on the radar, not on the action list.
