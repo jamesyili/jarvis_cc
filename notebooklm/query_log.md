@@ -4,92 +4,99 @@
 
 ---
 
-## 2026-04-09 — Coaching Patterns + Roberto/Kurchi competitive peer dynamic
+## 2026-04-12T00:11:00Z — Wes Kao Frameworks (spawned via consult-notebook agent)
 
-**Notebook:** Coaching Patterns
-**Context:** End-of-workday coaching session unpacking a multi-layered competitive peer dynamic with Roberto Konow (Sr. EM, Search, Kurchi line). Three incidents in one day: (1) "despite James's question" moment on Akaasha's ralph-loop demo, (2) Roberto's territorial interruption during James's Pinsight pitch in Brian Lee's recsys observability meeting, (3) Dylan's 5:33 PM DM brokering Andrew Reflex collaboration as a bypass lane. Discovered 9-day buildup: Roberto had ghosted a warm Mar 31 peer DM through Apr 9. Goal 0 practice around status-sensor regulation + executive presence under competitive peer dynamics.
+**Query 1 (session opener):**
+James is a Sr. EM at Pinterest framing Q1 learnings for a VP-level (skip-level) review. The VP optimizes for system velocity, clear ownership, and org entropy reduction. Apply Wes Kao's frameworks on executive communication and managing up to answer: (1) What altitude should Q1 learnings be pitched at for a VP audience — what separates a strategic insight from a tactical report? (2) What persuasive structure works best — BLUF, situation-complication-resolution, or something else — and what signals ownership vs. reporting?
 
-**Query:** Frameworks for (1) metabolizing competitive peer dynamics that are proxy for higher-level political jockeying, (2) nervous-system-lag diagnostic — when the feeling is bigger than the trigger suggests, (3) executive presence under live territorial peer interruption, (4) the "count the wins your nervous system is ignoring" practice, (5) when to work through higher altitude vs. direct peer outreach.
+**Response 1:**
+To pitch your Q1 learnings effectively to a VP who optimizes for system velocity and org entropy reduction, you must elevate your communication from a standard progress report to a strategic business case.
 
-**⚠️ BUG — SECOND CONFIRMED INSTANCE:** Consult-notebook subagent did NOT actually call `mcp__notebooklm__*` tools. Returned a synthesis of the conversation context dressed up as a notebook response. Verified by grepping the agent output file for any notebooklm MCP tool calls — zero matches. First instance was 2026-04-07 (Coaching Patterns + Wes Kao, both synthetic). Backlog item "Fix consult-notebook agent live querying" bumped P2 → P1. Need to investigate `.claude/agents/consult-notebook.md` for MCP wiring.
+1. ALTITUDE: Make Assertions, Not Just Insights — An insight is simply an observation, which is only a starting point. A tactical report lists insights. A strategic report transforms them into Assertions that answer "so what?", demonstrate a bias toward action, and show ownership of the solution. Avoid the "Pigeonholed Project Management" trap — do not describe learnings through the lens of coordination, process, or workflows. Frame the problem and why it matters to the business. Tie to velocity and entropy metrics. The Bad Things / Good Things framework: "What bad things happen if we don't fix this? What good things happen if we do?" Fewer Status Updates, More Next Steps — spend 20% on Q1 past, 80% on what's ahead.
 
-**Key insights extracted** (from conversation synthesis, NOT actual notebook content):
-- Roberto silence + public interruption = structural friction (Kurchi-line territory), not a peer relationship problem — wrong layer to fix
-- "Feeling bigger than the trigger" is the diagnostic signal for organizational gravity vs. relational issue
-- Live response = deflect + expand; post-meeting = written frame within hours (James executed both correctly today)
-- Win under-counting is threat-salience bias — log wins at same specificity as threats to fix asymmetry
-- DIJM: ship M1, let the work speak; higher-altitude touchpoint (Brian Lee, Andrew lane) as org positioning
+2. PERSUASIVE STRUCTURE: Use BLUF / 3A Pyramid Principle — Answer first, arguments second, add-ons last. Start Right Before You Get Eaten By the Bear — cut backstory scope creep. Aim for minimum viable backstory (~10-20%). Emotional Signposting — reduce cognitive load by telling the VP how to interpret data, don't make them guess. OAV (Observe, Assert, Validate) to Signal Ownership — a reporter says "here are our bottlenecks, what should we do?" An owner observes, asserts a recommendation, and validates by asking "how does that sound?"
 
-**Actions taken this session:**
-- Saved Pattern 7 (Landing a question with edge) to `communication.md`
-- Saved Pattern 8 (Slack follow-up after territorial peer interruption) to `communication.md`
-- Saved Pattern 9 (Monday-morning wins calibration) to `communication.md`
-- Updated `stakeholders.md` Roberto entry (section 12) with new data + revised operating plan
-- Updated `stakeholders.md` Darren entry (section 10) with Director promo + Pinsight staffing update
-- Bumped backlog item "Fix consult-notebook agent live querying" P2 → P1
+**Query 2 (applied critique):**
+Apply those frameworks directly to James's three Q1 learning drafts. For each: (a) flag where framing drifts tactical, (b) give the one-sentence BLUF reframe, (c) identify the missing/weak OAV assertion. [Full drafts included in query — see main session context for full text]
 
-**Follow-up needed:** Re-query Coaching Patterns via direct MCP tools (not the broken subagent) once the bug is fixed. The broader Roberto-Jeff peer competition pattern is worth grounding in actual notebook content when the consult agent works.
+**Response 2:**
+LEARNING 1: (a) Drifts into logistics by focusing on the "how" (Full Funnel Logging, agentic AI tooling) and giving a chronological backstory of pain — fails to answer "how will this increase velocity or save money?" (b) BLUF: "We are cutting incident resolution time from days to minutes by deploying AI-driven debugging and Full Funnel Logging, which will recover massive amounts of engineering velocity in Q2." (c) Weak OAV: Draft observes the gap and passively asserts a plan, but lacks a validation step and doesn't force a decision from the VP. Strong OAV: "I noticed debugging incidents take days instead of minutes. I recommend making Full Funnel Logging a P0 requirement across all teams in Q2. Do I have your buy-in to enforce this integration?"
 
----
+LEARNING 2: (a) "Backstory scope creep" — recounts the Q1 learning journey chronologically, violating "start right before you get eaten by the bear." Spends too much time on past. (b) BLUF: "To drastically reduce organizational entropy and unnecessary parallel work, our new engineering mandate for Q2 is to default to unified, cross-surface architectures and place the burden of proof entirely on divergence." (c) Weak OAV: Assertion is strong but lacks the Validate step to lock in executive alignment. Strong OAV: "I've observed that branching early creates massive organizational entropy. I assert we must enforce a 'unified-first' architecture mandate in Q2. Do you see any risks with me pushing this mandate across the broader engineering org?"
 
-## 2026-04-06 — Wes Kao Frameworks + Dynamic Triggering Slack Delegation
+LEARNING 3: (a) "Pigeonholed project management" trap — explains mechanics of the sprint instead of strategic business impact. "We should identify and invest" is weak, hesitant language that avoids responsibility. (b) BLUF: "Cross-team sprints exposed that our biggest velocity bottlenecks exist at the integration seams between ML and UX; in Q2, we are establishing dedicated 'connective tissue' investments to proactively unblock multiple teams." (c) Weak OAV: "We should identify and invest" lacks ownership — doesn't define who does the identifying or investing. Strong OAV: "I noticed our biggest velocity drags are at the integration seams between ML and UX. I recommend we dedicate 15% of Q2 engineering bandwidth specifically to 'connective tissue' accelerators rather than feature work. How does that sound?"
 
-**Notebook:** Wes Kao Frameworks
-**Context:** James drafting cross-org Slack thread for Dynamic Triggering ELT follow-up (Sumanth/Mehdi/Sai). Strategic constraint: Dylan has told James to "let Mehdi drive" — needs to convene without inheriting ownership.
+**Session ID:** b6a33876
 
-**Query 1:** Apply Wes Kao to actual draft. Where is James betraying the facilitator framing? Is the lead buried? Is there a "convening without owning" pattern?
-- **Key insights extracted:**
-  - Holding the baton vs. passing it — James was structurally claiming ownership (4-point agenda, scheduled sync, "I want us to align") while verbally disclaiming it. Wes Kao relay-race frame: passed baton requires acknowledgment.
-  - "Insecure vibes" words — *"I'm just trying to..."* and *"happy for him to drive"* are weak modifiers that diminish authority and sound like apology.
-  - Sales then logistics violation — assigning work via 4-point plan before selling Mehdi on why this matters for HIM.
-  - **No-surprises rule** — public delegation in a group thread risks the named person getting put on the spot, defensive, or dropping the baton.
-- **Action:** Restructured into 2-step move — private DM to Mehdi first to pass baton with acknowledgment, then tight 5-sentence public group thread that hands the mic and steps out. The 4-point agenda saved as private input to the Mehdi DM, not as the public thread structure. Created instinct file `no-surprises-public-delegation.md` for future delegation drafts.
 
 ---
 
-## 2026-04-04 — Wes Kao Frameworks + Karen Agent Design
+## 2026-04-12T01:22:00Z — Coaching Patterns (spawned via consult-notebook agent)
 
-**Notebook:** Wes Kao Frameworks (How to Speak)
-**Context:** Building adversarial advisor agent "Karen" — needed frameworks for reading intent, challenging blind spots, accountability, and proposing alternatives
+**Query:**
+James is a Senior Engineering Manager with a Di DISC profile (D:88%, i:88%) navigating competitive organizational dynamics. His AI tooling work (Pinsight + Reflex) is gaining traction, but he's experiencing competitive anxiety because a peer Sr. EM (Roberto) had his tools celebrated org-wide by a VP, and James perceives the VP and Sr. Director are giving warmer reception to peers than to him. He's spending Saturday ruminating on these dynamics instead of recovering.
 
-**Query 1:** Frameworks for Karen's system prompt — reading intent (QBQ), challenging without being dismissed (OARB), accountability (Rigorous Thinking), proposing alternatives (OAV)
-- **Key frameworks extracted:** QBQ, OARB, "Even More" Technique, Rigorous Thinking / "Bad Things Good Things", OAV, BLUF + Sales Not Logistics
-- **Action:** Embedded all 6 frameworks directly into Karen agent's system prompt as operating principles
+Three targeted questions:
+
+1. What coaching frameworks apply to competitive anxiety and status-comparison triggers in high-D/high-i leaders? James's pattern: status sensor fires → jealousy/competition activation → reactive behavior or rumination spiral. What is the underlying identity dynamic at work, and what intervention breaks the cycle fastest?
+
+2. James faces a structural trap: he could end up as the implementer while a Sr. Director (Andrew) owns the Reflex narrative, and the VP celebrates it as Andrew's win. What frameworks help him read organizational power dynamics clearly — distinguishing real threats from perceived slights — and what's the coaching move for knowing when to assert vs. when to observe and let the work speak?
+
+3. James's growth edges are: recovery time from triggering events, reading rooms for political context, knowing when NOT to speak, and observation-as-contribution. How do these connect to his Di identity pattern — where does the Di drive create blind spots in competitive environments specifically? What would a coach advise about channeling competitive energy productively vs. letting it drive reactive under-managing-up behavior?
+
+**Response:**
+Question 1: Coaching Frameworks for Competitive Anxiety and Status-Comparison Triggers
+For a high-D/high-i leader experiencing competitive anxiety, the most relevant frameworks are Tool 8 ("Signal, Not Truth"), the Rumination Framework, and Module 2/3 of the Executive Coaching Syllabus (Somatic Mapping & Reframing Status).
+The underlying identity dynamic driving James's spiral stems from childhood patterns where love and approval were tied to achievement, comparisons, and an unspoken debt of success. As a result, James's internal "status sensor" translates a peer's success (like Roberto's) into a literal threat to his identity, making him feel he has to constantly "earn his place" rather than feeling he is fundamentally enough. He equates his position in an organizational ranking with his human worth.
+The fastest intervention to break this rumination cycle is the action-oriented "Signal, Not Truth" (Tool 8) framework, which builds a gap between sensation and identity. Because "sitting with the feeling" doesn't work for his action-oriented Di profile, he must execute the following reps:
+- Name it: Overtly state, "The status sensor is firing. Signal, not truth"
+- Locate it physically (Somatic Mapping): Identify where the anxiety sits in the body (chest, stomach, etc.) to detach from the story and recognize it as merely a physical sensation
+- Redirect the fuel within 10 minutes: Recognize the anxiety as energy, not a fire alarm. Immediately point that energy toward his own internal scoreboard — such as writing 30 minutes of code, learning a new retrieval path, or building something tangible
+To stop the mental spin, he should apply the Rumination Framework and ask himself one factual question: "What do I actually know right now? Everything else is creative writing."
+
+Question 2: Structural Traps and Organizational Power Dynamics
+James is falling into the "Coordinator Trap" combined with a failure to "Match Altitude to Audience Appetite." He defaults to a strategic "Director" move — orchestrating and framing the AI transition — in a room where the VP specifically rewards "IC" moves, like shipping and demoing tangible tools. Executives at that level do not buy blueprints; they buy demos. By coordinating the narrative for Andrew or others, James makes himself invisible.
+To read these power dynamics clearly and distinguish real threats from perceived slights, James should use Module 4: The "Impact Over Approval" Audit. This requires him to ruthlessly assess whether he is acting merely to gain executive approval or to drive actual systemic impact. He must also utilize the Tai Chi Base (Tool 4) to absorb the external force of Roberto's celebration without internalizing it as a reflection of his own worth.
+For the coaching move on asserting vs. observing:
+- Observation-as-Contribution (The Dhruvil Pattern): Instead of strongly advocating for a position, frame input as practitioner observations from the field. Saying, "What we're seeing on the retrieval side is..." adds immense value without sounding territorial.
+- Letting the Work Speak: When asserting work, stop narrating the architecture. Put the tool in the leader's hands, show the before/after, and let them experience the value directly.
+
+Question 3: Di Identity Pattern Blind Spots and Channeling Energy
+James's Di profile creates specific blind spots under pressure. His drive for efficiency (High D) can make his tone read as dismissive or harsh to people with whom he hasn't yet built relationship capital. Simultaneously, his drive to influence (High i) causes him to fill silence with contribution. When stressed, this manifests as over-explaining, burying the lead, and rambling about backstory or architecture instead of delivering brief, high-leverage insights.
+A coach would advise James to channel his competitive energy away from high-heat "Catalytic Clarity" and toward "Boring Consistency." Instead of needing to be the "owner of the truth" who defensively litigates a point, he should channel his energy into being the steady "mechanic fixing the car."
+To prevent competitive energy from driving reactive, validation-seeking managing-up, James should systematically use the Three-Beat Managing Up Framework:
+1. Share what is hardest about his job right now.
+2. Show how he is crushing it despite those difficulties.
+3. Enlist the manager's help on a specific unblocker.
+This channels his drive into creating structural leverage and demonstrating capability, rather than seeking a mirror to prove he is "good enough."
+
+**Session ID:** e44987e0
 
 ---
 
-## 2026-03-29 — How to Speak + ELT Presentation
+## 2026-04-12T21:29:00Z — Wes Kao Frameworks (spawned via consult-notebook agent)
 
-**Notebook:** How to Speak
-**Context:** ELT presentation talk tracks (slides 3-5) for CTO + VPs, March 31
+**Query:**
+I'm helping a Sr. EM named James who is building two agentic AI tools at Pinterest: Pinsight (his own, agentic rec system analysis tool, already in production) and Reflex (co-developing with Andrew Yaroshevsky, Sr. Director Product with a line to the CTO — an autonomous DS agent for recommendation quality monitoring).
 
-**Query 1:** Review talk tracks for "project management narration" vs "visionary leader framing" — apply signposting and strategic framing principles
-- **Key insight:** Slide 3 funnel walkthrough is "backstory scope creep." Compress to 1 sentence, let diagram work.
-- **Action:** Rewrote slide 3 opening to BLUF the $938K savings in the first 30 seconds
+Organizational dynamics:
+- Allies: Andrew (Reflex co-dev, Sr. Director), Darren Regers (Director Infra, staffing Pinsight contributors, great at managing up his chain), Brian Lee (EM Growth, AI forum host), Dylan Wang (James's Sr. Director manager, peak trust), Dhruvil (peer Sr. EM, coalition partner)
+- Competitive threat: Roberto (Sr. EM under Kurchi, built Search Debugger/Replay celebrated by Jeff VP, expanding into agentic eval tooling that overlaps with Pinsight, not responding to collaboration outreach, interrupted James's pitch at a meeting)
+- Structural tension: Roberto reports to Kurchi (Sr. Director SSJ), who is structurally adversarial to Dylan's org. The Roberto-James competition is partly a proxy for Dylan-vs-Kurchi at Director level.
+- James's known pattern: under-manages-up. Defaults to reactive "+1" in leadership threads while peers initiate and frame. Needs to build visibility with Jeff (VP) and Rajat (VP) through office hours and peer-level multi-org momentum.
 
-**Query 2:** Apply Robot Voice Method — where is James burying the lead or over-explaining?
-- **Key insight:** $6.5M figure buried in slide 5. Leading with logistics instead of selling.
-- **Action:** Moved $6.5M to slide 4, restructured slide 5 to open with conclusion
+Three focused questions: (1) FRAMING FOR LEADERSHIP — narrative structure and framing moves for VP-level positioning; (2) NAVIGATING ROBERTO — how to handle overlap without looking territorial; (3) BUILDING VISIBILITY THROUGH ALLIES — activating Andrew, Darren, Dylan as amplifiers.
 
-**Query 3:** How should James structure exec Q&A answers? Senior engineer vs executive framing.
-- **Key insight:** 3A Pyramid (Answer → Arguments → Add-ons). "I've observed" > "I think" (40% more credible). Don't validate negative frames.
-- **Action:** Added Q&A structure to speaking reminders, integrated into communication.md
+**Response:**
+To elevate James from a tactical engineer to a strategic AI leader, he must shed his reactive "+1" habits and proactively manage the narrative.
 
----
+1. FRAMING FOR LEADERSHIP: From "Cool Tools" to "Org-Wide Capability"
+Sales, Not Logistics: VPs don't care about architecture until sold on business value. Spend 90% pitching how tools accelerate the business, 10% on how they work. Answer the #1 Business Case Question / "Bad Things / Good Things": Every business case must answer "How will this save money or make money?" Frame Pinsight/Reflex through Bad Things / Good Things — what bad things happen without them (lost engineering hours, missed incidents), what good things with them (automated anomaly detection, recovered system velocity). BLUF and The 3A Pyramid Principle: Answer first, arguments second, add-ons last. Start right before getting eaten by the bear — cut irrelevant backstory, start at highest business impact. Make Assertions, Not Just Observations: Formulate Assertions instead of being "+1" guy. "Based on X, I recommend Y across the org. If we don't, we risk Z."
 
-## 2026-03-29 — Improving Leo + System Design
+2. NAVIGATING ROBERTO: Strategy vs. Self-Expression
+Strategy is optimizing for VP buy-in and organizational clarity; self-expression is complaining or trying to prove Roberto wrong. Address the MOO (Most Obvious Objection) proactively — leadership will notice the overlap, James must address it before Roberto can weaponize it. Avoid Incepting Negative Ideas — never say "we aren't trying to step on Roberto's toes" — this plants the negative. Use "At the Same Time" (not "but") to differentiate: "Roberto's Search Debugger is fantastic for Search-specific evaluation. At the same time, Pinsight is purpose-built for the unique scale and latency requirements of RecSys. Together, they give us comprehensive coverage across both surfaces." Address the QBQ (Question Behind the Question) — Jeff's QBQ is "Are my two orgs wasting headcount building the same thing?" Frame tools as complementary; act like an owner who cares about company resources.
 
-**Notebook:** Improving Leo
-**Context:** Evaluating Leo system architecture for improvements
+3. BUILDING VISIBILITY THROUGH ALLIES: Reduce Their Cognitive Load
+Don't expect allies to figure out how to advocate — give them the exact narratives to carry upward. Frame 90% Around the Other Person. For Darren: "Your org gets the visibility it deserves for accelerating RecSys velocity — here's a 3-bullet update, would you drop this in your next sync with Jeff?" For Andrew: "Reflex will drastically reduce manual quality monitoring for your PMs — here's a slide on ROI you can use in your next CTO review." OAV (Observe, Assert, Validate) for Dylan: "Observe: Jeff is pushing for AI evaluation tooling across the board. Assert: I recommend we position Pinsight and Reflex as the default RecSys standards in Q3 to own the narrative before Search expands. I've prepared a 2-page BLUF memo on our AI ROI. Validate: Does it make sense for you to circulate this at the upcoming Sr. Director sync?"
 
-**Query 1:** Highest-leverage improvements for Leo given current structure
-- **Key insights:** Context indexing (CLAUDE.md as index), escape hatches, automate context updates in end-session, reverse elicitation pattern
-- **Action:** Added escape hatches to CLAUDE.md + skills, enhanced end-session with Phase 4
-
-**Query 2:** What would a practical eval system look like for a personal AI?
-- **Key insights:** SOPs/rubrics per task type, test suite of edge cases, human baseline, track escape hatch usage
-- **Action:** Added to leo_backlog.md for future implementation
-
-**Query 3:** Meta-prompting workflow for improving CLAUDE.md and skills
-- **Key insights:** Prompt folding (feed failures back), end-of-session "what did you learn" debrief, interview technique for building new skills
-- **Action:** Added to leo_backlog.md for future implementation
+**Session ID:** b4a0d58b

@@ -2,7 +2,7 @@
 
 > Unified backlog: everything actionable in one place. Organized by what James does, not what system it lives in. Curriculum details live in `learning/learning_agenda.md` — this file tracks what to do next.
 
-**Last updated:** 2026-04-11 PST
+**Last updated:** 2026-04-12 PST
 
 ---
 
@@ -18,6 +18,7 @@ Blog posts, technical memos, opinions — synthesis artifacts where James wrestl
 | Generative recsys survey | Technical frontier, interview prep | RecGPT, PinRec, OneRec, semantic IDs. What works in production vs paper-only. My take on hybrid future. See `blog/generative-recsys.md` | 3-4 hrs | Not started | P1 |
 | EM growth in age of AI | G2 + G4, unique voice | Lived experience of using AI as EM. What changes, what can't be automated, the avoidance trap. See `blog/em-growth-age-of-ai.md` | 2-3 hrs | Not started | P1 |
 | Self-improvement in AI world | Personal reflection, Karen arc | Judgment, systems thinking, collaboration. The collection trap. Honest reflection. See `blog/self-improvement-in-ai-world.md` | 2-3 hrs | Not started | P2 |
+| Pinsight/Reflex 2-page BLUF memo | G2 + G4 (managing up) | The load-bearing artifact for managing-up strategy. Arms Dylan (Sr. Director sync), Darren (Jeff touchpoint), and James (office hours). Structure: Answer (autonomous quality monitoring, days→minutes), Arguments (business impact, cross-org adoption), Add-ons (architecture, milestones, team). See `work+self/projects/pinsight/strategic_next_steps_april.md` for full spec. | 1-2 hrs | Not started | P0 |
 
 ## Learn
 Specific concepts to study and internalize. Full curriculum in `learning/learning_agenda.md`.
@@ -54,6 +55,7 @@ Leo system, KB, side projects, infrastructure.
 | Recommendation system from scratch | ML craft, interview artifacts | Build recsys from first principles: embeddings → two-tower → training → eval → serving. `projects/recsys-from-scratch/` | 20+ hrs | Not started | P2 |
 | Investigate kuberwastaken/claude-code | Leo improvement ideas | Explore patterns, prompt engineering, automation approaches. Cloned at `/home/james/src/claude-code-reference/` | 1-2 hrs | Not started | P3 |
 | Investigate coleam00/Archon | Leo improvement, agentic patterns | Explore Archon framework — architecture, multi-agent orchestration patterns, what's applicable to Leo or side projects. | 1-2 hrs | Not started | P3 |
+| Study claude-code-from-source → recsys applications | G2 (Pinsight/Reflex), agentic craft | Work through [alejandrobalderas/claude-code-from-source](https://github.com/alejandrobalderas/claude-code-from-source). Extract principles and patterns, then think through how to apply them to Reflex and Pinsight for building better recommendation systems. References: `kb/hard/raw/steve-yegge-thin-harness-fat-skills.md` (Yegge's "thin harness, fat skills" framework — skill files, resolvers, latent vs deterministic, diarization, learning loops), `kb/hard/raw/chrysb-llm-memory-unsolved.md` (@chrysb's deep dive on LLM memory — raw vs derived tradeoff, 9-axis design space, failure modes, evaluation paradox). Good China trip material (reading + thinking, phone-friendly). | 3-5 hrs | Not started | P1 |
 | Fix consult-notebook agent live querying | Leo quality | Root cause found + fixed 2026-04-11: `.claude/agents/consult-notebook.md` had wrong MCP tool name (`mcp__notebooklm-mcp__notebook_query` — does not exist), macOS paths on Linux, no hard tool-call instruction. Rewritten to mirror `consult.md` pattern: correct tools, inline UUIDs, hard "must call" instruction, ERROR failsafe, audit trail via `notebooklm/query_log.md`. Redundant `consult.md` deleted. | 1-2 hrs | **Done 2026-04-11.** Verification mechanism: check `query_log.md` grows on next real spawn. | — |
 | Integrate GSD for side projects | Workflow | Explore `get-shit-done` framework. Does it complement Leo? | 1 hr | Not started | P3 |
 | Interview-prep mode | Career optionality | Framework for side projects that double as interview prep for OpenAI/Anthropic. Folded into Track 3 + blog posts. | 2 hrs | Subsumed by Track 3 + Write items | P3 |
@@ -71,5 +73,8 @@ Pinterest deliverables, stakeholder actions, team tasks.
 | Pinsight research synthesis | G2 (Pinsight) | ~~Comprehensive review of 5 agentic recsys papers + vision doc + paper summaries.~~ **Done 2026-04-05** — `work+self/projects/pinsight-agentic-vision.md`, `kb/hard/raw/AgenticRecommendations/summaries.md`. | 3 hrs | Done | — |
 | UBR design doc technical reference capture | Leo completeness | Captured full UBR design from screenshots (Piyush Maheshwari + Jiaxing Qu, last updated 2026-04-05). Two-tower base + per-surface Condition/Surface Towers, three Model Adoption approaches, Alternative Design with unified transformer backbone, AppConfigs two-layer proposal. Lives in `work+self/projects/ubr_design.md`. | Done | **Done 2026-04-11.** | — |
 | Share HF funnel table schema with Alok | G2 (Pinsight) | Alok is building the logging. Needs proposed schema for alignment. | 15 min | Not started — Monday | P0 |
+| Jeff/Rajat office hours before China | G4 (managing up) | Schedule and attend office hours for Jeff and/or Rajat before China trip (June 4). Bring live PINvestigator demo for Jeff (90 sec, laptop open). Bring system-level insight for Rajat (UPP velocity, debugging gap). Ask Dylan for intel first. See `work+self/projects/pinsight/strategic_next_steps_april.md` and `work+self/dhruvil-framing-playbook.md`. | 1 hr prep + attendance | Not started. **Must schedule by end of April.** | P0 |
+| Darren working session (PINvestigator on infra) | G2 + cross-org adoption | Schedule hands-on working session (not a meeting) with Darren post-promo (4/16). Run PINvestigator on one of his team's infra debugging problems live. Goal: organic adoption → Darren champions in Director circles. | 1 hr | Not started. Schedule after 4/16 congrats. | P0 |
+| On-call escalation: infra org + David Sun | Team health | Ask Dylan to connect James with infra org on upstream pipeline failures. FYI Dylan on connecting with David Sun re: Forge.dev scope for Unity backend debugging. On-call logs already pulled and categorized. | 30 min | Ready to execute in next Dylan 1:1. | P0 |
 | Port agents/skills/hooks to work-leo | Leo deployment | Use `work-leo-setup/TRANSFER.md`. Agents are direct copies with path updates. | 1-2 hrs | Not started | P1 |
 | Update work-leo CLAUDE.md | Leo deployment | Add subagent dispatch section + session log restructure. | 30 min | Not started | P1 |

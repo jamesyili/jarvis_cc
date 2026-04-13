@@ -383,3 +383,78 @@ When James's portfolio gets audited (by Karen, by Dylan, by himself), UPP is the
 
 **Full technical detail in `work+self/projects/ubr_design.md`.** When the technical UPP context update James has deferred lands, cross-reference UBR design choices against the final architecture.
 
+
+
+  1. RecGPT launched to Homefeed Production after a near-yearlong journey — now the #1 performing CG across all of
+  Homefeed. Strong metric gains and deep trust built with ATG along the way. The roadmap ahead is exciting. Kudos to
+  Bella and Hanlin for relentless iteration on this.
+
+  2. Retentive Recs / Anticipation delivered across the full stack — from research to production to CTO visibility. The
+  team shipped UIC x CLR, Frontier Sampling, and initial pUIC to support the Anticipation Cupcake Q1 sprint, plus built
+  a feedback loop that will systematically tie into how Blending explores/exploits user interests and fresh content. The
+   holdout is showing positive WAU impact, especially in UCAN. The CTO called out Anticipation as one of the projects
+  he's most excited about at Pinterest for AI and Personalization. The team also delivered critical backend components
+  on tight timelines to enable user-facing features. Kudos to Yuke, Chuxi, Yidi, Devin, and many Blending, UU, ATG, and
+  XFN partners.
+
+  3. UPP delivered one of the most celebrated Leads Reviews in recent memory — [Must Win March '26] UPP for Core. The
+  team moved at exceptional speed: 3 LRs on Notifs, 2 on HF, including GPU Serving for CLR which unlocks significant
+  scale going forward. The team also held down the fort on GULP debugging and scoped a strong HF/Base CLR roadmap. Kudos
+   to Piyush, Sophia, Devin, Charlie, and ATG partners.
+
+  4. LWS and L1 Utility delivered foundational wins in one of the toughest problem spaces we operate in. Unimpressed
+  data, GPU serving rollout, Unified User Tower — all impressive feats given LWS's complexity. L1 Utility continued to
+  prove its durability with additional wins, and the team made strong progress onboarding Shopping CGs to LWS and L1
+  Utility. The team also helped unblock PinSelection V2 rollout — one of Content Quality's biggest wins in years —
+  building strong cross-org relationships in the process. Kudos to Yali, Hedi, Zili, JJ, and David.
+
+  5. The team became AI-first — on short notice, without top-down guidance. PINvestigator (agentic investigation tool),
+  HF Full Funnel Logging for future AI work, and early foundations for AI-native recommendation workflows. All built
+  bottoms-up by the team. Kudos to JJ, Alok, Zihao, and Daniel.
+
+  ---
+  Now here are 5 learns, forward-looking, Rajat altitude:
+
+  1. Cross-org sprints (Anticipation Cupcake) force prioritization clarity that normal planning doesn't. The Cupcake
+  model — tight scope, shared deadline, cross-team accountability — produced faster alignment than quarterly planning.
+  Worth replicating for UPP surface expansion in Q2.
+  2. AI-native tooling adoption works bottoms-up, not top-down. PINvestigator spread through organic use (Dylan,
+  Dhruvil, Gigi) — not a mandate. The learn: invest in tools that solve an immediate pain point for one user, then let
+  pull do the work. Top-down "AI transformation" programs produce slides, not adoption.
+  3. GPU Serving was a long-overdue infrastructure unlock — moving earlier would have compounded. The gains from GPU
+  Serving for CLR are immediate, but the constraint was sequencing priority against feature work. Infra investments that
+   unblock multiple downstream teams should be treated as P0 earlier, even when feature pressure is high.
+  4. Trust with partner teams (ATG, Blending, UU) compounds and should be treated as a durable asset. RecGPT, Retentive
+  Recs, and UPP all accelerated because of trust built over prior quarters. The learn: protect these relationships
+  during reorgs and priority shifts — they're load-bearing.
+  5. Full funnel logging and evaluation infrastructure should precede, not follow, new product bets. The team is
+  building HF Full Funnel Logging now in anticipation of future AI work. In hindsight, having this earlier would have
+  accelerated iteration on RecGPT and pUIC. For Q2 bets (Reflex, Pinsight M1), instrumentation goes in first.
+
+1. System debuggability is our biggest gap — and we're now investing to close it.
+
+Q1 exposed how much time we lose when we can't trace the full path from retrieval to what a user actually sees on screen. Debugging across the funnel — understanding why a specific user got a specific recommendation — is still too manual, too slow, and too fragmented across teams. We learned this the hard way through incidents and investigations that took days when they should have taken hours. We're closing this gap on two fronts: Full Funnel Logging gives us the instrumentation foundation — end-to-end visibility across the retrieval and ranking stack. And we're building agentic AI tooling (PINvestigator) on top of that foundation to automate the investigation itself — reading logs, building timelines, surfacing root causes. The logging makes debugging possible. The AI makes it fast. In Q2, Full Funnel Logging lands first, and we build the debugging workflows on top. The goal: any engineer on the team can answer "why did this user see this pin?" in minutes, not days.
+
+2. Acting cross-surface: build unified first, diverge only when you must.
+
+UPP's Q1 wins taught us that the feared tradeoffs between surfaces often aren't there — but you won't know unless you try. The team moved fast on cross-surface work (Notifs, HF, GPU Serving) and repeatedly found that a unified approach worked where we expected it to break. When we assumed surfaces would need divergent solutions and branched early, we created unnecessary parallel work. When we pushed toward universal solutions first, we got results that were better for everyone and faster to ship. The Q2 shift: default to building unified and universal. Push the shared architecture (Base CLR, shared User Tower, cross-surface pretraining) as far as it will go before branching into surface-specific solutions. The burden of proof should be on divergence, not on unity.
+
+3. Anticipation Cupcake proved that cross-team sprints expose the highest-leverage integration gaps.
+
+Cupcake was a forcing function — it made teams work closely together under a shared deadline and a tight scope. What it revealed wasn't just product wins (WAU-positive holdout, CTO excitement). It exposed which integration paths — unity integration paths between ML solutions and UX features, backend systems that bridge model outputs to user-facing components — disproportionately accelerate impact for all teams when they work. These aren't feature work. They're connective tissue. Before Cupcake, each team optimized their own layer. During Cupcake, we found the seams between layers where a small investment unblocked multiple teams at once. In Q2, we should identify and invest in these integration accelerators deliberately — not just when a sprint forces us to discover them.
+
+
+  1. We're making system debuggability a Q2 infrastructure priority — cutting incident resolution from days to minutes.
+
+  Our team loses too much time tracing issues across the retrieval-to-screen pipeline. In Q2, Full Funnel Logging lands first to give us end-to-end visibility, then we build agentic AI debugging (PINvestigator) on top to automate investigation workflows. The goal: any engineer
+  answers "why did this user see this pin?" in minutes. This aligns with the broader org push toward AI-native engineering workflows — happy to sync on how this fits with Rajat's infra investment priorities.
+
+  2. Unified-first is now our engineering default for cross-surface work. Burden of proof is on divergence.
+
+  UPP's Q1 results proved that the feared tradeoffs between surfaces often aren't there. We shipped faster and got better results when we pushed toward universal solutions (Base CLR, shared User Tower, cross-surface pretraining) instead of branching early into surface-specific
+  work. In Q2, every cross-surface decision starts unified — we only diverge when data forces it. This should accelerate Search and P2P onboarding significantly. If this conflicts with how other orgs are planning their surface-specific roadmaps, I want to know now.
+
+  3. Anticipation Cupcake revealed the integration layers that disproportionately accelerate all teams — we're investing in those deliberately in Q2.
+
+  The sprint exposed specific connective tissue — unity integration paths between ML and UX, backend systems bridging model outputs to user-facing components — where a small investment unblocked multiple teams at once. In Q2, we're identifying and funding these integration
+  accelerators as explicit workstreams, not side effects of sprints. I'm partnering with Blending and UU to scope the top three. This maps to the same cross-team velocity Rajat is optimizing for — does this match his Q2 priorities or should I adjust the list?
