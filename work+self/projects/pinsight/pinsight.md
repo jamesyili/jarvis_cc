@@ -2,7 +2,16 @@
 
 LLM-powered deep analysis tool for Homefeed recommendation systems — user understanding, request debugging, and aggregate insight generation. **Pinsight is the data substrate for the Anticipation Vision via Reflex co-development with Andrew Yaroshevsky.**
 
-Last Updated: 2026-04-11
+Last Updated: 2026-04-14
+
+## Sibling artifacts
+
+- `pinsight-agentic-vision.md` — forward vision, Reflex mapping, Phase 4 simulation bet
+- `pinsight-m1-spec.md` — M1 build spec
+- `pinsight-paper-summaries.md` — agentic recsys literature notes
+- `strategic_next_steps_april.md` — Wes Kao / Shreyas / Ethan Evans / Coaching Patterns playbook, 8 scenarios + 22 aggressive moves + sequencing
+- `bluf_memo_v0.md` — 2-page Pinsight + Reflex memo for Dylan / Darren / Jeff (v0, FILL placeholders remain)
+- `reflex_context_instructions.md` — paste-ready prompt for work-leo to generate the Reflex agent's grounding `context.md`
 
 ---
 
