@@ -1,7 +1,8 @@
 # Comprehensive Historical Interaction Audit: James Li & Dylan Wang
 **Date Range:** July 2025 – April 2026
 **Subject:** Relationship Dynamics, Trust Calibration, and Director Trajectory
-**Status:** Peak Trust / Sponsorship Confirmed + Active AI Shielding
+**Status:** Peak Trust / Sponsor → Operational Participant + Real-Time Re-Anchoring Partner
+**Last updated:** 2026-04-16
 
 ---
 
@@ -162,6 +163,38 @@ The relationship has evolved past "Strategic Partner" into something closer to *
 **Updated Standing:**
 * **Status:** "Strategic Partner + AI Guide." All prior trust indicators hold. New dimension added: Dylan now sees James as her on-ramp to AI-native tooling for the org.
 * **The Catalyst Trap (Vulnerability #1) is de-risking.** The AI work is no longer "shiny object" risk — Dylan is personally invested in it. Frame continues to be "management capability," but the need to justify it is diminishing.
+
+### [2026-04-15 to 2026-04-16] Operational Embedding: Sponsor → Participant
+
+**Context:** Over two consecutive sessions, Dylan shifted from sponsoring James's initiatives at arm's length to inserting herself operationally into them — first the RLHF evaluation team, then Reflex Build-stage scoping. Separately, she issued a pacing re-anchor via DM that revealed a care-based guardrail layer not previously visible.
+
+**What Dylan Did (All Unprompted):**
+* **2026-04-15:** Added herself personally to the RLHF expert team for Reflex (alongside James, Dhruvil, Rahul Goutam). Sr. Directors rarely participate as individual contributors on evaluation loops — this is hands-on involvement, not delegation.
+* **2026-04-15:** DM'd James privately (not in thread) after the group Slack exchange: "This whole thing is very addictive. But I want to make sure ppl have a pulse check and not feel they need to perform under pressure." Protected his standing publicly while setting the guardrail privately.
+* **2026-04-15:** Demonstrated selective endorsement pattern — endorsed James's item 1 (context files) with specifics, went silent on item 2 (Pinsight integration design). Silence = not endorsed; don't re-raise.
+* **2026-04-16:** Unprompted in 3-person DM with James + Andrew, opened Reflex Build-stage scoping: proposed easy wins first (CG deprecation, utility tuning), advanced later (features-to-model, parameter searching). Asked about auto-PR once hypothesis lands. This is her pulling Build timeline forward, not waiting for Andrew to set it.
+
+**Key Signals:**
+1. **Operational embedding is the new normal.** Dylan is no longer just sponsoring at the architecture/political level — she's shaping execution sequencing. RLHF self-insert + Reflex Build scoping in consecutive days = pattern, not one-off.
+2. **Real-time re-anchoring is a live managerial tool.** After James's pacing commitment in DM, Dylan re-anchored again when he sent 4 rapid-fire follow-ups ("I want to make sure ppl have a pulse check"). She will correct drift in the moment, gently, via DM. She does not store it up for 1:1s.
+3. **Public energy + private guardrails is her structural preference.** Endorsements land in threads (emoji, "epic," "great"). Corrections land in DMs. Protecting James's standing publicly is not a gift — it's her operating style.
+4. **Care is the primary motive on pacing, not political risk management.** Leo's first read (2026-04-15) was narrative protection. Dylan's DM revealed actual motive: concern for James + team burnout. Sustained pressure is what she's watching, not any specific output.
+5. **"No ICs" boundary holds, but with a twist.** Dylan can pull ICs in (Rahul Goutam added to RLHF for diversity). James does not proactively bring his own. Asymmetric rule.
+
+**New Managerial Patterns to Track (captured in `memory/reference_dylan_managerial_patterns.md`):**
+* **Selective endorsement.** What she endorses = she's in. What she's silent on = she's not. Don't re-raise.
+* **DM, not thread.** Corrections and calibrations come in private. Thread is for public energy.
+* **Real-time re-anchoring.** She will correct live, mid-exchange. Watch for it and absorb without defensiveness.
+* **Self-insert as signal.** When she adds herself to an IC-level activity (RLHF, Build-scoping), the initiative has graduated from "James's thing" to "her thing too."
+
+**Operating Contract Refinements:**
+* **Slack tempo, not substance.** Dylan's pacing signal is about sustainable cadence in messaging/availability — not a slowdown on the work itself. Her Build-stage "we can start to scope this out" endorsement cuts directly against a substantive-slowdown interpretation. Sniper, not machine gunner.
+* **Pacing commitment James made 2026-04-15:** no pre-9am Slack engagement, no rapid-fire multi-message enthusiasm, no scope expansion pre-M1. Dylan is now watching for evidence this is internalized.
+* **Rajat exposure is new surface area Dylan also needs to navigate.** 2026-04-16: PinSight demoed to Rajat with Dylan present; Rajat is now VP-level aware of fix-loop. This escalates visibility one level up her chain. Give her a heads-up async or in next 1:1 so she's not surprised by Rajat referencing PinSight in his own meetings.
+
+**Updated Standing:**
+* **Status:** "Operational Co-Participant on Flagship Initiatives." Beyond "Preferred AI Leader" — she is personally contributing inside James's projects (RLHF, Reflex Build scoping) while continuing to sponsor them above. Relationship has a new care-based register visible via the pacing DM.
+* **Vulnerability shift:** The Catalyst Trap (Vulnerability #1) is essentially closed. New watch: **pacing fidelity** — did James internalize the cadence ask, or is he still firing 4-message enthusiasm bursts? Dylan will re-anchor if he drifts; each re-anchor is a small trust cost.
 
 ---
 

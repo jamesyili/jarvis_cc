@@ -20,7 +20,7 @@ Last updated: 2026-04-16
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks | 2026-04-16 |
-| `direct_manager.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis | 2026-04-03 |
+| `direct_manager.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis, 2026-04-15/16 operational embedding update | 2026-04-16 |
 | `dylan_1on1_log.md` | Rolling 1:1 log + prep for upcoming meetings | 2026-04-03 |
 | `team_members.md` | Direct report profiles (if exists — may overlap with stakeholders §8) | Unknown |
 | `hiring/em_backfill_bowen_2026-04-16.md` | EM backfill candidate interview feedback (Weak Lean No) | 2026-04-16 |
