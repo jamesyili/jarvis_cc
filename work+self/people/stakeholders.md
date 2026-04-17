@@ -403,7 +403,7 @@ Markdown
   
 ## Current trust state
 - **Overall trust level:** High (Active Sponsorship)
-  - **Evidence:** Rajat championed Option 1 for UPP, called Dylan directly to force alignment, ran hour meeting with Kurchi. Actively protecting UPP thesis. James's team is now central to Rajat's highest priority. Earlier signals: asked explicitly for pain points, infra costs, outages, “what should we stop/start” — system diagnosis mode confirmed. **March 2026:** Gave James Exceeds rating and strong comp. Sent direct message: “I want you to keep pushing and looking forward to partnering on a lot of projects this year.” This is explicit encouragement of James's aggressive operating style from the VP level.
+  - **Evidence:** Rajat championed Option 1 for UPP, called Dylan directly to force alignment, ran hour meeting with Kurchi. Actively protecting UPP thesis. James's team is now central to Rajat's highest priority. Earlier signals: asked explicitly for pain points, infra costs, outages, “what should we stop/start” — system diagnosis mode confirmed. **March 2026:** Gave James Exceeds rating and strong comp. Sent direct message: “I want you to keep pushing and looking forward to partnering on a lot of projects this year.” This is explicit encouragement of James's aggressive operating style from the VP level. **April 2026:** "keep up the good work and keep pushing - lots of exciting and impactful work ahead of us to deliver together" — sustained encouragement mandate.
   - **Confidence:** Very High.
 
 ### Early signals validated → matured into active sponsorship
@@ -411,6 +411,12 @@ Markdown
 - Asks James to “own” or draft something — **Yes, UPP architecture**
 - References James's framing in broader discussions — **Yes, explicit alignment calls**
 - **Directly encouraging James to maintain intensity** — “keep pushing” is not generic praise; it's a mandate.
+
+### 2026-04-16: New engagement surface — PinSight / Reflex fix-loop
+- James demoed PinSight to Rajat in meeting (Dylan + Andrew Y also present). Rajat DM'd immediately after asking for the monitoring-agent doc, then opened a thread on AI agents for debugging.
+- **Rajat endorsed the fix-loop trajectory:** "great! yea that would be a good one to prototype. and hook up e2e" after James described VLM-hooked agents + Andrew Y's survey-response partnership auto-triggering investigation.
+- **Implication:** Rajat is now a VP-level stakeholder on PinSight and (adjacently) Reflex. Mental anchor is PinSight-as-primary-mechanism after James took the demo moment in front of Andrew (who was about to set the Reflex big picture). Political residue: Andrew's Reflex-framing with Rajat is displaced until he reclaims it.
+- **Calibration going forward:** sustain the D/C profile rules — direct, structured, solution-oriented; no warmth decoration. Rajat's "hook up e2e" is a mandate to show end-to-end detect → diagnose → fix wiring, not a suggestion.
 
 ### Key dynamic: Rajat vs. Kurchi
 - Rajat wants **quarterly milestones** and faster UPP execution. Kurchi pushes back — successfully moved Search from monthly milestones to H2.

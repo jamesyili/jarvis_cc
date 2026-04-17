@@ -2,7 +2,7 @@
 
 LLM-powered deep analysis tool for Homefeed recommendation systems — user understanding, request debugging, and aggregate insight generation. **Pinsight is the data substrate for the Anticipation Vision via Reflex co-development with Andrew Yaroshevsky.**
 
-Last Updated: 2026-04-14
+Last Updated: 2026-04-16
 
 ## Sibling artifacts
 
@@ -14,6 +14,12 @@ Last Updated: 2026-04-14
 - `reflex_context_instructions.md` — paste-ready prompt for work-leo to generate the Reflex agent's grounding `context.md`
 
 ---
+
+## Headline (week of 2026-04-14)
+
+- **PinSight demoed to Rajat (VP) on 2026-04-16.** Meeting with Dylan + Andrew Y present; Rajat asked about AI agents for debugging, James demoed PinSight. Rajat DM'd immediately after for the doc, then endorsed the fix-loop trajectory in Slack ("great! yea that would be a good one to prototype. and hook up e2e"). Rajat is now a VP-level stakeholder on PinSight and (adjacently) Reflex.
+- **Andrew frame-capture residue.** In the Rajat meeting, both James and Andrew raised hands; James's turn came, demoed PinSight, which displaced Andrew's planned Reflex big-picture pitch. Andrew deferred with "I'll talk about the big picture later." James chose contribution-as-signal over verbal repair (ran CG context through Reflex with DS + PM bots, looped Andrew + Dylan on results). Political residue: Andrew's Reflex-framing with Rajat not yet reclaimed.
+- **Dylan opened Reflex Build-stage scoping in 3-person DM on 2026-04-16.** Unprompted. Proposed sequencing: easy wins first (CG deprecation, utility tuning) → advanced (features-to-model, parameter searching). Asked about auto-PR once hypothesis lands. Same pattern as her RLHF self-insert yesterday: moving from sponsor to operational participant. Green-light to increase Reflex Build scope while respecting pacing commitment (Slack tempo, not substance).
 
 ## Headline (week of 2026-04-07)
 

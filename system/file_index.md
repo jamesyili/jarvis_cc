@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-04-11
+Last updated: 2026-04-16
 
 ---
 
@@ -19,16 +19,17 @@ Last updated: 2026-04-11
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks | 2026-04-11 |
+| `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks | 2026-04-16 |
 | `direct_manager.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis | 2026-04-03 |
 | `dylan_1on1_log.md` | Rolling 1:1 log + prep for upcoming meetings | 2026-04-03 |
 | `team_members.md` | Direct report profiles (if exists — may overlap with stakeholders §8) | Unknown |
+| `hiring/em_backfill_bowen_2026-04-16.md` | EM backfill candidate interview feedback (Weak Lean No) | 2026-04-16 |
 
 ### work+self/projects/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `pinsight/pinsight.md` | Pinsight: M0 in production, M1 active, Reflex × Anticipation Vision convergence, 4-way nexus, wave-ride tripwires | 2026-04-11 |
+| `pinsight/pinsight.md` | Pinsight: M0 in production, M1 active, Reflex × Anticipation Vision convergence, 4-way nexus, wave-ride tripwires, Rajat VP engagement 2026-04-16 | 2026-04-16 |
 | `pinvestigator/pinvestigator.md` | PINvestigator: eval harness landed, Jeff demo + Manu dynamic, 5 next steps, JJ delegation plan | 2026-04-11 |
 | `retentive_recs/retentive_recs.md` | Retentive Recommendations: program status (UCAN WAU stable), three prediction tracks, KDD 2026 paper plan, Engineering Blog editor role, co-author roster, Anticipation Vision. **Moved into `retentive_recs/` subdirectory 2026-04-11.** | 2026-04-11 |
 | `upp/upp_march_2026.md` | UPP: March 2026 must-win historical log + April 2026 status update (5-prong hands-off operating mode, Sai correction, Dylan-update corrections with Dafang He / Zihao Chen / Dimitra / Zhenyu Tan / Rui, tripwires). Renamed from `upp_must_win_march2026.md` and moved to `upp/` subdirectory on 2026-04-11. | 2026-04-11 |
