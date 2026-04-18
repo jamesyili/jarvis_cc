@@ -14,83 +14,100 @@
 
 Supporting context:
 - Dylan is "Preferred AI Leader"–framing James (April 3 1:1, "run things by me").
-- Dylan is building her own image-search demo with Jeff — staking personal AI-technical credibility.
+- Dylan is building her own image-search demo with Jeff — staking personal AI-technical credibility. **Privileged context (keep between James and Dylan):** Jeff is evaluating integration partnerships with Microsoft AI, Gemini, and OpenAI. Dylan's demo is positioned against those alternatives. Her visible nervousness during the 10–15 min demo in last 1:1 confirms high personal stakes. Do NOT reference the partnership evaluation to anyone — Andrew, Dhruvil, etc.
 - Dylan opened the config-change-wins direction in the Reflex 3-person DM (CG deprecation, utility tuning, auto-PR once hypothesis lands).
 - Dylan proposed the critic-agent architecture in the Andrew-Reflex thread on 2026-04-17 (7:27 PM): *"I think we should have a critic agent, and spend time training it. This critic agent will do quality check and prune."*
+- **Andrew scheduled an RLHF-feedback event** with James, Dhruvil, Rahul, Anna, Matt, Andrew, and Dylan — 7 experts putting RLHF feedback into the cards. This creates both a timing forcing function for the critic agent and a rare assembled audience.
 - Andrew political residue (4/16 Rajat frame-capture moment) appears substantially repaired: Andrew publicly called James's PR "🔥", approved it as his first-ever dev approval ("LEGIT!!!!!"), and told Dylan James's feedback was *"the most architecturally significant the board has received."*
+
+### REVISED PRIORITIES (post-context from 2026-04-19)
+
+**Ranked:**
+
+1. **Critic agent — ship before Andrew's RLHF event.** Highest leverage by far.
+2. **Pinner Understanding + real profiles for Dylan's image-search demo — offer this 1:1, deliver by EOW if she takes it.** Director-altitude strategic contribution, not peer-help.
+3. **CG quota Eng Agent (coding agent) — defer to next week.** Still valuable, no hard timing pressure.
+4. **Harness proposal to Andrew — defer to AFTER the RLHF event.** Critic-agent artifact proves the architectural point; write up the harness proposal informed by what you learn from the RLHF session.
+
+### Why this ordering
+
+**Critic agent (#1):**
+- Andrew's event produces training data on arrival. 7 experts entering RLHF feedback = scalable training signal for the critic agent in real time.
+- Dylan literally proposed the architecture 4 days ago. 4-day idea-to-prototype turnaround on her architecture is the "helps me scale" mechanism made visible.
+- Presenting the critic agent at the RLHF event positions James as the technical lead on the Reflex intelligence layer in front of 6 other peers + Dylan + Andrew simultaneously. That audience doesn't assemble often.
+
+**Pinner Understanding offer (#2):**
+- Dual-use — James is building this for PinSight regardless. Marginal cost to front-load for Dylan's demo ≈ zero.
+- Image search without user context = Gemini. Image search with Pinner Understanding + real profiles + hypothetical searches + simulated outcomes = only Pinterest can do this. That's Dylan's entire competitive frame vs. the partnership alternatives Jeff is evaluating.
+- Dylan's visible nervousness signals high personal stakes. The offer reduces her stress, not adds pressure.
 
 ### Pre-share Slack message to Dylan (send Sunday night or Monday AM)
 
-> Three AI threads I've been building toward — wanted you to see the shapes before Tuesday. (1) Your config-change-wins direction is landing as draft PRs from the Eng Agent. (2) Your critic-agent idea from Thursday night is running over the cards — I have a rough version. (3) I've got a harness-streamline proposal for Andrew that I want to run by you first. Roughly 15 min if you have it before Tuesday.
+> Two AI threads I've been building toward — wanted you to see the shapes before Tuesday. (1) Your critic-agent idea from Thursday night is running over the cards; I have a rough version and want to have it ready for Andrew's RLHF event. (2) Heads-up, I'm also thinking about an offer on your image-search demo — tell you more Tuesday. Roughly 15 min if you have it before then.
 
-Why it works: initiate-don't-react energy applied to the manager relationship. Matches Dhruvil's P6 pattern. All three items are framed as execution on directions Dylan herself opened — not net-new James priorities.
+Why it works: initiate-don't-react energy. Leads with her own idea. Teases the Pinner Understanding offer without unpacking it in Slack (preserves the in-person moment). Does not name CG quota Eng Agent or harness proposal — both deferred.
 
 ### Per-thread value propositions (Dylan-coded language)
 
-**1. CG quota Eng Agent (Monday #1)**
-- **Value:** Direct execution on config-change-wins direction she proposed. Auto-PR pattern scales config-tuning throughput without requiring more Dylan attention.
-- **Lead:** *"Following up on the config-change-wins direction you opened — the Eng Agent is landing draft PRs for CG quota tuning. Wanted to show you where it is before it lands anywhere broader."*
+**1. Critic agent over expert cards (PRIORITY #1)**
+- **Value:** Literally building what she proposed 2026-04-17 at 7:27 PM. Addresses Andrew's "ocean of opportunities" pain from the same thread. Converts the upcoming 7-expert RLHF event into scalable training signal instead of raw comments.
+- **Lead:** *"On your critic-agent idea from Thursday night — I've been building toward exactly that shape. I have a rough version running over the expert cards. If I can have it functional by Andrew's RLHF event, we turn 7 experts' cognitive time into training signal on arrival, instead of just raw comments on cards."*
 
-**2. Critic agent over expert cards (Monday #2)**
-- **Value:** Literally building what she proposed 2026-04-17 at 7:27 PM. Fast prop-to-prototype turnaround = her ideas move. Also addresses Andrew's "ocean of opportunities" pain from the same thread.
-- **Lead:** *"On your critic-agent idea from last night — I've been building toward exactly that shape. I have a rough version running over the expert cards; wanted you to see where it is."*
+**2. Pinner Understanding + profiles for image-search demo (PRIORITY #2)**
+- **Value:** Director-altitude strategic contribution. Differentiates Pinterest's offering from Gemini / MSFT AI / OpenAI at the moment Jeff is evaluating partnerships. James is building the Pinner Understanding pieces for PinSight anyway — zero marginal cost to deliver dozens of real profiles + hypothetical searches + simulated outcomes for Dylan's demo.
+- **Opening (in the 1:1, not a pre-share):** *"Separate topic — I've been thinking about the image-search demo you showed me last 1:1. I'm building Pinner Understanding + a few dozen real profiles for PinSight this week anyway. If you can use them in the demo, I'll front-load and have them ready by [date]. Gives it something Gemini literally can't show — Pinterest-native user context at the search step."*
+- **Framing discipline:** Stand on merit of the offer itself. Do NOT reference the partnership evaluation (privileged). Dylan can introduce competitive stakes if she chooses.
+- **Read her response carefully:** Some people want collaboration on high-stakes demos; others want sole ownership. If she says *"Jeff and I have it handled,"* don't push — the offer itself already landed as partnership. If she leans in, deliver with urgency by EOW.
+- **Do not:** phrase as "do you want help." Do not crowd Jeff's role.
 
-**3. Harness streamline proposal to Andrew (Monday #3)**
-- **Value:** Her team has architectural presence in Andrew's design space. She doesn't have to personally mediate Andrew's architecture; her IC does. Peer-differentiation in action.
-- **Lead:** *"I've been putting together a proposal to streamline Andrew's harness based on the latest claude-code practitioner patterns. Want to show you the shape — thinking of sharing with Andrew directly this week."*
-- **Calibration:** Given Andrew's warmth in the 2026-04-17 thread, sharing with Andrew directly is lower-risk than previously assumed. Still loop Dylan first, but she does NOT need to bless framing before Andrew sees it. Make sure the proposal addresses Andrew's actual pain: "my agents completely lost Presto & Experiments MCPs somewhere in along the runs that past 24 hours."
-
-**4. Infra / CSI ask**
-- **Value:** Specific named ask = zero cognitive tax. She gets to move for the team (Director-move she already enjoys — see the Dhruvil P6 escalation pattern).
+**3. Infra / CSI specific ask**
+- **Value:** Specific named ask = zero cognitive tax. Director-move she enjoys (see Dhruvil P6 escalation pattern).
 - **Lead (pick the most concrete):**
   - *"Can you connect me with [named infra leader] on upstream pipeline failures this week? Oncall is absorbing transient issues that should be caught upstream."*
   - *"FYI on David Sun re: Forge.dev scope for Unity backend debugging — planning to loop him in by [date]. No action unless you want to steer differently."*
 
-**5. Image-search demo offer (her project with Jeff)**
-- **Value:** Free force multiplier on her personal AI demo. Signals peer energy, not self-promotion. Reciprocity for her AFK PR reviews and in-thread architecture contributions.
-- **Opening (in the 1:1, not a pre-share):** *"Separate topic — I heard you're building image search with Jeff. What's the pitch?"*
-- **Then match offer to her description:**
-  - Discovery mode → *"Happy to be a sounding board on the architecture when it'd be useful, or pair for an hour if you ever hit a gnarly retrieval question."*
-  - Build mode on specific blocker → *"Want a second set of eyes on [the specific thing she mentioned]? No pressure."*
-  - Demo-prep mode → *"Want a pre-demo brutal-but-kind pass? I can be a useful first audience."*
-- **Do not:** phrase as "do you want help." Phrase as gift energy ("if you'd ever find it useful, here's what I could offer"). Do not crowd Jeff's role. If she declines, don't push — the offer itself did the work.
+**4. (Brief mention only) CG quota Eng Agent — shipping next week**
+- Single-sentence FYI: *"Also working on an Eng Agent that auto-drafts PRs for CG quota tuning — executing your config-change-wins direction. Not ready to show yet; next week."*
+- Do not spend time on this beyond the mention.
 
 ### Through-line
 
 If pressed for the single sentence that ties it all together:
 
-> *"Three AI threads I've been building toward — all executing on directions you or Andrew opened — plus I want to be useful on your image search if you'd find it helpful."*
+> *"Critic agent running over the cards for Andrew's RLHF event, Pinner Understanding + profiles you can use in the image-search demo, and a specific infra connection I'd like your help on. CG quota Eng Agent landing next week."*
 
 ### 1:1 flow (45 min)
 
-1. **Critic agent → Monday #2** (hook — leads with her own idea from Thursday). ~3 min.
-2. **Config-change-wins → Monday #1** (Eng Agent PR). ~5 min.
-3. **Harness proposal → Monday #3** (pre-align, plan to share with Andrew this week). ~5 min.
-4. **Infra/CSI specific ask.** ~3 min.
-5. **Image-search demo — genuine curiosity, then calibrated offer.** ~10-15 min.
-6. **Open space — anything on her mind.** Remainder.
+1. **Critic agent** — lead. Frame as executing her Thursday-night proposal. Tie to Andrew's RLHF event timing. ~8 min.
+2. **Pinner Understanding offer for image-search demo** — genuine curiosity first ("how's the demo coming?"), then Pinner Understanding offer. ~15 min.
+3. **Infra/CSI specific ask.** ~3 min.
+4. **CG quota Eng Agent brief mention.** ~1 min.
+5. **Open space — anything on her mind.** Remainder.
 
-The image-search moment goes in the middle, not the end. Never put the reciprocity move in the time-pressure slot.
+The image-search moment moves up in priority (was mid, now near-top) because the partnership-decision timing is now known to be live. Harness proposal is out of this meeting entirely.
 
 ### Risks to watch
 
-- **Volume fatigue.** Three Monday threads is a lot. If Dylan leans into one, drop the other two to mentions. Don't force all three through.
-- **Her demo as the real agenda.** She may want to think out loud about image search. Read the energy early — if she's hungry for sounding-board time, give it.
+- **Her demo as the real agenda.** High personal stakes for Dylan on image search. Read the energy early — if she wants extended sounding-board time, give it. The 15-min budget is a floor, not a ceiling.
+- **Privileged-info slip.** Do not reference Jeff's MSFT/Gemini/OpenAI evaluation in front of anyone. The Pinner Understanding offer stands on its own merits ("differentiates from Gemini") without ever naming the partnership context.
+- **Nervousness signal.** Her visible nervousness during the last demo suggests protectiveness. If she resists the offer, back off immediately — the offer itself is the win.
+- **Volume fatigue.** Three items is tight; if Dylan leans deep into image search, drop the infra ask to a follow-up Slack. Don't force everything through.
 - **UPP trap.** She's bored by UPP FYIs. Do not recap UPP status. Surface only if something material changed.
-- **Competing-technical-depth trap.** Don't match her image-search demo with "here's what I'd do differently." Offer to unlock her vision, not redirect it.
+- **Competing-technical-depth trap on her demo.** Don't match with "here's what I'd do differently." Offer to unlock her vision, not redirect it.
 
 ### Absolute don'ts
 
 - Use the word "escalation." Ever. (Locked in from Jan 2026 UPP/Matthew incident.) Substitute: "request," "unblock," "resourcing ask."
-- Surprise Dylan with the harness proposal to Andrew after the fact.
-- Spend budget on what's on track.
+- Reference the Jeff partnership evaluation to anyone, ever.
+- Surprise Dylan with the harness proposal to Andrew after the fact (even though it's deferred — when it does land, she sees it first).
+- Spend budget on what's on track (UPP, Pinsight M1 status, Charlie PIP).
 
 ### Open calibration questions (resolve before Monday EOD)
 
-1. Will the CG quota Eng Agent PR actually be visible by Tuesday (draft PR in the config repo), or is Monday exploratory? Demo-reality matters.
-2. Has Andrew seen any version of the harness proposal? If yes, what was the temperature?
-3. What's the specific infra/CSI ask — named contact, scope decision, or rotation formalization? Pick one.
-4. Does Dylan know James is building a meta-reflection agent? If net-new to her, lead carefully with the critic-agent-hook framing.
+1. **Andrew's RLHF event — when exactly is it?** This determines the critic-agent shipping deadline.
+2. **What's the specific infra/CSI ask** — named contact, scope decision, or rotation formalization? Pick one.
+3. **Pinner Understanding delivery date** — what's realistic for end-of-week if Dylan takes the offer? Need a specific date ready in case she says yes.
+4. **Does Dylan know James is building a meta-reflection agent** (pre-critic-agent naming)? If net-new to her, lead carefully with the critic-agent-hook framing so it reads as her idea being built, not James's net-new project.
 
 ---
 
