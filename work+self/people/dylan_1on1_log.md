@@ -4,6 +4,96 @@
 
 ---
 
+## 2026-04-21 (Tuesday) — Dylan 1:1 Prep
+
+**Status:** PREP (not yet happened). Meeting Tuesday 2026-04-21.
+
+### High-level demonstration
+
+*"I'm converting the Reflex direction into landed wins — in a way that compounds your AI leadership narrative, not competes with it."*
+
+Supporting context:
+- Dylan is "Preferred AI Leader"–framing James (April 3 1:1, "run things by me").
+- Dylan is building her own image-search demo with Jeff — staking personal AI-technical credibility.
+- Dylan opened the config-change-wins direction in the Reflex 3-person DM (CG deprecation, utility tuning, auto-PR once hypothesis lands).
+- Dylan proposed the critic-agent architecture in the Andrew-Reflex thread on 2026-04-17 (7:27 PM): *"I think we should have a critic agent, and spend time training it. This critic agent will do quality check and prune."*
+- Andrew political residue (4/16 Rajat frame-capture moment) appears substantially repaired: Andrew publicly called James's PR "🔥", approved it as his first-ever dev approval ("LEGIT!!!!!"), and told Dylan James's feedback was *"the most architecturally significant the board has received."*
+
+### Pre-share Slack message to Dylan (send Sunday night or Monday AM)
+
+> Three AI threads I've been building toward — wanted you to see the shapes before Tuesday. (1) Your config-change-wins direction is landing as draft PRs from the Eng Agent. (2) Your critic-agent idea from Thursday night is running over the cards — I have a rough version. (3) I've got a harness-streamline proposal for Andrew that I want to run by you first. Roughly 15 min if you have it before Tuesday.
+
+Why it works: initiate-don't-react energy applied to the manager relationship. Matches Dhruvil's P6 pattern. All three items are framed as execution on directions Dylan herself opened — not net-new James priorities.
+
+### Per-thread value propositions (Dylan-coded language)
+
+**1. CG quota Eng Agent (Monday #1)**
+- **Value:** Direct execution on config-change-wins direction she proposed. Auto-PR pattern scales config-tuning throughput without requiring more Dylan attention.
+- **Lead:** *"Following up on the config-change-wins direction you opened — the Eng Agent is landing draft PRs for CG quota tuning. Wanted to show you where it is before it lands anywhere broader."*
+
+**2. Critic agent over expert cards (Monday #2)**
+- **Value:** Literally building what she proposed 2026-04-17 at 7:27 PM. Fast prop-to-prototype turnaround = her ideas move. Also addresses Andrew's "ocean of opportunities" pain from the same thread.
+- **Lead:** *"On your critic-agent idea from last night — I've been building toward exactly that shape. I have a rough version running over the expert cards; wanted you to see where it is."*
+
+**3. Harness streamline proposal to Andrew (Monday #3)**
+- **Value:** Her team has architectural presence in Andrew's design space. She doesn't have to personally mediate Andrew's architecture; her IC does. Peer-differentiation in action.
+- **Lead:** *"I've been putting together a proposal to streamline Andrew's harness based on the latest claude-code practitioner patterns. Want to show you the shape — thinking of sharing with Andrew directly this week."*
+- **Calibration:** Given Andrew's warmth in the 2026-04-17 thread, sharing with Andrew directly is lower-risk than previously assumed. Still loop Dylan first, but she does NOT need to bless framing before Andrew sees it. Make sure the proposal addresses Andrew's actual pain: "my agents completely lost Presto & Experiments MCPs somewhere in along the runs that past 24 hours."
+
+**4. Infra / CSI ask**
+- **Value:** Specific named ask = zero cognitive tax. She gets to move for the team (Director-move she already enjoys — see the Dhruvil P6 escalation pattern).
+- **Lead (pick the most concrete):**
+  - *"Can you connect me with [named infra leader] on upstream pipeline failures this week? Oncall is absorbing transient issues that should be caught upstream."*
+  - *"FYI on David Sun re: Forge.dev scope for Unity backend debugging — planning to loop him in by [date]. No action unless you want to steer differently."*
+
+**5. Image-search demo offer (her project with Jeff)**
+- **Value:** Free force multiplier on her personal AI demo. Signals peer energy, not self-promotion. Reciprocity for her AFK PR reviews and in-thread architecture contributions.
+- **Opening (in the 1:1, not a pre-share):** *"Separate topic — I heard you're building image search with Jeff. What's the pitch?"*
+- **Then match offer to her description:**
+  - Discovery mode → *"Happy to be a sounding board on the architecture when it'd be useful, or pair for an hour if you ever hit a gnarly retrieval question."*
+  - Build mode on specific blocker → *"Want a second set of eyes on [the specific thing she mentioned]? No pressure."*
+  - Demo-prep mode → *"Want a pre-demo brutal-but-kind pass? I can be a useful first audience."*
+- **Do not:** phrase as "do you want help." Phrase as gift energy ("if you'd ever find it useful, here's what I could offer"). Do not crowd Jeff's role. If she declines, don't push — the offer itself did the work.
+
+### Through-line
+
+If pressed for the single sentence that ties it all together:
+
+> *"Three AI threads I've been building toward — all executing on directions you or Andrew opened — plus I want to be useful on your image search if you'd find it helpful."*
+
+### 1:1 flow (45 min)
+
+1. **Critic agent → Monday #2** (hook — leads with her own idea from Thursday). ~3 min.
+2. **Config-change-wins → Monday #1** (Eng Agent PR). ~5 min.
+3. **Harness proposal → Monday #3** (pre-align, plan to share with Andrew this week). ~5 min.
+4. **Infra/CSI specific ask.** ~3 min.
+5. **Image-search demo — genuine curiosity, then calibrated offer.** ~10-15 min.
+6. **Open space — anything on her mind.** Remainder.
+
+The image-search moment goes in the middle, not the end. Never put the reciprocity move in the time-pressure slot.
+
+### Risks to watch
+
+- **Volume fatigue.** Three Monday threads is a lot. If Dylan leans into one, drop the other two to mentions. Don't force all three through.
+- **Her demo as the real agenda.** She may want to think out loud about image search. Read the energy early — if she's hungry for sounding-board time, give it.
+- **UPP trap.** She's bored by UPP FYIs. Do not recap UPP status. Surface only if something material changed.
+- **Competing-technical-depth trap.** Don't match her image-search demo with "here's what I'd do differently." Offer to unlock her vision, not redirect it.
+
+### Absolute don'ts
+
+- Use the word "escalation." Ever. (Locked in from Jan 2026 UPP/Matthew incident.) Substitute: "request," "unblock," "resourcing ask."
+- Surprise Dylan with the harness proposal to Andrew after the fact.
+- Spend budget on what's on track.
+
+### Open calibration questions (resolve before Monday EOD)
+
+1. Will the CG quota Eng Agent PR actually be visible by Tuesday (draft PR in the config repo), or is Monday exploratory? Demo-reality matters.
+2. Has Andrew seen any version of the harness proposal? If yes, what was the temperature?
+3. What's the specific infra/CSI ask — named contact, scope decision, or rotation formalization? Pick one.
+4. Does Dylan know James is building a meta-reflection agent? If net-new to her, lead carefully with the critic-agent-hook framing.
+
+---
+
 ## 2026-04-07 (Tuesday) — Dylan 1:1 Debrief
 
 **Outcome:** Short and sweet. Went well.
