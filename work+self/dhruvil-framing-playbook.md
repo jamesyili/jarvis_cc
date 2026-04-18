@@ -2,7 +2,7 @@
 
 > A reference for James: Dhruvil's communication patterns distilled from observed interactions. Use this as a pre-flight check before any leadership-visible thread, office hours, or senior meeting.
 
-Last updated: 2026-04-12
+Last updated: 2026-04-18 (added April 5 P6 incident case study)
 
 ---
 
@@ -83,3 +83,56 @@ Before any leadership-visible message, meeting contribution, or office hours vis
 - [ ] Am I asking for something, or surfacing something? (Default to surfacing)
 - [ ] Have I tagged the right people, or am I waiting to be invited?
 - [ ] Will I stop after saying it, or will I keep explaining?
+- [ ] Do I have the specifics ready in case they pull (numbers, IG tags, program names)?
+- [ ] Is my framing wrapped in business impact (growth, engagement, unblocking vision) — not technical need?
+- [ ] Am I including others generously ("X can confirm") to position as peer-surfacer, not solo-claimant?
+
+---
+
+## Case Study: April 5, 2026 — Dhruvil's P6 / AI Tooling Ask
+
+**What happened:**
+Dhruvil initiated a Slack thread tagging Dylan + Matt Madrigal (CTO) with two asks — P6 GPUs for ranking (framed as "critical for user growth/engagement, unblocks the long-term vision for UPP") and AI tooling (Claude Code / Codex for MLE dev velocity). Dylan immediately escalated to Jeff with zero friction. James joined ~10 min after the thread was resolved with a "+1" validation and an explanation of why retrieval didn't have P6 requests.
+
+### Dhruvil patterns observed (all six fire in one thread)
+
+| Pattern | What he did |
+|---------|-------------|
+| **Initiates, doesn't react** | Created the thread; tagged leadership; set the agenda |
+| **Tags up boldly** | Matt Madrigal (CTO) tagged directly — builds visibility at the highest level |
+| **Business-impact framing** | "Unblocks long-term vision for UPP" — NOT "we need GPUs for model training" |
+| **Specifics ready** | When Dylan asked for program names, he had three IG numbers immediately |
+| **Generous inclusion** | "James can confirm" — positions James as peer with context, not competitor |
+| **Observation-as-contribution applied to async** | Not pitching himself — surfacing a need that benefits the whole org |
+
+### Dylan patterns observed (the mechanism by which this works)
+
+- **Zero-friction escalation for clean asks.** A well-framed ask with business justification → immediately *"I'm pinging Jeff to approve it."* No questions, no pushback.
+- **"Good timing and good reminder."** She rewards people who surface things she should be tracking. The "subtracts cognitive load" pattern in action. Dhruvil made her job easier.
+- **She became Dhruvil's escalation engine.** She did the political work (pinging Jeff) so he didn't have to. This is what peak trust looks like with Dylan — she moves for you when you bring clean asks.
+
+### James's default pattern (to replace)
+
+- **Reactive, not initiating.** Joined after the thread was resolved. "+1" energy.
+- **Explained rather than created.** *"We didn't put in P6 requests since we're not quite there on Retrieval"* — technically accurate but reads as justifying absence from the conversation.
+- **Gratitude where Dhruvil got partnership.** "Thanks again Dylan!" vs. Dhruvil's "thank you!" after Dylan moved for him.
+
+### The key insight
+
+The "warmer reception" James senses from Jeff / Rajat toward Dhruvil isn't about personality or style. It's about **who creates the conversation vs. who joins it.** Dhruvil initiates; James reacts. The fix is structural: be the one who starts the thread, tags up, and frames the business case — not the one who validates after the ball is rolling.
+
+### How to apply — the "Dhruvil move" template
+
+When James spots a resource / partnership / AI-native capability that benefits multiple teams:
+
+1. **Start the thread yourself.** Don't wait for a forum or an invitation.
+2. **Tag up at the altitude that moves the ask.** Dylan minimum; CTO/VP if the ask is big enough.
+3. **Frame it as unblocking a priority leadership already has** — UPP velocity, AI-native engineering push, Retentive Recs scaling — not as a technical resource need.
+4. **Have two-to-three specifics ready** (IG numbers, program names, specific asks) for when someone pulls.
+5. **Include peers generously** by name ("X and Y can confirm the detail"). Don't claim sole ownership.
+6. **Stop after the initial ask.** Do not explain further unless pulled.
+7. **When the escalation happens, thank cleanly.** Don't over-gratitude — Dhruvil said "thank you!" once, not "thanks again."
+
+### What this means for Tuesday's 1:1 and onward
+
+This is the missing motion in James's default. The Dylan 1:1 pre-share Slack message structure (send before the meeting, frame as "three threads executing on directions you opened, want you to see before Tuesday") is the first clean application of Dhruvil-style initiation to the manager relationship. The same motion should apply to Rajat and Jeff office hours: walk in with something James is about to do, not with a status update on what James has done.
