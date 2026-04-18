@@ -822,6 +822,8 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 
 # 9) Andrew Yaroshevsky — Sr. Director of Product
 
+**Updated 2026-04-17: Frame-capture residue not escalating.** Andrew replied positively in the 3-person DM (James + Dylan + Andrew) on James's PR and forward motion — no surface reference to the 4/16 Rajat-meeting moment where James took Andrew's Reflex-setup turn to demo PinSight. Read this as "not escalating," not "resolved." Declined-DM call from 2026-04-16 (contribution-as-signal over verbal repair) is validated so far. Caveat: unacknowledged frame-capture in high-trust circles compounds quietly; keep watching for downstream signals. Separate open thread: Andrew's Reflex-frame with **Rajat** is still displaced — Rajat's mental anchor from the meeting is PinSight-as-primary, and Andrew's "I'll talk about big picture later" hasn't been cashed yet.
+
 **Updated 2026-04-11: Major escalation this week.** Reflex co-development formalized; Anticipation Vision context now CTO-amplified; Andrew committed to landing Reflex code in git before Tuesday 2026-04-14 for explicit co-development with James.
 
 ## Role in my 6–12 month goals

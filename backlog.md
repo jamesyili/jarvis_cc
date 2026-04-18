@@ -2,7 +2,7 @@
 
 > Unified backlog: everything actionable in one place. Organized by what James does, not what system it lives in. Curriculum details live in `learning/learning_agenda.md` — this file tracks what to do next.
 
-**Last updated:** 2026-04-16 PST
+**Last updated:** 2026-04-17 PST
 
 ---
 
@@ -57,6 +57,7 @@ Leo system, KB, side projects, infrastructure.
 | Study claude-code-from-source → recsys applications | G2 (Pinsight/Reflex), agentic craft | Work through [alejandrobalderas/claude-code-from-source](https://github.com/alejandrobalderas/claude-code-from-source). Extract principles and patterns, then think through how to apply them to Reflex and Pinsight for building better recommendation systems. References: `kb/hard/raw/steve-yegge-thin-harness-fat-skills.md` (Yegge's "thin harness, fat skills" framework — skill files, resolvers, latent vs deterministic, diarization, learning loops), `kb/hard/raw/chrysb-llm-memory-unsolved.md` (@chrysb's deep dive on LLM memory — raw vs derived tradeoff, 9-axis design space, failure modes, evaluation paradox). Good China trip material (reading + thinking, phone-friendly). | 3-5 hrs | Not started | P1 |
 | Fix consult-notebook agent live querying | Leo quality | Root cause found + fixed 2026-04-11: `.claude/agents/consult-notebook.md` had wrong MCP tool name (`mcp__notebooklm-mcp__notebook_query` — does not exist), macOS paths on Linux, no hard tool-call instruction. Rewritten to mirror `consult.md` pattern: correct tools, inline UUIDs, hard "must call" instruction, ERROR failsafe, audit trail via `notebooklm/query_log.md`. Redundant `consult.md` deleted. | 1-2 hrs | **Done 2026-04-11.** Verification mechanism: check `query_log.md` grows on next real spawn. | — |
 | Integrate GSD for side projects | Workflow | Explore `get-shit-done` framework. Does it complement Leo? | 1 hr | Not started | P3 |
+| Viral remix pipeline (w/ Daniel) | G5 interview optionality — craft/portfolio bet + distribution-learning bet | Faceless celebrity/news/entertainment video remix pipeline. Scrape viral clips (YouTube Shorts first) → VLM-annotate → retrieve → commentary-overlaid remix → post. MVP exit = 3–5 videos end-to-end + blog post draft. Plan: `work+self/projects/viral_remix_plan.md`. Blueprint: `plans/viral-remix-construction-blueprint.md`. James 5–10 hrs/wk (co-pilot), Daniel 10–15 hrs/wk (primary). Separate repo, created in Step 1. **Step 0 gate** (attorney consult, channel identity, cost spike, GCP/OAuth) blocks any code. Not tied to @rekko.ai brand. Not a revenue bet. | 120–180 hrs / 10–14 weeks | **NEW 2026-04-17.** Plan + blueprint drafted 2026-04-17. Daniel consult pending. | P2 |
 | Interview-prep mode | Career optionality | Framework for side projects that double as interview prep for OpenAI/Anthropic. Folded into Track 3 + blog posts. | 2 hrs | Subsumed by Track 3 + Write items | P3 |
 
 ## Work
