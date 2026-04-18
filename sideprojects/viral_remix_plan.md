@@ -1,7 +1,7 @@
 # Viral Remix Pipeline — High-Level Plan
 
 **Status:** Pre-PRD. Convert this into a formal PRD before starting build.
-**Owners:** Daniel (primary, 10–15 hrs/wk), James (co-pilot, 5–10 hrs/wk)
+**Owners:** Daniel, James
 **Repo:** Separate repo, TBD (not `rekko.ai`)
 **Date:** 2026-04-17
 
@@ -120,7 +120,7 @@ James and Daniel are the only operators. The pipeline is not productized for ext
 
 **Risks that commentary does NOT solve:**
 
-- **Content ID (YouTube) + TikTok fingerprint match** will flag uploads automatically regardless of fair-use posture. **Expect 20–40% takedown/demonetization rate.** Operations plan needs a dispute queue + counter-notification workflow. Budget Daniel time for this — 1–2 hrs/week ongoing.
+- **Content ID (YouTube) + TikTok fingerprint match** will flag uploads automatically regardless of fair-use posture. **Expect 20–40% takedown/demonetization rate.** Operations plan needs a dispute queue + counter-notification workflow. Daniel carries the ongoing dispute-queue load.
 - **Right of publicity (CA §3344, NY, TX, VA)** is orthogonal to copyright. Celebrity likeness used commercially = separate cause of action. News/commentary framing mitigates but doesn't eliminate. Avoid deepfakes and misleading framing completely.
 - **AI-generated commentary is legally untested.** Courts have not definitively ruled on whether AI editorial qualifies as transformative under §107 factor 1. Carrying novel risk the incumbents (TMZ et al.) are not.
 
@@ -130,7 +130,7 @@ James and Daniel are the only operators. The pipeline is not productized for ext
 
 **This is the biggest gap in the current plan.** Build ≠ operate. Successful celebrity/news content farms post 3–10 videos/day, respond to breaking news within hours, and maintain editorial consistency. Current plan covers build; does not cover operate.
 
-**Week 1 deliverable (Daniel, 4–6 hrs):** Reverse-engineer 10 successful celebrity/news/entertainment channels on TikTok + YouTube Shorts. Output: a spreadsheet with:
+**Week 1 deliverable (Daniel):** Reverse-engineer 10 successful celebrity/news/entertainment channels on TikTok + YouTube Shorts. Output: a spreadsheet with:
 
 - Channel name + platform + subscriber count
 - Posts per day, posts per week
@@ -208,10 +208,10 @@ This work comes **before** significant code is written. It sizes the operating m
 ## 12. Proposed First Actions (Next 2 Weeks)
 
 **Week 1:**
-1. Daniel: reverse-engineer 10 successful channels, produce the spreadsheet above (4–6 hrs)
-2. James: book IP attorney consult ($500–1K, 1 hour)
-3. Both: decide channel name + identity + specific sub-niche focus (2 hrs together)
-4. James: set up new repo scaffold, port Rekko's scraper modules as starting infra (2–3 hrs)
+1. Daniel: reverse-engineer 10 successful channels, produce the spreadsheet above
+2. James: book IP attorney consult ($500–1K)
+3. Both: decide channel name + identity + specific sub-niche focus
+4. James: set up new repo scaffold, port Rekko's scraper modules as starting infra
 
 **Week 2:**
 1. Daniel: write first draft of the PRD using this plan as input
@@ -233,7 +233,6 @@ This work comes **before** significant code is written. It sizes the operating m
 | Unique channel identity | Consistent intro/outro + distinctive voice. |
 | Brand tie-in | Separate sister channel, not @rekko.ai. Can tie back later. |
 | Primary KPI | (i) Craft/portfolio bet + (ii) Distribution-learning bet. NOT revenue. |
-| Time commit | James 5–10 hrs/wk, Daniel 10–15 hrs/wk. Combined ~20–25 hrs/wk. |
 | Repo | Separate from `rekko.ai`. |
 | Platform-first | YouTube Shorts (MVP), then TikTok (Phase 2). |
 
@@ -242,7 +241,7 @@ This work comes **before** significant code is written. It sizes the operating m
 | Risk | Accepted because |
 |------|------------------|
 | Legal exposure on celebrity content | Commentary-heavy framing matches TMZ / PopCrave pattern that survives. Lawyer consult pre-build is the mitigation. |
-| Content ID takedowns at 20–40% rate | Operational cost absorbed by Daniel (1–2 hrs/wk dispute queue). |
+| Content ID takedowns at 20–40% rate | Operational cost absorbed by Daniel's dispute-queue handling. |
 | Distribution skill gap | Reverse-engineering playbook (week 1) is the learning wedge. |
 | Small revenue ceiling for the scope of build | Explicitly reframed as craft + distribution-learning bet, not revenue bet. Revenue is lag indicator only. |
 | 10-year crawl fantasy | Descoped to 6–12 month rolling window. |

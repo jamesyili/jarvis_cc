@@ -4,7 +4,6 @@
 
 **Source plan:** `work+self/projects/viral_remix_plan.md`
 **Date:** 2026-04-17
-**Owners:** Daniel (primary, 10–15 hrs/wk), James (co-pilot, 5–10 hrs/wk)
 **Target repo:** New repo, created in Step 1 (tentative: `jamesyili/viral-remix` or `jamesyili/<channel-name>`). This plan lives in `leo/plans/` until the target repo exists, then moves to `<target-repo>/plans/`.
 **Pre-flight:** git ✓, gh ✓ (authenticated as jamesyili). Target repo will be created in Step 1. Full branch/PR/CI workflow mode enabled.
 
@@ -48,9 +47,63 @@ STEP 4 (VLM annotation) ────► STEP 5 (clip DB) ◄──┐
 
 **Serial-only:** Step 0 → Step 1 → Step 2 → Step 3. Step 10 depends on 7+8+9. Step 11 depends on 10.
 
-**Total estimated effort:** ~80–120 hours of nominal build work across Daniel + James. **Realism buffer: assume 120–180 hrs / 10–14 weeks in practice** — adversarial review flagged estimates low by 30–50%, and James's Pinterest day-job load makes interrupts likely. Step 0 is ~8–12 hrs (non-code).
-
 **"Full branch/PR/CI workflow mode" (preamble clarification):** Every code step gets its own branch (`step-<n>-<slug>`), a PR to `main` with CI required (ruff + mypy + pytest green), a description referencing this plan's step number, and squash-merge on approval. Each PR is one step. No direct commits to `main`.
+
+---
+
+## What We Leverage from Rekko
+
+A deep-dive of `/home/james/src/rekko.ai/` (verified 2026-04-17) reveals substantial portable infrastructure. Roughly **70–80% of the non-domain-specific code can be reused** by porting + stripping prediction-market references. Line counts below are verified via `wc -l`.
+
+**Reuse categories:**
+- **Direct port** = copy file, strip prediction-market imports, minimal rework
+- **Adapt** = useful pattern, needs domain rework (usually lexicons, queries, or composition components)
+- **Reference** = copy the approach, not the code
+
+### Mapped to viral-remix pipeline stages
+
+| Stage | Rekko module(s) | Lines | Category | Notes |
+|-------|-----------------|-------|----------|-------|
+| **Step 2** — YouTube Shorts scrape | `src/rekko_server/scrapers/youtube_shorts.py` | 234 | **Direct** | Override `SEARCH_KEYWORDS` (prediction-market terms → celebrity/news); `viral_broll_min_peak_views` is configurable and reusable |
+| Step 2 — discovery orchestrator | `src/rekko_server/scrapers/viral_discovery.py` | 155 | Reference | Fan-out pattern for multi-source discovery |
+| Step 2 — B-roll scraper | `src/rekko_server/scrapers/viral_broll.py` | 1,011 | Adapt | Language/script filter (`_NON_LATIN_RANGES`) + platform video-ID tracking directly portable; strip market-lookup logic |
+| Step 2 — yt-dlp downloader | `src/rekko_server/scrapers/viral_broll_downloader.py` | 72 | **Direct** | `asyncio.to_thread` + format negotiation (`best[height≤1080][ext=mp4]`) — copy as-is |
+| Step 2 — semantic mapping | `src/rekko_server/scrapers/viral_mapper.py` | 294 | Adapt | Semantic matching pattern (cosine distance thresholds) reusable for topic→clip mapping; swap market scoring for category scoring |
+| **Step 3** — shot-boundary detect | *(gap — Rekko has nothing)* | — | — | Build fresh with PySceneDetect per Step 3 |
+| **Step 4** — VLM wrapper | `src/rekko_server/vision.py` | 50 | **Direct** | PydanticAI agent with automatic fallback on 429 rate-limits. Exactly the architecture needed for Gemini Flash VLM calls — 0% rework |
+| Step 4 — prompt loader | `src/rekko_server/prompts/__init__.py` | 23 | **Direct** | `load_prompt(name)` + `load_prompt_for_angle()` with fallback |
+| Step 4 — agent patterns | `src/rekko_server/agents/chat.py` (+ asset_gatherer, discovery, post_package) | 1,141 + | Reference | `Agent() + RunContext[Deps]` structure for building clip-annotation + script-generation agents |
+| **Step 5** — embeddings / semantic | `src/rekko_server/db/embeddings.py` | 200+ | **Direct** | Lazy-load sentence-transformers (all-MiniLM-L6-v2, 384d); sqlite-vec + pgvector dual support |
+| **Step 7** — prompt management | same as Step 4 prompt loader | 23 | **Direct** | Reuse prompt-loading utility |
+| **Step 8** — TTS (Kokoro local) | `src/rekko_server/video/tts.py` | 398 | Adapt | Direct port for mlx_audio wrapper, WAV writing, duration calc; replace prediction-market lexicon (e.g., "+EV" expansion) with entertainment/news lexicon |
+| Step 8 — TTS (ElevenLabs) | `src/rekko_server/video/tts_elevenlabs.py` | 443 | Adapt | Direct port for client init, voice settings (stability/similarity/style), MP3→WAV via ffmpeg. Replace section stability offsets (hook=-0.15, evidence=+0.10 tuned for PM) with entertainment-genre offsets |
+| **Step 9** — Remotion orchestrator | `src/rekko_server/video/remotion.py` | 394 | **Direct** | Asset symlink management, async subprocess, JSONL progress parsing — copy as-is |
+| Step 9 — Remotion composition | `remotion-video/` (TypeScript/TSX bundle) | **4,035** | Adapt | 9:16 TikTok-native composition already built. Keep: `Subtitles.tsx`, `BackgroundMusic`, `TextReveal`, `BRollSequence.tsx`, Section layout. Remove: `DataViz.tsx` (585 lines, odds graphs), `OddsLeaderboard.tsx`, `MarketReveal.tsx`, `CredibilityBadge`. **This is the single biggest leverage point** — the composition is most of Step 9 |
+| Step 9 — render entry | `remotion-video/render.ts` | 59 | **Direct** | Reads props.json, bundles, renders MP4 + thumbnail, streams JSONL progress |
+| **Step 10** — TikTok publish API | `src/rekko_server/publishing/tiktok.py` | 322 | **Direct** | OAuth refresh, chunked 5MB upload for >64MB files, status polling. **Note: viral-remix is YouTube-first; use this when we expand to TikTok in Phase 2.** YouTube upload logic is NOT in Rekko — build fresh in Step 10 |
+| Step 10 — publishing orchestrator | `src/rekko_server/publishing/__main__.py` | 171 | Adapt | CLI + metadata merge pattern reusable |
+| **Cross-cutting** — observability | `src/rekko_server/observability.py` | 36 | **Direct** | Logfire setup + PydanticAI/HTTPX instrumentation |
+| Cross-cutting — priority queue | `src/rekko_server/scheduler/queue.py` | 82 | **Direct** | Async priority queue + dedup by ticker (rename to campaign/topic). Useful for Phase 2 cadence automation |
+| Cross-cutting — scheduler loops | `src/rekko_server/scheduler/loops.py` + `schedule_loop.py` | 2,045 | Reference | Cron-like loops with graceful shutdown, exponential backoff, circuit breakers. Adopt pattern for Phase 2 discovery/processing/publish loops |
+| Cross-cutting — config/settings | `src/rekko_server/config.py` | modular | Reference | Pydantic Settings v2 with env vars + data dirs + API keys |
+
+### Not applicable (explicitly skipped)
+
+1. **Kalshi / Polymarket / Metaculus scrapers** — prediction-market APIs; skip.
+2. **ML ensemble forecasting** (`src/rekko_server/ml/*`) — binary outcome prediction; skip.
+3. **Textual TUI + Ink CLI** — skip for batch/API-first viral-remix.
+4. **X (Twitter) / Truth Social publishing** — out of Phase 1+2 scope.
+5. **Webhook ingestion / Feed server** — Rekko-specific live data; skip.
+
+### Implications for this blueprint
+
+1. **Step 9 (stitch + render) effort is overstated.** The Remotion composition (4,035 lines) is ~70% pre-built. Real work = pruning prediction-market components and rewiring for clip-centric beat sequencing. Skill invocation in Step 9 should reference `/video-editing` for the pruning, not greenfield Remotion work.
+2. **Step 8 (TTS) is closer to a configuration task than a build.** Both Kokoro and ElevenLabs paths exist with 800+ lines of wrapping. Lexicon swap + voice-id wiring is the only real work.
+3. **Step 4 VLM wrapper ships in minutes, not hours.** `vision.py` (50 lines) is exactly the rate-limit-tolerant PydanticAI wrapper we need. Copy, swap Gemini model, done.
+4. **Step 10 TikTok publish ships nearly free when we expand to Phase 2.** Right now YouTube-first means we still build YouTube upload from scratch (not in Rekko).
+5. **Scheduler + observability come "for free"** — Step 10's daily digest + cost alerting can reuse Logfire setup; Phase 2 cadence automation reuses the priority-queue + scheduler-loop infrastructure.
+
+**Port hygiene (non-negotiable):** Every ported file gets a grep pass for `from rekko_server`, `kalshi`, `polymarket`, `bet`, `market_key`, `ticker` — replaced with viral-remix-native terms. This enforces the "no Rekko imports" cross-cutting invariant from the start, not as an afterthought.
 
 ---
 
@@ -60,17 +113,16 @@ STEP 4 (VLM annotation) ────► STEP 5 (clip DB) ◄──┐
 **Parallel with:** None.
 **Model tier:** N/A (non-code, human decision work).
 **Owner:** Shared (James + Daniel).
-**Estimated effort:** 8–12 hrs total.
 
 ### Context brief
 Before any code is written, four pre-conditions must be satisfied. These close the operating-plan gap and retire the largest risks cheaply. The outputs of this step feed channel identity, voice design, and cost targets into later steps. If any output surfaces a kill-condition, rescope or abandon here.
 
 ### Tasks
-1. **Daniel — Reverse-engineer 10 successful channels.** TikTok + YouTube Shorts, celebrity/news/entertainment niche. Spreadsheet at `research/competitor-analysis.xlsx` (or Google Sheets link committed to repo) with columns: channel name, platform, subscriber count, posts/day, posts/week, avg video length, hook format (first 2 seconds), commentary-to-clip ratio estimate, editorial POV, recurring video formats, intro/outro pattern, caption style, breaking-news lag time. **Budget: 4–6 hrs.**
-2. **James — IP attorney consult.** Book + attend 1-hour consult. Brief attorney on BOTH sides: (a) **publish-side** — commentary-heavy faceless editorial, celebrity/news/entertainment niche, ≥2:1 commentary-to-footage ratio, short clip spans (3–5s), YouTube Shorts first; (b) **ingest-side** — scraping YouTube for raw video (yt-dlp fallback) violates YouTube ToS independent of publish-side fair use. Goals: stress-test fair-use posture, confirm right-of-publicity mitigations, get source-attribution recommendation, assess ingestion-ToS exposure + mitigation (API-only vs. yt-dlp-fallback). **Budget: $500–1K + 2 hrs prep+attend.**
-3. **Both — Channel identity + sub-niche + voice decisions.** Working session (2 hrs). Output: `docs/brand.md` with (a) channel name, (b) 2–3 sub-niche focus formats (e.g., "celebrity relationship drama breaking news," "retrospective deep dives," "reaction-style commentary"), (c) voice/persona definition (cloned voice vs. off-the-shelf ElevenLabs; if cloned, whose?), (d) intro/outro concept.
-4. **James — Cost spike on VLM annotation.** Manually annotate 10 keyframes via Gemini Flash API. Extrapolate to $/clip at MVP scale (10K clips). Document in `research/cost-model.md`. **Budget: 2 hrs.**
-5. **James — Google Cloud + YouTube upload credentials setup.** Create GCP project. Enable YouTube Data API v3. Configure OAuth consent screen with `youtube.upload` scope (restricted scope — requires app verification for >100 users; MVP is under cap but still requires consent-screen completion). Generate OAuth 2.0 credentials. Test token-refresh flow with a dry-run upload to a throwaway channel. Commit `.env.example` with variable names only (no secrets). **Budget: 1–2 hrs.** Blocks Step 10.
+1. **Daniel — Reverse-engineer 10 successful channels.** TikTok + YouTube Shorts, celebrity/news/entertainment niche. Spreadsheet at `research/competitor-analysis.xlsx` (or Google Sheets link committed to repo) with columns: channel name, platform, subscriber count, posts/day, posts/week, avg video length, hook format (first 2 seconds), commentary-to-clip ratio estimate, editorial POV, recurring video formats, intro/outro pattern, caption style, breaking-news lag time.
+2. **James — IP attorney consult.** Book + attend 1-hour consult. Brief attorney on BOTH sides: (a) **publish-side** — commentary-heavy faceless editorial, celebrity/news/entertainment niche, ≥2:1 commentary-to-footage ratio, short clip spans (3–5s), YouTube Shorts first; (b) **ingest-side** — scraping YouTube for raw video (yt-dlp fallback) violates YouTube ToS independent of publish-side fair use. Goals: stress-test fair-use posture, confirm right-of-publicity mitigations, get source-attribution recommendation, assess ingestion-ToS exposure + mitigation (API-only vs. yt-dlp-fallback). **Budget: $500–1K.**
+3. **Both — Channel identity + sub-niche + voice decisions.** Working session. Output: `docs/brand.md` with (a) channel name, (b) 2–3 sub-niche focus formats (e.g., "celebrity relationship drama breaking news," "retrospective deep dives," "reaction-style commentary"), (c) voice/persona definition (cloned voice vs. off-the-shelf ElevenLabs; if cloned, whose?), (d) intro/outro concept.
+4. **James — Cost spike on VLM annotation.** Manually annotate 10 keyframes via Gemini Flash API. Extrapolate to $/clip at MVP scale (10K clips). Document in `research/cost-model.md`.
+5. **James — Google Cloud + YouTube upload credentials setup.** Create GCP project. Enable YouTube Data API v3. Configure OAuth consent screen with `youtube.upload` scope (restricted scope — requires app verification for >100 users; MVP is under cap but still requires consent-screen completion). Generate OAuth 2.0 credentials. Test token-refresh flow with a dry-run upload to a throwaway channel. Commit `.env.example` with variable names only (no secrets). Blocks Step 10.
 
 ### Exit criteria
 - [ ] Competitor spreadsheet delivered; synthesis summary identifying 2–3 channel-brand anchors (cadence, hook pattern, voice) to emulate
@@ -91,7 +143,6 @@ N/A — no code written. Abandon = delete `docs/` and `research/` files; write a
 **Parallel with:** None.
 **Model tier:** Default (Sonnet).
 **Owner:** James (has git/gh setup).
-**Estimated effort:** 2–3 hrs.
 
 ### Context brief
 Create the new private repo on GitHub under `jamesyili/<repo-name>` (name decided in Step 0). Bootstrap a Python project with modern tooling, CI, and Claude Code integration. Port the `work+self/projects/viral_remix_plan.md` + `Step 0` outputs (`docs/brand.md`, `docs/legal.md`, `research/*`) into the new repo's `docs/` and `research/` directories. This plan file moves from `leo/plans/` into `<new-repo>/plans/`.
@@ -143,7 +194,6 @@ gh repo view jamesyili/<name>
 **Parallel with:** None (Step 3 depends on its output).
 **Model tier:** Default (Sonnet). Invoke `/data-scraper-agent` skill for scraper patterns.
 **Owner:** Shared (Daniel leads).
-**Estimated effort:** 6–10 hrs.
 
 ### Context brief
 Port Rekko's viral discovery scrapers and specialize for YouTube Shorts ingestion. The source code lives at:
@@ -192,7 +242,6 @@ Revert PR. Clear `data/raw/` if corrupted. Rekko's scrapers remain untouched —
 **Parallel with:** None (Steps 4 and 5 depend on this).
 **Model tier:** Default (Sonnet).
 **Owner:** Daniel.
-**Estimated effort:** 4–6 hrs.
 
 ### Context brief
 Split ingested videos into 3–5 second clips via shot-boundary detection. Use PySceneDetect as the default algorithm (battle-tested, free). Each clip gets extracted as its own `.mp4` + 3 keyframes (first, middle, last) as `.jpg` for downstream VLM annotation. Store clips at `data/clips/{source_video_id}/{clip_idx}.mp4` and keyframes at `data/keyframes/{source_video_id}/{clip_idx}/{frame_idx}.jpg`.
@@ -233,7 +282,6 @@ Revert PR. Delete `data/clips/` + `data/keyframes/` if corrupted. Scraper output
 **Parallel with:** Step 5 — only after a joint 1-hr **schema freeze session** at the start where both owners co-write `src/viral_remix/schemas/clip.py` containing final `ClipAnnotation` + embedding dimensions. After schema is committed on a shared branch, Steps 4 and 5 proceed in parallel without `models.py` conflicts.
 **Model tier:** Strongest (Opus) for prompt design + annotation schema. Default for plumbing.
 **Owner:** Daniel leads; James reviews prompts.
-**Estimated effort:** 8–12 hrs.
 
 ### Context brief
 For each clip's 3 keyframes, call a VLM to produce structured annotations: scene description, celebrity recognition (if any), emotion, setting, objects/brands, and a short semantic caption. Default model: Gemini Flash (cheapest, confirmed in Step 0 cost spike). Store annotations in a JSONL alongside clip manifest and in Postgres (Step 5).
@@ -266,7 +314,7 @@ Retry strategy: 3 retries with backoff on 5xx; on persistent failure, log and sk
 5. Cost tracking: log tokens + $ per batch to `data/cost.log`. Invoke `/cost-aware-llm-pipeline` skill patterns for budget controls.
 6. CLI: `uv run python -m viral_remix.annotation.batch --input data/clips/manifest.jsonl --output data/annotations/manifest.jsonl`.
 7. Tests: golden-output test on 3 fixed clips; schema validation tests; prompt regression test (small eval harness — invoke `/eval-harness` skill).
-8. **Hand-label 20 clips** as the accuracy gold set. Daniel watches 20 clips from Step 3 output, writes ground-truth annotations in `evals/annotation-gold.jsonl`. Budget 1.5–2 hrs.
+8. **Hand-label 20 clips** as the accuracy gold set. Daniel watches 20 clips from Step 3 output, writes ground-truth annotations in `evals/annotation-gold.jsonl`.
 9. Produce `evals/annotation-quality.md` capturing: accuracy vs. gold set (scene description + celebrity ID), cost-per-clip actuals, p95 latency.
 
 ### Verification commands
@@ -296,7 +344,6 @@ Revert PR. Annotations in `data/annotations/` can be safely deleted — idempote
 **Parallel with:** Step 4 — can start in parallel once annotation schema is defined.
 **Model tier:** Strongest (Opus) for schema + query patterns. Default for plumbing.
 **Owner:** Daniel.
-**Estimated effort:** 6–8 hrs.
 
 ### Context brief
 Set up Postgres with pgvector for clip storage + semantic retrieval. Tables: `videos`, `clips`, `annotations`, `embeddings`. Use SQLAlchemy 2.x with Alembic migrations. Embed `semantic_caption` from annotations using OpenAI `text-embedding-3-small` (1536 dim, cheap) — this is the retrieval key for Step 6.
@@ -343,7 +390,6 @@ Forward-only migrations with explicit downs for all schema changes.
 **Parallel with:** None directly, but gates Steps 7, 8, 9 (they need retrieval interface for integration).
 **Model tier:** Default (Sonnet).
 **Owner:** Daniel.
-**Estimated effort:** 4–6 hrs.
 
 ### Context brief
 Given a text query (e.g., "Taylor Swift red carpet emotional"), return the top-k most relevant clips. MVP ranking: cosine similarity on embedding. Phase-2 extension (not in this step): hybrid with BM25 + recency + engagement — placeholder hook left in code.
@@ -383,7 +429,6 @@ Revert PR. DB untouched.
 **Parallel with:** Steps 8, 9.
 **Model tier:** Strongest (Opus) for prompt engineering + editorial voice encoding.
 **Owner:** James leads (prompt design is his domain); Daniel integrates.
-**Estimated effort:** 6–10 hrs.
 
 ### Context brief
 Given a topic (e.g., "Taylor Swift and Travis Kelce breakup rumors"), produce a scene-by-scene script with TTS narration embodying the channel's editorial voice (locked in `docs/brand.md` from Step 0). Use `/brand-voice` skill to extract and enforce the voice from reference content.
@@ -447,7 +492,6 @@ Revert PR. Re-run with tuned prompts. No durable state (scripts are regenerated 
 **Parallel with:** Steps 7, 9.
 **Model tier:** Default (Sonnet).
 **Owner:** Daniel.
-**Estimated effort:** 3–5 hrs.
 
 ### Context brief
 Render narration from `VideoScript.beats[*].narration` into audio files. Use ElevenLabs (realism) as default; support Kokoro (local, free) as fallback. Voice identity is locked from Step 0 `docs/brand.md`.
@@ -489,7 +533,6 @@ Revert PR. Audio outputs are regeneratable + cached.
 **Parallel with:** Steps 7, 8.
 **Model tier:** Default (Sonnet). Invoke `/video-editing` + `/videodb` skills.
 **Owner:** Daniel leads.
-**Estimated effort:** 8–12 hrs.
 
 ### Context brief
 Given a `VideoScript` with resolved clips (Step 6 result per beat) + TTS audio (Step 8 per beat), produce a finished 9:16 MP4 with:
@@ -538,7 +581,6 @@ Revert PR. Rendered outputs regeneratable from inputs.
 **Parallel with:** None.
 **Model tier:** Default (Sonnet).
 **Owner:** Daniel leads.
-**Estimated effort:** 5–8 hrs.
 
 ### Context brief
 Before any video is published, it passes through:
@@ -587,7 +629,6 @@ Revert PR. Set `publishStatus=private` on any test uploads; delete from channel 
 **Parallel with:** None.
 **Model tier:** Strongest (Opus) for quality review.
 **Owner:** Shared (Daniel operates, James reviews).
-**Estimated effort:** 10–15 hrs.
 
 ### Context brief
 Operate the full pipeline manually, end-to-end, for 3–5 videos. Each video:
@@ -608,8 +649,8 @@ This step also produces the **exit artifact for the craft bet** (the MVP): a wor
 2. Log pain points at each pipeline stage in `docs/operator-journal.md` after each video.
 3. Fix any P0 bugs surfaced during operation (hotfix PRs).
 4. Capture channel baseline: post all 3–5 videos over 2–3 days (not all at once); measure 7-day view + engagement curve.
-5. Write the first draft of a blog post at `blog/post-draft.md` — this is the portfolio artifact. Topic: "Building a VLM-annotated viral-clip remix pipeline: what worked, what didn't." **MVP exit = full first draft, not just outline** (source plan §3 defines craft success as a full blog post). If full-draft effort exceeds Step 11's hours, outline ships as MVP and full draft moves to Phase 2 explicitly — do not silently downgrade.
-6. Retro session (James + Daniel, 1 hr): review `operator-journal.md`, decide Phase 2 priorities.
+5. Write the first draft of a blog post at `blog/post-draft.md` — this is the portfolio artifact. Topic: "Building a VLM-annotated viral-clip remix pipeline: what worked, what didn't." **MVP exit = full first draft, not just outline** (source plan §3 defines craft success as a full blog post). If full-draft effort exceeds what's available in this step, outline ships as MVP and full draft moves to Phase 2 explicitly — do not silently downgrade.
+6. Retro session (James + Daniel): review `operator-journal.md`, decide Phase 2 priorities.
 
 ### Exit criteria
 - [ ] 3–5 videos successfully posted (public on YouTube)
@@ -686,10 +727,9 @@ The initial draft of this blueprint underwent an adversarial review pass. Findin
 - Secrets management absent → `.env.example`, gitleaks pre-commit, GitHub Actions secrets added (Step 1 tasks 10–11)
 - YouTube upload OAuth/GCP setup missing → added as Step 0 Task 5; blocks Step 10
 - Commentary-ratio guardrail brittleness at Step 7 boundary → ≥2.2 safety margin + Step 9 auto-extend fallback
-- Step 4 eval hand-labeled gold set unbuilt → explicit 1.5–2 hr sub-task (Step 4 Task 8)
+- Step 4 eval hand-labeled gold set unbuilt → explicit sub-task (Step 4 Task 8)
 
 **Important (all fixed):**
-- Hour estimates under-forecast → realism buffer (120–180 hrs / 10–14 weeks) flagged in preamble
 - No observability → daily digest + cost alert added (Step 10 Task 8 + invariant 4)
 - Step 5 rollback weak on populated DB → pg_dump runbook added
 - Attorney brief missing ingest-side ToS → Step 0 Task 2 updated to cover both sides
