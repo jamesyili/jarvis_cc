@@ -1,5 +1,5 @@
 # stakeholders.md  
-Last Updated: 2026-04-03  
+Last Updated: 2026-04-18  
 ---  
   
 # Stakeholders & Dynamics  
@@ -25,6 +25,7 @@ This file captures the *state I don’t want to repeat* about key stakeholders: 
 - **Yan Li (Sr. Manager, P13N-Experiences)** — new peer; owns Explore/IB surfaces; ownership boundary negotiation active.
 - **Tim Leung (Manager II, Frontend)** — James mentors him; great collaboration via Yu Zhao + JJ.
 - **Francisco Navarrete (Sr. Manager, Platform/Labeling)** — team in Mexico; good mutual respect; stretched by horizontal platform work.
+- **Rahul (EM, Blending)** — friendly peer; James was his onboarding buddy; co-sponsors Retentive Recommendations via his best engineer Adreanne; RLHF meeting attendee.
 
 ### Cross-Org (Growth / Search)
 - **Shipeng Yu (Sr. Director, Growth)** — close to Dylan; now UPP supporter after initial friction; Brian Lee + Tingting are trust anchors.
@@ -35,6 +36,7 @@ This file captures the *state I don’t want to repeat* about key stakeholders: 
 - **Andrew Yaroshevsky (Sr. Director, Product)** — Reflex sponsor; invited James to co-own Detect + Diagnose.
 - **Brian Lee (EM, Activation/Growth)** — AI forum host; long-term ally.
 - **Roberto (Sr. EM, Search)** — parity benchmark; future Reflex co-owner.
+- **Matt Chun (PM, UPP — reports to Andrew)** — strong trust via shared UPP political battles vs. Notif/SSJ; Bowen-era continuity; RLHF meeting attendee.
 
 ### Under Rajat (non-Dylan)
 - **Kaanon MacFarlane (Director, Eng)** — re-orged out of Dylan’s org; now working on AI initiative with Karina for Rajat. Frontend/backend, no ML.
@@ -1327,3 +1329,59 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Open question to resolve with James:** Does he have any direct relationship with Mira, or is the connection entirely mediated through Dylan/Andrew? Should there be a direct touchpoint at some point?
 - **Watch:** Mira is a high-leverage stakeholder James does not yet have a direct line to. Once Pinsight/Reflex have visible artifacts, a Mira touchpoint could be high-value (Design's stake in the personalization vision is meaningful). But do not force it — let the work create the moment.
 - **Do not surface to James as urgent.** This is on the radar, not on the action list.
+
+---
+
+# 34) Matt Chun — PM, UPP (reports to Andrew; added 2026-04-18)
+
+## Role in my 6–12 month goals
+- **UPP PM partner.** Matt is the product lead on UPP, the platform play James co-owns with Darren + Rajat. Direct, sustained stake in UPP's continued political success across Notif, SSJ, and Growth.
+- **Andrew's product-side extension.** Reports to Andrew. In the RLHF meeting (2026-04-2x), Matt is one of two PMs Andrew is bringing (Anna + Matt); both are product-lens contributors, not agent builders. Matt's presence means Andrew is grounding Reflex feedback across surfaces, with UPP represented.
+- **Bowen-era continuity.** Matt used to work closely with Bowen. That history gives him institutional context James doesn't need to re-explain.
+
+## Current relationship
+- **Status:** Strong trust, battle-tested.
+- **Trust level:** **High.** Forged through shared political battles — Matt and James have fought UPP escalations against Notif and SSJ together. Shared-adversary bonding is genuine, not performative.
+- **Confidence:** High.
+
+## What Matt likely optimizes for
+- **UPP's platform success** — structural alignment with James.
+- **Clean cross-org execution.** UPP has required heavy political navigation; Matt values partners who can handle the politics without creating more.
+- **Product clarity.** As a PM, he'll push for product-legible framing of engineering work. Don't drop him into pure architecture monologues.
+
+## Operating plan
+- **Default is peer, not stakeholder-to-manage.** No manufactured cadence. Shoulder-to-shoulder on UPP politics.
+- **In the RLHF meeting:** hand him a bridge to UPP explicitly — *"the curator's conflict-resolution logic is cross-surface by design; if UPP patterns need to feed this, the scaffolding is ready."* Costs nothing; signals Matt's surface is welcome and positions curator as UPP-relevant.
+- **Pre-share strategy:** not required for this meeting. Strong trust + different surface means no Matthew-guardrail risk.
+
+## Risks
+- **None flagged today.** Watch: if UPP's political landscape shifts (Kurchi warming or Shipeng cooling), Matt's read may diverge from James's. Keep the DM line open.
+
+---
+
+# 35) Rahul — Peer EM, Blending (under Dylan; added 2026-04-18)
+
+## Role in my 6–12 month goals
+- **Peer Engineering Manager, Blending team (HF, under Dylan).** Blending sits downstream of HF CG and Ranking — the final stage before the feed. Architecturally adjacent to James's surface and increasingly relevant to cross-surface Reflex patterns.
+- **Retentive Recommendations co-sponsor.** Rahul has dedicated his best engineer, **Adreanne**, to Retentive Recs — a concrete resource investment on Anna + James's initiative. Gives him structural skin in the coalition game, not just rhetorical support.
+- **RLHF meeting attendee.** Alongside Dhruvil (HF Ranking) and James (HF CG), Rahul represents the third HF-stack surface. His Blending patterns are the natural extension target for the curator's cross-surface conflict-resolution logic.
+
+## Current relationship
+- **Status:** Warm, personal history.
+- **Trust level:** **High.** James was Rahul's onboarding buddy → relational seniority + warm founding context. Friendly relationship sustained.
+- **Confidence:** High.
+
+## What Rahul likely optimizes for (inferred)
+- **Team execution** — standard EM concerns for Blending's roadmap.
+- **Cross-team collaboration wins** — his willingness to dedicate Adreanne to Retentive Recs signals he values shared initiatives over pure territorial defense.
+- **Peer alignment with James** — historical relationship + shared coalition via Anna suggests he's wired to operate as ally, not competitor.
+
+## Operating plan
+- **Continue peer-friend default.** No manufactured cadence needed; relationship is stable.
+- **In the RLHF meeting:** invite him into the curator/skeptic scaffolding publicly. Suggested line — *"Rahul, the curator's going to need to handle patterns from CG and Blending when they contradict. Can I grab 30 min to stress-test against what you're seeing in Blending?"* Acknowledges his surface, invites contribution without asking him to build agents, frames the scaffolding as cross-surface.
+- **Credit Adreanne.** When Retentive Recs comes up, publicly credit the Adreanne contribution. Costs nothing; reinforces Rahul's investment decision and Adreanne's growth signal.
+- **Post-meeting follow-through:** actual 30-min sync within 2 weeks. Turns a public moment into real cross-surface collaboration and locks the alignment in.
+
+## Risks
+- **Minimal today.** Long-term watch: Blending's role in final-feed attribution can create architectural tensions with CG (whose work gets credit for an engagement lift?). Not active.
+- **Name convention:** "Rohu" in voice transcription = **Rahul** in writing. Always use Rahul in written artifacts.

@@ -304,6 +304,8 @@ The through-line: **each phase produces a demoable artifact, each phase reuses i
 - Faster iteration on ranking / SSD / CG changes for segments where A/B is slow.
 - A sandbox for studying emergent phenomena (filter bubbles, over-exploitation) without touching prod.
 
+**Strategic positioning note (added 2026-04-18):** This is the **velocity gate** in Reflex's completeness framework. Paired with the Feedback Curator + Skeptic PR (the **quality gate** — shipping 2026-04-19), it positions James as the architect of both gates Andrew's current Detect stage is missing. Arc: critic/curator (quality) → simulation harness (velocity) → Prove→Detect outcome-learning. The Phase 4 simulator isn't a standalone Pinsight feature — it's the structural piece that lets Reflex's ideation loop outrun human experiment clock-time. Director-altitude framing to use in Andrew/Dylan conversations going forward.
+
 **What to be honest about:** The literature does not yet have a reliable answer on sim-to-real. We should build this with realistic expectations — it is a **screening tool**, not a replacement for A/B. Measure the fidelity gap explicitly and surface it to every downstream consumer.
 
 **Exit criteria:** Sandbox runs end-to-end for ≥1 realistic scenario. Behavioral fidelity metric reported against held-out real data. One successful "screened in / screened out" decision made before launching an A/B.
