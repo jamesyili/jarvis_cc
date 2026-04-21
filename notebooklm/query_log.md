@@ -100,3 +100,28 @@ Strategy is optimizing for VP buy-in and organizational clarity; self-expression
 Don't expect allies to figure out how to advocate — give them the exact narratives to carry upward. Frame 90% Around the Other Person. For Darren: "Your org gets the visibility it deserves for accelerating RecSys velocity — here's a 3-bullet update, would you drop this in your next sync with Jeff?" For Andrew: "Reflex will drastically reduce manual quality monitoring for your PMs — here's a slide on ROI you can use in your next CTO review." OAV (Observe, Assert, Validate) for Dylan: "Observe: Jeff is pushing for AI evaluation tooling across the board. Assert: I recommend we position Pinsight and Reflex as the default RecSys standards in Q3 to own the narrative before Search expands. I've prepared a 2-page BLUF memo on our AI ROI. Validate: Does it make sense for you to circulate this at the upcoming Sr. Director sync?"
 
 **Session ID:** b4a0d58b
+
+
+---
+
+## 2026-04-20T00:00:00Z — Coaching Patterns (spawned via consult-notebook agent)
+
+**Query:**
+James Li is a Sr. Engineering Manager (Di DISC profile, high-ambition, Director-track) preparing for a career progression conversation with his manager Dylan. SITUATION: He just sat in a meeting where his peer (Dhruvil) visibly "asked for things" from the manager — resource alignment, team leverage — and James didn't. James is now internally comparing himself to Dhruvil, wondering "what about myself?", questioning whether he's sabotaging his career by not thinking about org setup, and feeling uncertain how his AI impact work translates to promotion. He has a hard deadline conversation with Dylan in ~6 weeks (5/30 cutoff). Prior feedback from Dylan: "Director-level impact but emotional tax too high — I can't put you in rooms with VPs if you might explode."
+
+Four questions asked:
+1. STATUS SENSOR / COMPARISON PATTERNS — status-sensor activation, peer comparison loop, healthy vs. spiral comparison
+2. RUMINATION VS. REAL STRATEGIC GAP — coaching framework for distinguishing genuine strategic blind spots from anxiety-driven catastrophizing
+3. CENTERED AMBITION VS. APPROVAL-SEEKING — pre-conversation practice to shift out of reactive mode into grounded ambition
+4. ASKING FOR FEEDBACK WITHOUT READING AS INSECURE — gap-closure feedback posture, over-explanation pattern, low-heat executive presence
+
+**Response:**
+Q1 — STATUS SENSOR: Notebook identifies "status sensor" activation where "I feel low status" instantly converts to "I AM low status" with zero gap. Prescribes DIJM framework (Describe, Interpret, Judge, Manage) + Tool 8 "Signal, not truth": Name it ("status sensor is firing"), locate it physically, redirect fuel within 10 min. Treat anxiety as energy, point it at internal scoreboard.
+
+Q2 — RUMINATION: Apply Rumination Framework — "What do I actually know right now? Everything else is creative writing." Run Module 1 fear-setting exercise (Deconstructing the Catastrophic Default). Shift from "victimhood/validation" to "what story am I telling myself vs. what if there's another story?" Identify what's within control, translate to strategic action plan.
+
+Q3 — CENTERED AMBITION: Module 3 Reframing Status — stop pretending he doesn't have high status need; reframe from human worth measure to utilitarian leverage tool. Module 4 "Impact Over Approval" Audit. Pre-conversation practice: Tai Chi Base (Tool 4) — visualize inner foundation before interaction. Self-Worth Pie Chart — expand identity anchors beyond work performance.
+
+Q4 — FEEDBACK POSTURE: "Rambling Index" named explicitly — rambling scales with anxiety. Smart Brevity as counter. Primary pattern: "Boring Consistency > Catalytic Clarity" (low-heat, steady light, zero defensiveness). Three-Beat Managing Up: (1) share what's hardest about landscape, (2) show crushing it despite constraints, (3) enlist Dylan's help on specific unblockers. Ask open questions ("What does success look like?"), then "Authentic talking less" — ask, look her in the eye, smile, stay silent.
+
+**Session ID:** 6937ec90

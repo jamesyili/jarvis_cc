@@ -83,6 +83,7 @@ If pressed for the single sentence that ties it all together:
 3. **Infra/CSI specific ask.** ~3 min.
 4. **CG quota Eng Agent brief mention.** ~1 min.
 5. **Open space — anything on her mind.** Remainder.
+6. **Last 2 min — career-rubric seed (added 2026-04-20).** Plant a separate 30-min follow-up for week of 4/28 or 5/5. Language: *"One thing I want to flag before you go — I'd like to carve out a separate 30 min with you in the next couple weeks. I want to think out loud with you about what I should be building toward over the next 12–18 months, and get your read before you're OOO. Not urgent, not a big agenda — just want your thinking while I still have you."* Face-to-face, not DM. Do NOT say "Director" or "career conversation." Full prep: `dylan_career_conversation_prep.md`.
 
 The image-search moment moves up in priority (was mid, now near-top) because the partnership-decision timing is now known to be live. Harness proposal is out of this meeting entirely.
 
