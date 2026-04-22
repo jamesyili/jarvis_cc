@@ -70,6 +70,35 @@ Last updated: 2026-04-03
 
 **The question to ask:** "Am I running toward something I genuinely want, or away from uncertainty I haven't yet resolved?"
 
+### Lesson 6: The Frame Flip — what does Pinterest need, not what do I want
+
+**Source:** Dylan career conversation prep arc (April 20-22, 2026).
+
+**The pattern:** For the entire 48-hour arc of preparing for a career conversation with Dylan — the POV work, the IC exploration, the multi-variant stakeholder reads, the "what I want to hear" list — James centered the conversation on himself. What he wants, what he needs, what path he's on, what rubric applies to him. All legitimate questions. But on the morning of 4/22, after landing the IC ruling, James named it himself: *"I keep going on and on about what I want and what I need, but honestly the biggest part about being a good leader is knowing what Pinterest wants and needs, and what my leaders want and need. And Dylan is positioned to see from her vantage point and can share."*
+
+**The shift:**
+- **Old frame:** "Here's what I want to build toward. Is there a path for it? What's the rubric?"
+- **New frame:** "What does Pinterest need? What does Dylan need? Given those needs, where am I useful, where do I need to evolve, and how can I serve?"
+
+**Why this is a growth moment, not just a prep tweak:**
+- The self-centered frame is what most senior ICs and mid-level managers operate from. It's where promotion-prep literature lives. It's fine — but it's not Director altitude.
+- The serving-needs frame is how Directors and VPs think. Not because they're saints — because they've internalized that their career outcomes are a byproduct of serving well at the next level up. You can't be useful at the Director tier without thinking like a Director, and Directors think org-first.
+- Dylan will feel the difference. A CD-profile manager whose evaluation metric is "does this subtract from my cognitive load?" experiences "what do YOU need from me?" as the most load-subtracting question a direct can ask. You just gave her permission to be honest about her org's real needs instead of managing your emotions about your career.
+- Your ambition doesn't disappear under this frame — it aligns with the org's need and gets sponsored by it. That's more durable than ambition that has to push against the org.
+
+**How the conversation changes concretely:**
+- Opens with "What does Pinterest need?" and "What does your org need from me?"
+- The rubric ask becomes "given those needs, where am I misaligned?"
+- The growth-path question becomes "is my shape serving those needs?"
+- The ask inverts: "What do you need from me?" replaces "what do I need from you?"
+- Your personal preferences and energy become INPUT when she invites them, not the opening frame.
+
+**The anchor pair (write down together):**
+1. *"I don't want to sabotage myself just because I'm able to do AI means I have to do AI."* (Traditional path is legitimate.)
+2. *"What I want matters, but what Pinterest needs is the organizing question. My ambition is best served by serving what's needed."* (The frame flip.)
+
+**Next action:** apply this to every career conversation going forward. Also test it as the frame for stakeholder prep more broadly — before the next Rajat or Jeff interaction, lead with "what does this person need from me in this interaction?" before thinking about what to extract.
+
 ---
 
 ## Active Growth Edges

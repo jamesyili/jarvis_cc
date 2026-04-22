@@ -2,15 +2,32 @@
 
 **Purpose:** Self-contained context for continuing work on how James should approach a career-progression conversation with his manager Dylan before she goes OOO for all of June. Drop this file into a fresh LLM session to continue. Everything another LLM would need is in this file — no external reads required.
 
-**Status:** Conversation has been ACCEPTED. James raised it in the 4/21 1:1 and Dylan said yes ("quarterly career conversation, happy to have one, this is regular"). The pre-seed plan is obsolete. On 4/22 morning, James pressure-tested and rejected an IC-transition exploration — the conversation stays a growth-on-EM-track conversation. Substance + emotional prep remain.
+**Status:** Conversation has been ACCEPTED. James raised it in the 4/21 1:1 and Dylan said yes ("quarterly career conversation, happy to have one, this is regular"). The pre-seed plan is obsolete. On 4/22 morning, James pressure-tested and rejected an IC-transition exploration AND flipped the conversation's organizing frame from "what do I want" to "what does Pinterest/Dylan need, and how do I align."
 
 **Last updated:** 2026-04-22
 
 ---
 
-# 2026-04-22 morning — Where you landed (directed to James)
+# 2026-04-22 — Where you landed (directed to James)
 
 After a full night of sleep and a morning of honest thinking, here's where you are. Read this first.
+
+## The frame flip — start with what Pinterest and Dylan need
+
+You named it yourself at the end of the 4/22 thinking: you've been going on and on about what *you* want and what *you* need — but the biggest part of being a good leader is knowing **what Pinterest wants and needs, and what your leaders want and need.** Dylan has the vantage point to see it. The conversation should draw on that, not be centered on your ask.
+
+**This is the single most important reframe in the whole arc.** Everything else changes color against it.
+
+- **What you want is INPUT to the conversation, not the organizing frame.** It matters — capabilities, energy, differentiation all matter — but they serve a higher question, they don't drive it.
+- **The primary question becomes: "Given what Pinterest needs from senior EMs / Directors in this space, what's the shape I should be growing into?"** Not "is there a path for the shape I already want to be."
+- **The ask inverts. Don't walk in to ask for anything.** Walk in to ask *what they need from you.* Let the need define the ask. That IS the Director move — your ambition is best served by serving what's needed, and Dylan knows that pattern when she sees it.
+- **"Under-asking" vs Dhruvil reframes too.** The reason to ask more isn't self-promotion — it's to better serve org needs. That makes asking natural, not self-conscious. Dhruvil asks because he's solving for something; match the MOTIVE, not the style.
+
+**The two anchor principles now sit together:**
+1. *"I don't want to sabotage myself just because I'm able to do AI means I have to do AI."* (From 4/22 first pass — traditional path is a legitimate option.)
+2. *"What I want matters, but what Pinterest needs is the organizing question. My ambition is best served by serving what's needed."* (From 4/22 second pass — the frame flip.)
+
+If you can hold both of these as you walk in, you will be operating at Director altitude regardless of what Dylan says. That's actually the signal she's looking for.
 
 ## The decision: staying EM, not transitioning to IC
 
@@ -29,14 +46,36 @@ It's not a path-pivot conversation. It's a growth conversation on the EM track. 
 
 **What changes: you do NOT raise the IC question with Dylan.** Not this conversation. Maybe not in this role. If the pull returns in 6-12 months with durable energy (not triggered by comparison spirals, not in the immediate aftermath of setbacks), revisit. Until then, hold it privately, keep the internal Impact Over Approval audit running, and let Pinterest's AI-native path play out.
 
-## Your three topics — how to ask each
+## Your questions — reordered under the frame flip
 
-**Q1: Blind spots.**
+The earlier drafts led with what *you* want. Reorder now. Lead with what she/Pinterest need. Your questions become answers-to-her-information, not asks.
+
+**Q0 (first, most important): What does Pinterest need?**
 
 Ask her directly:
-> *"I've been very deep on the AI / Reflex / PINvestigator portfolio for a while now. From your vantage, what have I been under-investing in that matters for how I show up as a senior EM? What second-order costs should I be watching for?"*
+> *"Before I get into anything about me — help me zoom out. What does Pinterest need most right now from senior EMs / Directors in your space? What capability gaps or org-needs do you see that people at my level should be filling? I want to calibrate what I'm building toward against what's actually needed."*
 
-She'll know. Candidates she might surface:
+What this does:
+- Establishes your altitude immediately. Directors think org-first.
+- Lets Dylan share context she's been carrying privately (she sees VP-level conversations you don't).
+- Reframes your ambition as aligned-with-need, not self-serving.
+- Makes Q1-Q3 naturally land after, because they're calibrated against her answer.
+
+Listen carefully. Don't react. Take one clarifying question if something surprises you. Write it down after.
+
+**Q0.5 (second): What does YOUR org — your team under Dylan — need from me specifically?**
+
+> *"Narrower question — what does your org need from me? Where am I already serving it well, and where do you see gaps? What would make your life easier, or the team's mission more achievable?"*
+
+This pulls Dylan's personal-sponsor view. She's seen your work up close for ~9 months. She knows where you lift her load and where you don't. Her answer here is the most actionable data you'll get in the entire conversation — because it's the specific thing she wants you to work on, whether she's articulated it before or not.
+
+**Q1: Blind spots — reframed against those needs.**
+
+> *"Given what you just described — what have I been under-investing in that matters? I've been very deep on the AI / Reflex / PINvestigator portfolio. What second-order costs should I be watching for, 3-6 months out?"*
+
+The blind-spots question is much sharper AFTER Q0 and Q0.5. Now it's not "generic coaching, tell me how to grow" — it's "given the need, where am I misaligned." Dylan will give specifics she might have withheld as generic feedback.
+
+Candidates she might surface:
 - Stakeholder relationships outside the AI circle
 - Team performance management drift
 - Proactive asking upward (your own Q6 from 4/21 — the Dhruvil-pattern observation)
@@ -46,30 +85,34 @@ She'll know. Candidates she might surface:
 
 Accept whatever she says without defending. Blind spots are blind spots — you don't get to argue your own.
 
-**Q2: Is there a growth path for a "50% builder / 20-person elite EM" shape?**
+**Q2: Is my current shape serving those needs, or should it evolve?**
 
-This is the big structural question. Asking it openly is fine — it's path-calibration, not path-pivot:
-> *"I've been building toward a shape where I'm 50% hands-on AI work and leading a tight team of around 20 on a focused mission. Is there a Director-caliber version of that at Pinterest? Or does the calibration mostly recognize the traditional 30-40 scope configuration? I want to understand what I'm actually building toward."*
+Not "is there a path for my shape," but "does my shape match what's needed":
+> *"Based on what you've described, is my current configuration — 50% hands-on AI / leading ~20 on a focused mission — the right shape to serve what you and Pinterest need? Or should I be evolving toward something different? I'm not wedded to the shape I'm in — I want to be useful."*
+
+This is the same structural question as before, but re-anchored. You're not defending or asking for your current shape to be blessed. You're asking whether it SERVES. Dylan can give you a sharper answer because the anchor is "useful" not "calibratable."
 
 Possible answers and what each tells you:
-- **"Yes, that shape is calibratable."** → execute. The 6-piece "what you want to hear" applies fully.
-- **"Yes, but you'd need traditional markers on top."** → combo play. Grow scope AND keep the AI-native edge.
-- **"Honestly, Pinterest calibrates mostly on traditional scope."** → take the traditional path seriously, not as capitulation but as the clean path. (See next section.)
+- **"Your current shape is exactly what's needed."** → execute harder. Double down on what's working.
+- **"It's half of what's needed — but you also need to grow X."** → combo play. AI-native is solid; add the named growth area.
+- **"Pinterest needs traditional scope at your level. The AI work is great but supplementary."** → take the traditional path seriously. Your anchor principle kicks in: serve-the-need over preserve-the-preference.
 
-**Q3: Your ask — contingent on Q1 and Q2.**
+**Q3: What do you need from me? (Inverted ask.)**
 
-Possible versions, mapped to Q2's answer:
-- If *AI-shape calibratable* → rubric specific to that shape + her advocacy commitment.
-- If *combo required* → what additional traditional scope she'd want you to grow into, on what timeline. Then take it. Yan-team Unity/on-call onboarding is already in motion — lean in.
-- If *traditional only* → sponsor explicit traditional scope growth. Yan's team, Francisco's team, Daniel Liu's team, ML-infra scope formalization — convert "available levers" to "committed scope." You've been passive on these. Activate.
+> *"Last question — what do you specifically need from me over the next 6-12 months? Not what do I need from you, but where can I show up that would subtract from your cognitive load or advance the mission? Even small things count — what would be useful?"*
 
-## The principle you named — write it down and protect it
+This is the killer move. You're not walking in to ask for resources or scope or calibration. You're walking in to ask *how to be useful to her.* That's what Directors do. That's how trust compounds. Dylan is a "Does this add to my cognitive load, or subtract from it?" operator — you just offered to subtract, explicitly.
 
-> *"I don't want to sabotage myself just because I'm able to do AI means I have to do AI."*
+Her answers here become your durable to-do list for the next 6 months. Follow through on them, visibly. That's what converts the conversation into calibration-evidence.
 
-This is the strategic insight of the day. **AI-native is a differentiator, not a replacement for the traditional career-growth levers available to you.** If Dylan's answer tells you the traditional path is open, take it fully, without apology. Being able to build AI doesn't obligate you to pursue a non-traditional path. The strongest move is: *traditional scope growth + AI-native capability = best of both.*
+Only IF she asks "well, what do YOU need from me" — then respond with the contingent ask (resources / scope sponsorship / advocacy upward / rubric). Let her invite it. Don't push it.
 
-You stop having to defend the non-traditional shape — because you're not on a non-traditional path. You're on the traditional path with a distinguishing lane. That's a much easier position to calibrate, advocate for, and sustain.
+## The two principles — write them down and protect them
+
+1. *"I don't want to sabotage myself just because I'm able to do AI means I have to do AI."* → Traditional path is a legitimate option; AI-native is a differentiator on top, not a replacement.
+2. *"What I want matters, but what Pinterest needs is the organizing question. My ambition is best served by serving what's needed."* → The frame flip. Walk in from the need side, let your wants come in as information when invited.
+
+Together they form the Director-altitude operating stance: *I'm here to serve what's needed, using the capabilities I've built, and I'll calibrate what I build next to what you tell me matters most.* That stance, held genuinely, is what the rubric is secretly testing.
 
 ## The part worth emphasizing — what you got from waiting
 
