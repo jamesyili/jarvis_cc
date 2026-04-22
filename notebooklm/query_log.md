@@ -125,3 +125,51 @@ Q3 — CENTERED AMBITION: Module 3 Reframing Status — stop pretending he doesn
 Q4 — FEEDBACK POSTURE: "Rambling Index" named explicitly — rambling scales with anxiety. Smart Brevity as counter. Primary pattern: "Boring Consistency > Catalytic Clarity" (low-heat, steady light, zero defensiveness). Three-Beat Managing Up: (1) share what's hardest about landscape, (2) show crushing it despite constraints, (3) enlist Dylan's help on specific unblockers. Ask open questions ("What does success look like?"), then "Authentic talking less" — ask, look her in the eye, smile, stay silent.
 
 **Session ID:** 6937ec90
+
+---
+
+## 2026-04-20T00:30:00Z — Wes Kao Frameworks (spawned via consult-notebook agent)
+
+**Query:**
+Context: James is a Senior Engineering Manager (M17, 20 direct reports, Director-track) at Pinterest preparing a career-path conversation with his Senior Director Dylan before early June 2026. This is NOT a "promote me to Director" ask. It is a "here's the non-traditional path I want to build — is there a destination for it here?" ask. James wants to lead his team to build an AI multiplier on the recsys platform via agentic AI, with a small pod of 3-5 engineers added (not 10-20 more). He will end up at ~25 reports — below Pinterest's typical Director scope of 30-40. His load-bearing claim: AI multiplier makes effective output equivalent to a 30-40 person team without it.
+
+Key Dylan context: CD DISC profile. De-charges heavy asks reflexively. Autonomy = love language. Evaluates based on "adds or subtracts from her cognitive load." Won't make peer comparisons public. She accepted the career conversation by reframing it as "quarterly regular conversation" — deliberately de-charging it. She has said "very happy James is leaning into AI, haven't seen that from some of my other folks under me... but everyone is excited by different things." She has been actively unblocking James (on-call capacity yes, escalating infra delays, shielding from low-value convos). She's asked about burnout twice in one week.
+
+Q1. Dylan de-charged the career ask to "quarterly regular conversation." What REGISTER should James match — light-touch to mirror her framing, or deliberate/weighty to re-signal importance? How does he get the rubric ask answered without over-weighting the conversation and adding cognitive load?
+
+Q2. What is the exec-presence, POV-forward OPENING SENTENCE for this conversation? James wants to articulate the non-traditional path (AI-native builder-leader, retrieval platform, team AI-fluency) without it sounding like a promotion ask or a strategy monologue. Give one concrete candidate opening sentence.
+
+Q3. How should James pre-empt a potential "honestly Pinterest isn't ready for that as a Director path" response without sounding defensive? What is the frame that acknowledges org reality while keeping the question honest and forward-looking?
+
+Q4. How does James land the "AI multiplier as effective scope" claim so memorably that Dylan can REPEAT IT UPWARD to Rajat and Jeff in calibration? What makes a claim of this kind sticky and repeatable by the sponsor?
+
+Q5. Dylan's "everyone is excited by different things, which is fine" line — what is she signaling about what she will and won't do publicly? How should James position his ask given that ceiling?
+
+**Response:**
+FAILED — mcp__notebooklm__ask_question tool was unavailable at call time. Auth state: cookie-based auth requires manual browser extraction (notebooklm-mcp-auth --file mode). Chrome remote debugging port 9222 was also unavailable. MCP call was NOT made. No synthesis generated.
+
+**Session ID:** N/A — call not completed
+
+---
+
+## 2026-04-21T00:00:00Z — Coaching Patterns (spawned via consult-notebook agent)
+
+**Query:**
+James is a Senior Engineering Manager at Pinterest, M17, Director-track (Di DISC profile). He worked through a status-sensor/comparison pattern yesterday, then received uniformly positive signals today from director Dylan (public technical lead designation, vision endorsement, career conversation accepted, Sr Staff MLE assigned to project, shielded from low-value work). Yet worry persists. "I don't know what I'm worried about, to be honest."
+
+Six questions posed:
+Q1. Why does worry not dissipate after working through the status-sensor pattern AND receiving positive signals? Mechanism and practice.
+Q2. How does James hold Dylan's "everyone is excited by different things, which is fine" structurally — she won't publicly rank him above peers. What move, what language?
+Q3. Signal vs. commitment gap (warm endorsement but no "I'm putting you up for Director"). How to hold that gap without rumination fuel?
+Q4. Dylan flagged burnout concern twice in one week — care, warning, structural signal, all three? What does this mean for the next 4-5 weeks?
+Q5. Concrete emotional-prep practice across 4-5 weeks before the career conversation, given that "walking in with the Dhruvil loop active will bleed through regardless of words."
+Q6. What does James DO in the moment when a positive signal arrives, to make it land on the internal scoreboard without waiting for the sensor's approval?
+
+Notebook: Coaching Patterns (05132ad9-3803-472e-b917-42f8bf301782)
+
+**Response:**
+TOOL CALL FAILED — mcp__notebooklm__ask_question returned "No such tool available" despite notebooklm-mcp server showing Connected status in `claude mcp list`. Auth was refreshed via `notebooklm-mcp-auth` immediately prior. Tool is not exposed in the spawned agent's tool namespace. This is a tool-availability failure, not a content failure.
+
+**Session ID:** N/A — call did not complete
+
+**Action taken:** Returning ERROR string per failsafe protocol. Main session should escalate to direct MCP query in primary Leo context where tool namespace may differ.

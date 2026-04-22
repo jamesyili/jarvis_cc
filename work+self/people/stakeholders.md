@@ -7,6 +7,19 @@ Last Updated: 2026-04-18
 ## Purpose  
 This file captures the *state I don’t want to repeat* about key stakeholders: trust, incentives, communication preferences, historical interactions, risks, and my operating plan.  
   
+## Leo operating technique — theory-of-mind reads
+
+When James asks what a stakeholder is thinking ("what is Dylan thinking about me?", "how is Rajat reading this?", "what's Andrew's real view?"), default to **multi-variant synthesis**, not a single best guess:
+
+1. **Split by dimension** if the question is compound (what she thinks about me *and* what she thinks about the ask = two dimension lists).
+2. **3-5 named variants per dimension.** Each variant: sharp label, 2-4 sentences of the read, one evidence line grounding it in the record.
+3. **Weight the variants** most-to-least likely given available data. Be honest about why.
+4. **Close with "what to do with the uncertainty"** — prep moves robust across variants so James's action doesn't depend on which read is correct.
+
+Why this works for James: prevents his status sensor from locking onto the anxious variant as truth; forces honest theory-of-mind over flattering or catastrophic mono-reads; converts uncertainty into action. Confirmed load-bearing 2026-04-21 during Dylan career-conversation prep.
+
+Don't hedge variants into mush. Don't skip evidence. Don't end without the robust-prep synthesis.
+
 ## Quick map (current)  
 
 ### Inner Circle (high trust, high leverage)
