@@ -205,6 +205,42 @@ In today's 1:1 James asked for on-call capacity (Yan's team onboarding to Unity 
 
 ---
 
+## What James genuinely wants to hear from Dylan (refined 2026-04-21 end-of-session)
+
+James has self-diagnosed what she cannot give: title promise (too far out, she'd be lying), timeline (he's not ready this cycle, neither is any peer), reorg commitment (she publicly said not yet). Given that, here's the actual target:
+
+1. **Validation the path is calibratable.** Not "you'll get there by X." Just: *"Yes — the AI-native builder-leader shape, with a small pod and AI-multiplier leverage, is a path I believe Pinterest can calibrate at Director level."* Rewrites the next 12-18 months. Without it, James is guessing whether the org can see this shape.
+
+2. **Specific rubric — 2-3 named things missing.** Not "keep doing what you're doing." *"I'd want to see X more clearly at exec altitude. Y should be durable, not personality-dependent. Z should have landed impact other teams talk about."* Rubric without timeline. Concrete to work.
+
+3. **Commitment to active advocacy.** Her saying it out loud: *"I'll carry this story in rooms you're not in. Here's where I need ammunition from you."* Converts quiet sponsorship into partnership.
+
+4. **Her view on James's uniqueness claim.** James has told himself "I am uniquely positioned" (team spans UND + pin board, AI-fluent at scale, sole owner of UPP retrieval narrative at Sr EM level). He needs that claim to survive pressure from someone whose judgment he trusts. If Dylan confirms, he keeps building. If she hedges, the positioning story needs sharpening before calibration sees it.
+
+5. **Mutual-narrative confirmation.** Her version of *"we built this together and there's more to build."* James's phrase from yesterday: *"It feels amazing that she was able to achieve that for me, that I was able to give her data and ammunition to achieve this together."* Confirms James is still a partner in the building, not a solo petitioner.
+
+6. **Honest read on whether James's low-ask style is a Director-track gap — specifically compared to Dhruvil's pattern.** This is the piece the earlier drafts missed.
+   - The Dhruvil pattern James has documented: proactively tags Matt Madrigal (CTO), initiates exec-visible Slack threads, frames in business-impact language, surfaces what he needs without embarrassment. Dylan moves zero-friction when Dhruvil asks.
+   - The reverse question James is carrying: *does Dylan expect me to do the same, and read my silence as "doesn't need anything" — which converts to "not ready for bigger"?* Is James's "Shock Absorber / low-noise / self-sufficient" default (earned her trust since Oct 2025 Intl Thrash) actually a liability at M17→M18?
+   - **Two sub-layers to separate:**
+     - **Strategic asking** (Dhruvil's pattern) — escalating resource needs, VP-visible requests, surfacing blockers. James's default: solve quietly. Read as maturity or as not-stepping-up?
+     - **Self-advocacy asking** — career visibility, sponsorship requests, naming ambition out loud. James's default: let the work speak. Read as confidence or as not-hungry?
+   - James may be strong at one and weak at the other. Dylan sees both him and Dhruvil side by side — she's the only person who can answer.
+   - **Why this matters most:** James can read goals.md and run coaching on presence / narrative / scope. But "am I under-asking in a way that's capping my progression" is something he CAN'T calibrate from inside his own head — the whole point is he doesn't see himself doing it. Dylan has that seat.
+   - **The only bad outcome:** Dylan dodging with "don't compare yourself to Dhruvil." Gentle redirect if she goes there: *"I hear that — but I'm genuinely trying to learn from what I see him doing. Whether or not it's comparison, is there a skill there I haven't built?"*
+
+## Pre-commit decision (Impact Over Approval audit — write BEFORE the conversation)
+
+The status sensor will not quiet after the conversation regardless of how well it goes (peer comparison keeps running). Part of what James needs from this conversation isn't from Dylan — it's the internal decision he makes before walking in.
+
+Write down in advance, verbatim:
+- *"If Dylan gives me specific versions of items 1-6 above, I commit to this path for 18 months without re-litigating whether Pinterest is the right place."*
+- *"If Dylan gives me only warmth without specifics — platitudes, deflection on the Dhruvil-ask question, vague 'keep doing what you're doing' — I activate Goal 5 in earnest and start preparing external optionality, not in anxiety but in clarity."*
+
+Pre-committing makes the conversation a decision-maker, not a decision-avoider. Prevents the "I got warm signals but not clear ones — let me re-litigate this for another 6 months" trap.
+
+---
+
 ## Open questions still to work through
 
 1. **The "what's next after last year" framing.** James's own phrasing: *"It feels amazing that she was able to achieve that for me, that I was able to give her data and ammunition to achieve this together, but what's next?"* That framing — "we did it together" — is Dylan-coded language worth embedding directly in the conversation. The question is how to use it without sounding pitched.
