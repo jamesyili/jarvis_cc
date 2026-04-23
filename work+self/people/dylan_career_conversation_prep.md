@@ -2,9 +2,9 @@
 
 **Purpose:** Self-contained context for continuing work on how James should approach a career-progression conversation with his manager Dylan before she goes OOO for all of June. Drop this file into a fresh LLM session to continue. Everything another LLM would need is in this file — no external reads required.
 
-**Status:** Conversation has been ACCEPTED. James raised it in the 4/21 1:1 and Dylan said yes ("quarterly career conversation, happy to have one, this is regular"). The pre-seed plan is obsolete. On 4/22 morning, James pressure-tested and rejected an IC-transition exploration AND flipped the conversation's organizing frame from "what do I want" to "what does Pinterest/Dylan need, and how do I align."
+**Status:** Conversation has been ACCEPTED. James raised it in the 4/21 1:1 and Dylan said yes ("quarterly career conversation, happy to have one, this is regular"). The pre-seed plan is obsolete. On 4/22 morning, James pressure-tested and rejected an IC-transition exploration AND flipped the conversation's organizing frame from "what do I want" to "what does Pinterest/Dylan need, and how do I align." On 4/23, Krishna (SSJ senior manager, put up for Director at end of 2025) shared he did NOT get the promo despite strong sponsorship — feedback was "visibility outside org." Krishna also surfaced that senior managers should not be too expectant of the next role and should consider external opportunities (Reddit DoE pinging James directly). This data point reshapes the conversation: organic propagation to VP level does not reliably happen; deliberate VP-level narrative consolidation is critical path.
 
-**Last updated:** 2026-04-22
+**Last updated:** 2026-04-23
 
 ---
 
@@ -114,6 +114,60 @@ Only IF she asks "well, what do YOU need from me" — then respond with the cont
 
 Together they form the Director-altitude operating stance: *I'm here to serve what's needed, using the capabilities I've built, and I'll calibrate what I build next to what you tell me matters most.* That stance, held genuinely, is what the rubric is secretly testing.
 
+## 2026-04-23 — the Krishna data point and what it forces
+
+Krishna (SSJ senior manager) shared his 2025 EOY non-promo:
+- **Strong sponsorship:** Kurchi (direct manager), two SDs outside his org, Jeff rapport from quarterly office hours.
+- **Outcome:** Did NOT get promoted. Feedback = "lacked visibility outside org."
+- **James's independent read of Krishna:** can't tie Krishna to any specific named artifact. Text search labeling maybe, but others own it more. The "visibility" gap is real and observable — diffuse good work, no named thing.
+- **Dhruvil control case:** also not up this cycle, not considered last cycle. Team ~25 is "on the lower side" for Director consideration. Signals Dylan is a cautious promoter — she saves political capital for asks that will land.
+
+### What this forces for the conversation
+
+**1. Your named-thing dimension is actually OK — better than Krishna.** Retentive Recommendations (RR) is real: WAU + holdout metric wins, CTO + CEO buy-in via Andrew's anticipation vision, three-org cross-pollination (Dylan + Bo Zhao + ATG), paper + blog in progress, uniquely attributable to you. Pinsight rising as second. UPP credit will go to Dhruvil — don't fight it. RR is the primary bet.
+
+**2. BUT — your current stance is the exact Krishna failure mode.** Your own words 4/23: *"I kind of trust that the latter is going to happen, and my name will come up organically."* That is Krishna's posture. Kurchi believed. Jeff knew Krishna. Two SDs sponsored. Krishna trusted organic. It didn't propagate. **The Krishna rule: organic works BELOW the calibration bar, does NOT propagate TO VP level without deliberate push.**
+
+**3. Timing constraint that sharpens everything.** Predicted UIC is the proof-point crescendo for RR narrative. Until that lands, the story is mid-arc. **If the proof point lands and your name isn't consolidated at VP level by then, the narrative lands for Andrew's anticipation vision — not for James-as-RR-lead.** Andrew gets the narrative; you get to say "I contributed." Andrew is a sponsor, which makes navigating this delicate but does not make it less real.
+
+### VP-level consolidation plan (critical path — tracked in backlog)
+
+| VP | Current state | Target | Plan |
+|----|---------------|--------|------|
+| **Jeff** | ~0-10% ("AI work in HF") | 75%+ | Office hours (pending Dylan OK). Lead with RR impact, not PINvestigator. Biggest gap, most load-bearing. |
+| **Rajat** | ~25% (PinSight exposure 4/16, UPP context) | 75%+ | 5/8 OH — use partly for RR narrative, not only June coverage mention. |
+| **Faisal** | ~25-50% (partner on UU for RR, has context) | 75%+ | Already well-positioned — needs touchpoint to cement. |
+| **Chuck** (Jiajing's manager) | ~0% | 50%+ (stretch) | Intro via Jiajing. Optional. |
+| **Kurchi** | Unknown/hostile-ish | Not a target | "Too hard to move, just hope she doesn't block." Don't invest; contain. |
+
+### How the Krishna intel should show up in the Dylan conversation
+
+Two options for raising Krishna's case with Dylan (borderline privileged — peer shared, not public):
+
+**Option A — don't raise Krishna directly, but USE the visibility framing.** Pro: preserves Krishna's confidence. Con: lose the concrete data point that would anchor Dylan's answer.
+
+**Option B — name it.** *"Krishna shared his non-promo experience with me — feedback was 'visibility outside org.' Made me want to stress-test where I am on that dimension. Can you help me see where my VP-level visibility actually is, and where the gaps are?"* Pro: specific, honest, gives her a real data point. Con: signals you're having peer conversations about promotion outside her.
+
+**Recommendation: Option B.** Dylan respects directness. Krishna isn't a secret — he reports in a different org. Naming it gives Dylan a concrete frame to answer against, and it signals you're taking calibration seriously enough to learn from adjacent cases. Don't dwell on it — name, ask, move.
+
+### Krishna's advice about external opportunities
+
+Krishna explicitly told James: *senior managers should not be too expectant of the next role; it may not exist; take opportunities outside when they present themselves (Reddit DoE VP pinging James directly).*
+
+**Holding this carefully:**
+- Krishna's advice is partly post-disappointment rationalization AND partly wisdom from the specific failure mode he just lived.
+- James's past Meta-withdrawal pattern suggests external opportunities can be status-chase mirrors. BUT Meta was Senior EM (lateral); Reddit is Director (actual level-up).
+- The calibration exercise of external interviews produces real calibration data that makes the Dylan conversation more honest, not less. Interviewing ≠ committing.
+- Deferred open question: engage Reddit conversation — yes/no — and what does that mean for Dylan relationship.
+
+### Updated pre-commit audit for the conversation
+
+Building on the 4/22 version, now also:
+
+- *"If Dylan's blind-spot answer confirms VP-level visibility gap — I commit to the VP consolidation plan above and treat it as critical path, not a nice-to-have."*
+- *"If Dylan says 'you don't need to worry about visibility, trust organic' — that's the Krishna failure mode talking. I press her: 'Did Kurchi think Krishna's visibility was fine too?' Push until specifics emerge or she admits organic isn't enough."*
+- *"Regardless of her answer, I go to Jeff's office hours with RR impact narrative. That is not conditional on Dylan's blessing."*
+
 ## The part worth emphasizing — what you got from waiting
 
 The most important thing about the last 48 hours is not the answer. It's that **you didn't have to decide anything yesterday, last night, or this morning.** You slept on it. You thought. You came back sharper.
@@ -133,6 +187,9 @@ What the 48-hour pause produced wasn't the answer — it was the quality of ques
   - *If Dylan says "combo required," I commit to Y — grow scope intentionally.*
   - *If Dylan says "traditional only," I activate Z — lean into traditional scope growth without resentment; AI-native remains the differentiator on top.*
 - Do NOT raise IC with Dylan. Hold that thread privately. If the pull returns durably in 6-12 months, revisit.
+- **NEW 2026-04-23:** Schedule Jeff's office hours urgently. Primary agenda = Retentive Recommendations impact narrative, not PINvestigator. Ask Dylan for OK in the 1:1 / DM. This is now critical path.
+- **NEW 2026-04-23:** Draft the VP consolidation plan (Jeff / Rajat / Faisal / Chuck) — named people, specific touchpoint strategy, 90-day horizon. Backlog P0 item `VP-level RR narrative consolidation`.
+- **NEW 2026-04-23:** Decide whether to engage the Reddit DoE conversation. Open item; not a this-week decision, but worth deciding consciously rather than by default.
 
 ---
 
