@@ -140,6 +140,24 @@ Krishna (SSJ senior manager) shared his 2025 EOY non-promo:
 | **Chuck** (Jiajing's manager) | ~0% | 50%+ (stretch) | Intro via Jiajing. Optional. |
 | **Kurchi** | Unknown/hostile-ish | Not a target | "Too hard to move, just hope she doesn't block." Don't invest; contain. |
 
+### Director-advocate cultivation (companion workstream — different from above)
+
+4/23 honest audit: zero active advocates outside Dylan's chain. "A few SDs who know me and like me but no one whose relationship I have cultivated to that level yet." This is the same dimension Krishna had (he had two SD advocates). Krishna's two wasn't enough — but zero is worse.
+
+**Distinction:** VP-mental-model-consolidation = "they know RR is mine." Advocate cultivation = "they'll fight for me in a calibration room." Different work, different verbs.
+
+**Pick 2-3 to cultivate, not six. Targets ranked by leverage:**
+
+| Candidate | Level | Current state | Conversion path |
+|-----------|-------|---------------|-----------------|
+| **Andrew Y.** | Sr Director-ish / anticipation vision owner | Public technical-lead endorsement 4/21; RR lives inside his anticipation vision | Strongest current candidate. Convert from "sponsor" to "will-fight-for-me-in-a-calibration-adjacent-room." Delicate because RR narrative can go to him if not carefully positioned. |
+| **Kartik** | Chief Architect, reports to CTO | Existing fan; has proactively connected to Dylan about James; Dylan hinted his support matters | Low friction, high altitude. Schedule a substantive 1:1 on AI/recsys judgment, not a demo. |
+| **Faisal** | VP Eng | UPP partner, very technical (KDD chair), open | Cultivate through UPP substance. A 1:1 where you share the retrieval-platform-as-AI-foundation framing would advance this. |
+
+Deprioritized (fine as supporters, not targets for advocate cultivation): Bo Zhao, Jiajing, Shipeng.
+
+Start with Andrew and Kartik. Faisal is a 6-month horizon target.
+
 ### How the Krishna intel should show up in the Dylan conversation
 
 Two options for raising Krishna's case with Dylan (borderline privileged — peer shared, not public):
