@@ -4,6 +4,53 @@
 
 ---
 
+## 2026-04-24 (Friday) — Slack exchange: "Claude fired a worker" → SSJ reorg pivot → moral alignment on Krishna's mistreatment (async, not a 1:1)
+
+**Context:** Dylan posted a "lol my Claude agent just fired a worker" message. Conversation evolved through humor into James informally executing Option B from the career conversation prep — raising Krishna's situation with Dylan via the natural pivot. Resulted in unprompted moral alignment on Kurchi's overreach.
+
+### The verbatim exchange (high-signal)
+
+**Dylan (4:37 PM):** *"wow my claude just fired a worker. this is new..."*
+
+**James (4:37 PM):** *"what... Agent?"*
+
+**Dylan (4:38 PM):** *"yeah. at some point maybe it will fire me. In a matter of fact tone: killed the process group, ... removed the worker... reassign another worker"*
+
+**James (4:39 PM):** *"lol wow. kinda like ssj reorg? jk"*
+
+**Dylan (4:39 PM):** *"rofl. too real."*
+
+**James (4:40 PM):** *"😭 Krishna told me he's done"*
+
+**Dylan (4:40 PM):** *"poor guy. he did everything he could"*
+
+**James (4:40 PM):** *"yea i don't feel good about how he was treated"*
+
+**Dylan (4:41 PM):** *"yeah it's very sad"*
+
+### What just happened
+
+**1. Option B from `dylan_career_conversation_prep.md` got executed informally and naturally.** James raised Krishna with Dylan via a humor pivot, not a planned formal move. Lower friction than the planned Option B; same information transfer.
+
+**2. Dylan's read of Kurchi's move is "poor guy / he did everything he could / very sad."** Translation: Dylan sees the Kurchi reorg as overreach, not as routine calibration mechanics. *"He did everything he could"* explicitly places the failure on Kurchi, not Krishna. Dylan is morally distanced from the Kurchi playbook. That is the strongest possible direct-evidence signal that **she would not run the same playbook on James.**
+
+**3. Peer-moral alignment, not just operational alignment.** Previous Dylan signals (4/3, 4/21, 4/23 Slack) were operational — investment behaviors, sponsor moves, register confirmation. This 4/24 exchange is *values-shared* territory: James shared moral discomfort ("I don't feel good about how he was treated") and Dylan met him at the same altitude. Rarest form of stakeholder trust at senior level.
+
+**4. The "Claude fired a worker" frame as soft anxiety processing.** Dylan said *"at some point maybe it will fire me"* — half-joking. She's also processing the AI-replacing-people anxiety in real time. Soft signal: she's not above the AI-disruption pressure she's deploying others through.
+
+### Implications
+
+- **Direct counter-evidence to James's 4/24-AM Reddit-rationalization fear** ("Pinterest will Kurchi me, companies aren't loyal"). Dylan's moral read on Krishna's situation is genuinely different from Kurchi's behavior. The "escape Pinterest's Kurchi-pattern" frame is no longer empirically supported. Reddit decision should be made on Reddit's merits, not on Pinterest fear.
+- **Career conversation agenda just got shorter.** Krishna is now shared context. James can open with *"That Krishna thing has me thinking about what I want from the next chapter here — wanted to talk through it"* and Dylan will engage from a position of already-shared frame. No need for the Option B explicit-raise move.
+- **Peak trust got peakier.** This isn't just sponsor-warmth anymore. Values alignment is a different category. Worth protecting; rare.
+- **Dylan's own AI anxiety is a soft signal worth holding.** She's not invulnerable to the disruption pressure. Don't need to act on it but track if it shows up again.
+
+### Open
+
+- Should James reference this exchange explicitly in the career conversation, or treat it as silent context Dylan already has? Lean: silent context. Drawing attention to it could overweight the moment. Let it carry naturally.
+
+---
+
 ## 2026-04-23 (Thursday) — Slack exchange on Dafang flight risk + market intel (async, not a 1:1)
 
 **Context:** James flagged to Dylan via Slack that Dimitra Tsiaousi wants to collaborate on Pinsight (cloned repo, built HF+Notif+Search version). Conversation evolved into Dafang flight-risk intel + broader market observations + Dylan's tooling pragmatism.
