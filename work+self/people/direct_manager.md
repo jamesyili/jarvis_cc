@@ -21,6 +21,39 @@ The relationship has evolved past "Strategic Partner" into something closer to *
 4. **Personal investment.** Dylan pushed a PINvestigator PR at 11:30pm and chased landing it the next morning. A Senior Director writing code in your tool is the strongest possible signal.
 5. **PM tone feedback (April 3).** Newer PMs (Akshanta, Lili Li) told Dylan that James's tone could be better. Dylan delivered softly — this is a favor, not a warning. The Feb "eggshells" feedback was a red alert; this is a yellow flag. Different severity, same D:88% root cause.
 
+### 2026-04-23 Update: Retention philosophy + moral filter on external destinations (Slack intel)
+
+Warm peer-level Slack exchange with James about Dafang's flight risk surfaced Dylan's stated retention posture and hierarchy of respectable external moves. High-signal quotes:
+
+**On retention philosophy (how she handles flight risk):**
+> *"honestly at this point, if ppl really want to go and try the new areas, I don't want to be in the middle of it. So I just let it be, and try give him a few interesting projects, if he leaves to a good opportunity, it's okay, I'm happy for him."*
+
+**Interpretation:** Dylan does not fight leavers. Her strategy is engage-via-interesting-projects (see Dafang + Reflex play), then release with grace if the person chooses to go. This is materially different from Kurchi's "push timeline + reorg" move. But it also means: **Dylan will not dramatically up-invest to retain James if she reads him as flight risk.** Her ceiling is already near peak — she's unlikely to escalate to counter-offer/promotion-acceleration. James's relationship is with the sponsor-version of Dylan, not a retention-fighting-version.
+
+**On moral filter — hierarchy of respectable external moves:**
+> *"I just hope if he leaves, not to some meta or snap place. I'd be sad if he goes those places. I have higher expectation for him."*
+
+**Hierarchy (inferred):**
+- **Respectable:** Anthropic, OpenAI, frontier AI labs. Even when "YOLO" ("grinding through").
+- **Disappointing:** Meta, Snap. "Grinding for money." Pattern-matched to comp chase after Pinterest invested.
+- **Unclear:** Reddit, mid-tier product platforms with LLM ambitions. Not Meta-shaped, not frontier-AI. Dylan's specific read on Reddit is unknown but load-bearing — it would determine whether an external Reddit exploration costs respect-capital with her.
+
+**Additional 4/23 signals:**
+- **Market awareness is very high.** Dylan is tracking who's going to Anthropic/OpenAI/Meta. Knows layoff dates. "A bunch ppl I talked to is going YOLO on it. like ChengCheng thought there's one year left to make any real tech money."
+- **Multi-vendor pragmatism.** Migrated from Claude Code to Codex due to stability. "CC happily migrated for me. Hooked up everything and say thank you and goodbye." Not sentimental about loyalty. Rewards effectiveness. Applies to tools AND probably to how she thinks about people decisions.
+- **Her husband is at Anthropic** (long-tenured, pre-bubble). She's skeptical of new joiners chasing frontier AI comp right now.
+- **Warm peer-level tone confirmed.** James joking about her husband. Her sharing private market intel. "Please keep this between us" with crying-laugh emoji response. Inner-circle operational trust.
+
+### Implications for James's Director-trajectory posture
+
+1. **Peak trust is real, but it doesn't protect against calibration mechanics.** Dylan genuinely trusts James — but "peak trust" with her sponsor-self ≠ "Dylan will fight for promotion regardless of calibration bar." The Krishna case (`stakeholders.md` §12b) shows that peak manager trust can coexist with failed calibration if the cross-org visibility bar isn't met.
+
+2. **Dylan won't reorg James's scope away after a failed calibration** — the Kurchi move is not her playbook. Her playbook is: engage with interesting projects, release with grace. Meaning: a failed calibration doesn't trigger dispossession; it triggers continued employment at same level, which is quieter but still painful over time.
+
+3. **The Reddit decision has a specific cost with Dylan.** Not retention fight (she won't), but respect (she might read Reddit as Meta-adjacent if framed wrong). Transparent framing of Reddit as "frontier product-platform AI work, not comp chase" would protect the respect channel.
+
+4. **Dafang engagement is a shared sponsor play.** James is an active co-sponsor of Dafang retention (adding him to Pinsight; splitting Reflex work). This is mutual-narrative infrastructure — James isn't just receiving sponsorship from Dylan, he's providing it to her direct report. Reinforces the peer-level dynamic.
+
 ---
 
 ## 2. Detailed Historical Event Analysis

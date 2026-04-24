@@ -912,7 +912,9 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 
 # 12) Roberto Konow — Sr. EM, Search (reports to Kurchi)
 
-> **Major update 2026-04-09:** Operating plan has been substantially revised after new data points. The original "ship M1 first, then talk" plan is superseded. See Current relationship + Structural context below.
+> **Major update 2026-04-23:** Roberto's position has materially strengthened via SSJ reorg (effective 2026-05-01). He now owns Text Search end-to-end: query understanding → retrieval → light-weight ranking → blending. Absorbs Query Understanding team (An Jiang, Ishita, Aakanksha). Kurchi's framing: *"I am excited to see how Roberto's influence evolves Text search going forward."* (Note the word "influence" — Director-track language.) Roberto got the scope that was previously Krishna's while Krishna was moved to platform work. This is part of the empirical "Kurchi move" pattern (see Krishna profile below).
+
+> **Update 2026-04-09:** Operating plan has been substantially revised after new data points. The original "ship M1 first, then talk" plan is superseded. See Current relationship + Structural context below.
 
 ## Role in my 6–12 month goals
 - **Structural counterweight in Kurchi-line AI tooling.** Roberto built a funnel debugging tool on Search logs using Claude Code; Jeff highlighted it to the entire org. As of 2026-04-09, he has expanded into agentic eval tooling ("I got agents working on search eval tool"), directly into James's PINvestigator/Pinsight territory.
@@ -944,6 +946,47 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 ## Watch-outs
 - **If Roberto's team demos in a room with Jeff repeatedly over the next 2-4 weeks,** the status-sensor pattern will re-activate. Monday-morning wins calibration (`communication.md` Pattern 9) is the pre-communication hygiene for this.
 - **If Kurchi starts citing Roberto's work in director-level forums as evidence against Dylan's side,** the Roberto dynamic becomes a higher-stakes org problem that Dylan needs to know about. Not yet — but track for escalation signals.
+
+---
+
+# 12b) Krishna Kamath — Sr. EM, SSJ (new: Intent Navigation and Platform org, post-reorg 2026-05-01)
+
+> **Added 2026-04-23.** Key empirical case study for how failed Director calibration + cautious sponsor + reorg lever can compound. James's strategic mirror.
+
+## Role in my 6–12 month goals
+- **Cautionary case study, not a stakeholder to manage.** Krishna was one data point; his story is now load-bearing for how James approaches his own Director trajectory.
+- **Trust channel into Kurchi's org (historical).** Krishna has been described in `direct_manager.md:698` as "Kurchi's most trusted lieutenant" and someone with whom James has strong direct rapport. That channel still exists but is compromised: Krishna is flight risk.
+
+## The sequence that just happened (2026-04-23 intel)
+1. **EOY 2025 calibration:** Krishna was put up for Director with strong sponsorship — Kurchi as direct manager, two Senior Directors outside his org supporting, Jeff rapport from quarterly office hours over years. All the "right" signals.
+2. **Did NOT get promoted.** Feedback: *"lacked visibility outside org."*
+3. **James's independent read:** Krishna has no named artifact. Text search labeling maybe, but others own it more. Diffuse good work; no flagship thing associated with his name. Consistent with the calibration feedback.
+4. **Krishna asked Kurchi:** how do I improve in the next few months, try again in July?
+5. **Kurchi pushed timeline out:** "Noooo, maybe in a year."
+6. **Reorg (2026-05-01):** Kurchi moved Text Search Relevance (Krishna's flagship scope) to Roberto. Krishna now runs SSJ Intent Nav + new SSJ Platform team (query recs + platform optimizations, ML efficiencies, observability). Kurchi's framing: "forming the connective tissue for our experience and relevance teams." The SSJ Platform charter is the graveyard — operational reliability work without the flagship-narratable impact calibration rooms reward.
+7. **Krishna's response:** taking weeks off in India. Then starting to look externally. Told James explicitly: senior managers should not be too expectant of the next role, take opportunities outside when they present themselves. Cautioned James about his own situation.
+
+## The "Kurchi move" pattern (documented for James's reference)
+**Failed promo → sponsor pushes timeline → scope rebalanced away → flight.** Sponsor confidence (stated) ≠ sponsor advocacy (fought for in calibration) ≠ sponsor resilience (sustained after setback). Krishna had the first. The second was insufficient. The third didn't materialize — Kurchi used the reorg lever to protect the org's Director bench (Roberto) at Krishna's expense.
+
+## What made Roberto successful where Krishna failed (dimensions)
+1. **Named artifacts.** Roberto shipped Search Debugger + Search Replay. Jeff celebrated by name. Krishna had diffuse good work.
+2. **Vertical E2E ownership.** Roberto now owns full-stack text search. Krishna owned one stage (Relevance).
+3. **Jeff rapport + shipped tools.** Roberto had both. Krishna had rapport only.
+4. **Territorial discipline.** Roberto defended his lane (9-day silence on James's collaboration DM; mid-pitch territorial interruption). Krishna didn't fight for brand.
+5. **Adjacent-capability consolidation.** Roberto expanded into agentic eval tooling by building, not lobbying.
+6. **Reliability to sponsor.** Roberto delivers Kurchi's narrative upward predictably. Krishna was harder to build around.
+7. **Cross-org visibility.** Jeff's email named Roberto org-wide. Krishna was mostly known inside SSJ.
+
+## Implications for James
+- **Dylan is not Kurchi.** Relationship is warmer, peer-like, different philosophical stance on retention (see `direct_manager.md` 4/23 update). The Kurchi move is not a universal pattern — it's Kurchi's specific playbook. BUT the lever exists in Pinterest's org architecture; any Sr. Director can execute a scope rebalance after a failed calibration.
+- **Named-thing consolidation is critical path.** Krishna's failure mode was diffuseness. James has RR + Reflex/Pinsight as named-thing candidates — better than Krishna — but organic propagation is Krishna's exact failure mode. Active narrative consolidation at VP level is how you avoid this.
+- **Krishna's advice re: external opportunities has empirical weight now.** He's not rationalizing — he's telling James a story currently unfolding on him. Holds even after accounting for survivorship bias.
+- **Dylan's 4/23 retention philosophy** (`direct_manager.md`) says she won't fight leavers. That's different from Kurchi's reorg move — but it also means Dylan won't up-invest dramatically to retain if she reads James as flight risk. Transparency with Dylan about external exploration has costs and benefits that require careful weighing.
+
+## Operating notes
+- **Do not mention Krishna's situation to anyone — even Dylan** unless James deliberately raises Krishna's case as part of his own career conversation (Option B in `dylan_career_conversation_prep.md`).
+- **Stay in touch with Krishna post-departure** if he leaves. He's a trust channel into the Pinterest-external recsys leader network.
 
 ---
 

@@ -174,6 +174,23 @@
 * **Mantra:** "I am not the owner of the truth; I am the mechanic fixing the car"
 * **Result:** Exceeds rating in March 2026 — the behavioral improvement was recognized despite Feb "maturity ceiling" feedback.
 
+### The Frame Flip: "What does Pinterest need?" (2026-04-22)
+* **The insight James named himself, after 48 hours of career conversation prep that centered on his own wants:** *"The biggest part about being a good leader is knowing what Pinterest wants and needs, and what my leaders want and need. Dylan is positioned to see from her vantage point and can share."*
+* **Old frame:** "Here's what I want to build toward. Is there a path for it?"
+* **New frame:** "What does Pinterest need? What does Dylan need? Given those needs, where am I useful, where do I need to evolve, and how can I serve?"
+* **Why this is load-bearing:** Self-centered framing is where most senior ICs and mid-level managers operate from. Serving-needs framing is Director/VP altitude. You can't be useful at the Director tier without thinking like a Director, and Directors think org-first. Dylan will feel the difference.
+* **Behavioral test for whether it's landing:** In the Dylan career conversation, does James open with "what does Pinterest need" (Q0) or with "here's what I want" (old frame)? The opening is the tell.
+* **James's ambition isn't suppressed under this frame — it aligns with org need and gets sponsored BY it.** More durable than ambition that pushes against the org.
+* **Anchor sentence (write down, protect):** *"What I want matters, but what Pinterest needs is the organizing question. My ambition is best served by serving what's needed."*
+
+### Don't Sabotage Yourself by Over-Rotating to Non-Traditional (2026-04-22)
+* **The insight James named himself:** *"I don't want to sabotage myself just because I'm able to do AI means I have to do AI."*
+* **The pattern:** The status sensor loves non-traditional paths because they feel special and differentiated. But "I'm capable of AI-native leadership" ≠ "I must invent a non-traditional path that leans only on AI-native leadership." The traditional path — grow scope, hit the typical Director markers (30-40 reports, named flagship, cross-org narrative) — may be AVAILABLE to James too. If it is, taking it is not capitulation; it's the clean path.
+* **The strategic play:** Traditional scope growth + AI-native capability = best of both. James stops having to defend a non-traditional shape because he's on the traditional path with a distinguishing lane.
+* **Why this matters for coaching:** "I must be unique" is sensor-voice. "I'll take whatever combination best serves the work and the org" is grounded-voice. The frame flip (serve what's needed) resolves this tension — the right shape is whatever the org actually needs, not whatever maximally differentiates James.
+* **Anchor sentence (pairs with frame flip above):** *"Being able to build AI doesn't obligate me to pursue a non-traditional path. Let the need define the shape."*
+* **Both 4/22 insights together form the Director-altitude stance:** *"I'm here to serve what's needed, using the capabilities I've built. What the org needs is the organizing question. I'll calibrate what I grow into against that — not against what differentiates me or what I'm uniquely capable of."* That stance is what the calibration room is secretly testing.
+
 ### Growth Evidence: Bowen Departure Handling
 * James handled Bowen's departure fundamentally differently than the previous experience (blowing up at a departing report, now no longer on speaking terms).
 * Real growth: delivered comp + feedback + transition ask in one conversation. Maintained relationship. Earned clean handoff.

@@ -28,10 +28,10 @@ Bill Ready (CEO)
         ├── Rajat Chaturvedi (VP, Engineering)
         │   ├── Dylan Wang (Sr. Director, ML — Homefeed Relevance) — 132 reports
         │   │   ├── James Li (Sr. Manager, ML — HF Candidate Generation) — 17 reports
-        │   │   ├── Dhruvil Deven Badani (Sr. Manager, ML — HF Ranking) — 35 reports
+        │   │   ├── Dhruvil Deven Badani (Sr. Manager, ML — HF Ranking) — 25 reports
         │   │   │   ├── Rahul Goldam (Manager II, ML)
         │   │   │   └── Dafeng He (Sr. Staff MLE)
-        │   │   ├── Yan Li (Sr. Manager, Eng — P13N-Experiences) — 27 reports
+        │   │   ├── Yan Li (Sr. Manager, Eng — P13N-Experiences) — 30 reports
         │   │   ├── Tim Leung (Manager II, Eng — Frontend) — 13 reports
         │   │   ├── Francisco Navarrete (Sr. Manager, Eng — Platform/Labeling) — 16 reports
         │   │   └── Olafur Gudmundsson (Sr. Staff MLE — IC)
@@ -71,8 +71,8 @@ Other CTO direct reports (outside Jeff's chain):
   - Direct reports: Dylan, Kurchi, Kaanon, Karina
 - **Jeff Harrell:** VP of Engineering - Core (Rajat's manager)
   - High-I/D profile. Loves demos, “cool work,” and engineering culture modernization.
-- **Dhruvil:** Sr EM for Homefeed Ranking (peer under Dylan, 35 reports)
-- **Yan Li:** Sr EM for P13N-Experiences (peer under Dylan, 27 reports). New to org post-reorg. Frontend + 6-person ML team. Owns Explore/IB surfaces.
+- **Dhruvil:** Sr EM for Homefeed Ranking (peer under Dylan, 25 reports)
+- **Yan Li:** Sr EM for P13N-Experiences (peer under Dylan, 30 reports). New to org post-reorg. Frontend + 6-person ML team. Owns Explore/IB surfaces.
 - **Tim Leung:** Manager II under Dylan (13 reports). Frontend team. James mentors him. TL Yu Zhao is one of the best engineers in the org.
 - **Francisco Navarrete:** Sr Manager under Dylan (16 reports). Team primarily in Mexico. Labeling + foundational platform work. Stretched by horizontal platform work for all of Core. Good relationship with James.
 - **Olafur Gudmundsson:** Sr. Staff MLE under Dylan. IC. Involved in ownership boundary discussions.
@@ -84,7 +84,17 @@ Other CTO direct reports (outside Jeff's chain):
 
 ### Notable: Raymond Su
 Reports to Tim Leung. Was the previous HF CG manager before James joined above him. Transitioned back to IC unwillingly. Holds resentment toward James. Not an active risk but worth tracking.  
-  
+
+### SSJ reorg (Kurchi's org) — effective 2026-05-01
+
+Announced 2026-04-23 by Kurchi. Key changes relevant to James's strategic landscape:
+
+- **Text Search Relevance → Roberto Konow.** Gets end-to-end scope: query understanding + rewriting + retrieval + light-weight ranking + final relevance/blending. Absorbs Query Understanding team (An/John Jiang, Ishita Dasgupta, Aakanksha Sanctis). **Major position strengthening for Roberto.** Full-stack text search owner now.
+- **Semantic Relevance → Xi Chen** (Search Ranking and Blending). Han Wang, Austin Jenkins, Mukuntha Narayanan, Bonnie Liu move under Xi.
+- **Closeup Relevance → Huizhong Duan** (renamed to Closeup and Multimodal Relevance). Zhenjie Zhang joins leadership bench.
+- **Multimodal Search → Sai Xiao** (unified Closeup Retrieval and Multimodal Search).
+- **Krishna Kamath → new SSJ Intent Navigation and Platform org.** This is the cautionary case. Krishna was non-promoted at Director EOY 2025 (feedback: "lacked visibility outside org"). Asked Kurchi for how to improve and try again in July; Kurchi pushed timeline to "a year." Reorg then moved his flagship scope (Text Search Relevance) to Roberto; Krishna now runs Query Recommendations (Madhur Kapoor reporting in) + new SSJ Platform team (platform optimizations, ML efficiencies, observability). Kurchi's framing: *"forming the connective tissue for our experience and relevance teams."* Krishna's read: graveyard. Taking weeks off in India, then starting to look externally. Warned James explicitly to be cautious. **This is the empirical "Kurchi move" pattern: failed promo → timeline pushed → scope rebalanced away → flight.**
+
 ### Name normalization (must preserve in outputs)  
 - Hong Tao → **Hongtao**  
 - Jay Wong / Jay → **Jaewon**  
