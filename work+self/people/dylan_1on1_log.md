@@ -4,6 +4,58 @@
 
 ---
 
+## 2026-04-23 (Thursday) — Slack exchange on Dafang flight risk + market intel (async, not a 1:1)
+
+**Context:** James flagged to Dylan via Slack that Dimitra Tsiaousi wants to collaborate on Pinsight (cloned repo, built HF+Notif+Search version). Conversation evolved into Dafang flight-risk intel + broader market observations + Dylan's tooling pragmatism.
+
+### High-signal lines from Dylan (verbatim)
+
+**On Dafang flight risk + her retention philosophy:**
+> *"honestly at this point, if ppl really want to go and try the new areas, I don't want to be in the middle of it. So I just let it be, and try give him a few interesting projects, if he leaves to a good opportunity, it's okay, I'm happy for him."*
+
+→ Stated retention posture: don't fight leavers; give interesting work; release with grace if they go.
+
+**On moral filter for respectable external moves:**
+> *"I just hope if he leaves, not to some meta or snap place. I'd be sad if he goes those places. I have higher expectation for him."*
+
+→ Hierarchy: Anthropic/OpenAI (frontier AI, respectable grind) > Reddit/etc (unclear, product-platform bets) > Meta/Snap (comp chase, disappointing). She has an explicit ethics of what external moves she respects.
+
+**On market sentiment:**
+> *"a bunch ppl I talked to is going YOLO on it. like ChengCheng thought there's one year left to make any real tech money."*
+> *"my husband has been there long enough, to enjoy himself and get all the claude benefit. for new ppl, I dare say it's a mistake."*
+
+→ She's tracking the exodus closely. Her husband is at Anthropic (long-tenured, OK). She's skeptical of new joiners chasing frontier AI comp right now.
+
+**On tooling pragmatism:**
+> *"CC happily migrated for me. Hooked up everything and say thank you and goodbye."*
+> *"it's not like TPU migration"* (re: multi-vendor AI)
+
+→ Not sentimental about loyalty. Rewards effectiveness and stability. Migrated from Claude Code to Codex due to stability. Same pragmatism likely applies to how she thinks about retaining her people.
+
+### Register + relationship state
+
+Warm, peer-like, high-trust. James joked about Dylan's husband ("does your husband know you say this hahaha"). Dylan shared private market intel and venting about Claude degradation. James asked her to "please keep this between us" and she responded with a crying-laugh emoji.
+
+This is inner-circle-level operational trust. Not sponsor-petitioner. Two peers sharing read.
+
+### Dafang engagement pattern (mutual sponsor behavior)
+
+- Piyush tipped James: "heard through the grapevine that Dafang is also looking around."
+- James surfaced to Dylan. Dylan: "yeah I sensed it. I'm trying to get him engaged. That's why asked to enroll him in reflex."
+- James + Dylan are co-owning Dafang engagement. James added Dafang to Pinsight + Reflex. James and Dafang split Reflex work (Dafang on Blending/PR, James on CG).
+- James: "it'll be great if we can engage him to build really amazing things here."
+- Dylan: "yes do you want me to reach out? or you already did?"
+- Mutual active retention work. Dylan is willing to up-invest when she sees a specific path and a co-owner.
+
+### Implications
+
+- **For James's Dylan career conversation:** the peer-level register is available. No ceremony needed.
+- **For James's Reddit decision:** Dylan-trust cost of exploring is real but not catastrophic. She won't fight if James looks. But moral-filter read of Reddit is unknown — if she reads it as Meta-adjacent, respect cost is real.
+- **For Pinsight narrative:** Dylan validated Pinsight + notif agent work publicly in the chat. Dimitra fork is effectively endorsed at Dylan level.
+- **For Dafang retention play:** James is an active co-sponsor here. Losing Dafang would also be James-coded in Dylan's mental model. Worth staying engaged in the next Dafang touchpoints.
+
+---
+
 ## 2026-04-21 (Tuesday) — Dylan 1:1 Debrief
 
 **Outcome: Strong.** Peak-trust 1:1. Career conversation accepted without fanfare. Multiple active unblocking moves. Reflex co-ownership deepened.

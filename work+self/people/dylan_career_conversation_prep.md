@@ -124,7 +124,12 @@ Krishna (SSJ senior manager) shared his 2025 EOY non-promo:
 
 ### What this forces for the conversation
 
-**1. Your named-thing dimension is actually OK — better than Krishna.** Retentive Recommendations (RR) is real: WAU + holdout metric wins, CTO + CEO buy-in via Andrew's anticipation vision, three-org cross-pollination (Dylan + Bo Zhao + ATG), paper + blog in progress, uniquely attributable to you. Pinsight rising as second. UPP credit will go to Dhruvil — don't fight it. RR is the primary bet.
+**1. Your named-thing dimension is OK — actually stronger than I initially framed (update 4/23 PM).** You have TWO real named-thing candidates:
+- **Retentive Recommendations (RR)** — primary. WAU + holdout wins, CTO+CEO buy-in via Andrew's anticipation vision, three-org cross-pollination (Dylan + Bo Zhao + ATG), paper + blog in progress. Uniquely attributable to you.
+- **Reflex (with Pinsight as data substrate)** — second. Andrew's public technical-lead designation 4/21. Pinsight organically winning cross-team adoption: Dimitra (Notifications EM) forked your repo and built HF+Notif+Search version (chose yours over Roberto's). Dafang, Darren's team, and Francisco's team starting to contribute. Pinsight is the data substrate for Reflex, so Pinsight success = Reflex success = your named thing.
+- UPP credit will go to Dhruvil — don't fight it.
+
+Krishna had zero named things. You have two. The substance is there; the gap is VP-level consolidation of "these are James's" in exec-room mental models.
 
 **2. BUT — your current stance is the exact Krishna failure mode.** Your own words 4/23: *"I kind of trust that the latter is going to happen, and my name will come up organically."* That is Krishna's posture. Kurchi believed. Jeff knew Krishna. Two SDs sponsored. Krishna trusted organic. It didn't propagate. **The Krishna rule: organic works BELOW the calibration bar, does NOT propagate TO VP level without deliberate push.**
 
@@ -178,6 +183,28 @@ Krishna explicitly told James: *senior managers should not be too expectant of t
 - The calibration exercise of external interviews produces real calibration data that makes the Dylan conversation more honest, not less. Interviewing ≠ committing.
 - Deferred open question: engage Reddit conversation — yes/no — and what does that mean for Dylan relationship.
 
+### Dylan's retention philosophy + moral filter on external moves (4/23 Slack intel)
+
+From a warm, peer-level Slack exchange with James about Dafang's flight risk:
+
+> *"Honestly at this point, if ppl really want to go and try the new areas, I don't want to be in the middle of it. So I just let it be, and try give him a few interesting projects, if he leaves to a good opportunity, it's okay, I'm happy for him."*
+
+**And her moral filter on destinations:**
+> *"I just hope if he leaves, not to some meta or snap place. I'd be sad if he goes those places. I have higher expectation for him."*
+
+**Her hierarchy of respectable external moves** (inferred from broader conversation):
+- **Respectable:** Anthropic, OpenAI, frontier AI labs. "Grinding through" the YOLO phase. She acknowledges comp magnets but respects the work.
+- **Disappointing:** Meta, Snap. "Grinding for money." Pattern-matched to people who chased comp after Pinterest invested in them.
+- **Unclear:** Reddit. Product-platform with LLM-at-scale ambitions. Not Meta-style, not frontier AI. She'd have a specific read — worth knowing before engaging the Reddit conversation seriously.
+
+**What this means for the Reddit decision:**
+- **Dylan-trust cost of engaging Reddit is real but smaller than I initially framed.** She won't dramatize.
+- **She won't up-invest dramatically to retain you either.** Her stated posture is acceptance + release.
+- **The critical unknown:** where Reddit sits in her moral-filter map. If she reads it as Meta-grind-adjacent, you lose her respect even if she doesn't fight you. If she reads it as respectable product-platform-AI work, no cost to her respect.
+- **Smart play:** either (a) don't engage Reddit seriously right now, OR (b) preemptively loop her in during the career conversation in a way that frames Reddit as respectable exploration — "I'm getting Director-level inbound from Reddit around LLM-powered content personalization; wanted to surface it for your read before I decide whether to engage." Transparency is available to you given the peer-level dynamic.
+
+**Warm peer-level tone confirmed.** The full 4/23 Slack thread (Dafang engagement, Meta comp flight, Anthropic's Atlassian rumor, Codex vs CC migration) shows inner-circle-level trust. James can walk into the career conversation with that same direct, pragmatic register. No ceremony required.
+
 ### Updated pre-commit audit for the conversation
 
 Building on the 4/22 version, now also:
@@ -207,7 +234,8 @@ What the 48-hour pause produced wasn't the answer — it was the quality of ques
 - Do NOT raise IC with Dylan. Hold that thread privately. If the pull returns durably in 6-12 months, revisit.
 - **NEW 2026-04-23:** Schedule Jeff's office hours urgently. Primary agenda = Retentive Recommendations impact narrative, not PINvestigator. Ask Dylan for OK in the 1:1 / DM. This is now critical path.
 - **NEW 2026-04-23:** Draft the VP consolidation plan (Jeff / Rajat / Faisal / Chuck) — named people, specific touchpoint strategy, 90-day horizon. Backlog P0 item `VP-level RR narrative consolidation`.
-- **NEW 2026-04-23:** Decide whether to engage the Reddit DoE conversation. Open item; not a this-week decision, but worth deciding consciously rather than by default.
+- **NEW 2026-04-23:** Decide whether to engage the Reddit DoE conversation. Open item. Options: (a) don't engage, (b) engage quietly for intel, (c) preemptively loop Dylan in during career conversation to frame as respectable exploration. Factor: where Reddit sits in Dylan's moral-filter map (Meta-adjacent vs frontier-AI-adjacent) is unknown but load-bearing.
+- **NEW 2026-04-23:** Roberto analysis correction — the playbook is NOT "compete/cede/negotiate." It's **bypass via Reflex** and let the organic Pinsight adoption (Dimitra fork, Dafang, Darren's team, Francisco's team) do the narrative work. Do NOT re-outreach to Roberto. Structural Kurchi-Dylan dynamic, not peer-fixable. Documented in `stakeholders.md:913` and `projects/pinsight/strategic_next_steps_april.md:27`.
 
 ---
 
