@@ -106,6 +106,7 @@ Listen carefully. Don't react. Take one clarifying question if something surpris
 - *"Is there a forum or meeting you expected me at that I haven't been showing up to?"*
 - *"Is there a pattern in my team management you've seen slipping?"*
 - *"Am I carrying my narrative upward enough — or leaning too much on letting the work speak for itself?"*
+- **(Post-Krishna — 4/23 addition):** *"When you're in rooms with other Directors and my name comes up — or doesn't — what's the shape of what's said? What am I attached to in their mental model? Where am I silent that I probably shouldn't be?"* This pulls secondhand-signal data Dylan already has from skip-levels and peer chats. Use this specifically if she offers generic warmth — it's harder to dodge.
 
 You have to pull this. Your D:88 instinct will accept the warm answer and move on. Don't.
 
