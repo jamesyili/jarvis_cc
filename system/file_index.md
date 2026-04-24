@@ -56,7 +56,7 @@ Last updated: 2026-04-23
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `session-logs/` | Individual session log files, one per date (2026-04-18 through 2026-04-21 latest) — replaces rolling `session-log.md` pattern | 2026-04-21 |
-| `instincts/` | Behavioral instincts from correction/confirmation patterns — dont-elaborate-on-delegated-work, no-surprises-public-delegation, proactive-restart-frozen-process, synthesize-dont-deflect (4/21), corrections-interrupt-by-design (4/21) | 2026-04-21 |
+| `instincts/` | Behavioral instincts from correction/confirmation patterns — dont-elaborate-on-delegated-work, no-surprises-public-delegation, proactive-restart-frozen-process, synthesize-dont-deflect (4/21), corrections-interrupt-by-design (4/21), check-existing-context-before-analyzing (4/23) | 2026-04-23 |
 | `lennys_podcast_pipeline.md` | Lenny's podcast extraction pipeline: purpose, status, next steps, file locations | 2026-04-05 |
 | `karen_observations.md` | Karen's longitudinal pattern tracking | 2026-04-06 |
 
