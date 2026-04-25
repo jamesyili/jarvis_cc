@@ -173,3 +173,39 @@ TOOL CALL FAILED — mcp__notebooklm__ask_question returned "No such tool availa
 **Session ID:** N/A — call did not complete
 
 **Action taken:** Returning ERROR string per failsafe protocol. Main session should escalate to direct MCP query in primary Leo context where tool namespace may differ.
+
+---
+
+## 2026-04-25 — Wes Kao Frameworks: Cupcake lookback doc v2 review
+
+**Context:** James co-authoring Q1/Cupcake lookback + look-forward doc with Tim Leung and Yan Li. Pre-review with Dylan before broader EPD release. Strategic backdrop (not in doc): PM tone-feedback repair (Akshanta + Lili), Yan ownership transition soft-publication, Raymond ownership-gap surfacing through structural principle.
+
+**Run path:** Direct MCP `mcp__notebooklm__ask_question` after consult-notebook agent stalled (subagent watchdog timeout at 600s — agent had identified correct notebook ID but did not complete query). Subagent tool-exposure issue still open per backlog.
+
+**Notebook:** Wes Kao Frameworks (`wes-kao-frameworks` / UUID `e2650916-178d-460d-bf27-fb25bd933dc9`).
+
+**Session ID:** c8ff2b56
+
+**Query:** Apply Wes Kao frameworks to a v2 draft. Asked for: top 3 strengths (named framework), top 3 weaknesses (framework + concrete rewrite), single most important edit before manager review, framing question to answer before sending. Compressed draft pasted in the question (full draft in `work+self/projects/cupcake_lookback/current_draft_v2.md`).
+
+**Response (raw, frameworks named):**
+
+Top 3 strengths:
+1. "System gap, not people gap" framing → *Comment on the behavior, not the person.*
+2. "Rather than let separate narratives form, we wanted to write one doc together" → *Playing Defense (Control the narrative).*
+3. "It's incomplete by design" + function-specific input prompts → *Observe, Assert, Validate (OAV).*
+
+Top 3 weaknesses + rewrites:
+1. Opening is chronological → *Start right before you get eaten by the bear* + *BLUF.* Rewrite: "BLUF: Q1 cross-team work drove strong UX/backend wins, but exposed 5 system-level integration gaps. This draft asserts Engineering's proposed Q2 ownership principles to resolve them. We are seeking PM/Design/TPM input to finalize a unified operating model."
+2. "Tim and Yan TBD" on commitments → *Act like an owner / This is a relay race.* Rewrite: secure Tim and Yan commitments BEFORE sending to Dylan. *"Your manager wants to know you have herded the cats, not that you are asking them to herd your peers for you."*
+3. "Recurring quarterly practice" in opener → *Sales, Not Logistics.* Rewrite: move to Forward Practices.
+
+Single most important edit before manager review: Lock Tim and Yan commitments before Dylan pre-review. A "joint" leadership doc with TBD placeholders projects *Insecure Vibes* and signals poor cross-team alignment.
+
+Framing question before sending: *"What is the Question Behind the Question (QBQ) my Sr. Director will have when reading this?"* Likely QBQ: *"Will opening this doc up to the whole EPD org create alignment, or will it trigger a massive, unstructured complain-fest?"* Cover note must preempt by stating feedback-loop control mechanism explicitly.
+
+**Action taken:**
+
+1. Synthesis written to `work+self/projects/cupcake_lookback/wes_kao_review.md` with raw output + Leo synthesis + sequencing correction (I had previously told James to leave Tim/Yan TBD as placeholders to ship to Dylan — that's wrong for the Dylan pre-review, correct for broader EPD release).
+2. Cover notes for Tim/Yan ask + Dylan pre-review (with QBQ-controlling preface) drafted in `work+self/projects/cupcake_lookback/sequencing_and_cover_notes.md`.
+3. Folder `work+self/projects/cupcake_lookback/` created with full working set: README, briefing.md (LLM briefing pack + Yan addendum), current_draft_v2.md, stakeholder_context.md, wes_kao_review.md, sequencing_and_cover_notes.md.
