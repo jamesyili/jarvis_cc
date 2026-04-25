@@ -69,6 +69,12 @@ Dylan: Updated "Political Calibration" from a risk to a proven capability. You d
 Markdown
 # 1) Dylan — Manager / Director (Homefeed Relevance)
 
+> **Related files (Dylan three-file system):**
+> - [dylan_archive.md](dylan_archive.md) — deep 9-month forensic archive. Phased history, psychological user manual, vulnerabilities. Read once per strategic question.
+> - [dylan_1on1_log.md](dylan_1on1_log.md) — rolling append-only tactical log. `prep` reads, `debrief` writes.
+>
+> **What this section is:** compressed live profile in the same shape as 23 other stakeholders. Cross-stakeholder triangulation. Update on arc-shift events; keep compressed (depth lives in archive).
+
 ## Role in my 6–12 month goals
 - **Primary gatekeeper for scope, ratings, and sponsorship.**
 - Assigns and endorses **director-shaped, ambiguous problem spaces**.
@@ -146,12 +152,24 @@ Markdown
   *(Confidence: Medium–High)*
 - **Bowen Departure & Perf Review (March 2026):** Managed Bowen's departure to OpenAI with clean framing ("management gap, not technical crisis"). Dylan's reaction casual — she already viewed Bowen as self-prioritizing. Received Exceeds rating and $1.2M equity grant. Dylan expressed full confidence and offered IC17 sacrifice for backfill. Co-solved DaFang situation together.
   *(Confidence: Very High — trust at peak)*
+- **PINvestigator Breakthrough (April 1, 2026):** Dylan personally ran PINvestigator for ~5 hours, called the investigation doc "great," proactively suggested sharing with Karim Wahba/PADS, asked to see custom skills next 1:1. **Register shift: sponsor → AI guide.** AI/IC drift concern dissolved.
+  *(Confidence: Very High)*
+- **PM Tone Feedback (April 3, 2026):** Two newer PMs (Akshanta, Lili Li) told Dylan James's tone could be better. Yellow flag delivered softly as a favor. Same D:88% root cause as Feb "eggshells" but lower severity. Repair landed (Akshanta DM + cordial 1:1).
+  *(Confidence: High)*
+- **Operational Embedding (April 15-21):** Dylan self-inserted into RLHF expert team for Reflex (Sr. Director as IC), proposed critic-agent architecture (4/17), put Dafang onto Reflex "to learn." Issued two pacing DMs in one week (4/15, 4/21) — care-based real-time re-anchoring via DM, not 1:1. **Register: operational co-participant on flagship initiatives.**
+  *(Confidence: Very High)*
+- **Career Conversation Accepted (April 21, 2026):** Dylan accepted as "quarterly regular, happy to have one, this is regular." Pre-seed plan obsolete. On-call ask landed instantly. Burnout-watch flagged twice in one week — sustainability is the path ceiling. Public AI differentiation private, with calibration-room ceiling ("everyone is excited by different things").
+  *(Confidence: Very High)*
+- **Retention Philosophy + Moral Filter (April 23, 2026 Slack):** *"If ppl really want to go and try the new areas, I don't want to be in the middle of it... I'm happy for him."* Won't fight leavers; engage-via-interesting-work then release. Moral hierarchy: Anthropic/OpenAI respectable; Meta/Snap disappointing. Reddit unknown. Warm peer-level register confirmed.
+  *(Confidence: High — verbatim quotes captured)*
+- **Peer-Moral Alignment on Krishna (April 24, 2026 Slack):** Unprompted *"poor guy. he did everything he could. yeah it's very sad"* on Krishna's reorg. Values-shared territory — Dylan morally distancing from Kurchi's playbook in plain language. Direct counter-evidence to "Pinterest will Kurchi me" rationalization. Rarest stakeholder signal.
+  *(Confidence: Very High — verbatim quotes)*
 
 ## Dylan’s likely current narrative about me
-- **Positive core:**
-  “James is a high-rigor, high-output leader who handled Bowen’s departure cleanly, is managing 17 reports without drama, and is driving UPP expansion across surfaces. His behavioral maturity has improved materially. He is ready for more scope.”
+- **Positive core (April 2026):**
+  “James is the AI-native operator on my team — he's the differentiator other directs aren't matching. He's running Reflex with Andrew, Pinsight is winning organic adoption, the team is stable, and he handles his own messes. AI work has graduated from suspicious-IC-drift to actively load-bearing. Career conversation accepted as quarterly-regular; he's serving the org's needs by leading where the puck is going.”
 - **Watch-out:**
-  “Is he drifting toward IC/AI? Monitor the AI exploration signals. Also: can he sustain 17 reports without burning out?”
+  “Sustainability is the ceiling — flagged burnout twice in one week (4/15, 4/21). Path he wants compounds with intensity; if he can't decouple AI multiplier output from personal pace, the path caps itself. Public ranking against peers (Dhruvil/Yan) won't happen — private differentiation is real but won't translate into calibration-room weapon.”
 - **Confidence:** Very High.
 
 ## Risks with Dylan (and mitigations)
@@ -955,7 +973,7 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 ## Role in my 6–12 month goals
 - **Cautionary case study, not a stakeholder to manage.** Krishna was one data point; his story is now load-bearing for how James approaches his own Director trajectory.
-- **Trust channel into Kurchi's org (historical).** Krishna has been described in `direct_manager.md:698` as "Kurchi's most trusted lieutenant" and someone with whom James has strong direct rapport. That channel still exists but is compromised: Krishna is flight risk.
+- **Trust channel into Kurchi's org (historical).** Krishna has been described in `dylan_archive.md:698` as "Kurchi's most trusted lieutenant" and someone with whom James has strong direct rapport. That channel still exists but is compromised: Krishna is flight risk.
 
 ## The sequence that just happened (2026-04-23 intel)
 1. **EOY 2025 calibration:** Krishna was put up for Director with strong sponsorship — Kurchi as direct manager, two Senior Directors outside his org supporting, Jeff rapport from quarterly office hours over years. All the "right" signals.
@@ -979,10 +997,10 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 7. **Cross-org visibility.** Jeff's email named Roberto org-wide. Krishna was mostly known inside SSJ.
 
 ## Implications for James
-- **Dylan is not Kurchi.** Relationship is warmer, peer-like, different philosophical stance on retention (see `direct_manager.md` 4/23 update). The Kurchi move is not a universal pattern — it's Kurchi's specific playbook. BUT the lever exists in Pinterest's org architecture; any Sr. Director can execute a scope rebalance after a failed calibration.
+- **Dylan is not Kurchi.** Relationship is warmer, peer-like, different philosophical stance on retention (see `dylan_archive.md` 4/23 update). The Kurchi move is not a universal pattern — it's Kurchi's specific playbook. BUT the lever exists in Pinterest's org architecture; any Sr. Director can execute a scope rebalance after a failed calibration.
 - **Named-thing consolidation is critical path.** Krishna's failure mode was diffuseness. James has RR + Reflex/Pinsight as named-thing candidates — better than Krishna — but organic propagation is Krishna's exact failure mode. Active narrative consolidation at VP level is how you avoid this.
 - **Krishna's advice re: external opportunities has empirical weight now.** He's not rationalizing — he's telling James a story currently unfolding on him. Holds even after accounting for survivorship bias.
-- **Dylan's 4/23 retention philosophy** (`direct_manager.md`) says she won't fight leavers. That's different from Kurchi's reorg move — but it also means Dylan won't up-invest dramatically to retain if she reads James as flight risk. Transparency with Dylan about external exploration has costs and benefits that require careful weighing.
+- **Dylan's 4/23 retention philosophy** (`dylan_archive.md`) says she won't fight leavers. That's different from Kurchi's reorg move — but it also means Dylan won't up-invest dramatically to retain if she reads James as flight risk. Transparency with Dylan about external exploration has costs and benefits that require careful weighing.
 
 ## Operating notes
 - **Do not mention Krishna's situation to anyone — even Dylan** unless James deliberately raises Krishna's case as part of his own career conversation (Option B in `dylan_career_conversation_prep.md`).

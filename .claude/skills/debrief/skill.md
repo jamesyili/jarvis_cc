@@ -49,7 +49,7 @@ Only surface what's actually interesting. If today was routine, say so.
 Auto-update the relevant files based on everything captured. Don't ask for approval — just do it and report what changed.
 
 **Routing guide:**
-- New intel on Dylan → `work+self/people/direct_manager.md`
+- New intel on Dylan → `work+self/people/dylan_archive.md`
 - New intel on Rajat, Dhruvil, Anna, or other stakeholders → `work+self/people/stakeholders.md`
 - New intel on direct reports → `work+self/people/team_members.md`
 - Decisions that affect project direction → relevant file in `work+self/projects/`

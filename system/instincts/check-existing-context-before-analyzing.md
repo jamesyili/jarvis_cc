@@ -31,7 +31,7 @@ This is distinct from `corrections-interrupt-by-design` (which is about factual 
 
 **Heuristics for when this fires:**
 
-1. **Known-stakeholder questions** ("what should I do about Roberto / Andrew / Dylan / Rajat / Jeff?") — always grep `work+self/people/stakeholders.md` + `direct_manager.md` first.
+1. **Known-stakeholder questions** ("what should I do about Roberto / Andrew / Dylan / Rajat / Jeff?") — always grep `work+self/people/stakeholders.md` + `dylan_archive.md` first.
 2. **Ongoing-project dynamics** ("how should I position Pinsight / RR / UPP?") — grep `work+self/projects/` + recent session logs.
 3. **Recurring-situation patterns** ("how should I handle this 1:1 / skip-level / office hours?") — check `communication.md` playbooks and `dylan_1on1_log.md` for prior instances.
 4. **When about to offer a multi-option framework** (A / B / C) on a known topic — pause and verify no option is known-failed. Leo's Option C re-proposed the March 2026 failed move.

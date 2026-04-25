@@ -2,6 +2,12 @@
 
 > Rolling log of 1:1 conversations with Dylan. Captures key decisions, signals, and action items for cross-session continuity.
 
+> **Related files (Dylan three-file system):**
+> - [stakeholders.md §1](stakeholders.md) — compressed live profile, read first for cross-stakeholder questions.
+> - [dylan_archive.md](dylan_archive.md) — deep 9-month archive. Read once per strategic question.
+>
+> **What this file is:** append-only tactical log. Pre-meeting prep + post-meeting debriefs + Slack exchanges of substance. **Update every Dylan touchpoint.** Append, never restructure. `prep` skill reads this; `debrief` skill writes here.
+
 ---
 
 ## 2026-04-24 (Friday) — Slack exchange: "Claude fired a worker" → SSJ reorg pivot → moral alignment on Krishna's mistreatment (async, not a 1:1)

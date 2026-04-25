@@ -209,3 +209,13 @@ Framing question before sending: *"What is the Question Behind the Question (QBQ
 1. Synthesis written to `work+self/projects/cupcake_lookback/wes_kao_review.md` with raw output + Leo synthesis + sequencing correction (I had previously told James to leave Tim/Yan TBD as placeholders to ship to Dylan — that's wrong for the Dylan pre-review, correct for broader EPD release).
 2. Cover notes for Tim/Yan ask + Dylan pre-review (with QBQ-controlling preface) drafted in `work+self/projects/cupcake_lookback/sequencing_and_cover_notes.md`.
 3. Folder `work+self/projects/cupcake_lookback/` created with full working set: README, briefing.md (LLM briefing pack + Yan addendum), current_draft_v2.md, stakeholder_context.md, wes_kao_review.md, sequencing_and_cover_notes.md.
+
+---
+
+## 2026-04-25b — Wes Kao consult on UPP operational model v2 (FAILED — auth)
+
+**Notebook:** wes-kao-frameworks
+**Spawn context:** Leo session 2026-04-25b, UPP cross-org operational model draft v2 review
+**Failure mode:** `mcp__notebooklm__ask_question` returned "Failed to authenticate session" on both primary query and diagnostic health-check. Same recurring issue from 2026-04-21. Notebook ID resolved correctly; auth is the failure.
+**Action taken:** Channeled Wes Kao frameworks from training knowledge as fallback (parallel to Ethan Evans channeling done in same session). Marked clearly as not-RAG-grounded. See `work+self/projects/upp/cross_org_operational_model/wes_kao_review.md`.
+**Backlog status:** "Subagent tool-exposure fix for consult-notebook" remains P0, unfixed.

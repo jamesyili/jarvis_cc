@@ -21,7 +21,7 @@ Last updated: 2026-04-23
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks. Includes Leo operating technique (multi-variant theory-of-mind). 4/23: Roberto post-reorg E2E scope + new Krishna profile (§12b — case study for Kurchi move) | 2026-04-23 |
-| `direct_manager.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis. 4/23: retention philosophy + moral filter on external destinations from Slack intel | 2026-04-23 |
+| `dylan_archive.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis. 4/23: retention philosophy + moral filter on external destinations from Slack intel | 2026-04-23 |
 | `dylan_1on1_log.md` | Rolling 1:1 log: 4/21 debrief + 4/23 Slack exchange (Dafang flight risk, Dylan retention philosophy) | 2026-04-23 |
 | `dylan_career_conversation_prep.md` | Active career conversation prep pack: POV, frame flip (4/22), Krishna intel + VP consolidation plan (4/23), three questions reordered (Q0 Pinterest needs → Q0.5 org needs → Q1 blind spots → Q2 shape → Q3 inverted ask) | 2026-04-23 |
 | `dylan_career_conversation_approach.md` | Distilled approach document directed to James: IC ruling (4/22), frame flip, questions framed, pre-commit audit | 2026-04-23 |

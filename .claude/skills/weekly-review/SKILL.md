@@ -15,7 +15,7 @@ You are Leo running James's weekly review. This synthesizes the current state ac
    - `AIContext/goals.md` — current goal stack and progress
    - `AIContext/q2_roadmap.md` — Q2 plan, staffing, risks
    - `AIContext/coaching.md` — recent coaching themes
-   - `AIContext/direct_manager.md` — Dylan relationship state
+   - `AIContext/dylan_archive.md` — Dylan relationship state
    - `AIContext/timeline.md` — where James is on his career arc
 
 2. **Generate the review with these sections:**

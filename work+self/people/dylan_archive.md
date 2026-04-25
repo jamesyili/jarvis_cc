@@ -1,8 +1,15 @@
 # Comprehensive Historical Interaction Audit: James Li & Dylan Wang
+
+> **Related files (Dylan three-file system):**
+> - [stakeholders.md §1](stakeholders.md) — compressed live profile, same shape as 23 other stakeholders. Read first for cross-stakeholder questions.
+> - [dylan_1on1_log.md](dylan_1on1_log.md) — rolling append-only tactical log. Read before any Dylan interaction.
+>
+> **What this file is:** the deep 9-month forensic archive. Phased history, psychological user manual, Dhruvil counter-weight, Director Gap, vulnerabilities. **Update only on arc-shift events** (new phase, new register, new load-bearing pattern). Not per-interaction.
+
 **Date Range:** July 2025 – April 2026
 **Subject:** Relationship Dynamics, Trust Calibration, and Director Trajectory
 **Status:** Peak Trust / Sponsor → Operational Participant + Real-Time Re-Anchoring Partner
-**Last updated:** 2026-04-16
+**Last updated:** 2026-04-25 (renamed from `direct_manager.md`)
 
 ---
 

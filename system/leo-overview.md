@@ -33,7 +33,7 @@ Structured markdown files that Leo reads before engaging on anything substantive
 - **`communication.md`** — DISC profile, blindspots, audience playbooks, 6 speaking patterns to watch for, pre-presentation checklist.
 - **`journals_and_growth.md`** — Synthesized lessons on top, chronological journal entries below. The journal is where raw experience gets processed into growth patterns.
 - **`people/stakeholders.md`** — 21 stakeholder profiles with trust state, DISC, operating plans, risks.
-- **`people/direct_manager.md`** — Deep relationship audit of Dylan (James's manager) — trust arc, user manual, Director gap analysis.
+- **`people/dylan_archive.md`** — Deep relationship audit of Dylan (James's manager) — trust arc, user manual, Director gap analysis.
 - **`projects/`** — Specs for UPP (unified retrieval platform), Pinsight (agentic debugger), PINvestigator, Retentive Recs, and technical references.
 
 ### Skills (24 total)

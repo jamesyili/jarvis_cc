@@ -25,7 +25,7 @@ Based on the meeting description and attendees, read the relevant files:
 | Attendee / Topic | Files to read |
 |-----------------|---------------|
 | Any named stakeholder | `work+self/people/stakeholders.md` — find their section |
-| Dylan | `work+self/people/direct_manager.md`, `work+self/people/dylan_1on1_log.md` (recent entries) |
+| Dylan | `work+self/people/dylan_archive.md`, `work+self/people/dylan_1on1_log.md` (recent entries) |
 | Direct reports | `work+self/people/team_members.md` — find their section |
 | Project-specific meeting | Relevant file in `work+self/projects/` |
 | Strategy / roadmap | `work+self/goals.md`, `work+self/org/q2_roadmap.md` |
