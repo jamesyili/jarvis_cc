@@ -2,8 +2,8 @@
 id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_1on1_log.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
-confidence: 0.55
-evidence_count: 2
+confidence: 0.7
+evidence_count: 3
 created: 2026-04-23
 last_updated: 2026-04-25
 status: active
@@ -25,6 +25,13 @@ Context: James was preparing for Jeff office hours. Leo recommended *"open PINve
 
 Signal: correction (terse but unambiguous). Two evidence points in 2 days on the same pattern. Heuristic: when proposing concrete tactical moves on known stakeholders, GREP the backlog + relevant project files + recent session logs first.
 
+### 2026-04-25c
+> "How do you not have context on Raymond?"
+
+Context: James asked Leo to surface stakeholder context behind the Akshanta + Lili Li tone-feedback episode. Leo synthesized cleanly. James later mentioned Raymond as the "real source of tension" with the PMs. Leo claimed "no Raymond context found in stakeholders.md or org files" — and proposed adding Raymond as a "new stakeholder I should add (#24)." James corrected: Raymond IS in the files, as a 3-line "Notable: Raymond Su" sub-entry under Tim Leung at `stakeholders.md:1089` and in `organization.md:85`. Leo's grep had searched for top-level stakeholder profiles and missed the sub-entry pattern.
+
+Signal: correction (mild but third in 2 days on the same root pattern). Refinement: existing-context grep must search for **surface-form names** (e.g., `grep -i "raymond"`), not just top-level section headers or exact-match file references. Sub-entries, notable mentions, and inline references all count as "context exists."
+
 ## Pattern
 
 This is distinct from `corrections-interrupt-by-design` (which is about factual corrections that interrupt workflow). This instinct is about **analytical laziness that reinvents what's already documented.** Symptom: Leo reasons from first principles when existing context contains a better-grounded answer. Cost: James has to redirect, and in high-stakes strategic conversations (like stakeholder strategy), the wrong framework wastes decision cycles.
@@ -35,6 +42,7 @@ This is distinct from `corrections-interrupt-by-design` (which is about factual 
 2. **Ongoing-project dynamics** ("how should I position Pinsight / RR / UPP?") — grep `work+self/projects/` + recent session logs.
 3. **Recurring-situation patterns** ("how should I handle this 1:1 / skip-level / office hours?") — check `communication.md` playbooks and `dylan_1on1_log.md` for prior instances.
 4. **When about to offer a multi-option framework** (A / B / C) on a known topic — pause and verify no option is known-failed. Leo's Option C re-proposed the March 2026 failed move.
+5. **Before claiming "no context found" on a name or topic** — run `grep -rn -i "<name>" work+self/ --include="*.md"` (case-insensitive, surface-form, no extension). Sub-entries, notable mentions, inline references all count as "context exists." A 3-line note under another stakeholder is still context. Top-level-only search fails this pattern.
 
 **What Leo should do instead when the pattern might fire:**
 
