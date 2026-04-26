@@ -128,6 +128,12 @@ Markdown
   - *Problem → options → recommendation → risks → explicit ask.*
 - Expects **pre-alignment** before broader forums.
 
+### Channel hierarchy (4/25 update)
+- **1:1** — strategic, agenda-driven items. Default for career, roadmap, team.
+- **Slack DM** — tactical real-time re-anchoring (4/15, 4/21 patterns). Faster than 1:1, lower-friction than email.
+- **Personal cell phone** — sensitive-issue channel established 4/25 (Rajat shield conversation). Use sparingly; signal value depreciates with frequency. Default reverse: after high-stakes stakeholder events, decide whether cell-channel debrief is warranted vs standard DM.
+- **Email / threaded** — almost never. Dylan operates in DM-not-thread mode (managerial pattern).
+
 ### Uncertain / to validate
 - Ideal cadence for strategic updates (weekly vs biweekly).
 - Tolerance for speculative forecasting vs strictly evidence-backed claims.
@@ -164,6 +170,8 @@ Markdown
   *(Confidence: High — verbatim quotes captured)*
 - **Peer-Moral Alignment on Krishna (April 24, 2026 Slack):** Unprompted *"poor guy. he did everything he could. yeah it's very sad"* on Krishna's reorg. Values-shared territory — Dylan morally distancing from Kurchi's playbook in plain language. Direct counter-evidence to "Pinterest will Kurchi me" rationalization. Rarest stakeholder signal.
   *(Confidence: Very High — verbatim quotes)*
+- **Shielding the team from Rajat (April 25, 2026, off-channel cell phone):** Dylan called from her **personal cell phone** to flag Rajat's recurring engineer-names ad-hoc-ask pattern. Said it's not the first time. Positioned herself as **POC for UIC / Retentive Recs** to absorb the political overhead and keep the team focused on substrate. Established cell phone as the sensitive-issue channel between us going forward. **Register shift: operational co-participant → political-shield co-owner.** This is Operational Embedding (Lesson 7) made literal — Dylan running the political layer so I run the build layer. Sponsorship escalation, not demotion.
+  *(Confidence: Very High — direct conversation)*
 
 ## Dylan’s likely current narrative about me
 - **Positive core (April 2026):**
@@ -450,6 +458,13 @@ Markdown
 - **Rajat endorsed the fix-loop trajectory:** "great! yea that would be a good one to prototype. and hook up e2e" after James described VLM-hooked agents + Andrew Y's survey-response partnership auto-triggering investigation.
 - **Implication:** Rajat is now a VP-level stakeholder on PinSight and (adjacently) Reflex. Mental anchor is PinSight-as-primary-mechanism after James took the demo moment in front of Andrew (who was about to set the Reflex big picture). Political residue: Andrew's Reflex-framing with Rajat is displaced until he reclaims it.
 - **Calibration going forward:** sustain the D/C profile rules — direct, structured, solution-oriented; no warmth decoration. Rajat's "hook up e2e" is a mandate to show end-to-end detect → diagnose → fix wiring, not a suggestion.
+
+### 2026-04-25: Dylan stepped in as POC for UIC / RR (engineer-names pattern context)
+- **Background (off-channel intel from Dylan):** Rajat has a recurring pattern of pulling engineer names off the team for ad-hoc / "random asks." Dylan said it's not the first time. She has positioned herself as **POC for UIC / Retentive Recs** to absorb that flow and shield the team. Full arc-shift writeup in `dylan_archive.md` 2026-04-25 entry.
+- **Why this matters for Rajat-facing posture:** the shield is a structural fact running invisibly. James continues to engage Rajat as the substantive program owner — Rajat is still an active sponsor, the encouragement mandate is still live, and the "hook up e2e" directive is still the primary delivery target. The shield is for friction-flow, not for the relationship itself.
+- **What changes operationally:** if Rajat floats coordination, headcount, or anything cross-team during a meeting, the natural answer is "let me sync with Dylan and circle back" — same as for any senior EM. Not defensive, just hierarchy hygiene. Naming workstream owners with their workstream is fine and normal. Volunteering unsolicited engineer rosters is what changes — but that's baseline operating cleanliness, not a Rajat-specific paranoia move.
+- **What does NOT change:** James does not acknowledge the shield to Rajat. Does not self-position as political POC for UIC / RR (Dylan owns that channel by design — self-positioning would undermine it). Does not perform around the shield in the OH; just delivers the substance.
+- **Strategic read:** Dylan-as-POC is sponsorship escalation. James = builder + technical lead. Dylan = political POC + shield. This is how Director-track operators actually work — having a senior absorb political overhead is what *enables* structural compounding. (Connects to: Operational Embedding lesson, journals_and_growth.md Lesson 7.)
 
 ### Key dynamic: Rajat vs. Kurchi
 - Rajat wants **quarterly milestones** and faster UPP execution. Kurchi pushes back — successfully moved Search from monthly milestones to H2.
@@ -1003,7 +1018,7 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Dylan's 4/23 retention philosophy** (`dylan_archive.md`) says she won't fight leavers. That's different from Kurchi's reorg move — but it also means Dylan won't up-invest dramatically to retain if she reads James as flight risk. Transparency with Dylan about external exploration has costs and benefits that require careful weighing.
 
 ## Operating notes
-- **Do not mention Krishna's situation to anyone — even Dylan** unless James deliberately raises Krishna's case as part of his own career conversation (Option B in `dylan_career_conversation_prep.md`).
+- **Do not mention Krishna's situation to anyone — even Dylan** unless James deliberately raises Krishna's case as part of his own career conversation (Option B in `H1_career_convo.md`).
 - **Stay in touch with Krishna post-departure** if he leaves. He's a trust channel into the Pinterest-external recsys leader network.
 
 ---

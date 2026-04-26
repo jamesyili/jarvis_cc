@@ -21,7 +21,7 @@ Signal: correction (explicit; James used "before you [do next thing], first [fix
 ### 2026-04-21
 > "Before you update, change the name Jingfeng to Dafang."
 
-Context: Leo had just proposed updating `dylan_1on1_log.md` and `dylan_career_conversation_prep.md` with today's 1:1 data. James paused the workflow to correct the name of the Senior Staff MLE Dylan inserted into Reflex. Leo had been using "Jingfeng" (conflating with Jinfeng/Jaewon who works on UPP CLR). James corrected to "Dafang" before the updates landed. Getting the name right in the context files prevents the error from compounding into future sessions.
+Context: Leo had just proposed updating `dylan_1on1_log.md` and `H1_career_convo.md` with today's 1:1 data. James paused the workflow to correct the name of the Senior Staff MLE Dylan inserted into Reflex. Leo had been using "Jingfeng" (conflating with Jinfeng/Jaewon who works on UPP CLR). James corrected to "Dafang" before the updates landed. Getting the name right in the context files prevents the error from compounding into future sessions.
 
 Signal: correction (same "before you [next action], first [fix this]" pattern).
 

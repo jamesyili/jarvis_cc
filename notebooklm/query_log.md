@@ -219,3 +219,14 @@ Framing question before sending: *"What is the Question Behind the Question (QBQ
 **Failure mode:** `mcp__notebooklm__ask_question` returned "Failed to authenticate session" on both primary query and diagnostic health-check. Same recurring issue from 2026-04-21. Notebook ID resolved correctly; auth is the failure.
 **Action taken:** Channeled Wes Kao frameworks from training knowledge as fallback (parallel to Ethan Evans channeling done in same session). Marked clearly as not-RAG-grounded. See `work+self/projects/upp/cross_org_operational_model/wes_kao_review.md`.
 **Backlog status:** "Subagent tool-exposure fix for consult-notebook" remains P0, unfixed.
+
+---
+
+## 2026-04-25b — NotebookLM auth FIXED
+
+**Status:** Resolved.
+**Fix:** Ran `mcp__notebooklm__setup_auth` from main session (browser-based Google login via WSLg, ~95 seconds). Confirmed via `get_health` → `authenticated: true`. Smoke-tested with Wes Kao notebook query → grounded answer with source citations, session_id `ffd2db82`.
+**Root cause:** Google session cookies expired (last refresh April 3, ~22 days stale). The MCP server itself was Connected throughout; the failure was at the NotebookLM web-session layer, not at MCP transport.
+**Why subagents kept failing:** Spawned consult-notebook agents inherit the MCP server connection but trigger the auth-fail path at first `ask_question` call. They cannot run `setup_auth` themselves (would require interactive browser). Auth refresh must happen from the main session (or out-of-band) before any agent consult.
+**Recurring pattern:** Cookies expired 4/21 (logged) → channeled fallback used. Today fixed via setup_auth. Expect to need re-auth roughly every ~3 weeks based on this cycle. Worth tracking how long this session lasts before next failure.
+**Backlog item:** "Subagent tool-exposure fix for consult-notebook" (P0) — repurpose to "NotebookLM session monitoring + re-auth cadence" since the diagnosis was different from initial framing.

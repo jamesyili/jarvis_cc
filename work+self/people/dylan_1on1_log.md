@@ -36,7 +36,7 @@
 
 ### What just happened
 
-**1. Option B from `dylan_career_conversation_prep.md` got executed informally and naturally.** James raised Krishna with Dylan via a humor pivot, not a planned formal move. Lower friction than the planned Option B; same information transfer.
+**1. Option B from `H1_career_convo.md` got executed informally and naturally.** James raised Krishna with Dylan via a humor pivot, not a planned formal move. Lower friction than the planned Option B; same information transfer.
 
 **2. Dylan's read of Kurchi's move is "poor guy / he did everything he could / very sad."** Translation: Dylan sees the Kurchi reorg as overreach, not as routine calibration mechanics. *"He did everything he could"* explicitly places the failure on Kurchi, not Krishna. Dylan is morally distanced from the Kurchi playbook. That is the strongest possible direct-evidence signal that **she would not run the same playbook on James.**
 
@@ -181,7 +181,7 @@ This is inner-circle-level operational trust. Not sponsor-petitioner. Two peers 
 - **Pre-seed plan from 4/20 is obsolete.** The career ask landed organically in today's 1:1.
 - **Next concrete action:** send the 30-min calendar invite this week, before early June.
 - **Register for the conversation:** light-touch to match Dylan's "quarterly regular" framing. Not The Big Director Conversation. Same substance, less emotional weight.
-- **Prep pack update:** see `dylan_career_conversation_prep.md` — plan shift captured there.
+- **Prep pack update:** see `H1_career_convo.md` — plan shift captured there.
 
 ### Next time (Leo-session only)
 
@@ -271,7 +271,7 @@ If pressed for the single sentence that ties it all together:
 3. **Infra/CSI specific ask.** ~3 min.
 4. **CG quota Eng Agent brief mention.** ~1 min.
 5. **Open space — anything on her mind.** Remainder.
-6. **Last 2 min — career-rubric seed (added 2026-04-20).** Plant a separate 30-min follow-up for week of 4/28 or 5/5. Language: *"One thing I want to flag before you go — I'd like to carve out a separate 30 min with you in the next couple weeks. I want to think out loud with you about what I should be building toward over the next 12–18 months, and get your read before you're OOO. Not urgent, not a big agenda — just want your thinking while I still have you."* Face-to-face, not DM. Do NOT say "Director" or "career conversation." Full prep: `dylan_career_conversation_prep.md`.
+6. **Last 2 min — career-rubric seed (added 2026-04-20).** Plant a separate 30-min follow-up for week of 4/28 or 5/5. Language: *"One thing I want to flag before you go — I'd like to carve out a separate 30 min with you in the next couple weeks. I want to think out loud with you about what I should be building toward over the next 12–18 months, and get your read before you're OOO. Not urgent, not a big agenda — just want your thinking while I still have you."* Face-to-face, not DM. Do NOT say "Director" or "career conversation." Full prep: `H1_career_convo.md`.
 
 The image-search moment moves up in priority (was mid, now near-top) because the partnership-decision timing is now known to be live. Harness proposal is out of this meeting entirely.
 

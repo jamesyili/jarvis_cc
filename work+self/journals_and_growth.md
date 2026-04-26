@@ -172,7 +172,7 @@ Last updated: 2026-04-25
 
 **The operating principle:** Maintain a live VP-mental-model map of every load-bearing exec for your trajectory: estimated current % of "they know your named thing" → target % → specific named touchpoint. Treat narrative consolidation as critical-path infrastructure, not as a nice-to-have on top of "the real work." If Krishna's posture shows up in your reasoning, escalate the consolidation plan immediately.
 
-**Applied/Evidence:** April 23 conversation directly produced the VP consolidation plan in `dylan_career_conversation_prep.md` — Jeff (0-10% → 75%+, biggest gap), Rajat (25% → 75%+), Faisal (25-50% → 75%+), with named touchpoint plans. Kurchi explicitly contained, not targeted.
+**Applied/Evidence:** April 23 conversation directly produced the VP consolidation plan in `H1_career_convo.md` — Jeff (0-10% → 75%+, biggest gap), Rajat (25% → 75%+), Faisal (25-50% → 75%+), with named touchpoint plans. Kurchi explicitly contained, not targeted.
 
 ### Lesson 12: Peer-Moral Alignment Is the Rarest Stakeholder Signal
 

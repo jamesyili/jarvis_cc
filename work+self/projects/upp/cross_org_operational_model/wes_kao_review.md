@@ -1,180 +1,117 @@
-# Wes Kao Review — UPP Cross-Org Operational Model v2
+# Wes Kao Review — UPP Cross-Org Operational Model v3
 
-**⚠️ NOT RAG-grounded.** The Wes Kao notebook consult **failed on authentication** (recurring issue logged 2026-04-21, still P0 in backlog). This review channels Wes Kao's frameworks from training knowledge — her Maven course material, her Substack, her LinkedIn essays, her public frameworks. Treat with the same skepticism as the Ethan Evans channeling. When the notebook auth lands, re-run this for grounded source quotations.
+**✅ RAG-grounded.** Notebook: `wes-kao-frameworks` (https://notebooklm.google.com/notebook/e2650916-178d-460d-bf27-fb25bd933dc9). Session ID: `ef1e5d58`. Two-question session run 2026-04-25b after auth was repaired in main session via `setup_auth`. Framework citations and quoted passages below are from Wes Kao's own source material.
 
-**Document reviewed:** `draft_v2.md` (UPP Base Retriever Release Cycle + Cross-Org Operational Model).
+**Document reviewed:** `draft_v3_synthesized.md`.
 
----
-
-## The headline I'd give James
-
-This doc is structurally complete. It has the right sections, the right scope, the right audience instinct. **The problem is sentence-level: it hedges where it should declare, narrates where it should land, and asks for permission where it should invite challenge.** Three Wes Kao moves fix 80% of the issues: lead with what changes, replace hedges with declarative bets, and pre-empt the most obvious objection before the reader can voice it.
+> **Note on revision history.** A prior version of this file was channeled from training (auth was failing). The grounded review departs from the channeled review in three material places — flagged below as **[Grounded correction]**. Worth reading both if you want to see where notebook-grounded review beats training-channel review.
 
 ---
 
-## 1. Lead with "what changes" — not "what this is for"
+## Verdict: Ready to circulate after three rewrites — *do not do a deeper pass*
 
-### What's wrong
-
-The opening callout reads: *"This is a working draft to align the UPP Base Retriever working group on (1) how we run the release cycle..."*
-
-That's meta-talk. The reader is being told what the doc *is*, not what it *does*. Wes's "what changes" test fails: a busy reader skims this and walks away with no operational change in their head.
-
-### Concrete rewrite
-
-Replace with something like:
-
-> **What changes when this doc lands.** Surface teams own their fine-tuning end-to-end. Base team owns the release cadence, base architecture, and platform infrastructure. Notif goes first: by end of May, Rui drives Notif FT decisions, James and Hongtao step out of the execution loop, and we publish a formal release cadence (1–2 base retrievers per quarter, 2 stable versions max). P2P and Search adapt the same template as their handoffs land in Q3 and H2.
-
-Three sentences. Reader walks away knowing exactly what's different. The "what this doc is for" framing is then the second paragraph, not the first.
+The structural bones are already strong. BLUF is in place. Rigorous Thinking shows in the "bets + alternatives considered" framing. MOO instinct is right. Three sentence-level rewrites land the doc. **Don't keep wordsmithing past that — risks "bad struggle," optimizing past the point of diminishing returns.**
 
 ---
 
-## 2. The Most Obvious Objection (MOO) is unanswered
+## What's working — frameworks already applied correctly
 
-### What's wrong
+- **Bottom Line Up Front (BLUF) / "Main point above, context below."** The "What changes when this doc lands" opener and the "For leads" 3-bullet TL;DR cater to busy reviewers who need the punchline first. Chronological storytelling avoided.
+- **MOO (Most Obvious Objection).** §1 directly tackles two anticipated objections before reviewers can weaponize them. Right instinct — execution needs adjustment (see Risk #2).
+- **Rigorous Thinking.** Framing decisions as bets-with-alternatives proves the author isn't relying on Lazy Thinking. Systematic evaluation of trade-offs + downside risks shows.
+- **Observe, Assert, Validate (OAV).** §10's working-group input loop is the right OAV instinct: assert recommendations, then validate via feedback. Execution needs adjustment (see Risk #1).
 
-Wes's MOO framework: surface the strongest pushback the audience will raise, and answer it before they ask. The two MOOs the working group will have:
+---
 
-**MOO 1:** *"This is overengineered for a single handoff. We don't need a charter; we need a Notif transition plan."*
+## Three risks Wes flagged (grounded)
 
-**MOO 2:** *"How is this materially different from how things already work? Surface teams already own their FT in practice."*
+### Risk 1 — §10 itemized pushback projects "Insecure vibes" via over-explanation
 
-Neither is answered in the current doc. They lurk under the surface and will surface in the meeting if not pre-empted.
+**The framework.** Wes warns that *"over-explaining because you expect the other person to be skeptical"* is a classic trigger for **Insecure vibes**. By explicitly naming "pushback we want" for every single bet, the author overcompensates — looking defensive and accidentally diminishing their own authority.
 
-### Concrete addition
+**The current doc.** §10 lists 8 bets, each with three sub-fields (the bet, alternative considered, pushback we want). Itemized invitation per bet.
 
-Add a §1.5 — **"Anticipating two objections."**
+**The fix — apply OAV + State things in the affirmative.** Replace the itemized pushback structure with a single confident open invitation.
 
-> *"Why a charter when we just need a Notif handoff plan?"* Because Notif is the first of three handoffs in 12 months. P2P adoption is in active co-design; Search adoption follows in H2. Treating Notif as one-off means re-litigating the operational model three times. Treating it as the first instance of a model means each subsequent handoff inherits the precedent.
+**Concrete rewrite (Wes's actual phrasing):**
+
+> *"These are our recommended bets for the handoff structure; please let me know if you see any risks or major blind spots we missed."*
+
+Drop the per-bet "pushback we want" sub-field. Keep the bet + alternative considered. Make the invitation a single sentence at the section's open or close.
+
+**[Grounded correction]:** The channeled review *praised* this structure as "the right invitation shape." That was wrong. The grounded review names it as Insecure vibes via over-explanation. The fix is structural — drop the itemized invites — not just sentence-level.
+
+---
+
+### Risk 2 — §1 incepts negative ideas with the literal MOO phrasing
+
+**The framework.** Wes is direct: **"Avoid incepting negative ideas."** Never give your audience the vocabulary to use against you. If you ask "doesn't this already work?" you plant the exact thought you're trying to prevent — even when you go on to refute it.
+
+**The current doc.** §1 quotes the objections verbatim:
+
+> *"Doesn't this already work in practice?"*
+> *"Why a charter when we just need a Notif handoff plan?"*
+
+The author's instinct (MOO) was right. The execution gives readers the vocabulary they didn't have.
+
+**The fix — Positive framing.** Reframe the objection-handling section affirmatively. Address the same concerns from the solution side, not the objection side.
+
+**Concrete rewrite (Wes's actual phrasing):**
+
+> *"How this charter accelerates our current handoff process and eliminates existing friction."*
+
+Replace §1 header from "Anticipating two objections" to something like "Why this charter, why now." The body answers the same concerns but via affirmative framing — what's unlocked, not what's wrong with the alternatives.
+
+**[Grounded correction]:** The channeled review specifically *recommended* adding §1 with the verbatim "doesn't this already work?" phrasing as a Wes Kao MOO move. That was wrong. The grounded review flags this as the most common Wes Kao writing mistake — getting MOO instinct right but execution wrong. Reframe affirmatively.
+
+---
+
+### Risk 3 — Opener fails the "Sales, Not Logistics" test
+
+**The framework.** Wes emphasizes **"Sales, Not Logistics"**: before bogging anyone down in the *how*, secure an enthusiastic *yes* by getting them excited about the upside. The opener must answer **"The #1 question every business case should answer"**: how does this save money / make money / (in this engineering context) increase system velocity?
+
+**The current doc.** "What changes when this doc lands" is logistics. It describes mechanical changes — surface teams own FT, base team owns platform, Notif first — without selling why anyone should be excited about that change.
+
+**The fix — Sales, Not Logistics + #1 business-case question.** Lead with the velocity / impact / time-savings outcome before the mechanical changes.
+
+**Concrete rewrite (Wes's actual phrasing):**
+
+> *"By establishing clear ownership in this partnership charter, we will eliminate duplicate engineering efforts and drastically increase our cross-team system velocity."*
+
+Open with that sentence (or one tuned for Pinterest's specific velocity vocabulary). Then the 3-bullet "what changes" follows as the mechanism.
+
+**[Grounded correction]:** The channeled review explicitly *praised* the "What changes when this doc lands" opener as Magical Thinking + the "what changes" test. The grounded review names it as Sales/Logistics inversion — the opener describes mechanism before establishing why anyone should care about the mechanism. Real Wes Kao move: sell first, mechanism second.
+
+---
+
+## Summary — three sentence-level edits, then ship
+
+1. **Rewrite the opener** (Risk 3): Lead with the velocity-impact line. Then the 3 bullets.
+2. **Rewrite §1** (Risk 2): Drop the verbatim objection phrasings. Replace with affirmative framing — "Why this charter, why now / how it accelerates handoffs and unlocks velocity."
+3. **Restructure §10** (Risk 1): Drop the per-bet "pushback we want" sub-field. Keep bet + alternative-considered. Replace itemized invites with one confident open invitation at the section's open or close.
+
+After these three: **circulate to the working group**. Don't keep iterating. The structural bones (BLUF, MOO instinct, Rigorous Thinking, OAV) are working — the doc is one editing pass from production-grade.
+
+---
+
+## What I'd say at the end of a Maven session — grounded
+
+> "Your structural instincts are right. You've applied BLUF cleanly, you've shown Rigorous Thinking via the bets-and-alternatives frame, and you've reached for MOO and OAV in the right places. Three rewrites land it: lead with sales not logistics, never give your audience the vocabulary to dismiss your work, and trust your assertions enough to ask for feedback once instead of pleading for it eight times. After those, ship it. More wordsmithing is bad struggle."
 >
-> *"Doesn't this already work in practice?"* In practice, base team is still partly driving Notif FT (Hongtao on his ATG hat). Rui is stepping up but does not yet own launch decisions. Without the explicit handoff, base team will keep getting pulled into surface decisions, and surface team will not fully own the surface. The cost shows up next time we change architecture and discover surface team had not been making the FT decisions on its own.
-
-Two paragraphs. Reader's biggest objections pre-empted. They can now read the rest of the doc constructively rather than skeptically.
+> — Wes Kao (notebook-grounded; session ef1e5d58)
 
 ---
 
-## 3. Hedges to strip
+## Where the grounded review departs from the channeled review
 
-### Wes Kao anti-hedge audit
+Three places where the grounded review flipped the channeled review's recommendation:
 
-Hedges weaken claims. They signal the writer is uncertain — even when the claim is sound. Strip every "may," "can," "should," "we believe," "largely," "typically," and rewrite as a declarative.
+| Channeled review said | Grounded review says |
+|----------------------|---------------------|
+| §1 verbatim objection phrasing is the right MOO move | §1 verbatim objection phrasing **incepts negative ideas** — reframe affirmatively |
+| §10 "pushback we want" per-bet is the gold-standard invitation shape | §10 itemized pushback projects **Insecure vibes** via over-explanation; use single open invite |
+| Opener "what changes when this doc lands" is Magical Thinking + passes the "what changes" test | Opener fails **Sales, Not Logistics** — needs upside-first sentence before mechanism |
 
-| Current | Rewrite |
-|---------|---------|
-| "Aim to release a new UPP Base Retriever 1–2 times per quarter" | "Base team releases a new UBR 1–2 times per quarter" |
-| "We can target supporting at most 2 base retrievers at a time" | "We support at most 2 base retrievers at a time" |
-| "A primary goal is to avoid maintaining multiple stable versions. We acknowledge this won't always be achievable" | "We avoid multiple stable versions. When we deviate, the deviation is time-boxed (§5)" |
-| "If they're asking, they're not yet owning. Either coach them through it or accept the handoff isn't done." | "If they're asking, the handoff isn't done. Coach them through the decision; do not make it for them." |
-| "Surface teams may have a legitimate 'we don't want to migrate just for migration's sake' position" | "Surface teams may decline migration when adoption cost outweighs the maintenance-cost benefit" |
+The structural praise (BLUF, Rigorous Thinking, bets framing) holds. The opener, MOO execution, and §10 invitation pattern need rewrites that the channeled review actively recommended *against*.
 
-The pattern: replace conditional/hedging modal verbs with present-tense declaratives. The doc reads ~20% sharper after this pass alone.
-
----
-
-## 4. §9 — invitation in the wrong shape
-
-### What's wrong (echo of Ethan's #3)
-
-§9 reads as "is X right? Or should it be Y?" That's a plebiscite, not a working session. The reader can only vote up or down on each item. There's no surface for them to add nuance or propose alternatives that aren't in the framing.
-
-### Wes-flavored rewrite
-
-Each §9 item should follow the structure: **declarative bet → named alternative we considered → specific kind of pushback we want.**
-
-**Example, §5 Scenario A:**
-
-> **Bet.** When surface FT-on-new-base shows engagement-negative, surface stays on old base; base team treats new release as blocked; multi-version maintained ≤1 quarter.
->
-> **Alternative considered.** Block surface from upgrading until base is fixed (more conservative for platform; creates surface friction).
->
-> **Pushback we want.** Production case studies where time-box should be tighter / looser. Specific cases where blocking-the-surface-upgrade is the right call.
-
-This reads as a bet, not a question. The working group can argue with the bet's specifics or replace the bet with a sharper one. The reader knows what kind of input is useful.
-
----
-
-## 5. Mechanism over outcome — §6 Notif Handoff
-
-### What's missing
-
-§6 lists six clean-handoff criteria. Each is a *result*, not a *mechanism*. The reader knows what "clean" looks like, but not how the team gets there.
-
-### Concrete addition
-
-After the criteria list, add: **"How we get there."**
-
-> 1. **Week 1 (May 5):** James + Dimitra meet to align on the criteria above and the role split. James drafts the 1-pager (criterion 5).
-> 2. **Week 2:** Rui leads first weekly sync agenda end-to-end. Hongtao supports but does not drive.
-> 3. **Week 3:** Surface Tower v2 result lands. Notif team owns the analysis writeup. James + Piyush review only if asked.
-> 4. **Week 4:** Notif team updates shared doc independently. James does not write in the doc this week.
-> 5. **End of May:** Dimitra names the next FT initiative without prompting; James stops attending the weekly sync.
-
-Five steps. Reader knows the mechanism. Without this, the criteria are scoreboards without a play-by-play.
-
----
-
-## 6. Sentence density audit
-
-### The "one beat per sentence" violation
-
-§3 has paragraphs that pack 3–4 ideas into single sentences. Example:
-
-> *"Lengthen if surface adoption lags; shorten if pinner-first urgency is clear and adoption is healthy."*
-
-Two distinct mechanisms in one sentence. Reader has to parse both. Split:
-
-> Lengthen the cycle if surface adoption is lagging — slow down to give surfaces time to absorb each release. Shorten the cycle if pinners are waiting on capability the next release ships and surface adoption is keeping pace.
-
-Twice as many words, half the cognitive load. Run this audit across §3 (release cycle), §5 (scenarios), §7 (coordination mechanisms).
-
----
-
-## 7. The "you" test
-
-### What the doc currently does
-
-Most sentences are framed in the third person or first-person plural: "we," "the base team," "surface teams." The reader feels described, not addressed.
-
-### Targeted "you" rewrites for each audience
-
-For the Notif team specifically, add a sidebar or callout:
-
-> **For the Notif team (Rui, Hongtao, Dimitra, Zhenyu):** You own Notif FT end-to-end after May. That means: you decide what features to add at FT, you choose your A/B configurations, you own the launch call. We're not approving your launches; you are. Base team is on call for platform-level issues — we're not on call for your surface debugging. You can ping us on Slack with one business day SLA; expect that we will be hands-off unless you ask.
-
-Same content as the body of the doc, but in second person. The reader feels addressed, not described. Apply selectively — too much "you" makes the doc feel like a memo to subordinates, not a partnership doc.
-
----
-
-## 8. Implication chain — every claim should land a "so what"
-
-### Wes's "so what" audit
-
-Every paragraph should have a clear consequence. The reader should walk away knowing: "and therefore X." Several paragraphs in v2 land technical claims without a "so what."
-
-### Specific examples
-
-§3 *"Cadence: Aim to release a new UPP Base Retriever 1–2 times per quarter to start. Calibrate based on the first 2–3 cycles..."* — what's the so-what for the reader? Add: *"This means surface teams can plan their FT iteration cycles around a known release cadence rather than waiting on ad-hoc base updates. Base team can plan deprecations rather than reacting."*
-
-§4 V0 *"Notif and HF currently share codebase. V0 will split surface teams into separate FT codepaths so each surface can independently add features without coupling."* — so-what: *"This unblocks surface teams from each other — Notif's feature additions no longer affect HF's, and vice versa."*
-
-Audit every paragraph for the so-what. If it's not there, add it.
-
----
-
-## Summary — top 4 highest-leverage Wes-flavored changes
-
-1. **Open with "what changes when this doc lands."** Replace the meta-opener with a 3-sentence declarative future state.
-2. **Add a §1.5 anticipating the two MOOs** ("why a charter for one handoff?" and "doesn't this already work?"). Pre-empt them in writing.
-3. **Strip hedges system-wide.** "Aim to," "can," "may," "we believe" — rewrite as present-tense declaratives.
-4. **Reframe §9 from questions to bet → alternative → kind-of-pushback-wanted.** Same concrete instinct as Ethan's #3.
-
-If only one change happens: **#3 (hedge audit).** It's the highest signal-to-effort ratio. The doc reads materially sharper after one editing pass.
-
----
-
-## What I'd say at the end of a Maven session
-
-> "Your structure is right. Your judgment on what to include is right. Your altitude is right. The fix is at the sentence level: tell me what changes, anticipate my pushback, and stop hedging on bets you've actually made. Three passes through the doc with those three lenses and you have a charter your working group can actually use."
-
-— Wes Kao (channeled, NOT notebook-grounded)
+This is the value of grounded review: training-knowledge channeling captures Wes's vocabulary but misses the asymmetric application rules (MOO is right but verbatim phrasing is wrong; OAV is right but itemized invites are wrong; "what changes" is right but mechanism-before-sales is wrong). Source-grounded review caught all three.

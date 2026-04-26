@@ -8,8 +8,8 @@
 
 **Date Range:** July 2025 – April 2026
 **Subject:** Relationship Dynamics, Trust Calibration, and Director Trajectory
-**Status:** Peak Trust / Sponsor → Operational Participant + Real-Time Re-Anchoring Partner
-**Last updated:** 2026-04-25 (renamed from `direct_manager.md`)
+**Status:** Peak Trust / Sponsor → Operational Participant → Political-Shield Co-Owner
+**Last updated:** 2026-04-25b (added cell-phone-channel + Rajat-shield arc shift)
 
 ---
 
@@ -17,6 +17,47 @@
 Your relationship with Dylan has evolved distinctively over the last 6 months. You began as a "High-Potential Unknown" (July/Aug), moved into a "Tested Operator" phase (Sept/Oct), and have recently graduated to "Strategic Partner" (Dec/Jan).
 
 The critical pivot point was **October 2025**. Before this, you were seeking approval. After this, you shifted to 'Catalytic Clarity'—delivering order during chaos—which aligns perfectly with Dylan's CD personality. She does not trust charisma; she trusts **predictability in high-stakes environments**. By March 2026, you have reached **peak trust**: Exceeds rating, $1.2M equity grant, full confidence expressed, and active sponsorship through headcount sacrifice.
+
+### 2026-04-25 Arc Shift: Operational Participant → Political-Shield Co-Owner (cell-phone channel established)
+
+**Context:** Dylan called James from her **personal cell phone** — off Slack, off email, off any traceable channel — to flag that Rajat has been pulling engineer names from James's team for ad-hoc / "random asks." She said it's not the first time. She has stepped in as **POC for UIC / Retentive Recs** to absorb Rajat's request flow and shield the team from churn. Cell phone is now an established sensitive-issue channel between us.
+
+**Why this is an arc shift, not a tactical update:**
+
+Through April, the relationship's load-bearing register was *operational embedding* — Dylan adding herself to RLHF, scoping Reflex Build with Andrew + James, real-time DM re-anchoring on pacing. That register was about **co-execution**: she was inside the work alongside James.
+
+This move is a different register. She is now actively running **political defense** *for* James — absorbing VP-skip-level overhead so the team's substantive throughput is protected. Operational embedding was peer-level participation. Shielding is asymmetric protection. It only happens for people the senior wants to keep compounding.
+
+**What this signals about Dylan's posture toward James:**
+
+1. **Sponsorship has graduated past endorsement into structural cover.** She's spending political capital with Rajat (a peer-skip VP) to keep ad-hoc asks off the team. That's not free. She's spending it because she values what the team is producing more than the cost of absorbing the friction.
+2. **The Operational Embedding lesson (journals Lesson 7) was correctly read.** Her message under the operational behavior was: *"I'm in this with you."* This update extends it: *"I'll handle the political layer so you keep building."* That's the same message at a higher altitude.
+3. **Cell-phone channel = a signal of trust calibration, not just a logistics choice.** Cell is reserved for things she does not want any organizational record of. The fact that she has pre-loaded that channel for me — and explicitly told me to use it for sensitive things — means she expects more of these conversations to happen, and she wants me equipped to have them quickly.
+4. **This implicitly counter-evidences the "Pinterest will Kurchi me" rationalization.** Kurchi's playbook is: pull scope away when politics get inconvenient. Dylan's playbook here is: *absorb politics so substance is preserved.* Opposite direction.
+
+**What the shielding move does NOT mean:**
+
+- It does not demote James's positional altitude. James = builder + technical lead. Dylan = political POC + shield. That's how Director-track operators actually work — having a senior absorbing political overhead is what *enables* structural compounding, not what limits it.
+- It is not a "James can't handle Rajat" read. It is a "this pattern is mine to fix at my altitude, not yours." Dylan's pattern (per Cognitive Load Equation, §4) is to subtract load from people she's invested in.
+- It is not a permission slip to be passive on the Rajat relationship. The relationship still needs deepening — just on substance, not on absorbing his ad-hoc request flow.
+
+**What I should not do:**
+
+- Do not acknowledge the shield to Rajat or anyone outside this archive. The protection only works if it looks structural to him, not coordinated with me.
+- Do not self-position to Rajat as the political POC for UIC / RR. That undermines Dylan's frame and re-exposes the team.
+- Do not volunteer engineer names to Rajat in any form Rajat could convert into an ad-hoc tasking. Naming workstream owners with their workstream is fine and normal (it's just operating). What's different is *unsolicited* name-rosters or "I can have someone pick this up" offers.
+
+**What I should do:**
+
+- Walk into Rajat surfaces as the substantive program owner I am. Velocity, structure, the "hook up e2e" mandate delivered. The shield is invisible to him by design; my job is to deliver work that justifies the shield, not to perform around it.
+- If anything sensitive surfaces in any meeting, default to cell-phone debrief with Dylan — not Slack DM, not email. Use sparingly so the channel keeps its signal.
+- Continue the partnership-with-Rajat substance arc. He is still an active sponsor — Dylan handling the engineer-names friction does not change his sponsor status, it cleans up the channel through which I engage him.
+
+**Updated Standing:**
+* **Status:** "Political-Shield Co-Owner." Beyond Operational Co-Participant — Dylan is now spending political capital with peer-skip VPs to protect the team's substantive throughput. Highest sponsorship altitude observed in the relationship to date.
+* **Implication for the Director-trajectory arc:** Dylan is now actively investing scope-protection capital, not just sponsorship-narrative capital. This is a stronger leading indicator for promotion advocacy than verbal endorsement, because political-capital spend is costly and revealed.
+
+---
 
 ### April 2026 Update: AI Guide → Active Shielding
 
