@@ -33,3 +33,10 @@ Last updated: 2026-04-03
 - **Domain:** ML system design, GenAI architectures, LLMs, RAG, recommendation systems, MLOps, distributed training, model serving
 - **When to consult:** ML system design interview prep, architecting production AI systems, technical deep dives on GenAI, understanding ML trade-offs (latency/throughput/accuracy)
 - **Best query pattern:** Frame as a system design problem with constraints, ask for architectural trade-offs
+
+## Ethan Evans Frameworks
+- **ID:** `ethan-evans-frameworks`
+- **URL:** https://notebooklm.google.com/notebook/b8d6232f-1b8b-47e8-8ac5-99fc2d7f35b6
+- **Domain:** Career growth, promotion mechanics, Big-Tech leadership, scope and altitude, sponsor cultivation, influencing without authority, org strategy. Sources: `kb/soft/raw/ethan-evans/` + 6 Lenny's-Podcast Ethan-Evans-Amazon episodes (managing-up + exec-presence, decision-making, external-personal-branding, emotional-regulation-resilience, influencing-without-authority, org-strategy-leverage).
+- **When to consult:** Director-track career framing and scope ambiguity; sponsor cultivation; promotion mechanics + packet prep; OAR (Ownership / Accountability / Results) framing; "Magical Thinking" — writing the future as already true; sponsor-utility document review; cross-org influence without authority; reducing uncertainty for one's manager; scope-question and altitude calibration.
+- **Best query pattern:** Provide James's actual situation (career conversation, scope question, sponsor relationship, doc that needs sponsor utility), ask which Ethan Evans framework applies + concrete framework-named moves. Pairs naturally with Wes Kao for written artifacts (Ethan = career altitude / sponsor utility; Wes = sentence-level execution).

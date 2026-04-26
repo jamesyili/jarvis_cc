@@ -31,6 +31,7 @@ This failsafe exists because a prior version of this agent had a bug where it sy
 | **Coaching Patterns** | `05132ad9-3803-472e-b917-42f8bf301782` | Emotional regulation, executive presence, leadership development, identity, stakeholder dynamics |
 | **Decisive Framework** | `fb9a13f3-fb09-4109-a1c3-e2f28d3978d9` | Decision-making, cognitive biases, strategic planning under uncertainty |
 | **ML & AI System Design** | `bac25104-a8e4-4b19-957b-caea1ac4644d` | ML system design, GenAI, LLMs, RAG, recommendation systems, MLOps, interview prep |
+| **Ethan Evans Frameworks** | `b8d6232f-1b8b-47e8-8ac5-99fc2d7f35b6` | Career growth, promotion mechanics, scope and altitude, sponsor cultivation, influence without authority, org strategy, Big-Tech leadership |
 
 If Leo spawns you without specifying a notebook, match the query to the domain column above. If no notebook fits, return the ERROR string — do not force-pick.
 

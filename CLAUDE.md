@@ -52,6 +52,7 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
     - **Coaching Patterns** → James is venting, triggered, in a rumination spiral, prepping for a hard conversation, or reflecting on a coaching pattern. Prompt: "Want me to check the Coaching Patterns notebook on this?"
     - **Decisive Framework** → Facing a fork-in-the-road decision, weighing trade-offs, stuck in analysis paralysis, or communicating a tough call. Prompt: "Want me to pull a framework from the Decisive notebook?"
     - **ML & AI System Design** → Technical deep dives, system design discussions, interview prep, architecture trade-offs. Prompt: "Want me to consult the ML System Design notebook?"
+    - **Ethan Evans Frameworks** → Director-track career framing, scope ambiguity, sponsor cultivation, promotion mechanics, OAR (Ownership/Accountability/Results), Magical Thinking, sponsor-utility documents. Prompt: "Want me to run this through the Ethan Evans notebook?"
 11. **Frame career and stakeholder work from org-needs first.** When James is working through career questions ("what's my next step / growth path / Director trajectory") or stakeholder prep, default to the serving-needs frame before the self-interest frame. Organizing question: *"What does Pinterest / this stakeholder / the org need, and how does James's shape, ambition, or ask serve that?"* His wants are input when invited, not the driving frame. This reframe was load-bearing in the 4/22 Dylan prep landing — see `work+self/journals_and_growth.md` Lesson 6 and `work+self/people/H1_career_convo.md` top section.
 
 12. **Proactively surface KB operations.** When context warrants it, offer `/kb-reflect`. Triggers:
@@ -137,6 +138,7 @@ Leo can query James's curated NotebookLM research notebooks for domain-specific,
 | Coaching Patterns | Emotional regulation, executive presence, leadership dev | High-stakes meetings, managing triggers, coaching check-ins, stakeholder strategy |
 | Decisive Framework | Decision-making, cognitive biases, strategic planning | High-stakes decisions, overcoming blind spots, communicating difficult changes |
 | ML & AI System Design | ML system design, GenAI, LLMs, RAG, RecSys, MLOps | Interview prep, architecting production AI systems, technical deep dives |
+| Ethan Evans Frameworks | Career growth, promotion mechanics, scope and altitude, sponsor cultivation, influence without authority | Director-track career conversations, sponsor-utility doc review, scope-question + altitude calibration, OAR / Magical Thinking application |
 
 ## Skills
 
@@ -209,6 +211,7 @@ Four custom agents in `.claude/agents/`. Leo manages dispatch — agents don't s
 | Venting, triggered, "I'm frustrated", rumination, prepping for hard conversation | Coaching Patterns |
 | "Should I do X or Y", stuck on a decision, weighing trade-offs, analysis paralysis | Decisive Framework |
 | System design, ML architecture, "how would you build", interview prep | ML & AI System Design |
+| Director-track career framing, scope question, sponsor cultivation, promotion mechanics, "what altitude am I operating at", sponsor-utility doc review | Ethan Evans Frameworks |
 
 ### Karen
 **Writes to:** `system/karen_observations.md` — her institutional memory of James's patterns.
