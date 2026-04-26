@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-04-23
+Last updated: 2026-04-25
 
 ---
 
@@ -14,7 +14,9 @@ Last updated: 2026-04-23
 | `journals_and_growth.md` | Synthesized lessons (incl Lesson 6 Frame Flip), active growth edges, coaching triggers, chronological journal entries | 2026-04-22 |
 | `coaching.md` | David (strategy) + Rodney (mindset) session logs, tools (incl Frame Flip + Don't-Over-Rotate-to-Non-Traditional 4/22) | 2026-04-23 |
 | `communication.md` | DISC profile, audience playbooks, speaking patterns (1-9) + checklist | 2026-04-09 |
-| `backlog.md` | Unified backlog: Write/Learn/Build/Work categories with priority, progress, ownership | 2026-04-23 |
+| `backlog.md` | Unified backlog: Write/Learn/Build/Work categories with priority, progress, ownership | 2026-04-25 |
+| `wes-james-situations.md` | 15 strategic prompts → grounded Wes Kao notebook responses, calibrated to James's calibration-window stakes (Dylan / Rajat / Jeff / Dhruvil / sponsor cultivation / Krishna / Reddit / two-named-things). 13.4K words, 24 frameworks invoked. | 2026-04-25 |
+| `ethan-james-situations.md` | 15 strategic prompts for Ethan Evans customGPT — same situations as Wes file, tilted toward career-altitude framing + sponsor utility. Responses pending manual run. | 2026-04-25 |
 
 ### work+self/people/
 
