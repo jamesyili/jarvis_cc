@@ -509,7 +509,26 @@ Before any executive presentation, run through these:
 
 > Working reference: Dhruvil's communication patterns distilled from observed interactions. Use as a pre-flight check before any leadership-visible thread, office hours, or senior meeting. Not aspirational commentary — operational templates.
 
-Last updated: 2026-04-18 (added April 5 P6 incident case study)
+Last updated: 2026-04-26 (added April 26 joint-Daniel case study + "the right model is Dylan, not Dhruvil" reframe)
+
+---
+
+## Important reframe (2026-04-26): the model is Dylan, not Dhruvil
+
+The Dhruvil playbook below is operational template — what to LEARN from his style. It is NOT what to copy. The recurring 2026 lesson is that **forcing Dhruvil's frequency-style emits Insecure Vibes** (Wes's term) — copying someone else's style when it doesn't fit you. Dylan reads it instantly. Jeff would too.
+
+**The model worth emulating is Dylan.** She makes asks; she escalates upwards; she initiates. But:
+
+- **Surgical, not high-frequency.** Picks moments. Goes silent for weeks then makes one clean ask.
+- **Framed around system needs.** *"We need this for the WAU goal."* Not *"I want this."*
+- **DM for sensitive, public for endorsement.** Channels strategically.
+- **Asks BEFORE the conversation, not during.** Pre-shares. Pre-aligns. The ask itself is small because the framing was already done.
+
+Andrew operates the same way — asks for technical-lead designations, vision endorsements, cross-org headcount. Sounds modest, lands big. Build-first, ask-precise.
+
+**Both of these people have James's respect, and both ask.** The thing James's instinct hates isn't asking — it's the loud-frequency-version of it. The Dhruvil playbook below is the substance underneath the style; **translate the substance into Dylan-shaped surgical execution, not Dhruvil-shaped frequency.**
+
+The full coaching reframe is preserved in `coaching.md` (2026-04-26 entry) and `journals_and_growth.md` Lesson 13.
 
 ---
 
@@ -643,6 +662,93 @@ When James spots a resource / partnership / AI-native capability that benefits m
 ### What this means for Tuesday's 1:1 and onward
 
 This is the missing motion in James's default. The Dylan 1:1 pre-share Slack message structure (send before the meeting, frame as "three threads executing on directions you opened, want you to see before Tuesday") is the first clean application of Dhruvil-style initiation to the manager relationship. The same motion should apply to Rajat and Jeff office hours: walk in with something James is about to do, not with a status update on what James has done.
+
+---
+
+## Case Study: April 26, 2026 — Dhruvil's joint-ask to Daniel Liu (preemptive vocabulary staking)
+
+**What happened:**
+
+Dhruvil sent a thread to Daniel Liu (Curation ML / Intelligent Boards manager: Yan), with James on it, asking for another IC from Daniel's team. Kim from Daniel's team is already on loan to Dhruvil's UPP work — this is the second ask, building on that precedent.
+
+The exact framing Dhruvil used:
+
+> *"Hi Daniel… thanks a lot firstly for Kim's support on UPP — it's been big impact. James and I were chatting, and we see further opportunity here. Kim is focused for the next few months on **foundations tasks spanning ranking / ranking + retrieval**. We have work on retrieval alone, listed here — **James Li please feel free to add more on what tasks would benefit from most help**. We wanted to check if there would be another IC from your team interested to help here."*
+
+Timing: this lands the same week James is preparing to position Daniel Liu's team integration as the FIRST multi-team scope under his own "Anticipation Foundations" Director-track frame for the H1 career conversation with Dylan.
+
+### Dhruvil patterns observed (new layer beyond April 5)
+
+| Pattern | What he did |
+|---------|-------------|
+| **Initiates, doesn't react** | Drove the thread. James was on it but Dhruvil set the framing. Same as April 5. |
+| **Pre-stakes vocabulary** | Used **"foundations tasks"** explicitly, bracketed as **"ranking / ranking + retrieval"** — anchors the foundations word to ranking-side work BEFORE James can claim it for anticipation-side work. |
+| **Joint-claims relationship** | *"James and I were chatting"* — frames the relationship with Daniel's team as co-owned, regardless of whether the chat was substantive. |
+| **Builds on precedent** | Kim's prior loan is the foundation; the second IC ask normalizes the mechanism. |
+| **Puts the ball in James's court for the bucket-fill** | *"James Li please feel free to add more"* — Dhruvil leads framing, James fills with retrieval specifics. The reactive +1 trap, just at email scale. |
+| **Selective formality flag** | Use of full name "James Li" mid-sentence — slight register elevation. Could be benign or could be subtle status-flag. Note. |
+
+### The strategic move (new — not just stylistic)
+
+April 5 was generic Dhruvil-style: surface a need, tag up, get escalation. Today's move is **strategically targeted**: Dhruvil is staking the "foundations" vocabulary onto the ranking-side stack precisely as James is preparing to claim "Anticipation Foundations" as his Director-shaped scope. He may or may not know that's the frame James is about to use. Doesn't matter — the structural effect is the same.
+
+**Hypothesis:** Dhruvil senses James is consolidating (PinSight to Rajat 4/16, Reflex tech-lead designation 4/21, Anticipation Vision attribution, public 4/21 endorsement) and is preemptively staking ground on the foundations layer in a thread Dylan can see.
+
+### James's default pattern (to NOT do)
+
+- **Reactive +1 with bucket-fill.** *"Sure — adding tasks 1, 2, 3, 4."* Confirms Dhruvil-leads-James-follows.
+- **Cede the foundations word.** Let Dhruvil's "foundations tasks spanning ranking / ranking + retrieval" stand unchallenged. Dylan reads it. Daniel reads it. The word is now Dhruvil's.
+- **No direct James↔Daniel channel.** Future asks default through Dhruvil's relationship.
+
+### Critical context Dhruvil's email obscures: Daniel reports to Yan, who is in James's same org
+
+This is the load-bearing piece. Daniel Liu is one of Yan Li's two TLs (alongside AJ Oxendine). Yan is a peer EM under Dylan in the same org — joined via reorg. **There's an active April 3 ownership consensus** (Dylan + Dhruvil + Yan + James) that James's CG owns the ML/retrieval core and **Yan's team owns Explore/IB backend, surface-side glue, the routing layer**. Maintenance vs development split. The CG ↔ Dhruvil ↔ Yan ownership 1-pager (target Dylan signoff 5/30) is meant to formalize this.
+
+When Dhruvil pulls Kim from Daniel's team for "ranking + retrieval foundations" work, he's pulling resources OUT of Yan's team's IB-backend ownership domain — exactly the domain Dylan has explicitly told all parties she wants Yan's team leaning into. If James responds in a way that ratifies Dhruvil's framing without acknowledging Yan, James is participating in eroding the April 3 consensus Dylan owns.
+
+### The right response move (revised)
+
+The reframe is NOT "parallel-and-complementary foundations" with Dhruvil. That ratifies the ranking-foundations frame and ignores Yan's IB-backend ownership. The reframe is **substrate-side ownership tied to Yan's role in the April 3 consensus.**
+
+**Step 0: Pre-share with Yan privately before replying on the thread.** Yan is a peer EM in same org under Dylan. The 1-pager is in flight. Yan should not see this fresh on the thread. Pre-share moves him from "could be territorial peer" to "co-author of the framing" — at zero cost, given the April 3 consensus already supports the substrate-partnership read.
+
+**Step 1: Reply on the thread doing five things:**
+
+1. **Acknowledge Dhruvil collaboratively.** No territorial energy.
+2. **Add 3–4 substantive retrieval tasks** under James's actual workstreams (e.g., p(UIC) into anticipation flow, CLR substrate hardening for IB consumption, eval harness for predicted-UIC at scale, cross-surface coverage on anticipation paths).
+3. **Name Anticipation Foundations explicitly, anchored to the April 3 consensus.** Not as a co-equal foundations layer to Dhruvil's ranking. As **the substrate that Yan's team's IB-backend ownership depends on.** *"Per our April 3 ownership consensus, Yan's team is leaning into Explore/IB backend; Anticipation Foundations is the substrate that work consumes — RR engine + Reflex eval + CLR backbone."*
+4. **Position the IC contribution as substrate-side, partner-shaped with Yan.** *"An IC from Daniel's team contributing here would be co-developing exactly the substrate Yan's team is going to depend on for IB-backend work."* This makes Yan stronger, not weaker. It's also what the 4/20 resource-levers conversation with Dylan was actually about.
+5. **Open a direct James↔Daniel channel AND loop Yan in.** *"Daniel — happy to grab 30 min to map specifics. Yan — adding you so we keep this aligned with the IB-backend ownership we landed on April 3."*
+
+### What NOT to do (what my earlier draft got wrong)
+
+- **Don't say "Dhruvil and I have parallel and complementary foundations workstreams."** Even though it sounds equalizing, it ratifies Dhruvil's ranking-foundations claim as the peer to anticipation-foundations and ignores Yan entirely. The right altitude is: the April 3 consensus is the operating frame; Anticipation Foundations is the substrate Yan's IB-backend ownership depends on; Dhruvil's ranking work is a different layer of the stack.
+- **Don't open a James↔Daniel channel WITHOUT looping Yan.** Yan is Daniel's manager AND a peer EM in same org under Dylan. Going around him reads as territorial regardless of substantive intent.
+
+### The reply you send is more strategically important than the H1 career conversation itself
+
+Because it's a written artifact that lands the April-3-consensus framing where four stakeholders Dylan trusts (Dhruvil, Daniel, Yan, and Dylan herself when she sees it) can register it. Verbal claims in 1:1s are softer than written claims on threads where Dylan can see how James operates with peer EMs in same org.
+
+### Pattern memory (add to the playbook)
+
+**The Dhruvil move now has a vocabulary-staking variant**, beyond the initiate-publicly-frame-in-business-impact pattern from April 5:
+
+- **When Dhruvil uses a frame-defining word** ("foundations," "platform," "infrastructure," "stack") in a thread leadership reads, that word becomes his unless James contests it in writing in the same thread.
+- **The reactive +1 cost is now compounded by vocabulary cost.** Filling Dhruvil's bucket without reframing means James has BOTH joined late AND ratified Dhruvil's frame.
+- **The fix is triple-track:** add substance (real tasks) AND anchor to existing Dylan-owned consensus (April 3) AND make the absorbed team's manager (Yan) a partner not a peer-friction risk. All three. In writing, in the same thread.
+
+### Why this case is escalating
+
+- April 5: generic resource ask. Dhruvil-style, but no targeted frame against James.
+- April 26: targeted at James's strategic move. Foundations vocabulary pre-staked at the moment James was about to claim it. **AND it implicitly cuts against the April 3 consensus** by pulling resources from Yan's IB-backend domain.
+
+If James is right that Dhruvil is sensing the consolidation, expect more of these. The defense is to anchor every reply in the April 3 consensus and make Yan a co-author of the substrate framing. Not territorial. Not competitive. Just clear: per the consensus Dylan herself convened, James's substrate produces UIC/pUIC; Yan's team owns the IB-backend that consumes them; Dhruvil's ranking work is a different layer.
+
+### Surface to Dylan in next 1:1 (light-touch FYI)
+
+> *"FYI on the joint ask Dhruvil sent to Daniel for an IC — I pre-aligned with Yan first, then replied on the thread anchoring on the April 3 consensus and framing the substrate-side contribution as supporting his team's IB-backend ownership. Wanted you to see how I framed it; the 1-pager work for 5/30 lands cleaner this way."*
+
+Dylan registers this as predictability + April-3-consensus-stewardship + situational awareness with peer EMs. It's the cleanest possible "trust me with same-org peer dynamics" signal.
 
 ---
 

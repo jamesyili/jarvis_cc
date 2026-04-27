@@ -191,6 +191,53 @@ Last updated: 2026-04-25
 
 ---
 
+### Lesson 13: Asking ≠ Performing. Build-mode + Ask-mode (not build-mode → ask-mode). The right model is Dylan, not Dhruvil.
+
+**The triggering moment (April 26, 2026):** A Slack thread from Dhruvil to Daniel Liu — joint-asking for an IC, with James on the thread — preemptively staked the "foundations" vocabulary onto the ranking-side stack just as James was preparing to claim Anticipation Foundations as his Director-shaped scope. James's reaction was visceral: *"What does it say about me that I fucking hate this type of thing from Dhruvil? Do I have to learn to be more like him to succeed at the next level? I just want to build, man... It seems I have to ask. I have to be political. In fact this is how Dylan operates as well. She makes asks; she escalates upwards. I have to learn that, truly ingrain that into my behavior and thinking."*
+
+**The full coaching reframe is preserved word-for-word in `coaching.md` 2026-04-26 entry. Headline points here:**
+
+**What the visceral reaction says about James:**
+- Integrity around the work. Maker, not marketer. The reaction is a values signal, not weakness.
+- Substance > optics — strength most of the time. Fails at scale because the org cannot read minds; silence reads as "no need / no priority."
+- Feels it instead of suppressing it. Most people in his position have lost the signal.
+
+**The harder part:**
+- "Asking" and "performing Dhruvil-style" are not the same thing. Dylan asks. Andrew asks. They ask hard, ask precisely, ask up. Their style is nothing like Dhruvil's. **The thing James hates is one specific *style* of asking, not asking itself.**
+- The "let work speak" code worked through M16 because the work was small enough that it actually did speak. At Director+ scale the work is too distributed to speak on its own. Silence at scale ≠ humility. It's invisibility.
+
+**The model is NOT Dhruvil. It's Dylan (and Andrew):**
+- **Surgical, not high-frequency.** Picks moments. Goes silent for weeks then makes one clean ask.
+- **Framed around system needs.** "We need this for the WAU goal," not "I want this."
+- **DM for sensitive, public for endorsement.** Channels strategically.
+- **Asks BEFORE the conversation, not during.** Pre-shares, pre-aligns. The ask itself is small because the framing was already done.
+
+Andrew operates the same way — asks for technical-lead designations, vision endorsements, cross-org headcount. Sounds modest, lands big. Build-first, ask-precise. **Both of these people have James's respect, and both ask. The thing he hates isn't asking — it's the loud-frequency-version of it.**
+
+**The build-mode / ask-mode integration (load-bearing):**
+
+The build-mode is the substrate. James does not trade it for ask-mode. He **adds ask-mode on top.**
+
+Directors who lose the build-mode become coordinators. That's the failure mode on the other side. The ones who succeed at James's shape — Andrew, Kartik, Dylan herself — kept the substantive thing AND learned to ask. **The ask-mode is service infrastructure for the build-mode.** Without it, the build doesn't compound at scale. With it but without the build, you're a manager who organizes other people's substance — exactly the path James explicitly ruled out (IC ruling 4/22 was about preserving build-mode).
+
+The version of James in 18 months still builds. He just also asks cleanly. Still allergic to performative status moves. Just doesn't confuse asking with performing anymore.
+
+**The four-week practice (concrete):**
+1. **One initiation per week, written.** Start ONE thread he didn't have to. Slack with one observation + one recommendation; OAV ask in a 1:1. What matters: he initiated.
+2. **One ask per week, framed in org-need language.** Convert want → need-frame. Even if not sent.
+3. **Track aversive vs neutral.** Aversive ones are where growth is. Neutral ones already in range.
+4. **Watch Dylan's asking patterns over the same window.** She's the actual curriculum, not Dhruvil.
+
+**Anchor sentences:**
+- *"Asking is not performing. Asking at scale is service infrastructure for the work."*
+- *"Build-mode is the substrate. Ask-mode goes on top. I don't trade one for the other."*
+- *"The right model is Dylan, not Dhruvil. Surgical, not high-frequency. Framed around system needs, not personal want. Pre-aligned, not in-the-moment."*
+- *"The visceral reaction to Dhruvil is a values signal. The work is to translate it into 'I won't do it that way' — not 'I won't do it at all.'"*
+
+**Why this is Lesson 13 and not just a coaching note:** James named the question himself (*"How do I get better at it?"*). The reframe shifts him from *"do I have to become Dhruvil"* (false binary, sensor-firing) to *"watch Dylan, learn the surgical version, layer it on top of the build I already do"* (Director-shaped, integrity-preserving). This is the kind of reframe that — like the Frame Flip and the IC Ruling — restructures how James operates going forward. Worth holding at the same altitude as the other lessons in this section.
+
+---
+
 ## Active Growth Edges
 
 ### 1. Speaking Under Pressure
