@@ -230,3 +230,66 @@ Framing question before sending: *"What is the Question Behind the Question (QBQ
 **Why subagents kept failing:** Spawned consult-notebook agents inherit the MCP server connection but trigger the auth-fail path at first `ask_question` call. They cannot run `setup_auth` themselves (would require interactive browser). Auth refresh must happen from the main session (or out-of-band) before any agent consult.
 **Recurring pattern:** Cookies expired 4/21 (logged) → channeled fallback used. Today fixed via setup_auth. Expect to need re-auth roughly every ~3 weeks based on this cycle. Worth tracking how long this session lasts before next failure.
 **Backlog item:** "Subagent tool-exposure fix for consult-notebook" (P0) — repurpose to "NotebookLM session monitoring + re-auth cadence" since the diagnosis was different from initial framing.
+
+---
+
+## 2026-04-28T00:00:00Z — Ethan Evans Frameworks (spawned via consult-notebook agent)
+
+**Query:**
+Apply Ethan Evans frameworks to this Director-track career moment at Pinterest.
+
+James Li (M16 Sr EM, Director-track M18) leads Retentive Recommendations (RR). The company-wide 2026 Anticipation Vision was co-authored by three Sr Directors: Dylan Wang, Andrew Yaroshevsky, Mira Steckel (Design). Mira just sent James his first-ever direct Slack DM asking him to verify her mental model of how UIC behavioral co-occurrence signal works. James reads this as: (1) her building a mental model to defend the vision in exec rooms, (2) her calibrating how to position Design dogfooding feedback.
+
+James drafted a reply. Analysis requested using Ethan Evans frameworks across 5 questions: (Q1) Altitude + Scope: SME vs co-architect register; (Q2) Sponsor Cultivation: what sponsor-utility move is missing; (Q3) Magical Thinking: what residue to leave; (Q4) OAV: Assert beat strength; (Q5) Managing up to a skip-level 1-2 levels above.
+
+Draft reply included in query (full text: "Yeah, you've got the model right. The signal underneath isn't pin-to-pin similarity..." through "...Half the time the team's mental model survives because someone outside it pushed on it.").
+
+**Response:**
+Q1. ALTITUDE + SCOPE: Draft sits in "SME answering a question" register — proves technical competence but doesn't operate at Director altitude. Director altitude requires the "saw model" (scaled AND deep — alternating between high-level strategy and tooth-diving into details without getting stuck in the weeds). James gets stuck in technical weeds ("learned compression of behavioral patterns," "latent cluster"). Fix: cut dense ML terminology, tie mechanism explicitly to the 10x problem / strategic business impact. The assertion should be reframed around how this architecture uniquely empowers the 2026 Anticipation Vision and unlocks new UX capabilities — not how the model works mechanically.
+
+Q2. SPONSOR CULTIVATION: James is missing the "proactive bring value first" move. He is answering her question reactively rather than cultivating the relationship. Ethan's framework: use project moments to engage, tailor value specifically to her expertise (Design). Instead of ending the Slack message passively, propose a brief high-value strategic sync: "I'd love to walk you through what worked and what didn't [with the RR signal], and get your perspective on what we should do next [for the Design/UX integration]." That converts a transactional Q&A into a relationship-building moment with a sponsor-candidate.
+
+Q3. MAGICAL THINKING (note: specific "Magical Thinking" terminology not confirmed in notebook sources — response applies Executive Presence + Sticky Labels framework instead): Mira should unconsciously conclude James possesses gravitas — confidence, command, decisiveness. When peers look at you, they are trying to answer: "Are you a partner or an adversary? Will you help my agenda or hinder it?" The residue this message should leave is the sticky label of "change agent" — an active shaper who invents and solves alongside her, rather than an engineering operator executing tasks.
+
+Q4. OAV (note: specific "OAV" terminology not confirmed in notebook sources — response applies Communication + One-Page Rule instead): The Assert beat is buried. The strongest strategic assertion — "lean on the latent signal to surprise people with good-but-non-obvious recs instead of narrowing in on what they just clicked" — is buried in the third paragraph. Per One-Page Rule logic (state goal, data, and ask immediately without making the executive hunt for it): lead with the clear assertion of why the model works for her vision, validate her TikTok/IG read immediately in the first beat, then significantly trim the "mechanism note" so the core strategic thesis isn't diluted.
+
+Q5. MANAGING UP TO A SKIP-LEVEL: Correct calibration is peer-architect. Core framework rule: treat senior people as peer professionals. Being too deferential or eager reads as "low-status behavior" that strips you of executive presence. "They are not gods. Be respectful, not deferential." James's casual-but-authoritative tone ("Yeah, you've got the model right" and "And keep drawing") is actually strong for peer-level positioning. To ensure it lands: apply "bright, be brief, be gone" — bring clear value without over-explaining. Also apply chameleon leadership model — adapt communication to her design-focused operating style rather than forcing an engineering-heavy explanation.
+
+**Session ID:** 62d6018b
+
+---
+
+## 2026-04-28T00:00:00Z — Wes Kao Frameworks (spawned via consult-notebook agent)
+
+**Query 1 (BLUF / concision / closing critique):**
+Apply Wes Kao's BLUF, Inverted-But, and concision frameworks to a Slack draft reply from an EM to a Sr. Director Design who asked a clarifying question about a technical system. Opening: "Yeah, you've got the model right. The signal underneath isn't pin-to-pin similarity; it's behavioral co-occurrence in interest space..." — Is the opening strong enough for a Sr. Director? What lines are sycophantic or over-explained? What tactical sentence rewrites would sharpen it? Also: the closing line is "And keep drawing. Half the time the team's mental model survives because someone outside it pushed on it." — does this close land as peer-to-peer credibility or does it undercut technical authority?
+
+**Response 1:**
+Opening analysis: "Yeah, you've got the model right" is okay, but jumping straight into "pin-to-pin similarity" vs. "behavioral co-occurrence" violates Sales, Not Logistics. A Sr. Director of Design does not need technical logistics until you've established why it matters to them. BLUF (Bottom Line Up Front) requires stating how the technical signal impacts their design work before any data-science lecture.
+
+Sycophantic / over-explained lines: Going deep into "behavioral co-occurrence in interest space" is over-explaining. When you over-explain technical mechanisms to non-technical executives, you emit insecure vibes — it looks like trying too hard to prove competence. You are putting cognitive load on the Sr. Director to translate engineering jargon into a design takeaway.
+
+Closing line diagnosis: "And keep drawing. Half the time the team's mental model survives because someone outside it pushed on it." UNDERCUTS technical authority and projects insecurity. It unintentionally inceptions the idea that the team's architectural mental models are fragile and constantly need to be "saved" by outsiders. "Keep drawing" reads as mildly patronizing rather than grounded and peer-to-peer.
+
+Tactical rewrites provided (truncated in response — retrieved in Query 2 below).
+
+---
+
+**Query 2 (full rewrites + QBQ diagnosis + narrative seeding + ownership transfer):**
+Full text requested for: Option 1 (Inverted-But & BLUF), Option 2 (At the same time), rewritten closing. Plus three additional questions: (A) Real question diagnosis — does the draft address Mira's two subtexts (vision-defense + ownership calibration)? (B) Narrative seeding — does jargon density make the language un-repeatable? (C) Ownership transfer — is "honestly think that's a Design call" too soft?
+
+**Response 2:**
+
+OPTION 1 (Inverted-But & BLUF rewrite): "Spot on. The underlying signal isn't visual similarity, but your mental model of the user journey maps perfectly to our architecture. Because we use behavioral co-occurrence, the UX you're proposing is exactly what the system needs to feed it the right data."
+
+OPTION 2 (At the same time rewrite): "You've got the model exactly right. Our system doesn't match pins visually, and at the same time, your design intuition for how users navigate interest spaces is spot on. This UX is perfectly aligned with how we're weighting the behavioral signals."
+
+REWRITTEN CLOSING (peer-to-peer credibility): "I really appreciate you pushing on this. Running our architectural assumptions past your design perspective always makes the final product much stronger."
+
+A) REAL QUESTION DIAGNOSIS (QBQ framework): Draft does NOT correctly address either subtext — it only answers the surface-level technical question. Wes Kao: when someone asks a question, there is the surface question and a deeper layer — the "Question Behind the Question" (QBQ). This deeper layer is usually a worry, concern, or curiosity. If you only answer at face value, you leave money on the table because the audience won't feel fully answered. Mira's QBQ: gathering ammunition to defend the vision to executives AND determining who owns next steps. By burying her in technical logistics, James isn't equipping her with exec-ready rationale, and is ignoring the project management subtext entirely.
+
+B) NARRATIVE SEEDING (Simplicity Anchor + Banger One-Liners): Draft entirely fails to accomplish this — jargon density makes the language completely un-repeatable. Wes Kao: people judge intelligence by clarity, not complexity ("simplicity anchor"). When you use simple language, listeners rate you as smarter and more trustworthy; complicated language signals insecurity. For Mira to carry the canonical hierarchy (Anticipation Vision → Retentive Recommendations → UIC mechanism) into other rooms, James must use "banger one-liners" — simpler and more rhythmic language that people will repeat back verbatim. Heavy technical phrasing forces Mira to translate engineering jargon herself.
+
+C) OWNERSHIP TRANSFER (Relay Race framework): "Honestly think that's a Design call more than an Eng one" is far too soft and passive — dropping the baton on the floor. Wes Kao relay race framework: a passed baton is literal — the other person must acknowledge receipt, or the baton is still yours. You must hand the baton and actively wait for confirmation rather than letting it sit on the floor. This phrasing is an observation, not a concrete handoff, leaving ambiguity about who is actually driving. Sharper version: "Since this UX alignment directly impacts the behavioral signals our system collects, I'm passing the baton to Design to own the next iteration of the mocks. Do you have what you need from Eng to take that on?"
+
+**Session ID:** dfd7dcbb

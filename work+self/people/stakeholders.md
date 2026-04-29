@@ -898,7 +898,7 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 - **High-leverage seat to occupy:** expert-in-the-loop providing codepath knowledge + RLHF feedback. Compounding position. Requires *consistent* presence, not one-shot inputs.
 - **Let Andrew own the CTO pitch.** Already done. James owns the engineering proof points (PINvestigator, Pinsight) + Reflex co-dev.
 - **Don't over-coordinate.** Andrew is a vision seller. James is a builder. Keep the interface lightweight.
-- **Watch:** Mira (Sr Director, Design) is the third Anticipation Vision co-author; James's direct line to her is unclear. Worth a direct touchpoint at some point — mediated-through-Dylan-and-Andrew is the current default.
+- **Watch:** Mira (Sr Director, Design) is the third Anticipation Vision co-author. ~~James's direct line to her is unclear.~~ **Updated 2026-04-28: direct line activated, Mira-initiated** (UIC mental-model DM on the Explore module powered by RR). Mediation through Dylan/Andrew is no longer the only channel — she has now demonstrated willingness to route directly to James on technical depth questions. See #33 for full intel.
 
 ---
 
@@ -1403,21 +1403,27 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 ---
 
-# 33) Mira — Senior Director, Design (added 2026-04-11, renumbered from 28)
+# 33) Mira Steckel — Senior Director, Design (added 2026-04-11, renumbered from 28)
+
+**Updated 2026-04-28: Direct working channel activated. Mira-initiated.** First-ever direct technical exchange. Mira DM'd James with a hand-drawn diagram trying to verify her mental model of how UIC signal works in the Explore module powered by RR. Self-deprecating warm register ("am I a designer or what?"); bypassed the Andrew/Dylan-mediated path. James responded with co-thinking depth — validated her cross-user-pattern-matching model, refined the UIC personalization mechanism, reframed the reference-pin "weirdness" as a Design opportunity (not an Eng problem), surfaced 4 concrete possibilities (semantically representative pins / spell out use-case gamut / VLM+reasoning for thematic similarity / "likely to be understood/clicked"), and linked a parallel copy-text question thread he'd already opened in #anticipation-cupcake. Posture explicitly chosen: collaborative co-think over relay-race handoff. The "let the work create the moment" watchpoint closes; new working channel is open.
 
 ## Role in my 6–12 month goals
 - **Anticipation Vision co-author.** Mira co-authored the Anticipation Vision (Pinterest's vision for ALL of 2026 personalization) with Andrew Yaroshevsky and Dylan Wang. James + Anna's Retentive Recommendations is the explicitly named technical key under this vision.
 - **Cross-functional Design × Engineering × Product play.** Mira is the third leg of the executive triangle on Anticipation. Her involvement is what makes this a *company-wide* vision and not just an Eng+Product play.
 - **Indirect, but load-bearing.** She is part of why the CTO is publicly amplifying the Anticipation Vision at conferences.
+- **Design DRI on the dogfooding feedback rollup.** Mira's team is listed as DRI on multiple Explore-module UX themes (Reference↔Recommendation connection clarity, Reference Pin cohesion, Frontier Pin landing/header issues). Her 4/28 question was, in part, calibrating which of those land in Design vs Eng — James's reframe placed the reference-pin module explicitly on Design's side.
 
 ## Current relationship
-- **Status:** **Unknown — direct relationship undefined.** Connection is currently mediated through Dylan/Andrew. James has not (as far as Leo knows) had a direct touchpoint with Mira on the Anticipation work.
-- **Trust level:** Unknown.
+- **Status:** **Active — direct working channel established 2026-04-28.** Mira initiated. James responded same-day with substantive co-think + 4 concrete Design options + parallel work-thread link.
+- **Trust level:** **Warm-and-curious, early.** First direct exchange landed cleanly. She showed up doing the cognitive work (drew a diagram, made the TikTok/IG analogy independently); he showed up co-thinking, not gatekeeping or status-asserting.
+- **What Mira likely wanted from the exchange (multi-variant read):** (1) build her own internal mental model so she can defend the vision she co-signed in exec rooms; (2) calibrate Design's vs Eng's ownership of the dogfooding feedback themes; (3) test whether James is the kind of partner she can route directly to going forward. James's reply served all three.
 
 ## Operating plan
-- **Open question to resolve with James:** Does he have any direct relationship with Mira, or is the connection entirely mediated through Dylan/Andrew? Should there be a direct touchpoint at some point?
-- **Watch:** Mira is a high-leverage stakeholder James does not yet have a direct line to. Once Pinsight/Reflex have visible artifacts, a Mira touchpoint could be high-value (Design's stake in the personalization vision is meaningful). But do not force it — let the work create the moment.
-- **Do not surface to James as urgent.** This is on the radar, not on the action list.
+- **Treat as live working channel, not VIP-handle-with-care.** She bypassed mediation; honor that by responding with the same directness she initiated with. Don't force a meeting; don't formalize cadence prematurely.
+- **Watch the response to the 4 options.** If she engages on substance (e.g., picks one or pushes back), that's a signal the channel will recur. If she thanks-and-closes, it's an episodic touch — still net-positive, but not yet a working partnership. Either is a fine outcome; do not chase.
+- **Design × RR working session is the natural next moment** — but only when she or her team surface a substantive Design exploration on the reference-pin reframe. Don't propose it cold.
+- **Default still let-the-work-speak.** Same trust topology as Andrew/Dylan/Anna — high-trust co-author circle. Do not bring transactional credit/role conversations into this relationship. (See `feedback_credit_in_trust_relationships.md`.)
+- **Director-advocate cultivation candidate (flagged 2026-04-28).** Different lane than Andrew/Kartik/Faisal — Mira's advocacy weight is in calibration rooms where Design's view is invoked + in CTO/conference surface area for the Anticipation Vision. Worth considering as a fourth named target on the Director-advocate list, but explicitly James's call. Do not auto-promote.
 
 ---
 
