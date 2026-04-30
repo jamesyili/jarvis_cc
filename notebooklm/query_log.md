@@ -293,3 +293,52 @@ B) NARRATIVE SEEDING (Simplicity Anchor + Banger One-Liners): Draft entirely fai
 C) OWNERSHIP TRANSFER (Relay Race framework): "Honestly think that's a Design call more than an Eng one" is far too soft and passive — dropping the baton on the floor. Wes Kao relay race framework: a passed baton is literal — the other person must acknowledge receipt, or the baton is still yours. You must hand the baton and actively wait for confirmation rather than letting it sit on the floor. This phrasing is an observation, not a concrete handoff, leaving ambiguity about who is actually driving. Sharper version: "Since this UX alignment directly impacts the behavioral signals our system collects, I'm passing the baton to Design to own the next iteration of the mocks. Do you have what you need from Eng to take that on?"
 
 **Session ID:** dfd7dcbb
+
+
+---
+
+## 2026-04-29T00:55:00Z — Coaching Patterns (spawned via consult-notebook agent)
+
+**Query:**
+James Li is a Director-track Senior EM at Pinterest. He just had two back-to-back charged events: (1) a junior team member voluntarily resigned immediately before (2) a routine 1:1 with his manager Dylan, in which Dylan didn't engage on team size, reorg, or career trajectory topics. James feels "pretty disappointed" but can't explain why. A peer (Krishna) recently failed Director calibration — fresh in James's mind. James's actual career conversation with Dylan is 3 weeks away.
+
+Five questions — answered with named frameworks and specific practices from notebook sources:
+
+Q1. TRIGGER-EVENT AMPLIFICATION: Coaching lens for disambiguating real signal from emotional residue when a destabilizing event precedes a charged meeting. Named frameworks? Grounding practices for back-to-back charged events?
+
+Q2. SELF-JUDGMENT FROM ABSENCE-OF-STATEMENT: The cognitive distortion of reading "I'm not being considered for next level" from what a manager *didn't* say in a routine check-in. Named in the notebook? Antidote?
+
+Q3. MANAGER-FAILURE CHARGE FROM VOLUNTARY DEPARTURE: Even with an underperforming employee, voluntary resignation triggers manager-failure self-framing. Named trap? Reframe?
+
+Q4. PEER-FAILURE RUMINATION: Separating data ("Krishna failed calibration") from projection ("I am the next data point"). What is the coaching practice?
+
+Q5. NEXT MOVE: What should James actually do in the next hour / next 24 hours? Specific named practices (journaling, reframing, nervous system regulation, Rodney-style mindset work)?
+
+**Response:**
+Based on the coaching patterns and journal entries in your notebook, here is how the frameworks apply to James's current situation:
+
+Q1. TRIGGER-EVENT AMPLIFICATION: Coaching lens for disambiguating real signal from emotional residue
+Named Frameworks & Practices:
+Chain Analysis (Jon Dang): Used to understand the build-up of triggers. The notebook notes that getting to a triggered state is rarely "0 to 100," and experiencing "back-to-back losses" forces you to carry emotional residue into the next interaction.
+Distraction Tolerance Skills (David): For grounding between back-to-back charged events, David advises recognizing you are in an emotional crisis and pacing your breathing. If a change is too much to process instantly, practice "putting the entire incident in a box... wrap it up and put it on a shelf, to deal with it all later," doing a simple task to redirect physical attention (like holding a cold/hot drink).
+DIJM Framework (Graciela Meibar): Describe, Interpret, Judge, Manage. Used to disambiguate signal from emotion by asking, "Am I overthinking this? Is it my insecurity talking? What evidence do I have?"
+
+Q2. SELF-JUDGMENT FROM ABSENCE-OF-STATEMENT: Reading failure into silence
+Named Trap: Coach Rodney identifies this cognitive distortion as "Emotional Reasoning" ("I feel it, so it's true") and "Taking thoughts as facts". It is also part of the "Promo comparison loop" where James takes ambiguity ("I don't know where I stand") and converts it into a negative certainty ("I must be behind").
+Antidote: The Rumination Framework. The core rule to stop the spiral is to ask one factual question: "What do I actually know right now? Everything else is creative writing."
+
+Q3. MANAGER-FAILURE CHARGE FROM VOLUNTARY DEPARTURE
+Named Trap: The notebook explicitly names this story/trap: "Unexpected departures mean I failed" or "If my EM leaves, it means I failed as a manager."
+Reframe: Based on James's successful handling of past departures (David and Bowen), the reframe is: "People leave for reasons that are often outside your control. What you control is how you handle it — with clarity, without panic, and with a plan." The notebook emphasizes that the real signal of manager success is that "the team didn't miss a beat."
+
+Q4. PEER-FAILURE RUMINATION: Separating data from projection
+Coaching Practice: This is a classic activation of the Status Sensor, where a comparison point creates an identity emergency. The practices to apply are:
+Tool 8 ("Signal, not truth"): James must name that the sensor is firing and separate the physical sensation of anxiety from his identity, reminding himself that Krishna's outcome is a signal, not a truth about James's own worth.
+Module 1: Deconstructing the Catastrophic Default: An executive coaching syllabus practice where James must run a rigorous "fear-setting" exercise. By tracing the worst-case scenario (failing his own calibration) to its logical bottom, he will find the outcome is "rarely fatal."
+
+Q5. NEXT MOVE: What should James actually do in the next hour / 24 hours?
+Next 10 Minutes (Nervous System Regulation): Apply Rodney's Grounding Practices. James should "surf the moment" to redirect his attention away from the spiral. He can do this by focusing on physical sensations: "Feel what my feet feel like," focus on his breathing, or use the "Favorite of the pen" exercise (asking "what's the quality of the pen?") to pull his brain out of the story and back into the room.
+Next Hour (Reframing & Action): Execute step 3 of Tool 8 (Redirect the fuel). He must recognize the anxiety as energy, not a fire alarm, and point it directly at his internal scoreboard within 10 minutes. He should do 30 minutes of deep technical work or write one journal paragraph to prove to himself that he is moving forward.
+Next 24 Hours (Mindset Work): Apply Rodney's Inquiry Questions to break the victimhood mindset. James should ask himself: "What might I learn about this 24 hours from now that I don't yet know? Is this true? How could it not be true?"
+
+**Session ID:** b011579d

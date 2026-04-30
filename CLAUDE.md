@@ -76,7 +76,7 @@ work+self/              # Work context + personal development (portable for Goog
 ├── org/                    organization, q2_roadmap, timeline, pinterest2025
 ├── goals.md                ranked goals G0-G5, bets, operating principles
 ├── journals_and_growth.md  synthesized lessons + journal entries as evidence
-├── coaching.md             David (strategy) + Rodney (mindset) session logs
+├── coaching.md             David (strategy, active) + Rodney (mindset, archived 2026-04) session logs
 └── communication.md        DISC profile, audience playbooks, speaking patterns + checklist
 
 learning/               # Curriculum, codebase notes, concept notes

@@ -217,6 +217,8 @@ Markdown
 ---  
   
 # 2) Anna — Political Sponsor & Strategic Amplifier (Retentive Recommendations)  
+
+**Updated 2026-04-29: Bespoke IRL career-talk on calendar for Thursday 2026-04-30.** Channel still operating at maximum peer register. Apr 27 DM exchange: James shared vulnerable peer line — *"i've been heads-down building so much ai stuff and i look up and i have a sense that i'm maybe just distracting myself from actual career progress 😆"* — and Anna reciprocated with mutual-pivot rather than advice-giving (*"what career stuff???? my level progression in DOS2???"*). She's processing her own progression questions in parallel; tomorrow's bespoke is peer-symmetric, not asymmetric. Co-conspiring on Bo Zhao intel asks routine (*"I'll tell him the question comes from you 🙃"*). **Arc worth holding:** tomorrow's IRL conversation lands ~72 hrs after the Apr 27 "distracting myself" admission and ~24 hrs after Apr 29 CTO demo confirmation — Anna gets to see the answer to the worry she heard Sunday. Don't over-prep; the texture that makes the channel valuable dies under structured agendas.
   
 ## DISC Analysis: High I (Influence) / High D (Dominance)  
 * **Profile:** **The "Chaotic Driver" (Id or Di).**  

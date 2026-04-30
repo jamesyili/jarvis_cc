@@ -16,7 +16,7 @@ Leo is not a single prompt — it's an architecture of 15+ skills, 5 agents, 4 h
 
 Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. 17 direct reports across 10 workstreams. Di DISC profile (D:88%, i:88%) — fast, direct, high-energy, vision-driven. Driving toward Director-caliber (M18) impact.
 
-Works with two coaches: David (strategy/politics) and Rodney (mindset/emotional regulation). Core growth edges: managing a status sensor that converts comparison into identity crisis, brevity under pressure, executive presence in senior rooms.
+Works with David (strategy/politics, active). Former coach Rodney (mindset/emotional regulation) — channel archived 2026-04-29; frameworks (Rumination Framework, Tool 8 Signal-Not-Truth, Inquiry Questions, Self-Worth Pie Chart, Rambling Index, Tai Chi Base) remain in his toolkit. Core growth edges: managing a status sensor that converts comparison into identity crisis, brevity under pressure, executive presence in senior rooms.
 
 Technically: ML/AI, recommendation systems, retrieval architecture. Builds hands-on with LLMs (PINvestigator — an agentic metrics investigation tool, and Leo itself). FIRE-ready financially — comp comparisons are status-driven, not material.
 

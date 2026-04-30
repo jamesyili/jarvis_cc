@@ -1,4 +1,4 @@
-# Coaching Log Summary: David (Strategy) & Rodney (Mindset)
+# Coaching Log Summary: David (Strategy, active) & Rodney (Mindset, archived 2026-04-29)
 **Period:** January 2025 – December 2025
 
 ## Q1: Emotional Regulation & Presence (The Internal Game)
