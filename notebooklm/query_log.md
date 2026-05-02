@@ -405,3 +405,78 @@ First 20 minutes:
 - Practicing the Gap (Tolerance for Discomfort): When the low-grade hum is running and uncertainty converts to analysis — notice that moment and "make the gap slightly longer." Goal: "Not mastery — just slightly more tolerance for discomfort" by letting gaps of uncertainty just be gaps.
 
 **Session ID:** 2bf814ec
+
+---
+
+## 2026-05-01T00:00:00Z — Ethan Evans Frameworks (spawned via consult-notebook agent)
+
+**Query:**
+James is a Senior EM at Pinterest (Homefeed Candidate Generation, ~17 reports) with active M18 (Director) ambition. He has a 4-week calibration window before: (1) Jeff Office Hours 5/7 — VP, cross-org AI-leader-path question; (2) Rajat Office Hours 5/8 — VP, PinSight Engineering Agent + UPP; (3) EPD demo 5/4 to 3,700 under CTO; (4) JJ IC16 promo packet needing Dylan endorsement before 6/12; (5) flagship Dylan career conversation week of 5/20. His coach said "I want control AND I want the benefits that lack of control gives me" — meaning stop reaching for the build lever, lean into narrative + sponsor.
+
+Leo's recommended posture: this is a calibration window not a build window. Priority order: (1) cross-VP narrative carry on Anticipation Foundations × Retentive Recs (Jeff/Rajat OH), (2) sponsor cultivation beyond Dylan — targeted, thesis-anchored, (3) EPD demo + post-demo narrative carry, (4) narrative across orgs on Retentive Recs / Anticipation, (5) JJ packet Dylan endorsement. Push-back items (OFF the posture): UPP technical ramp, building PinSight/Reflex/RR faster, generic networking.
+
+Specific questions: sponsor cultivation as top priority for M18 candidate in calibration window; targeted sponsor cultivation mechanics at this altitude; post-demo narrative carry after EPD demo to 3,700; UPP technical ramp push-back correctness from Director-altitude perspective; cross-VP AI-leader-path question risk/reward for sponsor signal calibration; Q11 5-signal dashboard and Q13 minimum-viable-asking floor operationalization; Magical Thinking / OAR / scope+altitude anything Leo's recommendation missed.
+
+**Response:**
+ERROR: MCP call failed. `mcp__notebooklm__ask_question` tool unavailable. Auth diagnostics ran (`notebooklm-mcp-auth` and `notebooklm-mcp-auth --file`) — Chrome remote debugging port 9222 unreachable; file-mode requires interactive cookie paste. No synthesis generated.
+
+**Session ID:** N/A — call did not execute
+
+---
+
+## 2026-05-02T17:00:00Z — Ethan Evans Frameworks (manual NotebookLM paste — auth recovery)
+
+**Path:** Auth-recovery via James pasting question into NotebookLM web UI directly. Same query content as the 5/1 failed agent attempt above, refreshed for 5/2 calibration-window dating. Response pasted back into Leo for synthesis + integration.
+
+**Query:**
+4-week calibration window (5/2 → ~5/30) before Jeff OH 5/7, Rajat OH 5/8, EPD demo 5/4 to 3,700 under CTO Matt Madrigal, JJ packet Dylan endorsement before 6/12, Dylan career conversation week of 5/20, June OOO ~6/1 → ~6/30. James's question: what to spend the 4 weeks on (build PinSight faster / meet more people / build Reflex more / ramp UPP technically / push harder on RR-Anticipation). Leo's recommendation: calibration window not build window; priority = cross-VP narrative carry (Jeff/Rajat OH) + sponsor cultivation beyond Dylan + EPD post-demo narrative carry + RR/Anticipation narrative not execution + JJ Dylan endorsement; OFF the posture = UPP technical ramp + faster building + generic networking. Coach frame: "I want control AND I want the benefits that lack of control gives me."
+
+7 questions: (1) sponsor cultivation as right top-priority for M18 in calibration window? (2) what does targeted sponsor cultivation look like in practice — concrete moves? (3) post-demo narrative carry plays after EPD demo to 3,700? (4) UPP push-back correct, or is there a Director-altitude argument FOR re-engaging technically? (5) cross-VP AI-leader-path question — right move or risk of looking like solicited advice? (6) Q11 5-signal dashboard + Q13 minimum-viable-asking floor — operationalize for this 4-week window, what's the FIRST signal? (7) Magical Thinking / OAR / scope+altitude — anything Leo missed?
+
+**Response (verbatim from NotebookLM):**
+
+**The Straight Truth:** James's hypothesis is right — the next 4 weeks are a calibration window, not a build window. At M18→Director, the "work" James personally does matters less than (a) the story other leaders tell about him when he's not in the room and (b) whether multiple executives will spend political capital on him when Dylan is gone/OOO and James is OOO. Narrative + sponsor architecture. James is swapping a lever he can over-control (building) for the lever that actually moves promotions at this altitude (belief + pull). That discomfort is the point.
+
+**1. Is sponsor cultivation the right #1 priority?** Yes — with one caveat: don't "network." Sponsor cultivation must be outcome-tied and thesis-anchored. At Director-track, the promotion question is rarely "can she deliver?" It's: will she create leverage across org boundaries without my involvement / will she represent my priorities well / do I trust her judgment under ambiguity / do I want to bet on her? Right top priority is a combined program: (1) Narrative crystallization (thesis), (2) Sponsor propagation (leaders repeat it), (3) Proof artifacts (a few crisp receipts, not more code). Sponsor cultivation without thesis = "she's great" (low signal). Thesis without sponsors = stays private.
+
+**2. What targeted sponsor cultivation looks like:** Manufacturing executive "reasons to pull you in." Not meetings. Reasons.
+- **Sponsor Stack typology** — 3-5 next-tier sponsors, each providing one of: **Platform sponsor** (gives stage/time: OH invites, steering, cross-org forums) / **Scope sponsor** (moves ownership lines, lands a wedge) / **Credibility sponsor** (vouches "she's the real deal" in their domain) / **Protection sponsor** (prevents turf/backchannel damage when you're OOO).
+- **15-minute sponsor ask script:** (1) Thesis in 20s ("I'm driving Anticipation Foundations × Retentive Recs into an org-level capability: X because Y") (2) Receipt in 20s ("Proved via A/B/C; here's the artifact") (3) Their win in 20s ("Reduces your pain on ___ / accelerates ___") (4) Precise ask — pick ONE: pressure-test the thesis / VP altitude plug-in if it lands / who's the alignment leader / "Can I use your name when I socialize this?" (the sponsorship litmus test).
+- **Orchestrating "opportunities flowing in":** create executive-grade artifacts others can forward — 1-page memo (problem→bet→mechanism→traction→next 2 asks) + demo follow-up clip + 5-bullet narrative + decision framing (2 choices + recommendation + risk trade). **Make it easy for sponsors to sponsor you.**
+
+**3. Post-demo narrative carry (1-2 weeks after EPD):** Treat the demo like a product launch — the launch isn't the moment, it's the distribution.
+- **48-hour plan:** Build "forwardable kit" within 24h — 60-90s clip or gif + 1-slide summary + 5 bullets (What changed / Why it matters / Who should care / What we need next / How to engage). Targeted DMs to 10-15 people (not broad): CTO staff / EPD hosts / 3-5 leaders in adjacent orgs / 2-3 connectors who forward things. DM structure: "Saw you at EPD — here's the 60s clip + the 'why now.' If your org cares about ___, the collaboration ask is ___. Worth 15 min?"
+- **2-week compounding plan:** 3 small follow-up moments — (1) OH loop-close ("Here's what we learned + what we're doing next") (2) Cross-org brownbag (small, exact teams whose dependencies matter) (3) Exec-ready decision request ("We need yes/no on X to scale; options + tradeoffs"). **Visibility without a next step decays. Visibility + a crisp "next decision" converts.**
+
+**4. UPP technical ramp — Leo right to push back?** Mostly yes — but Director-track version of the pro argument: if Rajat's top priority is UPP, James may need credible adjacency to speak in the room where priorities are set. Directors don't need deepest IC depth, but need "executive fluency" (constraints, risks, what's hard, what's leverage). **Right move = bounded ramp:** one week, fixed 3-5 hours total to build (a) crisp mental model (b) 3 sharp questions (c) 1 opinionated take on UPP intersection with Anticipation/RR thesis. Not "learn UPP" — that's infinite. "Learn enough to influence UPP direction relative to Anticipation/RR." Also — best Dhruvil-rivalry protection is public alignment + clear seams: **"Dhruvil owns depth; I own cross-org application + outcomes + scaling mechanism."**
+
+**5. Cross-VP AI-leader-path question — good signal or risk?** Good move IF framed as calibration, not permission-seeking. Risk = sounds like "tell me what to do." Safer pattern: assert POV first, then ask question that tests fit. Example: *"My POV: the Director path in AI here is owning the narrative + seams + decision velocity more than being the deepest model/infra expert. The bet I'm making is Anticipation Foundations × Retentive Recs as a cross-org capability. Where is that thesis strong vs. wrong in your view? And if it's strong, what would make you personally pull it into your staff priorities?"* Reads as: leader with a thesis, seeking edge refinement.
+
+**6. Q11 5-signal dashboard + Q13 asking floor:** Track weekly to detect "is the org beginning to treat you as next-level without being asked?":
+- (1) **Unprompted pull:** inbound asks for input/attendance in rooms you weren't previously in
+- (2) **Forwarding behavior:** people forward your demo/memo (you see thread or get referenced)
+- (3) **Language adoption:** others repeat your thesis words ("Anticipation Foundations", "Retentive Recs", "capability") ← **FIRST SIGNAL TO WATCH; earliest indicator narrative carry is working before org charts move**
+- (4) **Scope offers:** "Can you take this on?" that crosses org seams
+- (5) **Sponsor behavior:** a leader uses their capital for you (intro, agenda slot, explicit endorsement)
+
+**Minimum viable asking floor (3 things to ask for):** (1) Endorsement artifact: Dylan's written endorsement — DRAFT IT FOR HER (2) Sponsor intros: 3 warm intros from Dylan/Rajat (specific names, not "who should I meet") (3) One concrete cross-org wedge to pursue post-OOO so trajectory survives June.
+
+**7. Magical Thinking / OAR / scope+altitude flags:**
+- **Magical thinking trap:** "If the demo goes well, they'll just know." NO. Must narrate the meaning of the demo. **"Demos are raw footage; promotions run on the edited documentary."**
+- **OAR trap at this altitude:** risk of over-indexing on Results in next 4 weeks and under-indexing on institutionalizing Ownership through others. **Director altitude = "results happen because your system exists, not because you pushed."**
+- **Scope+altitude:** James already manages 17 reports = scale. Gap = cross-org leverage + exec trust + decision leadership. Keep asking: "Is what I'm doing creating a mechanism that works when I'm gone?" **June OOO is a gift: if org performs and narrative continues while James is out, it screams Director.**
+
+**3-5 concrete moves this week (5/2–5/8):**
+1. Write 1-page thesis memo (Anticipation Foundations × Retentive Recs): problem / bet / mechanism / traction / next 2 decisions. Forwardable.
+2. Build EPD demo distribution kit BEFORE 5/4: clip plan + 5 bullets + target DM list (10-15 names) + exact ask for each.
+3. Pre-wire Jeff OH (5/7) + Rajat OH (5/8): send each a 6-line pre-read with thesis + the single decision/question you want from them.
+4. Secure Dylan's endorsement while you can: draft language yourself, ask her to edit/submit (optimize for her time).
+5. Time-box UPP fluency: 3-5 hours total → 3 sharp questions + 1 adjacency POV + 1 seam proposal ("where UPP enables Anticipation/Retentive Recs").
+
+**Hard coaching questions Ethan asks back to James:**
+1. Who are the 3-5 VP-level sponsors you're targeting BY NAME, and what exact "asset" do you want from each (platform/scope/credibility/protection)?
+2. What is the SINGLE SENTENCE of your thesis that you want repeated verbatim by Jeff and Rajat after their OH?
+3. After EPD, what is the ONE decision you want the org to make that proves your Director altitude (not your team's velocity)?
+4. What would be the clearest evidence by 5/30 that calibration is working — and what will you do if you're not seeing it by week 2?
+
+**Session ID:** Manual paste — no NotebookLM session ID.
