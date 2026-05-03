@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-04-29
+Last updated: 2026-05-02
 
 ---
 
@@ -17,6 +17,8 @@ Last updated: 2026-04-29
 | `backlog.md` | Unified backlog: Write/Learn/Build/Work categories with priority, progress, ownership. **2026-04-29: CTO demo confirmed Monday 5/4 (#103 fully updated); David coach session confirmed Friday 5/1 (#109); new headcount-back conversation item; H1 doc slipped third time; Mira candidate flagged on #81 Director-advocate cultivation (decision still pending).** | 2026-04-29 |
 | `wes-james-situations.md` | 15 strategic prompts → grounded Wes Kao notebook responses, calibrated to James's calibration-window stakes (Dylan / Rajat / Jeff / Dhruvil / sponsor cultivation / Krishna / Reddit / two-named-things). 13.4K words, 24 frameworks invoked. | 2026-04-25 |
 | `ethan-james-situations.md` | 15 strategic prompts → grounded Ethan Evans customGPT responses, calibrated to James's career-altitude + sponsor-utility judgment. **All 15 manually completed 2026-04-26.** Q15 cross-framework convergence test passed vs Wes Q15 (OAV). | 2026-04-26 |
+| `resume.md` | Resume sync: LinkedIn snapshot (current titles/dates) + verbatim JamesLiCV2025.pdf + tenure summary + publications. | 2026-05-02 |
+| `ethanevans_questions/` | Ethan Evans parallel-chat workflow folder. `00_canonical_brief.md` + 8 dimension files (one-question-at-a-time, paste-into-Ethan-customGPT format with `### Response` sections). **04 Jeff (managing-up) + 05 Rajat (managing-up incl. Q1 AI-leveraged-leader centerpiece) DONE 2026-05-02b.** 5 stubs remaining: 01 director-track, 02 career, 03 sponsorship, 06 peers, 07 cross-org, 08 AI-leveraged path. | 2026-05-02 |
 
 ### work+self/people/
 
@@ -26,6 +28,7 @@ Last updated: 2026-04-29
 | `dylan_archive.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis. 4/23: retention philosophy + moral filter on external destinations from Slack intel | 2026-04-23 |
 | `dylan_1on1_log.md` | Rolling 1:1 log: 4/21 debrief + 4/23 Slack exchange (Dafang flight risk, Dylan retention philosophy) | 2026-04-23 |
 | `../H1_career_convo.md` | THE operative doc for Dylan career convo (scheduled wk of 5/20). 13-part structure: OAV thesis (Anticipation Foundations frame), Yan-as-partner via April 3 consensus, 4-segment talk track (Krishna OAV opener / thesis / forced-calibration ladder / cognitive close), Ethan Q11 5-signal early-warning dashboard, Ethan Q13 minimum-viable-asking floor, M18 pacing protocol. **Cross-framework convergence test passed 4/26 (Wes Q15 ↔ Ethan Q15 OAV).** Note: file moved from `people/` to `work+self/` root pre-4/28. | 2026-04-26 |
+| `jeff_rajat_office_hours_prep.md` | OH prep for May 7 Jeff (15 min) + May 8 Rajat (25 min). **POSTURE UPDATE 2026-05-02b:** Jeff lead = Anticipation 4-beat install spine (WAU/representation → pin polysemy → CLR portability to Notif + Intelligent Boards → LLM-pUIC frontier); Reflex/EPD as fallback only; honest WAU attribution (representation, not prediction); language ask recommended; 12-Q anticipated bank; older 4/25 sections corrected. AI-leveraged-leader Q deferred to Rajat 5/8 → Dylan → DM Jeff 5/16-5/20. | 2026-05-02 |
 | `pre_june_readiness.md` | Pre-June OOO readiness plan: pod structure, escalation paths, Dylan sign-off items. **4/29 2nd-pass rev:** Notion = ground-truth on item framing. Engineering Agent ✓ demoed, JJ James's-part ✓, Hedi/Adjacent-EM/RR-paper-James's-parts closed. CG↔Dhruvil↔Yan 1-pager + H2 pre-seed memo dropped. Pinsight M1 folded into #14. New items 4a–4d added (pUIC Labeling, FVL query speed, RR Paper additions tracking, Yuke+Daniel coordination per Notion). Jeff/Rajat OH framing updated per Notion. | 2026-04-29 |
 | `team_members.md` | Direct report profiles (if exists — may overlap with stakeholders §8) | Unknown |
 | `hiring/em_backfill_bowen_2026-04-16.md` | EM backfill candidate interview feedback (Weak Lean No) | 2026-04-16 |
