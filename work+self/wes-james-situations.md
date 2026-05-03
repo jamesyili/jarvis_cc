@@ -19,7 +19,7 @@
 
 **PROMPT:**
 
-I'm a Senior Engineering Manager at Pinterest, ~9 years tenure, currently M17 with M18/Director as the target. I lead the Homefeed Candidate Generation team — the core retrieval layer that decides what Pins are eligible to show 500M+ users. Team size 17–20 directs; I'm hiring an EM-under-me to build a layer (2 lean-no's so far on backfill).
+I'm a Senior ML Engineering Manager at Pinterest, joined Sept 2024 (~1 yr 9 mos at Pinterest; ~12 years total working career since Jul 2014 at Yahoo Labs → Facebook IC/Senior/Staff/EM → Snap EM/Head of Stories Ranking). Currently M17 with M18/Director as the target. I lead the Homefeed Candidate Generation team — the core retrieval layer that decides what Pins are eligible to show 500M+ users. Team size 17–20 directs; I'm hiring an EM-under-me to build a layer (2 lean-no's so far on backfill).
 
 My manager just gave me an Exceeds rating + ~$1.2M equity refresh over 3 years — peak operational trust. I have two attributable named-thing artifacts in flight: (1) Retentive Recommendations, a stateful-user-representation paradigm with WAU + holdout wins, CEO+CTO buy-in, paper drafted, three-org cross-pollination; (2) Reflex/Pinsight, an LLM-agentic simulation+detection tool whose data substrate has been organically forked by Notifications and Search teams.
 
