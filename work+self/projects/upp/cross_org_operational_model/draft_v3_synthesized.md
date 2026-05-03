@@ -206,6 +206,98 @@ If 5 of 6 land, handoff is clean. If 3–4 land, handoff is in progress. If <3 l
 
 ---
 
+## 7.5 Required content for surface-team operational plans (review checklist)
+
+> Review checklist for the *Notif Retrieval FT V0 Operational Plan* (Piyush Maheshwari, Rui Liu, Devin Kreuzer, Hongtao Lin) and a spec for future P2P / Search surface-team ops docs.
+
+This charter defines the **cross-org governance layer** (§§3–8). Each surface team produces a complementary **operational plan** covering surface-team-side mechanics: who runs what within the surface team, how failures are handled, what the contract with base team is. The Notif V0 ops plan is the first instance — and reviewing it against this checklist surfaced significant gaps. Captured here as a spec for both the immediate Notif V0 doc revision AND future adopters.
+
+### The single most useful reframe (do this first)
+
+The current Notif V0 doc reads as a productionization sketch + future-flexibility memo. It's authors-narrating (*"we will set up ARF, manually retrain"*), not a two-team operational contract.
+
+**Reshape it from *"what we will do"* to *"what notif team owns / what base team owns / what the contract is between us / what happens when things break."*** That single shape change forces most of the missing content below to surface naturally.
+
+### Required sections (ranked by priority)
+
+#### 1. Ownership / RACI in the post-handoff state
+The single biggest gap. The current draft says *"we will set up a base model ARF with help from the notif team"* — never defines who *we* is, never defines steady-state ownership. This charter's §3 establishes the cross-org RACI matrix; the surface ops plan must specify the within-surface and contract-with-base details:
+- Who owns base retraining cadence (Rui? Hongtao on ATG hat? Base team?)
+- Who owns notif FT retraining cadence
+- Named POCs on each side
+- Go/no-go on accepting a new base release into notif's pipeline
+- On-call routing (base team for platform-level; notif for funnel — but who specifically?)
+
+#### 2. Failure modes + rollback
+**Zero coverage in the V0 draft. Operational table stakes.**
+- What happens if a new base retrain regresses notif metrics?
+- Rollback mechanism (revert base? revert FT? both?)
+- Rollback SLA
+- Break-glass path
+- Comms protocol when something breaks
+- Behavior when base model is unavailable during a notif retrain
+
+#### 3. Versioning + compatibility contract
+The V0 draft asserts: *"we only load the lower layers weights of base model during finetuning. The feature crossing and output layers don't need to be the same as base."* That's a load-bearing claim with no contract behind it:
+- What guarantees lower-layer stability across base versions?
+- If base team changes lower-layer architecture, does notif FT auto-break? How is that surfaced?
+- Base model version tracking + lineage
+- Compatibility matrix: which notif FT versions work with which base versions?
+- Deprecation policy when base ships a breaking change
+
+#### 4. Make the "Future Development Plan" section concrete (currently hollow)
+The V0 draft lists three flexibility examples but no *HOW*:
+- *"Updating notif training data is not blocked"* — what's the workflow? Self-serve? PR to where? Where does the data live? Approval needed?
+- *"Adding new features can be tried on notif surface tower first"* — what's the API/contract for adding features at FT stage? Who reviews? How does it get promoted to base if it works cross-surface?
+- *"New model architectures can be tried on notif directly"* — if architecture diverges, how is base layer alignment maintained? What's the divergence policy? When does notif need to coordinate with base team?
+
+#### 5. Eval + sign-off bar
+What's the gate to promote a new FT model to prod?
+- Required metrics (recall@k offline? online A/B? Both?)
+- Bar / threshold per metric
+- Who signs off
+- Behavior on regression
+- Eval suite / golden sets
+
+#### 6. Cadence + triggers
+The V0 draft mentions *"biweekly ARF cadence"* in passing. Missing:
+- Actual schedule (every other Monday? Aligned with notif's deploy schedule?)
+- Triggers for off-cycle retrain (drift? feature change? new architecture?)
+- Lag between base retrain and FT retrain
+- Notif's deploy-schedule alignment
+
+#### 7. Migration plan from current state to steady state
+The V0 draft jumps straight to *"we will productionize."* Missing:
+- Current state (V-1 ARF + FT per §2)
+- Migration sequence
+- Cutover mechanism
+- Bake-in / parallel-run period before full cutover
+- Validation gates at each milestone
+
+#### 8. Manual-retrain-of-base runbook
+*"Before [base ARF is] implemented, we will manually retrain the base model which is acceptable given the biweekly ARF cadence."* — that's a sentence, not a runbook:
+- Who runs the manual retrain
+- What steps
+- Time required
+- Validation before promotion
+- Behavior on failure
+- When does the manual retrain stop being needed (when does ARF land?)
+
+### Lower-priority but worth flagging in the V0 doc
+
+- **Cross-surface implications** — notif is one of multiple surfaces. The V0 draft doesn't acknowledge that notif-team decisions might cascade or conflict with base team's plans for HF / P2P / Search.
+- **Cost / resource accounting** — manual base retrains aren't free. Who pays? Quota allocation?
+- **SLOs** — latency, throughput, freshness, availability targets for notif retrieval.
+- **Monitoring + drift detection** — what's the ongoing health check? Drift on inputs, base, FT? Alerting?
+- **Coordination model between teams** — sync cadence, comms channel, escalation path beyond named POCs (this charter's §8 establishes the cross-org pattern; surface ops plan should specify the partnership-level instance).
+- **June OOO coverage** — if something breaks during James's June OOO, who responds? Not the engineer's responsibility to put in their doc, but worth flagging as a contract item the broader doc must cover.
+
+### How this checklist evolves
+
+When P2P and Search produce their own surface ops plans, this checklist should be the starting spec. After two more surfaces ship plans against it, revisit and prune anything that turned out not to be load-bearing. **The goal is a reusable template, not eight unique surface ops docs.**
+
+---
+
 ## 8. Coordination Mechanisms
 
 **Steady-state per surface partnership:**
