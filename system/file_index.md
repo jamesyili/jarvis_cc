@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-05-02
+Last updated: 2026-05-04
 
 ---
 
@@ -29,6 +29,7 @@ Last updated: 2026-05-02
 | `dylan_1on1_log.md` | Rolling 1:1 log: 4/21 debrief + 4/23 Slack exchange (Dafang flight risk, Dylan retention philosophy) | 2026-04-23 |
 | `../H1_career_convo.md` | THE operative doc for Dylan career convo (scheduled wk of 5/20). 13-part structure: OAV thesis (Anticipation Foundations frame), Yan-as-partner via April 3 consensus, 4-segment talk track (Krishna OAV opener / thesis / forced-calibration ladder / cognitive close), Ethan Q11 5-signal early-warning dashboard, Ethan Q13 minimum-viable-asking floor, M18 pacing protocol. **Cross-framework convergence test passed 4/26 (Wes Q15 ↔ Ethan Q15 OAV).** Note: file moved from `people/` to `work+self/` root pre-4/28. | 2026-04-26 |
 | `jeff_rajat_office_hours_prep.md` | OH prep for May 7 Jeff (15 min) + May 8 Rajat (25 min). **POSTURE UPDATE 2026-05-02b:** Jeff lead = Anticipation 4-beat install spine (WAU/representation → pin polysemy → CLR portability to Notif + Intelligent Boards → LLM-pUIC frontier); Reflex/EPD as fallback only; honest WAU attribution (representation, not prediction); language ask recommended; 12-Q anticipated bank; older 4/25 sections corrected. AI-leveraged-leader Q deferred to Rajat 5/8 → Dylan → DM Jeff 5/16-5/20. | 2026-05-02 |
+| `dylan_1on1_prep_2026-05-05.md` | Dylan 1:1 prep for Tue 5/5 (day after EPD demo). Frame: program-operating-model meeting, not celebration. 3 decisions to force (June 17 plan / rescope ownership with Dafang as TL / Rajat 5/8 tracks). 2 career-critical asks (JJ written endorsement + Director-narrative continuity through Dylan transition). Operating model: Andrew (Reflex program owner) / Dafang (TL across P13N stages) / James (architecture + cross-VP narrative + partner orchestration) / JJ (CG + Track 3 lead + David Sun/CSI POC + IC16 evidence). Tooling neutralizer + safety-valve close ready. Recovery boundary: no new technical IC commitments this week. | 2026-05-04 |
 | `pre_june_readiness.md` | Pre-June OOO readiness plan: pod structure, escalation paths, Dylan sign-off items. **4/29 2nd-pass rev:** Notion = ground-truth on item framing. Engineering Agent ✓ demoed, JJ James's-part ✓, Hedi/Adjacent-EM/RR-paper-James's-parts closed. CG↔Dhruvil↔Yan 1-pager + H2 pre-seed memo dropped. Pinsight M1 folded into #14. New items 4a–4d added (pUIC Labeling, FVL query speed, RR Paper additions tracking, Yuke+Daniel coordination per Notion). Jeff/Rajat OH framing updated per Notion. | 2026-04-29 |
 | `team_members.md` | Direct report profiles (if exists — may overlap with stakeholders §8) | Unknown |
 | `hiring/em_backfill_bowen_2026-04-16.md` | EM backfill candidate interview feedback (Weak Lean No) | 2026-04-16 |
@@ -38,6 +39,8 @@ Last updated: 2026-05-02
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `pinsight/pinsight.md` | Pinsight: M0 in production, M1 active, Reflex × Anticipation Vision convergence, 4-way nexus, wave-ride tripwires, Rajat VP engagement 2026-04-16 | 2026-04-16 |
+| `pinsight/epd_demo_2026-05-04_prep.md` | EPD demo prep for Mon 5/4 to ~3,700 audience under CTO Matt Madrigal. Beats 1/2/3 locked (Variant C opener, Asana card continuity, v4 systems diagram). Q&A bank with 15 anticipated questions across 4 buckets. | 2026-05-03 |
+| `pinsight/epd_demo_2026-05-04_debrief.md` | EPD demo debrief + same-day follow-up signals. 10 sections: demo what-landed (PM-agent humor moment hit as predicted) / Faisal + Matt verbatim Q&A / DM threads verbatim (David Sun cold ForgeDev/PR pilot offer; Faisal ML Flywheel collab; Rajat productionization tracks ask; Andrew/Dylan/James thread incl Asana pushback + Chuck/ATG invite + James humor diffusion; Dylan rescope DM) / Sponsor Stack 1→6 mapping + Kartik engaged / 4/23 VP-target list complete (all 4 in motion) / multi-variant Dylan-rescope read (E "taking off" ~zero) / watch-outs (June 17 OOO conflict, Asana tribal, anxiety-reading-pattern, four-thread prioritization) / implications for Dylan 1:1 + Jeff/Rajat OH + ATG + ForgeDev. | 2026-05-04 |
 | `pinvestigator/pinvestigator.md` | PINvestigator: eval harness landed, Jeff demo + Manu dynamic, 5 next steps, JJ delegation plan | 2026-04-11 |
 | `retentive_recs/retentive_recs.md` | Retentive Recommendations: program status (UCAN WAU stable), three prediction tracks, KDD 2026 paper plan, Engineering Blog editor role, co-author roster, Anticipation Vision. **Moved into `retentive_recs/` subdirectory 2026-04-11.** | 2026-04-11 |
 | `upp/upp_march_2026.md` | UPP: March 2026 must-win historical log + April 2026 status update (5-prong hands-off operating mode, Sai correction, Dylan-update corrections with Dafang He / Zihao Chen / Dimitra / Zhenyu Tan / Rui, tripwires). Renamed from `upp_must_win_march2026.md` and moved to `upp/` subdirectory on 2026-04-11. | 2026-04-11 |
