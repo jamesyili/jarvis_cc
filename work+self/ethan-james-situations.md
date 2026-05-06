@@ -4226,6 +4226,480 @@ Coaching questions
 3. Where are you still waiting for permission instead of declaring direction and inviting critique?
 ---
 
+## Section 4 — Post-EPD-Demo Follow-Ups
+
+### Q16. Compression-day 1:1 + ask portfolio + transition-window endorsement risk
+
+**Run:** 2026-05-05 evening, debriefing the same-day 1:1 with manager that followed the 2026-05-04 EPD demo (~2,200 invited / 450+ attended under CTO Matt Madrigal). Sponsor stack went 1→6 in one event.
+
+**Likely framework pulled:** Sponsor utility / action sponsor; ask portfolio (forwarding + resourcing); trigger-based deferral (calendar / evidence / escalation); transition-window risk management; system certainty over emotional certainty.
+
+**PROMPT:**
+
+# Context
+
+I'm an M16 Senior Engineering Manager at Pinterest leading Candidate Generation for Personalization (Homefeed). My target is Director (M18). My manager is M17, transitioning to a new role internally on June 12. I go OOO June 1–30 for travel. My IC16 promo candidate has calibration in July, when both my manager and I are back.
+
+# Yesterday (Monday)
+
+I co-presented at an EPD-wide demo (~2,200 invited / 450+ attended) hosted by our CTO. My segment featured an engineering-agent build POC. Live Q&A came from a VP (Faisal) and the CTO himself. Same-day cascade:
+
+- A senior engineer (David Sun) cold-DMed offering a pilot collaboration on a complementary system
+- The VP DMed (looping in my manager) on a separate ML Flywheel collaboration
+- My manager's manager (Rajat, VP) DMed: *"let's pick up a few tracks for productionization"*
+- A Sr. Director (Chuck) invited me to present at his all-hands
+- The CTO offered me a June 17 EPD all-team agenda slot (which conflicts with my OOO)
+- My manager sent a rescope DM: *"I asked [the broader-program lead] to rescope this project so it's not just on you."*
+
+My active sponsor stack went from 1 (my manager) to 6 in a single event. All four members of the VP-target list I'd identified two weeks earlier hit "in motion" within the calibration window.
+
+# Today's 1:1 with my manager (30 min, day after the demo)
+
+I walked in with a prep document aimed at:
+1. Forcing three decisions — broker the June 17 conflict / formalize a rescope ownership model elevating my staff engineer to day-to-day driver / align on posture for an upcoming OH with my manager's manager
+2. Two career-critical asks — written endorsement on the IC16 promo packet, and Director-narrative-continuity through my manager's transition
+3. A safety-valve close: *"if I'm trending hot, call it early; I'm optimizing for steady not heroic"*
+
+What actually happened:
+
+1. **Headcount backfill (a recent voluntary departure).** She said she'd already raised with her manager that the departure was partially due to performance reasons, and she flagged it again. I planted that two areas of my org could really benefit from more investment — AI-enablement for P13N/Core, and a foundational user-modeling area (Anticipation Foundations) — and explicitly told her *"we don't have to talk about it now, but we should when the time is right."* Her response: silence. No acknowledgment, no pushback, no "yes let's come back to this."
+
+2. **Reflex/Agent platform next steps.** She didn't appear to have a strong plan, or agreed with mine. She said she'd ask for an engineer each from two peer leaders' teams to join the working group, and asked me to follow up with a TPM to set up the weekly forum.
+
+3. **"How can I help the team."** She repeated this several times. She pinged the recruiting team about accelerating my open EM hire.
+
+4. **Project drops for topline growth.** A new topline-growth mandate from her management chain had just landed. We worked through which projects to drop on my team to focus on it.
+
+I did NOT bring up the IC16 written endorsement or the Director-narrative-continuity ask. On the IC16 ask: she has historically been the initiator on promo conversations before calibrations, and I keep thinking "not the right time." Calibration is in July when we're both back. On Director-narrative-continuity: there's a dedicated career conversation scheduled for the week of 5/20.
+
+# My reads on the meeting
+
+- The meeting felt benign / normal, not like the trajectory-affirmation moment I was hoping for after yesterday's CTO-room inflection.
+- I sense she was operating under pressure from the new topline-growth mandate. That ate airtime and shaped her register.
+- I noticed her default mode is *"let me escalate"* — every *"how can I help"* cashed out as her offering to push something up to her chain or recruiting. She doesn't gravitate toward strategic co-thinking or decision-making within her own team's scope.
+- My headcount-investment seed had an explicit deferral wrapper ("not now, when the time is right"), and she gave silence — neither acknowledgment nor pushback. I don't know if that's because: (a) she took the deferral cleanly and parked it for later, (b) the seed wasn't well-formed enough for her to even acknowledge in passing, or (c) she doesn't want to engage with that framing at all.
+- I'm questioning my own pattern: a recurring instinct to defer career-coded asks ("not the right time") even when the manager is the initiator. I don't know if that's wisdom or an under-asking habit.
+
+# What I'm struggling with
+
+1. **How do I make more effective asks at this altitude**, particularly when my manager is operating under a compressed-environment constraint imposed from above her?
+
+2. **Was my seed-and-defer technique on the headcount-investment ask sound?** I planted the bigger framing AND explicitly tagged it as *"we don't have to talk about it now, but we should when the time is right."* She gave silence — neither acknowledgment nor pushback. Did the deferral wrapper protect a legitimate seed for future conversation, or did it give her permission to never come back to it? When you deliberately defer an ask inside a 1:1, what makes the deferred seed structurally survive vs. evaporate?
+
+3. **Is my recurring "not the right time" defer-instinct on career-coded asks wisdom or under-asking?** When my manager has been the one initiating the conversation and I keep deflecting, that seems like I'm overriding her tendency, not respecting it.
+
+4. **How should I feel about today's 1:1?** Operationally, she acted concretely on my behalf multiple times. But I walked away disappointed because the trajectory-affirmation layer — some recognition that yesterday changed something — wasn't present. Was that expectation reasonable for an operational 1:1, or was I conflating venues?
+
+5. **What's the right Director-altitude pattern** when post-extraordinary-event days collide with manager-compression days?
+
+# What I'd like from you
+
+- A direct read on whether the seed-and-defer technique on the HC ask was sound, and what makes a deferred seed survive vs evaporate
+- A read on the IC16 defer-instinct pattern (wisdom or under-asking?)
+- A frame for how to interpret my manager's silence on the bigger framing given the explicit deferral wrapper
+- A sponsor-utility lens on what the right ask portfolio looks like with my manager specifically over the next 6 weeks (before her transition)
+- Anything I'm not seeing
+
+**RESPONSE:**
+
+The Straight Truth: yes—there are a few important differences vs that other LLM's framing, and they change what you should do next.
+
+You didn't have a "missed opportunity" 1:1. You had a classic compression-day sponsor 1:1 where Dylan did operational sponsorship (resources, hiring acceleration, de-risking topline) and avoided initiating any new strategic commitments (headcount investment, big reframes, career-coded asks). That's normal under a fresh topline mandate and with her impending transition. The mistake would be interpreting the lack of "trajectory affirmation" as lack of belief.
+
+Below are the direct reads you asked for, plus the ask-portfolio for the next 6 weeks.
+
+---
+
+### 1) Was your headcount-investment ask wrong-shaped?
+
+Yes. Wrong-shaped for that meeting, that day, with that manager mode.
+
+Your phrasing ("could benefit from more investment") is:
+- aspirational,
+- open-ended,
+- not tied to her immediate constraint (topline mandate),
+- and it implicitly asks her to think and decide in the moment.
+
+On a compression day, leaders default to containment + execution certainty, not expansion.
+
+#### The shape that would have landed
+
+Pick one of these three, depending on what you want:
+
+**A) Binary decision ask (forces clarity)**
+> "Given the new topline mandate, is additional HF CG investment a hard no for H1, or a not now pending specific evidence?"
+
+**B) Constraint-aligned ask (ties to topline)**
+> "If we had 1 incremental head (or X% of an FTE) where would you place it to maximize topline growth: AI enablement for velocity, or Anticipation Foundations for WAU lift? I can send a 1-pager with expected impact."
+
+**C) Escalation ask (uses her default mode)**
+> "If I write a 1-page 'topline growth ROI' for these two bets, will you forward it to Rajat as input to staffing tradeoffs?"
+
+You discovered a key truth: Dylan's native motion is "I'll escalate / I'll unblock / I'll resource." So don't hand her a vague strategy thought. Hand her an escalation-ready artifact and ask for a single action.
+
+#### What her silence likely meant
+Most likely: "I can't engage an expansion conversation right now" (not: "I don't buy it"). Silence is often risk avoidance, not disagreement.
+
+---
+
+### 2) Your IC16 defer-instinct: wisdom or under-asking?
+
+Under-asking. And it's specifically dangerous in your situation because of the calendar risk you already named:
+- Dylan last day 6/12
+- she's OOO through ~7/6
+- calibration is July
+- you have OOO in June
+
+That's a recipe for "it slipped."
+
+Your story ("she usually initiates") is a comforting pattern… but you don't have the calendar slack to rely on it.
+
+#### The right framing
+
+You're not "pushing for promo." You're risk-managing a dependency.
+
+The correct move is a low-emotion, logistical ask:
+> "I know you often initiate promo items closer to calibration. Because of your transition + my June OOO, can we lock the IC16 endorsement timeline now so nothing slips? I can draft it."
+
+This is totally consistent with boring consistency, and it reads as operational maturity, not neediness.
+
+---
+
+### 3) How to interpret Dylan's silence on the bigger framing
+
+Use this heuristic:
+
+**Silence in a compression meeting can mean three different things**
+1. "Not winnable now." (Most common)
+2. "Not the right venue." She might prefer that conversation in the 5/20 career convo.
+3. "I don't buy the frame." (Less likely, but possible)
+
+How you test which it is—without heat:
+- Send a 1-pager and ask for a single forwarding action.
+- If she forwards, she buys it (or at least is willing to spend capital).
+- If she doesn't, ask: "Is this not winnable, or is the frame off?"
+
+Directors don't guess. They instrument.
+
+---
+
+### 4) How should you feel about today's 1:1?
+
+Your disappointment is understandable, but your expectation was slightly mismatched.
+
+You were conflating:
+- A sponsor-confirmation moment (emotional recognition + "this changes things")
+  with
+- A compression operating meeting (topline mandate triage + resource actions)
+
+Today's 1:1 outcome was actually good in the way that matters:
+- she moved recruiting,
+- she committed to cross-team staffing for Reflex,
+- she helped you drop work to hit topline,
+- she repeatedly offered help (a signal of engagement).
+
+What you didn't get was narrative affirmation. That doesn't mean it isn't true; it means you need to pull it into the right venue (5/20) and/or in writing.
+
+---
+
+### 5) The right Director-altitude pattern when extraordinary events collide with compression days
+
+Split the work into two channels:
+- **Ops channel (today):** execution certainty, resourcing, de-scoping, mechanisms
+- **Narrative channel (separate):** what the demo changed, your trajectory, sponsorship plan
+
+Trying to do both in 30 minutes when a new mandate dropped is exactly how people start to look "hot."
+
+So the Director move is:
+1. take the ops meeting as ops,
+2. capture narrative in a written artifact,
+3. schedule it deliberately (5/20).
+
+---
+
+### 6) Sponsor-utility lens: the right ask portfolio with Dylan for the next 6 weeks
+
+Dylan is your action sponsor. She will:
+- forward,
+- resource,
+- unblock,
+- re-scope,
+- protect against burnout.
+
+So give her asks in that format.
+
+#### Your "Dylan ask portfolio" (repeatable)
+
+Every 1:1, max 2 asks:
+1. One forwarding ask (artifact attached)
+2. One resourcing/unblock ask (binary)
+
+Examples:
+- "Will you forward this 1-pager to Rajat with one line of endorsement?"
+- "Can you ask Faisal/Chuck for 1 eng each for the working group by Friday?"
+- "Can you confirm who owns what in Reflex so I don't become the bottleneck?"
+
+#### Two time-bound asks you must make before 6/12
+1. IC16 endorsement (with your draft)
+2. Director continuity plan (who carries the narrative while she's out)
+
+---
+
+### What you're not seeing (the big one)
+
+You're still subtly seeking emotional certainty from Dylan as proof of trajectory ("say it out loud"). That's human—and it's also the exact dynamic that can pull you into "hot" energy if you don't get it.
+
+The higher-altitude substitute is: evidence-based certainty:
+- forwarded artifacts,
+- written endorsements,
+- scheduled follow-ups,
+- named owners,
+- resources committed.
+
+**Make the system give you certainty, not the vibe.**
+
+---
+
+### Concrete next moves (no waiting)
+
+1. Send Dylan a 6-line follow-up DM tonight/tomorrow morning:
+   - confirm the Reflex weekly forum + working group staffing
+   - ask for IC16 endorsement timeline (offer a draft)
+   - ask whether HC investment is "not now" vs "no," and offer a 1-pager tied to topline growth
+2. Write the 1-pager (one page, not a doc). Two columns: AI enablement vs Anticipation Foundations; topline link; expected lift; staffing needed; risks.
+
+If you want, paste your draft bullets and I'll compress it into the exact forwarding-ready 1-pager.
+
+---
+
+### Weaknesses / blind spots in my reply
+
+- I'm inferring Dylan's motives; if she's personally disengaging due to transition, the plan still works but you'll need to lean harder on Rajat/Jeff/Andrew directly.
+- I didn't address the emotional need directly; I'm optimizing for outcomes. If you need a decompression protocol after high-visibility days, we should add one.
+
+---
+
+### 2–3 questions you should be asking that you're not
+
+1. What is Dylan's current "definition of ready" for you in one sentence, as of May 2026 (not Feb 2026)?
+2. What single topline metric move in the next 30 days would force resourcing attention regardless of mandates?
+3. Which sponsor in your new stack can replace Dylan as "narrative carrier" during her gap—and what artifact will they forward?
+
+#### Hard questions (answer in bullets):
+- What exact line did you want Dylan to say yesterday?
+- If you could redo the headcount moment, which of A/B/C ask-shapes would you use?
+- Will you commit to making the IC16 endorsement ask this week, yes or no?
+
+---
+
+### Second pass — on the deferral wrapper line specifically
+
+The Straight Truth: that line ("we don't have to talk about it now, but we should when the time is right") is polite, but it's also non-operational. At this altitude, non-operational = easy to forget, easy to deprioritize, and it won't survive mandate churn.
+
+You did one good thing (you lowered pressure in the moment). Now you need to convert it into a mechanism so "the right time" actually arrives.
+
+#### Why your phrasing is risky
+- It gives Dylan no next action.
+- It lets the org's current constraint (topline mandate) indefinitely defer it.
+- It puts you back in the old pattern: seed planted → hope it grows.
+
+**Directors don't plant seeds and hope. They plant seeds and schedule irrigation.**
+
+#### The better Director-shaped version of what you meant
+
+You want to keep the "not now" tone but add a concrete trigger.
+
+Pick one of these three (depending on how bold you want to be):
+
+**Option A: Calendar trigger (cleanest)**
+> "Totally fine not to decide now. Can we put 15 minutes on the calendar for week of May 20 (or before 6/12) just to make a call on whether we pursue HC for these two areas this half?"
+
+**Option B: Evidence trigger (ties to mandate)**
+> "Happy to wait. What one data point would make this discussion timely—e.g., topline goal risk, WAU lift projection, or capacity gap? I'll bring that, then we decide."
+
+**Option C: Escalation trigger (uses her default mode)**
+> "When it's the right time, the action I'd want is a forward to Rajat with a 1-page staffing ROI. Should I draft that now and you tell me when to send?"
+
+All three keep the calmness and remove ambiguity.
+
+#### What I'd do now (repair without drama)
+
+Send a short follow-up DM that preserves your original intent but converts it into an action:
+> "On the HC investment point—I agree it's not urgent vs the topline mandate. To make sure it doesn't get lost, can we either (a) spend 10 min in our 5/20 career convo to decide whether to pursue it this half, or (b) I send a 1-pager tied to topline growth and you tell me when it's worth forwarding to Rajat?"
+
+That's mature, low-heat, and operational.
+
+#### One more hard truth
+
+Your instinct to say "when the time is right" is the same family as "not the right time" on career asks. It's avoidance disguised as politeness.
+
+The fix is simple: keep the politeness, add a trigger.
+
+#### Weaknesses / blind spots in my reply (second pass)
+- I'm assuming you have enough relationship bandwidth to send a follow-up immediately; if Dylan is overloaded, you may need to wait 24–48 hours—but don't wait past 5/20.
+- I'm pushing you toward mechanisms; if the org is in a full hiring freeze, the "trigger" should be "decision: no for H1," not "keep discussing."
+
+#### 2–3 questions you should be asking that you're not (second pass)
+1. What's Dylan's real constraint—headcount budget, political attention, or topline-risk tolerance?
+2. What's the smallest staffing move that still achieves your goal (borrowed FTE, temp rotation, intern, platform embed), if HC is impossible?
+3. What's your trigger definition of "right time" so you don't outsource it to vibes?
+
+#### Hard questions (answer in 1–2 lines):
+- Which trigger will you choose: calendar, evidence, or escalation?
+- What's the one-sentence topline-growth linkage for each of your two HC areas?
+- When exactly (date/week) will you force the decision?
+
+---
+
+**Follow-up correction (James, 2026-05-05 same day):**
+
+Ethan's specific recommendation to "lock the IC16 endorsement timeline" presumed a written-artifact need. James clarified that with calibration confirmed July with both back, written-endorsement mitigation isn't needed. The actual pattern: Dylan keeps initiating pre-calibration narrative co-prep on JJ; James keeps deflecting. **Engagement gap, not asking gap.** James will engage in next 1:1 (~5/12) — let Dylan drive the narrative co-prep she's been trying to start.
+
+**Decisions taken from this run:**
+
+- HC ask reshape with explicit trigger (calendar / evidence / escalation): TBD pre-Dylan-DM
+- Follow-up DM to Dylan: timing TBD (tonight / tomorrow AM / fold into 5/12 1:1)
+- 1-pager structure for HC topline-growth case (two columns: AI-enablement vs Anticipation Foundations; topline link; expected lift; staffing needed; risks): draft before 5/12 or 5/20 career convo
+- "Dylan ask portfolio" pattern adopted: 2 asks per 1:1 max — 1 forwarding + 1 resourcing/unblock
+- JJ promo: bring up in 5/12 1:1; let Dylan drive the narrative co-prep
+- Mental model substitution: emotional certainty from Dylan → system certainty (forwarded artifacts, written endorsements, scheduled follow-ups, named owners, resources committed)
+- Memory writes: `feedback_engagement_gap_vs_asking_gap.md` + `project_dylan_action_sponsor.md`
+
+---
+
+### Q17. Career conversation prep — expectation calibration + promo-free question stack
+
+**Run:** 2026-05-05 same-day, follow-up to Q16 in same Ethan customGPT session. Two prompts (paraphrased — exact prompt text not preserved):
+
+1. *Should I expect a Director promo by end of 2026? My tenure is ~20 months (Sept 2024 → May 2026), I just got Exceeds + ~$1.2M equity refresh, but I had a Feb 2026 maturity-ceiling event from my manager.*
+2. *How do I run the 5/20 career conversation (already scheduled with my manager) without saying "promo" or "timeline" — and still get what I need?*
+
+**Likely framework pulled:** Promotion readiness conditions (doing-the-job × trust-under-pressure × org-need-narrative); 90-day inevitability goal; scope conversation as proxy for promo conversation; sponsor stack visibility; expectation = entitlement (assume) vs leverage (plan).
+
+**RESPONSE:**
+
+The Straight Truth: you're not crazy, and you're not "expecting too much" in the sense of wanting a promo. But you are at risk of expecting the org to behave like a clean meritocracy on your timeline.
+
+Two things can both be true:
+- You're already operating at M18 shape (impact + visibility + sponsor stack forming).
+- A promo by end of 2026 is not guaranteed because promotions at that altitude are a mix of readiness, slot/need, risk tolerance, and timing—especially with manager transition + topline mandate + your June OOO.
+
+#### Your tenure question (Sept 2024 → May 2026)
+
+That's ~20 months. For a Director promo, that's not "too soon" in tech if:
+- you're doing Director-level scope,
+- multiple leaders want you in bigger rooms,
+- and the behavioral-risk narrative is closed.
+
+But here's the catch: you had an explicit "maturity ceiling" event in Feb 2026. That resets the clock on trust under pressure even if your results are excellent. You can't "logic" your way around that; you can only out-behave it over time.
+
+#### What your Exceeds + big equity grant really means
+
+It means:
+- they value you a lot,
+- they're investing in retention,
+- and they see leadership potential.
+
+It does not automatically mean "promo within 12 months." Companies will happily pay to keep a high performer at level while they watch for sustained predictability.
+
+#### The right way to set expectations (without sandbagging yourself)
+
+Don't anchor on "promo by end of year." Anchor on **promo readiness + promo conditions**.
+
+A Director promo happens when these three are simultaneously true:
+1. You're already doing the job (you largely are).
+2. Multiple leaders trust you as low-risk in high-pressure rooms (this is the gating item because of Feb).
+3. There's a clear org need/slot narrative ("we need James at M18 to scale X across orgs")—you're building this via RR/Anticipation + Reflex/platformization.
+
+If you want a healthy target: aim for **"ready and advocated for" by late summer/early fall 2026**, and treat the actual promo timing as a function of slots + calibration dynamics.
+
+#### So… should you not expect a promo by end of year?
+
+You should not assume it. But you absolutely should run a plan that makes it likely.
+
+The difference is emotional:
+- **Assume** = entitlement + disappointment.
+- **Plan** = agency + leverage.
+
+---
+
+#### What I'd do if I were coaching you as my direct report
+
+I'd set a 90-day goal that's not "get promoted," but creates **promotion inevitability**:
+
+**By end of Aug 2026:**
+- 2–3 exec sponsors can articulate your Director case in one sentence.
+- one durable artifact is circulating without you (forwarded one-pager/clip/operating model).
+- the "maturity ceiling" concern is no longer mentioned—or is explicitly said to be resolved.
+- you have a defined cross-org scope that requires Director-level leverage.
+
+Then the promo becomes a calendar problem, not a "are you ready?" problem.
+
+---
+
+#### Weaknesses / blind spots in my reply
+
+- I can't see Pinterest's exact M18 promotion norms/slots; I'm inferring from typical big-tech dynamics.
+- I'm weighing the Feb behavioral feedback heavily (because your manager did). If that was overblown or politicized, the timeline may be faster—but you still have to neutralize it.
+
+---
+
+### Second pass — promo-free 5/20 career conversation framing
+
+The Straight Truth: totally workable. You can run the entire career convo as a **scope + operating model + sponsorship continuity** discussion and never say "promo" or "timeline." The trick is to ask questions that force the same answers but in business language.
+
+Here's the exact question set + how to phrase it so it stays clean.
+
+#### How to frame the conversation (opening)
+
+> "I want to use this career convo to align on the highest-leverage scope for me over the next 6–12 months, especially leaning into AI-driven development. I also want to make sure we have continuity through June/July with your transition and my OOO—so the work lands and scales."
+
+No promo words. Still gets you what you need.
+
+#### The question stack (promo-free, timeline-free)
+
+**1) Lock your "next-level scope" without saying next-level**
+1. "What's the highest-leverage problem you want me to own going forward?"
+2. "If you had to write my charter in 5 bullets, what would they be?"
+3. "What should I stop owning so I have bandwidth for that charter?"
+
+**2) Make AI-driven development first-class**
+4. "I want AI-driven development to be a core part of my leadership identity. Where do you think that work should live so it scales—within our org, partnered with platform/infra, or through ATG?"
+5. "What outcomes would make you say 'this is real leverage'—cycle time, experiment throughput, quality, incident rate, something else?"
+6. "What's the smallest program shape (cadence + owners + metrics) you'd support to make this sustainable?"
+
+**3) Close the "must be true" gaps without saying "gaps for promo"**
+7. "What are the biggest risks you see for me as I take on broader scope?"
+8. "What behaviors do you want me to be known for in high-pressure rooms?"
+9. "Who else needs to see those behaviors consistently?"
+
+*(That last one quietly surfaces the "maturity ceiling" stakeholders.)*
+
+**4) Sponsorship continuity without saying sponsorship**
+12. "Which leaders should I stay tightly connected to as part of scaling this work, and what's the best way to do that without creating noise?"
+
+**5) Convert to a concrete plan (still no timeline language)**
+14. "What would be a clear signal we picked the wrong scope, and should adjust?"
+
+*(You're not asking for a promo date; you're asking for success criteria.)*
+
+#### If she asks "Are you asking about promotion?"
+
+Your answer stays promo-free:
+> "I'm focused on making sure I'm owning the right scope and that it's visible, durable, and scalable. If we do that, the rest takes care of itself."
+
+---
+
+**Implications for `H1_career_convo.md` (deferred to focused prep session before 5/20):**
+
+- Open the conversation with the AI-driven-development scope + transition-continuity frame (replaces or layers on top of existing 4-segment opener)
+- Use the question stack as the working-doc skeleton (the questions James asks her, not the statements he makes)
+- Hold the *"If she asks 'are you asking about promotion'"* deflection as a contingency line
+- 90-day inevitability goal (end of Aug 2026: 2–3 sponsors articulate case in 1 sentence + durable artifact circulating without James + maturity ceiling resolved + defined cross-org scope) becomes the post-conversation tracker, separate from the convo itself
+- Reframe internal target: "ready and advocated for" by late summer/early fall 2026, NOT "promo by end of year"
+
+---
+
 ## Post-run synthesis (fill in after responses land)
 
 After all 15 responses come back, this section captures what to upstream into the master framework files:
