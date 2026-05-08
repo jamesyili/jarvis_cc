@@ -278,19 +278,63 @@ If Jeff says "what's going on?" or "what's new?":
 - [ ] Have one read-back question ready in case Jeff wants to discuss the EPD demo: *"Curious what landed for you / for Matt"* — gives me intel without crowding Andrew.
 - [ ] Close the laptop and walk before walking in. Tai Chi base, not hyped.
 
-## Post-OH debrief (write up within 1 hour)
+## Post-OH debrief — 2026-05-07 (Jeff OH actually happened)
 
-Capture:
-- What Jeff picked to go deep on (tells me what landed in his mental model first)
-- Specific language he used (file it — that's his current frame for James)
-- Any follow-ups he suggested or offers he made
-- Read on how RR / Pinsight / Reflex registered (which one moved his needle most)
-- Adjustment for the Reflex-CTO demo if anything surfaced
+**Mental model shift:** ~0-10% → ~55-65% in one meeting. Two-thirds of the consolidation arc closed.
 
-Update:
-- `H1_career_convo.md` — VP consolidation table (Jeff % moved where?)
-- `stakeholders.md` — Jeff section if richer than current
-- This file — what worked, what to adjust before the predicted UIC follow-up
+**What Jeff picked to go deep on:**
+1. **Cross-functional AI-first transformation** (his actual agenda — beyond engineering, into PM/design). Cited Phil's Nav-1-chat-wrapper app as the spec-driven model; complained about 16-page PRDs; wants one-page strategy + spec-checked-into-code.
+2. **Adoption / stragglers question** (James asked it). Jeff replied with PayPal infra-shift wave pattern + amplified Faisal's "Pinterest invests in everyone's future" framing + offered TWICE to come talk to James's team.
+3. **Anticipation architecture** at the end. Jeff translated UIC into his own words: *"What do I think I know about you from a persona perspective?"* — install confirmed.
+
+**Specific verbatim language Jeff used (filed):**
+- *"Persona perspective"* — his own framing for predicted UIC. Use verbatim in calibration / next touchpoint.
+- *"Spec-driven product development"* — his complaint about 16-page PRD.
+- *"Pinterest is investing in everyone's future"* — Faisal-amplified, Jeff-loved.
+- *"Came up with the anticipation? Yeah. I was there."* — claims co-witnessing.
+- *"Pockets of the team being really good at adoption... others need to be pointed... give them the time and space and tooling."*
+- *"It would be a highlight of my week."* (RE: coming to talk to team) — twice.
+
+**Offers he made (sponsorship moves James didn't have to ask for):**
+1. **Come talk to the team** — twice unprompted. *"Honestly I would probably much rather be doing that than my day job."* + *"I dearly miss from pre-COVID was just simply being able to walk around the office and chat it up with everyone."* Q&A / chat-it-up format, NOT formal presentation. **Lock date within 48h.**
+2. **See the predicted UIC demo on his own profile** — sent his user ID live. **Ship within 3 days while OH glow is fresh.**
+
+**Additional load-bearing signals (transcript captures):**
+
+- **Jeff claims co-witnessing of original anticipation thesis moment.** *"Came up with the anticipation? Yeah. I was there."* — Jeff has co-creator equity in the thesis, alongside Andrew. This affects positioning: subtle lineage attribution applies to BOTH Andrew (vision owner) AND Jeff (was-in-the-room witness) for the anticipation narrative.
+- **Jeff endorses LLM × recsys direction unprompted.** *"How do we start to combine some of the Rek'sai stuff in the LLMs world knowledge to build out these interests?"* — vibes the technical thesis on his own. Strong reinforcement signal banking for Beat 2 (pin polysemy moat as Pinterest-unique unlock for LLM-pUIC) and Beat 4 (LLM-pUIC frontier) on next touchpoint.
+- **Jeff's own "fun project" stragglers tactic.** *"Here's a fun project you maybe can pursue, and I'm trying to give them time and bandwidth to do that."* — his personal adoption playbook. Mirror in your team adoption strategy + cite Jeff verbatim if it matters.
+- **Notification PM wrote 2 PRs to Reflex** (James shared in OH). Jeff didn't probe, but this lands inside his cross-functional thesis as empirical proof. Bank as concrete artifact for next Jeff touchpoint or for VP narrative consolidation generally.
+- **End gratitude for AI-iteration-time:** *"I really appreciate all the energy you bring and actually giving us time to iterate on AI. I think that was such a huge foundational win for us too."* Implicit credit at the team level for the AI-iteration permission you've been operating under. Adjacent to scope-and-time framing for Director case.
+
+**How RR / Pinsight / Reflex registered:**
+- **Reflex (cross-functional execution)** — moved his needle MOST. Anchored James + Andrew + Dylan together cross-functionally. *"Looked like y'all were working on it truly cross-functionally."*
+- **Anticipation (UIC + predicted UIC)** — moved his needle SECOND. Translated to his own "persona perspective" framing = install confirmed. Demo on his profile committed.
+- **Pinsight** — did NOT come up. Substrate framing wasn't introduced. Cross-org adoption pattern (Dimitra/Darren/Francisco/Dafang) didn't surface.
+
+**What didn't fully install (gaps for next touchpoint):**
+- **Beat 2 — Pinterest pin polysemy moat.** Skipped. Highest-leverage insight beat, didn't land.
+- **Beat 3 — Notif as concrete CLR-adopting surface.** Mentioned IB + Explore module as future surfaces only. "Adoption proof" Ethan called out at multiplied strength is the move that's left.
+- **Engineering Blog post 4/17** (James named program lead). Durable verifiable artifact Jeff doesn't yet have.
+- **KDD 2026 paper.** Didn't come up.
+- **Single language ask** — was NOT asked. Jeff's offers superseded the ask shape; net result was stronger sponsorship than the locked language ask would have produced. Don't try to recover — pocket the win.
+
+**What worked:**
+- Letting Jeff drive Reflex feedback first → adoption-stragglers question → Anticipation pivot. Natural sequence; better than spine-cold.
+- Adoption-stragglers question = Wes Kao "ask, don't tell" at scale. Yielded team-visit offer.
+- Honest attribution to Daniel/ATG/Curation: *"great collaboration work with the curation team home feed and atg"* — Daniel partnership signal in Jeff's mental model.
+- Under-claiming on prediction: UIC = "much better representation" (representation, not prediction yet). Per memory rule.
+
+**What to adjust before next touchpoint:**
+1. **Predicted UIC demo** — ship to Jeff's profile within 3 days. This IS the next touchpoint.
+2. **Team visit** — lock date within 48h. Propose specific slot. Frame: Q&A + sharing thoughts (Jeff's own framing), NOT top-down.
+3. **Pin polysemy moat (Beat 2)** + **Notif CLR adoption (Beat 3)** + **Engineering Blog post + KDD paper** — install on next touchpoint. Probably during demo follow-up.
+4. **Jeff's AI-first cross-functional thesis** — connect this to UPP charter framing for Rajat 5/8. Both VPs sharing the same agenda is leverage.
+5. **Dylan pre-wire on team-visit invite** — per Risk: Bypassing the Chain mitigation in stakeholders.md. Quick FYI to Dylan before scheduling.
+
+**Adjustment for Rajat 5/8 prep (next-day implication):**
+- Jeff's "AI-first cross-functional transformation" thesis matches Rajat's platform-velocity priority. Same agenda from both VPs. Surface this convergence in Q1 of Rajat OH.
+- The Reflex EPD installation worked — substrate framing is safe to use with Rajat too.
 
 ---
 

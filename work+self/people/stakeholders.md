@@ -596,14 +596,20 @@ Markdown
 > **Operational takeaway:** Don't bring him problems; bring him **prototypes and energy**. He wants to be inspired, not managed.
 
 ## Current trust state
-- **Overall trust level: High (New & Accelerating)**
-  - **Evidence:** The immediate sponsorship of the AI forum ("Now you're on the hook for this"); the invitation to partner with Amanda; the relaxed office hours dynamic.
+- **Overall trust level: High (Accelerating after 5/7 OH)**
+  - **Evidence:** Immediate sponsorship of the AI forum ("Now you're on the hook for this"); the invitation to partner with Amanda; the relaxed office hours dynamic. **5/7 OH: Jeff offered TWICE unprompted to come talk to my team — *"It would be a highlight of my week."* Commissioned a predicted UIC demo on his own profile (sent his user ID live).**
   - **Confidence:** High.
 
 ### Trust dimensions
 - **Cultural Fit:** Very High (Shared interests, relaxed communication style).
-- **Vision Alignment:** High (He sees AI as the future; you are building it).
-- **Execution:** To be proven (The Feb 2 pilot is the test).
+- **Vision Alignment:** Very High (He sees AI-first cross-functional transformation as the agenda; we are executing on it cross-functionally per his read).
+- **Execution:** Proven (Reflex EPD demo 5/4 + UCAN WAU result + cross-org adoption pattern + predicted UIC mid-arc).
+
+## VP mental-model state (5/7 update)
+- **Pre-OH ~0-10%** (RR not in his picture; PINvestigator + general AI-in-HF only).
+- **Post-OH ~55-65%** (Anticipation thesis + James-as-cross-functional-lead-alongside-Andrew/Dylan installed; UIC translated back in his own "persona perspective" framing; predicted UIC demo committed).
+- **Gap to 75% target:** Pin polysemy moat (Beat 2) + Notif CLR adoption proof (Beat 3) + Engineering Blog post 4/17 + KDD 2026 paper — **all durable verifiable artifacts NOT yet introduced.** These are the Beat 2-3 install moves left for next touchpoint.
+- **Engineered moments left:** (1) predicted UIC demo on his profile (3-day SLA), (2) team visit (lock date in 48h), (3) post-predicted-UIC follow-up.
 
 ## What Jeff H optimizes for
 - **Engineering Culture & Modernization:** He wants Core to evolve. He is looking for "spark plugs" who can infect the broader org with new ways of working (e.g., Cursor, Vibe Coding).
@@ -620,10 +626,17 @@ Markdown
 > **Working default:** Treat him like a VC sponsor. Pitch the vision + the win, then handle the logistics with his staff.
 
 ## Jeff’s likely current narrative about me
-- **Positive core:**
-  "James is a forward-thinking leader who is actually *doing* the AI stuff we talk about. He’s personally relatable and has high potential to modernize our engineering culture."
+- **Positive core (post-5/7 OH):**
+  "James is one of the people executing the AI-first cross-functional shift I keep pushing for. He's working it cross-functionally with Andrew + Dylan. His team's anticipation work is producing real WAU gains and is the substrate underneath what I saw at EPD. He's also leaning in on adoption — actively bringing his stragglers along the way I've been describing. I want to come talk to his team."
 - **Watch-out:**
-  "Can he scale this energy to the broader org without getting bogged down? Will he deliver on the 'hook' I put him on?"
+  "Can he scale this energy to the broader org without getting bogged down? Is the substrate story (Pinsight underneath Reflex) holding under more orgs adopting it?"
+
+## Jeff's verbatim language to file (5/7)
+- **"Persona perspective"** → Jeff's own framing for predicted UIC. Use this verbatim in calibration / next touchpoint. He'll repeat his own words.
+- **"Spec-driven product development"** → his complaint about a 16-page PRD; wants one-page strategy + spec-checked-into-code. Adjacent to UPP charter framing.
+- **"Pinterest is investing in everyone's future"** (Jeff amplified Faisal's framing) → AI adoption framing he loves. Adopt this verbatim when discussing team adoption.
+- **"Came up with the anticipation? Yeah. I was there."** → claims co-witnessing of original anticipation moment. Reinforces ownership chain that includes James.
+- **"Pockets of the team being really good at adoption... others need to be pointed in the right direction... give them the time and space and tooling"** → Jeff's adoption-stragglers model. Mirrors PayPal infra-shift wave pattern.
 
 ## Risks with Jeff (and mitigations)
 
@@ -1050,18 +1063,31 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 ## Role in my 6–12 month goals
 - **UPP ally at the VP level.** Open and vocal supporter of UPP work. Very interested in personalization and recommendation systems.
-- **Content/User Understanding connection.** His org owns content understanding and user understanding signals — directly relevant to Pinsight M2 (User Understanding Summary) and UIC evaluation.
+- **Content/User Understanding connection.** His org owns content understanding and user understanding signals — directly relevant to Pinsight M2 (User Understanding Summary) and UIC evaluation. **Bo's UU team co-developed UIC with my team — strong shipped-wins partnership at the IC level.**
 - **Technical peer.** Very technical, academically inclined (KDD chair for many years). Values rigorous, research-grounded work. Sharp and engaged in technical discussions.
 - **Zhao Bo's manager.** Connection into the Signals org.
+- **Active Credibility Sponsor (post 5/4 EPD).** Director-advocate cultivation candidate per backlog #82 — accelerated significantly faster than prior "6-month horizon" framing.
 
 ## Current relationship
-- **Status:** Positive. Engaged during ELT presentation (asked about cold-start design). Values James's team's work.
-- **Trust level:** Medium-High (based on UPP support signals and ELT engagement)
+- **Status:** **Active sponsor (escalated 5/4-5/7).** Multiple direct touchpoints in past ~3 days.
+- **Trust level:** **High** (escalated from Medium-High).
+
+### Recent acceleration (5/4-5/7)
+1. **5/4 EPD demo Slack DM** (Dylan + Faisal thread, 10:33 AM): *"This is great work 👏... last mile is the hardest... but at the same time capabilities are much more powerful than what we had when we built ML Flywheel (which was somewhat wannabe-agentic lol). Teams should definitely share the learnings..."* → **VP-built-the-prior-version vouching = high-credibility sponsor signal.** Dylan asked the right follow-up (*"who can we work with"*) — actively converting the offer into a working channel.
+2. **5/4 dynamic triggering ELT** — engaged active in DM with cold-start concern; James responded with 3 design considerations. **Open monitor item** — re-engagement opportunity if he comes back.
+3. **5/7 Jeff OH proxy presence** — Jeff repeated Faisal's *"Pinterest is investing in everyone's future"* framing as the right model for AI adoption across orgs. Faisal's voice in Jeff's voice = peer-VP narrative confluence.
 
 ## Operating plan
-- **Maintain visibility.** Keep Faisal aware of UPP results and Pinsight progress through natural forums (ELT, AI forums).
-- **Explore content/user understanding synergy.** When Pinsight M2 matures, there may be a natural collaboration point with Faisal's content understanding team.
-- **Leverage his academic sensibility.** If James needs senior technical validation for AI approaches, Faisal is a credible reviewer.
+- **Convert open offers before they decay.** ML Flywheel collab offer (5/4) is a Faisal-initiated open loop — not yet executed. Lock scoping session within ~1-2 weeks. *"Many candidates → which is ship-worthy"* problem maps directly to Reflex Build stage.
+- **Maintain visibility through natural forums** (ELT, AI forums, EPD).
+- **Cold-start follow-up if he re-engages** on dynamic triggering (per `learned_dynamic_triggering_elt.md` open item).
+- **Leverage his academic sensibility.** Senior technical validation for AI approaches — credible reviewer for KDD 2026 paper (Architecture chapter), RR cross-surface scaling, or any rigorous-research-grounded artifact.
+- **Reuse Faisal's framings cleanly.** *"Pinterest is investing in everyone's future"* is now Jeff-validated. When discussing team adoption or AI-leveraged-leader thesis, attribute to Faisal explicitly when natural — peer-VP credit-share strengthens the cultivation arc.
+
+## Verbatim language filed
+- *"Capabilities are much more powerful than what we had when we built ML Flywheel (which was somewhat wannabe-agentic lol)"* (5/4) — self-deprecating about ML Flywheel positions James's work above his own.
+- *"Pinterest is investing in everyone's future"* (proxy via Jeff 5/7) — Faisal's adoption framing, now validated and circulating.
+- *"The last mile is the hardest"* (5/4) — Faisal's frame for the production-readiness gap. Connect to PinSight productionization conversations.
 
 ---
 
