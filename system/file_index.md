@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-05-04
+Last updated: 2026-05-07
 
 ---
 
@@ -32,7 +32,7 @@ Last updated: 2026-05-04
 | `dylan_1on1_prep_2026-05-05.md` | Dylan 1:1 prep for Tue 5/5 (day after EPD demo). Frame: program-operating-model meeting, not celebration. 3 decisions to force (June 17 plan / rescope ownership with Dafang as TL / Rajat 5/8 tracks). 2 career-critical asks (JJ written endorsement + Director-narrative continuity through Dylan transition). Operating model: Andrew (Reflex program owner) / Dafang (TL across P13N stages) / James (architecture + cross-VP narrative + partner orchestration) / JJ (CG + Track 3 lead + David Sun/CSI POC + IC16 evidence). Tooling neutralizer + safety-valve close ready. Recovery boundary: no new technical IC commitments this week. | 2026-05-04 |
 | `pre_june_readiness.md` | Pre-June OOO readiness plan: pod structure, escalation paths, Dylan sign-off items. **4/29 2nd-pass rev:** Notion = ground-truth on item framing. Engineering Agent ✓ demoed, JJ James's-part ✓, Hedi/Adjacent-EM/RR-paper-James's-parts closed. CG↔Dhruvil↔Yan 1-pager + H2 pre-seed memo dropped. Pinsight M1 folded into #14. New items 4a–4d added (pUIC Labeling, FVL query speed, RR Paper additions tracking, Yuke+Daniel coordination per Notion). Jeff/Rajat OH framing updated per Notion. | 2026-04-29 |
 | `team_members.md` | Direct report profiles (if exists — may overlap with stakeholders §8) | Unknown |
-| `hiring/em_backfill_bowen_2026-04-16.md` | EM backfill candidate interview feedback (Weak Lean No) | 2026-04-16 |
+| `hiring/em_backfill_bharath_r_2026-05-07.md` | Bharath R candidate (Spotify ads ML / audio MTL) — both interview rounds merged (2026-04-16 initial + 2026-05-07 onsite EM-competency). Lean No. Same evasion pattern across both rounds: Q1 dodged difficult-employee → "difficult technical discussions"; no perf-case stories across either round; modesty-default on disagreement; accommodation-default on capacity Q4; "always at every meeting" Q5; rambly communication. Strengths: audio ML1→Senior promotion w/ 14% CTR + domain depth + self-awareness on past pivot. | 2026-05-07 |
 
 ### work+self/projects/
 
