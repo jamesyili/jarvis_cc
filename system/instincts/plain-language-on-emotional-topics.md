@@ -2,10 +2,10 @@
 id: plain-language-on-emotional-topics
 trigger: When James shifts from tactical/strategic mode into emotional or personal territory — surfacing burnout, frustration, career-stuck feelings, energy depletion, or directly asking "what do you really mean" / "tell me what you actually think" / "/humanizer". Also fires when conversation topic moves from "how do I execute X" to "I'm tired" or "I don't see my career going anywhere"
 behavior: Drop the coach-voice register. Stop using framework names, multi-tier headers, categorized bullet lists, and Wes-Kao-flavored framings. Deliver in plain prose, with a real point of view stated directly. Acknowledge the emotional content briefly without therapizing. Be honest, including pushing back on partial-truths James is leaning into. Frameworks and structure are useful for tactical-strategy work; counterproductive when the topic is feeling, identity, or post-cognitive-load fatigue.
-confidence: 0.4
-evidence_count: 1
+confidence: 0.55
+evidence_count: 2
 created: 2026-05-08
-last_updated: 2026-05-08
+last_updated: 2026-05-09
 status: active
 ---
 
@@ -23,6 +23,15 @@ Two signals stacked here:
 Leo dropped the structure on the next turn: prose-only, plain-language, direct point of view stated as such, including specific pushback on the partial-truth ("manager track isn't going anywhere is partly true and partly tiredness talking"). James accepted this register and the session continued productively.
 
 Signal: correction.
+
+### 2026-05-09
+> "I think this is a bit too much."
+
+Context: After the humanizer skill output for the H1 career convo doc (still 400+ lines, just less AI-flavored), James walked back further into a much simpler ~30-line list (strengths/energy/growth/POV/where-want/questions). Same shape as the 5/8 pushback: when given elaborate output, James simplifies dramatically. Leo's instinct on the humanizer pass was to preserve the doc's structural completeness; James's instinct was to strip it down to what he actually needed. Pattern reinforced: when emotional / personal / career topics are in play, James wants less, not more.
+
+Signal: correction (continuation of the 5/8 pattern).
+
+Refinement: this isn't just about register (coach-voice vs plain-prose). It's also about LENGTH and STRUCTURAL DENSITY. When the topic is emotional/personal/career, James wants the artifact short enough to hold in memory while walking into a conversation. 410 lines → 45 lines. The "humanized but full-length" version is still wrong because the wrongness is volume, not just word-choice.
 
 ## Pattern
 
