@@ -238,6 +238,36 @@ The version of James in 18 months still builds. He just also asks cleanly. Still
 
 ---
 
+### Lesson 14: Two scoreboards in parallel — happiness lives in the gap. Score on what's flowing in, not what's resisting.
+
+**The triggering session (May 9, 2026):** James asked to be coached on how to be happy in the next four weeks before his June 4 China trip. The session unpacked an unhappiness pattern that had been running underneath strategic problem-solving for months — diagnosed in real time across multiple layers, each one updating the previous.
+
+**The diagnostic arc:**
+1. **First read — burnout.** Friday 5/8 surfaced *"I don't really see my career going anywhere as a manager. Dylan seems extremely resistant."*
+2. **Second read — load asymmetry, not burnout.** James self-corrected: *"It's not hard work. It's not just burnout. It's burnout without appreciation, but [my work is] not without recognition. It's this sense of, 'why the fuck are they doing that?'"* The Cupcake survey said "make James POC for everything" — recognition is fine. The unhappiness was about Yan's team not pulling weight, Dhruvil not showing up, anticipation backend on 3 of 20 directs.
+3. **Third read — definition gap, not opposition.** James clarified: April 3 1-pager is "done" in the sense partner teams are deferring (*"let us know what we need to do, and with what urgency"*). Yan's team is willing; James hasn't yet written the asks. Load defaults to his team by inertia, not by their refusal.
+4. **Fourth read — Dylan strategic-thinking gap.** He's wanting Dylan to be a strategic peer who proactively diagnoses org problems. She's an action sponsor. *"What does the team need?"* isn't a cop-out; it's literally her operating mode. Dhruvil ("in my opinion, X") works with her because it's declarative observation in her shape. The asking-gap (declare, not hint) connects Lesson 13's "model is Dylan, not Dhruvil" to today's session.
+5. **Fifth read — shadow ambition, expectation-gap engine running.** James named the deepest layer himself: *"Is it because I'm secretly hoping that once Yan's team is fully integrated, then the headcount comes to me, and the work comes to me? I think that will do a much better job than Yan at leveraging that team."* Wanting consolidation. Holding the hope silently while resenting the gap between expectation and reality. **The expectation-gap engine** (Sept 2024 + Snap pattern) running again: unhappiness = expectation − reality, not absolute state.
+6. **The two scoreboards.** The session's unifying frame: **traditional scoreboard** (headcount, scope, peer comparison, Dylan-said-vs-Dylan-did) vs **magical-things scoreboard** (Jeff 0→55-65%, Faisal accelerating, EPD to 3,700, Andrew co-dev locked, predicted UIC commissioned, April 3 consensus, Sophia backfill being fought for). Both are running in parallel. The traditional one says he's stuck. The magical one says the work is landing in unprecedented ways. **Unhappiness lives in the gap between them.**
+
+**Two corrections that load-bearing-ly reframed the timeline:**
+- **Director timing**: realistic target is mid-2027 (July) or end-2027 (December). 2026 calibration cycles are NOT career-meaningful. The 4-week pre-China window cannot move the Director scoreboard at all — that scoreboard isn't running on 2026 timing.
+- **Dylan staying as manager**: she's NOT transitioning out 6/12, just OOO 3 weeks PTO + 1 week India. Her commitments remain hers to execute. The Director arc is multi-quarter, not a 5-week sprint. Most of the artificial deadline pressure dissolves.
+
+**The 4-week happiness posture (verbatim, also captured in `pre_june_readiness.md`):**
+
+1. **Score yourself only on what's flowing in.** Drop the traditional scoreboard. Track the 30-day reel of what's already won. Bank wins consciously. Tell people what's working. Stopping to *feel* it is what makes it land.
+
+2. **Invest in five relationships and one piece of output that's yours.** Bo Zhao, Faisal, Andrew, Jeff, Yan. Each conversation present, not performing. Output: blog post draft, technical fluency, learning. 30-60 minutes a day of pure agency. **This is the part where you grow without growing.**
+
+3. **Patience with Dylan, presence with yourself.** Trust her commitment. Practice declarative-not-inferential — one observation, one POV per 1:1, no attachment to outcome. When the *"why fuck"* energy fires, notice it, let it pass. Schedule joy as a standing input, not a byproduct.
+
+**The single sentence:** *Score on what's flowing in, build what's yours, and let the rest be what it is — Dylan's plan is hers to execute, and your part is to keep doing the work, not control how the work is received.*
+
+**Why this is Lesson 14 and not just a posture:** The "two scoreboards" frame is a generalizable pattern. James will face this gap repeatedly across his career — anywhere external timeline doesn't match internal expectation, the engine starts running. The fix is not to suppress the engine; it's to choose which scoreboard you're tracking yourself on. The traditional scoreboard is real, but it doesn't pay off on 4-week windows for someone at M17 → M18 with multi-quarter arcs. The magical-things scoreboard is the one that's actually paying off and the one that compounds positionally for 2027. **Choose the scoreboard that actually moves on the timeline you're operating on.** Connects forward to: 4-week happiness posture, expectation-gap engine memory, Director timing reframe memory.
+
+---
+
 ## Active Growth Edges
 
 ### 1. Speaking Under Pressure

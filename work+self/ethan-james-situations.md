@@ -2,7 +2,9 @@
 
 > Strategic questions for Ethan Evans's customGPT, calibrated to James's specific situation. Each prompt is self-contained — paste the entire `PROMPT` block into the customGPT, paste the response into the `RESPONSE` block below it. The completed file becomes a NotebookLM source.
 
-**Last updated:** 2026-04-25 (prompts drafted; responses pending)
+**Last updated:** 2026-05-09 — corrections sweep: fixed stale M16 reference in Q17 brief (line 4241) → M17. Removed stale "manager transitioning to new role June 12" claim → manager is staying; she's just OOO. **Note:** Q17's response timing claims (*"ready and advocated for late summer/early fall 2026"* / *"NOT promo by EOY 2026"* / *90-day inevitability goal by end Aug 2026*) are now superseded — per 5/9 coaching session, realistic Director target is mid-2027 (July) or EOY 2027, NOT 2026. Q17 captures historical Ethan response and isn't being edited; downstream consumers should anchor on 2027 timing.
+
+**Prior:** 2026-04-25 (prompts drafted; responses pending)
 
 **How this file evolves:**
 1. Run each prompt through Ethan's customGPT; paste responses inline.
@@ -4238,7 +4240,7 @@ Coaching questions
 
 # Context
 
-I'm an M16 Senior Engineering Manager at Pinterest leading Candidate Generation for Personalization (Homefeed). My target is Director (M18). My manager is M17, transitioning to a new role internally on June 12. I go OOO June 1–30 for travel. My IC16 promo candidate has calibration in July, when both my manager and I are back.
+I'm an M17 Senior Engineering Manager at Pinterest leading Candidate Generation for Personalization (Homefeed). My target is Director (M18). My manager is staying in the role; she's OOO 6/13 → ~7/6 (3 weeks PTO + 1 week India). I go OOO June 1–30 for travel. My IC16 promo candidate has calibration in July, when both my manager and I are back.
 
 # Yesterday (Monday)
 

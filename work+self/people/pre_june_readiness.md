@@ -30,7 +30,31 @@ The next 4 weeks are a **calibration window for the M18 case**, not a build wind
 
 **Top-of-mind frame (David coach 5/1):** *"I want control AND I want the benefits that lack of control gives me."* Translation: stop reaching for the build lever (control); lean into narrative + sponsor (where org generosity is flowing). **Per Ethan:** *that discomfort is the point.* James is swapping a lever he can over-control for the lever that actually moves promotions at this altitude — belief + pull.
 
-**Per Ethan: at M18→Director, the work James personally does matters less than (a) the story other leaders tell about him when he's not in the room and (b) whether multiple executives will spend political capital on him when Dylan is gone/OOO and James is OOO.** That's narrative + sponsor architecture.
+**Per Ethan: at M17→M18/Director, the work James personally does matters less than (a) the story other leaders tell about him when he's not in the room and (b) whether multiple executives will spend political capital on him when Dylan is gone/OOO and James is OOO.** That's narrative + sponsor architecture.
+
+### 5/9 4-week happiness posture (verbatim from coaching session)
+
+> Recommendation captured during 5/9 coaching session, after the conversation reframed unhappiness as load-asymmetry → definition-gap → expectation-gap-engine (wanting consolidation vs. Dylan's stable-split frame, with realistic Director target now anchored at 2027 H1 / EOY 2027, NOT 2026 cycles). Dylan stays as manager; 6/13 → ~7/6 is OOO only, not a transition. The artificial deadline pressure I'd been layering on dissolves; the Director arc is multi-quarter, not a 5-week sprint.
+
+**Recommendation: how to be happy in the next four weeks. Three parts, as a posture not a checklist.**
+
+**1. Score yourself only on what's flowing in.**
+
+Drop the traditional scoreboard for four weeks. No measuring against headcount-Dylan-could-give, scope-Yan's-team-could-cede, or comparison-to-Dhruvil-fluency. Track instead the 30-day reel of what's already won — Jeff 0→55-65%, Faisal accelerating, EPD to 3,700, Andrew co-dev locked, predicted UIC commissioned on Jeff's profile, April 3 consensus, Sophia backfill being fought for. Bank these consciously. Tell people who matter what's working. Most people don't get half this in a year. Stopping to *feel* it is what makes it land — not the next ratchet of work.
+
+**2. Invest in five relationships and one piece of output that's yours.**
+
+The five: Bo Zhao (direct outreach with Dylan-hygiene framing), Faisal (ML Flywheel conversion), Andrew (Reflex execution), Jeff (demo + visit lock), Yan (substrate partnership conversation). Each conversation = present, not performing. The output: blog post draft on pretrain-finetune in recsys (Friday's load-bearing move), or technical fluency time, or learning. 30-60 minutes a day of *pure agency* — no permission needed, no politics, no peer comparison. **This is the part where you grow without growing.** Skill, mindset, output that's yours — exactly what James named earlier as the path.
+
+**3. Patience with Dylan, presence with yourself.**
+
+Trust her commitment. She stays. The Director arc is multi-quarter, target mid/end-2027 — *can't be moved by anything you do in 4 weeks.* Don't read tea leaves. Don't fight her decisions. Practice declarative-not-inferential in 1:1s — one observation, one POV per meeting — but with no attachment to outcome. When the *"why fuck are they doing that"* energy fires (it will), notice it, let it pass. **None of it is yours to fix in this window.**
+
+Schedule joy as a standing input, not a byproduct. Family time, Rekko light, restful Saturdays, sleep. Burnout yields to rest, not logic. Friday named this; hold it.
+
+**The single sentence:**
+
+*Score on what's flowing in, build what's yours, and let the rest be what it is — Dylan's plan is hers to execute, and your part is to keep doing the work, not control how the work is received.*
 
 ### The combined program (3-leg stool, per Ethan)
 

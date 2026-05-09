@@ -18,6 +18,42 @@ Your relationship with Dylan has evolved distinctively over the last 6 months. Y
 
 The critical pivot point was **October 2025**. Before this, you were seeking approval. After this, you shifted to 'Catalytic Clarity'—delivering order during chaos—which aligns perfectly with Dylan's CD personality. She does not trust charisma; she trusts **predictability in high-stakes environments**. By March 2026, you have reached **peak trust**: Exceeds rating, $1.2M equity grant, full confidence expressed, and active sponsorship through headcount sacrifice.
 
+### 2026-05-09 Update: Value-driven decision filter + manager-staying clarification + Director timing reframe
+
+**Three updates locked in 5/9 coaching session:**
+
+**1. Dylan's decision filter is value-driven, not territorial** (5/7 DM thread on Francisco labeling team).
+
+Kurchi pushed to move Francisco's labeling team to Krishna. Dylan's reaction made her filter explicit:
+- *"well it's fine, I don't feel this worth my energy anyway. I will just give to her and let her have fun."*
+- *"I am just cleaning up debt. yeah. what's the point us owning it. you never hear anything about it in anticipation."*
+- *"business wise it makes sense. Kaanon should have done it long time ago."*
+- *"I haven't discussed with Francisco and team. I'm sure this wouldn't be great."*
+
+**The filter, in her words: anticipation-relevance + business sense.** She gives up scope when no anticipation/business value. She fights for what does (Sophia backfill same week — drafted risk callouts, escalated to Rajat, framed explicitly as "I want to make sure this role is getting back to your team"). She'll prioritize business sense over peer-EM preferences (acknowledges Francisco "wouldn't be great" with the move, but does it anyway because business-wise it makes sense).
+
+**Pacing default:** *"I will figure out in a bit"* / *"I will ask Kurchi next week."* She processes slowly and comes back when ready.
+
+**Implication for the Yan's-team-stable-split read (per pending Anna intel):** Dylan keeps the current shape because she sees value in it, not because she's territorially defending Yan. To shift the read, the lever is surfacing anticipation/SSv2-relevant value-case observations as input-not-demand. She's already invited this: *"if other things change for SSv2, let me know."* The harder ask ("give me Yan's team") would read as hand-forcing and probably get a no plus collateral damage to the Yan-partner reframe.
+
+**2. Manager-staying — NOT transitioning out 6/12.**
+
+Earlier framings (sourced from a stale line in `ethan-james-situations.md:4241`) had Dylan transitioning to a new role internally on June 12. That's wrong. Dylan **remains James's manager**. The 6/13 → ~7/6 window is OOO only (3 weeks PTO + 1 week India). Her stated commitments — *"I'll get you and Dhruvil to Director next, set up org for high performers like you two"* + *"wait for the org to settle"* — remain hers to execute. There is no successor inheriting the commitment; she carries it forward herself.
+
+Operationally: drop "transition-handoff" framings, drop "5 weeks before her transition" pressure. The Director arc with Dylan is a multi-quarter relationship.
+
+**3. Director timing reframe — 2027 H1 or EOY 2027, NOT 2026.**
+
+Realistic Director promo target is mid-2027 (July) or end-2027 (December). 2026 calibration cycles (July, EOY) are NOT career-meaningful — not close to consideration there. Stale framings in `ethan-james-situations.md` Q17 ("ready and advocated for late summer/early fall 2026" / "NOT promo by EOY 2026" / "90-day inevitability goal by end Aug 2026") are superseded.
+
+The implication for the Dylan relationship: the 4-week pre-China window cannot move the Director scoreboard at all. *That scoreboard isn't running on 2026 timing.* Pressure to "land Director moves with Dylan before 6/12" was artifact-of-mistake, not real. Path A (capability axis) is the operational frame; declarative-not-inferential observations are the long-arc compounding move.
+
+**Operating implication consolidating all three:** Don't fight Dylan's decisions. Don't push timing. Trust the commitment. Surface value-case observations as input. Practice declarative-not-inferential in 1:1s. Score on what's flowing in, not what's resisting. The arc is multi-quarter and she's there for it.
+
+See auto-memories: `project_director_timing_reframe.md`, `project_dylan_staying_not_transitioning.md`.
+
+---
+
 ### 2026-04-25 Arc Shift: Operational Participant → Political-Shield Co-Owner (cell-phone channel established)
 
 **Context:** Dylan called James from her **personal cell phone** — off Slack, off email, off any traceable channel — to flag that Rajat has been pulling engineer names from James's team for ad-hoc / "random asks." She said it's not the first time. She has stepped in as **POC for UIC / Retentive Recs** to absorb Rajat's request flow and shield the team from churn. Cell phone is now an established sensitive-issue channel between us.

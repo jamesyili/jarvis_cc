@@ -424,7 +424,7 @@ Just sync with Dylan and circle back. That's the natural answer for any ask that
 
 ## QBQ — what is Rajat really trying to figure out?
 
-- **"Is James the operator who can scale platform velocity, or just a strong individual EM?"** This is the M16→M18 question for him. Show structural thinking + named ownership + parallel workstreams.
+- **"Is James the operator who can scale platform velocity, or just a strong individual EM?"** This is the M17→M18 question for him. Show structural thinking + named ownership + parallel workstreams.
 - **"Will engineering agents actually unblock our velocity, or are they another shiny thing?"** Show the prototype. "Hook up e2e" directive answered.
 - **"Is the PinSight + Reflex story converging or fragmenting?"** Show convergence: PinSight = Detect + Simulate inside Reflex, single substrate, cross-org adoption.
 - **"Where's the ML-platform consolidation play?"** UPP four-workstream shape signals platform thinking. Don't lobby for scope — let the structure speak.
