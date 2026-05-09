@@ -3,7 +3,8 @@
 > James OOO ~6/1 → ~6/30. **Dylan OOO from 6/13** → ~7/6. Rajat: TBC.
 > **Hard sign-off cutoff: ~Fri 2026-06-12** (Dylan's last day).
 > **Re-entry gap:** 7/1 → 7/6 — James back, Dylan still out, no sponsor buffer.
-> Last updated: 2026-05-02 (3rd pass — May posture amendment). **NEW: "May posture" section added** — strategic reframe of next 4 weeks as a calibration window for the M18 case, not a build window. Triggered by James's "what should I spend the next few weeks on?" question. Closed: Yuke + Daniel's-team coordination (= "pUIC Update" in Notion) — James confirmed this work is done. Removed: Leo-coined "H1 Daniel/ATG doc" naming (James didn't recognize it).
+> Last updated: 2026-05-08 (4th pass — major-commitments-done sweep). **State of play:** EPD demo executed clean 5/4; Sponsor Stack 1→6 + all 4/23 VP targets active; Dylan 1:1 5/5 landed (rescope to Dafang+JJ operating model, JJ written endorsement committed, Director-narrative-continuity ask landed); Jeff OH 5/7 + Rajat OH 5/8 executed; Bharath Lean No closed (merged file); HC justification doc shared with Dylan today. **Closures this pass:** Pod memo (#8), Resource ask (#12 — closed via HC list), JJ written endorsement Dylan-committed (#15), Dylan career convo invite sent (#17), David coach session (#29), 3-sentence POV draft (#30), Cupcake lookback shipped, Demo distribution kit + post-demo carry executed, June 17 broker resolved with Dylan. **Reframe:** #10 Anticipation Learning Doc — Yan + Tim acknowledged but didn't commit to writing; reframed to "get Yan + Tim onboarded to P13N backend oncall" as the institutional integration move (oncall > doc for partnership durability). Push via 1:1s next week.
+> Prior 5/2 update (3rd pass — May posture amendment): "May posture" section added — strategic reframe of next 4 weeks as a calibration window for the M18 case, not a build window. Closed: Yuke + Daniel's-team coordination (= "pUIC Update" in Notion). Removed: Leo-coined "H1 Daniel/ATG doc" naming.
 > Prior 4/29 update: Closed Engineering Agent (demoed to Dylan + Andrew), JJ packet from James's end, Dylan pre-alignment on EPD (captured via Engineering Agent demo), Mira bookmark (channel now active — tracked in `stakeholders.md` #33), Hedi preranking edits (James's parts done), Adjacent-EM backup partners locked, RR Paper additions (James's parts done). Dropped: CG↔Dhruvil↔Yan 1-pager (resolved out-of-band), H2 pre-seed memo. Folded: Pinsight M1 formal land into Pers-Ops Runbook (#14). Added (from Notion): pUIC Labeling, PinSight FVL query speed fix. Cupcake lookback at TPM review. CTO demo confirmed Monday 5/4. Rodney channel formally archived.
 > Prior revision (2026-04-26) closed: Yan substrate-conversation / Dhruvil thread / TL pre-validation / Andrew Reflex-carry / Sai DM / YiPing pairing; widened June reading aperture; added Anticipation Learning Doc, Engineering Agent pre-June land, Pinsight M1 land + runbook announce, UPP-deep + Transformer setup, Dimitra split-then-merge, KDD Architecture June carry; added Personal pre-departure section.
 
@@ -183,16 +184,16 @@ The fact that "should I build more / ramp UPP technically?" surfaced today is th
 
 | # | Item | Status | Notes |
 |---|------|--------|-------|
-| 8 | **Pod memo + team framing + escalation path** (single combined doc) | Not started | Dhruvil = primary cover. 2-3 adjacent EMs named as backup. Includes named pod leads + scope per pod (see Pod Structure) + team comms framing. |
+| 8 | ~~**Pod memo + team framing + escalation path** (single combined doc)~~ | **DONE 5/8.** Dhruvil = primary cover; 2-3 adjacent EMs named as backup; pod leads + scope per pod + team comms framing all locked. |
 | 9 | ~~**CG ↔ Dhruvil ↔ Yan ownership 1-pager**~~ | **Dropped** — resolved out-of-band; no longer needed (4/29 rev). | — |
-| 10 | **Anticipation Learning Doc — Yan + Tim co-authored** | New 4/26 | Durable artifact making the Yan substrate-partnership alignment travel into Dylan's mental model + exec forums. Tim as co-author broadens coalition (peer EM, mentee, frontend-adjacent stack). Technical-substrate naming layer. |
+| 10 | **Yan + Tim onboarded to P13N backend oncall** (reframed 5/8) | Active — 1:1s next week | Original framing (Yan + Tim co-authored Anticipation Learning Doc) shared 5/2 → both acknowledged but didn't commit to writing. **Reframed:** oncall onboarding is the institutional-integration move that survives Dylan's 6/12 transition. Doc lives on Confluence; oncall lives in PagerDuty + team operational reality. **Push via 1:1s next week.** Doc becomes downstream of operational integration, not upstream. |
 | 11 | ~~**Pinsight M1 lands pre-June**~~ | **Folded into #14** — announce vehicle = Pers-Ops Runbook revamp. | — |
-| 12 | **Resource ask — make it loud and clear, pre-departure** | Reframed 4/26 | Team-needs frame, NOT picking from Dylan's 4/20 menu (she likely doesn't remember the menu anyway). Anchor: **Anticipation Foundations + AIContext.** Sequencing: small update first ("Daniel's team + my team collaborating well") to set the foundation, then the bigger ask. Logic for pre-departure: while James is OOO and Dylan is shielding, an open named ask becomes Dylan's tool — if Rajat tries to escalate ad-hoc work, Dylan has something concrete to redirect into. Asks-on-the-table > asks-in-James's-head. **Francisco staffing on Pinsight in flight** (Dylan asked Francisco to put someone on it — confirmed flow, not part of this ask). |
+| 12 | ~~**Resource ask — make it loud and clear, pre-departure**~~ | **DONE 5/8** — closed via Q2+Q3 resources/HC list shared with Dylan today (per her ask). Open named ask now on the table for her to use as redirect mechanism while James is OOO. |
 | 13 | ~~**H2 pre-seed memo to Dylan**~~ | **Dropped** — not needed (4/29 rev). | — |
 | 14 | **Personalization Ops runbook revamp + Superset dashboards (CG + PINvestigator) + Pinsight M1 land+announce** | In flight, most work done | Pre-June lock. **Pinsight M1 formal land + announce** rolls into this (folded from #11). Includes: Pers-Ops Runbook revamp + finish Superset RTC dashboards + **add statsboard / supersets to PINvestigator** (per Notion) + CG SuperSet update. |
-| 15 | **JJ IC16 packet finalized + Dylan written endorsement** | **James's part DONE pre-China trip.** Dylan endorsement remaining. | Raise with Dylan for written endorsement before 6/12. Endorsement load-bearing because calibration may fall in James+Dylan double-OOO window. |
+| 15 | **JJ IC16 packet finalized + Dylan written endorsement** | **James's part DONE; Dylan committed 5/5 1:1.** Endorsement on file before 6/12. | Raise with Dylan for written endorsement before 6/12. Endorsement load-bearing because calibration may fall in James+Dylan double-OOO window. **5/8: Dylan committed in 1:1 5/5; track artifact-on-file before 6/12.** |
 | 16 | **EM backfill — signed offer (or pods are the plan)** | Pipeline: 2 Lean Nos | Push recruiter weekly. Pods + Dhruvil cover IS the plan if no offer by 5/15. |
-| 17 | **Dylan career conversation** | Accepted 4/21 as "quarterly regular." Calendar invite still not sent. | Sequence: 3-sentence POV draft → Leo pressure-test → David coach session → invite sent → execute pre-6/13. |
+| 17 | **Dylan career conversation** | **Invite sent 5/8. Execute week of 5/20.** | Prep chain (3-sentence POV draft + David coach session + invite) all done. Q17 reframe (target = "ready and advocated for" late summer/early fall, NOT promo by EOY; 90-day inevitability goal) is the spine. **Set-and-forget per James 5/8: stop reading tea leaves; let the system work.** |
 
 ### UPP / pUIC contingency (surface area expansion)
 
@@ -234,8 +235,8 @@ The fact that "should I build more / ramp UPP technically?" surfaced today is th
 
 | # | Item | Notes |
 |---|------|-------|
-| 29 | **Coach sessions with David** | Couple planned. Pre-Dylan-career-conversation session is non-negotiable per `H1_career_convo.md` Part VI. (Rodney retired as coach.) |
-| 30 | **3-sentence POV draft** | Spine for Dylan career conversation. James writes; Leo pressure-tests. **Sequenced before invite goes out** (item #17). See "What the 3-sentence POV is" section below. |
+| 29 | ~~**Coach sessions with David**~~ | **Pre-career-convo session DONE 5/8.** David remains active coach. (Rodney retired.) |
+| 30 | ~~**3-sentence POV draft**~~ | **DONE 5/8.** Spine in place; integrated with Q17 reframe (promo-free question stack, 90-day inevitability goal frame). |
 | 31 | ~~**Reddit response decision**~~ | **Sent 4/26.** Closed. |
 
 ---
@@ -285,7 +286,20 @@ Pressure-test checklist (Leo's job before invite goes out):
 
 ---
 
-## Closed in this revision (5/2)
+## Closed in this revision (5/8 — major-commitments-done sweep)
+
+- ~~**#8 Pod memo + team framing + escalation path**~~ — **DONE.** Single combined doc with pod leads + scope + escalation path + team comms framing all locked. Dhruvil = primary cover; 2-3 adjacent-EM backups named.
+- ~~**#12 Resource ask — pre-departure**~~ — **DONE via Q2+Q3 resources/HC list shared with Dylan 5/8** (per her ask). Open named ask now on the table for her to use as redirect mechanism during James's OOO.
+- ~~**#15 JJ written endorsement — Dylan's commit**~~ — **Dylan committed in 1:1 5/5.** Track artifact-on-file before 6/12.
+- ~~**#17 Dylan career conversation invite sent**~~ — **DONE 5/8. Execute week of 5/20.** Prep chain complete. Set-and-forget; stop reading tea leaves.
+- ~~**#29 David coach pre-career-convo session**~~ — **DONE 5/8.**
+- ~~**#30 3-sentence POV draft**~~ — **DONE 5/8.** Q17 reframe integrated (target = "ready and advocated for" late summer/early fall NOT promo by EOY).
+- ~~**Cupcake lookback shipped**~~ — **DONE.**
+- ~~**EPD demo distribution kit + post-demo carry**~~ — **DONE.** 48-hour kit + 2-week compounding plan executed.
+- ~~**June 17 EPD all-team conflict**~~ — **resolved with Dylan.**
+- **#10 reframed:** Anticipation Learning Doc → Yan + Tim onboarded to P13N backend oncall. Doc downstream of operational integration. 1:1 push next week.
+
+## Closed in prior revision (5/2)
 
 - ~~**Yuke + Daniel's-team RR/Anticipation coordination** (= "pUIC Update" in Notion, item #4d)~~ — **DONE**. James completed the pUIC update with Daniel and Yuke 5/2. Closes the item that was tracked as slipping.
 - **Removed Leo-coined "H1 Daniel/ATG doc" naming** from active docs (`backlog.md`, `system/file_index.md`). James didn't recognize the name. Underlying Notion-named pUIC work (item #4d above) was the real thing — now closed.
@@ -538,19 +552,19 @@ From `goals.md` Q2 Roadmap. Frame: *"The Q2 story is about what was built, not w
 
 ## Open inputs
 
-- [ ] **EPD demo May 4** — confirm format, room, Matt's priorities, James's segment with Andrew this week
+- [x] ~~**EPD demo May 4**~~ — DONE; executed clean 5/4 ✓
 - [x] ~~**Dylan pre-alignment on EPD demo**~~ — closed via Engineering Agent demo ✓
 - [x] ~~**Engineering Agent end-to-end confirmation**~~ — done; demoed to Dylan + Andrew ✓
-- [ ] **JJ promo calibration cycle date** — critical; if in June, both advocates are out (mitigated by mostly-drafted packet + Dylan endorsement before 6/12 + Rajat 5/8 pre-brief)
+- [ ] **JJ promo calibration cycle date** — critical; mitigated by Dylan-committed endorsement
 - [ ] **Pinsight M2 prototype status**
 - [ ] **Darren eval DS contribution status**
 - [ ] **GULP protection status** — ask Dylan
 - [x] ~~**Adjacent-EM backup partners locked**~~ — DONE ✓
-- [ ] **WAU placeholders filled** in jeff_rajat_office_hours_prep.md before 5/7
-- [ ] **Dylan career conversation calendar invite sent** (after 3-sentence POV draft + Leo pressure-test + David coach session)
+- [x] ~~**WAU placeholders filled** in jeff_rajat_office_hours_prep.md~~ — landed via Jeff OH 5/7 ✓
+- [x] ~~**Dylan career conversation calendar invite sent**~~ — DONE 5/8 ✓
 - [ ] **KDD Architecture chapter — June carry confirmed with Armando**
 - [ ] **Dimitra split-then-merge — James's draft thoughts started**
-- [ ] **Personal pre-departure section — fill in with James**
+- [ ] **Personal pre-departure** — James knocking out solo
 
 ---
 
