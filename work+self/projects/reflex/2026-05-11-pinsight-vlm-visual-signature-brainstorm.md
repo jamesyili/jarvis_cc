@@ -166,13 +166,13 @@ See schema in "The Primitive" section above.
 
 | # | Question | Status |
 |---|---|---|
-| 1 | VLM access path: can Pinsight pass pin images (via signature → URL) to a VLM and get text back? | **OPEN.** Investigation with Piyush this week. Blocks Week 1 build. |
+| 1 | VLM access path: can Pinsight pass pin images (via signature → URL) to a VLM and get text back? | **RESOLVED 5/12:** VLM access confirmed. Implementation details pending from Piyush. |
 | 2 | Does multimodal embedding already encode this signal sufficiently? | OPEN. Eval in Week 2 tests directly. |
 | 3 | Synthesis prompt shape: per-pin → aggregate, multi-pin batch, or hybrid? | **RESOLVED 5/11:** per-pin → aggregate. See Design Decision C. |
 | 4 | Visual-coherence metric in Week 2? | **RESOLVED 5/11:** taxonomy-axis match aggregation. See Week 2 section. |
-| 5 | Reflex tool API surface for Week 3? Inline call, MCP tool, async dispatch? | OPEN. Resolve in Week 2. |
-| 6 | What is `pinsight visualize` under the hood — CLI command, function in existing Pinsight tooling, or agent that orchestrates VLM calls? | **NEW 5/11.** Pick up tomorrow. |
-| 7 | Fallback plan if VLM-access-path doesn't work this week — what's the alternative path that keeps Week 1 from blowing up? | **NEW 5/11.** Pick up tomorrow. |
+| 5 | Reflex tool API surface for Week 3? Inline call, MCP tool, async dispatch? | **REFRAMED 5/12.** Deeper fork: Pattern A (data API — `visualize(user_id) → signature`, Reflex Detect does the reasoning) vs Pattern B (question-answering agent — `investigate(hypothesis, segment) → finding`, Pinsight does the reasoning). Leo recommended A for V0 (B requires Pinsight agent reasoning loop = out of scope; A keeps clean separation; MCP tool description becomes the agent-comms contract). Plus sub-question Q5a — granularity: single-user vs segment-aware. Leo recommended both, ship single-user first. **All open — pick up next session.** |
+| 6 | What is `pinsight visualize` under the hood — CLI command, function in existing Pinsight tooling, or agent that orchestrates VLM calls? | **RESOLVED 5/12:** Function + thin CLI for V0. Agent wrapper deferred. Reframed three "options" as layers (core engine / CLI wrapper / agent wrapper) — the agentic part of V0 is the synthesis-step LLM call *inside* the function, not a multi-step orchestrator. Agent-to-agent comms acknowledged as the deeper layering question; a stable function/module is the better thing to wrap an agent around later than building the agent first. |
+| 7 | Fallback plan if VLM-access-path doesn't work this week — what's the alternative path that keeps Week 1 from blowing up? | **CLOSED 5/12:** Moot — VLM access confirmed. No tripwire needed. |
 
 ---
 
@@ -185,17 +185,23 @@ See schema in "The Primitive" section above.
 
 ---
 
-## Pick up tomorrow (5/12)
+## Pick up next session (post-5/12)
 
-Two open threads to resolve before Week 1 work proceeds:
+Q5 is the live thread. Two sub-questions to resolve:
 
-1. **`pinsight visualize` implementation shape (Q6).** Is this a new CLI command on top of existing Pinsight tooling, a function added to the current codebase, or an agent that orchestrates the VLM calls + cache + synthesis? Determines where the work lands and how it integrates with Pinsight's M1 trajectory.
-2. **Fallback plan if VLM access doesn't land this week (Q7).** What's the alternative that keeps Week 1 from blowing up? Options to consider: (a) use Claude's vision via local image fetching, (b) use a smaller VLM like internal model X, (c) defer to next week and use Week 1 for design only. Pick a tripwire date — if access not confirmed by EOD Tuesday, switch to fallback.
+1. **Q5 Pattern A vs B (data API vs question-answering agent).** Leo recommended A for V0. Confirm or push back. If A: scope the MCP tool description as the agent-comms contract (description = how Reflex Detect agents will reason about *when* to call this).
+2. **Q5a — granularity.** Single-user (`pinsight.visualize(user_id)`) or segment-aware (`pinsight.visualize_segment(spec)`)? Leo recommended both, ship single-user first.
 
-Also worth touching when picking back up:
+Then the Week 1.5 prereqs:
 
-- The Reflex tool API question (Q5) — start sketching the surface even if not locked, so Week 3 has a head start.
-- The taxonomy vocabulary list — what does the bottom-up clustering target look like? Sketch the axes (color, composition, mood, content_type, style_tags) and what dimensionality is reasonable per axis (3–8 buckets each? More?).
+- **Taxonomy axis sketch.** Color, composition, mood, content_type, style_tags — what's reasonable dimensionality per axis (3–8 buckets each? More?). Sets the target for Week 1.5 bottom-up clustering to converge toward.
+- **Filing decision: 8 harness engineering observations** (captured in 5/11 conversation but not filed) — sibling brainstorm or absorbed into `reflex-codebase-guide.md` as a "design gaps" appendix.
+
+## Resolved 5/12
+
+- **Q1 — VLM access confirmed.** Details pending from Piyush.
+- **Q6 — `pinsight visualize` = function + thin CLI for V0.** Agent wrapper deferred. See Q6 status above for layering rationale.
+- **Q7 — fallback plan moot.** VLM access confirmed.
 
 ---
 
