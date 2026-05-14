@@ -827,6 +827,9 @@ After Dylan/Rajat/Kurchi aligned on Option 1 (CLR-based), Jinfeng told the Slack
 ### Pattern
 Jinfeng operates through **positioning and narrative control**, not direct obstruction. He'll comply with the letter of a decision while steering implementation toward his preferred outcome. Watch for architecture drift in the co-design — Krystal warned: "Let's see if we don't re-litigate next week."
 
+### 2026-05-13 — OneTrans surfaces; pattern continuation in Jiaxing's lane
+P2P approved a new retrieval architecture (OneTrans — unified transformer tokenization) on 5/12 driven by **Jiaxing Qu (Jinfeng's delegate, reports to Sai)**. OneTrans had been in development since early Q1 in parallel with UPP v0 co-design, not disclosed to UPP. Architecturally it sidelines UPP's feature-cross layer — structurally adjacent to Jinfeng's original "P2P LR as base model" Option 2 play, now expressed as a P2P-internal scaling backbone that arrives faster than UPP v0. Sai owned the disclosure gap at the EM layer (see §27 2026-05-13). Jinfeng's specific role/awareness in the OneTrans parallel track is unclear — but the pattern (P2P building its own scaling backbone in parallel; UPP becoming the catch-up effort) tracks his prior strategic posture. Worth holding lightly; the joint sync technical resolution (Plan 3 prioritized = UPP v0 ships in original form) recovers ground without forcing the question.
+
 ## What Jinfeng Optimizes For
 - **Ownership of technical direction.** His IC18 case rests on P2P LR being the foundational retrieval model. UPP CLR threatens that narrative.
 - **Kurchi's approval.** She promoted him; he fights her battles in technical forums.
@@ -1351,6 +1354,28 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Watch for an opportunity to mention her partnership positively to Dylan.** Dylan likes Sai; Sai likes Dylan. Credit-sharing upward is zero-cost and builds the Sai–Dylan–James triangle.
 - **Do NOT discuss Huizhong with Sai directly unless she brings it up.** Keep the intel as context, not content. If Sai vents about Huizhong, listen and validate; don't add fuel.
 - **Default is let the work speak.** Sai is operating in good faith; don't bring transactional framing into the relationship.
+
+## 2026-05-13: OneTrans surprise + EM-to-EM heads-up protocol established
+
+**The event.** P2P approved a new retrieval architecture (OneTrans — unified transformer tokenization) on Tuesday 5/12. Surfaced to UPP late Tuesday night via Jiaxing's fine-tuning proposal to Piyush. OneTrans had been in development on Sai's team **since early Q1** — in parallel with UPP v0 co-design — and was not disclosed to UPP during months of nominal co-design. Architecturally, OneTrans makes UPP v0's feature-cross layer obsolete and required either a 2-3 week UPP redesign or a skip to v1.
+
+**Behavioral data from the noon 1:1:**
+- **Apologized cleanly and unprompted** for the surprise factor. Named specifically: bringing OneTrans to LR approval without an EM-to-EM heads-up was the gap. *"我們 bring to LR 之前其實可以考慮給你們一個 heads up."*
+- **Accepted EM-to-EM heads-up before LR approval on coupled work** as the forward protocol. Did not accept blanket "report everything to UPP" expectation — only major coupling decisions before they ship. **This is the right norm; don't push for broader.**
+- **Mature peer-EM operator frame:** *"As managers we understand, we can take care of this amongst ourselves."* Doesn't want IC-layer defensive escalation. Primed her PMs (Krystal, Matt) on her side; James primed Piyush on his side.
+- **Honored UPP's work:** Recommended including Plan 3 (UPP v0 fine-tuned directly — closest to original UPP proposal) as the prioritized experiment in the joint plan. UPP v0 ships in original form; OneTrans integration runs in parallel as Plans 1/2.
+- **Initiated joint half-pager to leadership** as the upward comms artifact. FYI tone, co-authored, no asks. *"我們之間我覺得我們非常有 trust 我覺得你跟我 want the same thing."*
+
+**Cultural read (held lightly, worth tracking):** P2P (Sai's surface) does not want to be positioned as "just downstream of HF/Personalization." OneTrans is in part an identity-defensive move — P2P showcasing its own ML innovation, not just consuming UPP. James acknowledged this drive as legitimate in the 1:1, then pivoted to the peer-EM accountability ask. **Pattern hypothesis: this is not the first time. Watch for similar parallel-innovation moves; the structural fix is repositioning UPP as "shared infra surfaces co-own," not "HF's foundation model."**
+
+**Trust state update:** Still positive net. The asymmetric co-design pattern is now visible but Sai's response to confrontation (clean apology, forward protocol, technical concession on Plan 3 prioritization, joint half-pager initiation) was the highest-grade peer-EM behavior available. Trust did not degrade; it tested and held.
+
+**Roger intel (new, source: Sai noon 1:1):** Roger asked Sai in office hours specifically about UPP collaboration and timing — UPP is being watched at high altitude. Identity TBD (skip-level above Sai? Higher?). **Open input — need to identify Roger before next strategic engagement.**
+
+**Forward operating notes:**
+- The EM-to-EM heads-up protocol needs memorialization in `cross_org_operational_model/draft_v3_synthesized.md` as a coupled-design addendum.
+- Joint half-pager co-authored post-Thursday joint sync; lands at Jeff/Dylan/Roger altitude.
+- Don't bring the Q1-onward asymmetry into the joint sync tomorrow — Sai owned it, forward protocol is the artifact, relitigation hurts.
 
 ---
 

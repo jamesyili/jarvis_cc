@@ -4,6 +4,29 @@
 
 ---
 
+## May 13, 2026 Status Update — OneTrans surprise + Plan 3 prioritized
+
+> Captures the 5/12-5/13 OneTrans event resolution. Coupled-design EM-to-EM heads-up protocol established with Sai. See full meeting prep + comms artifacts in `2026-05-13-onetrans-response/`. See `stakeholders.md` §27 (Sai 2026-05-13 subsection) for the relational layer.
+
+**The event (5/12 evening → 5/13 EOD):**
+- P2P approved a new retrieval architecture (**OneTrans** — unified transformer tokenization, Jiaxing Qu) on Tuesday 5/12 LR. OneTrans had been in development on Sai's team since **early Q1**, in parallel with UPP v0 co-design, not disclosed to UPP.
+- Architecturally, OneTrans sidelines UPP v0's feature-cross layer. Three forward paths: (1) UPP redesign to copy OneTrans (~2-3 wk), (2) skip v0 → v1, (3) ship UPP v0 anyway, run OneTrans as parallel higher baseline.
+- Piyush flagged 5/12 9pm. James reached Sai privately before group DM. Joint sync pushed 1 day for cooling + prep. Dylan briefed privately; "thanked me for handling."
+
+**Resolution (post-Sai 1:1, 5/13 noon):**
+- **Sai apologized cleanly** for the surprise; accepted **EM-to-EM heads-up before LR approval on coupled work** as the forward protocol. Held line on "not report everything" (correctly).
+- **Technical alignment: Plans 1, 2, 3 run in parallel; Plan 3 prioritized.** Plan 3 = UPP v0 fine-tuned directly = closest to original UPP proposal = cross-surface validation signal. Plans 1 & 2 = OneTrans + UPP integration paths. **UPP v0 ships in original form**; OneTrans treated as parallel exploration, not blocker. Suki joining P2P adds bandwidth.
+- **Joint half-pager to leadership** co-authored by Sai + James post-joint-sync. Audience: Jeff, Dylan, possibly Roger (Sai mentioned Roger asked about UPP collaboration timing in office hours — UPP being watched at high altitude). FYI tone, no asks.
+- **Group DM consolidation** sent to Jaewon / Piyush / Matt / Krystal — frames joint sync as forward technical, not relitigation.
+
+**What this confirms about the operational model:**
+- The cross-org operational model (`cross_org_operational_model/draft_v3_synthesized.md`) needs an **addendum on coupled-design info-sharing protocol** — EM-to-EM heads-up before LR approval whenever surface scaling work crosses from exploratory to candidate. This is the structural learning, not a one-time fix.
+- UPP positioning shift implied: **"shared infrastructure surfaces co-own"** rather than "HF's foundation model that surfaces consume." Surface-team identity-defensive innovation (P2P, possibly Search) reads differently under this frame.
+
+**Director-altitude signal:** James handled a peer-EM trust event end-to-end in 24 hours without escalation. Pre-aligned Dylan privately; pre-aligned Sai privately before group DM; held public credit for Piyush; pushed joint sync 1 day for cooling; secured Sai apology + forward protocol + technical concession (Plan 3 prioritized) + joint half-pager — without re-litigating. This is M18-shape work.
+
+---
+
 ## April 2026 Status Update (Added 2026-04-11)
 
 > This section captures UPP's operational status ~2 weeks after the March 30 must-win. The historical must-win log is preserved below starting at "Table of Contents." A full technical-side UPP context update is deferred to a later session per James's request; this update is operational-status only.

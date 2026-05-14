@@ -5,6 +5,8 @@
 **Date:** 2026-04-25 (v4 — rewritten 2026-04-25b after grounded Wes Kao + Ethan Evans reviews)
 **Companion doc:** [LR] [UPP Base Model] Release Cycle TDD (Matt Chun, ranking-side). This doc is the retriever counterpart and adds the cross-org operational/partnership layer.
 
+> **Pending addendum (2026-05-13):** Coupled-design info-sharing protocol — EM-to-EM heads-up before LR approval whenever a surface team's parallel scaling work crosses from exploratory to candidate. Triggered by OneTrans surprise (see `upp_march_2026.md` 5/13 status). To be memorialized after joint half-pager lands with leadership. Sai committed to the protocol in 5/13 noon 1:1.
+
 ---
 
 ## BLUF
