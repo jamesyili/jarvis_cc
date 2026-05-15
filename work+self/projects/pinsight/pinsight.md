@@ -2,7 +2,7 @@
 
 LLM-powered deep analysis tool for Homefeed recommendation systems — user understanding, request debugging, and aggregate insight generation. **Pinsight is the data substrate for the Anticipation Vision via Reflex co-development with Andrew Yaroshevsky.**
 
-Last Updated: 2026-04-16
+Last Updated: 2026-05-14
 
 ## Sibling artifacts
 
@@ -12,8 +12,13 @@ Last Updated: 2026-04-16
 - `strategic_next_steps_april.md` — Wes Kao / Shreyas / Ethan Evans / Coaching Patterns playbook, 8 scenarios + 22 aggressive moves + sequencing
 - `bluf_memo_v0.md` — 2-page Pinsight + Reflex memo for Dylan / Darren / Jeff (v0, FILL placeholders remain)
 - `reflex_context_instructions.md` — paste-ready prompt for work-leo to generate the Reflex agent's grounding `context.md`
+- `jeff_demo_deck_2026-05-14.md` — Pinkerton joint cross-surface DSAT deck for Jeff (5–8 min, 7 slides, James opens then hands off)
 
 ---
+
+## Headline (week of 2026-05-12)
+
+- **Pinkerton — joint cross-surface DSAT diagnostic with Dimitra (Notifs) + Chuxi (HF).** Named 2026-05-14 (Dimitra owns naming). Pinkerton joins the HF Pinsight v0 (used live on Dylan's irrelevant-pin case) with Dimitra's Notif v0 (used live in #notifications-feedback). Going to Jeff for a 5–8 min demo with a 1-FTE ask. James presents Slide 1 only (~45 sec opener); Dimitra carries Slides 2/3/4/6/7; Chuxi carries Slide 5 (HF demo). Deliberate Director-altitude move: James as convener, Chuxi gets VP-altitude exposure on the HF demo. Deck at `jeff_demo_deck_2026-05-14.md`. Open: Slide 6 diagram cleanup, dry run with Dimitra + Chuxi, pre-align 1-FTE ask with Dylan + Dimitra's manager before Jeff hears it, Chuxi prep 1:1.
 
 ## Headline (week of 2026-04-14)
 

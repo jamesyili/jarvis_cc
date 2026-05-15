@@ -1415,21 +1415,21 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 ---
 
-# 30) Dimitra — Notif-Side Partner for UPP Operational Handoff (added 2026-04-11)
+# 30) Dimitra Tsiaousi — Notif EM / Pinkerton co-lead (added 2026-04-11; upgraded 2026-05-14)
 
 ## Role in my 6–12 month goals
-- **James's counterpart on the Notif side** for the UPP Prong 4 operational handoff. James plans to reach out to discuss how things are going from her side and to scope the clean handoff milestone in April/May.
-- Previously appeared in the March 2026 must-win outcome log: "UPP can evolve into the next generation of models" — Product org sees long-term thesis. That comment came from Dimitra.
-- She's seen UPP at the strategic level; now James is re-engaging her on the operational/handoff level.
+- **James's counterpart on the Notif side** for the UPP Prong 4 operational handoff (original framing, April 2026). She's seen UPP at the strategic level; previously surfaced the March 2026 must-win comment ("UPP can evolve into the next generation of models").
+- **NEW 2026-05-14: Co-lead on Pinkerton** — joint cross-surface DSAT diagnostic tool, James (HF) + Dimitra (Notifs). Both built compatible v0s on opposite surfaces independently and joined them. Going to Jeff for a 5–8 min demo with a 1-FTE ask. Owns the joint naming ("Pinkerton" landed 2026-05-14). Carries Slides 2/3/4/6/7 in the Jeff demo.
 
 ## Current relationship
-- **Status:** Historical strategic ally (March must-win). Current state: re-engaging for operational handoff.
-- **Trust level:** Low-to-medium — known to be supportive but not a frequent collaborator.
+- **Status:** Active peer-EM partner on a Jeff-altitude initiative. Significantly more engaged than the original April handoff posture.
+- **Trust level:** Building toward medium — co-building real artifact, co-presenting to VP. The Pinkerton partnership is the upgrade vector.
 
 ## Operating plan
-- **Action (next 1-2 weeks): Outreach to Dimitra.** Specific ask: "Want to connect on how the Notif finetuning work is going from your side — Rui and Hongtao are making great progress and I'd like to scope a clean handoff milestone in April/May where your team is clearly driving everything on FT." Offers partnership, not transaction.
-- **Frame the handoff as her team's win**, not James's exit. Notif ML team taking ownership is a positive expansion of their scope, not James dumping work.
-- **Watch for her definition of "clean":** she may have different criteria for handoff (QA expectations, metric guarantees, operational readiness) than James assumes. Ask, don't assume.
+- **Pinkerton ops:** dry run with Dimitra + Chuxi before Jeff demo; pre-align the 1-FTE ask with her manager AND Dylan before Jeff hears it; Slide 6 diagram refinement; debrief together after the demo.
+- **Joint write-back to her team:** treat Pinkerton wins as joint Notif+HF wins. Don't accidentally HF-flag a cross-surface artifact when crediting upward.
+- **UPP Notif handoff (legacy track):** still on the operational handoff track separately. Don't conflate Pinkerton (DSAT diagnostic) with UPP Prong 4 (foundation-model handoff). Different workstreams; same person.
+- **Watch for her definition of "clean" on handoffs:** she may have different criteria (QA expectations, metric guarantees, operational readiness) than James assumes. Ask, don't assume.
 
 ---
 
