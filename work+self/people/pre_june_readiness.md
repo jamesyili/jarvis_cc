@@ -12,7 +12,7 @@
 
 ## The forcing function
 
-Karen's question still anchors: *"If you came back 2026-07-01 and exactly one thing had gone sideways, which would you most regret?"* → **Team left without a working coverage spine.** EM backfill pipeline status as of 2026-05-13: 6 candidates evaluated (Bowen Lean No 4/16, Bryan Fong 4/24, Ali Rahmati 5/1, Moumita Lean No 5/6, Bharath Lean No 5/7, **Vaidehi Murarka Lean Yes → onsite 5/13** = first Lean Yes). Even with Vaidehi onsite-then-offer pathway, no realistic onboarding before James returns 7/1. **Pods + Dhruvil-primary-cover IS the plan, not fallback.**
+Karen's question still anchors: *"If you came back 2026-07-01 and exactly one thing had gone sideways, which would you most regret?"* → **Team left without a working coverage spine.** EM backfill pipeline status as of 2026-05-15: 9 candidates evaluated (Bowen Lean No 4/16, Bryan Fong 4/24, Ali Rahmati 5/1, Moumita Lean No 5/6, Bharath Lean No 5/7, **Vaidehi Murarka Lean Yes → onsite 5/13**, Saurav Kumar Jha No 5/14, Vivian Zhang No 5/15, **Prashan W Lean Yes → onsite 5/15** — different-shape Lean Yes, not redundant with Vaidehi). Even with two onsite-pathway candidates, no realistic onboarding before James returns 7/1. **Pods + Dhruvil-primary-cover IS the plan, not fallback.**
 
 The three load-bearing moves:
 1. **EPD demo (5/4) executed cleanly** — biggest single VP-consolidation lever; CTO-level endorsement cascades. Engineering Agent ✓ already demoed to Dylan + Andrew (4/29 rev), now anchors EPD substrate.
