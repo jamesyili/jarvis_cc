@@ -1,6 +1,6 @@
-# Pinsight → Agentic Recommendation: Research-Grounded Vision
+# Pinkerton → Agentic Recommendation: Research-Grounded Vision
 
-> Synthesis of five agentic-recsys papers against Pinsight's current roadmap. Forward-looking, not a committed plan. Draft for grilling / iteration.
+> Synthesis of five agentic-recsys papers against Pinkerton's current roadmap. Forward-looking, not a committed plan. Draft for grilling / iteration.
 
 **Inputs:**
 - `[AdobeMar2025]AgenticRecommenderSurvey.pdf` — taxonomy of LLM-based agentic recsys (LLM-ARS), four-level RS evolution, four core modules.
@@ -9,7 +9,7 @@
 - `[AmherstFeb2024]CooperativeAgents.pdf` — cognitive architecture for cooperative agents (perception / memory / communication / planning / execution).
 - `[RUFeb2024]UserBehaviorSimulation.pdf` — RecAgent, LLM agents as simulated users for offline eval.
 
-**Anchor docs:** `work+self/projects/pinsight.md`, `work+self/projects/pinsight-m1-spec.md`.
+**Anchor docs:** `work+self/projects/pinkerton.md`, `work+self/projects/pinkerton-m1-spec.md`.
 
 ---
 
@@ -21,35 +21,35 @@ M1 today is a single LLM + Presto MCP walking through six phases. That works for
 
 Adopt MACRec's role decomposition, adapted to our domain:
 
-| Pinsight role | MACRec analog | Responsibility |
+| Pinkerton role | MACRec analog | Responsibility |
 |---|---|---|
 | **Manager** | Manager | Owns Thought / Action / Observation loop; assigns subtasks; produces final report. |
 | **Funnel Analyst** | Item Analyst | Deep knowledge of the 14 HF stages; writes and interprets Presto queries over `bi.core_daily_homefeed_backend_funnel_candidate_evaluation`; compares selected pins against the population. |
-| **User Analyst** | User Analyst | Builds a structured interest / intent profile from engagement history — this **is** Pinsight M2 as a reusable service. |
+| **User Analyst** | User Analyst | Builds a structured interest / intent profile from engagement history — this **is** Pinkerton M2 as a reusable service. |
 | **Content Analyst** | (new — VLM) | VLM-powered pin perception: what the pin actually depicts, style, quality signals. Closes the MAVR "item perception" loop. |
-| **Searcher** | Searcher | Pulls Pinterest-internal knowledge: wiki, TL doc corpus, Kibana dashboards, prior Pinsight sessions. |
+| **Searcher** | Searcher | Pulls Pinterest-internal knowledge: wiki, TL doc corpus, Kibana dashboards, prior Pinkerton sessions. |
 | **Reflector** | Reflector | Critiques the Manager's draft diagnosis. Learn-Act-Critic loop (RAH). Catches hallucinated signals, checks logical coherence. |
 | **Task Interpreter** | Task Interpreter | Translates loose natural-language asks ("why am I seeing so many video pins today?") into structured investigation tasks. |
 
 **Why adopt:** MACRec is the cleanest, simplest multi-agent recipe in the literature. The roles map 1:1 to debugging work we're already doing manually. Manager + Analyst + Reflector composed over ReAct loops is battle-tested (same pattern as Claude Code itself).
 
-**What to skip:** We do **not** need MACRec's "diverse application" abstraction (rating prediction / sequential rec / etc.). Pinsight is diagnostic. Keep the crew focused.
+**What to skip:** We do **not** need MACRec's "diverse application" abstraction (rating prediction / sequential rec / etc.). Pinkerton is diagnostic. Keep the crew focused.
 
 ### 1.2 Cognitive memory across sessions, not just in-session tracing (Cooperative Agents + RecAgent)
 
 M1 already has a SQLite trace DB — that's episodic memory for free. Extend to the three memory types used in CoELA / RecAgent:
 
-- **Semantic memory** — long-lived facts about the HF system: stage semantics, signal definitions, CG source catalog, known failure modes, team ownership. Today these live scattered across wikis, runbooks, and TL memory. Make Pinsight own a structured knowledge base it can read.
+- **Semantic memory** — long-lived facts about the HF system: stage semantics, signal definitions, CG source catalog, known failure modes, team ownership. Today these live scattered across wikis, runbooks, and TL memory. Make Pinkerton own a structured knowledge base it can read.
 - **Episodic memory** — per-session traces (already in M1 spec). Queryable across sessions. "Have we seen this diagnosis pattern before?" is a killer feature once the DB has history.
 - **Procedural memory** — reusable playbooks: "debugging CG dropout," "investigating SSD over-aggression," "diagnosing content type imbalance." Each playbook is a SKILL.md-style prompt the Manager can invoke.
 
-**Why adopt:** Without this, every session starts from zero and every agent rediscovers the same basics. With this, each Pinsight run compounds the team's knowledge. This is the Karen synthesis-over-collection move applied to diagnostic work.
+**Why adopt:** Without this, every session starts from zero and every agent rediscovers the same basics. With this, each Pinkerton run compounds the team's knowledge. This is the Karen synthesis-over-collection move applied to diagnostic work.
 
 ### 1.3 VLM pin perception as a reusable cache, not a one-shot call (MAVR IP Agent)
 
 MAVR's Item Perception Agent compresses raw video into semantic summaries so downstream agents can reason without blowing context windows. Do the same for pins, **once**, and cache:
 
-- For each pin touched in any Pinsight session, generate a semantic summary (what is depicted, style, genre, likely creator intent, quality markers).
+- For each pin touched in any Pinkerton session, generate a semantic summary (what is depicted, style, genre, likely creator intent, quality markers).
 - Cache in a structured store keyed by pin_id.
 - Content Analyst reads from cache; on miss, produces and writes.
 
@@ -65,12 +65,12 @@ RecAgent shows you can take structured user profiles (age, traits, interests, hi
 
 For Pinterest, this unlocks Reflex's "Verify" stage without live A/B:
 
-1. Pinsight M2 already produces user profiles.
+1. Pinkerton M2 already produces user profiles.
 2. Build a sandbox that replays frozen HF candidates and lets simulated-user agents take actions (click, save, skip, long-dwell).
 3. Validate the sim: does aggregate simulated behavior match held-out real aggregate?
 4. Once validated, use the sim to test hypothesized changes offline: "if we reweight SSD by X, does simulated long-term engagement improve for segment Y?"
 
-**Why adopt:** This is the piece that turns Pinsight from a diagnostic tool into a **design feedback loop**. It's also the piece that maps Pinsight onto Reflex's full pipeline (Detect → Diagnose → Design → **Verify** → Experiment → Explain).
+**Why adopt:** This is the piece that turns Pinkerton from a diagnostic tool into a **design feedback loop**. It's also the piece that maps Pinkerton onto Reflex's full pipeline (Detect → Diagnose → Design → **Verify** → Experiment → Explain).
 
 **Why cautious:** Simulator fidelity is the central risk. RecAgent and Agent4Rec both acknowledge the sim-to-real gap. Do not build this until M2 profiles are validated against real behavior. Do not replace A/B. It is a **pre-A/B screen**, not a replacement.
 
@@ -87,7 +87,7 @@ Small, cheap addition with outsized quality impact: every diagnosis the Manager 
 
 ### 1.6 Human-in-the-loop control (TKGPT + RAH + CoELA user study)
 
-Keep the human in the loop everywhere for the foreseeable future. Pinsight M1 already does this in Phase 2 (human picks pins to analyze). Extend the principle:
+Keep the human in the loop everywhere for the foreseeable future. Pinkerton M1 already does this in Phase 2 (human picks pins to analyze). Extend the principle:
 
 - Diagnosis stage: Reflector surfaces alternative hypotheses; human picks which to pursue.
 - Aggregate analysis (M3): human defines the segmentation question; agents execute.
@@ -111,7 +111,7 @@ Ordered roughly by how load-bearing they are for the rest of the stack. Each is 
 
 ### 2.1 Trace store (episodic memory) — **exists in M1 spec**
 
-SQLite DB with `sessions`, `phases`, `queries`, `pin_analyses`, `diagnosis` tables (already designed in `pinsight-m1-spec.md`). Extensions needed:
+SQLite DB with `sessions`, `phases`, `queries`, `pin_analyses`, `diagnosis` tables (already designed in `pinkerton-m1-spec.md`). Extensions needed:
 
 - Add `embeddings` column to `diagnosis` for similarity search over past sessions.
 - Add `playbook_used` column to `phases` to track which procedural memory entry was invoked.
@@ -137,7 +137,7 @@ Per-role SKILL.md files: `manager.md`, `funnel_analyst.md`, `user_analyst.md`, `
 
 ### 2.4 Semantic memory store
 
-Structured markdown (or JSON) files under `pinsight/knowledge/` containing:
+Structured markdown (or JSON) files under `pinkerton/knowledge/` containing:
 
 - HF funnel stage reference (stage name → what it does → common drop reasons → what signals matter).
 - CG source catalog (source name → what it retrieves → when it dominates → known failure modes).
@@ -180,7 +180,7 @@ A service that, given a pin_id, returns a structured semantic summary:
 - Reusable across M1, M2, M3, and (later) agentic augmentation.
 - Estimated cost: batch VLM call at ~$0.003-0.01 per pin; pre-populate hot corpus (~10M pins).
 
-### 2.7 User profile module (this **is** Pinsight M2)
+### 2.7 User profile module (this **is** Pinkerton M2)
 
 A structured, reusable profile per user:
 
@@ -232,7 +232,7 @@ The through-line: **each phase produces a demoable artifact, each phase reuses i
 
 ### Phase 0 — M1 single-agent debugger (in-flight)
 
-**What:** The current `pinsight-m1-spec.md` build. Single LLM + Presto MCP + six phases. Human picks pins. Markdown report + SQLite trace.
+**What:** The current `pinkerton-m1-spec.md` build. Single LLM + Presto MCP + six phases. Human picks pins. Markdown report + SQLite trace.
 
 **Why this is the right start:**
 - Parity with Roberto's Search debugger.
@@ -243,7 +243,7 @@ The through-line: **each phase produces a demoable artifact, each phase reuses i
 
 **Exit criteria:** M1 demoable to Jeff. SQLite has ≥10 real debug sessions. James has handed off to Alok or extended it himself.
 
-### Phase 1 — Pinsight M2 as the User Profiling Module (late Q2 / early Q3)
+### Phase 1 — Pinkerton M2 as the User Profiling Module (late Q2 / early Q3)
 
 **What:** The current roadmap M2, reframed as a **reusable User Profiling Module** (building block 2.7) rather than a standalone report generator. First deliverable is still a markdown report ("here's what we know about this user"), but the underlying profile structure is designed for reuse.
 
@@ -293,9 +293,9 @@ The through-line: **each phase produces a demoable artifact, each phase reuses i
 
 **What:** Build the RecAgent-lite sandbox (building block 2.10). Simulated users driven by M2 profiles interact with frozen HF candidate replays.
 
-**Strategic decision (2026-04-05):** Committed. Fork A from the grill — we go big. Rationale: Andrew invited co-ownership of Detect + Diagnose in Reflex; if the Reflex conversation evolves toward Design / Verify, Pinsight needs infrastructure in place for the answer to be "yes, we can become that." Dropping this phase forecloses that conversation before it happens.
+**Strategic decision (2026-04-05):** Committed. Fork A from the grill — we go big. Rationale: Andrew invited co-ownership of Detect + Diagnose in Reflex; if the Reflex conversation evolves toward Design / Verify, Pinkerton needs infrastructure in place for the answer to be "yes, we can become that." Dropping this phase forecloses that conversation before it happens.
 
-**Hard gate (must pass before any build starts):** M2 profiles must pass a held-out prediction test. Given a profile generated from user X's engagement history up to time T, does the profile predict X's aggregate behavior from T to T+30 days better than a baseline that ignores the profile? If yes, simulator has a fighting chance at fidelity. If no, Phase 4 defers indefinitely and Pinsight stays diagnostic.
+**Hard gate (must pass before any build starts):** M2 profiles must pass a held-out prediction test. Given a profile generated from user X's engagement history up to time T, does the profile predict X's aggregate behavior from T to T+30 days better than a baseline that ignores the profile? If yes, simulator has a fighting chance at fidelity. If no, Phase 4 defers indefinitely and Pinkerton stays diagnostic.
 
 **Timing:** Earliest start is Q3 2026, and only if the gate passes. Likely post-Q2 entirely given M1 and M2 need to ship first and M2 profiles need enough runway to be validatable.
 
@@ -304,7 +304,7 @@ The through-line: **each phase produces a demoable artifact, each phase reuses i
 - Faster iteration on ranking / SSD / CG changes for segments where A/B is slow.
 - A sandbox for studying emergent phenomena (filter bubbles, over-exploitation) without touching prod.
 
-**Strategic positioning note (added 2026-04-18):** This is the **velocity gate** in Reflex's completeness framework. Paired with the Feedback Curator + Skeptic PR (the **quality gate** — shipping 2026-04-19), it positions James as the architect of both gates Andrew's current Detect stage is missing. Arc: critic/curator (quality) → simulation harness (velocity) → Prove→Detect outcome-learning. The Phase 4 simulator isn't a standalone Pinsight feature — it's the structural piece that lets Reflex's ideation loop outrun human experiment clock-time. Director-altitude framing to use in Andrew/Dylan conversations going forward.
+**Strategic positioning note (added 2026-04-18):** This is the **velocity gate** in Reflex's completeness framework. Paired with the Feedback Curator + Skeptic PR (the **quality gate** — shipping 2026-04-19), it positions James as the architect of both gates Andrew's current Detect stage is missing. Arc: critic/curator (quality) → simulation harness (velocity) → Prove→Detect outcome-learning. The Phase 4 simulator isn't a standalone Pinkerton feature — it's the structural piece that lets Reflex's ideation loop outrun human experiment clock-time. Director-altitude framing to use in Andrew/Dylan conversations going forward.
 
 **What to be honest about:** The literature does not yet have a reliable answer on sim-to-real. We should build this with realistic expectations — it is a **screening tool**, not a replacement for A/B. Measure the fidelity gap explicitly and surface it to every downstream consumer.
 
@@ -330,7 +330,7 @@ Reasoning Agent (rank/rerank with user profile + world knowledge) → Subset ser
 
 ### Phase 6 — Hybrid RL-LLM (speculative, likely beyond 2026)
 
-**What:** Follow MAVR's hybrid direction. LLM plans high-level goals or reward-shaping functions; downstream RL policy executes fine-grained decisions. Pinsight's diagnostic + simulation infrastructure becomes the training/eval substrate.
+**What:** Follow MAVR's hybrid direction. LLM plans high-level goals or reward-shaping functions; downstream RL policy executes fine-grained decisions. Pinkerton's diagnostic + simulation infrastructure becomes the training/eval substrate.
 
 **Why this is last and fuzzy:**
 - The literature doesn't have production examples yet.
@@ -353,7 +353,7 @@ Reasoning Agent (rank/rerank with user profile + world knowledge) → Subset ser
 
 5. **Cost / scalability:** The Adobe survey, MAVR, and Agent4Rec all name cost as the #1 blocker. We have not modeled total LLM spend across phases. Need a rough cost-per-phase estimate before committing to Phase 3+.
 
-6. **How much does this conflict with James's stated goal of synthesis-over-collection?** Karen's pattern — "hears feedback, builds infrastructure for the pivot instead of doing the pivot" — applies here. Is this vision doc the same trap? The counter-argument: Pinsight M1 ships regardless, and this doc just sequences what comes after. But worth naming the risk.
+6. **How much does this conflict with James's stated goal of synthesis-over-collection?** Karen's pattern — "hears feedback, builds infrastructure for the pivot instead of doing the pivot" — applies here. Is this vision doc the same trap? The counter-argument: Pinkerton M1 ships regardless, and this doc just sequences what comes after. But worth naming the risk.
 
 ---
 
@@ -362,6 +362,6 @@ Reasoning Agent (rank/rerank with user profile + world knowledge) → Subset ser
 - Not a committed roadmap — staffing, dependencies, and cost estimates are missing.
 - Not a design doc for any specific phase — those get written when the phase is scoped.
 - Not an endorsement of specific papers' claims — sim-to-real gap, LLM-as-judge reliability, and incentive alignment in multi-agent RL are all unresolved in the literature, and this doc inherits those uncertainties.
-- Not a replacement for the M1 spec — `pinsight-m1-spec.md` is what actually ships next.
+- Not a replacement for the M1 spec — `pinkerton-m1-spec.md` is what actually ships next.
 
 Use as input to the Andrew / Reflex conversation, and as a forcing function for the Phase 1 scope decision.

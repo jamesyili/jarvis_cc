@@ -164,7 +164,7 @@ All three move topline / WAU. Claim 2 is where Retentive Recs intersects directl
 | **Yuke Yan** | KDD paper Prediction co-author | IC15, Retentive Recs TL. Flight risk per stakeholders.md §8. James will delegate sections to support his career. |
 | **Olafur Gudmundsson** | KDD paper Federation co-author | NEW stakeholder — needs entry in stakeholders.md. |
 | **Jiacong He** | Original Engineering Blog draft author + KDD Representation co-author | **Leaving the company.** On blending team. Minimal team retention impact. James inheriting his Engineering Blog editor role 2026-04-11. KDD Representation likely absorbs into Armando. |
-| **Chuxi Wang** | Primary IC for Retentive Recs (per stakeholders.md §8) | Promo vehicle is p(UIC). Now also 20% Pinsight commit going forward. |
+| **Chuxi Wang** | Primary IC for Retentive Recs (per stakeholders.md §8) | Promo vehicle is p(UIC). Now also 20% Pinkerton commit going forward. |
 
 ---
 

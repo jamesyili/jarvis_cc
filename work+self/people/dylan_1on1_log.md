@@ -59,7 +59,7 @@
 
 ## 2026-04-23 (Thursday) — Slack exchange on Dafang flight risk + market intel (async, not a 1:1)
 
-**Context:** James flagged to Dylan via Slack that Dimitra Tsiaousi wants to collaborate on Pinsight (cloned repo, built HF+Notif+Search version). Conversation evolved into Dafang flight-risk intel + broader market observations + Dylan's tooling pragmatism.
+**Context:** James flagged to Dylan via Slack that Dimitra Tsiaousi wants to collaborate on Pinkerton (cloned repo, built HF+Notif+Search version). Conversation evolved into Dafang flight-risk intel + broader market observations + Dylan's tooling pragmatism.
 
 ### High-signal lines from Dylan (verbatim)
 
@@ -95,7 +95,7 @@ This is inner-circle-level operational trust. Not sponsor-petitioner. Two peers 
 
 - Piyush tipped James: "heard through the grapevine that Dafang is also looking around."
 - James surfaced to Dylan. Dylan: "yeah I sensed it. I'm trying to get him engaged. That's why asked to enroll him in reflex."
-- James + Dylan are co-owning Dafang engagement. James added Dafang to Pinsight + Reflex. James and Dafang split Reflex work (Dafang on Blending/PR, James on CG).
+- James + Dylan are co-owning Dafang engagement. James added Dafang to Pinkerton + Reflex. James and Dafang split Reflex work (Dafang on Blending/PR, James on CG).
 - James: "it'll be great if we can engage him to build really amazing things here."
 - Dylan: "yes do you want me to reach out? or you already did?"
 - Mutual active retention work. Dylan is willing to up-invest when she sees a specific path and a co-owner.
@@ -104,7 +104,7 @@ This is inner-circle-level operational trust. Not sponsor-petitioner. Two peers 
 
 - **For James's Dylan career conversation:** the peer-level register is available. No ceremony needed.
 - **For James's Reddit decision:** Dylan-trust cost of exploring is real but not catastrophic. She won't fight if James looks. But moral-filter read of Reddit is unknown — if she reads it as Meta-adjacent, respect cost is real.
-- **For Pinsight narrative:** Dylan validated Pinsight + notif agent work publicly in the chat. Dimitra fork is effectively endorsed at Dylan level.
+- **For Pinkerton narrative:** Dylan validated Pinkerton + notif agent work publicly in the chat. Dimitra fork is effectively endorsed at Dylan level.
 - **For Dafang retention play:** James is an active co-sponsor here. Losing Dafang would also be James-coded in Dylan's mental model. Worth staying engaged in the next Dafang touchpoints.
 
 ---
@@ -136,7 +136,7 @@ This is inner-circle-level operational trust. Not sponsor-petitioner. Two peers 
 - **Ceiling:** she won't publicly rank James above peers Dhruvil/Yan on AI. Will reward privately via scope, sponsorship, rating — but won't use as a stick in calibration rooms.
 
 **Execution agent as cross-project blocker.**
-- James and Dylan aligned on execution agent (an agent that can write code and implement) as the biggest blocker for Pinsight, Reflex, and more.
+- James and Dylan aligned on execution agent (an agent that can write code and implement) as the biggest blocker for Pinkerton, Reflex, and more.
 - Dylan wants to spend her own time here to help unblock.
 - **Strategic move from James:** go to Dylan FIRST with concrete execution-agent list, then co-present to Andrew together. Upgrade from yesterday's "prove to both separately" frame.
 - James to ship a working Reflex build-stage prototype by end of this week / early next week. Will scaffold in UND (Java/serving) and pin board (ML model) layers — his team uniquely positioned in both codebases.
@@ -225,7 +225,7 @@ Supporting context:
 - Presenting the critic agent at the RLHF event positions James as the technical lead on the Reflex intelligence layer in front of 6 other peers + Dylan + Andrew simultaneously. That audience doesn't assemble often.
 
 **Pinner Understanding offer (#2):**
-- Dual-use — James is building this for PinSight regardless. Marginal cost to front-load for Dylan's demo ≈ zero.
+- Dual-use — James is building this for Pinkerton regardless. Marginal cost to front-load for Dylan's demo ≈ zero.
 - Image search without user context = Gemini. Image search with Pinner Understanding + real profiles + hypothetical searches + simulated outcomes = only Pinterest can do this. That's Dylan's entire competitive frame vs. the partnership alternatives Jeff is evaluating.
 - Dylan's visible nervousness signals high personal stakes. The offer reduces her stress, not adds pressure.
 
@@ -242,8 +242,8 @@ Why it works: initiate-don't-react energy. Leads with her own idea. Teases the P
 - **Lead:** *"On your critic-agent idea from Thursday night — I've been building toward exactly that shape. I have a rough version running over the expert cards. If I can have it functional by Andrew's RLHF event, we turn 7 experts' cognitive time into training signal on arrival, instead of just raw comments on cards."*
 
 **2. Pinner Understanding + profiles for image-search demo (PRIORITY #2)**
-- **Value:** Director-altitude strategic contribution. Differentiates Pinterest's offering from Gemini / MSFT AI / OpenAI at the moment Jeff is evaluating partnerships. James is building the Pinner Understanding pieces for PinSight anyway — zero marginal cost to deliver dozens of real profiles + hypothetical searches + simulated outcomes for Dylan's demo.
-- **Opening (in the 1:1, not a pre-share):** *"Separate topic — I've been thinking about the image-search demo you showed me last 1:1. I'm building Pinner Understanding + a few dozen real profiles for PinSight this week anyway. If you can use them in the demo, I'll front-load and have them ready by [date]. Gives it something Gemini literally can't show — Pinterest-native user context at the search step."*
+- **Value:** Director-altitude strategic contribution. Differentiates Pinterest's offering from Gemini / MSFT AI / OpenAI at the moment Jeff is evaluating partnerships. James is building the Pinner Understanding pieces for Pinkerton anyway — zero marginal cost to deliver dozens of real profiles + hypothetical searches + simulated outcomes for Dylan's demo.
+- **Opening (in the 1:1, not a pre-share):** *"Separate topic — I've been thinking about the image-search demo you showed me last 1:1. I'm building Pinner Understanding + a few dozen real profiles for Pinkerton this week anyway. If you can use them in the demo, I'll front-load and have them ready by [date]. Gives it something Gemini literally can't show — Pinterest-native user context at the search step."*
 - **Framing discipline:** Stand on merit of the offer itself. Do NOT reference the partnership evaluation (privileged). Dylan can introduce competitive stakes if she chooses.
 - **Read her response carefully:** Some people want collaboration on high-stakes demos; others want sole ownership. If she says *"Jeff and I have it handled,"* don't push — the offer itself already landed as partnership. If she leans in, deliver with urgency by EOW.
 - **Do not:** phrase as "do you want help." Do not crowd Jeff's role.
@@ -289,7 +289,7 @@ The image-search moment moves up in priority (was mid, now near-top) because the
 - Use the word "escalation." Ever. (Locked in from Jan 2026 UPP/Matthew incident.) Substitute: "request," "unblock," "resourcing ask."
 - Reference the Jeff partnership evaluation to anyone, ever.
 - Surprise Dylan with the harness proposal to Andrew after the fact (even though it's deferred — when it does land, she sees it first).
-- Spend budget on what's on track (UPP, Pinsight M1 status, Charlie PIP).
+- Spend budget on what's on track (UPP, Pinkerton M1 status, Charlie PIP).
 
 ### Open calibration questions (resolve before Monday EOD)
 
@@ -309,7 +309,7 @@ The image-search moment moves up in priority (was mid, now near-top) because the
 - **Charlie performance: PIP decision made and aligned.** Moving forward with formal PIP. Will get headcount back. Clearest action case on the team.
 
 ### Notes
-- Pre-session prep had three priorities: (1) Pinsight agentic vision as "run things by me" co-ownership, (2) Charlie/Zili performance escalations, (3) close PM tone + EM hire loops. Actual conversation was lighter than prepped — went straight to AI + Charlie.
+- Pre-session prep had three priorities: (1) Pinkerton agentic vision as "run things by me" co-ownership, (2) Charlie/Zili performance escalations, (3) close PM tone + EM hire loops. Actual conversation was lighter than prepped — went straight to AI + Charlie.
 - The Monday group-meeting AI demo concern (worry about overdoing it) did not surface in the 1:1. No need to acknowledge or repair. Pattern read was correct: don't bring it up unprompted.
 
 ---
@@ -384,7 +384,7 @@ The image-search moment moves up in priority (was mid, now near-top) because the
 **Natural bridge to Reflex (only if the conversation flows there):**
 > "By the way, this investigation capability — diagnosing funnel issues with LLM-powered analysis — is exactly what Andrew's Reflex vision is about. He's invited me to co-own the sensing layer. Darren's contributing eval support. Worth leaning into, or are there landmines I'm not seeing?"
 
-**If she asks about time investment:** "Pinsight v0 is a 10-hour timebox, then handing off to Alok. The architecture builds on the UPP data logging the team already built."
+**If she asks about time investment:** "Pinkerton v0 is a 10-hour timebox, then handing off to Alok. The architecture builds on the UPP data logging the team already built."
 
 **If she probes on IC direction:** "This is management capability — building the tooling layer that makes the team's debugging faster and connecting it to Andrew's cross-functional vision. I'm architecting, not coding full-time."
 

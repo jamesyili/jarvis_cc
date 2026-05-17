@@ -55,7 +55,7 @@ Stress-tested the silence reading against Wes Kao Frameworks + Coaching Patterns
 
 **5. Stop benchmarking PINvestigator's reception against Akaasha's demo.**
 
-   That comparison is the Roberto-line tournament re-asserting itself. Yesterday's session named this explicitly: Roberto/Akaasha sit in the Kurchi-line dynamic, which is partly a proxy for Dylan-vs-Kurchi director-level positioning. Not a fair comp for James's Pinsight/PINvestigator track. Different game, different scoreboard.
+   That comparison is the Roberto-line tournament re-asserting itself. Yesterday's session named this explicitly: Roberto/Akaasha sit in the Kurchi-line dynamic, which is partly a proxy for Dylan-vs-Kurchi director-level positioning. Not a fair comp for James's Pinkerton/PINvestigator track. Different game, different scoreboard.
 
    *Impact Over Approval audit:* James's scoreboard is **adoption volume**, not exec question count.
 
@@ -75,18 +75,18 @@ Stress-tested the silence reading against Wes Kao Frameworks + Coaching Patterns
 
 ---
 
-## Pinsight — M0 in production + Reflex co-dev escalation
+## Pinkerton — M0 in production + Reflex co-dev escalation
 
 ### Wins this week
 
-- **Two PRs landed → Pinsight M0 is in production.** James personally shipped both while running a full Sr EM job. New mode of work: EM-as-builder.
+- **Two PRs landed → Pinkerton M0 is in production.** James personally shipped both while running a full Sr EM job. New mode of work: EM-as-builder.
 - **Chuxi committed 20% time going forward.** Excited specifically about the agentic recsys vision at the end of the roadmap. Covers the 2-week Alok PTO gap; James now has a code reviewer + collaborator beyond Alok.
 - **Logging is done.** Minor hiccup: field names too long → some logging entries failed. **Daniel knows, fix shipping by Monday 2026-04-13.** Alok wrote a comprehensive verification plan; Daniel will execute.
 - **Manual log verification on logs that did make it through → fields are present.** M1 unblocked.
-- **Chuxi + James can build Pinsight M1 in parallel** with the logging fix and full distribution verification. No serial blocker.
-- **Dylan is bought into the vision.** Gave James debugging examples from herself **and Rajat** to test against. Dylan is now extending Pinsight scope upward — wants the logging extended to **BMI (Board More Ideas)** surface. Dhruvil's team has a way forward on the BMI extension.
+- **Chuxi + James can build Pinkerton M1 in parallel** with the logging fix and full distribution verification. No serial blocker.
+- **Dylan is bought into the vision.** Gave James debugging examples from herself **and Rajat** to test against. Dylan is now extending Pinkerton scope upward — wants the logging extended to **BMI (Board More Ideas)** surface. Dhruvil's team has a way forward on the BMI extension.
 
-### Reflex × Pinsight — the convergence (this is the strategic story)
+### Reflex × Pinkerton — the convergence (this is the strategic story)
 
 Andrew Yaroshevsky built a working **Reflex prototype**. Reflex is an autonomous diagnostic agent that reads recsys signals and generates Trello cards proposing investigation hypotheses + opportunities. It's based on something Andrew calls the "**Anticipation vision**" (need clarification — see open questions below).
 
@@ -103,21 +103,21 @@ Andrew Yaroshevsky built a working **Reflex prototype**. Reflex is an autonomous
 - Andrew is biased toward weighting engagement data over relevance going forward.
 
 **The shape this is taking:**
-- **Pinsight** = the structured logging + observability data substrate
+- **Pinkerton** = the structured logging + observability data substrate
 - **Reflex** = the autonomous hypothesis-generation agent that consumes signals and proposes diagnoses
 - **James** = the expert-in-the-loop providing codepath knowledge + RLHF feedback + the bridge between the two systems
 - **Dylan + Rajat** = upstream sponsors providing real debugging cases as test fixtures
 - **Andrew** = primary builder of Reflex, ships before Tuesday 2026-04-14
 
-This is the **agentic recsys vision from the Pinsight roadmap unfolding faster than planned**, via Andrew's parallel build. Pinsight is no longer a standalone observability play — it's the data layer for a multi-agent diagnostic system.
+This is the **agentic recsys vision from the Pinkerton roadmap unfolding faster than planned**, via Andrew's parallel build. Pinkerton is no longer a standalone observability play — it's the data layer for a multi-agent diagnostic system.
 
 ### Strategic notes from Leo
 
-1. **Andrew's Tuesday code-drop is a real timer.** James needs to be ready to plug in that week. Reflex co-dev is a new commitment competing with: Pinsight M1, BMI extension to Dhruvil's team, blog post #1, China trip prep, and the day job. Load management is the watchword.
+1. **Andrew's Tuesday code-drop is a real timer.** James needs to be ready to plug in that week. Reflex co-dev is a new commitment competing with: Pinkerton M1, BMI extension to Dhruvil's team, blog post #1, China trip prep, and the day job. Load management is the watchword.
 2. **The "expert-in-the-loop / RLHF feedback" role is the highest-leverage seat James can occupy.** It's where his codepath knowledge + recsys judgment compounds. But it requires *consistent* presence — RLHF is not a one-shot input.
 3. **Dylan brokered this and is now externally vouching to Andrew.** That's the bypass-lane signal from yesterday's session log materializing. Dylan-as-sponsor is becoming Dylan-as-co-architect.
 4. **The "doing this while full-time EM" framing is celebratory, but it's also a tripwire.** This is the over-commitment pattern. Karen would flag this. The PR-shipping-while-managing-17 signal is powerful — but only if it's sustained without burnout or dropped balls elsewhere.
-5. **Pinsight M0 → production = James is shipping at IC velocity while at EM altitude.** That's the rare combo execs notice. Don't let the Andrew/Reflex excitement crowd out documenting and surfacing the M0 win itself.
+5. **Pinkerton M0 → production = James is shipping at IC velocity while at EM altitude.** That's the rare combo execs notice. Don't let the Andrew/Reflex excitement crowd out documenting and surfacing the M0 win itself.
 
 ### The Anticipation Vision (resolved)
 
@@ -155,7 +155,7 @@ James acknowledged the time-crunch concern is real, but is consciously choosing 
 
 1. **Team-drop signal** — Someone on James's team drops a ball James was supposed to catch and James doesn't notice for >24 hours. This is the actual test of the autonomy reframe vs. James's prediction of it.
 2. **Dylan flag** — Dylan mentions a project gap in the next 1:1 (anything she expected to be moving that isn't).
-3. **Pinsight M1 two-week test** — If it's 2026-04-25 and Pinsight M1 has not landed a meaningful milestone (not just code-merged but a real progress beat), the wave is crowding out the headline.
+3. **Pinkerton M1 two-week test** — If it's 2026-04-25 and Pinkerton M1 has not landed a meaningful milestone (not just code-merged but a real progress beat), the wave is crowding out the headline.
 4. **Blog post #1 Monday test** — If James walks into Monday 2026-04-13 with blog post #1 still at zero, Karen's tripwire moves from +5 to +6 and Leo escalates to a sharper conversation.
 
 ### The 4-way nexus (corrected topology)
@@ -163,7 +163,7 @@ James acknowledged the time-crunch concern is real, but is consciously choosing 
 After checking James's stakeholders.md, the original "trio" framing was wrong. The actual structure is a **4-way nexus** that is structurally over-determined for trust:
 
 - **Andrew Yaroshevsky** (Sr Director of Product) — author of Reflex two-pager + co-author of Anticipation Vision; pitched to Matt Madrigal (CTO) + Kartik (Chief Architect); invited James to co-own Detect + Diagnose engineering layers. **Anna's direct manager.**
-- **Dylan Wang** (James's manager, Sr Director of Engineering, Homefeed Relevance) — co-author of Anticipation Vision; brokers James upward; provides debugging cases from herself + Rajat; expanding Pinsight scope to BMI surface.
+- **Dylan Wang** (James's manager, Sr Director of Engineering, Homefeed Relevance) — co-author of Anticipation Vision; brokers James upward; provides debugging cases from herself + Rajat; expanding Pinkerton scope to BMI surface.
 - **Anna** (PM partner for Retentive Recommendations, reports to Andrew) — James's "work bestie" and political amplifier inside Andrew's chain. DISC: Id (chaotic driver, High I + High D). Maximum psychological safety with James; relies on him as "Translator" from product instincts to engineering heuristics. **The bridge that holds the nexus together** — sells James sideways into Andrew's chain while Dylan sponsors upward.
 - **James** — technical architect of Retentive Recommendations (the named foundation under Anticipation Vision). Now also Reflex co-developer.
 
@@ -184,15 +184,15 @@ This means James has been **operating inside a CTO-visible vision for weeks**, a
 ### Open questions / context Leo still needs from James
 
 1. **James's direct relationship with Mira (Sr Director, Design)?** First-name basis or formal? Has James met her on the Anticipation work directly, or is the connection mediated through Dylan/Andrew? Cross-functional play to track?
-2. **What's the M1 scope for Pinsight given the Reflex convergence?** Does M1 stay as originally planned, or pivot to feed Reflex as a first-class consumer?
+2. **What's the M1 scope for Pinkerton given the Reflex convergence?** Does M1 stay as originally planned, or pivot to feed Reflex as a first-class consumer?
 3. **BMI extension owner?** Dylan asked for it; Dhruvil's team has a way forward — but who actually builds it? Chuxi? James? A Dhruvil-team engineer?
 
 ### Stakeholder updates for `context/people/stakeholders.md`
 
-- **Chuxi** — Now committed 20% to Pinsight going forward. Excited about agentic recsys vision. Critical Alok-PTO bridge.
-- **Daniel** — Strong contractor on James's team. Owns Pinsight logging fix, shipping Monday 2026-04-13. Will execute Alok's verification plan.
+- **Chuxi** — Now committed 20% to Pinkerton going forward. Excited about agentic recsys vision. Critical Alok-PTO bridge.
+- **Daniel** — Strong contractor on James's team. Owns Pinkerton logging fix, shipping Monday 2026-04-13. Will execute Alok's verification plan.
 - **Andrew Yaroshevsky** — Reflex co-dev partnership formalized this week. Tuesday code drop. Pinterest-internal builder of Reflex prototype, biased toward engagement data over relevance signals.
-- **Dylan Wang (update)** — Now actively brokering the Reflex × Pinsight convergence, providing debugging cases from herself and Rajat as test fixtures, and externally vouching to Andrew that Reflex is "catching real issues." Has expanded Pinsight scope to BMI surface. **Dylan has shifted from sponsor to co-architect on this lane.**
+- **Dylan Wang (update)** — Now actively brokering the Reflex × Pinkerton convergence, providing debugging cases from herself and Rajat as test fixtures, and externally vouching to Andrew that Reflex is "catching real issues." Has expanded Pinkerton scope to BMI surface. **Dylan has shifted from sponsor to co-architect on this lane.**
 
 ---
 
@@ -289,9 +289,9 @@ The "predict next steps" novelty is no longer aspirational — three tracks at t
 
 ### Anticipation Vision authorship (cross-reference)
 
-The Anticipation Vision authors are **Andrew Yaroshevsky, Dylan Wang, and Mira (Senior Director, Design)**. James + Anna's Retentive Recommendations is the explicitly named technical key under this vision. Andrew has pitched it to **Matt Madrigal (CTO of Pinterest)**, who has subsequently amplified it openly at a conference as one of the things he is most excited about for Pinterest personalization. See the Pinsight section of this transfer for the full Anticipation × Reflex context.
+The Anticipation Vision authors are **Andrew Yaroshevsky, Dylan Wang, and Mira (Senior Director, Design)**. James + Anna's Retentive Recommendations is the explicitly named technical key under this vision. Andrew has pitched it to **Matt Madrigal (CTO of Pinterest)**, who has subsequently amplified it openly at a conference as one of the things he is most excited about for Pinterest personalization. See the Pinkerton section of this transfer for the full Anticipation × Reflex context.
 
-**Cross-cutting strategic point:** Pinsight (data substrate) + Reflex (autonomous hypothesis generator) + Retentive Recs (the architecture that makes Anticipation possible) form a single integrated story. James is the technical key under all three. The narrative artifacts (Engineering Blog, KDD paper, blog post #1) convert this internal recognition into externally-defensible credit.
+**Cross-cutting strategic point:** Pinkerton (data substrate) + Reflex (autonomous hypothesis generator) + Retentive Recs (the architecture that makes Anticipation possible) form a single integrated story. James is the technical key under all three. The narrative artifacts (Engineering Blog, KDD paper, blog post #1) convert this internal recognition into externally-defensible credit.
 
 ### Stakeholder additions for `context/people/stakeholders.md`
 
@@ -317,7 +317,7 @@ The Anticipation Vision authors are **Andrew Yaroshevsky, Dylan Wang, and Mira (
 
 This is the strongest Director-readiness signal in James's entire portfolio. The biggest and highest-stakes project he owns is shipping without him. Operator → architect transition in its cleanest form. Every week UPP runs without James IS the Director case.
 
-When James's portfolio gets audited (by Karen, by Dylan, by himself), UPP is the counter-example to the "James is still in operator mode" concern. Every other lane (Pinsight M0 PRs, PINvestigator adoption, Reflex co-dev, Retentive Recs Engineering Blog editor role) is pulling James toward hands-on operator mode. UPP is the proof that he already operates at Director altitude on work he has cultivated to maturity. **This framing should be visible in stakeholder conversations about Director readiness.**
+When James's portfolio gets audited (by Karen, by Dylan, by himself), UPP is the counter-example to the "James is still in operator mode" concern. Every other lane (Pinkerton M0 PRs, PINvestigator adoption, Reflex co-dev, Retentive Recs Engineering Blog editor role) is pulling James toward hands-on operator mode. UPP is the proof that he already operates at Director altitude on work he has cultivated to maturity. **This framing should be visible in stakeholder conversations about Director readiness.**
 
 ### Five-prong status (April 2026)
 
@@ -429,7 +429,7 @@ When James's portfolio gets audited (by Karen, by Dylan, by himself), UPP is the
   during reorgs and priority shifts — they're load-bearing.
   5. Full funnel logging and evaluation infrastructure should precede, not follow, new product bets. The team is
   building HF Full Funnel Logging now in anticipation of future AI work. In hindsight, having this earlier would have
-  accelerated iteration on RecGPT and pUIC. For Q2 bets (Reflex, Pinsight M1), instrumentation goes in first.
+  accelerated iteration on RecGPT and pUIC. For Q2 bets (Reflex, Pinkerton M1), instrumentation goes in first.
 
 1. System debuggability is our biggest gap — and we're now investing to close it.
 

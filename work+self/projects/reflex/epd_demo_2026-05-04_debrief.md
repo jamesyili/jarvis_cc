@@ -22,7 +22,7 @@ The 30-min EPD demo to full EPD reporting under CTO Matt Madrigal) **landed mate
 **Forum:** EPD all-hands (full EPD reporting under CTO Matt Madrigal)
 **Audience:** ~2,200 invited (450+ showed up)
 **Slot:** 30 minutes
-**Co-presenters:** James Li + Andrew Yaroshevsky (Andrew = named project owner of Reflex; James = co-driver via Engineering Agent + PinSight)
+**Co-presenters:** James Li + Andrew Yaroshevsky (Andrew = named project owner of Reflex; James = co-driver via Engineering Agent + Pinkerton)
 **Sponsor co-pilot in audience:** Dylan Wang
 
 ### What landed (per planned beats from prep doc)
@@ -146,7 +146,7 @@ Followed by (Matt continued, garbled in transcript but paraphrased):
 > **Rajat (10:47 AM):** *"yes, lets discuss the plan when we meet next!"*
 
 **Translation:**
-- Rajat = VP skip; moved from 4/23 audit "25%" mental-model + PinSight 4/16 exposure → **actively asking for productionization tracks**
+- Rajat = VP skip; moved from 4/23 audit "25%" mental-model + Pinkerton 4/16 exposure → **actively asking for productionization tracks**
 - *"Lets discuss the plan when we meet next"* = explicitly the **Wed 5/8 OH** — the OH James had on calendar is now Rajat-driven, not James-pitching
 - *"Beyond P13N + more ppl help"* (from Dylan) = scope expansion + resourcing ask in flight
 - **Sponsor-stack signal: Scope sponsor + Platform sponsor.** Rajat is offering ownership-line moves AND his attention/agenda.
@@ -250,7 +250,7 @@ From `backlog.md` #79 *"VP-level RR narrative consolidation"* — the 4/23 audit
 | 4/23 target | 4/23 mental-model % | Today's state |
 |---|---|---|
 | **Jeff** (peer VP, primary) | 0–10% | Anticipation-lead OH Tue 5/7 — in motion |
-| **Rajat** (VP skip) | 25% (had PinSight 4/16 exposure but not RR-specific) | **Pulling: productionization tracks ask + Wed 5/8 OH locked** |
+| **Rajat** (VP skip) | 25% (had Pinkerton 4/16 exposure but not RR-specific) | **Pulling: productionization tracks ask + Wed 5/8 OH locked** |
 | **Faisal** (VP Eng, partner on UU for RR) | 25–50% | **Pulling: ML Flywheel learnings offer + DM follow-up** |
 | **Chuck** (VP Eng, ATG, **stretch target via Jiajing intro**) | 0% | **Pulling: ATG presentation invite + people-to-contribute** |
 
@@ -368,7 +368,7 @@ These are concrete Goal 4 (executive presence) and Goal 1.5 (narrative ownership
 
 ## 10. Cross-references
 
-- `work+self/projects/pinsight/epd_demo_2026-05-04_prep.md` — pre-demo prep + Q&A bank (15 anticipated)
+- `work+self/projects/pinkerton/epd_demo_2026-05-04_prep.md` — pre-demo prep + Q&A bank (15 anticipated)
 - `work+self/people/pre_june_readiness.md` — May posture section (Sponsor Stack typology, Q11 5-signal dashboard, calibration-window framework)
 - `work+self/people/jeff_rajat_office_hours_prep.md` — 5/2b + 5/3 prep updates
 - `work+self/H1_career_convo.md` — Dylan career convo (week of 5/20)

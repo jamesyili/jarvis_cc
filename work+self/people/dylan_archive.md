@@ -136,7 +136,7 @@ Warm peer-level Slack exchange with James about Dafang's flight risk surfaced Dy
 
 3. **The Reddit decision has a specific cost with Dylan.** Not retention fight (she won't), but respect (she might read Reddit as Meta-adjacent if framed wrong). Transparent framing of Reddit as "frontier product-platform AI work, not comp chase" would protect the respect channel.
 
-4. **Dafang engagement is a shared sponsor play.** James is an active co-sponsor of Dafang retention (adding him to Pinsight; splitting Reflex work). This is mutual-narrative infrastructure — James isn't just receiving sponsorship from Dylan, he's providing it to her direct report. Reinforces the peer-level dynamic.
+4. **Dafang engagement is a shared sponsor play.** James is an active co-sponsor of Dafang retention (adding him to Pinkerton; splitting Reflex work). This is mutual-narrative infrastructure — James isn't just receiving sponsorship from Dylan, he's providing it to her direct report. Reinforces the peer-level dynamic.
 
 ---
 
@@ -147,7 +147,7 @@ Warm peer-level Slack exchange with James about Dafang's flight risk surfaced Dy
 
 | Event / Interaction | What Happened | Dylan's Signal | **The Critical Lesson** |
 | :--- | :--- | :--- | :--- |
-| **Pinsight Hackathon** (July '25) | You led a visible hackathon project. | **Neutral/Observation.** likely viewed it as "good energy" but not yet "business critical." | **Lesson:** Innovation is nice, but it doesn't buy *safety* with Dylan. It just buys visibility. She values keeping the lights on (CG reliability) more than flash. |
+| **Pinkerton Hackathon** (July '25) | You led a visible hackathon project. | **Neutral/Observation.** likely viewed it as "good energy" but not yet "business critical." | **Lesson:** Innovation is nice, but it doesn't buy *safety* with Dylan. It just buys visibility. She values keeping the lights on (CG reliability) more than flash. |
 | **Early 1:1s** | You felt she was "cool" or "distant." You attempted to bond; she remained professional. | **Behavioral Baseline.** She was assessing your competence, not looking for a friend. | **Lesson:** Do not confuse "professional distance" with "disapproval." With Dylan, **Trust = Low Noise**, not High Warmth. |
 
 ### Phase 2: The Calibration (Oct – Nov 2025)
@@ -317,7 +317,7 @@ The "warmer reception" James senses from Jeff/Rajat toward Dhruvil isn't about p
 **What Dylan Did (All Unprompted):**
 * **2026-04-15:** Added herself personally to the RLHF expert team for Reflex (alongside James, Dhruvil, Rahul Goutam). Sr. Directors rarely participate as individual contributors on evaluation loops — this is hands-on involvement, not delegation.
 * **2026-04-15:** DM'd James privately (not in thread) after the group Slack exchange: "This whole thing is very addictive. But I want to make sure ppl have a pulse check and not feel they need to perform under pressure." Protected his standing publicly while setting the guardrail privately.
-* **2026-04-15:** Demonstrated selective endorsement pattern — endorsed James's item 1 (context files) with specifics, went silent on item 2 (Pinsight integration design). Silence = not endorsed; don't re-raise.
+* **2026-04-15:** Demonstrated selective endorsement pattern — endorsed James's item 1 (context files) with specifics, went silent on item 2 (Pinkerton integration design). Silence = not endorsed; don't re-raise.
 * **2026-04-16:** Unprompted in 3-person DM with James + Andrew, opened Reflex Build-stage scoping: proposed easy wins first (CG deprecation, utility tuning), advanced later (features-to-model, parameter searching). Asked about auto-PR once hypothesis lands. This is her pulling Build timeline forward, not waiting for Andrew to set it.
 
 **Key Signals:**
@@ -336,7 +336,7 @@ The "warmer reception" James senses from Jeff/Rajat toward Dhruvil isn't about p
 **Operating Contract Refinements:**
 * **Slack tempo, not substance.** Dylan's pacing signal is about sustainable cadence in messaging/availability — not a slowdown on the work itself. Her Build-stage "we can start to scope this out" endorsement cuts directly against a substantive-slowdown interpretation. Sniper, not machine gunner.
 * **Pacing commitment James made 2026-04-15:** no pre-9am Slack engagement, no rapid-fire multi-message enthusiasm, no scope expansion pre-M1. Dylan is now watching for evidence this is internalized.
-* **Rajat exposure is new surface area Dylan also needs to navigate.** 2026-04-16: PinSight demoed to Rajat with Dylan present; Rajat is now VP-level aware of fix-loop. This escalates visibility one level up her chain. Give her a heads-up async or in next 1:1 so she's not surprised by Rajat referencing PinSight in his own meetings.
+* **Rajat exposure is new surface area Dylan also needs to navigate.** 2026-04-16: Pinkerton demoed to Rajat with Dylan present; Rajat is now VP-level aware of fix-loop. This escalates visibility one level up her chain. Give her a heads-up async or in next 1:1 so she's not surprised by Rajat referencing Pinkerton in his own meetings.
 
 **Updated Standing:**
 * **Status:** "Operational Co-Participant on Flagship Initiatives." Beyond "Preferred AI Leader" — she is personally contributing inside James's projects (RLHF, Reflex Build scoping) while continuing to sponsor them above. Relationship has a new care-based register visible via the pacing DM.

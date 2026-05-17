@@ -1,4 +1,4 @@
-# Pinsight VLM Visual Signature — Brainstorm
+# Pinkerton VLM Visual Signature — Brainstorm
 
 **Date:** 2026-05-11
 **Status:** V0 plan, three-week scope (5/12–5/29 pre-China)
@@ -10,7 +10,7 @@
 
 Pinterest's user-side representations encode visual style **implicitly** inside opaque multimodal embeddings. Making that signal **explicit, interpretable, and queryable** — via VLM-derived visual signatures — unlocks three things vectors cannot:
 
-1. **Interpretability** — readable user-state introspection in Pinsight
+1. **Interpretability** — readable user-state introspection in Pinkerton
 2. **Auditability** — quantifiable evaluation of whether anticipation predictions match visual style or only topic
 3. **Compositionality** — visual context as evidence in Reflex Detect hypotheses
 
@@ -100,7 +100,7 @@ Three options considered:
 **Locked: A (per-pin → aggregate).** Three reasons:
 
 1. **Interpretability is the whole point.** Per-pin captions = audit trail. When Week 2 eval says "anticipation missed visual style for user X," we trace exactly which pins drove which signature elements.
-2. **Cacheability is structurally valuable.** Per-pin captions are reusable Pinsight artifacts — once VLM-captioned, that caption is good for any user who engaged with that pin. Hot pins captioned once, reused thousands of times.
+2. **Cacheability is structurally valuable.** Per-pin captions are reusable Pinkerton artifacts — once VLM-captioned, that caption is good for any user who engaged with that pin. Hot pins captioned once, reused thousands of times.
 3. **Cost is overstated.** If VLM ~$0.01/pin, cold per-user = ~$0.50. With 50% cache hit rate after warmup, marginal ~$0.25. V0 on 20 users: <$10 total. At scale, cache economics dominate.
 
 ### D. Signature schema — structured + narrative hybrid
@@ -115,7 +115,7 @@ See schema in "The Primitive" section above.
 
 ## Three-Week V0 (5/12–5/29)
 
-### Week 1 (5/12–5/16) — Build Pinsight VLM-Introspection
+### Week 1 (5/12–5/16) — Build Pinkerton VLM-Introspection
 
 | Day | Work |
 |---|---|
@@ -124,7 +124,7 @@ See schema in "The Primitive" section above.
 | **5/15 (Thu)** | Run on 20 sampled users across engagement tiers. Inspect outputs. Identify taxonomy emergence patterns. |
 | **5/16 (Fri)** | Week 1.5: cluster outputs, normalize taxonomy, lock controlled vocabulary. Re-run pipeline with normalized schema. |
 
-**Output by end of Week 1:** 20 stable signatures + per-pin caption cache + locked taxonomy spec. `pinsight visualize <user_id>` operational.
+**Output by end of Week 1:** 20 stable signatures + per-pin caption cache + locked taxonomy spec. `pinkerton visualize <user_id>` operational.
 
 ### Week 2 (5/19–5/23) — Eval Against Anticipation Predictions
 
@@ -140,10 +140,10 @@ See schema in "The Primitive" section above.
 - If true: visual signature has measurable lift as a retrieval/ranking signal
 - If false: this is a learning exercise that surfaces what embeddings already capture (still valuable, but stops the production-bound thread)
 
-### Week 3 (5/26–5/29) — Wire Pinsight as a Reflex Tool
+### Week 3 (5/26–5/29) — Wire Pinkerton as a Reflex Tool
 
 - Expose visual-signature as a callable tool for Reflex Detect agents
-- Detect agent investigating a relevance/quality gap can dispatch: *"Pinsight, what's the visual signature of segment X users?"*
+- Detect agent investigating a relevance/quality gap can dispatch: *"Pinkerton, what's the visual signature of segment X users?"*
 - Receive interpretable visual context to feed into hypothesis cards
 - Demo: one opportunity card that uses visual signature as evidence ("segment X users engage with style A; recently-served pins are style B; visual mismatch hypothesis")
 
@@ -158,7 +158,7 @@ See schema in "The Primitive" section above.
 - **Not VLM-as-feed-judge.** That's the content-side work in the companion brainstorm. This is user-side.
 - **Not a temporal-dynamics solution.** Signature drift over time is real but out-of-scope for V0.
 - **Not a cold-start solution.** No engagement history = no signature. Standard problem; defer.
-- **Not UIC integration.** Pinsight↔Reflex coupling here uses visual signature only. UIC tie-in is later scope.
+- **Not UIC integration.** Pinkerton↔Reflex coupling here uses visual signature only. UIC tie-in is later scope.
 
 ---
 
@@ -166,21 +166,21 @@ See schema in "The Primitive" section above.
 
 | # | Question | Status |
 |---|---|---|
-| 1 | VLM access path: can Pinsight pass pin images (via signature → URL) to a VLM and get text back? | **RESOLVED 5/12:** VLM access confirmed. Implementation details pending from Piyush. |
+| 1 | VLM access path: can Pinkerton pass pin images (via signature → URL) to a VLM and get text back? | **RESOLVED 5/12:** VLM access confirmed. Implementation details pending from Piyush. |
 | 2 | Does multimodal embedding already encode this signal sufficiently? | OPEN. Eval in Week 2 tests directly. |
 | 3 | Synthesis prompt shape: per-pin → aggregate, multi-pin batch, or hybrid? | **RESOLVED 5/11:** per-pin → aggregate. See Design Decision C. |
 | 4 | Visual-coherence metric in Week 2? | **RESOLVED 5/11:** taxonomy-axis match aggregation. See Week 2 section. |
-| 5 | Reflex tool API surface for Week 3? Inline call, MCP tool, async dispatch? | **REFRAMED 5/12.** Deeper fork: Pattern A (data API — `visualize(user_id) → signature`, Reflex Detect does the reasoning) vs Pattern B (question-answering agent — `investigate(hypothesis, segment) → finding`, Pinsight does the reasoning). Leo recommended A for V0 (B requires Pinsight agent reasoning loop = out of scope; A keeps clean separation; MCP tool description becomes the agent-comms contract). Plus sub-question Q5a — granularity: single-user vs segment-aware. Leo recommended both, ship single-user first. **All open — pick up next session.** |
-| 6 | What is `pinsight visualize` under the hood — CLI command, function in existing Pinsight tooling, or agent that orchestrates VLM calls? | **RESOLVED 5/12:** Function + thin CLI for V0. Agent wrapper deferred. Reframed three "options" as layers (core engine / CLI wrapper / agent wrapper) — the agentic part of V0 is the synthesis-step LLM call *inside* the function, not a multi-step orchestrator. Agent-to-agent comms acknowledged as the deeper layering question; a stable function/module is the better thing to wrap an agent around later than building the agent first. |
+| 5 | Reflex tool API surface for Week 3? Inline call, MCP tool, async dispatch? | **REFRAMED 5/12.** Deeper fork: Pattern A (data API — `visualize(user_id) → signature`, Reflex Detect does the reasoning) vs Pattern B (question-answering agent — `investigate(hypothesis, segment) → finding`, Pinkerton does the reasoning). Leo recommended A for V0 (B requires Pinkerton agent reasoning loop = out of scope; A keeps clean separation; MCP tool description becomes the agent-comms contract). Plus sub-question Q5a — granularity: single-user vs segment-aware. Leo recommended both, ship single-user first. **All open — pick up next session.** |
+| 6 | What is `pinkerton visualize` under the hood — CLI command, function in existing Pinkerton tooling, or agent that orchestrates VLM calls? | **RESOLVED 5/12:** Function + thin CLI for V0. Agent wrapper deferred. Reframed three "options" as layers (core engine / CLI wrapper / agent wrapper) — the agentic part of V0 is the synthesis-step LLM call *inside* the function, not a multi-step orchestrator. Agent-to-agent comms acknowledged as the deeper layering question; a stable function/module is the better thing to wrap an agent around later than building the agent first. |
 | 7 | Fallback plan if VLM-access-path doesn't work this week — what's the alternative path that keeps Week 1 from blowing up? | **CLOSED 5/12:** Moot — VLM access confirmed. No tripwire needed. |
 
 ---
 
 ## Altitude Notes
 
-- **Week 1 is hands-on build** — primary IC contribution; in James's deep zone (Pinsight + VLM + recsys)
+- **Week 1 is hands-on build** — primary IC contribution; in James's deep zone (Pinkerton + VLM + recsys)
 - **Weeks 2–3 are evaluation + integration** — handoff-shaped for follow-on work post-China
-- **Three weeks total**, all in James's existing scope (Pinsight + Reflex), no external team blocker
+- **Three weeks total**, all in James's existing scope (Pinkerton + Reflex), no external team blocker
 - **Compounds beyond V0:** if the eval (Week 2) confirms the hypothesis, this primitive is the foundation for downstream work that Anna K (Retentive Recs PM) and the Anticipation team can pick up — visual signature as a feature for retrieval/ranking models is a much larger conversation enabled by this V0
 
 ---
@@ -190,7 +190,7 @@ See schema in "The Primitive" section above.
 Q5 is the live thread. Two sub-questions to resolve:
 
 1. **Q5 Pattern A vs B (data API vs question-answering agent).** Leo recommended A for V0. Confirm or push back. If A: scope the MCP tool description as the agent-comms contract (description = how Reflex Detect agents will reason about *when* to call this).
-2. **Q5a — granularity.** Single-user (`pinsight.visualize(user_id)`) or segment-aware (`pinsight.visualize_segment(spec)`)? Leo recommended both, ship single-user first.
+2. **Q5a — granularity.** Single-user (`pinkerton.visualize(user_id)`) or segment-aware (`pinkerton.visualize_segment(spec)`)? Leo recommended both, ship single-user first.
 
 Then the Week 1.5 prereqs:
 
@@ -200,7 +200,7 @@ Then the Week 1.5 prereqs:
 ## Resolved 5/12
 
 - **Q1 — VLM access confirmed.** Details pending from Piyush.
-- **Q6 — `pinsight visualize` = function + thin CLI for V0.** Agent wrapper deferred. See Q6 status above for layering rationale.
+- **Q6 — `pinkerton visualize` = function + thin CLI for V0.** Agent wrapper deferred. See Q6 status above for layering rationale.
 - **Q7 — fallback plan moot.** VLM access confirmed.
 
 ---
@@ -209,4 +209,4 @@ Then the Week 1.5 prereqs:
 
 - `2026-05-11-vlm-in-reflex-brainstorm.md` — content-side VLM work (feed quality, relevance gap detection, etc.)
 - `reflex-codebase-guide.md` — Detect stage architecture (where Reflex tool integration lands)
-- `work+self/projects/pinsight/` — Pinsight current state (M0 shipped, M1 in flight)
+- `work+self/projects/pinkerton/` — Pinkerton current state (M0 shipped, M1 in flight)

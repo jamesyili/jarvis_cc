@@ -458,7 +458,7 @@ Last updated: 2026-03-29
 
 **The habit:** When a peer interrupts James's live pitch with a pre-apologized territorial move ("sorry to steal your thunder but I got X"), the reactive instinct is to either (a) match their flag-plant with a bigger one in the moment, which looks petty, or (b) let it go and absorb the loss of airtime. Neither is optimal. The right move is a durable written follow-up within hours.
 
-**Example (Brian Lee's recsys observability meeting, 2026-04-09):** Roberto interrupted James's Pinsight pitch with *"sorry to steal your thunder but I got agents working on search eval tool."* James's in-moment response was strong — he reframed peer-to-peer ("that's great, more to build upon each other's tooling, one component you might not have is the user understanding side"). Then within ~2 hours, he posted to #recsys-observability channel with the Pinsight CC skill link, the vision/roadmap, and an explicit partnership invite naming his team (Alok Malik, Chuxi Wang). The channel post set the durable terms the peer had to either accept or visibly reject.
+**Example (Brian Lee's recsys observability meeting, 2026-04-09):** Roberto interrupted James's Pinkerton pitch with *"sorry to steal your thunder but I got agents working on search eval tool."* James's in-moment response was strong — he reframed peer-to-peer ("that's great, more to build upon each other's tooling, one component you might not have is the user understanding side"). Then within ~2 hours, he posted to #recsys-observability channel with the Pinkerton CC skill link, the vision/roadmap, and an explicit partnership invite naming his team (Alok Malik, Chuxi Wang). The channel post set the durable terms the peer had to either accept or visibly reject.
 
 **The fix — the shape:**
 1. **Warm opener** — "Glad to speak with so many like-minded folks" or equivalent — signals collaboration, not competition.
@@ -692,7 +692,7 @@ Timing: this lands the same week James is preparing to position Daniel Liu's tea
 
 April 5 was generic Dhruvil-style: surface a need, tag up, get escalation. Today's move is **strategically targeted**: Dhruvil is staking the "foundations" vocabulary onto the ranking-side stack precisely as James is preparing to claim "Anticipation Foundations" as his Director-shaped scope. He may or may not know that's the frame James is about to use. Doesn't matter — the structural effect is the same.
 
-**Hypothesis:** Dhruvil senses James is consolidating (PinSight to Rajat 4/16, Reflex tech-lead designation 4/21, Anticipation Vision attribution, public 4/21 endorsement) and is preemptively staking ground on the foundations layer in a thread Dylan can see.
+**Hypothesis:** Dhruvil senses James is consolidating (Pinkerton to Rajat 4/16, Reflex tech-lead designation 4/21, Anticipation Vision attribution, public 4/21 endorsement) and is preemptively staking ground on the foundations layer in a thread Dylan can see.
 
 ### James's default pattern (to NOT do)
 

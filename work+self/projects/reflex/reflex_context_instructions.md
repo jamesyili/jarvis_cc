@@ -97,7 +97,7 @@ Based on reading the opportunity_card.md schema, the DS Agent needs:
 ### Operational Details
 
 - **Execution:** Currently manual (open Claude Code in `services/reflex/detect/`, follow agent instructions). Moving to devapp.
-- **MCP:** Presto and experiments via `localhost:19193` proxy. Same proxy pattern as Pinsight.
+- **MCP:** Presto and experiments via `localhost:19193` proxy. Same proxy pattern as Pinkerton.
 - **Asana:** Hardcoded project/section/tag GIDs in board_setup.md. Board has columns: Hypotheses → Opportunities → Ready to Build.
 - **Cost:** Untracked. Each cycle loads ~2000+ lines of prompt context before any queries.
 - **Portability:** Local paths (`~/code/pinboard/`) and localhost MCP mean it only runs on Andrew's machine currently.
@@ -207,7 +207,7 @@ don't waste cycles rediscovering them.
   PIN_LATE_FUSION_CONDITIONS. PUIC steals from PIN via pcond_N.
 - Non-English CTR gap (CJK 83%): 9.5B impressions scope, MoE I18N at 0%
 - DS Agent CG signal decay: what happened, reframe after James+Dylan feedback
-- [Any others from Pinsight M0 logs, PINvestigator runs, postmortems]
+- [Any others from Pinkerton M0 logs, PINvestigator runs, postmortems]
 
 ## 5. RLHF Feedback Protocol (how James corrects Reflex)
 - Where feedback lands: Asana task comments on the Kanban board. The owning

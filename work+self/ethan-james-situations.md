@@ -23,7 +23,7 @@
 
 I'm a Senior ML Engineering Manager at Pinterest, joined Sept 2024 (~1 yr 9 mos at Pinterest; ~12 years total working career since Jul 2014 at Yahoo Labs → Facebook IC/Senior/Staff/EM → Snap EM/Head of Stories Ranking). Currently M17 with M18/Director as the target. I lead the Homefeed Candidate Generation team — the core retrieval layer that decides what Pins are eligible to show 500M+ users. Team size 17–20 directs; I'm hiring an EM-under-me to build a layer (2 lean-no's so far on the backfill).
 
-My manager just gave me an Exceeds rating + ~$1.2M equity refresh over 3 years — peak operational trust. I have two attributable named-thing artifacts in flight: (1) Retentive Recommendations, a stateful-user-representation paradigm with WAU + holdout wins, CEO+CTO buy-in, paper drafted, three-org cross-pollination; (2) Reflex/Pinsight, an LLM-agentic simulation+detection tool whose data substrate has been organically forked by Notifications and Search teams.
+My manager just gave me an Exceeds rating + ~$1.2M equity refresh over 3 years — peak operational trust. I have two attributable named-thing artifacts in flight: (1) Retentive Recommendations, a stateful-user-representation paradigm with WAU + holdout wins, CEO+CTO buy-in, paper drafted, three-org cross-pollination; (2) Reflex/Pinkerton, an LLM-agentic simulation+detection tool whose data substrate has been organically forked by Notifications and Search teams.
 
 My self-diagnosis on M18 readiness: NOT ready. Named gaps = team size + org setup. What's "there" = impact, behavior, influence.
 
@@ -548,7 +548,7 @@ Not proposing it.
 
 **PROMPT:**
 
-My most directly comparable peer at the same level under the same manager is Dhruvil — Sr. EM, Ranking team, M17. Different brand: he's "The Steady Hand" running the stable legacy ranking infra; I'm "The Catalyst" working on new paradigms (UPP retrieval, Retentive Recommendations, AI/Reflex/Pinsight).
+My most directly comparable peer at the same level under the same manager is Dhruvil — Sr. EM, Ranking team, M17. Different brand: he's "The Steady Hand" running the stable legacy ranking infra; I'm "The Catalyst" working on new paradigms (UPP retrieval, Retentive Recommendations, AI/Reflex/Pinkerton).
 
 Visibility behavior is very different. He proactively tags the CTO on Slack threads, initiates exec-visible discussions, frames everything in business-impact language, surfaces resource needs publicly without embarrassment. I default to letting work speak for itself — solve quietly, escalate rarely. My manager moves zero-friction with him on resource asks; I tend to join his threads with "+1" energy reactively.
 
@@ -2022,7 +2022,7 @@ If you don’t have those, the meeting failed—regardless of how positive it fe
 
 **PROMPT:**
 
-I have a 25-minute Office Hours slot with our VP of Eng on 5/8. His current model of me: ~25% awareness, fragmented — saw a tool demo I gave (PinSight, ~2 weeks ago, went well), some context on a platform project (UPP), brief intersection on Reflex.
+I have a 25-minute Office Hours slot with our VP of Eng on 5/8. His current model of me: ~25% awareness, fragmented — saw a tool demo I gave (Pinkerton, ~2 weeks ago, went well), some context on a platform project (UPP), brief intersection on Reflex.
 
 Goal: shift his mental model from "the AI guy who built that demo tool" to "the leader behind Retentive Recommendations + Reflex." Note: Retentive Recommendations is my biggest named-thing artifact and he hasn't been exposed to it yet. There's a sensitive sub-dynamic — he tends to ask my manager for engineer names to pull onto special projects, and my manager has been shielding my team. So his interest in specific engineers is touchy.
 
@@ -2062,7 +2062,7 @@ Your job is to overwrite his current mental model immediately.
 
 Say something like:
 
-> “You’ve seen PinSight and some of the UPP work. The bigger thing I’m driving is shifting us from stateless ranking to persistent user understanding—Retentive Recommendations—and the simulation layer (Reflex) that lets us test and scale that across surfaces.”
+> “You’ve seen Pinkerton and some of the UPP work. The bigger thing I’m driving is shifting us from stateless ranking to persistent user understanding—Retentive Recommendations—and the simulation layer (Reflex) that lets us test and scale that across surfaces.”
 
 Pause.
 
@@ -3765,7 +3765,7 @@ I have two strong named-thing candidates within calibration distance:
 
 1. **Retentive Recommendations** — paradigm shift in how recsys models user state. CEO+CTO buy-in. Paper drafted. WAU + holdout wins. Three-org cross-pollination. Unique attribution to me. Has a predicted UIC (user intent coverage) proof point landing in the calibration window. The proof point is the narrative crescendo.
 
-2. **Reflex / Pinsight** — LLM-agentic simulation tool whose data substrate has been organically forked by Notifications and Search teams; is becoming a horizontal platform. My Sr. Director sponsor publicly designated me as technical lead. Cross-team contributors are starting to ship.
+2. **Reflex / Pinkerton** — LLM-agentic simulation tool whose data substrate has been organically forked by Notifications and Search teams; is becoming a horizontal platform. My Sr. Director sponsor publicly designated me as technical lead. Cross-team contributors are starting to ship.
 
 Both are mid-arc. Both have credit-leakage risk if I don't visibly drive: RR could go to my Sr. Director sponsor (since it lives inside his strategic vision); Reflex could fragment across the cross-team contributors. Calibration is 8–12 weeks out.
 
@@ -3827,7 +3827,7 @@ Let’s strip them down to promotion-relevant dimensions:
 
 ---
 
-### **Reflex / Pinsight**
+### **Reflex / Pinkerton**
 
 **Strengths:**
 

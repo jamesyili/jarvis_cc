@@ -34,7 +34,7 @@ Structured markdown files that Leo reads before engaging on anything substantive
 - **`journals_and_growth.md`** — Synthesized lessons on top, chronological journal entries below. The journal is where raw experience gets processed into growth patterns.
 - **`people/stakeholders.md`** — 21 stakeholder profiles with trust state, DISC, operating plans, risks.
 - **`people/dylan_archive.md`** — Deep relationship audit of Dylan (James's manager) — trust arc, user manual, Director gap analysis.
-- **`projects/`** — Specs for UPP (unified retrieval platform), Pinsight (agentic debugger), PINvestigator, Retentive Recs, and technical references.
+- **`projects/`** — Specs for UPP (unified retrieval platform), Pinkerton (agentic debugger), PINvestigator, Retentive Recs, and technical references.
 
 ### Skills (24 total)
 
@@ -151,7 +151,7 @@ These are the coaching tools and growth patterns that come up most often:
 - **G0:** Inner foundation — emotional resilience, faster recovery from triggers
 - **G1:** Retentive Recommendations — flagship retention-focused business outcome
 - **G1.5:** UPP Retrieval platform — co-equal pillar with Dhruvil's ranking foundation
-- **G2:** Agentic AI craft — PINvestigator, Pinsight, genuine hands-on expertise
+- **G2:** Agentic AI craft — PINvestigator, Pinkerton, genuine hands-on expertise
 - **G3:** Scale the org — TLs/EMs running things, EM hire in progress
 - **G4:** Executive presence — brevity, calm, political fluency under pressure
 - **G5:** Interview readiness — ML system design prep for optionality (not actively interviewing)

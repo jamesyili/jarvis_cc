@@ -316,7 +316,7 @@ Pick *one* Jeff-aligned program that is also secretly your thesis delivery vehic
 
 ### Your owned wedge inside it
 
-* **Diagnostics + experiment velocity substrate** (PINvestigator/Pinsight/Reflex-ish)
+* **Diagnostics + experiment velocity substrate** (PINvestigator/Pinkerton/Reflex-ish)
 * **Reusable retrieval enablement** (CLR/UPP distribution path)
 
 ### The flagship use case (your thesis, but framed as proof)
@@ -575,9 +575,9 @@ Those are stronger than compliments.
 **Roberto Konow** — peer Sr. EM, Search, reports to **Kurchi** (Sr. Director, structural counterweight to Dylan-line). Roberto has been steadily out-positioning me with Jeff in the AI/agentic-tooling narrative:
 
 - **March 2026** — Jeff's org-wide email named Roberto, Phil, and Aravindh — people with shipped tools. I was invisible. My lesson: *"Coordinating other people's demos makes you invisible. Jeff remembers Roberto, not the coordinator."*
-- **Roberto built a Claude-Code-powered Search funnel debugger.** Jeff publicly highlighted it. Directly overlaps PINvestigator/Pinsight.
+- **Roberto built a Claude-Code-powered Search funnel debugger.** Jeff publicly highlighted it. Directly overlaps PINvestigator/Pinkerton.
 - **April 9 — Akaasha demo.** I asked a maturity question. Jeff smoothed: *"despite James's question, still very impressive."*
-- **April 9 PM — Brian Lee's recsys observability meeting.** I started pitching Pinsight. Roberto interrupted with pre-apologized territorial claim: *"I'm sorry to steal your thunder but I got agents working on search eval tool."* My DM to Roberto 9 days earlier (3/31, congratulations + sharing direction) **never got a reply.**
+- **April 9 PM — Brian Lee's recsys observability meeting.** I started pitching Pinkerton. Roberto interrupted with pre-apologized territorial claim: *"I'm sorry to steal your thunder but I got agents working on search eval tool."* My DM to Roberto 9 days earlier (3/31, congratulations + sharing direction) **never got a reply.**
 - **May 1 reorg.** Kurchi expanded Roberto's scope to Text Search end-to-end. Director-track language.
 
 **Three peer-shapes I've been holding:**
@@ -629,7 +629,7 @@ You don’t ask to “partner.” You propose **interop** between two tools so b
 
 **One-sentence framing:**
 
-> “Roberto, your Search funnel debugger is getting real pull. I’m building Pinsight/PINvestigator patterns in HF. Rather than duplicate, I want to define a tiny shared interface so we can share agentic eval components across Search + HF.”
+> “Roberto, your Search funnel debugger is getting real pull. I’m building Pinkerton/PINvestigator patterns in HF. Rather than duplicate, I want to define a tiny shared interface so we can share agentic eval components across Search + HF.”
 
 ### Concrete deliverable (2-week wedge)
 
@@ -643,7 +643,7 @@ Pick ONE:
 
 Make it about *his* success + system win, and keep it low-ego:
 
-> “Roberto — I saw your agentic eval tooling direction in Brian’s meeting. It’s strong and it overlaps with what I’m doing in HF (Pinsight/PINvestigator). I don’t want us to build two parallel things.
+> “Roberto — I saw your agentic eval tooling direction in Brian’s meeting. It’s strong and it overlaps with what I’m doing in HF (Pinkerton/PINvestigator). I don’t want us to build two parallel things.
 > I’m drafting a 1-page interop spec (10 bullets) so Search + HF can share agentic components. If you’re open, can you do an async review by Thursday?
 > If it’s good, you should present it as the Search/HF interop path; I’m happy to be the supporting co-author.”
 
@@ -830,7 +830,7 @@ I have **two parallel situations** where there's a senior between me and Jeff wh
 
 **Reflex / Anticipation:**
 - **Andrew Yaroshevsky** — Sr. Director (Product), my biggest narrative lift. He's the public visionary. Demoed Reflex at EPD on 5/4 to ~3,700 audience. What Jeff "saw and remembers" is Andrew's vision.
-- My team builds the Detect + Simulate substrate underneath (Pinsight). The Retentive Recommendations program (UCAN holdout WAU-positive from new user-interest representation; anticipation/prediction layer in flight) is the recsys foundation under the anticipation thesis. Engineering Blog post 4/17 names me publicly as program lead.
+- My team builds the Detect + Simulate substrate underneath (Pinkerton). The Retentive Recommendations program (UCAN holdout WAU-positive from new user-interest representation; anticipation/prediction layer in flight) is the recsys foundation under the anticipation thesis. Engineering Blog post 4/17 names me publicly as program lead.
 
 **UPP (Universal Pretrained Pinner representation):**
 - **Rajat** — VP Eng, my skip, the VP champion. UPP is **Jeff-initiated** (Jeff's vision, Rajat's program).
@@ -856,7 +856,7 @@ For any senior-conduit setup, you want three layers to be explicit:
 
 1. **Face (vision + narrative):** Andrew / Rajat
 2. **Operator (named execution leader):** *you*
-3. **Mechanism (reusable system the company adopts):** your substrate (Pinsight/PINvestigator, Detect+Simulate, CLR enablement, etc.)
+3. **Mechanism (reusable system the company adopts):** your substrate (Pinkerton/PINvestigator, Detect+Simulate, CLR enablement, etc.)
 
 Your failure mode is #2 being implicit. Your win condition is Jeff being able to say:
 
@@ -889,7 +889,7 @@ This is the cleanest solution because it’s **status-safe**: you’re not compe
 
 Pick one per program:
 
-* Reflex/Anticipation: “Detect+Simulate Substrate” (Pinsight + simulation loop + eval harness)
+* Reflex/Anticipation: “Detect+Simulate Substrate” (Pinkerton + simulation loop + eval harness)
 * UPP: “CLR Distribution Layer” (how UPP becomes surface capability, not just platform depth)
 
 Then make a one-page **Mechanism Brief**:
@@ -1283,7 +1283,7 @@ You’re trying to climb exactly one rung at a time.
 
 **Reflex/EPD as fallback (only if Jeff brings it up):**
 - Read-back move: *"Curious what landed for you / for Matt?"* — get intel without crowding Andrew.
-- If pulled into substance: *"Pinsight is the Detect + Simulate layer underneath what you saw. Cross-org adoption was already running before the demo."*
+- If pulled into substance: *"Pinkerton is the Detect + Simulate layer underneath what you saw. Cross-org adoption was already running before the demo."*
 - Subtle lineage: *"Andrew's anticipation framing"* — preserve his vision ownership.
 
 **Constraints:**
@@ -1354,7 +1354,7 @@ Pick **(ii) one-deep on the capability frame with proof**, with two optional bra
 **Branch only if pulled:**
 
 * If he asks “how does this spread?” → go to cross-org pull + adoption plan.
-* If he asks “how does this relate to AI modernization?” → “Pinsight/Detect+Simulate is the reusable substrate; it’s already being pulled.”
+* If he asks “how does this relate to AI modernization?” → “Pinkerton/Detect+Simulate is the reusable substrate; it’s already being pulled.”
 
 ---
 

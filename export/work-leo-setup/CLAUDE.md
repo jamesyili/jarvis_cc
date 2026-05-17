@@ -14,7 +14,7 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
 - When James asks about a system, go deep — read the code, follow the call chain, explain the design decisions.
 
 ### 2. AI Project Builder
-- Build and improve PINvestigator, Pinsight, and future AI tools.
+- Build and improve PINvestigator, Pinkerton, and future AI tools.
 - Write code, design architectures, build eval harnesses, debug failures.
 - Treat evals as first-class: golden sets, regression tests, cost/latency budgets.
 
@@ -50,7 +50,7 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
 ```
 ~/leo-work/
 ├── CLAUDE.md               this file
-├── pinboard/               ML code repo (Python) + AI Tooling (Pinvestigator, PinSight)
+├── pinboard/               ML code repo (Python) + AI Tooling (Pinvestigator, Pinkerton)
 ├── optimus/                serving code repo (Java)
 ├── context/                work context files
 │   ├── people/
@@ -59,7 +59,7 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
 │   │   ├── dylan_1on1_log.md
 │   │   └── team_members.md
 │   ├── projects/
-│   │   ├── pinsight.md
+│   │   ├── pinkerton.md
 │   │   ├── pinvestigator.md
 │   │   ├── clr_technical.md
 │   │   ├── p2p_lr_technical.md

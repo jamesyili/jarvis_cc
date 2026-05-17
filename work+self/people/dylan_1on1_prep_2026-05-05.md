@@ -2,7 +2,7 @@
 
 > 30-min 1:1, day after EPD demo. Goal = **convert today's exec pull into a controlled program with clear ownership, boundaries, and next actions.** This is a program-operating-model meeting, not a celebration or reassurance meeting.
 >
-> **Companion docs:** `work+self/projects/pinsight/epd_demo_2026-05-04_debrief.md` (full demo + DM debrief) · `work+self/people/pre_june_readiness.md` §May posture · `work+self/H1_career_convo.md` · `work+self/projects/pinsight/epd_demo_2026-05-04_prep.md`
+> **Companion docs:** `work+self/projects/pinkerton/epd_demo_2026-05-04_debrief.md` (full demo + DM debrief) · `work+self/people/pre_june_readiness.md` §May posture · `work+self/H1_career_convo.md` · `work+self/projects/pinkerton/epd_demo_2026-05-04_prep.md`
 
 ---
 
@@ -150,7 +150,7 @@ This is **Director-shaped framing** (org-needs-first per CLAUDE.md operating pri
 
 ### JJ Hu + HF Relevance Metrics Oncall Runbook revamp
 
-> *"FYI — JJ and I are revamping the oncall runbook with directions to use AI tooling (PINvestigator + PinSight). Updating supersets + statsboards to point at the right things."*
+> *"FYI — JJ and I are revamping the oncall runbook with directions to use AI tooling (PINvestigator + Pinkerton). Updating supersets + statsboards to point at the right things."*
 
 This is good — **operationalizes the AI-leveraged-leader narrative through team workstream.** Not just a demo; a runbook your team uses daily. Worth Dylan knowing.
 
@@ -196,7 +196,7 @@ This directly counters the IC-comfort instinct. Lock it now; tell yourself out l
 
 ## Cross-references
 
-- `work+self/projects/pinsight/epd_demo_2026-05-04_debrief.md` — full demo debrief, DM threads verbatim, Sponsor Stack mapping, multi-variant Dylan-rescope read
+- `work+self/projects/pinkerton/epd_demo_2026-05-04_debrief.md` — full demo debrief, DM threads verbatim, Sponsor Stack mapping, multi-variant Dylan-rescope read
 - `work+self/people/pre_june_readiness.md` — May posture section, Q11 5-signal dashboard, Sponsor Stack typology, items #14 #15 #16 (Pers-Ops Runbook revamp + JJ endorsement + EM backfill)
 - `work+self/people/jeff_rajat_office_hours_prep.md` — Jeff Tue 5/7 + Rajat Wed 5/8 prep
 - `work+self/H1_career_convo.md` — Dylan career convo (week of 5/20)

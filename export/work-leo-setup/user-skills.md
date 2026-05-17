@@ -65,9 +65,9 @@ Both depend on `context/people/stakeholders.md` and related files. Work-leo has 
 | `frontend-patterns` | Frontend patterns for React, Next.js, state management, performance. | **YES** |
 | `design-system` | Generate or audit design systems, check visual consistency, review styling PRs. | **YES** |
 | `tdd-workflow` | Test-driven development with 80%+ coverage (unit + integration + E2E). | **YES** |
-| `eval-harness` | Formal evaluation framework implementing eval-driven development (EDD) principles. | **YES** — highly relevant for PINvestigator/Pinsight work |
+| `eval-harness` | Formal evaluation framework implementing eval-driven development (EDD) principles. | **YES** — highly relevant for PINvestigator/Pinkerton work |
 | `blueprint` | Turn a one-line objective into a multi-session construction plan with adversarial review gate. | **YES** — ideal for Reflex redesign migration phases |
-| `cost-aware-llm-pipeline` | Cost optimization patterns for LLM API usage — routing, budget tracking, caching. | **YES** — relevant for Pinsight/Reflex agent costs |
+| `cost-aware-llm-pipeline` | Cost optimization patterns for LLM API usage — routing, budget tracking, caching. | **YES** — relevant for Pinkerton/Reflex agent costs |
 | `product-lens` | Validate the "why" before building, pressure-test product direction. | **YES** |
 
 All of these are domain-general and transfer cleanly.

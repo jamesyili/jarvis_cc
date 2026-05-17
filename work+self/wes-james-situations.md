@@ -21,7 +21,7 @@
 
 I'm a Senior ML Engineering Manager at Pinterest, joined Sept 2024 (~1 yr 9 mos at Pinterest; ~12 years total working career since Jul 2014 at Yahoo Labs → Facebook IC/Senior/Staff/EM → Snap EM/Head of Stories Ranking). Currently M17 with M18/Director as the target. I lead the Homefeed Candidate Generation team — the core retrieval layer that decides what Pins are eligible to show 500M+ users. Team size 17–20 directs; I'm hiring an EM-under-me to build a layer (2 lean-no's so far on backfill).
 
-My manager just gave me an Exceeds rating + ~$1.2M equity refresh over 3 years — peak operational trust. I have two attributable named-thing artifacts in flight: (1) Retentive Recommendations, a stateful-user-representation paradigm with WAU + holdout wins, CEO+CTO buy-in, paper drafted, three-org cross-pollination; (2) Reflex/Pinsight, an LLM-agentic simulation+detection tool whose data substrate has been organically forked by Notifications and Search teams.
+My manager just gave me an Exceeds rating + ~$1.2M equity refresh over 3 years — peak operational trust. I have two attributable named-thing artifacts in flight: (1) Retentive Recommendations, a stateful-user-representation paradigm with WAU + holdout wins, CEO+CTO buy-in, paper drafted, three-org cross-pollination; (2) Reflex/Pinkerton, an LLM-agentic simulation+detection tool whose data substrate has been organically forked by Notifications and Search teams.
 
 Self-diagnosis on M18 readiness: NOT ready. Named gaps = team size + org setup. What's "there" = impact, behavior, influence.
 
@@ -45,7 +45,7 @@ Because you have an "Exceeds" rating and a history of flawless execution, the cu
 
 To close the gap between your operational reputation and your desired strategic reputation, you must execute a PR campaign for yourself by updating the words and frames you use to describe your work.
 
-- **Turn organic adoption into strategic Assertions.** Right now, Reflex/Pinsight being "organically forked" by Notifications and Search is simply an insight. A tactical EM observes this insight and is happy their tool is popular. A strategic M18 Director makes an Assertion. You must step up and assert that Reflex should be the official, mandated data substrate for the entire company. You should say: *"Based on the organic adoption of Reflex in Search and Notifications, I assert we must standardize this architecture across all of Pinterest to accelerate our system velocity."* This proves you have ownership and are willing to take responsibility for an org-wide solution.
+- **Turn organic adoption into strategic Assertions.** Right now, Reflex/Pinkerton being "organically forked" by Notifications and Search is simply an insight. A tactical EM observes this insight and is happy their tool is popular. A strategic M18 Director makes an Assertion. You must step up and assert that Reflex should be the official, mandated data substrate for the entire company. You should say: *"Based on the organic adoption of Reflex in Search and Notifications, I assert we must standardize this architecture across all of Pinterest to accelerate our system velocity."* This proves you have ownership and are willing to take responsibility for an org-wide solution.
 - **Focus on Sales, Not Logistics.** When you talk about Retentive Recommendations, stop focusing on the technical logistics of the paper or the mechanics of three-org cross-pollination. Frame the problem, why it matters, and how your stateful-user-representation paradigm directly drives WAU and top-level business goals.
 - **Act Like an Owner and Demand Resources Strategically.** Do not wait for your EM backfill to arrive to feel like you have the right "org setup." Act like an owner and assume you hold the baton. Start positioning yourself as the leader of this new paradigm today. Instead of quietly hoping for a backfill, publicly frame your need for an EM through the lens of business ROI: *"To scale Retentive Recommendations and protect our WAU gains, I need X headcount."* By tying your resource needs directly to business outcomes, you compel leadership to fix your structural gap, rather than waiting for the structural gap to close before you act like a Director.
 
@@ -343,7 +343,7 @@ Why this phrasing works:
 
 **PROMPT:**
 
-I have a 25-minute Office Hours slot with our VP of Product on 5/8. His current model of me: ~25% awareness, fragmented — saw a tool demo I gave (PinSight, ~2 weeks ago, went well), some context on a platform project (UPP), brief intersection on Reflex.
+I have a 25-minute Office Hours slot with our VP of Product on 5/8. His current model of me: ~25% awareness, fragmented — saw a tool demo I gave (Pinkerton, ~2 weeks ago, went well), some context on a platform project (UPP), brief intersection on Reflex.
 
 Goal: shift his mental model from "the AI guy who built that demo tool" to "the leader behind Retentive Recommendations + Reflex." Sensitive sub-dynamic: he tends to ask my manager for engineer names to pull onto special projects, and my manager has been shielding my team. So his interest in my engineers is touchy.
 
@@ -370,7 +370,7 @@ To shift his perception from "tactical tool builder" to "strategic leader," do n
 
 To reset his mental model, bridge his current fragmented context to your new strategic narrative, applying the principle to frame 90% around the other person.
 
-> *"Hi [VP Name], great to see you. When we connected recently, you saw the PinSight demo. Since then, my team has elevated that from a single tool into an org-wide capability. Our core focus is now scaling the Retentive Recommendations paradigm and Reflex to directly drive your Q2 WAU targets and drastically reduce manual QA for your Product Managers. I'd love to share our high-level strategy today and get your gut-check on how it aligns with your upcoming roadmap. I know we only have 25 minutes, so feel free to interrupt me if I go too far down a path you already know."*
+> *"Hi [VP Name], great to see you. When we connected recently, you saw the Pinkerton demo. Since then, my team has elevated that from a single tool into an org-wide capability. Our core focus is now scaling the Retentive Recommendations paradigm and Reflex to directly drive your Q2 WAU targets and drastically reduce manual QA for your Product Managers. I'd love to share our high-level strategy today and get your gut-check on how it aligns with your upcoming roadmap. I know we only have 25 minutes, so feel free to interrupt me if I go too far down a path you already know."*
 
 Why it works: It acknowledges the past but immediately pivots to the strategic future. It speaks to his self-interest (WAU targets, his PMs' time), shifts your brand from "builder" to "capability leader," and explicitly gives him permission to interrupt, which puts you in control of the room.
 
@@ -387,7 +387,7 @@ Why it works: You package your impact neatly. By stating that your velocity is d
 To avoid triggering his "is this person lobbying me?" radar, watch out for these failure modes:
 
 - **Do not "Incept Negative Ideas":** Never say things like *"I'm not here to ask for headcount,"* or *"I know my manager has been shielding my team,"* or *"I'm not just the guy who built that demo."* By saying these things, you are incepting negative ideas and giving the VP the exact vocabulary to use against you. Keep the conversation 100% in the affirmative.
-- **Do not fall into the "Cumulative" trap:** Do not list every project you've ever touched (PinSight, UPP, Reflex, Retentive Recs) to prove you are doing a lot. People judge the **average** of your achievements, not the cumulative. If you list four things and two are minor, you drag down your own average. Focus exclusively on the heavy hitters: Retentive Recommendations and Reflex.
+- **Do not fall into the "Cumulative" trap:** Do not list every project you've ever touched (Pinkerton, UPP, Reflex, Retentive Recs) to prove you are doing a lot. People judge the **average** of your achievements, not the cumulative. If you list four things and two are minor, you drag down your own average. Focus exclusively on the heavy hitters: Retentive Recommendations and Reflex.
 - **Do not emit "Insecure Vibes" if he asks for an engineer:** If he pushes to pull an engineer for a special project, do not over-explain or act defensive. Use the **Inverted But** technique to hold your ground calmly. Say: *"It would be great to support that special project, but breaking up the Candidate Generation team right now would put the Q2 WAU targets we just aligned on at risk."*
 
 ---
@@ -666,7 +666,7 @@ To make self-advocacy feel authentic, you must **frame 90% of your message aroun
 I have two strong named-thing candidates within calibration distance:
 
 1. **Retentive Recommendations** — paradigm shift in how recsys models user state. CEO+CTO buy-in. Paper drafted. WAU + holdout wins. Three-org cross-pollination. Unique attribution to me. Has a predicted UIC proof point landing in the calibration window.
-2. **Reflex / Pinsight** — LLM-agentic simulation tool whose data substrate has been organically forked by Notifications and Search teams; becoming a horizontal platform. My Sr. Director sponsor publicly designated me as technical lead.
+2. **Reflex / Pinkerton** — LLM-agentic simulation tool whose data substrate has been organically forked by Notifications and Search teams; becoming a horizontal platform. My Sr. Director sponsor publicly designated me as technical lead.
 
 Both are mid-arc. Both have credit-leakage risk if I don't visibly drive: RR could go to my Sr. Director sponsor; Reflex could fragment across cross-team contributors. Calibration is 8–12 weeks out.
 

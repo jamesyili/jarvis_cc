@@ -8,7 +8,7 @@
 >
 > **Why staying under Dylan:** (1) Trust capital with Jeff — losing Dylan layer = losing Jeff trust. (2) Limited direct-Rajat interaction; I don't yet know how he operates. (3) Both Kanan and Karina were reorged "into" their own teams under Rajat — they actually lost scope, didn't gain altitude. (4) Dylan signaled "thrash" via off-channel cell call — she's role-defining as the political layer, not just absorbing churn.
 >
-> **What Rajat has actually done since arriving (his actions, not his words):** Reorged Kanan (out from Dylan, ~20 ppl, full-stack Director, AI Forward partnership) and Karina (out from Kurchi, ~20 ppl, full-stack Director). Goes deep selectively — customer-experience/feed (the meeting where I surfaced PinSight 4/16) and UPP (pushing Kurchi for speed, asking Dhruvil "when?"). NOT going deep in Dylan's or Kurchi's recsys orgs generally.
+> **What Rajat has actually done since arriving (his actions, not his words):** Reorged Kanan (out from Dylan, ~20 ppl, full-stack Director, AI Forward partnership) and Karina (out from Kurchi, ~20 ppl, full-stack Director). Goes deep selectively — customer-experience/feed (the meeting where I surfaced Pinkerton 4/16) and UPP (pushing Kurchi for speed, asking Dhruvil "when?"). NOT going deep in Dylan's or Kurchi's recsys orgs generally.
 >
 > **Q1 is the centerpiece** — extracting his unfiltered POV via his own snorkel/scuba framework. **The Q1 thesis-test IS the ask** for the OH. No separate ask. Substance Topics 1–3 (Q2) deliver his 4/16 "hook up e2e" mandate; the snorkel/scuba close extracts his commitment to a specific seam.
 
@@ -18,7 +18,7 @@
 
 **Rajat C** = VP Eng, Discovery/Personalization. My skip. Founding Alexa leader. **D/C DISC** — direct, structured, mechanism > narrative, no warmth, Amazon-coded ownership thinking. Active sponsor — Exceeds rating + comp; sustained "keep pushing" mandate (March + April 2026).
 
-**Current mental model of me: ~25%** — anchored on PinSight (4/16 demo, "hook up e2e" mandate) + UPP retrieval workstream context.
+**Current mental model of me: ~25%** — anchored on Pinkerton (4/16 demo, "hook up e2e" mandate) + UPP retrieval workstream context.
 
 **He recently shared his snorkel/scuba framework in monthly staff:** good leaders snorkel on the surface for big-picture issues / opportunities, then scuba dive when something needs depth. Two failure modes he's seen:
 1. **Never scuba dive** — leaders stay surface, can't form real opinions on what should be fixed and why.
@@ -28,11 +28,11 @@ I want to extract his unfiltered POV on what Director-altitude AI leadership loo
 
 **Script — Version A (role explicit):**
 
-> *"You shared the snorkel/scuba framework in staff — that's been my model for the AI-leveraged Director path here. Snorkel across recsys / Pinsight / Reflex / UPP for the seams where things compound; scuba dive when there's a real lever. Anticipation Foundations × Retentive Recs is the bet that came out of it. Where's that thesis strong vs. wrong in your view? And if it's strong — what's the seam that would compound into your priorities?"*
+> *"You shared the snorkel/scuba framework in staff — that's been my model for the AI-leveraged Director path here. Snorkel across recsys / Pinkerton / Reflex / UPP for the seams where things compound; scuba dive when there's a real lever. Anticipation Foundations × Retentive Recs is the bet that came out of it. Where's that thesis strong vs. wrong in your view? And if it's strong — what's the seam that would compound into your priorities?"*
 
 **Script — Version B (role implicit, altitude only):**
 
-> *"You shared the snorkel/scuba framework in staff — that's been my model. Snorkel across recsys / Pinsight / Reflex / UPP for the seams where things compound; scuba dive when there's a real lever. Anticipation Foundations × Retentive Recs is the bet that came out of it. Where's that thesis strong vs. wrong?"*
+> *"You shared the snorkel/scuba framework in staff — that's been my model. Snorkel across recsys / Pinkerton / Reflex / UPP for the seams where things compound; scuba dive when there's a real lever. Anticipation Foundations × Retentive Recs is the bet that came out of it. Where's that thesis strong vs. wrong?"*
 
 **Q1 (two-part):**
 
@@ -42,7 +42,7 @@ I want to extract his unfiltered POV on what Director-altitude AI leadership loo
 
 ### Response
 
-The Straight Truth: anchoring on his snorkel/scuba metaphor is a **good move for a D/C VP** *if it’s used as a shorthand, not a performance*. Your risk isn’t “too studied,” it’s **too many nouns** (recsys / Pinsight / Reflex / UPP / Anticipation Foundations / RR) which invites a drive-by answer because it’s cognitively expensive. Keep the metaphor, cut the inventory. 
+The Straight Truth: anchoring on his snorkel/scuba metaphor is a **good move for a D/C VP** *if it’s used as a shorthand, not a performance*. Your risk isn’t “too studied,” it’s **too many nouns** (recsys / Pinkerton / Reflex / UPP / Anticipation Foundations / RR) which invites a drive-by answer because it’s cognitively expensive. Keep the metaphor, cut the inventory. 
 
 ## (a) Metaphor anchor + A vs B
 
@@ -88,7 +88,7 @@ D/C VPs give short answers when the question allows it. Your job is to ask **a f
 **2) Force a scuba allocation (specific direction)**
 
 > “Assume you want me to **scuba for 6 weeks**. Where exactly would you put me:
-> **A)** scaling RR across surfaces, **B)** UPP retrieval speed to unblock ranking, or **C)** Pinsight/Reflex as the acceleration layer? Pick one.”
+> **A)** scaling RR across surfaces, **B)** UPP retrieval speed to unblock ranking, or **C)** Pinkerton/Reflex as the acceleration layer? Pick one.”
 
 (He has to choose. He can’t answer “all of the above” without you pushing back.)
 
@@ -133,12 +133,12 @@ That reinforces Dylan because you’re aligning on *how to win*, not asking to b
 
 **Structure I'm planning:** ~20 min substance across three topics → snorkel/scuba thesis-test (Q1) as the close. **No separate "what do you need from me?" ask** — the Q1 close *"what's the seam that would compound into your priorities?"* IS the ask.
 
-**The "hook up e2e" mandate (4/16):** When I demoed PinSight to Rajat (Dylan + Andrew also present), he DM'd asking for the monitoring-agent doc and endorsed: *"great! yea that would be a good one to prototype. and hook up e2e."* VP directive, not suggestion. **Same meeting earlier** — during a feed-relevance debrief — he asked *"is anyone building AI tooling to make this easier?"* That's where I surfaced PinSight; he was visibly happy. Pattern: he goes deep on customer-experience and UPP. He pushes for velocity ("when?"). He rewards mechanism-shaped answers.
+**The "hook up e2e" mandate (4/16):** When I demoed Pinkerton to Rajat (Dylan + Andrew also present), he DM'd asking for the monitoring-agent doc and endorsed: *"great! yea that would be a good one to prototype. and hook up e2e."* VP directive, not suggestion. **Same meeting earlier** — during a feed-relevance debrief — he asked *"is anyone building AI tooling to make this easier?"* That's where I surfaced Pinkerton; he was visibly happy. Pattern: he goes deep on customer-experience and UPP. He pushes for velocity ("when?"). He rewards mechanism-shaped answers.
 
 **Three planned substance topics (in order):**
 
-1. **Engineering Agents (PRIMARY)** — same agent unblocks PinSight (auto-fix loop), Reflex Build-stage, CG quota tuning. Reflex Build-stage prototype runs end-to-end on a real HF investigation — directly satisfies the 4/16 "hook up e2e" directive. Allowlist-first on blast radius.
-2. **PinSight evolution** — cross-org adoption (Dimitra/Notif forked unprompted, Darren contributing, Francisco joining, Dafang contributing). PinSight = Detect + Simulate layer in Reflex's 4-stage pipeline.
+1. **Engineering Agents (PRIMARY)** — same agent unblocks Pinkerton (auto-fix loop), Reflex Build-stage, CG quota tuning. Reflex Build-stage prototype runs end-to-end on a real HF investigation — directly satisfies the 4/16 "hook up e2e" directive. Allowlist-first on blast radius.
+2. **Pinkerton evolution** — cross-org adoption (Dimitra/Notif forked unprompted, Darren contributing, Francisco joining, Dafang contributing). Pinkerton = Detect + Simulate layer in Reflex's 4-stage pipeline.
 3. **UPP four-workstream** — Cross-surface training (Zihao), Base CLR scale-up (Devin), Foundation Model in CLR (Sujie + Hongtao), P2P co-design (Piyush + Jiaqing). Single-threaded ownership shape per workstream.
 
 **Then close with Q1 (snorkel/scuba thesis-test).**
@@ -155,15 +155,15 @@ That reinforces Dylan because you’re aligning on *how to win*, not asking to b
 
 **Planned opening line:**
 
-> *"Quick frame — you saw Reflex at EPD. Pinsight is the Detect + Simulate layer underneath, and I've got an engineering-agent prototype hooked up end-to-end on a real HF investigation. On UPP, four workstreams landing in parallel. Where do you want to spend the time?"*
+> *"Quick frame — you saw Reflex at EPD. Pinkerton is the Detect + Simulate layer underneath, and I've got an engineering-agent prototype hooked up end-to-end on a real HF investigation. On UPP, four workstreams landing in parallel. Where do you want to spend the time?"*
 
 **Q2 (three-part):**
 
-**(a)** **Three-topic-then-let-him-pick + Q1 close — right shape for D/C VP at 25 min?** Or should I one-deep on Engineering Agents (the e2e proof of his 4/16 directive) and only surface PinSight + UPP if he asks? D/C profiles like choosing the path AND reward focus.
+**(a)** **Three-topic-then-let-him-pick + Q1 close — right shape for D/C VP at 25 min?** Or should I one-deep on Engineering Agents (the e2e proof of his 4/16 directive) and only surface Pinkerton + UPP if he asks? D/C profiles like choosing the path AND reward focus.
 
 **(b)** **The UPP inversion risk.** Rajat is actively pushing UPP for velocity — pressing Kurchi for speed, asking Dhruvil "when?" Does "UPP runs autonomously across four workstreams" land as architect-signal (autonomous owners = leader leverage, his model) or velocity-absent-signal (James not on the throttle when speed is the priority)? How do I make architectural-leadership-that-enabled-autonomy visible without re-engaging operator mode?
 
-**(c)** **Through-line for the three topics.** I need Rajat to see Engineering Agents + PinSight cross-org + UPP four-workstream as ONE coherent shape (recsys velocity + AI-native engineering at platform altitude), not three separate things. What's the single sentence that ties them — and is it better stated upfront in the opening, or implicit through sequencing?
+**(c)** **Through-line for the three topics.** I need Rajat to see Engineering Agents + Pinkerton cross-org + UPP four-workstream as ONE coherent shape (recsys velocity + AI-native engineering at platform altitude), not three separate things. What's the single sentence that ties them — and is it better stated upfront in the opening, or implicit through sequencing?
 
 ### Response
 
@@ -183,13 +183,13 @@ Why this beats the three-topic opener:
 
 * You **prove execution** first.
 * You give **a binary choice** (agents vs UPP), which D/C brains answer quickly.
-* PinSight naturally sits under “agents” as proof + adoption, so it doesn’t need to be its own branch.
+* Pinkerton naturally sits under “agents” as proof + adoption, so it doesn’t need to be its own branch.
 
 **Timeboxes (25 min):**
 
 * 0:00–2:00 frame + binary choice
 * 2:00–10:00 deep dive on agents (e2e proof)
-* 10:00–13:00 PinSight evolution (as supporting evidence, not a new topic)
+* 10:00–13:00 Pinkerton evolution (as supporting evidence, not a new topic)
 * 13:00–18:00 UPP (only if he picked it OR you need to plant velocity signals)
 * 18:00–25:00 Q1 snorkel/scuba thesis test + recap
 
@@ -229,11 +229,11 @@ That’s Rajat-language.
 
 ## (c) One coherent through-line: single sentence + where to place it
 
-You need a **mechanism sentence** that ties Agents + PinSight + UPP into one flywheel.
+You need a **mechanism sentence** that ties Agents + Pinkerton + UPP into one flywheel.
 
 Here’s the best one for your stack (and his brain):
 
-> **“I’m building the recsys velocity loop: PinSight improves *detect/simulate*, Engineering Agents accelerate *build/ship*, and UPP makes the wins *portable across surfaces*.”**
+> **“I’m building the recsys velocity loop: Pinkerton improves *detect/simulate*, Engineering Agents accelerate *build/ship*, and UPP makes the wins *portable across surfaces*.”**
 
 That’s one idea with three parts, and it maps to how he thinks: loop + leverage + portability.
 
@@ -312,7 +312,7 @@ That forces a real position and turns his answer into **your next operating plan
 **Architectural decisions I made that enabled this autonomy** (which Rajat may or may not have attributed to me):
 - "One moving variable" reframe (Dylan applied; I held the architectural argument)
 - Option 1 (unified base retriever) — championed at March 30 must-win
-- Loose coupling between Reflex and PinSight via API + separate stores
+- Loose coupling between Reflex and Pinkerton via API + separate stores
 - Allowlist-first on engineering-agent blast radius
 
 **The risk vector:** Rajat's mental model of UPP-James drifts to *"James scaled it then stepped back"* (velocity-absent) rather than *"James architected the platform that the org now runs autonomously"* (architect-signal).

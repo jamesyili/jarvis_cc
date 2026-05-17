@@ -246,27 +246,27 @@ Reliability bar: deterministic output, strict CI validation, explicit blast-radi
 
 **Forcing question raised (not yet resolved):** Tight blast radius (allowlisted config files only) vs. wide (any config change in OpportunityCard scope). Leaned tight for v1.
 
-### Reframe 3: Pinsight as offline canary / Simulate stage
+### Reframe 3: Pinkerton as offline canary / Simulate stage
 
-**James's framing:** Pinsight feeds into this as a data substrate — supplements engineering team's ability to reason about code, provides direct anecdotal evidence at scale. Pinsight can serve as an offline canary system parallel to online A/B tests (which cost implementation checking, experimental budget, etc.). Pinsight can offer just as rich data from a different source.
+**James's framing:** Pinkerton feeds into this as a data substrate — supplements engineering team's ability to reason about code, provides direct anecdotal evidence at scale. Pinkerton can serve as an offline canary system parallel to online A/B tests (which cost implementation checking, experimental budget, etc.). Pinkerton can offer just as rich data from a different source.
 
 **What this changed:**
 
-1. **Scope expanded to include Simulate stage** — Pinsight fills Andrew's Simulate. James now structurally contributes to 3 of 4 stages in Andrew's 4-stage pipeline (Curator/Skeptic in Detect, Pinsight in Simulate, future Outcome Learner closing Prove→Detect).
-2. **New stage between Detect and Build:** Pinsight offline canary pre-screens opportunity cards before they consume A/B budget.
+1. **Scope expanded to include Simulate stage** — Pinkerton fills Andrew's Simulate. James now structurally contributes to 3 of 4 stages in Andrew's 4-stage pipeline (Curator/Skeptic in Detect, Pinkerton in Simulate, future Outcome Learner closing Prove→Detect).
+2. **New stage between Detect and Build:** Pinkerton offline canary pre-screens opportunity cards before they consume A/B budget.
 
 **Velocity math (back-of-envelope):**
-- If Pinsight pre-screens 80% of cards offline → Build budget concentrates on the 20% with strongest pre-signal
+- If Pinkerton pre-screens 80% of cards offline → Build budget concentrates on the 20% with strongest pre-signal
 - The 80% that would have failed online fail offline in ~10 days instead of ~35
 - A/B budget frees up to run more survivors in parallel
 
 **Architectural additions:**
-- New schema: `PinsightInvestigation` — structured PINvestigator output
+- New schema: `PinkertonInvestigation` — structured PINvestigator output
 - New schema: `OfflineCanaryResult` — verdict attached to `OpportunityCard.offline_validation`
-- New agent: `PinsightCanaryAgent` — orchestrates Pinsight queries for approved cards
+- New agent: `PinkertonCanaryAgent` — orchestrates Pinkerton queries for approved cards
 - Human override of canary verdict is itself a `ExpertJudgment` with source=`canary_override`
 
-**Forcing question raised (not yet resolved):** Loosely coupled (Pinsight stays its own system, Reflex calls via API, results are refs) vs. tightly integrated (unified `ExpertJudgment` store across both). Leaned loosely-coupled for v1 — tight integration is a Q3+ conversation once both systems are independently stable.
+**Forcing question raised (not yet resolved):** Loosely coupled (Pinkerton stays its own system, Reflex calls via API, results are refs) vs. tightly integrated (unified `ExpertJudgment` store across both). Leaned loosely-coupled for v1 — tight integration is a Q3+ conversation once both systems are independently stable.
 
 ### Cumulative effect of the three reframes
 
@@ -275,16 +275,16 @@ The redesign went from "fix the structural tangling in Reflex Detect" to:
 - **A full research-to-launch system** spanning Detect → Simulate → Build (and eventually Prove→Detect)
 - **With expert labeling as the organizing invariant** — every expert-minute compounds
 - **Measured on end-to-end velocity** — single-number system-health summary
-- **Anchored on Pinsight** as the offline validation layer that makes online A/B budget efficient
+- **Anchored on Pinkerton** as the offline validation layer that makes online A/B budget efficient
 - **With implementation agents** closing the implementation-latency gap
 
 This is a dramatically larger and more ambitious system than what `reflex_next_steps.md` described. It's also the Phase 4 positioning from 2026-04-18c coming home — James as system-completeness architect, not feature contributor.
 
 ### Implications noted but parked
 
-- **Political framing will need to be careful.** The scope now touches Andrew's Detect, Andrew's Simulate (via Pinsight), and Dylan's Build ambitions. The sequencing of proposals and the attribution of contributions matter — James deliberately parked politics; pick up separately once the target doc stabilizes.
+- **Political framing will need to be careful.** The scope now touches Andrew's Detect, Andrew's Simulate (via Pinkerton), and Dylan's Build ambitions. The sequencing of proposals and the attribution of contributions matter — James deliberately parked politics; pick up separately once the target doc stabilizes.
 - **Urgency is real.** The RLHF meeting generates high-volume expert labeling imminently. Minimum-viable labeling capture (`ExpertJudgment` schema + append-only log + Curator parsing Asana comments) should ship in days, not weeks.
-- **Dependencies compound.** Velocity metric requires `CycleTimeRecord` schema → requires state layer → Phase 1 of migration. Implementation agents require `OpportunityCard` pydantic contract → Phase 2. Pinsight canary requires `OfflineCanaryResult` → Phase 2. This means **Phases 1 and 2 of the migration are on the critical path for everything** the new scope cares about.
+- **Dependencies compound.** Velocity metric requires `CycleTimeRecord` schema → requires state layer → Phase 1 of migration. Implementation agents require `OpportunityCard` pydantic contract → Phase 2. Pinkerton canary requires `OfflineCanaryResult` → Phase 2. This means **Phases 1 and 2 of the migration are on the critical path for everything** the new scope cares about.
 
 ---
 
@@ -294,13 +294,13 @@ This is a dramatically larger and more ambitious system than what `reflex_next_s
 - **2026-04-19 (Session 1 continuation):** Three cumulative reframes captured:
   1. Expert labeling elevated to I-0 (top-priority invariant); Curator becomes center of gravity; new schemas `ExpertJudgment` / `PatternProvenance` / `PatternValidation` / `Disagreement` added to state layer.
   2. Scope expanded to Build via implementation agents (`ConfigAgent`, `ExperimentSetupAgent`, `PlaybookMaintenanceAgent`); velocity distinguished as primary optimization target (not an invariant) with decomposed cycle-time measurement.
-  3. Scope expanded to Simulate via Pinsight as offline canary; new schemas `PinsightInvestigation` / `OfflineCanaryResult`; `PinsightCanaryAgent` added. James now contributes structurally to 3 of 4 stages in Andrew's pipeline.
-  Cumulative scope: full Detect → Simulate → Build system organized around compounding expert labeling, measured on end-to-end velocity, with Pinsight as the offline validation layer. Dependencies compound on Phases 1-2 of migration (state layer + typed schemas) — those are the critical path.
+  3. Scope expanded to Simulate via Pinkerton as offline canary; new schemas `PinkertonInvestigation` / `OfflineCanaryResult`; `PinkertonCanaryAgent` added. James now contributes structurally to 3 of 4 stages in Andrew's pipeline.
+  Cumulative scope: full Detect → Simulate → Build system organized around compounding expert labeling, measured on end-to-end velocity, with Pinkerton as the offline validation layer. Dependencies compound on Phases 1-2 of migration (state layer + typed schemas) — those are the critical path.
 
 - **2026-04-19 (Session 1 — Build blast radius decided):** Implementation agent blast radius resolved. **Allowlist-only** for v1. Growth path is engineer-adoption-driven: each engineering team that wants Reflex implementation agents touching its config opts in by adding allowed paths with team-lead + Reflex-owner sign-off. Organic buy-in over top-down rollout. Respects team sovereignty. Trust ladder built into extension protocol (narrow scope → proven reliability → wider scope). `state/build/allowlist.yaml` schema defined; three validation fire-points (pre-write, pre-commit CI, post-merge audit). Section 6.9 added to redesign doc.
 
   *Rationale worth preserving:* this decision isn't just a safety call — it's a political design. By making the allowlist engineer-opt-in rather than agent-default-allowed, James avoids the organizational blowback pattern where agentic systems get halted because one team felt railroaded. The narrow-first approach converts "who's authorized to ship this" into "which teams want to opt in" — a much easier conversation to have at each expansion step.
 
-- **2026-04-19 (Session 1 — Pinsight coupling decided):** Resolved: **loose coupling** for v1. Pinsight stays its own system; Reflex calls via API boundary; Pinsight results stored in Reflex as refs, not copies; no shared internals. Each system retains independent deploys, tests, on-call rotation. `ExpertJudgment` stores remain separate (unified store is a Q3+ consideration).
+- **2026-04-19 (Session 1 — Pinkerton coupling decided):** Resolved: **loose coupling** for v1. Pinkerton stays its own system; Reflex calls via API boundary; Pinkerton results stored in Reflex as refs, not copies; no shared internals. Each system retains independent deploys, tests, on-call rotation. `ExpertJudgment` stores remain separate (unified store is a Q3+ consideration).
 
-  *Rationale worth preserving:* loose coupling v1 protects both systems' independent evolution. Pinsight can refactor without breaking Reflex; Reflex can refactor without breaking Pinsight. It also protects the attribution line politically — Pinsight is clearly James's system, Reflex is clearly Andrew's system, and the API boundary makes the collaboration explicit and demonstrable rather than entangled. Tight integration done later is a *choice*; tight integration done prematurely is a *constraint*. Delay the decision until both systems have earned independent stability.
+  *Rationale worth preserving:* loose coupling v1 protects both systems' independent evolution. Pinkerton can refactor without breaking Reflex; Reflex can refactor without breaking Pinkerton. It also protects the attribution line politically — Pinkerton is clearly James's system, Reflex is clearly Andrew's system, and the API boundary makes the collaboration explicit and demonstrable rather than entangled. Tight integration done later is a *choice*; tight integration done prematurely is a *constraint*. Delay the decision until both systems have earned independent stability.

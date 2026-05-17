@@ -98,13 +98,13 @@ During the demo, **Manu (Sr Director, Data Science)** publicly interjected: "You
 
 4. **Delegate features to JJ aggressively.** JJ contributing to PINvestigator while on PTO is the strongest possible signal he wants this. Hand him: eval harness expansion, new surface integrations, better harnessing strategies. **James keeps:** adoption + stakeholder layer (Manu, Kareem, Dhruvil, Dylan, Jeff follow-up). **Why partition:** JJ gets a clean promo artifact for end-of-June with James as visible sponsor; James gets velocity without building himself into a corner. If the work merges, JJ's promo case gets muddy.
 
-5. **Stop benchmarking PINvestigator's reception against Akaasha's demo.** That comparison is the Roberto-line tournament re-asserting itself. Not a fair comp for James's Pinsight/PINvestigator track — Akaasha sits in the Kurchi-line dynamic, which is partly proxy for Dylan-vs-Kurchi director-level positioning. *Impact Over Approval audit:* James's scoreboard is **adoption volume**, not exec question count.
+5. **Stop benchmarking PINvestigator's reception against Akaasha's demo.** That comparison is the Roberto-line tournament re-asserting itself. Not a fair comp for James's Pinkerton/PINvestigator track — Akaasha sits in the Kurchi-line dynamic, which is partly proxy for Dylan-vs-Kurchi director-level positioning. *Impact Over Approval audit:* James's scoreboard is **adoption volume**, not exec question count.
 
 ### Reflex Connection (updated 2026-04-11)
 
-PINvestigator is the **"Detect" layer** of Andrew Yaroshevsky's Reflex vision (self-healing discovery stack). It surfaces metric anomalies; Pinsight (separate project) handles diagnosis.
+PINvestigator is the **"Detect" layer** of Andrew Yaroshevsky's Reflex vision (self-healing discovery stack). It surfaces metric anomalies; Pinkerton (separate project) handles diagnosis.
 
-Reflex has escalated significantly this week — Andrew built a working prototype and has committed to landing the code in git **before Tuesday 2026-04-14** for explicit co-development with James. PINvestigator's adoption story is now load-bearing for the broader Reflex narrative: every PINvestigator run is also a hypothesis source Reflex can consume. See `pinsight/pinsight.md` for the full Reflex × Anticipation Vision context.
+Reflex has escalated significantly this week — Andrew built a working prototype and has committed to landing the code in git **before Tuesday 2026-04-14** for explicit co-development with James. PINvestigator's adoption story is now load-bearing for the broader Reflex narrative: every PINvestigator run is also a hypothesis source Reflex can consume. See `pinkerton/pinkerton.md` for the full Reflex × Anticipation Vision context.
 
 ### Ownership going forward
 

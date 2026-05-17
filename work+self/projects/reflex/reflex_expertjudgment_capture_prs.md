@@ -285,7 +285,7 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-AgentName = Literal["pm", "ds", "skeptic", "curator", "backfill", "pinsight_canary"]
+AgentName = Literal["pm", "ds", "skeptic", "curator", "backfill", "pinkerton_canary"]
 
 
 class CostLedgerEntry(BaseModel):
@@ -1830,7 +1830,7 @@ timestamps we can recover from Asana:
 - t2_skeptic_verdict: NOT AVAILABLE pre-Skeptic (null for baseline)
 - t3_expert_approved: Asana approval event or first non-agent comment with 'approve'/'lgtm'
   heuristic (best-effort; null if unclear)
-- t4+: NOT AVAILABLE for baseline (Pinsight canary + implementation agents are future)
+- t4+: NOT AVAILABLE for baseline (Pinkerton canary + implementation agents are future)
 
 For shipped cards, terminal_stage = 'shipped'. For archived, 'killed_by_expert' (default).
 For still-active, terminal_stage matches current section; total_days = null.
@@ -1983,7 +1983,7 @@ if __name__ == "__main__":
     raise SystemExit(main())
 ```
 
-**Work-leo note:** this is a best-effort baseline. Many stage timestamps will be null (pre-Skeptic, pre-Pinsight, pre-implementation-agents). The headline number is what's available: `t_terminal - t0` for completed cards. Expect median to be high (weeks-to-months) — that's the point. Improvement is the delta over time.
+**Work-leo note:** this is a best-effort baseline. Many stage timestamps will be null (pre-Skeptic, pre-Pinkerton, pre-implementation-agents). The headline number is what's available: `t_terminal - t0` for completed cards. Expect median to be high (weeks-to-months) — that's the point. Improvement is the delta over time.
 
 #### 3. `services/reflex/detect/scripts/reflex_dashboard.py`
 

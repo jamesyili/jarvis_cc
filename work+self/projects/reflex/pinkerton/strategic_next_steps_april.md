@@ -1,6 +1,6 @@
-# Pinsight & Reflex: Strategic Next Steps — April 2026
+# Pinkerton & Reflex: Strategic Next Steps — April 2026
 
-> Strategic playbook for navigating organizational dynamics around Pinsight, Reflex, and AI tooling. Informed by Wes Kao (exec framing), Shreyas Doshi (managing up), Ethan Evans (Director-level influence), and Coaching Patterns (emotional regulation under competitive pressure).
+> Strategic playbook for navigating organizational dynamics around Pinkerton, Reflex, and AI tooling. Informed by Wes Kao (exec framing), Shreyas Doshi (managing up), Ethan Evans (Director-level influence), and Coaching Patterns (emotional regulation under competitive pressure).
 
 Last updated: 2026-04-12
 
@@ -9,7 +9,7 @@ Last updated: 2026-04-12
 ## The Strategic Landscape
 
 ### What James Owns
-- **Pinsight** — agentic rec system analysis tool. M0 in production. M1 building now. The investigation and analysis engine.
+- **Pinkerton** — agentic rec system analysis tool. M0 in production. M1 building now. The investigation and analysis engine.
 - **PINvestigator** — agentic incident investigation tool. Eval harness shipped. Dylan, Dhruvil using it.
 - **Expert-in-loop role on Reflex** — codepath knowledge + RLHF feedback for Andrew's autonomous quality agent.
 
@@ -18,7 +18,7 @@ Last updated: 2026-04-12
 | Ally | What they can do | What they need from James |
 |------|-----------------|--------------------------|
 | **Dylan** (Sr. Director) | Carry the story into Sr. Director syncs, pre-wire Jeff/Rajat, provide debugging cases as test fixtures | A 2-page BLUF memo she can use as-is. Not a brainstorm — executable ammunition. |
-| **Andrew** (Sr. Director, Product) | Own the Reflex vision to CTO, provide product narrative air cover | Real findings from Pinsight/Reflex that make his vision tangible. Artifacts, not feedback. |
+| **Andrew** (Sr. Director, Product) | Own the Reflex vision to CTO, provide product narrative air cover | Real findings from Pinkerton/Reflex that make his vision tangible. Artifacts, not feedback. |
 | **Darren** (Director, Infra) | Champion cross-org adoption in Director circles, staff eval DS | A specific artifact + a specific ask: "Would you drop this in your next Jeff sync?" |
 | **Brian** (EM, Growth) | Co-escalate debuggability gap from a second org, provide peer-EM visibility | Show up every other week. Drop observations. Propose a shared debuggability session. |
 | **Anna** (PM, Retentive Recs) | Amplify inside Andrew's chain, bridge the 4-way nexus | Keep the "nap time" syncs, give her early findings she can get excited about. |
@@ -48,7 +48,7 @@ Never lead with tool architecture, milestone numbers, or team composition. That'
 
 ### 2. Wes Kao: BLUF — Start Right Before You Get Eaten by the Bear
 
-No chronological story of how Pinsight got built. Start at the moment of highest business consequence:
+No chronological story of how Pinkerton got built. Start at the moment of highest business consequence:
 
 - **Wrong:** "Last summer we built a hackathon prototype. Then we shipped M0. Then Daniel did logging..."
 - **Right:** "We're cutting incident investigation from 3 days to 20 minutes. Here's a live example from last week."
@@ -65,7 +65,7 @@ The tool is evidence for the finding. The finding is the headline.
 
 ### 4. Ethan Evans: The Big Win & Alliance Building
 
-**"Your VP probably knows you through one project."** If that project (Pinsight/Reflex/AI tooling) succeeds, you had a great year. If it fails, nothing else matters. Spend 95% of mental energy here.
+**"Your VP probably knows you through one project."** If that project (Pinkerton/Reflex/AI tooling) succeeds, you had a great year. If it fails, nothing else matters. Spend 95% of mental energy here.
 
 **Alliance building through usefulness, not transactions:**
 - Help peers solve their problems (not "help me get visibility")
@@ -80,7 +80,7 @@ The tool is evidence for the finding. The finding is the headline.
 **Status sensor protocol (Signal, Not Truth):**
 1. Name it aloud: "Status sensor is firing."
 2. Locate it somatically — where do you feel it?
-3. Redirect to internal scoreboard within 10 minutes: Is Pinsight better this week than last? Is my team growing? Am I learning something real?
+3. Redirect to internal scoreboard within 10 minutes: Is Pinkerton better this week than last? Is my team growing? Am I learning something real?
 
 **Impact Over Approval audit:** Before any strategic move, ask: "Am I doing this to gain approval or to drive systemic impact?" If approval, the behavior is self-undermining regardless of outcome.
 
@@ -92,21 +92,21 @@ The tool is evidence for the finding. The finding is the headline.
 
 ### Scenario 1: Roberto demos overlapping work at Brian's forum or another venue
 
-**What happens:** Roberto presents agentic eval tooling for Search that overlaps with Pinsight territory. EMs in the room start associating "agentic recommendation debugging" with Roberto.
+**What happens:** Roberto presents agentic eval tooling for Search that overlaps with Pinkerton territory. EMs in the room start associating "agentic recommendation debugging" with Roberto.
 
 **How to respond:**
 - In the room: Bridge, don't compete. "That's great coverage for Search. We're seeing the same pain in HF retrieval — different funnel, different debugging patterns. The architectures could complement each other cross-surface."
-- After: Don't counter-demo next week. Instead, bring a *finding* to the next session you attend: "We ran Pinsight on [real incident]. Here's what it found." Impact, not features.
+- After: Don't counter-demo next week. Instead, bring a *finding* to the next session you attend: "We ran Pinkerton on [real incident]. Here's what it found." Impact, not features.
 - Don't say: "We were building this first" or "Our tool does more." That's self-expression, not strategy.
 
-**Wes Kao frame:** Jeff's real question (QBQ) if he hears about both tools is "Are two orgs wasting headcount on the same thing?" Pre-answer this with complementarity framing before he asks: "Roberto's Search Debugger is purpose-built for Search evaluation. Pinsight is purpose-built for the Homefeed retrieval pipeline — different scale, different funnel stages, different debugging patterns. Together they give comprehensive coverage across surfaces."
+**Wes Kao frame:** Jeff's real question (QBQ) if he hears about both tools is "Are two orgs wasting headcount on the same thing?" Pre-answer this with complementarity framing before he asks: "Roberto's Search Debugger is purpose-built for Search evaluation. Pinkerton is purpose-built for the Homefeed retrieval pipeline — different scale, different funnel stages, different debugging patterns. Together they give comprehensive coverage across surfaces."
 
-### Scenario 2: Leadership asks "How is Pinsight different from Roberto's tool?"
+### Scenario 2: Leadership asks "How is Pinkerton different from Roberto's tool?"
 
 **What happens:** Dylan, Rajat, or Jeff directly asks about overlap.
 
 **How to respond (rehearsed, calm, two sentences):**
-"Roberto's tool covers Search-specific evaluation and it's doing great work there. Pinsight covers the Homefeed retrieval pipeline end-to-end — 14 funnel stages, plus we're co-developing with Andrew on Reflex for autonomous quality monitoring across the full recommendation system."
+"Roberto's tool covers Search-specific evaluation and it's doing great work there. Pinkerton covers the Homefeed retrieval pipeline end-to-end — 14 funnel stages, plus we're co-developing with Andrew on Reflex for autonomous quality monitoring across the full recommendation system."
 
 **What NOT to say:**
 - Anything defensive ("Well, we were actually building this before...")
@@ -115,18 +115,18 @@ The tool is evidence for the finding. The finding is the headline.
 
 **Ethan Evans frame:** Don't try to change the question. Answer it cleanly, then move to your strength: the cross-org story (Andrew + Darren + Dylan) that Roberto doesn't have.
 
-### Scenario 3: Andrew's Reflex narrative overshadows Pinsight
+### Scenario 3: Andrew's Reflex narrative overshadows Pinkerton
 
-**What happens:** Andrew presents Reflex to Matt Madrigal or in a leadership forum. Pinsight is mentioned as a component, not as James's work. James feels invisible.
+**What happens:** Andrew presents Reflex to Matt Madrigal or in a leadership forum. Pinkerton is mentioned as a component, not as James's work. James feels invisible.
 
 **How to respond:**
-- This is actually success, not failure. Pinsight being load-bearing inside Reflex means it's essential. Andrew crediting "the team" implicitly includes James.
-- If needed, surface Pinsight findings independently: your observation-style contributions in other venues (Brian's forum, Dylan's team updates) maintain your personal brand without competing with Andrew's narrative.
+- This is actually success, not failure. Pinkerton being load-bearing inside Reflex means it's essential. Andrew crediting "the team" implicitly includes James.
+- If needed, surface Pinkerton findings independently: your observation-style contributions in other venues (Brian's forum, Dylan's team updates) maintain your personal brand without competing with Andrew's narrative.
 - If this persists over multiple cycles, use the OAV frame with Dylan: "Reflex is getting great traction. I want to make sure my contribution is visible for my Director case. Does Rajat know I built the investigation layer?" This is a legitimate managing-up ask to your direct manager — not insecurity.
 
-**Coaching Patterns check:** Run the Impact Over Approval audit. If Reflex succeeds and Pinsight is the engine, that IS the Director case. The credit follows from the architecture being essential. Don't chase attribution at the cost of the partnership.
+**Coaching Patterns check:** Run the Impact Over Approval audit. If Reflex succeeds and Pinkerton is the engine, that IS the Director case. The credit follows from the architecture being essential. Don't chase attribution at the cost of the partnership.
 
-### Scenario 4: Darren's team tries Pinsight/PINvestigator and it doesn't work well for their domain
+### Scenario 4: Darren's team tries Pinkerton/PINvestigator and it doesn't work well for their domain
 
 **What happens:** You give Darren's eval DS a use case. They try it. It doesn't translate well to infra problems. Darren is polite but doesn't champion it.
 
@@ -152,22 +152,22 @@ The tool is evidence for the finding. The finding is the headline.
 **How to respond:**
 - Don't panic. Don't counter-launch. Don't accelerate a half-baked cross-org push.
 - Roberto's tool is Search-specific. If it spreads, it spreads within Search-adjacent surfaces (Shopping, P2P). HF retrieval is a different funnel with different stages. The tools genuinely serve different purposes.
-- Double down on depth over breadth. Make Pinsight the best possible tool for the HF pipeline. The Reflex co-development with Andrew gives you a different scaling path — autonomous monitoring, not manual debugging.
-- The long game: Reflex (with Pinsight as the engine) is the autonomous quality system. Roberto's tool is manual investigation. Autonomous > manual over time. You don't need to win the adoption race if you win the architecture race.
+- Double down on depth over breadth. Make Pinkerton the best possible tool for the HF pipeline. The Reflex co-development with Andrew gives you a different scaling path — autonomous monitoring, not manual debugging.
+- The long game: Reflex (with Pinkerton as the engine) is the autonomous quality system. Roberto's tool is manual investigation. Autonomous > manual over time. You don't need to win the adoption race if you win the architecture race.
 
-### Scenario 7: Dylan suggests merging Pinsight into Reflex formally
+### Scenario 7: Dylan suggests merging Pinkerton into Reflex formally
 
-**What happens:** Dylan says "Maybe Pinsight should just be part of Reflex" — more than a passing mention this time.
+**What happens:** Dylan says "Maybe Pinkerton should just be part of Reflex" — more than a passing mention this time.
 
 **How to respond:**
 - Ask clarifying questions first: "Do you mean branding/naming, or actual architectural merge? And is this about simplifying the story for leadership, or about how we actually build?"
-- If it's branding: consider it. "Pinsight as the investigation layer of Reflex" preserves your ownership while simplifying the narrative. You still built it. The architecture doesn't change.
-- If it's architectural: push back calmly. "Pinsight has independent value beyond Reflex — the Full Funnel Logging + debugging workflow serves the team even without autonomous monitoring. I'd rather keep them modular and have Reflex consume Pinsight as a service."
+- If it's branding: consider it. "Pinkerton as the investigation layer of Reflex" preserves your ownership while simplifying the narrative. You still built it. The architecture doesn't change.
+- If it's architectural: push back calmly. "Pinkerton has independent value beyond Reflex — the Full Funnel Logging + debugging workflow serves the team even without autonomous monitoring. I'd rather keep them modular and have Reflex consume Pinkerton as a service."
 - Either way: "I want to make sure my contribution is visible in whatever framing we use. How do we make that work?" This is a legitimate ask to your manager, not insecurity.
 
 ### Scenario 8: Nothing happens — no one asks, no one notices
 
-**What happens:** Weeks go by. No office hours slot materializes. No one asks about Pinsight. The work continues but visibility stays flat.
+**What happens:** Weeks go by. No office hours slot materializes. No one asks about Pinkerton. The work continues but visibility stays flat.
 
 **How to respond:**
 - This is the most likely scenario and the one that requires the most discipline.
@@ -179,7 +179,7 @@ The tool is evidence for the finding. The finding is the headline.
 
 ## The Load-Bearing Artifact: The 2-Page BLUF Memo
 
-Wes Kao's strongest recommendation: draft a 2-page Pinsight/Reflex AI ROI memo. This single document unlocks three amplification channels:
+Wes Kao's strongest recommendation: draft a 2-page Pinkerton/Reflex AI ROI memo. This single document unlocks three amplification channels:
 
 1. **Dylan** uses it at the Sr. Director sync (OAV talk track attached)
 2. **Darren** drops it in his next Jeff touchpoint (3-bullet version)
@@ -188,7 +188,7 @@ Wes Kao's strongest recommendation: draft a 2-page Pinsight/Reflex AI ROI memo. 
 **Structure (3A Pyramid):**
 - **Answer:** "We're building autonomous recommendation quality monitoring. It's cutting investigation time from days to minutes and will systematically improve rec quality across surfaces."
 - **Arguments:** Business impact (engineer-days saved, incidents caught, WAU holdout results from Retentive Recs tie-in). Cross-org adoption (Darren's infra, Andrew's Reflex, Dhruvil using PINvestigator).
-- **Add-ons:** Architecture (Pinsight → Reflex pipeline), milestones (M0 shipped, M1 building, Reflex co-dev Tuesday), team (Chuxi 20%, Darren staffing eval DS).
+- **Add-ons:** Architecture (Pinkerton → Reflex pipeline), milestones (M0 shipped, M1 building, Reflex co-dev Tuesday), team (Chuxi 20%, Darren staffing eval DS).
 
 **Status:** Not yet written. This is the P0 artifact for the managing-up strategy.
 
@@ -216,7 +216,7 @@ When the status sensor fires — and it will, especially if Roberto ships someth
 
 1. **Name it:** "Status sensor is firing."
 2. **Ask:** "What do I actually know right now? Everything else is creative writing."
-3. **Check the internal scoreboard:** Is Pinsight better this week? Is the team growing? Am I learning? Did I do good work?
+3. **Check the internal scoreboard:** Is Pinkerton better this week? Is the team growing? Am I learning? Did I do good work?
 4. **Impact Over Approval audit:** Am I reacting to protect my ego, or am I building something that matters?
 5. **Redirect within 10 minutes.** The rumination engine gets 10 minutes. Then it's done. Channel the energy into the next artifact.
 
@@ -230,7 +230,7 @@ The Director case isn't built on "Jeff liked my demo more than Roberto's." It's 
 
 ### With Dylan (your launch pad)
 
-1. **Request a dedicated 30-min strategy session on AI tooling positioning.** Not a 1:1 agenda item — a standalone meeting. "Dylan, I want to spend 30 minutes mapping out how Pinsight/Reflex fits into the AI story you're building with Andrew and Rajat. I want to make sure I'm framing this right and not leaving visibility on the table." This forces the conversation you've been waiting to have. She'll give you the exact framing Rajat needs to hear.
+1. **Request a dedicated 30-min strategy session on AI tooling positioning.** Not a 1:1 agenda item — a standalone meeting. "Dylan, I want to spend 30 minutes mapping out how Pinkerton/Reflex fits into the AI story you're building with Andrew and Rajat. I want to make sure I'm framing this right and not leaving visibility on the table." This forces the conversation you've been waiting to have. She'll give you the exact framing Rajat needs to hear.
 
 2. **Ask Dylan to put you in front of Rajat directly.** "I want to show Rajat what we're building on the AI tooling side. Would it make sense for me to join the next UPP sync with him, or should I go to his office hours?" Don't hint. Ask. Dylan is your sponsor — make her sponsor you.
 
@@ -248,7 +248,7 @@ The Director case isn't built on "Jeff liked my demo more than Roberto's." It's 
 
 8. **Propose an AI tooling showcase to Jeff directly.** "We have PINvestigator, Andrew has Reflex, Brian's forum has been surfacing great work. Would you sponsor a quarterly AI tooling showcase for Core? I'd help organize it." This positions you as the convener — the person who owns the AI tooling narrative at the org level. Jeff will love this because it's his modernization agenda made tangible.
 
-9. **Send Jeff a short async artifact when something lands.** After a big Pinsight finding or Reflex result, Slack Jeff directly: "Quick flag — Pinsight caught [X] today in 20 minutes, would've been a 3-day investigation. Thought you'd find it interesting given the AI-native push." Two sentences. No ask. Let it marinate. Dhruvil does this. You should too.
+9. **Send Jeff a short async artifact when something lands.** After a big Pinkerton finding or Reflex result, Slack Jeff directly: "Quick flag — Pinkerton caught [X] today in 20 minutes, would've been a 3-day investigation. Thought you'd find it interesting given the AI-native push." Two sentences. No ask. Let it marinate. Dhruvil does this. You should too.
 
 ### With Rajat (VP — system velocity, platform coherence)
 
@@ -280,9 +280,9 @@ The Director case isn't built on "Jeff liked my demo more than Roberto's." It's 
 
 20. **Get the Reflex narrative established before Roberto can reframe.** Andrew presenting Reflex to Matt Madrigal is your air cover. Once the CTO knows "Reflex = autonomous quality monitoring, James is the engineering partner," Roberto expanding into agentic eval reads as "parallel effort in Search" not "the real version of what James is doing." Timing matters — push Andrew to present before Roberto's next big demo.
 
-21. **Lock in the complementarity framing pre-emptively.** Don't wait for Jeff to ask "how is this different from Roberto's tool?" Plant the frame first. In your BLUF memo, in Dylan's Sr. Director sync, in your Jeff office hours: "Roberto's Search Debugger covers Search evaluation. Pinsight covers the HF retrieval pipeline. Reflex sits above both as the autonomous quality layer." Say it enough times in enough rooms and it becomes the consensus frame.
+21. **Lock in the complementarity framing pre-emptively.** Don't wait for Jeff to ask "how is this different from Roberto's tool?" Plant the frame first. In your BLUF memo, in Dylan's Sr. Director sync, in your Jeff office hours: "Roberto's Search Debugger covers Search evaluation. Pinkerton covers the HF retrieval pipeline. Reflex sits above both as the autonomous quality layer." Say it enough times in enough rooms and it becomes the consensus frame.
 
-22. **Ship faster.** The single most aggressive move is not political — it's velocity. Every week that Pinsight M1 ships, that PINvestigator catches a real incident, that Reflex produces a finding — that's a data point Roberto can't match in your domain. Features don't lie. Political maneuvering without shipped artifacts is vapor. Ship, then surface. That's the whole game.
+22. **Ship faster.** The single most aggressive move is not political — it's velocity. Every week that Pinkerton M1 ships, that PINvestigator catches a real incident, that Reflex produces a finding — that's a data point Roberto can't match in your domain. Features don't lie. Political maneuvering without shipped artifacts is vapor. Ship, then surface. That's the whole game.
 
 ---
 
@@ -294,4 +294,4 @@ If time is limited, these are the five highest-leverage moves:
 2. **Go to Jeff's office hours before China.** Laptop open. Live demo. 90 seconds. Stop.
 3. **Ask Dylan to put you in front of Rajat.** Don't hint. Ask.
 4. **Schedule the working session with Darren.** Hands-on, not a meeting.
-5. **Ship Pinsight M1.** Nothing political substitutes for this.
+5. **Ship Pinkerton M1.** Nothing political substitutes for this.

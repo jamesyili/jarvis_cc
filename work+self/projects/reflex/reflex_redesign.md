@@ -3,7 +3,7 @@
 **Owner:** James Li
 **Status:** Living design doc — iterated conversationally with Leo
 **Started:** 2026-04-19
-**Companion docs:** `reflex_next_steps.md` (observations), `reflex_feedback_curator_and_skeptic.md` (Curator/Skeptic design), `pinsight-agentic-vision.md` (Phase 4 positioning)
+**Companion docs:** `reflex_next_steps.md` (observations), `reflex_feedback_curator_and_skeptic.md` (Curator/Skeptic design), `pinkerton-agentic-vision.md` (Phase 4 positioning)
 
 ---
 
@@ -13,10 +13,10 @@ Reflex today is tactically functional but structurally tangled. PM Agent, DS Age
 
 This doc captures the target architecture the system should evolve toward. It is **not** a migration plan — that comes after the mental model locks. The goal of this doc is mental clarity: if someone asked "explain Reflex's architecture on a whiteboard in 3 minutes," the answer should be crisp, inspectable, and measurable.
 
-This redesign covers **three stages** of Andrew's 4-stage pipeline: **Detect**, **Simulate** (via Pinsight as offline canary), and **Build** (via implementation agents). Scope extended 2026-04-19 to include:
+This redesign covers **three stages** of Andrew's 4-stage pipeline: **Detect**, **Simulate** (via Pinkerton as offline canary), and **Build** (via implementation agents). Scope extended 2026-04-19 to include:
 
 - Implementation agents — narrow, reliable agents that convert approved opportunity cards into PRs and experiment configs, reducing the A/B test drafting bottleneck
-- Pinsight as offline canary — pre-screens opportunity cards before they consume online A/B budget; serves as rich data substrate for reasoning about code and mechanisms at scale
+- Pinkerton as offline canary — pre-screens opportunity cards before they consume online A/B budget; serves as rich data substrate for reasoning about code and mechanisms at scale
 
 Prove (and closing the Prove→Detect feedback via Outcome Learner) remains a Tier 2 concern but schemas are designed to extend cleanly.
 
@@ -105,7 +105,7 @@ Lower priority because it's a navigability win, not a correctness or observabili
 ```
 ┌─ Detect ──────────────────┐  ┌─ Simulate ─┐  ┌─ Build ────────┐  ┌─ Online ─┐  ┌─ Prove ─┐
 │                           │  │            │  │                │  │          │  │         │
-│ PM ─▶ DS ─▶ Skeptic ─▶    │─▶│ Pinsight   │─▶│ Implementation │─▶│ A/B Test │─▶│ Outcome │
+│ PM ─▶ DS ─▶ Skeptic ─▶    │─▶│ Pinkerton   │─▶│ Implementation │─▶│ A/B Test │─▶│ Outcome │
 │              │  Human     │  │ offline    │  │ agents         │  │ running  │  │ Learner │
 │              ▼  Expert    │  │ canary     │  │ (config PR /   │  │          │  │         │
 │           Curator ◀──     │  │            │  │  experiment    │  │          │  │         │
@@ -113,7 +113,7 @@ Lower priority because it's a navigability win, not a correctness or observabili
 │              ▲            │  │            │  │                │  │          │  │         │
 └──────────────┼────────────┘  └────────────┘  └────────────────┘  └──────────┘  └─────────┘
                │                      │                                                  │
-               │                      └──── PinsightInvestigation ───────────┐           │
+               │                      └──── PinkertonInvestigation ───────────┐           │
                │                                                             ▼           ▼
                └──────────────── ExpertJudgment ◀──── all stages feed ◀── Outcome data ──┘
                                                           into labeling
@@ -126,7 +126,7 @@ Lower priority because it's a navigability win, not a correctness or observabili
 4. **Human Expert** — reviews, comments, approves (produces `ExpertJudgment`s)
 
 **Simulate stage (triggered by approval):**
-5. **PinsightCanaryAgent** — takes approved `OpportunityCard`, runs Pinsight investigations, writes `OfflineCanaryResult`. Cards with negative/inconclusive offline signal can be killed before burning online budget. Human can override.
+5. **PinkertonCanaryAgent** — takes approved `OpportunityCard`, runs Pinkerton investigations, writes `OfflineCanaryResult`. Cards with negative/inconclusive offline signal can be killed before burning online budget. Human can override.
 
 **Build stage (triggered by positive canary or override):**
 6. **Implementation agents** — narrow and reliable:
@@ -136,7 +136,7 @@ Lower priority because it's a navigability win, not a correctness or observabili
 7. **Human engineer** — reviews PR, launches experiment
 
 **Async observers:**
-- **Curator** — triggered by any expert interaction (Asana comments, Pinsight findings, meeting decisions); shapes feedback into `ExpertJudgment` records and pattern proposals
+- **Curator** — triggered by any expert interaction (Asana comments, Pinkerton findings, meeting decisions); shapes feedback into `ExpertJudgment` records and pattern proposals
 - **VelocityAgent** — passively measures end-to-end cycle time per card; writes dashboard
 - **Outcome Learner (future)** — triggered by A/B test results; validates patterns against outcomes, writes `PatternValidation`, closes the Prove→Detect loop
 
@@ -777,7 +777,7 @@ by_stage_median_days:
 killed_at_stage:
   skeptic: "12% of hypotheses"
   expert_review: "35% of opportunities"
-  pinsight_canary: "48% of approved cards"   # the big velocity saver
+  pinkerton_canary: "48% of approved cards"   # the big velocity saver
   a_b_test: "17% of implementations"
 trend_30d:
   median_cycle_time_delta: "-7 days"
@@ -841,7 +841,7 @@ Both are greenfield builds on the typed state layer from Phase 1.
 - **What's the right split for `quality_patterns.md` cycle learnings?** Keep as prose archive, or decompose into typed pattern deltas per cycle? Leans toward archive — retrieval isn't the bottleneck for historical learnings.
 - **Do playbooks stay as prose files or become something more structured?** Prose is fine for the body; frontmatter handles discoverability. Avoid over-structuring the body — it's legitimately instructional prose for the agent to read.
 - **How does this coexist with Andrew's `detect/CLAUDE.md`?** The redesign implies `detect/CLAUDE.md` becomes `docs/architecture.md` + a thin pointer. Andrew owns that decision.
-- **Pinsight coupling tightness.** ~~Open~~ **Decided 2026-04-19: loose coupling.** Pinsight stays its own system. Reflex calls it via API boundary. Results in Reflex are stored as refs to Pinsight artifacts, not copies. No shared internals. Each system keeps independent deploys, tests, and on-call. `ExpertJudgment` stores remain separate. Tight integration (unified `ExpertJudgment` store across both systems, direct trace sharing) is a Q3+ conversation once both systems are independently stable and the benefit of unification is demonstrable.
+- **Pinkerton coupling tightness.** ~~Open~~ **Decided 2026-04-19: loose coupling.** Pinkerton stays its own system. Reflex calls it via API boundary. Results in Reflex are stored as refs to Pinkerton artifacts, not copies. No shared internals. Each system keeps independent deploys, tests, and on-call. `ExpertJudgment` stores remain separate. Tight integration (unified `ExpertJudgment` store across both systems, direct trace sharing) is a Q3+ conversation once both systems are independently stable and the benefit of unification is demonstrable.
 - **Implementation agent blast radius.** ~~Open~~ **Decided 2026-04-19:** allowlist-only to start; gradually expand as engineering teams opt in their own config files over time. Growth path is engineer-adoption-driven, not agent-capability-driven — each new engineering team adds its own allowed paths when it wants Reflex implementation agents touching its config. See Section 6.9 for the allowlist mechanism.
 - **Expert-labeling capture deadline.** RLHF meeting generates high-volume labeling imminently. Minimum-viable version (`ExpertJudgment` schema + append-only log + Curator parsing Asana comments) should ship in days, not weeks, to avoid losing that signal.
 - **Outcome Learner timing.** Deferred to Tier 2 originally; under I-0 becomes load-bearing for the feedback loop. Timing depends on when Build/Simulate/Prove artifacts become structured enough to join on.

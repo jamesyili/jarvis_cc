@@ -1,6 +1,6 @@
 # Jeff + Rajat Office Hours Prep — May 7 & 8, 2026
 
-**Purpose:** Self-contained prep covering both back-to-back VP office hours. Two meetings, two distinct strategies, one consolidation arc: get "James = RR lead + Pinsight-as-Reflex-substrate" into VP mental models before the predicted UIC proof point lands.
+**Purpose:** Self-contained prep covering both back-to-back VP office hours. Two meetings, two distinct strategies, one consolidation arc: get "James = RR lead + Pinkerton-as-Reflex-substrate" into VP mental models before the predicted UIC proof point lands.
 
 **Last updated:** 2026-05-02
 **Status:** Rajat OH (5/8, 25 min) booked. Jeff OH (5/7) pending Dylan OK via DM / next 1:1.
@@ -18,7 +18,7 @@
    - **Why lead with Anticipation:** Anticipation is my *owned thesis*. Reflex is Andrew's vision. Re-pitching Reflex violates Jeff's "propagation update not re-demo" pattern and risks crowding Andrew's vision ownership which just got publicly cemented at EPD.
    - **Why Reflex stays as fallback:** if Jeff brings it up, it's an asset. If I lead with it, I'm sub-narrator to Andrew on Andrew's vision. The structural play is: install the OWN-thesis layer (Anticipation as cross-org capability) on top of the proof Jeff just saw (Reflex).
 
-3. **Topic 1 (Anticipation) below = THE LEAD. Topic 2 (Pinsight cross-org) and Topic 3 (Reflex substrate) = FALLBACK material.** Don't volunteer 2 or 3 unless Jeff bridges to them.
+3. **Topic 1 (Anticipation) below = THE LEAD. Topic 2 (Pinkerton cross-org) and Topic 3 (Reflex substrate) = FALLBACK material.** Don't volunteer 2 or 3 unless Jeff bridges to them.
 
 ---
 
@@ -105,7 +105,7 @@ Result + insight + two concrete adopters + demo-able frontier in one sentence.
 | **"Who's leading this?"** | "I am — Engineering Blog post 4/17 named me program lead. Multiple workstreams on my team — Anna on Background, Yuke on Prediction, Olafur on Federation, Armando on Representation." |
 | **"Is this Andrew's vision?"** *(Andrew tension)* | "Building on Andrew's anticipation framing. Andrew owns the consumer-product narrative — Reflex. My team owns the engineering substrate — the capability layer that makes anticipation real across surfaces." |
 | **"Doesn't this overlap with Roberto / Search stuff?"** *(Roberto comparison)* | "Different lane. Roberto's tooling is single-org developer productivity. Anticipation is a cross-org user-facing capability layer. There's a natural interop story if it makes sense to develop." *(Don't echo the negative; pivot to positive cross-org frame.)* |
-| **"How does this relate to Reflex?"** *(natural bridge to fallback)* | "Reflex is the consumer-facing instance of the anticipation thesis. Andrew owns the product narrative. My team owns the substrate — Pinsight is the Detect + Simulate layer underneath what you saw at EPD." *(Now I'm in fallback territory — see Topic 3 below.)* |
+| **"How does this relate to Reflex?"** *(natural bridge to fallback)* | "Reflex is the consumer-facing instance of the anticipation thesis. Andrew owns the product narrative. My team owns the substrate — Pinkerton is the Detect + Simulate layer underneath what you saw at EPD." *(Now I'm in fallback territory — see Topic 3 below.)* |
 | **"How does this scale beyond HF?"** | "Cross-org pull is already happening on the substrate — Dimitra in Notif cloned the repo, Darren and Francisco's teams contributing, Dafang too. The capability layer is portable; that's the design." |
 | **"What's the timeline / next milestone?"** | "Predicted UIC is the next signal — mid-arc. Want me to flag you when it lands, or bring it once we have the full readout?" *(Lets him choose pace — signals respect for his time.)* |
 | **"What do you need from me?"** *(THE ASK MOMENT — see one-ask section below)* | [Use the prepared single ask — recommended language ask: *"If this is the right framing, what's the one-line you'd use? I'll reuse your wording."*] |
@@ -134,7 +134,7 @@ Result + insight + two concrete adopters + demo-able frontier in one sentence.
 If Jeff brings up the EPD demo or asks how I'm involved with Reflex:
 
 1. **Read-back move first:** *"Curious what landed for you / for Matt?"* — get intel without crowding Andrew
-2. **If pulled to substance:** *"Pinsight is the Detect + Simulate layer underneath what you saw. Cross-org adoption was already running before the demo — Dimitra/Notif, Darren, Francisco, Dafang."*
+2. **If pulled to substance:** *"Pinkerton is the Detect + Simulate layer underneath what you saw. Cross-org adoption was already running before the demo — Dimitra/Notif, Darren, Francisco, Dafang."*
 3. **Subtle lineage:** *"Andrew's anticipation framing"* / *"Andrew's vision"* — preserve his vision ownership
 4. **Do NOT** narrate Reflex strategy, claim co-authorship of the vision, or re-explain what he saw
 5. **Bridge back to Anticipation as soon as natural:** *"The capability layer underneath that — Anticipation — is what makes it portable to Notif/Search."*
@@ -143,7 +143,7 @@ If Jeff brings up the EPD demo or asks how I'm involved with Reflex:
 
 ## Context updates 2026-04-25
 
-**1. EPD / CTO demo of Reflex (Andrew) is May 4.** Both OHs land 3-4 days after EPD sees Andrew's demo. Default assumption: both VPs have seen it or heard about it. Reflex framing in this file shifts from *teaser* to *consolidation* — narrate the Pinsight substrate underneath what they just saw; don't re-pitch the surface. Subtle lineage attribution to Andrew matters more, not less — his anticipation-vision ownership just got publicly cemented.
+**1. EPD / CTO demo of Reflex (Andrew) is May 4.** Both OHs land 3-4 days after EPD sees Andrew's demo. Default assumption: both VPs have seen it or heard about it. Reflex framing in this file shifts from *teaser* to *consolidation* — narrate the Pinkerton substrate underneath what they just saw; don't re-pitch the surface. Subtle lineage attribution to Andrew matters more, not less — his anticipation-vision ownership just got publicly cemented.
 
 **2. Rajat / Dylan-as-shield context (background, not script).** Dylan has stepped in as POC for UIC / RR to absorb Rajat's recurring engineer-names ad-hoc-ask flow. Full context in `dylan_archive.md` 2026-04-25 arc-shift entry. **What this means for the OH posture:** the shield is a structural fact running invisibly. My job is to walk in as the substantive program owner I am, deliver on the "hook up e2e" mandate, and let the shield work without performing around it. The only thing I'd never do anyway — volunteering unsolicited rosters of engineers Rajat could redirect — is the same thing any senior EM would never do. That's not a script; that's just operating cleanly.
 
@@ -153,9 +153,9 @@ If anything sensitive surfaces during or after the OH, default to cell-phone deb
 
 ## TL;DR (BLUF for both meetings)
 
-**May 7 — Jeff:** Walk out with Jeff's mental model of James shifted from "AI work in HF, that PINvestigator tool" (~0-10%) to "James = RR lead, Pinsight is the substrate for Andrew's Reflex vision, cross-org pull happening unprompted" (75%+). One sentence opening: UCAN WAU-positive holdout from new representation foundation + James named publicly as program lead on the Engineering Blog post + KDD 2026 paper Architecture chapter. (Note: WAU comes from representation, not prediction — anticipation is the next layer in flight. See POSTURE UPDATE above.) Three Dhruvil-pattern observations, then stop.
+**May 7 — Jeff:** Walk out with Jeff's mental model of James shifted from "AI work in HF, that PINvestigator tool" (~0-10%) to "James = RR lead, Pinkerton is the substrate for Andrew's Reflex vision, cross-org pull happening unprompted" (75%+). One sentence opening: UCAN WAU-positive holdout from new representation foundation + James named publicly as program lead on the Engineering Blog post + KDD 2026 paper Architecture chapter. (Note: WAU comes from representation, not prediction — anticipation is the next layer in flight. See POSTURE UPDATE above.) Three Dhruvil-pattern observations, then stop.
 
-**May 8 — Rajat:** Walk out with Rajat's mental model deepened from "PinSight + UPP context" (~25%) to "engineering agents are unblocking AI-native velocity across recsys, with James driving end-to-end + UPP retrieval workstreams compounding" (75%+). One sentence opening: end-to-end engineering-agent prototype that is the cross-project blocker Dylan + James identified. Three Dhruvil-pattern observations connecting to Rajat's platform-velocity priority.
+**May 8 — Rajat:** Walk out with Rajat's mental model deepened from "Pinkerton + UPP context" (~25%) to "engineering agents are unblocking AI-native velocity across recsys, with James driving end-to-end + UPP retrieval workstreams compounding" (75%+). One sentence opening: end-to-end engineering-agent prototype that is the cross-project blocker Dylan + James identified. Three Dhruvil-pattern observations connecting to Rajat's platform-velocity priority.
 
 ---
 
@@ -177,7 +177,7 @@ Consolidate "James = RR lead" in Jeff's mental model before the predicted UIC pr
 
 If Jeff says "what's going on?" or "what's new?":
 
-> *"Quick frame on three things — the program-level holdout went WAU-positive in UCAN from the new user-interest representation. Engineering Blog post landed last week with my name on it. The Pinsight substrate underneath the Reflex demo Andrew showed last week is the layer my team owns. Predicted UIC is the next bet, in flight. Want to go deeper on any of them?"*
+> *"Quick frame on three things — the program-level holdout went WAU-positive in UCAN from the new user-interest representation. Engineering Blog post landed last week with my name on it. The Pinkerton substrate underneath the Reflex demo Andrew showed last week is the layer my team owns. Predicted UIC is the next bet, in flight. Want to go deeper on any of them?"*
 
 > **NOTE 2026-05-02:** This older multi-topic open is **superseded by the narrowed Anticipation-only open in the POSTURE UPDATE section above.** Use the narrowed open for 5/7. This one stays as backup material if Jeff's energy says he wants the menu rather than the deep dive.
 
@@ -186,7 +186,7 @@ If Jeff says "what's going on?" or "what's new?":
 - "My team's program" — direct ownership language. Not "I've been contributing to."
 - "The substrate underneath the Reflex demo" — attaches my name to a thing Jeff *just saw* and remembers. Maximum recency leverage; minimum re-pitch.
 - Subtle lineage to Andrew is preserved ("Andrew showed") — I don't perform credit either direction, but I name him as the demo owner.
-- Three named, verifiable artifacts (Blog post, Pinsight-as-Reflex-substrate, predicted UIC) — installs RR-as-James-coded.
+- Three named, verifiable artifacts (Blog post, Pinkerton-as-Reflex-substrate, predicted UIC) — installs RR-as-James-coded.
 - Ends with him choosing thread. High-I engages. Avoids pitch mode.
 
 **Rambling index watch:** any additional sentence after "go deeper on any of them?" is anxiety. Stop. Let him pick.
@@ -211,33 +211,33 @@ If Jeff says "what's going on?" or "what's new?":
 
 **Candidate hopeful-frame question (only if conversation flows):** *"Predicted UIC is mid-arc. Would it be useful for me to flag you when it lands, or do you prefer I bring it once we have the full readout?"* Lets him choose pace. Signals respect for his time.
 
-### Topic 2: Pinsight — cross-org adoption is a pull signal (NOT a re-demo)
+### Topic 2: Pinkerton — cross-org adoption is a pull signal (NOT a re-demo)
 
 **Dhruvil-pattern framing:**
 
-> *"Pinsight's getting organic pull I didn't push for. Dimitra in Notifications cloned the repo and built her own version for notif + HF + search. Darren's team is contributing. Francisco's team is joining. Dafang too. That's the substrate Andrew's Reflex vision sits on."*
+> *"Pinkerton's getting organic pull I didn't push for. Dimitra in Notifications cloned the repo and built her own version for notif + HF + search. Darren's team is contributing. Francisco's team is joining. Dafang too. That's the substrate Andrew's Reflex vision sits on."*
 
 **Connect to Jeff's priority (his language):** AI-native engineering culture, tools other teams use unprompted, cross-pollination. The Roberto-celebration shape from his March 2026 org-wide email — but happening organically across orgs, not just within one.
 
 **Key discipline:** do NOT open the laptop and demo PINvestigator. He's already seen it. Per Lesson 1 from `journals_and_growth.md` — Jeff buys shipped artifacts other people use. The artifact here is the *propagation pattern*, not the tool.
 
-**If he asks "what's Pinsight specifically":** 2 sentences.
-> *"Sensing + diagnosis layer for the recommendation stack. Detects funnel issues, surfaces specific experiments to run. PINvestigator was the v0; Pinsight is what it was trying to be, built more structurally."*
+**If he asks "what's Pinkerton specifically":** 2 sentences.
+> *"Sensing + diagnosis layer for the recommendation stack. Detects funnel issues, surfaces specific experiments to run. PINvestigator was the v0; Pinkerton is what it was trying to be, built more structurally."*
 
 ### Topic 3: Reflex post-EPD-demo — the substrate underneath what he saw
 
 **Dhruvil-pattern framing:**
 
-> *"On the Reflex demo Andrew showed at EPD last week — the Detect + Simulate layer underneath is Pinsight, my team's program. Cross-org adoption was already running before the demo: Dimitra in Notifications cloned the repo, Darren and Francisco's teams contributing, Dafang too. The demo cemented what's been propagating organically."*
+> *"On the Reflex demo Andrew showed at EPD last week — the Detect + Simulate layer underneath is Pinkerton, my team's program. Cross-org adoption was already running before the demo: Dimitra in Notifications cloned the repo, Darren and Francisco's teams contributing, Dafang too. The demo cemented what's been propagating organically."*
 
 **Why this works:**
 - Anchors me to a thing Jeff already saw last week — recency + recognition. Zero re-pitch.
-- "The Detect + Simulate layer is Pinsight, my team's program" — attaches my name structurally to the visible artifact.
-- "Cross-org adoption was already running before the demo" — signals organic pull, not staged. Pinsight is real, not a demo prop.
+- "The Detect + Simulate layer is Pinkerton, my team's program" — attaches my name structurally to the visible artifact.
+- "Cross-org adoption was already running before the demo" — signals organic pull, not staged. Pinkerton is real, not a demo prop.
 - Subtle lineage attribution to Andrew preserved ("Andrew showed") — I'm consolidating my piece, not crowding his vision.
 
-**If he asks "how is Pinsight different from PINvestigator":**
-> *"PINvestigator was v0 — single-investigation tool. Pinsight is the structural version: sensing + diagnosis layer for the recommendation stack. Detects funnel issues, surfaces specific experiments to run. It's the layer that fed the Detect + Simulate stage in Andrew's demo."*
+**If he asks "how is Pinkerton different from PINvestigator":**
+> *"PINvestigator was v0 — single-investigation tool. Pinkerton is the structural version: sensing + diagnosis layer for the recommendation stack. Detects funnel issues, surfaces specific experiments to run. It's the layer that fed the Detect + Simulate stage in Andrew's demo."*
 
 **If he asks about the demo specifically (his reaction, what landed for Matt):**
 > *"Curious to hear what landed for you. Andrew owns the narrative arc; I'm focused on making sure the substrate keeps holding under more orgs adopting it."*
@@ -253,7 +253,7 @@ If Jeff says "what's going on?" or "what's new?":
 
 - **"Is this the AI-native engineering modernization I keep talking about, finally happening?"** Yes — and James is one of the people doing it. Lead with metric movement and shipped artifacts so he can answer this in his own head.
 - **"Which of my Sr EMs are going to scale into Director-caliber operators?"** Subtext under any career-adjacent question. Don't answer it directly. Let the substance and three-named-things shape carry it.
-- **"Are my orgs collaborating cross-surface or fighting?"** Pinsight's organic propagation across Notifications + HF + Search + Infra answers this — pull, not push.
+- **"Are my orgs collaborating cross-surface or fighting?"** Pinkerton's organic propagation across Notifications + HF + Search + Infra answers this — pull, not push.
 - **"Will RR actually deliver before I have to defend headcount somewhere?"** Predicted UIC is mid-arc; calibrate expectations honestly. Don't overpromise.
 
 ## DON'Ts (specific to Jeff context)
@@ -273,7 +273,7 @@ If Jeff says "what's going on?" or "what's new?":
 
 - [ ] Confirm the opening line out loud until it's natural. WAU-positive first.
 - [ ] Have specific WAU delta number + holdout duration memorized. ([INSERT WAU delta] / [INSERT holdout window])
-- [ ] Have Pinsight contributor names ready: Dimitra (Notifications), Darren, Francisco, Dafang.
+- [ ] Have Pinkerton contributor names ready: Dimitra (Notifications), Darren, Francisco, Dafang.
 - [ ] Watch the EPD demo recording (if available) so I know exactly what Jeff saw of Reflex. Don't contradict Andrew's framing or re-pitch what Jeff already saw.
 - [ ] Have one read-back question ready in case Jeff wants to discuss the EPD demo: *"Curious what landed for you / for Matt"* — gives me intel without crowding Andrew.
 - [ ] Close the laptop and walk before walking in. Tai Chi base, not hyped.
@@ -307,10 +307,10 @@ If Jeff says "what's going on?" or "what's new?":
 - **Notification PM wrote 2 PRs to Reflex** (James shared in OH). Jeff didn't probe, but this lands inside his cross-functional thesis as empirical proof. Bank as concrete artifact for next Jeff touchpoint or for VP narrative consolidation generally.
 - **End gratitude for AI-iteration-time:** *"I really appreciate all the energy you bring and actually giving us time to iterate on AI. I think that was such a huge foundational win for us too."* Implicit credit at the team level for the AI-iteration permission you've been operating under. Adjacent to scope-and-time framing for Director case.
 
-**How RR / Pinsight / Reflex registered:**
+**How RR / Pinkerton / Reflex registered:**
 - **Reflex (cross-functional execution)** — moved his needle MOST. Anchored James + Andrew + Dylan together cross-functionally. *"Looked like y'all were working on it truly cross-functionally."*
 - **Anticipation (UIC + predicted UIC)** — moved his needle SECOND. Translated to his own "persona perspective" framing = install confirmed. Demo on his profile committed.
-- **Pinsight** — did NOT come up. Substrate framing wasn't introduced. Cross-org adoption pattern (Dimitra/Darren/Francisco/Dafang) didn't surface.
+- **Pinkerton** — did NOT come up. Substrate framing wasn't introduced. Cross-org adoption pattern (Dimitra/Darren/Francisco/Dafang) didn't surface.
 
 **What didn't fully install (gaps for next touchpoint):**
 - **Beat 2 — Pinterest pin polysemy moat.** Skipped. Highest-leverage insight beat, didn't land.
@@ -342,11 +342,11 @@ If Jeff says "what's going on?" or "what's new?":
 
 ## Goal
 
-Deepen Rajat's mental model from "PinSight + UPP context" (~25%) to "James drives engineering agents unblocking velocity across Pinsight + Reflex + recsys, plus owns the UPP retrieval workstream that's compounding" (75%+). Rajat is already partially in — this is the bridge from one demo touchpoint to a sustained narrative.
+Deepen Rajat's mental model from "Pinkerton + UPP context" (~25%) to "James drives engineering agents unblocking velocity across Pinkerton + Reflex + recsys, plus owns the UPP retrieval workstream that's compounding" (75%+). Rajat is already partially in — this is the bridge from one demo touchpoint to a sustained narrative.
 
 ## Strategic context
 
-- **Current Rajat state ~25%.** PinSight demo 4/16 created the opening. He DM'd asking for the monitoring-agent doc, endorsed "great! yea that would be a good one to prototype. and hook up e2e." UPP retrieval gives him sustained ML-platform context.
+- **Current Rajat state ~25%.** Pinkerton demo 4/16 created the opening. He DM'd asking for the monitoring-agent doc, endorsed "great! yea that would be a good one to prototype. and hook up e2e." UPP retrieval gives him sustained ML-platform context.
 - **Mandate from 4/16:** "hook up e2e" is not a suggestion — it's a directive to show end-to-end detect → diagnose → fix wiring. Anything I bring on 5/8 should answer that directive directly.
 - **Encouragement mandate is live.** March 2026: "I want you to keep pushing." April 2026: "keep up the good work and keep pushing." This is Rajat's VP-level go-forward signal — not generic praise. Show velocity and structural thinking.
 - **Rajat = D/C profile.** Wants pain points paired with fixes, single-threaded ownership thinking, mechanism > narrative. Not warmth-driven. No emotional language.
@@ -356,11 +356,11 @@ Deepen Rajat's mental model from "PinSight + UPP context" (~25%) to "James drive
 
 ## Opening line (memorize)
 
-> *"Quick frame — you saw Reflex at EPD. Pinsight is the Detect + Simulate layer underneath, and I've got an engineering-agent prototype hooked up end-to-end on a real HF investigation. On UPP, four workstreams landing in parallel. Where do you want to spend the time?"*
+> *"Quick frame — you saw Reflex at EPD. Pinkerton is the Detect + Simulate layer underneath, and I've got an engineering-agent prototype hooked up end-to-end on a real HF investigation. On UPP, four workstreams landing in parallel. Where do you want to spend the time?"*
 
 **Why it works:**
 - BLUF: anchors to the Reflex demo Rajat just saw (4-day recency, maximum recognition).
-- "Pinsight is the Detect + Simulate layer underneath" — attaches my program structurally to the visible artifact, in his D/C language (mechanism > narrative).
+- "Pinkerton is the Detect + Simulate layer underneath" — attaches my program structurally to the visible artifact, in his D/C language (mechanism > narrative).
 - "Engineering-agent prototype hooked up end-to-end" — directly satisfies the 4/16 "hook up e2e" mandate. He gets to see his directive delivered.
 - UPP four-workstream tease keeps platform-velocity in frame.
 - Lets him pick what to deepen. D/C profiles like choosing the path.
@@ -372,15 +372,15 @@ Deepen Rajat's mental model from "PinSight + UPP context" (~25%) to "James drive
 
 **Dhruvil-pattern framing:**
 
-> *"Dylan and I identified engineering agents — the agent that writes and ships recsys experiment code — as the cross-project blocker for Pinsight, Reflex, and the broader velocity story. I've scaffolded a Reflex build-stage prototype that runs end-to-end on a real HF investigation. Want me to walk through where the velocity gain shows up?"*
+> *"Dylan and I identified engineering agents — the agent that writes and ships recsys experiment code — as the cross-project blocker for Pinkerton, Reflex, and the broader velocity story. I've scaffolded a Reflex build-stage prototype that runs end-to-end on a real HF investigation. Want me to walk through where the velocity gain shows up?"*
 
 **Connect to Rajat's priority (his language):** system velocity, cost-aware scalability, AI-native engineering as platform multiplier. Throughput problem with a structural fix.
 
 **Specific content ready:**
-- Same agent unblocks Pinsight (auto-fix loop), Reflex (build stage), CG quota tuning. Cross-project leverage point.
+- Same agent unblocks Pinkerton (auto-fix loop), Reflex (build stage), CG quota tuning. Cross-project leverage point.
 - "Hook up e2e" directive (4/16) answered concretely: prototype runs detect → diagnose → fix on a real HF investigation.
 - Dylan is co-owner of the identification ("Dylan and I"). Cross-org, structural. Naturally positions her in Rajat's mental model as the coordination layer without me having to script anything.
-- Allowlist-first on blast radius. Engineer-adoption-driven expansion — when a team adopts the agent pattern, the allowlist grows. Loose coupling between Reflex and Pinsight via API, separate stores. Keeps it modular so each team can adopt without forcing the others to upgrade.
+- Allowlist-first on blast radius. Engineer-adoption-driven expansion — when a team adopts the agent pattern, the allowlist grows. Loose coupling between Reflex and Pinkerton via API, separate stores. Keeps it modular so each team can adopt without forcing the others to upgrade.
 
 **If he asks "how does this scale to other teams":**
 > *"Allowlist-first on blast radius. Engineer-adoption-driven expansion — when a team adopts the pattern, the allowlist grows. Loose coupling via API, separate stores. Each team can adopt without forcing others to upgrade."*
@@ -390,17 +390,17 @@ Just sync with Dylan and circle back. That's the natural answer for any ask that
 
 **Naming people is fine when they own a workstream.** Saying "Devin owns GPU serving for Base CLR" is structural and accurate — that's how Rajat thinks. The thing I'd never do anyway as a senior EM is throw out unsolicited rosters of "engineers I could put on something" — that's not a Rajat-specific rule, that's just baseline operating cleanliness.
 
-### Topic 2: PinSight evolution since 4/16
+### Topic 2: Pinkerton evolution since 4/16
 
 **Dhruvil-pattern framing:**
 
-> *"On PinSight — Dimitra in Notifications cloned the repo and built her own version for notif + HF + search. Darren's team is contributing, Francisco's team is joining. The fix-loop you endorsed at the 4/16 demo is now wired into Reflex as the Detect + Simulate layer. Adoption is pulling, not pushing."*
+> *"On Pinkerton — Dimitra in Notifications cloned the repo and built her own version for notif + HF + search. Darren's team is contributing, Francisco's team is joining. The fix-loop you endorsed at the 4/16 demo is now wired into Reflex as the Detect + Simulate layer. Adoption is pulling, not pushing."*
 
 **Connect to Rajat's priority:** cross-surface coherence, single-threaded ownership of the diagnosis layer with multi-org adoption. Platform thinking — same diagnostic substrate across surfaces.
 
 **Specific content ready:**
 - Cross-org adoption: Dimitra (Notifications EM, forked the repo unprompted), Darren's team contributing, Francisco's team joining, Dafang now contributing
-- Wiring into Reflex: PinSight is the Detect + Simulate layer in the 4-stage pipeline (Detect → Build → Simulate → Prove) per Andrew's 2026-04-15 announcement
+- Wiring into Reflex: Pinkerton is the Detect + Simulate layer in the 4-stage pipeline (Detect → Build → Simulate → Prove) per Andrew's 2026-04-15 announcement
 - Reflex Build-stage prototype satisfies the "hook up e2e" directive Rajat gave at 4/16
 - Sustained mechanism, not a one-off demo
 
@@ -426,7 +426,7 @@ Just sync with Dylan and circle back. That's the natural answer for any ask that
 
 - **"Is James the operator who can scale platform velocity, or just a strong individual EM?"** This is the M17→M18 question for him. Show structural thinking + named ownership + parallel workstreams.
 - **"Will engineering agents actually unblock our velocity, or are they another shiny thing?"** Show the prototype. "Hook up e2e" directive answered.
-- **"Is the PinSight + Reflex story converging or fragmenting?"** Show convergence: PinSight = Detect + Simulate inside Reflex, single substrate, cross-org adoption.
+- **"Is the Pinkerton + Reflex story converging or fragmenting?"** Show convergence: Pinkerton = Detect + Simulate inside Reflex, single substrate, cross-org adoption.
 - **"Where's the ML-platform consolidation play?"** UPP four-workstream shape signals platform thinking. Don't lobby for scope — let the structure speak.
 
 ## DON'Ts (specific to Rajat context)
@@ -449,7 +449,7 @@ Just sync with Dylan and circle back. That's the natural answer for any ask that
 
 - [ ] Confirm engineering-agent prototype is actually running end-to-end. If not, reframe Topic 1 as "scaffolded, demo-ready by [date]" — don't fake it.
 - [ ] Memorize the four-workstream UPP shape — workstream + owner + status. 30 seconds, no notes.
-- [ ] Have the specific PinSight cross-org contributor names + what each is contributing (Dimitra, Darren's team, Francisco's team, Dafang). External contributors are part of the pull-signal narrative.
+- [ ] Have the specific Pinkerton cross-org contributor names + what each is contributing (Dimitra, Darren's team, Francisco's team, Dafang). External contributors are part of the pull-signal narrative.
 - [ ] Watch the EPD demo recording (if available) before the OH so I know exactly what Rajat saw of Reflex. Don't contradict Andrew's framing.
 - [ ] Tai Chi base, not hyped. Rajat reads under-control as competent, hyped as juvenile.
 

@@ -12,7 +12,7 @@ James's DISC profile is Di (D:88%, i:88%) — fast, direct, high-energy, vision-
 - **coaching.md** — Session logs with two coaches (David on strategy, Rodney on mindset). Reference these frameworks when James is venting, triggered, or prepping for hard conversations.
 - **journals_and_growth.md** — Synthesized lessons and journal entries. Useful for reflection and pattern recognition.
 - **organization.md** — Org chart and team structure at Pinterest.
-- **pinsight.md, pinvestigator.md, retentive_recs.md** — Active project status. Reference when James asks about project context.
+- **pinkerton.md, pinvestigator.md, retentive_recs.md** — Active project status. Reference when James asks about project context.
 - **backlog.md** — Prioritized to-do list across all categories.
 - **latest_session.md** — Snapshot from April 11, 2026. Most recent state of all workstreams.
 

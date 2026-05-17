@@ -226,9 +226,9 @@ Forked from Leo goals.md — work-relevant content only.
 - Staffing: Zihao (~50%), Yidi (fractional)
 - Drop conditions: First cannibalization target when UPP needs bandwidth
 
-**AI (PINvestigator, Pinsight) -- James as TL -> transitioning**
-- Staffing: JJ (PINvestigator owner, partial), Alok (logging -> DT -> Pinsight), Darren's eval DS, James (Pinsight v0 architect, timeboxed)
-- Q2 Goal: PINvestigator demoed to Jeff + quality-controlled + JJ owns it. Pinsight M1 shipped. Pinsight M2 working prototype.
+**AI (PINvestigator, Pinkerton) -- James as TL -> transitioning**
+- Staffing: JJ (PINvestigator owner, partial), Alok (logging -> DT -> Pinkerton), Darren's eval DS, James (Pinkerton v0 architect, timeboxed)
+- Q2 Goal: PINvestigator demoed to Jeff + quality-controlled + JJ owns it. Pinkerton M1 shipped. Pinkerton M2 working prototype.
 
 ### Performance Decisions (Deferred to Mid-Q2)
 

@@ -1,23 +1,23 @@
 ---
-title: Pinsight M1 — HF Request Debugger
+title: Pinkerton M1 — HF Request Debugger
 date: 2026-04-04
 status: ready-for-implementation
 goal: Given an employee user ID + time range, fetch their Homefeed request, let the human identify problematic pins, then diagnose why those pins were shown using funnel data and LLM reasoning.
 constraints: Claude Code skill on work-leo (~/leo-work/), Presto MCP for data access, single-agent sequential flow, ~10 hours build time, must be demoable to Jeff and Dylan.
 ---
 
-# Pinsight M1 — HF Request Debugger Implementation Spec
+# Pinkerton M1 — HF Request Debugger Implementation Spec
 
 ## Overview
 
-Pinsight M1 is a Claude Code skill that answers "Why was this pin shown to me?" for Pinterest Homefeed. Given an employee's user ID and a date/time range, it queries the `bi.core_daily_homefeed_backend_funnel_candidate_evaluation` table, presents the final-chunk pins to a human for selection, then performs deep analysis on selected pins — tracing their CG source, scores, and ranking signals. It produces a markdown report with per-pin traces and an LLM-synthesized diagnosis, and writes a structured trace to a local SQLite database for systematic eval/improvement.
+Pinkerton M1 is a Claude Code skill that answers "Why was this pin shown to me?" for Pinterest Homefeed. Given an employee's user ID and a date/time range, it queries the `bi.core_daily_homefeed_backend_funnel_candidate_evaluation` table, presents the final-chunk pins to a human for selection, then performs deep analysis on selected pins — tracing their CG source, scores, and ranking signals. It produces a markdown report with per-pin traces and an LLM-synthesized diagnosis, and writes a structured trace to a local SQLite database for systematic eval/improvement.
 
-This is a separate skill from PINvestigator. They share the same MCP setup (Presto on localhost:9092) but have different use cases: PINvestigator investigates metric anomalies; Pinsight debugs individual requests.
+This is a separate skill from PINvestigator. They share the same MCP setup (Presto on localhost:9092) but have different use cases: PINvestigator investigates metric anomalies; Pinkerton debugs individual requests.
 
 ## Folder Structure
 
 ```
-~/leo-work/pinboard/agent-skills/pinsight/
+~/leo-work/pinboard/agent-skills/pinkerton/
 ├── SKILL.md                          # Agent prompt — auto-loaded when skill is invoked
 ├── MCP_SETUP.md                      # Reference to ../pinvestigator/MCP_SETUP.md
 ├── references/
@@ -26,7 +26,7 @@ This is a separate skill from PINvestigator. They share the same MCP setup (Pres
 │   └── {dt}_{user_id}.md
 └── traces/
     ├── db.py                         # SQLite helper script
-    └── pinsight_traces.db            # SQLite database for session traces (git-ignored)
+    └── pinkerton_traces.db            # SQLite database for session traces (git-ignored)
 ```
 
 ## Data Model
@@ -87,7 +87,7 @@ Flattened table. One row per candidate at its furthest stage. Daily `dt` partiti
 
 ### SQLite Trace Schema
 
-**File:** `~/leo-work/pinboard/agent-skills/pinsight/traces/pinsight_traces.db`
+**File:** `~/leo-work/pinboard/agent-skills/pinkerton/traces/pinkerton_traces.db`
 
 ```sql
 CREATE TABLE IF NOT EXISTS sessions (
@@ -165,13 +165,13 @@ CREATE TABLE IF NOT EXISTS diagnosis (
 
 ### T-1: Scaffold Skill Directory
 
-**Description:** Create the Pinsight skill directory structure, SKILL.md stub, and reference files.
+**Description:** Create the Pinkerton skill directory structure, SKILL.md stub, and reference files.
 
 **Files:**
-- `pinboard/agent-skills/pinsight/SKILL.md`
-- `pinboard/agent-skills/pinsight/references/data-tables.md`
-- `pinboard/agent-skills/pinsight/MCP_SETUP.md`
-- `pinboard/agent-skills/pinsight/.gitignore`
+- `pinboard/agent-skills/pinkerton/SKILL.md`
+- `pinboard/agent-skills/pinkerton/references/data-tables.md`
+- `pinboard/agent-skills/pinkerton/MCP_SETUP.md`
+- `pinboard/agent-skills/pinkerton/.gitignore`
 
 **Acceptance criteria:**
 - [ ] Directory structure matches folder structure above
@@ -204,7 +204,7 @@ traces/*.db
 **Description:** Create the Python helper that initializes the SQLite DB and provides write functions.
 
 **Files:**
-- `pinboard/agent-skills/pinsight/traces/db.py`
+- `pinboard/agent-skills/pinkerton/traces/db.py`
 
 **Acceptance criteria:**
 - [ ] `python3 db.py init` creates the SQLite database with all tables (idempotent)
@@ -219,13 +219,13 @@ traces/*.db
 
 ```python
 #!/usr/bin/env python3
-"""Pinsight trace database utilities."""
+"""Pinkerton trace database utilities."""
 
 import sqlite3, uuid, json, os
 from datetime import datetime, timezone
 
 DB_DIR = os.path.dirname(os.path.abspath(__file__))
-DB_PATH = os.path.join(DB_DIR, "pinsight_traces.db")
+DB_PATH = os.path.join(DB_DIR, "pinkerton_traces.db")
 
 def get_connection():
     conn = sqlite3.connect(DB_PATH)
@@ -269,10 +269,10 @@ Agent calls via Bash: `python3 -c "import sys; sys.path.insert(0, '{SKILL_DIR}/t
 **Description:** Write the full SKILL.md orchestrator implementing all 6 phases.
 
 **Files:**
-- `pinboard/agent-skills/pinsight/SKILL.md`
+- `pinboard/agent-skills/pinkerton/SKILL.md`
 
 **Acceptance criteria:**
-- [ ] Frontmatter: `name: pinsight`, description matches M1 use case
+- [ ] Frontmatter: `name: pinkerton`, description matches M1 use case
 - [ ] Defines `SKILL_DIR` path
 - [ ] Implements Phases 0-5 sequentially
 - [ ] Phase 1 output: compact markdown table (pin_id, source, content_type, ranking_score, position)
@@ -358,7 +358,7 @@ Structured output:
 - [ ] Phase 3 queries succeed, computes comparisons
 - [ ] Phase 4 produces coherent diagnosis
 - [ ] Report written to `output/`
-- [ ] Trace queryable: `sqlite3 traces/pinsight_traces.db "SELECT * FROM sessions"`
+- [ ] Trace queryable: `sqlite3 traces/pinkerton_traces.db "SELECT * FROM sessions"`
 - [ ] Total wall-clock < 5 minutes for 3-5 pins
 
 **Dependencies:** T-3
@@ -367,13 +367,13 @@ Structured output:
 
 ### T-5: Context File Updates
 
-**Description:** Update pinsight.md with M1 built status and skill pointer.
+**Description:** Update pinkerton.md with M1 built status and skill pointer.
 
 **Files:**
-- `~/leo-work/context/projects/pinsight.md`
+- `~/leo-work/context/projects/pinkerton.md`
 
 **Acceptance criteria:**
-- [ ] M1 status = "built", pointer to `pinboard/agent-skills/pinsight/`
+- [ ] M1 status = "built", pointer to `pinboard/agent-skills/pinkerton/`
 - [ ] Note SQLite trace system
 
 **Dependencies:** T-4
@@ -415,7 +415,7 @@ Structured output:
 - **Request-level summary view** — M1 is pin-level analysis first.
 - **Multi-agent parallel analysis** — single-agent sequential for M1.
 - **candidate_batch_id** — excluded from table schema.
-- **Scale analysis (M3)** — running Pinsight across many users.
+- **Scale analysis (M3)** — running Pinkerton across many users.
 - **User understanding (M2)** — VLM-powered interest profiling.
 - **Cross-request analysis** — comparing same pin across requests.
 - **Automatic anomaly detection** — human identifies problematic pins.

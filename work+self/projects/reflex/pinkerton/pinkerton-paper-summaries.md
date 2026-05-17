@@ -1,6 +1,6 @@
 # Agentic Recommender Systems — Paper Summaries
 
-Comprehensive summaries of the five papers in this folder, written as Pinsight-relevant reading notes. Each entry covers: core contribution, method detail, key findings, strengths + limitations, and relevance to Pinsight's roadmap. See `work+self/projects/pinsight-agentic-vision.md` for the synthesis against Pinsight.
+Comprehensive summaries of the five papers in this folder, written as Pinkerton-relevant reading notes. Each entry covers: core contribution, method detail, key findings, strengths + limitations, and relevance to Pinkerton's roadmap. See `work+self/projects/pinkerton-agentic-vision.md` for the synthesis against Pinkerton.
 
 **Papers covered (in rough order of relevance to Pinterest's homefeed context):**
 
@@ -27,7 +27,7 @@ Comprehensive summaries of the five papers in this folder, written as Pinsight-r
 | 2 | Intelligent | Interactive, multi-modal input, dynamic adaptation, clarifying dialogue. |
 | 3 | Agentic | Autonomous decision-making, continuous self-evolution, comprehensive memory + multi-modal perception, proactive + reactive. |
 
-Pinterest's CLR-based HF recsys sits firmly at Level 1, with some Level 2 characteristics in tabs / query refinement surfaces. Pinsight's trajectory is about moving the *tooling* that surrounds the recsys toward Level 3, not replacing the Level 1 recsys itself.
+Pinterest's CLR-based HF recsys sits firmly at Level 1, with some Level 2 characteristics in tabs / query refinement surfaces. Pinkerton's trajectory is about moving the *tooling* that surrounds the recsys toward Level 3, not replacing the Level 1 recsys itself.
 
 **Formal four-module LLM-ARS formulation:** An ARS is a tuple $(U, I, A, E, R)$ where $U$ = users, $I$ = items, $A$ = agents, $E$ = environmental contexts, and $R: U \times E \times A \to P(I)$ is the recommendation function. Each agent $a$ has a policy $\pi_a(s)$ over states $s = f(u, e)$. The authors decompose every ARS into four modules:
 
@@ -60,11 +60,11 @@ Pinterest's CLR-based HF recsys sits firmly at Level 1, with some Level 2 charac
 - **Controllability and safety** — prompt injection, data poisoning, filter bubble reinforcement, over-personalization.
 - **Lifelong personalization** — catastrophic forgetting, preference drift, scaling interaction history.
 
-**Strengths:** Clean taxonomy, comprehensive citation of 100+ recent works in the space. The four-module formulation (Profiling / Planning / Memory / Action) is useful as a mental model for any agentic recsys — including Pinsight, which currently collapses all four into one LLM prompt per session.
+**Strengths:** Clean taxonomy, comprehensive citation of 100+ recent works in the space. The four-module formulation (Profiling / Planning / Memory / Action) is useful as a mental model for any agentic recsys — including Pinkerton, which currently collapses all four into one LLM prompt per session.
 
 **Limitations:** Perspective paper, no original experiments. Reads like a call-to-arms more than a rigorous analysis. The four-level evolution is a useful narrative but not a falsifiable claim.
 
-**Relevance to Pinsight:** Use the four-module decomposition (Profiling / Planning / Memory / Action) as the mental model when refactoring M1 + M2 into a multi-agent crew (our Phase 2). The seven RQs are a useful checklist when scoping what Pinsight can and cannot claim to do. Hallucination mitigations (database-grounded, reflective) map directly to our Reflector agent design.
+**Relevance to Pinkerton:** Use the four-module decomposition (Profiling / Planning / Memory / Action) as the mental model when refactoring M1 + M2 into a multi-agent crew (our Phase 2). The seven RQs are a useful checklist when scoping what Pinkerton can and cannot claim to do. Hallucination mitigations (database-grounded, reflective) map directly to our Reflector agent design.
 
 ---
 
@@ -140,16 +140,16 @@ Agents are used not as the core recommender but as a simulated user population t
 3. **Human-in-the-loop validation** — crowdsourced critique and ranking as continuous supervision. Interactive dashboards visualizing reasoning and fairness trade-offs. Eventually, derive signals via multimodal affect detection (facial expression, tone).
 4. **Self-improving recommenders** — meta-agents that evaluate reasoning quality, detect distribution shifts, autonomously propose schema / policy updates.
 
-**Strengths:** The four-pattern taxonomy is the most actionable contribution of any paper in this folder. It maps cleanly onto architectural decisions for Pinsight. The evaluation framework (five dimensions) is comprehensive and reusable.
+**Strengths:** The four-pattern taxonomy is the most actionable contribution of any paper in this folder. It maps cleanly onto architectural decisions for Pinkerton. The evaluation framework (five dimensions) is comprehensive and reusable.
 
 **Limitations:** Like the Adobe survey, no original experiments — it's an evolution survey. Published at WSDM Companion (workshop, not main track), so the claims are exploratory rather than validated.
 
-**Relevance to Pinsight:** This is the most Pinterest-applicable paper in the folder.
+**Relevance to Pinkerton:** This is the most Pinterest-applicable paper in the folder.
 
 - **Pattern adoption**: Use Pipeline-modular at the top level (M1 → M2 → M3 already maps to this), with Hierarchical Orchestration *inside* the diagnosis step (Manager + specialized Analysts).
 - **IP Agent analog**: The VLM pin perception cache (Building Block 2.6 in the vision doc) is a direct implementation of VRAgent-R1's Item Perception Agent.
-- **Simulation as eval**: Agent4Rec pattern is the model for Pinsight Phase 4 (offline simulation harness). The paper's honest account of cost + fidelity challenges is our warning label.
-- **Hybrid RL-LLM**: MAVR's "planner-executor" hybrid is the template for Pinsight's speculative Phase 6.
+- **Simulation as eval**: Agent4Rec pattern is the model for Pinkerton Phase 4 (offline simulation harness). The paper's honest account of cost + fidelity challenges is our warning label.
+- **Hybrid RL-LLM**: MAVR's "planner-executor" hybrid is the template for Pinkerton's speculative Phase 6.
 
 ---
 
@@ -210,7 +210,7 @@ MACRec is positioned as the first open-source framework supporting multi-type ag
 
 **Limitations:** Short paper (5 pages). No rigorous quantitative comparison to single-agent baselines — the emphasis is on framework design and demonstrability, not on proving the multi-agent approach wins. The Reflector is described as only activating on retries, which may be too conservative for production use. The framework is research-quality, not production-ready.
 
-**Relevance to Pinsight:** **The most directly applicable paper for Pinsight's multi-agent refactor (Phase 2).** The five roles map 1:1 to diagnosis work we already do:
+**Relevance to Pinkerton:** **The most directly applicable paper for Pinkerton's multi-agent refactor (Phase 2).** The five roles map 1:1 to diagnosis work we already do:
 
 - Manager → the current SKILL.md orchestrator.
 - User/Item Analyst → Funnel Analyst (stage semantics) + User Analyst (M2 profile) + Content Analyst (pin perception).
@@ -228,7 +228,7 @@ Don't literally import the MACRec codebase; use the role taxonomy as our bluepri
 
 **Core contribution:** This is **not** a recsys paper — it's an embodied multi-agent cooperation paper. Included in the folder because its **cognitive architecture is the cleanest modular design pattern** in the broader LLM agent literature, and the pattern transfers to any multi-agent problem including recsys. CoELA (Cooperative Embodied Language Agent) solves multi-agent cooperation problems under the hardest version of the problem: decentralized control, raw sensory observations, costly communication, long-horizon multi-objective tasks. Two agents (or one agent + human) must coordinate via natural language to complete household rearrangement tasks in simulated environments.
 
-**Why this matters for recsys work:** The cognitive architecture (Perception / Memory / Communication / Planning / Execution) is a load-bearing decomposition that any agentic system benefits from — including a diagnostic tool like Pinsight that has no physical embodiment but does have perception (querying data), memory (trace DB), communication (between agents), planning (investigation steps), and execution (writing reports).
+**Why this matters for recsys work:** The cognitive architecture (Perception / Memory / Communication / Planning / Execution) is a load-bearing decomposition that any agentic system benefits from — including a diagnostic tool like Pinkerton that has no physical embodiment but does have perception (querying data), memory (trace DB), communication (between agents), planning (investigation steps), and execution (writing reports).
 
 **Five-module architecture:**
 
@@ -267,11 +267,11 @@ Don't literally import the MACRec codebase; use the role taxonomy as our bluepri
 
 **Limitations:** Embodied / household domain is far from recsys. Two-agent setting (paper notes generalization to more agents is theoretically possible but not demonstrated). Cost constraints limited evaluation to 1 run of CoELA vs 5 of baselines.
 
-**Relevance to Pinsight:** Three load-bearing transfers.
+**Relevance to Pinkerton:** Three load-bearing transfers.
 
 1. **Memory decomposition (Semantic / Episodic / Procedural)** maps directly to Building Block 2.4 (semantic memory = HF domain knowledge), 2.1 (episodic = SQLite trace DB), and 2.5 (procedural = playbooks / debugging recipes). This is a more principled decomposition than just "store session traces."
-2. **Costly communication principle** — even though Pinsight's agents will run in a single process (not distributed), the principle of "deliberately decide what and when to surface before surfacing" is valuable. It's the justification for having a Reflector critique intermediate outputs before they propagate.
-3. **Separation of Planning from Execution** — the insight that "LLMs are good at high-level planning but bad at low-level control" applies to SQL query generation in Pinsight. A Funnel Analyst should select a query *template* from a library (planning), not freestyle SQL (execution). This is the justification for Building Block 2.2 (funnel query library).
+2. **Costly communication principle** — even though Pinkerton's agents will run in a single process (not distributed), the principle of "deliberately decide what and when to surface before surfacing" is valuable. It's the justification for having a Reflector critique intermediate outputs before they propagate.
+3. **Separation of Planning from Execution** — the insight that "LLMs are good at high-level planning but bad at low-level control" applies to SQL query generation in Pinkerton. A Funnel Analyst should select a query *template* from a library (planning), not freestyle SQL (execution). This is the justification for Building Block 2.2 (funnel query library).
 
 ---
 
@@ -338,12 +338,12 @@ LLMs change this: they've learned web-scale corpora that include user behavior p
 - The MovieLens movie domain is simple compared to visual recsys. No equivalent experiments on Pinterest-like visual data.
 - The information cocoon result is a known phenomenon the simulator reproduces — it doesn't prove the simulator can discover novel phenomena.
 
-**Relevance to Pinsight:** This is the paper that defines the **best-case scenario for Pinsight Phase 4** (offline simulation harness).
+**Relevance to Pinkerton:** This is the paper that defines the **best-case scenario for Pinkerton Phase 4** (offline simulation harness).
 
-- **Architecture template**: Profile (from Pinsight M2) + Memory (three-layer adapted for session-level behavior) + Action (click / save / skip / long-dwell / search) is directly adoptable.
+- **Architecture template**: Profile (from Pinkerton M2) + Memory (three-layer adapted for session-level behavior) + Action (click / save / skip / long-dwell / search) is directly adoptable.
 - **Fidelity validation approach**: The 20-user held-out experiment is exactly the gate we need to pass before committing to Phase 4 — can M2 profiles predict held-out behavior better than baselines?
 - **Honest limitations**: The 15-round memory degradation is a warning about simulator decay over longer horizons. The 8% gap to real humans is probably the floor for Pinterest-scale fidelity expectations.
-- **Phase 4 MVP scoping**: The information-cocoon experiment (50 agents, MF recsys, 50 rounds, entropy metric) is roughly the right size for a first Pinsight simulation. Ambitious but not absurd.
+- **Phase 4 MVP scoping**: The information-cocoon experiment (50 agents, MF recsys, 50 rounds, entropy metric) is roughly the right size for a first Pinkerton simulation. Ambitious but not absurd.
 
 The critical question the paper *doesn't* answer for us: can simulator fidelity transfer from MovieLens (text-based, small, well-studied) to Pinterest (visual, massive, noisy)? The only way to know is to build the held-out prediction test on M2 and run it.
 

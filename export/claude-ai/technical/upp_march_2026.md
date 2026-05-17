@@ -14,7 +14,7 @@
 
 Name it: the biggest and highest-stakes project in James's portfolio is shipping without him. This is the operator → architect transition in its cleanest form. Every week UPP runs without James IS the case for Director.
 
-Every other lane in his portfolio (Pinsight M0 PRs, PINvestigator adoption, Reflex co-dev, Retentive Recs Engineering Blog editor role) is pulling James *toward* hands-on operator mode. UPP is the counter-example. Hold the distinction visibly — when Karen or anyone else audits the portfolio, UPP is the proof that James already operates at Director altitude on work he has cultivated to maturity.
+Every other lane in his portfolio (Pinkerton M0 PRs, PINvestigator adoption, Reflex co-dev, Retentive Recs Engineering Blog editor role) is pulling James *toward* hands-on operator mode. UPP is the counter-example. Hold the distinction visibly — when Karen or anyone else audits the portfolio, UPP is the proof that James already operates at Director altitude on work he has cultivated to maturity.
 
 ### Five-prong status (corrected + expanded 2026-04-11 from James's Dylan-facing update)
 

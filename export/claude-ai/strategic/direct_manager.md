@@ -29,7 +29,7 @@ The relationship has evolved past "Strategic Partner" into something closer to *
 
 | Event / Interaction | What Happened | Dylan's Signal | **The Critical Lesson** |
 | :--- | :--- | :--- | :--- |
-| **Pinsight Hackathon** (July '25) | You led a visible hackathon project. | **Neutral/Observation.** likely viewed it as "good energy" but not yet "business critical." | **Lesson:** Innovation is nice, but it doesn't buy *safety* with Dylan. It just buys visibility. She values keeping the lights on (CG reliability) more than flash. |
+| **Pinkerton Hackathon** (July '25) | You led a visible hackathon project. | **Neutral/Observation.** likely viewed it as "good energy" but not yet "business critical." | **Lesson:** Innovation is nice, but it doesn't buy *safety* with Dylan. It just buys visibility. She values keeping the lights on (CG reliability) more than flash. |
 | **Early 1:1s** | You felt she was "cool" or "distant." You attempted to bond; she remained professional. | **Behavioral Baseline.** She was assessing your competence, not looking for a friend. | **Lesson:** Do not confuse "professional distance" with "disapproval." With Dylan, **Trust = Low Noise**, not High Warmth. |
 
 ### Phase 2: The Calibration (Oct – Nov 2025)

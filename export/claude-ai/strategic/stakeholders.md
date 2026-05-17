@@ -13,7 +13,7 @@ This file captures the *state I don’t want to repeat* about key stakeholders: 
 - **Dylan (Sr. Director, Homefeed Relevance)** — primary evaluator + scope allocator + AI guide relationship. Peak trust.
 - **Anna (PM partner for Retentive Recommendations)** — co-owns product narrative; inner circle ally.
 - **Dhruvil (Peer Sr EM, Homefeed Ranking)** — peer coalition partner; emotional/strategic ally.
-- **Darren Regers (Director, Infrastructure — promo official 2026-04-16)** — primary AI partnership; eval DS + actively staffing Pinsight contributors from his team; Director-track sponsor for James.
+- **Darren Regers (Director, Infrastructure — promo official 2026-04-16)** — primary AI partnership; eval DS + actively staffing Pinkerton contributors from his team; Director-track sponsor for James.
 
 ### Senior Sponsors (VP+)
 - **Rajat C (VP, Engineering)** — skip-level; system architect + org designer; active UPP sponsor. Reports to Jeff.
@@ -797,20 +797,20 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 - **Risk:** Failure + Bowen departure + AI market = potent combination for JJ to look. Start packet April. Address ML depth gap.
 - **Essentially solo on Real-Time.** No coverage if he leaves post-promo.
 
-## Chuxi (Retentive Recs + Pinsight, updated 2026-04-11)
+## Chuxi (Retentive Recs + Pinkerton, updated 2026-04-11)
 - **Status:** Primary IC for Retentive Recs. Promo vehicle is p(UIC) under Yuke.
 - **Strategic role:** Bridge between Yuke (retentive recs) and Devin (CLR). Insurance against Yuke departure.
-- **NEW: 20% Pinsight commit going forward (2026-04-11).** Excited specifically about the agentic recsys vision at the end of the Pinsight roadmap. Critical Alok-PTO bridge — covers 2 weeks. James now has a code reviewer + collaborator on Pinsight beyond Alok.
+- **NEW: 20% Pinkerton commit going forward (2026-04-11).** Excited specifically about the agentic recsys vision at the end of the Pinkerton roadmap. Critical Alok-PTO bridge — covers 2 weeks. James now has a code reviewer + collaborator on Pinkerton beyond Alok.
 - **Development:** Make sure she's in architectural decision rooms, not just execution.
 
 ## Daniel Liu (contractor on James's team — added 2026-04-11)
-- **Role:** Strong contractor on James's team. Now Pinsight logging owner.
-- **Current state:** Shipped Pinsight logging this week. Field-name-too-long hiccup → fix shipping Monday 2026-04-13. Will execute Alok's verification plan during Alok's PTO.
-- **Why he matters:** Reliable execution layer on Pinsight infrastructure. Frees James to focus on Reflex co-dev + adoption layer.
+- **Role:** Strong contractor on James's team. Now Pinkerton logging owner.
+- **Current state:** Shipped Pinkerton logging this week. Field-name-too-long hiccup → fix shipping Monday 2026-04-13. Will execute Alok's verification plan during Alok's PTO.
+- **Why he matters:** Reliable execution layer on Pinkerton infrastructure. Frees James to focus on Reflex co-dev + adoption layer.
 
 ## Alok
 - **Risk:** If PhP deprioritized after CTO presentation. Keep 20% bandwidth, have alternative scope ready.
-- **Pinsight connection:** Original hackathon team member. Motivated to work on Pinsight. Completing HF full funnel logging by April 4, 2026. After logging done, shifts to DT (~50%), then picks up Pinsight extension work as DT scoping stabilizes.
+- **Pinkerton connection:** Original hackathon team member. Motivated to work on Pinkerton. Completing HF full funnel logging by April 4, 2026. After logging done, shifts to DT (~50%), then picks up Pinkerton extension work as DT scoping stabilizes.
 
 ---
 
@@ -840,7 +840,7 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 - **Be ready for Tuesday 2026-04-14 code drop.** Andrew lands Reflex code in git; James plugs in for co-development.
 - **Default is let-the-work-speak.** Do NOT bring transactional credit/role conversations into this relationship. The trust topology with Dylan + Andrew + Anna does not need credit framing — the architecture is the credit. (See `feedback_credit_in_trust_relationships.md` memory.)
 - **High-leverage seat to occupy:** expert-in-the-loop providing codepath knowledge + RLHF feedback. Compounding position. Requires *consistent* presence, not one-shot inputs.
-- **Let Andrew own the CTO pitch.** Already done. James owns the engineering proof points (PINvestigator, Pinsight) + Reflex co-dev.
+- **Let Andrew own the CTO pitch.** Already done. James owns the engineering proof points (PINvestigator, Pinkerton) + Reflex co-dev.
 - **Don't over-coordinate.** Andrew is a vision seller. James is a builder. Keep the interface lightweight.
 - **Watch:** Mira (Sr Director, Design) is the third Anticipation Vision co-author; James's direct line to her is unclear. Worth a direct touchpoint at some point — mediated-through-Dylan-and-Andrew is the current default.
 
@@ -849,23 +849,23 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 # 10) Darren Regers — Sr. EM → Director, Infrastructure (promo official 2026-04-16)
 
 ## Role in my 6–12 month goals
-- **Primary AI partnership.** Darren's team has an eval DS who can build eval frameworks for both PINvestigator and Pinsight. This is the most critical capability gap in James's AI work.
+- **Primary AI partnership.** Darren's team has an eval DS who can build eval frameworks for both PINvestigator and Pinkerton. This is the most critical capability gap in James's AI work.
 - **Senior alliance (confirmed 2026-04-09).** Darren got the Director offer — official 2026-04-16. No longer "potential" — this is now a Director peer alliance with high personal trust. Darren publicly supportive of James's own Director trajectory: *"The next goal is Director James"* (Slack DM 2026-04-09).
-- **Active Pinsight sponsor (new 2026-04-09).** Darren read James's Pinsight proposal overnight, loved it ("Love the proposal and the steps"), and is **actively searching his team for contributors** — candidates: someone named Dylan on Darren's team (NOT James's manager Dylan Wang), or the Analytics Agent folks. Proactive resource commitment before the Director role is even official.
+- **Active Pinkerton sponsor (new 2026-04-09).** Darren read James's Pinkerton proposal overnight, loved it ("Love the proposal and the steps"), and is **actively searching his team for contributors** — candidates: someone named Dylan on Darren's team (NOT James's manager Dylan Wang), or the Analytics Agent folks. Proactive resource commitment before the Director role is even official.
 - **Personal ally.** James and Darren are close. High-trust, low-friction collaboration.
 
 ## Current relationship
-- **Status:** Active and accelerating. Proposal read + loved 2026-04-09. Darren personally staffing Pinsight contributors from his team. Director offer official 2026-04-16.
+- **Status:** Active and accelerating. Proposal read + loved 2026-04-09. Darren personally staffing Pinkerton contributors from his team. Director offer official 2026-04-16.
 - **Trust level:** Very High (personal friendship + professional respect + public Director-track sponsorship)
 - **What Darren wants:** Clear milestones from James so he can justify the resource investment. Continue the partnership as he moves into the Director role.
 
 ## Operating plan
 - **Send Darren a formal congrats when the promo is official (2026-04-16).** High-trust sponsor moment — do not let it pass unmarked. Short and warm, not sycophantic. Calendar reminder worth setting.
 - **Give him the Q2 milestones immediately.** He's ready to commit resources and is actively searching for team members to join — don't make him wait.
-- **Name the contributors as soon as they're confirmed.** Whether it's "Dylan" (Darren's report) or the Analytics Agent folks — update `projects/pinsight/pinsight.md` staffing table the day they're committed.
+- **Name the contributors as soon as they're confirmed.** Whether it's "Dylan" (Darren's report) or the Analytics Agent folks — update `projects/pinkerton/pinkerton.md` staffing table the day they're committed.
 - **Get the eval DS committed.** Still the single highest-leverage resource ask for the AI portfolio.
 - **Keep the interface simple.** Darren manages both DS and Eng. His reports will roll up to him. No coordination overhead needed.
-- **Darren is now a Director-track reference point.** When James is thinking about his own Director narrative, Darren is a trusted sounding board — same journey, just completed. Use him for 1:1 thinking-partner moments on the trajectory, not only on Pinsight resourcing.
+- **Darren is now a Director-track reference point.** When James is thinking about his own Director narrative, Darren is a trusted sounding board — same journey, just completed. Use him for 1:1 thinking-partner moments on the trajectory, not only on Pinkerton resourcing.
 
 ---
 
@@ -874,14 +874,14 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 ## Role in my 6–12 month goals
 - **Visibility venue.** Brian hosts a weekly AI forum where Roberto and James are invited to showcase progress. This is a low-effort, high-visibility demo opportunity.
 - **Long-standing collaborator.** James and Brian have been collaborating on debuggability and observability since early 2025. War stories together. High trust.
-- **Front-end tooling expertise.** Brian's team builds front-end tools. Useful for visualization but not core to Pinsight's LLM analysis work.
+- **Front-end tooling expertise.** Brian's team builds front-end tools. Useful for visualization but not core to Pinkerton's LLM analysis work.
 
 ## Current relationship
 - **Status:** Active collaboration. Brian started the weekly forum specifically to bring people together around AI tooling.
 - **Trust level:** High (shared history, mutual respect)
 
 ## Operating plan
-- **Use the forum.** Demo PINvestigator and Pinsight M1 here. Great visibility with low coordination cost.
+- **Use the forum.** Demo PINvestigator and Pinkerton M1 here. Great visibility with low coordination cost.
 - **Don't force engineering collaboration.** James doesn't need front-end engineers. The domain expertise lives in James's head. Forcing a collab would create make-work.
 - **Keep the relationship warm.** Brian is a good ally. Show up, share progress, don't over-promise joint deliverables.
 
@@ -892,17 +892,17 @@ Jinfeng operates through **positioning and narrative control**, not direct obstr
 > **Major update 2026-04-09:** Operating plan has been substantially revised after new data points. The original "ship M1 first, then talk" plan is superseded. See Current relationship + Structural context below.
 
 ## Role in my 6–12 month goals
-- **Structural counterweight in Kurchi-line AI tooling.** Roberto built a funnel debugging tool on Search logs using Claude Code; Jeff highlighted it to the entire org. As of 2026-04-09, he has expanded into agentic eval tooling ("I got agents working on search eval tool"), directly into James's PINvestigator/Pinsight territory.
+- **Structural counterweight in Kurchi-line AI tooling.** Roberto built a funnel debugging tool on Search logs using Claude Code; Jeff highlighted it to the entire org. As of 2026-04-09, he has expanded into agentic eval tooling ("I got agents working on search eval tool"), directly into James's PINvestigator/Pinkerton territory.
 - **Not a peer collaborator — organizational gravity.** Roberto reports to **Kurchi** (Sr. Director, SSJ — primary political counterweight to UPP; structurally adversarial per top-of-file). The Roberto-James competitive dynamic is partly a proxy for Dylan-vs-Kurchi positioning at the director level. **This is structural, not relational — not James's to fix at the peer layer.**
-- **Peer dynamic.** Roberto ships visible demos faster; James has deeper AI craft (PINvestigator architecture, Pinsight vision, Reflex co-ownership with Andrew/Dylan).
+- **Peer dynamic.** Roberto ships visible demos faster; James has deeper AI craft (PINvestigator architecture, Pinkerton vision, Reflex co-ownership with Andrew/Dylan).
 
 ## Current relationship
 - **Status:** Cordial surface, competitively guarded underneath. Operating with territorial awareness.
 - **Trust level:** Neutral, trending guarded. Evidence accumulated over 9 days:
   - **2026-03-31:** James sent a warm peer DM congratulating Roberto on his Search Debugger tool, sharing that James + Alok have been building in similar space, telegraphing his direction ("go big with AI Agents"), and sharing Andrew Yaroshevsky's Reflex vision. **Roberto never responded (9-day silence through 2026-04-09).** The outreach was well-framed; the silence is Roberto's choice, not a failure of the message.
   - **2026-04-09 AM (Akaasha ralph-loop demo meeting):** James asked a technically legitimate maturity question about a demo from someone on Roberto's team. Jeff publicly smoothed it with *"despite James's question, it's still very impressive..."* Minor micro-friction, no relational debt — the "despite" was a graceful room-management move by Jeff, not a rebuke. See `communication.md` Pattern 7 for the delivery calibration.
-  - **2026-04-09 PM (Brian Lee's recsys observability meeting):** With 5 minutes on the clock, James began pitching the Pinsight vision. Roberto interrupted with *"I'm sorry to steal your thunder but I got agents working on search eval tool"* — a pre-apologized territorial claim planted mid-pitch. James responded correctly in the moment: *"That's great! It means we have more to build upon each other's tooling. One component you might not have is the user understanding side."* Roberto nodded reluctantly, then left mid-sentence (ambiguous — hard stop or competitive closure).
-  - **2026-04-09 evening (Slack follow-up):** James posted to #recsys-observability with the Pinsight CC skill link, vision/roadmap, partnership invite, and team name-drop (Alok Malik, Chuxi Wang). Durable written reframe of the in-meeting incident. See `communication.md` Pattern 8.
+  - **2026-04-09 PM (Brian Lee's recsys observability meeting):** With 5 minutes on the clock, James began pitching the Pinkerton vision. Roberto interrupted with *"I'm sorry to steal your thunder but I got agents working on search eval tool"* — a pre-apologized territorial claim planted mid-pitch. James responded correctly in the moment: *"That's great! It means we have more to build upon each other's tooling. One component you might not have is the user understanding side."* Roberto nodded reluctantly, then left mid-sentence (ambiguous — hard stop or competitive closure).
+  - **2026-04-09 evening (Slack follow-up):** James posted to #recsys-observability with the Pinkerton CC skill link, vision/roadmap, partnership invite, and team name-drop (Alok Malik, Chuxi Wang). Durable written reframe of the in-meeting incident. See `communication.md` Pattern 8.
 
 ## Structural context
 Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly downstream of Kurchi's posture relative to Dylan's org. This means **direct peer outreach is unlikely to resolve the friction** because Roberto's incentives are partly driven by his reporting chain. Do not try to fix this at the peer layer.
@@ -910,11 +910,11 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 ## Revised operating plan (2026-04-09 — supersedes "ship M1 first, then talk")
 - **Do NOT directly re-outreach to Roberto.** The 9-day silence is information — accept it. No "hey, wanted to check in" DM. Let Roberto come to James, not the other way around.
 - **Work through higher altitude gravity.** The fix is organizational, not relational:
-  - **Dylan** — brokering Reflex collaboration (confirmed 2026-04-09 DM). Dylan does not currently model Roberto as part of the Reflex conversation. See `projects/pinsight/pinsight.md` for Reflex context.
+  - **Dylan** — brokering Reflex collaboration (confirmed 2026-04-09 DM). Dylan does not currently model Roberto as part of the Reflex conversation. See `projects/pinkerton/pinkerton.md` for Reflex context.
   - **Andrew Yaroshevsky** — Reflex sponsor (Sr. Director, Product). Sponsorship air cover.
   - **Brian Lee** — forum host, high-trust ally. Low-risk ally check-in this week: *"Hey Brian, curious what you made of the Roberto interruption today. Want to make sure I'm reading the dynamic correctly."* Not a complaint — a calibration. Brian will give a straight read on whether this is broad-pattern or James-specific.
 - **Reflex is the bypass lane.** Dylan's 2026-04-09 invitation to co-own Reflex with Andrew's sponsorship is a completely separate lane from the Kurchi-line AI tooling tournament. Roberto is not in that room. James should show up cleanly there — that's where the Director-track narrative gets built.
-- **Pinsight M1 reframed.** No longer primarily "the parity move to Roberto." Now: "the technical proof that makes James the credible lead for Reflex and cross-org agentic debugging." Same artifact, different framing, cleaner narrative.
+- **Pinkerton M1 reframed.** No longer primarily "the parity move to Roberto." Now: "the technical proof that makes James the credible lead for Reflex and cross-org agentic debugging." Same artifact, different framing, cleaner narrative.
 - **If collaboration ever happens, it will come through organizational gravity.** Dylan or Andrew brokering, not peer chemistry. Do not chase it.
 - **Don't match Roberto's territorial moves verbally in the moment.** James's in-meeting peer-reframe response (2026-04-09 PM) was the correct in-moment shape. Follow up in writing within hours (Pattern 8). Do not escalate verbally in the room.
 
@@ -937,7 +937,7 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Trust level:** High (based on observed work quality + institutional endorsement)
 
 ## Operating plan
-- **Let the work create the relationship.** PINvestigator, Pinsight, UPP results — these are the artifacts Kartik will see. Don't force a 1:1 relationship; let it emerge through the Reflex connection and demo opportunities.
+- **Let the work create the relationship.** PINvestigator, Pinkerton, UPP results — these are the artifacts Kartik will see. Don't force a 1:1 relationship; let it emerge through the Reflex connection and demo opportunities.
 - **When Reflex lands with Kartik:** Be ready with a clear "here's the sensing layer and what it does" summary. Kartik is a Chief Architect — he'll want the system design, not the narrative.
 - **Don't bypass Dylan/Rajat.** Kartik's support is a tailwind, not an alternate reporting line.
 
@@ -947,7 +947,7 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 ## Role in my 6–12 month goals
 - **UPP ally at the VP level.** Open and vocal supporter of UPP work. Very interested in personalization and recommendation systems.
-- **Content/User Understanding connection.** His org owns content understanding and user understanding signals — directly relevant to Pinsight M2 (User Understanding Summary) and UIC evaluation.
+- **Content/User Understanding connection.** His org owns content understanding and user understanding signals — directly relevant to Pinkerton M2 (User Understanding Summary) and UIC evaluation.
 - **Technical peer.** Very technical, academically inclined (KDD chair for many years). Values rigorous, research-grounded work. Sharp and engaged in technical discussions.
 - **Zhao Bo's manager.** Connection into the Signals org.
 
@@ -956,8 +956,8 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Trust level:** Medium-High (based on UPP support signals and ELT engagement)
 
 ## Operating plan
-- **Maintain visibility.** Keep Faisal aware of UPP results and Pinsight progress through natural forums (ELT, AI forums).
-- **Explore content/user understanding synergy.** When Pinsight M2 matures, there may be a natural collaboration point with Faisal's content understanding team.
+- **Maintain visibility.** Keep Faisal aware of UPP results and Pinkerton progress through natural forums (ELT, AI forums).
+- **Explore content/user understanding synergy.** When Pinkerton M2 matures, there may be a natural collaboration point with Faisal's content understanding team.
 - **Leverage his academic sensibility.** If James needs senior technical validation for AI approaches, Faisal is a credible reviewer.
 
 ---
@@ -1317,5 +1317,5 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 ## Operating plan
 - **Open question to resolve with James:** Does he have any direct relationship with Mira, or is the connection entirely mediated through Dylan/Andrew? Should there be a direct touchpoint at some point?
-- **Watch:** Mira is a high-leverage stakeholder James does not yet have a direct line to. Once Pinsight/Reflex have visible artifacts, a Mira touchpoint could be high-value (Design's stake in the personalization vision is meaningful). But do not force it — let the work create the moment.
+- **Watch:** Mira is a high-leverage stakeholder James does not yet have a direct line to. Once Pinkerton/Reflex have visible artifacts, a Mira touchpoint could be high-value (Design's stake in the personalization vision is meaningful). But do not force it — let the work create the moment.
 - **Do not surface to James as urgent.** This is on the radar, not on the action list.

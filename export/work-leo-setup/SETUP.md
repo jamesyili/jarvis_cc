@@ -35,7 +35,7 @@ work+self/people/team_members.md     -> ~/leo-work/context/people/team_members.m
 
 ### Projects (copy all)
 ```
-work+self/projects/pinsight.md                    -> ~/leo-work/context/projects/pinsight.md
+work+self/projects/pinkerton.md                    -> ~/leo-work/context/projects/pinkerton.md
 work+self/projects/pinvestigator.md               -> ~/leo-work/context/projects/pinvestigator.md
 work+self/projects/clr_technical.md               -> ~/leo-work/context/projects/clr_technical.md
 work+self/projects/p2p_lr_technical.md            -> ~/leo-work/context/projects/p2p_lr_technical.md

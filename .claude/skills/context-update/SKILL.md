@@ -37,7 +37,7 @@ Present proposed updates as a concrete list:
 ```
 **Proposed updates:**
 1. `stakeholders.md` — Add profile for [person]: [one-line reason]
-2. `pinsight.md` — Update M1 status: [what changed]
+2. `pinkerton.md` — Update M1 status: [what changed]
 3. `goals.md` — [specific change]: [why]
 4. NEW FILE: `projects/[name].md` — [why it's needed]
 ```

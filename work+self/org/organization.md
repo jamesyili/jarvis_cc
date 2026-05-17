@@ -130,7 +130,7 @@ Following Bowen's departure (March 30, 2026), James is interim manager of all 17
 ### Real-Time / L1 Utility
 - **TL:** JJ
 
-### AI (Pinvestigator/Pinsight)
+### AI (Pinvestigator/Pinkerton)
 - **Owner:** JJ (partial), Charlie
 
 ### Content Exploration

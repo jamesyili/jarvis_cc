@@ -72,7 +72,7 @@ This directly conflicts with the Skeptic and Feedback Curator additions. The CLA
 
 ### 2g. MCP proxy pattern (localhost:19193)
 
-The `.mcp.json` in `services/reflex/` configures Presto and experiments via `localhost:19193`. This is the same proxy pattern as Pinsight (see MEMORY.md). The Known Dead Ends entry about "never use curl to localhost:19193" (returns 403) is critical — agents must use native MCP tool calls. Quality_patterns.md documents a 6-cycle self-reinforcing failure loop where agents saw "Presto blocked" in the patterns file and repeated the mistake.
+The `.mcp.json` in `services/reflex/` configures Presto and experiments via `localhost:19193`. This is the same proxy pattern as Pinkerton (see MEMORY.md). The Known Dead Ends entry about "never use curl to localhost:19193" (returns 403) is critical — agents must use native MCP tool calls. Quality_patterns.md documents a 6-cycle self-reinforcing failure loop where agents saw "Presto blocked" in the patterns file and repeated the mistake.
 
 ---
 

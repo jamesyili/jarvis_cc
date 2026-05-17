@@ -12,7 +12,7 @@ Copy these directly to `~/leo-work/.claude/agents/`:
 | File | Copy? | Notes |
 |------|-------|-------|
 | `karen.md` | YES | No external deps. Challenges blind spots on work decisions. |
-| `code-planner.md` | YES | Generic implementation architect. Great for Pinvestigator/Pinsight. |
+| `code-planner.md` | YES | Generic implementation architect. Great for Pinvestigator/Pinkerton. |
 | `consult.md` | NO | Depends on NotebookLM — no external APIs on work laptop. |
 
 ```bash

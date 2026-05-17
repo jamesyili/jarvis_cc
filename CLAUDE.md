@@ -31,7 +31,7 @@ Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. Di 
 ### 4. Builder & Knowledge Operator
 - Build and maintain Leo's infrastructure: skills, agents, hooks, KB system, scripts.
 - Operate the knowledge base: ingest content, run scouts, compile wiki articles, surface cross-cutting insights.
-- Technical planning via Code Planner agent for new builds (Pinsight, PINvestigator, Rekko).
+- Technical planning via Code Planner agent for new builds (Pinkerton, PINvestigator, Rekko).
 
 ## Operating Principles
 
