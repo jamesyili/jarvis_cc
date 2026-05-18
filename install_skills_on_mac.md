@@ -1,16 +1,16 @@
 # Install Public Claude Code Skills on Mac
 
-Generated 2026-05-18. Installs the three major **publicly-available** Claude Code skill collections on a fresh Mac. Does **not** sync any of your personal/private skills (`~/.claude/skills/` on WSL is excluded by design).
+Generated 2026-05-18. Installs publicly-available Claude Code skill collections on a fresh Mac. Does **not** sync any of your personal/private skills.
 
 ## What you'll end up with
 
-| Source | What it ships | Stars | Install method |
-|--------|---------------|-------|----------------|
-| [Anthropic official](https://github.com/anthropics/skills) | 17 official skills — document handlers (PDF/DOCX/XLSX/PPTX), design, engineering examples | 135K+ | Claude Code plugin marketplace |
-| [Matt Pocock](https://github.com/mattpocock/skills) | ~18 skills — TDD, grill-me, to-issues, triage, diagnose, prototype, etc. ("Skills for Real Engineers") | 48K+ | `npx skills@latest` |
-| [Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code) by Affaan Mustafa | 183 skills + 48 agents + 60 slash commands + hooks (huge harness) | 163K+ | Plugin marketplace (preferred) or `install.sh` |
+| Source | Skills | Install method |
+|--------|--------|----------------|
+| [Matt Pocock](https://github.com/mattpocock/skills) | 18 skills — full list below, including `tdd`, `grill-me`, `grill-with-docs` | `npx skills@latest` |
+| [Humanizer](https://github.com/blader/humanizer) by blader | 1 skill — removes AI writing patterns | `git clone` or copy `SKILL.md` |
+| [Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code) by Affaan Mustafa | 183 skills + 48 agents + 60 slash commands + hooks | Plugin marketplace (preferred) or `install.sh` |
 
-For discovery beyond these three: [awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) curates the broader ecosystem.
+For broader discovery: [awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills).
 
 ---
 
@@ -18,31 +18,11 @@ For discovery beyond these three: [awesome-claude-skills](https://github.com/tra
 
 1. **Claude Code installed on Mac** — verify with `claude --version`. If missing: https://docs.claude.com/en/docs/claude-code/setup
 2. **Node.js** — needed for Matt Pocock's installer. `node --version` should print v18+ (install via `brew install node` if missing).
-3. **Git** — for ECC's optional rules + fallback install. `git --version`.
+3. **Git** — for Humanizer + ECC. `git --version`.
 
 ---
 
-## Step 1 — Anthropic official skills
-
-Inside a Claude Code session:
-
-```
-/plugin marketplace add anthropics/skills
-/plugin install document-skills@anthropic-agent-skills
-/plugin install example-skills@anthropic-agent-skills
-```
-
-After install you can invoke skills like:
-
-```
-Use the PDF skill to extract form fields from path/to/file.pdf
-```
-
-`document-skills` = source-available document handlers; `example-skills` = Apache-2.0 reference patterns.
-
----
-
-## Step 2 — Matt Pocock skills
+## Step 1 — Matt Pocock skills (18 total)
 
 From terminal:
 
@@ -50,10 +30,33 @@ From terminal:
 npx skills@latest add mattpocock/skills
 ```
 
-Follow the prompts:
-1. Select which skills to install (or take all).
-2. Choose your coding agent (pick Claude Code).
-3. **Make sure `setup-matt-pocock-skills` is included in your selection.**
+The installer will prompt you. **Select all 18 skills**, pick Claude Code as the agent, and make sure `setup-matt-pocock-skills` is included.
+
+### The full Matt Pocock skill list
+
+**Engineering (10):**
+- `diagnose` — root-cause investigation
+- `grill-with-docs` — grilling against your project's domain model + existing docs ← what you asked for
+- `triage` — sort issues / inbox by priority
+- `improve-codebase-architecture` — architectural refactor passes
+- `setup-matt-pocock-skills` — one-time config (run this after install)
+- `tdd` — red-green-refactor TDD loop ← what you asked for
+- `to-issues` — break plans into independently-grabbable GitHub issues
+- `to-prd` — turn a rough spec into a PRD
+- `zoom-out` — pull back from tactical noise to product-level framing
+- `prototype` — quick-and-dirty prototyping mode
+
+**Productivity (4):**
+- `caveman` — strip prose to caveman simplicity
+- `grill-me` — relentless plan/design interrogation
+- `handoff` — clean session handoff to next agent/human
+- `write-a-skill` — meta-skill for authoring new skills
+
+**Misc (4):**
+- `git-guardrails-claude-code` — guardrails against accidental destructive git ops
+- `migrate-to-shoehorn` — migration helper
+- `scaffold-exercises` — generate practice exercises
+- `setup-pre-commit` — install + configure pre-commit hooks
 
 Then in Claude Code, run once:
 
@@ -66,7 +69,29 @@ This walks you through:
 - Triage label vocabulary
 - Documentation save location
 
-**Heads-up on overlap**: Matt's `grill-me` and `tdd` overlap with skills you already use. When two skills share a name, the more locally-scoped one wins — so Matt's versions will load in any project that doesn't define its own.
+---
+
+## Step 2 — Humanizer (standalone)
+
+From terminal:
+
+```bash
+mkdir -p ~/.claude/skills/humanizer
+git clone https://github.com/blader/humanizer.git /tmp/humanizer-src
+cp /tmp/humanizer-src/SKILL.md ~/.claude/skills/humanizer/
+rm -rf /tmp/humanizer-src
+```
+
+Or if you want the full repo for easier updating:
+
+```bash
+mkdir -p ~/src
+git clone https://github.com/blader/humanizer.git ~/src/humanizer
+ln -s ~/src/humanizer ~/.claude/skills/humanizer
+# Update later with: git -C ~/src/humanizer pull
+```
+
+What it does: detects 24 AI writing patterns (em dash overuse, "delve/tapestry/landscape" vocabulary, rule of three, negative parallelisms, sycophantic tone) and rewrites them out. Based on Wikipedia's "Signs of AI writing" guide.
 
 ---
 
@@ -97,7 +122,7 @@ cp -r ~/src/everything-claude-code/rules/typescript ~/.claude/rules/ecc/
 
 ### Fallback: manual install via `install.sh`
 
-If the plugin route gives you trouble, ECC ships a shell installer with three profiles:
+If the plugin route gives you trouble:
 
 ```bash
 cd ~/src/everything-claude-code
@@ -107,6 +132,8 @@ cd ~/src/everything-claude-code
 ```
 
 **Pick one route only** — don't run both `/plugin install` and `./install.sh`; they'll fight over the same paths.
+
+**Heads-up on overlap with Matt Pocock**: ECC ships its own `tdd` and several skills that overlap with Matt Pocock's set. Skill name collisions are resolved by scope (project-local > user-global > plugin). If both define the same name in the same scope, the last one loaded wins — install order matters. If you want Matt Pocock's `tdd` to win, install ECC first, then Matt Pocock.
 
 ---
 
@@ -118,42 +145,48 @@ In a fresh Claude Code session:
 /help
 ```
 
-You should see new slash commands grouped by source (e.g., `/tdd`, `/triage`, `/to-issues` from Matt Pocock; `/plugin`-managed entries from Anthropic + ECC).
+You should see new slash commands grouped by source. Expected highlights:
+- From Matt Pocock: `/tdd`, `/grill-me`, `/grill-with-docs`, `/triage`, `/to-issues`, `/diagnose`, etc.
+- From Humanizer: `/humanizer` (or invoke by name: "Run the humanizer on this text")
+- From ECC: a large set of `/`-commands depending on profile
 
 On disk:
 
 ```bash
-ls ~/.claude/plugins/    # Anthropic + ECC plugin installs land here
-ls ~/.claude/skills/     # Matt Pocock's npx installer drops skills here
+ls ~/.claude/skills/        # Matt Pocock + Humanizer land here
+ls ~/.claude/plugins/       # ECC plugin install lands here
 ```
+
+You should see `humanizer/`, the 18 Matt Pocock skill folders, and an ECC plugin folder.
 
 ---
 
 ## Notes & gotchas
 
-- **No personal/private skills are synced by this doc.** Your WSL `~/.claude/skills/` contains Leo-specific work skills (coach-check, prep, debrief, kb-*, viral-remix-*, etc.) — those are excluded intentionally.
-- **Skill name collisions** are resolved by scope. Project-local skills (`.claude/skills/` in a repo) shadow user-global (`~/.claude/skills/`) which shadow plugin-installed. If you want a public version to win, delete the local override.
-- **MCP servers, hooks, and venvs** are separate concerns. ECC's plugin install handles its own hooks. Anthropic's skills don't require MCP. Some skills reference MCP tools — install those separately as you need them.
-- **Updates**: Plugin-installed skills update via `/plugin update`. Matt Pocock's are vendored copies — re-run `npx skills@latest add mattpocock/skills` to refresh. ECC clone is a normal `git pull`.
+- **No personal/private skills are synced** by this doc. Your WSL `~/.claude/skills/` contains Leo-specific work skills — those are excluded intentionally.
+- **Updates**: 
+  - Matt Pocock: `npx skills@latest add mattpocock/skills` (re-run)
+  - Humanizer: `git -C ~/src/humanizer pull` (if you used the symlink approach)
+  - ECC: `/plugin update` inside Claude Code, or `git pull` if you used `install.sh`
+- **MCP servers** are a separate concern. Some skills reference MCP tools (firecrawl, exa, etc.) — install those individually as needed.
 
 ---
 
 ## TL;DR cheat sheet
 
 ```bash
-# Prereqs (one-time)
-brew install node                                      # if missing
+# Prereqs
+brew install node git
 
-# In Claude Code:
-# /plugin marketplace add anthropics/skills
-# /plugin install document-skills@anthropic-agent-skills
-# /plugin install example-skills@anthropic-agent-skills
-
-# From terminal:
+# Matt Pocock (18 skills)
 npx skills@latest add mattpocock/skills
+# Then in Claude Code: /setup-matt-pocock-skills
 
-# Back in Claude Code:
-# /setup-matt-pocock-skills
+# Humanizer
+git clone https://github.com/blader/humanizer.git ~/src/humanizer
+ln -s ~/src/humanizer ~/.claude/skills/humanizer
+
+# ECC — in Claude Code:
 # /plugin marketplace add https://github.com/affaan-m/everything-claude-code
 # /plugin install ecc@ecc
 ```
