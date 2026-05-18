@@ -1,150 +1,159 @@
-# Install Leo + Personal Skills on Mac
+# Install Public Claude Code Skills on Mac
 
-Generated 2026-05-18. Use this to mirror your Claude Code skills from WSL to a fresh macOS install.
+Generated 2026-05-18. Installs the three major **publicly-available** Claude Code skill collections on a fresh Mac. Does **not** sync any of your personal/private skills (`~/.claude/skills/` on WSL is excluded by design).
 
-## What you have on WSL (source)
+## What you'll end up with
 
-| Source | Path | Count | In git? |
-|--------|------|-------|---------|
-| Leo project skills | `/home/james/src/leo/.claude/skills/` | 15 | Yes — `github.com:jamesyili/leo.git` |
-| Personal / global skills | `/home/james/.claude/skills/` | 46 | No |
-| viral_remix project skills | `/home/james/src/viral_remix/.claude/skills/` | 0 | n/a — folder doesn't exist |
+| Source | What it ships | Stars | Install method |
+|--------|---------------|-------|----------------|
+| [Anthropic official](https://github.com/anthropics/skills) | 17 official skills — document handlers (PDF/DOCX/XLSX/PPTX), design, engineering examples | 135K+ | Claude Code plugin marketplace |
+| [Matt Pocock](https://github.com/mattpocock/skills) | ~18 skills — TDD, grill-me, to-issues, triage, diagnose, prototype, etc. ("Skills for Real Engineers") | 48K+ | `npx skills@latest` |
+| [Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code) by Affaan Mustafa | 183 skills + 48 agents + 60 slash commands + hooks (huge harness) | 163K+ | Plugin marketplace (preferred) or `install.sh` |
 
-The `viral-remix-start-session` and `viral-remix-end-session` skills you use in the viral_remix repo are actually **personal/global** skills (they live in `~/.claude/skills/`), so they come over with Step 3 below.
-
-## What you'll end up with on Mac (target)
-
-| Destination | Source | Method |
-|-------------|--------|--------|
-| `~/src/leo/.claude/skills/` (15 skills) | leo repo | `git clone` |
-| `~/.claude/skills/` (46 skills) | WSL personal | rsync / tarball / private repo |
-
-Claude Code reads user-scope skills from `~/.claude/skills/` on macOS just like on Linux.
+For discovery beyond these three: [awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) curates the broader ecosystem.
 
 ---
 
-## Step 1 — Install Claude Code on Mac
+## Prerequisites
 
-If not already installed: https://docs.claude.com/en/docs/claude-code/setup
+1. **Claude Code installed on Mac** — verify with `claude --version`. If missing: https://docs.claude.com/en/docs/claude-code/setup
+2. **Node.js** — needed for Matt Pocock's installer. `node --version` should print v18+ (install via `brew install node` if missing).
+3. **Git** — for ECC's optional rules + fallback install. `git --version`.
 
-Verify:
-```bash
-claude --version
+---
+
+## Step 1 — Anthropic official skills
+
+Inside a Claude Code session:
+
+```
+/plugin marketplace add anthropics/skills
+/plugin install document-skills@anthropic-agent-skills
+/plugin install example-skills@anthropic-agent-skills
 ```
 
-## Step 2 — Clone the Leo repo (gets 15 project skills + everything else)
+After install you can invoke skills like:
+
+```
+Use the PDF skill to extract form fields from path/to/file.pdf
+```
+
+`document-skills` = source-available document handlers; `example-skills` = Apache-2.0 reference patterns.
+
+---
+
+## Step 2 — Matt Pocock skills
+
+From terminal:
+
+```bash
+npx skills@latest add mattpocock/skills
+```
+
+Follow the prompts:
+1. Select which skills to install (or take all).
+2. Choose your coding agent (pick Claude Code).
+3. **Make sure `setup-matt-pocock-skills` is included in your selection.**
+
+Then in Claude Code, run once:
+
+```
+/setup-matt-pocock-skills
+```
+
+This walks you through:
+- Issue tracker preference (GitHub / Linear / local files)
+- Triage label vocabulary
+- Documentation save location
+
+**Heads-up on overlap**: Matt's `grill-me` and `tdd` overlap with skills you already use. When two skills share a name, the more locally-scoped one wins — so Matt's versions will load in any project that doesn't define its own.
+
+---
+
+## Step 3 — Everything Claude Code (ECC)
+
+Inside a Claude Code session:
+
+```
+/plugin marketplace add https://github.com/affaan-m/everything-claude-code
+/plugin install ecc@ecc
+```
+
+That gets you the agents, skills, commands, and hooks via the plugin system.
+
+### Optional: install ECC's rules
+
+The plugin route doesn't auto-install ECC's rule packs. If you want them:
 
 ```bash
 mkdir -p ~/src
-cd ~/src
-git clone git@github.com:jamesyili/leo.git
+git clone https://github.com/affaan-m/everything-claude-code ~/src/everything-claude-code
+
+mkdir -p ~/.claude/rules/ecc
+cp -r ~/src/everything-claude-code/rules/common ~/.claude/rules/ecc/
+cp -r ~/src/everything-claude-code/rules/typescript ~/.claude/rules/ecc/
+# Copy only the rule folders you actually want — there are more in the repo.
 ```
 
-This brings down `.claude/skills/` plus all of Leo's context files, KB, scripts, etc. When you `cd ~/src/leo` and run `claude`, the project skills are auto-detected.
+### Fallback: manual install via `install.sh`
 
-## Step 3 — Sync the 46 personal/global skills from WSL → Mac
-
-Pick **one** option. Option A is fastest if you can SSH into WSL; Option C is best for ongoing sync.
-
-### Option A — rsync over SSH (recommended one-shot)
-
-From the **Mac**:
+If the plugin route gives you trouble, ECC ships a shell installer with three profiles:
 
 ```bash
-mkdir -p ~/.claude/skills
-
-# Replace <wsl-host> with WSL's reachable hostname or IP
-rsync -avh --delete \
-  james@<wsl-host>:/home/james/.claude/skills/ \
-  ~/.claude/skills/
+cd ~/src/everything-claude-code
+./install.sh --profile minimal   # excludes hooks-runtime
+./install.sh --profile core      # agents + commands + skills, no hooks
+./install.sh --profile full      # everything including hooks
 ```
 
-If WSL isn't directly reachable, ssh into the Windows host first or use Option B.
-
-### Option B — Tarball + manual transfer
-
-On **WSL**:
-
-```bash
-tar -czf ~/personal-skills-$(date +%Y%m%d).tar.gz -C /home/james/.claude skills
-```
-
-Move the tarball to the Mac (AirDrop via Windows, scp, Dropbox, USB, whatever works).
-
-On **Mac**:
-
-```bash
-mkdir -p ~/.claude
-tar -xzf ~/Downloads/personal-skills-YYYYMMDD.tar.gz -C ~/.claude/
-```
-
-### Option C — Private GitHub repo (best for ongoing two-way sync)
-
-One-time, on **WSL**:
-
-```bash
-cd ~/.claude/skills
-git init
-git add .
-git commit -m "Initial personal skills snapshot"
-gh repo create jamesyili/claude-skills --private --source=. --remote=origin --push
-```
-
-On **Mac**:
-
-```bash
-mkdir -p ~/.claude
-git clone git@github.com:jamesyili/claude-skills.git ~/.claude/skills
-```
-
-After that, `git pull` / `git push` from either machine to stay in sync. (If you do this, add `.gitignore` entries for anything sensitive — see Caveats.)
-
-## Step 4 — Verify
-
-On Mac:
-
-```bash
-ls ~/.claude/skills | wc -l          # expect ~46
-ls ~/src/leo/.claude/skills | wc -l  # expect 15
-
-cd ~/src/leo
-claude
-```
-
-In the Claude Code session, the skill list at startup should include both sets. Project skills shadow personal ones with the same name when you're inside `~/src/leo` — that's intentional.
+**Pick one route only** — don't run both `/plugin install` and `./install.sh`; they'll fight over the same paths.
 
 ---
 
-## Caveats — things that are NOT skills but you may want too
+## Step 4 — Verify
 
-The 46 personal skills are self-contained, but some of them call out to external pieces. If you want full feature parity:
+In a fresh Claude Code session:
 
-1. **Hooks** — Leo's session hooks live in `scripts/hooks/` inside the leo repo (so they ride along with Step 2). They're wired up by `~/.claude/settings.json`, which is **not** in this sync. Inspect that file on WSL first; if you copy it, fix any Linux-only paths.
+```
+/help
+```
 
-2. **MCP servers** — Several skills depend on MCP tools (notebooklm, firecrawl, exa, fal-ai-media, videodb, Gmail/Calendar/Drive). Each MCP server needs its own install + auth on the Mac. Check your existing `~/.claude/mcp.json` or equivalent for the current set.
+You should see new slash commands grouped by source (e.g., `/tdd`, `/triage`, `/to-issues` from Matt Pocock; `/plugin`-managed entries from Anthropic + ECC).
 
-3. **Python venvs** — `/kb-graph` and other KB scripts use `~/.venvs/graphify/`. Recreate on Mac with:
-   ```bash
-   python3 -m venv ~/.venvs/graphify
-   ~/.venvs/graphify/bin/pip install graphifyy
-   ```
+On disk:
 
-4. **Global CLAUDE.md** — Your `~/.claude/CLAUDE.md` (private global instructions) is also not skills but is part of your Claude Code setup. Copy it separately if you want the same global behavior on Mac.
+```bash
+ls ~/.claude/plugins/    # Anthropic + ECC plugin installs land here
+ls ~/.claude/skills/     # Matt Pocock's npx installer drops skills here
+```
 
-5. **Sensitive content check** — Before pushing personal skills to any git remote (Option C), scan for hardcoded paths, API keys, or stakeholder names. Some skills under `~/.claude/skills/` reference James-specific context that's fine on a private repo but should never go public.
+---
+
+## Notes & gotchas
+
+- **No personal/private skills are synced by this doc.** Your WSL `~/.claude/skills/` contains Leo-specific work skills (coach-check, prep, debrief, kb-*, viral-remix-*, etc.) — those are excluded intentionally.
+- **Skill name collisions** are resolved by scope. Project-local skills (`.claude/skills/` in a repo) shadow user-global (`~/.claude/skills/`) which shadow plugin-installed. If you want a public version to win, delete the local override.
+- **MCP servers, hooks, and venvs** are separate concerns. ECC's plugin install handles its own hooks. Anthropic's skills don't require MCP. Some skills reference MCP tools — install those separately as you need them.
+- **Updates**: Plugin-installed skills update via `/plugin update`. Matt Pocock's are vendored copies — re-run `npx skills@latest add mattpocock/skills` to refresh. ECC clone is a normal `git pull`.
 
 ---
 
 ## TL;DR cheat sheet
 
 ```bash
-# On Mac, once Claude Code is installed:
+# Prereqs (one-time)
+brew install node                                      # if missing
 
-git clone git@github.com:jamesyili/leo.git ~/src/leo
+# In Claude Code:
+# /plugin marketplace add anthropics/skills
+# /plugin install document-skills@anthropic-agent-skills
+# /plugin install example-skills@anthropic-agent-skills
 
-mkdir -p ~/.claude/skills
-rsync -avh james@<wsl-host>:/home/james/.claude/skills/ ~/.claude/skills/
+# From terminal:
+npx skills@latest add mattpocock/skills
 
-# Optional but recommended:
-cp ~/src/leo/install_skills_on_mac.md ~/Documents/  # keep these instructions handy
+# Back in Claude Code:
+# /setup-matt-pocock-skills
+# /plugin marketplace add https://github.com/affaan-m/everything-claude-code
+# /plugin install ecc@ecc
 ```
