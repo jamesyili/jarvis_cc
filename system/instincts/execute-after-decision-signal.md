@@ -2,10 +2,10 @@
 id: execute-after-decision-signal
 trigger: When James has signaled a decision, evaluation outcome, or rejection ("he did well," "looks good," "ship it," "this is stupid don't do this," "no don't do this") and Leo has already given a recommendation, proposal, or summary
 behavior: Execute the next step or drop the rejected sub-proposal silently. Do not ask further confirmation questions, do not re-litigate the comparison, do not pose "sound right?" check-ins, do not defend the rejected proposal. The decision is made — capture and move (or move past).
-confidence: 0.6
-evidence_count: 2
+confidence: 0.75
+evidence_count: 4
 created: 2026-05-01
-last_updated: 2026-05-02
+last_updated: 2026-05-20
 status: active
 ---
 
@@ -26,3 +26,17 @@ Context: Setup of `work+self/Ethan Evans questions/` parallel-chat workflow. Leo
 Signal: correction (multi-instance within one turn — 5 rejections, all handled without pushback or defense).
 
 Related: this overlaps with `dont-elaborate-on-delegated-work.md` (don't keep designing once James has scoped a task elsewhere) — both are "the decision is made, stop deliberating." The distinction: this one fires (a) in evaluation/recommendation contexts where Leo is tempted to second-confirm even after James has stated his call, AND (b) when James rejects a specific sub-proposal during a workflow review — Leo should drop without arguing, not try to reframe or defend. /end-session protocol's "grill one question at a time" should be skipped when the decision content is already clear from the conversation — go straight to capture.
+
+### 2026-05-19
+> "Don't read too much into the SSv2 numbers with incremental hc ask. It's not all that important in this context." / "You should already know why UPP is 0%."
+
+Context: During the HF CG scope inventory walkthrough for Dylan team-design input. Leo kept asking clarifying questions about specific SSv2 marginal math + UPP attribution logic. James gave terse corrections — both signaling "stop chasing this thread, move on" + a soft signal that Leo should have known the UPP-is-substrate point from context.
+
+Signal: correction (twice in one turn).
+
+### 2026-05-20
+> "Stop questioning me about that, or we can worry about that later. Let's just play this through and then try to come up with a couple of scenarios for us to walk through together." / "I think you need to take it easy a little bit, maybe not make such drastic jumps every time." / "Let's not worry too much about lightweight scoring and Rahul's intersection as much as just keeping in mind that these two things could also be variables to consider, if that makes sense. I think you're reading too much into it, so let's back up a little bit and just note these two variables."
+
+Context: Three distinct moments during the Dylan team-design grill-with-docs session where Leo kept asking sub-questions / over-analyzing when James wanted to move forward. First: Leo kept proposing variations on "should we ask Dylan directly" after James said no. Second: Leo synthesized a clean "Yan-UX-consolidation hypothesis" as "the read." Third: Leo built out V1/V2/V3 deep analysis on LWS+Blending+Rahul-as-Director-track when James wanted them held as open variables.
+
+Signal: correction (multi-instance, same session). The pattern: when James gives a directive to drop a line of inquiry OR signals "just note this as a variable," scrub that line from forward analysis — do not re-introduce as sleeper variable or re-analyze later in the session. Adjacent to the `feedback_garbled_transcripts_scrub` memory and `feedback_hold_hypotheses_loosely` memory.

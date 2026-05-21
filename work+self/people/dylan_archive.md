@@ -18,6 +18,46 @@ Your relationship with Dylan has evolved distinctively over the last 6 months. Y
 
 The critical pivot point was **October 2025**. Before this, you were seeking approval. After this, you shifted to 'Catalytic Clarity'—delivering order during chaos—which aligns perfectly with Dylan's CD personality. She does not trust charisma; she trusts **predictability in high-stakes environments**. By March 2026, you have reached **peak trust**: Exceeds rating, $1.2M equity grant, full confidence expressed, and active sponsorship through headcount sacrifice.
 
+### 2026-05-20 Update: H1 Career Convo Executed — Team-Design Test, AI Doubling-Down, Sponsorship Motive Explicit
+
+H1 career convo with Dylan happened week of 5/18. Full transcript + parse + scenarios in [dylan_team_design_input_2026-05.md](dylan_team_design_input_2026-05.md); input artifact draft v1 at [dylan_team_design_artifact_draft_v1.md](dylan_team_design_artifact_draft_v1.md). Major signals:
+
+**1. The convo was a team-design test, not a stretch-project ask** (Ethan Evans frame). Dylan's language — *"give you a path," "mapping teams and strong people," "what should be trimmed," "what energizes you"* — is Director-level org-design terrain. She is implicitly asking whether James can reason about capabilities, team topology, coordination seams. Implication for posture: lead with org thesis (Pinterest needs X), not preference (I want X). Show options-with-tradeoffs, not single preference. Include scope trims. See [[feedback-director-track-org-thesis-framing]] memory.
+
+**2. Three angles named, lean toward presentation side + AI:**
+- (a) Product side / PM relationships
+- (b) Engineering foundations + platform
+- (c) Infra + AI
+Her lean: *"react on the presentation side"* + *"end-to-end experiences are where I see you shine"* + *"AI is something I'm passionate about — I want to double down."* **Presentation side per James's read = UX + Android/iOS client engineering.** Skill mismatch for James as-is; James's counter is AI-leveraged full-stack wedge via Recsplanations end-to-end.
+
+**3. Sponsorship motive explicit.** *"Selfishly I just want to make sure that I provide you a path forward... I already gave some heads up to some stakeholders."* Dylan is structuring the org partly to create James's Director runway. She named it. This is sponsorship in action.
+
+**4. AI doubling-down ≠ UPP doubling-down — two distinct categories** (caught 2026-05-19 by James). *"AI is something I'm very passionate about. I want to double down. UPP is great."* — AI = Reflex/Pinkerton/agentic/GenAI; UPP = ML platform. Dylan treats them as distinct doubling-downs. See [[feedback-ai-vs-ml-distinction]] memory. Don't conflate.
+
+**5. Implicit endorsement of AI-leveraged-leader thesis.** James's Pinterest-next-leaders question elicited: *"Anyone managing as before will be blindfolded... must know what the future looks like with excitement and passion about where the world is heading."* Strongest direct-from-Dylan validation of James's 5/16 Accelerator commitment (Reflex+Pinkerton as AI-leveraged-leader proof case).
+
+**6. Walking-on-eggshells soft-landed.** Dylan owns it as *"how I say things, not intent."* James's *"label your intent upfront"* tactic was the operationally useful give. Matthew resolved, newer PMs smoothed. She's checking with Yali. She's NOT asking James to fix her — she's asking him to keep flagging.
+
+**7. Relationship-building map (Dylan's view):**
+- **Faisal** — important to build; Dylan offered to drop a line; Qinglong as ML delegate (intermediate step); James planning post-vacation
+- **Manu** — Dylan is *actively building a new relationship with Manu* (per Dylan's words). Manu becomes a Dylan-relationship-build target Leo should track.
+- **Shipeng, Tom, Ryan** — Dylan "got most covered," doesn't need James doing salesperson work for her
+- **Ads side (Bo Zhao + Faisal-via-ads)** — **closed door**. Dylan: "not very productive... legacy infra... defensive... proceed with caution." James should NOT spend time chasing ads-side AI collaborations.
+- **Jeff** — Dylan re-emphasized building Jeff connection
+
+**8. Subtractive reads (what Dylan is NOT asking):**
+- Not asking James to fix her eggshells
+- Not asking James to chase ads-side connections
+- Not asking James to do peer-relationship salesperson work for her
+
+**9. Two-sponsor endorsement model.** Dylan referenced two-people-from-[garbled]-side as the endorsement model for James's Director case. James's read (2026-05-20): garbled transcription artifact; not a meaningful Pinterest category. **Concrete sponsorship architecture: Jia Jing (Sr. Director, ATG) primary + Faisal (VP, T&S/Signals) primary preference / Bo Zhao (Sr. Director under Faisal) fallback.** See [[project-sponsorship-architecture]] memory.
+
+**10. Decision-window status.** *"We don't need to make a decision now... but once we set up team charters and everything, you will be stable for a while."* Open but closing. James needs to submit input + work through stakeholder probes in the coming weeks.
+
+**Pronouns:** Dylan is **she/her** (saved as memory after Leo used "his" once on 2026-05-19).
+
+---
+
 ### 2026-05-09 Update: Value-driven decision filter + manager-staying clarification + Director timing reframe
 
 **Three updates locked in 5/9 coaching session:**

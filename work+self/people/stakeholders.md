@@ -1261,6 +1261,10 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Strategic goal:** Get Manu's team *using* PINvestigator. The moment Manu's org is a PINvestigator user, the overlap dissolves and Jeff has nothing to referee.
 - **Do not chase a direct relationship with Manu yet.** Build through Kareem first, then surface upward when there's a partnership story to tell.
 
+## 2026-05-20 Update: Dylan actively building relationship with Manu
+
+Per H1 career convo: Dylan named Manu as someone she is *"trying to actually also continue building some new relationship with"* — *"He actually presents a lot in terms of how the team is doing, making decisions, etc. He has a very strong opinion coming from a good place."* **Implication for James:** Manu is now a Dylan-priority-relationship-build target. The Kareem-led PINvestigator partnership path remains right, but the upward arc (Manu directly) has just gotten warmer because Dylan is independently building. If/when Manu's team is using PINvestigator, surface the win to Dylan — it reinforces her own Manu-relationship investment.
+
 ---
 
 # 23) Kareem — Manager, Data Science (under Manu, added 2026-04-11)
@@ -1520,10 +1524,12 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 ---
 
-# 35) Rahul — Peer EM, Blending (under Dylan; added 2026-04-18)
+# 35) Rahul Goldam — Manager II, Blending (under Dylan; added 2026-04-18, updated 2026-05-20)
+
+**Level:** **L16 Manager II** (sub-EM altitude). James + Dhruvil are L17 Sr. Manager (peer-EM). Rahul should report through James or Dhruvil under any team-redesign — NOT standalone direct to Dylan. See [[project-team-member-levels]].
 
 ## Role in my 6–12 month goals
-- **Peer Engineering Manager, Blending team (HF, under Dylan).** Blending sits downstream of HF CG and Ranking — the final stage before the feed. Architecturally adjacent to James's surface and increasingly relevant to cross-surface Reflex patterns.
+- **Manager II, Blending team (HF, under Dylan).** Blending sits downstream of HF CG and Ranking — the final stage before the feed. Architecturally adjacent to James's surface and increasingly relevant to cross-surface Reflex patterns.
 - **Retentive Recommendations co-sponsor.** Rahul has dedicated his best engineer, **Adreanne**, to Retentive Recs — a concrete resource investment on Anna + James's initiative. Gives him structural skin in the coalition game, not just rhetorical support.
 - **RLHF meeting attendee.** Alongside Dhruvil (HF Ranking) and James (HF CG), Rahul represents the third HF-stack surface. His Blending patterns are the natural extension target for the curator's cross-surface conflict-resolution logic.
 
