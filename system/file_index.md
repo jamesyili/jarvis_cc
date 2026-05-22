@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-05-13 (UPP × P2P OneTrans surprise + resolution — Sai apology, EM-to-EM heads-up protocol, Plan 3 prioritized, joint half-pager teed up; stakeholders §27 Sai + §7 Jinfeng updated; upp_march_2026.md 5/13 status appended; cross_org_operational_model addendum pending; new subfolder `projects/upp/2026-05-13-onetrans-response/`)
+Last updated: 2026-05-21b (Dylan team-design artifact v1 line-edited + 3 new sections added; stakeholders.md Yan §16 refreshed; new Python-based skills shipped — `/send-me` + `/save-to-drive` on local Google APIs, replacing Anthropic-hosted Gmail/Drive MCPs)
 
 ---
 
@@ -24,7 +24,7 @@ Last updated: 2026-05-13 (UPP × P2P OneTrans surprise + resolution — Sai apol
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks. **5/13: §27 Sai — OneTrans 5/12 event + 5/13 1:1 resolution (clean apology, EM-to-EM heads-up protocol, Plan 3 prioritized, mature peer-EM frame, cultural read = P2P-wants-own-ML-innovation, Roger high-altitude signal). §7 Jinfeng — OneTrans pattern continuation note via Jiaxing delegate.** Prior: 5/9 Dylan §6 history; 5/5 Action-sponsor entry; 4/29 Mira/Anna updates; 4/28 Mira→Active; 4/23 Roberto + Krishna §12b. | 2026-05-13 |
+| `stakeholders.md` | All stakeholder profiles: trust state, DISC, operating plans, risks. **5/21b: §16 Yan refresh — composite team breakdown (Daniel Lu ML + Edward backend + Android/iOS), Daniel Liu → Daniel Lu name correction, partner-not-peer-friction reframe per 4/3 consensus, IB redeployment latent intel, Scenario E presentation-side coherent EM shape. Quick-map line 38 updated.** Prior: 5/13 §27 Sai + §7 Jinfeng (OneTrans event + resolution); 5/9 Dylan §6 history; 5/5 Action-sponsor entry; 4/29 Mira/Anna updates; 4/28 Mira→Active; 4/23 Roberto + Krishna §12b. | 2026-05-21b |
 | `dylan_archive.md` | Deep Dylan relationship audit: trust arc, user manual, Director gap analysis. **5/9: Added "Value-driven decision filter + manager-staying clarification + Director timing reframe" subsection** (Francisco labeling thread evidence; Dylan stays NOT transitions; 2027 timing). Prior: 4/23 retention philosophy + moral filter on external destinations from Slack intel. | 2026-05-09 |
 | `dylan_1on1_log.md` | Rolling 1:1 log: 4/21 debrief + 4/23 Slack exchange (Dafang flight risk, Dylan retention philosophy) | 2026-04-23 |
 | `../H1_career_convo.md` | THE operative doc for Dylan career convo (scheduled wk of 5/20). 13-part structure: OAV thesis (Anticipation Foundations frame), Yan-as-partner via April 3 consensus, 4-segment talk track (Krishna OAV opener / thesis / forced-calibration ladder / cognitive close), Ethan Q11 5-signal early-warning dashboard, Ethan Q13 minimum-viable-asking floor, M18 pacing protocol. **Cross-framework convergence test passed 4/26 (Wes Q15 ↔ Ethan Q15 OAV).** Note: file moved from `people/` to `work+self/` root pre-4/28. **5/5 flag — REVISIT PENDING BEFORE 5/20:** Q17 (in `ethan-james-situations.md` Section 4) introduces promo-free question-stack approach + 90-day inevitability goal frame — needs integration / shape decision (statement-driven 4-segment vs question-driven scope conversation). | 2026-04-26 |
