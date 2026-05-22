@@ -35,7 +35,7 @@ Don't hedge variants into mush. Don't skip evidence. Don't end without the robus
 - **Faisal Farooq (VP, Engineering — T&S/Signals)** — UPP supporter; very technical (KDD chair); owns content/user understanding.
 
 ### Peer Managers (under Dylan)
-- **Yan Li (Sr. Manager, P13N-Experiences)** — new peer; owns Explore/IB surfaces; ownership boundary negotiation active.
+- **Yan Li (Sr. Manager, P13N-Experiences)** — peer; presentation-side EM (composite team: Daniel Lu ML + Edward backend + Android/iOS); partner not friction (per 4/3 consensus); IB redeployment intel high-fragility.
 - **Tim Leung (Manager II, Frontend)** — James mentors him; great collaboration via Yu Zhao + JJ.
 - **Francisco Navarrete (Sr. Manager, Platform/Labeling)** — team in Mexico; good mutual respect; stretched by horizontal platform work.
 - **Rahul (EM, Blending)** — friendly peer; James was his onboarding buddy; co-sponsors Retentive Recommendations via his best engineer Adreanne; RLHF meeting attendee.
@@ -1122,14 +1122,14 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 # 16) Yan Li — Sr. Manager, P13N-Experiences (Peer under Dylan)
 
 ## Role in my 6–12 month goals
-- **Ownership boundary counterpart.** Yan's team (frontend + 6-person ML team) came in during the reorg. The "backend for Explore" work — explore seeds, UIC-to-medoid logic, unity-gulp integrations — is the active ownership negotiation.
-- **Peer under Dylan.** One of five managers reporting to Dylan. New to the org. Dylan told James she wants Yan's team to lean in on Explore/IB backend work.
+- **Presentation-side peer EM.** Yan's team is a composite: Daniel Lu ML (~8) + Edward backend (~5) + Android/iOS. Came in during the reorg. Ownership negotiation (explore seeds, UIC-to-medoid logic, unity-gulp integrations) substantially closed via 4/3 consensus (Dylan + Dhruvil + Yan + James on CG / P13N-Experiences split).
+- **Peer under Dylan.** One of the managers reporting to Dylan. Dylan wants Yan's team to lean in on Explore/IB backend work. **Partner, not peer-friction** — locked 4/3.
 
 ## Profile
 - Professional, calm, mature manager. Manages up well. Contrasts with James's fast/builder style and Dhruvil's steady/framing style.
 - Operating at high altitude — proposing frameworks and ownership models without deep codebase engagement yet (understandable for someone new).
 - Wrote a detailed Unity-HF Ownership Proposal using "Glean and Claude Code" — unclear if his own engineers fully reviewed.
-- Has TLs: AJ Oxendine (Staff SWE, direct/assertive, raising real architectural concerns), Daniel Liu (EM, has reviewed ownership doc).
+- Has TLs: AJ Oxendine (Staff SWE, direct/assertive, raising real architectural concerns), Daniel Lu (EM, ML lead, has reviewed ownership doc).
 
 ## Current relationship
 - **Status:** Constructive. James welcomed the ownership doc, asked the right process question (have TLs reviewed?), offered collaborative posture. Group sync with Dylan scheduled for April 3.
@@ -1145,6 +1145,18 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Offer transition support.** Onboarding/guidance through Q2, clean handoff by May.
 - **Address AJ friction in Yan 1:1, not group settings.** Frame as collaboration pattern to improve, not personnel complaint.
 - **Build working relationship density.** The Dhruvil/GULP model worked through shared debugging — engineer the same organic collaboration with Yan's team.
+
+## 2026-05-20 Update: Partner reframe locked + IB redeployment intel + Scenario E shape
+
+Three updates carried out of the Dylan H1 career convo (week of 5/18) and prior intel.
+
+**1. Partner-not-peer-friction reframe is locked** (per 4/3 consensus — Dylan + Dhruvil + Yan + James on CG / P13N-Experiences ownership). The earlier "active ownership boundary negotiation" frame is substantially closed. Yan = partner in the presentation-side org, not friction surface. Don't reactivate ownership-defense posture. See memory: `project_april_3_consensus_operating_frame`.
+
+**2. Yan/IB redeployment intel — high-fragility, do NOT propagate.** Per 2026-05-15: Andrew is considering cutting Intelligent Board and redeploying Yan's ML engineers (Daniel Lu's team) onto James + Dhruvil's projects. **Paperwork prepared, not approved.** Treat as latent signal only. Do not surface to Yan, Daniel Lu, Dhruvil, or the team. If it lands, James's team gains ML capacity directly. If it doesn't, the partner frame holds as-is. See memory: `project_yan_ib_redeployment_live`.
+
+**3. Scenario E team-design implication.** In James's preferred Scenario E (cross-surface AI personalization capability under James), Yan reshapes as a coherent presentation-side EM — Tim potentially consolidates under her, Daniel Lu's ML team consolidates under James (desirable not essential — push but don't ship plan dependent on him). Scope trim locked from the H1 convo work: **Unity-for-IB → Yan side**, **Responsiveness → surface side**. Don't frame this to Yan directly; it's organizing logic for the Dylan input artifact, not a Yan conversation yet.
+
+**4. Voice-transcription cleanup.** "Yen" → Yan; "Daniel Liu" → Daniel Lu (Yan's TL, ML lead). Names corrected throughout the chapter doc + artifact draft + this profile.
 
 ---
 
