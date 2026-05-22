@@ -20,3 +20,12 @@ notebooklm_cookies.txt
 kb/.kb/graph/graph.html
 kb/.kb/graph/cache/
 kb/.kb/graph/raw_chunks/
+
+# Leo Google integration (credentials/tokens live in ~/.config/leo/, but defense in depth)
+google_credentials.json
+google_token.json
+drive_folders.json
+
+# Python bytecode
+__pycache__/
+*.pyc

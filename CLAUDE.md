@@ -168,6 +168,8 @@ Leo has 15+ skills invoked via `/skill-name`. Each skill is self-documenting (se
 | `/prep` | Before any important meeting |
 | `/debrief` | After meetings — extract intel, update context |
 | `/draft-email` | Draft a message calibrated to recipient |
+| `/send-me` | Email a file from this session to James (defaults to most recent artifact) — phone-friendly handoff |
+| `/save-to-drive` | Upload a file to "Leo Outbox" in Google Drive; `.md` converts to Google Doc by default |
 
 ### Knowledge Base (global skills)
 | Skill | Trigger |
