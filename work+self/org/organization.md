@@ -1,5 +1,5 @@
 # organization.md
-Last Updated: 2026-04-01  
+Last Updated: 2026-05-23 (Dylan's 8 direct reports verified via Slack org chart; corrected Tim's scope from "Frontend" to "Presentation broadly: ngAPI backend + Android/iOS client"; Daniel Liu confirmed as sub-EM under Yan with 8 directs; Edward Zhuang added as sub-EM under Yan with 7 directs; Rahul surname corrected from "Goldam" to "Goutam"; Olafur + Dafang verified as Sr. Staff MLE IC direct reports to Dylan.)
 ---  
   
 # Org & Technical Context (Homefeed Candidate Generation)  
@@ -27,14 +27,16 @@ Bill Ready (CEO)
     └── Jeff Harrell (VP, Engineering - Core)
         ├── Rajat Chaturvedi (VP, Engineering)
         │   ├── Dylan Wang (Sr. Director, ML — Homefeed Relevance) — 132 reports
-        │   │   ├── James Li (Sr. Manager, ML — HF Candidate Generation) — 17 reports
-        │   │   ├── Dhruvil Deven Badani (Sr. Manager, ML — HF Ranking) — 25 reports
-        │   │   │   ├── Rahul Goldam (Manager II, ML)
-        │   │   │   └── Dafeng He (Sr. Staff MLE)
-        │   │   ├── Yan Li (Sr. Manager, Eng — P13N-Experiences) — 30 reports
-        │   │   ├── Tim Leung (Manager II, Eng — Frontend) — 13 reports
-        │   │   ├── Francisco Navarrete (Sr. Manager, Eng — Platform/Labeling) — 16 reports
-        │   │   └── Olafur Gudmundsson (Sr. Staff MLE — IC)
+        │   │   ├── James Li (Sr. Manager L17, ML — HF Candidate Generation) — 17 reports
+        │   │   ├── Dhruvil Deven Badani (Sr. Manager L17, ML — HF Ranking) — 25 reports
+        │   │   ├── Yan Li (Sr. Manager L17, Eng — P13N-Experiences) — 30 reports
+        │   │   │   ├── Daniel Liu (Manager II L16, ML) — 8 reports — NOT under ATG
+        │   │   │   └── Edward Zhuang (Manager I L15, Eng) — 7 reports — backend SWE pool
+        │   │   ├── Tim Leung (Manager II L16, Eng — Presentation: ngAPI + Android/iOS client) — 13 reports — reports direct to Dylan (anomalous for L16)
+        │   │   ├── Francisco Navarrete (Sr. Manager L17, Eng — Platform/Labeling) — 16 reports — exiting to Kurchi
+        │   │   ├── Rahul Goutam (Manager II L16, ML — HF Blending) — direct to Dylan; surname corrected from Goldam
+        │   │   ├── Olafur Gudmundsson (Sr. Staff MLE — IC, direct to Dylan)
+        │   │   └── Dafang He (Sr. Staff MLE — IC, direct to Dylan) — Search CLR lead
         │   ├── Kurchi Subhra Hazra (Sr. Director, ML — Search/SSJ) — 114 reports
         │   │   └── Vasil Kasmitski (Manager II, Eng)
         │   ├── Kaanon MacFarlane (Director, Eng) — 34 reports

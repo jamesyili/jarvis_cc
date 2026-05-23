@@ -34,11 +34,19 @@ Don't hedge variants into mush. Don't skip evidence. Don't end without the robus
 - **Kartik Paramasivam (Chief Architect)** — CTO direct report; publicly supports James’s work; Dylan hints his support matters for promo.
 - **Faisal Farooq (VP, Engineering — T&S/Signals)** — UPP supporter; very technical (KDD chair); owns content/user understanding.
 
-### Peer Managers (under Dylan)
-- **Yan Li (Sr. Manager, P13N-Experiences)** — peer; presentation-side EM (composite team: Daniel Lu ML + Edward backend + Android/iOS); partner not friction (per 4/3 consensus); IB redeployment intel high-fragility.
-- **Tim Leung (Manager II, Frontend)** — James mentors him; great collaboration via Yu Zhao + JJ.
-- **Francisco Navarrete (Sr. Manager, Platform/Labeling)** — team in Mexico; good mutual respect; stretched by horizontal platform work.
-- **Rahul (EM, Blending)** — friendly peer; James was his onboarding buddy; co-sponsors Retentive Recommendations via his best engineer Adreanne; RLHF meeting attendee.
+### Peer Managers (under Dylan — verified Slack 2026-05-23)
+- **Yan Li (Sr. Manager, L17, P13N-Experiences, he/him)** — peer-EM; composite team with 2 sub-EMs (Daniel Liu L16 ML + Edward Zhuang L15 backend SWE) plus Android/iOS; partner not friction (per 4/3 consensus); IB redeployment intel high-fragility. **5/23 preferred shape:** Yan absorbs Unity + PWT + latency + Tim reports under him.
+- **Tim Leung (Manager II, L16, Presentation)** — **owns BOTH ngAPI backend AND Android/iOS client** (corrected from "Frontend only" 5/23); reports directly to Dylan currently (anomalous for L16 — should report through L17 peer-EM); James mentors him; great collaboration via Yu Zhao + JJ.
+- **Francisco Navarrete (Sr. Manager, L17, Platform/Labeling)** — exiting to Kurchi; team in Mexico; good mutual respect.
+- **Rahul Goutam (Manager II, L16, Blending)** — friendly peer; James was his onboarding buddy; co-sponsors Retentive Recommendations via his best engineer Adreanne; RLHF meeting attendee. (Surname corrected 5/23: Goutam not Goldam.)
+
+### Sub-EMs under Yan (verified Slack 2026-05-23, full profiles in §16)
+- **Daniel Liu (Manager II, L16, ML — 8 directs)** — NOT under ATG; under Yan. Team works WITH James's team AND with ATG on UIC/pUIC. Candidate for consolidation into James's CG scope in 5/23 preferred shape. Name correction: was previously written as "Daniel Lu" in Leo files (transcription artifact); real name is Daniel Liu.
+- **Edward Zhuang (Manager I, L15, backend SWE — 7 directs)** — likely stays under Yan to support PWT/latency/Unity vertical.
+
+### IC reports to Dylan (Sr. Staff line, verified Slack 2026-05-23)
+- **Olafur Gudmundsson** — Sr. Staff ML Engineer; direct to Dylan. KDD paper Federation co-author + active UBR reviewer (see §25).
+- **Dafang He** — Sr. Staff ML Engineer; direct to Dylan. Search CLR lead + strong TL across P13N stages (see §28).
 
 ### Cross-Org (Growth / Search)
 - **Shipeng Yu (Sr. Director, Growth)** — close to Dylan; now UPP supporter after initial friction; Brian Lee + Tingting are trust anchors.
@@ -1121,15 +1129,17 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 # 16) Yan Li — Sr. Manager, P13N-Experiences (Peer under Dylan)
 
+**Level:** **L17 Sr. Manager** — peer-EM altitude with James + Dhruvil. Verified via Slack 2026-05-23.
+
 ## Role in my 6–12 month goals
-- **Presentation-side peer EM.** Yan's team is a composite: Daniel Lu ML (~8) + Edward backend (~5) + Android/iOS. Came in during the reorg. Ownership negotiation (explore seeds, UIC-to-medoid logic, unity-gulp integrations) substantially closed via 4/3 consensus (Dylan + Dhruvil + Yan + James on CG / P13N-Experiences split).
+- **Presentation-side peer EM.** Yan's team is a composite with 2 sub-EMs (Slack-verified 2026-05-23): **Daniel Liu** (Manager II, L16, ML — 8 directs) + **Edward Zhuang** (Manager I, L15, backend SWE — 7 directs). Came in during the reorg. Ownership negotiation (explore seeds, UIC-to-medoid logic, unity-gulp integrations) substantially closed via 4/3 consensus (Dylan + Dhruvil + Yan + James on CG / P13N-Experiences split).
 - **Peer under Dylan.** One of the managers reporting to Dylan. Dylan wants Yan's team to lean in on Explore/IB backend work. **Partner, not peer-friction** — locked 4/3.
 
 ## Profile
 - Professional, calm, mature manager. Manages up well. Contrasts with James's fast/builder style and Dhruvil's steady/framing style.
 - Operating at high altitude — proposing frameworks and ownership models without deep codebase engagement yet (understandable for someone new).
 - Wrote a detailed Unity-HF Ownership Proposal using "Glean and Claude Code" — unclear if his own engineers fully reviewed.
-- Has TLs: AJ Oxendine (Staff SWE, direct/assertive, raising real architectural concerns), Daniel Lu (EM, ML lead, has reviewed ownership doc).
+- Has TLs: AJ Oxendine (Staff SWE, direct/assertive, raising real architectural concerns), Daniel Liu (EM, ML lead, has reviewed ownership doc).
 
 ## Current relationship
 - **Status:** Constructive. James welcomed the ownership doc, asked the right process question (have TLs reviewed?), offered collaborative posture. Group sync with Dylan scheduled for April 3.
@@ -1152,24 +1162,78 @@ Three updates carried out of the Dylan H1 career convo (week of 5/18) and prior 
 
 **1. Partner-not-peer-friction reframe is locked** (per 4/3 consensus — Dylan + Dhruvil + Yan + James on CG / P13N-Experiences ownership). The earlier "active ownership boundary negotiation" frame is substantially closed. Yan = partner in the presentation-side org, not friction surface. Don't reactivate ownership-defense posture. See memory: `project_april_3_consensus_operating_frame`.
 
-**2. Yan/IB redeployment intel — high-fragility, do NOT propagate.** Per 2026-05-15: Andrew is considering cutting Intelligent Board and redeploying Yan's ML engineers (Daniel Lu's team) onto James + Dhruvil's projects. **Paperwork prepared, not approved.** Treat as latent signal only. Do not surface to Yan, Daniel Lu, Dhruvil, or the team. If it lands, James's team gains ML capacity directly. If it doesn't, the partner frame holds as-is. See memory: `project_yan_ib_redeployment_live`.
+**2. Yan/IB redeployment intel — high-fragility, do NOT propagate.** Per 2026-05-15: Andrew is considering cutting Intelligent Board and redeploying Yan's ML engineers (Daniel Liu's team) onto James + Dhruvil's projects. **Paperwork prepared, not approved.** Treat as latent signal only. Do not surface to Yan, Daniel Liu, Dhruvil, or the team. If it lands, James's team gains ML capacity directly. If it doesn't, the partner frame holds as-is. See memory: `project_yan_ib_redeployment_live`.
 
-**3. Scenario E team-design implication.** In James's preferred Scenario E (cross-surface AI personalization capability under James), Yan reshapes as a coherent presentation-side EM — Tim potentially consolidates under her, Daniel Lu's ML team consolidates under James (desirable not essential — push but don't ship plan dependent on him). Scope trim locked from the H1 convo work: **Unity-for-IB → Yan side**, **Responsiveness → surface side**. Don't frame this to Yan directly; it's organizing logic for the Dylan input artifact, not a Yan conversation yet.
+**3. Scenario E team-design implication.** In James's preferred Scenario E (cross-surface AI personalization capability under James), Yan reshapes as a coherent presentation-side EM — Tim potentially consolidates under him, Daniel Liu's ML team consolidates under James (desirable not essential — push but don't ship plan dependent on him). Scope trim locked from the H1 convo work: **Unity-for-IB → Yan side**, **Responsiveness → surface side**. Don't frame this to Yan directly; it's organizing logic for the Dylan input artifact, not a Yan conversation yet.
 
-**4. Voice-transcription cleanup.** "Yen" → Yan; "Daniel Liu" → Daniel Lu (Yan's TL, ML lead). Names corrected throughout the chapter doc + artifact draft + this profile.
+**4. Voice-transcription cleanup.** "Yen" → Yan; "Daniel Liu" → Daniel Liu (Yan's TL, ML lead). Names corrected throughout the chapter doc + artifact draft + this profile.
+
+## 2026-05-23 Update: Revised preferred shape — Yan as Presentation + Performance vertical
+
+Following Anna conversation + Tim conversation + Slack-verified org chart (see [people/dylan_team_design_input_2026-05.md](dylan_team_design_input_2026-05.md) 5/23 update for full context).
+
+**James's revised preferred shape positions Yan as the Presentation + Performance vertical:**
+- **Yan owns:** Unity ownership + PWT (Pinner Wait Time) + latency + **Tim Leung reports to him** (so Yan controls full presentation stack: ngAPI backend + Android/iOS client through Tim, plus Unity, plus PWT/latency as his own vertical).
+- **Yan may absorb some of James's SWE-heavy scope** (specifics TBD — open variable).
+- **Yan loses Daniel Liu's ML team** (consolidates into James, since they're "barely helping" on UIC/pUIC build despite ML-adjacency).
+- **Edward Zhuang stays under Yan** (likely — provides backend SWE pool for PWT/latency/Unity vertical).
+
+**Net read on Yan in this shape:** *Substantial scope expansion in a different domain* — bigger team, more presentation surface area, performance/latency as his own load-bearing vertical. PWT and latency are user-facing business outcomes, not "support infrastructure" — meaningful scope, not consolation.
+
+**Pronouns:** Yan uses **he/him** (corrected 2026-05-23 — earlier Leo updates used "her" wrongly).
+
+**Do NOT propagate this shape to Yan yet** — it's James's input to Dylan, not a Yan conversation. Yan-acceptance is Dylan's problem to navigate, not James's. The 4/3 partner-frame still holds for ongoing 1:1 cadence; team-design discussion stays at Dylan-altitude until James decides delivery.
 
 ---
 
-# 17) Tim Leung — Manager II, Frontend (under Dylan)
+## Sub-EMs under Yan (Slack-verified 2026-05-23)
+
+### Daniel Liu — Manager II, ML Engineering (L16, sub-EM under Yan)
+
+**NOT under ATG.** Previously written as "Daniel Lu" in Leo files due to voice transcription artifact — **real name is Daniel Liu, corrected throughout.**
+
+- **8 direct reports** (verified Slack 5/23): Kim Toy (Sr. MLE), Yang Liu (Sr. MLE), Yongwoo Noh (Sr. MLE), Ling Lan (MLE II), Balaji Rengarajan (Staff MLE), Felix Yang (SWE II), Roderick Gao (Sr. SWE), Rita Lyu (Intern).
+- **Cross-team work:** Daniel Liu's team works WITH James's team AND WITH ATG team on UIC/pUIC pipeline.
+- **James's 5/23 read:** "barely helping" on the substrate build itself. Candidate for consolidation into James's CG scope in revised preferred shape.
+- **Relationship:** Daniel personally said he wants to work with James + team on anticipation/UIC (per pre-China 1:1, done 4/26 sweep).
+
+### Edward Zhuang — Manager I, Engineering (L15, sub-EM under Yan)
+
+- **7 direct reports** (verified Slack 5/23): Josh Arriola (Sr. SWE), Jiaqi Tong (Sr. SWE), Tianhao Shen (SWE II), Allen Pan (Sr. SWE), Yutong Jin (SWE II), Yash Patil (SWE II), Sreesha Venkat (Sr. SWE).
+- **All SWE — backend pool.** Likely owns Unity layer / lower-stack backend (recsys infra-side), distinct from Tim's ngAPI presentation-backend.
+- **In revised preferred shape:** Edward likely stays under Yan to provide backend SWE pool for Yan's PWT/latency/Unity vertical. Could be partial absorption into James depending on what "SWE-heavy scope James gives up" resolves to.
+
+---
+
+# 17) Tim Leung — Manager II, Presentation (under Dylan)
+
+**Level:** **L16 Manager II** — sub-EM altitude. Reports **directly to Dylan** (verified via Slack org chart 5/23) — NOT under Yan currently, though James's 5/23 preferred shape proposes Tim moves under Yan as part of presentation+performance consolidation.
+
+## Scope (corrected 2026-05-23)
+
+**Tim owns BOTH ngAPI backend AND Android/iOS client engineering** — earlier "Frontend / Client only" framing was wrong. Tim runs presentation broadly:
+- **ngAPI backend engineers** — currently constrained scope ("too little scope, stuck on ngAPI" per Tim 5/23). Natural scope extension: Unity layer, where James's engineers have most knowledge.
+- **Android / iOS client engineers** — heavy legacy codebase, hard to make progress per Tim's own observation.
 
 ## Role in my 6–12 month goals
 - **Ally and mentee.** James sees himself as a mentor to Tim. Great interactions and collaboration history.
-- **Frontend partner.** Tim's team handles frontend work that complements James's backend/ML org.
+- **Presentation partner.** Tim's team handles all presentation-side work (server + client) that complements James's ML/retrieval org.
 - **Yu Zhao connection.** Tim's TL Yu Zhao is one of the best engineers in the org. James works with Yu Zhao through JJ on responsiveness — strong collab.
+- **Director-relevant constraint:** Tim's L16 altitude means he should report through an L17 peer-EM under any team-redesign (current direct-to-Dylan reporting is anomalous for the level). See [[project-team-member-levels]].
 
 ## Current relationship
 - **Status:** Strong. Mentorship dynamic + active collaboration through JJ ↔ Yu Zhao on responsiveness.
 - **Trust level:** High
+
+## 2026-05-23 conversation signals
+- Tim shared the ngAPI scope-constraint observation candidly.
+- Tim acknowledged client engineering's legacy-code drag.
+- **No indication Tim has been briefed on the proposed reporting-line move under Yan** — James's read of "should report through L17 peer" is operating logic, not a Tim conversation yet.
+
+## In James's revised preferred shape (5/23)
+- **Tim reports to Yan** (presentation + performance + Unity consolidation under Yan).
+- **James does NOT take Tim or client engineering** — firm constraint. *"It'll take a lot to convince me otherwise. It just doesn't make sense unless I have Tim reporting to me and grow his client engineering scope more, which then doesn't make too much sense for Yan."*
+- **ngAPI backend engineers may extend into Unity** — strengthens cross-stack linkage; backend engineers gain growth scope; Unity capability concentrated where James's engineers already have depth.
 
 ## Notable: Raymond Su
 - Reports to Tim. Was the previous HF CG manager before James joined above him. Transitioned back to IC unwillingly by Dylan and James's decision. Holds resentment. Not an active risk but worth awareness.
@@ -1177,6 +1241,7 @@ Three updates carried out of the Dylan H1 career convo (week of 5/18) and prior 
 ## Operating plan
 - **Maintain the mentorship.** Low cost, high goodwill. Tim being successful reflects well on James.
 - **Keep JJ ↔ Yu Zhao collaboration strong.** This is producing real value on responsiveness.
+- **Do NOT propagate reporting-line-under-Yan proposal to Tim** until Dylan-side decision lands. Premature surfacing creates uncertainty without enabling action.
 
 ---
 
@@ -1536,7 +1601,9 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 
 ---
 
-# 35) Rahul Goldam — Manager II, Blending (under Dylan; added 2026-04-18, updated 2026-05-20)
+# 35) Rahul Goutam — Manager II, Blending (under Dylan; added 2026-04-18, updated 2026-05-23)
+
+**Surname correction 2026-05-23:** Slack confirms surname is **Goutam**, NOT Goldam. Earlier memory had this wrong.
 
 **Level:** **L16 Manager II** (sub-EM altitude). James + Dhruvil are L17 Sr. Manager (peer-EM). Rahul should report through James or Dhruvil under any team-redesign — NOT standalone direct to Dylan. See [[project-team-member-levels]].
 

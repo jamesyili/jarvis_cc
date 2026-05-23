@@ -47,9 +47,9 @@ Internal restructure only. Production track (CG/Retrieval/LWS) and frontier trac
 
 ### Option 2 (recommended) — AI personalization as cross-surface capability
 
-I own the AI personalization stack end-to-end: CG, Retrieval, Anticipation, LWS, RecGPT, Recsplanations, UPP cross-surface. AI Tooling (Reflex/Pinkerton) becomes a real funded sub-team. Daniel Lu's ML group consolidates if available (desirable, not a dependency). Small surface-engineering wedge for Recsplanations.
+I own the AI personalization stack end-to-end: CG, Retrieval, Anticipation, LWS, RecGPT, Recsplanations, UPP cross-surface. AI Tooling (Reflex/Pinkerton) becomes a real funded sub-team. Daniel Liu's ML group consolidates if available (desirable, not a dependency). Small surface-engineering wedge for Recsplanations.
 
-- **Pros:** Serves the business AND the AI doubling-down at once. Coherent Pinterest-wide personalization capability. Clean peer story with Dhruvil. Enables Yan to reshape as a coherent presentation-side EM (with Tim consolidating under her). Strong people-growth bench.
+- **Pros:** Serves the business AND the AI doubling-down at once. Coherent Pinterest-wide personalization capability. Clean peer story with Dhruvil. Enables Yan to reshape as a coherent presentation-side EM (with Tim consolidating under him). Strong people-growth bench.
 - **Cons:** Requires Rajat sign-off on AI net-new headcount. The Recsplanations surface wedge is the political pressure point (small slice from Tim or Yan).
 - **Best for:** The right durable shape — see recommendation below.
 
@@ -70,7 +70,7 @@ Option 2 serves the most signals at once with the least sponsorship cost:
 - **Business:** ~2-3% SSv2 deliverable from the personalization stack; WAU/MAU lift via Retentive Recs; cost/velocity gains via AI Tooling.
 - **AI doubling-down:** Reflex/Pinkerton as funded sub-team (4-6 engineers) converts the signal into a real bet.
 - **Org coherence:** James (AI personalization), Dhruvil (foundations + ranking), Yan (presentation surfaces) — three clean charters, no overlap.
-- **People:** growth paths for Daniel Lu (if available), incoming EM, Bella, Yuke, Piyush, J.J. — plus a clean Director-track shape for Dhruvil too.
+- **People:** growth paths for Daniel Liu (if available), incoming EM, Bella, Yuke, Piyush, J.J. — plus a clean Director-track shape for Dhruvil too.
 
 ## Scope trims (what I would stop / delegate / simplify)
 
@@ -102,7 +102,7 @@ These two interact — if Blending consolidates under Dhruvil, LWS may want to f
 
 **Growth paths under my team:**
 
-- **Daniel Lu** — TL / sub-lead for Anticipation/RR ML cluster if available. (Ideal, not essential — proposal holds without him.)
+- **Daniel Liu** — TL / sub-lead for Anticipation/RR ML cluster if available. (Ideal, not essential — proposal holds without him.)
 - **Incoming EM** (hiring pipeline) — owns a sub-charter (AI Tooling or RecGPT/Recsplanations).
 - **Bella** — EM-track candidate for the RecGPT + Recsplanations LLM cluster.
 - **Yuke** — TL → potential sub-EM for the Retentive Recs cluster.
@@ -188,7 +188,7 @@ This is the org-design backdrop for Option 2.
 
 In response to your direct question — three things, in priority order:
 
-1. **Growing good talent and leaders.** This is where I produce the most durable value. Bowen → me has been the pattern; Daniel Lu (if he comes), Bella, Yuke, J.J. are the live bets.
+1. **Growing good talent and leaders.** This is where I produce the most durable value. Bowen → me has been the pattern; Daniel Liu (if he comes), Bella, Yuke, J.J. are the live bets.
 2. **Solving user problems.** Anticipation, Retentive Recs, Recsplanations — the work I push hardest on is the work that changes what the user actually experiences.
 3. **Efficiency.** Reflex/Pinkerton is the most concentrated expression of this — building the substrate that makes the team 2-3x faster is more compelling to me than personally shipping the next feature.
 

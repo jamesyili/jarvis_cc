@@ -8,6 +8,107 @@
 
 ---
 
+## 2026-05-23 Update — Anna + Tim convos + revised preferred shape (READ THIS FIRST)
+
+**Major refinement to Scenario E based on two stakeholder conversations + Slack-verified org chart.** Artifact v1 below now requires substantive rewrite to reflect this — flagged but not yet executed (next-session work).
+
+### Anna conversation (PM, Recsplanations / Anticipation)
+
+Anna confirmed: **she's not opposed to James working on anticipation front-end experience right now. She thinks there's scope here.** This unblocks the "I own end-to-end" language in the artifact — the Recsplanations-maturity probe lands in James's favor.
+
+### Broader anticipation UX convergence (not just Anna)
+
+The current anticipation UX affordances:
+1. **Explore module** — new module in home feed; the "explanation" work (Recsplanations branding internally)
+2. **Intelligent Boards effort** — new boards
+3. **Interest exploration** — pin-level within home feed
+
+**Convergence everyone is recognizing:** UIC (signal) + pUIC (prediction) become the *single substrate* powering ALL three affordances. UIC is the unified user-state representation; pUIC is the anticipation mechanism. The Explore module, IB, and Interest exploration all consume from this single pipe.
+
+**Director-narrative implication:** James's team builds the substrate (UIC + pUIC) that powers all anticipation UX surfaces. That's not "James owns one thing under anticipation" — that's "James owns the model layer that the entire anticipation product depends on." Architecturally central, business-critical, AI-leveraged, leveraged-through-others.
+
+### Tim conversation (presentation EM, currently reports directly to Dylan)
+
+**Tim owns BOTH ngAPI backend AND Android/iOS client engineering** (not just frontend as prior org map suggested). Verified via Slack org chart 5/23 — Tim is L16 (Manager II), direct report to Dylan.
+
+Tim's observations:
+- **His backend engineers have too little scope** — stuck on ngAPI only.
+- **Natural scope extension** for them: Unity layer, where James's engineers have the most knowledge.
+- **Client engineering has a lot of legacy code** and is hard to make progress on.
+
+James's read on Tim's points:
+- Backend engineers extending into Unity = good org move; strengthens that linkage.
+- **Client engineering: firm NO.** Doesn't make sense unless James takes Tim entirely AND grows client scope — but that breaks the natural Yan pull on presentation. Not interested, doesn't need it for Director, "not what I'm signing up for." Closed.
+
+### Slack-verified org chart (2026-05-23 screenshots)
+
+**Dylan Wang's 8 direct reports:**
+| # | Person | Title | Level | Notes |
+|---|---|---|---|---|
+| 1 | Dhruvil Deven Badani | Sr. Manager, ML | L17 | Ranking / foundations |
+| 2 | Olafur Gudmundsson | Sr. Staff ML Eng | IC line | Direct to Dylan |
+| 3 | Dafang He | Sr. Staff ML Eng | IC line | Direct to Dylan |
+| 4 | Francisco Navarrete | Sr. Manager, Eng | L17 | Exiting to Kurchi |
+| 5 | Yan Li | Sr. Manager, Eng | L17 | P13N |
+| 6 | Tim Leung | Manager II, Eng | **L16** | **Presentation broadly: ngAPI + Android/iOS client.** Reports directly to Dylan (currently — not under Yan). |
+| 7 | James Li | Sr. Manager, ML | L17 | CG |
+| 8 | Rahul Goutam | Manager II, ML | L16 | Blending. (Surname corrected from earlier "Goldam" to "Goutam" per Slack.) |
+
+**Yan Li's team has 2 named sub-EMs** (verified):
+- **Daniel Liu** — Manager II, ML Engineering (L16). 8 directs: Kim Toy, Yang Liu, Yongwoo Noh, Ling Lan, Balaji Rengarajan (Staff), Felix Yang, Roderick Gao, Rita Lyu (intern). **NOT under ATG — under Yan.** His team works WITH James's team and WITH ATG team on UIC/pUIC pipeline. James's read: "barely helping" on the substrate build itself.
+- **Edward Zhuang** — Manager I, Eng (L15). 7 directs: Josh Arriola, Jiaqi Tong, Tianhao Shen, Allen Pan, Yutong Jin, Yash Patil, Sreesha Venkat. All SWE — backend pool.
+
+**Critical name correction (2026-05-23):** Daniel Liu is the real name — NOT Daniel Lu. Previous Leo sessions scrubbed this backwards. All live files now corrected.
+
+### James's revised preferred shape (today's read)
+
+**Three-EM peer L17 split with coherent verticals:**
+
+| EM | Owns | Notes |
+|---|---|---|
+| **James** | ML/AI personalization platform (CG + Anticipation + RR + UIC/pUIC + LWS + UPP cross-surface) + **Daniel Liu's ML team consolidated in** + Recsplanations / Explore module / IB / Interest exploration ML-product surfaces (end-to-end) | Gives up: some SWE-heavy scope TBD which |
+| **Yan** (he/him) | **Unity ownership + PWT (Pinner Wait Time) + latency + Tim reports to him** (so Yan owns ngAPI backend + Android/iOS client + Unity through Tim, plus PWT/latency as his own vertical). May absorb some of James's SWE-heavy scope. | Substantial scope expansion in a different domain (presentation + performance, not ML) |
+| **Dhruvil** | Foundations + ranking (unchanged) | Clean Director-track peer shape |
+| **Francisco** | Exiting to Kurchi (unchanged) | — |
+
+**What changes from artifact v1 Scenario E:**
+- **Tim's reporting line moves** from Dylan direct → under Yan
+- **Daniel Liu's ML team** (8 ppl) consolidates into James
+- **Edward Zhuang's team** — likely stays under Yan as backend support for his PWT/latency/Unity vertical, OR partial absorption into James for Unity SWE work (TBD — depends on what "SWE-heavy scope" James gives up)
+- **Client engineering** explicitly stays with Yan (via Tim), NOT with James
+
+### Strategic strengths of this shape
+
+1. **Each EM has a coherent vertical** — no territorial overlap, no scope ambiguity.
+2. **AI/ML personalization is the high-energy, highest-leverage vertical** — James is the natural owner given Anticipation foundations + UIC/pUIC + cross-surface UPP + Recsplanations + 5 launches in past 6 months.
+3. **Yan's vertical (presentation + performance) is critical infrastructure** — PWT/latency are user-facing business outcomes, not "frontend support." This is a meaningful scope, not a consolation prize.
+4. **Anna confirmed** Recsplanations product maturity supports "James owns end-to-end" framing.
+5. **Convergence-on-UIC-as-single-substrate** is the killer pitch — *"My team builds the model layer that all three anticipation UX surfaces depend on."*
+
+### Open strategic questions / load-bearing variables
+
+(Dylan asked what JAMES wants. Yan/Tim acceptance is Dylan's problem to navigate, not James's pre-validation work. The questions below are about *James's own preference clarity*, not org-feasibility hedging.)
+
+1. **What SWE-heavy scope does James give up?** Open variable — could be Edward Zhuang's team, could be specific Unity workstreams currently under James, could be something else. Affects sizing and what James's headcount footprint looks like in the proposal.
+2. **Daniel Liu consolidation — full or partial?** Does Daniel Liu himself move under James as a sub-EM? Does the whole 8-person team come? Or does James cherry-pick certain workstreams/people?
+3. **Does the "give up some SWE scope" leave James with enough headcount for the AI Tooling / Pinkerton org-level investment?** The 4-6 engineers AI-Leveraged Engineering charter ask from artifact v1 may need refresh based on what gets traded.
+4. **Pronoun cleanup needed:** Yan uses he/him (corrected 5/23) — scrub any remaining "her/she" references in chapter + artifact files.
+
+### Next steps for artifact v1 rewrite
+
+The artifact at [dylan_team_design_artifact_draft_v1.md](dylan_team_design_artifact_draft_v1.md) needs substantive update to reflect:
+- Three-EM peer L17 split as recommended shape (replacing Scenario E framing)
+- Daniel Liu name (already auto-corrected in this session)
+- Tim's actual scope + proposed reporting move under Yan
+- UIC + pUIC as single substrate convergence point
+- Anna-confirmed Recsplanations maturity supporting end-to-end ownership claim
+- Refined headcount ask (post-SWE-trade)
+- Updated open variables (LWS + Blending + SWE-trade-question)
+
+**Recommend NOT auto-rewriting until James directs.** This is substantive proposal work; James leading the next iteration.
+
+---
+
 ## What this file is
 
 The H1 career conversation with Dylan happened (week of 5/20 window). She opened the team-design door: she's actively designing the next charter, already given heads-up to stakeholders, and asked James for input — preferences, energy reads, secondary-scope candidates, and scope outside his current team he'd be interested in.
@@ -268,7 +369,7 @@ Per Dylan's Q1: where is the energy *real*, *forced*, or *plateauing into mainte
 | **James Li** | HF Candidate Generation (ML) | 17 | Current home |
 | **Dhruvil Deven Badani** | HF Ranking (ML) | ~25 | ML — peer; "also being set up for success" (James) |
 | **Rahul Goldam** | HF Blending | ~7 | Direct report to Dylan per James 2026-05-19 (org map had him under Dhruvil — likely stale or recent change) |
-| **Yan Li** | P13N-Experiences | ~30 | Composite team: Daniel Lu's ML sub-team (~8) + Edward's backend sub-team (~5) + Android/iOS engineers (remainder) |
+| **Yan Li** | P13N-Experiences | ~30 | Composite team: Daniel Liu's ML sub-team (~8) + Edward's backend sub-team (~5) + Android/iOS engineers (remainder) |
 | **Tim Leung** | Frontend / Client | ~11-12 | 2-3 full-stack + some backend + rest iOS/Android (mostly mobile) |
 | **Francisco Navarrete** | Labeling/Platform | ~16 | **Trajectory: moving to Krishna's org** (Dylan agreed; pending) — see decision filter below |
 | Olafur Gudmundsson | IC, Sr. Staff MLE | — | — |
@@ -296,7 +397,7 @@ Dylan made her org-shaping filter explicit when Kurchi proposed moving Francisco
 
 1. **ML-side EMs Dylan is investing in:** James (CG), Dhruvil (Ranking), Rahul (Blending). Three ML/backend leaders — the recsys stack end-to-end (retrieve → rank → blend).
 2. **Eng/UX side EMs:** Yan, Tim. Francisco is on the way out (to Krishna's org).
-3. **Yan's team is composite** — not "frontend + 6 ML" as organization.md said, but Daniel Lu (8 ML) + Edward (5 backend) + Android/iOS engineers. Possibly the 5/15 Yan/IB ML redeployment intel refers to Daniel Lu's sub-team — **needs verification, not assumption.**
+3. **Yan's team is composite** — not "frontend + 6 ML" as organization.md said, but Daniel Liu (8 ML) + Edward (5 backend) + Android/iOS engineers. Possibly the 5/15 Yan/IB ML redeployment intel refers to Daniel Liu's sub-team — **needs verification, not assumption.**
 4. **Tim's team is mostly mobile** (iOS/Android) with some full-stack/backend.
 
 ### Possible sources of presentation-side scope (hypotheses, not predictions)
@@ -305,7 +406,7 @@ Holding these loosely. None of these are "the read" — they're variants to keep
 
 | Hypothesis | What it would look like | What would need to be true |
 |---|---|---|
-| H1: Yan's UX side consolidates under James | If Daniel Lu's ML sub-team (~8) redeploys to CG/Ranking per 5/15 intel, Yan retains Edward's backend (~5) + Android/iOS — James could absorb part or whole | Yan/IB redeployment paperwork lands; Yan's own trajectory clarifies; Edward + Android/iOS people are anticipation-relevant per Dylan's filter |
+| H1: Yan's UX side consolidates under James | If Daniel Liu's ML sub-team (~8) redeploys to CG/Ranking per 5/15 intel, Yan retains Edward's backend (~5) + Android/iOS — James could absorb part or whole | Yan/IB redeployment paperwork lands; Yan's own trajectory clarifies; Edward + Android/iOS people are anticipation-relevant per Dylan's filter |
 | H2: Tim's team partially consolidates under James | Tim's 11-12 (mostly mobile) gets restructured; James absorbs the full-stack/backend slice; Tim either reports to James or pure-mobile team stays separate | Dylan sees Tim's current shape as not anticipation-relevant in current form; James proposes a reshape that IS |
 | H3: A new full-stack-AI charter is created | Slice of Yan + Tim + James's current CG, re-shaped into AI-leveraged client + ML team | Dylan has authority + appetite to create a charter type that doesn't exist at Pinterest today; speculative |
 | H4: Cross-org consolidation with Karina/Kaanon | Rajat-level reorg merges AI initiatives across Dylan + Karina + Kaanon orgs | Rajat-level decision; cross-VP politics; outside Dylan's unilateral authority |
@@ -318,7 +419,7 @@ Holding these loosely. None of these are "the read" — they're variants to keep
 **Known:** Yan's ML engineers possibly being redeployed onto James's + Dhruvil's projects per Andrew thinking — *paperwork prepared, not yet approved* (5/15 high-fragility, no propagation).
 
 **Don't know yet:**
-- Whether "Yan/IB ML engineers" specifically means Daniel Lu's ~8-person sub-team or some other subset
+- Whether "Yan/IB ML engineers" specifically means Daniel Liu's ~8-person sub-team or some other subset
 - Whether the paperwork has progressed since 5/15
 - Whether Yan stays as EM post-redeployment, moves laterally, gets promoted, or exits
 - Whether Yan herself has been told yet
@@ -370,9 +471,9 @@ Four candidate shapes, each different in scope, team composition, energy fit, an
 
 ### Scenario A — ML + AI deepening (within current shape, expand sideways)
 
-**Shape:** James keeps HF CG. Absorbs Yan's ML side (Daniel Lu's ~8 ML engineers, *if* the 5/15 redeployment lands). Possibly absorbs Edward's backend (~5) since adjacent to CG infra. Team grows ~17 → ~25-30. Mostly ML + AI infra.
+**Shape:** James keeps HF CG. Absorbs Yan's ML side (Daniel Liu's ~8 ML engineers, *if* the 5/15 redeployment lands). Possibly absorbs Edward's backend (~5) since adjacent to CG infra. Team grows ~17 → ~25-30. Mostly ML + AI infra.
 
-**What's added vs current:** Daniel Lu's ML engineers + optionally Edward's backend.
+**What's added vs current:** Daniel Liu's ML engineers + optionally Edward's backend.
 
 **Director story:** *"I run the foundation layer of Pinterest's AI personalization stack — ML platform (UPP) + AI infrastructure (Reflex/Pinkerton) + GenAI for recs (RecGPT). I closed the loop from ML platform to AI agents to user features."*
 
@@ -383,9 +484,9 @@ Four candidate shapes, each different in scope, team composition, energy fit, an
 
 ### Scenario B — AI-leveraged full-stack wedge (James's counter-proposal, built out)
 
-**Shape:** James keeps CG core. Adds **Anticipation-end-to-end** as the surface wedge — owns surface logic for Anticipation (rendering, UX behavior, end-to-end loop). Absorbs Yan's ML side (Daniel Lu's ~8). Absorbs Edward's backend (~5). Selectively absorbs Tim's full-stack/backend slice (the 2-3 non-mobile). Mobile-only engineers stay under Tim or move to another EM. Team grows ~17 → ~30-35 with new full-stack-AI shape.
+**Shape:** James keeps CG core. Adds **Anticipation-end-to-end** as the surface wedge — owns surface logic for Anticipation (rendering, UX behavior, end-to-end loop). Absorbs Yan's ML side (Daniel Liu's ~8). Absorbs Edward's backend (~5). Selectively absorbs Tim's full-stack/backend slice (the 2-3 non-mobile). Mobile-only engineers stay under Tim or move to another EM. Team grows ~17 → ~30-35 with new full-stack-AI shape.
 
-**What's added vs current:** Daniel Lu's ML + Edward's backend + Tim's full-stack slice + surface logic ownership for Anticipation.
+**What's added vs current:** Daniel Liu's ML + Edward's backend + Tim's full-stack slice + surface logic ownership for Anticipation.
 
 **Director story:** *"I lead Pinterest's first AI-leveraged full-stack team — ML + AI agents + AI-native client engineering, traversing the whole stack to deliver AI-native user experiences. Anticipation is the proof case: end-to-end from retrieval through agentic generation through user-facing surface."*
 
@@ -411,7 +512,7 @@ Four candidate shapes, each different in scope, team composition, energy fit, an
 
 **Shape:** James keeps CG largely as-is (modest expansion via Yan/IB redeployment). Treats Reflex/Pinkerton as a **Pinterest-wide AI substrate** — extends it beyond CG, becomes the AI-leveraged-leader for Core engineering broadly. Director case = AI Tooling adoption across orgs + CG impact.
 
-**What's added vs current:** Daniel Lu's ML (~8) for CG depth. Reflex/Pinkerton scope explicitly extended cross-org with Rajat/Jeff sponsorship.
+**What's added vs current:** Daniel Liu's ML (~8) for CG depth. Reflex/Pinkerton scope explicitly extended cross-org with Rajat/Jeff sponsorship.
 
 **Director story:** *"I built Pinterest's AI-leveraged engineering substrate. Reflex/Pinkerton is used across all of Core. CG is best-in-class because of it. I'm the AI-leveraged-leader pattern."*
 
@@ -438,11 +539,11 @@ James's actual preference, drawn directly:
 - **Responsiveness** (J.J. 50% — in-session signal adoption)
 - **ML foundations** *(needs definition — subset of UPP platform extension? L1 Utility? Dynamic Triggering?)*
 
-**People ask:** **Daniel Lu's team** — the ~8 ML engineers currently under Yan. Connects directly to 5/15 Yan/IB redeployment intel.
+**People ask:** **Daniel Liu's team** — the ~8 ML engineers currently under Yan. Connects directly to 5/15 Yan/IB redeployment intel.
 
 **Shape characterization (refined post-clarifications):** Sits between Scenarios A and B. ML/AI-personalization-focused, with a **bounded surface wedge** via Recsplanations:
 - **Deepens** into Anticipation + Recsplanations end-to-end (personalization narrative, end-to-end personalization story)
-- **Adds** Daniel Lu's ML team (consolidates ML where it's anticipation-relevant per Dylan's filter)
+- **Adds** Daniel Liu's ML team (consolidates ML where it's anticipation-relevant per Dylan's filter)
 - **Adds (implicit, via Recsplanations end-to-end)** a small UX/client engineering wedge — must be sourced from Tim's full-stack slice or Yan's team
 - **Sheds** Unity-for-IB + Responsiveness + ML Infra (UPP third pillar, going to Dhruvil)
 - **Does NOT reach** for the bulk of Tim's mobile team or Yan's whole UX surface
@@ -454,7 +555,7 @@ James's actual preference, drawn directly:
 - AI doubling-down (a) ✓ via Reflex/Pinkerton + RecGPT + Recsplanations
 - *"End-to-end experiences"* ✓ partial — Anticipation is e2e but James isn't taking surface engineering
 - Presentation-side lean ✗ — declines this door
-- Yan/IB redeployment ✓ — Daniel Lu's team is the explicit ask
+- Yan/IB redeployment ✓ — Daniel Liu's team is the explicit ask
 
 **Trade-off characterization:** Closer to Scenario A than to B/C/D, but **more focused** than A (drops more current scope to make room for personalization-specific additions).
 
@@ -579,7 +680,7 @@ Three candidates from our walkthrough. The artifact would summarize each in ~50-
 | Option | Shape | Tradeoffs |
 |---|---|---|
 | **Option 1: Two-track within HF CG** (production + frontier under James) | Internal restructure only — production track (CG/Retrieval/LWS) and frontier track (RecGPT/Reflex/Pinkerton/Recsplanations) as sub-teams under James. Minimal external scope change. | Pros: easy to land; coherent within current scope. Cons: doesn't serve Dylan's "AI as real funded project" signal; doesn't address Yan/Tim reshape; smaller Director story. |
-| **Option 2 (RECOMMENDED): AI personalization as cross-surface capability** (Scenario E) | James owns the AI personalization stack end-to-end: CG, Anticipation, RecGPT, Recsplanations, UPP cross-surface, LWS. Daniel Lu's ML team consolidates. Recsplanations UX wedge (small surface engineering slice). AI Tooling becomes real funded sub-team (4-6 engineers). | Pros: serves Dylan's signals strongly; creates coherent Pinterest-wide capability; clean peer story with Dhruvil; enables Yan to reshape as presentation EM. Cons: requires Rajat-sign-off on AI headcount; Recsplanations surface scope is the political pressure point. |
+| **Option 2 (RECOMMENDED): AI personalization as cross-surface capability** (Scenario E) | James owns the AI personalization stack end-to-end: CG, Anticipation, RecGPT, Recsplanations, UPP cross-surface, LWS. Daniel Liu's ML team consolidates. Recsplanations UX wedge (small surface engineering slice). AI Tooling becomes real funded sub-team (4-6 engineers). | Pros: serves Dylan's signals strongly; creates coherent Pinterest-wide capability; clean peer story with Dhruvil; enables Yan to reshape as presentation EM. Cons: requires Rajat-sign-off on AI headcount; Recsplanations surface scope is the political pressure point. |
 | **Option 3: AI acceleration as horizontal program** (Scenario D) | Reflex/Pinkerton becomes Pinterest-wide AI engineering substrate (Core-org-spanning). James owns or co-owns with Karina/Kaanon. James's CG team stays as-is or modestly expands. | Pros: highest leverage on AI; Pinterest-wide engineering culture impact. Cons: requires Jeff/Rajat-level decision; longer timeline; declines Dylan's presentation door; sponsorship architecture (Jia Jing + Faisal/Bo) becomes load-bearing immediately. |
 
 ### What does the organization get? (Director value prop)
@@ -592,9 +693,9 @@ The implicit question every reader above Dylan (Rajat, Jeff) will ask of this pr
 
 2. **AI-leveraged-leader pattern at Director scale.** James operates as the proof case that AI tools (Reflex/Pinkerton) multiply engineering output across a Director-scale org. This is exactly what Dylan's *"blindfolded if managing as before"* statement was gesturing at. Pinterest needs this pattern to scale into the AI-native operating model — James proves it works on a real personalization team with real metric delivery, then it generalizes.
 
-3. **Strong people-growth engine.** Multiple promotion paths underneath: Daniel Lu (growth in new context if he opts in), incoming EM (real charter for an EM-track candidate), Bella (EM-track on AI sub-team), Yuke (TL → sub-EM on Anticipation), Piyush (IC16 → staff growth on UPP retrieval), J.J. (IC16 promo Q2). When senior performers see growth paths under James, recruitment and retention compound — Pinterest keeps the bench.
+3. **Strong people-growth engine.** Multiple promotion paths underneath: Daniel Liu (growth in new context if he opts in), incoming EM (real charter for an EM-track candidate), Bella (EM-track on AI sub-team), Yuke (TL → sub-EM on Anticipation), Piyush (IC16 → staff growth on UPP retrieval), J.J. (IC16 promo Q2). When senior performers see growth paths under James, recruitment and retention compound — Pinterest keeps the bench.
 
-4. **Clean org boundaries enabling sister-team success.** Yan reshapes to coherent presentation-side EM (Tim consolidates under her — clear Director-track candidacy for Yan). Dhruvil owns foundations + ranking + possibly Blending — also coherent. The Scenario E rebalance is *structurally elegant*: every EM gets a clear charter, no overlap, no dilution. **This is the part Rajat and Jeff will value most** — Director candidates who design org-rebalances that strengthen peers signal a different altitude.
+4. **Clean org boundaries enabling sister-team success.** Yan reshapes to coherent presentation-side EM (Tim consolidates under him — clear Director-track candidacy for Yan). Dhruvil owns foundations + ranking + possibly Blending — also coherent. The Scenario E rebalance is *structurally elegant*: every EM gets a clear charter, no overlap, no dilution. **This is the part Rajat and Jeff will value most** — Director candidates who design org-rebalances that strengthen peers signal a different altitude.
 
 5. **Concrete metric delivery.** Scenario E is bounded and metric-defensible: ~2-3% SSv2 from the personalization stack (Anticipation, RecGPT, CLR, LWS) + WAU/MAU retention gains via Retentive Recs + cost/velocity gains via AI Tooling once funded. Stack ranks among the largest SSv2 producers in Core.
 
@@ -622,13 +723,13 @@ Dylan said it explicitly: *"there are a few strong people I really really want t
 
 **Initial roster (working list, to refine):**
 
-**Dylan's "protected" tier (James's read, 2026-05-20):** Dhruvil, James, **probably Tim**. Daniel Lu is *desirable-not-essential* — push for him in the ask but be willing to accept if he resists or Dylan doesn't make him available.
+**Dylan's "protected" tier (James's read, 2026-05-20):** Dhruvil, James, **probably Tim**. Daniel Liu is *desirable-not-essential* — push for him in the ask but be willing to accept if he resists or Dylan doesn't make him available.
 
 **Strong TLs Dylan would protect:** **Daofeng** and **Olafur (Oliver)** — both Sr. Staff MLE tier. James works closely with both. Neither needs to move under James in Scenario E — they likely stay under Dhruvil / IC-line to Dylan, which is correct.
 
 | Person | Current state | How Scenario E sets them up |
 |---|---|---|
-| **Daniel Lu** | Currently in Yan's team (~8 ML engineers under him) | Comes into James's org as TL/sub-lead for the Anticipation/RR ML cluster — **if he opts in.** Concrete growth path under a senior EM with anticipation-aligned charter. *Not in Dylan's protected tier — push for him but don't ship the plan dependent on him.* |
+| **Daniel Liu** | Currently in Yan's team (~8 ML engineers under him) | Comes into James's org as TL/sub-lead for the Anticipation/RR ML cluster — **if he opts in.** Concrete growth path under a senior EM with anticipation-aligned charter. *Not in Dylan's protected tier — push for him but don't ship the plan dependent on him.* |
 | **Incoming EM** (Vaidehi/Prashan pipeline) | Hiring in flight, close expected soon | Owns a sub-charter within James's expanded team (likely RecGPT/Recsplanations cluster or AI Tooling sub-team if option A lands). Manager-of-managers altitude. |
 | **Bella** (RecGPT TL) | TL with 80% allocation, ramping leadership | EM-track candidate; could own RecGPT + Recsplanations LLM-copy cluster as sub-EM if charter grows. |
 | **Yuke** (Anticipation TL) | 60% Anticipation, 30% RecGPT — heavy ramp | TL → potential sub-EM for Retentive Recs cluster as Anticipation deepens. |
@@ -666,7 +767,7 @@ Dylan said it explicitly: *"there are a few strong people I really really want t
 If James lands Scenario E, the rest of Dylan's org rebalances. James's concerns mapped:
 
 #### Yan's path — actually IMPROVES under Scenario E
-- **Loses:** Daniel Lu's ML sub-team (~8) to James + a few UX engineers for Recsplanations
+- **Loses:** Daniel Liu's ML sub-team (~8) to James + a few UX engineers for Recsplanations
 - **Gains (potential):** Tim's team consolidates under Yan (~11-12) — Tim reports to Yan as Manager II under Sr. Manager
 - **Net:** Yan's scope reshapes from "mixed-bag composite (ML + backend + mobile)" to **"pure presentation-side EM with mobile + UX consolidated"**
 - **Strategic read:** This is **structurally elegant**. Yan's scope becomes coherent (presentation surfaces, end-to-end). James's scope becomes coherent (ML + AI personalization). Dylan's "presentation side" lean is served — *by Yan, not James*. Yan's Director-track candidacy clarifies.
