@@ -7,6 +7,7 @@
 | 2026-05-21 20:49 | gmail | [Leo] Install `/send-me` + `/save-to-drive` on Mac | install_send_me_and_drive_on_mac.md, /home/james/.config/leo/google_credentials.json | to=jamesyili@gmail.com id=19e4dcd7e97280aa |
 | 2026-05-21 21:11 | gmail | [Leo] goals.md | work+self/goals.md | to=jamesyili@gmail.com id=19e4de1c208509c4 |
 | 2026-05-21 21:11 | drive | Uploaded 1 file(s) to Leo Outbox | work+self/goals.md | https://docs.google.com/document/d/1pH8YXajyZWDJinI3U1rFbg1Wvgh5NQpc0ReZqrqcunw/edit?usp=drivesdk |
+| 2026-05-21 21:14 | gmail | [Leo] Dylan Team-Design Input — Director-Path Chapter (May 2026) | work+self/people/dylan_team_design_input_2026-05.md, work+self/people/dylan_team_design_artifact_draft_v1.md | to=jamesyili@gmail.com id=19e4de3e87e86022 |
 | 2026-05-22 17:03 | drive | Uploaded 1 file(s) to Leo Outbox | work+self/people/hiring/em_backfill_haibo_l_2026-05-22_bullets.md | https://docs.google.com/document/d/19CFeu7GRg1ZQZ-Q-OsK9GezSmCZ1TYRtt6d-KE6kPF8/edit?usp=drivesdk |
 | 2026-05-22 17:07 | gmail | [Leo] May 27 OpenAI Recruiter Call — Prep | work+self/openai_call_prep_2026-05-27.md | to=jamesyili@gmail.com id=19e5228d907d7aeb |
 | 2026-05-22 19:26 | gmail | [Leo] System Design Prep — Question Index | interview_prep/system_design/INDEX.md, work+self/openai_integrity_substance_v1.md | to=jamesyili@gmail.com id=19e52a7b4b8f7d03 |
