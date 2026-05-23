@@ -1,6 +1,49 @@
 # UPP: March 2026 Must-Win + April 2026 Status
 
-**James Li • March–April 2026 • Originally exported from Claude conversation; updated April 2026 with post-must-win operational status**
+**James Li • March 2026 → ongoing • Originally exported from Claude conversation; updated through May 2026 with post-must-win operational status**
+
+---
+
+## May 23, 2026 Status Update — Notif 3rd launch (+200k WAU); P2P cross-surface stalled; eval methodology in dispute
+
+### Notif side — clean compounding win
+
+**Third Notif launch landed with a +200k WAU increase.** This is the third in a sequence of UPP-driven Notif wins. The "shared base + surface-specific fine-tune" thesis is now well-fed empirically on Notif. UPP narrative with Rajat is fully supplied here.
+
+### P2P side — the load-bearing problem
+
+**Status:** Cross-surface data loading + pre-training infrastructure was built up over the past 2 weeks. Piyush + Zihao sprinted hard to make it happen. The team is in as solid an infrastructure shape as it can be given the architectural lift.
+
+**Offline results so far:** Cross-surface pre-training is *at least not hurting* P2P performance — but the narrative people want to hear is that *it's improving* performance. P2P team is running fine-tuning experiments and debugging.
+
+**Two debates conflated in current state:**
+1. **Methodology debate:** Is the offline eval metric for pre-training the right one? Active disagreement on whether the current measurement framework captures what cross-surface pre-training is supposed to do. If methodology is the bottleneck, more bodies will not solve it — this is a careful eval-design problem, not a sprint.
+2. **Results debate:** Even with correct methodology, is cross-surface pre-training actually transferring? Two sub-cases: (a) debug problem (more bodies could help triangulate); (b) the bet doesn't generalize cleanly to P2P (more bodies doesn't help — accept and reframe).
+
+### James's strategic concern + open question
+
+**This is the part James is most worried about** in the whole portfolio. The Notif win is in the bank; UPP's cross-surface generalization story rides on P2P landing. If P2P doesn't show positive cross-surface signal by mid-Q3, the UPP narrative with Rajat materially weakens (Q2 goal was "at least one surface beyond Homefeed with working integration and measurable results by end of June" — Notif done, P2P is the second surface that proves the platform thesis).
+
+**Open question (as of 5/23):** Should James put more engineers on the P2P space pre-OOO?
+
+| Option | Pro | Con |
+|---|---|---|
+| **Pull Devin from CLR** | Direct technical reinforcement | Devin is CLR TL; CLR is the UPP backbone — weakens substrate everything downstream depends on |
+| **Ask Daniel Liu for one more engineer** | Non-CLR-disrupting; Daniel Liu's team is already in the cross-org effort; expands an existing partnership rather than fracturing internal substrate | Adds another peer-EM dependency; coordination overhead |
+| **Let it ride during OOO** | If the issue is eval methodology, additional bodies don't solve it. Setting the team up to debug autonomously may produce cleaner thinking than preemptive disruption 5 days before James leaves | Risk that mid-June lands worse than current state with no James-in-room intervention |
+
+**James's stated lean (5/23):** wants to think about this more before deciding. **Captured here as an active strategic open item, not resolved.**
+
+### Implications for Dylan team-design conversation
+
+P2P stall is the *single most important caveat* on UPP's "shared platform that generalizes" pitch in the Dylan team-design conversation. The honest framing is: "Notif validated the bet on one surface; P2P is the structural test of whether it generalizes, and we are mid-debug." Don't overclaim cross-surface generalization to Dylan yet — let P2P land first.
+
+### Cross-team participants
+
+- **Piyush Maheshwari** (UPP TL) — built cross-surface data loading + pre-training infra, sprinted hard past 2 weeks
+- **Zihao Chen** — co-sprinted on the cross-surface infra build-up
+- **P2P team** — running fine-tuning experiments + debugging cross-surface offline results
+- **James** — strategic decision pending on resource reallocation
 
 ---
 

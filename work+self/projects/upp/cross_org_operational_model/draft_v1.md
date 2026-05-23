@@ -72,7 +72,7 @@ If escalation reaches the director level more than once per quarter, the operati
 
 ## Tripwires (any one fires → re-engage)
 
-These are inherited from `upp_march_2026.md` and adapted for the surface-handoff specifically:
+These are inherited from `upp_retrieval.md` and adapted for the surface-handoff specifically:
 
 1. **Two-week stall on any active surface workstream.** Silence on an active workstream is the earliest signal of a hidden blocker.
 2. **Surface team asks base team to make a surface-level decision** (e.g., "should we launch?" or "should we add this feature?"). If they're asking, they're not yet owning. Either coach them through the decision or accept the handoff isn't done.

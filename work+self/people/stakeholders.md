@@ -1351,7 +1351,7 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 ## Role in my 6–12 month goals
 - **Peer Sr EM on the P2P Retrieval side.** Jiaqing (the P2P Retrieval engineer working closely with Piyush + Zihao on UPP cross-surface training) is one of Sai's reports.
 - **Active cross-team partnership on UPP Prong 3 (P2P architectural discussions) + Prong 1 (cross-surface training).** Sai is proactively committing more engineers to the cross-surface effort (new signal 2026-04-11) and has asked James to add them to the weekly coordination meetings.
-- **Correction:** Earlier UPP must-win log (March 2026) mistakenly logged Sai as "P2P IC, silent throughout, following Jinfeng's lead." **This was wrong.** Sai is a peer Sr EM, not an IC, and is a positive partner — not a Jinfeng proxy. Corrected in `projects/upp_march_2026.md` appendix 2026-04-11.
+- **Correction:** Earlier UPP must-win log (March 2026) mistakenly logged Sai as "P2P IC, silent throughout, following Jinfeng's lead." **This was wrong.** Sai is a peer Sr EM, not an IC, and is a positive partner — not a Jinfeng proxy. Corrected in `projects/upp_retrieval.md` appendix 2026-04-11.
 
 ## Current relationship
 - **Status:** **Positive and accelerating.** Likes Dylan. Likes collaborating with James. Proactively committing resources to UPP cross-surface work without needing to be asked.
@@ -1409,7 +1409,7 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 ## Operating plan
 - **Light touch for now.** The Search CLR workstream is at scoping-doc stage; don't insert into early design decisions. Let Dafang guide Devin/Sophia/UU-member without friction.
 - **Watch for hand-off opportunities.** If Search CLR matures to the point of needing cross-org alignment, James may need to broker introductions with SSJ/Kurchi's org.
-- **Cross-reference in `upp_march_2026.md` Prong 1 status.**
+- **Cross-reference in `upp_retrieval.md` Prong 1 status.**
 
 ---
 

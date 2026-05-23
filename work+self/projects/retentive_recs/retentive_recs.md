@@ -1,7 +1,44 @@
 # System Context: Retentive Recommendations & The Prediction Engine
-**Current Status: April 2026 — program-level holdout showing UCAN-stable WAU gains, KDD paper + Engineering Blog drafting, James named program lead**
+**Current Status: May 2026 — feedback loop launched on partial CG funnel (core RR hypothesis empirically validated); pUIC dual-track in flight (model-based online end-May; LLM-based online end-June); KDD paper full draft DONE; Engineering Blog post shipped 4/17; James named program lead publicly**
 
-> Technical reference content below remains accurate as of January/March 2026. The April 2026 program status section captures current results, narrative artifacts, and co-author roster. Read the program status section first for current state; the technical content for architecture deep dives.
+> Technical reference content below remains accurate as of January/March 2026. May 2026 + April 2026 program status sections capture current results, narrative artifacts, and co-author roster. Read the May status section first, then April for prior context; the technical content for architecture deep dives.
+
+---
+
+## Program Status — May 2026 Update (2026-05-23)
+
+### Headline shifts since April
+
+1. **Three-word feedback loop launched on partial CG funnel — core RR hypothesis empirically validated.** The bandit / feedback-loop mechanism (Section 6 below) was the keystone bet — that explicit feedback over geometric regions increases retrieval efficiency. This is now empirically tested in production on part of the CG funnel with gains. **Next move: broader CG funnel rollout — expected to compound the gains.** For Director-narrative purposes: this is no longer "we believe feedback loops matter" — it's "we shipped and validated the bet."
+
+2. **pUIC is now a dual-track program with two sequenced online proofs sequenced around James's OOO.**
+   - **Model-based pUIC** — 2 engineers, recall metrics improving significantly offline, **online experiments end of May (before OOO)**. This is the cleaner-architecture, lower-risk track. Validates the "predict UIC at the model level" thesis with a real production lift signal.
+   - **LLM-based pUIC** — large cross-team effort (Daniel Liu's team + James's team) on plumbing, pipeline, model. Initial results not great but **Dylan has provided feedback** on the predicted-UIC terms (LLM output quality is the load-bearing variable). James's VLM (visual user signature) work is feeding this track — interpretable user-state generation as input to the LLM prediction step. **Online experiments end of June (after return from OOO).** Risky-but-promising; the "this is where the field is going" track.
+
+3. **KDD 2026 paper: full draft DONE.** James's three sole-author sections (Prior Work, Architecture, Future Work) plus the co-authored sections all closed. Paper deadline July 31, 2026 still holds; notification November 2026. The "Feedback Loop needs experiment results" dependency that was the open risk in April is also closed — see #1 above.
+
+4. **Engineering Blog post shipped 4/17.** James publicly named program lead on Pinterest Engineering Blog. Externally legible Retentive Recs identity now established. Matt Madrigal (CTO) amplification chain confirmed at 5/4 EPD demo.
+
+### Implications for Director narrative
+
+The RR "Engine" story (per the Engine/Accelerator frame from 5/16) is now built on three load-bearing proof points: (a) UCAN WAU holdout-validated, (b) feedback loop hypothesis empirically validated on partial CG funnel, (c) two sequenced pUIC online proofs landing May/June. For the Dylan team-design conversation, this is exactly the "what's working under my current scope, here's what compounds when expanded" evidence base.
+
+### Updated workstream status (week of 2026-05-23)
+
+| Workstream | Status | Notes |
+|---|---|---|
+| **Program-level holdout** | ✅ UCAN WAU stable (carried) | Global still maturing; lead with UCAN externally. |
+| **Three-word feedback loop / Geometric Bandit** | ✅ **LAUNCHED on partial CG funnel with gains** | Empirical validation of core RR hypothesis. Broader CG funnel rollout = next move with expected additional gains. |
+| **Model-based pUIC** | Offline recall metrics improving significantly | **Online experiments end of May (before James OOO).** 2 engineers driving. |
+| **LLM-based pUIC** | Plumbing + pipeline + model active; initial quality not great; Dylan-feedback informing | **Online experiments end of June (after return).** Cross-team with Daniel Liu's team. VLM signature work (James) feeding interpretable user-state generation. |
+| **Heuristic pUIC** | Live, mostly neutral; positive for LFU (carried from April) | Forms the empirical anchor. |
+| **Front-end experiment integration** | Landed (carried) | — |
+| **KDD 2026 paper full draft** | ✅ **DONE** | Deadline July 31. Notification November. |
+| **Pinterest Engineering Blog** | ✅ **SHIPPED 4/17** | James publicly named program lead. CTO-amplification chain confirmed at 5/4 EPD demo. |
+
+### Open: VLM-as-pUIC-input architectural decision
+
+James's VLM (Pinkerton visual user signature, V0 done 5/29 target) feeds the LLM-based pUIC track. The architectural question — *how the interpretable visual signature passes into the LLM prediction step* — is the load-bearing interface decision for whether the VLM work compounds the LLM-pUIC track or runs parallel to it. Pattern A (Pinkerton as data-API via MCP, reasoning lives in consumer) is the locked architectural decision per 5/16. Operational hookup TBD.
 
 ---
 

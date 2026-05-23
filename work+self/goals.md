@@ -414,8 +414,23 @@ This section operates on a longer timeline deliberately. The 6–12 month goals 
 
 # Q2 2026 Roadmap & Structural Plan
 
-> Last updated: 2026-03-27
+> Last updated: 2026-03-27 (Q2 staffing tables snapshot — see 2026-05-23 status note below for current reality)
 > Status: Active planning. Bowen departed March 30. EM backfill in progress. 17 direct reports.
+
+---
+
+## 2026-05-23 Status Note — Mid-Q2 Reality Check
+
+**Read the staffing tables below as a March snapshot, not current reality.** Major shifts since 3/27:
+
+- **UPP:** Must-Win landed 3/30 (Jeff fully bought in). 5/13 OneTrans event navigated Director-altitude in 24hrs (Plan 3 prioritized, UPP v0 ships original form). Notif 3rd launch +200k WAU as of 5/23. **P2P cross-surface pre-training is the load-bearing open item — see `projects/upp/upp_retrieval.md` May 23 update.**
+- **Retentive Recs:** Three-word feedback loop launched on partial CG funnel — core RR hypothesis empirically validated. pUIC dual-track: model-based online end-May, LLM-based online end-June (VLM signature feeds LLM track). KDD paper full draft DONE. Engineering Blog shipped 4/17 (James publicly named program lead). See `projects/retentive_recs/retentive_recs.md` May 2026 update.
+- **AI craft (Pinkerton/Reflex):** M0 in prod 4/7. M1 + Jeff demo deck 5/14 done. VLM visual user signature V0 done. EPD demo 5/4 to ~3,700 audience (CTO Matt Madrigal level). Reflex co-dev with Andrew Y. fully integrated.
+- **Org:** Charlie departed pre-6/1 as designed. Pre-June pod readiness done; Pod June Assignments Doc compiling now (who/what/expected deliverables, with reports). Peer-EM coverage for June locked. EM hire ongoing (10 evaluated, 3 Lean Yes: Vaidehi/Prashan/Haibo).
+- **Director-track visibility:** Jeff OH 5/7 (mental model 0-10% → 55-65%); Rajat OH 5/8; EPD demo 5/4; Faisal accelerated to Credibility Sponsor 5/4-5/7; Dylan H1 career convo executed 5/20 with sponsorship motive explicit ("selfishly I want to give you a path forward"). Sponsorship architecture defined: Jia Jing (ATG, primary) + Faisal/Bo (Signals, secondary).
+- **External:** OpenAI Coralynn outreach 5/21 (May 27 11am call booked, conditional-explore mode).
+
+**For current operational state, defer to: `backlog.md` (full reconciliation 5/23), `projects/retentive_recs/retentive_recs.md`, `projects/upp/upp_retrieval.md`, latest `system/session-logs/` entry.**
 
 ---
 
