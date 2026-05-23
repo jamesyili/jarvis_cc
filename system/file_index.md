@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-05-21b (Dylan team-design artifact v1 line-edited + 3 new sections added; stakeholders.md Yan §16 refreshed; new Python-based skills shipped — `/send-me` + `/save-to-drive` on local Google APIs, replacing Anthropic-hosted Gmail/Drive MCPs)
+Last updated: 2026-05-22 (new `interview_prep/` directory stood up: OpenAI May 27 call prep consolidated to single doc; 6-story Pinterest grill plan; 16-file system design question bank extracted from 93-page PDF; LLM Systems Interview book + study plan. Haibo L EM eval added. Memories saved: feedback_email_md_files_by_default, feedback_update_in_place_not_companion, feedback_dont_over_pivot_to_seat_domain.)
 
 ---
 
@@ -59,11 +59,25 @@ Last updated: 2026-05-21b (Dylan team-design artifact v1 line-edited + 3 new sec
 |------|-------------|-------------|
 | `organization.md` | Org chart, scope boundaries, technical systems, 2025 outcomes, 2026 roadmap. **4/23: SSJ reorg (effective 5/1) — Roberto gets Text Search E2E; Krishna moved to SSJ Intent Nav & Platform; Dhruvil team size corrected to 25; Yan corrected to 30.** | 2026-04-23 |
 
+## interview_prep/
+
+Career-optionality artifacts: OpenAI May 27 call prep, Pinterest EM story bank, LLM systems interview study material. Stood up 2026-05-22.
+
+| File | Description | Last updated |
+|------|-------------|-------------|
+| `openai_call_prep_2026-05-27.md` | **Consolidated single-source prep for May 27 Coralynn Villacres recruiter call** — strategic context (exploration/brand-pull/comp delta/Pinterest hygiene/OOO collision), conditional-explore mode, story spine (user-experience-led, NOT integrity), bridge (upstream-model-layer pull), portfolio-opening move, questions, technical anti-patterns from failed Anthropic loop, comp framing, walk-out check, pre-call checklist. | 2026-05-22 |
+| `Sr. EM Interview Prep.md` | Full Sr EM interview prep — Anthropic-era intro, management principles, tactics, stories (Snap Yitong/Stella, Snap re-org, Pinterest Raymond/Activation, Pinterest Jiwen/Yitong, Bowen stub), war stories (Discover content quality + NUX revamp stub), questions to ask, D&I framing. **6-story Pinterest refresh in flight** (Reflex / Pinkerton / Coaching Bowen→Charlie / Bowen Staff promo / Piyush turnaround / RR genesis) — see `story_grill_plan.md`. | 2026-05-22 |
+| `story_grill_plan.md` | Structured grilling plan for the 6 Pinterest stories — 12–18 questions per story, Context → Action → Results → Learnings. Suggested order: Reflex+Pinkerton first → Bowen-block → Piyush → RR last. | 2026-05-22 |
+| `study_plan_for_onsite.md` | LLM Systems Interview book (93-page, 31 chapters) calibrated study plan for OpenAI Integrity EM onsite. ~50hr total, 10 chapters deep, 5–6 skim, 15 skip. 4-week schedule. | 2026-05-22 |
+| `system_design/` | 16 markdown files extracted from `system_design_prep.pdf` — 14 design questions + framework + reference. INDEX flags `05_defense_in_depth_full.md` as integrity blueprint anchor. | 2026-05-22 |
+| `llm_system_interview.md` | Full markdown extract of LLM Systems Interview book (1.7MB). Source for `study_plan_for_onsite.md`. | 2026-05-22 |
+| `failed_anthropic_system_design.pdf` | Anthropic loop system design transcript James didn't convert on — substitution-cipher question, cut off mid-resolution. Diagnostic source for "what went wrong" anti-patterns. | 2026-05-22 |
+
 ## system/
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `session-logs/` | Individual session log files, one per date (latest: 2026-04-29 — Mira artifact-spawn moment + Dylan 1:1 disambiguation + CTO demo confirmed Monday + Rodney channel archived + Anna IRL prep) — replaces rolling `session-log.md` pattern | 2026-04-29 |
+| `session-logs/` | Individual session log files, one per date (latest: **2026-05-22 — OpenAI May 27 prep consolidated; Haibo EM eval Lean Yes; interview_prep stood up with system design + LLM-book + 6-story grill plan**) — replaces rolling `session-log.md` pattern | 2026-05-22 |
 | `instincts/` | Behavioral instincts from correction/confirmation patterns — dont-elaborate-on-delegated-work, no-surprises-public-delegation, proactive-restart-frozen-process, synthesize-dont-deflect (4/21), corrections-interrupt-by-design (4/21), check-existing-context-before-analyzing (4/23, bumped 4/25 — 2 evidence), challenge-overnight-reversals-after-hits (4/25) | 2026-04-25 |
 | `lennys_podcast_pipeline.md` | Lenny's podcast extraction pipeline: purpose, status, next steps, file locations | 2026-04-05 |
 | `karen_observations.md` | Karen's longitudinal pattern tracking | 2026-04-06 |
