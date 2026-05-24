@@ -29,3 +29,7 @@ drive_folders.json
 # Python bytecode
 __pycache__/
 *.pyc
+
+# Google Drive "Leo Inbox" symlink — files dropped here sync via Drive for Desktop,
+# not via git. See feedback_inbox_no_read memory.
+inbox
