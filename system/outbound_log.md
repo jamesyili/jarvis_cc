@@ -21,3 +21,5 @@
 | 2026-05-22 20:10 | gmail | [Leo] May 27 OpenAI Recruiter Call — Prep | interview_prep/openai_call_prep_2026-05-27.md, interview_prep/story_grill_plan.md | to=jamesyili@gmail.com id=19e52d07440061a1 |
 | 2026-05-22 20:10 | gmail | [Leo] EM Story Grill Plan — Next Session | interview_prep/story_grill_plan.md | to=jamesyili@gmail.com id=19e52d08b8c6e4b7 |
 | 2026-05-23 09:29 | gmail | [Leo] Backlog | backlog.md | to=jamesyili@gmail.com id=19e55abd78325c35 |
+| 2026-05-23 18:42 | gmail | [Leo] Reflex Org Design — Research Synthesis | work+self/projects/reflex/reflex_org_research/key_points.md | to=jamesyili@gmail.com id=19e57a5b47df0090 |
+| 2026-05-23 19:43 | gmail | [Leo] Personal Blog — Topic Ideas | blogs/topic_ideas.md | to=jamesyili@gmail.com id=19e57dd8ed4bdc84 |
