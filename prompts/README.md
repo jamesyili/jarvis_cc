@@ -19,5 +19,8 @@ For **Claude Code**, the canonical source is `.claude/skills/<name>/SKILL.md` an
 | [`prep.md`](./prep.md) | "prep me for X", "prep for the Dylan 1:1", "I have a meeting with Y" |
 | [`draft-email.md`](./draft-email.md) | "draft an email to X", "draft a slack to Y", "write a message for Z" |
 | [`debrief.md`](./debrief.md) | "let's debrief", "here's what happened today", end-of-day capture |
+| [`coach-check.md`](./coach-check.md) | "coach check", "review this draft", "coaching lens" |
+| [`grill-me.md`](./grill-me.md) | "grill me", "alignment interview", "stress-test this" |
+| [`thinking-partner.md`](./thinking-partner.md) | "thinking partner", "help me think through X", "strategic advice" |
 
 Read [`../AGENTS.md`](../AGENTS.md) first for the base context (who James is, principles, folder layout) before running any of these workflows.
