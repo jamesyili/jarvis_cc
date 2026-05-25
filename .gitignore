@@ -1,6 +1,9 @@
 # Windows download artifacts
 *Zone.Identifier
 
+# Antigravity CLI tool data (not part of repo)
+.antigravitycli/
+
 # OS files
 .DS_Store
 Thumbs.db
