@@ -666,6 +666,17 @@ A rich product surface, not just LLM-generated explanation text. **Each recsplan
 - **Surface / UI:** mini-grid layout in HF, differentiated rendering, flyout interaction
 - **Product / design partnership:** copy tone calibration, interaction design
 
+**Dylan's product-direction signal (1:1 doc, 2026-05-24) — four dimensions of the magical Recsplanations / Anticipation experience:**
+
+1. Cohesion of the "origin pins" in recsplanations ("origin theme")
+2. Cohesion of the recommended pins in the cluster ("recs theme")
+3. Aesthetics of the pins we recommend
+4. Big enough jump from the rest of the feed to feel distinct
+
+**Scope of this note:** This is Dylan's *product-direction* thinking on how to move Recsplanations and Anticipation forward — not load-bearing evidence for the team-design / reorg case. Keep separate from the artifact. Use as a working spec for what James's team should optimize Recsplanations/Anticipation toward; informs roadmap, eval design (cohesion metrics, aesthetic ranking, feed-jump-distinctness), and IC sequencing once charter lands.
+
+**Background observation (kept here, not propagated to the artifact):** dimensions 1, 2, 3 map naturally to substrate work James's team already owns (UIC clustering, CLR/LWS quality ranking); dimension 4 maps to the surface wedge. Useful to *hold* as a coincidence of fit, not to *pitch* as proof Dylan herself made the org-shape case — that would be opportunistic and Dylan likely didn't intend it.
+
 **Key implication for scope design:** **Owning Recsplanations end-to-end *requires* some UX/client engineering capacity.** Either:
 - (i) James owns Recsplanations end-to-end → needs surface engineers (small slice from Tim's full-stack/backend or Yan's team)
 - (ii) James co-owns Recsplanations with surface team (Yan or Tim owns UI, James owns ML/AI/backend) — bounded interface

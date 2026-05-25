@@ -520,3 +520,33 @@ Immutable logging to centralized Data Lake — every prediction and trace timest
 - Cascading Hallucinations: Pinkerton hallucinates trace → Reflex writes code to fix non-existent gap → Reflex's VLM-judge (same model family) approves. Fix: tier-1 deterministic rule-based / anomaly detection (Isolation Forests) before code changes trigger.
 
 **Session ID:** 1db85aa6
+
+---
+
+## 2026-05-24T22:17:00Z — Coaching Patterns (spawned via consult-notebook agent)
+
+**Query:**
+Context: James is a Sr. Engineering Manager (M17) at Pinterest, Director-track on a 2027 timeline. He has an active sponsor (his manager Dylan, who has explicitly committed to his Director path). He's doing real ML/AI work (Reflex, Pinkerton, Anticipation projects). His Director timeline is realistically 2027, so there's no missed-goal crisis this year.
+
+The moment: James just listed four fears he himself called "irrational":
+1. Worried about good people leaving his team
+2. Worried his sponsor/manager Dylan will change her sponsorship
+3. Worried bad things happen because he can't hit goals
+4. Worried about being left behind because he's "not in AI"
+
+He ended with: "How do I just chill?"
+
+He has prior coaching work with tools like the Rumination engine, Tool 8, Inquiry Questions, and an active grounding sequence (10-min grounding → 1-hour redirect → 24-hour inquiry).
+
+Four questions: (1) PATTERN READ — which named pattern does this map to? (2) ACTIVE INTERVENTION — what does the framework actually prescribe? (3) WHAT'S UNDERNEATH — is this a diagnostic tell? (4) COACH-TIER MOVE — what should a skilled coach NOT do vs. DO?
+
+**Response:**
+QUESTION 1 — PATTERN READ: This multi-fear cascade maps directly to Module 1: Deconstructing the Catastrophic Default and the activation of the Rumination Engine. The engine underneath is: "Uncertainty converts to analysis." Because James has no acute crisis to solve, his nervous system treats ambiguity as a threat and generates worst-case scenarios to regain a sense of control. His Status Sensor has converted baseline uncertainty into an "identity emergency that demands action."
+
+QUESTION 2 — ACTIVE INTERVENTION: Two sharper interventions over the default grounding sequence: (1) Module 1: Fear-Setting — trace each worst-case scenario to its absolute logical bottom; the bottom is rarely fatal. (2) Rumination Protocol / Practicing the Gap — name the pattern, ask what's actually true, ask what you can control, take one concrete action, then stop. Crucially: "notice the moment uncertainty converts to analysis and make the gap slightly longer... Let the gaps be gaps." Goal is tolerance for non-crisis discomfort, not mastery.
+
+QUESTION 3 — WHAT'S UNDERNEATH: Yes, listing four fears simultaneously is a diagnostic tell — an avoidance mechanism. "The analysis feels productive but is avoidance." Underneath is the core vulnerability traced to childhood: "I have never felt like I could just exist and be enough. I have always had to earn my place." Because safety was tied to achievement, his nervous system doesn't know how to chill when things are stable. The multi-fear cascade is the vestigial survival mechanism spinning its wheels.
+
+QUESTION 4 — COACH-TIER MOVE: Do NOT reality-check each fear. Reality-checking validates the catastrophic story and feeds the analysis engine. When people are triggered, "they talk themselves more and more into a position of anxiety away from reason. We're now dealing with anxiety and not just reason." Litigating the fears keeps James in his head. DO: completely ignore the content of the four fears and target the physical nervous system. Module 2: Somatic Mapping. "Anxiety lives in the body before it hits the brain." Deploy Tool 8: "Where is the feeling in my body? Chest? Stomach? Throat?" Once out of the story and back in the body, deploy the circuit-breaker: "What do I actually know right now? Everything else is creative writing."
+
+**Session ID:** 64857699
