@@ -24,3 +24,4 @@
 | 2026-05-23 18:42 | gmail | [Leo] Reflex Org Design — Research Synthesis | work+self/projects/reflex/reflex_org_research/key_points.md | to=jamesyili@gmail.com id=19e57a5b47df0090 |
 | 2026-05-23 19:43 | gmail | [Leo] Personal Blog — Topic Ideas | blogs/topic_ideas.md | to=jamesyili@gmail.com id=19e57dd8ed4bdc84 |
 | 2026-05-24 08:45 | drive | Uploaded 1 file(s) to Leo Outbox | work+self/people/dylan_team_design_artifact_draft_v1.md | https://docs.google.com/document/d/1fHxoJLZsHqPvrnrJ9YtFKZJsdOrBN9SoLBVKrSCLtiU/edit?usp=drivesdk |
+| 2026-05-29 18:59 | gmail | [Leo] Ali Rahmati — Round 2 (Onsite) Notes | work+self/people/hiring/ali_rahmati_round2_2026-05-29.md | to=jamesyili@gmail.com id=19e769bd9d18701f |
