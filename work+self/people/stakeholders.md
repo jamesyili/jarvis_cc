@@ -861,6 +861,13 @@ P2P approved a new retrieval architecture (OneTrans — unified transformer toke
 - **Growth path:** IC17. Dylan sacrificed an IC17 role for EM backfill, but Piyush's IC17 case needs building.
 - **Risk:** Low flight risk currently. Watch for frustration if EM backfill takes too long and management burden falls on him.
 
+### Coaching focus (2026-05-29, surfaced in David session)
+- **Behavioral patterns to address:** not giving direction to people; doesn't stay in touch with team / support what they're doing.
+- **Root causes (James's read):** lack of organization + desire to do things himself.
+- **Coaching framework (David, 5/29):** connect outcome ↔ behavior; tiny tweaks, not overhauls; set 4-week reasonable goals; define what success looks like; identify a reasonable first step; success breeds success.
+- **Anti-pattern to avoid:** directive prescription. Frame is co-coaching, not telling-him-what-to-do.
+- **Cross-ref:** `work+self/coaching.md` 2026-05-29 entry.
+
 ## Bella (IC16, RecGPT TL)
 - **Status:** 7 years at Pinterest. Told James directly she's thinking about leaving this year.
 - **Retention assessment:** Not retaining, not managing out. Extract value while here. Don't invest retention capital.
@@ -1466,21 +1473,42 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 
 ---
 
-# 28) Dafang He — Search CLR Lead (added 2026-04-11)
+# 28) Dafang He — Reflex TL + Search CLR Lead (added 2026-04-11, MAJOR UPGRADE 2026-05-31)
 
-## Role in my 6–12 month goals
-- **Leading the new Search-based CLR workstream** under UPP Prong 1. Scoping doc for Search CLR on HF is starting; Dafang is guiding **Devin**, **Sophia**, and a UU team member on this.
+## 2026-05-31 scope upgrade — Reflex overall TL
+
+**Per Tim 5/29 convo readout:** Dafang is now the **overall TL for Reflex.** Major operational role — sits at the program-execution layer under Andrew (sponsor) + Tim (PM). James's altitude moves up to architect / sponsor / cross-org orchestrator.
+
+**Active workstreams under Dafang as Reflex TL:**
+- **Driving the Reflex System Design** (consensus across the working group)
+- **Owning Agent-to-Agent workstream personally** — already in discussion with Keqiang Li
+- **Excited about Reinforcement Learning** as a future Reflex direction
+- **Coordinating across:** JJ (Build), Bella (Simulate), Matthew Lawhon (Modeling)
+
+Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real ownership signal, not nominal assignment.
+
+**Implications:**
+- **Trust upgrade needed.** Previous "unknown" trust read is stale — he now owns one of James's most strategically important programs. Active relationship-building required.
+- **Pinkerton federation conversation will route through him.** Option 2 (A2A delegation) needs to be propagated cleanly. Dafang's instinct may default toward Option 1 (merge under Reflex) for operational simplicity — James needs to anchor him on the federated stance before that debate opens.
+- **James's pre-OOO move:** make sure Dafang is set up to run during James's OOO. Direct sync before 6/4 if not already calendared.
+
+---
+
+## Role in my 6–12 month goals (prior scope, still active)
+- **Leading the Search-based CLR workstream** under UPP Prong 1. Scoping doc for Search CLR on HF is starting; Dafang is guiding **Devin**, **Sophia**, and a UU team member on this.
 - **Earliest stage of a new UPP prong expansion** — Search CLR extends UPP from HF/Notif/P2P into a 4th surface.
 - Already commenting on the UBR design doc (Apr 7 — "why device type..." nomenclature question).
 
 ## Current relationship
-- **Status:** New stakeholder for Leo's map. Engagement via the Search CLR scoping effort and UBR design doc review.
-- **Trust level:** Unknown.
+- **Status:** Active — Reflex TL relationship is now load-bearing. Search CLR scoping continues as parallel workstream.
+- **Trust level:** Building. The Reflex TL acceptance + visible excitement is a strong signal; James needs to invest now.
 
-## Operating plan
-- **Light touch for now.** The Search CLR workstream is at scoping-doc stage; don't insert into early design decisions. Let Dafang guide Devin/Sophia/UU-member without friction.
-- **Watch for hand-off opportunities.** If Search CLR matures to the point of needing cross-org alignment, James may need to broker introductions with SSJ/Kurchi's org.
-- **Cross-reference in `upp_retrieval.md` Prong 1 status.**
+## Operating plan (revised 2026-05-31)
+- **Reflex partnership cadence.** Set up a working rhythm (weekly?) — Dafang as TL needs architectural alignment with James as architect. The natural sync.
+- **Anchor on federated Pinkerton stance early.** Don't let merge-vs-A2A debate open without James having pre-aligned Dafang on Option 2.
+- **Pre-OOO handoff.** Before 6/4: explicit "you have the wheel" conversation. Andrew's "I take it from there" presumes Dafang is the operator on the ground.
+- **Search CLR continues** — light-touch posture on that workstream still applies.
+- **Cross-reference:** `work+self/projects/reflex/tim_friday_5-29_debrief.md`.
 
 ---
 
@@ -1637,3 +1665,48 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 ## Risks
 - **Minimal today.** Long-term watch: Blending's role in final-feed attribution can create architectural tensions with CG (whose work gets credit for an engagement lift?). Not active.
 - **Name convention:** "Rohu" in voice transcription = **Rahul** in writing. Always use Rahul in written artifacts.
+
+---
+
+# 36) Tim ⟨surname pending⟩ — Reflex PM (added 2026-05-31)
+
+> **Distinct from [§17 Tim Leung]** (L16, Presentation). Different person, different scope. Cross-link tag to avoid future confusion: this is "Tim (Reflex PM)" or "Tim-Reflex"; §17 is "Tim Leung" or "Tim-Presentation".
+
+**Status:** Skeleton entry. Profile to be filled out after substantive 1:1s. Captured here to lock the distinction from Tim Leung and reserve §36.
+
+## What's known
+- **Role:** PM assigned to Reflex by Andrew Yaroshevsky. **FTE** — Andrew framed it as material escalation (5/27 hallway convo). First PM the Reflex program has had.
+- **Charter (confirmed 5/29):** whole-Reflex platform PM. Works alongside Dafang He (overall TL) — Tim = product side, Dafang = technical/operational side.
+- **First meeting:** Friday 2026-05-29 — James walked him through the 5-workstream roadmap. **It went well.** Per James: *"Everything went well with the convo. He will run with this."*
+- **Roadmap landing read:** Tim engaged at PM altitude and is running with the framing. The 4 technical workstreams held (Build / Simulate / Modeling / A2A); the Foundation layer dissolved into Reflex's goal-setting axes (System Deliverables). See debrief for full delta.
+
+## Goal-setting axes confirmed in convo
+- SSv2 & WAU
+- System deliverables
+- XFN acceleration (PMs / Designers can ship ideas)
+
+## What's NOT known yet (to populate as relationship develops)
+- Full name / surname.
+- Level / seat (internal transfer vs external hire vs new grad PM).
+- Start date / OOO overlap with James.
+- DISC-coded read on him as a person.
+- Personal working style / preferred cadence.
+
+## Role in James's 6–12 month goals
+- **Director-track signal.** Andrew assigning an FTE PM to Reflex is one of the clearest sponsor-validation moments on the substrate-platform thesis. How James onboards Tim is a Director-altitude execution test.
+- **Operational shape of Andrew's "funded for my team" ask.** Tim is the PM channel through which the Foundation-layer funding ask runs upstream. Loop closes when foundation workstream gets resourced for James's team.
+- **Andrew-channel forwarding agent.** Per 5/27 reasoning, capability-led framing (substrate, user.md) propagates to Andrew through Tim. Pinkerton brand stays out of opening conversations.
+
+## Operating plan (provisional, refine after intel)
+- **Build the relationship at platform PM altitude.** Treat him as the PM the platform needed; not a junior assistant, not a participatory canvas. Conviction-led with optionality, per the 5/25 Dylan-model framing.
+- **Run the foundation-layer ask through him to Andrew.** Don't go around him. Dylan circle-back happens in parallel (her org gets the resourcing).
+- **Capability-led framing on Pinkerton.** Don't introduce the brand; let it ripen organically through working sessions.
+- **Pre-OOO sequencing.** James OOO begins ~6/4. Limited window to set Tim up such that Andrew's "I take it from there" actually holds during James's absence.
+
+## Cross-references
+- `work+self/projects/reflex/tim_friday_5-29_roadmap.md` — opening roadmap framing (Fri 5/29 convo)
+- `work+self/projects/reflex/tim_friday_5-29_debrief.md` — post-convo what-actually-emerged (5/31 readout)
+- `system/session-logs/2026-05-27.md` — Andrew hallway convo + 3-ask delegation
+- §9 Andrew — sponsor channel; assigned Tim
+- §28 Dafang He — Reflex overall TL (Tim's operational counterpart)
+- §1 Dylan — funding-ask circle-back recipient

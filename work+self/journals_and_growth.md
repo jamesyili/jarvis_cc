@@ -268,6 +268,29 @@ The version of James in 18 months still builds. He just also asks cleanly. Still
 
 ---
 
+### Lesson 15: People-pleasing → limiting questions. Ask the question that gets information, not the one that gives away the steering.
+
+**The catch (5/29 David session, post-Tim convo):** In the Friday Reflex convo with new PM Tim, James caught himself asking *"What areas excite you?"* — an open, generous-sounding question. On reflection (and in David's session): it was a **people-pleasing move that limited information access**.
+
+**The pattern:** in-the-moment desire to please / not impose / leave optionality open → reach for the question that *hands the framing to the other person* rather than the one that *gets the business context James actually needs*. The question feels generous; it's actually a leadership-signal trade for momentary warmth.
+
+**The cost:** the leader-asks-for-input shape gets inverted into report-tells-leader-what-to-do. James loses anchoring power. Information flows the wrong direction. The downstream cost is bigger — vague convos lead to vague commitments lead to overpromising.
+
+**The recovery move James found in real time:** *"That's really a great question that I want to think about. What would help me is what you think from the business point of view."*
+- Honors the other person's thinking
+- Reroutes toward the leader-asks-for-input shape
+- Restores business framing as the organizing constraint
+
+**The frame David surfaced:** *"How do I limit my possibilities?"* — i.e. where in your asking pattern do you trade leadership signal for momentary social comfort?
+
+**Why this is Lesson 15 and not just a tactical correction:** The people-pleasing pattern is a generalized failure mode in James's interaction with peers and reports. It connects to the [[shadow-ambition expectation-gap]] dynamic (Lesson 14): both involve James trading clarity for comfort and then paying the cost later. The tiny-tweak fix: catch the limiting-question urge, substitute one alternative, build the new default through reps. The headline shift David named: **less overpromising, more decisive leadership.** The two go together — fewer warm-yeses, more pre-aligned shape.
+
+**Anchor sentence:** *Ask what gets information, not what gives away steering. The generous-sounding question can be a leadership-signal trade in disguise.*
+
+**Connections:** Lesson 13 (Asking ≠ Performing — model is Dylan, not Dhruvil) — declare, don't hint. Lesson 14 (Two scoreboards — choose the one that pays off). This Lesson 15 sits at the conversational level where those two play out in practice.
+
+---
+
 ## Active Growth Edges
 
 ### 1. Speaking Under Pressure

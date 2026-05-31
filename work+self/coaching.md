@@ -276,6 +276,66 @@ So you're not becoming someone else. You're adding a layer. The version of you i
 
 ---
 
+## 2026-05-29 — People-pleasing → limiting-questions (David)
+
+### The catch from the Tim convo
+In the Friday Reflex convo with the new PM, James asked Tim: *"What areas excite you?"*
+
+Surface read: open, curious, generous opening question. Real read: **a people-pleasing move that limited James's information access** rather than expanding it.
+
+- **The pattern:** in-the-moment desire to please / not impose / leave optionality open → reach for the question that *gives away the steering* rather than the one that *gets the information James actually needs*.
+- **The cost:** asking "what excites you" hands Tim the framing job. James loses the chance to anchor on what the business actually needs. Information flow goes the wrong direction.
+- **The reframe / better move (recovered in the moment by James):** *"That's really a great question that I want to think about. What would help me is what you think from the business point of view."*
+  - Acknowledges Tim's perspective matters
+  - Reroutes toward business context (the thing James actually needs to lead from)
+  - Restores the leader-asking-for-input shape
+
+### The underlying question David surfaced
+**"How do I limit my possibilities?"** — i.e. *where in your asking pattern do you trade leadership signal for momentary social comfort?*
+
+The Tim convo was one instance. The broader pattern is worth watching: each time James reaches for "what excites you / what do you want to do" with a peer or report when the business question is actually "what does the system need," he's trading information for warmth.
+
+### Tiny tweaks to the behavior
+David's frame: don't try to overhaul. **Tiny tweaks.**
+- Catch the limiting-question urge before it forms.
+- Substitute one question at a time.
+- Build the new default through reps, not through resolutions.
+
+### Headline behavior shift David named
+**Less overpromising, more decisive leadership.** The people-pleasing pattern feeds the overpromising pattern — saying yes to keep warmth, then having to back-fill. Decisive leadership shows up as fewer warm-yeses and more pre-aligned shaping.
+
+### Referral
+**Bob D — bravely coach** (David's referral). Worth exploring as a complement to David's strategic frame; Bob's specialty leans into the courage-to-be-direct dimension.
+
+---
+
+## 2026-05-29 — Direct-report coaching frame (David, applied to Piyush)
+
+Second half of the David session was case work on Piyush — James asked for help thinking through coaching Piyush on behavioral patterns.
+
+### Piyush's pattern (James's read)
+- Not giving direction to people
+- Doesn't stay in touch with team / doesn't support what they're doing
+- **Roots:** lack of organization + desire to do things himself
+
+### James's question to David
+*"How can I provide direction for him? How can I motivate him?"*
+
+### David's framework
+1. **Connect outcome with behavior.** Make the through-line visible: when you do X, here's what shifts downstream.
+2. **Behavior changes over time.** Don't expect step-function change. Track trajectory, not state.
+3. **Set reasonable goals for the 4 weeks to indicate progress.** Short enough to stay legible; long enough for real reps to land.
+4. **Define success.** *"What does success look like?"* — make it concrete before you start.
+5. **First step.** *"What could be a reasonable first step towards this?"* — get the very-next-action small enough to be takeable.
+6. **Success breeds success.** Early wins compound — design for that.
+
+### James's operating use
+- Apply directly with Piyush in next 1:1: name the behavior pattern, co-define what success looks like over 4 weeks, get a first-step commitment.
+- Anti-pattern to avoid: telling Piyush *what* to do instead of co-defining it. The frame is co-coaching, not directive management.
+- This pairs with the people-pleasing catch from the same session — *don't ask Piyush "what excites you," ask Piyush "what would success look like in 4 weeks."*
+
+---
+
 ## 2026-03-27 — New pattern tool: "Signal, not truth" + redirect the fuel
 
 ### What happened
