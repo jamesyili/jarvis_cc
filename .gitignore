@@ -36,3 +36,9 @@ __pycache__/
 # Google Drive "Leo Inbox" symlink — files dropped here sync via Drive for Desktop,
 # not via git. See feedback_inbox_no_read memory.
 inbox
+
+# Large downloaded reference PDFs (re-downloadable, image-heavy). The aman.ai primers
+# are kept as converted searchable markdown at
+# interview_prep/technical_foundations/references/aman/*.md instead of the ~227MB PDFs.
+interview_prep/aman_*.pdf
+interview_prep/llm_eval/*.pdf
