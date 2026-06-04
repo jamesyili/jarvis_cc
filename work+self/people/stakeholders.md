@@ -189,6 +189,13 @@ Markdown
   - **Dylan is NOT transitioning to a new role on June 12.** She remains James's manager. The 6/13 → ~7/6 window is OOO only (3 weeks PTO + 1 week India). Her commitments — *"I'll get you and Dhruvil to Director next, set up org for high performers like you two"* + *"wait for org to settle"* — remain HERS to execute, not handed-off-to-successor. The Director arc with Dylan is a multi-quarter relationship, not a 5-week pre-transition sprint.
   - Operating implication: Don't fight Dylan's decisions, don't push timing, don't over-apply hand-forcing. Trust the commitment, work in alignment with her stated frame, surface value-case observations as input-not-demand on the long arc. Path A (capability axis: Anticipation Foundations, RR cross-surface) is the operational frame; Path B (consolidation push) is closed for the foreseeable.
   *(Confidence: Very High — direct corrections from James, captured in memory `project_director_timing_reframe.md` + `project_dylan_staying_not_transitioning.md`)*
+- **Pre-OOO Slack download — Bill Reflex review + Michael close + JJ promo + cupcake catch (June 3, 2026):** Four signals packed into a single ~100-minute Slack exchange the afternoon before James's OOO trip:
+  - **Bill product review on Reflex landed well.** *"we just had a great product review with Bill on reflex btw, all due to the hard work from you and team"* + *"with Bill review the audience is extremly tight"*. Reflex crossed CEO-altitude airtime via Dylan's channel. Dylan credited James + team explicitly. (Bill = Bill Ready. Note: Reflex, not Anticipation — separate from the Jeff/Vicky must-win below.)
+  - **Michael close (recruiting win, "keep to yourself, low key now, not sharing").** Senior hire Michael accepted; James cultivated him on LinkedIn for ~4 years; Dylan flagged James's contribution as a pre-trip gift. *"keep to yourself, we closed Michael"* + *"maybe Andrew told you, but yeah don't share"*. James's reaction *"oh wow, he didn't even tell me"* is just a flicker — closes go quiet at the end. **Confidentiality discipline: do not surface to Michael himself or to peers (incl. Dhruvil) until announced.**
+  - **JJ promo conversation parked post-OOO.** Dylan asked *"no promo on your end right?"* — expected a no, got JJ. Her response: *"okay this is going to be very tough"* + *"let's discuss once you are back"* + *"budget extremly tight, keep to yourself"*. James committed *"makes sense. I would like to try, for retention reasons."* Dylan: *"sure"* with thank-you react. Read: Dylan takes case seriously, won't pre-litigate over Slack, wants real airtime post-return. Retention framing is the right lever with Dylan specifically (echoes her *"high performers like you two"* Director-commitment line). **Post-OOO action: prep the JJ retention/case conversation with Dylan, do NOT draft over the 7-day OOO window — will re-pattern wrong.**
+  - **Cupcake metric catch + Dylan thank-you.** TPM put wrong holdout numbers (Q1 p13n instead of Anticipation holdout) in the Jeff + Vicky **Anticipation must-win** presentation; James didn't catch in real-time during the meeting (fast-rolling, no prep buffer); Vicky propagated the numbers to ATG post-meeting; correction required. TPM had asked Anna + James for sign-off with only a **2-hour window**, James was in back-to-backs. James proactively flagged the swap to Dylan post-hoc; Dylan: *"right I'm trying to get that straight / thanks for helping, no worry"*. **Process gap worth fixing post-OOO: private DM to TPM asking for ≥24-hour review buffer on must-win artifacts going to Vicky/Jeff/Bill altitude.** The correction is in motion (Dylan handling) — protects James from over-claim overhang (relevance holdout likely overstated Anticipation delta).
+  - **Cross-thread read:** Dylan is using the pre-OOO window to download high-trust intel and bank a sponsorship signal before James goes silent for 7 days. Three "tight" signals in one conversation (Bill audience tight + budget extremely tight + promo very tough) = budget-pressured calibration cycle is hardening. Reflex investment is winning sponsorship while IC promo budget tightens — likely zero-sum somewhere upstream. The Bill review win is real and is James's; bank it without over-rotating.
+  *(Confidence: Very High — verbatim Slack quotes captured. Confidentiality flags: Michael close + JJ budget/promo both marked keep-to-yourself.)*
 
 ## Dylan’s likely current narrative about me
 - **Positive core (April 2026):**
@@ -484,6 +491,12 @@ Markdown
 - **What changes operationally:** if Rajat floats coordination, headcount, or anything cross-team during a meeting, the natural answer is "let me sync with Dylan and circle back" — same as for any senior EM. Not defensive, just hierarchy hygiene. Naming workstream owners with their workstream is fine and normal. Volunteering unsolicited engineer rosters is what changes — but that's baseline operating cleanliness, not a Rajat-specific paranoia move.
 - **What does NOT change:** James does not acknowledge the shield to Rajat. Does not self-position as political POC for UIC / RR (Dylan owns that channel by design — self-positioning would undermine it). Does not perform around the shield in the OH; just delivers the substance.
 - **Strategic read:** Dylan-as-POC is sponsorship escalation. James = builder + technical lead. Dylan = political POC + shield. This is how Director-track operators actually work — having a senior absorb political overhead is what *enables* structural compounding. (Connects to: Operational Embedding lesson, journals_and_growth.md Lesson 7.)
+
+### 2026-06-03: Rajat non-push on CST/CFM block (UPP architecture being unwound from above)
+- **Event:** CST (Cross Surface Training) + CFM had massive ranking-side wins. **Kurchi personally blocked the launch**, citing a new relevance metric regression + "executives flagging user perception gaps for P2P relevance." **Rajat did not decide unilaterally to launch in the meeting** — chose not to spend capital pushing back on Kurchi.
+- **Read:** Reinforces the existing **"Rajat = complementary sponsor, not primary advancement vehicle"** frame (memory: `project_rajat_complementary_sponsor.md`). Rajat doesn't go to the mat on others' relevance/quality concerns — even when wins are clear. He optimizes for org leverage and platform coherence, not for any single launch fight.
+- **Implication for UPP:** The 5/13 architecture James stabilized (UPP = "shared infra surfaces co-own") required co-owners to actually co-own and required Rajat-level air cover for cross-surface launches. With Kurchi now actively blocking AND Rajat not spending capital to push, the co-ownership frame is being unwound from above. Sai's "parallel tracks, handed-a-command" reframe is the downstream cascade (see §27 6/3 entry + §6 6/3 entry).
+- **Operating implication:** Don't ask Rajat to fight Kurchi for UPP launches. That's not what he does and it would burn the encouragement mandate without changing outcomes. Run the play in James's own code (P2P FT on Hongtao + Zhihao) and use Dylan as the escalation channel.
 
 ### Key dynamic: Rajat vs. Kurchi
 - Rajat wants **quarterly milestones** and faster UPP execution. Kurchi pushes back — successfully moved Search from monthly milestones to H2.
@@ -805,6 +818,18 @@ Markdown
 - **Escalation threshold:** Only escalate to Dylan/Rajat if Kurchi's team is *actively blocking* scoped work, not if they're moving slowly. Slow-play requires patience and evidence, not escalation.
 
 > **Meta-goal:** Shift from "Rajat's battering ram" to "the practitioner who made SSJ's surfaces better." That's the only narrative that converts Kurchi from skeptic to neutral — and neutral is a win.
+
+## 2026-06-03: Active block escalation — CST/CFM launch + Sai bandwidth pressure
+- **The 4/23 "too hard to move, just hope she doesn't block" stance has failed.** Kurchi is now **actively blocking**, not slow-playing.
+- **Event 1 — CST/CFM launch block:** Cross Surface Training + CFM had massive ranking-side wins. Kurchi personally blocked the launch in the meeting, citing **a new relevance metric regression** + **"executives flagging user perception gaps for P2P for relevance."** The "executives flagging" framing is a high-altitude shield — hard to argue with without surfacing the executive source. Rajat did NOT decide unilaterally to override (see §4 6/3 entry).
+- **Event 2 — Sai pressure cascade (peer EM observation):** Kurchi is pressuring Sai on "metrics in the holdout" → limits Sai's bandwidth on UPP cross-surface work. Sai is reframing collaboration as **parallel tracks**, not true co-ownership. Sai said it sounded like she was **"handed a command, not debatable"** (see §27 6/3 entry). The architecture James stabilized 5/13 (UPP = "shared infra co-own") is being unwound from above through Kurchi → Rajat-non-push → Sai.
+- **The analytical hinge for post-OOO:** is "executives flagging user perception gaps for P2P relevance" **substantive or pretextual**? If substantive, P2P FT work needs to address head-on or it'll get blocked the same way CST/CFM did. If pretextual, Kurchi is using executive-flag framing as cover and the political game is upstream. James probably knows which; flag for clear-eyed post-OOO read.
+- **Operating implication:**
+  - The "practitioner who made SSJ's surfaces better" meta-goal is now insufficient — the meta-goal worked when Kurchi was slow-playing; now that she's actively blocking, surface-level credit-sharing won't move her.
+  - Run P2P FT on James's own code (Hongtao + maybe Zhihao). Do NOT ask Jiaqing or Suki to train variants — would put them between Sai/Kurchi marching orders and a James-side ask, no-win for them.
+  - Escalation channel = Dylan (Piyush is messaging her this week + asking for time next week). Not Rajat (see §4 6/3 entry).
+  - Hold the "ask the team" frame: if James's team lands a good offline gain on P2P FT, can Sai's team help run it online? — cleanest collaboration test that doesn't force political exposure for Sai's side.
+  - Confidentiality on Kurchi-side intel (executive-flag framing, Sai's "handed a command" framing): trust perimeter is Dylan only.
 
 ---
 
@@ -1470,6 +1495,31 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 - The EM-to-EM heads-up protocol needs memorialization in `cross_org_operational_model/draft_v3_synthesized.md` as a coupled-design addendum.
 - Joint half-pager co-authored post-Thursday joint sync; lands at Jeff/Dylan/Roger altitude.
 - Don't bring the Q1-onward asymmetry into the joint sync tomorrow — Sai owned it, forward protocol is the artifact, relitigation hurts.
+
+## 2026-06-03: Parallel-tracks reframe under Kurchi pressure (peer EM leveling honestly)
+
+**Event.** Pre-OOO 1:1 with Sai. Sai told James she's getting **pressure from Kurchi about metrics in the holdout** — limits her bandwidth on UPP cross-surface. She reframed next steps as **parallel tracks**, not true collaboration on the same things. Her framing made it sound like she'd been **"handed a command, not debatable."**
+
+**Sai's notes on her team allocation (verbatim, captured in James's notes):**
+- 50% Jiaqing + 30% Suki on UPP (~80% of one FTE total split across two people)
+- **P1 for them:** try different Pretrain model variants
+- **P2 for them:** try different Finetuning model variants
+- **Pretrain → they want to test things out themselves** (Sai's team wants pretraining ownership)
+- **P2P FT → James's team runs own models with own code** (Hongtao + maybe Zhihao)
+
+**Tactical next steps James committed to:**
+- Sai talks to Jaewon + Jinfeng to align tomorrow
+- Piyush sends Dylan a Slack update + asks for time next week
+- **Do NOT ask Jiaqing to train certain model variants** (would put her between Sai/Kurchi marching orders and a James-side ask, no-win)
+- **Ask for the team:** if good enough offline gain on P2P FT, can Sai's team help run the experiment online? — cleanest collaboration test that keeps the door open without forcing political exposure on Sai's side
+
+**Read on Sai (not Sai's the problem here):** Sai is a peer EM under upstream sponsor pressure who's signaling honestly. *"Handed a command, not debatable"* is Sai leveling peer-to-peer, NOT Sai pulling back from partnership. The 5/13 OneTrans dynamic (clean unprompted apology + EM-to-EM heads-up protocol + technical concession on Plan 3) showed the trust line is real; it stays real here. The pressure is upstream from her (Kurchi → Rajat-non-push cascade — see §6 + §4 6/3 entries). **Pattern hypothesis confirmed:** the 5/13 *"shared infra surfaces co-own"* cultural reframe required Kurchi-and-Rajat air cover that is now structurally absent.
+
+**Roger watcher status (carry-over from 5/13):** Identity still TBD. Re-check post-OOO when UPP architecture conversation reopens.
+
+**James debriefed with Piyush in 1:1 immediately after** — Piyush is read in and will message Dylan.
+
+**Operating implication:** Sai-EM trust posture unchanged. Don't bring transactional framing into the relationship. Reframe collaboration internally as "parallel tracks with controlled handoff at the online-eval boundary" — that's what Sai is offering and it's still cleaner than full decoupling.
 
 ---
 

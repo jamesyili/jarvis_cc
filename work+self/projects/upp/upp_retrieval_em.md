@@ -1,6 +1,73 @@
 # UPP: March 2026 Must-Win + April 2026 Status
 
-**James Li • March 2026 → ongoing • Originally exported from Claude conversation; updated through May 2026 with post-must-win operational status**
+**James Li • March 2026 → ongoing • Originally exported from Claude conversation; updated through June 2026 with post-must-win operational status**
+
+---
+
+## June 3, 2026 Status Update — Co-ownership architecture unwinding from above; James's team pivots to P2P FT in own code
+
+### The structural shift this week
+
+The 5/13 cultural reframe ("UPP = shared infra surfaces co-own, not HF's foundation model surfaces consume") required Kurchi-and-Rajat air cover for cross-surface launches. **That cover is now structurally absent.**
+
+**Event 1 — Kurchi actively blocks CST/CFM launch.** Cross Surface Training + CFM had massive ranking-side wins. Kurchi personally blocked the launch in-meeting, citing a new relevance metric regression + "executives flagging user perception gaps for P2P for relevance." This is the **first observed active-block from Kurchi** (vs. the 4/23 "slow-play through reasonableness" posture). Rajat did NOT decide unilaterally to override — chose not to spend capital. See `stakeholders.md` §4 6/3 entry + §6 6/3 entry.
+
+**Event 2 — Sai cascades down honestly.** In a 1:1 the same week, Sai told James she's getting Kurchi pressure on "metrics in the holdout" → limits her bandwidth on UPP cross-surface. She reframed next steps as **parallel tracks**, not collaboration on the same things. Her framing: she'd been **"handed a command, not debatable."** See `stakeholders.md` §27 6/3 entry.
+
+### What this means for the platform thesis
+
+The Q2 goal — "at least one surface beyond Homefeed with working integration and measurable results by end of June" — splits into:
+
+- **Notif side:** clean compounding win (+200k WAU 3rd launch, see 5/23 update below). UPP narrative with Rajat is fully supplied here.
+- **P2P side:** the load-bearing problem now compounds with political blockage. P2P cross-surface offline results were "at least not hurting, not improving" as of 5/23. The methodology debate + results debate now have a third overlay: **launch-decision-gating by Kurchi/Rajat-non-push**. Even a clean offline win on P2P FT does not unambiguously get to online experiment without Sai's team (Kurchi's org) running it.
+
+### Sai's team allocation (as of 6/3)
+
+| Person | Allocation | What they own |
+|---|---|---|
+| Jiaqing | 50% on UPP | P1 = try different Pretrain model variants; P2 = try different Finetuning variants |
+| Suki | 30% on UPP | Same scope tier |
+| **Pretrain layer** | Sai's team owns | They want to test pretrain things out themselves |
+| **P2P FT layer** | **James's team owns** | Run own models with own code |
+
+### James's team allocation (6/3 commitment)
+
+- **P2P FT in own code:** Hongtao + (maybe) Zhihao
+- **Don't ask Jiaqing to train variants** — would put her between Sai/Kurchi marching orders and a James-side ask, no-win
+- **Ask Sai's team for online run if offline gain lands** — cleanest collaboration test without forcing political exposure for Sai's side
+
+### Tactical next steps (committed 6/3)
+
+- Sai talks to Jaewon + Jinfeng to align tomorrow (her play)
+- **Piyush sends Dylan a Slack update + asks for time next week** (the pre-OOO escalation channel — NOT Rajat, per 6/3 Rajat non-push read)
+- James debriefed with Piyush in 1:1 immediately after Sai 1:1 — Piyush is read in
+
+### The analytical hinge for post-OOO
+
+**Is "executives flagging user perception gaps for P2P relevance" substantive or pretextual?**
+
+- **If substantive:** P2P FT must address it head-on or get blocked the same way CST/CFM did. The right architectural move is to instrument P2P FT against the same relevance signal that flagged the CST/CFM block, then prove no regression before requesting launch.
+- **If pretextual:** Kurchi is using executive-flag framing as cover. The political game is upstream and the architecture won't move it. The right move is to ship offline gain evidence cleanly to Dylan and let her work the upstream channel.
+
+James probably knows which. Hold the question, decide post-OOO.
+
+### Open strategic question (escalates from 5/23 P2P resource question)
+
+The 5/23 "should I put more engineers on P2P pre-OOO?" question now reframes:
+- **Pull Devin from CLR / ask Daniel Liu / let it ride** — all three Options were premised on collaborative offline-then-online progression with Sai's team. With parallel tracks now the operative shape, the question becomes: **does James's team need to build its own end-to-end P2P FT eval-and-launch loop independent of Sai's team?** That's a much bigger architectural commitment.
+- Defer the decision to post-OOO. Don't reshape the platform thesis on a plane.
+
+### Cross-team participants (6/3 update)
+
+- **Piyush Maheshwari** (UPP TL) — sending Dylan the Slack update this week
+- **Hongtao** — running P2P FT in James's own code
+- **Zhihao Chen** — possibly joining P2P FT alongside Hongtao
+- **Sai** (peer EM) — running parallel-track pretrain work with Jiaqing (50%) + Suki (30%); EM-to-EM trust line still intact
+- **Dylan** — escalation channel for Piyush + the post-OOO discussion on architecture reshape
+
+### Confidentiality
+
+Kurchi-side intel (executive-flag framing, the active-block specifics) + Sai's "handed a command, not debatable" framing: **trust perimeter is Dylan only.** Do not surface across peer channels including Dhruvil.
 
 ---
 
