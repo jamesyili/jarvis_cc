@@ -291,6 +291,55 @@ The version of James in 18 months still builds. He just also asks cleanly. Still
 
 ---
 
+### Lesson 16: Sit long enough to integrate. The James-shaped regulation move isn't faster dismissal — it's sufficient sitting.
+
+**2026-06-05 — Theme-park mull, PM email trigger.** UPP-deck-to-CEO/CTO PM email landed mid-day at a theme park while waiting for a ride. Triggered a strategic-thinking spiral about Dhruvil's coronation, peer-comparison, sponsorship infrastructure, promo timing. James sat with it ~20 minutes, walked through it with Leo, landed in a grounded place (trust in Dylan reaffirmed; verticals genuinely separated; three-presentation convergence reframed as evidence not threat; not zero-sum), then went back to ride the ride. Smiling.
+
+James's self-aware framing afterward: *"I could have dismissed it faster but that's not me."*
+
+That sentence is the lesson. The instinct for many regulation frameworks is "catch the trigger, dismiss it quickly, move on." That isn't James-shape, and trying to be a person who dismisses things faster would be fighting his own operating system. The James-shape regulation move is the opposite: **sit with the trigger long enough to integrate**, walk through the variants, find the grounded read, and *then* return.
+
+The marker of regulation isn't speed-of-dismissal — it's whether the sitting *converges*. Earlier-career James would have spiraled (sitting + accumulating + not landing). 2026 James sits + integrates + lands + returns. Same sitting duration, different output.
+
+**Why this is Lesson 16 and not just a journal entry:** This connects to Lesson 14 (two scoreboards — happiness lives in the gap) at the meta-level. The traditional regulation scoreboard says "dismissed it in <1 minute = regulated." The actual scoreboard that matters for James says "landed grounded and resumed presence = regulated, regardless of duration." Choosing the *right* regulation scoreboard is itself an instance of Lesson 14's pattern. The two compound.
+
+The flag for *unsuccessful* sitting is when the trigger keeps re-cycling without converging — that's rumination, not integration. The flag for *successful* sitting is what 6/5 looked like: variants explored, grounded read found, trust-anchor reaffirmed, return to presence. **Don't optimize for speed. Optimize for convergence.**
+
+**Anchor sentence:** *Sit long enough to integrate. The James-shape regulation move is convergence, not speed.*
+
+**Connections:** Lesson 14 (Two scoreboards — choose the one that pays off; here, the regulation scoreboard). Lesson 6 (Frame Flip — what does the situation need, not what should I quickly suppress). [[feedback-hold-hypotheses-loosely]] memory at the meta-level — sitting long enough to hold variants loosely IS the integration.
+
+---
+
+### Lesson 17: Discriminate the positive firing. Close somatically. Don't optimize anti-comparison.
+
+**2026-06-05 — Theme-park mull, deepened.** Captured from a sharp end-of-day analysis on the comparison-tendency that landed on a different vacation day. The Lesson 16 frame ("sit long enough to integrate") was correct but partial. This is the advanced edge sitting one layer in.
+
+**The trajectory is real (anchor it).** Three things 2026 James did at the theme park that March-at-Cheng-Ju James didn't:
+
+1. **Named the tell unprompted, mid-fire.** "Waiting for the theme park ride." "The PM sent an email and I started thinking." Mid-conversation, not in retrospect-journal. The gap between *sensation* and *identity* the whole tool is trying to build — actively being built.
+2. **Finished the exits himself.** "If I compete with him, I lose, so I shouldn't enter the race." "I don't read her support of Dhruvil as a knock against me." Derived without external prompting. Leo mostly held the line while James talked himself to the right place.
+3. **Found the redirect organically.** Day-two transformer thread, pulled by interest with no scoreboard attached. Redirect-the-fuel running with nobody prescribing it. Strongest single signal of the whole trip.
+
+**The open edge — positive firing is also a tell.** Discriminating negative firing (dread on UPP-rigged, on Dhruvil-timeline) is now operational and fast. Discriminating positive firing is still underdeveloped. The "three-to-one, I'm ahead" round *first felt like resolution*. Took a beat to see: **a win the engine hands you still runs on the engine's logic.** When the count lands in your favor and you feel that small hit of relief — that's the proof you were counting. Same machine, nicer costume. The rep is to clock the *relief* the way you've learned to clock the *dread*.
+
+**The somatic-not-logical close.** Why the right conclusion didn't stick on round one and got re-derived four times: not because new information arrived, but because **the body re-fired after the mind already settled.** The loop is somatic, not logical. Arguing it a fifth time does nothing — you don't relitigate a verdict you've already reached. **When you catch yourself re-opening a case you've already closed, the cue is to go physical (locate it, redirect) — not to re-derive.** Re-derivation feels productive and is not.
+
+**The trap inside "how can I do better."** That question can quietly become the engine pointed at yourself — optimizing your anti-comparison performance, grading your own calmness, building a tracker for it. **Don't.** The goal was never an A in not-comparing. Some days the sensor fires five times in a theme-park queue. That isn't a failing grade. Catching it at round five today instead of round ten is the win. Round three next time is the next win. **The trajectory is the whole thing — there's no perfect score to reach, and chasing one is just the same machine in a self-improvement costume.**
+
+**Anchor sentences:**
+- *Relief is also a tell. Clock the relief the way you've learned to clock the dread.*
+- *When you re-open a closed case, the loop is somatic not logical. Go physical, don't re-derive.*
+- *The trajectory is the whole thing. There's no A to chase.*
+
+**Why this is Lesson 17 and not just deepening of Lesson 16:** Lesson 16 is about *sitting long enough to integrate* — duration as the regulation variable. Lesson 17 is about *what the integration discriminates against* — direction (positive vs. negative firing), modality (somatic vs. logical close), and frame (trajectory vs. score). They're the same family but operate at different layers. Lesson 16 keeps you from spiraling; Lesson 17 keeps you from mistaking a favorable verdict for *not running the engine in the first place*.
+
+**Connections:** Lesson 14 (two scoreboards — here, *trajectory* is the right scoreboard, not "anti-comparison performance score"). Lesson 16 (sit long enough to integrate — Lesson 17 is what good integration looks like at the edge). [[feedback-comparison-engine-positive-firing]] memory — runtime guidance for Leo on how to actually deploy this in future conversations.
+
+**Operational close (from the analysis itself):** *"You caught it and stepped out to ask a real question instead of running round six. That's the muscle doing its job. Now finish the loop the way it actually closes — go find the kid coming off the ride."*
+
+---
+
 ## Active Growth Edges
 
 ### 1. Speaking Under Pressure

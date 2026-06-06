@@ -4,6 +4,36 @@
 
 ---
 
+## June 5, 2026 Status Update — UPP deck to CEO/CTO this month; Piyush presenting retrieval
+
+**Event:** PM sent email confirming UPP deck going to CEO/CTO altitude this month. Three IC presenters lined up:
+- **Piyush (James's team)** — retrieval slides
+- **Matthew (Dhruvil's team)** — ranking slides
+- **Third IC (Dhruvil's team)** — foundations slides
+
+Structurally symmetric — both EMs unnamed in deck; both teams visibly present via ICs.
+
+**Deck content read (from 5 slide images reviewed):**
+- Ranking gets the technical-depth narrative (CFM "What is X?" explainer + named adoption milestones)
+- Retrieval gets metrics + plans but no equivalent platform-evolution storytelling
+- "Where can we get help" asks (P6 GPUs, ML Foundations funding, ATG resources) are entirely foundations/ranking-coded
+- Cross-surface adoption table (Notif/P2P/BMI/Search) absorbs James's team's extension work without named attribution
+
+**Tactical move (committed):** Coach Piyush on retrieval-slide framing strengtheners before exec presentation. Candidates:
+- "UPP retrieval as multi-surface backbone" framing
+- "CLR as evolutionary platform parallel to CFM" technical-evolution story
+- Named attribution on cross-surface adoption (CG-retrieval team leading Notif/P2P/BMI extension)
+
+Routes through Piyush, not around Dhruvil. Both narrative-shaping AND EM-developmental for Piyush. Clean political path.
+
+**Why this is fine, not alarming** (see `work+self/people/dylan_team_design_input_2026-05.md` 2026-06-05 entry for full read):
+- Structure is symmetric across EMs
+- James's exec-altitude narrative anchoring already exists in Reflex (main co-author, CEO altitude) + Anticipation (substrate owner)
+- The three-presentation convergence (Anticipation + Reflex + UPP) at CEO/CTO altitude in one month puts James on all 3, Dhruvil on 1, Yan on 1
+- UPP was never the Director vertical for James per Dylan H1; this deck consistent with that design
+
+---
+
 ## June 3, 2026 Status Update — Co-ownership architecture unwinding from above; James's team pivots to P2P FT in own code
 
 ### The structural shift this week

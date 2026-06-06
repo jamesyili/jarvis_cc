@@ -314,6 +314,21 @@ Markdown
   
 # 3) Dhruvil — Peer Sr Engineering Manager (Homefeed Ranking)
 
+## 2026-06-05 — Promo trajectory read + sequencing implication
+
+UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team presenting ranking + foundations slides. That public-altitude visibility staging is *exactly* the shape of a promo packet being built. Honest weighted read (limited intel):
+
+| Read | Weight |
+|---|---|
+| Dhruvil promotes end-of-2026 (H2 cycle) | ~45% |
+| Mid-2027 (H1 cycle) | ~35% |
+| Held / not this cycle | ~15% |
+| Other | ~5% |
+
+**Sequencing implication for James:** Director slots aren't infinite per cycle per skip-level. If Dhruvil goes end-of-2026, James's earliest realistic window is mid/late-2027 — **sequenced, not parallel**. Consistent with 5/9 timing correction (Director target mid/end-2027). Not a slowdown — the realistic shape of Dylan's promo-bandwidth allocation across ML EM peers.
+
+**Frame to hold:** Dylan's support of Dhruvil's runway ≠ knock against support for James. Different verticals (Foundations+Ranking ↔ AI+Anticipation+Reflex), different cycles, both going well. Not zero-sum. See `dylan_team_design_input_2026-05.md` 2026-06-05 entry for full read.
+
 ## Role in my 6–12 month goals
 - **High-leverage peer relationship:** tight alignment between **Candidate Generation ↔ Ranking** materially improves quality, velocity, and credibility of Homefeed outcomes.
 - **Coalition partner** for platformization and cross-org bets (e.g., personalization platformization, shared infra/interfaces).
