@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Technical Foundations — the bridge corpus</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    max-width: 760px; margin: 0 auto; padding: 24px 18px 80px;
+    line-height: 1.62; color: #1c1e21; background: #ffffff;
+    font-size: 17px; -webkit-text-size-adjust: 100%;
+  }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0.2em 0 0.6em; }
+  h2 { font-size: 1.32rem; margin: 1.8em 0 0.5em; padding-bottom: 0.25em; border-bottom: 1px solid #e3e6ea; }
+  h3 { font-size: 1.1rem; margin: 1.4em 0 0.4em; }
+  p, li { font-size: 1rem; }
+  a { color: #2563eb; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: #0b0c0e; }
+  hr { border: 0; border-top: 1px solid #e3e6ea; margin: 2em 0; }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    background: #f1f3f5; padding: 0.12em 0.36em; border-radius: 5px; font-size: 0.88em;
+  }
+  pre {
+    background: #f6f8fa; padding: 14px 16px; border-radius: 8px;
+    overflow-x: auto; -webkit-overflow-scrolling: touch; font-size: 13px; line-height: 1.45;
+    border: 1px solid #e3e6ea;
+  }
+  pre code { background: none; padding: 0; font-size: inherit; }
+  .tw { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1em 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.9rem; }
+  th, td { border: 1px solid #d8dce0; padding: 7px 10px; text-align: left; vertical-align: top; }
+  th { background: #f1f3f5; font-weight: 600; }
+  tr:nth-child(even) td { background: #fafbfc; }
+  blockquote { border-left: 3px solid #cbd2d9; margin: 1em 0; padding: 0.2em 0 0.2em 1em; color: #44474b; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #16181c; color: #d6d9dd; }
+    h1, strong { color: #f0f2f4; }
+    h2 { border-color: #2a2e34; }
+    code { background: #23262b; }
+    pre { background: #1b1e23; border-color: #2a2e34; }
+    th { background: #23262b; }
+    td, th { border-color: #2a2e34; }
+    tr:nth-child(even) td { background: #1b1e23; }
+    a { color: #6ea8fe; }
+  }
+</style>
+</head>
+<body>
+<h1 id="technical-foundations-the-bridge-corpus">Technical Foundations — the bridge corpus</h1>
+<p><strong>Built:</strong> 2026-05-31 (pre-OOO trip study materials)
+<strong>Purpose:</strong> One unified technical study corpus serving two goals at once —
+1. <strong>Pinterest fluency</strong> — speak Reflex / UPP / Anticipation at the architecture level, not just the strategy level.
+2. <strong>Frontier-lab EM interviews</strong> (Anthropic, OpenAI) — solidify the fundamentals a technical EM screen probes, anchored to systems you actually built.</p>
+<p><strong>Format:</strong> Written deep-dive guides (this folder) + an interview Q&amp;A bank (<code>qa_bank/</code>). No audio, no flashcards — by design.</p>
+<p><strong>How this differs from what you already have in <code>interview_prep/</code>:</strong> the Hao Hoang book (<code>llm_system_interview.md</code>) is a <em>generic reference</em>; <code>study_plan_for_onsite.md</code> tiers it for the <em>Integrity seat</em>; <code>system_design/</code> is <em>whiteboard practice</em>. This corpus is the missing <strong>bridge layer</strong> — each fundamental taught in your own terms, anchored to your live work, then translated into interview-portable form. Read these <em>alongside</em> the book chapters they map to (cross-refs in each guide).</p>
+<hr />
+<h2 id="the-one-mental-model-read-this-first-everything-hangs-off-it">The one mental model (read this first — everything hangs off it)</h2>
+<p>A recommender system, a foundation model, an LLM, and an agent are <strong>the same machine at different scales.</strong> Four stages, one loop:</p>
+<pre><code>   ┌──────────────────────────────────────────────────────────────┐
+   │                                                              │
+   ▼                                                              │
+[1] REPRESENT  ──→  [2] RETRIEVE / RANK  ──→  [3] GENERATE / DECIDE │
+ raw signal →        given a context vector,    produce the output:  │
+ vectors in a        find + order the best       next token / next   │
+ learned space       candidates                  pin / next action   │
+                                                          │          │
+                                                          ▼          │
+                                              [4] LEARN FROM FEEDBACK ┘
+                                              a reward / preference
+                                              signal improves the system
+</code></pre>
+<ul>
+<li><strong>[1] Represent</strong> = embeddings + pretraining. <em>Turn tokens / user actions / pixels into vectors whose geometry encodes meaning.</em> → guides <strong>01, 02, 03</strong></li>
+<li><strong>[2] Retrieve/Rank</strong> = the core operation of both stacks. → guide <strong>04</strong></li>
+<li><strong>[3] Generate/Decide</strong> = decoding (LLM) or scoring+blending (recsys). → guides <strong>04, 07</strong></li>
+<li><strong>[4] Learn from feedback</strong> = RLHF, reward modeling, bandits, the human-correction loop. → guide <strong>05</strong>, with <strong>06</strong> (eval) as the measurement substrate and <strong>08</strong> (agents) as the loop made autonomous.</li>
+</ul>
+<h3 id="the-unification-that-makes-you-sound-senior">The unification that makes you sound senior</h3>
+<p><strong>Attention <em>is</em> retrieval.</strong> A query attends over keys and values = a soft, differentiable nearest-neighbor lookup over the sequence. A transformer is a stack of differentiable retrieval operations; a recsys two-tower retriever is the <em>non-differentiable, billion-item</em> version of the same operation. Once you say this out loud in an interview, your recsys background stops being "adjacent experience" and becomes "I've been building the retrieval primitive at a scale most LLM people never touch." That is the single highest-leverage sentence in this whole corpus.</p>
+<p>Your three Pinterest systems are this loop, instantiated:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>UPP</th>
+<th>Retentive Recs / Anticipation</th>
+<th>Reflex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Represent</td>
+<td>FM pretrain on user-level next-token; CLR towers</td>
+<td>OmniSage fused space; UIC clusters</td>
+<td>code/state as context; structured cards</td>
+</tr>
+<tr>
+<td>Retrieve/Rank</td>
+<td>CLR dual-tower retrieval, surface rankers</td>
+<td>geometric prediction → CLR conditioning</td>
+<td>playbooks retrieve opportunities; DS scores</td>
+</tr>
+<tr>
+<td>Generate/Decide</td>
+<td>candidate sets per surface</td>
+<td>predicted UICs, LLM "next best action"</td>
+<td>Build agent emits validated code edits</td>
+</tr>
+<tr>
+<td>Learn from feedback</td>
+<td>online A/B, relevance loss</td>
+<td>Geometric Bandit (Thompson, log-lift)</td>
+<td>human comment → permanent structured pattern</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="module-index">Module index</h2>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Guide</th>
+<th>Fundamental</th>
+<th>Your anchor</th>
+<th>Book ch. (Hoang)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>00</td>
+<td>This file</td>
+<td>the bridge + how to study</td>
+<td>—</td>
+<td>Ch 1–2</td>
+</tr>
+<tr>
+<td>01</td>
+<td><code>01_representation_learning_and_embeddings.md</code></td>
+<td>embeddings, contrastive learning, two-tower</td>
+<td>OmniSage, UIC, UPP FM, CLR</td>
+<td>(recsys-native; Ch 3 adjacents)</td>
+</tr>
+<tr>
+<td>02</td>
+<td><code>02_transformers_and_attention.md</code></td>
+<td>QKV attention, decoder-only, positional, KV cache</td>
+<td>UPP FM, OneTrans, L500 sequence</td>
+<td>Ch 3, 15–16</td>
+</tr>
+<tr>
+<td>03</td>
+<td><code>03_pretraining_finetuning_transfer.md</code></td>
+<td>self-supervised pretraining, SFT, transfer, scaling</td>
+<td>UPP three-tier, cross-surface, your blog topic</td>
+<td>Ch 13–14, 20–22, 26, 30</td>
+</tr>
+<tr>
+<td>04</td>
+<td><code>04_retrieval_ranking_two_tower.md</code></td>
+<td>the funnel, ANN, negative sampling, calibration, diversity</td>
+<td>CLR, overfetch, O/E, SSD, blending</td>
+<td>(recsys-native) + Ch 29</td>
+</tr>
+<tr>
+<td>05</td>
+<td><code>05_rlhf_preference_optimization.md</code></td>
+<td>RLHF pipeline, reward models, DPO, RLVR, bandits</td>
+<td>Reflex feedback loop, RR Geometric Bandit</td>
+<td>Ch 27–28</td>
+</tr>
+<tr>
+<td>06</td>
+<td><code>06_evaluation_simulation_validity.md</code></td>
+<td>offline/online metrics, A/B, contamination, eval design</td>
+<td>Reflex Simulate/Prove, UPP eval dispute, RR holdout</td>
+<td>Ch 23–25</td>
+</tr>
+<tr>
+<td>07</td>
+<td><code>07_inference_and_serving.md</code></td>
+<td>prefill/decode, throughput, quantization, distillation, MoE</td>
+<td>UPP GPU serving, overfetch caps, GSS</td>
+<td>Ch 6–7, 15–19, 29</td>
+</tr>
+<tr>
+<td>08</td>
+<td><code>08_agents_tool_use_multiagent.md</code></td>
+<td>agent loops, tool use, multi-agent, guardrails, agent eval</td>
+<td>Reflex, Pinkerton, RR reasoning layer</td>
+<td>Ch 24 (agentic benchmarks)</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Q&amp;A bank</strong> (<code>qa_bank/</code>): <code>fundamentals_qa.md</code> (depth probes per module), <code>system_design_qa.md</code> (gap-targeted drills from the Anthropic post-mortem), <code>your_systems_stories.md</code> ("tell me about a system you built," at interview depth), <code>em_judgment_qa.md</code> (technical-leadership calls).</p>
+<hr />
+<h2 id="how-to-study-this-on-the-trip">How to study this on the trip</h2>
+<p>You have ~3 weeks. This is <strong>not</strong> 50 hours of book-grinding — it's the high-leverage subset, internalized in your own terms.</p>
+<p><strong>Pass 1 — read the spine + all eight guides front to back (one sitting each).</strong> Goal: install the mental model and see your own work as the worked example. ~45 min/guide.</p>
+<p><strong>Pass 2 — for each guide, do the "self-test" at the bottom out loud, from memory.</strong> If you can't, that's the chapter of the book to read deeply. The guides tell you exactly which.</p>
+<p><strong>Pass 3 — the Q&amp;A bank, as active recall.</strong> Especially <code>system_design_qa.md</code> — your Anthropic post-mortem says reading gets you to "informed candidate," <em>drilling</em> gets you to "this person has answered these before." Time-box the system-design drills to 45 min each.</p>
+<p><strong>Priority order if time is short</strong> (serves both goals, weighted to your interview gap):
+1. <strong>05 (RLHF) + 06 (Eval)</strong> — your Anthropic loop died here (didn't resolve the adversarial case; led with metrics over the trade-off). Also the Integrity seat's day-to-day.
+2. <strong>04 (Retrieval/Ranking)</strong> — your deepest moat; make sure you can <em>teach</em> it, not just do it.
+3. <strong>02 (Transformers)</strong> — vocabulary floor; the one place a generic answer caps you.
+4. <strong>01, 03</strong> — your moat + the pretrain-finetune story (= your blog topic; double-duty).
+5. <strong>07, 08</strong> — breadth; one-pass each unless probed.</p>
+<hr />
+<h2 id="interview-portable-the-systems-i-built-map">Interview-portable: the "systems I built" map</h2>
+<p>When an interviewer probes a fundamental, <em>don't</em> answer in the abstract — bridge to a system you built, go three levels deep, then surface back up. The map:</p>
+<ul>
+<li><strong>"How would you train an embedding / representation?"</strong> → OmniSage: fusing CLIP visual + co-engagement graph + pin-board topology so geometry = <em>functional utility</em> (hiking boot ≈ granola bar via "camping" boards), not visual similarity. Then UPP FM: pretraining user representations via user-level next-token prediction.</li>
+<li><strong>"Design a retrieval system."</strong> → CLR two-tower, UIC as the conditioning vector, ANN over billions of pins, overfetch/cap trade-offs, in-batch + hard negatives, calibration (O/E) before it hits ranking.</li>
+<li><strong>"How does RLHF / preference learning work?"</strong> → Reflex: every human comment becomes a permanent structured pattern (reward signal → policy update, but with a human-legible state). RR Geometric Bandit: Thompson sampling over LSH-hashed embedding regions, log-lift reward optimizing <em>momentum</em> not raw CTR, negative feedback collapsing exploration.</li>
+<li><strong>"How do you evaluate this?"</strong> → RR holdout (moving WAU via ranking is <em>rare</em> — that's the validity story); UPP eval-methodology dispute (when the <em>metric</em> is the bottleneck, more bodies don't help); Reflex eval-against-real-PRs.</li>
+<li><strong>"Design an agent / multi-agent system."</strong> → Reflex: Claude Code sessions <em>are</em> the agents, repo is the database, git is the audit trail, Skeptic is the adversarial gate, blast-radius via allowlist + diff caps.</li>
+</ul>
+<p>Each guide ends with the tightened, interview-ready version of its bridge.</p>
+<hr />
+<h2 id="reference-layer-the-amanai-primers-deep-dive-backstop">Reference layer — the aman.ai primers (deep-dive backstop)</h2>
+<p>You have 8 aman.ai "Distilled AI" primers. They are the <strong>deep reference</strong> — hit one when a guide's self-test exposes a gap, <em>not</em> as primary reading. Coverage clusters on your <strong>frontier-LLM gap</strong> (transformers, RL, agents, MoE), not your recsys moat — well-targeted.</p>
+<p><strong>Two copies of each:</strong> the original image-only PDF in <code>interview_prep/aman_*.pdf</code> (visual, not text-extractable), and a <strong>downloaded clean-markdown copy in <code>references/aman/*.md</code></strong> (grep-able, searchable, ~2.3M chars total — fetched from the live aman.ai pages on 2026-05-31). Use the <code>.md</code> to read/search; the PDF for figures.</p>
+<p><strong>Three-layer reading order per topic:</strong> bridge guide (synthesis, <em>yours</em>) → Hoang chapter (interview-tiered) → aman primer (go deep only if needed).</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Guide</th>
+<th>aman primer — searchable markdown</th>
+<th>Depth caveat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>02 Transformers</td>
+<td><code>references/aman/transformers.md</code>, <code>references/aman/attention.md</code></td>
+<td>read for intuition; <strong>don't derive flash-attention</strong> (Tier 3)</td>
+</tr>
+<tr>
+<td>05 RLHF</td>
+<td><code>references/aman/rl.md</code>, <code>references/aman/rl_ppo.md</code>, <code>references/aman/agentic_rl.md</code></td>
+<td>great for RM/DPO/RLVR; <strong>PPO clipped-objective math is Tier 3</strong> — skim, don't grind</td>
+</tr>
+<tr>
+<td>07 Inference</td>
+<td><code>references/aman/moe.md</code></td>
+<td>MoE = "know what it is" (Tier 3); resist the routing rabbit hole</td>
+</tr>
+<tr>
+<td>08 Agents</td>
+<td><code>references/aman/agents.md</code>, <code>references/aman/agent_systems.md</code>, <code>references/aman/agentic_rl.md</code></td>
+<td>your ahead-of-curve area — read for vocabulary/patterns, you already have the system</td>
+</tr>
+<tr>
+<td>01, 03, 04, 06</td>
+<td><em>(none — not downloaded)</em></td>
+<td>01/04 are your moat; 03/06 are well-covered by the Hoang book. aman.ai has Recommendation-Systems and NLP primers online if you ever want a 04/01 backstop — but you don't need them.</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Mining note:</strong> the <code>.md</code> copies are now text, so I <em>can</em> pull specific aman passages into the Q&amp;A bank where a drill needs sharper backing (e.g., the agent system-design drill ← <code>agents.md</code>/<code>agent_systems.md</code>; RLHF drills cross-checked vs <code>rl_ppo.md</code>). Math fidelity in the markdown is good for prose/code/structure; some display equations render better in the source PDF.</p>
+<hr />
+<h2 id="cross-references-existing-assets">Cross-references (existing assets)</h2>
+<ul>
+<li><code>interview_prep/llm_system_interview.md</code> — the Hoang book (the reference these guides distill)</li>
+<li><code>interview_prep/study_plan_for_onsite.md</code> — Integrity-seat chapter tiering</li>
+<li><code>interview_prep/system_design/00_FRAMEWORK.md</code> — the whiteboard framework</li>
+<li><code>interview_prep/openai_call_prep_2026-05-27.md</code> — the Anthropic-loop anti-patterns (load-bearing for the system-design Q&amp;A)</li>
+<li><code>work+self/projects/{upp,retentive_recs,reflex}/</code> — the source-of-truth technical docs the anchors draw from
+```</li>
+</ul>
+</body>
+</html>

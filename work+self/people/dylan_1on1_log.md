@@ -10,6 +10,36 @@
 
 ---
 
+## 2026-06-01 — Team-design proposal: first live delivery (James's recap)
+
+**Context:** First live walkthrough of the Option 2 team-design proposal (follow-up to the H1 career convo). James relayed Dylan's feedback during a role-play prep session.
+
+**Outcome: validated, not rejected.** Dylan said this move is **"one of the directions I was thinking about."** She didn't push on *whether* — she pushed on *scope coherence*. Receptive posture.
+
+### Meta-signal (the big one): SCOPE > RESOURCING
+> *"It's much more important to figure out the broader scope. For anything we resource, I'll give you people for it — don't worry too much about that."*
+
+→ The headcount A/B fork is **off the table as a battleground.** She's promised to resource what's scoped. The fight is **scope definition**, not headcount. Drop the AI-Leveraged-Engineering headcount ask as the load-bearing ask; reframe as "here's the capability, here's the shape of capacity it needs."
+
+### Her three feedback areas
+
+1. **Unity-GULP / Unity-Board ownership seam (research assigned).** How does this team's scope work with unity-gulp? **Zisis's team should own GULP — but do they have FULL ownership of unity-gulp, or is it split with James's future team?** Same question for unity-board, unity-home-feed — how does the work split across teams? She wants concrete research on **unity-gulp and unity-board** boundaries. (This is the old Cupcake glue-layer ambiguity zone resurfacing.)
+
+2. **ML Infra divest — "what are we really giving up?"** Only ~1 person works on it. Reads as a thin/padded divest. Either name what "ML Infra" actually encompasses, or drop it and lead the divest story with the real ones (GULP, Responsiveness, Low Signal Users).
+
+3. **Third pillar is a mixed bag.** RecGPT + L1 utility + CG logics + Reflex. Direct probe: **"Is it really people you're motivated by keeping, or does the scope fit together?"** → The coherence-vs-attachment test. (Same concern flagged in 5/25 prep: "Team 3 reads more Sr-EM-expansion than Director-shape.")
+
+### Read
+All three notes are **one test wearing three hats: is James's scope coherence-defined or attachment-defined?** That's the Director-altitude bar. She validated the direction; she's testing whether James holds his *own* scope to the standard he'd apply to anyone else. **Pass by out-rigoring her** — including restructuring Pillar 3 and dropping padded divests — not by defending everything.
+
+### New name to map
+- **Zisis** — EM, named by Dylan as GULP owner. Refines/supersedes the artifact's "GULP → Dhruvil." Add to stakeholder map; clarify reporting line and unity-gulp ownership extent.
+
+### Status / next
+- James OOO ~6/1–6/30; will **not** complete the research pre-vacation. Mulling over vacation. **No forced clock** (Dylan's "very early / things can move" framing + scope>resourcing signal). Resume post-vacation. See vacation mull-list at top of [dylan_team_design_input_2026-05.md](dylan_team_design_input_2026-05.md).
+
+---
+
 ## 2026-04-24 (Friday) — Slack exchange: "Claude fired a worker" → SSJ reorg pivot → moral alignment on Krishna's mistreatment (async, not a 1:1)
 
 **Context:** Dylan posted a "lol my Claude agent just fired a worker" message. Conversation evolved through humor into James informally executing Option B from the career conversation prep — raising Krishna's situation with Dylan via the natural pivot. Resulted in unprompted moral alignment on Kurchi's overreach.
