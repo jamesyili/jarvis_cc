@@ -369,7 +369,7 @@ When James's portfolio gets audited (by Karen, by Dylan, by himself), UPP is the
 
 ### UBR (Unified Cross Surface Retrieval) — New technical reference
 
-**Piyush Maheshwari + Jiaxing Qu** authored the UBR design doc (last updated 2026-04-05). Leo captured the full design into `work+self/projects/ubr_design.md` on 2026-04-11 from screenshots James shared. This is the **technical instantiation of UPP Prongs 1-3** and the operational realization of the pretrain-finetune paradigm at Pinterest.
+**Piyush Maheshwari + Jiaxing Qu** authored the UBR design doc (last updated 2026-04-05). Leo captured the full design into `work/projects/ubr_design.md` on 2026-04-11 from screenshots James shared. This is the **technical instantiation of UPP Prongs 1-3** and the operational realization of the pretrain-finetune paradigm at Pinterest.
 
 **Key design points worth carrying to work-leo:**
 - **Two-tower base model** (query tower + pin tower) with per-surface **Condition Towers** and per-surface **Surface Towers**, shared **User Tower** (conditioned user sequence transformer or context tokens or FM), final DHEN feature cross layer
@@ -381,7 +381,7 @@ When James's portfolio gets audited (by Karen, by Dylan, by himself), UPP is the
 - **Loss:** Binary cross-entropy + in-batch negatives + optional relevance loss; open design question on per-surface vs joint IBN
 - **AppConfigs proposal:** Combine CLR's flat single-surface config with CFM's two-layer pretrain/finetune pattern into a unified two-layer config
 
-**Full technical detail in `work+self/projects/ubr_design.md`.** When the technical UPP context update James has deferred lands, cross-reference UBR design choices against the final architecture.
+**Full technical detail in `work/projects/ubr_design.md`.** When the technical UPP context update James has deferred lands, cross-reference UBR design choices against the final architecture.
 
 
 

@@ -24,7 +24,7 @@ Technically: ML/AI, recommendation systems, retrieval architecture. Builds hands
 
 ## System Architecture
 
-### Context Files (`work+self/`)
+### Context Files (`work/` + `self/`)
 
 Structured markdown files that Leo reads before engaging on anything substantive:
 

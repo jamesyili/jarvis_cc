@@ -21,9 +21,9 @@ from datetime import date
 from pathlib import Path
 
 BASE_DIR = Path(__file__).parent.parent
-ARTICLES_DIR = BASE_DIR / "learning" / "articles" / "lennys-podcast"
-THEMES_DIR = BASE_DIR / "learning" / "themes"
-MANIFEST_FILE = BASE_DIR / "learning" / ".themes_manifest.json"
+ARTICLES_DIR = BASE_DIR / "work" / "learning" / "articles" / "lennys-podcast"
+THEMES_DIR = BASE_DIR / "work" / "learning" / "themes"
+MANIFEST_FILE = BASE_DIR / "work" / "learning" / ".themes_manifest.json"
 DISCOVERED_FILE = THEMES_DIR / "_discovered.md"
 
 CLAUDE_MODEL = "claude-sonnet-4-6"

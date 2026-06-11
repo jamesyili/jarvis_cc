@@ -27,32 +27,32 @@ These are one-time copies. After setup, work-leo is its own source of truth.
 
 ### People (copy all)
 ```
-work+self/people/stakeholders.md     -> ~/leo-work/context/people/stakeholders.md
-work+self/people/direct_manager.md   -> ~/leo-work/context/people/direct_manager.md
-work+self/people/dylan_1on1_log.md   -> ~/leo-work/context/people/dylan_1on1_log.md
-work+self/people/team_members.md     -> ~/leo-work/context/people/team_members.md
+work/people/stakeholders.md     -> ~/leo-work/context/people/stakeholders.md
+work/people/direct_manager.md   -> ~/leo-work/context/people/direct_manager.md
+work/people/dylan_1on1_log.md   -> ~/leo-work/context/people/dylan_1on1_log.md
+work/people/team_members.md     -> ~/leo-work/context/people/team_members.md
 ```
 
 ### Projects (copy all)
 ```
-work+self/projects/pinkerton.md                    -> ~/leo-work/context/projects/pinkerton.md
-work+self/projects/pinvestigator.md               -> ~/leo-work/context/projects/pinvestigator.md
-work+self/projects/clr_technical.md               -> ~/leo-work/context/projects/clr_technical.md
-work+self/projects/p2p_lr_technical.md            -> ~/leo-work/context/projects/p2p_lr_technical.md
-work+self/projects/l1_utility.md                  -> ~/leo-work/context/projects/l1_utility.md
-work+self/projects/retentive_recs.md              -> ~/leo-work/context/projects/retentive_recs.md
-work+self/projects/upp_must_win_march2026.md      -> ~/leo-work/context/projects/upp_must_win_march2026.md
-work+self/projects/learned_dynamic_triggering_elt.md -> ~/leo-work/context/projects/learned_dynamic_triggering_elt.md
+work/projects/pinkerton.md                    -> ~/leo-work/context/projects/pinkerton.md
+work/projects/pinvestigator.md               -> ~/leo-work/context/projects/pinvestigator.md
+work/projects/clr_technical.md               -> ~/leo-work/context/projects/clr_technical.md
+work/projects/p2p_lr_technical.md            -> ~/leo-work/context/projects/p2p_lr_technical.md
+work/projects/l1_utility.md                  -> ~/leo-work/context/projects/l1_utility.md
+work/projects/retentive_recs.md              -> ~/leo-work/context/projects/retentive_recs.md
+work/projects/upp_must_win_march2026.md      -> ~/leo-work/context/projects/upp_must_win_march2026.md
+work/projects/learned_dynamic_triggering_elt.md -> ~/leo-work/context/projects/learned_dynamic_triggering_elt.md
 ```
 
 ### Org
 ```
-work+self/org/organization.md  -> ~/leo-work/context/org/organization.md
+work/org/organization.md  -> ~/leo-work/context/org/organization.md
 ```
 
 ### Communication (direct copy, no changes needed)
 ```
-work+self/communication.md  -> ~/leo-work/context/communication.md
+work/communication.md  -> ~/leo-work/context/communication.md
 ```
 
 ### Goals (use the work-only fork, NOT Leo's version)

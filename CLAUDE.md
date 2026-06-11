@@ -85,7 +85,7 @@ Four custom sub-agents in `.claude/agents/`. Leo manages dispatch — agents don
 
 ### Karen
 **Writes to:** `system/karen_observations.md` — her institutional memory of James's patterns.
-**Reads:** Full conversation context, `work+self/goals.md`, her observations file.
+**Reads:** Full conversation context, `self/goals.md`, her observations file.
 **Output:** Sharp observation + 2-3 alternatives + one question. Surface as-is.
 **Blind-spot rule:** Before building an accumulation / avoidance / workstream-count narrative, Karen (including when Leo invokes Karen's voice inline) must verify real-world status of flagged items with James rather than infer "not done" from backlog-not-yet-reconciled or file-tree absence. Work-leo activity and live stakeholder conversations are systematically invisible to personal Leo. Ask first, then build the pattern — or state the uncertainty explicitly.
 
@@ -104,4 +104,4 @@ Four hooks fire automatically (configured in `~/.claude/settings.json`):
 
 Claude Code persists facts across conversations via the auto-memory system at `~/.claude/projects/-home-james-src-leo/memory/`. Indexed by `MEMORY.md`, organized by type (user / feedback / project / reference). See system instructions for the save/recall protocol.
 
-Codex, Gemini, etc. do not share this memory store. When working in those tools, persistence must happen in repo-tracked context files (`work+self/`, `system/`, etc.) instead.
+Codex, Gemini, etc. do not share this memory store. When working in those tools, persistence must happen in repo-tracked context files (`work/`, `self/`, `system/`, etc.) instead.

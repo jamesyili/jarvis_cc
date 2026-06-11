@@ -2,7 +2,9 @@
 # SessionStart hook: Auto-load the two most recent session log entries into context.
 # stdout is injected as a system message at session start.
 
-SESSION_DIR="/home/james/src/leo/system/session-logs"
+# Derive repo root from this script's location so the hook works on any machine
+# (was hardcoded to /home/james/src/leo, which broke on the Mac repo at /Users/jamesli/code/leo).
+SESSION_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)/system/session-logs"
 
 if [ ! -d "$SESSION_DIR" ]; then
   exit 0

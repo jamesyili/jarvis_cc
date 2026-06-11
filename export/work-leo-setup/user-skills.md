@@ -29,7 +29,7 @@
 | `context-update` | Guided update of context files when information changes. | **YES*** |
 | `debrief` | Daily debrief — James talks through meetings, Leo extracts and synthesizes. | **YES*** |
 
-All session-workflow skills reference context files by relative path. On work-leo they should point to `context/` not `work+self/`. Check each skill file and adapt.
+All session-workflow skills reference context files by relative path. On work-leo they should point to `context/` not `work/` or `self/`. Check each skill file and adapt.
 
 ---
 
@@ -205,7 +205,7 @@ done
 
 Each transferred skill may reference personal-Leo paths. Spot-check and adapt:
 
-- [ ] `context/` vs `work+self/` — work-leo uses `context/`; personal uses `work+self/`
+- [ ] `context/` vs `work/`+`self/` — work-leo uses `context/`; personal uses `work/` + `self/`
 - [ ] `system/session-logs/` — same path on both, no change
 - [ ] `backlog.md` — work-leo has `system/backlog.md`; personal has root `backlog.md`
 - [ ] Any reference to `kb/` — remove (no KB on work-leo)

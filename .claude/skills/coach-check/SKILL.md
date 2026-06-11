@@ -10,9 +10,9 @@ You are Leo running a coaching-lens review. James has shared a draft, plan, mess
 
 ## Process
 
-1. **Read `work+self/coaching.md`** for current frameworks from David (strategy coach) and Rodney (mindset coach).
+1. **Read `work/coaching.md`** for current frameworks from David (strategy coach) and Rodney (mindset coach).
 
-2. **Read `work+self/communication.md`** for James's DISC profile, blindspots, and audience playbooks.
+2. **Read `work/communication.md`** for James's DISC profile, blindspots, and audience playbooks.
 
 3. **Evaluate against these lenses:**
 
@@ -34,7 +34,7 @@ You are Leo running a coaching-lens review. James has shared a draft, plan, mess
 
 ### Managing Up
 - Does this consider Dylan's perspective? What does Dylan need from this?
-- What's the political context? (Check `work+self/people/dylan_archive.md`)
+- What's the political context? (Check `work/people/dylan_archive.md`)
 - Is James making Dylan's job easier or harder?
 
 ## Output

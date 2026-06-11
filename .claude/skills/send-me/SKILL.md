@@ -75,6 +75,6 @@ If the script prints `Missing OAuth client secret at ~/.config/leo/google_creden
 ## Example invocations
 
 - `/send-me` → emails the most recent artifact from this session
-- `/send-me work+self/people/dhruvil-prep.md` → emails that specific file
+- `/send-me work/people/dhruvil-prep.md` → emails that specific file
 - `/send-me draft.md notes.md` → emails both in one message
 - `email me what we just wrote` → same as `/send-me` with no path

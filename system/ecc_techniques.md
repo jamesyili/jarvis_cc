@@ -16,7 +16,7 @@
 - Together, these create a rolling breadcrumb trail that survives session boundaries.
 
 **How to adapt for Leo:**
-- `SessionStart` hook: Auto-read `system/session-log.md` and inject the last entry's "Open" and "Next time" items into context. Could also auto-read `work+self/goals.md` for orientation.
+- `SessionStart` hook: Auto-read `system/session-log.md` and inject the last entry's "Open" and "Next time" items into context. Could also auto-read `self/goals.md` for orientation.
 - `Stop` hook: Lightweight breadcrumb capture after each response — not full session logging (that's still `/end-session`'s job), but enough to recover context if the session dies unexpectedly.
 - Keep `/start-session` and `/end-session` as the high-quality semantic layer. Hooks are the safety net.
 

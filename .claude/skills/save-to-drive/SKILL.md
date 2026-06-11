@@ -79,7 +79,7 @@ If the script prints `Missing OAuth client secret at ~/.config/leo/google_creden
 ## Example invocations
 
 - `/save-to-drive` → uploads the most recent artifact
-- `/save-to-drive work+self/projects/anticipation-foundations.md` → that specific file as a Google Doc
+- `/save-to-drive work/projects/anticipation-foundations.md` → that specific file as a Google Doc
 - `/save-to-drive draft.md notes.md` → both, each converted
 - `save that to Drive` → same as `/save-to-drive` with no path
 - `put this in Drive but keep it as markdown` → `/save-to-drive --raw <path>`
