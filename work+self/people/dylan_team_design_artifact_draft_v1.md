@@ -58,7 +58,7 @@ I own the AI personalization stack end-to-end: CG, Retrieval, Anticipation, LWS,
 Reflex/Pinkerton becomes a Pinterest-wide AI engineering substrate (Core-spanning). I own or co-own with Karina/Kaanon. CG team stays largely as-is or modestly expands.
 
 - **Pros:** Highest leverage on the AI bet; Pinterest-wide engineering culture impact; the cleanest "AI-leveraged-leader" pattern across Core.
-- **Cons:** Trades the HF presentation-side wedge for cross-org leverage; requires Jeff/Rajat-level sponsorship to land; longer ramp (12-24 mo); relationship density with Faisal/Jia Jing needs to be live, not aspirational, before this is real.
+- **Cons:** Trades the HF presentation-side wedge for cross-org leverage; requires Jeff/Rajat-level sponsorship to land; longer ramp (12-24 mo); relationship density with Faisal/Jiajing needs to be live, not aspirational, before this is real.
 - **Best for:** A 12-24 month play if cross-org AI substrate is the higher-priority Pinterest bet than HF personalization narrative — and if the upward sponsorship architecture is already underwritten.
 
 ---

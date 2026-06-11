@@ -52,41 +52,57 @@ The ground I stand on, not a scoreboard. Worth is not conditional on being the h
 
 ---
 
-# Layer II — Near-term, concrete (6 months / H2 2026, measurable)
+# Layer II — Near-term, concrete (6 months / H2 2026)
 
-Falsifiable deliverables that build toward the ~2027 Director window.
+H2 is a rebuild year. The load-bearing work is three keystones — **land the charter, staff it, build advocates** — and everything else is maintain-trajectory. Each goal separates **Commit** (what I will deliver — mine to control) from **Influence** (what I will drive with a forcing function — not fully mine to control). I'm judged on Commit; I drive Influence, but won't list outcomes I don't own as if they were deliverables.
 
-## 1. Land the team-design charter (the Director vehicle)
-The central career thread. Dylan is designing a charter with James owning a coherent three-pillar capability — Retrieval Modeling / Anticipation Foundations / CG Core & Frontier-AI (Reflex) — as a manager-of-managers across ~2 EMs (~27 people). She has validated the direction; scope coherence, not headcount, is the game (she'll resource what's scoped).
-- **Done looks like:** charter agreed and stood up; the three pillars cohere (Pillar 3 restructured so it's not a mixed bag); unity-gulp/unity-board ownership boundaries resolved; two strong EMs in place under it.
-- **Open work (post-OOO):** unity-gulp/board research (Zisis split); rework Pillar 3; fold the Bella exit into the people plan.
+> **Dependency:** Keystone 2 (staffing) is the hinge. If the charter lands with two strong EMs, the maintain-trajectory goals get owners other than me. If it doesn't, I'm the critical path on everything and their "done" states don't happen.
 
-## 2. Retentive Recommendations + Anticipation product surfaces
-Feedback loop launched, core hypothesis validated, KDD draft done, blog shipped (publicly named program lead). Fused to the Anticipation product surfaces (Recsplanations / Explore module / Intelligent Boards) through the UIC + pUIC substrate.
-- **Done looks like:** pUIC dual-track live (model-based + LLM-based); measurable retention/engagement lift; the substrate visibly powering ≥1 anticipation product surface.
+## Keystone 1 — Land the team-design charter
+The central career thread. Dylan is designing a charter with James owning a coherent three-pillar capability — Retrieval Modeling / Anticipation Foundations / CG Core & Frontier-AI (Reflex) — as a manager-of-managers across ~2 EMs (~27 people). Direction validated; scope coherence, not headcount, is the game.
+- **Commit:** deliver the inputs — restructure Pillar 3 so it coheres, complete the unity-gulp / unity-board ownership research (Zisis split), get the input artifact to Dylan.
+- **Influence** (Dylan decides; forcing function: input artifact to her early Q3): charter agreed and stood up.
 
-## 3. UPP Retrieval
-Must-win landed (3/30); Notif +200k WAU. P2P cross-surface pretraining is the load-bearing open item and is stuck; Kurchi is actively blocking. Under the new charter, James owns retrieval + anticipation; Dhruvil owns foundations + ranking.
-- **Done looks like:** P2P path unblocked or a clear alternative landed; retrieval platform cleanly owned inside the new charter; ≥1 surface beyond HF/Notif with measurable results.
+## Keystone 2 — Staff the charter (two strong EMs)
+The hinge dependency: this is what gives the maintain-trajectory goals owners other than me.
+- **Commit:** place two strong EMs under Pillars 1 & 2 (Ali Rahmati landing + one more).
+- **Influence** (forcing function: make the headcount case to Dylan before the freeze tightens; pre-position the backfill the day Bella resigns): Sophia + Bella backfill reqs survive the freeze.
 
-## 4. Reflex / AI-core
+## Keystone 3 — Build independent advocates (the Krishna fix)
+Scope without advocates is the packet that gets rejected. Presence (below) is behavior; this is advocates.
+- **Commit:** by EOY, two named senior leaders outside Dylan's org who can **independently articulate, in their own words, what I own** — targets: **Jiajing** (ATG) and **Faisal / Bo** (Signals); Jeff a third. Forcing function: first substantive scope conversation with each by end of Q3 (OOO until end-June).
+
+## Maintain trajectory (rebuild year — protect/maintain, conditional on Keystone 2)
+
+### Retentive Recs + Anticipation surfaces
+Feedback loop launched, hypothesis validated, blog shipped (publicly named program lead). Fused to the Anticipation surfaces (Recsplanations / Explore / Intelligent Boards) via the UIC + pUIC substrate.
+- **Commit:** ship pUIC dual-track (model-based + LLM-based) and the retention measurement.
+- **Influence** (forcing function: the measurement itself): retention/engagement lift lands this half.
+
+### UPP Retrieval — protect, don't expand
+Must-win landed (3/30); Notif +200k WAU. P2P cross-surface pretraining is stuck; Kurchi is actively blocking. Under the charter, James owns retrieval + anticipation; Dhruvil owns foundations + ranking.
+- **Commit:** land the offline P2P gain; present the P2P decision cleanly; protect the landed wins.
+- **Influence** (forcing function: present the decision to leadership): Kurchi unblocks P2P, or a clear alternative is chosen. *(Trimmed from "win expansion this half.")*
+
+### Reflex / AI-core
 A cross-org program: Dafang as overall TL, dedicated PM, four workstreams (Build / Simulate / Modeling / A2A), EPD demo to thousands, CEO-level review, James as co-architect. Pillar 3 of the charter.
 - **Done looks like:** measurable SSv2 + velocity gains; four workstreams staffed and shipping; Pinkerton federation (A2A delegation) executed; James's co-architect role legible at the altitude that matters.
 
-## 5. Build the org
-James a manager-of-managers across two EMs. Current state: Bowen / Charlie / Sophia out; Bella likely leaving (Meta); Yuke shaky as a TL; JJ's promo hard; an EM (Ali Rahmati) landing.
-- **Done looks like:** two strong EMs owning Pillars 1 & 2; Sophia + Bella backfill reqs protected (freeze risk); Yuke either grows into the TL role or is repositioned honestly; JJ's promo case resolved; James operating at system level, not the critical path.
+### People (grow the bench)
+- **Commit:** submit JJ's IC16 packet with a strong case + advocacy; make the honest call on Yuke (grow into the TL role, or reposition).
+- **Influence** (forcing function: packet submitted on cycle): JJ's committee outcome.
 
-## 6. Executive presence
-Short, decisive, option-oriented; low reactivity under pressure; trust through consistency.
-- **Done looks like:** pulled into framing conversations, not execution; fewer cold reactions; pre-alignment the norm.
+### Executive presence
+Behavior, not advocates. Short, decisive, option-oriented; low reactivity; trust through consistency.
+- **Maintain:** pulled into framing conversations, not execution; fewer cold reactions.
 
-## 7. Interview optionality
-Moderate-pace technical optionality. OpenAI engagement is live (5/27 call; trip study corpus + `llm_fundamentals` built). Not actively jumping; staying ready.
-- **Done looks like:** can pass ML-system-design + EM loops at a frontier lab; case studies + 1–2 blog posts written; periodic mock practice.
+## Interview optionality — a real branch (parallel path)
+Not a hedge. The frontier-lab EM arm of the litmus test, and a genuine parallel path: the foundational technical depth is worth building on its own, and treating it as a real branch is what makes me take it seriously. OpenAI engagement is live (5/27 call; trip study corpus + `llm_fundamentals` built).
+- **Commit:** build the foundational depth (fundamentals corpus, system design, case studies); periodic mocks; 1–2 blog posts.
+- **Influence:** frontier-lab readiness when the right opportunity appears.
 
 ## Concrete health targets (from `health.md`)
-- Urine sodium → <150; weight → 180; fasting lipid panel improving (TG <150, HDL >40). Appointment booking tracked in `health.md`.
+- Urine sodium → <150; weight → 180; fasting lipid panel improving (TG <150, HDL >40).
 
 ---
 

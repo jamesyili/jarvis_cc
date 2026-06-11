@@ -50,7 +50,7 @@ Her lean: *"react on the presentation side"* + *"end-to-end experiences are wher
 - Not asking James to chase ads-side connections
 - Not asking James to do peer-relationship salesperson work for her
 
-**9. Two-sponsor endorsement model.** Dylan referenced two-people-from-[garbled]-side as the endorsement model for James's Director case. James's read (2026-05-20): garbled transcription artifact; not a meaningful Pinterest category. **Concrete sponsorship architecture: Jia Jing (Sr. Director, ATG) primary + Faisal (VP, T&S/Signals) primary preference / Bo Zhao (Sr. Director under Faisal) fallback.** See [[project-sponsorship-architecture]] memory.
+**9. Two-sponsor endorsement model.** Dylan referenced two-people-from-[garbled]-side as the endorsement model for James's Director case. James's read (2026-05-20): garbled transcription artifact; not a meaningful Pinterest category. **Concrete sponsorship architecture: Jiajing (Sr. Director, ATG) primary + Faisal (VP, T&S/Signals) primary preference / Bo Zhao (Sr. Director under Faisal) fallback.** See [[project-sponsorship-architecture]] memory.
 
 **10. Decision-window status.** *"We don't need to make a decision now... but once we set up team charters and everything, you will be stable for a while."* Open but closing. James needs to submit input + work through stakeholder probes in the coming weeks.
 

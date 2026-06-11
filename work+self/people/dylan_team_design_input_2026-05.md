@@ -705,7 +705,7 @@ Four candidate shapes, each different in scope, team composition, energy fit, an
 **Serves Dylan's signals:** AI doubling-down (a) ✓ strongly. *"UPP is great"* ✓. Doesn't serve presentation-side lean.
 
 **Pros:** Highest leverage on the AI = (a) reading. Aligns with discretionary craft-time investment. Doesn't require absorbing UX scope. Compounds 5/16 commitment most directly.
-**Cons:** Requires Rajat/Jeff sponsorship for cross-org Reflex/Pinkerton adoption. Longer timeline (charter spans multiple orgs). Declines Dylan's offered door for presentation. Risks being read as not-taking-the-runway. Sponsorship architecture (Jia Jing + Faisal/Bo) becomes load-bearing.
+**Cons:** Requires Rajat/Jeff sponsorship for cross-org Reflex/Pinkerton adoption. Longer timeline (charter spans multiple orgs). Declines Dylan's offered door for presentation. Risks being read as not-taking-the-runway. Sponsorship architecture (Jiajing + Faisal/Bo) becomes load-bearing.
 
 ### Scenario E — James's preferred shape (sketch, 2026-05-19)
 
@@ -878,7 +878,7 @@ Three candidates from our walkthrough. The artifact would summarize each in ~50-
 |---|---|---|
 | **Option 1: Two-track within HF CG** (production + frontier under James) | Internal restructure only — production track (CG/Retrieval/LWS) and frontier track (RecGPT/Reflex/Pinkerton/Recsplanations) as sub-teams under James. Minimal external scope change. | Pros: easy to land; coherent within current scope. Cons: doesn't serve Dylan's "AI as real funded project" signal; doesn't address Yan/Tim reshape; smaller Director story. |
 | **Option 2 (RECOMMENDED): AI personalization as cross-surface capability** (Scenario E) | James owns the AI personalization stack end-to-end: CG, Anticipation, RecGPT, Recsplanations, UPP cross-surface, LWS. Daniel Liu's ML team consolidates. Recsplanations UX wedge (small surface engineering slice). AI Tooling becomes real funded sub-team (4-6 engineers). | Pros: serves Dylan's signals strongly; creates coherent Pinterest-wide capability; clean peer story with Dhruvil; enables Yan to reshape as presentation EM. Cons: requires Rajat-sign-off on AI headcount; Recsplanations surface scope is the political pressure point. |
-| **Option 3: AI acceleration as horizontal program** (Scenario D) | Reflex/Pinkerton becomes Pinterest-wide AI engineering substrate (Core-org-spanning). James owns or co-owns with Karina/Kaanon. James's CG team stays as-is or modestly expands. | Pros: highest leverage on AI; Pinterest-wide engineering culture impact. Cons: requires Jeff/Rajat-level decision; longer timeline; declines Dylan's presentation door; sponsorship architecture (Jia Jing + Faisal/Bo) becomes load-bearing immediately. |
+| **Option 3: AI acceleration as horizontal program** (Scenario D) | Reflex/Pinkerton becomes Pinterest-wide AI engineering substrate (Core-org-spanning). James owns or co-owns with Karina/Kaanon. James's CG team stays as-is or modestly expands. | Pros: highest leverage on AI; Pinterest-wide engineering culture impact. Cons: requires Jeff/Rajat-level decision; longer timeline; declines Dylan's presentation door; sponsorship architecture (Jiajing + Faisal/Bo) becomes load-bearing immediately. |
 
 ### What does the organization get? (Director value prop)
 
@@ -906,11 +906,11 @@ The two-sponsor plan James is operating against. Both are outside Dylan's direct
 
 | # | Sponsor | Role | Status / Path |
 |---|---|---|---|
-| 1 | **Jia Jing** | Sr. Director, ATG (Advanced Technology Group) | **Clear primary.** Already a natural fit — ATG ↔ recsys / GenAI / Reflex-Pinkerton alignment. Path: build through existing ATG-CG collaboration surface (RecGPT, YiPing connection). |
+| 1 | **Jiajing** | Sr. Director, ATG (Advanced Technology Group) | **Clear primary.** Already a natural fit — ATG ↔ recsys / GenAI / Reflex-Pinkerton alignment. Path: build through existing ATG-CG collaboration surface (RecGPT, YiPing connection). |
 | 2 | **Faisal** | VP, Trust & Safety + Signals (under Jeff) | **Primary preference.** Path: Qinglong (Faisal's ML delegate) as intermediate step → Faisal direct. Dylan offered to drop a line. James's planned post-vacation timing. |
 | 2 (fallback) | **Bo (Bo Zhao)** | Sr. Director under Faisal | If Faisal isn't inclined, Bo Zhao is the fallback. Existing collaboration channel via Anna K (Bo Zhao intel asks already routine per stakeholders.md). |
 
-**Implication for the team-design input:** The Jia Jing + Faisal/Bo plan is concrete enough to NAME in the input to Dylan if asked. Don't lead with it (Dylan didn't ask), but have it ready as the answer to *"how are you thinking about endorsement?"*
+**Implication for the team-design input:** The Jiajing + Faisal/Bo plan is concrete enough to NAME in the input to Dylan if asked. Don't lead with it (Dylan didn't ask), but have it ready as the answer to *"how are you thinking about endorsement?"*
 
 ### People-setup angle for the input (James's framing, 2026-05-20)
 
@@ -1011,7 +1011,7 @@ If James lands Scenario E, the rest of Dylan's org rebalances. James's concerns 
 | C | 6-10 engineers | Cross-org charter, James leads or co-leads | High — Rajat-level decision |
 | D | 8-15 engineers, Pinterest-wide | Director-altitude charter spanning Core | Highest — Jeff/CTO-level |
 
-**Strategic read:** Option A is the cleanest "make AI a real project" move. It's bounded, fits Scenario E, and Dylan has the authority to sponsor upward. Options C and D are higher-altitude but require sponsorship architecture James is still building (Jia Jing + Faisal/Bo two-sponsor plan — see Sponsorship section). **Option B is fallback if A doesn't get Rajat sign-off** — Dylan can do it unilaterally by reallocating within her org.
+**Strategic read:** Option A is the cleanest "make AI a real project" move. It's bounded, fits Scenario E, and Dylan has the authority to sponsor upward. Options C and D are higher-altitude but require sponsorship architecture James is still building (Jiajing + Faisal/Bo two-sponsor plan — see Sponsorship section). **Option B is fallback if A doesn't get Rajat sign-off** — Dylan can do it unilaterally by reallocating within her org.
 
 **Recommended ask framing:**
 *"For Reflex/Pinkerton to deliver on the AI doubling-down, we need 4-6 dedicated engineers as a sub-team with a real AI Tooling / AI-Leveraged Engineering charter. Current 0.9 FTE pulled from cycles is undersized for the strategic bet. If you can sponsor the headcount allocation, I'll deliver a Director-altitude AI engineering capability for HF and as a substrate other Core teams can adopt."*
