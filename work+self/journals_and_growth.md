@@ -340,6 +340,24 @@ The flag for *unsuccessful* sitting is when the trigger keeps re-cycling without
 
 ---
 
+### Lesson 18: The bottom of the well — the fear is "not the hero." The antidote is being enough as ordinary James, and it already lives at home.
+
+**2026-06-09→11 — The trip (HK/China). The deepest one; the root of Lessons 14–17.** Tracing the comparison engine all the way down (not managing it — going *under* it) reached bedrock.
+
+**The downward arrow:** losing an unannounced race → *"I am the failure"* (an event collapsing into an identity) → the real wound isn't failing, it's being *seen* failing → because being seen **is the oxygen** (praise = *"I feel SEEN"*; brushed off outwardly, giddy inwardly) → origin: **middle school**, among friends who were also competitors he mostly trailed, so **closeness and competition fused** — the people who could see him were the people who outranked him → bedrock: *"If I'm not the hero, I'm irrelevant. Unseen."*
+
+**The antidote was already home.** With his kids he is loved and seen as **ordinary James** — not the hero, not the title. The felt **warmth of *enough*** (the fear's head-dizziness/heart-twinge became warmth in the same heart by the end). No achievement can buy it; the kids falsify the bedrock belief every day. James found at 39, on a trip, what the engine had hidden his whole life.
+
+**Translated into structure** (same session): `goals.md` rebuilt around *build from enough, not for it* (three layers, Foundation first); `health.md` + `family.md` created as the "ordinary James" domains; Foundation reps with a **yes/no guardrail** (don't let "enough-ness" become another thing to win at — the engine in a meditation robe).
+
+**Why this is Lesson 18 and not just deepening of 17:** Lessons 14–17 operate at the level of *managing* the engine — which scoreboard, sit long enough, close somatically, discriminate the firing. Lesson 18 is the *source*: the wound the engine was built to defend. Naming the bedrock fear and locating the *lived* antidote is what makes the management lessons land at the root instead of the symptom. The shift: from "regulate the engine better" to "the engine was guarding a belief that is false, and I have living proof in my own house."
+
+**Highest-stakes corollary:** Evelyn *"reminds me a lot of myself"* — competitive, anxious about achievement, the same seedling. **James's own healing is her inheritance**; he cannot hand her an enough-ness he doesn't carry. See `family.md`.
+
+**Connections:** Lessons 14–17 (the comparison-engine series — this is their root). [[feedback-comparison-engine-positive-firing]] (the catch-and-return rep returns to *the warmth*, the felt reference found here). `goals.md` North Star + Layer I Foundation. `family.md` (the antidote, and the inheritance stakes).
+
+---
+
 ## Active Growth Edges
 
 ### 1. Speaking Under Pressure

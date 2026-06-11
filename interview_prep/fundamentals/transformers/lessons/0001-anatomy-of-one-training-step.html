@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lesson 01 · Anatomy of One Training Step</title>
+<style>
+  :root{ --ink:#1a1f29; --soft:#5b6573; --line:#e3e7ee; --bg:#fbfcfe; --card:#fff;
+         --accent:#2f6df0; --accent2:#7b3fe4; --good:#1f9d57; --bad:#d23f3f; --code:#0f1730; --codebg:#f4f6fb; }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:17px/1.7 ui-serif,Georgia,"Times New Roman",serif;}
+  .wrap{max-width:760px;margin:0 auto;padding:40px 22px 120px;}
+  .kicker{font:600 12px/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);}
+  h1{font:700 30px/1.2 ui-sans-serif,system-ui,sans-serif;margin:6px 0 8px;letter-spacing:-.01em;}
+  h2{font:700 21px/1.3 ui-sans-serif,system-ui,sans-serif;margin:38px 0 8px;letter-spacing:-.01em;}
+  h3{font:700 16px/1.3 ui-sans-serif,system-ui,sans-serif;margin:24px 0 4px;}
+  p{margin:12px 0;} a{color:var(--accent);text-decoration:none;border-bottom:1px solid #cdd9f7;}
+  a:hover{border-color:var(--accent);}
+  .mission{background:#f3f1fc;border:1px solid #e2dbf8;border-left:4px solid var(--accent2);border-radius:10px;
+    padding:12px 16px;margin:18px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;color:#3a3357;}
+  .mission b{color:#2a2247;}
+  .lead{font-size:19px;color:#2a313d;}
+  .step{display:flex;gap:14px;align-items:flex-start;margin:18px 0;padding:14px 16px;background:var(--card);
+    border:1px solid var(--line);border-radius:12px;box-shadow:0 1px 2px rgba(20,30,60,.03);}
+  .step .n{flex:0 0 34px;height:34px;border-radius:50%;background:var(--accent);color:#fff;
+    font:700 16px/34px ui-sans-serif,system-ui,sans-serif;text-align:center;}
+  .step .n.b2{background:var(--accent2);} .step .n.b3{background:var(--good);} .step .n.b4{background:#e0820a;}
+  .step h3{margin:0 0 2px;} .step p{margin:4px 0 0;font-size:15.5px;}
+  .eq{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--codebg);border:1px solid var(--line);
+    border-radius:8px;padding:10px 12px;margin:12px 0;font-size:14.5px;color:var(--code);white-space:pre-wrap;overflow-x:auto;}
+  pre{background:#0f1730;color:#d7e0f5;border-radius:10px;padding:16px;overflow-x:auto;font-size:13.5px;line-height:1.65;
+    font-family:ui-monospace,Menlo,Consolas,monospace;margin:14px 0;}
+  pre .c{color:#7f8bb0;} pre .k{color:#c792ea;} pre .s{color:#89dda0;} pre .f{color:#82aaff;}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--codebg);border:1px solid var(--line);
+    border-radius:5px;padding:1px 5px;font-size:13.5px;color:#28406e;}
+  .note{background:#eef4ff;border:1px solid #d6e3ff;border-radius:10px;padding:12px 16px;margin:16px 0;
+    font:15px/1.6 ui-sans-serif,system-ui,sans-serif;color:#28406e;}
+  .recsys{background:#eafaf1;border:1px solid #c7ecd5;border-left:4px solid var(--good);}
+  .recsys b{color:#15683a;}
+  .callout{background:#fff8ec;border:1px solid #f5e3bf;border-left:4px solid #e0820a;border-radius:10px;padding:12px 16px;margin:16px 0;
+    font:15px/1.6 ui-sans-serif,system-ui,sans-serif;color:#6b4a12;}
+  .quiz{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0;}
+  .quiz .q{font:600 16px/1.5 ui-sans-serif,system-ui,sans-serif;margin-bottom:10px;}
+  .opt{display:block;width:100%;text-align:left;font:15px/1.5 ui-sans-serif,system-ui,sans-serif;
+    background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:7px 0;cursor:pointer;transition:.12s;}
+  .opt:hover{border-color:var(--accent);background:#f7faff;}
+  .opt.correct{border-color:var(--good);background:#eafaf1;color:#15683a;}
+  .opt.wrong{border-color:var(--bad);background:#fdecec;color:#a32424;}
+  .fb{display:none;margin-top:8px;font:14.5px/1.6 ui-sans-serif,system-ui,sans-serif;padding:10px 12px;border-radius:8px;}
+  .fb.show{display:block;} .fb.ok{background:#eafaf1;color:#15683a;} .fb.no{background:#fdecec;color:#a32424;}
+  .cite{font:13px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--soft);}
+  sup a{border:none;color:var(--accent);font-weight:600;}
+  hr{border:0;border-top:1px solid var(--line);margin:30px 0;}
+  .foot{font:14px/1.6 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin-top:40px;}
+  .progress{font:13px/1 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin-top:6px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="kicker">Transformers · Lesson 01 · Track A (train from scratch)</div>
+<h1>Anatomy of one training step</h1>
+<p class="lead">You already know the forward pass cold. This lesson teaches the <i>other half</i>: the four things that happen in a single training step — the part that actually changes the weights.</p>
+
+<div class="mission">
+  <b>Why this lesson (mission tie-in):</b> "Train one from scratch" and "debug training" both reduce to: <i>what happens in one step, and why</i>. Get this and nanoGPT's <code>train.py</code> becomes readable, the debugging recipe makes sense, and CFM/TransAct training is just this loop with a different loss.
+</div>
+
+<h2>The one idea</h2>
+<p>Training is a loop. Each pass through the loop is <b>one step</b>, and one step is exactly four sub-steps. The forward pass — everything you already understand about attention, heads, blocks — is only the <i>first</i> of the four.</p>
+
+<div class="step"><div class="n">1</div><div>
+  <h3>Forward — turn inputs into a loss</h3>
+  <p>Run the batch through the model to get <b>logits</b> (scores over the vocabulary at every position), then collapse "how wrong were we?" into a single number, the <b>loss</b>. This is the only sub-step you've seen so far.</p>
+</div></div>
+
+<div class="step"><div class="n b2">2</div><div>
+  <h3>Backward — ask every weight "how did you contribute to the loss?"</h3>
+  <p>Autograd walks the computation graph in reverse and fills a gradient <code>∂loss/∂θ</code> for every parameter <code>θ</code>. The gradient is the direction that would <i>increase</i> the loss fastest.</p>
+</div></div>
+
+<div class="step"><div class="n b3">3</div><div>
+  <h3>Update — step every weight downhill</h3>
+  <p>The optimizer nudges each weight a little in the <i>opposite</i> direction of its gradient. After the step, the model is microscopically better at this batch.</p>
+</div></div>
+
+<div class="step"><div class="n b4">4</div><div>
+  <h3>Reset — clear the gradients</h3>
+  <p>Gradients accumulate by default, so you zero them before the next step. Forgetting this is one of the most common training bugs (you'd be summing gradients across steps).</p>
+</div></div>
+
+<h2>Sub-step 1, precisely: the loss</h2>
+<p>For next-token prediction the loss is <b>cross-entropy</b>. At one position, the model outputs logits → softmax turns them into a probability distribution <code>p</code> over the vocabulary; the loss is the negative log-probability it assigned to the <i>actual</i> next token:</p>
+<div class="eq">p = softmax(logits)
+loss = −log p[correct token]          # one position
+total = mean over all positions       # teacher forcing: every position scored at once</div>
+<p><b>Teacher forcing</b> is why training is fast: you feed the whole true sequence in, the causal mask stops each position from cheating, and you compute the loss at <i>every</i> position in one forward pass.<sup><a href="https://nlp.seas.harvard.edu/annotated-transformer/">1</a></sup></p>
+
+<div class="note">
+  <b>The sanity check that opens the debugging track.</b> Before training, the weights are random, so the model is roughly uniform: <code>p ≈ 1/V</code> for vocab size <code>V</code>. So the <i>initial</i> loss should be about <code>−log(1/V) = log V</code>. For GPT-2's <code>V = 50257</code>, that's <code>≈ 10.82</code>. If your untrained model doesn't start near <code>log V</code>, something is wrong before you've trained at all — this is the first check in Karpathy's recipe.<sup><a href="http://karpathy.github.io/2019/04/25/recipe/">2</a></sup>
+</div>
+
+<h2>Sub-steps 2–3, precisely: gradient and update</h2>
+<p>There's one beautiful result worth carrying: for softmax + cross-entropy, the gradient of the loss with respect to the logits is just</p>
+<div class="eq">∂loss/∂logits = p − y        # predicted distribution minus the one-hot truth</div>
+<p>If the model already puts all mass on the right token, <code>p − y = 0</code> → no gradient → no update. The more wrong it is, the bigger the push. Backprop chains this signal back through the unembedding, the blocks, the attention, all the way to the embeddings.</p>
+<p>The optimizer (almost always <b>AdamW</b> for transformers) then updates each weight using a smoothed estimate of the gradient and its variance:</p>
+<div class="eq">m ← β₁·m + (1−β₁)·g                 # running mean of the gradient
+v ← β₂·v + (1−β₂)·g²                # running mean of its square
+θ ← θ − lr · m̂ / (√v̂ + ε)          # (m̂, v̂ are bias-corrected)</div>
+<p>You don't need to memorize this yet (it's Lesson 03), only to see that <b>step 3 is where weights move</b>, governed by the <b>learning rate</b> <code>lr</code>.</p>
+
+<h2>All four steps, in real code</h2>
+<p>This is the heart of nanoGPT's training loop — the whole thing is ~300 lines, but the part that <i>is</i> a training step is just this:<sup><a href="https://github.com/karpathy/nanoGPT">3</a></sup></p>
+<pre><span class="c"># x: [B, T] input tokens   y: [B, T] = x shifted left by one (the targets)</span>
+<span class="k">for</span> step <span class="k">in</span> range(max_steps):
+    x, y   = get_batch(<span class="s">"train"</span>)            <span class="c"># a batch of B sequences, length T</span>
+    logits = model(x)                       <span class="c"># ① FORWARD → [B, T, V]</span>
+    loss   = F.cross_entropy(               <span class="c"># ① collapse to one number</span>
+                 logits.view(-<span class="s">1</span>, logits.size(-<span class="s">1</span>)),  <span class="c"># [B*T, V]</span>
+                 y.view(-<span class="s">1</span>))                          <span class="c"># [B*T]  mean −log p(correct)</span>
+    opt.zero_grad(set_to_none=<span class="k">True</span>)         <span class="c"># ④ RESET last step's grads</span>
+    loss.backward()                         <span class="c"># ② BACKWARD → fills every .grad</span>
+    opt.step()                              <span class="c"># ③ UPDATE → AdamW moves the weights</span></pre>
+<p>That's it. Everything else in a real trainer — data loading, mixed precision, checkpoints, evaluation, LR schedules — wraps around these four lines. Karpathy's <a href="https://www.youtube.com/watch?v=kCc8FmEb1nY">"Let's build GPT"</a> builds exactly this from an empty file.<sup><a href="https://www.youtube.com/watch?v=kCc8FmEb1nY">4</a></sup></p>
+
+<div class="note recsys">
+  <b>Connection to your world (recsys).</b> Training a recommender is <i>the same four steps</i> — forward, loss, backward, update. Only <b>sub-step 1's loss</b> changes:
+  <ul style="margin:6px 0 0;">
+    <li><b>Next-item (SASRec, the FM):</b> still cross-entropy over "next token" — but the vocabulary is the <i>item catalog</i> (millions). A full softmax is infeasible, so you swap in <b>sampled softmax / in-batch negatives</b> (Lesson 07). Forward + backward + AdamW are untouched.</li>
+    <li><b>Ranking (TransAct v2, CFM):</b> the loss becomes <b>BCE</b> over engagement heads <i>plus</i> a future-action loss — but it's still "compute a loss, <code>loss.backward()</code>, <code>opt.step()</code>" (Lesson 08).</li>
+  </ul>
+  So when you pressure-test a CFM training choice, you're almost always reasoning about <i>sub-step 1</i> (the loss / negatives) — the other three are the same machine.
+</div>
+
+<h2>Check yourself</h2>
+<p class="cite">Immediate feedback. Pick an answer; the explanation appears.</p>
+
+<div class="quiz" id="quiz">
+  <div class="q">1. An <i>untrained</i> GPT with vocabulary size V = 50257. What should its cross-entropy loss be on the first batch, roughly?</div>
+  <button class="opt" data-q="0" data-ok="0">≈ 0 — it hasn't learned anything, so no loss</button>
+  <button class="opt" data-q="0" data-ok="1">≈ 10.8 — about log(V), because it's guessing uniformly</button>
+  <button class="opt" data-q="0" data-ok="0">≈ 50257 — one unit of loss per vocabulary item</button>
+  <button class="opt" data-q="0" data-ok="0">Unpredictable — depends entirely on the random seed</button>
+  <div class="fb" data-fb="0"></div>
+
+  <div class="q" style="margin-top:18px;">2. For softmax + cross-entropy, the gradient of the loss w.r.t. the logits is:</div>
+  <button class="opt" data-q="1" data-ok="1"><code>p − y</code> — predicted distribution minus the one-hot truth</button>
+  <button class="opt" data-q="1" data-ok="0"><code>−log p</code> — the loss itself</button>
+  <button class="opt" data-q="1" data-ok="0"><code>p · y</code> — predicted times truth</button>
+  <button class="opt" data-q="1" data-ok="0">Always 1 — cross-entropy has constant gradient</button>
+  <div class="fb" data-fb="1"></div>
+
+  <div class="q" style="margin-top:18px;">3. Which single line in the loop actually changes the model's weights?</div>
+  <button class="opt" data-q="2" data-ok="0"><code>loss.backward()</code></button>
+  <button class="opt" data-q="2" data-ok="1"><code>opt.step()</code></button>
+  <button class="opt" data-q="2" data-ok="0"><code>F.cross_entropy(...)</code></button>
+  <button class="opt" data-q="2" data-ok="0"><code>opt.zero_grad()</code></button>
+  <div class="fb" data-fb="2"></div>
+
+  <div class="q" style="margin-top:18px;">4. Why can't you train a next-item recommender with plain cross-entropy over the full catalog?</div>
+  <button class="opt" data-q="3" data-ok="0">Cross-entropy only works for text, not items</button>
+  <button class="opt" data-q="3" data-ok="1">A softmax over millions of items per step is computationally infeasible — hence sampled softmax / in-batch negatives</button>
+  <button class="opt" data-q="3" data-ok="0">Items don't have a "correct next" label</button>
+  <button class="opt" data-q="3" data-ok="0">You can — it's exactly the same cost as for text</button>
+  <div class="fb" data-fb="3"></div>
+
+  <div class="progress" id="progress">0 / 4 answered</div>
+</div>
+
+<div class="callout">
+  <b>Now reason it out loud (reply to me — your teacher).</b> In the loop, what concretely goes wrong if you <i>delete</i> <code>opt.zero_grad()</code>? Predict the failure mode, then send me your answer and I'll tell you if you've got it — and we'll use it to kick off the debugging track (L05). Tighter feedback than any quiz: I'll push on exactly where your model of it is fuzzy.
+</div>
+
+<hr>
+<p class="foot">
+  <b>Lesson 01 of an open sequence.</b> Next up (your pick): <b>L02</b> the full loop + data, or jump to <b>L07</b> next-item training (closest to CFM/TransAct). · This is a teaching workspace — ask me anything that's unclear; I'm your teacher, not just the author.<br><br>
+  <span class="cite"><b>Sources:</b>
+  [1] <a href="https://nlp.seas.harvard.edu/annotated-transformer/">The Annotated Transformer (Harvard NLP)</a> ·
+  [2] <a href="http://karpathy.github.io/2019/04/25/recipe/">Karpathy, "A Recipe for Training Neural Networks"</a> ·
+  [3] <a href="https://github.com/karpathy/nanoGPT">karpathy/nanoGPT</a> ·
+  [4] <a href="https://www.youtube.com/watch?v=kCc8FmEb1nY">Karpathy, "Let's build GPT, from scratch, in code"</a> ·
+  also <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need (2017)</a>, <a href="https://d2l.ai/chapter_attention-mechanisms-and-transformers/index.html">d2l.ai</a></span>
+</p>
+
+</div>
+
+<script>
+(function(){
+  var answered = {};
+  var explains = {
+    0:{ok:"Right. Random weights ≈ uniform output, p≈1/V, so loss ≈ −log(1/V) = log(50257) ≈ 10.82. This is your first debugging check: if an untrained model doesn't start near log V, the bug is in init/data/loss wiring, not in training.",
+        no:"Not quite. Untrained ≠ zero loss — a random model is uniform: p≈1/V, so loss ≈ −log(1/V) = log V ≈ 10.8 for V=50257. (Zero loss means perfect; 50257 confuses count with log-prob.)"},
+    1:{ok:"Exactly — the famously clean result. Gradient = p − y. Zero when prediction matches truth, largest when confidently wrong. This is what backprop pushes back through the network.",
+        no:"No — that's a different quantity. The elegant fact is ∂loss/∂logits = p − y (prediction minus one-hot truth): zero when correct, large when confidently wrong. −log p is the loss, not its gradient."},
+    2:{ok:"Correct. backward() only computes and stores gradients; opt.step() is what moves the weights. (zero_grad clears them; cross_entropy computes the loss.)",
+        no:"Close but no — backward() computes gradients but doesn't move anything; cross_entropy just computes the loss; zero_grad clears grads. opt.step() is the line that actually updates the weights."},
+    3:{ok:"Yes. The math is identical, but the denominator of the softmax sums over the entire catalog (millions). That per-step cost is the problem → sampled softmax / in-batch negatives approximate it. We'll build this in L07.",
+        no:"Not the reason. Cross-entropy works fine for items and items do have a 'next' label — the issue is purely cost: a softmax normalized over millions of catalog items every step is infeasible, so you sample negatives instead."}
+  };
+  document.querySelectorAll('.opt').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var q = btn.getAttribute('data-q');
+      var ok = btn.getAttribute('data-ok') === '1';
+      // lock this question's buttons
+      document.querySelectorAll('.opt[data-q="'+q+'"]').forEach(function(b){
+        b.disabled = true; b.style.cursor='default';
+        if(b.getAttribute('data-ok')==='1') b.classList.add('correct');
+      });
+      if(!ok) btn.classList.add('wrong');
+      var fb = document.querySelector('.fb[data-fb="'+q+'"]');
+      fb.textContent = ok ? explains[q].ok : explains[q].no;
+      fb.className = 'fb show ' + (ok ? 'ok' : 'no');
+      answered[q] = true;
+      var n = Object.keys(answered).length;
+      document.getElementById('progress').textContent = n + ' / 4 answered' + (n===4 ? ' — done. Reply with the zero_grad() question above.' : '');
+    });
+  });
+})();
+</script>
+</body>
+</html>
