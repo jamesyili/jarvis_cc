@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ML Job Interviews: The Ultimate Guide – Silvia Sapora</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --text: #1a1a1a;
+      --muted: #666;
+      --accent: #b5451b;
+      --border: #e2e2e2;
+      --bg: #fff;
+      --sidebar-width: 220px;
+      --content-max: 680px;
+    }
+
+    html { font-size: 16px; scroll-behavior: smooth; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+
+    /* ── TOP NAV ── */
+    nav {
+      padding: 1.1rem 2rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    nav a:hover { color: var(--accent); }
+    nav .home { font-weight: 600; margin-right: auto; }
+
+    /* ── PAGE SHELL ── */
+    .page {
+      display: flex;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 3rem 2rem 6rem;
+      gap: 3.5rem;
+      align-items: flex-start;
+    }
+
+    /* ── SIDEBAR TOC ── */
+    .toc {
+      width: var(--sidebar-width);
+      flex-shrink: 0;
+      position: sticky;
+      top: 2rem;
+      font-size: 0.8rem;
+      line-height: 1.5;
+    }
+    .toc-title {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    .toc ul { list-style: none; }
+    .toc li { margin-bottom: 0.1rem; }
+    .toc a {
+      color: var(--muted);
+      text-decoration: none;
+      display: block;
+      padding: 0.25rem 0.5rem;
+      border-left: 2px solid transparent;
+      border-radius: 0 3px 3px 0;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .toc a:hover { color: var(--text); border-left-color: var(--border); }
+    .toc a.active { color: var(--accent); border-left-color: var(--accent); font-weight: 600; }
+    .toc .toc-sub { padding-left: 1rem; }
+
+    /* ── MAIN CONTENT ── */
+    article {
+      max-width: var(--content-max);
+      min-width: 0;
+      flex: 1;
+    }
+
+    .post-eyebrow {
+      font-size: 0.78rem;
+      color: var(--muted);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+
+    h1.post-title {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1.25;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+    }
+
+    .post-meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-top: 3rem;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.01em;
+      scroll-margin-top: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-top: 1.75rem;
+      margin-bottom: 0.4rem;
+      scroll-margin-top: 1.5rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    ul, ol {
+      padding-left: 1.4rem;
+      margin-bottom: 1rem;
+    }
+    li { margin-bottom: 0.35rem; }
+
+    /* footnote */
+    .footnote {
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-left: 3px solid var(--border);
+      padding: 0.5rem 0.75rem;
+      margin: 1rem 0 1.25rem;
+      font-style: italic;
+    }
+
+    /* callout box */
+    .callout {
+      background: #fdf6f3;
+      border-left: 3px solid var(--accent);
+      padding: 0.75rem 1rem;
+      margin: 1.25rem 0;
+      font-size: 0.9rem;
+    }
+    .callout strong { color: var(--accent); }
+
+    /* topic list grid */
+    .topic-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin: 1.25rem 0;
+    }
+    .topic-col h4 {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+    .topic-col ul {
+      padding-left: 1rem;
+      font-size: 0.85rem;
+    }
+    .topic-col li { margin-bottom: 0.2rem; }
+    .topic-col li strong { color: var(--accent); font-weight: 600; }
+
+    /* section divider */
+    hr.section-break {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5rem 0;
+    }
+
+    /* mobile */
+    @media (max-width: 740px) {
+      .toc { display: none; }
+      .page { padding: 1.5rem 1rem 4rem; }
+      h1.post-title { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="https://silviasapora.github.io/" class="home">Silvia Sapora</a>
+  <a href="https://silviasapora.github.io/">Home</a>
+  <a href="#">Blog</a>
+</nav>
+
+<div class="page">
+
+  <!-- SIDEBAR TOC -->
+  <aside class="toc" aria-label="Table of contents">
+    <p class="toc-title">Contents</p>
+    <ul>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#getting-interviews">Getting Interviews</a></li>
+      <li><a href="#companies">Startups vs Big Tech</a>
+        <ul>
+          <li><a href="#compensation" class="toc-sub">RSUs vs Stock Options</a></li>
+        </ul>
+      </li>
+      <li><a href="#interview-structure">Interview Structure</a></li>
+      <li><a href="#prep-technical">Prep: Technical</a></li>
+      <li><a href="#prep-emotional">Prep: Emotional</a></li>
+      <li><a href="#prep-logistics">Prep: Logistics</a></li>
+      <li><a href="#negotiation">Negotiation</a></li>
+      <li><a href="#decision">Decision Making</a></li>
+      <li><a href="#differently">What I'd Do Differently</a></li>
+      <li><a href="#topics">Technical Topics</a></li>
+    </ul>
+  </aside>
+
+  <!-- ARTICLE -->
+  <article>
+    <p class="post-eyebrow">Career · June 2026</p>
+    <h1 class="post-title">ML Job Interviews: The Ultimate Guide</h1>
+    <p class="post-meta">How I found a Research Scientist role after a PhD in Machine Learning</p>
+    
+    <!-- INTRO -->
+    <section id="intro">
+      <p>I thought it might be helpful to write about my experience finding a job as a Research Scientist after a PhD in Machine Learning. There's <a href="https://gordicaleksa.medium.com/how-i-got-a-job-at-deepmind-as-a-research-engineer-without-a-machine-learning-degree-1a45f2a781de">almost</a> zero information out there on this, and I wish someone had written it when I was starting out. I hope this is useful whether you're in the thick of it or just thinking about getting started.</p>
+
+      <p>My process was, overall, successful: I received offers from every company I completed interviews with including: DeepMind (which I accepted), Isomorphic Labs, Cohere, Meta, and a startup in stealth. A few caveats to the first claim: Anthropic, Mistral, and TeslaAI got back to me too late and I didn't complete those processes. ReflectionAI, the one genuine rejection: they didn't like me for the RS role but switched me to their Engineering track instead.</p>
+
+      Most companies I applied to invited me for interviews, with the exception of: SpaceXAI, Waymo and Wayve. For SpaceXAI, I did let a friend write my application as a joke, but I didn't think it was that bad. For Waymo and Wayve: I love self-driving cars. I applied to Waymo every six months throughout my PhD (internships, then full-time) and never heard back once, despite people in my own lab getting replies. Waymo, if you're reading this, I'm open to forgiveness. My <s>love</s> cover letters were works of art. You can reach me at the email you already have on file, multiple times.
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- GETTING INTERVIEWS -->
+    <section id="getting-interviews">
+      <h2>Getting Interviews</h2>
+      <p>Getting interviews is its own challenge, and if you're struggling with it, the levers are the usual ones: more papers, trendier topics, and better internships. You can look at my CV on my website for reference, but briefly: I had 4 first-author (or co-first) papers from my PhD, published at ICLR / NeurIPS / ICML, covering a mix of trendy topics (LLMs, RL) and less fashionable ones (Meta-Learning, Evolution Strategies). I also had an internship at Apple and prior industry experience as a Software Engineer at Meta. If I had to give a rough benchmark: 3+ first-author papers and at least one internship or industry role seems to be the threshold for consistently getting callbacks at top labs.</p>
+
+      <p>That said, if you're already getting interviews: more papers will not help you at this point. You need to pass the interviews, and often the people interviewing you won't even look at your CV. So, stop focusing on your research and your papers, and start focusing on interview prep! I understand the feeling of wanting to postpone, but you are never going to feel ready, so just start prepping <strong>now</strong>.</p>
+
+      <h3>A few other details worth knowing: cover letters, referrals, cold emails, and LinkedIn/X.</h3>
+
+      <p><strong>LinkedIn / X:</strong> A lot of companies advertise roles here, and for internships in particular it's sometimes the only way to apply. You have to fill out a Google form linked from the post for your application to actually count. Follow the people you admire at the companies you're interested in so you don't miss these.</p>
+
+      <p><strong>Referrals:</strong> Nice to have, but not necessary. At DeepMind I had a referral for two roles and none for a third, I got invited to interview for one referred role and the unreferred one. At Anthropic, I heard nothing until I discovered an ex-collegue of mine had recently joined and asked him to put in a referral for me. So, worth getting if you can, but don't let the absence of one stop you from applying.</p>
+
+      <p><strong>Cold emails:</strong> Emailing the hiring manager or someone on the team directly (if you know who they are) is often appreciated. Don't just repeat your CV (you can attach it), use the email to explain why you'd be a good fit for that specific team and what genuinely excites you about their work. For this: at Deepmind I emailed my Hiring Manager, he was happy about it and replied. For another role, I saw the Hiring Manager explicitly encourage people to email him on X… but I could just not be bothered, since I was already going through interviews with the other team. I ended up getting an interview with them despite not sending the email.</p>
+
+      <p><strong>Cover letters:</strong> Rarely required, but worth doing properly when they are. Please, for the love of everything I hold dear, do not just ask Claude / Gemini / ChatGPT to write it for you. You can absolutely write it yourself and then ask one of them to polish it, that's fine. But try to make some of your personality and excitement shine through.</p>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- COMPANIES -->
+    <section id="companies">
+      <h2>Companies: Startups vs Big Tech</h2>
+      <p>The summary is: it depends, more than any generic pros/cons list I can write will tell you. But here are the main factors to consider.</p>
+
+      <p><strong>Finding startups is harder.</strong> There's no central place to look. Ask your labmates, friends, and former colleagues... Word of mouth is the best way to find good ones in your area of research. At the same time, because they are harder to find, competition is generally less fierce for these positions.</p>
+
+      <p><strong>Interview processes vary more at startups.</strong> Big tech follows a fairly predictable structure, while startups do their own thing. The difficulty level is comparable on average, but variance is high. Pay attention to what the interview process tells you about the company: if it feels too easy, that might be a signal about the complexity of the work you'd actually be doing. As with the interviews, I think there's simply more variance in the quality of work and people at startups compared to big tech.</p>
+
+      <p><strong>The work itself can go either way.</strong> At the right startup, the research might be more interesting and more impactful than anything you'd work on at a big lab. But it can also come with more pressure, more engineering and infrastructure work you didn't sign up for, and a research agenda that shifts often. Ask questions in interviews! Who decides research priorities? What is the path to profitability? Who are the competitors? What if OpenAI wakes up tomorrow and decides to do the same thing?</p>
+
+      <p><strong>Room for growth.</strong> Startups generally offer more opportunity to grow quickly, take on responsibility, and shape the direction of the work. At a big lab you're one of many, at a startup you're much more visible. This can be a big deal (I know it was for me).</p>
+
+      <p><strong>CV matters.</strong> OpenAI or Anthropic on your CV is immediately recognised by anyone. A stealth startup nobody has heard of requires explanation. That's not a reason to avoid startups (and if you're a founder type, then it's completely different) but it's worth factoring in, honestly.</p>
+
+      <p><strong>On "security":</strong> I'm not going to make that argument. Big tech has done mass layoffs without blinking many times over the past years, neither path is 100% safe.</p>
+
+      <h3 id="compensation">A note on compensation: RSUs vs stock options</h3>
+      <p>This took me an embarrassingly long time to understand, so I'll try to save you the confusion. I'm speaking to UK law and taxation here.</p>
+
+      <p>With <strong>RSUs</strong> (typical at big tech), you receive actual shares in the company on a vesting schedule. When they vest, you can sell them or hold them. About half get sold immediately to cover income tax (because yes, to the absolute shock of 23-year-old me getting her first Meta shares... RSUs count as income).</p>
+
+      <p>With <strong>stock options</strong> (typical at startups), you're not getting shares. You're getting the <em>opportunity</em> to buy shares at a fixed price X, regardless of what the market price Y is at the time. If Y &gt; X, great! You can exercise your option, buy at X, sell at Y, and pocket the difference. If Y &lt; X, your options are worthless.</p>
+
+      <p>Here's where it gets wild. Stock options typically expire 90 days after you leave the company. If the company isn't publicly traded yet, you can't sell your shares after buying them, meaning you might have to spend (X &times; options) in cash to exercise (=use) them, with no guarantee you'll ever be able to sell. And in the UK, the moment you exercise your options, you owe income tax on the Y−X difference <em>even if you haven't sold a single share and haven't seen a penny of that money yet.</em></p>
+
+      <p>So if you leave a startup after two years of working there, exercise your options, and the company isn't yet public, you would have to pay for: the cost to buy the shares (X &times; options) <em>plus</em> income tax on the paper gain ((Y−X) &times; options &times; your tax rate). Before you've made anything.</p>
+
+      <p>A few caveats: most companies offer a cashless exercise option, where you hand back some options to cover the cost of exercising the rest. Many also have liquidity events where they buy back some stock. But remember: each new funding round dilutes your shares, and any gains beyond the income-tax-liable portion get hit with capital gains tax (~20%) on top. Liquidity events typically value your stock below the official company valuation too.</p>
+
+      <div class="callout"><strong>Summary:</strong> when a recruiter quotes you a total compensation number that includes startup equity, smile politely and mentally discount it significantly. Most likely scenario: you are not retiring next year. But I wish you the best of luck.</div>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- INTERVIEW STRUCTURE -->
+    <section id="interview-structure">
+      <h2>Interview Structure</h2>
+      <p>Most companies follow roughly the same structure, though the weight given to each stage varies a lot.</p>
+
+      <p><strong>Recruiter screen.</strong> This is usually just a chill, low stakes chat. It's an opportunity to show your skills are relevant to the job, and that you actually know and can talk about the papers you are an author of</p>
+
+      <p><strong>Technical interviews.</strong> This is the bulk of the process and where preparation matters the most. Expect 3-8 of these interviews depending on the company:</p>
+      <ul>
+        <li><em>Coding.</em> LeetCode-style problems, typically Medium or Hard difficulty</li>
+        <li><em>ML coding and debugging.</em> Implementing attention, writing backward passes, spotting bugs in training loops</li>
+        <li><em>ML knowledge.</em> Fundamentals, theory, applied ML, system design</li>
+      </ul>
+
+      <p><strong>Behavioural interviews.</strong> They split into two flavours, classic behavioural questions (“tell me about a time you had a conflict”, "tell me a time you received feedback"...), research-style interviews ("what topics are you interested in?", "where do you see the field going?"). These are more casual compared to the technical interviews, but make sure to not underestimate these interviews and reflect on / prepare your answers. </p>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- PREP TECHNICAL -->
+    <section id="prep-technical">
+      <h2>How I Prepared: Technical</h2>
+
+      <div class="callout"><strong>This is the key part! Don't skip this.</strong>  I know extremely impressive researchers who were rejected in interviews simply because they didn't prepare. Working with ML day in and day out is not the same as being ready to implement attention from scratch, derive the backward pass, or code flash attention. Allocate <strong>at least</strong> a month of regular study time.</div>
+
+      <p><strong>One meta-strategy that helped me:</strong> I did little generic prep. Almost everything was targeted at the next specific interview or company. This kept me focused and meant the material l was asked about was fresh on my mind (essential for a goldfish like me). By the end, you'll have covered most of the material anyway. But I know people that prefer to adopt different strategies, so do whatever works for you!</p>
+
+      <p>By the end of my interview journey I'd built up a pretty comprehensive directory of resources and strategies, which I'll share below. I know, it's a lot. But the reality of ML Research Scientist / Engineer interviews is that you can be asked almost anything, from basic concepts like overfitting, to LeetCode, to implementing a transformer from scratch, to specific questions about fairly modern architectures (Griffin, TransformerXL, S4). The list reflects that range.</p>
+
+      <h3>Flashcards</h3>
+      <p>For ML fundamentals, applied ML, and research discussions. I tried Anki first and didn't get on with it, physical flashcards worked much better for me. More importantly, <strong>writing your own cards is half the learning</strong>, don't just download someone else's deck. I'll link my full topic list at the end if you want a starting point. When reviewing, be curious: ask yourself questions and make sure you deeply understand each topic. Multiple times while studying, I asked myself questions I was later asked in interviews. Better to solve doubts beforehand!</p>
+
+      <h3>LLM mock interviews (Claude / Gemini)</h3>
+      <p>Before each interview, I'd paste a description of the role, interview and company into my favourite LLM for the day (usually Claude) and ask it to interview me. There was surprisingly frequent overlap between those practice questions and what interviewers actually asked. I'd recommend doing this for every interview. If the difficulty feels off, start a new chat and specify your level and background more explicitly. I think Claude was the best LLM for learning, and I thought its feedback was generally fair, Gemini was a bit too flattering (“they are lucky to be interviewing you” ~ cit Gemini).</p>
+
+      <h3>LeetCode / NeetCode</h3>
+      <p>Do at least Blind 75 and optionally NeetCode 150, focusing on Mediums. Try to get the optimal solution for each question, an O(N²) solution for TwoSum doesn’t count as a solution. Don't spend much time on Hards. If you haven't done LeetCode before: it will feel awful at first, you'll feel stupid, that's normal and it passes. By question 100 you'll feel much more confident. Just make sure to know the basic patterns (DFS, BFS, Graphs, Backtracking, DP, Binary Search...) and make sure you can implement them confidently and very quickly. Target 20 minutes or less per Medium. If you're stuck for more than 15 minutes, look up the solution, understand it, flag it for review, and move on. <strong>Breadth matters more than depth here!</strong> I did around 150 Mediums total</p>
+
+      <h3>Books</h3>
+      <ul>
+        <li><em>Designing Machine Learning Systems</em> by Chip Huyen: covers a lot of the fundamentals and applied ML questions you'll encounter. Highlight and take notes.</li>
+        <li><em>The <a href="https://jax-ml.github.io/scaling-book/">JAX Scaling Book</a></em>: I found this after my interviews, unfortunately, but it's excellent and I'd have used it heavily.</li>
+        <li><em>Reinforcement Learning</em> by Sutton &amp; Barto: only if you're new to RL. I think it's overkill if you're already working in the area.</li>
+      </ul>
+
+      <h3>Courses</h3>
+      <ul>
+        <li><strong>Linear algebra:</strong> <a href="https://www.youtube.com/watch?v=7UJ4CFRGd-U&list=PLE7DDD91010BC51F8">Gilbert Strang's lectures on YouTube</a>. You can get through the whole course at 2x speed in under a day (I may be speaking from experience). He's the only reason I passed linear algebra in my undergrad. May he live another 91 years.</li>
+        <li><strong>Diffusion / Flow Matching:</strong> the <a href="https://www.youtube.com/watch?v=9eJQQVrUUoI&list=PL57nT7tSGAAXwjhDYcxEycx5W7YoSrZyt">MIT</a> and <a href="https://www.youtube.com/watch?v=tr-CUpw--ck&list=PLoROMvodv4rNdy8rt2rZ4T2xM0OjADnfu">Stanford</a> courses are both good but quite math-heavy. If you're not actively researching in this area, questions will likely be superficial, so just get a high-level intuition and memorise the basics (e.g. diffusion SDEs and flow matching ODEs).</li>
+      </ul>
+
+      <h3>ML coding and debugging</h3>
+      <p>This is where I found the fewest good resources, and where actual experience matters most. The debugging interviews were especially hard to practice, LLMs couldn't reliably generate convincingly buggy code when asked. Reviewing your own codebase (or a friend's) is probably your best bet. <a href="https://www.deep-ml.com/problems">DeepML</a> has some questions but I wasn't impressed. I also found these <a href="https://github.com/srush/Tensor-Puzzles"> Tensor Puzzles</a> quite helpful. The baseline you should aim for:</p>
+      <ul>
+        <li>Implement a transformer end-to-end</li>
+        <li>Implement causal, cross, and self attention</li>
+        <li>Implement flash attention</li>
+        <li>Implement the attention backward pass</li>
+        <li>Implement an MLP forward and backward pass</li>
+        <li>Implement a simple training loop with SGD in PyTorch or JAX</li>
+      </ul>
+      <p>If you can do all of these from scratch under time pressure, you're in good shape.</p>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- PREP EMOTIONAL -->
+    <section id="prep-emotional">
+      <h2>How I Prepared: Emotional</h2>
+      <p>I can't speak for everyone, but for me this process was where my resilience went to die. I've always handled interviews and exams well without any particular strategy... not this time.</p>
+
+      <div class="callout">If you're doing okay emotionally, skip this section. I don't want to plant anxiety where there isn't any.</div>
+
+      <h3>The practical stuff first</h3>
+      <p>My biggest problem was sleep: I couldn't sleep well the night before an interview, which becomes a serious issue when you have 10 interviews in a week. I also couldn't eat, I'd get nauseous at the sight of food before an interview. My solution was to chug litres of Coke for the sugar. I'm not claiming this is optimal, but it's the best solution I could come up with.</p>
+
+      <p>Beyond survival, I would recommend: regular exercise, a consistent evening routine, and not isolating yourself socially. Running before interviews helped me a lot, it burned off nervous energy and reset my head. (If you do this: take it easy and eat enough carbs). During the worst weeks I made a rule to have dinner with friends any evening I didn't have an interview the next morning. It helped me a lot.</p>
+
+      <h3>The pre-interview ritual</h3>
+      <p>I found a lot of comfort in having a consistent pre-interview ritual. I'd put fresh flowers in my background (I got quite a few compliments on that), do my make-up (it was relaxing to focus on something else for a while — for the guys, maybe try skincare?), and watch the same few comfort videos on YouTube. My rotation: Alysa Liu's <a href="https://www.youtube.com/watch?v=n-I6fkQcUL4">ice skating</a> and <a href="https://www.youtube.com/watch?v=PhsGMgZtTYY">life teachings</a>, alongside the classic <a href="https://www.youtube.com/watch?v=EmTz7EAYLrs">Lord of the Rings</a>, <a href="https://www.youtube.com/watch?v=dQ_-rmuPZC4">Lord of the Rings</a>, and <a href="https://www.youtube.com/watch?v=DgNrvnY1mo0">Lord of the Rings</a>. Email me for more wholesome video recommendations</p>
+
+      <h3>The harder part</h3>
+      <p>At a certain point my anxiety was holding me back more than my preparation was. My mind would occasionally go blank mid-interview. I genuinely considered starting therapy during the process, but ran out of time before I could. In hindsight, that kind of reflection is more useful <em>before</em> you start (knowing your triggers, your relationship with failure, what your sense of worth is actually tied to) so you're not discovering it under fire like I did. Wouldn't recommend lol</p>
+
+      <p>But this brings me to the thing I most want to say: your worth as a human being is not going to be decided by these interviews (I know I would have rolled my eyes at this a few months ago but it's true!). The process is inherently stochastic, and sometimes the universe has a sense of humour about it. The morning of my DeepMind interview I woke up at 5am in a cold sweat having suddenly remembered I hadn't reviewed topic X. I got my phone and asked Claude to summarise topic X for me, then I went back to sleep. When I joined the interview at 9am, the interviewer said: "What do you know about topic X?". I'm not saying there's a god, but if there is, they were clearly on my side that day. But also, you are allowed to have a bad day. Failing to explain why forward KL is mean-covering and reverse KL is mode-seeking in an interview does not make you a bad ML researcher. I absolutely bawled my eyes out after messing up exactly that question after dealing with forward vs reverse KL in two separate papers. You will mess up, even on things you know, and that's okay.</p>
+
+      <h3>Books that helped</h3>
+      <p>Not specific to interview anxiety, but useful for the underlying mindset work: <em>The Now Habit</em> by Neil Fiore, <em>The Gifts of Imperfection</em> by Brené Brown, <em>Mindset</em> by Carol Dweck, and <em>The Tyranny of Merit</em> by Michael Sandel.</p>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- PREP LOGISTICS -->
+    <section id="prep-logistics">
+      <h2>How I Prepared: Logistics</h2>
+
+      <p><strong>One interview per day</strong> Personally, I preferred it this way, when I could manage it. It's not always possible, but interviews are exhausting and you are naturally going to underperform in your third interview of the day. My rhythm was: do the interview in the morning, then spend the rest of the day preparing for the next one. It helped me avoid feeling like I was constantly context-switching mid-day.</p>
+
+      <p><strong>Start with companies you care less about.</strong> Smaller startups, companies in locations you're not keen on, roles that are interesting but not your top choice. You'll get a feel for what the process looks like, calibrate your confidence, and get a realistic sense of what compensation looks like before you're negotiating for the offers you actually want.</p>
+
+      <p><strong>Think about timing.</strong> Some companies move fast, others are extremely (and unpredictably) slow. Once a process starts it tends to move at a predictable pace, so if company A sent you a link to a test you can do whenever to start your interview process, and you are waiting to hear back from Company B… wait for Company B to schedule their first interview before doing the test from Company A. The goal is to have offers land in roughly the same window so you have real leverage and real choices. Obviously, the process is, again, very stochastic so timing is hard in practice. For example: I tried to message someone I knew at Anthropic to try and speed things up with them but ultimately I failed to start the process with them before the deadline from Deepmind expired.</p>
+
+      <p><strong>Tell every company about your other processes.</strong> I know it feels uncomfortable for some people but it's completely normal and expected. It keeps timelines clear, encourages processes to chug along nicely, and often prompts companies to move faster if they're interested. I think companies will also consider you as a more serious candidate if they know multiple other companies consider you a serious candidate.</p>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- NEGOTIATION -->
+    <section id="negotiation">
+      <h2>Negotiation</h2>
+      <p>I found <a href="https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/" target="_blank">this blog post</a> helpful as a starting point, though I'll be honest, I didn't follow its advice. The post recommends treating it like a blind auction and not revealing competing offers. That didn't work for me: several companies explicitly asked for proof of other offers before increasing theirs, and one even questioned my screenshots (lol). So much for the poker face approach.</p>
+
+      <p>A few things I learned:</p>
+
+      <p><strong>Companies can move their numbers significantly if they want you</strong>... more than I expected. It's always worth asking. Most companies were open to negotiating.</p>
+
+      <p><strong>Deadlines varied</strong> from one week to two weeks to a vague "take a reasonable amount of time." In my experience companies weren't flexible about extending them (but they were for some friends of mine!), so factor that into your timing.</p>
+
+      <p><strong>Recruiters are surprisingly good at reading you.</strong> A few figured out my actual preferences just by asking vague questions, but in fairness I'm extremely transparent and probably very easy to read. Be careful, even small signals matter: how often you mention a company, how you talk about them, all of it gets noted. If a recruiter knows their company is already your preferred choice, negotiating is going to be harder.</p>
+
+      <p><strong>Companies track historical data on candidate choices.</strong> If you tell Anthropic you're seriously considering an offer from <a href="https://www.bbc.co.uk/news/articles/cp8p2gmvv37o" target="_blank">Peppers Burgers</a>, they have data on how often candidates with both offers actually chose the latter. If the answer is "almost never," your bluff doesn't work. This is also why competing offers from actual peers (OpenAI or another top lab) carry actual weight in a way that other offers don't. But again, it's very difficult to line up these processes.</p>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- DECISION -->
+    <section id="decision">
+      <h2>Decision Making Process</h2>
+      <p>I cannot speak to your situation, but personally I was quite insecure at the beginning of this process and I was tempted to accept some of the early offers I got (rather than letting them expire and keep interviewing) out of fear I wouldn't find anything else. I did find better. Obviously it's impossible to predict how future processes are going to go, but trust your gut.</p>
+
+      <p>For choosing between offers: everyone weighs things differently: location, compensation, prestige, type of work, free food and Coke (the last two are very important to me). I had a rough preference ordering before I started, which shifted as I learned more about teams and culture and compensation. My very sophisticated vibe-based ranking system then collapsed entirely when I fell in love with Isomorphic Labs and then DeepMind made me an offer.</p>
+
+      <p>My solution was to speak to essentially everyone at both companies. In a shocking twist of events, every single person at DeepMind told me they'd choose DeepMind, and every single person at Isomorphic told me they'd choose Isomorphic. Extremely helpful. In the end the most useful thing was talking it through with the people who actually know me (in my case, my boyfriend) and figuring it out from there.</p>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- WHAT I'D DO DIFFERENTLY -->
+    <section id="differently">
+      <h2>What I'd Do Differently</h2>
+      <p>Even if the process was successful overall, there is a few things I would change if I was to do this again in the future:</p>
+
+      <p><strong>Keep a spreadsheet.</strong> I was convinced I could track everything in my head. Technically yes, but a simple spreadsheet (companies to apply to, where you are in each process, deadlines, contacts) would have stopped me from forgetting to apply to places I was actually interested in. Not rocket science, I know.</p>
+
+      <p><strong>Prepare emotionally, not just technically.</strong> The interview process has a way of feeling like a final verdict on your abilities as a researcher and whether your PhD was worth anything. That's not a rational framing, but it's hard to avoid when you're in it. I didn't handle it well, and I think some therapy or at least serious introspection before starting (rather than during) would have helped a lot.</p>
+
+      <p><strong>Be more proactive about the companies that ignored me.</strong> In hindsight I should have cold-emailed someone at the company, expressed my interest directly, and tried to actually get on someone's radar rather than hoping the application form would do it for me. If you really want to work somewhere and you're not hearing back, do something about it.</p>
+    </section>
+
+    <hr class="section-break" />
+
+    <!-- TECHNICAL TOPICS -->
+    <section id="topics">
+      <h2>Technical Topics</h2>
+     Here is a list of topics I created before I started interviewing. Personally, I was asked a lot about LLMs and RL, reflecting my background. If you have a diffusion background, expect more questions there. I was asked (in some form or capacity) about pretty much all the topics I studied in at least one interview. So... make sure to cover everything well!</p>
+
+      <div class="topic-grid">
+        <div class="topic-col">
+          <h4>Reinforcement Learning</h4>
+          <ul>
+            <li>Q-Learning / TD Learning</li>
+            <li>Bellman Equations</li>
+            <li>PPO</li>
+            <li>GRPO</li>
+            <li>GAE</li>
+            <li>Variance Reduction in RL</li>
+            <li>DPO (Direct Preference Optimisation)</li>
+            <li>Policy Gradient Theorem</li>
+            <li>On-Policy vs Off-Policy</li>
+            <li>Exploration vs Exploitation Dilemma</li>
+            <li>Credit Assignment Problem</li>
+            <li>MuZero</li>
+            <li>World Models / Dreamer</li>
+            <li>AlphaGo</li>
+            <li>Soft Actor-Critic</li>
+            <li>Model-Based vs Model-Free</li>
+            <li>Markov Property</li>
+            <li>Monte Carlo vs TD</li>
+            <li>Actor Critic</li>
+            <li>SARSA</li>
+            <li>Importance Sampling</li>
+            <li>Markov Decision Process</li>
+            <li>Curriculum Learning</li>
+          </ul>
+        </div>
+
+        <div class="topic-col">
+          <h4>LLMs</h4>
+          <ul>
+            <li>Flash Attention</li>
+            <li>LoRA</li>
+            <li>TransformerXL</li>
+            <li>Griffin</li>
+            <li>Perceiver</li>
+            <li>Scaling Laws</li>
+            <li>Mixture of Experts</li>
+            <li>LLM scaling factor</li>
+            <li>RoPE</li>
+            <li>Sinusoidal embeddings</li>
+            <li>Relative positional embeddings</li>
+            <li>LLM vs RNN vs S4</li>
+            <li>Tokenisation</li>
+            <li>Pretraining</li>
+            <li>Finetuning</li>
+            <li>RLHF</li>
+            <li>Decoding techniques</li>
+            <li>Causal Attention</li>
+            <li>Cross Attention</li>
+          </ul>
+        </div>
+
+        <div class="topic-col">
+          <h4>Generative Modelling</h4>
+          <ul>
+            <li>GANs</li>
+            <li>VAEs and VAE ELBO</li>
+            <li>Score Function</li>
+            <li>Diffusion Forward Process</li>
+            <li>Diffusion Reverse Process (DDIM / DDPM)</li>
+            <li>Diffusion Forward / Reverse SDE</li>
+            <li>Flow Matching ODE</li>
+            <li>Classifier Free Guidance</li>
+          </ul>
+
+          <h4 style="margin-top:1.25rem">Applied ML</h4>
+          <ul>
+            <li>Tensor Parallelism</li>
+            <li>FSDP</li>
+            <li>DDP</li>
+            <li>Pipeline Parallelism</li>
+            <li>Communication Primitives</li>
+            <li>Mixed precision training</li>
+            <li>Gradient checkpointing</li>
+            <li>Gradient accumulation</li>
+            <li>Profiling</li>
+            <li>Gradient clipping</li>
+            <li>Numerical precision tricks</li>
+            <li>Exploding / vanishing gradients</li>
+            <li>Floating point representation</li>
+            <li>JIT compiling</li>
+            <li>JAX, PyTorch, TensorFlow</li>
+          </ul>
+        </div>
+
+        <div class="topic-col">
+          <h4>General ML</h4>
+          <ul>
+            <li>Curse of dimensionality</li>
+            <li>S4</li>
+            <li>CNNs</li>
+            <li>RNNs / LSTMs</li>
+            <li>Autoencoders</li>
+            <li>Gumbel-Softmax</li>
+            <li>MLE vs MAP</li>
+            <li>Newton's Method</li>
+            <li>Linear Regression</li>
+            <li>Activation Functions</li>
+            <li>Loss Functions</li>
+            <li>No Free Lunch Theorem</li>
+            <li>BatchNorm / LayerNorm / RMSNorm</li>
+            <li>Variance and Covariance</li>
+            <li>Adam / AdamW / Adagrad</li>
+            <li>Bias-Variance Tradeoff</li>
+            <li>Backprop</li>
+            <li>Regularisation Methods</li>
+            <li>Unsupervised vs Supervised</li>
+            <li>Clustering Algorithms (e.g. k-means)</li>
+            <li>K-Nearest Neighbours</li>
+            <li>SVMs</li>
+            <li>Boosting</li>
+            <li>Bagging</li>
+            <li>Decision Trees</li>
+            <li>Ensembles</li>
+            <li>Bayes Theorem</li>
+            <li>Precision / Recall / F1 / AUC-ROC</li>
+            <li>KL Divergence</li>
+            <li>Jensen-Shannon Divergence</li>
+            <li>Weight initialisation</li>
+            <li>Gradient Descent / SGD</li>
+            <li>Overfitting / Underfitting</li>
+            <li>Cross validation</li>
+            <li>Data Whitening</li>
+            <li>Convex functions</li>
+            <li>Early Stopping</li>
+            <li>Domain Adaptation</li>
+            <li>Dimensiolity Reduction</li>
+            <li>Transfer Learning</li>
+            <li>Few shot / Zero shot learning</li>
+            <li>Second Order Methods</li>
+            <li>Expectation</li>
+            <li>Entropy</li>
+            <li>PDF / PMF</li>
+            <li>Confidence Intervals</li>
+          </ul>
+        </div>
+
+        <div class="topic-col">
+          <h4>Linear Algebra</h4>
+          <ul>
+            <li>Positive Semi-Definite</li>
+            <li>Jacobian</li>
+            <li>Eigenvectors / Eigenvalues</li>
+            <li>Hessian</li>
+            <li>Inverse of a matrix</li>
+            <li>Dot product</li>
+            <li>Null space / Image space</li>
+            <li>Orthogonality</li>
+            <li>Linear independence</li>
+            <li>Singular matrices</li>
+            <li>Rank / Span</li>
+            <li>Determinant</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </article>
+</div>
+
+<script>
+  // Highlight active TOC link on scroll
+  const headings = document.querySelectorAll('section[id]');
+  const tocLinks = document.querySelectorAll('.toc a');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        tocLinks.forEach(l => l.classList.remove('active'));
+        const active = document.querySelector(`.toc a[href="#${entry.target.id}"]`);
+        if (active) active.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-10% 0px -80% 0px' });
+
+  headings.forEach(h => observer.observe(h));
+</script>
+
+</body>
+</html>
