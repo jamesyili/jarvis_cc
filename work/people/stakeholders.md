@@ -51,7 +51,7 @@ Don't hedge variants into mush. Don't skip evidence. Don't end without the robus
 ### Cross-Org (Growth / Search)
 - **Shipeng Yu (Sr. Director, Growth)** — close to Dylan; now UPP supporter after initial friction; Brian Lee + Tingting are trust anchors.
 - **Kurchi (Sr. Director, SSJ)** — primary political counterweight to UPP; relationship warming but structurally adversarial.
-- **Jinfeng (IC18, P2P ML Lead)** — Kurchi’s champion; co-design counterpart.
+- **Jinfeng (IC18, P2P ML Lead)** — Kurchi’s champion; co-design counterpart. **2026-06-14: leaving the company.** As Kurchi's key technical lieutenant on P2P, his departure is a variable to watch — it may shift the P2P-blocking dynamics (Kurchi has been actively blocking P2P). Reassess the P2P path on return.
 
 ### Strategic Partners
 - **Andrew Yaroshevsky (Sr. Director, Product)** — Reflex sponsor; invited James to co-own Detect + Diagnose.

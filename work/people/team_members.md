@@ -2,7 +2,7 @@
 
 > James's direct reports and key team context. Updated as situations change.
 
-Last updated: 2026-04-07
+Last updated: 2026-06-17
 
 ---
 
@@ -24,6 +24,7 @@ Last updated: 2026-04-07
 - **Position:** Not retaining, not managing out. Extract value while here. Don't invest retention capital. Build direct YiPing working relationship that doesn't depend on Bella.
 - **2026-06-06 update (source-protected — keep between Leo + James):** Heard via a Meta-friend backchannel that Bella has a **Meta IC6 offer and is at team-matching** (late stage). Secondhand, pre-disclosure — Bella has *not* told James about the offer, doesn't know he knows. Advances the already-documented flight risk (she'd named Meta + 3-month-notice intent back in April). James's call: **not fighting for her** (consistent with standing position) — the goal is the **headcount/req**, which is live because of freeze risk + **1 head already lost to attrition (Sophia)** — that precedent is exactly why Bella's backfill can't be allowed to slip.
   - **Plan of record:** (1) Do NOT flag Dylan pre-resignation — no decision is attached yet, so it's only anxiety transfer into her OOO; discovery risk of waiting ≈ 0. (2) Quietly pre-stage the backfill now (where the req goes, RecGPT reshuffle, Reflex Simulate coverage). (3) The trigger is her **resignation** — then flag Dylan *and* claim the req in one move (confirmed + her disclosure + real decision = clean). (4) Offboard graciously regardless (protects the "good to work for" rep). RecGPT continuity partly hedged via the YiPing pairing.
+- **2026-06-14 update — offer in hand + ER ticket filed.** Bella's external offer is now **confirmed/in hand** (past team-matching). James filed an **ER (Employee Relations) ticket** documenting the performance decline (email cites "noticeable decline over the past two months vs. her level — IC16 MLE — feedback given, no improvement"). **This is Dylan-directed:** Dylan said an ER ticket is what's needed to make the exit count as **managing out a low performer** (vs. regretted attrition), which protects the backfill req. **Integrity check (James's honest read):** "a mix of the two" — there's a genuine headcount motive AND she **hasn't really performed well even from the beginning**, so the low-performer characterization has a real basis. Clean enough *because the substance is true*. Open: confirm with HR that the documentation actually secures the req (the perf-track and backfill-track are different mechanics).
 
 ### Devin (TL, CLR)
 - **Role:** CLR model expert, UPP backbone
@@ -48,6 +49,7 @@ Last updated: 2026-04-07
 - **Retention anchor:** EB1 green card sponsorship — James handling. This is the primary lever.
 - **Promo timeline:** Not ready by mid-year. Needs p(UIC) successfully built and landed. End of year is right window.
 - **Dynamic:** Doesn't get along with Devin. See Chuxi-Devin-Yuke dynamics in goals.md.
+- **2026-06-14 update — OOO performance signal (decision-relevant for the TL call).** During James's OOO: **progress is slow, no proactive updates, and he's absent from the syncs** (not showing in meeting notes). Reinforces the already-documented flight risk (market-pay interview questions, promo-deferral unhappiness). James considered filing an ER ticket (worried he's interviewing) and **held off** — it's a yellow flag not a verdict (two weeks, read off meeting notes), no feedback has been given yet, and a flight-risk-driven ER record is improper/pretextual. **This is direct evidence for the goals.md "grow into the TL role, or reposition" call.** Investigate properly on return *before* concluding: did Yuke know he owned this / was expected to drive updates, or did ownership default to ambiguity when James left? Is he partly OOO himself? Did the sync structure change? Could be a character signal; could be a delegation gap that's partly James's. Hold loosely until back and clear-headed.
 
 ### Alok (Real-Time, Dynamic Triggering)
 - **Workstream:** Real-Time, PhP / Dynamic Triggering (~50% allocation, gate cleared March 30)
@@ -97,10 +99,9 @@ Last updated: 2026-04-07
 - **1:1:** Wed 4:00pm monthly
 - **Performance:** Hard mid-April checkpoint. If not shipping, moves to LWS. Tell Bella it's real.
 
-### Sophia
-- **Workstream:** UPP
-- **1:1:** Fri 3:00pm monthly
-- **Performance:** Monitor under Piyush. Performance conversation if not improving.
+### Sophia — DEPARTED
+- **Status:** Left Pinterest (attrition, 2026). No longer on the team. Her loss is the "1 head already lost to attrition" precedent referenced in the Bella-backfill reasoning — the reason a slipped backfill can't be allowed.
+- **Former workstream:** UPP
 
 ### Zili
 - **Workstream:** LWS
@@ -110,10 +111,9 @@ Last updated: 2026-04-07
 - **Approach:** Backfill constraint means no active manage-out. Continue documenting pattern. Give clear, written expectations at next 1:1 (Tue 1:30pm). Don't invest disproportionate coaching capital — Charlie is the clearer case for action first.
 - **Watch-for:** Whether Piyush also starts flagging. If so, the performance picture tightens and the backfill calculus may need to be revisited with Dylan.
 
-### Charlie
+### Charlie — EXITING (formal PIP/CPP)
 - **Workstream:** AI projects (under James's direct TL supervision)
-- **1:1:** Fri 2:30pm monthly
-- **Performance:** **2026-04-07 — PIP decision made.** Moving forward with formal PIP, will get headcount back. Clearest case for action on the team. Dylan aligned.
+- **Status:** On formal PIP/CPP (decision 2026-04-07; CPP started 4/30). Exiting; James gets the headcount back. The backfill head is routed to **Alim's team** (Anticipation / RecGPT) per the 2026-06-17 team-split proposal.
 
 ---
 

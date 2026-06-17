@@ -341,3 +341,42 @@ That's the antidote from Lesson 18 working **under real load**, on a top-tier tr
 - Captured as **Lesson 19** above.
 
 **Connections:** Lesson 18 (the wound + antidote this field-tests), Lesson 17 (somatic close; relief/"who cares" is a tell, right-sized here). [[feedback-comparison-engine-positive-firing]]. `goals.md` Layer I + Layer II health reset. `family.md` (the kids as the living proof of enough). `health.md`.
+
+## 2026-06-17 — First night in Seoul: the balance sheet, health > work, and catching the override
+
+*(Tour over, Fan in the room, Seoul night. The real rest leg I named on 6/13 finally underway. Continuation of the same arc — the engine kept grinding even on vacation, surfaced again on the 15th morning with anticipatory dread about return, and tonight came around to a different question: am I actually OK?)*
+
+### What happened
+A Pin RSU vest hit. NW now $12.6M. Two more quarterly vests by year's end → $13M+ by 2027 start without any promo, without anything else going right, just by not getting laid off. That last condition is approximately given at my standing.
+
+So I asked: my life is going well, right? Then I pushed: even if shit falls apart at work when I head back? Then I pushed again: am I anchored too high to Q1 now — should I just set the bar to Q4 so I don't get disappointed?
+
+The thing that landed: between work and health, the latter is more pressing, and it isn't close.
+
+### What I felt
+Quiet relief that the balance-sheet math is real. Then a slower, more uncomfortable noticing: even with the math in front of me, the engine had been grinding the work surface for two days running (6/15 morning dread about Bella and pUIC). The data didn't disarm it. Recognition that what I'd believed about "health matters more" hasn't actually had the run of my attention.
+
+### The story I told myself
+*"If I set expectations lower — to Q4 level — I won't be disappointed when Q3 doesn't match Q1."* This one sounded like wisdom. The trap is that the engine still gets to grade — just on a kinder yardstick. Same fear, smaller costume. From my own goals.md: *the moment I grade the quality of the reps, the comparison engine is back wearing a meditation robe.*
+
+Then the closing move, which also got caught: *"I'll just decide not to let the Yuke and Bella stuff bother me."* That's cognitive override. From goals.md again: *don't argue it down cognitively.* Deciding-not-to-be-bothered is the engine renegotiating terms, not the catch-and-return rep. Holds for about 36 hours and snaps back the next time Slack opens.
+
+### What's actually true
+- **The catastrophe is empirically dead.** $12.6M without promo, $13M+ by 2027, layoff risk near zero. The "what if work breaks" scenario does not survive contact with the balance sheet. The director-by-40 thread from the van is *entirely* meaning-and-identity. It is not load-bearing for kids' education, retirement, housing, optionality, or a frontier-lab move. All solved.
+- **Health is more pressing, and it isn't close.** From goals.md: *the body is the literal base.* Money compounds; metabolic health doesn't. The window where Zone-2 + resistance + weight → 180 buys decades of healthspan is this decade, not the one after Director. The title doesn't add a year to my life; skipping the protocol subtracts several.
+- **The Q4-expectation move is the engine in a humility costume.** Lowering the bar isn't the antidote; the antidote is that worth isn't conditional on the bar at all. *Care from enough, not from fear.*
+- **The override move is the engine in a discipline costume.** "I'll decide not to be bothered" is the same engine in different clothing. The rep stays somatic catch-and-return, not decree.
+- **Yuke joined the list tonight.** Two days ago it was Bella + pUIC. Tonight it's Yuke + Bella. The engine is scanning the work surface for inventory — that's the signal more than the items.
+
+### The redirect
+The data doesn't disarm the engine, but it does retire one of its favorite stories. The "what if it all falls apart" line has nowhere left to stand. What's left is meaning and identity and the want to lead the work I care about — those are real, and they're not what wakes me up dreading return.
+
+The rep tonight: notice the engine fired (the urge to scan work-surface inventory in bed at midnight in Seoul), name it, return to the room. Fan asleep. Body heavy. Trip half over. Put it down somatically, not by decree.
+
+### Next action
+- **Protect this leg.** SK with Fan is the actual rest. Let the engine talk during the down moments — don't argue, return to the room.
+- **The late-June reset is the real test.** Not whether I now *believe* health > work — I do, I wrote it down. The test is the calendar: do the Zone-2 sessions actually happen 3–4×/week starting end-June, does the protein/hydration/sodium discipline actually run, do I trade those sessions back to the engine the first time pUIC results come in lumpy in mid-July.
+- **Watch the costume.** When the engine shows up next, check whether I'm trying to disarm it by *lowering expectations* (humility costume) or *deciding not to be bothered* (discipline costume). Both are the same fear in different clothing.
+- **Lesson 20 candidate (not committing yet):** *the balance sheet is not the antidote.* Data refutes catastrophe but doesn't disarm the engine. The engine doesn't run on data; it runs on ranking. Worth examining whether this is a real new lesson or a refinement of Lesson 19.
+
+**Connections:** Lesson 18 (antidote), Lesson 19 (under load + bottomless ranking). The 6/13 van session (same engine, four days later, different chair). [[feedback-comparison-engine-positive-firing]] — relief is also a tell; watch that this entry doesn't itself become an "I solved it" moment. `goals.md` Layer I + Layer II health reset. `health.md`. `net_worth.md`.

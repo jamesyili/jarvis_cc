@@ -4,6 +4,12 @@
 
 ---
 
+## June 14, 2026 Update — finetuned UPP model showing online gains on Home Feed
+
+**Event (via James, while OOO):** The **finetuned UPP model is showing online gains on Home Feed (HF).** Per goals.md, the online retention/engagement lift was the **Influence / forcing-function** outcome (the Commit was landing the *offline* P2P gain) — so the forcing function is now delivering, online. Landed while James was OOO (team executing independently — counter-evidence to the "I've been out too long / it's falling apart" fear). Confirm the magnitude / stat-sig / surface scope on return; tee up as a presentable win.
+
+---
+
 ## June 5, 2026 Status Update — UPP deck to CEO/CTO this month; Piyush presenting retrieval
 
 **Event:** PM sent email confirming UPP deck going to CEO/CTO altitude this month. Three IC presenters lined up:
