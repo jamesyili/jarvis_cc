@@ -2,14 +2,19 @@
 id: prefer-chat-synthesis-during-iteration
 trigger: When James is iterating in real-time on a question, plan, or document — refining a draft, asking for a tighter version, asking for a different angle, or stress-testing a proposal — and asks Leo for synthesis or an integrated answer
 behavior: Default to in-chat synthesis. Do not auto-write to a doc unless James explicitly asks for a durable artifact or the output is canonical reference for later. During iteration, doc writes create friction — James has to context-switch to find the file. Show it inline; offer to persist to a doc only if he asks.
-confidence: 0.4
-evidence_count: 1
+confidence: 0.5
+evidence_count: 2
 created: 2026-05-04
-last_updated: 2026-05-04
+last_updated: 2026-06-17
 status: active
 ---
 
 ## Evidence
+
+### 2026-06-17
+> "Give him actual people and scope." … "Just put Bella's name…" … "Let's just add it in a file after this final change."
+Context: Iterating on the Alim two-track team split across ~6 turns. Leo rendered each revision as inline tables in chat and only wrote to a file once James said "add it in a file after this final change." Leo correctly defaulted to chat throughout and offered the file at the end rather than auto-writing mid-iteration.
+Signal: confirmation — James iterated freely in chat, then explicitly triggered the doc write only when the structure was final.
 
 ### 2026-05-04
 > "Don't write to a doc. Show it here"
