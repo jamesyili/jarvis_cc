@@ -10,31 +10,39 @@
 
 ## ⭐ If you only review three things on the plane
 
-1. **The 30-second opener** (below) — short, because Reid already has Coralynn's notes. Don't re-deliver your resume.
+1. **The calibrate-first opener** (below) — one line that finds out how briefed Reid is, then version A (cold) or B (briefed). Don't gamble your opening on assuming he's read Coralynn's notes.
 2. **One technical deep-dive you can take three levels down** — pick UPP *or* Reflex/Pinkerton and rehearse going deep, not wide (see "Go deep, not wide").
 3. **Your four questions for Reid** — half the value of a 30-min HM chat is what *you* ask. Memorize three.
 
 ---
 
-## What Coralynn already has on you (build on this — don't repeat it)
+## What you've already established with the recruiter (Reid may or may not have it)
 
-Reid will walk in pre-loaded with what you established on the May 27 call. Your job is to *extend* it, not re-state it:
+**Don't assume Reid is briefed.** Coralynn's offer was doubly conditional — *"depending on your interest I'm happy to share info from our chat with Reid if he's interested."* He may have read her notes closely, skimmed a one-liner, or be walking in cold. **Calibrate in the first 20 seconds (see opener) and don't gamble your opening on his prep.** The points below are what you've *established* — if he has them, extend; if he doesn't, these are what you lead with:
 
-- **Mission-driven on integrity, with real lineage** — FB **civic integrity during the 2020 elections** (you named the lost sleep, the disillusionment, leaving Meta over the outcomes) + FB feed integrity + Snap content quality. Coralynn explicitly affirmed: *"you do have a vested interest in this space."* **This thread is already validated — let it breathe, don't oversell it.**
+- **Mission-driven on integrity, with real lineage** — FB **civic integrity during the 2020 elections** (you named the lost sleep, the disillusionment, leaving Meta over the outcomes) + FB feed integrity + Snap content quality. Coralynn explicitly affirmed: *"you do have a vested interest in this space."* **Validated with the recruiter — so if Reid's briefed, let it breathe and don't oversell; if he's cold, version-A opener plants it (lead with integrity), then let it breathe.**
 - **Hands-on and going deeper technically** — you told her you've gone as deep as Codex allows, **landed production code**, built things, and that this makes you a better strategic decision-maker because you understand the challenges the team actually faces. She flagged this is an *expectation* of the seat — you're aligned.
 - **The prevention frame** — "preventing bad experiences through recommendation, not just optimizing good ones." That's your through-line and it landed.
 - **Team size** — Snap: 2 EMs + ~25 engineers (3 pods). Pinterest now: ~10 direct + 1 manager with ~10 = ~20 total, "changes afoot."
 - **Upstream technical move** — features-on-models → the model layer itself.
 
-> **Implication:** With Reid, skip the biography. He's read it. Open with a *tight* anchor and spend your 30 minutes on (a) technical depth and (b) the questions that prove you're evaluating the seat seriously.
+> **Implication:** Spend your 30 minutes on (a) technical depth and (b) questions that prove you're evaluating the seat — but *find out how briefed he is first*, so you don't either bore him with a resume he's read or strand him with no context.
 
 ---
 
-## Your 30-second opener (when he says "tell me a bit about yourself")
+## Your opener — calibrate first, then deliver (when he says "tell me a bit about yourself")
 
-Short. He has the notes. Anchor + the one differentiator (hands-on depth) + genuine curiosity about *his* team.
+**Hand him the wheel in one line.** This works whether he's briefed or cold, reads as senior, and instantly tells you which version to give:
 
-> *"Coralynn probably gave you the arc — user-experience side of ML at scale, civic + content integrity at Facebook and Snap, now leading Homefeed candidate generation at Pinterest. The part I'd add: the direction of my work has moved upstream — into the model layer itself, foundation-model pretraining for user representation, multimodal signals — and I've stayed hands-on enough to land production code, because I lead better when I actually understand the problems my team is solving. That's the altitude your seat sits at, which is why I wanted this conversation. I'd love to hear how you frame the team and where the hard problems are right now."*
+> *"I don't know how much Coralynn passed along — I can give you the quick arc, or if you've got the background we can go straight to the team and the hard problems. What's more useful?"*
+
+Then have **both versions loaded**:
+
+**(A) If he's cold / "go ahead"** — self-contained ~50-sec arc. Lead with integrity (it's where you started and it's his domain):
+> *"Sure — my whole career's been the user-experience side of ML at scale, and it started in integrity: Facebook civic integrity through the 2020 elections, feed integrity before that; Snap, where I led Stories ranking and took Discover content quality from the platform's worst pain point to a 60% drop in user reports; now Pinterest, leading Homefeed candidate generation — the first stage of what every user sees. The through-line is preventing bad experiences through the recommendation system, not just optimizing good ones. Lately the work's moved upstream into the model layer itself — foundation-model pretraining for user representation, multimodal signals — and I've stayed hands-on enough to land production code, because I lead better when I actually understand what my team's up against."*
+
+**(B) If he's briefed / "I've got the basics"** — skip the resume, add the part a one-line handoff misses:
+> *"Then I'll just add what's easy to miss from notes: the work's moved upstream into the model layer — foundation-model pretraining, multimodal signals — and I've stayed hands-on enough to ship production code. That's the altitude your seat sits at, which is why I wanted this conversation. I'd love to hear how you frame the team and where the hard problems are."*
 
 Then **stop and let him talk.** A 30-min HM chat where he does 55% of the talking is a good one.
 
@@ -110,7 +118,7 @@ The Reid chat is the **gate** to a standard slate. Don't over-rotate on later ro
 
 ## Traps / what NOT to do
 
-- **Don't re-deliver the resume.** Reid has Coralynn's notes. Repeating the FB→Snap→Pinterest arc wastes a third of your 30 minutes.
+- **Don't *assume* he's briefed — but don't dump the full resume either.** Use the one-line calibration opener to find out, then give version A or B. Guessing wrong in either direction (boring a briefed HM, or stranding a cold one) costs you the first third of the chat.
 - **Don't go breadth-first technical.** Pick one trade-off, go three levels deep, then surface. Senior interviewers read depth-then-breadth as senior; breadth-then-shallow as mid.
 - **Always resolve an adversarial scenario** if one comes up (cipher / jailbreak / role-play). End-to-end: how it bypasses the naive classifier → which layer catches it → the FP cost of that layer. *(This is the exact thing you got set up on and didn't resolve in the Anthropic loop. Don't repeat it.)*
 - **Don't over-claim integrity-as-identity.** You've *already* established it authentically — Coralynn affirmed it. Now let it sit. Over-selling now reads as trying-to-fit-the-seat and quietly erases your three years of recsys craft.
