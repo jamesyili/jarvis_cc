@@ -62,6 +62,7 @@ If the script prints `Missing OAuth client secret at ~/.config/leo/google_creden
 | Too large for email (>25MB) | Script suggests `/save-to-drive`. Pass the suggestion through. |
 | Multiple candidate files | List candidates with timestamps, ask which one (one question only) |
 | Any other script error | Output the error verbatim. Don't pretend it succeeded. |
+| **Cloud / web session** (no local venv or `~/.config/leo/google_credentials.json`) | The local Gmail script can't run — the cloud container doesn't have James's Google creds. Don't fail silently or retry. Say so in one line and **deliver the file with `SendUserFile` instead** (surfaces it straight to his phone in-session). Same fallback applies to `/save-to-drive`. |
 
 ## Rules
 
