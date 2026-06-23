@@ -6,13 +6,32 @@
 
 **Posture:** conviction without commitment. You are assessing the seat as much as he's assessing you. 30 minutes goes *fast* — be tight, lead with substance, leave him wanting the next conversation.
 
+### Who you're talking to
+
+- **The seat (believe Coralynn):** the **classifier stack for multimodal content + user-behavior harms** — content/behavior integrity. *Not* a cyber-misuse team. (An earlier draft mis-read his team as "Trusted Access for Cyber" — that's **where Reid came from**, his security/cyber background, not the charter of this team. Don't walk in talking about malware/exfiltration as if it's the seat.)
+- **Reid's background skews security/cyber** — useful to know as *his lens*: he'll likely think in threat-models, adversaries, and misuse-resistance, not just content-policy taxonomies. Meeting him there (adversarial robustness, red-team feedback loops) lands well — but the *domain* you're being hired into is content + user-behavior harm.
+- **Communication style — match it:** lead with the recommendation/conclusion, *then* reason; operate at the system-and-org altitude, don't narrate the work step-by-step. Rambling or going-into-the-weeds reads as wrong-altitude. (This is just good senior exec-comms — hold it as posture regardless of source.)
+
 ---
 
 ## ⭐ If you only review three things on the plane
 
-1. **The calibrate-first opener** (below) — one line that finds out how briefed Reid is, then version A (cold) or B (briefed). Don't gamble your opening on assuming he's read Coralynn's notes.
-2. **One technical deep-dive you can take three levels down** — pick UPP *or* Reflex/Pinkerton and rehearse going deep, not wide (see "Go deep, not wide").
-3. **Your four questions for Reid** — half the value of a 30-min HM chat is what *you* ask. Memorize three.
+1. **The spine** (below) — recsys craft *and* genuine harm-prevention pull, integrated. Not "integrity person who left recommendations behind." This anchors the whole loop.
+2. **The calibrate-first opener** (below) — one line that finds out how briefed Reid is, then version A (cold) or B (briefed). Don't gamble your opening on assuming he's read Coralynn's notes.
+3. **One technical deep-dive three levels down + your three questions** — pick UPP *or* Reflex/Pinkerton, rehearse depth-not-breadth; and the questions are half the value of the chat.
+
+---
+
+## The spine (read this twice — it's the correction that matters)
+
+**You are not an integrity person who disowns recommendations, and you are not a recsys EM pivoting into safety to fit a seat. You are both, integrated:** someone with three years of genuine recommendations/ranking craft, whose deepest pull has always been the *prevention* side — building the systems that keep users safe from real harm.
+
+> *"I build recommendation and ranking systems — that's my craft. The part I've always cared about most is the prevention side: using those systems to keep users safe from real-world harm. That started in integrity at Facebook and Snap, and it's the technical problem I most want to go deep on now — building AI classification systems that protect users and the world from genuine harm."*
+
+Why this framing, not "integrity person coming home":
+- **It's true.** You don't disown recommendations — it's your strongest card and your differentiated value.
+- **It protects your next gate.** The architecture round is reportedly **ranking/recommendation**. Don't spend this call disowning the exact identity you'll need next week.
+- **The genuine interest is real and specific** — "the technical challenges of building AI classification systems to protect users and the world from real-world harm." Say *that*, not "safety is important."
 
 ---
 
@@ -38,8 +57,8 @@
 
 Then have **both versions loaded**:
 
-**(A) If he's cold / "go ahead"** — self-contained ~50-sec arc. Lead with integrity (it's where you started and it's his domain):
-> *"Sure — my whole career's been the user-experience side of ML at scale, and it started in integrity: Facebook civic integrity through the 2020 elections, feed integrity before that; Snap, where I led Stories ranking and took Discover content quality from the platform's worst pain point to a 60% drop in user reports; now Pinterest, leading Homefeed candidate generation — the first stage of what every user sees. The through-line is preventing bad experiences through the recommendation system, not just optimizing good ones. Lately the work's moved upstream into the model layer itself — foundation-model pretraining for user representation, multimodal signals — and I've stayed hands-on enough to land production code, because I lead better when I actually understand what my team's up against."*
+**(A) If he's cold / "go ahead"** — self-contained ~50-sec arc. Recommendations craft *and* the prevention pull, integrated:
+> *"Sure — my whole career's been the user-experience side of ML at scale: recommendations and ranking, and the part I've always cared about most is the prevention side. It started in integrity — Facebook civic integrity through the 2020 elections, feed integrity before that; Snap, where I led Stories ranking and took Discover content quality from the platform's worst pain point to a 60% drop in user reports; now Pinterest, leading Homefeed candidate generation — the first stage of what every user sees. The through-line is preventing bad experiences through the recommendation system, not just optimizing good ones. Lately the work's moved upstream into the model layer itself — foundation-model pretraining, multimodal signals — and I've stayed hands-on enough to land production code, because I lead better when I understand what my team's actually up against."*
 
 **(B) If he's briefed / "I've got the basics"** — skip the resume, add the part a one-line handoff misses:
 > *"Then I'll just add what's easy to miss from notes: the work's moved upstream into the model layer — foundation-model pretraining, multimodal signals — and I've stayed hands-on enough to ship production code. That's the altitude your seat sits at, which is why I wanted this conversation. I'd love to hear how you frame the team and where the hard problems are."*
@@ -64,8 +83,11 @@ Reid *will* probe technical depth. The failure mode (from your Anthropic loop) i
 
 > **Why B is your secret weapon with Reid:** an Integrity-Foundations HM at OpenAI lives in exactly this world — classifier stacks on a foundation-model API, eval-as-half-the-work, adversarial robustness, agentic systems. Reflex/Pinkerton proves you don't just *use* frontier ML, you *build* with it. If he gives you an opening, go here.
 
+> **Pre-load concrete specifics — this is your known gap.** He *will* push past the narrative ("what did the classifier actually detect? what did you move?"). You go abstract under pressure (the Anthropic post-mortem flagged exactly this). Have real numbers loaded and **offer them — don't make him extract them**: what the classifier detected, the ranking/demotion mechanics, and the metrics you moved (prevalence, recall, false-positive cost). Specificity *is* the signal of seniority here.
+
 ### Integrity-altitude technical lines (drop one, max — don't force)
-- **Snap Discover two-tier demotion (your best war story):** *"For borderline content that's not policy-violating, the FP cost isn't symmetric across users. We tiered the demotion — smaller for users who'd consistently engaged with that category, stronger for everyone else, never full removal. Cut prevalence ~35% while preserving creator autonomy. The lesson that transfers: who pays the FP cost matters as much as the FP rate."*
+- **The conditioned-label insight (your sharpest signal — and it speaks to Reid's threat-model lens):** *"The thing I learned doing this at scale is that harm classification is rarely a clean harmful/harmless binary — the right label is conditioned on context and on who's asking. The same item can be fine for one user and harmful for another, so the dominant cost is usually the false positive: over-blocking the legitimate case. The calibration work is figuring out who pays that FP cost, and earning the asymmetry with data rather than defaulting to aggressive removal."*
+- **Snap Discover two-tier demotion (your best war story, the concrete proof of the above):** *"For borderline content that's not policy-violating, the FP cost isn't symmetric across users. We tiered the demotion — smaller for users who'd consistently engaged with that category, stronger for everyone else, never full removal. Cut prevalence ~35% while preserving creator autonomy. Who pays the FP cost matters as much as the FP rate."*
 - **Modern-stack take (if it drifts technical):** *"Foundation models give you a better FP/FN Pareto frontier on known harms, but they introduce new FP modes — reasoning-based over-flagging, hallucinated classifications, cipher/role-play bypasses. The work shifts from threshold tuning to adversarial calibration under distribution shift."*
 - **System framing (always):** never talk about a classifier in isolation — frame it as *one layer in a multi-layer defense system with a feedback loop*: input classifier → mid-generation token-level → post-response full-context → human review → red-team loop. Each layer has its own FP/FN profile.
 
@@ -75,9 +97,11 @@ Reid *will* probe technical depth. The failure mode (from your Anthropic loop) i
 
 The heavy "why OpenAI" lands later (the XFN behavioral round). With Reid, give the *honest, specific* version — not the mission cliché:
 
-> *"The direction of my work has been moving upstream toward the model layer, and OpenAI is one of the few places where operating at that altitude IS the day-to-day. Integrity specifically isn't a pivot for me — it's where I started, FB civic and feed integrity, and it's the work I lost sleep over for the right reasons. The combination — the model-layer altitude plus the stakes of getting harm-classification right on a system this many people touch — is the specific thing I want to be doing. I'm taking it seriously, and this conversation is part of how I decide."*
+> *"Integrity isn't a pivot for me — it's where I started, FB civic and feed integrity, the work I lost sleep over for the right reasons. What pulls me here specifically is the technical challenge of building AI classification systems that protect users and the world from real-world harm, at the model layer, on a system this many people touch. That's the exact intersection of the craft I've built and the thing I care most about — and OpenAI is one of the few places where that IS the day-to-day work."*
 
-**Do NOT say** "I want to work on safety because it's important." Generic. Lead with the altitude + the lived lineage.
+**Do NOT say** "I want to work on safety because it's important." Generic. Lead with the specific technical challenge + the lived lineage.
+
+**Disillusionment is a shield, not a sword.** You hinted at the Meta-outcomes disappointment twice with Coralynn. With Reid, *don't volunteer the grievance* — bitterness reads as a flag. If it comes up, convert it forward in one line: *"What I took from the 2020 civic work is how much the outcome depends on building the safeguards deliberately, up front — which is exactly why a place that does that on purpose is where I want to do this work now."* Motivation, not grievance. Then move on — don't dwell.
 
 If he asks **"why leave Pinterest":** *"Pinterest is strong for me — consumer ML scope, executive sponsorship, a clear path. This isn't escape. It's that the frontier of the model layer is being defined here, and that's worth understanding seriously before deciding."* Don't volunteer Dylan / Director-track / comp / internal dynamics.
 
@@ -96,9 +120,10 @@ Lead with substance and roadmap (his domain, where he's the source of truth). Sa
 **Fit / team:**
 5. *"What makes someone succeed in this seat — and what's the failure mode you've seen?"*
 6. *"What's the team's shape today, and where do you want it to grow?"*
+7. *"How much of this seat is integrity-classification work vs. core ranking/recommendation? Where's the center of gravity?"* ← clarifies scope, and quietly surfaces that you bring both.
 
 **Save for last / skip if time-short:**
-7. *"Where would you expect someone in this seat to be in 2-3 years — deeper in Integrity, breadth into adjacent ML surfaces, scope expansion?"*
+8. *"Where would you expect someone in this seat to be in 2-3 years — deeper in Integrity, breadth into adjacent ML surfaces, scope expansion?"*
 
 > **Don't ask Reid about comp.** That's Coralynn's lane. Don't ask "what else is open" — that telegraphs not-this-one.
 
@@ -121,7 +146,8 @@ The Reid chat is the **gate** to a standard slate. Don't over-rotate on later ro
 - **Don't *assume* he's briefed — but don't dump the full resume either.** Use the one-line calibration opener to find out, then give version A or B. Guessing wrong in either direction (boring a briefed HM, or stranding a cold one) costs you the first third of the chat.
 - **Don't go breadth-first technical.** Pick one trade-off, go three levels deep, then surface. Senior interviewers read depth-then-breadth as senior; breadth-then-shallow as mid.
 - **Always resolve an adversarial scenario** if one comes up (cipher / jailbreak / role-play). End-to-end: how it bypasses the naive classifier → which layer catches it → the FP cost of that layer. *(This is the exact thing you got set up on and didn't resolve in the Anthropic loop. Don't repeat it.)*
-- **Don't over-claim integrity-as-identity.** You've *already* established it authentically — Coralynn affirmed it. Now let it sit. Over-selling now reads as trying-to-fit-the-seat and quietly erases your three years of recsys craft.
+- **Don't over-claim integrity-as-identity — but don't disown recommendations either.** The trap cuts both ways. Over-selling integrity reads as trying-to-fit-the-seat *and* erases your recsys craft (your real differentiator and your next interview gate). Hold the both/and from the spine: recommendations craft + genuine harm-prevention pull.
+- **Don't bring cyber/malware/exfiltration as if it's the seat.** That's Reid's background, not this team's charter. Meet his threat-model *lens*, but talk content + user-behavior harm.
 - **Don't talk comp, visa, start dates** with Reid. Wrong person, wrong stage.
 - **Don't drop internal Pinterest names** (Dylan, Andrew, Faisal, Jeff). Not needed; can leak into later reference checks.
 - **Don't commit to the next step on the spot** if he pushes — *"I'd want a day or two to digest before locking in the next round"* preserves your decision space and reads as deliberate, not eager.
@@ -141,4 +167,4 @@ The Reid chat is the **gate** to a standard slate. Don't over-rotate on later ro
 
 ## The frame to walk in with
 
-You're a Sr EM with active executive sponsorship at a $30B+ consumer-ML company, who started in integrity and means it, has moved upstream to the model layer, and stays hands-on enough to ship code. That's the table you're walking up to — not a seat you have to earn permission to want. Reid is "one of Coralynn's favorites" for a reason; meet him as a peer who happens to be evaluating whether his team is the right next altitude for you. Conviction without commitment. Land one deep technical thread, ask two questions that make him think, leave him wanting the next conversation.
+You're a Sr EM with active executive sponsorship at a $30B+ consumer-ML company — real recommendations craft, a genuine and lived pull toward preventing real-world harm, moved upstream to the model layer, hands-on enough to ship code. You don't have to choose between "recsys EM" and "integrity person" — you're the rare both, which is exactly what a content/behavior harm-classifier team led by a security-minded HM should want. That's the table you're walking up to — not a seat you have to earn permission to want. Reid is "one of Coralynn's favorites" for a reason; meet him as a peer who happens to be evaluating whether his team is the right next altitude for you. Conviction without commitment. Land one deep technical thread, ask two questions that make him think, leave him wanting the next conversation.
