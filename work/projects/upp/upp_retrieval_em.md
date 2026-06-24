@@ -4,6 +4,18 @@
 
 ---
 
+## June 23, 2026 Update — UPP v0 concluding → V1 (FM); v0 FT online results + cross-surface adoption starting
+
+**Event (via Zihao Slack update, while James OOO):**
+- **UPP v0 is concluding; V1 (to include FM) design + build starts this week.**
+- **v0 FT online exp:** UPP v0 performs well on **HF FT — +0.5% HF repins** (on a 05/19 v0 model arch); **neutral on P2P.** New round of online exp underway for v0 FT with extensive model-scaling ablations (tfmr / cond tower) hoping to lift both HF + P2P. Team believes **moving viewer tower to FM is higher-ROI than iterating on v0 models.**
+- **Cross-surface adoption beginning:** **Search (Konik Kothari)** and **Notif (Lei Wang)** starting to FT UPP v0 on their surfaces — results TBD. (This is the platform-thesis compounding James wants for the Rajat narrative — surfaces co-owning shared infra.)
+- **Team morale signal:** Zihao energized — "busy but a lot of learnings, def happy to be on this squad"; sees folks more confident in the cross-surface modeling paradigm, things moving "faster / smoother." Counter-evidence to the attrition-fear narrative on this workstream.
+
+Confirm magnitudes / stat-sig / surface scope on return.
+
+---
+
 ## June 14, 2026 Update — finetuned UPP model showing online gains on Home Feed
 
 **Event (via James, while OOO):** The **finetuned UPP model is showing online gains on Home Feed (HF).** Per goals.md, the online retention/engagement lift was the **Influence / forcing-function** outcome (the Commit was landing the *offline* P2P gain) — so the forcing function is now delivering, online. Landed while James was OOO (team executing independently — counter-evidence to the "I've been out too long / it's falling apart" fear). Confirm the magnitude / stat-sig / surface scope on return; tee up as a presentable win.

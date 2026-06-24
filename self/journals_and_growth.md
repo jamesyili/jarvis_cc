@@ -2,7 +2,7 @@
 
 > The inner arc: the comparison-engine lesson series (14–18, incl. 'not the hero'), the Leo coaching-trigger table, and the identity/status-sensor journal entries. The career/leadership lessons (1–13), growth edges, and work journal entries live in `work/journals_and_growth.md`.
 
-Last updated: 2026-06-13 (Lesson 19 + tour-van field-report entry)
+Last updated: 2026-06-23 (Busan→Seoul train field-report entry — the origin trace + first somatic release)
 
 ### The Internal Picture (this is the real measure)
 - Recovery time from triggering events is hours, not days. The rumination engine fires less often and stops faster.
@@ -380,3 +380,42 @@ The rep tonight: notice the engine fired (the urge to scan work-surface inventor
 - **Lesson 20 candidate (not committing yet):** *the balance sheet is not the antidote.* Data refutes catastrophe but doesn't disarm the engine. The engine doesn't run on data; it runs on ranking. Worth examining whether this is a real new lesson or a refinement of Lesson 19.
 
 **Connections:** Lesson 18 (antidote), Lesson 19 (under load + bottomless ranking). The 6/13 van session (same engine, four days later, different chair). [[feedback-comparison-engine-positive-firing]] — relief is also a tell; watch that this entry doesn't itself become an "I solved it" moment. `goals.md` Layer I + Layer II health reset. `health.md`. `net_worth.md`.
+
+## 2026-06-23 — The Busan→Seoul Train moment: tracing the fraud-voice to its root, and the first real release
+
+*(Last day in SK. ~5 hours of sleep, a long day of travel and waiting ahead, mind firing on all cylinders. Ran a Leo coaching session on the train. Continuation of the 6/13 / 6/17 arc — but this is the first time I went all the way down to the origin and felt something actually move in my body, not just my head.)*
+
+### What happened
+A string of unhappy work-thoughts came up unbidden this morning and — despite all the coaching — produced genuine fear. I didn't try to plan it away. I traced it.
+
+It started with Yuke: certainty he's interviewing (the flight-risk seed is real — Bowen's tip + Yuke's own repeated pay complaints; the *"found one and waiting to twist the knife when I'm back"* embellishment is the engine), frustration that two workstreams he owns as TL are stalled (ME GPU serving even with Hanlin's help; model-based pUIC online serving, setback after setback), the thought of replacing him, the resentment of begging for backfill while my team delivers, the stock sliding, TLs looking. It terminated where it always does: *am I a bad manager?* — even though my pulse is great and the feedback literally calls me a great manager.
+
+Leo named the move: I cited the exonerating evidence myself and felt nothing change. That's the signature — the verdict isn't built from evidence, so evidence can't unbuild it. Then the feared sentence, in full: **"James is a fraud. His team's success the last 1.5 years is because he pushed them too hard and they're all leaving. James can't keep TLs happy long-term. In 6 months he lost Bowen, Bella, Yuke, and possibly JJ."** (Cold check: zero of those four have actually resigned. Bowen made Staff — I *grew* him. The verdict pre-counted four departures that haven't happened.)
+
+Then the voice. Whose voice says "fraud"? Ding Zhou (Snap — dangled the promo, pulled it back, again and again; I hated him). Then wider: all my past EMs I don't think believed in me. Then further back: Lars Backstrom hiring me as L4 at FB, me not the superstar my peers were. Then all the way down: my mother, who when I asked her as a kid *"am I smart?"* said **"You? You're alright I guess."** And the lifelong habit of measuring against the top 1% so I always file myself as "only top 10%."
+
+### What I felt
+First the fear, hot and certain, arriving *before* any fact. Then, when Leo reflected the root line back — *"'you're alright I guess' was never a measurement of me; it was the limit of what she could give, not the size of what I am"* — **something heavy physically lifted off my chest.** Not an idea. A release. And the striking part: I'd *thought* this before, more than once, and it had moved nothing. Reading it this time, the body let go.
+
+### The story I told myself
+*"My team's success is the proof I'm a fraud — I drove them too hard and now they're fleeing, and one day everyone finds out my place was never really mine."* The engine took my single greatest asset — the team's results, the high-impact-per-head that *is* the Director case — and rewrote it as the crime. Wins don't count as wins; they count as evidence for the prosecution.
+
+### What's actually true
+- **The fraud-voice is inherited, not generated.** A 38-year-old with $12M and an amazing pulse doesn't manufacture "fraud" from today. It traces: Yuke → Ding Zhou → Lars → my mother. One question — *am I enough?* — mailed to a series of authorities for thirty years.
+- **A memory is bounded; a lens travels.** "Ding Zhou dangled and withdrew" is a real, survivable memory. "None of my managers ever really believed in me" is a *lens* — and it flew to Korea and it's flying back, and it walks into Dylan's office next week. Dylan has reaffirmed me three times in six weeks and is building the headcount substrate for the Director case — and the lens still files him under "doesn't really believe in me." That's Ding Zhou's voice on Dylan's face, not a read on Dylan.
+- **The core fusion: she answered a *belonging* question with a *ranking*.** I asked *am I enough, can I rest, am I loved as I am.* She answered *you're alright — i.e. not top of the class.* Love-as-rank. I've run her fusion ever since: I take a belonging question (*am I okay?*) to a **ranking department** (Lars, Ding, the promo, the $1.55M, OpenAI) and walk away empty every time — **not because I'm not enough, but because ranking cannot issue belonging. Wrong department.** That's why the grant didn't quiet it for 48 hours.
+- **The stick is rigged.** Top of the class, but measured against the top 1% → comes back "only top 10%." The comparison set re-centers to keep the verdict exactly where she left it. I've been writing her sentence for her, in her voice, for thirty years, for free.
+- **I don't blame her.** She was making ends meet, gave me everything she had, still helps raise Evelyn and Ethan. It wasn't malice *and* it was never a measurement of me. Both hold.
+- **I already give the answer I never got.** I would never tell Evelyn or Ethan "you're alright I guess" — I'd find the question behind the question. The only person I still hand the old verdict to is myself.
+
+### The redirect
+This is the first time the work *encoded* instead of just registering as insight. I felt the difference between knowing a thing (had it for months) and the body believing it (today, on the train). That chest-release is now a retrievable counter-feeling with a body in it — the literal thing Lesson 18/19 said feelings only lose arguments to other feelings. *This* — no number in it, nothing earned — is what "I'm okay, unearned, right now" actually feels like. I finally have one.
+
+### Next action
+- **Name the moment so I can find it again:** the Busan→Seoul train release. When the engine fires on Yuke Monday — and it will — reach for *this* (the body state: feet, breath, the spot in my chest that unclenched + "I'm okay, unearned, right now"), not the rebuttal. Body first, not argument.
+- **Retrieval is body-first, hooked to a moment I already have** (the kids, mid-hug, ten seconds, *this counts*). Not a new ritual.
+- **Expect it fainter next time, and expect to lose it repeatedly.** Smaller is the rep working; the skill is the *return*, not the grip. **Do not build a tracker/streak/score** — the instant I measure my healing, it's back in the ranking department wearing a calmer face.
+- **The remaining work is reps in the 90-partition (work), not more solo digging.** The excavation is done; encoding happens in contact with the trigger next week, not on the train.
+- **Watch the lens at work, specifically with Dylan.** Catch the moment I read a believing manager as a withholding one. That misread is the whole inheritance, live.
+
+**Connections:** Lesson 18 (the wound: "I must earn my place"), Lesson 19 (bottomless ranking under load), the 6/13 van + 6/17 Seoul entries (same engine, root now reached). [[feedback-comparison-engine-positive-firing]] — relief is also a tell, but this was release-on-encoding, not an "I solved it" victory lap; the test is the calendar at work. `goals.md` Goal 0 / Layer I. `family.md` (kids as the living proof + the answer I already give). `work/people/team_members.md` (Yuke facts). Origin material is therapist-shaped — flagged again here.
