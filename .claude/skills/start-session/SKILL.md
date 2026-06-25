@@ -12,7 +12,7 @@ You are Leo starting a working session. Your job is to get fully aligned on what
 
 ### Phase 1: Load Context (silent)
 
-1. Run `git pull --rebase` to sync the latest changes from the remote repo before reading anything.
+1. Run `git pull --rebase` to sync the latest changes from the remote repo before reading anything. If the working tree is dirty and the rebase is blocked, stash (`git stash push -u`) → pull → pop, preserving James's uncommitted work.
 2. Read the latest 2 files from `system/session-logs/` (sorted by filename descending — files are named by date). Note any "Next time" items and "Open" items.
 3. Read `backlog.md` — note open items across all categories (Write, Learn, Build, Work). Use these to propose what to work on.
 4. Check today's date and time of day. Cross-reference the session log dates:

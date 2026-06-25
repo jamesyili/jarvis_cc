@@ -168,3 +168,35 @@ The Reid chat is the **gate** to a standard slate. Don't over-rotate on later ro
 ## The frame to walk in with
 
 You're a Sr EM with active executive sponsorship at a $30B+ consumer-ML company — real recommendations craft, a genuine and lived pull toward preventing real-world harm, moved upstream to the model layer, hands-on enough to ship code. You don't have to choose between "recsys EM" and "integrity person" — you're the rare both, which is exactly what a content/behavior harm-classifier team led by a security-minded HM should want. That's the table you're walking up to — not a seat you have to earn permission to want. Reid is "one of Coralynn's favorites" for a reason; meet him as a peer who happens to be evaluating whether his team is the right next altitude for you. Conviction without commitment. Land one deep technical thread, ask two questions that make him think, leave him wanting the next conversation.
+
+---
+
+## Post-mortem — the chat happened, outcome was a no (2026-06-25)
+
+**Outcome:** Reid chat happened (after a ~3-week postponement on James's side). The conversation read *well* live — Reid closed with *"I'm very excited about some of the things you mentioned today."* Recruiter rejection email landed the next morning. Both things are true: genuine engagement in the room **and** a no. A 30-min HM no almost never means "not good enough" — read it as level/fit/timing, not a verdict.
+
+**Honest read on the no (low-signal — don't over-learn from it):**
+- James **postponed the chat ~3 weeks** — by the time it happened the seat may already have been effectively filled; the call could have been partly obligatory.
+- James came in **jet-lagged off a three-week China trip, scrambling for English, and did not prep.** This was a half-pursued round — engine-driven enough to take the call, not committed enough to compete. You can't read the bar from a round you didn't train for.
+- So: don't file this as evidence about James or about "OpenAI's high manager bar." It's a round he didn't run at.
+
+### Intel worth keeping (durable regardless of outcome — this is a real map of OpenAI Integrity)
+
+**The org under Reid — three teams:**
+1. **Scaled Infrastructure** — a rule engine that runs a few million times; the entry point Integrity & Safety use for a bunch of detection/mitigation systems.
+2. **Youth Well-being** — kids/teens (no support for 12-and-under, so teenagers). Age prediction + age verification, plus how the experience should differ for minors (steer toward learning, different safety bars).
+3. **Integrity Research** ← *where this seat lives.* The classifiers + agentic pieces + eval. The ML/research-engineer bench inside a ~70-person integrity org. People work as **virtual teams** — e.g. ~2 on account integrity, 2 on image-gen over-refusals (reducing incorrect refusals), 3 on automated actioning (automating human review/investigation, esp. for privacy-guaranteed environments). They usually *lead* one or two projects and *contribute* to many they don't control.
+
+**The role thesis (Reid said it almost verbatim):** he wants an **architectural center** for the team so they're not reinventing the wheel, are using the best tool for the job, and invent new ones when needed. *"I'm a systems guy, character flaw — I'm not a machine learning person. I'm looking for an ML expert who's also a mature manager."* He's explicitly hiring for his own gap. (This is exactly James's shape — which is why the room went well.)
+
+**KPIs:** (1) **Harm reduction.** (2) **Automated decision rate** — "how much of this can we automate." Rationale: OpenAI is accelerating, but so are all partner teams; this team has to accelerate **cumulatively** to match the *sum* of partner teams, not linearly.
+
+**The vision (the spine of the role):** *"Integrity today is a human-run system with a bunch of tools that use LLMs at their core — and that can't stay true. It needs to become an LLM-run system with a bunch of tools that use LLMs at their core, that relies on people at the places where judgment should rely on people, with excellent observability and metrics so people remain firmly in control."* Human review should be **training data, not a repeated decision** — like a post-mortem, you shouldn't have to re-litigate the same call twice. Build **data flywheels** across all surfaces.
+
+**The customer model (a real-time reframe James landed in the room, and Reid built on):** the team's customers are the **other integrity teams** (account integrity, investigations) who already own their charters and *want* to automate — so it's about **leveraging built trust** and being pulled in for the train/approve/eval-a-model pieces, not taking work off their plate. Reid's add: trust always matters; some teams think they can do it themselves (lots of engineers can train *a* model; some prompt their way through). So you **sell into their world** — understand their problems, what they'd offload, what they can't do — then zoom out across all integrity problems to allocate limited resources for max ROI at 1yr / 3yr.
+
+**Norms / what he wants in the person:**
+- **WLB:** ~50hr/week job (not 80), "medium burn all the time, occasionally sprint." One engineer's worth of output ≈ 45–50 hrs. A few people sprint hard by choice (and get >1 engineer's output); he has explicit sustainability conversations rather than mandating hours.
+- **The person:** deep ML expertise in *one* area; **facile** (not expert) understanding of adjacent areas + ability to ramp fast (his example: multimodal embeddings — follow the conversation, learn, give good leadership feedback, decide if it's the right tool). Same on the systems side — enough to give good feedback, not the deepest expert on every system. **Humility to ask questions** when he doesn't know. ("In a codex world, more systems show up all the time.")
+
+**If James ever circles a frontier-lab integrity seat again:** this map is the prep. The lesson for next time is operational, not existential — *don't take a high-stakes interview you won't prep as a craft.* Half-in costs the sting without buying the upside.

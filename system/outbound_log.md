@@ -39,3 +39,4 @@
 | 2026-06-11 00:02 | gmail | [Leo] goals.md | work+self/goals.md | to=jamesyili@gmail.com id=19eb57d11813532b |
 | 2026-06-11 00:02 | gmail | [Leo] goals.md | /private/tmp/goals_verbatim.markdown | to=jamesyili@gmail.com id=19eb57d17ce1f7ec |
 | 2026-06-11 21:26 | gmail | [Leo] Ml Interviews Silviasapora | work/interview_prep/ml-interviews-silviasapora.html | to=jamesyili@gmail.com id=19eba14c0e990a1f |
+| 2026-06-18 18:40 | gmail | [Leo] Return 1:1 Prep Messages — June 2026 | work/people/return_1on1_prep_messages_2026-06.md | to=jamesyili@gmail.com id=19edd892d33132b0 |
