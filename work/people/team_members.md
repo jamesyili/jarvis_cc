@@ -2,7 +2,7 @@
 
 > James's direct reports and key team context. Updated as situations change.
 
-Last updated: 2026-06-17
+Last updated: 2026-06-24
 
 ---
 
@@ -41,27 +41,29 @@ Last updated: 2026-06-17
 - **Risk:** If promo doesn't land + Bowen departure + AI market = potent combination for JJ to look. Have contingency conversation ready.
 - **Single point of failure:** Essentially solo on Real-Time. No coverage if he left.
 
-### Yuke (TL, Retentive Recs)
-- **Role:** Tech lead for Retentive Recs / p(UIC)
+### Yuke (TL → IC transition in progress)
+- **Role:** Tech lead for Retentive Recs / p(UIC) — **TL role ending; stepping to IC**
 - **Workstream:** Retentive Recs
 - **1:1:** Thu 2:00pm
-- **Context:** Flight risk. Been asking interview questions about market pay. Unhappy about promo deferral. Short tenure history. OOO next week.
-- **Retention anchor:** EB1 green card sponsorship — James handling. This is the primary lever.
-- **Promo timeline:** Not ready by mid-year. Needs p(UIC) successfully built and landed. End of year is right window.
+- **Context:** Flight risk. Been asking interview questions about market pay. Unhappy about promo deferral. Short tenure history.
+- **Retention anchor:** EB1 green card sponsorship — James handling. Green card dependency means no abrupt departure.
+- **Promo timeline:** Moot — stepping to IC.
 - **Dynamic:** Doesn't get along with Devin. See Chuxi-Devin-Yuke dynamics in goals.md.
 - **2026-06-14 update — OOO performance signal (decision-relevant for the TL call).** During James's OOO: **progress is slow, no proactive updates, and he's absent from the syncs** (not showing in meeting notes). Reinforces the already-documented flight risk (market-pay interview questions, promo-deferral unhappiness). James considered filing an ER ticket (worried he's interviewing) and **held off** — it's a yellow flag not a verdict (two weeks, read off meeting notes), no feedback has been given yet, and a flight-risk-driven ER record is improper/pretextual. **This is direct evidence for the goals.md "grow into the TL role, or reposition" call.** Investigate properly on return *before* concluding: did Yuke know he owned this / was expected to drive updates, or did ownership default to ambiguity when James left? Is he partly OOO himself? Did the sync structure change? Could be a character signal; could be a delegation gap that's partly James's. Hold loosely until back and clear-headed.
 - **2026-06-23 update — delivery facts vs. fear-narrative (separated deliberately).** **Facts:** two workstreams Yuke owns as TL are stalled — (1) ME GPU serving still not delivered *even with Hanlin's help*, (2) model-based pUIC online serving not delivered, "setback after setback" despite TL role + two engineers. He is not training models that James can see, and isn't going deep on serving either. James is now weighing **replacing him on the critical workstream** (acknowledged as a likely push-out if he isn't already on the way out). **Fear-narrative (James's words, flagged as story not fact):** "certain he's interviewing for staff-level elsewhere and can't find it / or has found one and is waiting until I'm back to tell me." This is the engine writing — no evidence cited. **Corroborating context:** Yuke's Monday-off fever is real and part of a **team-wide sickness wave** (6/22–6/23: Zili off, JJ off, Hanlin OOO Wed 6/24, Yali off-but-on-call) — so the absence reads less like coasting than the heat first claimed. Carry the delivery question (real, cold, James's to own) into the return; leave the interviewing story parked until there's actual evidence.
+- **2026-06-24 update — interviewing confirmed; TL transition initiated.** James had a direct conversation. **Key facts:** (1) Yuke confirmed he is actively interviewing. Reasons: doesn't believe in Pinterest long-term (Snap-repeat fear), wants backup plans, green card stability — NOT about James or the team. Also: devaluing traditional Staff ladder given industry trend of senior people leaving high titles for Anthropic/OpenAI technical staff roles. (2) Work accounting: ME GPU rollout — he's on Unity side, Hanlin on model deployment, claims progress. Model-based pUIC — deliberately deprioritized because not career-relevant; mostly unblocking Yidi and answering questions. LLM-based pUIC — reviewing Chuxi's code, working with her. (3) James delivered IC15 feedback directly: not making Staff, not doing IC15 job — below standard since roughly February. Yuke accepted with no pushback. (4) James gave two options: stay as TL of Retentive Recs, or step down to IC. Yuke committed to bringing his own proposal to **Monday 6/29 1:1**. (5) Yuke's constraint: doesn't want PIP threat; green card dependency keeps him from abrupt departure. **James's read:** Yuke is almost certainly choosing IC — he's already been behaving like one. Monday is the formalization.
 
 ### Alok (Real-Time, Dynamic Triggering)
 - **Workstream:** Real-Time, PhP / Dynamic Triggering (~50% allocation, gate cleared March 30)
 - **1:1:** Thu 2:30pm
 - **Context:** ELT presentation cleared funding gate. Alok moving to ~50% on Dynamic Triggering. Needs tight leash — give one scoped deliverable at a time. First task: scope Ads surface expansion with Mehdi (data, CG architecture, transfer analysis). Weekly review cadence on DT work.
 
-### Chuxi (Retentive Recs)
-- **Role:** Primary IC on Retentive Recs / p(UIC). Promo vehicle.
+### Chuxi (Retentive Recs — incoming TL)
+- **Role:** Primary IC on Retentive Recs / p(UIC). Promo vehicle. **Incoming TL pending Yuke's IC transition.**
 - **Workstream:** Retentive Recs
 - **1:1:** Wed 4:30pm
 - **Context:** Bridge between Yuke (Retentive Recs) and Devin (CLR) on retentive signal integration. Make sure she's in architectural decision rooms, not just execution. Building independence as hedge against Yuke departure.
+- **2026-06-24 update — TL succession.** James plans to give Chuxi most of Yuke's TL responsibilities once Yuke's path is formalized (Monday 6/29 1:1). Already has context on pUIC serving challenges; Yidi confirmed she's been involved in model-based pUIC. Model side easy pickup. Clean growth story. Chuxi does not yet know she's being considered — conversation pending Yuke decision.
 
 ---
 
@@ -85,6 +87,7 @@ Last updated: 2026-06-17
 ### Yidi
 - **Workstream:** Retentive Recs (fractional), Content Exploration (fractional)
 - **1:1:** Wed 4:00pm (alternating)
+- **2026-06-24 update.** Flagged to James (unprompted) that Yuke has been less engaged and she's been carrying most of the model-based pUIC implementation. Zelun (ATG) is the cross-team collaborator on this work. James asked her to add him to Slack threads with Yuke and Zelun — she agreed but wants their permission first. Strong signal of good judgment and communication; James gave her explicit positive feedback on communication dimension (significant improvement, lots of posting). Yidi also confirmed that Chuxi has been involved in pUIC and knows the serving challenges.
 
 ### David
 - **Workstream:** Departing April
@@ -115,6 +118,20 @@ Last updated: 2026-06-17
 ### Charlie — EXITING (formal PIP/CPP)
 - **Workstream:** AI projects (under James's direct TL supervision)
 - **Status:** On formal PIP/CPP (decision 2026-04-07; CPP started 4/30). Exiting; James gets the headcount back. The backfill head is routed to **Alim's team** (Anticipation / RecGPT) per the 2026-06-17 team-split proposal.
+
+---
+
+## Adjacent / Cross-Team (not direct reports)
+
+### Olafur (TL, reports to Dylan)
+- **Team:** Dylan's org (not James's direct team)
+- **Role:** TL-level peer. Being looped in to review high-level architecture on model-based and LLM-based pUIC. Scope extension, not ownership transfer.
+- **Added 2026-06-24.**
+
+### Zelun (ATG team)
+- **Team:** ATG (not James's direct team)
+- **Role:** Cross-team collaborator on model-based pUIC with Yidi.
+- **Added 2026-06-24.**
 
 ---
 
