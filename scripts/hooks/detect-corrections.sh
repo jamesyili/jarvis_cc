@@ -93,8 +93,8 @@ if [ -n "$CORRECTIONS" ]; then
   echo ""
   echo "$CORRECTIONS"
   echo ""
-  echo "Consider saving a feedback memory (type: feedback) if this is a behavioral pattern worth remembering."
-  echo "Check MEMORY.md first — update an existing memory if one matches, otherwise create a new one."
-  echo "Only save if the correction applies to future sessions, not one-off factual corrections."
+  echo "Consider capturing this as an INSTINCT in system/instincts/ if it is a behavioral pattern worth remembering."
+  echo "Check system/instincts/INDEX.md first — enrich an existing instinct if one matches, otherwise create a new instinct file (frontmatter: id/trigger/behavior/confidence/evidence_count/created/last_updated/status) and add a line to INDEX.md."
+  echo "Only capture if the correction applies to future sessions, not one-off factual corrections. (The ~/.claude auto-memory store is retired — do NOT save memories there.)"
   echo "=== END CORRECTION SIGNAL ==="
 fi

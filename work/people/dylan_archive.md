@@ -98,7 +98,7 @@ The implication for the Dylan relationship: the 4-week pre-China window cannot m
 
 **Operating implication consolidating all three:** Don't fight Dylan's decisions. Don't push timing. Trust the commitment. Surface value-case observations as input. Practice declarative-not-inferential in 1:1s. Score on what's flowing in, not what's resisting. The arc is multi-quarter and she's there for it.
 
-See auto-memories: `project_director_timing_reframe.md`, `project_dylan_staying_not_transitioning.md`.
+(These reframes — Director-timing-2027 and manager-staying — were consolidated into this archive from the now-retired auto-memory store, 2026-06-26.)
 
 ---
 

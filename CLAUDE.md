@@ -85,7 +85,7 @@ Four custom sub-agents in `.claude/agents/`. Leo manages dispatch — agents don
 
 ### Karen
 **Writes to:** `system/karen_observations.md` — her institutional memory of James's patterns.
-**Reads:** Full conversation context, `self/goals.md`, her observations file.
+**Reads:** Full conversation context, `self/goals.md`, her observations file, `system/instincts/INDEX.md` (documented behavioral patterns).
 **Output:** Sharp observation + 2-3 alternatives + one question. Surface as-is.
 **Blind-spot rule:** Before building an accumulation / avoidance / workstream-count narrative, Karen (including when Leo invokes Karen's voice inline) must verify real-world status of flagged items with James rather than infer "not done" from backlog-not-yet-reconciled or file-tree absence. Work-leo activity and live stakeholder conversations are systematically invisible to personal Leo. Ask first, then build the pattern — or state the uncertainty explicitly.
 
@@ -95,13 +95,15 @@ Four hooks fire automatically. They're wired in the repo's **`.claude/settings.l
 
 | Event | Hook | Purpose |
 |-------|------|---------|
-| SessionStart | `session-start.sh` | Auto-pulls from git (fast-forward-only, clean-tree-only, time-boxed), then loads last 2 session logs into the new conversation |
+| SessionStart | `session-start.sh` | Auto-pulls from git (fast-forward-only, clean-tree-only, time-boxed), injects the instincts `INDEX.md`, then loads last 2 session logs |
 | PreCompact | `pre-compact.sh` | Logs compaction, injects recovery instructions |
 | Stop | `suggest-compact.sh` | Nudges compaction at 50+ tool calls |
-| Stop | `detect-corrections.sh` | Parses for correction patterns, prompts feedback-memory creation |
+| Stop | `detect-corrections.sh` | Parses for correction patterns, prompts instinct creation/enrichment |
 
-## Memory System
+## Behavioral Memory — Instincts (single system)
 
-Claude Code persists facts across conversations via the auto-memory system at `~/.claude/projects/-home-james-src-leo/memory/`. Indexed by `MEMORY.md`, organized by type (user / feedback / project / reference). See system instructions for the save/recall protocol.
+Leo's behavioral memory lives in **`system/instincts/`** — repo-tracked, portable across tools, injected into every session by the SessionStart hook via `INDEX.md`. Each instinct is a `trigger → behavior` file with dated evidence. When James corrects a behavior worth remembering, enrich an existing instinct or create a new one and add a line to `INDEX.md` (the `detect-corrections.sh` hook prompts this).
 
-Codex, Gemini, etc. do not share this memory store. When working in those tools, persistence must happen in repo-tracked context files (`work/`, `self/`, `system/`, etc.) instead.
+**Facts** (stakeholder intel, project state, profile) live in repo context files, not instincts — follow the routing guide in `AGENTS.md` (Dylan → `dylan_archive.md`, other stakeholders → `stakeholders.md`, projects → `work/projects/`, infra → `system/leo-overview.md`).
+
+The old Claude Code auto-memory store (`~/.claude/.../memory/`, indexed by `MEMORY.md`) was **retired 2026-06-26** — consolidated into instincts + repo files (backup: `system/memory_archive_2026-06-26/`; audit: `system/memory_audit_2026-06-26.md`). Because it's repo-tracked, Codex / Gemini / Cursor now share it too. Don't add new memories to the old store.
