@@ -31,6 +31,16 @@ if git -C "$REPO_ROOT" rev-parse --git-dir >/dev/null 2>&1; then
   echo ""
 fi
 
+# --- Inject the instincts index (behavioral memory; the single system, replacing
+# the retired ~/.claude auto-memory). Always runs, even if session logs are absent. ---
+INDEX_FILE="$REPO_ROOT/system/instincts/INDEX.md"
+if [ -f "$INDEX_FILE" ]; then
+  echo "=== INSTINCTS (behavioral memory index — read the full file in system/instincts/ when one applies) ==="
+  cat "$INDEX_FILE"
+  echo "=== END INSTINCTS ==="
+  echo ""
+fi
+
 if [ ! -d "$SESSION_DIR" ]; then
   exit 0
 fi
