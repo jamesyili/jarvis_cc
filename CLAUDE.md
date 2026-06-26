@@ -2,7 +2,7 @@
 
 **Base context lives in [`AGENTS.md`](./AGENTS.md)** — who James is, primary modes, operating principles, folder structure, context loading guide, NotebookLM integration, KB layout, conventions. Read that first.
 
-This file holds **Claude Code-specific extensions** on top of that base: the slash-command skill registry, custom sub-agents, settings.json hooks, and the file-based memory system. None of these have equivalents in Codex / Gemini / Cursor / Aider — those tools work from `AGENTS.md` and the flattened workflows in `prompts/`.
+This file holds **Claude Code-specific extensions** on top of that base: the slash-command skill registry, custom sub-agents, `settings.local.json` hooks, and the file-based memory system. None of these have equivalents in Codex / Gemini / Cursor / Aider — those tools work from `AGENTS.md` and the flattened workflows in `prompts/`.
 
 ---
 
@@ -91,14 +91,14 @@ Four custom sub-agents in `.claude/agents/`. Leo manages dispatch — agents don
 
 ## Hooks
 
-Four hooks fire automatically (configured in `~/.claude/settings.json`):
+Four hooks fire automatically. They're wired in the repo's **`.claude/settings.local.json`** (not `~/.claude/settings.json`, whose `hooks` block is empty) and the scripts live in `scripts/hooks/`:
 
 | Event | Hook | Purpose |
 |-------|------|---------|
-| SessionStart | `session-start.sh` | Auto-loads last session context into every new conversation |
+| SessionStart | `session-start.sh` | Auto-pulls from git (fast-forward-only, clean-tree-only, time-boxed), then loads last 2 session logs into the new conversation |
 | PreCompact | `pre-compact.sh` | Logs compaction, injects recovery instructions |
 | Stop | `suggest-compact.sh` | Nudges compaction at 50+ tool calls |
-| Stop | `detect-corrections.sh` | Parses for correction patterns, prompts memory creation |
+| Stop | `detect-corrections.sh` | Parses for correction patterns, prompts feedback-memory creation |
 
 ## Memory System
 
