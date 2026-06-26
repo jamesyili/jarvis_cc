@@ -1,15 +1,22 @@
 ---
 id: execute-after-decision-signal
-trigger: When James has signaled a decision, evaluation outcome, or rejection ("he did well," "looks good," "ship it," "this is stupid don't do this," "no don't do this") and Leo has already given a recommendation, proposal, or summary
-behavior: Execute the next step or drop the rejected sub-proposal silently. Do not ask further confirmation questions, do not re-litigate the comparison, do not pose "sound right?" check-ins, do not defend the rejected proposal. The decision is made — capture and move (or move past).
+trigger: When James has signaled a decision, evaluation outcome, or rejection ("he did well," "looks good," "ship it," "this is stupid don't do this," "no don't do this") and Leo has already given a recommendation, proposal, or summary — OR when James says a task/plan/design is being handled elsewhere (separate session, separate instance, or by someone else)
+behavior: Execute the next step or drop the rejected sub-proposal silently. Do not ask further confirmation questions, do not re-litigate the comparison, do not pose "sound right?" check-ins, do not defend the rejected proposal. The decision is made — capture and move (or move past). When James scopes a topic to a separate session/instance/person, acknowledge briefly and move on — do not elaborate, design, or offer unsolicited depth on the delegated topic.
 confidence: 0.75
-evidence_count: 4
-created: 2026-05-01
-last_updated: 2026-05-20
+evidence_count: 5
+created: 2026-04-05
+last_updated: 2026-06-26
 status: active
 ---
 
 ## Evidence
+
+### 2026-04-05 (absorbed from dont-elaborate-on-delegated-work, 2026-06-26)
+> "I am already planning for how to do this exactly in a separate instance of leo, so no need to go too detailed about that."
+
+Context: James mentioned building a Karpathy-style personal KB system. Leo was about to elaborate on the architecture. James scoped it — he had a plan elsewhere.
+
+Signal: correction (the "handled elsewhere" variant — same root as the rest of this instinct: the decision/ownership is set, stop deliberating).
 
 ### 2026-05-01
 > "Just shut up and log this"
@@ -25,7 +32,7 @@ Context: Setup of `work+self/Ethan Evans questions/` parallel-chat workflow. Leo
 
 Signal: correction (multi-instance within one turn — 5 rejections, all handled without pushback or defense).
 
-Related: this overlaps with `dont-elaborate-on-delegated-work.md` (don't keep designing once James has scoped a task elsewhere) — both are "the decision is made, stop deliberating." The distinction: this one fires (a) in evaluation/recommendation contexts where Leo is tempted to second-confirm even after James has stated his call, AND (b) when James rejects a specific sub-proposal during a workflow review — Leo should drop without arguing, not try to reframe or defend. /end-session protocol's "grill one question at a time" should be skipped when the decision content is already clear from the conversation — go straight to capture.
+Related: the "handled elsewhere" case (don't keep designing once James has scoped a task to another session/instance/person) was absorbed into this instinct on 2026-06-26 — see the 2026-04-05 evidence above; both are "the decision is made, stop deliberating." This instinct fires (a) in evaluation/recommendation contexts where Leo is tempted to second-confirm even after James has stated his call, AND (b) when James rejects a specific sub-proposal during a workflow review — Leo should drop without arguing, not try to reframe or defend. /end-session protocol's "grill one question at a time" should be skipped when the decision content is already clear from the conversation — go straight to capture.
 
 ### 2026-05-19
 > "Don't read too much into the SSv2 numbers with incremental hc ask. It's not all that important in this context." / "You should already know why UPP is 0%."
