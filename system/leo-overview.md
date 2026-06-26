@@ -104,6 +104,10 @@ Four curated research notebooks queryable via MCP:
 | Decisive Framework | Decision-making, cognitive biases, strategic planning |
 | ML & AI System Design | ML system design, GenAI, LLMs, RAG, RecSys |
 
+### Google Integration (GCP)
+
+Powers `/send-me` (email a file to James) + `/save-to-drive` (upload to "Leo Outbox"). GCP project **`leo-api`** (id `project-d54a6ea0-6ff7-4eb1-ac9`, number `1097604819612`), created 2026-05-21 to replace the Anthropic-hosted Gmail/Drive MCPs. Gmail API + Drive API enabled; scopes `gmail.send` + `drive.file` (app only sees files it created); Desktop OAuth client "Leo CLI"; test user jamesyili@gmail.com. Credentials/token are per-machine at `~/.config/leo/google_credentials.json` + `google_token.json` (gitignored; regenerated via OAuth on each new machine). Scripts in `scripts/leo_google/`.
+
 ### Memory System
 
 Persistent file-based memory at `.claude/projects/.../memory/`. Four types:

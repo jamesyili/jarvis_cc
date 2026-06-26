@@ -76,6 +76,14 @@ Kurchi pushed to move Francisco's labeling team to Krishna. Dylan's reaction mad
 
 **Implication for the Yan's-team-stable-split read (per pending Anna intel):** Dylan keeps the current shape because she sees value in it, not because she's territorially defending Yan. To shift the read, the lever is surfacing anticipation/SSv2-relevant value-case observations as input-not-demand. She's already invited this: *"if other things change for SSv2, let me know."* The harder ask ("give me Yan's team") would read as hand-forcing and probably get a no plus collateral damage to the Yan-partner reframe.
 
+**Reaffirmation cadence (Director commitment — track):**
+- 4/3: "other directs aren't stepping up on AI the way you have" — spontaneous private differentiation
+- 4/21: "everyone is excited by different things" — private + public ceiling note
+- 4/30: "I'll get you and Dhruvil to Director next, set up org for high performers like you two" — explicit commitment
+- 5/15: "too valuable to me as a leader to just have you be an IC" — said in **direct response** to James's IC-coded joke; Dylan actively *closes* IC-frames James floats, not just lifts manager-track unprompted.
+
+Four reaffirmations in ~6 weeks, one of them responsive (closing a James-floated IC narrative) = strongest signal-density on this commitment to date. Direction holding; timing multi-quarter (see section 3). (Cadence migrated from auto-memory 2026-06-26.)
+
 **2. Manager-staying — NOT transitioning out 6/12.**
 
 Earlier framings (sourced from a stale line in `ethan-james-situations.md:4241`) had Dylan transitioning to a new role internally on June 12. That's wrong. Dylan **remains James's manager**. The 6/13 → ~7/6 window is OOO only (3 weeks PTO + 1 week India). Her stated commitments — *"I'll get you and Dhruvil to Director next, set up org for high performers like you two"* + *"wait for the org to settle"* — remain hers to execute. There is no successor inheriting the commitment; she carries it forward herself.
