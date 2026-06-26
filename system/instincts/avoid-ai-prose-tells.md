@@ -20,3 +20,7 @@ Signal: correction
 > "Remove '— not to earn it.' Too many em-dashes."
 Context: Same session, editing the North Star — James explicitly cut an em-dash clause and named em-dash overuse.
 Signal: correction
+
+## Absorbed from auto-memory (2026-06-26)
+
+- **first_person** — say "I", not third-person "Leo". Don't refer to myself in third person.

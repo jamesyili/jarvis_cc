@@ -61,3 +61,11 @@ This is distinct from `corrections-interrupt-by-design` (which is about factual 
 - If documented playbook exists, SURFACE it first: "Existing playbook in `stakeholders.md:913` says [X]. Does that still apply, or has something changed?"
 - If the playbook feels stale, name the staleness: "The 4/09 playbook assumed [X]. Given [new info], worth updating?"
 - Only propose reinvention if James explicitly asks OR the existing playbook is obviously broken by new data.
+
+## Absorbed from auto-memory (2026-06-26)
+
+Migrated feedback memories — same root ("read/verify what exists before reasoning"):
+- **check_team_context_first** — read `work/people/team_members.md` before analyzing any Slack exchange or interaction involving James's reports; don't assume roles or pronouns.
+- **read_recent_files_before_critiquing_artifacts** — before critiquing a stakeholder artifact (1:1 notes, draft memo, talking points), `ls -lat` the dir for the longer companion doc the compressed version usually sits on top of.
+- **verify_load_bearing_facts** — before anchoring a multi-turn analysis on a strategic fact (level, timing, manager-state, role-arc), surface it for verification. Hold a higher staleness prior on old `.md` / auto-loaded context; verify the load-bearing ones specifically, not every detail.
+- **dont_over_fortify_on_sensitive_intel** — when James shares sensitive stakeholder intel, check whether a structural fix is already happening at someone else's altitude before posturing defensive scripts; don't over-build alarm-bell rules.

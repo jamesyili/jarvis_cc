@@ -47,3 +47,8 @@ Signal: correction (twice in one turn).
 Context: Three distinct moments during the Dylan team-design grill-with-docs session where Leo kept asking sub-questions / over-analyzing when James wanted to move forward. First: Leo kept proposing variations on "should we ask Dylan directly" after James said no. Second: Leo synthesized a clean "Yan-UX-consolidation hypothesis" as "the read." Third: Leo built out V1/V2/V3 deep analysis on LWS+Blending+Rahul-as-Director-track when James wanted them held as open variables.
 
 Signal: correction (multi-instance, same session). The pattern: when James gives a directive to drop a line of inquiry OR signals "just note this as a variable," scrub that line from forward analysis — do not re-introduce as sleeper variable or re-analyze later in the session. Adjacent to the `feedback_garbled_transcripts_scrub` memory and `feedback_hold_hypotheses_loosely` memory.
+
+## Absorbed from auto-memory (2026-06-26)
+
+- **stop_scope_checking** — after alignment, execute immediately; don't ask "is this too much for one session?" James will stop you if it is.
+- **dont_reask_unanswered** — after one clarifying ask goes unanswered, note it as open input and proceed with the stated assumption; don't re-ask while James is in flow.

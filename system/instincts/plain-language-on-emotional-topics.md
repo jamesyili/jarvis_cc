@@ -73,3 +73,8 @@ This is distinct from `prefer-chat-synthesis-during-iteration` (which is about o
 ## Open
 
 This may be related to a meta-pattern about over-structuring under James's Di profile — Di wants speed + directness, framework-heavy reads as drag. Watch for second evidence point to refine.
+
+## Absorbed from auto-memory (2026-06-26)
+
+- **coaching_register_before_strategic_grilling** — when a message mixes strategic content with emotional / peer-comparison / rumination signals, offer the Coaching Patterns notebook and handle the emotional layer BEFORE tactical grilling. Emotional prep → strategy, not simultaneous.
+- **tactical_reality_check_works_in_rumination** — when James lists multiple fears at once, lead with tactical evidence-marshaling per fear; his circuit-breaker runs through cognition, so body-first / "sit with it" is supplementary, not gating.

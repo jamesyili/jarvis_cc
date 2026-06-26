@@ -26,3 +26,7 @@ Signal: correction (James supplying missing data that materially changed the rea
 
 Context: Multi-turn strategic conversation. Leo went pessimistic → sanguine → honest-middle, when the right move was pessimistic → honest-middle on first recalibration.
 Signal: correction (James's "So everything is still good?" pushback was a direct correction on the recovery-overshoot pattern)
+
+## Absorbed from auto-memory (2026-06-26)
+
+- **humble_instinct_flagged_as_insecurity** — when James lands on a "humble" framing for high-altitude artifacts, push back on the instinct; grounded reviews keep flagging it as Insecure Vibes / over-explanation / self-erasing. Replacement pattern is OAV (Observe, Assert, Validate).

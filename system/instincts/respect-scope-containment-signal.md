@@ -18,4 +18,8 @@ Signal: correction
 
 ## Pattern
 
-Sits next to [[dont-overshoot-recalibration]] (don't overshoot on the optimism/pessimism axis) but on a different axis — *scope/stakes*: don't balloon a contained ask into a deep dig unprompted, and when James contains it, stop fast. Also rel/related to `feedback-comparison-engine-positive-firing` and the SELF-mode coaching instincts: the depth is often welcome *during* a coaching session James opened, but not when he's brought a tactical item and wants it kept tactical. Discernment: did James open the deep frame, or did Leo? If Leo opened it and James pulls back, the bracket-and-execute move is right. The bracket itself has value — naming the big thread as his-to-raise keeps it from evaporating without forcing it onto the table now.
+Sits next to [[calibrate-exec-artifact-reads]] (don't overshoot the recalibration on the optimism/pessimism axis) but on a different axis — *scope/stakes*: don't balloon a contained ask into a deep dig unprompted, and when James contains it, stop fast. Also rel/related to `feedback-comparison-engine-positive-firing` and the SELF-mode coaching instincts: the depth is often welcome *during* a coaching session James opened, but not when he's brought a tactical item and wants it kept tactical. Discernment: did James open the deep frame, or did Leo? If Leo opened it and James pulls back, the bracket-and-execute move is right. The bracket itself has value — naming the big thread as his-to-raise keeps it from evaporating without forcing it onto the table now.
+
+## Absorbed from auto-memory (2026-06-26)
+
+- **stop_ratchet_count_on_pushback** — when James rejects "Nth consecutive session" pattern-counting, drop it immediately and don't resurrect it next session; weight context, not just count.
