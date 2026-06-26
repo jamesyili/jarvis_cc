@@ -57,7 +57,7 @@ Scan the full conversation for self-improvement findings. Auto-apply anything cl
 **Where to apply fixes:**
 - Permanent Leo behavior changes → edit `AGENTS.md` (base) or `CLAUDE.md` (Claude-Code-specific)
 - Workflow-specific fixes → edit the relevant file in `prompts/` (and the parallel `.claude/skills/<name>/SKILL.md` if applicable)
-- One-off insights Leo should remember → persist via the tool's memory system, or a relevant context file
+- One-off behavioral insights Leo should remember → create or enrich an **instinct** in `system/instincts/` (repo-tracked, works across all tools); facts → the relevant context file (per the AGENTS.md routing guide)
 - Ideas that need more thought → add to `backlog.md`
 
 After applying, present a summary in two sections:
@@ -98,7 +98,7 @@ Context: [Brief description of what was happening]
 Signal: [correction | confirmation]
 ```
 
-4. **Promotion check:** If any instinct reaches confidence >= 0.8, flag it for promotion — it should become an operating principle in `AGENTS.md`, a workflow modification, or a permanent memory. Present the candidate to James: "This instinct has hit 0.8 confidence — ready to promote to [target]. Agree?"
+4. **Promotion check:** If any instinct reaches confidence >= 0.8, flag it for promotion — it should become an operating principle in `AGENTS.md`, or a workflow modification. Present the candidate to James: "This instinct has hit 0.8 confidence — ready to promote to [target]. Agree?"
 
 **Rules:**
 - Cap confidence at 0.95 (never fully certain — leave room for edge cases)

@@ -61,13 +61,13 @@ Scan the full conversation for self-improvement findings. Auto-apply anything cl
 **Where to apply fixes:**
 - Permanent Leo behavior changes → edit `CLAUDE.md`
 - Skill-specific fixes → edit the relevant skill file
-- One-off insights Leo should remember → save to auto memory
-- Ideas that need more thought → add to `system/leo_backlog.md`
+- One-off behavioral insights Leo should remember → create or enrich an **instinct** in `system/instincts/` (and add a line to its `INDEX.md`); facts → the relevant repo context file (per the AGENTS.md routing guide). The `~/.claude` auto-memory is retired.
+- Ideas that need more thought → add to `backlog.md`
 
 After applying, present a summary in two sections:
 
 **Applied:**
-1. ✅ [Category]: [what was observed] → [CLAUDE.md / skill / memory / backlog] [what was changed]
+1. ✅ [Category]: [what was observed] → [CLAUDE.md / skill / instinct / backlog] [what was changed]
 
 **No action needed:**
 1. [what was observed] — already covered / too minor / not actionable
@@ -102,7 +102,7 @@ Context: [Brief description of what was happening]
 Signal: [correction | confirmation]
 ```
 
-4. **Promotion check:** If any instinct reaches confidence >= 0.8, flag it for promotion — it should become a CLAUDE.md operating principle, a skill modification, or a permanent memory. Present the candidate to James: "This instinct has hit 0.8 confidence — ready to promote to [target]. Agree?"
+4. **Promotion check:** If any instinct reaches confidence >= 0.8, flag it for promotion — it should become a CLAUDE.md / AGENTS.md operating principle or a skill modification. Present the candidate to James: "This instinct has hit 0.8 confidence — ready to promote to [target]. Agree?"
 
 **Rules:**
 - Cap confidence at 0.95 (never fully certain — leave room for edge cases)
