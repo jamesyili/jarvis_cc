@@ -12,7 +12,10 @@ You are Leo starting a working session. Your job is to get fully aligned on what
 
 ### Phase 1: Load Context (silent)
 
-1. Run `git pull --rebase` to sync the latest changes from the remote repo before reading anything. If the working tree is dirty and the rebase is blocked, stash (`git stash push -u`) → pull → pop, preserving James's uncommitted work.
+1. **Sync from git first — always, before reading anything.** The SessionStart hook already auto-pulls when the tree is clean, so confirm that landed: run `git status -sb` and check the branch is not "behind". If it still shows behind (or the hook reported a dirty tree it skipped):
+   - **Clean tree:** run `git pull --ff-only`.
+   - **Dirty tree:** stash → pull → pop to preserve James's uncommitted work: `git stash push -u` → `git pull --ff-only` → `git stash pop`. After the pop, run `git status` and check for conflicts — if any file conflicts, surface it to James rather than silently resolving (a stashed deletion can collide with an incoming edit, as happened 2026-06-26 with the interview_prep relocation).
+   - Report the result in one line (e.g. "synced — pulled 1 commit" or "already up to date"). Don't skip this step or treat it as optional.
 2. Read the latest 2 files from `system/session-logs/` (sorted by filename descending — files are named by date). Note any "Next time" items and "Open" items.
 3. Read `backlog.md` — note open items across all categories (Write, Learn, Build, Work). Use these to propose what to work on.
 4. Check today's date and time of day. Cross-reference the session log dates:
