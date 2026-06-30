@@ -41,3 +41,4 @@
 | 2026-06-11 21:26 | gmail | [Leo] Ml Interviews Silviasapora | work/interview_prep/ml-interviews-silviasapora.html | to=jamesyili@gmail.com id=19eba14c0e990a1f |
 | 2026-06-18 18:40 | gmail | [Leo] Return 1:1 Prep Messages — June 2026 | work/people/return_1on1_prep_messages_2026-06.md | to=jamesyili@gmail.com id=19edd892d33132b0 |
 | 2026-06-28 19:02 | gmail | [Leo] Re-entry Week — June 29–July 2 | /tmp/claude-1000/-home-james-src-leo/46ba22a4-2fa8-4a3b-83a4-37711cb86ca5/scratchpad/re-entry-week-plan.md | to=jamesyili@gmail.com id=19f111cbfb94b520 |
+| 2026-06-30 06:29 | gmail | [Leo] Health Appointments — Prep (2026-06-30) | /private/tmp/claude-501/-Users-jamesli-code-leo/2a94aade-4d66-44f2-8aa2-ac800e916a7c/scratchpad/health-appointments-2026-06-30.md | to=jamesyili@gmail.com id=19f18b815ec895cf |

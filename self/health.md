@@ -31,7 +31,9 @@ favorable — protect those.
 | 2026-05-08 | Follow-up renal/bladder ultrasound — left clear; 9 mm right stone found |
 | 2026-05-13→14 | 24-hr urine collection + blood draw (Quest) |
 | ~Mid-May 2026 | Stone composition analysis returned |
-| Pending | Urology follow-up visit; primary care visit for metabolic findings |
+| 2026-05-20 | Urologist (Dr. Albert Hu) messaged: urorisk 24-hr urine back, multiple abnormalities, follow-up needed |
+| Booked | Urology "stone analysis" follow-up with **Dr. Albert Hu** (scheduled, summer 2026) |
+| 2026-06-30 | PCP (**Dr. Malik**) outreach drafted — request late-Aug/Sep check-up + repeat fasting lipids + lab review |
 
 ---
 
@@ -142,6 +144,14 @@ Collection validated complete: creatinine 1,948 mg/24h (ref 800–2,000).
 6. Weight: 195 → first milestone ~180. Zone 2 cardio 3–4×/wk + resistance training.
    **Tai Chi alone will not move TG/HDL** — needs moderate-vigorous cardio added
 7. Omega-3 (fatty fish 2×/wk or supplement) for TG
+
+### Active routine (post-trip, from late June 2026)
+Two-a-days with wife, Mon–Fri through ~Aug 10:
+- **AM:** 45-min quick-paced walk + 1,000 jump ropes (Zone 2) — plus push-ups / squats
+- **PM:** 45-min resistance (weights / Jungdayeon / own choice)
+- **Daily:** hydration ~2.5–3 L (non-negotiable), steps ~8k floor / ~10k when possible
+- Weekends optional / active recovery; Tai Chi for mobility
+- After kids return (~mid-Aug): shift to "protect the baseline" — some Zone 2 + some resistance weekly, 8k step floor as the guardrail
 
 ### Holds / cautions
 - **Vitamin D repletion: wait for urologist protocol** (likely 50k IU/wk × 8–12 wks
