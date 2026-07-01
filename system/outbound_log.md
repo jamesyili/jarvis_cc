@@ -43,3 +43,6 @@
 | 2026-06-28 19:02 | gmail | [Leo] Re-entry Week — June 29–July 2 | /tmp/claude-1000/-home-james-src-leo/46ba22a4-2fa8-4a3b-83a4-37711cb86ca5/scratchpad/re-entry-week-plan.md | to=jamesyili@gmail.com id=19f111cbfb94b520 |
 | 2026-06-30 06:29 | gmail | [Leo] Health Appointments — Prep (2026-06-30) | /private/tmp/claude-501/-Users-jamesli-code-leo/2a94aade-4d66-44f2-8aa2-ac800e916a7c/scratchpad/health-appointments-2026-06-30.md | to=jamesyili@gmail.com id=19f18b815ec895cf |
 | 2026-06-30 21:51 | gmail | [Leo] Alim Team Setup — Dylan 1:1 Proposal (prep, week of 7/6) | work/people/alim_reorg_proposal_2026-06-30.md | to=jamesyili@gmail.com id=19f1c04285f50a71 |
+| 2026-06-30 22:02 | gmail | [Leo] Alim Team Setup — Dylan 1:1 Proposal (prep, week of 7/6) | work/people/alim_reorg_proposal_2026-06-30.md | to=jamesyili@gmail.com id=19f1c0e4ad1a863b |
+| 2026-07-01 06:07 | gmail | [Leo] Dylan Re-Entry 1:1 — Topics (Tue 7/7) | work/people/dylan_reentry_1on1_2026-07-07.md | to=jamesyili@gmail.com id=19f1dcae99c621ce |
+| 2026-07-01 06:11 | gmail | [Leo] Dylan Re-Entry 1:1 — Topics (Tue 7/7) | work/people/dylan_reentry_1on1_2026-07-07.md | to=jamesyili@gmail.com id=19f1dce083ac713d |
