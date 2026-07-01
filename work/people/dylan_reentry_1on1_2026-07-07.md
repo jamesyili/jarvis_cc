@@ -1,6 +1,6 @@
 # Dylan Re-Entry 1:1 — Topics (Tue 7/7)
 
-*First 1:1 in ~4.5–5 weeks. Both just back from ~3 weeks in China. Ana's read: Dylan comes back from vacation in the exact "why am I doing all this" mood I'm in right now. So I'm not matching a hungry sponsor — I'm meeting someone in the same place I am. This is a **reconnection** meeting: emotional over intellectual. Ana also: "you'll get promoted, just a matter of time" — so the one thing that would make me grip is already on a track. I don't have to push anything.*
+*First 1:1 in ~4.5–5 weeks. Both just back from ~3 weeks in China. Anna's read (RR PM partner / peer ally): Dylan comes back from vacation in the exact "why am I doing all this" mood I'm in right now. So I'm not matching a hungry sponsor — I'm meeting someone in the same place I am. This is a **reconnection** meeting: emotional over intellectual. Anna also: "you'll get promoted, just a matter of time" — so the one thing that would make me grip is already on a track. I don't have to push anything.*
 
 ---
 
