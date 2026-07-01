@@ -66,7 +66,7 @@ The central career thread. Dylan is designing a charter with James owning a cohe
 ## Keystone 2 — Staff the charter (two strong EMs)
 The hinge dependency: this is what gives the maintain-trajectory goals owners other than me.
 - **Commit:** place two strong EMs under Pillars 1 & 2 (Ali Rahmati landing + one more).
-- **Influence** (forcing function: make the headcount case to Dylan before the freeze tightens; pre-position the backfill the day Bella resigns): Sophia + Bella backfill reqs survive the freeze.
+- **Influence** (forcing function: make the headcount case to Dylan before the freeze tightens): Sophia backfill req survives the freeze. **(2026-06-30: Bella backfill req is MOOT — she's staying, no attrition, no req. Charlie backfill remains, routed to Alim's Track A — see alim_reorg_proposal_2026-06-30.md.)**
 
 ## Keystone 3 — Build independent advocates (the Krishna fix)
 Scope without advocates is the packet that gets rejected. Presence (below) is behavior; this is advocates.
@@ -143,7 +143,7 @@ A father whose kids feel enough apart from achievement — especially Evelyn, wh
 - What's the cleanest restructure of Pillar 3 so it coheres (fold CG-core into retrieval; let Frontier-AI stand alone)?
 - Unity-gulp / unity-board: where exactly is the Zisis / future-team ownership line?
 - P2P: unblock through Kurchi, or land a clear alternative?
-- Who backfills Sophia and (likely) Bella, and how do I protect both reqs through the freeze?
+- Who backfills Sophia, and how do I protect the req through the freeze? (Bella backfill dropped 2026-06-30 — she's staying.)
 - In three years, as AI reshapes the EM role, what does the craft actually look like — and am I building toward it?
 
 ## Risks & Watch-outs
