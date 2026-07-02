@@ -46,3 +46,4 @@
 | 2026-06-30 22:02 | gmail | [Leo] Alim Team Setup — Dylan 1:1 Proposal (prep, week of 7/6) | work/people/alim_reorg_proposal_2026-06-30.md | to=jamesyili@gmail.com id=19f1c0e4ad1a863b |
 | 2026-07-01 06:07 | gmail | [Leo] Dylan Re-Entry 1:1 — Topics (Tue 7/7) | work/people/dylan_reentry_1on1_2026-07-07.md | to=jamesyili@gmail.com id=19f1dcae99c621ce |
 | 2026-07-01 06:11 | gmail | [Leo] Dylan Re-Entry 1:1 — Topics (Tue 7/7) | work/people/dylan_reentry_1on1_2026-07-07.md | to=jamesyili@gmail.com id=19f1dce083ac713d |
+| 2026-07-02 15:34 | gmail | [Leo] H1 2026 Self-Review — DRAFT for James to edit | work/career/self_review_H1_2026_draft.md | to=jamesyili@gmail.com id=19f24f866062ce00 |

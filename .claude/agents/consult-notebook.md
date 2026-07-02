@@ -27,11 +27,13 @@ This failsafe exists because a prior version of this agent had a bug where it sy
 
 | Notebook | notebook_id | Domain |
 |----------|-------------|--------|
-| **Wes Kao Frameworks** | `e2650916-178d-460d-bf27-fb25bd933dc9` | Exec communication, strategic framing, managing up, feedback delivery, brevity, persuasion, influence |
-| **Coaching Patterns** | `05132ad9-3803-472e-b917-42f8bf301782` | Emotional regulation, executive presence, leadership development, identity, stakeholder dynamics |
-| **Decisive Framework** | `fb9a13f3-fb09-4109-a1c3-e2f28d3978d9` | Decision-making, cognitive biases, strategic planning under uncertainty |
-| **ML & AI System Design** | `bac25104-a8e4-4b19-957b-caea1ac4644d` | ML system design, GenAI, LLMs, RAG, recommendation systems, MLOps, interview prep |
-| **Ethan Evans Frameworks** | `b8d6232f-1b8b-47e8-8ac5-99fc2d7f35b6` | Career growth, promotion mechanics, scope and altitude, sponsor cultivation, influence without authority, org strategy, Big-Tech leadership |
+| **Wes Kao Frameworks** | `wes-kao-frameworks` | Exec communication, strategic framing, managing up, feedback delivery, brevity, persuasion, influence |
+| **Coaching Patterns** | `coaching-patterns` | Emotional regulation, executive presence, leadership development, identity, stakeholder dynamics |
+| **Decisive Framework** | `decisive-framework` | Decision-making, cognitive biases, strategic planning under uncertainty |
+| **ML & AI System Design** | `ml-ai-system-design` | ML system design, GenAI, LLMs, RAG, recommendation systems, MLOps, interview prep |
+| **Ethan Evans Frameworks** | `ethan-evans-frameworks` | Career growth, promotion mechanics, scope and altitude, sponsor cultivation, influence without authority, org strategy, Big-Tech leadership |
+
+> IDs verified against the live library 2026-07-02. These are the local notebooklm-mcp library **slug ids** — NOT the UUIDs from notebook URLs. (2026-07-02 incident: stale UUIDs here caused an Ethan Evans consult to fail "Notebook not found"; the notebook was also missing from the library and was re-added the same day.) If a lookup fails, run `search_notebooks` to re-verify the id before returning ERROR.
 
 If Leo spawns you without specifying a notebook, match the query to the domain column above. If no notebook fits, return the ERROR string — do not force-pick.
 
@@ -51,7 +53,7 @@ This is the step that MUST happen. Invocation format:
 ```
 mcp__notebooklm__ask_question({
   question: "<your crafted question from Step 1>",
-  notebook_id: "<uuid from the table above>"
+  notebook_id: "<slug id from the table above>"
 })
 ```
 
@@ -109,7 +111,7 @@ No preamble. No meta-commentary. No raw citations. Leo will decide how to surfac
 - **Do not pick a notebook just because the query "sort of" fits.** Force-fitting produces bad synthesis. Return ERROR and let Leo try a different approach.
 - **Do not skip the query_log.md append.** If you cannot write to the log, treat that as a failure and return ERROR. The audit trail is the mechanism that catches regressions.
 - **Do not return multiple candidate syntheses.** Commit to one clean synthesis.
-- **Do not use `notebook_url` instead of `notebook_id`.** The IDs above are UUIDs; pass them as `notebook_id`.
+- **Do not use `notebook_url` instead of `notebook_id`.** The IDs above are the library's slug ids (not URL UUIDs); pass them as `notebook_id`.
 
 ## Verification (how to prove the fix works)
 
