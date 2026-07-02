@@ -550,3 +550,120 @@ QUESTION 3 — WHAT'S UNDERNEATH: Yes, listing four fears simultaneously is a di
 QUESTION 4 — COACH-TIER MOVE: Do NOT reality-check each fear. Reality-checking validates the catastrophic story and feeds the analysis engine. When people are triggered, "they talk themselves more and more into a position of anxiety away from reason. We're now dealing with anxiety and not just reason." Litigating the fears keeps James in his head. DO: completely ignore the content of the four fears and target the physical nervous system. Module 2: Somatic Mapping. "Anxiety lives in the body before it hits the brain." Deploy Tool 8: "Where is the feeling in my body? Chest? Stomach? Throat?" Once out of the story and back in the body, deploy the circuit-breaker: "What do I actually know right now? Everything else is creative writing."
 
 **Session ID:** 64857699
+
+---
+
+## 2026-07-02T17:03:04Z — Ethan Evans Frameworks (spawned via consult-notebook agent) — FAILED: NOTEBOOK NOT IN LIBRARY
+
+**Query attempted (3 parallel angles, notebook_id `b8d6232f-1b8b-47e8-8ac5-99fc2d7f35b6` per agent routing table):**
+
+1. *Start/stop for a promo "on rails" pending fall 2026 reorg* — sponsor cultivation beyond manager, concrete advocate-building mechanics (not "network more"), operating at manager-of-managers/director altitude pre-title, and where documented trap patterns (coordinator trap, integration bottleneck, over-indexing on rigor over narrative simplicity, wrong altitude framing) map onto specific "stop" behaviors.
+2. *Holding "I don't really want it anymore"* — distinguishing healthy detachment/non-attachment to outcome from quietly abandoning or self-sabotaging a well-positioned promo case, post-vacation "not hungry" state, dormant frontier-lab optionality track as backdrop.
+3. *Sponsor-utility / "obvious easy call" end-state* — 2-3 concrete H2 behaviors, what the Q3 proof-point should look like right after first scope conversations with the two target senior-leader advocates, what makes those conversations land vs. fall flat.
+
+**Response:** N/A — all three `ask_question` calls failed identically: `"Notebook not found in library: b8d6232f-1b8b-47e8-8ac5-99fc2d7f35b6"`.
+
+**Diagnostic trail:**
+- `mcp__notebooklm__get_notebook(id="b8d6232f-1b8b-47e8-8ac5-99fc2d7f35b6")` → `"Notebook not found: b8d6232f-1b8b-47e8-8ac5-99fc2d7f35b6"`
+- `mcp__notebooklm__list_notebooks()` → library contains exactly 4 notebooks, none of them Ethan Evans Frameworks:
+  - `coaching-patterns` (Coaching Patterns) — url .../05132ad9-3803-472e-b917-42f8bf301782
+  - `wes-kao-frameworks` (Wes Kao Frameworks) — url .../e2650916-178d-460d-bf27-fb25bd933dc9
+  - `decisive-framework` (Decisive Framework) — url .../fb9a13f3-fb09-4109-a1c3-e2f28d3978d9
+  - `ml-ai-system-design` (ML & AI System Design) — url .../bac25104-a8e4-4b19-957b-caea1ac4644d
+- `mcp__notebooklm__search_notebooks(query="Ethan Evans")` → zero results.
+- Note: registered notebooks use human-readable slugs as their `id` field (e.g. `wes-kao-frameworks`), not UUIDs. The UUID `b8d6232f-1b8b-47e8-8ac5-99fc2d7f35b6` in the consult-notebook agent's inlined routing table doesn't match this library's ID scheme at all — this looks like the notebook was either never added via `add_notebook`, or was removed/never migrated when the library's other 4 notebooks were set up.
+
+**Session ID:** none — no call succeeded.
+
+**Outcome:** No synthesis generated. Per agent protocol (anti-fabrication failsafe), returning ERROR to Leo rather than force-fitting the query into an adjacent notebook (Wes Kao Frameworks covers exec communication/managing up but not promotion mechanics/scope/sponsor cultivation with fidelity) or answering from spawn-context general knowledge. Remediation: "Ethan Evans Frameworks" needs to be re-added to the NotebookLM library via `add_notebook` with a valid share URL before this class of query can be answered. Until then, every consult-notebook dispatch tagged "Director-track career framing, scope question, sponsor cultivation, promotion mechanics" (per CLAUDE.md's Consult Keyword Triggers table) will fail the same way.
+
+
+---
+
+## 2026-07-02T17:30:24Z — Coaching Patterns (spawned via consult-notebook agent)
+
+**Task context:** James asked Leo (main session, 2026-07-02): "What should I START doing and STOP doing to improve my life, leadership, and potentially my career?" This consult covers the life/inner-game slice of that synthesis — motivation-source transition (fear/comparison → self-generated wanting) following his June 2026 bedrock-fear breakthrough and July 2026 return from a 3.5-week family trip (rested but apathetic, "not hungry").
+
+**Technical note:** Agent's inlined notebook_id table specified UUID `05132ad9-3803-472e-b917-42f8bf301782`, which failed (`"Notebook not found in library"`). Corrected via `list_notebooks`/`search_notebooks`: this library's actual `id` field for Coaching Patterns is the slug `coaching-patterns` (the UUID lives only in the `url` field). This matches a previously-logged discrepancy (see 2026-07-02T17:03:04Z Ethan Evans Frameworks entry above). All three queries below succeeded on retry using `notebook_id: "coaching-patterns"`. Two of three follow-up calls hit transient Playwright timeouts when reusing a session_id (a citation-tooltip overlay appears to intercept clicks on the query box in a "hot" session) and one additional call hit a generic response timeout; all resolved cleanly by issuing the identical question as a fresh session (no session_id) rather than continuing the prior thread.
+
+**Query 1 (START):**
+James is a 39-year-old senior engineering leader with a DISC Di profile (D:88/i:88) whose lifelong motivation source has been a comparison/status engine. In June 2026 he traced the bedrock fear beneath it — "if I'm not the hero, I'm irrelevant/unseen," with a middle-school origin — and located a lived antidote: felt proof of being enough as "ordinary James" during a 3.5-week family trip. He just returned from that trip rested but NOT hungry — apathetic, no fire for his flagship projects. His working diagnosis: he has never had to generate his own wanting because the engine did it via comparison/threat, and with the engine quiet (financial independence achieved, foundation practice landing), the apathy is the silence where borrowed motivation used to be. He named three unresolved threads on 6/28: (a) self-generated wanting — what HE wants vs. the scoreboard; (b) play — nearly everything in his life is instrumental, even rest gets a thesis, no domain the engine can't colonize; (c) relational depth — who knows the unpaid, unbuilt 2am version of him (not his paid coach, not his AI).
+
+At this exact inflection — transitioning motivation source from fear/comparison to values/self-generated wanting — what should he START doing? I need concrete practices for: (1) discovering self-generated desire without letting the status engine relabel a new goal as its next trophy, (2) un-instrumented play — activity with no thesis, no productivity output, in a life where the engine colonizes every domain, and (3) building real non-transactional relationships at midlife, distinct from paid (coach) or built (AI) relationships. What does the coaching corpus say about starting practices for this specific transition?
+
+**Response 1:**
+The apathy James is experiencing upon his return is the silence of a quieted threat-detector, marking a profound inflection point rather than a professional regression. For 39 years, his internal status sensor translated baseline uncertainty or peer comparisons into a high-stakes identity emergency. When that sensor goes quiet, the borrowed motivation of fear evaporates, leaving a temporary void. To step into this space and transition his motivation source to values and self-generated wanting, James must establish the following concrete starting practices:
+
+1. Discovering Self-Generated Desire: The Craftsman's Standard — The status engine is highly skilled at colonizing new goals and relabeling them as trophies. To build an authentic, self-generated standard immune to the external scoreboard, James must pivot to the "Craftsman's Standard" — focusing on the intrinsic joy of building things that solve elegant architectural/user problems.
+   - Practice: The "No-Demo" Sandbox Test. When James initiates deep technical work (e.g., refining Pinvestigator, studying a new retrieval path), he must ask: "If I could never demo this to Jeff, never write a promo bullet about it, and never use it to prove status to Dylan, would I still want to spend 30 minutes building it today?" If yes, he builds it purely for the internal scoreboard. If no, he recognizes the status engine drafting a new narrative to chase external validation.
+   - Practice: The Values-Aligned Daily Intention. During his proactive 8:15-10:00 AM self-time, James must map his daily focus to the core values identified with Danielle: connection, honesty, trust. Rather than "what must be solved today," ask "how can I bring connection, honesty, or trust to my team and stakeholders today?"
+
+2. Un-Instrumented Play: The "No-Value" Somatic Boundary — James's default mode operates on "motion equals progress," leading him to "rent himself out" to constant productivity. To prevent his mind from colonizing rest with a thesis, he must build tolerance for the discomfort of just being.
+   - Practice: The Non-Value Block. Block one non-negotiable hour a week titled "James is not adding value." Rule: physical, somatic activity (nature walks, music, Tai Chi) with a strict Zero-Metrics, Zero-Theories rule — no heart-rate tracking, no step-counting, no book with a leadership thesis.
+   - The "Willing Hands" Interrupt: The moment James catches his brain analyzing the play, optimizing posture, or treating rest as an instrument to "recharge for peak performance," he must physically halt the loop — adopt the "willing hands" posture (hands out, elbows bent, palms up). This somatic circuit-breaker helps him observe his mind's judgments, accept the awkwardness of unstructured time, and trust the urge to optimize will pass.
+
+3. Non-Transactional Relationships: The Relational Curiosity Protocol — To move away from transactional midlife networking ("what can I get or give"), James must adopt a "Let's Go Bowling" Mindset — reaching out with zero expectation of professional ROI, purely as authentic human interest.
+   - Practice: The Appreciation Reach-Out. Every two weeks, identify 1-2 people from past or current circles and reach out purely based on appreciation or curiosity — less formal, less transactional, focused on "something about them rather than their station."
+   - Practice: The Core Human Inquiries. Meeting ideally in person (coffee/lunch), ban all professional shop-talk. Use the human-centric questions developed with Danielle: "Who is important to you in your life outside of work?" / "What makes this the job you actually want at this point in your life and career?" / "What support do you wish you had in navigating things right now?" / "What concerns keep you up at night?"
+   - Practice: Radical Listening & Silence. His Di instinct will tempt him to fill silence with strategic commentary or unsolicited solutions. He must give undivided attention, watch body language and tone, and let whitespace breathe without needing to "close a deal" or establish his own value.
+
+**Session ID:** ab9b67a6
+
+---
+
+**Query 2 (STOP):**
+James, 39, senior eng leader, Di profile, high-achiever with documented risk patterns: resolving triggers by willpower decree, reversing self-anchors right after ego hits, building systems/infrastructure instead of doing the actual thing, converting uncertainty into analysis as disguised avoidance. He just returned from a 3.5-week family trip rested but apathetic — his old status/comparison engine has gone quiet and he has no fire for his flagship projects.
+
+What should someone with this exact profile and risk history STOP doing right now? Specifically name traps where high-achievers re-feed the old status engine under a new label, or fake a motivation-source transition through recovery-as-project, equanimity-as-performance, or premature dramatic decisions made from apathy rather than clarity.
+
+**Response 2:**
+Diagnosing this flat, quiet apathy as a personal failure or an operational emergency is the exact behavior to stop first. For a high-achiever with a Di profile, the silence of a quieted status engine feels like a system defect — but solving quietness with old, high-heat threat-detection muscles drags him back into the comparison loops he's trying to outgrow.
+
+1. Stop "Diagnosing Your Negativity Negatively" (The Ego-Beating Trap) — His highly developed introspection can become an inward-facing weapon. Stop analyzing apathy/flat motivation as a problem requiring a diagnostic remedy. The comparison engine, at root, is a threat-detector; pointed inward, it converts lack of motivation into a new threat to solve, turning self-reflective breakthroughs into "one more stick the engine beats you with." Stop converting uncertainty into analysis — disguised avoidance. Let the gaps be gaps.
+
+2. Stop Performing Your Transition (The "Discipline Costume" Trap) — Execution-oriented drive wants to turn "recovery" or "equanimity" into a hyper-structured project. Stop trying to resolve this transitional phase through willpower decrees, rigid self-growth schedules, or forced equanimity. Turning mindfulness or resting into a metric-driven optimization effort is just a "discipline costume" on the status engine. Ask: "Am I trying too hard?" Trying hard is not the priority right now — stop over-engineering rest; build tolerance for the discomfort of empty space instead.
+
+3. Stop Chasing External Mirrors (The "Escape Dressed as Maturity" Trap) — The silence of the status scoreboard can trigger an urge to run to external markets or make drastic team changes just to feel a pulse. Stop initiating premature external career pivots (cf. the previous Meta interview prep), planning dramatic team restructurings, or negotiating exits out of restlessness. These sudden movements are frantic attempts to find an external mirror to prove worth when the internal scoreboard feels blank — an escape dressed as maturity. Before any such action: "Am I running toward something I genuinely want, or away from uncertainty I haven't yet resolved?"
+
+4. Stop Focusing on "Meta-Work" and Tactical Mechanics (The Infrastructure Trap) — When afraid of stalling, default is to build systems, look at org charts, optimize processes instead of doing the actual building. Stop using coaching sessions and mental energy on org charts, promotion packets, or visibility hacks — these bring temporary relief and feel like progress but are secondary, yielding only incremental improvement while missing the real transition (an identity-level integration).
+
+5. Stop Performative Peer Emulation (The "Copycat" Trap) — Pressure to replace the quieted engine by copying louder, more politically active peer styles. Stop forcing "performative visibility" or "strategic self-consciousness" that feels inauthentic. Forcing a loud executive persona quietly re-feeds the old status sensor by making him hyper-focused on how he's perceived. He does not need to become his peer — he needs his own version of unavoidable leadership presence that shapes organizational reality without feeling morally compromised.
+
+6. Stop "Renting Yourself Out" Desperately (The Over-Availability Trap) — To compensate for feeling unmotivated, the D:88% drive might brute-force worth by solving every operational fire. Stop treating mind and body as something merely "rented out" to the organization — stop jumping headfirst into every fire, over-promising, making himself desperately available. Over-committing degrades executive presence and signals compensating for anxiety with volume. Protect the 8:15-10:00 AM self-time and personal boundaries as non-negotiable infrastructure.
+
+**Session ID:** 5709b425
+
+---
+
+**Query 3 (healthy fallow vs. depression markers):**
+James, 39, senior eng leader, just back from a 3.5-week family trip, rested but reporting apathy: no fire for his flagship projects, no hunger, describes it as "the silence where borrowed motivation used to be" now that his status/comparison engine has gone quiet (financial independence reached, foundation practice landing). He's holding this as a working hypothesis of healthy fallow/incubation rather than pathology, but wants it checked.
+
+What markers or diagnostic questions from the coaching corpus distinguish a healthy fallow/incubation period — the necessary quiet between an old motivation source dying and a new one forming — from depression-shaped disengagement or avoidance? He needs this held correctly: neither pathologized (rushing to fix/diagnose the apathy) nor ignored (assuming it will self-resolve without any deliberate practice). What should he actually watch for over the coming weeks, and what would signal he needs to escalate to professional support versus continue the incubation?
+
+**Response 3:**
+Three diagnostic markers distinguish healthy fallow (incubation) from depression/avoidance:
+
+1. The Mind's Reaction to Quiet: "Letting the Gaps Be Gaps" vs. "Negativity-Negatively" — Healthy: James observes the empty space without rushing to fill it with panic-induced theories or exit strategies; notices the quiet, accepts the awkwardness of not having a burning crisis, "lets the gaps be gaps"; relies on the Tai Chi Base (Tool 4) to absorb the lack of external validation and return to balance. Unhealthy: the threat-detector treats the quiet as an identity emergency under the guise of solving a problem — "converting uncertainty into analysis," spinning strategic narratives about career stalling, "diagnosing his negativity negatively" (turning the fallow state into a personal defect — "one more stick the engine beats him with").
+
+2. Self-Worth Integration: "Ordinary James" vs. "Self-Sabotage" — Healthy: consciously separates human worth from work output; actively uses the Self-Worth Pie Chart to diversify self-esteem across parenting, workouts, family; comfortable being "ordinary James" when not adding corporate value. Unhealthy: exhibits the "de-prioritizing self" pattern (signals anger at self, stems from decreased self-worth); abandons non-negotiable daily infrastructure (sleep, nutrition, afternoon workouts); slides into "victimhood and looking for validation."
+
+3. Interpersonal Register: "Boring Consistency" vs. "Eggshells" — Healthy: maintains Boring Consistency (low-heat, steady light, zero defensiveness) in stakeholder interactions; lets work speak for itself without desperately narrating its architecture. Unhealthy: the D:88% efficiency drive compensates for inner emptiness with a cold, dismissive tone; direct reports/peers start "walking on eggshells" again, or he over-explains/over-talks in senior forums out of unaddressed anxiety.
+
+What to deliberately watch over the coming weeks (active, not passive, incubation):
+- The "Rambling Index" — monitor whether verbal volume scales with anxiety; practice "authentic talking less" (briefly state facts, eye contact, smile, stop).
+- Somatic Constriction — map where apathy/pressure sits physically (chest, stomach, throat); when viscerally tense, use the "Willing Hands" posture to physically open to the discomfort and let the flatness pass without reacting.
+- The Internal Scoreboard — verify he's still engaging in small, quiet acts of craftsmanship (e.g., 30 minutes of clean code on Pinvestigator) purely for the joy of building, detached from whether Dylan or Jeff ever see or praise it.
+
+Escalation tripwires to clinical support (Jon Dang / Lyra Care) — continue self-guided incubation so long as baseline physical/emotional boundaries remain intact, but escalate if:
+- Somatic Collapse: sustained lack of sleep / lack of intentional self-care that prevents "controlling the gate" of emotional impulses in real time.
+- The Remorse-Judgment Cycle: reactive, sharp behavior with peers/reports that violates core values (honesty, connection, trust), trapped in a chronic loop of remorse, frustration, self-judgment.
+- Severe Cognitive Distortion: falling into Emotional Reasoning ("I feel highly apathetic, therefore my career is over") and being unable to break the spiral by asking "What do I actually know right now?"
+- The "Escape" Impulse: active preparation for major, irreversible external pivots (mentally drafting exits, team restructurings, reorg negotiations) purely to run away from internal quietness rather than running toward genuine clarity.
+
+If clinical indicators appear, the coach-tier move is handing the therapist the exact four-module syllabus (Deconstructing the Catastrophic Default, Somatic Mapping, Reframing Status, the "Impact Over Approval" Audit) to bypass generic platitudes and target root survival mechanisms installed in childhood.
+
+**Session ID:** 8711d3eb
+
+---
+
+**Framework/tool index surfaced across all three queries:** Craftsman's Standard / "No-Demo" Sandbox Test, Values-Aligned Daily Intention (values: connection, honesty, trust — from Danielle), Non-Value Block + "Willing Hands" posture, Relational Curiosity Protocol / "Let's Go Bowling" mindset + Core Human Inquiries, Tool 8 "Signal, Not Truth," Tai Chi Base (Goal 0), Self-Worth Pie Chart ("Who is James when he isn't adding value?"), Boring Consistency vs. Eggshells, Rambling Index, "Diagnosing Negativity Negatively," "Discipline Costume" trap, "Escape Dressed as Maturity" trap, Status Chase / "running toward vs. running away" question, four-module clinical syllabus (Deconstructing the Catastrophic Default / Somatic Mapping / Reframing Status / Impact-Over-Approval Audit).
