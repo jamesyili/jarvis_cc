@@ -2,7 +2,7 @@
 
 > The inner arc: the comparison-engine lesson series (14–18, incl. 'not the hero'), the Leo coaching-trigger table, and the identity/status-sensor journal entries. The career/leadership lessons (1–13), growth edges, and work journal entries live in `work/journals_and_growth.md`.
 
-Last updated: 2026-06-26 (2am Mountain View session — the engine eating the calm; the financial-floor slide as the engine's counterattack on the trip's peace)
+Last updated: 2026-07-02 (the start/stop audit — the 6/28 tell fires on schedule; Karen catches the engine optimizing its own absence; the list goes subtractive)
 
 ### The Internal Picture (this is the real measure)
 - Recovery time from triggering events is hours, not days. The rumination engine fires less often and stops faster.
@@ -558,3 +558,42 @@ Leo's honest read when I asked. Keeping it as questions, not answers — I'm not
 **Leo's note (brief):** Tonight was the first live rep of the thing the vacation entry named — *protecting the clarity when work resumes is the work*. He came in flat and left with a frame and two open questions he's choosing not to slam shut. The tell worth watching this week: if "what am I missing" hardens from a question he's sitting in into a deficit he's urgently solving, that's the engine wearing a self-improvement costume. The Ikea anchor is the counter — the answer he's looking for, he's already felt once, in a car, with Fan, going to buy furniture.
 
 **Connections:** 6/26 vacation entry (quality-not-quantity; "got my family back") + 6/26 2am entry (the engine eating the calm) + 6/25 (enough ≠ numb; the bracketed "do I want this" question, still his to raise). [[catch-cognitive-override-as-engine-costume]] (the "I should be hungrier" / "I must fix what's missing" move). [[separate-real-seed-from-engine-embellishment]]. `goals.md` Goal 0 (operating from enough). David coaching arc: backlog #123 (5/01 session).
+
+## 2026-07-02 — The start/stop audit: the 6/28 tell fires on schedule, and the engine gets caught optimizing its own absence
+
+*(Thursday, day 4 of the 4-day re-entry week, holiday tomorrow. I opened the session asking Leo to think through what I should start doing and stop doing — for my life, my leadership, and "potentially my career." Leo ran the full apparatus: its own synthesis, Karen, the Coaching Patterns notebook. The Ethan Evans notebook turned out to be missing from the NotebookLM library — the consult failed cleanly and is flagged for re-add; the career slice ran on repo material. This entry logs what came back, including the part where the ask itself got caught.)*
+
+### The catch — predicted four days ago
+The 6/28 entry closed with a watch-item: *if "what am I missing" hardens from a question he's sitting in into a deficit he's urgently solving, that's the engine wearing a self-improvement costume.* Today's ask was that move, and two of the three consults caught it independently. Karen's read: on 6/28 I parked "what do I actually want" as mine to carry — four days later I handed it back to Leo as an optimization audit. That's not answering the question; it's **re-instrumenting it** — installing a scoreboard on the one space that was finally quiet. Her tell: tacking "career" onto a life question, from a man who told Anna last week he doesn't really want the promo and who Anna says will get it anyway. The coaching corpus said the same thing from the other side: a structured self-improvement plan, built at the exact moment the right move is *letting gaps be gaps*, risks being the discipline costume again.
+
+Leo's counter, also on record: **right about the reflex, wrong that the list is the enemy.** The health loop is real at any level of existential clarity, the two biggest starts are the opposite of a checklist, and Lesson 16 says my move is sitting until convergence — the 6/28 question doesn't have to close this week. Both stand: do the small list, leave the big question open.
+
+### The list that survived — subtractive on purpose
+**Stop:**
+- **Feeding the career machine.** It's on rails: Bella staying, Alim Option-2 in Dylan's inbox, JJ packet done, "matter of time" per Anna, fall reorg as the vehicle. What remains this quarter is presence and two conversations, not production. The tell: re-working the Dylan board when nothing has changed.
+- **Adding to the collection.** Nothing new enters Build until something ships out of Write.
+- **The blog limbo.** Ship one ugly 800-word draft or park it explicitly — the limbo is the only wrong answer. (My call, pending.)
+- **Instrumentalizing the recovery.** No thesis on the fallow period, and no structural decisions from inside the flatness — the Meta test guards the exit (*toward something I want, or away from uncertainty I haven't resolved?*).
+
+**Start:**
+- **One un-instrumented hour a week**, calendared, zero output value. Win condition: it never appears in this repo. No log, no score, don't tell Leo.
+- **The no-demo want test**, run on any pull that returns: would I still do this if I could never show anyone — no demo, no promo bullet, no interview story? Fails = the engine drafting a new trophy. The wanting question gets answered empirically, not introspectively.
+- **One relational rep, twice a month, zero professional ROI** — starting with Fan. Karen's question, kept whole: *is Fan someone I'm seen by, or only the base I'm load-bearing for?* Then one friend reach, anchored on them, not their station.
+- **Close the health loop** — the one place a checklist is legitimate. TG 273 / HDL 37 / the 9 mm stone respond to habits, not insight. Urology follow-up on the calendar, PCP message actually sent (verifying).
+- **The two advocate conversations** (Jiajing, Faisal/Bo) by end of Q3 — the only career start. Anna's "matter of time" covers Dylan's org, not the committee; the un-gripped state is exactly the register those conversations land best in.
+- **Take "do I still want it" to David** — not to Leo, not to a doc. Keep building the charter meanwhile (good org design whether or not I want the title); let the wanting question resolve at its own pace.
+
+### Holding "not hungry"
+Three weekly markers separate healthy fallow from something that needs attention: gaps staying gaps vs. stall narratives; the self-care base intact vs. collapsing; boring consistency vs. eggshells returning. Two-plus weeks of drift on any one → engage it directly, don't journal past it. Nothing flags today.
+
+### Karen's question, left standing
+*"If I told you the single highest-value thing you could do this week is nothing — no start, no stop, no list, just sit with the question you parked on 6/28 — could you do it? Or is that exactly the thing you can't tolerate, which is why we're building a checklist instead?"*
+
+Not answered in-session. It stays open next to the 6/28 questions.
+
+### Open
+Four verifications pending (work-leo and live conversations are invisible to personal Leo): where the energy actually sits today; how the dailies really went this week; the blog call; what's already moving that Leo can't see (advocate convos, OpenAI thread, health appointments, writing off-repo).
+
+**Leo's note (brief):** The 6/28 prediction landing in four days is the system working — the entry that named the costume is why the costume got caught this fast. The healthy tell about today: the list came out subtractive, and its biggest item is an hour of nothing. Two watch-items forward: (1) does the un-instrumented hour survive its first week genuinely un-instrumented — no log, no retro, no thesis; (2) does Karen's question get sat with, or answered cleverly. If this audit turns into a tracked program with checkboxes, today was the engine's win after all.
+
+**Connections:** 6/28 entry (the tell, fired on schedule) + the 6/26 pair (the engine eating the calm; "I got my family back"). Lesson 16 (sit until convergence). Lesson 17 (no A to chase — don't optimize anti-comparison). Lesson 19 (care from enough). [[catch-cognitive-override-as-engine-costume]]. `system/karen_observations.md` (new pattern logged today: "Instrumentalizing the Open Question"). `goals.md` Layer I. `family.md` (the Fan question). `health.md` (the legitimate checklist).
