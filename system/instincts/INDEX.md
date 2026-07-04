@@ -11,6 +11,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 
 ## Stakeholder reads / analytical discipline
 - **check-existing-context-before-analyzing** — about to analyze a known stakeholder/project → grep/read existing context first (team_members.md, stakeholders.md, recent files); verify load-bearing facts; don't over-fortify on sensitive intel.
+- **check-sibling-repos-before-assuming-state-elsewhere** — side project state described as unknown/"on the other computer" → check ~/src/ for a self-documenting sibling repo first (known: ~/src/pf = PF, ~/src/viral_remix = Folio).
 - **hold-hypotheses-loosely-on-stakeholder-reads** — reading org/stakeholder intent → keep multiple variants live; let James declare convergence, don't collapse to one read.
 - **calibrate-exec-artifact-reads** — reading a high-stakes deck → ask for load-bearing data before asserting asymmetry; hit the honest middle on recalibration; push back on the humble instinct (OAV).
 - **synthesize-dont-deflect** — James asks Leo to synthesize/predict/read → deliver the view directly; don't punt back by asking his answer first.
