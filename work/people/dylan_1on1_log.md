@@ -542,3 +542,21 @@ Tone is already set from Slack. James is the most tenured EM in the room. The Di
 - **Yan's response to the maintenance/development split** — does he accept development ownership or push back on resourcing?
 
 ---
+
+## 2026-07-07 — Re-entry 1:1 debrief (first 1:1 post-vacation; REORG APPROVED)
+
+The biggest 1:1 of the half. Ran ~as prepped (`dylan_reentry_1on1_2026-07-07.md`), landed far beyond it.
+
+**What James delivered:**
+1. **Lay of the land + stepped-up-in-absence list** — highlighted Piyush, Devin, Yali, JJ by name (contributions + independence while OOO). Landed well; Dylan visibly pleased with the deliverables list.
+2. **Bella transparency** — full story: Meta-friend outreach, the conversation, offers-in-hand but staying, waiting on an Anthropic opening. Dylan: *"let's keep an eye out… thanks for the visibility… let's just see how it goes"* + noted it's good others (Piyush) are stepping up. No forced action.
+3. **Yuke transparency** — the situation + the TL→IC plan. Dylan surprised but grateful: *"this is exactly the type of transparency I'm looking for."* **Endorsed the IC move.** Her question back: **who is the TL for this space?** James owes a proposal.
+
+**What Dylan delivered (the earthquake):**
+- **Reorg approved** — already aligned with Rajat + HR. **Downward conversations mid-July.**
+- **Daniel Liu (EM) + his 8-person team + scope (Exploration ML/plumbing, Intelligent Boards, Recommend-a-Board, Unity Board) come under James.** Her framing: team is "relatively underutilized" (was lending them to other personalization efforts); this is James's chance to correct that. Her posture: setting James up for success — the team, the people, the scope.
+- **She wants a structure proposal from James** (incl. Alim-vs-Daniel allocation); open to giving **time to observe before deciding** internal structure.
+
+**Register notes:** the Anna-predicted post-vacation "what's the point" weather did not dominate — Dylan came in with an approved org design and moved it. Transparency currency confirmed twice in one meeting (Bella + Yuke). James left with thanks, and asked scope/priority questions rather than comparing allocations (comparison engine quiet — no Dhruvil/Yan scorekeeping).
+
+**Follow-ups James owes Dylan:** (1) org-structure proposal ahead of mid-July downward comms; (2) TL answer for pUIC/RR space; (3) (standing) Charlie-backfill Toronto flag. Intel filed: `daniel_liu_team_2026-07.md`; team_members.md (Yuke 7/7, Chuxi 7/7); stakeholders.md §Dylan reorg entry.

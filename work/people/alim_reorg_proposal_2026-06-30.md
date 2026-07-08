@@ -1,5 +1,7 @@
 # Alim Team Setup — Dylan 1:1 Proposal (prep, week of 7/6)
 
+> **⚠️ LARGELY SUPERSEDED BY EVENTS — 7/7 Dylan 1:1.** The reorg is **approved** (Rajat + HR aligned; downward comms mid-July) and **Daniel Liu + his 8-person team + IB/exploration scope come under James** — the design space this doc assumed (Option 2, GenRet-under-Alim, LWS opt-in) is **reopened, not decided**. Balaji-under-Alim is now a live option; Bella's reluctance to move stands; observe-first is on the table (Dylan offered time). The Yuke A/B section was already superseded 7/6 (PIP track). **Current facts live in `daniel_liu_team_2026-07.md`, team_members.md (7/6–7/7 entries), stakeholders.md §Dylan, dylan_1on1_log.md 7/7 debrief.** Durable pieces still valid below: two-track mission language, carry-over design decisions (Zili perf stays w/ James; substrate seam; Zihao UPP hedge), what-Alim-was-told-vs-reality.
+
 **Date:** 2026-06-30 · **Absorbs and replaces** `alim_team_split_proposal_2026-06-17.md` (retired/deleted 2026-06-30 — all durable context folded in below).
 
 ---
