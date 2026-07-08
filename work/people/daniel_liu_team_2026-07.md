@@ -36,6 +36,8 @@ This is the 5/15 latent signal landing: Andrew's IB-cut / redeploy-Yan's-ML-engi
 
 ## Design state (deliberately OPEN — do not converge yet)
 
+- **RESOLVED 2026-07-07 (Q1, grill): mid-July downward comms lock OUTER lines only** — (1) Daniel + team + IB/exploration scope → James; (2) Alim joins 7/27 as EM of a named starting pod. Everything internal (GenRet placement, Balaji line, Ling line, Kim pivot, Daniel's settled charter) stays **explicitly provisional** — "starting state, cheap to adjust; settled structure proposed after 30–60 days of observation." James confirmed this matches Dylan's intent.
+
 - Dylan wants a **structure proposal** from James; **she offered time to observe before deciding** — observe-first is a live option, not a failure mode.
 - **Generative Retrieval does NOT have to go under Alim** (6/30 Option-2 assumption retired). More ways to skin the cat now: Bella doesn't want to move under Alim; **Balaji under Alim is an option**; the new roster changes the anchor math.
 - **Fairness-to-Daniel constraint:** carving many of Daniel's people over to Alim (new, unknown manager) may be unfair to Daniel and reads badly — weigh it explicitly in any option.
