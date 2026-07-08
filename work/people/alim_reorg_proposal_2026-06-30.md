@@ -34,10 +34,9 @@ Retentive Recs (Yuke, Chuxi, Yidi, + SWE hire) is Alim's anchor pod — 4 people
 - Watch-for: make sure "don't want to switch managers" isn't a quiet read on Alim. Probe gently before the handoff.
 - Why it matters: she's a conditional stayer with a top-lab trigger — don't let handoff friction nudge her toward the exit.
 
-## Yuke A/B
-- **Option A (deep IC: UPP / pUIC / Reflex)** — cleaner. Lands him as IC on the right track; keeps the split clean.
-- **Option B (continue TL, Retentive Recs)** — now viable (no Chuxi succession to block), but crosses the split: RR is Alim's Track A; if Yuke stays on my side he can't TL it. Only works with his reporting line to Alim.
-- Every option already puts Yuke *inside* Retentive Recs → he reports to Alim either way. So decide A vs B as: *do I want Yuke leading RR under Alim (B), or deep-IC'ing on my platform / Reflex (A)?* **Lean A** — keeps RR's leadership fresh and points Yuke's modeling firepower at the harder problems.
+## Yuke A/B — SUPERSEDED 2026-07-06 (see team_members.md)
+- ~~A vs B~~ → **PIP track decided.** TL title stripped (delivered as the aligned IC transition, clean of PIP language); **Yuke stays under James, not Alim** — no handing a new EM a live perf case; ER consult first, H1 rating as on-ramp, formal PIP clock early August, spaced from the reorg announcement. GC (EB1 just filed) = time to run it clean, used to reassure, never as leverage.
+- **Roster consequence for this 1:1:** Yuke is OUT of Alim's seniority story. RR pod hands to Alim as Chuxi + Yidi (+ backfill req). The "2 seniors promised" gap is now real and needs an answer.
 
 ## The reorg — context & timing read
 The broader reorg is **Dylan's own instrument for my Director growth path** (Innovation-me / Core-Dhruvil split, her design intent since Feb 3). It is **NOT** the promo (that's ~2027, separate). Three nested events:
