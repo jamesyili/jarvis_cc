@@ -1,7 +1,7 @@
 # Health Context — Kidney Stones & Metabolic Profile
 
-**Last updated:** 2026-06-11
-**Status:** Active management — post-procedure surveillance + prevention phase
+**Last updated:** 2026-07-08 (post urology follow-up with Dr. Ha)
+**Status:** Active management — diet-first plan ratified by urology; repeat 24-hr urine ~Jan 2027
 **Owner:** James (39M, 5'8", 195 lbs, BMI ~29.6)
 
 ---
@@ -21,6 +21,10 @@ sodium, fructose/sugar, animal protein, weight. One lifestyle program fixes both
 meat/shellfish/beer.** Hydration, citrate, magnesium, and urine pH are already
 favorable — protect those.
 
+**Urology 7/8 (Dr. Ha): diet-first ratified, allopurinol deferred as an option,
+4 oz lemon juice + 2 L water daily, repeat 24-hr urine ~Jan 2027. 9 mm right stone:
+monitor + high fluid intake — no proactive procedure.**
+
 ---
 
 ## Timeline
@@ -31,9 +35,9 @@ favorable — protect those.
 | 2026-05-08 | Follow-up renal/bladder ultrasound — left clear; 9 mm right stone found |
 | 2026-05-13→14 | 24-hr urine collection + blood draw (Quest) |
 | ~Mid-May 2026 | Stone composition analysis returned |
-| 2026-05-20 | Urologist (Dr. Albert Hu) messaged: urorisk 24-hr urine back, multiple abnormalities, follow-up needed |
-| Booked | Urology "stone analysis" follow-up with **Dr. Albert Hu** (scheduled, summer 2026) |
+| 2026-05-20 | Urologist (**Dr. Ha**) messaged: urorisk 24-hr urine back, multiple abnormalities, follow-up needed |
 | 2026-06-30 | PCP (**Dr. Malik**) outreach drafted — request late-Aug/Sep check-up + repeat fasting lipids + lab review |
+| 2026-07-08 | **Urology follow-up — Dr. Ha.** 24-hr urine reviewed; diet-first plan; allopurinol offered as option; **9 mm right stone → monitor + high fluid intake** (no proactive procedure); repeat 24-hr urine in 6 months |
 
 ---
 
@@ -58,7 +62,7 @@ favorable — protect those.
 ### Abnormal
 | Test | Value | Reference | Note |
 |---|---|---|---|
-| Vitamin D 25-OH | **13** | 20–80 ng/mL | Deficient. Repletion needed but must monitor urine calcium (D ↑ gut Ca absorption) — await urologist protocol, no self-dosing high-dose D |
+| Vitamin D 25-OH | **13** | 20–80 ng/mL | Deficient. **Dr. Ha (7/8): start 1,000 IU/day.** Recheck level ~8–12 wks in |
 | Serum uric acid | **7.6** | 2.6–7.2 | Mildly high; consistent with hyperuricosuria below |
 | Triglycerides | **273** | <150 | Standout lipid number; likely non-fasting sample but still high |
 | HDL | **37** | >40 | Low |
@@ -134,7 +138,10 @@ Collection validated complete: creatinine 1,948 mg/24h (ref 800–2,000).
    beer.** Hits urine + serum uric acid AND triglycerides simultaneously
 
 ### P1 — maintain
-3. Hydration ≥2.5–3 L/day (~85–100 oz) — already achieving, don't slip
+3. Hydration ≥2.5–3 L/day (~85–100 oz) — don't slip. **Dr. Ha's formula (7/8):
+   4 oz lemon juice + 2 L water daily** — lifts citrate toward his ≥500 target.
+   *Watch-for: James told Dr. Ha he's at ~60 oz/day — that's below target and below
+   the 2.68 L the May collection showed. Verify actual intake.*
 4. **Normal dietary calcium (~1,000–1,200 mg/d) WITH meals — do not restrict.**
    Gut calcium binds oxalate; low-calcium diets worsen stone risk
 
@@ -154,12 +161,12 @@ Two-a-days with wife, Mon–Fri through ~Aug 10:
 - After kids return (~mid-Aug): shift to "protect the baseline" — some Zone 2 + some resistance weekly, 8k step floor as the guardrail
 
 ### Holds / cautions
-- **Vitamin D repletion: wait for urologist protocol** (likely 50k IU/wk × 8–12 wks
-  with urine Ca monitoring). No self-directed high-dose D
+- **Vitamin D: START 1,000 IU/day (Dr. Ha, 7/8).** Standard OTC dose — still no
+  self-directed high-dose D beyond this
 - No potassium citrate self-supplementation — citrate already adequate; pH already
   upper-normal and brushite SS is elevated (more alkalinization could worsen CaP risk)
 
-### Travel mode (currently on China/Korea trip, June 2026)
+### Travel mode (China/Korea trip — ended late June 2026; kept for future trips)
 - Sodium is uncontrollable abroad (soy/oyster sauce, broths, pickles, cured meats):
   **accept it, over-hydrate to compensate** (3+ L/day)
 - Controllables on the road: no sugary drinks, moderate red meat, skip saltiest
@@ -168,15 +175,55 @@ Two-a-days with wife, Mon–Fri through ~Aug 10:
 
 ---
 
-## Open Questions — Urology Follow-up
+## Urology Follow-up — 2026-07-08 (Dr. Ha)
 
-1. Thiazide diuretic for hypercalciuria, or diet-first trial (8–12 wks) then reassess?
-2. Allopurinol for hyperuricosuria (1,064) + serum UA 7.6, or diet-first?
-3. Vitamin D repletion protocol + urine calcium monitoring plan
-4. **9 mm right stone: surveillance vs. proactive ureteroscopy?** (Monohydrate =
-   SWL-resistant → URS if treated; nonobstructing/asymptomatic argues for watching)
-5. Imaging cadence for the right stone (US vs low-dose CT, 6–12 mo?)
-6. Timing of repeat 24-hr urine (typically 8–12 wks after interventions)
+What the visit covered (from James's notes; transcript was noisy — garbled terms
+normalized, e.g. "allopuradone" = allopurinol):
+
+- **9 mm right stone: monitor + drink lots of water** — surveillance, no proactive
+  ureteroscopy. (Not in the pasted notes; confirmed by James from the conversation.)
+- **Diet-first plan ratified.** Sodium reduction confirmed as the #1 intervention
+  ("cut down the sodium as much as possible — yes"). High urine sodium explicitly
+  linked to the hypercalciuria.
+- **Allopurinol offered as an option** for the hyperuricosuria + recurrent CaOx stones
+  — has side effects; Dr. Ha called dietary intervention "not unreasonable" to try
+  first; can be revisited via urology or PCP. **Decision: diet-first, med deferred.**
+- **Uric acid = diet-driven** (protein); gout risk flagged if it stays high.
+- **Oxalate mildly high** — moderation not elimination (spinach, kale, nuts; "if you're
+  eating spinach every single day, that would cause this"). Resources in after-visit summary.
+- **Citrate: Dr. Ha's preferred target is ≥500** (467 = "fine"). New concrete formula:
+  **4 oz lemon juice + 2 L water daily** to lift citrate + hydration. Urine pH good.
+- **Phosphorus** slightly high — tracks protein consumption; no action beyond diet.
+- **Calcium: do NOT restrict dietary calcium** despite elevated urine calcium
+  (confirms existing P1 guidance).
+- **Vitamin D: start supplementing — 1,000 IU/day** (confirmed by James post-visit;
+  the pasted transcript had garbled this line). Standard OTC dose, not a high-dose
+  repletion protocol.
+- **Energy drinks** (James's pre-stone habit, since quit cold turkey): Dr. Ha doubts
+  they were a major driver — fluid content is net-positive unless coconut-based.
+- **Mild hyperglycemia** flagged (glucose 112, likely non-fasting; A1c 4.7 is normal)
+  — PCP territory.
+- **Repeat 24-hr urine in 6 months** (~Jan 2027).
+- After-visit summary has kidney-stone resources incl. a patient guide (likely the
+  AUA kidney stone patient guide — transcript said "American Endocrine Association").
+
+### Scorecard vs. the six pre-visit questions
+
+1. Thiazide for hypercalciuria — **not raised**; implicitly diet-first
+2. Allopurinol — **answered:** option on the table, diet-first for now
+3. Vitamin D protocol — **answered: start 1,000 IU/day**
+4. 9 mm right stone — **answered: monitor + high fluid intake**, no proactive URS
+5. Imaging cadence for the right stone — **not specified** (check after-visit summary)
+6. Repeat 24-hr urine timing — **answered:** 6 months (~Jan 2027)
+
+## Open Questions — Urology (post 7/8 visit)
+
+1. Imaging cadence for the right stone under surveillance (US vs low-dose CT,
+   6–12 mo?) — likely in the after-visit summary; otherwise ask at next touchpoint
+2. Vitamin D at 1,000 IU/day is a modest dose against a level of 13 — at recheck
+   (~Oct), ask whether it's moving the number or a bigger dose is warranted
+3. Thiazide — parked unless repeat 24-hr urine (~Jan 2027) still shows hypercalciuria
+   after the sodium cut
 
 ## Open Questions — Primary Care
 
@@ -192,10 +239,10 @@ Two-a-days with wife, Mon–Fri through ~Aug 10:
 
 | What | When |
 |---|---|
-| Repeat 24-hr urine | ~Aug–Sep 2026 (8–12 wks after diet changes begin post-trip) |
+| Repeat 24-hr urine | **~Jan 2027** (6 months post 7/8 visit, per Dr. Ha) |
 | Fasting lipid panel | ~Sep–Nov 2026 |
-| Vitamin D recheck | 8–12 wks after repletion starts |
-| Right stone imaging | Per urology (likely 6–12 mo) |
+| Vitamin D recheck | ~Sep–Oct 2026 (8–12 wks after starting 1,000 IU/d) |
+| Right stone imaging | Surveillance confirmed 7/8; **cadence TBD** — check after-visit summary |
 | CMP + A1c | Annual |
 
 ## Personal Targets
@@ -222,8 +269,8 @@ Two-a-days with wife, Mon–Fri through ~Aug 10:
 - Post-trip (late June 2026): prompt habit-building for sodium reduction + zone 2
   cardio routine; this is the designated reset window alongside the Range financial
   planning sessions
-- If follow-up appointments haven't been scheduled by early July 2026: surface reminder
-  (urology + primary care are both pending)
+- Urology follow-up done 2026-07-08. **Primary care still pending** (Dr. Malik outreach
+  drafted 6/30 — confirm it was sent and an appointment exists for late Aug/Sep)
 - Frame: this was caught at 39 with normal kidney function and normal A1c —
   early-warning territory, fully reversible trajectory. Not a doom narrative.
 - All medical decisions route through urologist/PCP; this doc is context, not a
