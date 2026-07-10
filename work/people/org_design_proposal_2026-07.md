@@ -24,14 +24,14 @@ Levels marked **?** are inferred from title or unconfirmed — see Gaps register
 ### James's current directs (17 incl. Lionel)
 | IC | Level | Family | Main project(s) | Draft destination |
 |---|---|---|---|---|
-| Piyush | L16? | MLE | UPP retrieval (lead) | James direct → endgame fork F3 |
-| Devin | L15? | MLE | CLR (lead; L16 path = CLR+UPP) | CLR pod → Daniel (fork F1) |
-| Yichi | ? | ? | CLR (+GULP?) | with CLR pod |
-| Ryan | L15? | ? | CLR + UPP infra (joined Apr) | with CLR pod ⟨confirm⟩ |
-| JJ | L15 (L16 case parked) | SWE? | Real-Time/L1 · **Reflex (Build lead)** | James direct (Reflex) |
-| Ray | ? | ? | L1 (+Reflex framing?) | James direct? — fork F6 |
-| Alok | ? | ? | Real-Time · Reflex ~50% (giving up PhP/DT) | UPP+Reflex (Leo rec) — fork F4 |
-| Yali | L15? | MLE? | LWS | LWS pod → Daniel (fork F1) |
+| Piyush | **L16** | MLE | UPP (pure) — but **uber-TL (TL of TLs) over CLR + LWS too** | James direct → endgame fork F3 (⚠️ his TL scope spans the F1 move) |
+| Devin | **L15** | MLE | CLR (lead) · GULP | CLR pod → Daniel (fork F1) |
+| Yichi | **L13** | MLE | CLR | with CLR pod |
+| Ryan | **L15** | SWE | ML Infrastructure | placement ⟨reconfirm — not CLR-specific⟩ |
+| JJ | **L15** (L16 case parked) | MLE | Real-Time/L1 · **Reflex (Build lead)** | James direct (Reflex) |
+| Ray | **L14** | SWE | L1 (+Reflex framing?) | James direct? — fork F6 |
+| Alok | **L14** | MLE | Real-Time · Reflex ~50% (giving up PhP/DT) | UPP+Reflex (Leo rec) — fork F4 |
+| Yali | **L15** | MLE | LWS | LWS pod → Daniel (fork F1) |
 | Hedi | L15? | MLE? | LWS (+ paper work) | with LWS pod |
 | Zili | ? | ? | LWS (perf case — stays w/ James) | with LWS pod |
 | Bella | L16? Staff | MLE | **RecGPT/GenRet · Reflex** (~30–50%) | James direct |
