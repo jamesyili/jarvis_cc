@@ -32,9 +32,9 @@ Levels marked **?** are inferred from title or unconfirmed — see Gaps register
 | Ray | **L14** | SWE | L1 (+Reflex framing?) | James direct? — fork F6 |
 | Alok | **L14** | MLE | Real-Time · Reflex ~50% (giving up PhP/DT) | UPP+Reflex (Leo rec) — fork F4 |
 | Yali | **L15** | MLE | LWS | LWS pod → Daniel (fork F1) |
-| Hedi | L15? | MLE? | LWS (+ paper work) | with LWS pod |
-| Zili | ? | ? | LWS (perf case — stays w/ James) | with LWS pod |
-| Bella | L16? Staff | MLE | **RecGPT/GenRet · Reflex** (~30–50%) | James direct |
+| Hedi | **L15** | MLE | LWS (+ paper work) | with LWS pod |
+| Zili | **L14** | MLE | LWS (perf case — stays w/ James) | with LWS pod |
+| Bella | **L16** Staff | MLE | **RecGPT/GenRet · Reflex** (~30–50% — pin the split) | James direct |
 | Hanlin | ? | MLE? | RecGPT (+ ME GPU serving) | James direct — fork F5 |
 | Yuke | L15 | MLE | RecGPT (single stream; PIP) | James direct through PIP window |
 | Chuxi | L14 | MLE | pUIC model-based · pUIC LLM-based (TL ramp) | **Alim** |
@@ -45,13 +45,13 @@ Levels marked **?** are inferred from title or unconfirmed — see Gaps register
 ### Daniel's team (7 + intern)
 | IC | Level | Family | Main project(s) | Draft destination |
 |---|---|---|---|---|
-| Balaji | L16? Staff | MLE | team TL; day-to-day work **unknown** | fork F2 (Daniel TL vs Alim Staff anchor) |
-| Roderick | L15? | SWE | UEB (driving well) | **Alim** (UEB goes with RR/exploration) |
-| Ling Lan | L14? | MLE | LLM-pUIC inference pipeline | **Alim** (already inside the work) |
-| Yang Liu | L15? | MLE | UIC (pre-parental-leave; Roderick took over) | **Alim** ⟨return date/ramp?⟩ |
-| Kim Toy | L15? | MLE | UPP foundational (loaned to Dhruvil) · CLR (pointed, not started) | **Daniel** (CLR bridge); wind down loan |
-| Yongwoo Noh | L15? | MLE | **UNKNOWN** | Daniel (default) |
-| Felix Yang | L14? | SWE | **UNKNOWN** | Daniel (default) |
+| Balaji | **L16** Staff | MLE | team TL; day-to-day work **unknown** | fork F2 (Daniel TL vs Alim Staff anchor) |
+| Roderick | **L15** | SWE | UEB (driving well) | **Alim** (UEB goes with RR/exploration) |
+| Ling Lan | **L14** | MLE | LLM-pUIC inference pipeline | **Alim** (already inside the work) |
+| Yang Liu | **L15** | MLE | UIC (pre-parental-leave; Roderick took over) | **Alim** ⟨return date/ramp?⟩ |
+| Kim Toy | **L15** | MLE | UPP foundational (loaned to Dhruvil) · CLR (pointed, not started) | **Daniel** (CLR bridge); wind down loan |
+| Yongwoo Noh | **L15** | MLE | **UNKNOWN** | Daniel (default) |
+| Felix Yang | **L14** | SWE | **UNKNOWN** | Daniel (default) |
 | Rita Lyu | intern | — | — (~2 months left) | ignore for design |
 
 ## Profile: Lionel (new hire — L14 SWE, Toronto, starts 7/27)
