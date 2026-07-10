@@ -3,6 +3,8 @@
 > Final draft for Workday, 2026-07-09. Form: promotion feedback, not shared with Rahul. Readiness radio: **"Can't fully assess: I don't have enough direct exposure to make a confident call."**
 >
 > Context noted at drafting: Rahul now reports to a newly joined senior director who has little context on him or James. The text is written to be legible to a cold reader.
+>
+> 2026-07-10: added the "impact and quality" form question. Kept scoped to the operational seam and consistent with the "Can't fully assess" radio; technical-output quality explicitly deferred to closer assessors (the honest N/A pattern), pointing at Q2 rather than contradicting it.
 
 ---
 
@@ -15,6 +17,12 @@ The clearest example is the operations meeting series between CSI and Homefeed. 
 Beyond that episode, Rahul has been consistently understanding and supportive toward customer teams like mine. He is transparent about his constraints, does what he can within them, and has facilitated several conversations between our teams that could otherwise have gone sideways. When we bring problems to him, he engages with real empathy for the downstream impact.
 
 One caveat so my input gets weighted correctly: I have not observed Rahul in a deeply technical context. My read is grounded in partnership and operations rather than technical direction, which I speak to in the next question.
+
+**Q: How have they demonstrated the impact and quality of their work?**
+
+My answer here is narrower than it would be for most nominees, consistent with my rating below. From the customer seat, the impact I can attest to is operational. During the stretch when Rahul carried the CSI and Homefeed operations forum, urgent items moved: escalations were triaged and driven to resolution rather than aging out while more senior people were away, and the two organizations stayed aligned on priorities throughout. Homefeed depends on CSI output every day, so reliability at that seam is real impact for my teams. The quality behind it was visible in how he ran the forum: he came prepared, kept the commitments he made, and surfaced constraints early rather than letting them arrive as surprises.
+
+On the quality of his team's technical output, I am not positioned to make a confident claim, and I would rather say so than manufacture evidence. The M16 expectation of upholding "the technical bar for the quality, accuracy, and timeliness of the team's output" is the dimension I have not observed enough to judge; the one close observation I do have sits in the development question below. Assessors closer to his team's day to day technical work should carry the weight on that dimension.
 
 **Q: Looking at the next level's REG, where does the nominee need to develop to effectively operate at the next level?**
 

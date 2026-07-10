@@ -4,6 +4,8 @@
 >
 > Sources: James brain dump; prior collaboration assessment letter by James and Dhruvil (transcribed verbatim in the appendix, left untouched); `work/projects/upp/cfm_technical.md`. The CFM ~1% repin early signal is deliberately omitted (marked "snapshot, not verdict" in notes); add a hardened number to the second paragraph of Q1 if one exists.
 > Spelling: **Lawhon** (James's dump had "Lawhorn"; repo confirms Lawhon).
+>
+> 2026-07-10: added the "impact and quality" form question. Per James's direction it avoids CFM (already the Q1 headline) and anchors on UPP: Matthew as ranking TL thinking through the platform's practical concerns. Evidence from `upp_retrieval_em.md` (alignment thread, verbatim quote) and `cross_org_operational_model/` (cross area calibration POC).
 
 ---
 
@@ -14,6 +16,12 @@ I strongly support Matthew's promotion to IC16, and I say that as a peer manager
 The clearest IC16 evidence is CFM. Since the last round of feedback, Matthew championed the Conditional Foundation Model and saw it through to fruition. It is already landing strong impact in Homefeed, Notifications, and P2P, and it is on track for much broader reach across Pinterest through the UPP platformization effort. How quickly he made all of this happen, while staying hands on, is the IC16 role summary almost word for word: "a leader who drives the technical solutions and strategic objectives for one or more teams," whose impact "is felt beyond their primary team."
 
 Just as important is how his influence has matured. Matthew has been extremely collaborative with my retrieval team, on lightweight scoring, on advocating continued investment in foundation models and model scaling, and on helping us balance how much scoring belongs in the L1 layer versus L2. He is articulate, and where he once pushed hard on every idea, he now operates with what I would call "influence through restraint": here is my suggestion, take it or leave it, reserving the hard push for the points that are truly critical. That is a visible improvement since prior feedback, and it aligns with the IC16 expectation to influence other teams' roadmaps and win support rather than force it. I expect it to carry his influence a long way across Pinterest.
+
+**Q: How have they demonstrated the impact and quality of their work?**
+
+CFM is the headline above, so here I will point somewhere else: UPP, the cross org effort to unify Pinterest's ranking and retrieval stacks on shared pretrained models. A platform bet like that lives or dies on practical judgment, on model maintenance burden, serving cost, calibration across surfaces, and who owns which seam. As the technical lead on the ranking side, Matthew is consistently the person thinking those concerns through before they become problems. When the cross org alignment discussion was drifting toward a proliferation of bespoke base models, he staked out the position that "there is only one base model per category (ranking or retrieval) and the pretraining is sufficiently general that no other base models are required in the category." That one position carried the maintenance, velocity, and ownership implications of the entire design space, and it became an anchor the broader group aligned around. When terminology across orgs got muddled, he was the one clarifying the technical distinctions between the model layers so teams stopped talking past each other.
+
+The quality of his work shows in how much other teams lean on his judgment. In the UPP operational model, Matthew is the named point of contact for cross area calibration: teams across surfaces are directed to confirm direction with him before making changes at that seam. That kind of trust is earned through work products, and it matches the IC16 Impact expectation that "individual work products (documents, code, analysis) serve as examples for simplicity, quality and impact." Between the platform judgment on UPP and his delivery across our shared P0s in GPU serving and L1 calibration, he has "a track record of successfully guiding, leading and shipping projects that have substantial impact to team level OKRs, or other metrics critical to the organization" many times over.
 
 **Q: Looking at the next level's REG, where does the nominee need to develop to effectively operate at the next level?**
 
