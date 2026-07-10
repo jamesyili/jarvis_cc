@@ -38,7 +38,8 @@ Last updated: 2026-06-24
 - **Role:** Real-Time systems + L1 Utility (absorbing from David in April) + Pinvestigator collaboration
 - **Workstream:** Real-Time, L1 Utility, Pinvestigator
 - **1:1:** Tue 4:00pm
-- **Context:** Promo target IC16 by end of June. Start packet in April. Address ML depth gap. Currently investigating active metric incident — opportunity for Pinvestigator demo Wednesday.
+- **Context:** IC16 promo package **Draft v1 completed 2026-07-09** (`work/people/jj_ic16_promo_package_2026-07.md`, Workday Q1/Q2/Q3 form, emailed to James). Q1 = foundations/efficiency + AI tooling/ML-adjacent systems ("straddles ML systems and models"); Q2 = L1 Utility+efficiency / In-Session Responsiveness (PSv2 nod) / Pinvestigator+Reflex+mentorship; Q3 = tactical→strategic, strategic brevity. The old "ML depth gap" concern is answered in-package by reframing his depth as ML systems + agentic tooling. Open confirms before submit: savings total ($1.67M vs $1.8M), ML Symposium year (2025 vs 2026), Q1 ~10-engineer span, Heath/Olafur last names.
+- **Cross-org buy-in intel (2026-07-09):** Content Success is investing in L1 Utility shopping controls — Heath (Senior EM) strong buy-in, Olafur (IC17 Senior Staff) can corroborate the story; the engineer driving the shopping control experiment is from Content Success. Leo rec: Olafur belongs on JJ's assessor list.
 - **Risk:** If promo doesn't land + Bowen departure + AI market = potent combination for JJ to look. Have contingency conversation ready.
 - **Single point of failure:** Essentially solo on Real-Time. No coverage if he left.
 

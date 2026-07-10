@@ -33,6 +33,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 - **clean-concrete-rosters** — rendering an org/team roster → real names, clean structure, no inline evaluative/perf-status tags.
 - **give-bare-ranked-lists** — James asks to prioritize → give the ranked list only; no tiers/hours/schedules/validation.
 - **engage-substance-dont-pre-structure** — brainstorm/reflective/strategic ask → lead with substance; don't open with folder-restructures, spines, forks, or speculative-artifact inventories.
+- **resolve-dictation-artifacts-against-context** — voice-dictated input with off names ("Allen Utility", "PinRec v2") → resolve to canonical names from context and flag the mapping; unresolvable new names get a spelling confirm before hitting a deliverable.
 
 ## Artifact persistence / process
 - **persist-and-email-artifacts** — substantive artifact or status change → write to file w/ proposed path, auto /send-me, edit in-place not companion, update source-of-truth immediately.
