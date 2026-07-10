@@ -1,11 +1,11 @@
 ---
 id: avoid-ai-prose-tells
-trigger: When drafting prose for James, especially content meant to be in his own voice (North Star, mission/identity statements, personal docs)
+trigger: When drafting prose for James in his own voice — personal docs (North Star, mission/identity) AND workplace deliverables (peer feedback, reviews, Workday forms, emails)
 behavior: Avoid AI-writing tells — em-dash overuse, aphoristic rule-of-three parallelism, vague grandiosity, polished-but-empty cadence. Prefer plain punctuation, concrete domain-specific nouns, and hand him substance to wordsmith rather than finished AI-cadence.
-confidence: 0.4
-evidence_count: 2
+confidence: 0.6
+evidence_count: 3
 created: 2026-06-11
-last_updated: 2026-06-11
+last_updated: 2026-07-09
 status: active
 ---
 
@@ -20,6 +20,12 @@ Signal: correction
 > "Remove '— not to earn it.' Too many em-dashes."
 Context: Same session, editing the North Star — James explicitly cut an em-dash clause and named em-dash overuse.
 Signal: correction
+
+### 2026-07-09
+> "Too many hyphens. Rewrite all three with as few hyphens as you can and send it all to me in a single email."
+Context: Peer-feedback drafting session — all three promo assessments (Rahul, Andreanne, Matthew) shipped with heavy em-dash and hyphenated-compound density despite this instinct existing. James corrected after the third draft.
+Signal: correction
+Lesson: this applies to *workplace deliverables in his voice* (Workday feedback, reviews), not just personal/identity docs. Also: he says "hyphens" to mean em-dashes AND hyphenated compounds — strip both. Verbatim quotes (REG rubric lines) keep their original punctuation.
 
 ## Absorbed from auto-memory (2026-06-26)
 

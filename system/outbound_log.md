@@ -47,3 +47,8 @@
 | 2026-07-01 06:07 | gmail | [Leo] Dylan Re-Entry 1:1 — Topics (Tue 7/7) | work/people/dylan_reentry_1on1_2026-07-07.md | to=jamesyili@gmail.com id=19f1dcae99c621ce |
 | 2026-07-01 06:11 | gmail | [Leo] Dylan Re-Entry 1:1 — Topics (Tue 7/7) | work/people/dylan_reentry_1on1_2026-07-07.md | to=jamesyili@gmail.com id=19f1dce083ac713d |
 | 2026-07-02 15:34 | gmail | [Leo] H1 2026 Self-Review — DRAFT for James to edit | work/career/self_review_H1_2026_draft.md | to=jamesyili@gmail.com id=19f24f866062ce00 |
+| 2026-07-09 14:45 | gmail | [Leo] Rahul Sharma — Promo Assessment (M15 → M16), July 2026 | work/people/peer_feedback_2026/rahul_sharma_promo.md | to=jamesyili@gmail.com id=19f48d75f1188770 |
+| 2026-07-09 14:59 | gmail | [Leo] Andreanne Lemay — Promo Assessment (IC14 → IC15 MLE), July 2026 | work/people/peer_feedback_2026/andreanne_lemay_promo.md | to=jamesyili@gmail.com id=19f48e4ea329cfcb |
+| 2026-07-09 15:08 | gmail | [Leo] Matthew Lawhon — Promo Assessment (IC15 → IC16 MLE), July 2026 | work/people/peer_feedback_2026/matthew_lawhon_promo.md | to=jamesyili@gmail.com id=19f48ed2cdd39c06 |
+| 2026-07-09 16:20 | gmail | [Leo] Rahul Sharma — Promo Assessment (M15 → M16), July 2026 | work/people/peer_feedback_2026/rahul_sharma_promo.md, work/people/peer_feedback_2026/andreanne_lemay_promo.md, work/people/peer_feedback_2026/matthew_lawhon_promo.md | to=jamesyili@gmail.com id=19f492ebbd28c1f8 |
+| 2026-07-09 16:43 | gmail | [Leo] Peer Feedback Drafts — Rahul, Andreanne, Matthew (July 2026) | work/people/peer_feedback_2026/rahul_sharma_promo.md, work/people/peer_feedback_2026/andreanne_lemay_promo.md, work/people/peer_feedback_2026/matthew_lawhon_promo.md | to=jamesyili@gmail.com id=19f4943b9cacbe47 body-only |
