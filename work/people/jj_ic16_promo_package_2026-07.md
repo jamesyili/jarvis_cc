@@ -1,6 +1,6 @@
-# JJ — IC16 (Staff MLE) Promotion Package — FINAL (2026-07-10)
+# JJ — IC16 (Staff MLE) Promotion Package — SUBMITTED in Workday 2026-07-10
 
-> James's final edit, pasted back 2026-07-10 and preserved verbatim (typos included) as the record of what goes into Workday. Supersedes Draft v1 (2026-07-09) and the 7/10 Q3 decision-ownership revision. The draft-vs-final diff is the source for the manager-authored promo package rules added to `self/feedback_writing_style.md` §9 and the `credit-provenance-precisely` instinct.
+> **Status: SUBMITTED 2026-07-10.** James's final edit, preserved verbatim (typos included) as the record of what went into Workday. Supersedes Draft v1 (2026-07-09) and the 7/10 Q3 decision-ownership revision. The draft-vs-final diff is the source for the manager-authored promo package rules added to `self/feedback_writing_style.md` §9 and the `credit-provenance-precisely` instinct.
 >
 > Residuals James may want to fix at Workday paste time:
 > 1. **ML Symposium year:** Dafang's verbatim quote says 2025; James's own prose says 2026. One is off (quotes stay verbatim, but the prose year should be checked).
