@@ -52,6 +52,22 @@ If the script prints lines about opening a browser ("Please visit this URL to au
 
 If the script prints `Missing OAuth client secret at ~/.config/leo/google_credentials.json`, tell James he needs to complete the one-time GCP setup. Don't try to fix it from this skill.
 
+### Body-only mode (no attachments)
+
+If James asks for the content **in the email body** instead of attachments ("don't attach, put it in the body"), the script has no flag for this — call the sender directly:
+
+```python
+sys.path.insert(0, "/home/james/src/leo/scripts")
+from md_to_html import render
+from leo_google.gmail_send import send
+from leo_google.common import append_outbound_log
+html = render(Path("combined.md"))  # concatenate multiple .md files first if needed
+send(to="jamesyili@gmail.com", subject="[Leo] ...", html_body=html, attachments=[])
+append_outbound_log("gmail", subject, source_paths, extra="body-only")
+```
+
+For multiple files, build one combined .md (demote each file's H1 to H2) in the scratchpad, render once. First used 2026-07-09 (three peer-feedback drafts in one body-only email).
+
 ## Failure Handling
 
 | Failure | Response |

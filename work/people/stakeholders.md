@@ -324,6 +324,8 @@ Markdown
 
 UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team presenting ranking + foundations slides. That public-altitude visibility staging is *exactly* the shape of a promo packet being built. Honest weighted read (limited intel):
 
+**2026-07-09 confirmation:** the packet is real — **Matthew Lawhon nominated IC15 → IC16 this cycle.** James submitted strong support ("Ready now"): CFM-to-fruition as headline, "influence through restraint" maturation since the Jan calibration history. Draft + prior familiarity-gap letter: `work/people/peer_feedback_2026/matthew_lawhon_promo.md`.
+
 | Read | Weight |
 |---|---|
 | Dhruvil promotes end-of-2026 (H2 cycle) | ~45% |
@@ -1721,6 +1723,7 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 ## Role in my 6–12 month goals
 - **Manager II, Blending team (HF, under Dylan).** Blending sits downstream of HF CG and Ranking — the final stage before the feed. Architecturally adjacent to James's surface and increasingly relevant to cross-surface Reflex patterns.
 - **Retentive Recommendations co-sponsor.** Rahul has dedicated his best engineer, **Adreanne**, to Retentive Recs — a concrete resource investment on Anna + James's initiative. Gives him structural skin in the coalition game, not just rhetorical support.
+- **2026-07-09: Adreanne nominated IC14 → IC15.** James submitted strong support ("Ready now") — velocity + feedback-loop-project end-to-end story. Draft: `work/people/peer_feedback_2026/andreanne_lemay_promo.md`. ⚠ Spelling discrepancy: this file has always said **Adreanne**; James's 7/9 dump opened with "Andreanne Lemay" and the draft uses that — **verify against Workday before submitting, then reconcile whichever is wrong.**
 - **RLHF meeting attendee.** Alongside Dhruvil (HF Ranking) and James (HF CG), Rahul represents the third HF-stack surface. His Blending patterns are the natural extension target for the curator's cross-surface conflict-resolution logic.
 
 ## Current relationship
@@ -1787,3 +1790,21 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 - §9 Andrew — sponsor channel; assigned Tim
 - §28 Dafang He — Reflex overall TL (Tim's operational counterpart)
 - §1 Dylan — funding-ask circle-back recipient
+
+# 37) Rahul Sharma — CSI EM, M15 (added 2026-07-09)
+
+> **Distinct from §35 Rahul Goutam** (Blending, under Dylan). This is "Rahul-CSI"; §35 is "Rahul-Blending".
+
+**Status:** Light entry, captured during the H1 peer-feedback cycle. Fill out as collaboration deepens.
+
+## What's known
+- **Role:** Junior SWE engineering manager (M15) in CSI; his team's work is upstream of Homefeed. Interaction surface = the CSI/Homefeed operational seam.
+- **Promo:** Nominated M15 → M16 this cycle. James submitted assessment 2026-07-09: real partnership/ops positives (stepped up as main POC for the CSI–Homefeed operations meetings when other leads were out), development area = visibly setting the technical bar on his own team (Ngan/DynamicSizer staffing episode), readiness = **"Can't fully assess"** — scoped honestly to James's vantage. Draft: `work/people/peer_feedback_2026/rahul_sharma_promo.md`.
+- **Working read:** collaborative when engaged, empathetic to customer teams, transparent about constraints; not yet observed operating in a deeply technical context.
+
+## Org intel
+- **Reports to a newly joined senior director (name TBD — capture when known).** She is new with little context on Rahul *or* James — which is why the 7/9 feedback was written cold-reader-safe. Relevant beyond Rahul: she is a new senior leader over CSI, an org James's team depends on daily. Worth a deliberate intro touchpoint at some point.
+
+## Cross-references
+- §26/§27-era CSI context: Kent Jiang (CSI Sr EM nominee, unity) — see `self/peer_feedback_examples.md` for James's prior promo feedback on him.
+- `work/people/peer_feedback_2026/rahul_sharma_promo.md`
