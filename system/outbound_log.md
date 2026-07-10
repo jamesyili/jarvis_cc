@@ -55,3 +55,4 @@
 | 2026-07-09 20:29 | gmail | [Leo] JJ — IC16 (Staff MLE) Promotion Package — Draft v1 (2026-07-09) | work/people/jj_ic16_promo_package_2026-07.md | to=jamesyili@gmail.com id=19f4a1260daa55f6 |
 | 2026-07-09 21:28 | gmail | [Leo] H2 2026 Development Thread — XFN Partnership (the named Director gate) | work/career/xfn_growth_thread_h2_2026.md | to=jamesyili@gmail.com id=19f4a489c0d6a995 |
 | 2026-07-10 12:21 | gmail | [Leo] Promo impact/quality answers x3 — Matthew (UPP), Andreanne, Rahul (paste-ready) | /tmp/claude-1000/-home-james-src-leo/09ea90d5-23b7-440a-b5be-b19a34639688/scratchpad/impact_quality_answers_combined.md | body-only |
+| 2026-07-10 16:42 | gmail | [Leo] JJ — IC16 (Staff MLE) Promotion Package — Draft v1 (2026-07-09) | work/people/jj_ic16_promo_package_2026-07.md | to=jamesyili@gmail.com id=19f4e6957bdd2b18 |
