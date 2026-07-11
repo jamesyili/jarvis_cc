@@ -63,7 +63,7 @@ from leo_google.gmail_send import send
 from leo_google.common import append_outbound_log
 html = render(Path("combined.md"))  # concatenate multiple .md files first if needed
 send(to="jamesyili@gmail.com", subject="[Leo] ...", html_body=html, attachments=[])
-append_outbound_log("gmail", subject, source_paths, extra="body-only")
+append_outbound_log("gmail", subject, source_paths, extra="body-only")  # source_paths must be Path objects, NOT strings — common.py calls .is_absolute()/.relative_to() (str crashes; hit 2026-07-10)
 ```
 
 For multiple files, build one combined .md (demote each file's H1 to H2) in the scratchpad, render once. First used 2026-07-09 (three peer-feedback drafts in one body-only email).
