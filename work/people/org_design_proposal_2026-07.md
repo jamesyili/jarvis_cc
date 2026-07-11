@@ -13,7 +13,20 @@ Nine parts. Decision-first throughout (no option menus except §7). Cold-reader-
 2. **What the announcement locks vs. what stays provisional** — outer lines lock mid-July; internal placements provisional through the 30–60 day observe window. Makes her downward comms safe.
 3. **The three legs** — one block each: mission, measured-on, day-1 roster, one risk + mitigation (Alim: promise gap via pre-start call; Daniel: phased scope + AI-leveraged-engineering charter hook; James-direct: per-person justification table + time story, GenRet time-boxed with sunset criteria).
 4. **Operational ownership (oncall / maintenance / KTLO)** — table: rotation → day-1 owner → settle-state owner. Headline: no pager gap at any point. Resolves: JJ-goes-Reflex-full orphaning L1/RT (Ray = candidate answer to F6); LWS oncall moves with the pod day 1 + one explicit Zili sentence (rotation under Daniel, perf with James); Daniel's charter gains the concrete hook — first AI-leveraged oncall (Pinvestigator triage as default first responder, measured on time-to-diagnosis); Lionel oncall ramp deliberate (new + remote); R-a-B/Unity Board = KTLO-vs-deprecation call.
-5. **Routing — who is responsible for what** (James add, 7/10) — front-door table for Dylan, Andrew, and PMs: domain → accountable EM → TL. Doubles as the XFN fast-path framework (Andrew's 7/9 feedback, structural response).
+5. **Routing — who is responsible for what** (James add, 7/10) — front-door table for Dylan, Andrew, and PMs. Doubles as the XFN fast-path framework (Andrew's 7/9 feedback, structural response). First cut (Leo, 7/10):
+
+   | Domain | Front door (EM) | Technical owner | Routing notes |
+   |---|---|---|---|
+   | Anticipation / Retentive Recs (pUIC, feedback loop) | **Alim** | Chuxi (ramping) | Anna + anticipation PMs route product asks to Alim day 1; James = escalation path through Alim's first ~30 days |
+   | Exploration surfaces (UEB, Content Exploration/MDD) | **Alim** | Roderick | — |
+   | Generative Retrieval / RecGPT | **James** (incubation) | Bella | Time-boxed; moves when structure revisits |
+   | Reflex / AI tooling (Build agents, Pinvestigator, Pinkerton) | **James** | JJ (Build) · Dafang (overall TL, Dylan's line) | Andrew + Tim (PM) route here — the "where James's time goes" story made visible |
+   | UPP retrieval | **James** (transitional) | Piyush | F3 endgame; cross-org channels (Sai, Jaewon) unchanged |
+   | Scoring/serving platform (LWS day 1; CLR at settle; R-a-B/Unity Board maintenance) | **Daniel** | Devin (CLR) · LWS TL TBD | Infra partners + platform asks; oncall per §4 |
+   | L1/Real-Time maintenance | **James** via Ray → Daniel at settle | Ray | JJ consults, doesn't carry the pager |
+   | **PM front door (newer / non-recsys PMs — Michael's org)** | per-domain EM above | — | Replaces ad-hoc pings to individual engineers; pairs with the self-serve tooling framework being scoped |
+
+   Watch-fors on this section: (a) PM front-door row framed as **service** ("named owner, faster answers"), never boundary-enforcement — it's the structural answer to Andrew's feedback, landing the week Michael onboards; (b) **Anna hears the RR→Alim handoff from James directly before reading it anywhere**, same beat as the Chuxi story; (c) one explicit line noting Andrew's three channels (Reflex via James+Tim, ISR via JJ, feedback tooling via framework) so it reads designed, not fragmented.
 6. **Calls I've made** — F1 LWS-first, Lionel→Alim, F4 Alok, F6 Ray — stated as decisions, one-line rationale each.
 7. **Where I want your input** — two max: F2 Balaji (touches the Alim promise), Kim loan wind-down (needs her cover with Dhruvil).
 8. **Sequencing after the announcement** — who hears what in which order (Daniel first from James, Bella continuity, Chuxi grow-in-place story, Yuke as already-aligned role change) + 30/60/90 observe checkpoints.
