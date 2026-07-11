@@ -5,6 +5,20 @@ Deliverable: structure proposal Dylan asked for (7/7 1:1), ahead of mid-July dow
 
 ---
 
+## Dylan-facing doc — skeleton (aligned with James 2026-07-10)
+
+Nine parts. Decision-first throughout (no option menus except §7). Cold-reader-safe: no PIP language (Yuke = "role change, James retains through transition"), no Bella leave-trigger/retention specifics, no "Anna's veto" (say profile fit), no "develop-or-document" on Daniel, no "tight-leash" on Alok — write every named person's line as if they'll read it.
+
+1. **The shape in one view** — three legs, one line each: mission + roster + count. Ten-second read.
+2. **What the announcement locks vs. what stays provisional** — outer lines lock mid-July; internal placements provisional through the 30–60 day observe window. Makes her downward comms safe.
+3. **The three legs** — one block each: mission, measured-on, day-1 roster, one risk + mitigation (Alim: promise gap via pre-start call; Daniel: phased scope + AI-leveraged-engineering charter hook; James-direct: per-person justification table + time story, GenRet time-boxed with sunset criteria).
+4. **Operational ownership (oncall / maintenance / KTLO)** — table: rotation → day-1 owner → settle-state owner. Headline: no pager gap at any point. Resolves: JJ-goes-Reflex-full orphaning L1/RT (Ray = candidate answer to F6); LWS oncall moves with the pod day 1 + one explicit Zili sentence (rotation under Daniel, perf with James); Daniel's charter gains the concrete hook — first AI-leveraged oncall (Pinvestigator triage as default first responder, measured on time-to-diagnosis); Lionel oncall ramp deliberate (new + remote); R-a-B/Unity Board = KTLO-vs-deprecation call.
+5. **Routing — who is responsible for what** (James add, 7/10) — front-door table for Dylan, Andrew, and PMs: domain → accountable EM → TL. Doubles as the XFN fast-path framework (Andrew's 7/9 feedback, structural response).
+6. **Calls I've made** — F1 LWS-first, Lionel→Alim, F4 Alok, F6 Ray — stated as decisions, one-line rationale each.
+7. **Where I want your input** — two max: F2 Balaji (touches the Alim promise), Kim loan wind-down (needs her cover with Dhruvil).
+8. **Sequencing after the announcement** — who hears what in which order (Daniel first from James, Bella continuity, Chuxi grow-in-place story, Yuke as already-aligned role change) + 30/60/90 observe checkpoints.
+9. **Appendix** — Master IC table (reference, not body).
+
 ## Design principles (Dylan-derived + James-set)
 
 1. **James carries few direct ICs, each with explicit justification** and a story for how James spends his time (Dylan's direct feedback, 7/7).
