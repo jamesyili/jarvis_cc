@@ -57,3 +57,4 @@
 | 2026-07-10 12:21 | gmail | [Leo] Promo impact/quality answers x3 — Matthew (UPP), Andreanne, Rahul (paste-ready) | /tmp/claude-1000/-home-james-src-leo/09ea90d5-23b7-440a-b5be-b19a34639688/scratchpad/impact_quality_answers_combined.md | body-only |
 | 2026-07-10 16:42 | gmail | [Leo] JJ — IC16 (Staff MLE) Promotion Package — Draft v1 (2026-07-09) | work/people/jj_ic16_promo_package_2026-07.md | to=jamesyili@gmail.com id=19f4e6957bdd2b18 |
 | 2026-07-10 17:15 | gmail | [Leo] H1 2026 Self-Review — DRAFT v2 (2026-07-10) for James to edit | work/career/self_review_H1_2026_draft.md | to=jamesyili@gmail.com id=19f4e87186114d9a |
+| 2026-07-10 21:25 | gmail | [Leo] Org Design Proposal — skeleton + 3 Dylan-facing drafts (A=your voice, B=exec, C=Dylan-calibrated) | work/people/org_design_proposal_2026-07.md | body-only |
