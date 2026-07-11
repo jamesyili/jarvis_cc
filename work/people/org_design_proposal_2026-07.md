@@ -68,6 +68,8 @@ Levels marked **?** are inferred from title or unconfirmed — see Gaps register
 | Yidi | ? | MLE? | pUIC model-based | **Alim** |
 | Zihao | ? | MLE? | Content Exploration ~50% · UPP fractional (succession hedge) | **Alim** ⟨confirm⟩ |
 | **Lionel** | **L14** | **SWE** | RR pod plumbing (Charlie backfill; **Toronto**; starts **7/27**) | **Alim** (profile below) |
+| **REQ-1 (open)** | **L15** | MLE | — (new headcount, granted ~7/11) | unallocated — fork F8 |
+| **REQ-2 (open)** | **L13** | MLE | — (new headcount, granted ~7/11) | unallocated — fork F8 |
 
 ### Daniel's team (7 + intern)
 | IC | Level | Family | Main project(s) | Draft destination |
@@ -130,6 +132,7 @@ Chuxi (TL ramp, unannounced) · Yidi · Ling · Roderick (UEB) · Yang · Zihao 
 - **F5 — Hanlin** if GenRet ever stops being James-direct: follows GenRet wherever it goes; parked.
 - **F6 — Ray:** genuinely Reflex, or L1 maintenance that needs a longer-term home? Affects the "every direct justified" story.
 - **F7 — DT/PhP disposition:** Alok gives it up — dies, or lands where?
+- **F8 — allocation of 2 new reqs (granted ~7/11): 1× L15 MLE + 1× L13 MLE.** Options for the L15: (a) **Alim** — fixes the seniority/promise gap *without* spending the Balaji fork (F2 decouples: Balaji can stay Daniel's TL and Alim's senior story still improves); (b) **GenRet hedge** — RecGPT continuity insurance if the Yuke PIP resolves in an exit (pod would drop to Bella+Hanlin); (c) **Daniel platform** — but he's absorbing scope, not short on seniors. Options for the L13: pairs under a senior wherever growth capacity exists — Alim's pod (under Ling/Chuxi — cheap delivery leverage for the pUIC push) or CLR (peer for Yichi). **Leo lean: L15 → Alim (posting now, arrival naturally lands mid-observe-window), L13 → hold until the settle-state call, then place where the structure says.** Note for the Dylan doc: reqs strengthen the "scope first, people follow" frame — mention them as allocated-by-charter, not as spoils.
 
 ## Gaps register (close before Dylan proposal ships)
 
