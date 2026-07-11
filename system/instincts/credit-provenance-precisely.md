@@ -19,5 +19,5 @@ Signal: correction (by edit)
 
 ## Related
 
-- `self/feedback_writing_style.md` §9 promo-package rules (rule 1 is this instinct in style-guide form)
+- `self/writing_style/feedback_writing_style.md` §9 promo-package rules (rule 1 is this instinct in style-guide form)
 - Adjacent instinct: `calibrate-exec-artifact-reads` (ask for load-bearing facts before asserting)

@@ -1,6 +1,6 @@
 # Peer Feedback — Verbatim Examples
 
-> Transcribed 2026-07-09 from James's Workday submissions (screenshots). Original wording preserved, including typos. Companion to `self/feedback_writing_style.md` §9. Pinterest-internal names and projects — never move to `kb/`.
+> Transcribed 2026-07-09 from James's Workday submissions (screenshots). Original wording preserved, including typos. Companion to `self/writing_style/feedback_writing_style.md` §9. Pinterest-internal names and projects — never move to `kb/`.
 >
 > Three forms represented: **cycle peer feedback** (Hongbo, Claire, Andrew), **promo assessment** (Kent), **free-form shared shout-out** (Alcida).
 

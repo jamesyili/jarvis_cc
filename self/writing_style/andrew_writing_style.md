@@ -1,6 +1,6 @@
 # Andrew Yaroshevsky — Writing Style Profile
 
-> **What this is:** A study file of Andrew Y's feedback-writing voice, built from verbatim samples, so James can learn and emulate the moves. Companion to `self/feedback_writing_style.md` (James's own ghostwriter guide) — this file is *inbound* craft study, that one is *outbound* voice spec. Add future Andrew samples (emails, docs, Slack) as they arrive.
+> **What this is:** A study file of Andrew Y's feedback-writing voice, built from verbatim samples, so James can learn and emulate the moves. Companion to `self/writing_style/feedback_writing_style.md` (James's own ghostwriter guide) — this file is *inbound* craft study, that one is *outbound* voice spec. Add future Andrew samples (emails, docs, Slack) as they arrive.
 >
 > **Source of sample 1:** Andrew's H1 2026 mid-year cycle peer feedback about James, received 2026-07-09. James's read: "written with grace" — it landed a real growth area as a gut-punch-that-felt-fair.
 
@@ -74,7 +74,7 @@ When writing feedback (or any evaluative prose about people):
 
 ## §5 Deltas vs. James's own style guide
 
-Convergent (already in `self/feedback_writing_style.md`): coined epithets in quotes; strength-then-growth-unlock structure; specific named evidence.
+Convergent (already in `self/writing_style/feedback_writing_style.md`): coined epithets in quotes; strength-then-growth-unlock structure; specific named evidence.
 
 Worth importing:
 - **The sentence-one verdict.** James's drafts tend to build to the verdict; Andrew leads with it.

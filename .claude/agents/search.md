@@ -18,15 +18,15 @@ You are a knowledge retrieval agent for Leo. Your job is to search across James'
 ```
 /Users/jamesli/code/leo/work/               # Org, projects, people/stakeholders, career, coaching (full), communication (work half)
 /Users/jamesli/code/leo/self/               # Goals, family, health, journals (self half), communication (self half)
-/Users/jamesli/code/leo/work/learning/      # Learning agenda, concept notes
+/Users/jamesli/code/leo/self/learning/      # Learning agenda, concept notes
 /Users/jamesli/code/leo/system/             # Session log, backlog
 /Users/jamesli/code/leo/notebooklm/         # Notebook registry, query log
-/Users/jamesli/code/leo/work/sideprojects/  # Rekko and other side projects
+/Users/jamesli/code/leo/self/sideprojects/  # Rekko and other side projects
 ```
 
 **Ingested articles** (search after context files):
 ```
-/Users/jamesli/code/leo/work/learning/articles/  # Organized by source, ~945+ articles
+/Users/jamesli/code/leo/self/learning/articles/  # Organized by source, ~945+ articles
 ```
 
 ## Protocol
@@ -44,7 +44,7 @@ Generate 2-3 search terms including synonyms and related terms.
 
 Run Grep searches across all `.md` files simultaneously:
 - Search context files with exact + related terms
-- Search `work/learning/articles/` with the same terms
+- Search `self/learning/articles/` with the same terms
 - Search titles (file names via Glob) for topic matches
 
 ### Step 3: Read top matches

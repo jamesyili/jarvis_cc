@@ -25,13 +25,13 @@ Search these locations in parallel:
 ```
 work/               # Org, projects, people/stakeholders, career, coaching (full), communication (work half)
 self/               # Goals, family, health, journals (self half), communication (self half)
-work/learning/      # Learning agenda, concept notes
+self/learning/      # Learning agenda, concept notes
 system/             # Session log, backlog
 ```
 
 **Ingested articles:**
 ```
-work/learning/articles/  # All ingested content, organized by source
+self/learning/articles/  # All ingested content, organized by source
 ```
 
 Use Grep with the query terms across all `.md` files. Search for:

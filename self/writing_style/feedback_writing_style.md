@@ -1,6 +1,6 @@
 # James's Writing Style — Guide for an LLM Ghostwriter
 
-> Captured 2026-07-09 from James's own description, derived from his verbatim year-end reviews. Use whenever drafting performance or peer feedback in his voice. Level-expectation (REG) files live in `work/role_expectations/`. §1–8 describe downward year-end reviews; §9 covers peer feedback (cycle forms, promo assessments, shout-outs), with verbatim examples in `self/peer_feedback_examples.md`.
+> Captured 2026-07-09 from James's own description, derived from his verbatim year-end reviews. Use whenever drafting performance or peer feedback in his voice. Level-expectation (REG) files live in `work/people/role_expectations/`. §1–8 describe downward year-end reviews; §9 covers peer feedback (cycle forms, promo assessments, shout-outs), with verbatim examples in `self/writing_style/peer_feedback_examples.md`.
 
 This describes how James writes performance feedback for his engineering team (Senior Engineering Manager, Homefeed Candidate Generation at Pinterest). Follow it to produce text he would deliver unedited. All rules are derived from his verbatim year-end reviews.
 
@@ -98,7 +98,7 @@ Higher ratings earn more ornate, celebratory prose and narrative detail. Lower r
 
 ## 9. Peer Feedback — the other three forms
 
-Verbatim examples in `self/peer_feedback_examples.md`: Hongbo, Claire, Andrew (cycle peer feedback), Kent (promo assessment), Alcida (free-form shout-out). Everything above still applies — evidence discipline, warmth plus directness, named people and projects — with these deltas:
+Verbatim examples in `self/writing_style/peer_feedback_examples.md`: Hongbo, Claire, Andrew (cycle peer feedback), Kent (promo assessment), Alcida (free-form shout-out). Everything above still applies — evidence discipline, warmth plus directness, named people and projects — with these deltas:
 
 ### Voice shifts vs. downward reviews
 
@@ -126,7 +126,7 @@ Verbatim examples in `self/peer_feedback_examples.md`: Hongbo, Claire, Andrew (c
 
 ### Promo package — manager-authored (Workday Q1/Q2/Q3)
 
-Derived 2026-07-10 from James's final edit of the JJ IC16 package against Leo's draft (final preserved verbatim in `work/people/jj_ic16_promo_package_2026-07.md`). The governing insight: **a promo package is a case file assembled by the manager, not an essay written by one.** The manager's credibility is the asset being spent; every inflated, duplicated, or decorative claim taxes it. Rules, each anchored to a real edit:
+Derived 2026-07-10 from James's final edit of the JJ IC16 package against Leo's draft (final preserved verbatim in `self/writing_style/jj_ic16_promo_package_2026-07.md`). The governing insight: **a promo package is a case file assembled by the manager, not an essay written by one.** The manager's credibility is the asset being spent; every inflated, duplicated, or decorative claim taxes it. Rules, each anchored to a real edit:
 
 1. **Provenance exactness — never upgrade someone's role for narrative punch.** Leo: "JJ *shaped* the cross Discovery 'More Real-Time Pinterest' vision." James: "*Following* the 'More Real-Time Pinterest' vision *from Infra and PJ technical leads*, JJ *connected the vision with practical applications*." The committee includes people who know who originated what; one inflated credit poisons every accurate claim around it. The precise contribution (connected, extended, executed, landed) is both safer and more credible.
 2. **Quotes carry the case; the author's prose frames it.** James gathered full written assessments (Dafang, Nilesh, Olafur, Vikram) and let third-party voices deliver the superlatives, topline numbers, and adoption claims; his own prose sets up, connects, and maps behavior to REG. Claims Leo had asserted in James's voice ("engagement gains propagated through the funnel") moved inside quotes. Corollary: **a strong new quote can reverse a structural call** — PSv2 went from a compressed closing nod (7/9 decision) back to a full sub-block once Vikram's assessment arrived, because a firsthand Ownership/Resilience testimony is a higher evidence class than the author's summary.

@@ -36,7 +36,7 @@ Signal: confirmation — the 7/9 lesson (workplace deliverables in his voice) he
 > (edit, not verbal correction)
 Context: In his final pass on the JJ IC16 package, James cut Leo's epigram "L1 Utility is not a project; it is a platform that compounds" and replaced it with a plain bullet listing the actual new use-cases on the layer, ending "demonstrating the durability of JJ's work." Also cut "This is precisely the work of the level." He kept his own values-weave phrases (Win or Learn, Act As One, "treated infrastructure cost as a product").
 Signal: correction (by edit)
-Lesson: epigrammatic verdict sentences are a prose tell in workplace deliverables — sentences the reader is meant to admire get cut; sentences that add a checkable fact stay. Full promo-package rule set: `self/feedback_writing_style.md` §9.
+Lesson: epigrammatic verdict sentences are a prose tell in workplace deliverables — sentences the reader is meant to admire get cut; sentences that add a checkable fact stay. Full promo-package rule set: `self/writing_style/feedback_writing_style.md` §9.
 
 ## Absorbed from auto-memory (2026-06-26)
 

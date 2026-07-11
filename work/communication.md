@@ -683,7 +683,7 @@ Last updated: 2026-06-11
 
 - **Don't push credit/visibility in high-trust sponsor circles; subtle lineage, not gratitude.** With Andrew/Dylan/Rajat/Jeff, "claim your credit" advice reads small-time — default to let-the-work-speak. When crediting seniors in writing, use "building on X's Y," not thank-you-laden language.
 
-- **Rigorous first-principles for technical learning — not analogy-bridging.** Precise definitions, the actual mechanism and math, worked examples. I reject single-conceit "it's all the same machine" framing. (6/7: rejected the bridge corpus; built `work/interview_prep/fundamentals/llm_fundamentals.md` instead. See [[feedback-learning-material-rigor]].)
+- **Rigorous first-principles for technical learning — not analogy-bridging.** Precise definitions, the actual mechanism and math, worked examples. I reject single-conceit "it's all the same machine" framing. (6/7: rejected the bridge corpus; built `self/interview_prep/fundamentals/llm_fundamentals.md` instead. See [[feedback-learning-material-rigor]].)
 
 - **Karen pass when structurally significant shifts compound.** When two+ load-bearing changes land in one arc (e.g. UPP co-ownership unwinding + Reflex reaching CEO altitude), proactively offer the adversarial read on whether the Director business-case spine needs reshaping. (6/3.)
 

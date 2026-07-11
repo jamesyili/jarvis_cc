@@ -146,7 +146,7 @@ system/                 # Leo meta: session logs, improvement tracking
 | Coaching / career-growth reflection | `work/coaching.md`, `work/journals_and_growth.md` |
 | Inner-game / identity reflection | `self/journals_and_growth.md`, `self/goals.md` (Layer I) |
 | Presentation prep | `work/communication.md` (speaking patterns), consult "How to Speak" notebook |
-| Learning sessions | `work/learning/` |
+| Learning sessions | `self/learning/` |
 | Backlog review / what to work on | `backlog.md` |
 | KB operations / learning content | `kb/hard/`, `kb/soft/`, wiki `_index.md` files |
 
