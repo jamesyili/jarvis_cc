@@ -141,3 +141,163 @@ Chuxi (TL ramp, unannounced) · Yidi · Ling · Roderick (UEB) · Yang · Zihao 
 1. Whether R-a-B/Unity Board maintenance is chartered work or quiet deprecation (shapes Daniel's mission story + headcount need).
 2. Alim pre-start call: reset the promise gap (Staff anchor story now runs through F2/Balaji or doesn't exist) without damage-control energy.
 3. Daniel's own read: what does HE think his team's charter is / wants it to be? (Feeds F1/F2 and the motivation risk in his Profile Option A.)
+
+---
+
+# Dylan-facing drafts (2026-07-10) — three registers, same substance
+
+> Draft A = James's voice. Draft B = seasoned engineering executive register. Draft C = calibrated to Dylan specifically (scope-over-resourcing, her 7/7 questions answered as headers, two binary asks). Pick one or blend; all three are cold-reader-safe (no PIP language, no retention specifics, no evaluation framing on Daniel). Shared open items regardless of version: Balaji (F2) and Kim's loan wind-down are the two input asks; Ray is written as L1/RT operational owner (resolves F6 — flag if you want him kept on Reflex framing instead).
+
+---
+
+## DRAFT A — James's voice
+
+Dylan, here is the structure proposal you asked for on 7/7. The shape first, then the detail. Section 2 is what your announcement can safely lock; everything else I am holding provisional through a 30 to 60 day observe window and will revisit with you as the teams settle.
+
+**1. The shape in one view**
+
+- **Alim — Anticipation and Exploration (~8).** Chuxi, Yidi, Ling, Roderick, Yang, Zihao, Lionel (L14 SWE, Toronto, starts 7/27 with Alim). Mission: anticipate what a Pinner wants next. The pUIC substrate (model based and LLM based) plus the exploration surfaces (UEB, Content Exploration). Measured on retention and fresh content discovery.
+- **Daniel — Scoring and Serving Platform (phased: ~7 day 1, ~10 at settle).** His current team, the inherited maintenance scope (Recommend a Board live models, Unity Board), and the LWS pod on day 1. CLR joins at the settle point. Measured on platform reliability, cost, and the velocity of every team that builds on top.
+- **Me, direct — Reflex plus GenRet incubation (7, each justified in section 3).** The majority of my time goes to Reflex. GenRet is a time boxed incubation with explicit sunset criteria.
+
+**2. What your announcement locks vs what stays provisional**
+
+Locks: Daniel, his team, and his scope come to me; Alim starts 7/27 with the named pod above. That is the whole announcement. Provisional through the observe window: internal pod placements, CLR transfer timing, Balaji's placement, and the UPP endgame. I would rather tell you exactly what is settled than announce detail we might move in 60 days.
+
+**3. The three legs**
+
+*Alim.* Focused on the thing we hired him for, and it delivers immediately: both pUIC experiments land inside his first month. Chuxi steps up with real support around her (Ling on delivery, Roderick's seniority). One risk: the pod differs from what Alim heard during closing, mainly on the Staff anchor. I will handle that directly in his pre start call, and the Staff anchor question is one of the two decisions I want your input on below.
+
+*Daniel.* Day 1 scope is deliberately phased: his team is onboarding a whole new org, and I do not want to hand him charter core scope before his footing is set. The honest risk is motivation. Platform is the least AI shiny charter in the org and Daniel wants AI work. So the charter builds it in: his org becomes Reflex's first full adoption customer, running the first AI leveraged oncall at Pinterest, with Pinvestigator as the default first responder and time to diagnosis as the measure. He gets to use and showcase AI while the platform stays the backbone.
+
+*My directs, each justified:*
+
+| Person | Why they report to me |
+|---|---|
+| JJ | Reflex Build lead; my Reflex time and his overlap daily |
+| Ray | L1/Real Time operational owner as JJ shifts to Reflex; sits where the architecture context sits |
+| Alok | Reflex 50% plus UPP 50% |
+| Bella | Staff lead for the GenRet incubation; continuity through the transition |
+| Hanlin | GenRet delivery pair with Bella |
+| Yuke | RecGPT single stream after the role change we discussed; I hold his management so no new EM starts with an open thread |
+| Piyush | UPP spine; transitional pending the UPP endgame call |
+
+My time story: majority on Reflex, which is where you have asked me to spend it. GenRet is incubation plus continuity, and it is time boxed: post Daniel onboarding and post transition, the structure revisits and it moves.
+
+**4. Operational ownership**
+
+No pager gap at any point in the transition:
+
+| Rotation | Day 1 owner | Settle state |
+|---|---|---|
+| LWS | Daniel (oncall moves with the pod) | Daniel |
+| CLR | Me | Daniel |
+| L1/Real Time | Me (Ray primary; JJ consults, carries no pager) | Daniel |
+| pUIC serving (new surface) | Alim (Lionel ramps deliberately, no day 1 pager) | Alim |
+| R a B / Unity Board | Daniel (KTLO vs deprecation call inside the observe window) | Daniel |
+| Reflex / Pinvestigator tooling | Me | Me |
+
+One carry over: Zili's rotation moves with LWS, but I retain his performance management. No new EM inherits an open case.
+
+**5. Routing: who is responsible for what**
+
+| Domain | Front door | Technical owner |
+|---|---|---|
+| Anticipation / Retentive Recs | Alim | Chuxi |
+| Exploration surfaces (UEB, Content Exploration) | Alim | Roderick |
+| Generative Retrieval / RecGPT | Me (incubation) | Bella |
+| Reflex and AI tooling (Build agents, Pinvestigator, Pinkerton) | Me | JJ (Build); Dafang overall TL |
+| UPP retrieval | Me (transitional) | Piyush |
+| Scoring/serving platform | Daniel | Devin (CLR) |
+| L1/Real Time maintenance | Me, Daniel at settle | Ray |
+
+For product partners this doubles as a front door map: every domain has a named owner, so PMs get answers faster than pinging individual engineers, and I will pair it with self serve tooling we are scoping. For Andrew's org specifically: Reflex routes through me and Tim, In Session Responsiveness through JJ, feedback tooling through the self serve framework. Three channels by design, not fragmentation. I plan to walk Michael through this map during his onboarding week.
+
+**6. Calls I have made**
+
+(1) LWS first for Daniel's platform pod; CLR at the settle point. Lower blast radius while his team lands, and it protects the Devin transition. (2) Lionel joins Alim's pod: the RR bottleneck all year has been serving, and he is the only dedicated SWE in that space; starting the same day as Alim makes him a founding member rather than the new guy on an old team. (3) Alok goes Reflex 50 plus UPP 50; RR is staffed without him. (4) Ray becomes the L1/Real Time operational owner as JJ moves to Reflex full time.
+
+**7. Where I want your input**
+
+(1) Balaji: Daniel's TL, or Alim's Staff anchor? It touches what Alim was promised, so your read matters. I lean toward deciding inside the observe window once I have had the first real conversation with Daniel about his team. (2) Kim's loan to Dhruvil: I want to wind it down as CLR spins up under Daniel. The reorg gives natural cover, and it would land best coming from you.
+
+**8. Sequencing after your announcement**
+
+Same day: I talk to Daniel first, framing every move as scope following people. Same week: Anna hears the RR front door change from me directly; Bella, Chuxi, and Yuke conversations in that order; then the team announcement. 7/27: Alim and Lionel start together. Checkpoints at 30, 60, 90 days on the observe window, and I will bring you a settle state recommendation no later than day 60.
+
+**9. Appendix: full IC table** (attached)
+
+---
+
+## DRAFT B — seasoned engineering executive register
+
+**Subject: Proposed operating model for the expanded organization**
+
+**Recommendation.** Reorganize the expanded 24 engineer organization into three charters — Anticipation & Exploration (Alim Virani), Scoring & Serving Platform (Daniel Liu), and Reflex/GenRet incubation (direct) — with a phased transfer of platform scope and a 30–60 day observation window before internal placements finalize. The announcement commits outer reporting lines only.
+
+**Design principles.** Charter coherence over headcount; single threaded ownership for every workstream and every pager; phased scope transfer to protect two simultaneous onboardings (a new EM and an inherited team); my direct reports minimized and individually justified, with my time concentrated on Reflex.
+
+**Structure.**
+
+1. *Anticipation & Exploration — Alim Virani (~8).* Owns the pUIC substrate and exploration surfaces end to end. Success metrics: retention and fresh content discovery. Immediate deliverable: both pUIC experiments online within 30 days of start. Risk: expectation gap vs. hiring conversations on senior anchoring; addressed pre start, with one open decision (Balaji) flagged below.
+
+2. *Scoring & Serving Platform — Daniel Liu (~7 → ~10).* Day 1: current team, inherited maintenance surface, LWS. Settle state: CLR consolidates, yielding a coherent platform charter measured on reliability, unit cost, and dependent team velocity. The charter includes an operational modernization mandate: first full adoption of agentic tooling in oncall (Pinvestigator as first responder; time to diagnosis as the metric). This is deliberate — it aligns the charter with Daniel's stated interest in AI while the platform remains the core.
+
+3. *Direct — Reflex + GenRet incubation (7).* Reflex is where the organization has asked me to spend my time; the direct pod exists to serve it (Build lead, operational owner for the vacated L1/Real Time surface, fractional Reflex/UPP capacity). GenRet is an explicit incubation: Staff led, time boxed, with structural sunset criteria (post transition review no later than day 60).
+
+**Operational continuity.** Every rotation has a named day 1 owner and a named settle state owner; no pager gaps. LWS oncall transfers with the pod on day 1. CLR and L1/Real Time transfer at settle. New pUIC serving surface staffed with a deliberate ramp for the incoming SWE. One management carry over is retained by me by design.
+
+**Interface contract.** A routing table (appendix) gives Dylan, Andrew's organization, and product partners a named front door per domain. Product asks route to the owning EM rather than to individual engineers, paired with a self serve tooling framework in scoping. Andrew's organization retains three deliberate channels: Reflex (me + PM), In Session Responsiveness (JJ), feedback tooling (framework).
+
+**Decisions requested.** (1) Balaji placement: platform TL vs. Anticipation Staff anchor — recommend deciding inside the observation window; input requested given hiring commitments. (2) Sponsor the wind down of the Kim loan as CLR spins up.
+
+**Transition plan.** Announcement (outer lines) → Daniel conversation same day → partner and team conversations sequenced within the week → new starts 7/27 → 30/60/90 checkpoints → settle state recommendation by day 60.
+
+---
+
+## DRAFT C — calibrated to Dylan
+
+**What next week's announcement can lock**
+
+- Daniel, his team, and his scope report to me.
+- Alim starts 7/27 owning Anticipation & Exploration, with a named pod.
+- Nothing else. Internal placements stay provisional through a 30 to 60 day observe window. I would rather give you a smaller announcement that holds than a detailed one we walk back.
+
+**Your three questions, answered**
+
+*Who TLs each space?* Chuxi steps up on Anticipation (Ling and Roderick around her), Devin stays CLR lead on the platform side, Bella runs GenRet as Staff lead, JJ leads Reflex Build, Piyush holds the UPP spine. Every workstream has a named technical owner; the full routing table is below.
+
+*Where does my time go?* Majority on Reflex, per our 7/7 conversation. My direct pod is seven people and exists to serve that: each row in the table below has a one line justification, and GenRet incubation is time boxed with sunset criteria so the pod shrinks as the structure settles.
+
+*Who owns the pager?* Every rotation has a day 1 owner and a settle state owner; no gaps. LWS oncall moves with the pod to Daniel on day 1. CLR and L1/Real Time follow at settle. The one carry over: I keep Zili's performance management even as his rotation moves. No new EM inherits an open case.
+
+**Why these three charters**
+
+Each is coherent enough to scope and fund on its own terms, which is the frame you gave me: scope first, people follow.
+
+- *Alim: Anticipation & Exploration.* Your underutilization fix lands here: Ling, Roderick, and Yang go where their work already is. It delivers fast — both pUIC experiments land in his first month — and it is the team most directly attached to the anticipation strategy and its retention metrics.
+- *Daniel: Scoring & Serving Platform.* Phased on purpose: his team is absorbing a new org, and I am watching the load so we do not burn people during a transition. The charter has a modernization edge that fits him: first AI leveraged oncall at Pinterest, Pinvestigator as first responder, measured on time to diagnosis. Platform reliability and cost stay the backbone.
+- *Me: Reflex + GenRet incubation.* Reflex is the compounding bet and where my hands on time goes. GenRet stays with me only while it incubates; it moves at the settle point.
+
+**Routing (who is responsible for what)**
+
+| Domain | Front door | Technical owner |
+|---|---|---|
+| Anticipation / Retentive Recs | Alim | Chuxi |
+| Exploration (UEB, Content Exploration) | Alim | Roderick |
+| GenRet / RecGPT | Me (incubation) | Bella |
+| Reflex + AI tooling | Me | JJ (Build); Dafang overall |
+| UPP retrieval | Me (transitional) | Piyush |
+| Scoring/serving platform | Daniel | Devin |
+| L1/Real Time maintenance | Me → Daniel at settle | Ray |
+
+PMs get a named front door per domain instead of pinging engineers; I will walk Michael through this map his first week. Andrew keeps three deliberate channels: Reflex through me and Tim, In Session Responsiveness through JJ, feedback tooling through the self serve framework we are scoping.
+
+**Two asks**
+
+1. **Balaji** (Staff, Daniel's team): platform TL under Daniel, or Staff anchor under Alim? It touches the Alim hiring conversation, so I want your read. Default: decide inside the observe window after my first real conversation with Daniel.
+2. **Kim's loan to Dhruvil:** as CLR spins up under Daniel I want the loan wound down. Cleanest if you set it up with Dhruvil; the reorg gives natural cover.
+
+**Sequence**
+
+Your announcement → Daniel from me the same day (scope following people) → Anna, Bella, Chuxi, Yuke conversations that week → team announcement → Alim and Lionel start 7/27 → 30/60/90 checkpoints, settle recommendation to you by day 60.
