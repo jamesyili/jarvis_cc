@@ -2,7 +2,7 @@
 
 **Created 2026-06-07** from authoritative internal material James surfaced (CFM design doc + architecture diagram + CFM model-scaling doc). Complements the retrieval-side refs (`ubr_design.md`, `clr_technical.md`) — those cover the **retriever**; this covers the **ranking** CFM and the scaling research.
 
-> Companion artifact: `artifacts/transformers-for-recsys.html` (Part 6) renders this with the embedded architecture diagram and connections back to transformer fundamentals / TransAct.
+> Companion artifact: `system/artifacts/transformers-for-recsys.html` (Part 6) renders this with the embedded architecture diagram and connections back to transformer fundamentals / TransAct.
 
 ---
 

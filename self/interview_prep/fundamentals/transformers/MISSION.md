@@ -12,7 +12,7 @@ James drives Pinterest's recsys/personalization platform work (UPP — CFM/FM, T
 ## Constraints
 - **Rigorous, first-principles, no analogy-soup** (stated preference — see `feedback_learning_material_rigor`).
 - Time-boxed: busy EM, frequent OOO/travel. Lessons must be quick wins, completable in one sitting.
-- Build on existing artifacts — `interview_prep/fundamentals/llm_fundamentals.md` and `artifacts/transformers-for-recsys.html`. Do **not** re-teach the forward-pass architecture he already knows (see LR-0001).
+- Build on existing artifacts — `self/interview_prep/fundamentals/llm_fundamentals.md` and `system/artifacts/transformers-for-recsys.html`. Do **not** re-teach the forward-pass architecture he already knows (see LR-0001).
 
 ## Out of scope (for now)
 - Distributed-training infra internals (FSDP / Megatron / parallelism mechanics) — aware of, not building.

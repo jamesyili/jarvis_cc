@@ -28,7 +28,7 @@ Same auto-detect rules as `/send-me`:
   - `system/session-logs/*`
   - `system/instincts/*`
   - `system/karen_observations.md`
-  - `notebooklm/query_log.md`
+  - `system/notebooklm/query_log.md`
   - Anything under `.git/`
 - **Multiple equally-recent candidates?** List top 2-3 with timestamps. Ask which one. One question, then go.
 - **Still no candidate?** Ask for a path.

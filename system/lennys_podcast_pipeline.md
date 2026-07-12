@@ -86,7 +86,7 @@ Priority order for notebooks (based on James's goals):
 5. `product-strategy-growth` + `org-strategy-leverage` → may need to split or sample (very high volume)
 
 ### 5. Register notebooks in Leo
-Once created, add to `notebooklm/notebooks.md` and `CLAUDE.md` notebook table so Leo knows when to query them.
+Once created, add to `system/notebooklm/notebooks.md` and `CLAUDE.md` notebook table so Leo knows when to query them.
 
 ---
 

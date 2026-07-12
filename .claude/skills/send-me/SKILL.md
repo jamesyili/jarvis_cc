@@ -27,7 +27,7 @@ If the ask is to send to someone else (Dylan, Dhruvil, etc.), STOP. That's `/dra
   - `system/session-logs/*`
   - `system/instincts/*`
   - `system/karen_observations.md`
-  - `notebooklm/query_log.md`
+  - `system/notebooklm/query_log.md`
   - Anything under `.git/`
 - **Multiple equally-recent candidates?** List the top 2-3 with timestamps. Ask James which one. One question, then go.
 - **Still no candidate?** Ask for a path.

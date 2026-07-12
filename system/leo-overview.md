@@ -67,7 +67,7 @@ Custom subagents in `.claude/agents/` that run as isolated subprocesses:
 
 | Agent | Purpose |
 |-------|---------|
-| **Consult-Notebook** | Queries NotebookLM notebooks in isolation — keeps verbose NLM results out of main context. Spawns on keyword triggers (managing up → Wes Kao, venting → Coaching Patterns, decisions → Decisive, system design → ML notebook). Appends raw response to `notebooklm/query_log.md` as audit trail. **Rewritten 2026-04-11** to fix persistent context-synthesis bug. |
+| **Consult-Notebook** | Queries NotebookLM notebooks in isolation — keeps verbose NLM results out of main context. Spawns on keyword triggers (managing up → Wes Kao, venting → Coaching Patterns, decisions → Decisive, system design → ML notebook). Appends raw response to `system/notebooklm/query_log.md` as audit trail. **Rewritten 2026-04-11** to fix persistent context-synthesis bug. |
 | **Karen** | Adversarial strategic advisor. Fires every ~20% context window. Challenges blind spots, names patterns James is avoiding, proposes alternatives. Maintains her own observation file. |
 | **Code Planner** | Implementation architect. Grills on design decisions, then produces structured spec with task IDs and acceptance criteria. |
 | **Search** | Searches across KB articles and context files with context isolation. |

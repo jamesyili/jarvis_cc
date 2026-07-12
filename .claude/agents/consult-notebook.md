@@ -66,7 +66,7 @@ If the call fails (auth, network, tool not available), invoke `mcp__notebooklm__
 Before synthesizing, append the full raw NotebookLM response to the query log at:
 
 ```
-/home/james/src/leo/notebooklm/query_log.md
+/home/james/src/leo/system/notebooklm/query_log.md
 ```
 
 Append format (use the Write tool, or Bash with `cat >>`):
@@ -116,7 +116,7 @@ No preamble. No meta-commentary. No raw citations. Leo will decide how to surfac
 ## Verification (how to prove the fix works)
 
 After a successful run, the main Leo session should be able to verify:
-1. `notebooklm/query_log.md` has a new entry with today's timestamp
+1. `system/notebooklm/query_log.md` has a new entry with today's timestamp
 2. The synthesis returned references specific framework names from the notebook (not generic advice)
 3. The `mcp__notebooklm__ask_question` call appears in the agent's tool-call trace
 

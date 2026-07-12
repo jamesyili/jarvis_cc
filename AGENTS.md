@@ -79,22 +79,26 @@ For the full file index (all context files with descriptions and last-updated da
 
 ## Folder Structure
 
+Six root directories. The rule (locked 2026-07-11): **root dirs answer "what is this repo about" — James's work, James's self, knowledge, and the machinery. Anything only Leo touches lives inside `system/`.** New top-level directories need a reason to exist at root; the default home for infra, outputs, and tool-transfer material is `system/`.
+
 ```
 work/                   # WORK context (split from former work+self/ on 2026-06-11)
-├── people/                 stakeholders, dylan_archive, dylan_1on1_log, team_members
+├── people/                 stakeholders, dylan_archive, dylan_1on1_log, team_members,
+│   │                       role_expectations/ (REGs), archive/ (point-in-time prep docs)
 ├── projects/               project specs + technical references
 ├── org/                    organization, roadmap, timeline
-├── career/                 ethanevans_questions, ethan/wes-james-situations, H1_career_convo, resume
-├── interview_prep/         curriculum, system design, fundamentals, transformers /teach workspace
-├── learning/               5-track curriculum, codebase notes, theme extraction
-├── sideprojects/           rekko, viral_remix
+├── career/                 ethanevans_questions, ethan/wes-james-situations, self-reviews, resume
 ├── journals_and_growth.md  WORK half: career Lessons 1–13, growth edges, work journal entries
 ├── coaching.md             FULL coaching log (single file): David (strategy, active) + Rodney (mindset, archived 4/29)
 └── communication.md        WORK half: manager feedback, audience playbooks, speaking patterns + checklist
 
-self/                   # SELF context (split from former work+self/ on 2026-06-11)
+self/                   # SELF context (split 2026-06-11; interview_prep/learning/sideprojects/writing_style moved in 2026-07-10)
 ├── personal/               personal assets
 ├── blog/                   James's blog — synthesis artifacts (technical + leadership) + topic_ideas
+├── interview_prep/         curriculum, system design, fundamentals, transformers /teach workspace
+├── learning/               5-track curriculum, codebase notes, theme extraction
+├── sideprojects/           rekko, viral_remix (Folio)
+├── writing_style/          writing-craft system: feedback/peer-feedback style guides + promo packages + peer_feedback_2026/
 ├── goals.md                FUSED master: North Star + Layer I Foundation + Layer II keystones (both Leos load)
 ├── family.md               the "ordinary James" domain; Evelyn inheritance stakes
 ├── health.md               concrete health targets + reps
@@ -112,6 +116,7 @@ kb/                     # Obsidian vault — knowledge base (2,600+ articles, 13
 
 scripts/                # Automation: KB scrapers, hooks, search, lint, extraction
 ├── hooks/                  session-start.sh, pre-compact.sh, suggest-compact.sh, detect-corrections.sh
+├── leo_google/             Gmail/Drive integration (/send-me, /save-to-drive)
 ├── scout.py                RSS scout for 13 tracked sources
 ├── kb_search.py            TF-IDF keyword search across KB
 ├── kb_lint.py              Health checks: thin articles, broken links, duplicates
@@ -119,21 +124,24 @@ scripts/                # Automation: KB scrapers, hooks, search, lint, extracti
 ├── build_graph.py          graphify wrapper: build/query knowledge graph (kb/.kb/graph/)
 └── extract_themes.py       Thematic extraction pipeline (Lenny's podcast)
 
-# Shared infra stays at root (both work-Leo and personal-Leo use it):
-#   kb/ (knowledge base — see KB section), scripts/, prompts/, system/,
-#   scheduled/, notebooklm/, export/, .claude/, AGENTS.md, CLAUDE.md
+prompts/                # Tool-neutral workflow recipes — the entry point non-Claude tools read
+                        # (start-session, end-session, prep, draft-email, debrief, …)
 
-backlog.md              # Unified backlog: Write, Learn, Build, Work (cross-cutting, stays at root)
-
-notebooklm/             # Curated research notebooks + query trace
-├── notebooks.md            registry: name, ID, domain, when to consult
-└── query_log.md            rolling log of queries + responses + actions taken
-
-prompts/                # Tool-neutral workflow recipes (start-session, end-session, prep, etc.)
-
-system/                 # Leo meta: session logs, improvement tracking
+system/                 # Everything Leo-internal: meta, memory, infra, outputs
 ├── session-logs/           individual session log files (one per session, named by date)
-└── karen_observations.md   adversarial-advisor longitudinal pattern tracking
+├── instincts/              behavioral memory (trigger → behavior), INDEX.md injected each session
+├── notebooklm/             NLM registry (notebooks.md) + query_log.md audit trail + sources/
+├── artifacts/              Leo-generated display artifacts (HTML teaching docs, visualizations)
+├── export/                 tool-transfer bundles (work-leo-setup, claude.ai project snapshots)
+├── outbound_drafts/        drafts staged for sending; outbound_log.md = send audit trail
+├── monthly-summaries/      compacted month-level rollups
+├── file_index.md           canonical context-file index (read by /context-update)
+├── karen_observations.md   adversarial-advisor longitudinal pattern tracking
+└── leo-overview.md         Leo system self-description
+
+# Root files: AGENTS.md (base context), CLAUDE.md (Claude Code extensions), GEMINI.md,
+#   backlog.md (unified Write/Learn/Build/Work — cross-cutting, stays at root),
+#   inbox → Google Drive "Leo Inbox" symlink (gitignored; ls only, never read bodies)
 ```
 
 ### Context Loading Guide
@@ -166,7 +174,7 @@ Claude Code users invoke these as `/start-session` etc. via the registered skill
 
 ## NotebookLM Integration
 
-James maintains curated NotebookLM research notebooks for domain-specific, RAG-grounded advice. The registry is in `notebooklm/notebooks.md`; query history is logged to `notebooklm/query_log.md`.
+James maintains curated NotebookLM research notebooks for domain-specific, RAG-grounded advice. The registry is in `system/notebooklm/notebooks.md`; query history is logged to `system/notebooklm/query_log.md`.
 
 Notebooks are accessed via the **NotebookLM MCP server** (`notebooklm-mcp`) — any tool that supports MCP can use it directly. Claude Code wraps this in a `/consult-notebook` skill that isolates the verbose RAG output in a sub-agent; other tools can call the MCP tools directly and synthesize.
 

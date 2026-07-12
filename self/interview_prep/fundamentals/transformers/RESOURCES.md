@@ -26,7 +26,7 @@ High-trust sources only. Knowledge for lessons is drawn from here, not parametri
   Visual intuition for attention and backprop. **Use for:** geometric intuition when a mechanism isn't clicking.
 
 ### Recsys-specific (already in James's world)
-- `artifacts/transformers-for-recsys.html` — his own consolidated doc (fundamentals → recsys → TransAct v1/v2 → UPP FM/CFM/scaling).
+- `system/artifacts/transformers-for-recsys.html` — his own consolidated doc (fundamentals → recsys → TransAct v1/v2 → UPP FM/CFM/scaling).
 - SASRec (Kang & McAuley 2018), BERT4Rec (Sun et al. 2019), TransAct (KDD 2023), TransAct V2 (CIKM 2025) — primary recsys-transformer sources; cited in the HTML.
 
 ## Wisdom (Communities)

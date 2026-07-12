@@ -40,5 +40,5 @@ inbox
 # Large downloaded reference PDFs (re-downloadable, image-heavy). The aman.ai primers
 # are kept as converted searchable markdown at
 # interview_prep/technical_foundations/references/aman/*.md instead of the ~227MB PDFs.
-interview_prep/aman_*.pdf
-interview_prep/llm_eval/*.pdf
+self/interview_prep/aman_*.pdf
+self/interview_prep/llm_eval/*.pdf

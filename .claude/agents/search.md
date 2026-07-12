@@ -20,7 +20,7 @@ You are a knowledge retrieval agent for Leo. Your job is to search across James'
 /Users/jamesli/code/leo/self/               # Goals, family, health, journals (self half), communication (self half)
 /Users/jamesli/code/leo/self/learning/      # Learning agenda, concept notes
 /Users/jamesli/code/leo/system/             # Session log, backlog
-/Users/jamesli/code/leo/notebooklm/         # Notebook registry, query log
+/home/james/src/leo/system/notebooklm/         # Notebook registry, query log
 /Users/jamesli/code/leo/self/sideprojects/  # Rekko and other side projects
 ```
 
