@@ -1013,6 +1013,7 @@ P2P approved a new retrieval architecture (OneTrans — unified transformer toke
 - **Senior alliance (confirmed 2026-04-09).** Darren got the Director offer — official 2026-04-16. No longer "potential" — this is now a Director peer alliance with high personal trust. Darren publicly supportive of James's own Director trajectory: *"The next goal is Director James"* (Slack DM 2026-04-09).
 - **Active Pinkerton sponsor (new 2026-04-09).** Darren read James's Pinkerton proposal overnight, loved it ("Love the proposal and the steps"), and is **actively searching his team for contributors** — candidates: someone named Dylan on Darren's team (NOT James's manager Dylan Wang), or the Analytics Agent folks. Proactive resource commitment before the Director role is even official.
 - **Personal ally.** James and Darren are close. High-trust, low-friction collaboration.
+- **Trust-ledger asset (2026-07-11).** Named #1 in James's long-game leadership trust ledger (`goals.md` Interview optionality): infra Directors are the most-recruited leadership profile at frontier labs, and Darren is the likeliest person on the board to hold hiring power somewhere that matters in 3–5 years. The deposit mechanism: make Pinkerton/eval structurally successful *for his people* — their wins landing in his org.
 
 ## Current relationship
 - **Status:** Active and accelerating. Proposal read + loved 2026-04-09. Darren personally staffing Pinkerton contributors from his team. Director offer official 2026-04-16.
@@ -1143,6 +1144,7 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Let the work create the relationship.** PINvestigator, Pinkerton, UPP results — these are the artifacts Kartik will see. Don't force a 1:1 relationship; let it emerge through the Reflex connection and demo opportunities.
 - **When Reflex lands with Kartik:** Be ready with a clear "here's the sensing layer and what it does" summary. Kartik is a Chief Architect — he'll want the system design, not the narrative.
 - **Don't bypass Dylan/Rajat.** Kartik's support is a tailwind, not an alternate reporting line.
+- **Trust-ledger: the one deliberate add (2026-07-11).** Highest ceiling on James's leadership trust ledger (`goals.md` Interview optionality), thinnest worked-together base — public support without shared work doesn't transfer to a hiring decision. Move: after the reorg settles, one architecture-level touchpoint (UPP-as-platform / Reflex substrate design review), framed as wanting his read, not his sponsorship. Chief Architects bond over systems thinking; this stays consistent with "let the work create the relationship" — it just gives the work a doorway.
 
 ---
 
@@ -1154,6 +1156,7 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Technical peer.** Very technical, academically inclined (KDD chair for many years). Values rigorous, research-grounded work. Sharp and engaged in technical discussions.
 - **Zhao Bo's manager.** Connection into the Signals org.
 - **Active Credibility Sponsor (post 5/4 EPD).** Director-advocate cultivation candidate per backlog #82 — accelerated significantly faster than prior "6-month horizon" framing.
+- **Trust-ledger asset (2026-07-11).** #2 on James's leadership trust ledger (`goals.md` Interview optionality): VP-level, deeply technical, KDD chair — the profile that lands as an exec at an AI company. The Q3 advocate conversation now carries dual payload: Director-committee coverage *and* the opening of a technical peer relationship. The KDD paper (July 31 deadline) is the natural currency — he'll respect it as a real artifact.
 
 ## Current relationship
 - **Status:** **Active sponsor (escalated 5/4-5/7).** Multiple direct touchpoints in past ~3 days.

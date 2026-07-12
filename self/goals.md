@@ -97,9 +97,10 @@ Behavior, not advocates. Short, decisive, option-oriented; low reactivity; trust
 - **Maintain:** pulled into framing conversations, not execution; fewer cold reactions.
 
 ## Interview optionality — a real branch (parallel path)
-Not a hedge. The frontier-lab EM arm of the litmus test, and a genuine parallel path: the foundational technical depth is worth building on its own, and treating it as a real branch is what makes me take it seriously. OpenAI engagement is live (5/27 call; trip study corpus + `llm_fundamentals` built).
-- **Commit:** build the foundational depth (fundamentals corpus, system design, case studies); periodic mocks; 1–2 blog posts.
-- **Influence:** frontier-lab readiness when the right opportunity appears.
+Not a hedge. The frontier-lab EM arm of the litmus test, and a genuine parallel path. **Reframed 2026-07-11:** the two dreams (frontier lab later / Director here) are an optionality portfolio, not a fork — they share ~90% of next moves for 6–12 months, because labs hire senior applied-AI EMs on evidence of running AI-heavy orgs well. No live choice exists today; the work is keeping A openable while executing B.
+- **The strategy is a trust ledger, not a network map.** Leadership hires at frontier labs are trust-routed and stay that way — leaders pull in people they've already survived something with. Banked: Dylan, Andrew (wrote post-Pinterest support unprompted). Building, through work already on my plate: **Darren** (live Pinkerton surface; infra Directors = prime lab-recruitment profile), **Faisal** (Q3 advocate convo, dual payload; KDD currency), **Kartik** (the one deliberate add — post-reorg architecture touchpoint, systems not narrative), **Rajat** (trust = the Director case itself). Plus the alumni channel (Jinfeng, Jiacong — know where they land) and day-one help for arriving leaders (Michael, PM Director, 7/13). Cold networking dropped.
+- **Learning anchor = evals/verification for agentic systems** — learned by building (Reflex sessions double as study), written up publicly (eval-harness post = blog Tech #1). The fundamentals corpus demotes to reference material, refreshed 2–3 weeks out when a real loop is scheduled (May proved that cadence works).
+- **Influence:** frontier-lab readiness when the right opportunity appears — arriving warm through someone's ledger, not cold through a feed.
 
 ## Concrete health targets (from `health.md`)
 - Urine sodium → <150; weight → 180; fasting lipid panel improving (TG <150, HDL >40).
