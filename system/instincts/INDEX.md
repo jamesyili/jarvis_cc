@@ -42,6 +42,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 - **persist-and-email-artifacts** — substantive artifact or status change → write to file w/ proposed path, auto /send-me, edit in-place not companion, update source-of-truth immediately.
 - **always-commit-and-push** — session end / repo changes → always commit and push, even if the log is skipped.
 - **main-context-for-sequential-writes** — 5+ sequential query-then-edit steps → run in main context; spawned agents don't persist edits.
+- **repoint-structure-docs-on-file-moves** — repo file/folder moves (by hand or by Leo) → checklist beyond live prose refs: AGENTS.md §Folder Structure, .gitignore patterns, .claude agent/skill hardcoded paths (incl. stale absolute), file_index; git mv; grep old path to verify.
 - **lead-with-cost-and-mechanism** — proposing remote/cloud automation → lead with token cost + machine-on + free local alternative.
 
 ## Identity / preference / comms
