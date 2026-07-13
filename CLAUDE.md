@@ -51,6 +51,26 @@ The five most-used workflow skills (`start-session`, `end-session`, `prep`, `dra
 | `/kb-reflect` | Cross-cutting synthesis — themes, contradictions, gaps across KB |
 | `/kb-graph` | Query the knowledge graph — neighbors, god nodes, hyperedges, communities, surprising connections (backed by `kb/.kb/graph/graph.json`) |
 
+### Leo Internals — knowledge-transfer library (added 2026-07-13)
+14 `leo-*` skills in `.claude/skills/` that transfer Leo's operational knowledge to any zero-context session (built via the "train skills before retirement" exercise, 2026-07-12/13). These load by description match rather than slash invocation — the table is for orientation:
+
+| Skill | Load when |
+|-------|-----------|
+| `leo-architecture-contract` | Before any structural change; "why is it built this way?" |
+| `leo-change-control` | Before moving/renaming/retiring anything; commit conventions |
+| `leo-debugging-playbook` | Anything in Leo misbehaves — symptom→triage |
+| `leo-failure-archaeology` | Incident history with SHAs; "has this happened before?" |
+| `leo-kb-reference` | KB data model, graph concepts, counts, routing |
+| `leo-config-and-flags` | Where config lives; how to add sources/skills/instincts/hooks |
+| `leo-build-and-env` | Bootstrapping a new/rebuilt machine |
+| `leo-run-and-operate` | Day-to-day runbook: sessions, KB ops, outbound |
+| `leo-validation-and-diagnostics` | Evidence bar + `leo_doctor.sh` health check (12 checks) |
+| `leo-docs-and-writing` | Docs of record, templates, house style |
+| `leo-kb-automation-campaign` | Scheduled jobs + KB leverage (the hardest-problem campaign) |
+| `leo-proof-and-analysis-toolkit` | Forensics, cost forecasting, drift audits |
+| `leo-research-frontier` | The three ranked frontiers: evals-on-Leo, autonomous KB, portability |
+| `leo-research-methodology` | Instinct lifecycle, demotion discipline, evidence bar |
+
 ### Cross-Project
 | Skill | Trigger |
 |-------|---------|
