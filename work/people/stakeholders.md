@@ -842,6 +842,19 @@ UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team
 
 > **Meta-goal:** Shift from "Rajat's battering ram" to "the practitioner who made SSJ's surfaces better." That's the only narrative that converts Kurchi from skeptic to neutral — and neutral is a win.
 
+## 2026-07-13: SSJ narrative shift — intent modeling as part of UPP
+- **Kurchi's org framing is now "intent modeling":** they want intent + relevance modeled **as part of UPP**. Big narrative shift — in March the play was a competing base model (P2P LR); now their stated ambition presupposes UPP as the vehicle.
+- **Read:** relevance-as-differentiator has evolved into intent+relevance-as-pillar-within-the-platform. This is the co-option opening: publicly hand SSJ ownership of the intent/relevance modeling pillar inside UPP (origination-over-adoption satisfied), which raises her cost of blocking the platform her own narrative rides on.
+- Source: James, pre-ELT prep session. P2P v0 results context in `work/projects/upp/upp_retrieval_em.md` 7/13 entry.
+- **Same session: Jinfeng departed Pinterest; new P2P TL = Zheng Jie (Sr Staff, more collaborative — see §7).** Kurchi's lieutenant structure changed: her technical-debate champion is gone, which may soften the bloc dynamic observed at the March MW.
+
+### Post-ELT observation (same day, James debrief)
+- **Visibly much more engaged under the UPP framing than at last contact — now wrestling for ownership and control for her teams UNDER UPP.** Posture arc: slow-play (4/23) → active block (6/3) → **competing for territory inside the platform (7/13)**. The co-option is working: her stake in UPP is now worth fighting for, which is the win condition — cost of blocking rises with her ownership share.
+- **Still sending subtle jabs: "it's not clear if the downstream will be faster yet."** Read: contesting the platform's central velocity/economics claim while engaged — positioning herself as judge of the Search-onboarding test. Classic reasonable-sounding optionality play.
+- **Counter to the jab is data, not debate:** make time-to-onboard a published, falsifiable metric (Notif ~4mo → P2P → Search target). Meets her own "can't decide without data" standard; her skepticism then gets answered by a dashboard, not an argument.
+- **New game = seam-drawing, not blocking-defense.** The fight moves to who-owns-what within UPP: intent/relevance pillar, Search onboarding ownership, possibly governance/process control (watch for a steering-group proposal from her side — decide the desired governance shape in advance so James proposes rather than reacts). Repeat the Yan April-3 pattern: negotiate the seam early and explicitly — base model + cross-surface training + retrieval architecture stay James's; intent/relevance modeling objectives + SSJ surface fine-tunes are SSJ-owned within the platform. The cross-org operational model doc (`work/projects/upp/cross_org_operational_model/`) is the ready-made vehicle.
+- Dylan should hear this posture read before her next Kurchi touchpoint — she carries that political channel.
+
 ## 2026-06-03: Active block escalation — CST/CFM launch + Sai bandwidth pressure
 - **The 4/23 "too hard to move, just hope she doesn't block" stance has failed.** Kurchi is now **actively blocking**, not slow-playing.
 - **Event 1 — CST/CFM launch block:** Cross Surface Training + CFM had massive ranking-side wins. Kurchi personally blocked the launch in the meeting, citing **a new relevance metric regression** + **"executives flagging user perception gaps for P2P for relevance."** The "executives flagging" framing is a high-altitude shield — hard to argue with without surfacing the executive source. Rajat did NOT decide unilaterally to override (see §4 6/3 entry).
@@ -856,7 +869,9 @@ UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team
 
 ---
 
-# 7) Jinfeng — IC18, P2P ML Lead (Kurchi's org)
+# 7) Jinfeng — IC18, P2P ML Lead (Kurchi's org) — **DEPARTED Pinterest (noted 2026-07-13)**
+
+> **2026-07-13 update (James, pre-ELT prep):** Jinfeng has left Pinterest. **New P2P TL: Zheng Jie — Senior Staff engineer, notably more amenable and collaborative than Jinfeng.** Profile below retained as historical context (the Option 2 play, misrepresentation incident, P2P LR legacy dynamics). Implications: (a) credit lines in exec rooms should name **Zheng Jie + Jiaxing**, not Jinfeng; (b) Kurchi lost her technical-debate champion — watch who inherits that role (Zheng Jie's collaborative posture may mean the champion seat stays empty); (c) the P2P-LR-legacy-protection motive largely left with him — v1 co-design friction should drop.
 
 ## Role in my 6–12 month goals
 - **Co-design counterpart for UPP retrieval expansion to P2P.** Named POC alongside Jaewon for the unified base retriever design.
@@ -1842,3 +1857,57 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 - §9 Andrew — his feedback names the interface Michael now manages from the other side
 - §21 Lili Li / §20 Akshanta — likely or possible reports; capture-risk population
 - `work/people/dylan_archive.md` — the confidential "Michael close" flag (pre-OOO)
+
+---
+
+# 39) Matt Madrigal — CTO (added 2026-07-13)
+
+## What's known
+- **Amplifies the Anticipation Vision externally** — talks about it at conferences after Andrew pitched it to him (see canonical brief; the Andrew → Madrigal chain is the vision's exec altitude ceiling).
+- **2026-07 (Ads Retrieval discussion, James present): particularly interested in GPU retrieval — "bread and butter for Meta" (his phrase).** First direct signal of CTO-level interest in a specific retrieval capability, in an Ads context.
+
+## Why it matters
+- **CTO pull for a capability James's team already shipped:** CLR GPU serving is done and in production — Notif adopting, P2P already adopted, strong offline results (see `upp_retrieval_em.md` April 2026 status, Prong 1). When the CTO benchmarks GPU retrieval as industry table stakes, James's org is the one at Pinterest that built it.
+- **Ads expansion framing upgrade:** Ads onboarding onto UPP rides GPU retrieval infrastructure that already exists — demand-side pull (Ads asking) + top-down pull (CTO interest) converging on the same platform.
+- **Verbatim hook:** "bread and butter" — echo his own framing when GPU retrieval comes up at exec altitude (same technique as Jeff's "persona perspective").
+
+## 2026-07-13 update — ELT meeting: detail-level intent×UPP question
+- At the ELT (UPP expansion, same day): asked **"how can we leverage user intent clusters as part of UPP — at a detail level, what's the interplay between user intent modeling and UPP?"** CTO engaging on mechanism. Two James-coded programs (Anticipation substrate + UPP platform) connected at CTO altitude in one question.
+- Follow-up play: 1-pager on the interplay (conditional retrieval socket → latent intent in FM → predicted intent/pUIC as the anticipation unlock) — Madrigal retells mechanisms externally; Jeff forwards 1-pagers.
+
+## Open
+- No direct James ↔ Madrigal relationship yet — group discussions so far. Watch for whether the GPU retrieval + intent-modeling interest turns into asks routed through Rajat/Jeff.
+
+---
+
+# 40) Dinesh ⟨surname pending⟩ — Sr. EM, Ads (added 2026-07-13)
+
+## What's known
+- **Very friendly with ATG collaborations** — track record of working well with the central ML org.
+- **Jiajing (ATG Sr. Director — see §41) has been asking James to go talk to him** (2026-07); James plans to soon. Warm intro path exists.
+- Sits on the Ads side of the **Ads Retrieval expansion** thread — the same space where Matt Madrigal (§39) signaled GPU retrieval interest.
+
+## Why it matters
+- **First concrete relationship move of the Ads expansion.** Everything else on Ads is demand-signal at a distance; Dinesh is a named, reachable owner.
+- **The broker is the signal:** ATG's *senior leadership* is routing the Ads retrieval opportunity through James. Jiajing could point Dinesh anywhere — ranking side, internal ATG — and is pointing him at James. That's central-ML endorsement of James/UPP as the retrieval-platform counterpart for Ads.
+- **Natural triangle:** James + Dinesh + ATG (Jaewon's org, Jiajing above) — Dinesh's ATG-friendliness means the collaboration idiom he already trusts is the one UPP uses.
+- ⚠️ **Name disambiguation:** **Jiajing (ATG Sr. Director) is NOT Jiaxing Qu (P2P Retrieval engineer, Sai's team).** Near-collision; conflated once in-session 2026-07-13 and corrected by James. Distinct people, different orgs.
+
+## Open
+- Surname, org chain (under whom on the Ads side?), and what Dinesh actually wants from retrieval — fill after first conversation.
+
+---
+
+# 41) Jiajing — Sr. Director, ATG (added 2026-07-13)
+
+## What's known
+- **Sr. Director in ATG** (central ML org — Jaewon/Hongtao/Matt Lawhon's world; exact reporting lines unconfirmed).
+- **Actively brokering James ↔ Dinesh (Ads Sr. EM, §40):** has been asking James to go talk to Dinesh re: Ads collaboration (2026-07). James plans to soon.
+
+## Why it matters
+- **ATG senior leadership is routing the Ads retrieval opportunity through James.** Jiajing could point Dinesh at the ranking side or keep it ATG-internal; pointing him at James is a central-ML endorsement of James/UPP as the retrieval-platform counterpart for Ads — a Director-altitude third-party signal in the same class as Yan-alignment (Dylan reads peer/senior endorsement as operating signal).
+- Converges with §39 (Madrigal GPU-retrieval interest) and the Ads demand signal — three independent pulls on the same thread.
+
+## Open
+- Surname, exact role/chain in ATG, relationship to Jaewon, what Jiajing wants out of the Ads×UPP connection (visibility? ATG resourcing story?) — fill after the Dinesh conversation.
+- ⚠️ **Not to be confused with Jiaxing Qu** (P2P Retrieval engineer, Sai's team) — near-collision corrected 2026-07-13.

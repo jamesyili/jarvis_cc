@@ -560,3 +560,12 @@ The biggest 1:1 of the half. Ran ~as prepped (`dylan_reentry_1on1_2026-07-07.md`
 **Register notes:** the Anna-predicted post-vacation "what's the point" weather did not dominate — Dylan came in with an approved org design and moved it. Transparency currency confirmed twice in one meeting (Bella + Yuke). James left with thanks, and asked scope/priority questions rather than comparing allocations (comparison engine quiet — no Dhruvil/Yan scorekeeping).
 
 **Follow-ups James owes Dylan:** (1) org-structure proposal ahead of mid-July downward comms; (2) TL answer for pUIC/RR space; (3) (standing) Charlie-backfill Toronto flag. Intel filed: `daniel_liu_team_2026-07.md`; team_members.md (Yuke 7/7, Chuxi 7/7); stakeholders.md §Dylan reorg entry.
+
+## 2026-07-13 — Next 1:1 agenda (queued from ELT debrief session)
+
+Two items James committed to raising (source: 7/13 Leo session, post-ELT):
+
+1. **Kurchi posture read + seam plan.** ELT showed the shift: blocking (6/3) → visibly engaged, wrestling for her teams' ownership *under* UPP (7/13). James's intended play: draw the seams proactively (base model + cross-surface training + retrieval architecture stay James's; intent/relevance modeling objectives + SSJ surface fine-tunes SSJ-owned within the platform) via the cross-org operational model doc, Yan-April-3 style. Dylan carries the Kurchi political channel — she should have this read before her next Kurchi touchpoint. Watch-for shared: possible SSJ steering-group/governance proposal; Kurchi's velocity jab ("not clear the downstream will be faster yet") → counter is a published time-to-onboard metric, not debate.
+2. **Search resourcing.** Search team hesitant / alignment incomplete, while Jeff asked in-room "now that P2P is successful, how much more work for Search specific" — Jeff-altitude interest is the natural air cover; route the resourcing alignment through Dylan.
+
+Context: full ELT tidbits in `work/projects/upp/upp_retrieval_em.md` 7/13 entry; Kurchi posture arc in `stakeholders.md` §6.

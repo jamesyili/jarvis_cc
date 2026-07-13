@@ -58,3 +58,5 @@
 | 2026-07-10 16:42 | gmail | [Leo] JJ — IC16 (Staff MLE) Promotion Package — Draft v1 (2026-07-09) | work/people/jj_ic16_promo_package_2026-07.md | to=jamesyili@gmail.com id=19f4e6957bdd2b18 |
 | 2026-07-10 17:15 | gmail | [Leo] H1 2026 Self-Review — DRAFT v2 (2026-07-10) for James to edit | work/career/self_review_H1_2026_draft.md | to=jamesyili@gmail.com id=19f4e87186114d9a |
 | 2026-07-10 21:25 | gmail | [Leo] Org Design Proposal — skeleton + 3 Dylan-facing drafts (A=your voice, B=exec, C=Dylan-calibrated) | work/people/org_design_proposal_2026-07.md | body-only |
+| 2026-07-13 10:14 | gmail | [Leo] P13N Retrieval — Master IC Table (full names) | /tmp/claude-1000/-home-james-src-leo/f0f58e4f-69dd-4202-8626-a16378e061c4/scratchpad/master_ic_table_full_names.md | to=jamesyili@gmail.com id=19f5c797d6596a48 |
+| 2026-07-13 10:28 | gmail | [Leo] ELT — UPP Expansion Talking Points (P2P/Search + Ads) | /tmp/claude-1000/-home-james-src-leo/f0f58e4f-69dd-4202-8626-a16378e061c4/scratchpad/elt_upp_talking_points.md | to=jamesyili@gmail.com id=19f5c85fa7b04f31 |

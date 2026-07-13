@@ -5,6 +5,16 @@ Deliverable: structure proposal Dylan asked for (7/7 1:1), ahead of mid-July dow
 
 ---
 
+## Org name — **P13N Retrieval** (decided with Leo 2026-07-13; goes in the announcement locks)
+
+Replaces "HF CG" / "P13N CG." Dylan still says "the CG team" — a component-era label, two years stale on scope. The announcement is the moment her vocabulary updates: she says the new name downward, repeatedly, and retires the old one herself. One definition line in the doc draws the Dhruvil seam: **retrieval = the full pre-ranking funnel — substrate → candidate generation → lightweight scoring — everything that decides what the ranker sees.**
+
+- **Pairs with P13N-Experiences** (Yan): substrate ↔ consumption — the April 3 consensus embedded in the org chart.
+- **Coverage:** CG, UPP, CLR, GenRet literal; pUIC = retrieval substrate (Pred UIC CLR is a CG); exploration backend = retrieval for Explore; boards models = board retrieval; LWS via the definition line. Reflex is a program — no org name covers tooling.
+- **Seams untouched:** ranking (Dhruvil), IB consumption / surfaces (Yan), platform-for-all-of-Core (Francisco), anticipation charter (Andrew — multi-team).
+- **Future-proof:** the flagship bet (Generative Retrieval) carries the org's name; survives the R-a-B/Unity KTLO-vs-deprecation call either way.
+- **Rejected:** Core / Foundations (vague layer-claim — pokes Dhruvil, Francisco); Anticipation alone (over-claims Andrew's multi-team charter); **Anticipation Foundations — kept as the cross-org PROGRAM name**, not the org name (programs travel through the Yan seam and into Andrew's charter; stronger Director story than a box on the chart); Scoring / Serving (generic — every team scores and serves; no unique referent); Boards / IB (live consumption seam with Yan per April 3; R-a-B/Unity deprecation call pending inside the observe window; fails Dylan's anticipation-value filter — boards visibility lands in the routing table + announcement sentence instead); User Modeling (collides with the User Understanding team under Bo).
+
 ## Dylan-facing doc — skeleton (aligned with James 2026-07-10)
 
 Nine parts. Decision-first throughout (no option menus except §7). Cold-reader-safe: no PIP language (Yuke = "role change, James retains through transition"), no Bella leave-trigger/retention specifics, no "Anna's veto" (say profile fit), no "develop-or-document" on Daniel, no "tight-leash" on Alok — write every named person's line as if they'll read it.
@@ -159,13 +169,15 @@ Dylan, here is the structure proposal you asked for on 7/7. The shape first, the
 
 **1. The shape in one view**
 
+One org: **P13N Retrieval** — the pre-ranking funnel end to end, from user signal to what the ranker sees. Ranking starts where we end; surfaces belong to Experiences. Three legs inside it:
+
 - **Alim — Anticipation and Exploration (~8).** Chuxi, Yidi, Ling, Roderick, Yang, Zihao, Lionel (L14 SWE, Toronto, starts 7/27 with Alim). Mission: anticipate what a Pinner wants next. The pUIC substrate (model based and LLM based) plus the exploration surfaces (UEB, Content Exploration). Measured on retention and fresh content discovery.
 - **Daniel — Scoring and Serving Platform (phased: ~7 day 1, ~10 at settle).** His current team, the inherited maintenance scope (Recommend a Board live models, Unity Board), and the LWS pod on day 1. CLR joins at the settle point. Measured on platform reliability, cost, and the velocity of every team that builds on top.
 - **Me, direct — Reflex plus GenRet incubation (7, each justified in section 3).** The majority of my time goes to Reflex. GenRet is a time boxed incubation with explicit sunset criteria.
 
 **2. What your announcement locks vs what stays provisional**
 
-Locks: Daniel, his team, and his scope come to me; Alim starts 7/27 with the named pod above. That is the whole announcement. Provisional through the observe window: internal pod placements, CLR transfer timing, Balaji's placement, and the UPP endgame. I would rather tell you exactly what is settled than announce detail we might move in 60 days.
+Locks: Daniel, his team, and his scope come to me; Alim starts 7/27 with the named pod above; the org operates as P13N Retrieval from the announcement. That is the whole announcement. Provisional through the observe window: internal pod placements, CLR transfer timing, Balaji's placement, and the UPP endgame. I would rather tell you exactly what is settled than announce detail we might move in 60 days.
 
 **3. The three legs**
 
@@ -236,7 +248,7 @@ Same day: I talk to Daniel first, framing every move as scope following people. 
 
 **Subject: Proposed operating model for the expanded organization**
 
-**Recommendation.** Reorganize the expanded 24 engineer organization into three charters — Anticipation & Exploration (Alim Virani), Scoring & Serving Platform (Daniel Liu), and Reflex/GenRet incubation (direct) — with a phased transfer of platform scope and a 30–60 day observation window before internal placements finalize. The announcement commits outer reporting lines only.
+**Recommendation.** Reorganize the expanded 24 engineer organization as **P13N Retrieval** — the pre-ranking funnel end to end — spanning three charters: Anticipation & Exploration (Alim Virani), Scoring & Serving Platform (Daniel Liu), and Reflex/GenRet incubation (direct), with a phased transfer of platform scope and a 30–60 day observation window before internal placements finalize. The announcement commits outer reporting lines only.
 
 **Design principles.** Charter coherence over headcount; single threaded ownership for every workstream and every pager; phased scope transfer to protect two simultaneous onboardings (a new EM and an inherited team); my direct reports minimized and individually justified, with my time concentrated on Reflex.
 
@@ -264,6 +276,7 @@ Same day: I talk to Daniel first, framing every move as scope following people. 
 
 - Daniel, his team, and his scope report to me.
 - Alim starts 7/27 owning Anticipation & Exploration, with a named pod.
+- The org's name: **P13N Retrieval** (retires "HF CG"). Everything the ranker sees comes from here; pairs with P13N-Experiences.
 - Nothing else. Internal placements stay provisional through a 30 to 60 day observe window. I would rather give you a smaller announcement that holds than a detailed one we walk back.
 
 **Your three questions, answered**

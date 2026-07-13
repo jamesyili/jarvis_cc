@@ -3,9 +3,9 @@ id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_1on1_log.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
 confidence: 0.85
-evidence_count: 4
+evidence_count: 5
 created: 2026-04-23
-last_updated: 2026-05-07
+last_updated: 2026-07-13
 status: active
 ---
 
@@ -43,6 +43,13 @@ Refinement for hiring/evaluation files specifically: before writing a NEW per-ca
 
 **Add to heuristic 5:** also check sibling files in the relevant folder before creating a new evaluation file. `ls + grep` on the folder, not just the canonical files.
 
+### 2026-07-13
+> "Not Jiaxing, Jiajing the ATG Sr. Director."
+
+Context: James said "Jiajing has been asking me to go talk to Dinesh (Ads Sr. EM)." Leo pattern-matched "Jiajing" onto the known "Jiaxing Qu" (P2P engineer, Sai's team) — encouraged by a prior in-file note that "Jiaqing/Jiaxing" were transliteration variants of one person — and built a strategic read on the conflation ("SSJ co-option working") before James corrected. The real broker was a *different, undocumented* person: Jiajing, Sr. Director in ATG — which inverts the read (ATG leadership routing Ads to James, not SSJ evangelizing outward). **Inverse failure mode of 2026-04-25c:** there Leo missed a documented person; here Leo force-merged an undocumented person onto a documented one. Repo precedents for name collisions: "Daniel Liu (contractor)" mis-record (different Daniel), Jiaqing/Jiaxing variance.
+
+Signal: correction (immediate, factual). Refinement → heuristic 6.
+
 ## Pattern
 
 This is distinct from `corrections-interrupt-by-design` (which is about factual corrections that interrupt workflow). This instinct is about **analytical laziness that reinvents what's already documented.** Symptom: Leo reasons from first principles when existing context contains a better-grounded answer. Cost: James has to redirect, and in high-stakes strategic conversations (like stakeholder strategy), the wrong framework wastes decision cycles.
@@ -54,6 +61,7 @@ This is distinct from `corrections-interrupt-by-design` (which is about factual 
 3. **Recurring-situation patterns** ("how should I handle this 1:1 / skip-level / office hours?") — check `communication.md` playbooks and `dylan_1on1_log.md` for prior instances.
 4. **When about to offer a multi-option framework** (A / B / C) on a known topic — pause and verify no option is known-failed. Leo's Option C re-proposed the March 2026 failed move.
 5. **Before claiming "no context found" on a name or topic** — run `grep -rn -i "<name>" work/ self/ --include="*.md"` (case-insensitive, surface-form, no extension). Sub-entries, notable mentions, inline references all count as "context exists." A 3-line note under another stakeholder is still context. Top-level-only search fails this pattern.
+6. **Near-match names are unverified identities, not variants.** When a name James uses is a close-but-not-exact match to a documented person (Jiajing≠Jiaxing, two Daniel Lius), do NOT silently merge — check role/org consistency, and if anything mismatches (or the merged read becomes load-bearing), ask James one disambiguation question before building on it. Chinese-name romanizations collide often; a one-character difference is a different person until confirmed.
 
 **What Leo should do instead when the pattern might fire:**
 

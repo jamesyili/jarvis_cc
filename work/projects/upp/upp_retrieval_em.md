@@ -4,6 +4,24 @@
 
 ---
 
+## July 13, 2026 Update — P2P v0 results positive; V1 joint planning; Search resourcing hesitant; ELT presentation upcoming
+
+**Captured during ELT prep (James, 2026-07-13):**
+
+- **P2P — cross-surface training now showing very positive engagement gains.** UPP v0 (cross-surface pretraining) fine-tuned on P2P shows strong engagement vs. the pre-OneTrans production baseline. **Repin gains in this experiment exceed the gains OneTrans delivered over the same baseline.** Caveat for all exec comms: head-to-head vs. OneTrans (current production) has NOT been run yet — never phrase as "beats production." James's read: "there's something there." This is the P2P generalization proof point the platform thesis was waiting on (see 5/23 entry — "P2P is the structural test").
+- **V1 experiment plan + design being worked jointly with the P2P team** — active co-design, not parallel tracks. (Improvement vs. the 6/3 "handed a command / parallel tracks" low point.)
+- **Search: getting started but hesitant on resourcing** — alignment not complete. Not an ELT-room topic (Kurchi present); route through Dylan if it needs air cover.
+- **Kurchi org narrative = intent modeling.** They want intent + relevance modeled *as part of UPP* — their ambition now presupposes UPP as the vehicle. Strategic read: co-option opportunity — give SSJ public ownership of the intent/relevance pillar inside the platform; the deeper their narrative embeds in UPP, the higher their cost of blocking it.
+- **Upcoming ELT presentation:** UPP expansion focus — SSJ surfaces (P2P + Search) + Ads. James speaking. Reorg explicitly off-limits in this room (James, 7/13 — downward comms not yet out).
+- **CTO signal (Ads Retrieval discussion, ~7/13):** Matt Madrigal particularly interested in **GPU retrieval** — "bread and butter for Meta." CTO-level pull for capability already shipped (CLR GPU serving in production; P2P adopted, Notif adopting). Upgrades the Ads talking point: demand-side pull + top-down CTO interest converge on UPP's existing infra. See stakeholders.md §39.
+
+**ELT MEETING HELD (2026-07-13, quick) — key tidbits (James debrief, same day):**
+- **Matt Madrigal asked, at detail level: "how can we leverage user intent clusters as part of UPP — what's the interplay between user intent modeling and UPP?"** CTO engaging on mechanism, not summary. Read: (a) the anticipation vision and UPP connected at CTO altitude; (b) "intent modeling as part of UPP" — SSJ's own narrative frame — is now CTO-voiced, which makes the co-option pillar (SSJ owns intent/relevance inside UPP) CTO-demanded rather than James-offered.
+- **Jeff asked: "now that P2P is successful, how much more work do we need for Search specific?"** Jeff's premise = P2P internalized as a success at VP altitude; his mind is already on the next surface. The exec narrative has crossed from *does it transfer* to *how fast is the next surface* — unprompted. Also the natural air-cover opening for the Search resourcing gap (Search team hesitant, alignment incomplete — see above): Jeff is one step from "what do you need."
+- **Follow-up plays identified:** (1) post-ELT 1-pager on intent×UPP interplay + Search-delta scoping shape — Jeff forwards 1-pagers (his operating pattern), Madrigal retells mechanisms; converts warm in-room questions into a durable artifact. (2) Route Search resourcing through Dylan with Jeff's question as air cover. (3) Dinesh conversation (§40) now rides ELT tailwind.
+
+---
+
 ## June 23, 2026 Update — UPP v0 concluding → V1 (FM); v0 FT online results + cross-surface adoption starting
 
 **Event (via Zihao Slack update, while James OOO):**
