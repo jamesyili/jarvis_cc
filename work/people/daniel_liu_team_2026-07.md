@@ -49,3 +49,15 @@ This is the 5/15 latent signal landing: Andrew's IB-cut / redeploy-Yan's-ML-engi
 1. **Staff Retentive Recs and make it go full steam** — something visibly happens in ~1 month; **both pUIC experiments (model-based + LLM-based) in play.**
 2. Use the incoming resources to **deliver what Andrew is asking for.**
 3. **Digest the IB / exploration scope on a slower clock** — don't force structure decisions before understanding the inheritance.
+
+---
+
+## 2026-07-14 update — charter reframed to frontier modeling; timeline decoupled; new boards intel
+
+Corrections + additions from the 7/14 Dylan conversation + the org-design grill (system of record for structure: `org_design_proposal_2026-07_v2.md`):
+
+- **Daniel's area = frontier ML modeling, NOT infra/KTLO.** His team drives metric gains and publishes (KDD, RecSys). This **retires the v1 proposal's "Scoring & Serving Platform / least-AI-shiny charter / motivate-him-in-via-AI-leveraged-oncall" framing** — a wrong premise. His motivation is fed by the charter *being* genuine frontier modeling (the AI/ML work he wants) — no need to bolt on AI-shine.
+- **His leg = boards (retained) + LWS (inherited).** Retains **Recommend-a-Board / Intelligent Boards**; **inherits LWS** (lightweight scoring, split from CLR — a good onboarding ramp per Dylan). **Sheds the retentive-recs part of his team to Alim.** **CLR does NOT go to Daniel** (too much scope to digest at once; CLR's synergy is with Retentive Recs → targeted to Alim at settle). **UPP stays with James** as the framework both CLR and LWS build on.
+- **Initial state (decoupled timeline): Daniel's team stays INTACT under Daniel.** Dylan decoupled her reorg (Daniel → James) from James's internal reorg (own clock). Initially the only reporting change is Alim onboarding with a subset of *James's own* reports — moving Daniel's reports to Alim right away is "too drastic." The RR-shed + anticipation consolidation are **deferred** to James's later proposal, out of the observation window.
+- **Boards metric intel (Dylan, 7/14):** Recommend-a-Board **hasn't been a big metric driver in ~6 months** — BUT a recent **notification collaboration produced "wow" improvements.** Dylan shared the launch review and asked James to **get into the nitty-gritty.** Read: boards modeling has *latent, underexploited* impact; surface pairings (notifications) are where it unlocks. Both James's graded test (engage inherited scope deeply) and the growth thesis for the charter.
+- **Underutilization confirmed from inside:** Dylan repeated "underutilized," and says the **anecdotal feeling from people within Daniel's team is that they're underutilized** too. Reinforces: under-directed talent = cheap upside for a leadership turnaround; sharpens (but does not settle) the develop-or-document read on Daniel — hold loosely, the observation window separates "direction-from-above" from "leadership" as the cause.

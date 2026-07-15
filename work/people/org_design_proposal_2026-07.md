@@ -1,5 +1,7 @@
 # Org Design Proposal — James's Expanded Org (DRAFT v1, 2026-07-08)
 
+**⚠️ SUPERSEDED 2026-07-14 by `org_design_proposal_2026-07_v2.md`** (James's new section framing + the 7/14 Dylan timeline reframe). This v1 file is retained as **working notes only** — the **Master IC table, open-forks register, and per-person profiles below are still the reference**, but the **Dylan-facing narrative (skeleton + Drafts A/B/C) and the "Scoring & Serving Platform" framing of Daniel's leg are OUT OF DATE** (Daniel's leg is *frontier modeling*, not infra — see v2). Do not send this version.
+
 **Status: WORKING DRAFT — iterating with Leo. Not yet for Dylan.**
 Deliverable: structure proposal Dylan asked for (7/7 1:1), ahead of mid-July downward comms. Announcement locks **outer lines only** (Daniel+team+scope → James; Alim starts 7/27 with a named pod); internal structure stays provisional through a 30–60 day observe window.
 

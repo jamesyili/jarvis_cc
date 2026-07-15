@@ -569,3 +569,34 @@ Two items James committed to raising (source: 7/13 Leo session, post-ELT):
 2. **Search resourcing.** Search team hesitant / alignment incomplete, while Jeff asked in-room "now that P2P is successful, how much more work for Search specific" — Jeff-altitude interest is the natural air cover; route the resourcing alignment through Dylan.
 
 Context: full ELT tidbits in `work/projects/upp/upp_retrieval_em.md` 7/13 entry; Kurchi posture arc in `stakeholders.md` §6.
+
+## 2026-07-14 — Reorg timeline + structure conversation (James shared an early skeleton; Dylan reframed the timeline)
+
+James walked Dylan through an early structural skeleton of the org design and got back load-bearing timeline clarity. **This is the authoritative update for the org-design work** (reconciled into `org_design_proposal_2026-07_v2.md`, Transition Phase + footer #11–12).
+
+**The timeline reframe (biggest piece):**
+- **Two decoupled reorgs.** *Dylan's* reorg happens **first**; *James's* internal reorganization **does not have to happen at the same time** — she explicitly gave him **more time to observe, think, and propose differently.**
+- **Initial state = minimal reporting-chain changes.** During the observation period, **no IC's reporting chain changes except Alim coming in.** As Alim onboards, **James gives him a subset of James's *own* current reports** — NOT moving Daniel's reports directly to Alim (too drastic a change while everyone's landing). **Daniel's team stays intact under Daniel.**
+- The observation-period framing in the proposal should flex to this (the three legs are the *target*, staged onto James's clock — not day-1).
+
+**Headcount + org moves (Dylan's reorg):**
+- **Only Dhruvil and James get headcount** this cycle.
+- **Dhruvil gets the "blending" team** under him as blending manager: **Rahul + ~5–6 engineers** (James's read: ~6 report to Dhruvil).
+- **Daniel's team reports to James.**
+
+**Comms plan:**
+- Dylan does **not** plan to tell the other EMs until **~1–2 days ahead** of the actual reorg announcement.
+- **Exact timing + messaging finalized this week, after calibrations.**
+- Decision audience until then = **Dylan, James, Dhruvil** only.
+
+**Political backing (James's growth):**
+- Dylan **already prefaced this with HR, Andrew, Rajat, and others** — all **very happy for James**, particularly because it gives him a **path to grow toward the next level.** She's **explicitly setting James up for success** (Director trajectory). James read her as generous/grateful-worthy here.
+
+**What Dylan is already aligned with (from James's skeleton):**
+1. **Not giving CLR and UPP to Alim or Daniel right away** — too much work + context to hand off. (Validates the v2 doc: CLR + UPP stay with James; CLR → Alim only at settle; UPP stays as James's framework.)
+2. **Lightweight scoring (LWS) split from CLR** — and LWS may be a good place for Daniel to **onboard / ramp up**. (Validates LWS → Daniel as the onboarding ramp.)
+3. **James spending more time on Reflex** as a result of the reorg. (Validates the Reflex-focus / direct-pod-serves-Reflex framing.)
+
+**Implications for the doc:** Transition Phase rewritten to the decoupled/initial-vs-target model; Sequencing rewritten (deferred moves staged after observation, not socialized at announcement); counts flagged as target-not-initial (roster reconciliation is the next task).
+
+**Still open / James's follow-ups:** finalize timing + messaging with Dylan this week; the two input asks (Balaji, Kim loan) now sequence with James's *later* internal proposal, not the initial announcement.

@@ -3,9 +3,9 @@ id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_1on1_log.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
 confidence: 0.85
-evidence_count: 5
+evidence_count: 6
 created: 2026-04-23
-last_updated: 2026-07-13
+last_updated: 2026-07-14
 status: active
 ---
 
@@ -49,6 +49,12 @@ Refinement for hiring/evaluation files specifically: before writing a NEW per-ca
 Context: James said "Jiajing has been asking me to go talk to Dinesh (Ads Sr. EM)." Leo pattern-matched "Jiajing" onto the known "Jiaxing Qu" (P2P engineer, Sai's team) — encouraged by a prior in-file note that "Jiaqing/Jiaxing" were transliteration variants of one person — and built a strategic read on the conflation ("SSJ co-option working") before James corrected. The real broker was a *different, undocumented* person: Jiajing, Sr. Director in ATG — which inverts the read (ATG leadership routing Ads to James, not SSJ evangelizing outward). **Inverse failure mode of 2026-04-25c:** there Leo missed a documented person; here Leo force-merged an undocumented person onto a documented one. Repo precedents for name collisions: "Daniel Liu (contractor)" mis-record (different Daniel), Jiaqing/Jiaxing variance.
 
 Signal: correction (immediate, factual). Refinement → heuristic 6.
+
+### 2026-07-14 (reorg proposal rebuild — the `verify_load_bearing_facts` sub-pattern, three times)
+
+Context: rebuilding the org-design proposal, Leo (a) inherited the v1 working doc's framing of Daniel's leg as a "Scoring & Serving Platform" (infra/KTLO) and built a whole Key-Personnel section + workstream mapping on it before James corrected — "Daniel's team is *frontier ML modeling* (metric gains + KDD/RecSys papers), not infra, don't frame it as KTLO"; and (b) asserted James is M16, that Tim's promo was IC-track, and that Tim would report to Yan — James corrected all three (James is **M17**; Director = **M18**; Tim is **M16→M17 management**, *stays* under Dylan; Tim/Yan are non-ML SWE EMs). Every miss was a **load-bearing fact inherited from stale or assumed context** — a team's charter, James's level, a reporting line — built on without a verify.
+
+Signal: corrections (three in one session, all the absorbed `verify_load_bearing_facts` sub-pattern). Refinement: **a prior working doc's characterization of a person/team's charter is a prior to verify with James, not a fact to build on** — charters evolve between when the doc was written and now. Same for level / reporting-line: surface load-bearing org facts for a one-line confirm before anchoring a multi-turn build on them. The grill *did* catch the Daniel one (Q1 opened on the boards/infra contradiction) — but only after a full personnel section was written on the wrong premise. Cheaper to flag the inherited charter-premise up front ("v1 frames Daniel as infra — still true?") than to rebuild after.
 
 ## Pattern
 
