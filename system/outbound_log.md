@@ -62,3 +62,7 @@
 | 2026-07-13 10:28 | gmail | [Leo] ELT — UPP Expansion Talking Points (P2P/Search + Ads) | /tmp/claude-1000/-home-james-src-leo/f0f58e4f-69dd-4202-8626-a16378e061c4/scratchpad/elt_upp_talking_points.md | to=jamesyili@gmail.com id=19f5c85fa7b04f31 |
 | 2026-07-14 10:28 | gmail | [Leo] P13N Retrieval — Org Design | work/people/org_design_proposal_2026-07_v2.md | to=jamesyili@gmail.com id=19f61abd83f4cc2d |
 | 2026-07-14 17:53 | gmail | [Leo] P13N Retrieval — Org Design | work/people/org_design_proposal_2026-07_v2.md | to=jamesyili@gmail.com id=19f634340f852ccd |
+| 2026-07-14 21:44 | gmail | [Leo] P13N Retrieval — Org Design | work/people/org_design_proposal_2026-07_v2.md | to=jamesyili@gmail.com id=19f6416e93f295e8 |
+| 2026-07-14 22:01 | gmail | [Leo] Daniel 1:1 — The Open (first conversation post-announcement) | work/people/daniel_1on1_open_2026-07-14.md | to=jamesyili@gmail.com id=19f642671645b408 |
+| 2026-07-14 22:03 | gmail | [Leo] Alim 1:1 — First Sync Agenda | work/people/alim_1on1_agenda_2026-07-14.md | to=jamesyili@gmail.com id=19f6428dc8519380 |
+| 2026-07-14 22:04 | gmail | [Leo] P13N Retrieval — Org Design | work/people/org_design_proposal_2026-07_v2.md | to=jamesyili@gmail.com id=19f642977d9bedbe |

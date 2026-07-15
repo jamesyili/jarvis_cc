@@ -1,7 +1,7 @@
 # P13N Retrieval — Org Design
 
 **For:** Dylan · **From:** James · **Date:** 2026-07-14
-**Status: WORKING DRAFT (v2, new section framing). Audience = Dylan only — cold-reader-safe, but the Personnel section does not travel.** Supersedes the 9-section skeleton + Drafts A/B/C in `org_design_proposal_2026-07.md` (that file remains the working notes / IC table / forks reference).
+**Status: WORKING DRAFT (v2, new section framing). Audience = Dylan only — cold-reader-safe, but the Personnel section does not travel.** Supersedes v1 (`org_design_proposal_2026-07.md` — the 9-section skeleton + Drafts A/B/C), which was **deleted 2026-07-14**; v1's Master IC table is preserved in the Appendix at the bottom of this file. The Rollout Messaging & Meeting Plan section (also below) is **internal — James's rollout playbook, not part of the Dylan doc.**
 
 **The org:** **P13N Retrieval** — the pre-ranking funnel end to end, from user signal to what the ranker sees. Ranking starts where we end; surfaces belong to P13N-Experiences. This name retires "HF CG." Three legs inside it — the *target* shape I'm proposing, phased into on my own clock (see Transition Phase):
 
@@ -112,7 +112,7 @@ The design assigns accountability cleanly along four axes:
 | Alok | Reflex 50% + UPP 50% |
 | Bella | Staff lead for the GenRet incubation; continuity through the transition |
 | Hanlin | GenRet delivery pair with Bella |
-| Yuke | Single RecGPT stream after the role change we discussed; I hold his management so no new EM starts with an open thread |
+| Yuke | Single RecGPT stream; I hold his management so no new EM starts with an open thread |
 | Piyush | UPP — the shared retrieval framework CLR and LWS build on; a standing direct, not transitional |
 
 ### Transition Phase — decoupled reorgs (Dylan's now; my internal proposal on my own clock, ~Q3)
@@ -195,8 +195,157 @@ Open items / decisions this draft is carrying that the grill should resolve:
 5. **Audience (CONFIRMED 7/14): Dylan-only** for now. Later *maybe* Rajat + other leadership — to show depth of thinking on work design — but that's farther away; when it comes, generate a stripped version (Personnel + Input-asks removed) and separate messaging. Immediate audience = Dylan.
 6. **Piyush as named personnel (CONFIRMED 7/14 — kept).** Answers Dylan's "who TLs each space"; the retrieval-framework anchor is the one IC worth naming at her altitude.
 7. **Boards technical leads = TBD** (three rows). From Daniel's roster, Yongwoo/Felix workstreams are unknown — these fill after your first Daniel conversation.
-8. **Yuke line** ("single RecGPT stream after the role change we discussed") — confirm this is the safe phrasing you want in a doc, vs. omitting him from the visible pod table entirely.
+8. **Yuke line (RESOLVED 7/14):** all role-change phrasing removed — the pod table now reads "single RecGPT stream" only, no reference to his role change (per James, 7/14).
 9. **"LWS + L1 Utility" pairing (RESOLVED 7/14).** Not co-owned: LWS → Daniel; L1 utility → JJ/Ray under Foundations & Efficiency (James-direct). "Consolidating" read as pulling L1-utility scope together, not merging with LWS.
 10. **Foundations & Efficiency owner (RESOLVED 7/14).** → JJ, ~half his scope (other half Reflex); James-direct; Ray on L1/RT ops. Kept per Dylan's "don't divest small things." Justifies Ray as a direct.
 11. **Dylan conversation 7/14 — timeline + initial-state reconciled (see Transition Phase).** Her reorg first (Daniel→me; Dhruvil→blending team Rahul+~5–6); my internal reorg **decoupled, my clock**. Initial state = minimal changes: Alim takes a subset of MY reports (not Daniel's) + Lionel; Daniel's team intact; CLR+UPP stay with me (she's aligned); LWS = Daniel's ramp (she's aligned); more Reflex time (she's aligned). Only Dhruvil + I get headcount. Political backing: HR/Andrew/Rajat prefaced + happy, framed as my path to the next level. Comms: other EMs ~1–2 days prior; audience Dylan+me+Dhruvil; finalized this week after calibrations.
 12. **Roster reconciliation (next task) — now initial vs. target.** Alim *initial* = Chuxi/Yidi/Zihao/Lionel (my reports); *target* adds Daniel's anticipation folks (Ling/Roderick/Yang) later. Daniel *initial* = his intact team; *target* = +LWS (Yali/Hedi/Zili), boards retained. James-direct *initial* also holds the CLR pod (Devin/Yichi/Ryan) transitionally. The "~8 Alim / ~7 James" counts in the doc are TARGET, not initial — reconcile both columns.
+
+---
+
+# Rollout Messaging & Meeting Plan — INTERNAL (2026-07-14)
+
+**Do not send to Dylan. James's private playbook for cascading the reorg to the teams once Dylan's announcement lands.**
+
+## Calibrations (things the messaging must NOT assume)
+
+- **"Underutilized" is Dylan's private read for James, not a narrative in anyone's head.** Do not use it as a talking point — don't hand Daniel's team a grievance they weren't carrying, don't imply to Daniel his team's been failing.
+- **The team already knows Alim is joining** (they've been asking; James has already discussed layering vs. not, and how he's thinking about it). So these meetings *continue* a conversation, not open one.
+- **The new news at Dylan's announcement is the Daniel inheritance** (Daniel's team reports into James). Alim's actual start is 7/27, later and separate.
+- **Reporting lines:** Daniel reported to **Yann (Senior EM), not Dylan** — so his move is a *lateral re-parenting* (Sr EM → Sr EM), not a new layer inserted above him. No demotion shape; the real work is new-manager-relationship + team-changing-orgs, not de-layering.
+
+## Meeting structure — decision: **all 3, sequenced (not simultaneous)**
+
+Two groups (James's existing team + Daniel's inherited team); three possible structures (A combined-only / B separate-only / C both-separates + a combined). **Verdict: C, sequenced.**
+
+The two separate meetings do **opposite emotional jobs**, which is why they can't be collapsed:
+- **Existing team** needs *rally + continuity*: "we're inheriting a team and real scope; day-to-day, almost nothing changes for you."
+- **Daniel's team** needs *respect + don't-spook*: "glad to have you; Daniel keeps leading you; nothing's getting reshuffled; I want to learn before I touch anything." **Daniel runs this meeting; James is the guest.**
+
+Combined-only (A) is out: each audience hears the message meant for the other (Daniel's team feels like the acquired company at the acquirer's all-hands). Separate-only (B) is incomplete: never convening everyone signals two permanent camps. So do both separates first, and the **combined identity all-hands later — after the observation period**, when there's a real joint roadmap. Doing it in announcement week would contradict the minimal-change posture locked with Dylan on 7/14.
+
+**Sequence — Wave 1 (announcement week):** (1) Daniel 1:1 first → (2) existing team, separate → (3) Daniel's team, separate, Daniel-run. Keep (2) and (3) close in time to avoid an info-asymmetry gap. **Wave 2 (post-observe):** combined all-hands.
+
+**Governing rule for all reporting-change messaging:** the people actually moving (Chuxi/Yidi/Zihao/Lionel → Alim) get a **1:1 before any group meeting** — they walk in already knowing. Never let someone learn in a group room that they're being moved.
+
+## Existing-team proactive message
+
+The real anxiety Daniel's arrival triggers: **the group who thought they were "safe" (staying with James) now does the math — James's span just ballooned, so I'm probably getting moved too.** Get ahead of *that specific inference*:
+
+1. **Name the news and the inference out loud.** "Daniel's team is joining and will report to me. The natural next thought is 'James's org just got bigger, so my reporting line's about to change.' For most of you: no."
+2. **Give the mechanism.** Daniel's team stays *under Daniel* — so the org got bigger but James's direct span did **not** jump. That's the most reassuring true thing available; say it plainly.
+3. **Promise process, not permanence.** James *can't* promise everyone reports to him forever (target direct pod is deliberately focused; CLR pod, Alim nucleus, GenRet-at-graduation do move). So the durable promise is: **"No one's line changes without hearing it from me first, in a 1:1, with the reasoning — never as a surprise, never in a room like this."** The real fear isn't change; it's finding out you were moved without being in the conversation.
+4. **Kill attention-dilution.** "Org's bigger, but Daniel runs his team day-to-day — my attention to you isn't halved."
+5. **Answer the unasked 'did something go wrong?'** "This isn't a reaction to anything anyone did — the org's being *trusted with more.*"
+6. **Close on what's in it for them.** More senior leadership per person = more coaching, clearer charters, more room to grow — not dilution, not scope competition.
+
+## Project stability — the mirror (both teams ask "is my project safe?", opposite root fears)
+
+The fact that the fears are *opposite* is itself the strongest argument for separate rooms — the reassurance each needs slightly contradicts the other.
+
+- **Existing team = fear of dilution by the newcomer.** Concrete threats live in the proposal's own logic: consolidation ("stop building the same thing three times" → one UPP backbone → substrate-variant owners fear losing ownership); **GenRet is explicitly time-boxed with sunset criteria** (Bella/Hanlin *know* it can be sunset); **CLR is transitional → Alim** (Devin/Yichi/Ryan hear reprioritized + re-homed). Unifying fear: *where does my thing land in the new priority stack now that boards/RR compete for it?*
+- **Daniel's team = fear of deprioritization as the newcomer.** *We're the incoming team in a retrieval/anticipation org — does our boards/RR/LWS work still matter, or get redirected onto the host's priorities?* Boards carries extra dread (surface hasn't moved metrics in ~6 months → fear of quiet wind-down; the notif "wow" collab is the bright spot to affirm). RR folks may sense the eventual Alim shed; LWS folks get a new charter home under Daniel.
+
+James can't tell both rooms "you're the priority." To his team: scope is *additive, not substitutive.* To Daniel's team: their work is *valued, not sidelined.* Both true; said in one room, each side discounts its own reassurance → separate meetings in Wave 1; combined only once one integrated roadmap makes "one priority stack" a promise, not a threat.
+
+## Daniel — the retention conversation (the priority)
+
+**Dylan's actual mandate:** not "inform Daniel" — **assess his retention and learn what motivates him.** Dylan pre-confirmed the hypothesis: **LLM-based work excites him.** So the 1:1 is a two-way *retention* conversation (listen first), and it exposes a design problem to resolve **before** the meeting:
+
+**The charter–motivation mismatch (flag to verify, not asserted).** Daniel's assigned leg — **boards + LWS scoring modeling** — is "frontier ML modeling" but **not obviously LLM-based** (LWS is lightweight/efficient scoring, arguably the opposite of LLM-heavy; boards modeling is classical unless deliberately made generative). Meanwhile the LLM-shiny work — **RecGPT/Generative Retrieval, LLM-based pUIC** — currently sits with **James (GenRet) and Alim (LLM-pUIC), not Daniel.** If his motivation is LLM work and his charter isn't, that's the retention gap — and it's James's design to fix.
+
+**James's decision (2026-07-14): don't close it with a charter change now.** Daniel is **not** the right lead for **Retentive Recs** (Anna's product-instinct veto) and **not** the right lead for **Reflex** (too much context to transfer). So the LLM-motivation is *not* satisfied by handing him a new charter on day one. Instead it's a **trajectory play**: the inheritance is his opening to *get more involved over time* in the direction he wants, plus **future things James + Daniel build together** — something to *work on*, not change now. Keeps the minimal-change posture and lets the 1:1 stay authentic: listen for what he wants, then paint an honest growth path + partnership, not an over-promised LLM leg.
+
+*The GenRet-home / LLM-boards / LWS-distillation ideas become **future collaboration seeds**, not day-1 moves.* Stance for the "will I get LLM work?" question below: honest — not by leading RR or Reflex, but here's the path to grow into it and build together over time.
+
+**Questions Daniel will ask (retention-weighted):**
+- *Will I actually get to work on LLM/generative modeling, or is that happening elsewhere while I'm on classical boards/scoring?* ← the driver, maybe unspoken
+- Is this charter *frontier*, or is boards-that-hasn't-moved-metrics a backwater with a nice label?
+- Growth path — can I make Senior EM here, or does reporting into another Sr EM cap me?
+- Do I keep my team intact and my autonomy? *(reshuffle fear — RR shed is deferred; hold it)*
+- Is the KDD/RecSys publication support real or lip service?
+- Why me — opportunity or a place things got parked?
+- Yann situation — leaving on good terms? Was I consulted?
+- Headcount for my charter? *(honest: not this cycle — the scope is the growth)*
+
+**Questions JAMES should ask Daniel (the actual assignment — surface motivation, gauge flight risk):**
+- What work energizes you most right now — where do you *want* your technical time going?
+- If you could shape your team's charter for the next year, what would it be? *(does "LLM/generative" come out unprompted?)*
+- What's felt blocked or underleveraged lately? *(lets the feeling surface from him)*
+- What would make this move a clear win for you? A bad outcome?
+- Where do you want to grow; what's the next level look like?
+- Who on your team is critical or a flight risk, and what do they need?
+
+**Flight-risk watch-fors:** flat affect on the charter; "I need to think about it"; steering to level/comp early; strong attachment to Yann; treating boards as a dead end; fishing about external optionality. Two+ → signal to Dylan + accelerate option 1.
+
+## Question banks — Wave 1 meetings
+
+Landmines flagged **→ stance.**
+
+### Existing team
+- **Who exactly reports to Alim vs. stays with you?** *(have the specific list ready)*
+- **Did I get a say in a new manager?** → don't pretend it was participatory; "you didn't pick this — react honestly in our 1:1; my job is to make it a good setup, here's why it is."
+- **Does my promo case reset with a new manager?** → **big one:** promo continuity, you + Alim co-own the case, no lost runway.
+- Why a new EM — did something go wrong / did I? → additive, not corrective.
+- What's Alim like / his background?
+- **Layoffs coming? Prelude to cuts?** → don't dodge: "this is growth — *adding* a team + scope, not trimming."
+- What happens to my project (CLR / UPP / Reflex / GenRet)?
+- Are we absorbing Daniel's team, over/under/parallel?
+- More work / competition for scope at same headcount?
+- **Are you getting promoted, James? A director thing?** → keep altitude: "the org's being invested in," not "I'm going for director."
+- Team name/identity changing (P13N Retrieval)? Day-to-day / oncall / roadmap change, and when?
+
+### Daniel's team *(Daniel runs it; James is guest)*
+- **Why are we moving to James's org — what was wrong with Yann's?** → forward-framing; not a reaction to anything.
+- **Is Daniel still our manager? Did he get demoted?** → clear no: lateral move; Daniel leads you; his charter is *elevated* to frontier modeling.
+- **Are we being split up / absorbed?** → **landmine (RR shed deferred):** "No changes to this team now; anything structural is deliberate, with Daniel + the people affected in the room first." Don't pre-announce the RR shed; don't promise "never."
+- What happens to our projects (boards, RR, LWS) — valued or killed?
+- Who is James / what does he care about / like to work for?
+- Level / promo / comp / skip-level change?
+- LWS moving under Daniel — what does that mean for us?
+- Change how we work (tools, process, oncall)? Keep our identity or fold into P13N Retrieval?
+- What changes day one vs. later? Timeline?
+
+### Daniel (1:1)
+*(see the retention section above — full list there; landmines: LLM/generative work, team-stays-intact, growth/cap, headcount, Yann.)*
+
+---
+
+# Appendix — Master IC Table (migrated from v1, 2026-07-14)
+
+> Preserved from the deleted v1 doc — the most complete structured roster (levels · families · projects). **Caveat:** the "Draft destination" column reflects **pre-7/14 fork thinking** (e.g., CLR→Daniel, "Scoring & Serving Platform"). For current placement see the v2 body (CLR stays with James → Alim at settle; UPP stays with James; Daniel = frontier boards+LWS modeling). Levels marked **?** are inferred/unconfirmed. This table is the input for the pending **initial-vs-target roster reconciliation.**
+
+### James's current directs (17 incl. Lionel)
+| IC | Level | Family | Main project(s) | Draft destination (PRE-7/14 — see v2 body) |
+|---|---|---|---|---|
+| Piyush | **L16** | MLE | UPP (pure) — but **uber-TL (TL of TLs) over CLR + LWS too** | James direct → endgame fork F3 (⚠️ his TL scope spans the F1 move) |
+| Devin | **L15** | MLE | CLR (lead) · GULP | CLR pod → Daniel (fork F1) |
+| Yichi | **L13** | MLE | CLR | with CLR pod |
+| Ryan | **L15** | SWE | ML Infrastructure | placement ⟨reconfirm — not CLR-specific⟩ |
+| JJ | **L15** (L16 case parked) | MLE | Real-Time/L1 · **Reflex (Build lead)** | James direct (Reflex) |
+| Ray | **L14** | SWE | L1 (+Reflex framing?) | James direct? — fork F6 |
+| Alok | **L14** | MLE | Real-Time · Reflex ~50% (giving up PhP/DT) | UPP+Reflex (Leo rec) — fork F4 |
+| Yali | **L15** | MLE | LWS | LWS pod → Daniel (fork F1) |
+| Hedi | **L15** | MLE | LWS (+ paper work) | with LWS pod |
+| Zili | **L14** | MLE | LWS (perf case — stays w/ James) | with LWS pod |
+| Bella | **L16** Staff | MLE | **RecGPT/GenRet · Reflex** (~30–50% — pin the split) | James direct |
+| Hanlin | ? | MLE? | RecGPT (+ ME GPU serving) | James direct — fork F5 |
+| Yuke | L15 | MLE | RecGPT (single stream) | James direct through transition |
+| Chuxi | L14 | MLE | pUIC model-based · pUIC LLM-based (TL ramp) | **Alim** |
+| Yidi | ? | MLE? | pUIC model-based | **Alim** |
+| Zihao | ? | MLE? | Content Exploration ~50% · UPP fractional (succession hedge) | **Alim** ⟨confirm⟩ |
+| **Lionel** | **L14** | **SWE** | RR pod plumbing (Charlie backfill; **Toronto**; starts **7/27**) | **Alim** |
+| **REQ-1 (open)** | **L15** | MLE | — (new headcount, granted ~7/11) | unallocated — fork F8 |
+| **REQ-2 (open)** | **L13** | MLE | — (new headcount, granted ~7/11) | unallocated — fork F8 |
+
+### Daniel's team (7 + intern)
+| IC | Level | Family | Main project(s) | Draft destination (PRE-7/14 — see v2 body) |
+|---|---|---|---|---|
+| Balaji | **L16** Staff | MLE | team TL; day-to-day work **unknown** | fork F2 (Daniel TL vs Alim Staff anchor) |
+| Roderick | **L15** | SWE | UEB (driving well) | **Alim** (UEB goes with RR/exploration) |
+| Ling Lan | **L14** | MLE | LLM-pUIC inference pipeline | **Alim** (already inside the work) |
+| Yang Liu | **L15** | MLE | UIC (pre-parental-leave; Roderick took over) | **Alim** ⟨return date/ramp?⟩ |
+| Kim Toy | **L15** | MLE | UPP foundational (loaned to Dhruvil) · CLR (pointed, not started) | **Daniel** (CLR bridge); wind down loan |
+| Yongwoo Noh | **L15** | MLE | **UNKNOWN** (fill after first Daniel conversation) | Daniel (default) |
+| Felix Yang | **L14** | SWE | **UNKNOWN** (fill after first Daniel conversation) | Daniel (default) |
+| Rita Lyu | intern | — | — (~2 months left) | ignore for design |
