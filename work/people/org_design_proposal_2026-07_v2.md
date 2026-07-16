@@ -57,7 +57,7 @@ Beyond the transition phase, the design converges to **a minimal set of direct r
 - **I keep the UPP framework** (Piyush) as a standing direct — it's the shared retrieval substrate CLR and LWS build on, and the right thing for me to anchor rather than push into a consumer charter.
 - **GenRet is an explicit, time-boxed incubation** under me, with sunset criteria — it moves at the settle point (and CLR moves to Alim then too), and the direct footprint shrinks as it does.
 
-So the beyond-transition footprint is two EMs on the standing modeling charters, and a deliberate James-direct footprint = the Reflex frontier + the UPP framework + Foundations & Efficiency (JJ/Ray) — not a wide span I hold indefinitely.
+So the beyond-transition footprint is two EMs on the standing modeling charters, and a deliberate James-direct footprint = the Reflex frontier + the UPP framework + Foundations & Efficiency (JJ/Rui) — not a wide span I hold indefinitely.
 
 ---
 
@@ -99,17 +99,17 @@ The design assigns accountability cleanly along four axes:
    | UPP framework (supports CLR + LWS) | Me | Piyush |
    | Boards + LWS scoring modeling | Daniel | boards + LWS TLs |
    | CLR retrieval modeling | Me day-1 → Alim at settle | Devin |
-   | Foundations & Efficiency (responsiveness, L1 utility, cost) | Me | JJ · Ray |
+   | Foundations & Efficiency (responsiveness, L1 utility, cost) | Me | JJ · Rui |
 
-4. **Oncall.** Every rotation has a day-1 owner and a settle-state owner — **no pager gap at any point.** LWS oncall moves to Daniel on day 1; boards oncall stays with Daniel (his retained scope); L1/Real-Time oncall to Ray (under the Foundations & Efficiency charter JJ co-owns); the new pUIC serving surface staffs with a deliberate ramp for the incoming SWE. One carry-over by design: I keep Zili's performance management even as his rotation moves — no new EM inherits an open case.
+4. **Oncall.** Every rotation has a day-1 owner and a settle-state owner — **no pager gap at any point.** LWS oncall moves to Daniel on day 1; boards oncall stays with Daniel (his retained scope); L1/Real-Time oncall to Rui (under the Foundations & Efficiency charter JJ co-owns); the new pUIC serving surface staffs with a deliberate ramp for the incoming SWE. One carry-over by design: I keep Zili's performance management even as his rotation moves — no new EM inherits an open case.
 
 **The direct pod, each seat justified** (the "where does my time go" answer):
 
 | Person | Why they report to me |
 |---|---|
 | JJ | Reflex Build lead (~half) + Foundations & Efficiency (~half): responsiveness, L1 utility, cost savings |
-| Ray | L1 / Real-Time operational owner, under the Foundations & Efficiency charter JJ co-owns |
-| Alok | Reflex 50% + UPP 50% |
+| Rui | L1 / Real-Time operational owner, under the Foundations & Efficiency charter JJ co-owns |
+| Alok | Reflex + Retentive Recs (primary) — ⚠️ seat justification open: RR is Alim's charter |
 | Bella | Staff lead for the GenRet incubation; continuity through the transition |
 | Hanlin | GenRet delivery pair with Bella |
 | Yuke | Single RecGPT stream; I hold his management so no new EM starts with an open thread |
@@ -122,7 +122,7 @@ The design assigns accountability cleanly along four axes:
 **My internal reorg is decoupled and runs on my own clock.** You explicitly gave me room to observe, think, and propose the internal structure separately rather than execute it simultaneously. So the three legs above are the *target* I'm proposing — not a day-1 event. This is the deliberate, depth-of-thinking version: stage the moves, don't big-bang them.
 
 **Initial state (right after Dylan's reorg + Alim's 7/27 start) — minimal reporting-chain changes:**
-- **Alim onboards with a subset of *my current* reports** — the anticipation/exploration nucleus (Chuxi, Yidi, Zihao) plus Lionel (starts 7/27). I'm deliberately *not* moving Daniel's reports to Alim yet — too drastic a change while everyone's landing.
+- **Alim onboards with a subset of *my current* reports** — the retentive-recs nucleus (**Chuxi, Yidi, Alok**) plus **Lionel** (starts 7/27). I'm deliberately *not* moving Daniel's reports to Alim yet — too drastic a change while everyone's landing. **Zihao stays with me** (7/15): he leads UPP cross-surface training and is the UPP succession hedge behind Piyush — his centre of gravity is the framework, not exploration. Content Exploration matrixes or waits for the settle.
 - **Daniel's team stays intact under Daniel.** The RR-shed and the anticipation consolidation come later, out of the observation.
 - **CLR and UPP stay with me** — we aligned that handing them to Alim or Daniel right away is too much context to transfer cleanly.
 - **LWS** (split from CLR) is the natural first ramp for Daniel — you flagged it as a good onboarding surface; exact timing I'll propose from the observation.
@@ -157,20 +157,20 @@ How each workstream evolves, mapped to the three legs:
 | **UPP** | Me | Piyush | The framework/substrate that supports CLR + LWS; stays with me as the unifying retrieval foundation (a standing direct, not transitional) |
 | **CLR + GULP** | Me day-1 → Alim at settle | Devin | Frontier retrieval modeling; NOT added to Daniel's day-1 load (digestion). Longer-term → Alim, given CLR↔Retentive synergy |
 | **LWS** (inherited by Daniel) | Daniel | Yali | Lightweight-scoring modeling; oncall moves to Daniel day-1 |
-| **L1 Utility / Real-Time** | Me | Ray (ops) · JJ | Sits inside the Foundations & Efficiency charter (JJ + Ray), James-direct. Your image paired it with LWS, but LWS → Daniel and L1 stays here — different owners |
+| **L1 Utility / Real-Time** | Me | Rui (ops) · JJ | Sits inside the Foundations & Efficiency charter (JJ + Rui), James-direct. Your image paired it with LWS, but LWS → Daniel and L1 stays here — different owners |
 | **Retentive Recs** (+ Unified Explore Backend) | Alim | Chuxi (ramping) · Roderick (UEB) | Both pUIC experiments land month-1; UEB consolidates into the anticipation leg; **CLR joins Alim at settle** (CLR↔Retentive synergy) |
 | **Reflex** | Me | JJ (Build) · Dafang overall | Nimble vTeam; my primary time; the AI-tooling accelerator every leg adopts |
 | **RecGPT / Generative Retrieval** | Me (incubation) | Bella | Time-boxed incubation; graduates/moves at settle |
 | **Intelligent Boards** | Daniel | boards TL TBD | Retained; frontier boards modeling (metric gains + publications) |
 | **Recommended Boards** | Daniel | boards TL TBD | Retained; live surfaces (Related Pins, Search) + frontier boards modeling |
-| **Foundations & Efficiency** (Responsiveness, Cost savings) | Me (JJ) | JJ · Ray | ~half JJ's scope; kept as scope per Dylan's "don't divest small things." Includes L1 utility + RT responsiveness + cost savings |
+| **Foundations & Efficiency** (Responsiveness, Cost savings) | Me (JJ) | JJ · Rui | ~half JJ's scope; kept as scope per Dylan's "don't divest small things." Includes L1 utility + RT responsiveness + cost savings |
 
 ### Calls I've made
 
 1. **LWS → Daniel on day 1** (he inherits its oncall and scoring-modeling work); any CLR consolidation is a settle-point call. Keeps blast radius low while his team lands and protects the Devin transition.
 2. **Lionel → Alim's pod** (L14 SWE, Toronto, starts 7/27 with Alim). The RR bottleneck all year has been serving, and he's the only dedicated SWE in that space; starting the same day as Alim makes him a founding member, not the new guy on an old team.
-3. **Alok → Reflex 50% + UPP 50%.** RR is staffed without him.
-4. **JJ splits ~half Reflex / ~half Foundations & Efficiency** (responsiveness, L1 utility, cost — kept per Dylan's "don't divest small things"); **Ray is the L1/Real-Time operational owner** underneath.
+3. **Alok → Retentive Recs (primary) + Reflex.** Alok chose RR himself, and I want him there: **RR loses Yuke** to the single RecGPT stream, so Alok is load-bearing for that pod alongside Chuxi and Yidi. *(Corrected 7/15 — supersedes the earlier "Reflex 50% + UPP 50%; RR is staffed without him," which was wrong on both counts.)*
+4. **JJ splits ~half Reflex / ~half Foundations & Efficiency** (responsiveness, L1 utility, cost — kept per Dylan's "don't divest small things"); **Rui is the L1/Real-Time operational owner** underneath.
 5. **CLR is not part of Daniel's day-1 scope.** Adding CLR on top of LWS + boards would overload his onboarding. CLR stays with me transitionally (Devin leading), targeted to Alim at settle given the CLR↔Retentive synergy. **UPP stays with me as the framework** both CLR and LWS build on.
 
 ### Where I want your input
@@ -196,10 +196,10 @@ Open items / decisions this draft is carrying that the grill should resolve:
 6. **Piyush as named personnel (CONFIRMED 7/14 — kept).** Answers Dylan's "who TLs each space"; the retrieval-framework anchor is the one IC worth naming at her altitude.
 7. **Boards technical leads = TBD** (three rows). From Daniel's roster, Yongwoo/Felix workstreams are unknown — these fill after your first Daniel conversation.
 8. **Yuke line (RESOLVED 7/14):** all role-change phrasing removed — the pod table now reads "single RecGPT stream" only, no reference to his role change (per James, 7/14).
-9. **"LWS + L1 Utility" pairing (RESOLVED 7/14).** Not co-owned: LWS → Daniel; L1 utility → JJ/Ray under Foundations & Efficiency (James-direct). "Consolidating" read as pulling L1-utility scope together, not merging with LWS.
-10. **Foundations & Efficiency owner (RESOLVED 7/14).** → JJ, ~half his scope (other half Reflex); James-direct; Ray on L1/RT ops. Kept per Dylan's "don't divest small things." Justifies Ray as a direct.
+9. **"LWS + L1 Utility" pairing (RESOLVED 7/14).** Not co-owned: LWS → Daniel; L1 utility → JJ/Rui under Foundations & Efficiency (James-direct). "Consolidating" read as pulling L1-utility scope together, not merging with LWS.
+10. **Foundations & Efficiency owner (RESOLVED 7/14).** → JJ, ~half his scope (other half Reflex); James-direct; Rui on L1/RT ops. Kept per Dylan's "don't divest small things." Justifies Rui as a direct.
 11. **Dylan conversation 7/14 — timeline + initial-state reconciled (see Transition Phase).** Her reorg first (Daniel→me; Dhruvil→blending team Rahul+~5–6); my internal reorg **decoupled, my clock**. Initial state = minimal changes: Alim takes a subset of MY reports (not Daniel's) + Lionel; Daniel's team intact; CLR+UPP stay with me (she's aligned); LWS = Daniel's ramp (she's aligned); more Reflex time (she's aligned). Only Dhruvil + I get headcount. Political backing: HR/Andrew/Rajat prefaced + happy, framed as my path to the next level. Comms: other EMs ~1–2 days prior; audience Dylan+me+Dhruvil; finalized this week after calibrations.
-12. **Roster reconciliation (next task) — now initial vs. target.** Alim *initial* = Chuxi/Yidi/Zihao/Lionel (my reports); *target* adds Daniel's anticipation folks (Ling/Roderick/Yang) later. Daniel *initial* = his intact team; *target* = +LWS (Yali/Hedi/Zili), boards retained. James-direct *initial* also holds the CLR pod (Devin/Yichi/Ryan) transitionally. The "~8 Alim / ~7 James" counts in the doc are TARGET, not initial — reconcile both columns.
+12. **Roster reconciliation — initial vs. target. Alim's INITIAL POD LOCKED 7/15 = Chuxi / Yidi / Alok / Lionel** (4; no Staff, no L15). **Zihao removed** — stays with James on UPP (cross-surface training lead + Piyush succession hedge); the ⟨confirm⟩ on him was never confirmed and had been carried forward from the 6/30 Track-A/B split, whose sorting key was Content Exploration. **Alok added** (RR primary, his own call; RR loses Yuke). *Target* adds Daniel's anticipation folks (Ling/Roderick/Yang) later. Daniel *initial* = his intact team; *target* = +LWS (Yali/Hedi/Zili), boards retained. James-direct *initial* also holds the CLR pod (Devin/Yichi/Ryan) transitionally. The "~8 Alim / ~7 James" counts in the doc are TARGET, not initial — reconcile both columns.
 
 ---
 
@@ -226,7 +226,7 @@ Combined-only (A) is out: each audience hears the message meant for the other (D
 
 **Sequence — Wave 1 (announcement week):** (1) Daniel 1:1 first → (2) existing team, separate → (3) Daniel's team, separate, Daniel-run. Keep (2) and (3) close in time to avoid an info-asymmetry gap. **Wave 2 (post-observe):** combined all-hands.
 
-**Governing rule for all reporting-change messaging:** the people actually moving (Chuxi/Yidi/Zihao/Lionel → Alim) get a **1:1 before any group meeting** — they walk in already knowing. Never let someone learn in a group room that they're being moved.
+**Governing rule for all reporting-change messaging:** the people actually moving (**Chuxi / Yidi / Alok / Lionel → Alim**) get a **1:1 before any group meeting** — they walk in already knowing. Never let someone learn in a group room that they're being moved. *(Updated 7/15: Zihao is no longer moving; Alok is.)*
 
 ## Existing-team proactive message
 
@@ -311,41 +311,57 @@ Landmines flagged **→ stance.**
 
 ---
 
-# Appendix — Master IC Table (migrated from v1, 2026-07-14)
+# Appendix — Master Roster (authoritative, James 2026-07-15)
 
-> Preserved from the deleted v1 doc — the most complete structured roster (levels · families · projects). **Caveat:** the "Draft destination" column reflects **pre-7/14 fork thinking** (e.g., CLR→Daniel, "Scoring & Serving Platform"). For current placement see the v2 body (CLR stays with James → Alim at settle; UPP stays with James; Daniel = frontier boards+LWS modeling). Levels marked **?** are inferred/unconfirmed. This table is the input for the pending **initial-vs-target roster reconciliation.**
+> **Replaces** the v1-migrated table. Levels, families, and current projects are now **James-confirmed** (previously several were inferred/`?`). The old "Draft destination" column is **dropped** — it carried pre-7/14 fork thinking (CLR→Daniel, "Scoring & Serving Platform") that the v2 body supersedes, and placement is the subject of the pending **initial-vs-target roster reconciliation**, not a settled fact to table here.
+>
+> **Naming correction (2026-07-15):** the engineer this repo called **"Ray"** is **Rui Wang** — a dictation/preferred-name artifact, corrected throughout. One person, not two.
 
-### James's current directs (17 incl. Lionel)
-| IC | Level | Family | Main project(s) | Draft destination (PRE-7/14 — see v2 body) |
-|---|---|---|---|---|
-| Piyush | **L16** | MLE | UPP (pure) — but **uber-TL (TL of TLs) over CLR + LWS too** | James direct → endgame fork F3 (⚠️ his TL scope spans the F1 move) |
-| Devin | **L15** | MLE | CLR (lead) · GULP | CLR pod → Daniel (fork F1) |
-| Yichi | **L13** | MLE | CLR | with CLR pod |
-| Ryan | **L15** | SWE | ML Infrastructure | placement ⟨reconfirm — not CLR-specific⟩ |
-| JJ | **L15** (L16 case parked) | MLE | Real-Time/L1 · **Reflex (Build lead)** | James direct (Reflex) |
-| Ray | **L14** | SWE | L1 (+Reflex framing?) | James direct? — fork F6 |
-| Alok | **L14** | MLE | Real-Time · Reflex ~50% (giving up PhP/DT) | UPP+Reflex (Leo rec) — fork F4 |
-| Yali | **L15** | MLE | LWS | LWS pod → Daniel (fork F1) |
-| Hedi | **L15** | MLE | LWS (+ paper work) | with LWS pod |
-| Zili | **L14** | MLE | LWS (perf case — stays w/ James) | with LWS pod |
-| Bella | **L16** Staff | MLE | **RecGPT/GenRet · Reflex** (~30–50% — pin the split) | James direct |
-| Hanlin | ? | MLE? | RecGPT (+ ME GPU serving) | James direct — fork F5 |
-| Yuke | L15 | MLE | RecGPT (single stream) | James direct through transition |
-| Chuxi | L14 | MLE | pUIC model-based · pUIC LLM-based (TL ramp) | **Alim** |
-| Yidi | ? | MLE? | pUIC model-based | **Alim** |
-| Zihao | ? | MLE? | Content Exploration ~50% · UPP fractional (succession hedge) | **Alim** ⟨confirm⟩ |
-| **Lionel** | **L14** | **SWE** | RR pod plumbing (Charlie backfill; **Toronto**; starts **7/27**) | **Alim** |
-| **REQ-1 (open)** | **L15** | MLE | — (new headcount, granted ~7/11) | unallocated — fork F8 |
-| **REQ-2 (open)** | **L13** | MLE | — (new headcount, granted ~7/11) | unallocated — fork F8 |
+### Engineering Managers
+| Name | Level (Family) | Role | Notes |
+|---|---|---|---|
+| **James Li** | **M17** MLE | EM lead for the organization | — |
+| **Daniel Liu** | **M16** MLE | (current) EM on Curation ML | Supports 7 ICs |
+| **Alim Virani** (he/him) | **M16** MLE | — | **Joins 7/27/2026** |
 
-### Daniel's team (7 + intern)
-| IC | Level | Family | Main project(s) | Draft destination (PRE-7/14 — see v2 body) |
-|---|---|---|---|---|
-| Balaji | **L16** Staff | MLE | team TL; day-to-day work **unknown** | fork F2 (Daniel TL vs Alim Staff anchor) |
-| Roderick | **L15** | SWE | UEB (driving well) | **Alim** (UEB goes with RR/exploration) |
-| Ling Lan | **L14** | MLE | LLM-pUIC inference pipeline | **Alim** (already inside the work) |
-| Yang Liu | **L15** | MLE | UIC (pre-parental-leave; Roderick took over) | **Alim** ⟨return date/ramp?⟩ |
-| Kim Toy | **L15** | MLE | UPP foundational (loaned to Dhruvil) · CLR (pointed, not started) | **Daniel** (CLR bridge); wind down loan |
-| Yongwoo Noh | **L15** | MLE | **UNKNOWN** (fill after first Daniel conversation) | Daniel (default) |
-| Felix Yang | **L14** | SWE | **UNKNOWN** (fill after first Daniel conversation) | Daniel (default) |
-| Rita Lyu | intern | — | — (~2 months left) | ignore for design |
+### IC level distribution (26 ICs incl. 2 open reqs)
+| Level | Count | People |
+|---|---|---|
+| **L16** | 3 (12%) | Piyush, Bella, Balaji |
+| **L15** | 12 (46%) | JJ, Zihao, Yali, Devin, Hedi, Yuke, Roderick, Yang, Kim, Yongwoo, **Ryan**, Req-1 |
+| **L14** | 8 (31%) | Chuxi, Ling, Hanlin, Rui, Felix, Alok, Lionel, Zili |
+| **L13** | 3 (12%) | Yichi, Yidi, Req-2 |
+
+### Full IC roster
+> "Reports to" = **current** line (Daniel's 7 come to James's org via Dylan's reorg; Alim's pod forms 7/27). Not the target state.
+
+| Name | Level | Family | Current main projects | Reports to | Notes |
+|---|---|---|---|---|---|
+| Piyush Maheshwari | **L16** | MLE | UPP · CLR (advisory) · LWS (advisory) | James | Single point of failure on UPP |
+| Bella Huang | **L16** | MLE | RecGPT · Reflex | James | Staying; top-lab leave-trigger |
+| Balaji Rengarajan (he/him) | **L16** | MLE | **Intelligent Boards** | Daniel | Day-to-day now known — was "unknown"; feeds fork F2 |
+| Devin Kreuzer | **L15** | MLE | CLR · GULP | James | CLR lead |
+| Ryan Kam | **L15** | SWE | CLR · LWS (dev-velocity focused) | James | Joined ~May 2026 |
+| J.J. Hu | **L15** | MLE | Responsiveness · L1 · Reflex | James | IC16 package submitted 7/10 |
+| Yali Bian | **L15** | MLE | LWS | James | De facto LWS owner |
+| Hedi Xia | **L15** | MLE | LWS | James | — |
+| Yuke Yan | **L15** | MLE | Retentive Recs · RecGPT | James | **Will move to RecGPT only**; PIP track, stays under James |
+| Zihao Chen | **L15** | MLE | UPP · Content Exploration | James | UPP succession hedge vs. Alim's exploration charter |
+| Roderick Gao | **L15** | SWE | Unified Explore Backend | Daniel | — |
+| Yang Liu | **L15** | MLE | **Parental leave** | Daniel | Return date / ramp open |
+| Kim Toy | **L15** | MLE | UPP foundational (loaned to Dhruvil) · CLR | Daniel | Loan wind-down = Dylan ask #2 |
+| Yongwoo Noh | **L15** | MLE | **Not sure** | Daniel | Fill after first Daniel conversation |
+| **REQ-1 (open)** | **L15** | MLE | — | James | New headcount ~7/11; unallocated |
+| Rui Wang | **L14** | SWE | Reflex · L1 | James | **= the "Ray" of prior docs.** Joined ~late June 2026 |
+| Alok Malik | **L14** | MLE | **Retentive Recs (primary)** · Reflex | James | RR = his own call; needed as Yuke exits RR. §Calls #3 corrected 7/15. ⚠️ RR is Alim's charter — reporting line open |
+| Zili Li | **L14** | MLE | LWS | James | Open perf case — James keeps it |
+| Hanlin Lu | **L14** | MLE | RecGPT | James | — |
+| Chuxi Wang | **L14** | MLE | Retentive Recs | James | Supported, unannounced TL ramp |
+| Lionel Bewa | **L14** | SWE | — | James | **Joins 7/27**; Toronto; Charlie backfill |
+| Ling Lan | **L14** | MLE | **Retentive Recs · Intelligent Boards** | Daniel | Straddles Alim's charter + Daniel's boards; Chuxi's daily partner |
+| Felix Yang | **L14** | SWE | **Not sure** | Daniel | Fill after first Daniel conversation |
+| Yichi Wang | **L13** | MLE | CLR | James | — |
+| Yidi Wang | **L13** | MLE | Retentive Recs | James | Carrying most of model-based pUIC |
+| **REQ-2 (open)** | **L13** | MLE | — | James | New headcount ~7/11; unallocated |
+
+*Not in the 26: Rita Lyu (intern, Daniel's team, ~2 months left — ignore for design). Departed: Sophia, David, Charlie (exiting).*

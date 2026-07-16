@@ -66,3 +66,4 @@
 | 2026-07-14 22:01 | gmail | [Leo] Daniel 1:1 — The Open (first conversation post-announcement) | work/people/daniel_1on1_open_2026-07-14.md | to=jamesyili@gmail.com id=19f642671645b408 |
 | 2026-07-14 22:03 | gmail | [Leo] Alim 1:1 — First Sync Agenda | work/people/alim_1on1_agenda_2026-07-14.md | to=jamesyili@gmail.com id=19f6428dc8519380 |
 | 2026-07-14 22:04 | gmail | [Leo] P13N Retrieval — Org Design | work/people/org_design_proposal_2026-07_v2.md | to=jamesyili@gmail.com id=19f642977d9bedbe |
+| 2026-07-15 16:32 | gmail | [Leo] Alim — First Sync Talking Points | work/people/alim_1on1_agenda_2026-07-14.md, work/people/team_members.md, work/people/org_design_proposal_2026-07_v2.md | to=jamesyili@gmail.com id=19f681fa10d11b01 |

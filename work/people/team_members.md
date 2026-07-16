@@ -2,7 +2,65 @@
 
 > James's direct reports and key team context. Updated as situations change.
 
-Last updated: 2026-06-24
+Last updated: 2026-07-15
+
+---
+
+## Roster (authoritative — James, 2026-07-15)
+
+> Levels/families/projects confirmed by James. The per-person sections below carry the *narrative* context (perf cases, flight risk, growth); this table is the **source of truth for who exists and at what level.**
+>
+> **Naming correction (2026-07-15):** the engineer these notes called **"Ray"** is **Rui Wang** — a dictation/preferred-name artifact. One person, not two. Corrected throughout here and in `org_design_proposal_2026-07_v2.md`.
+
+### Engineering Managers
+| Name | Level (Family) | Role | Notes |
+|---|---|---|---|
+| **James Li** | **M17** MLE | EM lead for the organization | — |
+| **Daniel Liu** | **M16** MLE | (current) EM on Curation ML | Supports 7 ICs; comes to James via Dylan's reorg |
+| **Alim Virani** (he/him) | **M16** MLE | Anticipation & Exploration | **Joins 7/27/2026** |
+
+### IC level distribution (26 incl. 2 open reqs)
+| Level | Count | People |
+|---|---|---|
+| **L16** | 3 (12%) | Piyush, Bella, Balaji |
+| **L15** | 12 (46%) | JJ, Zihao, Yali, Devin, Hedi, Yuke, Roderick, Yang, Kim, Yongwoo, Ryan, Req-1 |
+| **L14** | 8 (31%) | Chuxi, Ling, Hanlin, Rui, Felix, Alok, Lionel, Zili |
+| **L13** | 3 (12%) | Yichi, Yidi, Req-2 |
+
+### Full IC roster
+| Name | Level | Family | Current main projects | Reports to | Notes |
+|---|---|---|---|---|---|
+| Piyush Maheshwari | L16 | MLE | UPP · CLR (advisory) · LWS (advisory) | James | SPOF on UPP |
+| Bella Huang | L16 | MLE | RecGPT · Reflex | James | Staying; top-lab leave-trigger |
+| Balaji Rengarajan (he/him) | L16 | MLE | Intelligent Boards | Daniel | — |
+| Devin Kreuzer | L15 | MLE | CLR · GULP | James | CLR lead |
+| Ryan Kam | L15 | SWE | CLR · LWS (dev-velocity focused) | James | Joined ~May 2026 |
+| J.J. Hu | L15 | MLE | Responsiveness · L1 · Reflex | James | IC16 package submitted 7/10 |
+| Yali Bian | L15 | MLE | LWS | James | De facto LWS owner |
+| Hedi Xia | L15 | MLE | LWS | James | — |
+| Yuke Yan | L15 | MLE | Retentive Recs · RecGPT | James | **Will move to RecGPT only**; PIP track |
+| Zihao Chen | L15 | MLE | UPP · Content Exploration | James | UPP succession hedge |
+| Roderick Gao | L15 | SWE | Unified Explore Backend | Daniel | — |
+| Yang Liu | L15 | MLE | **Parental leave** | Daniel | Return date / ramp open |
+| Kim Toy | L15 | MLE | UPP foundational (loaned to Dhruvil) · CLR | Daniel | Loan wind-down = Dylan ask |
+| Yongwoo Noh | L15 | MLE | **Not sure** | Daniel | Fill after first Daniel conversation |
+| **REQ-1 (open)** | L15 | MLE | — | James | Granted ~7/11; unallocated |
+| Rui Wang | L14 | SWE | Reflex · L1 | James | **= "Ray"** in prior notes. Joined ~late June 2026 |
+| Alok Malik | L14 | MLE | **Retentive Recs (primary)** · Reflex | James | RR is his own call; needed there as Yuke exits RR. ⚠️ RR = Alim's charter — reporting line unresolved |
+| Zili Li | L14 | MLE | LWS | James | Open perf case — James keeps it |
+| Hanlin Lu | L14 | MLE | RecGPT | James | — |
+| Chuxi Wang | L14 | MLE | Retentive Recs | James | Supported, unannounced TL ramp |
+| Lionel Bewa | L14 | SWE | — | James | **Joins 7/27**; Toronto; Charlie backfill |
+| Ling Lan | L14 | MLE | Retentive Recs · Intelligent Boards | Daniel | Chuxi's daily delivery partner |
+| Felix Yang | L14 | SWE | **Not sure** | Daniel | Fill after first Daniel conversation |
+| Yichi Wang | L13 | MLE | CLR | James | — |
+| Yidi Wang | L13 | MLE | Retentive Recs | James | Carrying most of model-based pUIC |
+| **REQ-2 (open)** | L13 | MLE | — | James | Granted ~7/11; unallocated |
+
+*Not in the 26: Rita Lyu (intern, Daniel's team, ~2 months left). Departed/exiting: Sophia, David, Charlie.*
+
+**Alok — RESOLVED 2026-07-15.** Alok **decided to primarily be on Retentive Recs**, and James wants him there **because Yuke is leaving RR** (Yuke → RecGPT only). This **supersedes** the prior `org_design_proposal_2026-07_v2.md` §Calls #3 framing — *"Alok → Reflex 50% + UPP 50%. RR is staffed without him"* — which was wrong on both counts: he's not on UPP, and RR is **not** staffed without him. v2 corrected the same day.
+> **Knock-on, unresolved:** Retentive Recs is **Alim's charter**. Alok's justification for being a James-direct was "Reflex 50% + UPP 50%" — with UPP gone and RR primary, that seat no longer justifies itself. Either Alok goes to Alim (RR primary, matrixed into Reflex) or he stays with James on Reflex and matrixes into RR. Not yet decided.
 
 ---
 
@@ -57,12 +115,17 @@ Last updated: 2026-06-24
 - **2026-06-29 1:1 outcome (Yuke).** Yuke now **openly admits he's looking around** (hasn't found anything yet) and says he's **no longer sure he wants a lead role or the year-end promo.** James's read: clear — he's stepping off the ladder into a holding pattern. **Coaching landed:** after James's "okay to look, not okay to underperform while looking," Yuke has **stepped up — more proactive and visible, driving changes forward.** Two next-step options aligned: **Option A** — deep IC modeling work in one or two of **UPP / pUIC / Reflex**; **Option B** — continue as **TL of Retentive Recs.** **Design tension (Leo flag):** Option B collides with (a) the Chuxi-TL succession (Chuxi steps up *only if* Yuke steps down) and (b) the split (Retentive Recs is Alim's Track A; Yuke was to stay on James's Track B — can't TL a Track-A workstream from Track B). **Bella↔Yuke parallel:** both now in holding-pattern/looking mode; Bella (who talks with Yuke) thinks Yuke should try for promo while still here — a 2-person senior cluster to watch for contagion.
 - **2026-07-06 DECISION — PIP track locked; A/B superseded.** James's read hardened: post-coaching "step up" is surface-level — Yuke is coasting at IC15, maximizing interview-prep time, and using the TL/coordinator label to pass the pod's work (largely Chuxi's) off as his own. Decision made — **when, not if, on the PIP.** The 6/29 A/B framing is dead: deep-IC modeling work is rejected as a landing spot on its own because it's an equally good hiding place ("trained a model" with no shippable deliverable). Locked plan: (1) **TL title stripped** — delivered as the already-aligned IC transition, kept clean of any PIP language, framed as role change under the reorg; (2) **Yuke stays under James, NOT Alim** — don't hand a brand-new EM a live perf case; James has the history and the process leverage; acknowledged cost: the perf-management burden stays on James; (3) **ER/HRBP confidential consult FIRST, before any formal word** — interviewing + ER-savvy + green-card-entangled is the exact pretextual-challenge profile; (4) **H1 below-expectations rating is the PIP on-ramp** (documented since Feb); (5) **formal PIP clock starts early August**, spaced from the TL strip and reorg announcement so each action stands alone (role change ≠ rating ≠ PIP — no reorg-retaliation reading); (6) **green card = time, not leverage**: EB1 recently filed; its value is that Yuke can't bolt, so the process can run clean and fully documented on James's clock. In conversation, use it only to *reassure* ("sponsorship continues") so fear doesn't crowd out the expectations message — never link GC to performance (coercion narrative + ER landmine). Expectations conversation = named, dated, measurable deliverables with quality bars; the PIP is what removes the hiding places.
 - **2026-07-07 update — landing spot set (RecGPT), Dylan endorsed, Chuxi looped.** (1) **Dylan endorsed the TL→IC move** in the 7/7 re-entry 1:1; thanked James for transparency ("exactly the type of transparency she's looking for"); her follow-up question: **who TLs the space?** — James owes her a proposal. (2) **Landing spot: RecGPT/Generative Retrieval as IC — ONE workstream, not two.** James's call: an interviewing, distracted IC15 gets a single stream = single accountability, easier tracking, single TL. Yuke **asked for this space himself** — he owns wanting it, which strengthens the expectations conversation ("you asked for this; here's what delivering here looks like"). (3) **Bella aligned to keep an eye on his work** (also feeds her resource ask). Boundaries: Bella = technical TL-of-record ONLY — never part of the perf process, never PIP-aware; all deliverable definitions/tracking/documentation come from James (ER requirement anyway). Frame Yuke-capacity to Bella as *provisional*, not committed headcount. **Contagion watch:** Bella+Yuke are the documented 2-person looking cluster, now daily collaborators — when the process turns formal, the Bella-visible version must be indistinguishable from a normal role transition. (4) **OPEN — reporting line:** RecGPT is Track-A/Alim space. Leo rec: Yuke reports to James through the PIP window ("I'm holding the perf management so Alim can ramp"), transfers only after resolution. Not yet confirmed by James. (5) **Chuxi told transparently** (7/7); transition co-designed with her: Yuke out of pUIC → RecGPT IC; Chuxi leans into both pUIC tracks.
-- **Workstream:** Real-Time, PhP / Dynamic Triggering (~50% allocation, gate cleared March 30)
+### Alok Malik (L14, MLE)
+> **Heading restored 2026-07-15** — this block had lost its `###` header and was rendering inside Yuke's section, silently attributing Alok's workstream + 1:1 to Yuke.
+
+- **Workstream (current, 2026-07-15):** **Retentive Recs (primary) · Reflex.** Alok made the RR call himself, and James wants him there — **RR loses Yuke** (who goes to RecGPT only), so Alok is now load-bearing for that pod alongside Chuxi and Yidi.
+- **Workstream (historical — SUPERSEDED):** Real-Time, PhP / Dynamic Triggering (~50% allocation, gate cleared March 30). Also supersedes v2 §Calls #3's "Reflex 50% + UPP 50%" — he is not on UPP.
+- **Open — reporting line:** RR is Alim's charter but Reflex is James's. See the knock-on flagged in the roster section above.
 - **1:1:** Thu 2:30pm
 - **Context:** ELT presentation cleared funding gate. Alok moving to ~50% on Dynamic Triggering. Needs tight leash — give one scoped deliverable at a time. First task: scope Ads surface expansion with Mehdi (data, CG architecture, transfer analysis). Weekly review cadence on DT work.
 
-### Chuxi (Retentive Recs — IC, grow-in-place)
-- **Role:** Primary IC on Retentive Recs / p(UIC). Promo vehicle. **Incoming TL pending Yuke's IC transition.**
+### Chuxi Wang (L14, MLE — Retentive Recs, IC grow-in-place)
+- **Role:** Primary IC on Retentive Recs / p(UIC). Promo vehicle. *(Prior "Incoming TL pending Yuke's IC transition" framing retracted 6/30 — see below.)*
 - **Workstream:** Retentive Recs
 - **1:1:** Wed 4:30pm
 - **Context:** Bridge between Yuke (Retentive Recs) and Devin (CLR) on retentive signal integration. Make sure she's in architectural decision rooms, not just execution. Building independence as hedge against Yuke departure.
@@ -74,11 +137,12 @@ Last updated: 2026-06-24
 
 ## Tier 2 — Biweekly 1:1s
 
-### Zihao Chen
+### Zihao Chen (L15, MLE)
 - **Workstream:** UPP (feature alignment, surface documentation), Content Exploration (~50%)
 - **1:1:** Mon 3:30pm
 - **Context:** Transitioning deeper into UPP architecture. Accelerate understanding by pairing with Piyush.
 - **Growth:** Demonstrate basic project leadership on Content Exploration.
+- **2026-07-15 — the contested one.** At **L15**, Zihao is the *only* senior IC in Alim's day-1 pod (Chuxi L14 / Yidi L13 / Lionel L14). He is also the **UPP succession hedge against Piyush** (see Single Points of Failure below). Moving him to Alim puts the UPP hedge inside another EM's pod, pointed at a charter (exploration) that pulls him away from UPP. Alim's first-sync agenda already carries the mitigation ("coordinate with Piyush before pulling him fully into exploration") — i.e. a hedge against a problem the move creates. **Unresolved.**
 
 ### Yali
 - **Workstream:** LWS (de facto owner)
@@ -89,15 +153,14 @@ Last updated: 2026-06-24
 - **Workstream:** LWS
 - **1:1:** Thu 3:00pm (alternating with Yali)
 
-### Yidi
+### Yidi Wang (L13, MLE)
 - **Workstream:** Retentive Recs (fractional), Content Exploration (fractional)
 - **1:1:** Wed 4:00pm (alternating)
 - **2026-06-24 update.** Flagged to James (unprompted) that Yuke has been less engaged and she's been carrying most of the model-based pUIC implementation. Zelun (ATG) is the cross-team collaborator on this work. James asked her to add him to Slack threads with Yuke and Zelun — she agreed but wants their permission first. Strong signal of good judgment and communication; James gave her explicit positive feedback on communication dimension (significant improvement, lots of posting). Yidi also confirmed that Chuxi has been involved in pUIC and knows the serving challenges.
 
-### David
-- **Workstream:** Departing April
-- **1:1:** Wed 4:00pm (alternating)
-- **Context:** Negotiated 2-month extension to vesting cliff. L1 Utility transferring to JJ.
+### David — DEPARTED
+- **Status:** Gone (departed ~April–June 2026; negotiated a 2-month extension to his vesting cliff). Not on the 7/15 roster of 26. Cited alongside Sophia as churn context in the H1 self-review.
+- **Former workstream:** L1 Utility — transferred to JJ, with Rui Wang now the operational owner underneath.
 
 ---
 
@@ -140,12 +203,27 @@ Last updated: 2026-06-24
 
 ---
 
+## Recently joined
+
+### Ryan Kam (L15, SWE) — joined
+- **Start date:** ~April–May 2026 (notes said April 6; James's 7/15 roster says "joined 2 months ago")
+- **Workstream (current, per 7/15 roster):** **CLR · LWS (dev-velocity focused)** — supersedes the earlier "GULP/CLR with Devin, spare bandwidth to UPP infra" and the v1 table's "ML Infrastructure ⟨reconfirm⟩", which is now resolved.
+- **Context:** Provides the CLR coverage hedge behind Devin.
+
+### Rui Wang (L14, SWE) — joined ~late June 2026
+- **Workstream:** Reflex · L1
+- **Context:** **This is the person prior notes called "Ray"** (dictation/preferred-name artifact, corrected 2026-07-15). One of the two engineers James hired this half ("Ryan and Rui" — the H1 self-review says "Ryan and Ray").
+- **Role in the org design:** **L1 / Real-Time operational owner** under the Foundations & Efficiency charter JJ co-owns (v2 §Calls #4, fork F6 resolved). He is the **day-1 oncall owner for L1/Real-Time** in the no-pager-gap table — the load-bearing reason this name has to be right in the Dylan-facing doc.
+
+---
+
 ## Incoming
 
-### Ryan
-- **Start date:** April 6
-- **Workstream:** GULP/CLR with Devin, spare bandwidth to UPP infra
-- **Context:** Check in next week with Devin about starter project.
+### Lionel Bewa (L14, SWE)
+- **Start date:** **7/27/2026** — the same day Alim starts
+- **Location:** Toronto (remote from the pod)
+- **Workstream:** RR pod plumbing / serving (Charlie backfill)
+- **Context:** Goes to **Alim's day-1 pod**. Framed deliberately as a **founding member**, not the new guy on an old team. **Triple-fragility onboarding** (new hire + new manager + remote) → named buddy (Roderick, as the org settles), deliberate oncall ramp, James runs 30/60/90 skip check-ins. Note the buddy currently reports to **Daniel**, not Alim.
 
 ---
 
@@ -158,11 +236,12 @@ Last updated: 2026-06-24
 - Framing to Yuke: Extends his workstream's reach. Chuxi is still his IC. This is his win.
 
 ### Single Points of Failure
-- Piyush on UPP (Zihao transitioning but not there yet)
-- Bella on RecGPT/ATG (hedged through YiPing pairing)
-- Yuke on Retentive Recs (Chuxi building independence)
-- Devin on CLR (Ryan + eventually Yichi provide coverage)
-- JJ on Real-Time (essentially solo)
+*(refreshed 2026-07-15 against the confirmed roster)*
+- **Piyush on UPP** — Zihao (L15) is the hedge and is **not there yet**. ⚠️ The hedge is also Alim's only senior IC — see Zihao's entry.
+- **Bella on RecGPT/ATG** — hedged through the YiPing pairing; Hanlin (L14) + Yuke (L15, PIP track) also in RecGPT.
+- **Yuke on Retentive Recs** — largely resolved: Yuke moves to RecGPT only; Chuxi (L14) + Yidi (L13) carry pUIC, with Ling Lan (L14, **Daniel's report**) as the delivery partner.
+- **Devin on CLR** — Ryan Kam (L15) + Yichi (L13) provide coverage.
+- **JJ on Real-Time** — **no longer solo:** Rui Wang (L14, ex-"Ray") is the L1/Real-Time operational owner underneath him.
 
 ### Cross-Training Approach
 Make every workstream have at least two people in every design discussion. Not as policy — as habit. Nobody feels threatened, nobody feels like a backup, distributed knowledge in six months.
