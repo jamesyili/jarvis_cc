@@ -1256,6 +1256,10 @@ Three updates carried out of the Dylan H1 career convo (week of 5/18) and prior 
 
 **4. Voice-transcription cleanup.** "Yen" → Yan; "Daniel Liu" → Daniel Liu (Yan's TL, ML lead). Names corrected throughout the chapter doc + artifact draft + this profile.
 
+## 2026-07-15: Peer-feedback read (drafted gently — reorg context)
+- **Strengths (from cupcake_lookback notes):** brings structure + leadership unity to ambiguous cross-team situations (authored the Unity-HF ownership proposal; the CG↔P13N transition closed as partnership, not turf war); genuinely **collective** — proactively suggested a live EPD retro session ("having a live session would be helpful for folks to share their thoughts collectively").
+- **Growth (deliberately soft):** the honest read is high-altitude framing **without deep codebase engagement** (James's briefing §F). But James chose to write this **gently** — because the reorg moves **Daniel Liu's ML team out from under Yan → to James**, and piling a technical-depth critique onto someone losing ML scope reads as ungracious. Encoded only as an *opportunity* ("bring framework strength into closer contact with the execution layer"), never as a gap. Did NOT reference the AJ/Devin IC friction.
+
 ## 2026-05-23 Update: Revised preferred shape — Yan as Presentation + Performance vertical
 
 Following Anna conversation + Tim conversation + Slack-verified org chart (see [people/dylan_team_design_input_2026-05.md](dylan_team_design_input_2026-05.md) 5/23 update for full context).
@@ -1471,7 +1475,12 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 
 ---
 
-# 25) Olafur Gudmundsson — KDD Paper Federation Co-Author + Active UBR Reviewer (added 2026-04-11, upgraded same day)
+# 25) Olafur Gudmundsson — Sr. Staff ML Engineer (IC17), direct to Dylan (added 2026-04-11, upgraded same day)
+
+## 2026-07-15: Level + role + peer-feedback read
+- **Level confirmed: IC17 Sr. Staff ML Engineer, direct to Dylan.** **TL for MDD.** Worked with James on **Retentive Recs (Retentive Feedback Loop, UIC work, KDD Federation subsection)**.
+- **Strengths (James):** raises the technical bar and adds rigor to any discussion he's in (the UBR "make the abstraction concrete" comment is the archetype); rare combination of deep intellectual grappling **and** clean articulation — an "intellectual anchor." Strong contributions across Retentive Feedback Loop + UIC.
+- **Growth (James's read):** **stretched too thin** across many workstreams → limiting his ability to land deeper technical breakthroughs; plus a **reactive posture** (waits for problems to come to him rather than driving his own agenda). Net effect: **often seems stressed.** Peer-feedback framing encoded this as focus + agenda-setting + a sustainability note — the "stressed" observation was NOT stated (wellbeing read, not rubric-actionable).
 
 ## Role in my 6–12 month goals
 - **KDD 2026 paper Federation subsection co-author** (with Armando).
@@ -1502,7 +1511,12 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 
 ---
 
-# 27) Sai — Peer Sr EM, P2P Retrieval (she/her, added 2026-04-11)
+# 27) Sai — Peer Sr EM (M17), P2P Retrieval (she/her, added 2026-04-11)
+
+## 2026-07-15: Level confirmed + peer-feedback read (private)
+- **Level confirmed: M17 Senior EM** (per James, peer-EM altitude with James + Dhruvil).
+- **James's public read (peer feedback):** proactive, good-faith cross-org partner — staffed P2P engineers onto UPP unasked, asked to be pulled *into* the weekly sync; strong, well-articulated technical vision for P2P Retrieval.
+- **⚠️ James's PRIVATE read (trust perimeter — do NOT surface, do NOT put in any chain-readable artifact):** he thinks Sai can be **too 小气** — petty / turf-protective / small on credit and resourcing (the OneTrans parallel-build is arguably this instinct in the wild). He deliberately did NOT write this into peer feedback because her **entire chain (Huizhong, Kurchi) reads it** and they are **still in a live UPP political situation**. The 小气 read was *encoded* in the feedback only as a positive next-altitude nudge ("operate your vision at broader, org-first scope; champion the shared bet even when credit lands elsewhere") — never named. Keep the raw read here as context, never as content.
 
 ## Role in my 6–12 month goals
 - **Peer Sr EM on the P2P Retrieval side.** Jiaqing (the P2P Retrieval engineer working closely with Piyush + Zihao on UPP cross-surface training) is one of Sai's reports.
@@ -1633,7 +1647,11 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 
 ---
 
-# 30) Dimitra Tsiaousi — Notif EM / Pinkerton co-lead (added 2026-04-11; upgraded 2026-05-14)
+# 30) Dimitra Tsiaousi — M16 Notif EM / Pinkerton co-lead (added 2026-04-11; upgraded 2026-05-14)
+
+## 2026-07-15: Level + peer-feedback read
+- **Level confirmed: M16. Doing well as EM** (James). Protects her team scope, has ambition to push forward on AI + continuous quality.
+- **Strengths (James):** (1) solves for the broader **CORE** org over local optimization under tight resourcing — the Pinkerton independent-convergence story (both built compatible v0s, joined into one artifact + one 1-FTE Jeff ask); (2) strong, well-formed **point of view on content quality**. No real growth area observed — peer feedback Q3 kept honest/light (export the convergence model across the org).
 
 ## Role in my 6–12 month goals
 - **James's counterpart on the Notif side** for the UPP Prong 4 operational handoff (original framing, April 2026). She's seen UPP at the strategic level; previously surfaced the March 2026 must-win comment ("UPP can evolve into the next generation of models").
@@ -1769,6 +1787,10 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 ## Risks
 - **Minimal today.** Long-term watch: Blending's role in final-feed attribution can create architectural tensions with CG (whose work gets credit for an engagement lift?). Not active.
 - **Name convention:** "Rohu" in voice transcription = **Rahul** in writing. Always use Rahul in written artifacts.
+
+## 2026-07-15: Peer-feedback read
+- **Strength (James, genuine praise):** his work on the **interest exploration node in Blending** — a strong technical architecture that unlocked a large line of follow-up experimentation and was a real boon to both **content exploration and user interest exploration**. Built as a foundation others stand on, not a one-off. Second strength: non-territorial collaborator (dedicated his best engineer to Retentive Recs).
+- **Growth (James):** couldn't find a real gap. Direction of *more* = extend impact horizontally — wider Homefeed-level ownership + propagate his Blending patterns to other Blending/surface teams.
 
 ---
 
@@ -1912,3 +1934,25 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 ## Open
 - Surname, exact role/chain in ATG, relationship to Jaewon, what Jiajing wants out of the Ads×UPP connection (visibility? ATG resourcing story?) — fill after the Dinesh conversation.
 - ⚠️ **Not to be confused with Jiaxing Qu** (P2P Retrieval engineer, Sai's team) — near-collision corrected 2026-07-13.
+
+---
+
+# 42) Karim Wahba — M16 Data Science Manager, PADS (added 2026-07-15)
+
+**Level:** M16 Data Science Manager. Leads PADS (Pinterest Analytics / Data Science). Direct to Dylan's world via the analytics org (chain TBD). Dylan flagged him as a PINvestigator distribution target back in April 2026.
+
+## Role in my 6–12 month goals
+- **Cross-functional DS partner.** His team supports **Retentive Recs, Anticipation Strategies, and Reflex** — three of James's core workstreams. Data-science counterpart on measurement/analytics for the retrieval + anticipation surfaces.
+- **PINvestigator connection:** Dylan proactively suggested sharing PINvestigator with Karim / PADS (2026-04-01) and had already met with him by that afternoon — organic distribution channel for James's tooling into the analytics org.
+
+## Current relationship
+- **Status:** Warm — James's own words: "a real pal." Genuinely friendly, low-friction partner.
+- **Trust level:** High / collaborative.
+
+## Operating profile (from James's 2026-07-15 peer-feedback read)
+- **Strengths:** (1) Trust + judgment on leverage — trusts his team to deliver, very intentional about *when* to step in vs. stay out. (2) Excellent cross-functional partner — champions shared causes, flexible with both PM and Eng (meets each function on its terms), advocates for the right outcome over local interest. (3) Asks genuinely great clarifying questions that cut to the real problem and sharpen alignment before a group commits.
+- **Growth (James's read):** His team owns an unusually broad set of areas; the opportunity is to more explicitly articulate the **common seams / connective thread** across all of it so partners can reason about his team's work as a unified strategy rather than individually strong efforts. A breadth-of-scope / narrative-coherence note, not a deficit.
+
+## Open
+- Exact reporting chain (who Karim reports to in the DS/analytics org).
+- Concrete anecdotes to ground the peer-feedback strengths (James's input was trait-level; two `[Anchor:]` slots still open in `work/people/peer_feedback_2026H1.md`).
