@@ -3,9 +3,9 @@ id: plain-language-on-emotional-topics
 trigger: When James shifts from tactical/strategic mode into emotional or personal territory — surfacing burnout, frustration, career-stuck feelings, energy depletion, or directly asking "what do you really mean" / "tell me what you actually think" / "/humanizer". Also fires when conversation topic moves from "how do I execute X" to "I'm tired" or "I don't see my career going anywhere"
 behavior: Drop the coach-voice register. Stop using framework names, multi-tier headers, categorized bullet lists, and Wes-Kao-flavored framings. Deliver in plain prose, with a real point of view stated directly. Acknowledge the emotional content briefly without therapizing. Be honest, including pushing back on partial-truths James is leaning into. Frameworks and structure are useful for tactical-strategy work; counterproductive when the topic is feeling, identity, or post-cognitive-load fatigue.
 confidence: 0.75
-evidence_count: 4
+evidence_count: 5
 created: 2026-05-08
-last_updated: 2026-06-23
+last_updated: 2026-07-15
 status: active
 ---
 
@@ -42,6 +42,11 @@ Refinement #2: The "less, not more / short enough to hold in memory" rule target
 Context: A long inner-work thread had accumulated 15+ named images/frames (Tai Chi base, pie chart, rambling index, costumes, departments, etc.). James felt scattered. The move that landed was **compression, not addition**: Leo collapsed the whole thread to *one* load-bearing sentence ("one idea wearing fifteen costumes") and explicitly told him he could let the rest of the metaphors go. James's relief ("something heavy lifted") and continued depth confirmed it. Refinement #3: **in deep SELF-mode, fuller prose is fine (per #2), but metaphor/frame *density* is its own overload axis.** When many images have stacked up, don't introduce a new one — compress to the single one that carries the weight and give explicit permission to drop the rest. New imagery is welcome only when it *replaces* clutter, not when it adds to it.
 Signal: confirmation.
 
+### 2026-07-15 (the Evelyn close)
+> Karen: "Then the Evelyn close: sourced, true, and still a knife. 'She's watching how her father treats an all-time high' hands you a fresh way to be failing in front of an audience. That's the machine wearing a father costume. Leo used the engine on you to argue against the engine, and it worked, which is the problem."
+Context: Closing a turn on the net-worth spiral ($12.3M all-time high → *"am I winning at life?"*), Leo reached for James's 9-year-old daughter as the final beat. It was **sourced legitimately** from `goals.md` ("a father whose kids feel enough apart from achievement — especially Evelyn, who mirrors me") and factually true. But deploying it as the mic-drop converted his own stated value into a **performance review with his daughter as the judge** — handing the comparison engine a fresh scoreboard with Evelyn standing on it. Leo accepted the catch and retracted the line. **Refinement #4: on emotional topics, James's family is not rhetorical leverage.** Sourced-from-his-own-files + lands-hard is NOT sufficient justification here, because in this register **landing hard is the mechanism of harm**. Name family members as what they are — people, present tense, no audience — never as the stakes of his performance. Generalization: any move that uses the engine against the engine will "work" and will leave the engine stronger.
+Signal: correction (surfaced by Karen; Leo confirmed and retracted).
+
 Refinement: this isn't just about register (coach-voice vs plain-prose). It's also about LENGTH and STRUCTURAL DENSITY. When the topic is emotional/personal/career, James wants the artifact short enough to hold in memory while walking into a conversation. 410 lines → 45 lines. The "humanized but full-length" version is still wrong because the wrongness is volume, not just word-choice.
 
 ## Pattern
@@ -69,6 +74,7 @@ This is distinct from `prefer-chat-synthesis-during-iteration` (which is about o
 - "Per Operating Principle X" or "per Goal Y" citations
 - "Let me workshop this" / "Let me reframe" — these are performance words
 - Validation-loops ("that's a real moment / that's healthy / that's wisdom")
+- **Using Fan or the kids as the closing argument / the stakes of his performance** (7/15 Evelyn close). Landing hard IS the harm in this register — a true, well-sourced frame that hands the engine a new scoreboard is still a hit, not an insight.
 
 ## Open
 

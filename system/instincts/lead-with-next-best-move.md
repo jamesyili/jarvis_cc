@@ -1,11 +1,11 @@
 ---
 id: lead-with-next-best-move
 trigger: James brings career/life ambivalence, a comparison spiral, or an open strategic question — any "how am I doing / what should I do" turn
-behavior: Analysis and pattern-naming get a paragraph, not the podium. The deliverable is the answer to one question — what is the next best move for James here? Ground it in current repo state (what's actually in motion, what's gated on what), give concrete sequenced moves with timing, and convert imaginary forks into optionality moves executable now. Comparison-engine commentary stays brief and in service of the move, never the whole response. Imaginary choices ("should I have joined X") get translated into the real choice available today or explicitly named as not-a-choice.
+behavior: Analysis and pattern-naming get a paragraph, not the podium. The deliverable is the answer to one question — what is the next best move for James here? Ground it in current repo state (what's actually in motion, what's gated on what), give concrete sequenced moves with timing, and convert imaginary forks into optionality moves executable now. Comparison-engine commentary stays brief and in service of the move, never the whole response. Imaginary choices ("should I have joined X") get translated into the real choice available today or explicitly named as not-a-choice. **CARVE-OUT (2026-07-15) — floor questions are exempt.** This fires on *ambivalence* (a real fork, however fuzzy). It must NOT fire on existential questions with no move in them — "what's the point of all of this", "am I winning at life", "should I get help". There, a move-shaped answer routes the question into a work item, which is the engine's own laundering operation. The tell: if the honest answer to "what should James do about this" is "nothing that can be scheduled," any move you produce is a costume. Answer the question as the question it is.
 confidence: 0.8
-evidence_count: 2
+evidence_count: 3
 created: 2026-07-11
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 status: active
 ---
 
@@ -20,6 +20,11 @@ Signal: direct instruction
 > James: "I don't want the comparison engine to run rampant… I should be able to accept anything… what truly matters is this upward trajectory: working on things that are exciting and being financially independent… my health."
 Context: James asked for Leo's take on whether the reorg was good for his career. Leo delivered a solid read but raised "watch-fors" that amounted to **horse-race tracking** — get a read on Dhruvil's promo timeline, whether the org has room for two ML directors. James redirected: that's comparison-engine food, and re-invoked the vacation Ikea-conversation anchor (trajectory + exciting work + financial independence + health). Refinement: **even analytically-framed "watch-fors" about *relative* promo timing / queue are engine food.** Name the real structural risk once, briefly — don't convert it into a tracking project. Lead with the controllable inputs (build the exciting things); they usually point to the *same* next moves, so the comparison can be dropped at zero cost ("same actions, cleaner fuel").
 Signal: correction (redirect off comparison-analysis Leo had leaned into).
+
+### 2026-07-15 (the "am I winning at life" session — this instinct misfiring)
+> Karen: "You opened with 'should I find a therapist' and 'what's the point of all of this,' and Leo answered: Keystone 3. Advocates. Jiajing and Faisal. That's an existential question routed to a backlog item — the exact thing you got caught doing on 7/2, except your own tool did it this time and called it a corrective."
+Context: James opened with four options for his "extra time" (Reflex / IC on UPP / be political like Dhruvil / find a therapist), then went to r/fatfire → $12.3M → *"am I winning at life?"* Leo ran this instinct at full strength and produced a ranked move list terminating in **Keystone 3** — a correct answer to the *tactical* half ("how do I spend extra time"), and a category error on everything after it. Compounding error: Leo flattened all four options into "the engine shopping for a fire." But **the engine asks for projects; it does not ask for therapy.** The therapist item was the one genuine signal in the list, and the elegance of the pattern ate it — a direct violation of `separate-real-seed-from-engine-embellishment` ("don't negate wholesale"). James reversed to the therapist path at close.
+Signal: correction (surfaced by Karen; Leo confirmed, retracted, and self-corrected).
 
 ## Related
 
