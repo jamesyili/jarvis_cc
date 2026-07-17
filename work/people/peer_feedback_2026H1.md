@@ -13,6 +13,7 @@ Same process as the six below: pull context → confirm level/form → get James
 - [x] **Van Lam** — drafted 2026-07-17 (§11). M16, CRI, going for M17. Honest minimal per James; no friction with Tao.
 - [x] **Karli** — drafted 2026-07-16 (§8 below). Pure praise per James ("just glaze her"), no growth section. Case kept unnamed for discretion.
 - [x] **Krystal** — drafted 2026-07-16 (§7 below). ⚠ Spelling: repo says **Krystal**; James dictated "Crystal" — verify against Workday before submitting.
+- [x] **Daniel Liu** — drafted 2026-07-17 (§12 below). Reading-chain constrained: reorg unannounced, must read identically before and after. James-observed incidents only.
 
 Open sharpening on the six done: Karim (2 `[Anchor:]` slots want concrete moments); Dimitra content-quality POV + Sai P2P-vision articulation would each gain from one anecdote.
 
@@ -225,3 +226,23 @@ Since the recent reorg, the engagement model between Van's team and mine has bee
 **What is an area that this person could adjust - more of/less of - to be more effective?**
 
 The main thing I would ask for is more direct EM to EM engagement on the operational health we share. Our two teams own tightly coupled halves of the indexing pipeline, and the places where we have struggled historically were the places where problems sat on the boundary and needed manager level prioritization from both sides. I would welcome more of Van's direct involvement in setting shared stability goals and prioritizing the cross-team tooling work that both teams need. The recent improvements in the partnership make this a good moment to build that muscle.
+
+---
+
+## 12. Daniel Liu — cycle peer feedback (M16 Manager II, ML, under Yan) — CHAIN-READABLE
+
+> ⚠️ Written 2026-07-17, pre-announcement. Yan and Dylan read this now; post-reorg James becomes his manager of record and Daniel rereads it knowing James knew. Constraint: peer-EM altitude only, James-observed incidents only, reads identically before and after the announcement. Nothing from the Dylan channel ("underutilized", LLM-excitement, develop-or-document), nothing Anna-flavored about product instinct, no manager-in-waiting commentary on his team's direction.
+
+**This person and I worked together on:**
+
+UIC and pUIC collaboration (including the LLM-based pUIC inference pipeline his team built), Unified Explore Backend design reviews, CG / P13N-Experiences ownership alignment
+
+**What is a strength you observed working with this person?**
+
+Daniel runs a team that consistently shows up as a genuine partner across org lines, and I read that as an output of how he manages. Ling Lan has been a natural delivery partner to my engineers on the LLM-based pUIC inference work, embedded in working sessions with my team rather than handing artifacts over a wall. Roderick proactively brought the Unified Explore Backend design to my team for review before decisions hardened, and Yang collaborated closely with us on UIC ahead of her leave. Three different engineers independently choosing the collaborative path is a culture signal, and culture comes from the manager. It maps to the M16 expectation to build partnerships with cross-functional stakeholders and engineering leaders to influence outcomes, expressed through his team's default behavior rather than through meetings.
+
+Daniel also handles ownership boundaries with a straightforwardness and low ego that made a genuinely hard alignment easy. When our orgs worked through the CG and P13N-Experiences ownership questions around explore seeds, UIC-to-medoid logic, and the unity-gulp integrations, he engaged deeply on the substance, reviewed the ownership documentation carefully, and was honest about where boundaries should sit even when the answer did not favor his own team's scope. I never saw him posture over territory. For an EM sitting on a seam between two orgs, that combination of technical depth and lack of ego is exactly what makes boundary work land well, and it gave me a counterpart I could align with quickly and trust afterward.
+
+**What is an area that this person could adjust - more of/less of - to be more effective?**
+
+I would like to see Daniel bring his and his team's depth into shared and adjacent problem spaces more assertively, without waiting for an explicit invitation. Where his team has engaged with mine, the work has visibly benefited, and my sense is there is more of that depth available than the org currently gets to use. Some of this may simply be respect for scope boundaries, which I appreciate, but I would encourage him to treat adjacency as license to lean in, propose directions, and push his team's point of view into joint spaces early. The depth is there, and the shared problem spaces would be better for having more of it.
