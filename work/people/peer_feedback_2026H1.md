@@ -8,9 +8,9 @@
 
 Same process as the six below: pull context → confirm level/form → get James's strength(s) + growth → draft in his voice, level-anchored, incident-grounded.
 
-- [ ] **Yingjian** — EM, User Understanding. (No stakeholder profile found — ask James for level, projects worked on together, strengths, growth.)
-- [ ] **Bowen Z** — IC, Core Retrieval Infra. (Note: a "Bowen" departed 2026-03-26 per Dylan log — verify this is a different Bowen before drafting.)
-- [ ] **Van Lam** — EM, Core Retrieval Infra.
+- [x] **Yingjian (YJ)** — drafted 2026-07-16 (§9 below). M16 SWE EM, User Understanding; <6 months tenure.
+- [x] **Bowen Zhou** — drafted 2026-07-17 (§10). IC16, CRI, going for IC17. Trajectory-positive, no readiness endorsement. (Confirmed distinct from the departed blending Bowen.)
+- [x] **Van Lam** — drafted 2026-07-17 (§11). M16, CRI, going for M17. Honest minimal per James; no friction with Tao.
 - [x] **Karli** — drafted 2026-07-16 (§8 below). Pure praise per James ("just glaze her"), no growth section. Case kept unnamed for discretion.
 - [x] **Krystal** — drafted 2026-07-16 (§7 below). ⚠ Spelling: repo says **Krystal**; James dictated "Crystal" — verify against Workday before submitting.
 
@@ -169,3 +169,59 @@ This kind of work is not easy, and I am sure Karli is juggling many cases like m
 What impressed me most is how closely she supported both sides of the case. She looked out for me as the manager, making sure I understood each step and never felt like I was navigating it alone. At the same time, she treated my team member with real care and dignity throughout the process. Holding both of those at once is the hardest part of ER work, and Karli did it with steadiness and empathy from start to finish.
 
 I came out of this experience with enormous respect for Karli and genuine gratitude for her partnership. She represents the best of what an ER partner can be, and I hope I get to work with her again, ideally under easier circumstances.
+
+---
+
+## 9. Yingjian (YJ) — cycle peer feedback (M16 SWE EM, User Understanding; <6 months tenure)
+
+**This person and I worked together on:**
+
+Retentive Recommendations, UIC clustering (built by his team), PinnerSpark
+
+**What is a strength you observed working with this person?**
+
+What I find most impactful about Yingjian is how detail oriented he is, and how fast that depth has compounded. He has been at the company for less than six months, yet he has already dived deep enough to really understand all of the components his team touches. His team built the UIC clustering mechanisms that our Retentive Recommendations work depends on, and that understanding shows up in a concrete way: he is able to connect disparate workstreams like UIC and PinnerSpark through common foundational backbones, spotting the shared infrastructure underneath efforts that the rest of us were treating as separate. For someone ramping into a new company, going that deep that quickly is impressive on its own. Turning it into cross-workstream architecture leverage this early is well beyond what I would expect, and it directly reflects the M16 expectation to drive technical direction across efforts rather than managing them one at a time.
+
+Yingjian also runs a healthy and deliberate delegation structure. He gives Simin, Raymond, and Sufyan real room to make technical decisions and drive design discussions themselves, rather than inserting himself as the technical voice of the team. At the same time, he stays engaged by asking deep, well aimed questions that push them to think harder about their designs. That balance is hard to strike, especially for a manager who clearly has the technical depth to just answer the questions himself. The result is a team where the engineers visibly own their work and are growing because of it.
+
+**What is an area that this person could adjust - more of/less of - to be more effective?**
+
+The opportunity I see for Yingjian is to start articulating a common vision behind his team's work, including how to define success beyond customer success metrics. His team is building genuinely impressive infrastructure, and there is a great opportunity for him to connect that infrastructure to agility on top line goals, telling the story of how what they build translates into the company moving faster on the outcomes leadership cares about. He already has the technical depth and the cross-workstream understanding to do this well. Framing the vision and the metrics around it would let the rest of the org see his team's work the way he sees it.
+
+---
+
+## 10. Bowen Zhou — cycle peer feedback (IC16 Staff, Core Retrieval Infra; going for IC17)
+
+> ⚠ H2 2025 history is documented (James's escalation to Van's then-manager named Bowen for lack of ownership). Draft is trajectory-positive per James, but deliberately contains no IC17-readiness endorsement. Distinct from the blending-team Bowen who departed in March.
+
+**This person and I worked together on:**
+
+Manas indexing pipeline stability, HF CG retrieval pipeline operations, HF ↔ CRI collaboration
+
+**What is a strength you observed working with this person?**
+
+The thing I want to highlight about Bowen is the clear, positive shift I have seen in how he partners with customer teams over recent months. Bowen has been proactively reaching out to make sure the collaboration between CRI and Homefeed is working, checking in on our indexing pipeline pain points rather than waiting for escalations to come to him. He has also been actively helping with stability issues on our side of the boundary, even where the failure sits closer to the product team's half of the pipeline than to CRI's. For a platform team and a client team that share tightly coupled infrastructure, that posture makes an enormous difference. Debugging across the manas document generation and cluster swap boundary is genuinely hard, and having a senior engineer on the platform side who engages proactively has made our pipelines healthier and our teams' working relationship noticeably stronger.
+
+Bowen also brings real depth on the retrieval serving and indexing platform. When he engages on an investigation, he knows the internals well enough to reason quickly about where a failure is likely to live, which shortens investigations that would otherwise bounce between teams.
+
+**What is an area that this person could adjust - more of/less of - to be more effective?**
+
+I would encourage Bowen to keep extending exactly what he has started: treating customer application outcomes as part of the platform's own definition of success. The recent proactive engagement has been great, and the next step is to make that customer ownership systematic rather than case by case, for example by driving the cross-team tooling and debuggability improvements that would let client teams self-serve investigations across the shared pipeline boundary. As Bowen grows his scope, the platform engineers who have the most impact are the ones whose customers would name them as a reason their own systems are reliable. He is on that path now, and more of it will compound.
+
+---
+
+## 11. Van Lam — cycle peer feedback (M16 EM, Core Retrieval Infra; going for M17)
+
+> Honest minimal per James: no relitigating H2 2025, nothing to stir up with Tao, and brevity itself is the signal. Limited-vantage framing throughout.
+
+**This person and I worked together on:**
+
+Manas indexing pipeline operations, HF ↔ CRI cross-team collaboration
+
+**What is a strength you observed working with this person?**
+
+Since the recent reorg, the engagement model between Van's team and mine has been improving. I have seen more proactive outreach from his engineers on the stability of our shared indexing pipelines, and the overall collaboration between CRI and Homefeed is heading in a better direction. I credit the team's recent direction for that shift, and I appreciate it. Most of my direct collaboration has been with Van's engineers rather than with Van himself, so my view into his day to day leadership is limited, but the trajectory of the partnership over the past months is a positive signal.
+
+**What is an area that this person could adjust - more of/less of - to be more effective?**
+
+The main thing I would ask for is more direct EM to EM engagement on the operational health we share. Our two teams own tightly coupled halves of the indexing pipeline, and the places where we have struggled historically were the places where problems sat on the boundary and needed manager level prioritization from both sides. I would welcome more of Van's direct involvement in setting shared stability goals and prioritizing the cross-team tooling work that both teams need. The recent improvements in the partnership make this a good moment to build that muscle.
