@@ -11,8 +11,8 @@ Same process as the six below: pull context → confirm level/form → get James
 - [ ] **Yingjian** — EM, User Understanding. (No stakeholder profile found — ask James for level, projects worked on together, strengths, growth.)
 - [ ] **Bowen Z** — IC, Core Retrieval Infra. (Note: a "Bowen" departed 2026-03-26 per Dylan log — verify this is a different Bowen before drafting.)
 - [ ] **Van Lam** — EM, Core Retrieval Infra.
-- [ ] **Karli** — ER (Employee Relations) partner; worked closely with James on **Charlie's PIP case**. Likely a different feedback form/context than peer-EM cycle feedback — clarify form. See `work/people/charlie_pip/`.
-- [ ] **Krystal** — James's TPM, **going up for promotion this cycle**; requested **ad-hoc feedback** from James (not standard cycle peer feedback — this is promo-support / ad-hoc form). Likely a promo-assessment shape (cf. Kent, Rahul Sharma examples).
+- [x] **Karli** — drafted 2026-07-16 (§8 below). Pure praise per James ("just glaze her"), no growth section. Case kept unnamed for discretion.
+- [x] **Krystal** — drafted 2026-07-16 (§7 below). ⚠ Spelling: repo says **Krystal**; James dictated "Crystal" — verify against Workday before submitting.
 
 Open sharpening on the six done: Karim (2 `[Anchor:]` slots want concrete moments); Dimitra content-quality POV + Sai P2P-vision articulation would each gain from one anecdote.
 
@@ -133,3 +133,39 @@ Rahul is also a very collaborative partner across the Homefeed stack. A concrete
 **What is an area that this person could adjust - more of/less of - to be more effective?**
 
 Honestly, I struggled to find a real gap here. Rahul operates strongly at his level. If I had to point to a direction of more, it would be to extend the reach of his impact. He has built something genuinely valuable in Blending, and I would encourage him to carry that ownership mentality beyond his immediate surface, both by taking a wider Homefeed level stake in problems adjacent to his team and by propagating the patterns he has developed to other teams that could benefit from them. He has the technical credibility and the collaborative instincts to influence a much larger footprint than his current charter, and leaning into that is the natural next step.
+
+---
+
+## 7. Krystal — ad-hoc promo-support feedback (TPM, up for promotion this cycle)
+
+> Free-form shape (cf. Alcida example) — paste into whatever field the ad-hoc form gives. Growth deliberately soft and future-framed per James: she's going up for promo, technical competency stated as a strength. ⚠ Verify spelling (Krystal vs Crystal) in Workday.
+
+**Feedback**
+
+Krystal is one of the best TPMs I have ever worked with, and I would vouch for her anywhere. I want to share some specifics because she is up for promotion this cycle and the case writes itself from the day to day.
+
+Krystal is constantly on top of things. She checks in, makes sure people are accountable for what they said they would do, and follows through on process without anyone needing to remind her. She coordinates across multiple workstreams at once and handles it with a lot of grace under pressure. A concrete example from our UPP work: during a fast moving cross-org architecture episode, the coordination load spiked with several teams and leaders involved, and Krystal kept the threads moving, kept the right people in the loop, and kept the process on track through a genuinely stressful week. When I had to miss a key working session during that period, she helped hold the room in my absence, and the updates I got afterward were so clear that I lost nothing by not being there.
+
+Two things set Krystal apart from other strong TPMs. First, she is articulate in pushing back on unreasonable asks, whether they come from leadership or from XFN teams, and she does it in a way that keeps the relationship intact. Second, she is unusually in tune with how everyone in the room is feeling in the moment, which is very hard to do, and she pairs that with presenting an unbiased view of how things should go. The combination means groups align faster around her. People trust that she is not carrying an agenda, so her framing of a disagreement tends to become the shared framing.
+
+I also want to call out her technical competency directly, because for a TPM operating at her altitude it matters. Krystal has a solid technical understanding of the systems and workstreams she coordinates. She can follow architecture level discussions, ask the right clarifying questions, and represent the state of technical work accurately to leadership without needing an engineer to translate. That grounding is a big part of why engineers and EMs trust her coordination.
+
+In terms of growth, my main thought is about where she goes next rather than any gap today. As her influence expands across Pinterest, continuing to deepen her foundational technical knowledge will let her bridge different pieces and workstreams in even more creative ways, spotting connections across efforts before the rest of us do. She already operates from a solid technical base, so this is about compounding a strength, not fixing a weakness.
+
+Krystal makes working at Pinterest more of a joy, and I fully support her promotion.
+
+---
+
+## 8. Karli — free-form shared feedback (ER partner, Charlie PIP case)
+
+> Pure praise per James, no growth section. Case referenced generically ("a sensitive performance case") for discretion — her manager will know the context without names.
+
+**Feedback**
+
+Context: Karli partnered with me over the past several weeks as the ER partner on a sensitive performance case involving one of my team members, and I want to share how much of a difference she made.
+
+This kind of work is not easy, and I am sure Karli is juggling many cases like mine across the company at any given time. You would never know it from working with her. She was responsive, prepared, and fully present at every step, and she made me feel like my case had her complete attention. Whenever I had a question about process or needed guidance on how to handle a specific moment, she got back to me quickly with clear, practical direction, which took a huge amount of uncertainty out of an inherently stressful situation.
+
+What impressed me most is how closely she supported both sides of the case. She looked out for me as the manager, making sure I understood each step and never felt like I was navigating it alone. At the same time, she treated my team member with real care and dignity throughout the process. Holding both of those at once is the hardest part of ER work, and Karli did it with steadiness and empathy from start to finish.
+
+I came out of this experience with enormous respect for Karli and genuine gratitude for her partnership. She represents the best of what an ER partner can be, and I hope I get to work with her again, ideally under easier circumstances.
