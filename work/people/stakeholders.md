@@ -1956,3 +1956,52 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 ## Open
 - Exact reporting chain (who Karim reports to in the DS/analytics org).
 - Concrete anecdotes to ground the peer-feedback strengths (James's input was trait-level; two `[Anchor:]` slots still open in `work/people/peer_feedback_2026H1.md`).
+
+---
+
+# 43) Yingjian (YJ) ⟨surname pending⟩ — M16 SWE EM, User Understanding (added 2026-07-17)
+
+**Level:** M16 SWE EM. **Tenure: <6 months** (joined ~Feb 2026). Likely in Hongbo's UU org (chain unconfirmed). ICs named: **Simin, Raymond, Sufyan**.
+
+## What's known (from James's 2026-07-16 peer-feedback read)
+- **His team built the UIC clustering mechanisms** that Retentive Recs depends on. Worked with James on Retentive Recommendations, UIC, PinnerSpark.
+- **Strengths:** extremely detail oriented; ramped to deep component understanding in under 6 months; connects disparate workstreams (UIC, PinnerSpark) via common foundational backbones. Runs a deliberate delegation structure — gives Simin/Raymond/Sufyan room to make technical decisions and drive design discussions while pushing their thinking with deep questions.
+- **Growth (James's read):** articulate a common vision for the team + success metrics beyond customer success metrics; connect the infrastructure to agility on top-line goals. Dovetails with James's Hongbo feedback (UU needs more vision-carriers).
+
+## Open
+- Surname, exact chain (Hongbo?), which Raymond this is (NOT assumed to be the Raymond on Tim's team).
+
+---
+
+# 44) Van Lam — M16 EM, Core Retrieval Infra (added 2026-07-17)
+
+**Level:** M16 EM, CRI (manas indexing / cluster-swap side). **Bowen Zhou (§45) reports to him.** New Sr. Manager above: **Tao (she/her)** — much more reasonable than the prior manager; things have turned around under her direction. **Going for M17 this cycle; James's private read: not close.**
+
+## History — H2 2025 friction (documented)
+- CRI provided very little infra support; HF left to fend for itself on indexing pipeline stability. James escalated to Van's then-manager after repeated attempts to get Van to engage; the written problem statement named **lack of ownership mentality (Van, Bowen Zhou)** over pipeline stability, plus missing cross-team debugging/tooling investment. Structural context: tightly coupled pipeline halves (manas doc generation = HF-owned; doc→cluster swap = CRI-owned); alerts ambiguous across the boundary.
+- The then-manager was also hard to work with; the reorg under Tao is the reset.
+
+## 2026-07-17 peer-feedback approach (James's call: honest minimal)
+- Cycle feedback written short and carefully attributed: improvements credited to "the team's recent direction" (reads as endorsing Tao), outreach credited to his engineers, explicit limited-vantage line (James's collaboration is mostly with the engineers, not Van). Growth = invitation to more direct EM-to-EM engagement on shared operational health — the historical failure, framed entirely forward. Goal: no friction with Tao, nothing attackable, committee still hears the calibration.
+
+---
+
+# 45) Bowen Zhou — IC16 Staff Engineer, Core Retrieval Infra (added 2026-07-17)
+
+**Level:** IC16 Staff, CRI; reports to Van Lam (§44). **Going for IC17 this cycle; James's read: not close, but genuinely improving.** ⚠ Distinct from the blending-team Bowen who departed 2026-03-26. Surname confirmed **Zhou** (James dictated "Zou" 2026-07-16; corrected).
+
+## Arc
+- **H2 2025:** named alongside Van in James's escalation — little customer empathy ("as a staff engineer on a platform team, he didn't give a shit about the customer applications" — James's words, private).
+- **2026 under Tao:** real turnaround. Proactively reaching out to ensure HF↔CRI collaboration works; helping on stability issues unprompted, including failures closer to HF's half of the pipeline. James considers this clear and good.
+- **Peer feedback (2026-07-17):** trajectory-positive, no IC17-readiness endorsement — growth framed as "keep extending what he has started" (customer ownership systematic, cross-team debuggability tooling).
+
+---
+
+# 46) Krystal ⟨surname pending⟩ — TPM, UPP (added 2026-07-17)
+
+**Role:** James's TPM on UPP. **Up for promotion this cycle** (level pending). ⚠ Spelling: **Krystal** with a K (repo-consistent; James's dictation homophone "Crystal" corrected via his own Slack screenshot context).
+
+## James's read (2026-07-16, ad-hoc promo-support feedback — full text in `peer_feedback_2026H1.md` §7)
+- "One of the best TPMs I've ever worked with; I would vouch for her anywhere." Constantly on top of things; drives accountability and process follow-through; coordinates multiple workstreams with grace under pressure. Articulate pushback on unreasonable asks from leadership and XFN while keeping relationships intact. Unusually in tune with how the room is feeling; presents an unbiased view so groups align faster (no perceived agenda → her framing becomes the shared framing).
+- **Track record in repo:** OneTrans crisis coordination (5/13); with Zihao "owned the room" when James missed the Wednesday UPP meeting; the "let's see if we don't re-litigate next week" read (politically sharp — kept out of the written feedback).
+- **Technical competency:** solid; follows architecture-level discussion, represents technical state to leadership without a translator. Growth (soft, future-framed): deepen foundational technical knowledge to bridge workstreams more creatively as her influence expands.
