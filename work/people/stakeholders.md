@@ -201,6 +201,8 @@ Markdown
 - **REORG UPDATE — timeline decoupled + org shape clarified (2026-07-14 conversation; full detail `dylan_1on1_log.md` 7/14):** **Two decoupled reorgs** — *Dylan's* happens first; *James's internal* reorg runs on **his own clock** (she explicitly gave more time to observe/think/propose). **Initial state = minimal reporting changes**: only Alim onboarding, taking a subset of *James's own* reports — NOT moving Daniel's reports to Alim ("too drastic"); **Daniel's team stays intact under Daniel** initially. **Headcount: only Dhruvil + James** this cycle. **Dhruvil gets the blending team** (Rahul + ~5–6 eng) as blending manager. **Comms:** other EMs told **~1–2 days before** the announcement; timing/messaging **finalized this week after calibrations**; decision audience = Dylan + James + Dhruvil. **Political backing:** Dylan pre-sold to **HR, Andrew, Rajat** — all happy; explicitly **James's path to the next level** (setting him up for success). **Org-shape clarity: James + Dhruvil = the two ML Senior EMs (M17 → Director = M18)**; Dylan building **two ML director pillars** (Innovation/Retrieval = James, Core/Ranking = Dhruvil). **Tim promoted M16→M17** (management, not IC) but **stays under Dylan** (James expected Tim→Yan — not so); **Tim + Yan = non-ML** (frontend/backend SWE EMs — orthogonal to James's ladder; James is *already* M17). Dylan's guidance: **"don't want too many changes."** **Boards intel:** Recommend-a-Board **hasn't driven metrics in ~6 months**, but a recent **notification collab → "wow" improvements** — Dylan shared the launch review + asked James to get into the nitty-gritty (= graded test + the boards-metric-unlock thesis). Daniel's team **underutilized** (Dylan's word, echoed by the team itself). **What Dylan's already aligned with** (from James's early skeleton): CLR+UPP not handed to Alim/Daniel right away (too much context); LWS split from CLR as Daniel's onboarding ramp; James spending more time on Reflex. Structure proposal now `work/people/org_design_proposal_2026-07_v2.md`.
   *(Confidence: Moderate — inference from clustered signals; no committed date.)*
 
+- **REORG STATUS (2026-07-17):** **Still unannounced.** From Dylan's 1:1 with James this week: she will tell **James + Dhruvil the messaging timing "this week"** (hasn't yet as of Fri 7/17 morning — likely busy); **Yan gets only ~1 day's notice, by design** (he's the org losing the team). **Moves confirmed (James direct, 7/17, resolving a dictation garble that briefly read as "Yan, Daniel, Rahul → Dhruvil"):** **Rahul Goutam + his 4 MLEs → Dhruvil** (consistent with the 7/14 blending intel); **Daniel Liu + his team of 7 MLEs → James, out of Yan's org** — the 7/7 inheritance premise intact (roster file counts 8 incl. Rita the intern, ~2 months left). James + Dhruvil discussed the reorg laterally in their ~7/16–17 1:1, both gracious; **interim agreement: minimal changes, let ICs keep existing collaboration patterns** (full entry: Dhruvil chapter 7/17).
+
 - **Post-vacation re-entry mood pattern (2026-07-01 — per Anna, RR PM partner / peer ally, §2):** Dylan reliably comes back from vacation in a *"why am I doing all this shit / what's the point of all this"* mood — Anna says Dylan describes her return **exactly** the way James describes his own (James is in the same not-hungry state post-China). **Operating implication for re-entry 1:1s:** the first 1:1 back is a *reconnection* meeting, not a content-delivery one — emotional > intellectual. Lead with genuine vacation catch-up; keep strategic asks light (one time-sensitive land max); read her energy before probing timelines. The un-gripped / operate-from-enough register is what Dylan rewards anyway (burnout-watch ×2; CD-profile distrusts gushing) — so meeting her in the shared mood is both the human move and the credible one. **Caution:** meet her *feeling*, don't co-sign her *conclusion* ("it's all pointless") — that could read as flight risk. Applied in `dylan_reentry_1on1_2026-07-07.md`.
   - **Source = Anna** (inner-circle peer ally, §2; an already-established Dylan/org intel channel — cf. the "Yan's-team-stable-split read (per Anna intel)" above). On promo she told James *"you'll get promoted, just a matter of time — that simple"* (they laughed about it, James having said he doesn't really want it anymore). A promo-confidence read from someone with real access to Dylan's thinking — lowers the case for James gripping the title.
 
@@ -437,6 +439,19 @@ UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team
 ### Cons
 - Risk of moving too fast when stakes feel personal (must remember to slow down and pre-wire).
 - Requires time investment (long syncs) to maintain the emotional bank account.
+
+## 2026-07-17: Silo-then-demand M.O. documented + the SGI 1:1 that resolved it (for now)
+
+**The pattern (James's accumulated observation, receiving end, repeated):** Dhruvil's teams build infra/cost-savings plays (Galaxy feature store, pipeline merging, training-data consolidation) in silo, present at exec altitude first, then arrive at customer teams with pre-blessed asks — "leadership thinks this is important," "we've already presented to the execs," "fund it, give me people." Erodes trust regardless of business merit. **Cross-org confirmation 7/17:** same friction inside Kurchi's SSJ org (see §27 Sai + §47 Tie), which Kurchi is converting into UPP concerns (see Kurchi chapter 7/17 entry).
+
+**The 1:1 (~7/16–17) — curiosity instead of feedback, and it worked:**
+- Live case: **SGI ("Scorpion Galaxy Integration" per dictation — verify expansion)** — pre-blessed cost-savings ask landing on James's team. James's own read: **right tactical direction**; target = finish within H2; **low time pressure** (defuses the aggressive-urgency part of the pattern for this case).
+- James had been about to deliver pattern-level feedback ("jumped the gun" — his words); held it, asked questions to understand instead → **arrived at a solid joint plan for what's next.** Register: **"us vs. the problem," not "him vs. me"** — the alliance frame this profile documents as his fastest trust-builder, confirmed in the wild again.
+- **SSJ friction intel deliberately NOT raised** — held for possibly-later; felt no need in the moment. Source hygiene held: Sai/Tie never surfaced.
+- **Reorg discussed laterally, both gracious.** Interim operating agreement: **minimal changes; let the ICs keep deciding collaboration patterns** — parts of Dhruvil's new team already collaborate closely with James's team on Retentive Recs, and parts of James's new (inbound) team already collaborate closely with Dhruvil's current team around UPP.
+- **Dhruvil has been Kim (Toy)'s mentor for quite some time** (his own disclosure) — a lever for the eventual deliberate transition of her loaned time (`daniel_liu_team_2026-07.md` roster) and for her development; use at some point.
+
+**Held in pocket (unspoken):** the operating-protocol ask (customer-team co-design *before* exec presentations; co-owned savings numbers, framed as UPP governance). The SGI conversation went well enough that the pattern-level conversation rides on a future incident, if one comes.
   
 ---  
   
@@ -842,6 +857,13 @@ UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team
 - **Escalation threshold:** Only escalate to Dylan/Rajat if Kurchi's team is *actively blocking* scoped work, not if they're moving slowly. Slow-play requires patience and evidence, not escalation.
 
 > **Meta-goal:** Shift from "Rajat's battering ram" to "the practitioner who made SSJ's surfaces better." That's the only narrative that converts Kurchi from skeptic to neutral — and neutral is a win.
+
+## 2026-07-17: Converting Dhruvil-M.O. friction into UPP concerns
+
+- **Intel (1-hop, direct):** Sai + Tie (P2P Ranking EM, §47) told James that Dhruvil's teams' silo→exec→demand rollout pattern (Galaxy/SGI-class infra plays; full pattern in Dhruvil chapter 7/17 entry) is frustrating SSJ teams too — and **Kurchi is "raising a lot of concerns about UPP" citing this feedback from her teams.**
+- **Read (hold): the concerns are an instrument, not new substance.** Kurchi was already wrestling for ownership under UPP (7/13 posture shift, next entry down). Her teams' legitimate friction supplies respectable ammunition. Fixing the rollout pattern strips the evidence but will NOT dissolve the ownership play — don't conflate the two.
+- **Counter-moves:** (1) Dhruvil side — the operating-protocol idea (customer-team co-design before exec presentations, co-owned savings numbers) held in pocket after the SGI 1:1 went well (Dhruvil chapter 7/17). (2) Dylan side — pre-frame the causal story at the next 1:1, folded into the already-queued seam-drawing playbook item (7/13): when UPP concerns arrive from Kurchi's direction, Dylan should already know the friction source is a fixable rollout pattern. Context, not complaint — Dhruvil is her report too. **Still pending as of 7/17.**
+- **Source hygiene:** Sai/Tie never named to anyone; James's own observations carry the story.
 
 ## 2026-07-13: SSJ narrative shift — intent modeling as part of UPP
 - **Kurchi's org framing is now "intent modeling":** they want intent + relevance modeled **as part of UPP**. Big narrative shift — in March the play was a competing base model (P2P LR); now their stated ambition presupposes UPP as the vehicle.
@@ -1513,6 +1535,11 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 
 # 27) Sai — Peer Sr EM (M17), P2P Retrieval (she/her, added 2026-04-11)
 
+## 2026-07-17: Shared SSJ-side friction intel directly (with Tie)
+
+- Sai + Tie (§47) proactively told James that the Dhruvil-M.O. friction (silo→exec→demand rollouts; Dhruvil chapter 7/17 entry) is hitting their teams too, and that Kurchi is converting it into UPP concerns (Kurchi chapter 7/17 entry). **Candor/alliance signal** — continues the post-OneTrans good-faith trajectory, and sits interestingly alongside the private 小气 read: whatever her turf instincts, she keeps choosing the direct channel with James.
+- **Protect as source.** Never let this surface to Dhruvil or up her chain (Huizhong, Kurchi).
+
 ## 2026-07-15: Level confirmed + peer-feedback read (private)
 - **Level confirmed: M17 Senior EM** (per James, peer-EM altitude with James + Dhruvil).
 - **James's public read (peer feedback):** proactive, good-faith cross-org partner — staffed P2P engineers onto UPP unasked, asked to be pulled *into* the weekly sync; strong, well-articulated technical vision for P2P Retrieval.
@@ -2005,3 +2032,15 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 - "One of the best TPMs I've ever worked with; I would vouch for her anywhere." Constantly on top of things; drives accountability and process follow-through; coordinates multiple workstreams with grace under pressure. Articulate pushback on unreasonable asks from leadership and XFN while keeping relationships intact. Unusually in tune with how the room is feeling; presents an unbiased view so groups align faster (no perceived agenda → her framing becomes the shared framing).
 - **Track record in repo:** OneTrans crisis coordination (5/13); with Zihao "owned the room" when James missed the Wednesday UPP meeting; the "let's see if we don't re-litigate next week" read (politically sharp — kept out of the written feedback).
 - **Technical competency:** solid; follows architecture-level discussion, represents technical state to leadership without a translator. Growth (soft, future-framed): deepen foundational technical knowledge to bridge workstreams more creatively as her influence expands.
+
+---
+
+# 47) Tie ⟨surname pending⟩ — EM, P2P Ranking (Kurchi's SSJ org; added 2026-07-17)
+
+**Role:** EM on Ranking for P2P, inside Kurchi's SSJ org (adjacent to Sai's P2P Retrieval).
+
+**First recorded direct contact (2026-07-17):** together with Sai, told James directly that Dhruvil's teams' silo→exec→demand rollout pattern (Dhruvil chapter 7/17 entry) frustrates their teams too, and that Kurchi is raising UPP concerns citing this feedback (Kurchi chapter 7/17 entry). 1-hop intel, two independent voices.
+
+**⚠️ Protected source** — never surface to Dhruvil or up Kurchi's chain that this came from Sai/Tie. Trust perimeter matches the other Kurchi-side intel: Dylan only, abstracted form only.
+
+**Open:** surname, level, exact team boundary vs. Sai's retrieval org.
