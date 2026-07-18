@@ -1,0 +1,111 @@
+# Workstream 1: Post-SFFA Elite Admissions Landscape — Bay Area Chinese-American Applicant, College Class of 2039
+
+> Research agent output, 2026-07-18 (deep-research run for `../college_runway_2026-07.md`). Preserved verbatim for citations.
+
+**Scope note on data quality:** Nearly all published post-SFFA figures are for *enrolled* first-year classes, not admitted pools; schools stopped releasing admit-round race data. Methodologies differ (check-all-categories vs. IPEDS single-category, non-reporter exclusion), so cross-school comparisons are directional, not exact. Flagged throughout.
+
+---
+
+## Q1. What actually changed after SFFA (June 2023)
+
+**Year 1 (Class of 2028, fall-2023 cycle) was mixed; Year 2 (Class of 2029) converged upward for Asian Americans nearly everywhere.**
+
+| School | Class of 2027 (last pre-SFFA) | Class of 2028 | Class of 2029 |
+|---|---|---|---|
+| **MIT** | 40% (2024–27 avg ~41%) | **47%** | 38% under new, non-comparable IPEDS methodology |
+| **Harvard** | 29.9% | 37% | **41%** |
+| **Yale** | 30% | 24% (−6 pts) | **30%** (+6 pts) |
+| **Princeton** | ~26% | ~24% (−2.2 pts) | **27%** |
+| **Stanford** | — | 41.3% (check-all) | **43.95%** (check-all) |
+
+- **MIT** was the clean natural experiment: first elite to publish, with Asian American share jumping from ~40% to 47% and underrepresented-minority share falling from ~25% to ~16%. Dean Stu Schmill: "we left out many well-qualified, well-matched applicants from historically under-represented backgrounds who in the past we would have admitted," while noting no aggregate change in predictors of academic success ([MIT News](https://news.mit.edu/2024/qa-undergraduate-admissions-in-wake-of-supreme-court-ruling-0821); [CBS](https://cbsaustin.com/news/nation-world/asian-enrollment-at-mit-spikes-following-supreme-court-affirmative-action-decision-massachusetts-institute-of-technology-supreme-court-boston-cambridge-elite-universities-admissions)). MIT's 2029 figure (38%) uses new IPEDS counting (multiracial students removed, internationals in denominator) and is **not comparable** to the 47% ([The Tech](https://thetech.com/2025/11/14/co-2029-demographics)) — do not read it as a decline.
+- **Harvard**: 29.9% → 37% → 41% over two cycles; Black enrollment fell to 11.5%, Hispanic to 11% by 2029 ([Harvard Crimson](https://www.thecrimson.com/article/2025/10/23/admissions-data-class-2029/); [Harvard Magazine](https://www.harvardmagazine.com/university-news/harvard-admissions-class-2029-admissions-data-ethnicity)). Note Harvard changed its denominator (excluding the 8% non-reporters), which inflates year-over-year comparability issues.
+- **Yale and Princeton went *down* in year 1** — Yale −6 pts, Princeton −2.2 pts ([Yale Daily News](https://yaledailynews.com/blog/2024/09/12/analysis-breaking-down-yales-class-of-2028-what-do-we-know-about-racial-diversity-post-affirmative-action/); [NBC News](https://www.nbcnews.com/news/asian-america/affirmative-action-enrollment-asian-americans-rcna170716)) — prompting SFFA/Ed Blum to send litigation-threat letters to Yale, Princeton, and Duke in Sept 2024 demanding they explain why their numbers diverged from MIT's and Brown's ([Inside Higher Ed](https://www.insidehighered.com/news/admissions/traditional-age/2024/09/19/colleges-brace-lawsuits-enforcing-affirmative-action-ban)). Both rebounded in year 2 (Yale back to 30% ([YDN](https://yaledailynews.com/blog/2025/09/08/small-racial-shifts-in-second-class-admitted-without-affirmative-action/)); Princeton to 27%, with Black share at 5%, its lowest since 1968 ([Daily Princetonian](https://www.dailyprincetonian.com/article/2025/09/princeton-news-stlife-five-percent-class-of-2029-identify-black-african-american))).
+- **Stanford**: Asian share rose to its largest in three years by Class of 2029 (43.95% check-all, preliminary) ([Stanford Daily](https://stanforddaily.com/2025/11/18/class-of-2029-enrollment-data-shows-largest-asian-white-percentage-in-three-years/)).
+
+**Analyst conclusions:** Year-1 results were "mixed and uneven" with much "in flux" ([NBC](https://www.nbcnews.com/news/asian-america/affirmative-action-enrollment-asian-americans-rcna170716)); by year 2 the direction is consistent — Asian American share up roughly 4–10 points vs. pre-SFFA at HYPSM, Black/Hispanic share down. Active enforcement pressure (SFFA letters; DOJ's May 2026 finding that UCLA's medical school illegally considered race, discriminating against white *and Asian* applicants ([Townhall summary](https://townhall.com/columnists/jay-rogers/2026/06/29/three-years-after-sffa-the-ruling-is-still-making-changes-n2678426), single-source for the DOJ detail)) makes quiet reversion unlikely. **Inference:** the structural ceiling on Asian American admits is substantially gone at MIT/Harvard/Stanford; residual school-by-school variation (Yale, Princeton) bears watching but is now legally exposed.
+
+---
+
+## Q2. What differentiates admitted vs. rejected Asian-American applicants with similar stats
+
+**From the trial record (fact, not consulting):**
+- Harvard readers used the label **"Standard Strong"** — strong but undifferentiated. One Asian applicant so labeled was called "busy and bright" but "will need to fight it out with many similar to him" ([PrepScholar analysis of trial documents](https://blog.prepscholar.com/harvard-asian-admissions-lawsuit-application-strategy)).
+- Asian American applicants had the **highest academic and extracurricular ratings of any group but the lowest "personal" ratings** ([SFFA v. Harvard findings of fact](https://www.harvard.edu/admissionscase/wp-content/uploads/sites/6/2021/06/2019-10-30_dkt_672_findings_of_fact_and_conclusions_of_law.pdf); [NBC](https://www.nbcnews.com/news/asian-america/lawsuit-accuses-harvard-discriminating-against-asian-american-applicants-personal-ratings-n884476)). Harvard's post-2018 reading procedures bar race from the personal score and instruct readers to reward "particularly reflective" and "insightful" applicants, "characteristics not always synonymous with extroversion" ([Crimson](https://www.thecrimson.com/article/2018/10/29/reading-procedures/)). No public data yet on whether the Asian-American personal-rating gap closed post-SFFA — **insufficient data**.
+- Princeton internal documents described Asian American applicants as having "familiar profiles" — "standard premeds" ([Scholars Strategy Network](https://scholars.org/contribution/what-harvard-lawsuit-reveals-about-asian-americans-and-criteria-used-university)). Academic observers note readers effectively treat the piano/violin + math-science + CS cluster as the "typical case" and **reward deviation from it** ([USC Scribe](https://scribe.usc.edu/universities-problem-with-asianness/)).
+
+**From peer-reviewed research (fact):** Julie Park et al.'s analysis of ~6 million Common App applications found white, Asian American, wealthier, and private-school students already report *more* activities, more top leadership roles, and more awards ([AERJ 2025](https://doi.org/10.3102/00028312241292309)). **Inference:** activity count and generic leadership titles have near-zero marginal signal for this demographic; they are the baseline, not the differentiator.
+
+**Spike vs. well-rounded:** The "spike beats well-rounded" doctrine is consultant consensus ([Spike Lab](https://spikelab.com/why-being-a-well-rounded-student-is-no-longer-the-ideal-college-admissions-profile/), [CollegeVine](https://blog.collegevine.com/how-to-find-your-college-application-spike)), with dissenters ([Medium/College Admissions Central](https://medium.com/college-admissions-central/what-is-a-college-application-spike-and-should-i-have-one-b7e776e92f09)) — **treat as consultant opinion, not measured fact**. What *is* measurable: the trial record shows sameness is penalized in reader language.
+
+**Is a humanities spike genuinely scarcer? Facts:** humanities' share of degrees fell ~a third (13.1%→8.8%, 2012–2022) ([College Transitions](https://www.collegetransitions.com/blog/losing-ground-a-decade-of-decline-in-humanities-degrees/)); English majors down a third since 2011 ([Hechinger Report](https://hechingerreport.org/proof-points-the-number-of-college-graduates-in-the-humanities-drops-for-the-eighth-consecutive-year/)). **Consultant claim (flagged):** ~80% of applicants present STEM interests, so humanities-intent applicants face a thinner competitive lane ([Ivy Scholars](https://www.ivyscholars.com/engineering-vs-humanities-admission/)). **Inference:** for a Chinese-American Bay Area girl, a reading/writing/speech-debate-driven scholarly identity attacks the "familiar profile" problem directly and maps onto exactly what Harvard's reading procedures reward ("reflective," "insightful") — the direction is well-supported, though no one has published admit-rate-by-intended-major-by-race data. Keep math strong (it's a floor, per Q3), but the spike is scarcer on the humanities side.
+
+---
+
+## Q3. Testing landscape
+
+**Reinstatement wave (fact):** MIT (2022, first mover), Dartmouth (Feb 2024, after an internal study found scores the strongest predictor of success and that test-optional *hurt* disadvantaged students who withheld useful scores), Yale (Feb 2024, "test-flexible" SAT/ACT/AP/IB), Brown (Mar 2024), Harvard (Apr 2024, effective fall-2025 applicants), Caltech, Stanford (Jun 2024, effective fall 2026), Penn (Feb 2025, effective fall 2026) ([Daily Pennsylvanian](https://www.thedp.com/article/2025/02/penn-testing-standardized-policy-reinstated-admissions)), Cornell (fall 2026), Princeton (Oct 2025 announcement, required from the 2027–28 cycle) ([Applerouth](https://www.applerouth.com/blog/princeton-reinstates-sat-and-act-test-requirements-for-admissions)). **Reported but verify:** Yale ended test-flexible in May 2026 (SAT/ACT only), and Columbia — the last Ivy holdout — reversed its "permanent" test-optional stance in June 2026, effective 2027–28 ([Pursu tracker](https://pursu.io/guide/who-still-wants-your-sat-in-2025-map-of-test-back-on-colleges); test-prep-industry sourcing, flag as near-certain but secondary).
+
+**Trend line for a fall-2034 applicant:** unambiguous. Every HYPSM/T10 school will require scores; 52% of all Common App applicants submitted scores in 2025–26 — the first majority since 2019–20 ([Inside Higher Ed](https://www.insidehighered.com/news/admissions/traditional-age/2026/03/13/common-app-data-shows-increase-applications)). Plan for testing as mandatory and as a *rising-weight* signal (also AI-proof — see Q5).
+
+**Score bands (fact, current):** Harvard ~1500–1580, MIT ~1510–1580, Stanford ~1510–1570, Yale 25th percentile ~1480 ([Oriel](https://orieladmissions.com/sat-score-ranges-ivy-league/); [Empowerly](https://empowerly.com/applications/sat-ranges-top-colleges/)). Practical read: 1550+ is the no-questions zone for an over-represented demographic; below the 25th percentile is a hard headwind.
+
+**Rigor/GPA:** Elite schools evaluate rigor relative to what the high school offers (maximal-rigor expectation); grade inflation/deflation is read through the school profile and counselor context — a known-rigorous private feeder gets its deflation contextualized. **Insufficient hard data** on quantified AP-count thresholds; the common consultant figure (8–12 APs for T10) is unverified marketing.
+
+---
+
+## Q4. Geographic competition and the demographic cliff
+
+**Bay Area over-representation (facts, mostly UC-side):** Bay Area students are >23% of every UC applicant pool and are admitted at sharply *lower* rates at mid-tier UCs (e.g., 71% of the average admit rate at UCSD vs. 121% for SoCal applicants) ([SFEDup](https://sfeducation.substack.com/p/geographic-bias-in-uc-admissions) — **single-source analysis, flag**). California supplies ~13% of Ivy undergrads ([Ivy Coach/Quartz](https://www.ivycoach.com/press/quartz/want-get-elite-college-might-consider-moving-one-these-states/), dated). **No elite private school publishes admit rates by metro — insufficient data for a direct "Bay Area penalty" estimate.** What is well-established: applications are read in regional/school-group dockets, so she will be compared against the nation's densest pool of high-stat Chinese-American STEM applicants ([College Transitions](https://www.collegetransitions.com/blog/geographic-diversity-and-college-admissions/); [U.S. News](https://www.usnews.com/education/best-colleges/articles/how-your-hometown-could-affect-your-college-prospects)) — which is precisely the trial-record "fight it out with many similar" dynamic. **Inference:** geography amplifies the differentiation imperative from Q2; it does not create an insurmountable quota.
+
+**Demographic cliff (facts):** U.S. high-school graduates peaked at ~3.9M in 2025 and decline ~13% to ~3.4M by 2041 — **California declines ~29%**, among the steepest ([WICHE](https://www.wiche.edu/knocking/key-findings/graduates/)). But elite demand is counter-cyclical: Grawe projects ~14% *higher* demand at elite institutions by 2029 ([Spark Admissions summary](https://www.sparkadmissions.com/blog/college-enrollment-cliff/)); 2025–26 Common App volume rose 5% overall and still +3% even at sub-25%-admit-rate schools, with applications-per-applicant rising to 6.59 ([Inside Higher Ed](https://www.insidehighered.com/news/admissions/traditional-age/2026/03/13/common-app-data-shows-increase-applications)). **Inference:** by 2034–35 the cliff will have gutted regional/mid-tier admissions but will **not** meaningfully loosen HYPSM (international + rising per-capita application volume backfills any domestic dip). Secondary benefit: the shrinking California cohort modestly thins her in-state UC competition, and T25–T50 privates will be measurably hungrier — relevant for the safety/match tier, not the elite bar.
+
+---
+
+## Q5. Essays, narrative, and emerging factors
+
+**The Roberts carve-out (fact):** "Nothing in this opinion should be construed as prohibiting universities from considering an applicant's discussion of how race affected his or her life, be it through discrimination, inspiration, or otherwise" — but race must connect to an individual quality (courage, determination), not function as a proxy ([U. Chicago Law](https://www.law.uchicago.edu/news/college-essays-and-diversity-post-affirmative-action-era)).
+
+**How it's playing out (research, not marketing):** Sonja Starr's study (65 colleges, 881 applicants): required diversity/identity/adversity prompts jumped to ~48% of surveyed colleges in 2024 (from ~31%); yet students actually wrote about race *slightly less* post-SFFA — only white students increased identity discussion ([Inside Higher Ed](https://www.insidehighered.com/news/admissions/traditional-age/2024/05/20/examining-admissions-essays-post-affirmative-action); [Starr, Indiana L.J.](https://www.repository.law.indiana.edu/ilj/vol100/iss3/1/)). Starr's legal read: individualized use of race-linked experience is sound footing; anything resembling mechanical "indirect affirmative action" invites litigation — and DOJ's UCLA action (May 2026) shows enforcement now also runs *in favor of* Asian applicants. **Inference for this family:** a heritage narrative works only as evidence of specific qualities (e.g., bilingual rhetorical range feeding a speech/writing spike); a generic immigrant-striving essay is now both commodified and, per Q2, pattern-matched to the "familiar profile."
+
+**Early strategy (fact + consultant-compiled):** Early rounds retain a large mechanical edge — e.g., Harvard REA ~7–8% vs. ~2–3% RD; Princeton SCEA ~13–15% ([Fortuna](https://fortunaadmissions.com/ivy-league-early-decision-acceptance-rates/), consultant-compiled from public releases); early volumes rebounded after the testing-reinstatement dip ([CollegeData](https://www.collegedata.com/resources/getting-in/6-college-admission-trends-to-watch-in-2026)). Expect a single carefully-chosen REA/ED bullet to remain the highest-leverage structural decision in 2034.
+
+**Emerging factors likely to matter by 2034:** Virginia Tech now pairs a human with an AI reader per essay (live 2025–26); some schools dropped numeric essay scores and warn AI-generated text can be disqualifying ([Top Tier Admissions](https://toptieradmissions.com/colleges-are-changing-how-they-read-essays-because-of-ai-heres-what-that-means/)); Caltech added an AI-driven video "viva" where applicants defend submitted research on camera ([GradPilot](https://gradpilot.com/news/ai-college-admissions-t10)); 68% of institutions still had no formal genAI policy per a Kaplan survey ([SayHelloCollege](https://sayhellocollege.com/blog/can-college-admissions-officers-detect-chatgpt/)). **Inference:** by 2034 expect authenticated, synchronous formats — interviews, proctored/verified writing, defended portfolios, required scores — to carry more weight than the polishable asynchronous essay. A child whose speech/writing ability is *live and demonstrable* (competitive speech, extemporaneous argument, defended original work) is positioned for exactly the verification-heavy direction the system is moving.
+
+---
+
+## Sources
+
+1. [MIT News — Q&A: Undergraduate admissions post-ruling](https://news.mit.edu/2024/qa-undergraduate-admissions-in-wake-of-supreme-court-ruling-0821)
+2. [The Tech — MIT Class of 2029 demographics](https://thetech.com/2025/11/14/co-2029-demographics)
+3. [CBS — Asian enrollment at MIT spikes](https://cbsaustin.com/news/nation-world/asian-enrollment-at-mit-spikes-following-supreme-court-affirmative-action-decision-massachusetts-institute-of-technology-supreme-court-boston-cambridge-elite-universities-admissions)
+4. [Harvard Crimson — Class of 2029 admissions data](https://www.thecrimson.com/article/2025/10/23/admissions-data-class-2029/)
+5. [Harvard Magazine — Class of 2029 racial makeup](https://www.harvardmagazine.com/university-news/harvard-admissions-class-2029-admissions-data-ethnicity)
+6. [Yale Daily News — Class of 2028 analysis](https://yaledailynews.com/blog/2024/09/12/analysis-breaking-down-yales-class-of-2028-what-do-we-know-about-racial-diversity-post-affirmative-action/) / [Class of 2029](https://yaledailynews.com/blog/2025/09/08/small-racial-shifts-in-second-class-admitted-without-affirmative-action/)
+7. [Daily Princetonian — Class of 2029 demographics](https://www.dailyprincetonian.com/article/2025/09/princeton-news-stlife-five-percent-class-of-2029-identify-black-african-american)
+8. [Stanford Daily — Class of 2029 enrollment](https://stanforddaily.com/2025/11/18/class-of-2029-enrollment-data-shows-largest-asian-white-percentage-in-three-years/)
+9. [NBC News — Mixed results after affirmative action](https://www.nbcnews.com/news/asian-america/affirmative-action-enrollment-asian-americans-rcna170716)
+10. [Inside Higher Ed — SFFA letters to Yale/Princeton/Duke](https://www.insidehighered.com/news/admissions/traditional-age/2024/09/19/colleges-brace-lawsuits-enforcing-affirmative-action-ban)
+11. [SFFA v. Harvard — District Court findings of fact](https://www.harvard.edu/admissionscase/wp-content/uploads/sites/6/2021/06/2019-10-30_dkt_672_findings_of_fact_and_conclusions_of_law.pdf)
+12. [PrepScholar — What the Harvard lawsuit reveals](https://blog.prepscholar.com/harvard-asian-admissions-lawsuit-application-strategy)
+13. [Scholars Strategy Network — What the Harvard lawsuit reveals](https://scholars.org/contribution/what-harvard-lawsuit-reveals-about-asian-americans-and-criteria-used-university)
+14. [Harvard Crimson — 2018 reading procedures](https://www.thecrimson.com/article/2018/10/29/reading-procedures/)
+15. [Park et al., AERJ — Extracurricular reporting across race and class](https://doi.org/10.3102/00028312241292309)
+16. [Hechinger Report — Humanities degree decline](https://hechingerreport.org/proof-points-the-number-of-college-graduates-in-the-humanities-drops-for-the-eighth-consecutive-year/)
+17. [College Transitions — Decade of decline in humanities degrees](https://www.collegetransitions.com/blog/losing-ground-a-decade-of-decline-in-humanities-degrees/)
+18. [Ivy Scholars — Engineering vs humanities admissions (consultant)](https://www.ivyscholars.com/engineering-vs-humanities-admission/)
+19. [Daily Pennsylvanian — Penn reinstates testing](https://www.thedp.com/article/2025/02/penn-testing-standardized-policy-reinstated-admissions)
+20. [Applerouth — Princeton reinstates testing](https://www.applerouth.com/blog/princeton-reinstates-sat-and-act-test-requirements-for-admissions)
+21. [Pursu — Test-back-on tracker](https://pursu.io/guide/who-still-wants-your-sat-in-2025-map-of-test-back-on-colleges)
+22. [Oriel — Ivy SAT middle-50% bands](https://orieladmissions.com/sat-score-ranges-ivy-league/)
+23. [WICHE — Knocking at the College Door, 11th ed.](https://www.wiche.edu/knocking/key-findings/graduates/)
+24. [Spark Admissions — Enrollment cliff and admissions odds (incl. Grawe projection)](https://www.sparkadmissions.com/blog/college-enrollment-cliff/)
+25. [Inside Higher Ed — Common App 2025-26 volume data](https://www.insidehighered.com/news/admissions/traditional-age/2026/03/13/common-app-data-shows-increase-applications)
+26. [SFEDup — Geographic bias in UC admissions](https://sfeducation.substack.com/p/geographic-bias-in-uc-admissions)
+27. [U. Chicago Law — College essays post-affirmative action](https://www.law.uchicago.edu/news/college-essays-and-diversity-post-affirmative-action-era)
+28. [Starr — Admissions Essays After SFFA, Indiana L.J.](https://www.repository.law.indiana.edu/ilj/vol100/iss3/1/)
+29. [Inside Higher Ed — Examining admissions essays post-SFFA](https://www.insidehighered.com/news/admissions/traditional-age/2024/05/20/examining-admissions-essays-post-affirmative-action)
+30. [Fortuna — Ivy ED/EA acceptance rates (consultant)](https://fortunaadmissions.com/ivy-league-early-decision-acceptance-rates/)
+31. [Top Tier Admissions — Colleges changing essay reading due to AI](https://toptieradmissions.com/colleges-are-changing-how-they-read-essays-because-of-ai-heres-what-that-means/)
+32. [GradPilot — T10 AI policies, Caltech viva](https://gradpilot.com/news/ai-college-admissions-t10)
+33. [Townhall — Three years after SFFA (DOJ/UCLA, opinion outlet)](https://townhall.com/columnists/jay-rogers/2026/06/29/three-years-after-sffa-the-ruling-is-still-making-changes-n2678426)
