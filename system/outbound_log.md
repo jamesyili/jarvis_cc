@@ -70,3 +70,5 @@
 | 2026-07-15 21:24 | gmail | [Leo] Peer Feedback Drafts — 2026 H1 Cycle | work/people/peer_feedback_2026H1.md | to=jamesyili@gmail.com id=19f692ad6affb42a |
 | 2026-07-17 07:31 | gmail | [Leo] Peer Feedback Drafts — 2026 H1 Cycle | work/people/peer_feedback_2026H1.md | to=jamesyili@gmail.com id=19f707d2f7136a29 |
 | 2026-07-17 14:02 | gmail | [Leo] Daniel Liu Peer Feedback 2026 07 17 | /tmp/claude-1000/-home-james-src-leo/066a4e0b-b869-421d-9d7e-12f0081334e0/scratchpad/daniel_liu_peer_feedback_2026-07-17.md | to=jamesyili@gmail.com id=19f71e3a299258de |
+| 2026-07-18 11:34 | gmail | [Leo] Evelyn — College Runway Research Report | self/evelyn/college_runway_2026-07.md | to=jamesyili@gmail.com id=19f7682031342ecd |
+| 2026-07-18 12:30 | gmail | [Leo] Evelyn — College Runway Research Report | self/evelyn/college_runway_2026-07.md | to=jamesyili@gmail.com id=19f76b5148819e3d |
