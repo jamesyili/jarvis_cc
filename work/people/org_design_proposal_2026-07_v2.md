@@ -1,9 +1,9 @@
-# P13N Retrieval — Org Design
+# P13N Retrieval & Anticipation ML — Org Design
 
 **For:** Dylan · **From:** James · **Date:** 2026-07-14
 **Status: WORKING DRAFT (v2, new section framing). Audience = Dylan only — cold-reader-safe, but the Personnel section does not travel.** Supersedes v1 (`org_design_proposal_2026-07.md` — the 9-section skeleton + Drafts A/B/C), which was **deleted 2026-07-14**; v1's Master IC table is preserved in the Appendix at the bottom of this file. The Rollout Messaging & Meeting Plan section (also below) is **internal — James's rollout playbook, not part of the Dylan doc.**
 
-**The org:** **P13N Retrieval** — the pre-ranking funnel end to end, from user signal to what the ranker sees. Ranking starts where we end; surfaces belong to P13N-Experiences. This name retires "HF CG." Three legs inside it — the *target* shape I'm proposing, phased into on my own clock (see Transition Phase):
+**The org:** **P13N Retrieval & Anticipation ML** — the pre-ranking funnel end to end, from user signal to what the ranker sees, plus the anticipation modeling built on top of it (Retentive Recs, pUIC, boards/exploration ML). Ranking starts where we end; surfaces belong to P13N-Experiences. This name retires "HF CG." *(Renamed from "P13N Retrieval" 2026-07-17: retrieval modeling is only part of the org's work, and the narrower name invited retrieval-team-to-retrieval-team comparisons in calibration that Dylan had to correct verbally. Naming note: **Anticipation Foundations** remains the cross-org program name, co-owned with partner surfaces — this org name refers to the org's anticipation ML work, not the program.)* Three legs inside it — the *target* shape I'm proposing, phased into on my own clock (see Transition Phase):
 
 - **Alim — Anticipation & Exploration (~8).** Anticipate what a Pinner wants next: the pUIC substrate (model-based + LLM-based) and the exploration surfaces (UEB, Content Exploration). Measured on retention and fresh-content discovery.
 - **Daniel — Scoring & Boards Modeling (phased scope).** Frontier ML modeling that drives metric gains and publishes (KDD, RecSys): the boards surfaces he retains (Recommend-a-Board, Intelligent Boards) plus LWS, which he inherits. He sheds the retentive-recs part of his team to Alim. Measured on modeling metric gains across his surfaces, with publications as a secondary signal.
@@ -293,7 +293,7 @@ Landmines flagged **→ stance.**
 - Are we absorbing Daniel's team, over/under/parallel?
 - More work / competition for scope at same headcount?
 - **Are you getting promoted, James? A director thing?** → keep altitude: "the org's being invested in," not "I'm going for director."
-- Team name/identity changing (P13N Retrieval)? Day-to-day / oncall / roadmap change, and when?
+- Team name/identity changing (P13N Retrieval & Anticipation ML)? Day-to-day / oncall / roadmap change, and when?
 
 ### Daniel's team *(Daniel runs it; James is guest)*
 - **Why are we moving to James's org — what was wrong with Yann's?** → forward-framing; not a reaction to anything.
@@ -303,7 +303,7 @@ Landmines flagged **→ stance.**
 - Who is James / what does he care about / like to work for?
 - Level / promo / comp / skip-level change?
 - LWS moving under Daniel — what does that mean for us?
-- Change how we work (tools, process, oncall)? Keep our identity or fold into P13N Retrieval?
+- Change how we work (tools, process, oncall)? Keep our identity or fold into P13N Retrieval & Anticipation ML?
 - What changes day one vs. later? Timeline?
 
 ### Daniel (1:1)
