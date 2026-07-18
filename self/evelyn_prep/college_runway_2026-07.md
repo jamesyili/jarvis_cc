@@ -165,4 +165,4 @@ Luthar's research program: students in high-achieving pressure subcultures show 
 
 ## Method
 
-Four parallel research agents (post-SFFA landscape / school paths / activity arcs / counselors), WebSearch + WebFetch, ~150 sources, July 18, 2026. Full cited workstream reports with source lists live in `self/evelyn/research/`. Data-quality flags carried inline as ⟨verify⟩ / ⟨thin data⟩; single-source and consultant-marketing claims are flagged in the underlying reports.
+Four parallel research agents (post-SFFA landscape / school paths / activity arcs / counselors), WebSearch + WebFetch, ~150 sources, July 18, 2026. Full cited workstream reports with source lists live in `self/evelyn_prep/research/`. Data-quality flags carried inline as ⟨verify⟩ / ⟨thin data⟩; single-source and consultant-marketing claims are flagged in the underlying reports.
