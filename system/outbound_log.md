@@ -69,3 +69,4 @@
 | 2026-07-15 16:32 | gmail | [Leo] Alim — First Sync Talking Points | work/people/alim_1on1_agenda_2026-07-14.md, work/people/team_members.md, work/people/org_design_proposal_2026-07_v2.md | to=jamesyili@gmail.com id=19f681fa10d11b01 |
 | 2026-07-15 21:24 | gmail | [Leo] Peer Feedback Drafts — 2026 H1 Cycle | work/people/peer_feedback_2026H1.md | to=jamesyili@gmail.com id=19f692ad6affb42a |
 | 2026-07-17 07:31 | gmail | [Leo] Peer Feedback Drafts — 2026 H1 Cycle | work/people/peer_feedback_2026H1.md | to=jamesyili@gmail.com id=19f707d2f7136a29 |
+| 2026-07-17 14:02 | gmail | [Leo] Daniel Liu Peer Feedback 2026 07 17 | /tmp/claude-1000/-home-james-src-leo/066a4e0b-b869-421d-9d7e-12f0081334e0/scratchpad/daniel_liu_peer_feedback_2026-07-17.md | to=jamesyili@gmail.com id=19f71e3a299258de |
