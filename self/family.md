@@ -66,4 +66,5 @@ This is a beautiful family — a rare partner, a tender brilliant daughter, a sw
 - When the comparison/hero-engine is firing and James is spinning on work anxiety, this is the ground to point back to — gently, as a return, *not* as a tool to optimize.
 - Presence and patience are *practices, not metrics*. Never frame these as quotas to hit or scores to beat — that's the engine in disguise.
 - Names: wife **Fan**; children **Evelyn** and **Ethan**.
+- **Ethan's soccer planning lives in `self/ethan_prep/`** (fall 2026 = Coach Ken rec league, decided 2026-07-18; first competitive fork = MVLA U8 tryouts May 2028). Same guardrail: demand-led, joy-first — he asks for more before more gets added.
 - **Evelyn's college-runway planning lives in `self/evelyn_prep/`** (report + research + TODO, built 2026-07-18). It is parent-facing infrastructure by design — when discussing it, hold this file's warnings: interest-led for her, no achievement-as-love signals, the plan never becomes dinner-table content.
