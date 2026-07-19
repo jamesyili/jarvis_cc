@@ -8,11 +8,11 @@
 
 - [ ] **Verify our high-school boundary** — MVLA address lookup (or call the district office) for the exact Whisman Station address; confirm MVHS. 10 minutes, de-risks the whole public-fallback assumption.
 - [ ] **Speech academy trials** — book trial classes at **Communication Academy** (Palo Alto) and **YG Academy** (505 E Charleston Rd, Palo Alto). Evelyn picks one for fall.
-- [ ] **Math lane** — trial **AoPS Academy Mountain View** (409 San Antonio Rd) vs **Beast Academy** online at home. Pick by her preference; coach "checking your work" as a craft skill, never speed.
+- [x] **Math lane — DECIDED 7/18: Think Academy** (James's call; supersedes the AoPS/Beast trial). Keep the frame regardless of provider: coach "checking your work" as a craft skill, never speed.
 - [ ] **Set up Twine** with her; first branching-story project (her novels + her vibe-coding interest; AI as world-building collaborator, parent alongside).
 - [ ] **Start the mentor search** — playbook below. Writing side first (it's productized), debate side after she's enrolled in an academy.
 - [ ] **Young Inklings** — if she's interested in writing her own stories: sign up for 1:1 mentorship (or Fresh Ink waitlist). This *is* the writing-side mentor.
-- [ ] **Table tennis** — verify current junior programs/coaches (ICC Milpitas is the nationally elite one; check closer clubs too). Keep it joy-first; no circuit pressure.
+- [ ] **Fall sport (TT vs badminton) — Leo rec 7/18: table tennis at ICC** (she excelled in Hangzhou TT classes this summer — ride the momentum). Book an ICC junior trial (icctt.org / sports@indiacc.org); call PATTC-Cubberley about junior sessions (closest option, ~10 min ⟨verify⟩); optional one Bintang Santa Clara badminton taster if A/B-ing — Evelyn picks. Badminton's one structural edge (CIF HS varsity path; TT has none) is logged for the ~2030 re-look. Joy-first; no circuit pressure.
 - [ ] **Home rep, zero cost:** "teach us the book at dinner" — her memory→articulation talent, framed as sharing, not performing.
 
 ## Look into (research/verify, no commitment)
