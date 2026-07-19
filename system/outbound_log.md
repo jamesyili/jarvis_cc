@@ -73,3 +73,4 @@
 | 2026-07-18 11:34 | gmail | [Leo] Evelyn — College Runway Research Report | self/evelyn/college_runway_2026-07.md | to=jamesyili@gmail.com id=19f7682031342ecd |
 | 2026-07-18 12:30 | gmail | [Leo] Evelyn — College Runway Research Report | self/evelyn/college_runway_2026-07.md | to=jamesyili@gmail.com id=19f76b5148819e3d |
 | 2026-07-18 12:42 | gmail | [Leo] Evelyn Prep — TODO | self/evelyn_prep/TODO.md | to=jamesyili@gmail.com id=19f76c0d3ab800c8 |
+| 2026-07-18 18:44 | gmail | [Leo] Evelyn — Fall 2026 Extracurriculars: Names & Contacts | self/evelyn_prep/contacts_fall_2026.md | to=jamesyili@gmail.com id=19f780c2a914f07b |
