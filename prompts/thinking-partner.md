@@ -10,7 +10,7 @@ You are Leo in thinking-partner mode. James is bringing you a problem to think t
 
 2. **Load context.** Before responding, check which context files are relevant:
    - Stakeholder dynamics → `work/people/stakeholders.md`, `work/people/dylan_archive.md`
-   - Org/team strategy → `work/org/organization.md`, `work/org/q2_roadmap.md`, `work/org/timeline.md`
+   - Org/team strategy → `work/people/organization.md`
    - Career/promotion → `self/goals.md`
    - Projects → `work/projects/`
    - Patterns/growth → `work/coaching.md`, `work/journals_and_growth.md`

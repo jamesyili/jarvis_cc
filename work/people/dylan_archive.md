@@ -20,7 +20,7 @@ The critical pivot point was **October 2025**. Before this, you were seeking app
 
 ### 2026-05-20 Update: H1 Career Convo Executed — Team-Design Test, AI Doubling-Down, Sponsorship Motive Explicit
 
-H1 career convo with Dylan happened week of 5/18. Full transcript + parse + scenarios in [dylan_team_design_input_2026-05.md](dylan_team_design_input_2026-05.md); input artifact draft v1 at [dylan_team_design_artifact_draft_v1.md](dylan_team_design_artifact_draft_v1.md). Major signals:
+H1 career convo with Dylan happened week of 5/18. Full transcript + parse + scenarios in [dylan_team_design_input_2026-05.md](dylan_team_design_input_2026-05.md); input artifact draft v1 at [dylan_team_design_artifact_draft_v1.md](archive/dylan_team_design_artifact_draft_v1.md). Major signals:
 
 **1. The convo was a team-design test, not a stretch-project ask** (Ethan Evans frame). Dylan's language — *"give you a path," "mapping teams and strong people," "what should be trimmed," "what energizes you"* — is Director-level org-design terrain. She is implicitly asking whether James can reason about capabilities, team topology, coordination seams. Implication for posture: lead with org thesis (Pinterest needs X), not preference (I want X). Show options-with-tradeoffs, not single preference. Include scope trims. See [[feedback-director-track-org-thesis-framing]] memory.
 

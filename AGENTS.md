@@ -83,10 +83,10 @@ Six root directories. The rule (locked 2026-07-11): **root dirs answer "what is 
 
 ```
 work/                   # WORK context (split from former work+self/ on 2026-06-11)
-├── people/                 stakeholders, dylan_archive, dylan_1on1_log, team_members,
-│   │                       role_expectations/ (REGs), archive/ (point-in-time prep docs)
+├── people/                 stakeholders, organization, dylan_archive, dylan_1on1_log, team_members,
+│   │                       role_expectations/ (REGs), reorg_july2026/ (July-2026 reorg docs),
+│   │                       peer_downward_feedback/ (h12026/), archive/ (point-in-time prep docs)
 ├── projects/               project specs + technical references
-├── org/                    organization, roadmap, timeline
 ├── career/                 ethanevans_questions, ethan/wes-james-situations, self-reviews, resume
 ├── journals_and_growth.md  WORK half: career Lessons 1–13, growth edges, work journal entries
 ├── coaching.md             FULL coaching log (single file): David (strategy, active) + Rodney (mindset, archived 4/29)
@@ -150,7 +150,7 @@ system/                 # Everything Leo-internal: meta, memory, infra, outputs
 |------|-----------------|
 | Meeting prep / stakeholder comms | `work/people/`, `work/communication.md` |
 | Project-specific work | `work/projects/{project}.md` |
-| Strategic planning / org context | `work/org/`, `self/goals.md` |
+| Strategic planning / org context | `work/people/organization.md`, `self/goals.md` |
 | Coaching / career-growth reflection | `work/coaching.md`, `work/journals_and_growth.md` |
 | Inner-game / identity reflection | `self/journals_and_growth.md`, `self/goals.md` (Layer I) |
 | Presentation prep | `work/communication.md` (speaking patterns), consult "How to Speak" notebook |

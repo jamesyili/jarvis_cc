@@ -1931,12 +1931,14 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 
 ---
 
-# 40) Dinesh ⟨surname pending⟩ — Sr. EM, Ads (added 2026-07-13)
+# 40) Dinesh Govindaraj — Sr. Manager, Machine Learning Engineering, Ads (added 2026-07-13; surname+title confirmed 2026-07-19)
 
 ## What's known
 - **Very friendly with ATG collaborations** — track record of working well with the central ML org.
-- **Jiajing (ATG Sr. Director — see §41) has been asking James to go talk to him** (2026-07); James plans to soon. Warm intro path exists.
+- **Jiajing (ATG Sr. Director — see §41) has been asking James to go talk to him** (2026-07); Dylan has also approved the reach-out. Warm intro path exists.
 - Sits on the Ads side of the **Ads Retrieval expansion** thread — the same space where Matt Madrigal (§39) signaled GPU retrieval interest.
+- **2026-07-19 (pre-outreach intel, via James):** his team is actively working on **CG unification** on the Ads side (the space James's team spent the past year in via UPP); **potentially working on UPP** itself; and **one of his engineers is actively working with Reflex from the Ads side** — three live collaboration hooks. Team name unresolved (dictation garble, "NetJizz"-like; get the real name in the first conversation). Title confirmed from his Slack profile.
+- **2026-07-19: intro Slack DM drafted** (Leo-assisted, James's opener kept): P13N CG/Retrieval intro, Jiajing roadmap hook, three them-first threads (their CG unification + UPP-if-on-radar + their Reflex engineer), 30-min ask. Deliberately did NOT use the new org name (rename ask to Dylan unsent at draft time).
 
 ## Why it matters
 - **First concrete relationship move of the Ads expansion.** Everything else on Ads is demand-signal at a distance; Dinesh is a named, reachable owner.
@@ -1953,7 +1955,7 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 
 ## What's known
 - **Sr. Director in ATG** (central ML org — Jaewon/Hongtao/Matt Lawhon's world; exact reporting lines unconfirmed).
-- **Actively brokering James ↔ Dinesh (Ads Sr. EM, §40):** has been asking James to go talk to Dinesh re: Ads collaboration (2026-07). James plans to soon.
+- **Actively brokering James ↔ Dinesh (Ads Sr. EM, §40):** has been asking James to go talk to Dinesh re: Ads collaboration (2026-07). **2026-07-19: converted to action — intro DM drafted (Dylan-approved), Jiajing named as the hook ("Jiajing shared some of the roadmaps your team has been charting").**
 
 ## Why it matters
 - **ATG senior leadership is routing the Ads retrieval opportunity through James.** Jiajing could point Dinesh at the ranking side or keep it ATG-internal; pointing him at James is a central-ML endorsement of James/UPP as the retrieval-platform counterpart for Ads — a Director-altitude third-party signal in the same class as Yan-alignment (Dylan reads peer/senior endorsement as operating signal).
@@ -1983,7 +1985,7 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 
 ## Open
 - Exact reporting chain (who Karim reports to in the DS/analytics org).
-- Concrete anecdotes to ground the peer-feedback strengths (James's input was trait-level; two `[Anchor:]` slots still open in `work/people/peer_feedback_2026H1.md`).
+- Concrete anecdotes to ground the peer-feedback strengths (James's input was trait-level; two `[Anchor:]` slots still open in `work/people/peer_downward_feedback/h12026/peer_feedback_2026H1.md`).
 
 ---
 
@@ -2029,7 +2031,7 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 
 **Role:** James's TPM on UPP. **Up for promotion this cycle** (level pending). ⚠ Spelling: **Krystal** with a K (repo-consistent; James's dictation homophone "Crystal" corrected via his own Slack screenshot context).
 
-## James's read (2026-07-16, ad-hoc promo-support feedback — full text in `peer_feedback_2026H1.md` §7)
+## James's read (2026-07-16, ad-hoc promo-support feedback — full text in `peer_downward_feedback/h12026/peer_feedback_2026H1.md` §7)
 - "One of the best TPMs I've ever worked with; I would vouch for her anywhere." Constantly on top of things; drives accountability and process follow-through; coordinates multiple workstreams with grace under pressure. Articulate pushback on unreasonable asks from leadership and XFN while keeping relationships intact. Unusually in tune with how the room is feeling; presents an unbiased view so groups align faster (no perceived agenda → her framing becomes the shared framing).
 - **Track record in repo:** OneTrans crisis coordination (5/13); with Zihao "owned the room" when James missed the Wednesday UPP meeting; the "let's see if we don't re-litigate next week" read (politically sharp — kept out of the written feedback).
 - **Technical competency:** solid; follows architecture-level discussion, represents technical state to leadership without a translator. Growth (soft, future-framed): deepen foundational technical knowledge to bridge workstreams more creatively as her influence expands.

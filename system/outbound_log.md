@@ -74,3 +74,8 @@
 | 2026-07-18 12:30 | gmail | [Leo] Evelyn — College Runway Research Report | self/evelyn/college_runway_2026-07.md | to=jamesyili@gmail.com id=19f76b5148819e3d |
 | 2026-07-18 12:42 | gmail | [Leo] Evelyn Prep — TODO | self/evelyn_prep/TODO.md | to=jamesyili@gmail.com id=19f76c0d3ab800c8 |
 | 2026-07-18 18:44 | gmail | [Leo] Evelyn — Fall 2026 Extracurriculars: Names & Contacts | self/evelyn_prep/contacts_fall_2026.md | to=jamesyili@gmail.com id=19f780c2a914f07b |
+| 2026-07-19 12:21 | gmail | [Leo] P13N Retrieval & Anticipation ML — Org Design (Version A: direct) | work/people/org_design_doc_2026-07-19_direct_voice.md, work/people/org_design_doc_2026-07-19_exec_voice.md | to=jamesyili@gmail.com id=19f7bd34a630f52a |
+| 2026-07-19 12:35 | gmail | [Leo] Executive Summary — P13N Retrieval & Anticipation ML Org Design | work/people/org_design_exec_summary_2026-07-19.md | to=jamesyili@gmail.com id=19f7be0c3b3523aa |
+| 2026-07-19 16:09 | gmail | [Leo] Key Outcomes | work/people/org_design_sections_charter_tech_2026-07-19.md | to=jamesyili@gmail.com id=19f7ca44c69e72e5 |
+| 2026-07-19 21:05 | gmail | [Leo] P13n Org Chart 2026 07 19 | /tmp/claude-1000/-home-james-src-leo/d5ba0abe-f832-4280-8040-adaaeb52cd12/scratchpad/p13n_org_chart_2026-07-19.png | to=jamesyili@gmail.com id=19f7db317f788892 |
+| 2026-07-19 21:05 | gmail | [Leo] Key Personnel Considerations | work/people/org_design_key_personnel_2026-07-19.md | to=jamesyili@gmail.com id=19f7db31a07fce32 |

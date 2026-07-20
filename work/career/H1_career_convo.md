@@ -1,6 +1,6 @@
 # H1 Career Conversation with Dylan
 
-**Status:** **CONVO HAPPENED week of 5/18.** Post-convo work now lives at [people/dylan_team_design_input_2026-05.md](people/dylan_team_design_input_2026-05.md) (chapter doc) + [people/dylan_team_design_artifact_draft_v1.md](people/dylan_team_design_artifact_draft_v1.md) (input artifact draft v1). This file remains as the pre-convo prep record.
+**Status:** **CONVO HAPPENED week of 5/18.** Post-convo work now lives at [people/dylan_team_design_input_2026-05.md](people/dylan_team_design_input_2026-05.md) (chapter doc) + [people/archive/dylan_team_design_artifact_draft_v1.md](people/archive/dylan_team_design_artifact_draft_v1.md) (input artifact draft v1). This file remains as the pre-convo prep record.
 **Last updated:** 2026-05-20 — convo executed; team-design chapter opened. Dylan named three angles (product / eng foundations / infra+AI) with lean toward presentation side + AI doubling-down + end-to-end experiences. Sponsorship motive explicit (*"selfishly I want to give you a path forward"*). Implicit endorsement of AI-leveraged-leader thesis via Pinterest-next-leaders question. Walking-on-eggshells soft-landed (Dylan owns it as "how I say things, not intent"). Faisal/Qinglong intro path offered. Manu as new Dylan-relationship-build target. See chapter doc for full convo parse + scenarios + Scenario E recommendation + artifact draft.
 
 ## 2026-05-09 (pre-convo prep — preserved)

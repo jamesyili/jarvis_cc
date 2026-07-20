@@ -2,7 +2,7 @@
 
 **Source:** Dylan's 1:1 doc (2026-05-24). She wrote down what she sees as the four important parts of the magical Recsplanations / Anticipation experience.
 
-**Scope:** Product-direction thinking. **NOT** load-bearing evidence for the team-design / reorg case — that conversation stays clean. See `work/people/dylan_team_design_artifact_draft_v1.md` + `dylan_team_design_input_2026-05.md` for the team-design workstream.
+**Scope:** Product-direction thinking. **NOT** load-bearing evidence for the team-design / reorg case — that conversation stays clean. See `work/people/archive/dylan_team_design_artifact_draft_v1.md` + `dylan_team_design_input_2026-05.md` for the team-design workstream.
 
 **Owner:** James. Working doc. Grows into a 1-page eval framework for next Dylan 1:1.
 
