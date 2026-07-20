@@ -559,7 +559,7 @@ The biggest 1:1 of the half. Ran ~as prepped (`dylan_reentry_1on1_2026-07-07.md`
 
 **Register notes:** the Anna-predicted post-vacation "what's the point" weather did not dominate — Dylan came in with an approved org design and moved it. Transparency currency confirmed twice in one meeting (Bella + Yuke). James left with thanks, and asked scope/priority questions rather than comparing allocations (comparison engine quiet — no Dhruvil/Yan scorekeeping).
 
-**Follow-ups James owes Dylan:** (1) org-structure proposal ahead of mid-July downward comms; (2) TL answer for pUIC/RR space; (3) (standing) Charlie-backfill Toronto flag. Intel filed: `daniel_liu_team_2026-07.md`; team_members.md (Yuke 7/7, Chuxi 7/7); stakeholders.md §Dylan reorg entry.
+**Follow-ups James owes Dylan:** (1) org-structure proposal ahead of mid-July downward comms; (2) TL answer for pUIC/RR space; (3) (standing) Charlie-backfill Toronto flag. Intel filed: `reorg_july2026/daniel_liu_team_2026-07.md`; team_members.md (Yuke 7/7, Chuxi 7/7); stakeholders.md §Dylan reorg entry.
 
 ## 2026-07-13 — Next 1:1 agenda (queued from ELT debrief session)
 
@@ -572,7 +572,7 @@ Context: full ELT tidbits in `work/projects/upp/upp_retrieval_em.md` 7/13 entry;
 
 ## 2026-07-14 — Reorg timeline + structure conversation (James shared an early skeleton; Dylan reframed the timeline)
 
-James walked Dylan through an early structural skeleton of the org design and got back load-bearing timeline clarity. **This is the authoritative update for the org-design work** (reconciled into `org_design_proposal_2026-07_v2.md`, Transition Phase + footer #11–12).
+James walked Dylan through an early structural skeleton of the org design and got back load-bearing timeline clarity. **This is the authoritative update for the org-design work** (reconciled into `reorg_july2026/org_design_proposal_2026-07_v2.md`, Transition Phase + footer #11–12).
 
 **The timeline reframe (biggest piece):**
 - **Two decoupled reorgs.** *Dylan's* reorg happens **first**; *James's* internal reorganization **does not have to happen at the same time** — she explicitly gave him **more time to observe, think, and propose differently.**

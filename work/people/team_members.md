@@ -10,7 +10,7 @@ Last updated: 2026-07-15
 
 > Levels/families/projects confirmed by James. The per-person sections below carry the *narrative* context (perf cases, flight risk, growth); this table is the **source of truth for who exists and at what level.**
 >
-> **Naming correction (2026-07-15):** the engineer these notes called **"Ray"** is **Rui Wang** — a dictation/preferred-name artifact. One person, not two. Corrected throughout here and in `org_design_proposal_2026-07_v2.md`.
+> **Naming correction (2026-07-15):** the engineer these notes called **"Ray"** is **Rui Wang** — a dictation/preferred-name artifact. One person, not two. Corrected throughout here and in `reorg_july2026/org_design_proposal_2026-07_v2.md`.
 
 ### Engineering Managers
 | Name | Level (Family) | Role | Notes |
@@ -59,7 +59,7 @@ Last updated: 2026-07-15
 
 *Not in the 26: Rita Lyu (intern, Daniel's team, ~2 months left). Departed/exiting: Sophia, David, Charlie.*
 
-**Alok — RESOLVED 2026-07-15.** Alok **decided to primarily be on Retentive Recs**, and James wants him there **because Yuke is leaving RR** (Yuke → RecGPT only). This **supersedes** the prior `org_design_proposal_2026-07_v2.md` §Calls #3 framing — *"Alok → Reflex 50% + UPP 50%. RR is staffed without him"* — which was wrong on both counts: he's not on UPP, and RR is **not** staffed without him. v2 corrected the same day.
+**Alok — RESOLVED 2026-07-15.** Alok **decided to primarily be on Retentive Recs**, and James wants him there **because Yuke is leaving RR** (Yuke → RecGPT only). This **supersedes** the prior `reorg_july2026/org_design_proposal_2026-07_v2.md` §Calls #3 framing — *"Alok → Reflex 50% + UPP 50%. RR is staffed without him"* — which was wrong on both counts: he's not on UPP, and RR is **not** staffed without him. v2 corrected the same day.
 > **Knock-on, unresolved:** Retentive Recs is **Alim's charter**. Alok's justification for being a James-direct was "Reflex 50% + UPP 50%" — with UPP gone and RR primary, that seat no longer justifies itself. Either Alok goes to Alim (RR primary, matrixed into Reflex) or he stays with James on Reflex and matrixes into RR. Not yet decided.
 
 ---

@@ -1,0 +1,8 @@
+# Executive Summary — P13N Retrieval & Anticipation ML Org Design
+
+This document proposes the design of P13N Retrieval & Anticipation ML: the target structure, a deliberately minimal day one state, and the sequence between them.
+
+- **Target structure, three legs.** Alim leads Anticipation & Exploration (~8), accountable for retention and fresh content discovery. Daniel leads Scoring & Boards Modeling: frontier ML modeling across his retained boards surfaces plus LWS, measured on metric gains with publications as a secondary signal. I hold a minimal direct pod, each seat individually justified: Reflex (the majority of my time), the UPP framework the modeling charters build on, Foundations & Efficiency, and the time boxed Generative Retrieval incubation.
+- **Day one changes are minimal by design.** Alim onboards July 27 with a nucleus drawn from my current reports (Chuxi, Yidi, Alok, Lionel). Daniel's team remains intact under Daniel. CLR and UPP remain with me. Every workstream and every pager keeps a named owner throughout; there is no coverage gap at any point in the transition.
+- **Sequence.** Your reorganization moves the org chart now. My internal reorganization follows an observation window and arrives as a separate proposal, with 30, 60, and 90 day touch points. The larger moves (CLR toward Alim, the anticipation consolidation, LWS timing) are staged on evidence from that window, not on the announcement date.
+- **Two asks.** Your read on Balaji's placement, platform TL under Daniel versus Staff anchor under Alim; and your help winding down Kim's loan to Dhruvil as the reorganization settles, so her time returns to this organization.
