@@ -92,6 +92,11 @@ James's read: cordial but guarded. She asked about the source of tension between
 
 ---
 
+**2026-07-20 — SM/SL sync ratifies the design (co-ownership + POC both sides):**
+- Dylan named Raymond in the room as the one working on SM/SL ("no multiple DRIs"; floated pairing him with junior people, operating-model details "decide later").
+- James asked the Raymond-role question at exactly the designed altitude — "how can we be a co-owner from the CG side, align on the technical roadmap, and disagree-and-commit if it comes to that" — with zero history leaking. Andrew endorsed: "100% that is exactly what we want."
+- POC decision: **Yali or Hedi** (LWS lane) = the Raymond-facing IC channel per the 7/13 design; James stays off the friction surface. The named-owner structure now exists on both sides, and any Raymond non-engagement becomes visible on its own — no James narrative required.
+
 ## Yu Ke 2-week experiment-ending thread — read
 
 **What happened:** Yu Ke (engineer on James's team) posted in a thread about needing to end a running experiment to launch something. He started the thread two weeks ahead of when it needed to end. James got "weird vibes" from Akshanta and Lili in response — he read it as them being uncomfortable because the experiment ending disrupts their work.

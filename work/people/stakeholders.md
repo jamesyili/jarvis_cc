@@ -1043,6 +1043,10 @@ P2P approved a new retrieval architecture (OneTrans — unified transformer toke
 - **Comms calibration — substance high, logistics deferential** (Sr. Director, not a peer; cross-level + trust-over-determined). Don't pin his calendar ("pick Wed or Thu, I'll book it" is too peer-flat) — offer flexibility ("happy to flex around your calendar, send a time"). Always come with substance (named codepath area, specific scenarios, prepped artifacts) — the expert-in-loop role is the whole reason he invited James. Thank-yous are fine when he goes out of his way, but thank-you *without* technical substance = zero signal to Dylan that James is driving. Nudges carry content ("ready to pull as soon as you push — got X queued"), not passive emojis (brick/thumbs-up read as "waiting"). (Migrated from auto-memory 2026-06-26.)
 - **Watch:** Mira (Sr Director, Design) is the third Anticipation Vision co-author. ~~James's direct line to her is unclear.~~ **Updated 2026-04-28: direct line activated, Mira-initiated** (UIC mental-model DM on the Explore module powered by RR). Mediation through Dylan/Andrew is no longer the only channel — she has now demonstrated willingness to route directly to James on technical depth questions. See #33 for full intel.
 
+## 2026-07-20: SM/SL staffing sync — the repair on stage, and it landed
+
+15-min sync (Andrew organizer, Dylan, Lili Li, Michael Weissinger §38, James; exec-visibility context: Bill Ready at MBR + Madrigal at ET AMA). Andrew pitched **full-stack virtual-team co-ownership as a precedent** ("no primary and secondary"; a backend owner who "feels the ownership... gets up in the morning and tries to come up with new ways," not a backlog line item). James's move: co-ownership from the CG side, align on the technical roadmap, **disagree-and-commit**, naming past historical-experiment indecisiveness. Andrew: **"100% that is exactly what we want."** Close: Lili + Andrew jointly — **"thank you so much for your ownership James!"** — in front of Dylan and Michael. This is the §9 mid-year XFN-patience feedback repairing on the exact surface it was authored from: Andrew's own ask, his own operating model, his PM chain. Commitment out: retrieval-side POC named by EOW 7/24 (Yali or Hedi — LWS lane; SM/SL strategic home = modeling over heuristics). Full debrief: `work/people/reorg_july2026/reorg_followups.md`.
+
 ---
 
 # 10) Darren Regers — Sr. EM → Director, Infrastructure (promo official 2026-04-16)
@@ -1436,6 +1440,10 @@ Following Anna conversation + Tim conversation + Slack-verified org chart (see [
 - **The real repair moment = her next ask of James's team.** The original wound was "stop coming to us"; the healing inverse is generous, fast, easy help the next time she needs something. If the XFN self-serve framework ships (§9 H2 moves), it depersonalizes the entire friction class — mundane asks get a paved road instead of a gatekeeper.
 - **Horizon: months, not weeks.** Wariness decays through repeated uneventful exposure, not through words. Count neutral reps, not breakthroughs.
 - **Never route repair through Michael.** He manages her (likely) and is James's close ally — any hint she's being handled via her boss deepens the damage under a layer of politeness.
+
+## 2026-07-20: The repair moment arrived — and executed as designed
+
+Her SM/SL staffing ask became a 15-min sync (Andrew, Dylan, Michael, James). The operating plan above said the real repair = generous, fast, structured help on her next ask of James's team — that is exactly what ran: James offered named co-ownership of the retrieval side, asked her directly where asks get stuck, and committed a POC by EOW when she asked for one ASAP (she took Friday happily). She closed with **"thank you so much for your ownership James!"** (jointly with Andrew), in front of her likely new boss Michael. First substantive positive interaction since the office-hours incident. Status shift: wariness → a working-partnership channel opening. The POC (Yali or Hedi) becomes her day-to-day contact and the Raymond-facing channel, keeping James at warm EM altitude per design. Keep counting neutral-positive reps — this was the first big one, but the horizon is still months.
 
 ---
 
@@ -1885,7 +1893,7 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 - §26/§27-era CSI context: Kent Jiang (CSI Sr EM nominee, unity) — see `self/writing_style/peer_feedback_examples.md` for James's prior promo feedback on him.
 - `self/writing_style/peer_feedback_2026/rahul_sharma_promo.md`
 
-# 38) Michael ⟨surname pending⟩ — PM Director, joining Mon 2026-07-13
+# 38) Michael Weissinger — PM Director (started Mon 2026-07-13; surname confirmed 2026-07-20)
 
 **Status:** Added 2026-07-09, ahead of his start date. Fill out once he lands.
 
@@ -1908,6 +1916,10 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 - §9 Andrew — his feedback names the interface Michael now manages from the other side
 - §21 Lili Li / §20 Akshanta — likely or possible reports; capture-risk population
 - `work/people/dylan_archive.md` — the confidential "Michael close" flag (pre-OOO)
+
+## 2026-07-20: First live working meeting — SM/SL staffing sync
+
+Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched James receive a joint "thank you for your ownership" from Andrew + Lili. A strong first exhibit on exactly the eng↔PM interface he was hired to manage from the PM side — no capital spent, formed his own read from the room (per the operating plan above).
 
 ---
 
