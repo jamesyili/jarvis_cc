@@ -84,7 +84,7 @@ Other CTO direct reports (outside Jeff's chain):
 - **Piyush:** IC16 MLE, technical lead for UPP Retrieval. Most performant IC on team. Holds core retrieval architecture context.
 - **Cross-org partners (non-exhaustive):** ATG, ML Infra/Core Infra, Notifications ML, Growth/Activation, UU (User Understanding), Blending, Search/Related Pins surfaces
 
-### Notable: Raymond Su
+### Notable: Raymond Hsu
 Reports to Tim Leung. Was the previous HF CG manager before James joined above him. Transitioned back to IC unwillingly. Holds resentment toward James. Not an active risk but worth tracking.  
 
 ### SSJ reorg (Kurchi's org) — effective 2026-05-01

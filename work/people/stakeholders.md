@@ -247,6 +247,10 @@ Markdown
 
 > **Meta-goal:** consistently reduce Dylan’s cognitive load while increasing her confidence that I can scale impact without adding noise.
 
+## 2026-07-22 — coaching point: "learn how to motivate people"
+
+Dylan explicitly named **motivating people** as something she wants James to grow into, and taught it live via a worked example: to motivate **Jeff**, she anchored on **Matt Madrigal's ads priorities** (Jeff's boss cares about ads → ads collaboration is Jeff's incentive), and framed the SSJ-on-UPP friction as a preview risk — *"if it's this hard to get leaders to work together under Jeff in Core, how does it work when we go to ads?"* It worked: Jeff immediately pointed **Andrena (Dir, TPM — §48)** at the ads-collaboration area. **Takeaway to internalize:** motivation = find the other party's real incentive (often their boss's priority) and connect your ask to it. James applied it in the same conversation — offered the UPP-retrieval-in-P2P launch candidate as the ads-collaboration proof point; Dylan endorsed using it "to push things forward." Full context: §5 Jeff 2026-07-22 update.
+
 ---  
   
 # 2) Anna — Political Sponsor & Strategic Amplifier (Retentive Recommendations)  
@@ -725,6 +729,19 @@ UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team
 - **Cadence:** Quarterly "Vision/Ambition" check-ins (Office Hours are perfect). Keep tactical updates for Dylan.
 
 > **Meta-goal:** Position myself as his **"primary source of ground truth"** for how AI is actually changing the engineering workflow on the ground.
+
+## 2026-07-22 update — Jeff's three priorities (via Dylan) + EM review + culture-change mandate
+
+Dylan brought James + Dhruvil **three priorities she's carrying from Jeff**; a quick EM review with Jeff laid out his challenges directly.
+
+**The three priorities:**
+1. **See More / See Less (SM/SL).** A **Bill Ready (CEO)** focus area → must be staffed. James's response already in motion: Yali drives retrieval side + Raymond Hsu; talking-points meeting with Andrew/Lili/Michael/Dylan on 7/23 (see `reorg_july2026/reorg_followups.md` #1).
+2. **AI / GPU usage down.** Dylan emphasized. **James has an operational plan — handled** (tracked in `work/projects/cost_investigation_2026.md`); no action needed from Leo, just logged as important.
+3. **Cost tracking.** The org sits under Jeff's Core org **~$5M/yr over budget**; James's own dig found **>$1.8M/yr over under Dylan alone.** James is **driving the budget investigation for Dylan starting 7/23** — ICs + team leads being looped; Dhruvil pre-warned, will lend someone. Full workstream: `work/projects/cost_investigation_2026.md`.
+
+**Culture-change mandate (the big one).** Jeff wants the org **working differently** — he repeatedly cited **AI pods: cross-org virtual teams that move fast and deliver with little process.** He wants teams to **build bottoms-up without heavy leadership alignment**, because *alignment is what's slowing things down.* Delivered in the meeting and reinforced in Dylan's follow-up 1:1. **Strategic note:** this is near-identical to the pod-autonomy / own-a-problem-move-without-permission theme in James's org-design docs (currently an undercurrent) — Jeff's mandate makes naming it explicitly a *read-the-room* move, not overreach.
+
+**Motivation / political read (from Dylan's follow-up):** the culture push likely traces to Dylan telling Jeff about the **difficulty working with SSJ on UPP** (SSJ's blocking → "partial/tenth-full UPP" framing — controlling a subset of UPP projects while keeping their eng resources; even Jaewon is fed up, pushing "substance over packaging" — see `upp_retrieval_em.md`). Dylan's lever to *motivate Jeff*: **Matt Madrigal's (CTO, Jeff's boss) priorities center on ads** → collaboration-with-ads is Jeff's incentive. Her framing: *"if it's this hard to get leaders to work together under Jeff in Core, how does it work when we go to ads?"* Jeff responded immediately by having **Andrena (Director, TPM — new §48)** lean into the ads-collaboration area. **James's move:** surfaced the upcoming **UPP-retrieval-in-P2P launch candidate** to Dylan as the proof point → Dylan: *"that's great, let's use it as an opportunity to push things forward."*
 
 ---
 
@@ -1354,7 +1371,7 @@ Following Anna conversation + Tim conversation + Slack-verified org chart (see [
 - **James does NOT take Tim or client engineering** — firm constraint. *"It'll take a lot to convince me otherwise. It just doesn't make sense unless I have Tim reporting to me and grow his client engineering scope more, which then doesn't make too much sense for Yan."*
 - **ngAPI backend engineers may extend into Unity** — strengthens cross-stack linkage; backend engineers gain growth scope; Unity capability concentrated where James's engineers already have depth.
 
-## Notable: Raymond Su
+## Notable: Raymond Hsu
 - Reports to Tim. Was the previous HF CG manager before James joined above him. Transitioned back to IC unwillingly by Dylan and James's decision. Holds resentment. Not an active risk but worth awareness.
 
 ## Operating plan
@@ -1938,6 +1955,9 @@ Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched Ja
 - At the ELT (UPP expansion, same day): asked **"how can we leverage user intent clusters as part of UPP — at a detail level, what's the interplay between user intent modeling and UPP?"** CTO engaging on mechanism. Two James-coded programs (Anticipation substrate + UPP platform) connected at CTO altitude in one question.
 - Follow-up play: 1-pager on the interplay (conditional retrieval socket → latent intent in FM → predicted intent/pUIC as the anticipation unlock) — Madrigal retells mechanisms externally; Jeff forwards 1-pagers.
 
+## 2026-07-22 update — ads is the lever into Jeff
+- Per Dylan (§1 Dylan 7/22 coaching point; §5 Jeff 7/22): **Madrigal's priorities center on ads, and that is how you motivate Jeff** (his boss). Collaboration-with-ads = Jeff's incentive. Reinforces the existing Ads×UPP thread (§40 Dinesh, §41 Jiajing, GPU-retrieval interest above) — the CTO's ads focus is now a *named motivational lever*, not just a demand signal. Jeff pointed Andrena (Dir TPM, §48) at the ads-collaboration area.
+
 ## Open
 - No direct James ↔ Madrigal relationship yet — group discussions so far. Watch for whether the GPU retrieval + intent-modeling interest turns into asks routed through Rajat/Jeff.
 
@@ -2059,3 +2079,13 @@ Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched Ja
 **⚠️ Protected source** — never surface to Dhruvil or up Kurchi's chain that this came from Sai/Tie. Trust perimeter matches the other Kurchi-side intel: Dylan only, abstracted form only.
 
 **Open:** surname, level, exact team boundary vs. Sai's retrieval org.
+
+---
+
+# 48) Andrena ⟨surname pending⟩ — Director, TPM (added 2026-07-22)
+
+**Role:** Director of TPM. Surfaced 2026-07-22 when **Jeff pointed her at the ads-collaboration area** in immediate response to Dylan's "collaboration matters more when we go to ads" framing (see §5 Jeff 7/22 + §1 Dylan 7/22).
+
+**Why it matters:** She's the TPM leadership now leaning into cross-org / ads collaboration — the exact space where James's UPP-retrieval-in-P2P launch candidate is positioned as the proof point Dylan wants to "push things forward." Likely a process/coordination ally (or gatekeeper) for the ads-collaboration narrative Jeff is being motivated by.
+
+**Open:** surname, exact reporting line, scope of her TPM remit, and whether her involvement helps or adds process to the UPP×ads push.

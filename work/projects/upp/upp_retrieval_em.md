@@ -4,6 +4,18 @@
 
 ---
 
+## July 22, 2026 Update — SSJ "partial-UPP" politics escalate to Jeff; P2P launch candidate = the ads-collaboration proof point
+
+**Captured from James's context dump after Dylan's 3-priorities briefing + EM review with Jeff (2026-07-22):**
+
+- **SSJ politics have escalated to VP altitude.** Dylan told Jeff about the **difficulty working with SSJ on UPP.** The framing has shifted from outright *blocking UPP* to a **"partial / tenth-full UPP" scheme** — SSJ controls a *subset* of projects within UPP while continuing to leverage their own engineering resources as they see fit. Read: an instrument-of-ownership-wrestle (consistent with the Kurchi "wrestling for ownership under UPP" posture, stakeholders §6 / §47). It's a packaging play, not a substance disagreement.
+- **Jaewon is fed up with the packaging games too.** His words: *let's not talk more about packaging — what's the substance here, how do we move beyond the package?* An SSJ-side voice pushing for substance over political framing = a potential opening (align on the real technical work, route around the ownership theater).
+- **The culture-change mandate likely traces here.** Per Dylan, Jeff's org-wide "AI pods / move fast / build bottoms-up without heavy leadership alignment" message (stakeholders §5 Jeff 7/22) was plausibly *motivated by* this SSJ-on-UPP friction — leadership-alignment overhead is exactly what's slowing UPP expansion down.
+- **Motivating Jeff runs through ads (Madrigal).** Dylan's lever: Madrigal (CTO, Jeff's boss) cares about ads → ads collaboration is Jeff's incentive; *"if it's this hard under Jeff in Core, how does it work in ads?"* Jeff responded by pointing **Andrena (Dir TPM, stakeholders §48)** at the ads-collaboration area.
+- **James's move — the P2P launch candidate as proof point.** James surfaced the **upcoming UPP-retrieval-in-P2P launch candidate** to Dylan as the concrete win to push the ads-collaboration narrative forward. Dylan: *"that's great, let's use it as an opportunity to push things forward."* Ties the positive P2P v0 results (7/13 entry) to the exec ads agenda — the launch becomes the vehicle, not just a result.
+
+---
+
 ## July 13, 2026 Update — P2P v0 results positive; V1 joint planning; Search resourcing hesitant; ELT presentation upcoming
 
 **Captured during ELT prep (James, 2026-07-13):**

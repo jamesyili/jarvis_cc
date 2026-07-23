@@ -15,8 +15,21 @@ What the merger buys us:
 - Routing and notification norms installed as org policy (see Ownership below) instead of rediscovered each quarter. This is the structural answer to the XFN partnership feedback.
 - A small, nimble Reflex vTeam accelerating recsys improvements across every leg.
 - Cleaner peer seams with ranking (Dhruvil) and surfaces (Yan), because our side of each seam has one owner.
+- Pods that own a Pinner problem end to end, with the decision rights to move on it without cross team permission.
 
 Honest boundary: the cross org seams with Tim and Yan stay cross org and get the notice norms below. What this merger dissolves is the intra anticipation seams, which were the more expensive ones.
+
+## Charter
+
+The org runs three subcharters, all carrying the same topline goals: **SSv2, WAU, and Cost Savings.**
+
+| Subcharter | Scope |
+|---|---|
+| **Anticipation & Exploration** | pUIC (model based and LLM based), Retentive Recs, Unified Explore Backend |
+| **Retrieval Modeling** | Intelligent Boards, Recommended Boards, LWS (lightweight scoring) |
+| **UPP & Reflex** | UPP, the shared retrieval framework the modeling charters build on; Reflex and agentic dev velocity; Foundations & Efficiency (responsiveness, L1 utility, cost) |
+
+CLR converges into one of the first two subcharters at the settle point, sized by where headcount lands.
 
 ## Clear Outcomes
 
@@ -34,7 +47,7 @@ Today, anticipation, retentive recs, and intelligent boards advance on parallel,
 - **A single personalization backbone.** pUIC, Retentive Recs, and Intelligent Boards depend on the same user representation and retrieval substrate. UPP becomes the shared framework both CLR and LWS build on. We build the substrate once, centrally, and the modeling charters consume it.
 - **Shared LLM needs.** LLM based pUIC, RecGPT / Generative Retrieval, and board recs lean on the same LLM inference and serving stack. Consolidated, that is one investment and one set of hard won lessons instead of three.
 - **Reflex and AI tooling as a shared accelerator.** One vTeam productizes AI leveraged engineering (Pinvestigator, Pinkerton) as internal platform that every leg adopts.
-- **Modeling synergy between board recs and retrieval modeling.** They are close cousins. Daniel's leg colocates board recs modeling with LWS scoring modeling, so the synergy lives inside one charter instead of across a team seam.
+- **Modeling synergy between board recs and retrieval modeling.** They are close cousins. The Retrieval Modeling subcharter colocates board recs modeling with LWS scoring modeling, so the synergy lives inside one charter instead of across a team seam.
 
 ## Additional Design Considerations
 
@@ -48,9 +61,13 @@ Beyond the transition, the design converges to a minimal set of direct reports f
 
 **Alim Virani (he/him), incoming EM, Anticipation & Exploration.** Alim is motivated by growth into senior leadership and by running a team that visibly delivers. His stated management instinct, make himself unnecessary as fast as possible, fits a strong delegation model, and his people leadership answers were the cleanest of the interview loop. The one thing I am watching: he frames ambition self first, and I will coach it toward org needs first. Setup: a focused, deliverable rich charter on day one, with both pUIC experiments landing inside his first month, and named senior support around Chuxi's ramp (Roderick's seniority, Ling's delivery). One honest gap: the initial pod differs modestly from what he heard while closing, mainly on senior anchoring. I will reset that directly in his pre start call, and Balaji's placement (input ask below) bears on it.
 
-**Daniel Liu, inherited EM, Scoring & Boards Modeling.** Daniel is technical, straightforward, diplomatic, and delivers, and he wants his team on AI and ML modeling work, which is exactly what his charter is: frontier ML modeling that drives metric gains and publishes (KDD, RecSys). He retains his boards surfaces (Recommend a Board, Intelligent Boards) and inherits LWS. He sheds the retentive recs part of his team to Alim at the settle point, so his team consolidates around one coherent modeling charter. Because he is onboarding a whole new org, I am phasing his scope rather than reshuffling everything while his team lands. His motivation is fed by the charter itself. First real conversation happens right after your announcement, with every move framed as scope following people.
+**Daniel Liu, inherited EM, Retrieval Modeling.** Daniel is technical, straightforward, diplomatic, and delivers, and he wants his team on AI and ML modeling work, which is exactly what his charter is: frontier ML modeling that drives metric gains and publishes (KDD, RecSys). He retains his boards surfaces (Recommend a Board, Intelligent Boards) and inherits LWS. He sheds the retentive recs part of his team to Alim at the settle point, so his team consolidates around one coherent modeling charter. Because he is onboarding a whole new org, I am phasing his scope rather than reshuffling everything while his team lands. His motivation is fed by the charter itself. First real conversation happens right after your announcement, with every move framed as scope following people.
 
 **Piyush Maheshwari, retrieval framework anchor (TL).** Piyush is motivated by senior TL scope, and the retrieval architecture is his proving ground. He holds the full retrieval architecture context post Bowen and is effectively the TL of TLs across CLR, LWS, and UPP today. Rather than let the reorg fragment that, I am resolving it by role: UPP stays with me as the org's shared retrieval framework, and Piyush anchors it. He owns the foundation the modeling charters consume, which is a stronger and more durable senior TL story than TL by adjacency. He is the single point of failure on UPP today, so I am hedging with Zihao's ramp on cross surface training.
+
+**Bella Huang, Staff, Generative Retrieval.** Bella is the Staff anchor for the RecGPT / Generative Retrieval incubation and a continuity anchor through the transition. She is motivated by frontier generative work; the incubation gives her a clear mandate with explicit graduation criteria, and her scope grows as the bet matures.
+
+**Balaji Rengarajan (he/him), Staff, Intelligent Boards.** Balaji is the senior Staff engineer on Intelligent Boards, joining with the Curation ML team. Two placements fit: platform TL within Retrieval Modeling, or Staff anchor under Anticipation & Exploration. I will place him inside the observation window, after mapping the inherited workstreams with Daniel; it touches what Alim heard while closing, so your read matters.
 
 ## Proposal
 
@@ -60,7 +77,7 @@ Accountability runs along four axes:
 
 1. **Metrics.** Each leg owns named business metrics with a single threaded owner: Alim on retention and fresh content discovery, Daniel on modeling metric gains across boards and LWS scoring, my direct pod on Reflex adoption and GenRet incubation milestones. No metric has two owners.
 2. **0 to 1 initiatives.** Reflex, Generative Retrieval, and LLM based pUIC each have a named incubation owner and explicit graduation or sunset criteria, so they do not drift into orphan science projects. GenRet is time boxed with a settle point review.
-3. **Prioritized support for other Pinterest workstreams.** A front door model gives you, Andrew's org, and PMs a named owner per domain, so cross team asks land with context instead of being improvised. This is the structural fix for the routing gap Cupcake exposed and for the XFN feedback.
+3. **Prioritized support for other Pinterest workstreams.** A front door model gives you, Andrew's org, and PMs a named owner per domain, so cross team asks land with context instead of being improvised. This is the structural fix for the routing gap Cupcake exposed and for the XFN feedback. It is a routing map for asks originating outside the org, not a gate on our own pods; internally, each pod owns its Pinner problem and moves on it directly.
 
    | Domain | Front door (EM) | Technical owner |
    |---|---|---|
@@ -69,7 +86,7 @@ Accountability runs along four axes:
    | Generative Retrieval / RecGPT | Me (incubation) | Bella |
    | Reflex + AI tooling | Me | JJ (Build); Dafang overall |
    | UPP framework (supports CLR + LWS) | Me | Piyush |
-   | Boards + LWS scoring modeling | Daniel | boards + LWS TLs |
+   | Retrieval Modeling (boards + LWS scoring) | Daniel | boards + LWS TLs |
    | CLR retrieval modeling | Me day 1, Alim at settle | Devin |
    | Foundations & Efficiency (responsiveness, L1 utility, cost) | Me | JJ · Rui |
 

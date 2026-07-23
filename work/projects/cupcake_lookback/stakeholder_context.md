@@ -56,7 +56,7 @@ James's read: cordial but guarded. She asked about the source of tension between
 
 ---
 
-## Raymond Su — the upstream root cause
+## Raymond Hsu — the upstream root cause
 
 **Background James provided this session (not previously fully captured in stakeholders.md — file currently has 3-line "Notable" entry under Tim only; recommend upgrading to a full stakeholder profile):**
 
@@ -72,7 +72,7 @@ James's read: cordial but guarded. She asked about the source of tension between
 **Dylan's coaching of Tim:** Dylan has given Tim the same feedback about Raymond, but asked Tim to **form his own judgment**. Raymond is new to Tim's team. Tim needs runway. James has consciously chosen not to push Tim faster because that would undercut Dylan's coaching of Tim.
 
 **2026-07-13 — Raymond re-surfaces as the SM/SL retrieval POC (name confirmation + live-thread dynamic):**
-- **"Raymond Hsu" (Slack spelling) = Raymond Su = this same person.** Hsu/Su are romanizations of the same surname; role match (ex-HF-CG manager, managed out to IC under Tim, underperformer per Dylan+James, resentment) is unmistakable. Recording the equivalence so future sessions don't split them (per the `check-existing-context` near-match-name heuristic added same day — this is the *same*-person confirmation case).
+- **Raymond Hsu (canonical spelling) — also romanized "Raymond Su" in older notes; same person.** Hsu/Su are romanizations of the same surname; role match (ex-HF-CG manager, managed out to IC under Tim, underperformer per Dylan+James, resentment) is unmistakable. Recording the equivalence so future sessions don't split them (per the `check-existing-context` near-match-name heuristic added same day — this is the *same*-person confirmation case).
 - **He is Lili Li's named tech lead / de facto POC on SM/SL** (see-more/see-less signals) and the retrieval-side POC by default. So the Andrew-feedback repair opportunity (help Lili on SM/SL retrieval — stakeholders §21) **routes through the exact person who is the upstream root cause of the Lili friction and who resents James.** James also notes he and Raymond "see things differently" historically → a James↔Raymond technical debate in front of Lili would re-confirm the very XFN-friction Andrew flagged.
 - **Design implication (the crux):** James stays at EM/PM-facing altitude with Lili (warm, sponsoring); **James's own IC is the Raymond-facing technical channel** (IC-to-IC), so any disagreement happens without James's loaded history and off the PM-visible surface. Naming a clean retrieval owner on James's side is simultaneously (a) Andrew's literal ask, and (b) the durable dissolve of the original friction — Lili gets a real working partner and routes around the Raymond gap permanently. Constraint unchanged: don't trash Raymond to PMs (leak path + James's own 2025 review frames the transition as a *success*); let the named-owner structure make any Raymond non-engagement visible on its own.
 
