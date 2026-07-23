@@ -36,6 +36,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 - **frame-life-plans-by-age** — multi-year life/financial timeline for James → index by his age (+ kids' ages/departures), calendar years in parentheses; "at 45" lands, "in 2032" doesn't.
 - **avoid-ai-prose-tells** — drafting in James's voice → strip em-dash overuse, rule-of-three, vague grandiosity, epigram verdict sentences; evidence the reader can check; first person ("I", not "Leo").
 - **one-home-per-fact-in-multisection-docs** — drafting multi-section docs → each fact gets exactly one home section; collapse overlaps (benefits vs. outcomes, ownership vs. charter) at structure level before drafting, not after James flags wordiness.
+- **reconcile-sibling-doc-versions-before-sending** — about to send/cite a doc that has variant siblings (voice A/B, exec vs direct, section extracts) → check timestamps + cross-version consistency first; reconcile or flag stale variants before sending, never ship the stale one silently.
 - **credit-provenance-precisely** — perf/promo narrative crediting someone with originating a vision/initiative → verify provenance against context first; state the real contribution (connected/executed/landed), never upgrade to "shaped/created" for punch.
 - **prefer-chat-synthesis-during-iteration** — real-time iteration → default to in-chat synthesis; don't auto-write a doc unless James asks for a durable artifact.
 - **standalone-evaluation-no-comparative-in-doc** — durable eval doc → absolute-bar and standalone; comparative framing stays in chat.
