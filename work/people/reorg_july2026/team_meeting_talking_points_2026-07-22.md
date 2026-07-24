@@ -42,6 +42,14 @@
 - **"Is this about cutting headcount?"** → No — this is a growth-driven change, not a cost action. *(Keep any individual performance matters entirely separate and confidential; do not let anyone read them into the reorg.)*
 - **"What about our current XFN partners / the Yan-side work?"** → Continues. Curation Revisitation stays in Yan's org, so we'll keep working across both.
 
+### Added 7/23 — sharper / practical questions this team will actually have
+- **"The team's called *Retrieval and Anticipation ML* — does that mean curation is being deprioritized or folded into retrieval?"** → No. The name reflects the broader charter the combined team now owns; curation-quality modeling is a core part of it, not a footnote. The rename is about being inclusive of the full scope, not ranking one area over another — and Daniel continues to lead the curation work. *(This is the anxiety the name itself creates — have the answer crisp.)*
+- **"Why bring in Alim from outside instead of growing Daniel or one of us into it?"** → Alim adds leadership *capacity* for a charter that's getting bigger — it doesn't take anything from anyone. Daniel continues to lead Curation ML, and the growth paths on this team expand as the org's ambition goes up. *(Additive framing. Don't over-explain or compare people.)*
+- **"Is Yan okay? Did he lose the team?"** → Yan continues to lead Personalized Experience. This is an org-level scope realignment, not a reflection on Yan — I'm grateful for how he's led this team and we'll keep partnering closely. *(Don't speculate about Yan's situation or imply loss.)*
+- **"Is Daniel being downleveled — he reported to a Sr Manager, now reports to you?"** → No. Same team, same leadership of Curation ML, growing scope if anything. Reporting structure reflects org design, not his standing.
+- **"Who writes my review this cycle? Does calibration change?"** → For the current cycle, Daniel continues to own your review; how you're evaluated doesn't change mid-cycle. *(Confirm exact answer with Daniel + HR before the session — don't guess live.)*
+- **"Do our current roadmap commitments / OKRs still stand? What do we tell our PMs?"** → Yes — current commitments stand, keep delivering as planned. Externally: "same team, same roadmap, now with closer partners."
+
 ---
 
 ## Meeting 2 — James's original team (stay-with-James group)
@@ -67,6 +75,13 @@
 - **"Is my growth / promo path affected?"** → No change to how we handle growth. Those conversations continue with me as they always have.
 - **"Why is this happening / is something wrong?"** → Nothing's wrong. This is a growth move driven by priorities above us; it expands what we can do.
 
+### Added 7/23 — the selection anxiety + dilution, said plainly
+- **"How is it decided who moves to Alim vs. stays with you?"** → It's about matching people to the work and making sure everyone gets real manager attention as we grow — not a judgment on anyone. Nothing happens without a direct conversation with you first, and I'll be deliberate and transparent about it.
+- **"If I move to Alim, is that a demotion or a sign I did something wrong?"** → No. Distributing reports as the org grows is how everyone gets real support — it's a structural choice, not a performance signal.
+- **"Now that a whole team is joining, does my scope / surface shrink?"** → No — the surface is bigger, not smaller. The structure is designed so each area keeps a real owner; the aim is depth, not spreading everyone thinner.
+- **"You said 'focused investments' and 'greater leverage' — does that mean some of our projects are redundant and get cut?"** → The goal is to stop duplicating effort across the old org seam so we can invest deeper in the best version of each thing — that's leverage, not cuts. Nothing's being cut today; any reprioritization later is deliberate, with input and notice. *(This fear is triggered directly by the merger's own language — be ready for it in both rooms.)*
+- **"Is this the first of several reorgs — should we expect more?"** → The announced structure is the plan. We'll settle the internal details deliberately over ~2 months with your input, then get back to building. I'm not planning waves of change.
+
 ---
 
 ## Meeting 3 — Joint session (Wave-2, likely after the separate sessions)
@@ -80,8 +95,13 @@
 - **The bar** — this is a frontier ML org; the ambition is higher for everyone.
 - **Open door** — keep bringing questions; we'll keep answering as things become clear.
 
+### Added 7/23 — the "bigger = worse" doubts to preempt
+- **"Won't a bigger org mean slower, more layered decisions?"** → The opposite is the design goal — pods that own a problem end-to-end and decide close to the work. Bottom-up velocity is an explicit principle, not an afterthought.
+- **"How will the combined team be measured — what does success look like?"** → Same north stars (SSv2 / WAU / cost topline), now pursued with more of the stack under one roof. *(Confirm the exact metric set against the charter before saying numbers.)*
+- **"Will we actually operate as one team, or two teams under one name?"** → We integrate deliberately — one shared charter and one bar — while keeping the intact teams and leads through the observe window.
+
 ---
 
 ## Related actions (not talking points)
-- **Org name:** yours is set — *P13N Retrieval and Anticipation ML* (Dylan approved). Still need Dhruvil to land his (he's leaning *P13N Ranking and Blending*, wants UPP in somehow — the "…and Unification" joke aside, worth a real nudge so both names ship together in the announcement).
+- **Org name — RECONCILE (3 variants now in play):** Dylan approved *P13N Retrieval and Anticipation ML* (7/20); the 7/23 final follow-up email uses *Personalization Retrieval and Anticipation ML*; an earlier draft had *P13N CG and Anticipation ML*. Lock ONE string and make the announcement, this email, and these talking points all match it before anything ships. Still need Dhruvil to land his (he's leaning *P13N Ranking and Blending*, wants UPP in somehow — the "…and Unification" joke aside, worth a real nudge so both names ship together in the announcement).
 - **Announcement doc org chart** exposes your internal Dynamic Retrieval (Alim) split — flag to Dylan before 8/5 if it shouldn't be public yet (reorg_followups #10).
