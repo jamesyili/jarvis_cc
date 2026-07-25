@@ -26,6 +26,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 
 ## Decision / scope execution
 - **weigh-offered-stages-against-locked-design** — senior offers James a stage/channel (separate email, slot), peer just accepted the same → don't default-accept; weigh against James's own locked strategy + channel fit; declining can be the move.
+- **peer-flags-are-not-vetoes** — a peer raises a concern about a decided/approved call → weigh as courtesy input, don't declare the option off the table; check the decider's actual position + James's strength of claim; peer flags often deflate once scope is explained. (0.3)
 - **execute-after-decision-signal** — James stated a call or scoped work elsewhere → execute / drop silently; don't re-litigate, don't scope-check, don't re-ask an unanswered question.
 - **corrections-interrupt-by-design** — James interrupts with "before X, fix Y" → treat the correction as top priority, propagate across files, then resume.
 - **respect-scope-containment-signal** — James signals scope-pullback after Leo over-expanded → drop the deep thread, execute the contained ask; drop ratchet-counting on pushback.

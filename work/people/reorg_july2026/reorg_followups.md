@@ -16,7 +16,9 @@
 | 12 | **Dhruvil name change** — so both org names ship together in the announcement | James → Dhruvil | Before 8/3 heads-up | Dhruvil leaning **P13N Ranking and Blending**; wants UPP represented somehow (James's "…and Unification" joke aside). Nudge him to lock it. |
 | 13 | **Internal reorg timing** — can flex to ~1 week after Alim starts (7/27) for ramp room; **official Aug 5 announcement cannot slip** | James | — | Per Dylan 7/22 |
 | 7 | **SM/SL success-criteria discussion** — Dylan flagged "discuss further about setting success" | James + Dylan | Next 1:1 or async | Open |
-| 8 | **GDoc Proposal sections** (Ownership slim to routing+oncall / Transition / Longer Term / Workstreams & Leads) | James | Feeds leadership alignment 7/27 | Carried from 7/19 |
+| 8 | **GDoc Proposal sections** (Ownership slim to routing+oncall / Transition / Longer Term / Workstreams & Leads) | James | Feeds leadership alignment 7/27 | **REWORKED 7/24** → `org_design_doc_2026-07-24_exec_voice.md` (BLUF + Calls-I've-made + first-person pass + locked names). Remaining: reconcile vs direct_voice sibling, paste into Dylan's GDoc |
+| 14 | **Org name ratification + string reconciliation** — "P13N Retrieval and Anticipation" (locked 7/24, trims "ML") | James → Dylan | Before 8/3 | 30-sec Dylan confirm; then patch announcement email ("Personalization…ML" variant) + talking points to the locked string |
+| 15 | **IB placement settle gate** — stays Daniel now; gains-origin read (modeling vs surface-pairing) over ~2 months | James | Settle point (~60d) | Logged in 7/24 doc §Longer Term |
 | 9 | **Dinesh DM** | James | — | **SENT (confirmed 7/20).** Real team name still to capture in first conversation |
 | 10 | **Org chart in announcement doc shows Dynamic Retrieval (Alim) sub-team** — James's *internal* split visible on 8/5 if unedited | James → Dylan | Before 8/5 | Flag to Dylan if internal structure shouldn't be public yet |
 
@@ -32,6 +34,18 @@
 Announcement covers two changes: Blending → Ranking under Dhruvil (Rahul reports to him); Curation ML → CG org under James (Daniel Liu continues as lead, reports to James).
 
 ---
+
+## 2026-07-24 log
+
+### Org + team names LOCKED (session with Leo + Dhruvil Slack thread)
+
+- **Org name: "P13N Retrieval and Anticipation"** — Dylan's approved 7/20 string minus the redundant "ML" (everything in P13N is ML; Dhruvil's name has no "ML"), parallel to his "P13N Ranking and Blending." Pending: 30-second Dylan ratification of the trim; reconcile into announcement email + talking points (email currently says "Personalization Retrieval and Anticipation ML"). **This closes the 3-variant problem** flagged 7/23.
+- **Team names: Retrieval Foundations (James) / Retrieval Modeling (Daniel) / Anticipation Modeling (Alim).** Foundations = framework/substrate (UPP, CLR transitional, Reflex, F&E); Modeling = models on top (LWS preranking, IB, Rec Boards). "Interest Modeling" held as fallback for Alim's team if anticipation-naming ever gets real pushback. James's span target: UPP, CLR, Reflex + Foundations only.
+- **Portfolio-balance frame (James's):** every team needs a reliable gains engine + 0-to-1 bets; no all-risk team. Engines today: LWS, CLR, GenRet. **GenRet → Alim at settle** as Anticipation Modeling's engine (RR/pUIC/exploration are all risky). **IB stays with Daniel for now — 2-month synergy gate:** if gains come from modeling → stays; from surface pairings (notifications/Explore) → moves to Alim.
+- **Dhruvil Slack thread:** raised whether "anticipation" in a team name would land badly with Rahul (his team: DR, pRelevance, RR) → deflated after James explained scope ("got it"); he's now considering renaming PE too ("might as well" — James). **Scope boundaries clarified: DR = Downstream Reward + pRelevance are Dhruvil's; RR is James's large investment (Rahul ~0.5 engineer).** Dhruvil also wondering if Dylan wants "unification" called out in the P13N parent name — Dylan's call.
+- **Anna intel (new):** proposes a **single LLM personalization backbone** — LLM pUIC, Recsplanation, Board Titles, pRelevance (actually Dhruvil's), New HF Tuner, SM/SL — and thinks **Daniel is best fit to lead it**. Not a day-1 move (charter is Retrieval Modeling); logged as a future-thread in `daniel_liu_team_2026-07.md`.
+- **Correction of record: LWS is a preranking model, not "scoring"** — descriptors updated in the 7/24 doc.
+- **Exec doc reworked** → `org_design_doc_2026-07-24_exec_voice.md`: BLUF summary (proposal / calls made / 2 decisions needed from Dylan up top), "Calls I've made" restored from v2, first-person authorship pass, names + IB gate folded in. NOT sent; direct_voice sibling still to reconcile before GDoc paste.
 
 ## 2026-07-20 log
 
