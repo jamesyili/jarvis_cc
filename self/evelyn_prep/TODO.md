@@ -7,7 +7,7 @@
 ## Do now (summer–fall 2026)
 
 - [ ] **Verify our high-school boundary** — MVLA address lookup (or call the district office) for the exact Whisman Station address; confirm MVHS. 10 minutes, de-risks the whole public-fallback assumption.
-- [ ] **Speech academy trials** — book trial classes at **Communication Academy** (Palo Alto) and **YG Academy** (505 E Charleston Rd, Palo Alto). Evelyn picks one for fall.
+- [ ] **Speech academy — pick one for fall** — field expanded + verified 7/25, full ranked list in [`speech_debate_options_2026-07.md`](speech_debate_options_2026-07.md): **Communication Academy** (real campus = 1054 S De Anza Blvd; "Palo Alto" = classes via PA Rec, ~10 min) · **Golden State Academy** (Cupertino, $975/sem — best on-paper fit: Gr 4–5 interp/storytelling + team debate) · **Athens Debate** (reg open now, Aug 29 start, $1,395/sem) · **YG** ($4,360/yr Cupertino — the competition-pipeline play, not the opener; PA site likely closed ⟨verify⟩). No academy advertises trial classes — "trial" = one term at one place, or call and ask. Evelyn picks.
 - [x] **Math lane — DECIDED 7/18: Think Academy** (James's call; supersedes the AoPS/Beast trial). Keep the frame regardless of provider: coach "checking your work" as a craft skill, never speed.
 - [ ] **Set up Twine** with her; first branching-story project (her novels + her vibe-coding interest; AI as world-building collaborator, parent alongside).
 - [ ] **Start the mentor search** — playbook below. Writing side first (it's productized), debate side after she's enrolled in an academy.
@@ -17,10 +17,10 @@
 
 ## Look into (research/verify, no commitment)
 
-- [ ] ModernBrain — does it actually have a South Bay/Peninsula location? (Gemini claim, unverified; our verified academies are CommAcad + YG.)
-- [ ] Peninsula Youth Theatre (Mountain View) improv/theater sessions — creative generation + live articulation in one package.
-- [ ] Odyssey of the Mind / Destination Imagination — is there a local elementary team?
-- [ ] History Bee elementary/MS divisions locally (memory-forward competition, fits her exactly); NAQT quiz bowl later.
+- [x] ModernBrain — **resolved 7/25: no Bay Area presence** (own site = SoCal/TX/online; the "Hayward" page is a thin no-address landing page, out of radius anyway). Eliminated.
+- [x] Peninsula Youth Theatre — **verified 7/25: "Exploring Improv" (ages 9–11)** at the MV studio, 2510-A Old Middlefield Way. Fall catalog posts ~Aug → do now: mailing list + caitlyn@pytnet.org / (650) 988-8798.
+- [x] Odyssey of the Mind / DI — **resolved 7/25: no local elementary team found**; joining = starting one (~$385 OotM fees / $165 DI + adult coach). Parked unless a Challenger parent group materializes.
+- [x] History Bee — **verified 7/25: Elementary Division, open parent-sponsored entry.** Free sponsor account → free 20-min online qualifier (opens mid-Sept) → buzzer Regional Finals ($47; Santa Clara site precedent Dec 2025). Do now: create the sponsor account. NAQT quiz bowl stays a later option.
 - [ ] Khan Lab School (Mountain View) — tour-only wildcard for 2027; no elite-matriculation track record, so calibration not candidacy.
 - [ ] Sacred Heart Prep opens 2027-28 apps fall 2026 — only matters if SHP makes the list (currently it doesn't).
 - [ ] Irena Smith (Palo Alto IEC) — is she taking clients for ~2029-30? Also start the IECA/HECA Peninsula directory list + Berkeley Parents Network threads. No engagement yet — shortlist only.

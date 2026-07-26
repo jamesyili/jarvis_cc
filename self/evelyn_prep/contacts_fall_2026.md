@@ -2,12 +2,22 @@
 
 **As of 2026-07-18.** Her lineup: speech academy (trial both → she picks) · Think Academy math (decided) · table tennis (Leo rec: ICC) · reading/writing at home (optional programs below).
 
-## Speech academy — trial both, she picks
+## Speech academy — pick one, she picks (field expanded 7/25 — ranked list in [`speech_debate_options_2026-07.md`](speech_debate_options_2026-07.md))
 
 | Program | Where | Contact |
 |---|---|---|
-| **Communication Academy** | Cupertino + Palo Alto campuses | [communicationacademy.com](https://communicationacademy.com/) — register/contact via site |
-| **YG (Young Genius) Speech & Debate Academy** | Palo Alto (505 E Charleston Rd) + Cupertino + online | [bayareadebate.com](https://www.bayareadebate.com/) — register/contact via site |
+| **Communication Academy** | 1054 S De Anza Blvd #103, San Jose (Cupertino border); also via **Palo Alto Rec** classes ages 9–11 (~10 min) | [communicationacademy.com](https://communicationacademy.com/) · (408) 777-8876 · PA Rec portal: secure.rec1.com/CA/palo-alto-ca/catalog |
+| **Golden State Academy** | 20432 Silverado Ave #211, Cupertino ⟨verify in-person status⟩ | [thegoldenstateacademy.com](https://thegoldenstateacademy.com/) · (510) 270-8480 |
+| **Athens Debate** | 7280 Blue Hill Dr, San Jose (Cupertino/Saratoga border) | [athensdebate.com](https://athensdebate.com/) — fall reg open |
+| **YG (Young Genius) Speech & Debate Academy** | 20900 Stevens Creek Blvd, Cupertino + online (PA 505 E Charleston site likely closed ⟨verify⟩) | [bayareadebate.com](https://www.bayareadebate.com/) — application via site |
+
+## Speech-adjacent (composite training — improv, memory-competition, theater)
+
+| Program | What | Contact |
+|---|---|---|
+| **Peninsula Youth Theatre** | "Exploring Improv" ages 9–11, MV studio (2510-A Old Middlefield Way); fall catalog ~Aug | [pytnet.org](https://pytnet.org/acting-classes-camps/studio-classes/) · caitlyn@pytnet.org · (650) 988-8798 |
+| **History Bee (IAC), Elementary Div** | Free parent sponsor account → free online qualifier (mid-Sept) → buzzer regionals ($47) | [iacompetitions.com](https://www.iacompetitions.com/) — Sponsor Portal |
+| **Palo Alto Children's Theatre** | City-run classes ages 3–18; fall list needs a call (site blocks reads) | childrens.theatre@paloalto.gov · (650) 463-4930 |
 
 ## Math — decided
 

@@ -87,3 +87,6 @@
 | 2026-07-22 23:04 | gmail | [Leo] Yuke — options and rationale (2026-07-22) | /tmp/claude-1000/-home-james-src-leo/66ffeb3c-1631-405f-8b01-4625df639f2a/scratchpad/yuke_options_and_rationale_2026-07-22.md | to=jamesyili@gmail.com id=19f8d93a4ca35a0d |
 | 2026-07-23 20:40 | gmail | [Leo] Post-announcement follow-up — James's section (co-signed James + Dhruvil) | work/people/reorg_july2026/stability_email_FINAL_2026-07-23.md | to=jamesyili@gmail.com id=19f92362ca5b09e8 |
 | 2026-07-23 21:38 | gmail | [Leo] Reorg team meetings — talking points + anticipated Q&A | work/people/reorg_july2026/team_meeting_talking_points_2026-07-22.md | to=jamesyili@gmail.com id=19f926ad5aff36a5 |
+| 2026-07-25 15:16 | gmail | [Leo] Evelyn — Speech & Debate Options Near Mountain View | self/evelyn_prep/speech_debate_options_2026-07.md | to=jamesyili@gmail.com id=19f9b5a3891bdeca |
+| 2026-07-25 15:23 | gmail | [Leo] Bella Huang — H1 2026 Performance Feedback (DRAFT v0) | work/people/bella_huang_h1_2026_review_draft.md | to=jamesyili@gmail.com id=19f9b60875d7c87c |
+| 2026-07-25 17:02 | gmail | [Leo] Bella Huang — H1 2026 Performance Feedback (DRAFT v1) | work/people/bella_huang_h1_2026_review_draft.md | to=jamesyili@gmail.com id=19f9bba87e1e5d11 |
