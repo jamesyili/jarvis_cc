@@ -93,3 +93,4 @@
 | 2026-07-25 17:17 | gmail | [Leo] Yuke — H1 2026 Performance Feedback (DRAFT v1) | work/people/yuke_h1_2026_review_draft.md | to=jamesyili@gmail.com id=19f9bc881802cfd0 |
 | 2026-07-25 18:15 | gmail | [Leo] NLFU Slack message — for #p13n-growth-nlfu-leads, Monday 7/27 AM | work/projects/nlfu_slack_message_2026-07-27.md | to=jamesyili@gmail.com id=19f9bfdea02af0c4 |
 | 2026-07-25 20:16 | gmail | [Leo] Q3 2026 Operating Plan — priorities + time allocation | work/career/q3_2026_operating_plan.md | to=jamesyili@gmail.com id=19f9c6c675f561c6 |
+| 2026-07-25 21:00 | gmail | [Leo] To-do — Sunday 7/26 (before the week starts) | /tmp/claude-1000/-home-james-src-leo/44b278d5-d12c-4c95-9b68-56e8a6964837/scratchpad/todo_sunday_2026-07-26.md | to=jamesyili@gmail.com id=19f9c94dfe678cf6 |
