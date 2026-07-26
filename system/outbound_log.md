@@ -90,3 +90,6 @@
 | 2026-07-25 15:16 | gmail | [Leo] Evelyn — Speech & Debate Options Near Mountain View | self/evelyn_prep/speech_debate_options_2026-07.md | to=jamesyili@gmail.com id=19f9b5a3891bdeca |
 | 2026-07-25 15:23 | gmail | [Leo] Bella Huang — H1 2026 Performance Feedback (DRAFT v0) | work/people/bella_huang_h1_2026_review_draft.md | to=jamesyili@gmail.com id=19f9b60875d7c87c |
 | 2026-07-25 17:02 | gmail | [Leo] Bella Huang — H1 2026 Performance Feedback (DRAFT v1) | work/people/bella_huang_h1_2026_review_draft.md | to=jamesyili@gmail.com id=19f9bba87e1e5d11 |
+| 2026-07-25 17:17 | gmail | [Leo] Yuke — H1 2026 Performance Feedback (DRAFT v1) | work/people/yuke_h1_2026_review_draft.md | to=jamesyili@gmail.com id=19f9bc881802cfd0 |
+| 2026-07-25 18:15 | gmail | [Leo] NLFU Slack message — for #p13n-growth-nlfu-leads, Monday 7/27 AM | work/projects/nlfu_slack_message_2026-07-27.md | to=jamesyili@gmail.com id=19f9bfdea02af0c4 |
+| 2026-07-25 20:16 | gmail | [Leo] Q3 2026 Operating Plan — priorities + time allocation | work/career/q3_2026_operating_plan.md | to=jamesyili@gmail.com id=19f9c6c675f561c6 |

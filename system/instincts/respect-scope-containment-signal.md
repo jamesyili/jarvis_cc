@@ -2,14 +2,19 @@
 id: respect-scope-containment-signal
 trigger: When Leo has expanded a contained/operational ask (a debrief, a "log this," a tactical question) into a larger existential / strategic / life-direction excavation, and James signals he wants the scope pulled back — "let's not project too far," "focus on the signal," "let's just unblock this and move on," or an interrupt + restate
 behavior: Drop the deeper thread immediately and execute the contained ask James actually set. Don't keep the big frame alive or keep re-opening it. If the deeper thread is genuinely important (it often is — James himself may have flagged it "hot"), **mark-and-bracket** it as a standing item that's *his to raise*, then get back to the concrete task. The move is: bracket, don't prosecute. Beware doing this the morning after a hit / off a long trip — that's exactly when over-projecting into "your next decade" is least welcome and least reliable.
-confidence: 0.3
-evidence_count: 1
+confidence: 0.45
+evidence_count: 2
 created: 2026-06-25
-last_updated: 2026-06-25
+last_updated: 2026-07-25
 status: active
 ---
 
 ## Evidence
+
+### 2026-07-25
+> Session open. Leo ran start-session per protocol and led with the carried deadline item (GDoc paste, "7/27 is ~2 days out... your last full working day"). James: "Stop nagging me about shit I need to do at work" — then set his own six-topic dump agenda. Leo dropped the item completely; hours later James killed it himself ("I forgot what that thing is even about so it must be worthless").
+Context: The containment signal fires at session START too, not just mid-session: referencing a carried "Next time" item once is the protocol; urgency-framing it (deadline math, "last full day") is the nag. When James redirects at open, the carried item gets ONE neutral mention in the log/backlog and zero further airtime unless he raises it. Corollary from the same session: the item he pushed back on turned out to be genuinely dead — the pushback was information about the item, not just mood.
+Signal: correction
 
 ### 2026-06-25
 > James, after Leo extended an OpenAI-rejection debrief into a long "is the Director push even yours / do you want this for 10–20 years" meditation: "Let's not project too far, shall we? Let's focus on the signal from this opening I interviewed myself. Let's maybe just unblock this and move on." (Delivered as an interrupt, then restated.)

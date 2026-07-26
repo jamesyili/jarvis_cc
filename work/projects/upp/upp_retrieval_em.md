@@ -4,6 +4,18 @@
 
 ---
 
+## July 25, 2026 Update — V0/V1 both feeding P2P baseline; launch push across surfaces starts next week
+
+**From James's 7/25 context dump:**
+
+- **Piyush + Zihao have produced two model sets, now feeding at least the baseline of P2P (the production model).** Nomenclature locked: **V0** = non-scaled-up version, **no foundation-model component**; **V1** = has the **foundation-model component** (expected much more powerful).
+- **V0 online results are strong, but no top-line SSv2** — and the P2P team **keeps raising the baseline** (adding features etc.), so the comparison target moves.
+- **V1 still needs more time before going online.**
+- **HF + Notif surfaces: some progress, but slow.**
+- **James + Piyush aligned: push to launch across the board starting next week (~7/27).**
+
+---
+
 ## July 22, 2026 Update — SSJ "partial-UPP" politics escalate to Jeff; P2P launch candidate = the ads-collaboration proof point
 
 **Captured from James's context dump after Dylan's 3-priorities briefing + EM review with Jeff (2026-07-22):**

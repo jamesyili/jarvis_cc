@@ -6,7 +6,7 @@
 
 | # | Item | Owner | Due / Gate | Status |
 |---|------|-------|-----------|--------|
-| 1 | **SM/SL retrieval POC named** — committed to Lili in the sync | James | **EOW Fri 7/24** | **RESOLVED 7/22: Yali picked** (was "Yali or Hedi") — he drives the retrieval side **alongside Raymond Hsu** (Lili's side). LWS lane = strategic home (less heuristics, more modeling in LWS/CLR). **James scheduling a talking-points meeting 7/23 (tomorrow) with Andrew, Lili, Michael, Dylan to close the loop on retrieval-side ownership.** Devin = fallback; optional Yichi pair. Then pitch Yali → announce to Lili by Fri. Now framed as **Jeff priority #1** (SM/SL is a Bill Ready focus — see stakeholders §5 Jeff 7/22). |
+| 1 | **SM/SL retrieval POC named** — committed to Lily in the sync | James | **EOW Fri 7/24** | **RESOLVED 7/22: Yali picked** (was "Yali or Hedi") — he drives the retrieval side **alongside Raymond Hsu** (Lily's side). LWS lane = strategic home (less heuristics, more modeling in LWS/CLR). **James scheduling a talking-points meeting 7/23 (tomorrow) with Andrew, Lily, Michael, Dylan to close the loop on retrieval-side ownership.** Devin = fallback; optional Yichi pair. Then pitch Yali → announce to Lily by Fri. Now framed as **Jeff priority #1** (SM/SL is a Bill Ready focus — see stakeholders §5 Jeff 7/22). **CLOSED 7/25: staffed with Yali + announced — Andrew, Dylan, and Lily "loved it."** |
 | 2 | **Announcement paragraph rewrite** (Dylan assigned "please rewrite" in GDoc) | James | — | **DONE 7/20** — rewrite in doc, Dylan approved |
 | 3 | **Team rename ratification** — "P13N Retrieval and Anticipation ML" | Dylan | — | **~DONE 7/20** — Dylan gave James leeway on the name; carried in the approved paragraph. Dhruvil still owes a Ranking name |
 | 4 | **Comment reply to Dylan re: separate email** — decision: NO separate James email; light welcome reply-all + detail work directly with teams | James | — | **DONE 7/20** — reply sent |
@@ -17,7 +17,7 @@
 | 13 | **Internal reorg timing** — can flex to ~1 week after Alim starts (7/27) for ramp room; **official Aug 5 announcement cannot slip** | James | — | Per Dylan 7/22 |
 | 7 | **SM/SL success-criteria discussion** — Dylan flagged "discuss further about setting success" | James + Dylan | Next 1:1 or async | Open |
 | 8 | **GDoc Proposal sections** (Ownership slim to routing+oncall / Transition / Longer Term / Workstreams & Leads) | James | Feeds leadership alignment 7/27 | **REWORKED 7/24** → `org_design_doc_2026-07-24_exec_voice.md` (BLUF + Calls-I've-made + first-person pass + locked names). Remaining: reconcile vs direct_voice sibling, paste into Dylan's GDoc |
-| 14 | **Org name ratification + string reconciliation** — "P13N Retrieval and Anticipation" (locked 7/24, trims "ML") | James → Dylan | Before 8/3 | 30-sec Dylan confirm; then patch announcement email ("Personalization…ML" variant) + talking points to the locked string |
+| 14 | **Org name ratification + string reconciliation** | James → Dylan | Before 8/3 | **RESOLVED 7/25 — LOCKED string = "Personalization Retrieval and Anticipation"** (Dylan fine with it, per James: "lock it in until told otherwise"; supersedes 7/24's "P13N Retrieval and Anticipation"). Remaining: patch announcement email + talking points + org docs to this exact string before ship. |
 | 15 | **IB placement settle gate** — stays Daniel now; gains-origin read (modeling vs surface-pairing) over ~2 months | James | Settle point (~60d) | Logged in 7/24 doc §Longer Term |
 | 9 | **Dinesh DM** | James | — | **SENT (confirmed 7/20).** Real team name still to capture in first conversation |
 | 10 | **Org chart in announcement doc shows Dynamic Retrieval (Alim) sub-team** — James's *internal* split visible on 8/5 if unedited | James → Dylan | Before 8/5 | Flag to Dylan if internal structure shouldn't be public yet |
@@ -34,6 +34,14 @@
 Announcement covers two changes: Blending → Ranking under Dhruvil (Rahul reports to him); Curation ML → CG org under James (Daniel Liu continues as lead, reports to James).
 
 ---
+
+## 2026-07-25 log
+
+- **ORG NAME LOCKED: "Personalization Retrieval and Anticipation"** — Dylan is fine with it (James, 7/25: "lock it in until told otherwise"). Supersedes the 7/24 "P13N Retrieval and Anticipation" string; closes follow-up #14 pending the string patch across email/talking points/docs.
+- **Alim's exact title CONFIRMED: ML Engineering Manager II (M16)** — closes the 7/23 carried item.
+- **Dhruvil's co-signed email half: dropped from Leo carry** per James (he handles directly).
+- **GDoc-paste item (follow-up #8's remaining step) KILLED by James** in the Q3 planning pass ("forgot what it's about → worthless"); alignment is running through live channels. The exec_voice doc stays on file as reference.
+- Org-proposal additions (POC table + QC mechanism) filed above; SM/SL row 1 closed (Yali announced, "loved it").
 
 ## 2026-07-24 log
 
@@ -69,9 +77,9 @@ Announcement covers two changes: Blending → Ranking under Dhruvil (Rahul repor
   > Excited to welcome Daniel and the Curation ML team! Their work on recommendation quality speaks for itself, and bringing it together with retrieval opens up a lot we've wanted to do jointly. Thank you to Yan and the Personalized Experience team for their leadership of this work so far. Looking forward to continued close collaboration, especially on the curation work that spans both orgs. For everyone who works with Curation ML today, nothing changes about how you engage with the team.
   - (Curation Revisitation stays in Yan's org → "spans both orgs" is a real surface, not a pleasantry.)
 
-### SM/SL staffing sync (15 min — Andrew organizer, Dylan, Lili Li, Michael Weissinger, James; Tim optional)
+### SM/SL staffing sync (15 min — Andrew organizer, Dylan, Lily Li, Michael Weissinger, James; Tim optional)
 
-Context: SM/SL (see-more/see-less signals) got exec visibility — Bill Ready at MBR, Matt Madrigal at Monday's ET AMA; Lili requested the meeting for sustained-execution staffing. (Transcript's "Seymour Celeste" = dictation artifact for SM/SL.)
+Context: SM/SL (see-more/see-less signals) got exec visibility — Bill Ready at MBR, Matt Madrigal at Monday's ET AMA; Lily requested the meeting for sustained-execution staffing. (Transcript's "Seymour Celeste" = dictation artifact for SM/SL.)
 
 **What was said:**
 
@@ -81,14 +89,21 @@ Context: SM/SL (see-more/see-less signals) got exec visibility — Bill Ready at
   - Raymond is working on this; open question whether he pairs with junior people; operating-model details "decide later"; **no multiple DRIs**.
   - **Success framing air cover:** treat like retentive recommendations / offsite signals — probably no immediate SSv2 wins, intentional early trade-offs, "give it a little bit of room to succeed"; SM/SL "not going away from an agency perspective"; success criteria to discuss further.
 - **James's landing move:** "What is Raymond's role in all this — how can we be a co-owner from the CG side where we align on the technical roadmap and disagree-and-commit if it comes to that? In the past we ran a lot of historical experiments where nothing worked out and there was a lot of indecisiveness." **Andrew: "100% that is exactly what we want."**
-- **Close:** Lili wants a POC ASAP → James offered EOW → Lili: "that'd be great." **Lili + Andrew: "thank you so much for your ownership James!"**
+- **Close:** Lily wants a POC ASAP → James offered EOW → Lily: "that'd be great." **Lily + Andrew: "thank you so much for your ownership James!"**
 
-**Read:** This was the Andrew-XFN-repair on stage and it landed — explicit ownership thanks from Andrew AND Lili, in front of Michael (her likely new chain) and Dylan. The Lili repair mechanism (generous, fast, structured help on her next ask) executed exactly as designed 7/13. Dylan pre-blessing non-green early metrics removes the main downside risk of taking ownership visibly.
+**Read:** This was the Andrew-XFN-repair on stage and it landed — explicit ownership thanks from Andrew AND Lily, in front of Michael (her likely new chain) and Dylan. The Lily repair mechanism (generous, fast, structured help on her next ask) executed exactly as designed 7/13. Dylan pre-blessing non-green early metrics removes the main downside risk of taking ownership visibly.
 
 **Commitments out of the room:**
 1. Retrieval-side POC named by **EOW Fri 7/24** (→ follow-up #1).
 2. Co-ownership model from CG side: align on technical roadmap, disagree-and-commit — James to operationalize with the POC + Raymond.
 3. Success-criteria conversation with Dylan later (→ follow-up #7).
+
+### Org-proposal additions (James, 2026-07-25 session)
+
+Two requirements James named for his own org proposal — fold into the org-design doc's Proposal section (they concretize the existing routing / front-door XFN table from the 7/10 skeleton):
+
+1. **Per-project EM POC + TL POC table** — every project names its EM point-of-contact and TL point-of-contact, so XFN guidance on who-to-reach-out-to is explicit. (Dylan's public POC naming on Reflex — James/Dafang/Tim — is the pattern, generalized.)
+2. **Quality-control mechanism per workstream** — especially for the new pods under Alim and Daniel. Candidate mechanism from same session: the RecGPT experiment-ledger design generalized — fixed-template weekly written status per workstream (experiment states: idea/offline/online/readout) + event-driven readouts, so quality is inspectable async without adding standing meetings.
 
 ### Future-state org chart (Dylan's GDoc, seen 7/20)
 

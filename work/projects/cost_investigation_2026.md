@@ -21,9 +21,16 @@
 - Dylan emphasized **AI/GPU usage being down** as a separate important item.
 - **James already has an operational plan for this — handled.** Logged here as important; no further action needed from Leo unless James reopens it.
 
+## Status (2026-07-25)
+
+- **Investigation going well** (James's read, no blockers named).
+- **James presents an update to Dylan at her staff meeting Monday 7/27.**
+- GPU thread: **handled per James (7/25) — "that's all you need to know."** Team GPU usage up + monitoring in place going forward; no further Leo tracking needed unless James reopens it.
+
 ## Open / next
 
-- Kick off the investigation 7/23; pull the ICs + team leads Dylan is looping.
+- Kick off the investigation 7/23; pull the ICs + team leads Dylan is looping. *(Kicked off — "going well" as of 7/25.)*
 - Confirm which of Dhruvil's people joins.
 - Quantify the >$1.8M-under-Dylan breakdown → prioritized trim list.
 - Feed findings into Jeff's discussion with his EMs.
+- Deliver the Monday 7/27 staff-meeting update.

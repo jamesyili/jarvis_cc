@@ -168,7 +168,7 @@ Markdown
   *(Confidence: Very High — trust at peak)*
 - **PINvestigator Breakthrough (April 1, 2026):** Dylan personally ran PINvestigator for ~5 hours, called the investigation doc "great," proactively suggested sharing with Karim Wahba/PADS, asked to see custom skills next 1:1. **Register shift: sponsor → AI guide.** AI/IC drift concern dissolved.
   *(Confidence: Very High)*
-- **PM Tone Feedback (April 3, 2026):** Two newer PMs (Akshanta, Lili Li) told Dylan James's tone could be better. Yellow flag delivered softly as a favor. Same D:88% root cause as Feb "eggshells" but lower severity. Repair landed (Akshanta DM + cordial 1:1).
+- **PM Tone Feedback (April 3, 2026):** Two newer PMs (Akshanta, Lily Li) told Dylan James's tone could be better. Yellow flag delivered softly as a favor. Same D:88% root cause as Feb "eggshells" but lower severity. Repair landed (Akshanta DM + cordial 1:1).
   *(Confidence: High)*
 - **Operational Embedding (April 15-21):** Dylan self-inserted into RLHF expert team for Reflex (Sr. Director as IC), proposed critic-agent architecture (4/17), put Dafang onto Reflex "to learn." Issued two pacing DMs in one week (4/15, 4/21) — care-based real-time re-anchoring via DM, not 1:1. **Register: operational co-participant on flagship initiatives.**
   *(Confidence: Very High)*
@@ -735,7 +735,7 @@ UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team
 Dylan brought James + Dhruvil **three priorities she's carrying from Jeff**; a quick EM review with Jeff laid out his challenges directly.
 
 **The three priorities:**
-1. **See More / See Less (SM/SL).** A **Bill Ready (CEO)** focus area → must be staffed. James's response already in motion: Yali drives retrieval side + Raymond Hsu; talking-points meeting with Andrew/Lili/Michael/Dylan on 7/23 (see `reorg_july2026/reorg_followups.md` #1).
+1. **See More / See Less (SM/SL).** A **Bill Ready (CEO)** focus area → must be staffed. James's response already in motion: Yali drives retrieval side + Raymond Hsu; talking-points meeting with Andrew/Lily/Michael/Dylan on 7/23 (see `reorg_july2026/reorg_followups.md` #1).
 2. **AI / GPU usage down.** Dylan emphasized. **James has an operational plan — handled** (tracked in `work/projects/cost_investigation_2026.md`); no action needed from Leo, just logged as important.
 3. **Cost tracking.** The org sits under Jeff's Core org **~$5M/yr over budget**; James's own dig found **>$1.8M/yr over under Dylan alone.** James is **driving the budget investigation for Dylan starting 7/23** — ICs + team leads being looped; Dhruvil pre-warned, will lend someone. Full workstream: `work/projects/cost_investigation_2026.md`.
 
@@ -1021,7 +1021,7 @@ P2P approved a new retrieval architecture (OneTrans — unified transformer toke
 
 # 9) Andrew Yaroshevsky — Sr. Director of Product
 
-**Updated 2026-07-09: Mid-year peer feedback received — top-tier endorsement + one growth area (XFN patience), third delivery of the Feb/April tone signal.** Andrew's H1 cycle peer feedback about James arrived 7/9 (verbatim text + craft study: `self/writing_style/andrew_writing_style.md`). **Positive:** "one of the strongest ML leaders at Pinterest"; "supportive of his continued growth here and beyond"; Anticipation Cupcake = thought leadership, velocity, ownership, product sense, judgment; crucial-conversations courage explicitly framed as a senior-leader quality; Reflex ladder "rough idea → real, innovative success → reached Bill Ready → showed a new way we can build and improve Pinterest" (CEO name deliberately in the written record); pivot: technical depth "obvious," what impressed him more this half = **product sense and judgment**; archetype: "the kind of 'builder' we will need more of in the AI future." Third senior stakeholder independently authoring the same director-shaped frame (Dylan: AI-native differentiator; Rajat: AI-first cross-functional executor). **Constructive:** more patience/appreciation for XFN partners with different profiles ("may not grok ML systems or the recsys stack... but bring strength in other disciplines"); unlock framing ("the next level of leverage"), pattern-level, no incidents named — and the paragraph itself models the appreciation it asks for. **Read (James confirmed fair, "felt seen"):** anchor case = Lili Li office-hours incident — she reports up Andrew's PM chain (§21) — with Akshanta corroboration (§20); same pair as Dylan's April 3 yellow flag. Ongoing texture = the PM apprentice on the Feedback tool, an area Andrew is *personally keen on*. **Arc:** Feb eggshells (red alert, Dylan: "limiting ceiling" to Director) → April 3 PM-tone (yellow flag, favor) → July mid-year (pattern-level, wrapped in praise). Severity falling = repair working; but the signal is now institutionalized in a written cycle artifact across two chains — Andrew's "next level of leverage" is Dylan's "limiting ceiling" in sponsor dialect. **H2 response = behavioral, on stages Andrew sees:** (1) apprentice → independence via standing container + possible XFN self-serve framework (aligns with Reflex's confirmed "XFN acceleration" goal axis, §36); (2) Lili → structural repair, no gestures (§21 plan); (3) Tim collaboration already healthy = the positive exhibit (§36). Short, light thank-you to Andrew planned — no promises, register-matched. Related: **Michael (PM Director, §38) starts Mon 7/13** — ML-fluent PM leadership over the non-recsys PM population; the org is fixing the eng↔PM interface from both sides.
+**Updated 2026-07-09: Mid-year peer feedback received — top-tier endorsement + one growth area (XFN patience), third delivery of the Feb/April tone signal.** Andrew's H1 cycle peer feedback about James arrived 7/9 (verbatim text + craft study: `self/writing_style/andrew_writing_style.md`). **Positive:** "one of the strongest ML leaders at Pinterest"; "supportive of his continued growth here and beyond"; Anticipation Cupcake = thought leadership, velocity, ownership, product sense, judgment; crucial-conversations courage explicitly framed as a senior-leader quality; Reflex ladder "rough idea → real, innovative success → reached Bill Ready → showed a new way we can build and improve Pinterest" (CEO name deliberately in the written record); pivot: technical depth "obvious," what impressed him more this half = **product sense and judgment**; archetype: "the kind of 'builder' we will need more of in the AI future." Third senior stakeholder independently authoring the same director-shaped frame (Dylan: AI-native differentiator; Rajat: AI-first cross-functional executor). **Constructive:** more patience/appreciation for XFN partners with different profiles ("may not grok ML systems or the recsys stack... but bring strength in other disciplines"); unlock framing ("the next level of leverage"), pattern-level, no incidents named — and the paragraph itself models the appreciation it asks for. **Read (James confirmed fair, "felt seen"):** anchor case = Lily Li office-hours incident — she reports up Andrew's PM chain (§21) — with Akshanta corroboration (§20); same pair as Dylan's April 3 yellow flag. Ongoing texture = the PM apprentice on the Feedback tool, an area Andrew is *personally keen on*. **Arc:** Feb eggshells (red alert, Dylan: "limiting ceiling" to Director) → April 3 PM-tone (yellow flag, favor) → July mid-year (pattern-level, wrapped in praise). Severity falling = repair working; but the signal is now institutionalized in a written cycle artifact across two chains — Andrew's "next level of leverage" is Dylan's "limiting ceiling" in sponsor dialect. **H2 response = behavioral, on stages Andrew sees:** (1) apprentice → independence via standing container + possible XFN self-serve framework (aligns with Reflex's confirmed "XFN acceleration" goal axis, §36); (2) Lily → structural repair, no gestures (§21 plan); (3) Tim collaboration already healthy = the positive exhibit (§36). Short, light thank-you to Andrew planned — no promises, register-matched. Related: **Michael (PM Director, §38) starts Mon 7/13** — ML-fluent PM leadership over the non-recsys PM population; the org is fixing the eng↔PM interface from both sides.
 
 **Updated 2026-05-27 (afternoon): Hallway convo — user.md landed, Andrew assigning FTE PM to Reflex, three pre-OOO asks of James.** James ran into Andrew in the hallway and surfaced the user.md work directly. Andrew is **happy with user.md** (capability landed; no DM needed). Andrew is **assigning a full-time PM to Reflex** — major escalation, PM-level investment from his side. When James asked what he could do to set Reflex up for success during his OOO (6/4–end-of-trip), Andrew gave three clean asks: **(1) Connect with the PM. (2) Make sure Reflex is funded for James's team. (3) Andrew takes it from there.** Clean delegation. Pre-OOO punch list is now narrow and concrete. The Pinkerton-as-callable-agent architectural conversation does NOT need to happen pre-OOO — it can ripen organically through the PM as a future forwarding agent. The Andrew Build-expansion thread + agent-to-agent infra coordination (per 5/26 meetings) sits under the new PM's purview going forward.
 
@@ -1062,7 +1062,7 @@ P2P approved a new retrieval architecture (OneTrans — unified transformer toke
 
 ## 2026-07-20: SM/SL staffing sync — the repair on stage, and it landed
 
-15-min sync (Andrew organizer, Dylan, Lili Li, Michael Weissinger §38, James; exec-visibility context: Bill Ready at MBR + Madrigal at ET AMA). Andrew pitched **full-stack virtual-team co-ownership as a precedent** ("no primary and secondary"; a backend owner who "feels the ownership... gets up in the morning and tries to come up with new ways," not a backlog line item). James's move: co-ownership from the CG side, align on the technical roadmap, **disagree-and-commit**, naming past historical-experiment indecisiveness. Andrew: **"100% that is exactly what we want."** Close: Lili + Andrew jointly — **"thank you so much for your ownership James!"** — in front of Dylan and Michael. This is the §9 mid-year XFN-patience feedback repairing on the exact surface it was authored from: Andrew's own ask, his own operating model, his PM chain. Commitment out: retrieval-side POC named by EOW 7/24 (Yali or Hedi — LWS lane; SM/SL strategic home = modeling over heuristics). Full debrief: `work/people/reorg_july2026/reorg_followups.md`.
+15-min sync (Andrew organizer, Dylan, Lily Li, Michael Weissinger §38, James; exec-visibility context: Bill Ready at MBR + Madrigal at ET AMA). Andrew pitched **full-stack virtual-team co-ownership as a precedent** ("no primary and secondary"; a backend owner who "feels the ownership... gets up in the morning and tries to come up with new ways," not a backlog line item). James's move: co-ownership from the CG side, align on the technical roadmap, **disagree-and-commit**, naming past historical-experiment indecisiveness. Andrew: **"100% that is exactly what we want."** Close: Lily + Andrew jointly — **"thank you so much for your ownership James!"** — in front of Dylan and Michael. This is the §9 mid-year XFN-patience feedback repairing on the exact surface it was authored from: Andrew's own ask, his own operating model, his PM chain. Commitment out: retrieval-side POC named by EOW 7/24 (Yali or Hedi — LWS lane; SM/SL strategic home = modeling over heuristics). Full debrief: `work/people/reorg_july2026/reorg_followups.md`.
 
 ---
 
@@ -1239,9 +1239,17 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - *"Pinterest is investing in everyone's future"* (proxy via Jeff 5/7) — Faisal's adoption framing, now validated and circulating.
 - *"The last mile is the hardest"* (5/4) — Faisal's frame for the production-readiness gap. Connect to Pinkerton productionization conversations.
 
----
+## 2026-07-25 — GenAI-signals-in-ranking thread: Dylan looped James in (DECISION OPEN — how to play it)
 
-# 15) Shipeng Yu — Sr. Director, ML (Growth)
+**The thread (8-member Slack group, screenshots on file):** Adam Avery ⟨role?⟩, Andrew Yaroshevsky (§9), Dhruvil, Lily Li, Faisal, Dylan, James +1. Topic: **integrating GenAI signal (and content-quality signals generally) directly into the ranking/organic stack.**
+- **Andrew Y (initiator, last quarter):** believes signal-directly-in-stack "might be the largest lever"; senses Faisal is an evangelist too; Content MBR under-emphasizes the bet; asks Dhruvil+Lily to summarize tried/next + set a small review. His technical questions: both towers? per-activity sequence annotation? GenAI prediction directly in Utility with tuned weights?
+- **Lily Li (status):** GenAI v3 integrated into pinnability as feature (content side + real-time user sequence, per-impression isGenAI → sequence-derived affinity features). First online exp as direct pinnability feature = **flat topline, no positive signal**; P2P-style user-tower sequence-embedding iteration = **negative offline, never tested online**. Their view: explicit GenAI penalty/boost belongs in **L1 utility (distribution shaping), not L3** (avoid double-counting; keep learned utility on action probabilities). Not yet a standalone L3 term.
+- **Faisal (the meaty reply):** pattern generalizes to Racy/Borderline/self-harm signals. (1) Signal SOTA (beats Google, matches Hive) but push further; (2) **filter-thresholding uses <20% of signal strength** — 0.8 cutoff treating 0.79 as 0.01 is "fundamentally broken"; (3) last-mile filtering backfills slightly-different bad content + recovers too late; (4) **recsys are quality-unaware at training time → lopsided train-vs-inference incentives; must be inbuilt, not band-aided.** With Dylan he's discussed building the muscle so **any business objective (quality/safety/credibility) can be added to the stack** — same arc as the filtering-became-button-flip foundational work.
+- **Close:** Andrew: "get together next week and make it happen," Lily to work with his ABP (Caitlin Boyd). **Review scheduled: "GenAI Signal in Ranking: What We Tried and What's Next" — Monday 7/27, 1:35–2:00pm PST.** James was added to the thread by Dylan at 5:53pm; **Dylan's public close (6:00pm)**: aligned with Faisal on "building a paradigm to capture quality/safety in our distribution system, happy to partner"; iterations already underway for ranking/retrieval signals; **currently experimenting with quality in L1 utility using the racy signal — GenAI could be considered**; and the load-bearing line: "**Ultimately, we should have trust in the team and leave to the team to design how the system works.**" (Reads directly on James's chime-in-or-not question: her public posture is delegate-the-design.)
+
+**The Dylan move + James's read (7/25):** Dylan added **James** to the thread but did **not invite Dafang He** (§28 — who was supposed to lead this technically from her org) to the Monday sync. Dhruvil + Lily wrote the proposal and drove this for months. James's hesitations: (1) deep Snap experience on exactly this (quality signals into rec stacks) but new ballgame/new players; (2) unclear whether Dylan wants him in the technical design given Dafang/Dhruvil/Lily ownership; (3) incoming headcount+scope means unclear time budget.
+
+**Engagement plan (RATIFIED 7/25 session):** Core frame — **the thread's own conclusion routes into James's platform** (Lily: explicit GenAI penalty/boost belongs in L1 utility; Dylan: racy-signal experiment already running in L1; L1 Utility = James's team's system, JJ/Rui owners, T&S filters already hosted). Engage as **platform owner receiving the work, not competing architect**. (1) **No substantive thread post pre-meeting** (Dylan closed it; posting reads as jockeying); post only a 3-line action summary after. (2) **Dhruvil DM this weekend** (additive-not-disruptive; covers NLFU alignment too) + read the proposal and the portfolio-MBR doc. (3) **Monday talking points:** the 4-place placement map (training-time / candidate-gen / L1 shaping / last-mile — endorse Lily's L1-not-L3 as platform owner); continuous L1 utility term answers Faisal's <20%-of-signal cliff (calibration first; weights tuned as tradeoff curves vs. an SSv2 guardrail budget); measurement reframe (flat-topline exp asked the engagement question of a quality mechanism — define quality metrics + SSv2 budget before mechanism, delivered gently); retrieval-side quality shaping = one-sentence later-phase seed. (4) **Bounded offer:** L1 Utility hosts the GenAI term as the next experiment behind racy; deliverable = 1–2 page placement doctrine + experiment plan, James's team hosting, **JJ (returns mid-Aug, L1 owner) writes, Rui operational — James edits, doesn't write.** (5) **Dylan 1:1:** confirm remit + how she wants Dafang positioned (folded into the Reflex role-clarity ask). (6) **Faisal 1:1 = PLAY BY EAR** pending how the Monday sync goes (James's call 7/25 — not scheduled; the training-time/UPP compare-notes + KDD seed stays in pocket).
 
 ## Role in my 6–12 month goals
 - **Growth org leader.** Owns all of Growth (122 reports). His org was pushed into UPP by Jeff — initial friction, but he acted magnanimously and is now a big supporter of Dylan's organization.
@@ -1428,9 +1436,9 @@ Following Anna conversation + Tim conversation + Slack-verified org chart (see [
 - **Dylan thinks she's good.** Dylan specifically named her when delivering PM tone feedback, signaling the source is credible and the relationship is worth investing in.
 
 ## Current relationship
-- **Status (updated 2026-07-09): Cordial — repair landed.** Warm DM + cordial 1:1 both happened post-April. James's own read 7/9: "no real conflict with Akshanta other than our brief conversation about Lili Li."
-- **History (April 2026):** two incidents created a "territorial manager" impression — (1) Slack routing her through Crystal instead of engineers, correct ask / cold delivery; (2) likely heard about the Lili Li office-hours incident PM-to-PM. She (and/or Lili) surfaced tone concerns to Dylan → April 3 yellow-flag delivery. Her account also likely corroborated the pattern in Andrew's 7/9 mid-year feedback (§9).
-- **Character read (7/9):** she stuck up for Lili — a junior colleague — against a fast senior eng leader. Respect-worthy, and consistent with why Dylan rates her. Treat the advocacy as a credit, not a grievance.
+- **Status (updated 2026-07-09): Cordial — repair landed.** Warm DM + cordial 1:1 both happened post-April. James's own read 7/9: "no real conflict with Akshanta other than our brief conversation about Lily Li."
+- **History (April 2026):** two incidents created a "territorial manager" impression — (1) Slack routing her through Crystal instead of engineers, correct ask / cold delivery; (2) likely heard about the Lily Li office-hours incident PM-to-PM. She (and/or Lily) surfaced tone concerns to Dylan → April 3 yellow-flag delivery. Her account also likely corroborated the pattern in Andrew's 7/9 mid-year feedback (§9).
+- **Character read (7/9):** she stuck up for Lily — a junior colleague — against a fast senior eng leader. Respect-worthy, and consistent with why Dylan rates her. Treat the advocacy as a credit, not a grievance.
 - **Trust level:** Rebuilding, no active friction.
 
 ## Operating plan (updated 2026-07-09)
@@ -1440,12 +1448,12 @@ Following Anna conversation + Tim conversation + Slack-verified org chart (see [
 
 ---
 
-# 21) Lili Li — PM (newer, reports up Andrew's PM chain)
+# 21) Lily Li — PM (newer, reports up Andrew's PM chain)
 
 ## Role in my 6–12 month goals
-- **Upgraded from "low priority" 2026-07-09.** Lili reports into Andrew Y's org (new intel 7/9) — her account of the office-hours incident is almost certainly the anchor case behind Andrew's mid-year growth feedback (§9). She is the single most legible repair surface for the one named gate on the Director case (Dylan Feb: "limiting ceiling"; Andrew July: "next level of leverage").
+- **Upgraded from "low priority" 2026-07-09.** Lily reports into Andrew Y's org (new intel 7/9) — her account of the office-hours incident is almost certainly the anchor case behind Andrew's mid-year growth feedback (§9). She is the single most legible repair surface for the one named gate on the Director case (Dylan Feb: "limiting ceiling"; Andrew July: "next level of leverage").
 - **Likely lands under Michael (§38)** when he starts 7/13 — chain to confirm.
-- **History:** Lili was pinging James's engineers directly for mundane tasks (adding users to holdouts, etc.); Yuke escalated; James told her to back off in front of TPMs (including Akshanta's TPM). Justified ask, strong delivery.
+- **History:** Lily was pinging James's engineers directly for mundane tasks (adding users to holdouts, etc.); Yuke escalated; James told her to back off in front of TPMs (including Akshanta's TPM). Justified ask, strong delivery.
 
 ## Current relationship
 - **Status:** Wary of James (his read, 7/9). No current project overlap — no organic contact surface.
@@ -1915,7 +1923,7 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 **Status:** Added 2026-07-09, ahead of his start date. Fill out once he lands.
 
 ## What's known
-- **Role:** PM Director managing the non-recsys full-stack PMs (population likely includes Lili Li §21; exact chain + roster to confirm once announced org chart lands).
+- **Role:** PM Director managing the non-recsys full-stack PMs (population likely includes Lily Li §21; exact chain + roster to confirm once announced org chart lands).
 - **History with James:** Worked closely together at Snap for years — Michael was the recsys PM lead there. James cultivated the relationship on LinkedIn ~4 years. Before Michael decided to interview, they caught up about the possibility; during the loop Michael came to James for advice on whether to join, and thanked him for it.
 - **The recruiting-win thread:** This is the "Michael close" Dylan flagged confidentially pre-OOO ("keep to yourself... maybe Andrew told you"), with James's contribution named as a pre-trip gift. Yan has also mentioned him to James (7/9) — Dylan↔Yan channel active on the hire. Confidentiality moot as of his 7/13 start.
 - **Profile note:** ML-fluent PM leadership (recsys PM lead pedigree) being placed over the *non-recsys* PM population — the org is investing in the eng↔PM translation gap from the PM side, the mirror image of what Andrew's 7/9 feedback (§9) asks of James from the eng side.
@@ -1926,17 +1934,17 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 
 ## Operating plan
 - **Warm welcome note in his welcome email** (James, week of 7/13). Right register: peer-warm, no agenda.
-- **Spend the friendship capital on org alignment only** — shared roadmap context, translation, priorities. Never on adjudicating James's personal PM friction (Lili especially — see §21).
-- **Let him form his own reads.** During his onboarding rounds, James showing up warm and collaborative with PMs in rooms Michael sees is worth more than any framing delivered directly. Visible capture ("their new boss is James's guy") would deepen the Lili/Akshanta dynamic under a layer of politeness.
+- **Spend the friendship capital on org alignment only** — shared roadmap context, translation, priorities. Never on adjudicating James's personal PM friction (Lily especially — see §21).
+- **Let him form his own reads.** During his onboarding rounds, James showing up warm and collaborative with PMs in rooms Michael sees is worth more than any framing delivered directly. Visible capture ("their new boss is James's guy") would deepen the Lily/Akshanta dynamic under a layer of politeness.
 
 ## Cross-references
 - §9 Andrew — his feedback names the interface Michael now manages from the other side
-- §21 Lili Li / §20 Akshanta — likely or possible reports; capture-risk population
+- §21 Lily Li / §20 Akshanta — likely or possible reports; capture-risk population
 - `work/people/dylan_archive.md` — the confidential "Michael close" flag (pre-OOO)
 
 ## 2026-07-20: First live working meeting — SM/SL staffing sync
 
-Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched James receive a joint "thank you for your ownership" from Andrew + Lili. A strong first exhibit on exactly the eng↔PM interface he was hired to manage from the PM side — no capital spent, formed his own read from the room (per the operating plan above).
+Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched James receive a joint "thank you for your ownership" from Andrew + Lily. A strong first exhibit on exactly the eng↔PM interface he was hired to manage from the PM side — no capital spent, formed his own read from the room (per the operating plan above).
 
 ---
 
@@ -1976,6 +1984,12 @@ Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched Ja
 - **First concrete relationship move of the Ads expansion.** Everything else on Ads is demand-signal at a distance; Dinesh is a named, reachable owner.
 - **The broker is the signal:** ATG's *senior leadership* is routing the Ads retrieval opportunity through James. Jiajing could point Dinesh anywhere — ranking side, internal ATG — and is pointing him at James. That's central-ML endorsement of James/UPP as the retrieval-platform counterpart for Ads.
 - **Natural triangle:** James + Dinesh + ATG (Jaewon's org, Jiajing above) — Dinesh's ATG-friendliness means the collaboration idiom he already trusts is the one UPP uses.
+
+## 2026-07-25 update — 1:1 landed; he's FUNDING Reflex, considering funding UPP in Q4
+- **The 1:1 happened and landed well** (James, 7/25 dump).
+- **Dinesh is funding Reflex** from the Ads side, and is **considering funding UPP in Q4** — the relationship has jumped from intro to money in under a week.
+- **Agreed direction: cross-team deep-dive sessions** engaging both teams with one another going forward.
+- **Q3 operating plan (ratified tier: see Q3 plan, 2026-07-25 session):** Tier-1 relationship lane in the UPP-air-cover shape — named session owners per side (Piyush for UPP-side, Dafang/JJ for Reflex-side; James curates, attends the first, then reads outcomes), a standing ~monthly Dinesh 1:1, and one Q3 exit artifact: a **"what UPP does for Ads Retrieval" one-pager by mid/late September** that Dinesh can carry into his Q4 planning — the deliverable that converts sessions into the funding decision. Each milestone here also feeds the Dylan/Jeff ads-collaboration narrative (P2P proof point, Madrigal lever, Andrena's TPM lane).
 - ⚠️ **Name disambiguation:** **Jiajing (ATG Sr. Director) is NOT Jiaxing Qu (P2P Retrieval engineer, Sai's team).** Near-collision; conflated once in-session 2026-07-13 and corrected by James. Distinct people, different orgs.
 
 ## Open
@@ -2089,3 +2103,20 @@ Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched Ja
 **Why it matters:** She's the TPM leadership now leaning into cross-org / ads collaboration — the exact space where James's UPP-retrieval-in-P2P launch candidate is positioned as the proof point Dylan wants to "push things forward." Likely a process/coordination ally (or gatekeeper) for the ads-collaboration narrative Jeff is being motivated by.
 
 **Open:** surname, exact reporting line, scope of her TPM remit, and whether her involvement helps or adds process to the UPP×ads push.
+
+---
+
+# 49) Sen Yang — IC18 ML Engineer, Growth (under Shipeng §15; added 2026-07-25, surname confirmed same day)
+
+**Role:** IC18 MLE in Growth (reports into Shipeng Yu's org). Surfaced as a lead in the NLFU push (`work/projects/nlfu_support_2026.md`) — member of `#p13n-growth-nlfu-leads`.
+
+**History with James (deep):** Peers at **Snap** — same director, worked side-by-side on the same projects for close to a year, with a real competitive undercurrent ("in some ways we were competing"). "A lot of history." Sen landed at Pinterest with an **IC18 offer** while James joined at **M17** — James names "a little bit of competitiveness from my side."
+
+**The reciprocity read (James, 7/25):** *"Whether or not Sen helps me depends heavily on whether or not I decide to help him here."* This is a two-way trade, not a favor bank James can draw on cold.
+
+**Live threads:**
+- **NLFU:** Sen is James's preferred connect for grounding the ML side (James's read: Brian Lee doesn't understand the ML side). But Sen is **stretched very thin** — deeper involvement means **funding his area more**.
+- **AI tooling:** Sen offered that his team could help on AI tooling — dovetails with inbound Reflex/GenAI-tooling interest (see Reflex 7/25 program state).
+- **Piyush IC17 promo:** Sen's year-end **peer feedback** would strengthen Piyush's case — a concrete reason to invest in this relationship in Q3.
+
+**Open:** surname; exact team/charter under Shipeng; what "helping Sen here" concretely costs (headcount? funding? James's time?).

@@ -1,7 +1,28 @@
 # System Context: Retentive Recommendations & The Prediction Engine
-**Current Status: May 2026 — feedback loop launched on partial CG funnel (core RR hypothesis empirically validated); pUIC dual-track in flight (model-based online end-May; LLM-based online end-June); KDD paper full draft DONE; Engineering Blog post shipped 4/17; James named program lead publicly**
+**Current Status: July 2026 — launch-candidate lull (all effort in the two pUIC tracks); model-based pUIC ahead of LLM-based but serving path troubled; Chuxi now TL and stepping into model pUIC; FBL launch landed during James's OOO; FBL-in-L1/Retrieval in flight; staffing decision open**
 
-> Technical reference content below remains accurate as of January/March 2026. May 2026 + April 2026 program status sections capture current results, narrative artifacts, and co-author roster. Read the May status section first, then April for prior context; the technical content for architecture deep dives.
+> Technical reference content below remains accurate as of January/March 2026. July + May + April 2026 program status sections capture current results, narrative artifacts, and co-author roster. Read the July status section first; the technical content for architecture deep dives.
+
+---
+
+## Program Status — July 2026 Update (2026-07-25)
+
+### State: lull on launches, all-in on pUIC
+
+- **No launch candidate in a while — a deliberate lull:** the team has been "pouring heart and soul" into the **two predictive-UIC tracks**. **LLM-based pUIC: not very performant right now. Model-based pUIC: better — but the serving path has been riddled with issues**, which James attributes to **Yuke's TL oversight** (see team_members.md Yuke 6/23–7/25 arc).
+- **Chuxi stepping deeper into model pUIC** (as the new TL) → things are improving and **Yidi is happier**. Trade-off accepted: **LLM pUIC slows down further.**
+- **FBL win during James's China OOO:** **Olafur, Andreanne, and Armando landed a launch using FBL** (feedback loop). Still in the midst of **landing the FBL application in L1 / Retrieval.**
+- **Cross-org cadence aligned** with **Yingjian (UU)** and **Zhenyu Tan (Sr. EM, ATG — confirmed 7/25; earlier Notif-side note superseded)** on project meeting cadence + who drives. **Chuxi and Anna supportive.** Q3 meeting structure (screenshot filed 7/25):
+  - **[Weekly] Tuesday UIC Sync, 1pm PST** — Long/Dynamic/Hybrid UIC, cluster persistence, Feedback Loop, UEB + Explore surfaces. Runner: **Simin Li (UU)**; backups: Andreanne Lemay, James. Attendees — UU: Simin Li, Raymond Dinh, Sufyan Suliman, Bonds Gao; P13N: Andreanne Lemay, Chuxi, Alok, Armando, Yan Chen, Roderick Gao; Activation: Sepehr Valipour, Omar Nada, ZJ Jiang.
+  - **[Bi-weekly] Wednesday LLM pUIC Sync, 1pm PST** — Runner: **Chuxi** (backup **Zelun Wang**). P13N: Ling Lan, Chuxi, Yan Chen, Armando; ATG: Zelun Wang, Logan Jeon, Xiangyi Chen; UU: Ruchen Zhen.
+  - **[Weekly] Wednesday Model-Based pUIC Sync, time TBD** — Runner: **Chuxi** (backup Zelun Wang). P13N: Chuxi, Yidi, Ling Lan; ATG: Zelun Wang.
+  - Read: **Chuxi runs both pUIC syncs; James is backup-only on UIC** — the delegation structure is already in place on paper.
+- **Zelun Wang (ATG engineer in this space):** per his manager, may want to spend more time on both pUIC efforts — a leverage candidate.
+
+### James's position (7/25)
+
+- **This is James's single biggest time-sink since returning from China** — and the project where he holds the most context and understanding.
+- **Staffing decision OPEN:** should RR get more engineers (more people running experiments)? Current inputs: **Alok** helping (came in this weekend) but high-maintenance; **Lionel** planned here (starts 7/27); possible **Zelun** leverage; question is whether even more firepower is warranted.
 
 ---
 
