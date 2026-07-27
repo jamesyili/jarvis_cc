@@ -38,7 +38,7 @@ The five most-used workflow skills (`start-session`, `end-session`, `prep`, `dra
 | `/draft-email` | Draft a message calibrated to recipient |
 | `/send-me` | Email a file from this session to James (defaults to most recent artifact) — phone-friendly handoff |
 | `/save-to-drive` | Upload a file to "Leo Outbox" in Google Drive; `.md` converts to Google Doc by default |
-| `/doc-viewer` | Open a repo .md rendered as HTML in the local browser (send-me rendering, no email); `--watch` = live edit preview |
+| `/doc-viewer` | Open a repo .md rendered as HTML in the local browser (send-me rendering, no email); `--edit` = in-browser editor that saves back to the .md; `--watch` = live external-editor preview |
 
 ### Knowledge Base (global skills)
 | Skill | Trigger |

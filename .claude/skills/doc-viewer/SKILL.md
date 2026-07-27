@@ -20,10 +20,19 @@ same auto-detection), but nothing leaves the machine.
 System `python3` fails with ModuleNotFoundError.
 
 Flags:
+- `--edit` — **edit directly in the browser.** Serves a localhost editor
+  (127.0.0.1 only): markdown source pane left, live rendered preview right
+  (debounced), Save button / Ctrl+S writes straight back to the .md. Split /
+  Edit / View toggle. Source of truth stays markdown — no HTML→md round-trip.
+  One file per server; `--port N` for a stable URL (default: auto). Run it in
+  the background (`run_in_background`) and give James the URL; stop it when done
+  (`pkill -f "doc_viewer.py --edit"`). Conflict-safe: if the file changed on
+  disk after load (e.g. Leo edited it), Save returns 409 and the browser asks
+  before overwriting — so avoid editing a file Leo is also mid-edit on.
 - `--watch` — keep running; re-renders on every save of the source .md, and the
-  page auto-refreshes every 2s (edit-preview loop). Run it in the background
-  (`run_in_background`) so the session isn't blocked; stop it when James is done.
-- `--no-open` — render only, print the output path.
+  page auto-refreshes every 2s (external-editor loop). Exclusive with `--edit`.
+  Background it the same way.
+- `--no-open` — render/serve only, print the path/URL.
 
 ## Defaults & conventions
 
