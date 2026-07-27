@@ -50,6 +50,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 
 ## Artifact persistence / process
 - **persist-and-email-artifacts** — substantive DURABLE artifact or status change → write to file w/ proposed path, edit in-place not companion, update source-of-truth immediately. **Email = explicit-ask only (7/25); ephemeral one-shot content (Slack drafts etc.) never becomes a repo file (7/25) — chat/email/scratchpad only.**
+- **open-edit-viewer-for-written-docs** — Leo writes a .md doc deliverable → launch `doc_viewer.py --edit` for each (background, unique port, report URL) by default; NOT for context-file filing; don't edit a file James has open in the editor.
 - **always-commit-and-push** — session end / repo changes → always commit and push, even if the log is skipped.
 - **main-context-for-sequential-writes** — 5+ sequential query-then-edit steps → run in main context; spawned agents don't persist edits.
 - **repoint-structure-docs-on-file-moves** — repo file/folder moves (by hand or by Leo) → checklist beyond live prose refs: AGENTS.md §Folder Structure, .gitignore patterns, .claude agent/skill hardcoded paths (incl. stale absolute), file_index; git mv; grep old path to verify.

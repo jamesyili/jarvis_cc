@@ -86,21 +86,33 @@ def is_wsl() -> bool:
         return False
 
 
+WIN_CHROME_PATHS = (
+    "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe",
+    "/mnt/c/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+)
+
+
 def open_in_browser(target: str) -> None:
     if sys.platform == "darwin":
         subprocess.run(["open", target], check=False)
     elif is_wsl():
-        if shutil.which("wslview"):
+        win_target = target
+        if not target.startswith("http"):
+            win_target = subprocess.run(
+                ["wslpath", "-w", target], capture_output=True, text=True
+            ).stdout.strip()
+        # Prefer Chrome explicitly (James, 2026-07-27: not Edge/default browser)
+        chrome = next((p for p in WIN_CHROME_PATHS if Path(p).exists()), None)
+        if chrome:
+            subprocess.run([chrome, win_target], check=False, stderr=subprocess.DEVNULL)
+        elif shutil.which("wslview"):
             subprocess.run(["wslview", target], check=False)
         elif target.startswith("http"):
-            # explorer.exe/cmd start handle URLs; exit code unreliable — don't check
+            # cmd start handles URLs; exit code unreliable — don't check
             subprocess.run(["cmd.exe", "/c", "start", target], check=False,
                            cwd="/mnt/c", stderr=subprocess.DEVNULL)
         else:
-            win_path = subprocess.run(
-                ["wslpath", "-w", target], capture_output=True, text=True
-            ).stdout.strip()
-            subprocess.run(["explorer.exe", win_path], check=False)
+            subprocess.run(["explorer.exe", win_target], check=False)
     elif shutil.which("xdg-open"):
         subprocess.run(["xdg-open", target], check=False)
     else:
