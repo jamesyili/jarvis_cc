@@ -30,7 +30,7 @@ Once aligned, write a new session log file in `system/session-logs/`:
 2. Write the entry with:
    - `## YYYY-MM-DD (time-of-day) — one-line summary` heading
    - **Done:** (2-5 concrete bullets)
-   - **Decisions:** (if any)
+   - **Decisions:** (if any — ONLY items James explicitly ratified in-session; Leo recommendations stay labeled "(Leo rec, unratified)" and belong under Open, never Decisions.)
    - **Open:** (if any)
    - **Next time:** (specific, actionable)
 3. Keep the `system/session-logs/` directory to ~20 files max. Delete oldest if needed.

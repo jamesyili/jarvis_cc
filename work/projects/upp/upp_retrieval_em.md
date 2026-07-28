@@ -4,6 +4,16 @@
 
 ---
 
+## July 27, 2026 Update — SSJ wrestle now runs through "Intentful UPP" doc + committee idea; Andrena/Krystal ops-lean thread opened
+
+**From James's Slack (group DM: Dhruvil, Krystal Benitez, Matt Chun — James initiated 5:36pm, executing Dylan's 1:1 action "ping Krystal, Matt"):**
+
+- **SSJ's vehicle is now an "Intentful UPP" proposals doc** (based on last week's UPP × SSJ Retrieval weekly) — heavily focused on *how to collaborate between teams*, i.e. the ownership wrestle continuing in process clothing (consistent with the 7/22 "partial-UPP" read). SSJ also floated a **committee idea** for governance.
+- **In-room signal James named:** the overall TL + several team members want the UPP × SSJ weekly to stay on **technical substance**, not inter-team coordination mechanics — same substance-over-packaging pull as Jaewon 7/22.
+- **Matt Chun's position (6:07pm):** operational changes could significantly improve UPP — agreement there; the disagreement with SSJ is *how* (e.g. their committee idea). **"IMO we need Core VPs to make a decision and not sure how productive it is to debate with SSJ."** Will share more in 1:1s. → Matt = ally for the escalate-for-decision path over process-negotiation.
+- **Andrena (Dir TPM) is working with Krystal on leaner operational processes across UPP teams + dedup** (per Dylan's last two convos with James; Dylan 7/27 1:1: add Andrena to the discussion as needed). James asked Krystal for next-steps clarity; probing whether top-down guidance can speed up alignment. Thread mid-flight (2 replies pending read).
+- **Open:** Krystal's answer on next steps; Matt 1:1; whether James pushes the Core-VP-decision route (fits the Jeff-escalation arc from 7/22) vs. letting Andrena's ops workstream absorb it.
+
 ## July 25, 2026 Update — V0/V1 both feeding P2P baseline; launch push across surfaces starts next week
 
 **From James's 7/25 context dump:**

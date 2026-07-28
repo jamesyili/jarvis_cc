@@ -17,10 +17,11 @@
 | 13 | **Internal reorg timing** — can flex to ~1 week after Alim starts (7/27) for ramp room; **official Aug 5 announcement cannot slip** | James | — | Per Dylan 7/22 |
 | 7 | **SM/SL success-criteria discussion** — Dylan flagged "discuss further about setting success" | James + Dylan | Next 1:1 or async | Open |
 | 8 | **GDoc Proposal sections** (Ownership slim to routing+oncall / Transition / Longer Term / Workstreams & Leads) | James | Feeds leadership alignment 7/27 | **REWORKED 7/24** → `org_design_doc_2026-07-24_exec_voice.md` (BLUF + Calls-I've-made + first-person pass + locked names). Remaining: reconcile vs direct_voice sibling, paste into Dylan's GDoc |
-| 14 | **Org name ratification + string reconciliation** | James → Dylan | Before 8/3 | **RESOLVED 7/25 — LOCKED string = "Personalization Retrieval and Anticipation"** (Dylan fine with it, per James: "lock it in until told otherwise"; supersedes 7/24's "P13N Retrieval and Anticipation"). Remaining: patch announcement email + talking points + org docs to this exact string before ship. |
+| 14 | **Org name ratification + string reconciliation** | James → Dylan | Before 8/3 | **RE-DECIDED 7/27 (Dylan 1:1): "P13N Retrieval"** — Dylan: "Let's just go with P13N Retrieval for now. Dhruvil will go with P13N Ranking." Supersedes the 7/25 "Personalization Retrieval and Anticipation" lock. Remaining: patch announcement email + talking points + org docs to **"P13N Retrieval"**. *(Why (James, later 7/27): NOT mere simplification — Dylan pushed back on "Anticipation" specifically: "What if the priorities change? What if Andrew comes up with something else?" = hedge against exec-priority churn; anticipation work approved, brand held loosely, revisit later. Also the exact name retired 7/17 for inviting retrieval-vs-retrieval calibration comparisons. Accept; don't re-litigate — results buy the name back.)* |
 | 15 | **IB placement settle gate** — stays Daniel now; gains-origin read (modeling vs surface-pairing) over ~2 months | James | Settle point (~60d) | Logged in 7/24 doc §Longer Term |
 | 9 | **Dinesh DM** | James | — | **SENT (confirmed 7/20).** Real team name still to capture in first conversation |
 | 10 | **Org chart in announcement doc shows Dynamic Retrieval (Alim) sub-team** — James's *internal* split visible on 8/5 if unedited | James → Dylan | Before 8/5 | Flag to Dylan if internal structure shouldn't be public yet |
+| 16 | **Alim ramp watch** — backchannel flag surfaced 7/25 (SENSITIVE; details only in `team_members.md` Alim Tier-1 entry — do not restate elsewhere). Observation runs through existing ramp structures; **ER confidential-consult decision pending**; settle-gate scope transfers held to evidence | James | ~60-day settle read (late Sept) | **Open 7/27** |
 
 ## Timeline of record (from Dylan's announcement GDoc, seen 7/20)
 
@@ -34,6 +35,13 @@
 Announcement covers two changes: Blending → Ranking under Dhruvil (Rahul reports to him); Curation ML → CG org under James (Daniel Liu continues as lead, reports to James).
 
 ---
+
+## 2026-07-27 log
+
+- **ORG NAME RE-DECIDED (Dylan 1:1 PM): "P13N Retrieval"** / Dhruvil = "P13N Ranking" — row 14 updated; string patch now targets this. Internal team names (Retrieval Foundations / Retrieval Modeling / Anticipation Modeling) unaffected.
+- **Day one landed:** Alim + Lionel welcome messages sent; both settled until 1:1s later this week. NLFU Slack message posted Monday AM (timely — Dylan was planning to cover NLFU in her staff). Cost-investigation update delivered at staff.
+- **GenAI review (1:35pm) went well — talking points landed.** James created **#genai-feed-wg** (Dylan, Faisal, Andrew Y, Dhruvil, Lily, Michael W, Adam Avery, Qinglong Zeng; James added Dafang). Next steps: James + Dhruvil + Lily → concrete plan. Detail filed in stakeholders §14 (7/27 entry).
+- **Alim backchannel flag filed** (via Chuxi, from her ex-Google manager; sensitive + uncorroborated — details live only in `team_members.md` Alim Tier-1 entry). Chuxi handled Sat call + Mon 1:1, steady. Open: ER-consult decision; monitoring via existing ramp structures + settle gates (row 16).
 
 ## 2026-07-25 log
 

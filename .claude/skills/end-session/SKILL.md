@@ -35,7 +35,7 @@ Once aligned, write the session log entry as a new dated file in `system/session
 1. `# YYYY-MM-DD — one-line summary` header
 2. A short opening paragraph framing the session
 3. **Done:** (2-5 concrete bullets)
-4. **Decisions:** (if any)
+4. **Decisions:** (if any — ONLY items James explicitly ratified in-session; Leo recommendations stay labeled "(Leo rec, unratified)" and belong under Open, never Decisions. Hit 2026-07-27: the 7/25 log listed Leo's Yuke dated-checkpoint rec under Decisions; James later corrected "2 month was never set in stone.")
 5. **Open:** (if any)
    - **Next time:** (specific, actionable)
 
