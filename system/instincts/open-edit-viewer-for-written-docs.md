@@ -3,9 +3,9 @@ id: open-edit-viewer-for-written-docs
 trigger: Leo writes (or substantially rewrites) a .md doc deliverable for James in a session — a repo artifact James will read/review, not routine context-file updates
 behavior: Launch the doc-viewer edit server for each such doc by default — background, one server per doc on a unique port, report the URL — unless James says not to. Local only, nothing emailed.
 confidence: 0.8
-evidence_count: 1
+evidence_count: 2
 created: 2026-07-27
-last_updated: 2026-07-27
+last_updated: 2026-07-28
 status: active
 ---
 
@@ -32,9 +32,21 @@ collision). Ask James to save first, or wait.
 
 **Cleanup:** stop servers at session end — `pkill -f "doc_viewer.py --edit"`.
 
+**Remote-control is not an exemption:** don't infer "James is on his phone /
+away from the desk" from remote-control mode or photo uploads and skip the
+launch. Launching is cheap; launch by default and report the URL — he'll use it
+when he's at the machine.
+
+**Interpreter:** always `~/.venvs/leo/bin/python`, never system `python3`
+(no `markdown` module — fails at import, verified 2026-07-28).
+
 ## Evidence
 
 - **2026-07-27** — after the doc-viewer `--edit` build, James: "Remember this
   for all docs you write going forward, to always open the --edit doc_viewer by
   default. Open one for each doc that's being written unless I tell you not to."
   Direct standing instruction → 0.8.
+- **2026-07-28** — Leo skipped the auto-launch on a remote-control session
+  (assumed phone-only from photo uploads); James had to ask "open the .md
+  file". Also first launched with system `python3` → ModuleNotFoundError;
+  the skill documents the venv interpreter. Both codified above.
