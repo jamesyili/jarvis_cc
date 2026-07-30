@@ -56,7 +56,7 @@ Don't hedge variants into mush. Don't skip evidence. Don't end without the robus
 ### Strategic Partners
 - **Andrew Yaroshevsky (Sr. Director, Product)** — Reflex sponsor; invited James to co-own Detect + Diagnose.
 - **Brian Lee (EM, Activation/Growth)** — AI forum host; long-term ally.
-- **Roberto (Sr. EM, Search)** — parity benchmark; future Reflex co-owner.
+- **Roberto Konow (Sr. EM, Search, under Kurchi)** — was parity benchmark → **7/29: Shifu↔Reflex partnership opened.** Dylan intro'd him to the Reflex POCs (Dafang/Tim Chu/James) after his Shifu demo (Shifu = SSJ agent platform, GH `pinternal-dev/ssj-agent-platform`); first meeting readout (Tim Chu): systems complementary — Shifu strong on build, Reflex on discovery — and **"search is asking shifu to integrate itself within reflex"**; Roberto scheduling a Shifu deep-dive for Dafang/James/Ananth Pushpendran/JJ Hu/Janvi Palan. Also replied warmly 7/28 (~2 mo late) to James's 5/18 Alim reference ask — "the very first EM I managed… I am really happy!" (filed → team_members Alim entry as counter-evidence). Posture: warm reciprocal, credit Shifu's build progress, **don't amplify the who-integrates-into-whom hierarchy** (Kurchi pattern-matches James's moves as VP-backed encroachment); 1:1-cadence DM queued (James's saved draft: UPP/Prelevance/Shifu-Reflex).
 - **Matt Chun (PM, UPP — reports to Andrew)** — strong trust via shared UPP political battles vs. Notif/SSJ; Bowen-era continuity; RLHF meeting attendee.
 
 ### Under Rajat (non-Dylan)

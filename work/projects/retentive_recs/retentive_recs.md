@@ -24,6 +24,11 @@
 - **This is James's single biggest time-sink since returning from China** — and the project where he holds the most context and understanding.
 - **Staffing decision OPEN:** should RR get more engineers (more people running experiments)? Current inputs: **Alok** helping (came in this weekend) but high-maintenance; **Lionel** planned here (starts 7/27); possible **Zelun** leverage; question is whether even more firepower is warranted.
 
+### Amplification: Jeff highlighting the blog post in #core-eng (2026-07-29)
+
+- **Jeff's EA pinged James 7/29:** Jeff's weekly message to **#core-eng** will highlight the *Pinner Progression* Engineering Blog post; EA offered James edit rights on the blurb. Extends the amplification chain (blog 4/17 → CTO conference mentions → **Jeff org-wide highlight, week of 7/29**), days before the Aug 5 reorg announcement.
+- Leo blurb rewrite (delivered in-session; James to send): centers **"persona-based recommendations"** powered by UIC, keeps the UCAN rule ("largest market"), adds the "WAU is historically very hard to move through recommendations alone" kicker, softens the clicks/saves knock. Verify before send: mirror the post's actual team credits; use the public WAU number if the post cites one.
+
 ---
 
 ## Program Status — May 2026 Update (2026-05-23)

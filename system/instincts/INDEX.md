@@ -47,6 +47,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 - **give-bare-ranked-lists** — James asks to prioritize → give the ranked list only; no tiers/hours/schedules/validation.
 - **engage-substance-dont-pre-structure** — brainstorm/reflective/strategic ask → lead with substance; don't open with folder-restructures, spines, forks, or speculative-artifact inventories.
 - **resolve-dictation-artifacts-against-context** — voice-dictated input with off names ("Allen Utility", "PinRec v2") → resolve to canonical names from context and flag the mapping; unresolvable new names get a spelling confirm before hitting a deliverable. When a dictated list CONFLICTS with an established premise, hold the conflicting name out of the record and ask — never ⟨confirm⟩-tag it in (7/17: "Yan, Daniel, Rahul → Dhruvil" garble nearly reversed the Daniel-Liu-to-James premise).
+- **plain-text-questions-on-remote-control** — remote-control (phone) session + Leo needs to ask a clarifying question → plain prose, one question at a time; no AskUserQuestion structured-options UI (James dismisses it on phone and answers in text). (0.3)
 
 ## Artifact persistence / process
 - **persist-and-email-artifacts** — substantive DURABLE artifact or status change → write to file w/ proposed path, edit in-place not companion, update source-of-truth immediately. **Email = explicit-ask only (7/25); ephemeral one-shot content (Slack drafts etc.) never becomes a repo file (7/25) — chat/email/scratchpad only.**

@@ -1,6 +1,6 @@
 # Reflex — Program State, July 2026
 
-**Captured:** 2026-07-25 context-dump session. Prior state: Dafang He = overall TL (5/29 structure), Tim ⟨surname pending, §36⟩ = PM (Andrew's FTE assignment), Andrew Yaroshevsky = sponsor, James = architect/sponsor altitude.
+**Captured:** 2026-07-25 context-dump session. Prior state: Dafang He = overall TL (5/29 structure), **Tim Chu** = PM (Andrew's FTE assignment; surname confirmed 7/29 from Slack), Andrew Yaroshevsky = sponsor, James = architect/sponsor altitude.
 
 ## Where James stands (7/25)
 
@@ -31,6 +31,12 @@
 
 - **Reflex has put James's name out there.** People are reaching out about Reflex and GenAI tooling — e.g. **Brian ⟨James 7/25: "Brian (?)" — identity still soft; not confirmed to be Brian Lee of Growth⟩ from Ads**, and others.
 - Dovetails with **Sen's (§49) offer** that his team could help on AI tooling — a possible tooling-alliance thread.
+
+## Shifu ↔ Reflex (2026-07-29)
+
+- **Dylan opened the lane herself:** after Roberto Konow's Shifu demo, she messaged the joint group (7 members incl. Andrew Yaroshevsky, Assaf Broitman) — "connect the dots between Shifu and Reflex… join force or leverage each other" — and named **Dafang, Tim Chu, and James as the P13N POCs**. Roberto shared Shifu resources: GH `pinternal-dev/ssj-agent-platform` + design doc + slides; noted **An (John) Jiang** had reached out to the Reflex team earlier.
+- **First working meeting (7/29 — Tim Chu, Roberto, Assaf Broitman, Dafang, Luke DeLuccia):** readout = systems very complementary, **Shifu ahead on build, Reflex on discovery**. Next steps on record: (1) **"search is asking shifu to integrate itself within reflex"**; (2) Roberto scheduling a Shifu deep-dive for **Dafang / James / Ananth Pushpendran / JJ Hu / Janvi Palan**.
+- **Leo read (7/29, unratified):** the Evans Q4 Roberto partnership-probe resolved in Reflex's favor, with Dylan's air cover — Reflex is the substrate, Shifu integrates in. Posture: warm + reciprocal (offer a Reflex deep-dive back, open vision doc + weekly), credit Shifu's build progress, **do not re-state the integration hierarchy in public channels** (Kurchi sensitivity — Tim's readout already carries it). Roberto 1:1 cadence DM (James's saved draft) queued.
 
 ## Open (queued for 7/25 session analysis)
 
