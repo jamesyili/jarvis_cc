@@ -2012,6 +2012,7 @@ Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched Ja
 ## What's known
 - **Sr. Director in ATG** (central ML org — Jaewon/Hongtao/Matt Lawhon's world; exact reporting lines unconfirmed).
 - **Actively brokering James ↔ Dinesh (Ads Sr. EM, §40):** has been asking James to go talk to Dinesh re: Ads collaboration (2026-07). **2026-07-19: converted to action — intro DM drafted (Dylan-approved), Jiajing named as the hook ("Jiajing shared some of the roadmaps your team has been charting").**
+- **2026-07-30 — planned calibration ask:** he was present in the ATG sync where James third-degreed RecGPT progress (the sync Bella cited in her "too insecure about RecGPT" feedback, 7/27 1:1). James plans to ask Jiajing for an honest read on whether his probing style over-rotates in those settings. Frame it as "how did my questions land" — do not reference Bella's feedback. Doubles as a relationship-building touch on an already-warm lane (he's been asking James to talk).
 
 ## Why it matters
 - **ATG senior leadership is routing the Ads retrieval opportunity through James.** Jiajing could point Dinesh at the ranking side or keep it ATG-internal; pointing him at James is a central-ML endorsement of James/UPP as the retrieval-platform counterpart for Ads — a Director-altitude third-party signal in the same class as Yan-alignment (Dylan reads peer/senior endorsement as operating signal).
