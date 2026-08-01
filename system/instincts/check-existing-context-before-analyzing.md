@@ -3,7 +3,7 @@ id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_1on1_log.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
 confidence: 0.9
-evidence_count: 7
+evidence_count: 8
 created: 2026-04-23
 last_updated: 2026-07-31
 status: active
@@ -64,6 +64,13 @@ Signal: corrections (three in one session, all the absorbed `verify_load_bearing
 Context: James asked whether RecGPT had to stay with him given two live perf cases on it. Leo answered from the **June 30 archived proposal** + the 7/15 roster + the stale (April) organization.md — concluding "RecGPT is Track A, promised to Alim at ~60-day settle" and building a 7-point recommendation set on it — while `work/people/reorg_july2026/` held a **7/24 exec-voice design** that had already restructured everything (three teams, GenRet as James's criteria-gated incubation, the no-open-case-transfer principle already written in). Two full responses were built on the stale design before James's correction forced the folder read; the corrected answer inverted the advice ("your design already solves this").
 
 Signal: correction ×2, escalating. Refinement → **heuristic 7: fast-moving topics with a dated folder get an mtime-sorted folder listing first.** For any topic with its own dated-artifact folder (`reorg_july2026/`, review folders, program-state files), `ls -t` the folder and read the newest doc(s) BEFORE answering — team_members/roster entries lag design docs by days, and archive/ proposals are wrong by construction. The 7/14 lesson ("a prior working doc's characterization is a prior to verify") has a sharper version when a NEWER doc exists: it's not even the right prior.
+
+### 2026-07-31b (mild — personal-side instance of heuristic 7)
+> "what about able2shine?"
+
+Context: James asked for Evelyn's speech extracurricular options. Leo answered from `speech_debate_options_2026-07.md` (the dated research doc) and presented its 3-way recommendation — but the field had been narrowed to Able2Shine-vs-GSA the same evening the doc shipped (7/25), recorded in `fall_2026_extracurriculars.md`, the backlog family row, and session log 2026-07-25b. James's follow-up question was effectively the correction. Low stakes and quickly recovered (the doc was then made self-contained), but same root: a dated research doc is a snapshot, not the live state — the living files (backlog rows, timetables, session logs) supersede it.
+
+Signal: implicit correction (question revealing missed context). Refinement to heuristic 7: it applies to personal-side dated research docs too, and "the newest doc" may not be a doc — grep the backlog/timetable rows for the topic before presenting a dated doc's recommendation as current.
 
 ## Pattern
 
