@@ -36,6 +36,14 @@ Announcement covers two changes: Blending → Ranking under Dhruvil (Rahul repor
 
 ---
 
+## 2026-07-31 log
+
+- **Alok → Alim DECIDED (James, remote session):** joins Alim's pod starting announcement week (RR primary, Reflex matrixed back to James). Day-1 pod locked: Chuxi / Yidi / Alok / Lionel. Roster + knock-on note updated in `team_members.md`.
+- **Daniel's team stays intact under Daniel in the interim** — reconfirmed; no reshuffling while his org lands (per the 7/24 doc's scope-follows-people phasing).
+- **Final internal org design to be finalized between the EMs in ~2 months** (≈ early Oct, the settle point). This is the venue where CLR→Alim, GenRet graduation, IB placement, Balaji, UEB consolidation, and the open reqs all resolve.
+- **Bella: moves WITH the RecGPT unit when it graduates to the new manager** (James, 7/31) — she keeps RecGPT + Content Exploration; her ratified H2 goals travel with the project. Timing safe as long as graduation stays criteria-coupled (her H2 deliverables ≈ the graduation evidence → lands ~post-rating).
+- **Yuke fork OPEN (7/31):** (a) goes with RecGPT unit to new EM vs (b) stays James-direct and reassigns to less-desirable work. H2 doc to be written **assignment-independent** so both stay available; decision belongs to the 2-month EM org-design point. Zili stays James-direct regardless.
+
 ## 2026-07-27 log
 
 - **ORG NAME RE-DECIDED (Dylan 1:1 PM): "P13N Retrieval"** / Dhruvil = "P13N Ranking" — row 14 updated; string patch now targets this. Internal team names (Retrieval Foundations / Retrieval Modeling / Anticipation Modeling) unaffected.

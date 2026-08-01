@@ -3,9 +3,9 @@ id: carry-uncertainty-markers-into-every-restatement
 trigger: Restating, migrating, or summarizing content that carries an uncertainty marker (⟨confirm⟩, `?`, TBD, "draft", "inferred", "not yet verified") — OR about to build a load-bearing claim on a field so marked
 behavior: The marker travels with the content. Never let a qualifier die in migration — content that was provisional in doc A must read as provisional in doc B, or it silently becomes settled fact and nobody re-examines it. Before asserting anything load-bearing, check whether the source field is marked uncertain; if it is, either verify with James or state it as unconfirmed. Corollary: after changing a person/entity fact, grep the WHOLE doc (and siblings) for that entity before shipping — not just the table being edited.
 confidence: 0.6
-evidence_count: 1
+evidence_count: 2
 created: 2026-07-15
-last_updated: 2026-07-15
+last_updated: 2026-07-31
 status: active
 ---
 
@@ -25,6 +25,12 @@ It was wrong, and the same doc said so: v2 line 79 depends on Zihao as the **UPP
 **3. A stale claim rode along as settled.** v2 §Calls #3 asserted *"Alok → Reflex 50% + UPP 50%. RR is staffed without him."* Both halves were false — Alok isn't on UPP, and RR needs him with Yuke exiting. It had never been re-checked because it read as a decision, not a guess.
 
 **Corollary datapoint (same session):** Leo replaced the v2 appendix roster but missed the same doc's *body*, then emailed James two documents that contradicted each other — the talking points said Zihao was out, v2's body still said he was in. The fix is mechanical: **grep the whole doc for the entity after any fact change**, not just the table under the cursor.
+
+### 2026-07-31 (authorized-invention corollary — midyear review batch)
+
+James instructed, for 9 team-member H1 review drafts: "Rather than leaving blanks… do your best to infer… **Make up stuff if needed.**" The marker principle applies even when invention is *authorized*: invented specifics in polished prose read as fact and can silently survive James's edit into a **delivered performance review** — the highest-stakes version of a qualifier dying in migration. Implementation that honored both the no-blanks ask and the marker rule: complete flowing prose, plus a **"Verify before delivery" block at the top of each file** enumerating every invented/inferred specific (and any premise, e.g. "promotion went through"); no invented precise metric numbers stated as measured results. James did not object across 9 drafts; the batch-summary rule given to him: *treat an unchecked verify-item as undelivered.*
+
+**Corollary rule:** when James authorizes inference/fabrication in a draft, the inventions still get an enumerated verify-list per artifact — authorization changes what may be written, not what must be marked.
 
 ### Why this one matters
 `⟨confirm⟩`, `?`, and "draft" are the repo's cheapest safety mechanism, and restatement is where they get stripped — because prose wants to read confidently. The cost here was real: a wrong pod in a Dylan-facing proposal and a wrong script for a retention-critical 1:1 with a new M16.

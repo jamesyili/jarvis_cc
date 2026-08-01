@@ -2,10 +2,10 @@
 id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_1on1_log.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
-confidence: 0.85
-evidence_count: 6
+confidence: 0.9
+evidence_count: 7
 created: 2026-04-23
-last_updated: 2026-07-14
+last_updated: 2026-07-31
 status: active
 ---
 
@@ -57,6 +57,13 @@ Context: rebuilding the org-design proposal, Leo (a) inherited the v1 working do
 Signal: corrections (three in one session, all the absorbed `verify_load_bearing_facts` sub-pattern). Refinement: **a prior working doc's characterization of a person/team's charter is a prior to verify with James, not a fact to build on** — charters evolve between when the doc was written and now. Same for level / reporting-line: surface load-bearing org facts for a one-line confirm before anchoring a multi-turn build on them. The grill *did* catch the Daniel one (Q1 opened on the boards/infra contradiction) — but only after a full personnel section was written on the wrong premise. Cheaper to flag the inherited charter-premise up front ("v1 frames Daniel as infra — still true?") than to rebuild after.
 
 **7/14b same-day recurrence (same stakeholder):** in the rollout-messaging session Leo again asserted a Daniel reporting-line fact without checking — "Daniel used to report to Dylan directly, so James is a *new layer inserted* above him" — and built a meeting-structure "make-or-break" point on it. `daniel_liu_team_2026-07.md:11` already recorded him as **Yan's sub-EM** (so the move is *lateral*, not layered — the opposite emotional read). Same stakeholder, same sub-pattern, same day, even after the entry above. Sharpened heuristic → **grep the person's OWN file before analyzing them** (`daniel_liu_team_2026-07.md`, not just session memory or a sibling proposal doc); when a point about someone becomes load-bearing (a "make-or-break"), that's the trigger to verify the org-fact under it, not to lean harder on it.
+
+### 2026-07-31
+> "What the fuck are you on about? Start over." (after) "Did you read the latest reorg stuff? You seem to be missing context"
+
+Context: James asked whether RecGPT had to stay with him given two live perf cases on it. Leo answered from the **June 30 archived proposal** + the 7/15 roster + the stale (April) organization.md — concluding "RecGPT is Track A, promised to Alim at ~60-day settle" and building a 7-point recommendation set on it — while `work/people/reorg_july2026/` held a **7/24 exec-voice design** that had already restructured everything (three teams, GenRet as James's criteria-gated incubation, the no-open-case-transfer principle already written in). Two full responses were built on the stale design before James's correction forced the folder read; the corrected answer inverted the advice ("your design already solves this").
+
+Signal: correction ×2, escalating. Refinement → **heuristic 7: fast-moving topics with a dated folder get an mtime-sorted folder listing first.** For any topic with its own dated-artifact folder (`reorg_july2026/`, review folders, program-state files), `ls -t` the folder and read the newest doc(s) BEFORE answering — team_members/roster entries lag design docs by days, and archive/ proposals are wrong by construction. The 7/14 lesson ("a prior working doc's characterization is a prior to verify") has a sharper version when a NEWER doc exists: it's not even the right prior.
 
 ## Pattern
 
