@@ -26,7 +26,9 @@ Flags:
   Edit / View toggle. Source of truth stays markdown — no HTML→md round-trip.
   One file per server; `--port N` for a stable URL (default: auto). Run it in
   the background (`run_in_background`) and give James the URL; stop it when done
-  (`pkill -f "doc_viewer.py --edit"`). Conflict-safe: if the file changed on
+  (`pkill -f "doc_viewer.py --edit"`). **Run pkill and any relaunch as SEPARATE
+  Bash calls** — combined in one command, the pkill pattern matches the new
+  command's own line and kills it (exit 144, observed 2026-08-01). Conflict-safe: if the file changed on
   disk after load (e.g. Leo edited it), Save returns 409 and the browser asks
   before overwriting — so avoid editing a file Leo is also mid-edit on.
 - `--watch` — keep running; re-renders on every save of the source .md, and the
