@@ -4,6 +4,10 @@
 
 **Last updated:** 2026-08-01 PST (Saturday, pc-leo)
 
+## Time allocation (James, 8/1 — out of the Jan-2027 regret simulation)
+
+**Weeks of 8/3 + 8/10 = reorg people focus** (first skip 1:1s with new skips · technical deep dives on Recommended Boards + Intelligent Boards — which double as gains-origin-gate evidence for Oct). **From ~mid-August: James's time = (1) Reflex, (2) UPP. Everything else is delegated.**
+
 ## Major workstreams
 
 | # | Workstream | "Done" looks like | Gates / dates | Record |
@@ -16,9 +20,9 @@
 | 6 | **Run the Yuke case** | Formal path to fork resolution without process defects | H1 delivery 8/10 wk · written bug-summary evaluated vs. commit timeline (Chuxi DMs stay ER-side) · peer validation Aug–Sept · end-Sept RecGPT checkpoint · fork (a)/(b) at Oct settle | Yuke files in `downward_reviews/h12026` · `team_members_scope.md` |
 | 7 | **Bella doc-path + Simulate demo** | Rating cycle executed on the doc path; Simulate V0 lands | H1 early 8/10 wk · **Simulate V0 demo mid-Aug** (Andrew-requested) · delivered-feedback paste + Slack heads-up · Jiajing calibration chat · +0.4% SSv2 H2 goal (hedge inline) · 30-day check Sept | Bella case record (`downward_reviews`) · `reflex_program_state_2026-07.md` |
 | 8 | **Stand up the three-EM org → Oct end-state** | EM sync running; Oct decisions made on criteria, not advocacy | **GenRet graduation/sunset criteria written BEFORE 8/17 (James alone)** · sync kickoff ~8/17 (decision rights + settled/open lists + five principles) · Oct: CLR, GenRet destination, IB gate, UEB, Balaji, 2 reqs, remaining lines | `reorg_july2026/p13n_retrieval_split.md` |
-| 9 | **Onboard Daniel + Curation ML** | Daniel retained + energized; team legible; Yan context captured before it evaporates | 1:1 cadence from 8/4 · skip-levels from 8/10 · Yan capture Wed (asks-with-dates, inherited commitments, Daniel H1 input) · workstream map: Yongwoo/Felix/Yang · LLM-backbone requirement inventory w/ Anna | `daniel_liu_archive.md` · timeline doc |
+| 9 | **Onboard Daniel + Curation ML** | Daniel retained + energized; team legible; Yan context captured before it evaporates | 1:1 cadence from 8/4 · skip-levels from 8/10 (**the two-week people window**) · **technical deep dives: Recommended Boards + Intelligent Boards** (also = Oct gains-origin evidence) · Yan capture Wed (asks-with-dates, inherited commitments, Daniel H1 input) · workstream map: Yongwoo/Felix/Yang · LLM-backbone requirement inventory w/ Anna | `daniel_liu_archive.md` · timeline doc |
 | 10 | **Ramp Alim to RR + UEB ownership** | Anna + Krystal go to Alim first on RR by end-Aug; UEB handoff a formality by Oct | Ask lands Wed 8/5 · pen transfer at 8/10 4-way + Anna private line before it · scope-coupling frame delivered · instrument-panel readings weekly · ~60-day settle read late Sept | `alim_virani_archive.md` |
-| 11 | **Reflex consolidation + platform story** | Pinkerton folded in; James's role sentenced; Shifu integration on Reflex's terms | Role-sentence ask with Dylan · fold Pinkerton (decided 8/1 — execute in docs/comms) · Shifu deep-dive (don't amplify who-integrates-into-whom) · JJ Build return mid-Aug · PINvestigator regular-use proof point · Simulate demo | `reflex_program_state_2026-07.md` · `h2_2026_team_analysis.md` O5 |
+| 11 | **Reflex: capitalize on the Shifu fold-in** | James's #1 from mid-Aug: a working, demonstrated Reflex that visibly absorbed Shifu — shown, not announced | ~~Role-sentence ask~~ CLOSED 8/1 — Dylan named James EM POC; "deliver the glory first" · Shifu fold on Roberto's framing (Shifu ahead on Build → leverage; Reflex ahead on discovery/RL — use his words, no spiking) · Pinkerton folded (Alok owns) · JJ Build mid-Aug · Rui 8/9 · Simulate demo mid-Aug · PINvestigator regular-use proof | `reflex_program_state_2026-07.md` · `h2_2026_team_analysis.md` O5 |
 | 12 | **Exec-clock deliverables** | GenAI doctrine shipped; cost trim list to Jeff's forum; JJ landed well | GenAI placement doctrine: JJ writes mid-Aug, James edits; #genai-feed-wg plan w/ Dhruvil + Lily · cost-investigation prioritized trim list → Jeff EM discussion · **cost-savings path = SGI work w/ Ryan (H2); additional sources still to be found** · JJ first-week-back sequencing (doctrine vs. L1 vs. NLFU) + promo-decision watch at Jeff's round | `cost_investigation_2026.md` · `h2_2026_team_analysis.md` O3/O4/R6 |
 
 ## Quick hits (small + dated, from the H2 analysis)

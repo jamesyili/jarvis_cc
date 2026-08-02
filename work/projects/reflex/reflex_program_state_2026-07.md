@@ -43,3 +43,10 @@
 - How to raise James's leverage with Dafang without colliding with the TL structure he himself set (5/29: operational ownership deliberately with Dafang).
 - Dylan role-clarification ask (to Tim) — timing and framing.
 - Whether Reflex time-share can grow in Q3, and what JJ/Rui delegation must be true for that.
+
+## 2026-08-01 — Shifu folds INTO Reflex; James named EM POC; the refocus commitment
+
+- **Shifu → Reflex fold confirmed** (Roberto's framing, kept verbatim for upward narration): Shifu was **further ahead on the Build agent** → leverage that and continue the functionality; **Reflex is much further ahead on discovery and the RL aspects.** Politically graceful framing — honors Search's contribution while establishing Reflex as the frame things fold into; use his words, never amplify who-integrates-into-whom.
+- **James named EM POC for Reflex by Dylan** (confirmed 8/1 — "Hanlin" was a dictation artifact). The role-sentence ask is **moot**: "I don't need to be named anymore. I trust her — she'll give me the glory if it comes to that. First we need to actually deliver the glory."
+- **The commitment (James, 8/1, out of the Jan-2027 regret simulation):** weeks of 8/3 + 8/10 = reorg people focus (first skip 1:1s with new skips; technical deep dives on Recommended Boards + Intelligent Boards). **From ~mid-August: James's time = (1) Reflex, (2) UPP. Everything else is delegated.**
+- Staffing aligns with the window: Rui back 8/9, JJ back mid-Aug (Build), Bella Simulate demo mid-Aug, Alok on Pinkerton. Fall glory deliverable ≈ a working, demonstrated Reflex that visibly absorbed Shifu — shown, not announced.
