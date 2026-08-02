@@ -13,9 +13,13 @@ Last updated: 2026-08-01 (rename + org-shape/scope sections built from `reorg_ju
 - **Org name: P13N Retrieval** (Dylan re-decided 7/27 — "for now," her hedge against exec-priority churn; Dhruvil's org = **P13N Ranking**). Retires "HF CG." **Anticipation Foundations** remains the cross-org *program* name.
 - **Scope sentence (v2):** the pre-ranking funnel end to end, from user signal to what the ranker sees, plus the anticipation modeling built on top of it (Retentive Recs, pUIC, boards/exploration ML). Ranking starts where we end; surfaces belong to P13N-Experiences.
 - **Dylan's reorg (announces Wed 8/5):** Daniel Liu (M16) + his 7-person Curation ML team re-parent **laterally** from Yan to James (team intact under Daniel in the interim); Dhruvil gains the blending team (Rahul Goutam + ~5–6). Only Dhruvil + James took headcount this cycle.
-- **James's internal reorg is decoupled, on his own clock:** initial state = minimal changes (Alim's pod drawn from James's own reports; Daniel's team intact; CLR + UPP stay with James). **Internal end-state design is finalized between the three EMs at ~2 months (~early Oct)** — standing EM staff sync kicks off ~week of 8/17 (principles + settled/open lists in `announcement_week_timeline_2026-08.md` Phase 2). Open there: CLR placement · GenRet graduation criteria + landing · IB gains-origin gate (~60d) · UEB consolidation · Balaji · the two open reqs · remaining James-direct lines.
+- **Transition states (James, 8/1): T1 → T2, no T3.**
+  - **T1 — starts the week of 8/3, immediately after the announcement:** **Alok, Chuxi, Lionel, Yidi report to Alim**, whose team is named **"Retrieval Modeling"** (re-decided from the July design's "Anticipation Modeling"). **Everyone else stays reporting to James; Daniel retains his team (Curation ML) intact.** No other changes at T1.
+  - **T2 — ~2 months out (~early Oct):** between T1 and T2, **James + Daniel + Alim figure out the right structure together** — the standing EM staff sync (kickoff ~week of 8/17; process, principles, and settled/open lists in `reorg_july2026/p13n_retrieval_split.md`). Open at T2: CLR placement · GenRet graduation criteria + landing · IB gains-origin gate (~60d) · UEB consolidation · Balaji · the two open reqs · remaining James-direct lines.
 
-### The three teams (names locked 7/24)
+### The three-team charter design (July target — a T2 input, NOT the T1 state)
+
+> The table below is the 7/24 design proposal, kept as the working charter map feeding the T2 process. **T1 reality differs:** Alim's team carries the name "Retrieval Modeling" (the July table assigned that name to Daniel's leg — superseded); Daniel's team stays **Curation ML** through T1; "Retrieval Foundations" remains design vocabulary, not an announced name. Team names and final ownership settle at T2.
 
 | Team | EM | Mission | Ownership (initial → settle) |
 |---|---|---|---|
@@ -89,12 +93,12 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 | Alok Malik | L14 | MLE | **Retentive Recs (primary)** · Reflex | **Alim (eff. w/o 8/3)** | RR is his own call; needed there as Yuke exits RR. **RESOLVED 7/31: goes to Alim with the announcement**; Reflex work matrixes back to James |
 | Zili Li | L14 | MLE | LWS | James | **Pre-PIP: ER engaged 7/22, feedback delivered 7/30, PIP gate ~8/13** (PTO 8/18–9/3 → if fired, opens 9/8); James keeps it |
 | Hanlin Lu | L14 | MLE | RecGPT | James | — |
-| Chuxi Wang | L14 | MLE | Retentive Recs | James | Supported, unannounced TL ramp |
-| Lionel Bewa | L14 | SWE | — | James | **Joins 7/27**; Toronto; Charlie backfill |
+| Chuxi Wang | L14 | MLE | Retentive Recs | **Alim (T1, wk of 8/3)** | Supported, unannounced TL ramp |
+| Lionel Bewa | L14 | SWE | — | **Alim (T1, wk of 8/3)** | **Joined 7/27**; Toronto; Charlie backfill |
 | Ling Lan | L14 | MLE | Retentive Recs · Intelligent Boards | Daniel | Chuxi's daily delivery partner |
 | Felix Yang | L14 | SWE | **Not sure** | Daniel | Fill after first Daniel conversation |
 | Yichi Wang | L13 | MLE | CLR | James | — |
-| Yidi Wang | L13 | MLE | Retentive Recs | James | Carrying most of model-based pUIC |
+| Yidi Wang | L13 | MLE | Retentive Recs | **Alim (T1, wk of 8/3)** | Carrying most of model-based pUIC |
 | **REQ-2 (open)** | L13 | MLE | — | James | Granted ~7/11; unallocated |
 
 *Not in the 26: Rita Lyu (intern, Daniel's team, ~2 months left). Departed/exiting: Sophia, David, Charlie.*
