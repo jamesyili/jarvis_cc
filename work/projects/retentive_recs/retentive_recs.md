@@ -9,7 +9,7 @@
 
 ### State: lull on launches, all-in on pUIC
 
-- **No launch candidate in a while — a deliberate lull:** the team has been "pouring heart and soul" into the **two predictive-UIC tracks**. **LLM-based pUIC: not very performant right now. Model-based pUIC: better — but the serving path has been riddled with issues**, which James attributes to **Yuke's TL oversight** (see team_members.md Yuke 6/23–7/25 arc).
+- **No launch candidate in a while — a deliberate lull:** the team has been "pouring heart and soul" into the **two predictive-UIC tracks**. **LLM-based pUIC: not very performant right now. Model-based pUIC: better — but the serving path has been riddled with issues**, which James attributes to **Yuke's TL oversight** (see team_members_scope.md Yuke 6/23–7/25 arc).
 - **Chuxi stepping deeper into model pUIC** (as the new TL) → things are improving and **Yidi is happier**. Trade-off accepted: **LLM pUIC slows down further.**
 - **FBL win during James's China OOO:** **Olafur, Andreanne, and Armando landed a launch using FBL** (feedback loop). Still in the midst of **landing the FBL application in L1 / Retrieval.**
 - **Cross-org cadence aligned** with **Yingjian (UU)** and **Zhenyu Tan (Sr. EM, ATG — confirmed 7/25; earlier Notif-side note superseded)** on project meeting cadence + who drives. **Chuxi and Anna supportive.** Q3 meeting structure (screenshot filed 7/25):

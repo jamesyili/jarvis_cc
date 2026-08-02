@@ -96,7 +96,7 @@ Structurally symmetric — both EMs unnamed in deck; both teams visibly present 
 
 Routes through Piyush, not around Dhruvil. Both narrative-shaping AND EM-developmental for Piyush. Clean political path.
 
-**Why this is fine, not alarming** (see `work/people/dylan_team_design_input_2026-05.md` 2026-06-05 entry for full read):
+**Why this is fine, not alarming** (see `work/people/dylan_archive.md` Appendix III-C 2026-06-05 entry for full read):
 - Structure is symmetric across EMs
 - James's exec-altitude narrative anchoring already exists in Reflex (main co-author, CEO altitude) + Anticipation (substrate owner)
 - The three-presentation convergence (Anticipation + Reflex + UPP) at CEO/CTO altitude in one month puts James on all 3, Dhruvil on 1, Yan on 1
@@ -949,3 +949,25 @@ Jinfeng DMed James flagging that Piyush "seemed reluctant" to incorporate P2P LR
 **Jinfeng's response:** "That's awesome, really appreciate James!!" + told Jiaxing to collaborate fully on proposing the best technical design. Offered to be added to sessions if helpful.
 
 **Significance:** This is the strongest positive signal from Jinfeng since the co-design was established. The shift from misrepresenting alignment (3 weeks ago) to genuine enthusiasm came from James leading with credit for P2P's strengths rather than defending CLR's position. The "practitioner who made SSJ's surfaces better" meta-goal is becoming operational.
+
+## 2026-08-01 — V0 BEAT ONETRANS HEAD-TO-HEAD
+
+**James (8/1, Saturday session): "We beat OneTrans with v0 — SSv2 wins in US and Canada, and strong engagement wins globally."** ⟨Experiment/surface specifics (P2P candidate? holdout window? exact deltas) to capture next session — this entry records the result the moment it was reported.⟩
+
+Significance: this is the head-to-head the 7/13 same-baseline comparison couldn't claim. The evidence half of the UPP conversion is done; what remains is **conversion** — launch decision, top-line attribution, and narrative sequencing (Dylan first: the seam pre-frame queued since 7/17 now goes out armed with results; then the Jeff/ELT layer — "how much more for Search" is answerable with data). A shipped, attributed win is the strongest available counter to the SSJ "Intentful UPP" committee proposal. See `work/people/h2_2026_team_analysis.md` O1/R4.
+
+### 2026-08-01 addendum — not a slam dunk; launch = exemplar of the new decision process
+
+James (same session, correcting the entry above): **the P2P launch is not a slam dunk — there are regressions to semantic relevance.** But **Dylan and Matt ⟨assumed = Matt Chun, PM — confirm⟩ want to push for the launch anyway, to make an example of the new decision-making process they're escalating for** (connects to Matt's "Core VPs should decide" position and Jeff's alignment-is-slowing-us mandate).
+
+Strategic posture (Leo, ratify or adjust):
+1. **Trade-off acceptance goes in the launch decision record at the deciding altitude** (Dylan/VP) with pre-agreed monitoring + rollback criteria — so an October relevance complaint reads "the process accepted a measured trade-off," not "James's org shipped a known regression."
+2. **Remediation trajectory attaches to the launch:** characterize the regression (where/size/user-visibility), bound it (action thresholds), announce the fix path (V1 FM component / relevance-aware follow-ups).
+3. **Disclose first.** The narrative line is "beat OneTrans on SSv2 + engagement with a measured relevance trade-off we're managing" — never "slam dunk." The SSJ side will find the regression; first disclosure is cheap, discovered disclosure is expensive (and it brushes the Bill/perception-quality narrative).
+4. **Exemplar coupling = risk transfer in James's favor** if 1–3 are done: the launch call is genuinely Dylan/Matt's process's; James's org is the one that executed cleanly and instrumented honestly.
+
+### 2026-08-01/02 additions (via the Work-Leo org-planner delta)
+
+- **Search is adopting V0** — and flagging that **GPU serving may be hard to get**: a delivery risk sitting on another org's capacity. (The "how much more for Search" pull is now an adoption in motion with an infra constraint attached.)
+- **UPP stays with James directly at T2** — heavy managing up and across, high risk, clear leadership ask. Not a settle-point transfer candidate.
+- Restated from the planner: V0 beating P2P production (OneTrans) on engagement + SSv2 (UCAN) while regressing some semantic relevance; launch push is the live thread (see 8/1 entries above for the exemplar-launch posture).

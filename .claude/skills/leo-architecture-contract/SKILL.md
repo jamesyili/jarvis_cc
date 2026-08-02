@@ -147,7 +147,7 @@ about."
   hook.
 - **Facts** (stakeholder intel, project state, profile, infra) → context files per the
   AGENTS.md routing guide: Dylan → `work/people/dylan_archive.md`, other stakeholders →
-  `work/people/stakeholders.md`, direct reports → `work/people/team_members.md`, projects →
+  `work/people/stakeholders.md`, direct reports → `work/people/team_members_scope.md`, projects →
   `work/projects/`, goals → `self/goals.md`, coaching → `work/coaching.md`, infra →
   `system/leo-overview.md`.
 

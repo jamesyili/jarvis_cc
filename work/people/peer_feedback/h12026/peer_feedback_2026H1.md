@@ -17,7 +17,7 @@ Same process as the six below: pull context → confirm level/form → get James
 
 Open sharpening on the six done: Karim (2 `[Anchor:]` slots want concrete moments); Dimitra content-quality POV + Sai P2P-vision articulation would each gain from one anecdote.
 
-Also pending: James's decision on whether to split this combined doc into per-person files under `self/writing_style/peer_feedback_2026/` (his existing convention) vs. keep combined.
+Also pending: James's decision on whether to split this combined doc into per-person files under `promo_assessments/` here (that folder's convention; moved from `self/writing_style/` + renamed 8/1) vs. keep combined.
 
 ---
 

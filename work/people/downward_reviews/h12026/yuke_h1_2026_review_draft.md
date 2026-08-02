@@ -10,11 +10,11 @@
 
 ---
 
-*(Superseded letter removed 2026-07-31 — final text lives in `h12026_reviews/yuke_h1_2026_feedback_final.md`.)*
+*(Superseded letter removed 2026-07-31 — final text lives in `downward_reviews/h12026/yuke_h1_2026_feedback_final.md`.)*
 
 # Workday Midyear Form — Manager Answers (paste blocks, 2026-07-28)
 
-> Condensations for the three Workday questions, written next to Yuke's own answers (transcribed in appendix §A) so nothing he claimed goes silently unanswered. **The master is now James's final (`h12026_reviews/yuke_h1_2026_feedback_final.md`, 7/31) — re-derive these blocks from it before submission; they still reflect the superseded v2 letter.** `[Brackets]` = the same pending artifacts. ER pre-review covers these together with the final.
+> Condensations for the three Workday questions, written next to Yuke's own answers (transcribed in appendix §A) so nothing he claimed goes silently unanswered. **The master is now James's final (`downward_reviews/h12026/yuke_h1_2026_feedback_final.md`, 7/31) — re-derive these blocks from it before submission; they still reflect the superseded v2 letter.** `[Brackets]` = the same pending artifacts. ER pre-review covers these together with the final.
 
 ## Q1 — Key accomplishments and impact on team, function, and/or Pinterest priorities
 

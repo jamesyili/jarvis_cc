@@ -83,9 +83,11 @@ Six root directories. The rule (locked 2026-07-11): **root dirs answer "what is 
 
 ```
 work/                   # WORK context (split from former work+self/ on 2026-06-11)
-├── people/                 stakeholders, organization, dylan_archive, dylan_1on1_log, team_members,
-│   │                       role_expectations/ (REGs), reorg_july2026/ (July-2026 reorg docs),
-│   │                       peer_downward_feedback/ (h12026/), archive/ (point-in-time prep docs)
+├── people/                 stakeholders, organization (structure + outside teams), dylan_archive (incl. 1:1 log),
+│   │                       team_members_scope (roster + org shape/scope), role_expectations/ (REGs),
+│   │                       reorg_july2026/ (July-2026 reorg docs), downward_reviews/ (per-cycle review docs: h12026/),
+│   │                       peer_feedback/ (per-cycle: h12026/ incl. promo assessments), pip/ (per-person PIP records),
+│   │                       archive/ (point-in-time prep docs)
 ├── projects/               project specs + technical references
 ├── career/                 ethanevans_questions, ethan/wes-james-situations, self-reviews, resume
 ├── journals_and_growth.md  WORK half: career Lessons 1–13, growth edges, work journal entries
@@ -98,7 +100,7 @@ self/                   # SELF context (split 2026-06-11; interview_prep/learnin
 ├── interview_prep/         curriculum, system design, fundamentals, transformers /teach workspace
 ├── learning/               5-track curriculum, codebase notes, theme extraction
 ├── sideprojects/           rekko, viral_remix (Folio)
-├── writing_style/          writing-craft system: feedback/peer-feedback style guides + promo packages + peer_feedback_2026/
+├── writing_style/          foundational voice library (see its README): style guides + aspirational styles (Andrew) + per-genre exemplars; comprehensive collections live in work/people/{peer_feedback,downward_reviews}/
 ├── goals.md                FUSED master: North Star + Layer I Foundation + Layer II keystones (both Leos load)
 ├── family.md               the "ordinary James" domain; Evelyn inheritance stakes
 ├── health.md               concrete health targets + reps
@@ -213,11 +215,11 @@ Update context files when James mentions:
 Routing guide:
 - New intel on Dylan → `work/people/dylan_archive.md`
 - New intel on other stakeholders → `work/people/stakeholders.md`
-- New intel on direct reports → `work/people/team_members.md`
+- New intel on direct reports → `work/people/team_members_scope.md`
 - Project-direction decisions → relevant file in `work/projects/`
 - Goal or trajectory shifts → `self/goals.md`
 - New coaching pattern → `work/coaching.md`
-- 1:1 with Dylan → append to `work/people/dylan_1on1_log.md`
+- 1:1 with Dylan → add entry at top of Part I in `work/people/dylan_archive.md`
 
 ## Session Continuity
 

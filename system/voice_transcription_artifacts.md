@@ -21,7 +21,7 @@ James often uses voice input for long context dumps, and voice-transcription man
 
 1. **Unfamiliar name in a James voice-input message → flag it as a clarification question early.** Don't silently assume, don't wait 5 messages to raise it. James confirms in one sentence.
 2. **Technical terms** (project/tool/framework names) — cross-reference `work/projects/`, `work/people/stakeholders.md`, and the session's existing context before assuming.
-3. **Team-member names** — cross-reference `work/people/stakeholders.md` + `work/people/team_members.md`.
+3. **Team-member names** — cross-reference `work/people/stakeholders.md` + `work/people/team_members_scope.md`.
 4. **Don't fabricate context** around an unfamiliar term. If "Manus migration" appears with no record, say so and ask.
 5. **Transliteration variants** (Jiaqing vs Jiaxing, Yuke vs Yu Ke) — treat as the same person unless context disambiguates, but note the ambiguity.
 

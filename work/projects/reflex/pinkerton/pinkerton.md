@@ -221,3 +221,7 @@ James acknowledged the time-crunch concern is real but consciously chose to **ri
 2. **Dylan flag:** Dylan mentions a project gap in the next 1:1 (anything she expected to be moving that isn't).
 3. **Pinkerton M1 two-week test:** If it's 2026-04-25 and Pinkerton M1 has not landed a meaningful milestone, the wave is crowding out the headline.
 4. **Blog post #1 Monday test:** If James walks into Monday 2026-04-13 with blog post #1 still at zero, Karen's tripwire moves from +5 to +6 and Leo escalates.
+
+## 2026-08-01 — Status: folding into Reflex (deliberate)
+
+James (8/1): Pinkerton work has stalled — and that's acceptable, because the plan is now to **fold it into Reflex** and concentrate attention there. One narrative, one funding story; Pinkerton's DSAT/deep-analysis substance becomes Detect/Prove content inside Reflex rather than a separately defended program. This file stays as the historical record; forward state lives in the Reflex program docs.

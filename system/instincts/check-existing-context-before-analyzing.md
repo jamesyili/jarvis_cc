@@ -1,6 +1,6 @@
 ---
 id: check-existing-context-before-analyzing
-trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_1on1_log.md, etc.)
+trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_archive.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
 confidence: 0.9
 evidence_count: 8
@@ -80,7 +80,7 @@ This is distinct from `corrections-interrupt-by-design` (which is about factual 
 
 1. **Known-stakeholder questions** ("what should I do about Roberto / Andrew / Dylan / Rajat / Jeff?") — always grep `work/people/stakeholders.md` + `dylan_archive.md` first.
 2. **Ongoing-project dynamics** ("how should I position Pinkerton / RR / UPP?") — grep `work/projects/` + recent session logs.
-3. **Recurring-situation patterns** ("how should I handle this 1:1 / skip-level / office hours?") — check `communication.md` playbooks and `dylan_1on1_log.md` for prior instances.
+3. **Recurring-situation patterns** ("how should I handle this 1:1 / skip-level / office hours?") — check `communication.md` playbooks and `dylan_archive.md` Part I (1:1 log) for prior instances.
 4. **When about to offer a multi-option framework** (A / B / C) on a known topic — pause and verify no option is known-failed. Leo's Option C re-proposed the March 2026 failed move.
 5. **Before claiming "no context found" on a name or topic** — run `grep -rn -i "<name>" work/ self/ --include="*.md"` (case-insensitive, surface-form, no extension). Sub-entries, notable mentions, inline references all count as "context exists." A 3-line note under another stakeholder is still context. Top-level-only search fails this pattern.
 6. **Near-match names are unverified identities, not variants.** When a name James uses is a close-but-not-exact match to a documented person (Jiajing≠Jiaxing, two Daniel Lius), do NOT silently merge — check role/org consistency, and if anything mismatches (or the merged read becomes load-bearing), ask James one disambiguation question before building on it. Chinese-name romanizations collide often; a one-character difference is a different person until confirmed.
@@ -95,7 +95,7 @@ This is distinct from `corrections-interrupt-by-design` (which is about factual 
 ## Absorbed from auto-memory (2026-06-26)
 
 Migrated feedback memories — same root ("read/verify what exists before reasoning"):
-- **check_team_context_first** — read `work/people/team_members.md` before analyzing any Slack exchange or interaction involving James's reports; don't assume roles or pronouns.
+- **check_team_context_first** — read `work/people/team_members_scope.md` before analyzing any Slack exchange or interaction involving James's reports; don't assume roles or pronouns.
 - **read_recent_files_before_critiquing_artifacts** — before critiquing a stakeholder artifact (1:1 notes, draft memo, talking points), `ls -lat` the dir for the longer companion doc the compressed version usually sits on top of.
 - **verify_load_bearing_facts** — before anchoring a multi-turn analysis on a strategic fact (level, timing, manager-state, role-arc), surface it for verification. Hold a higher staleness prior on old `.md` / auto-loaded context; verify the load-bearing ones specifically, not every detail.
 - **dont_over_fortify_on_sensitive_intel** — when James shares sensitive stakeholder intel, check whether a structural fix is already happening at someone else's altitude before posturing defensive scripts; don't over-build alarm-bell rules.

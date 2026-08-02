@@ -125,3 +125,7 @@ Key differentiators for interviews:
 2. **Eval harness** (Q2 focus) — demonstrates the "hard part" of agent engineering that separates real systems from demos
 3. **Three-level evaluation**: black-box (report quality), glass-box (trajectory), white-box (per-step)
 4. **Failure handling as architecture** — one subagent per data source means failures are contained, partial results are useful
+
+## 2026-08-01 — Status: in regular use
+
+James (8/1): PINvestigator is now **regularly used for investigations**. The stale file (last full update 4/11) understates the project — it crossed into routine-tool territory. Load-bearing for James's named Reflex lane (Detect/evals/quality): "already in weekly investigative use" is the proof point. ⟨Usage specifics (who runs it, cadence, notable investigations) worth capturing next session.⟩

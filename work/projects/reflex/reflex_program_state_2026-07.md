@@ -19,7 +19,7 @@
   - **Janvi owns the Evolution stage** — compounding learnings into the knowledge.
 - **Feedback from Tim:** **Dafang moving a bit slower than anticipated** (vs. Janvi / Chao / Sam Owens at expected pace); wants a higher-level POV of how things should work to set the scaffolding; **wants to ensure Dafang can remain overall Technical Lead**; modeling agent's place in the build stage still to figure out. **Next steps: concrete deliverables with concrete timelines (e.g., system-design 1–2-pager); weekly Tim/Dafang/James sync starting mid-August.**
 - **JJ:** Tim would love more collaboration with **Janvi and Ads CG**.
-- **Bella / Simulate:** presentation meeting **requested by Andrew** (sharing Chi's simulation work); James in-meeting: "Tim wrote something — leverage that as a start." **Tim: her work so far is not concrete enough**; "consider a full design later, guided by implementation first?" **Agreed timeline: V0 — something to show by mid-August.** *(Cross-filed to team_members.md Bella 7/25 — third-party corroboration of the impact concern.)*
+- **Bella / Simulate:** presentation meeting **requested by Andrew** (sharing Chi's simulation work); James in-meeting: "Tim wrote something — leverage that as a start." **Tim: her work so far is not concrete enough**; "consider a full design later, guided by implementation first?" **Agreed timeline: V0 — something to show by mid-August.** *(Cross-filed to team_members_scope.md Bella 7/25 — third-party corroboration of the impact concern.)*
 - **ATG technology goals:** RecGPT as pipeline backbone = "more of a P2"; predict-the-actions = "probably not what we want." **Tim is actively steering these conversations.**
 
 ## The time-allocation tension (feeds Q3 priorities discussion)

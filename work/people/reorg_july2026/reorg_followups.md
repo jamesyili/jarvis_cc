@@ -21,7 +21,7 @@
 | 15 | **IB placement settle gate** — stays Daniel now; gains-origin read (modeling vs surface-pairing) over ~2 months | James | Settle point (~60d) | Logged in 7/24 doc §Longer Term |
 | 9 | **Dinesh DM** | James | — | **SENT (confirmed 7/20).** Real team name still to capture in first conversation |
 | 10 | **Org chart in announcement doc shows Dynamic Retrieval (Alim) sub-team** — James's *internal* split visible on 8/5 if unedited | James → Dylan | Before 8/5 | Flag to Dylan if internal structure shouldn't be public yet |
-| 16 | **Alim ramp watch** — backchannel flag surfaced 7/25 (SENSITIVE; details only in `team_members.md` Alim Tier-1 entry — do not restate elsewhere). Observation runs through existing ramp structures; **ER confidential-consult decision pending**; settle-gate scope transfers held to evidence | James | ~60-day settle read (late Sept) | **Open 7/27** |
+| 16 | **Alim ramp watch** — backchannel flag surfaced 7/25 (SENSITIVE; details only in `team_members_scope.md` Alim Tier-1 entry — do not restate elsewhere). Observation runs through existing ramp structures; **ER confidential-consult decision pending**; settle-gate scope transfers held to evidence | James | ~60-day settle read (late Sept) | **Open 7/27** |
 
 ## Timeline of record (from Dylan's announcement GDoc, seen 7/20)
 
@@ -38,7 +38,7 @@ Announcement covers two changes: Blending → Ranking under Dhruvil (Rahul repor
 
 ## 2026-07-31 log
 
-- **Alok → Alim DECIDED (James, remote session):** joins Alim's pod starting announcement week (RR primary, Reflex matrixed back to James). Day-1 pod locked: Chuxi / Yidi / Alok / Lionel. Roster + knock-on note updated in `team_members.md`.
+- **Alok → Alim DECIDED (James, remote session):** joins Alim's pod starting announcement week (RR primary, Reflex matrixed back to James). Day-1 pod locked: Chuxi / Yidi / Alok / Lionel. Roster + knock-on note updated in `team_members_scope.md`.
 - **Daniel's team stays intact under Daniel in the interim** — reconfirmed; no reshuffling while his org lands (per the 7/24 doc's scope-follows-people phasing).
 - **Final internal org design to be finalized between the EMs in ~2 months** (≈ early Oct, the settle point). This is the venue where CLR→Alim, GenRet graduation, IB placement, Balaji, UEB consolidation, and the open reqs all resolve.
 - **Bella: moves WITH the RecGPT unit when it graduates to the new manager** (James, 7/31) — she keeps RecGPT + Content Exploration; her ratified H2 goals travel with the project. Timing safe as long as graduation stays criteria-coupled (her H2 deliverables ≈ the graduation evidence → lands ~post-rating).
@@ -49,7 +49,7 @@ Announcement covers two changes: Blending → Ranking under Dhruvil (Rahul repor
 - **ORG NAME RE-DECIDED (Dylan 1:1 PM): "P13N Retrieval"** / Dhruvil = "P13N Ranking" — row 14 updated; string patch now targets this. Internal team names (Retrieval Foundations / Retrieval Modeling / Anticipation Modeling) unaffected.
 - **Day one landed:** Alim + Lionel welcome messages sent; both settled until 1:1s later this week. NLFU Slack message posted Monday AM (timely — Dylan was planning to cover NLFU in her staff). Cost-investigation update delivered at staff.
 - **GenAI review (1:35pm) went well — talking points landed.** James created **#genai-feed-wg** (Dylan, Faisal, Andrew Y, Dhruvil, Lily, Michael W, Adam Avery, Qinglong Zeng; James added Dafang). Next steps: James + Dhruvil + Lily → concrete plan. Detail filed in stakeholders §14 (7/27 entry).
-- **Alim backchannel flag filed** (via Chuxi, from her ex-Google manager; sensitive + uncorroborated — details live only in `team_members.md` Alim Tier-1 entry). Chuxi handled Sat call + Mon 1:1, steady. Open: ER-consult decision; monitoring via existing ramp structures + settle gates (row 16).
+- **Alim backchannel flag filed** (via Chuxi, from her ex-Google manager; sensitive + uncorroborated — details live only in `team_members_scope.md` Alim Tier-1 entry). Chuxi handled Sat call + Mon 1:1, steady. Open: ER-consult decision; monitoring via existing ramp structures + settle gates (row 16).
 
 ## 2026-07-25 log
 

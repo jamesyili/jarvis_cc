@@ -36,6 +36,6 @@ A fourth quiet job: surface the Raymond-shaped ownership gap structurally withou
 ## Related artifacts elsewhere
 
 - `work/people/stakeholders.md` — Akshanta (#20), Lili Li (#21), Yan (#16), Tim (#17), Raymond (notable under Tim).
-- `work/people/dylan_1on1_log.md` — April 3 1:1 (PM tone feedback) + group sync (Yan ownership) entries.
+- `work/people/dylan_archive.md` Part I (1:1 log) — April 3 1:1 (PM tone feedback) + group sync (Yan ownership) entries.
 - `backlog.md` — `CG ↔ Dhruvil ↔ Yan ownership 1-pager` is the separate hard-contract artifact, target Dylan signoff 5/30.
 - `work/people/pre_june_readiness.md` — connects ownership 1-pager into the broader pre-June workstream.

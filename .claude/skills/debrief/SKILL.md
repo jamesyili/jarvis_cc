@@ -51,11 +51,11 @@ Auto-update the relevant files based on everything captured. Don't ask for appro
 **Routing guide:**
 - New intel on Dylan → `work/people/dylan_archive.md`
 - New intel on Rajat, Dhruvil, Anna, or other stakeholders → `work/people/stakeholders.md`
-- New intel on direct reports → `work/people/team_members.md`
+- New intel on direct reports → `work/people/team_members_scope.md`
 - Decisions that affect project direction → relevant file in `work/projects/`
 - Goal or trajectory shifts → `self/goals.md`
 - New coaching pattern → `work/coaching.md`
-- 1:1 with Dylan → append to `work/people/dylan_1on1_log.md`
+- 1:1 with Dylan → add entry at top of Part I (1:1 log, newest first) in `work/people/dylan_archive.md`
 
 Only write things that would change how James operates with that person or on that project. Skip vague impressions.
 

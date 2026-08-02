@@ -2,10 +2,10 @@
 id: repoint-structure-docs-on-file-moves
 trigger: Processing file/folder moves or renames in the leo repo (whether James did them by hand or Leo executes them)
 behavior: Re-pointing live cross-references is not just prose files — the checklist is (1) live .md references (skip historical docs — session logs, archives, memory archive, point-in-time snapshots describe where things were, correctly), (2) AGENTS.md §Folder Structure block, (3) .gitignore path patterns, (4) .claude/agents/*.md and .claude/skills/*/SKILL.md hardcoded paths (including absolute paths — watch for stale machine-local ones), (5) system/file_index.md. Use `git mv` so history is preserved. After the pass, grep the old path root-wide to verify nothing live remains.
-confidence: 0.7
-evidence_count: 2
+confidence: 0.8
+evidence_count: 3
 created: 2026-07-11
-last_updated: 2026-07-11
+last_updated: 2026-08-01
 status: active
 ---
 
@@ -14,6 +14,13 @@ status: active
 ### 2026-07-11 (root layout cleanup, /grill-with-docs)
 The 2026-07-10 hand-reorg (~1,585 renames) re-pointed live prose references but missed AGENTS.md §Folder Structure (still showed interview_prep/learning/sideprojects under work/) and .gitignore (`interview_prep/aman_*.pdf` patterns silently dead). Found and fixed a day later during the root cleanup. Same session: moving notebooklm/ surfaced a stale macOS absolute path (`/Users/jamesli/code/leo/...`) in `.claude/agents/search.md` — machine-local absolute paths are the silent breakage class.
 Signal: drift discovered (two independent instances)
+
+### 2026-08-01 (people-folder reorg session — confirmation + new heuristics)
+The checklist ran ~6 times in one session (Dylan fold, team_members_scope split, two folder renames, writing_style renames, reorg pruning) and caught everything; final greps clean. Three James-manual-move patterns to expect:
+1. **Plain-filesystem moves show as `D` + untracked pairs** (he moves via Windows Explorer/WSL, not `git mv`) — pair them up before assuming deletion; a true deletion (yuke_h2_plan) hides among moves, so `find` for the basename before calling it deleted.
+2. **Windows copies leave `*:Zone.Identifier` NTFS artifact files** — sweep and delete them (gitignore already has the pattern; untracked dirs dodge it on disk).
+3. **Layouts keep evolving mid-session** (h12026_reviews → h12026_downward_reviews → downward_reviews/h12026 within hours; concurrent sessions edit the same files) — re-`ls` the target before every new operation instead of trusting the last inventory, and re-grep after each wave.
+Signal: confirmation ×1 (checklist held under heavy use) + heuristic enrichment
 
 ## Related
 

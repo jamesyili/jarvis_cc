@@ -1,6 +1,6 @@
 # H2 2026 Development Thread — XFN Partnership (the named Director gate)
 
-> Opened 2026-07-09 after Andrew Y's mid-year peer feedback landed. This is the one growth area now written into James's record by two senior leaders in two chains. This file tracks the thread so H2 positioning references it deliberately. Companion craft study: `self/writing_style/andrew_writing_style.md`. Stakeholder detail: `stakeholders.md` §9 (Andrew), §20 (Akshanta), §21 (Lily), §36 (Tim-Reflex), §38 (Michael).
+> Opened 2026-07-09 after Andrew Y's mid-year peer feedback landed. This is the one growth area now written into James's record by two senior leaders in two chains. This file tracks the thread so H2 positioning references it deliberately. Companion craft study: `self/writing_style/aspirational_writing_style.md`. Stakeholder detail: `stakeholders.md` §9 (Andrew), §20 (Akshanta), §21 (Lily), §36 (Tim-Reflex), §38 (Michael).
 
 ## The signal arc (three deliveries, falling severity)
 

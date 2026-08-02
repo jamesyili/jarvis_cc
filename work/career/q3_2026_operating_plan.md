@@ -1,6 +1,6 @@
 # Q3 2026 Operating Plan — priorities + time allocation
 
-**Co-written James + Leo, 2026-07-25 session. Ratified 7/25** (cost investigation = Tier 2/handled; GDoc item removed; Dinesh = Tier 1 thin lane). Companion decisions live in `team_members.md` (Bella/Yuke/Lionel 7/25 entries), `stakeholders.md` §14/§40/§49, `nlfu_support_2026.md`, `reflex_program_state_2026-07.md`, `retentive_recs.md`.
+**Co-written James + Leo, 2026-07-25 session. Ratified 7/25** (cost investigation = Tier 2/handled; GDoc item removed; Dinesh = Tier 1 thin lane). Companion decisions live in `team_members_scope.md` (Bella/Yuke/Lionel 7/25 entries), `stakeholders.md` §14/§40/§49, `nlfu_support_2026.md`, `reflex_program_state_2026-07.md`, `retentive_recs.md`.
 
 ---
 

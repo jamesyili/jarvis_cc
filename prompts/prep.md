@@ -19,8 +19,8 @@ Based on the meeting description and attendees, read the relevant files:
 | Attendee / Topic | Files to read |
 |-----------------|---------------|
 | Any named stakeholder | `work/people/stakeholders.md` — find their section |
-| Dylan | `work/people/dylan_archive.md`, `work/people/dylan_1on1_log.md` (recent entries) |
-| Direct reports | `work/people/team_members.md` — find their section |
+| Dylan | `work/people/dylan_archive.md` — Part I recent entries (1:1 log, newest first); Part II for deep context |
+| Direct reports | `work/people/team_members_scope.md` — find their section |
 | Project-specific meeting | Relevant file in `work/projects/` |
 | Strategy / roadmap | `self/goals.md`, `work/people/organization.md` |
 | Any meeting | `work/communication.md` (DISC profile, audience playbooks) |
