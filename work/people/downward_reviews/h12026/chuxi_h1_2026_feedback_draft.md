@@ -1,70 +1,49 @@
-# Chuxi Wang — H1 2026 Performance Feedback (DRAFT v1, Leo, 2026-07-31)
+# Chuxi Wang — H1 2026 Performance Feedback (James's draft, verbatim, 2026-08-02)
 
-> **Status:** Leo draft per James's instruction — complete prose, inferred specifics permitted; James edits before delivery. Non-case (no ER gate). Same skeleton as the Yuke/Bella finals in this folder; register is strong/developmental.
+> **Status:** James's own draft, logged verbatim 2026-08-02. **Supersedes Leo's inferred DRAFT v1 (2026-07-31)** and retires its verify-before-delivery block. Non-case. Register: strong, above-level signals at IC14.
 >
-> **Verify before delivery:**
-> - "Improved stability of the model-based pUIC serving path" — inferred from her July step-in and "things are improving"; confirm the concrete improvements are hers to credit.
-> - LLM-pUIC online experiment timing ("first online experiments at the end of June") — inferred from the project record; confirm dates.
-> - The evaluation-collaboration claim with ATG ("shaped the qualitative evaluation approach") — inferred from sync ownership + Zelun collaboration; confirm.
-> - Pinkerton ~20% contribution sustained through H1 — commitment recorded in April; confirm actual sustained allocation.
-> - The Jeff demo (Pinkerton, May) HF-demo segment — she carried it; confirm it landed the way this credits it.
-> - The mentoring characterization of her work with Yidi and Ling — directionally right; confirm examples.
+> **Pre-ER fix list (Leo flags, 2026-08-02):**
+> 1. **⚠️ Cross-doc collision with Yuke's final — frontier sampling.** Yuke's doc credits him with *"Leading frontier sampling from design through production launch **via another junior engineer** in Q1"* and treats it as **the clearest — essentially the only — example of him meeting the IC15 bar all half.** This doc says Chuxi *"helped lead the frontier-sampling iteration"* with the full metric set attributed to her. If Chuxi is the junior engineer in Yuke's sentence, the two documents credit the same work to two people, and **the collision lands squarely on Yuke's single positive** in a formal, adversarial, ER-reviewed case where he is counter-documenting. Reconcile the attribution explicitly before ER sees both, and expect it to be tested.
+> 2. **⚠️ This doc puts Chuxi's TL role in writing.** *"As you step into a technical leadership role for Retentive Recommendations"* — the repo records her ramp as a **supported, deliberately unannounced TL ramp**. Written feedback is a durable artifact; this formalizes the role for her even if nothing is announced to the team. Confirm that is intended, and decide whether the team hears it in the same window — otherwise she holds a title in writing that her peers have not been told about.
+> 3. **Promo-adjacent language:** "clear above-level signals," "position you for impact beyond the IC14 bar." Combined with #2, she will reasonably read a promotion trajectory. Decide what you are prepared to say about timing before delivery.
+> 4. **Punctuation:** "Congratulations Chuxi" → "Congratulations, Chuxi," (matches Yali's and Hedi's).
+> 5. **Acronym drift:** "SSv2 Proxy" here vs. "SSv2 proxy" in Hedi's vs. "ssv2proxy" in Yali's. Normalize across the cycle.
+> 6. **Not in the doc, deliberately — confirm that is right:** James is her **sponsor** while Alim is her **manager** from announcement week. The doc says "align with me regularly" and "bring me and the relevant tech leads into the tradeoff" throughout, which describes a direct-reporting relationship she will not have by delivery. Consider one clause acknowledging the change, or expect the goals to read as written by the wrong person a week later.
 
 ---
 
 ## Key Accomplishments
 
-Thank you, Chuxi, for your contributions in H1 2026. You performed above expectations for the IC14 MLE role this half, and yours is one of the strongest growth stories on the team: you ended H1 carrying materially more scope, more cross-team surface, and more technical responsibility than you started it with, and the work got better as you took it on.
+Congratulations Chuxi on a strong first half of 2026! You demonstrated clear above-level signals in your technical judgment, independence, and emerging leadership. Your impact combined measurable UIC retrieval gains with meaningful progress on difficult zero-to-one pUIC and RecGPT initiatives.
 
-On LLM-based pUIC, you own the modeling code and drove the track through its plumbing, pipeline, and model phases in close partnership with Ling Lan and our ATG collaborators, taking it from infrastructure buildout to its first online experiments at the end of June. The track's early quality results are honest and mixed — that is the nature of the bet — and what matters at this stage is exactly what you provided: a working end-to-end path, a clear read on where quality is limited, and an evaluation approach shaped with ATG that tells us what to try next. On model-based pUIC, you stepped deeper into the modeling and serving work in the back half of H1 as the space needed an owner, took ownership of the serving path's accumulated issues, and began surfacing and closing gaps that had gone unaddressed — the workstream is healthier for it, and the engineers in it are working better because of it. You now run both pUIC cross-team syncs, coordinating across our team, ATG, and UU — a delegation structure that exists because your ownership earned it.
+Your clearest shipped impact came from two major UIC retrieval iterations. You helped carry the UIC signals in CLR work through its operational launch, contributing to +0.11% Successful Sessions among unique users, +0.17% DAU, and +0.14% WAU, while enabling significant infrastructure savings through better CLR budget allocation. You then helped lead the frontier-sampling iteration, which produced +0.22% SSv2 Proxy, +0.80% Homefeed Repins, +0.38% Homefeed Use Case Adoption, and +0.25% Impression Diversity. Together, these results demonstrated that stronger use-case representation and exploration can improve engagement, retention, and discovery.
 
-Beyond pUIC, you committed roughly 20% of your time to Pinkerton, contributing to the cross-surface DSAT tooling with the Notifications team, and you presented the Homefeed demo segment to VP-level leadership in May — clear, composed, and technically credible in a high-altitude room.
+You also played a central role in moving pUIC from early concepts toward online experimentation. Across the heuristic, model-based, and LLM-based approaches, you drove important parts of the evaluation framework, serving integration, signal publication, and experiment setup in close partnership with Homefeed, ATG, and AMB. In particular, you built much of the evaluation and LLM-judge workflow, helped ground automated results through human evaluation, and drove key parts of the online experiment pipeline. Peers specifically recognized you for "leading the evaluation and LLM-judge work" and "driving development of the online experiment pipeline." Another peer described your work as combining "exceptional execution speed with strong technical rigor." This was a technically ambiguous space, and your ability to turn early ideas into production-testable systems materially accelerated the team's path toward an online A/B test.
 
-The IC14 MLE role requires independently executing well-scoped technical projects with quality, communicating clearly, and beginning to show leadership beyond your own tasks. You cleared that bar and operated above it: you took ambiguous, struggling workstreams and gave them direction, and you did it while maintaining your own technical output. The growth areas below are about sustaining that trajectory deliberately rather than correcting a deficit.
+Finally, you expanded your technical breadth through RecGPT and continued to enable work beyond your immediate projects. You contributed to migrating BMI RecGPT to GULP and the Homefeed/BMI UserEventsView, simplifying the serving stack and unblocking further BMI model iteration. You also explored user context and point-diversity modeling, with the point-diversity direction showing promising preliminary results. Beyond your direct execution, you supported Hybrid UIC, the PinnerSpark upgrade, and Explore Module and AMB adoption. Across these efforts, peers consistently recognized your ability to operate independently, navigate inherited cross-team issues, and "turn ideas into real working systems."
 
 ## Improvement Areas
 
-### Sustaining Technical Leadership at Growing Scope
+### Prioritize for Impact and Close the Loop
 
-Taking ownership of a space is one skill; sustaining it as the scope compounds is another. You are now carrying two pUIC tracks, two cross-team syncs, and a growing coordination load, and you have been candid with me that you want the ramp to be gradual and well-supported — which is the right instinct.
+At IC14, I expect you to independently set milestones, anticipate dependencies, and use sound judgment to keep team-level work moving toward concrete outcomes. The main opportunity in H1 was not a lack of effort or technical ability; it was concentrating that considerable ability on the smallest set of highest-impact outcomes. You took on several ambitious and difficult threads across model-based and LLM-based pUIC, RecGPT serving and modeling, and UIC iteration. While you made meaningful progress, several of the most important zero-to-one efforts had not yet converted into completed launch impact by the end of H1. This kept your overall impact from being as high as your technical capability suggests it can be.
 
-Specifically:
+Your willingness to help also sometimes fragmented your attention. One peer observed, "At times, I noticed Chuxi getting pulled into ad-hoc investigations, which may have stretched her too thin." Another similarly noted that balancing several projects made it harder to determine where to focus first and protect uninterrupted execution time. This is a continuation of our prior discussion about proactively aligning with me on goals, priorities, and scope. You have improved your proactive communication—peers specifically recognized that—but the next step is to use that communication more deliberately to force prioritization, reduce scope, and decline or delegate lower-value work.
 
-1. As your scope grew in June and July, more of the space's problems began routing to you by default. The risk at this stage is silent absorption: taking on each new problem personally rather than triaging what is yours, what is delegable, and what needs escalation.
-2. The support structures around you — my involvement, senior review, ATG partners — work best when you pull them deliberately. There were stretches in H1 where you worked through hard serving issues longer alone than you needed to.
+Heading into H2, identify the one or two outcomes that matter most, establish explicit launch or decision criteria, and surface dependencies, capacity constraints, and ownership gaps early. When priorities compete, bring me and the relevant tech leads into the tradeoff rather than absorbing the ambiguity yourself. Protect focused execution time and be willing to push back on ad hoc work that does not support the highest-priority outcomes.
 
-In H2, I expect you to keep the ownership you have built while being explicit about load: triage incoming problems, delegate what others can carry, and pull support early and specifically. Sustainable pace is part of the leadership skill, not a concession.
+### Lead Major Parts of Retentive Recommendations from Direction to Business Impact
 
-### Written Communication at Increasing Altitude
+You have demonstrated the technical depth and execution ability to take on broader leadership. At your current level, I expect you to contribute sound ideas and independently drive team-level solutions. Your opportunity now is to show above-level leadership by shaping the direction earlier, connecting technical choices more directly to business outcomes, and leading partners through ambiguous decisions—not only translating an established direction into an effective implementation.
 
-You now represent the pUIC work to audiences beyond the team — ATG, UU, and leadership. The verbal, working-session version of your communication is strong; the written layer needs to reach the same standard.
+In H1, you frequently provided the technical rigor that turned ideas into executable plans, especially across pUIC evaluation, serving, and experimentation. The missed opportunity was to make your recommendation and intended business outcome more visible earlier in the process. One peer captured this well, suggesting that you take "an even higher-level, business-metrics-driven view when prioritizing work and making tradeoffs" so your technical decisions connect more directly to business impact. This also aligns with your own reflection that you sometimes had a useful view on technical tradeoffs but could have presented the main point and recommendation earlier.
 
-Specifically:
-
-1. The pUIC tracks' status, priorities, and open decisions live substantially in syncs and threads; a written running record — direction, current results, next decisions — would let stakeholders engage without attending everything.
-2. As experiments produce mixed early results, the written readout (what was tried, what moved, what we learned, what's next) is what protects the track's credibility and keeps leadership's conviction grounded in evidence.
-
-In H2, I expect a concise written update for the workstreams you run — current every week without prompting — and a written readout for each significant experiment or design decision, at a quality that partner teams and leadership can act on directly.
-
-### Growing Others
-
-The next stage of your leadership is measured in other people's output. Yidi and Ling are both doing strong work in the space you coordinate, and your effect on their growth is now part of your impact.
-
-Specifically:
-
-1. You have naturally begun unblocking and guiding others in the pUIC space; making that deliberate — stretch assignments, design review, visible credit — is the step from helping to growing.
-2. Delegation is the enabling skill for everything above: work you hand off with clear context is scope you keep without carrying.
-
-In H2, I expect you to deliberately grow the engineers around you: give away well-scoped problems with context, review rather than redo, and make their contributions visible.
+As you step into a technical leadership role for Retentive Recommendations, particularly across model-based pUIC and UIC, I want you to lead from problem definition through measurable outcome. Start by identifying the most valuable user or business problem, state your recommendation clearly, explain the tradeoffs, and establish the milestones and success criteria that will move the group toward a decision or launch. Your initial trajectory in this role is strong. Consistently demonstrating this end-to-end leadership will significantly increase your leverage and position you for impact beyond the IC14 bar.
 
 ## Goals for H2
 
-Your H2 priorities are the pUIC portfolio's technical direction, written communication at altitude, and growing the engineers around you.
-
-1. pUIC portfolio: drive both tracks against a written direction — what we are trying, in what order, with what expected signals — kept current as results land; model-based pUIC serving path stabilized and its committed milestones delivered; LLM-based pUIC iterated against the evaluation approach with clear ship/iterate/stop recommendations.
-2. Cross-team coordination: continue running the pUIC syncs with written agendas and decision logs, so the collaboration compounds instead of resetting.
-3. Written cadence: weekly written status for your workstreams — completed work, upcoming milestones, risks, and changes — without prompting; written readouts for significant experiments and decisions.
-4. Growing others: at least two well-scoped problems delegated with context and driven to completion by Yidi or Ling with your review; their work made visible in the written record.
-5. Sustainable ramp: an explicit, recurring conversation with your manager about load and support as scope evolves — raising capacity constraints early is expected, not penalized.
-
-These are IC14-level expectations and remain applicable regardless of project assignment. As organizational priorities evolve, project assignments may change; the expectations for technical ownership, written communication, and growing others will remain unchanged.
+1. **Lead the technical direction for Model pUIC and UIC in Retentive Recommendations.** Lead the model-based pUIC and UIC workstreams by defining the highest-value problems, recommending which directions to prioritize, and aligning the roadmap with retention and exploration outcomes. Establish clear milestones, owners, dependencies, and decision criteria with Homefeed and partner teams, and communicate changes in direction or risk early.
+2. **Deliver at least one pUIC launch candidate.** Own or co-own the path from quality improvement through production readiness for the most promising model-based or LLM-based pUIC approach. This should include a credible evaluation framework, a production-serving path, an online experiment plan, and clear evidence supporting a go/no-go decision. Avoid spreading effort evenly across every possible approach; make an explicit recommendation about which direction merits the team's primary investment.
+3. **Advance the highest-ROI UIC opportunities.** Lead the selection and execution of the most promising next UIC iterations—such as OSv2-based UIC, dynamic clustering, or long UIC—rather than attempting to pursue all directions simultaneously. Connect each selected investment to a clear hypothesis about retention, use-case adoption, or exploration, and drive it to an experiment or well-supported decision during H2.
+4. **Bring the current RecGPT work to clear outcomes.** Complete or reach explicit go/no-go decisions on the RecGPT directions already underway, particularly OSv2 serving and the point-diversity and user-context experiments. Ensure that promising preliminary results progress into complete evaluations and that directions without sufficient value are closed rather than remaining open-ended.
+5. **Operate with greater prioritization and leadership leverage.** Align with me regularly on the highest-impact outcomes, surface competing demands before they fragment your attention, and push back on lower-priority or ad hoc requests when appropriate. Communicate your recommendation early in cross-functional discussions, frame technical tradeoffs through the relevant business metrics, and protect sufficient focus time to deliver the commitments you take on.

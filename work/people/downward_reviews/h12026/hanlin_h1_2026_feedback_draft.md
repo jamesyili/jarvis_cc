@@ -1,52 +1,44 @@
-# Hanlin Lu — H1 2026 Performance Feedback (DRAFT v1, Leo, 2026-07-31)
+# Hanlin Lu — H1 2026 Performance Feedback (James's draft, verbatim, 2026-08-02)
 
-> **Status:** Leo draft, non-case, no ER gate. Content is partly inferred per James's instruction ("infer from project allocation and sentiment; make up stuff if needed") — James edits before delivery.
+> **Status:** James's own draft, logged verbatim 2026-08-02. **Supersedes Leo's inferred DRAFT v1 (2026-07-31)** — that version's "verify before delivery" block is retired, and its register is reversed: Leo's draft led with *independent momentum* and *stalled work* as the primary gaps; James's draft is recognition-forward ("a strong first half," "I'm happy with your performance in H1") and treats the Manas migration as evidence of *improvement* on end-to-end ownership. Non-case (no ER gate).
 >
-> **Verify before delivery:** (1) that the ME GPU serving launch completion date and his specific share of the rollout work are stated fairly (his execution vs. Unity-side work owned by others); (2) the "neutral cost" characterization of the impression-share doubling; (3) which migration pieces (Manas, UserEventsView) were specifically assigned to him vs. the workstream generally; (4) the inferred communication examples in Improvement Area 2 — no specific dated incidents exist in the record; (5) H2 milestone dates are placeholders by design (end-of-quarter framing), set real dates before delivery.
+> **Pre-ER fix list (Leo flags, 2026-08-02):**
+> 1. **Cross-doc collision with Bella's final — the Manas migration.** Bella's doc: "the Manas migration work was stalled for quite some time and you had challenges leveraging Hanlin to produce meaningful momentum on this work until I stepped in." This doc: the Manas migration "is especially worth recognizing… you worked through serving details, followed up proactively… and carried the migration through to its conclusion." Bella and Hanlin work the same workstream. Decide which reading is the record and reconcile the two docs — as written, the same migration is Bella's failure to move Hanlin and Hanlin's demonstration of ownership.
+> 2. **Cross-doc note with Yuke's final — ME GPU serving.** Yuke's doc holds him accountable for a rollout that "slipped by several months" requiring "repeated follow-up, escalation… and close management oversight." This doc credits Hanlin for stepping up on that same rollout and following through to completion. That split (owner faulted for the slip, collaborator credited for the recovery) is defensible, but confirm it's the intended reading before both land in the same week.
+> 3. **Also cross-doc:** the impression-share/sizer expansion appears in both docs — here as Hanlin driving it, in Bella's as work she only did "after I pushed for a concrete action." Consistent, but the same event framed twice.
+> 4. **Confirm figures and names:** "$60K in ANN cost savings"; "150 sizers" transferred; "Arowa" (spelling) as the co-mentee with Zihao; ML Symposium 2026.
+> 5. **Punctuation:** "Congratulations Hanlin" → "Congratulations, Hanlin," (same in Devin's doc).
+> 6. **No assignment-change clause.** Yuke's final closes with "…remain applicable regardless of project assignment." Worth adding given the reorg.
 
 ---
 
 ## Key Accomplishments
 
-Thank you, Hanlin, for your contributions in H1 2026. You were a consistent delivery engineer on RecGPT through the half, and several of the workstream's most concrete outcomes have your name on them.
+Congratulations Hanlin on a strong first half of 2026! I'm happy with your performance in H1. You delivered important production work across HF-RecGPT and Multi-Embedding while making meaningful progress against the ownership and communication feedback we discussed last year.
 
-The clearest was multi-embedding GPU serving: you carried the model deployment work through to launch, working through a serving stack that was new to you and closing out the remaining rollout issues so the change actually shipped. Separately, when we prioritized increasing RecGPT's share of candidate impressions, you executed the change with Bella and we doubled the impression share at neutral cost — a direct unlock for measuring the value of the modeling work. Through the half you also kept the RecGPT delivery machinery running: data jobs, the model training pipeline, and the experiment plumbing that the rest of the workstream builds on.
+Your most important contributions centered on bringing HF-RecGPT into production and expanding its value for Homefeed. You were a primary contributor to the official HF-RecGPT CG launch, led the diversity improvement using Gaussian noise, and drove the candidate-budget expansion that transferred 150 sizers from Multi-Embedding to HF-RecGPT. The sizer work was particularly valuable because it was a relatively focused change that unlocked meaningful capacity and represented a high return on engineering investment. You also took ownership of migrating RecGPT ANN serving from Faiss to Manas, producing approximately $60K in ANN cost savings, and collaborated on moving RecGPT sequence serving onto UserEventsView.
 
-The IC14 MLE role requires independently executing well-scoped technical projects: driving assigned work through obstacles to completion, debugging your own blockers, and communicating status so the team always knows where things stand. Your H1 delivery record shows you can execute and ship. What I also observed is that on some assigned work, progress stalled for extended periods until someone outside the work — myself or a technical lead — stepped in to push it forward, and that status and blockers tended to surface when asked rather than proactively.
+The Manas migration is especially worth recognizing because end-to-end ownership was a development area we discussed in your 2025 feedback. In H1, you showed clear improvement: you worked through serving details, followed up proactively, documented the experiment setup, and carried the migration through to its conclusion. Peer feedback reinforced this progress, noting that you "take the time to understand what is happening end-to-end rather than only looking at the surface-level symptoms" and recognizing your "strong technical ownership, reliable execution and clear documentation."
 
-Taken together, your H1 performance met expectations on delivered execution, with two areas — independent momentum and proactive communication — that need to improve for your work to have the impact it should.
+You continued to contribute beyond RecGPT through Multi-Embedding. You led the UOE and Decoupled Entity Representation work and contributed to funnel-efficiency improvements. I also want to specifically recognize your role as a collaborator on the Homefeed Multi-Embedding GPU Serving launch. You stepped up during the rollout, were diligent through every stage, and proactively followed up until the viewer-tower migration from CPU to GPU was brought to completion. More broadly, your peers recognized your ability to "independently dive into complex ML problems and develop effective solutions." Presenting our work on productionizing generative retrieval at ML Symposium 2026 further increased the visibility and leverage of the team's technical work.
 
 ## Improvement Areas
 
-### Independent Momentum
+### Drive Differentiated, Topline RecGPT Impact
 
-The IC14 MLE role requires driving your assigned work through obstacles without waiting for intervention: when something stalls, the expectation is that you diagnose why, try the obvious paths, escalate with specifics, and keep the work visibly moving.
+At the IC14 level, I expect you not only to execute well-defined projects, but also to proactively identify and drive important opportunities through named, end-to-end launches. You made progress here in H1, especially through the RecGPT sizer expansion, diversity work, and Manas migration. However, the next step is to turn more of your technical effort into RecGPT LRs with clear topline SSv2 impact.
 
-Specifically:
+Several H1 experiments—including larger batch sizes, SID augmentation, GQA, and other offline improvements—produced promising offline results but did not consistently translate into online gains. This is a useful learning, but it also means that the volume of technical activity was greater than its demonstrated topline impact. Incremental hill-climbing remains valuable, but to produce differentiated impact, you need to prioritize the experiments most likely to change the online outcome, move them forward with greater velocity, and own the full path from hypothesis through launch. Heading into H2, I want you to build a stronger pipeline of launch candidates and drive more of them end-to-end into LRs with measurable Homefeed impact.
 
-1. The Manas migration work assigned to you stalled for an extended period during Q2. Momentum returned only after I stepped in directly. The blockers were real, but the gap was that weeks passed without you generating movement on them — no written diagnosis of what was stuck, no escalation with specifics, no proposed path around the obstacle.
-2. On the ME GPU rollout, the final stretch needed sustained follow-up from outside the work to keep moving. The rollout had a long history that was not yours to own, and you ultimately landed it, but on your pieces the pattern was similar: progress came in response to pushes rather than from your own drive.
+### Develop System-Level Insight Into High-Leverage Opportunities
 
-The difference between the work you shipped and the work that stalled was not difficulty. It was whether you treated the obstacle as yours to break through. In H2, I expect stalled work to be the exception and, when it happens, to be visible immediately: what is blocked, what you tried, what you need, and from whom.
+Your sizer work is a strong example of the kind of leverage I want to see more consistently. It did not require inventing an entirely new model architecture; it came from understanding how RecGPT fits into the broader retrieval and serving system, recognizing a high-ROI opportunity, and acting on it. At your level, I expect you to develop that broader system judgment and use it to help shape the RecGPT roadmap rather than primarily executing ideas after the direction is already established.
 
-### Proactive Written Communication
-
-The IC14 MLE role requires keeping the team informed without being polled: status, risks, and blockers surfaced when they arise, in writing, so that your TL and I learn about problems from you rather than from the dashboards.
-
-Specifically:
-
-1. Through Q2, I most often learned the state of your migration and serving work by asking. Updates were accurate when requested, but the requesting was mine to do.
-2. Blockers tended to surface in 1:1s or standups days after they began, which delayed help that could have been immediate.
-
-In H2, I expect a concise written update every week — completed work, what's next, risks, and anything blocked — sent without prompting, and blockers flagged in writing the day they bite, with your own investigation attached.
+This means analyzing the full Homefeed funnel, understanding the relationship among candidate allocation, impressions, repins, diversity, serving constraints, and SSv2, and grounding proposals in the user and business outcomes we want to improve. It also means documenting experiments and proposals early enough to solicit input, then communicating the hypothesis, key result, decision, and next step concisely. You have made real progress in transparency and documentation, although peer feedback also noted that long Slack or meeting updates can sometimes obscure the key points. The goal is not simply more communication; it is communication that helps the team make decisions and increases the leverage of your technical judgment. This combination of proactive direction-setting, system-level insight, and topline impact is the primary step between your solid H1 performance and the differentiated contribution needed for an Exceeds outcome at year-end.
 
 ## Goals for H2
 
-Your H2 priorities are end-to-end experiment delivery on RecGPT, closing out the migration work, and making your progress visible by default.
-
-1. RecGPT experiments: drive at least two experiments end-to-end as the delivery pair on the workstream — implementation, offline evaluation, online experiment, and a written readout with the result and the learning.
-2. Migrations: complete the Manas migration and the UserEventsView migration, with dates committed at the start of the quarter and slips flagged in writing when known, not at the deadline.
-3. Independent blocker resolution: every escalation arrives with your written investigation — what you observed, what you tried, what you ruled out, and your current hypothesis.
-4. Weekly written update: completed work, upcoming milestones, risks, and blockers, every week, without prompting.
-
-Your surface area on RecGPT is growing, and the workstream increasingly depends on the delivery engine you have become. The execution is there; pairing it with self-generated momentum and default visibility is what turns it into a record that speaks for itself. These are IC14-level expectations and remain applicable regardless of project assignment. As organizational priorities evolve, project assignments may change; the expectations for independent drive, communication, and delivery will remain unchanged.
+1. **Lead differentiated HF-RecGPT launches with topline impact.** Own high-potential RecGPT improvements end-to-end—from opportunity identification and proposal through experimentation, online evaluation, LR, and production follow-through. Success should be demonstrated through additional named launches with measurable SSv2 or other approved topline gains during H2.
+2. **Identify and champion high-leverage system opportunities.** Develop a deeper understanding of the complete Homefeed retrieval and serving system, including candidate allocation, sizers, funnel behavior, impression and repin outcomes, diversity, and serving constraints. Proactively propose and drive high-ROI opportunities similar to the RecGPT sizer expansion, grounding each proposal in system analysis and expected user impact.
+3. **Increase experimentation velocity and online learning.** Build a prioritized pipeline of RecGPT launch candidates across fine-tuning, diversity, serving parameters, and model efficiency. Establish clear milestones and decision criteria, communicate blockers early, and move quickly from offline results to online validation so that the team learns faster and focuses resources on the approaches most likely to launch.
+4. **Increase technical leverage through clear communication and mentorship.** Continue documenting experiments, technical details, and proposals, while making updates more concise and decision-oriented. Share results and next steps proactively, seek input before major decisions, and co-mentor Arowa with Zihao by providing RecGPT and Multi-Embedding knowledge sharing.

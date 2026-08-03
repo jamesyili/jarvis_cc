@@ -9,7 +9,8 @@
 # Part I — 1:1 & Touchpoint Log (newest first)
 
 ## 2026-08-04 — First official 1:1 (45 min) — UPCOMING
-Prep lives in the announcement-week timeline (Tue 8/4 block): booking note pre-sends questions, live asks pruned to 4, spine = his two stated wants (end-to-end ownership + clearer responsibilities) → Phase-2 process with dates. File outcomes here after the meeting.
+**Five verbatim questions to pre-send with the booking note** now live in `reorg_july2026/p13n_retrieval_split.md` Part 2, together with the **scope-lean inference built from his own 7/29 words** (IB = the only thing the record calls *passionate*; generative retrieval at curiosity-strength; "listwise, working collections, deliberately not pointwise" as his technical identity; **LWS and CLR absent entirely**). Two of the five are the discriminators — the listwise/pointwise question and the eighteen-month LWS question. **Do not run them as a live battery** (his most-documented aversion); pre-send, run at most two. **Hold silently:** the anticipation seam with Alim's charter, and the Balaji fork. **After the meeting, file which questions he answered and — more useful — where his corrections cluster**, since that is the scope-appetite signal that arrives before he says anything out loud.
+Prep also lives in the announcement-week timeline (Tue 8/4 block): booking note pre-sends questions, live asks pruned to 4, spine = his two stated wants (end-to-end ownership + clearer responsibilities) → Phase-2 process with dates. File outcomes here after the meeting.
 
 ## 2026-07-29 — Working conversation (James's notes, photo-captured 8/1)
 The richest motivational record to date — his own words:

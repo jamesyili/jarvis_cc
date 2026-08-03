@@ -1,69 +1,48 @@
-# Yidi Wang — H1 2026 Performance Feedback (DRAFT v1, Leo, 2026-07-31)
+# Yidi Wang — H1 2026 Performance Feedback (James's draft, verbatim, 2026-08-02)
 
-> **Status:** Leo draft per James's instruction: complete prose, no blanks — inferred and invented specifics are used where the record is thin and are enumerated below. **James edits before delivery.** Non-case (no ER gate). Register: strong-for-level, warm.
+> **Status:** James's own draft, logged verbatim 2026-08-02. **Supersedes Leo's inferred DRAFT v1 (2026-07-31)** and retires its verify-before-delivery block (including the invented "three significant iterations" count). Non-case. Verdict: **solidly meeting IC13 expectations**, framed toward IC14.
 >
-> **Verify before delivery (inferred or invented specifics):**
-> - "Three significant iterations of the training-data and feature pipeline" — invented count; replace with the real pipeline milestones.
-> - CG quota tuning described as live and substantially hers — inferred from the Recsplanations dimension table (D2 owners: Yidi + one other; "quota tuning live"); confirm attribution share.
-> - The +10% non-graduated content impressions lift — real workstream-level number from the CE LR; confirm it's appropriate to cite in her doc.
-> - "Chased serving and data-pipeline issues into unfamiliar territory" — inferred from recent debugging episodes; keep generic, do not date or attach to any specific incident.
-> - "Own at least two experiments end-to-end" and "readout within five business days" — invented targets; calibrate.
-> - Serving-ramp goal (shadowing one oncall rotation) — invented mechanism; adjust to the pod's actual rotation plan.
+> **Pre-ER fix list (Leo flags, 2026-08-02):**
+> 1. **⚠️ Cross-doc pairing with Zihao's draft — the Content Exploration delay.** Zihao's doc says *"a necessary escalation for Yidi did not happen early enough, resulting in roughly two to three weeks of pipeline work that delayed experimental results."* This doc holds Yidi accountable for the same period from the other side — the SMS/RecGPT constraint surfacing late, and the Scorpion blockers not being raised sooner. **The two documents describe one incident and assign it to two people.** That is defensible (his failure to escalate, her failure to surface), but show ER both together so the pairing is deliberate rather than discovered.
+> 2. **Acronym introduced without expansion:** Section 1 says "Content Exploration"; Section 2 switches to **"CEF"**. Expand it once or use one term.
+> 3. **Reporting line changes at delivery.** Yidi moves to **Alim** in announcement week. The goals repeatedly say "I will continue giving you direct feedback and support" and "work with the relevant modeling and infrastructure partners" — written as her manager, delivered days before she has a different one. Add a clause, or hand the goals to Alim explicitly during the conversation.
+> 4. **Scope-to-level note, not a fix:** she is L13 carrying most of model-based pUIC — the largest scope-to-level gap on the team. The doc treats that as normal; it is worth saying out loud that you know it, since it is also the strongest argument in her eventual IC14 case.
+> 5. **Peer-quote pronouns** use she/her consistently — no issue, noted only because the cycle has one quote elsewhere that needed checking.
 
 ---
 
 ## Key Accomplishments
 
-Thank you, Yidi, for your contributions in H1 2026. You met IC13 expectations this half with a clear upward trajectory, and the scope you carried on model-based pUIC was above what I typically ask of an engineer at your level.
+Thank you, Yidi, for your contributions in H1 2026. You are solidly meeting expectations for an IC13 MLE, with hands-on technical execution, learning agility, and growing independence as your clearest strengths. You successfully delivered complex work across several unfamiliar systems, giving you a strong foundation as you work toward the IC14 level.
 
-On model-based pUIC, you carried the bulk of the implementation through the half, including three significant iterations of the training-data and feature pipeline and the CG quota tuning work that is now live. You did this while collaborating directly with our ATG partner, Zelun Wang — holding up our side of a cross-team collaboration that usually sits with more senior engineers. On Content Exploration, you built the exploration model together with Zihao; that workstream's current LR is showing early positive results, including a meaningful lift in non-graduated content impressions. You have also shown willingness to chase serving and data-pipeline issues into unfamiliar territory rather than stopping at the edge of the modeling code.
+Your largest contribution was implementing the model-based pUIC serving path across model export, Scorpion GPU serving, and Unity retrieval. You helped identify the incompatibility between SMS serving and RecGPT features and drove the resulting migration to L500. You rewrote the model-export logic to produce a deployable TorchScript, resolved the int8/fp16 dequantization and Scorpion input-signature issues, deployed and validated the model on Scorpion, and implemented the Unity serving graph and experiment integration. This established a new production path for generating pUIC user embeddings, which the initial A/B experiment is now using. Peer feedback reinforced the breadth of this work, noting that you "ramped up quickly in a previously unfamiliar domain" and developed "a strong technical understanding across different Pinterest stacks."
 
-Two things stood out beyond the technical work. First, your communication improved significantly across the half: your written status became frequent and visible, and I could follow the state of your work without asking. I gave you that feedback directly in June, and the improvement has held since. Second, you showed good judgment in raising workstream concerns to me directly and handling the follow-up thoughtfully and professionally. That combination of visibility and judgment builds exactly the kind of trust that accelerates a career.
+You also executed the heuristic pUIC outward-expansion experiment effectively. You implemented the signal-generation logic and configurable alpha parameter, validated the Unity changes in staging, and ran the online experiment. While the result was neutral and we decided not to launch it, reaching a clear negative conclusion was still useful: it allowed the team to rule out this direction and focus on more promising approaches. This was a good example of your "strong execution and learning agility," as one peer described it.
 
-The IC13 MLE role requires executing well-scoped technical tasks with quality, communicating progress clearly, and steadily growing toward independent execution. You met that bar, and in the pUIC work exceeded it. The growth in front of you is converting the scope you already carry into independent end-to-end ownership: not only implementing the modeling work, but owning experiments from framing through readout, and understanding the serving path your models depend on.
+In Content Exploration, you implemented most of the indexing-and-serving pipeline by building on the Manas Unified Embeddings Framework. This included substantial work on the indexing configuration, ManasDocument generation, index-building workflow, cluster setup, and productionization steps. While you did not own the end-to-end design, you delivered a significant portion of the technical implementation and created a foundation that can support reuse across additional surfaces.
 
 ## Improvement Areas
 
-### Independent End-to-End Ownership
+### Make Proactive Communication a Consistent Default
 
-The growth path from IC13 toward IC14 requires moving from executing assigned tasks to owning a piece of work end-to-end: framing the experiment, driving the implementation, evaluating the results, and recommending the next step.
+At IC13, I expect you to clearly communicate the status of your work within the team and, with guidance, to stakeholders. To reach IC14, this needs to become proactive and consistent: sharing relevant progress, risks, decisions, and blockers without waiting to be prompted. This remains your most important development area and is a continuation of feedback from your 2025 year-end review.
 
-Specifically:
+At times during H1, you were still reluctant to report progress or discuss uncertainty in an open channel. For example, the constraint that SMS did not support RecGPT features was discovered later than it should have been, requiring the feature path to be reworked around L500. Similarly, when you encountered the Scorpion model-load and dequantization blockers, surfacing the situation and seeking input sooner would have helped the team align and respond more quickly. Working through difficult problems independently is a strength, but independence does not mean solving everything silently. Good judgment also includes recognizing when visibility, escalation, or input from others will accelerate the work.
 
-1. In H1, most of your pUIC work arrived as scoped tasks framed by others. Your execution was strong, but the experiment framing and the continue-or-stop decisions generally came from the pod's senior members or our ATG partners rather than from you.
-2. When results were ambiguous, you escalated promptly — which I value — but the next level is arriving with your own analysis and a recommendation attached, so the discussion starts from your conclusion rather than from the raw result.
+I want to explicitly recognize that you have made meaningful progress here. Peer feedback observed that, "After receiving feedback to report progress more proactively, she made a clear effort to communicate more actively with collaborators and keep the team aligned on progress." Another peer similarly noted that you have "already shown strong improvement in this area." You have taken this feedback seriously, and I appreciate both the effort and your motivation to improve. I am continuing to emphasize it because making this behavior consistent—not because I want you to be afraid of making mistakes or sharing incomplete thoughts—is essential to increasing your effectiveness and reaching the next level.
 
-In H2, I expect you to own experiments end-to-end: you frame the question, you drive the work, you evaluate the outcome, and you bring the recommendation.
+In H2, default to communicating earlier rather than waiting until your work or thinking feels complete. Keep progress visible in shared channels, call out dependencies and risks before they affect delivery, and ask for help promptly when input from others would accelerate resolution.
 
-### Written Readouts and Design Notes
+### Grow from a Strong Executor into a Self-Directed ML Owner
 
-Your status communication improved substantially in H1. The next artifact class for your level is the structured readout: what was tried, what was measured, what was learned, and what you recommend — plus short design notes ahead of implementation so collaborators can engage with your intent, not just your progress.
+You have demonstrated that you can complete clearly scoped technical work with guidance, which is the core bar for IC13. To reach IC14, I need to see you more consistently identify what should happen next, bring your own technical perspective into team discussions, and independently drive well-defined work forward with minimal guidance. Today, you execute assigned ideas well, but you can still be too passive about initiating the next step or proposing a direction.
 
-Specifically:
+Your pUIC and CEF work both illustrate this opportunity. In CEF, you reliably implemented most of the pipeline, but the next-level behavior would be to look beyond the assigned implementation: understand the broader objective, anticipate risks, identify missing work, and propose follow-up actions. In pUIC, you had a thoughtful idea about using temporally ordered UICs for model-based prediction, but initially shared it in a 1:1 rather than bringing it into a broader technical discussion or turning it into a short experiment proposal. Peer feedback similarly encouraged you to "bring more modeling ideas and run more experiments systematically" and to share your perspectives "more proactively and confidently."
 
-1. Several completed experiments in H1 closed without a durable written readout; the learnings live in threads and meeting notes rather than in documents the team can find and build on.
-2. Design intent was mostly communicated conversationally; a short written note ahead of each project phase would let the pod and ATG review direction before the work is committed.
-
-In H2, I expect a written readout for every completed experiment and a short design note at the start of each substantial piece of work.
-
-### Serving-Side Depth
-
-Your modeling depth is ahead of your serving depth. Owning models end-to-end at the next level means understanding the path your model takes to production well enough to debug it, reason about its constraints, and design with them in mind.
-
-Specifically:
-
-1. Serving-side issues in H1 were mostly resolved with heavy support from others; building your own map of the serving stack will remove that dependency.
-
-In H2, I expect you to ramp on the pUIC serving path so that model-to-production is territory you can navigate on your own.
+This also connects to the ML-depth feedback from your previous review. Your serving knowledge grew substantially in H1, but reaching IC14 will require stronger ownership of the modeling side: forming hypotheses, understanding data and failure cases, evaluating modeling choices, and using offline and online evidence to recommend a direction. In H2, do not wait until an idea is complete or certain before sharing it. Bring an initial point of view, explain the evidence or intuition behind it, invite pushback, and use the discussion to improve the idea. The goal is not for every proposal to be accepted; the goal is for you to actively help shape what the team works on and how we approach it.
 
 ## Goals for H2
 
-Your H2 priorities are end-to-end ownership, written communication, and serving depth.
-
-1. Model-based pUIC: own at least two experiments end-to-end — framing, implementation, offline and online evaluation, and a written readout with your recommendation — in partnership with the pod and our ATG collaborators.
-2. Quota tuning and cluster coherence: own this as your named metric area — keep it current, measure movement, and report it.
-3. Content Exploration: carry your model contribution through the initial launch and its follow-up iterations.
-4. Readouts: every completed experiment gets a written readout within five business days; every substantial piece of work starts with a short design note.
-5. Serving ramp: build working knowledge of the pUIC serving path, including shadowing one oncall rotation, so you can investigate serving-side issues independently.
-
-These are IC13-level expectations with a deliberate stretch toward IC14-style ownership, and they remain applicable regardless of project assignment. As organizational priorities evolve, project assignments may change; the expectations for quality execution, clear communication, and growing ownership will remain unchanged.
+1. **Own the model-based pUIC experiment through a clear decision.** Own the day-to-day stabilization, monitoring, and analysis of the initial A/B experiment now that it has started. Work with the relevant modeling and infrastructure partners to address serving issues, evaluate the online results, and produce a clear, evidence-based launch or iteration recommendation.
+2. **Drive a scoped pUIC modeling iteration.** With appropriate support and guardrails, be the primary driver of a modeling hypothesis from problem formulation through evaluation. Investigate the relevant data distributions and failure cases, explain the reasoning behind the proposed approach, define the offline evaluation plan, and determine whether the evidence supports an online experiment. Use this work to deepen your understanding of recommendation modeling, training methodology, and offline-to-online evaluation.
+3. **Establish proactive communication and project-leadership habits.** At the beginning of each project or major workstream, make the milestones, dependencies, risks, and open decisions visible to collaborators. Share status and changes in shared channels without waiting to be asked, escalate blockers before they threaten delivery, and bring your own perspective and proposed next step to technical discussions. I will continue giving you direct feedback and support as you turn these behaviors into a consistent working habit.

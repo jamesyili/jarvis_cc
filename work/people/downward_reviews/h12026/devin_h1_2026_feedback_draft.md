@@ -1,63 +1,49 @@
-# Devin Kreuzer — H1 2026 Performance Feedback (DRAFT v1, Leo, 2026-07-31)
+# Devin Kreuzer — H1 2026 Performance Feedback (James's draft, verbatim, 2026-08-02)
 
-> **Status:** Leo draft, per James's instruction to write complete prose with inferred content — James edits before delivery. Non-case (no ER gate). Structure matches the Yuke/Bella finals in this folder.
+> **Status:** James's own draft, logged verbatim 2026-08-02. **Supersedes Leo's inferred DRAFT v1 (2026-07-31)** — that version's "verify before delivery" block and invented 0.3% SSv2 target are retired, and the improvement areas are different: Leo's draft was *leadership visibility* + *team resilience*; James's draft is *delegation/trust* + *composure and calibrated urgency*, both framed as continuations of 2025 feedback. Non-case (met, in areas slightly above IC15).
 >
-> **Verify before delivery (inferred/invented specifics):**
-> - Attribution and timing of the CLR router simplification launch and its "engagement gains" (record shows Devin + ATG landed it, early data positive ~April — confirm final results and his share of credit)
-> - Foundation-Model-in-CLR experiment state ("promising offline results" — April status; confirm where it landed by end of H1)
-> - CLR GPU serving experiment outcome (early data positive in April; confirm)
-> - Search-based CLR scoping state and his role under Dafang's guidance (started ~April with Sophia; Sophia departed — confirm current shape)
-> - GULP contribution specifics (context-adapter ranker line is inferred from project docs)
-> - Notif Retrieval FT V0 operational plan co-authorship (he was one of four authors, May — confirm his actual share)
-> - Ryan/Yichi ramp specifics (design-discussion cadence, review load — inferred)
-> - The **0.3% SSv2 H2 target is invented** — set the real number
-> - Weekly-update expectation phrased as a team norm — confirm it's being rolled out team-wide
+> **Pre-ER fix list (Leo flags, 2026-08-02):**
+> 1. **Acronym transposition, goal 1:** "New Low Frequency Users" is abbreviated **NFLU** here; the record elsewhere uses **NLFU**. Fix to whichever is canonical, then use it consistently.
+> 2. **Consider an ER read despite this not being a case.** Section 2 carries interpersonal-conduct language — repeated pressure on partners, collaboration described as "draining," a pattern James already gave "direct and pointed feedback" on, plus a note that Devin did not acknowledge it in his self-review. That is the sharpest non-case document in the cycle; a second pair of eyes on the phrasing is cheap insurance.
+> 3. **Goal 5 mechanism is undefined:** "We will review progress during H2 through specific examples and direct feedback from your key working relationships." Decide *who*, *when*, and *how* that feedback gets collected before delivery — otherwise it reads as open-ended surveillance of his partnerships and will be the line he pushes back on.
+> 4. **Punctuation:** "Congratulations Devin" → "Congratulations, Devin," (same in Hanlin's doc).
+> 5. **Logic connector, Section 2:** "I gave you direct and pointed feedback after these situations, so I need you to recognize this as a significant leadership-development priority" — the "so" doesn't carry the inference; consider "and I need you to…" or "which is why I need you to…".
+> 6. **No assignment-change clause.** Yuke's final closes with "…remain applicable regardless of project assignment." Worth adding given the reorg.
 
 ---
 
 ## Key Accomplishments
 
-Thank you, Devin, for your contributions in H1 2026. Your H1 performance met IC15 MLE expectations, with clear strength in modeling depth and delivery — CLR remained one of the team's most reliable sources of gains this half, and that is in large part your work.
+Congratulations Devin on a strong first half of 2026. Your impact was on par with, and in several areas slightly above, what I expect from an IC15 MLE. You continued to distinguish yourself through deep cross-stack expertise, strong end-to-end ownership, and an ability to move technically ambiguous work toward concrete outcomes.
 
-As the technical lead for CLR, you drove the workstream's modeling agenda end-to-end. You landed the CLR router simplification with our ATG partners, which shipped with solid engagement gains, and you carried the Foundation Model integration work in CLR from idea through promising experimental results. The CLR GPU serving experiment you drove showed positive early data and continued CLR's record of pairing quality gains with serving efficiency. You also contributed the CLR side of the GULP effort and co-authored the Notifications Retrieval FT V0 operational plan with Piyush and Hongtao, extending CLR's reach beyond Homefeed. Alongside the modeling work, you began ramping Ryan and Yichi into the CLR codebase, giving the workstream real coverage for the first time.
+Your leadership of CLR remained the centerpiece of your impact. You helped advance GPU serving through attached data, creating a more scalable foundation for condition inference and future model expansion. You drove the router simplification design, making CLR easier to extend with new condition types and features while contributing to positive Homefeed engagement outcomes, including repin improvement. You also established important foundations for the next phase of CLR through Foundation Model and 16k sequence-feature work, automated condition-budget tuning exploration, the ManagedMap-to-PinConf migration, and support for Shopping LR's migration to CLR. In parallel, you continued to own CLR's documentation, code quality, incident management, and engineering excellence. This combination of technical depth, architectural judgment, and operational ownership is a significant strength.
 
-The IC15 MLE role requires independently taking ambiguous ML problems, designing sound solutions, and delivering end-to-end to production with minimal oversight — and, as engineers grow toward senior technical leadership, making their direction visible: written plans others can follow, reviews they drive, and knowledge that lives in the team rather than in one person. Your hands-on delivery clearly meets the bar. The growth edge, which we have discussed before, is that your influence on CLR is still larger than your visible footprint: much of the direction lives in your head and in 1:1 conversations, and the team around CLR is still learning to move without checking with you first.
+You also extended your impact beyond core Homefeed CLR. You led the Pin CLR migration to the Unity-GULP backend and enabled its BMI launch, improving engagement while holding the overall Pin budget constant and unlocking follow-on use cases such as the notifications landing page and exploration modules. For the notifications landing page, you led the candidate-generation design and helped shape the blending approach for context-aware recommendations. You also independently developed the exploration-pins backend design, helping move an important cross-team initiative from ambiguity toward execution. Peer feedback consistently reinforced this strength: "Overall, Devin consistently raises the technical bar by combining strong debugging instincts, clear ownership, and a focus on solving the highest-impact problems."
 
-Taken together, H1 was a strong delivery half. The H2 opportunity is converting your depth into visible, transferable leadership.
+Finally, you continued to contribute as a technical leader across CLR, Retentive Recommendations, and GULP. You onboarded three engineers, supported partners through technical discussions and debugging, and brought clarity to complex cross-functional work. Multiple partners highlighted your reliability, technical breadth, and ability to stay engaged through the details and obstacles required to get difficult projects over the finish line.
 
 ## Improvement Areas
 
-### Leadership Visibility
+### Scale Through Trust and Deliberate Delegation
 
-Senior IC growth at IC15 requires that your technical direction be legible to people who are not in the room with you: written roadmaps, design reviews you drive, and decisions communicated where partners and leadership can see them.
+At the IC15 level, I expect you not only to deliver difficult work yourself, but also to create the structure and trust that allow other engineers to deliver independently. You have shown that you can do this effectively in some partnerships, and peers have recognized the quality of your onboarding, technical guidance, and responsiveness. However, this remains an unresolved extension of the feedback from your 2025 year-end review: once ownership, expectations, and timelines are established, you need to give the owner sufficient room to execute.
 
-Specifically:
+This was most visible during the PinConf migration. After the owner had acknowledged the launch-review timeline and begun internal review, you continued to send reminders and follow-ups in both private and public channels, including pressure to share the document more broadly before the owner felt the internal review was complete. One peer summarized the opportunity clearly: "Once a plan, timeline, and owner are agreed, it's usually most effective to trust the owner to drive and to surface risks or delays proactively, rather than continuing to apply pressure to move things earlier." Similar concerns about repeated questions, status requests, and pressure arose in other working relationships during H1.
 
-1. CLR's H1 direction was sound, but much of it was communicated through implementation rather than through artifacts. Partners and leadership often learned what CLR was doing from results rather than from a plan they could engage with beforehand.
-2. In cross-team settings — ATG collaboration, the Search CLR scoping, the Notifications work — your technical contributions were substantial, but the synthesis and framing frequently came from others. At your level, I want the room hearing the CLR story from you.
-3. Design discussions on CLR still route through you individually rather than through reviews the team attends. That is efficient today and limiting tomorrow — for the workstream and for your own growth case.
+Even when your intent is to protect delivery, this pattern can reduce others' sense of ownership, create unnecessary pressure, and make collaboration more draining. It is especially important to calibrate your approach to the engineer's experience and context: provide more structure to someone who is ramping, but deliberately pull back as ownership becomes clear. In H2, align upfront on the owner, outcome, timeline, checkpoints, decision rights, and conditions for escalation. Once that agreement is in place, default to trusting the owner and avoid additional nudges unless a checkpoint is missed or a material risk emerges.
 
-In H2, I expect a written CLR roadmap that partners can engage with, design reviews that you visibly drive, and CLR representation in cross-team forums that comes from you directly.
+### Demonstrate Composure and Calibrate Urgency
 
-### Team Resilience and Knowledge Sharing
+At your level, I expect you to model calm, professional judgment under pressure and to distinguish between a true delivery risk and a desire for work to move faster. Across multiple situations this half, your urgency came through as repeated questioning or pushing after the other person had already acknowledged the request or explained the next step. I gave you direct and pointed feedback after these situations, so I need you to recognize this as a significant leadership-development priority rather than a secondary communication preference.
 
-The IC15 MLE role, especially in a technical-lead seat, requires building a workstream that is resilient: documentation, mentoring, and design practices that let others contribute confidently.
+I was concerned that this pattern was not acknowledged in your self-review despite our multiple conversations about it. That omission suggests the feedback has not yet been fully internalized. Your drive and high standards are valuable, but their effectiveness decreases when urgency turns into pressure or when partners feel they are not trusted to follow through. This is the most important gap for you to address as you continue expanding your technical-lead scope.
 
-Specifically:
-
-1. You are the deepest CLR model expert on the team, and for much of H1 the gap between your context and everyone else's stayed wide. Ryan and Yichi are ramping, but their independent surface area in CLR is still small.
-2. CLR's operational and modeling knowledge is under-documented relative to its importance — onboarding still runs primarily through your time.
-
-In H2, I expect you to invest deliberately in making CLR a team asset: current design and operational documentation, Ryan and Yichi in every significant design discussion with growing ownership of their own CLR components, and a workstream that keeps moving at full speed when you are focused elsewhere. This is not about stepping back from the modeling — it is the multiplier that makes your modeling scale, and it is a core part of the senior-TL growth story we both want for you.
+Heading into H2, pause before following up and assess the actual risk, the urgency of the decision, and what has already been agreed. Ask once with clear context, establish the next checkpoint, and then give the owner time to act. When escalation is necessary, explain the concrete risk rather than increasing the frequency or visibility of reminders. Consistently meeting people where they are—and remaining composed when timelines or outcomes feel uncertain—will make your leadership more scalable and your partnerships more effective.
 
 ## Goals for H2
 
-Your H2 priorities are continued CLR delivery, visible technical leadership, and workstream resilience.
-
-1. CLR gains: deliver launched experiments across CLR (router/FM/serving lines) contributing at least 0.3% cumulative SSv2 improvement in H2, maintaining CLR's role as a reliable gains engine.
-2. Written direction: a CLR roadmap covering the major bets, sequencing, and expected outcomes, kept current and shared where partners and leadership can engage with it.
-3. Design reviews: substantial CLR changes go through reviews you drive, with Ryan and Yichi in the room and contributing.
-4. Mentoring and coverage: Ryan and Yichi each own a defined CLR component end-to-end by the end of H2, with documentation to match.
-5. Execution and communication: a concise weekly written update covering completed work, upcoming milestones, risks, and changes to scope or dates.
-
-These are IC15-level expectations and remain applicable regardless of project assignment. As organizational priorities evolve, project assignments may change; the expectations for delivery, visible leadership, and team resilience will remain unchanged.
+1. **Lead the next wave of CLR quality impact, with particular focus on New Low Frequency Users.** Drive NFLU work from problem definition and modeling direction through production launches during H2. Success should be demonstrated through concrete launches, validated recommendation-quality or engagement outcomes, and a clear path for continued iteration.
+2. **Lead the evolution and broader adoption of CLR.** Advance Foundation Model and 16k sequence capabilities across UPP and other applicable surfaces, while continuing to develop retentive recommendations. Establish clear technical direction, manage cross-team dependencies, and convert the most promising work into production outcomes by the end of H2.
+3. **Strengthen CLR and GULP as scalable, reliable foundations.** Own the technical and operational improvements required to make these systems easier to extend and operate, including serving scalability, architecture simplification, documentation, monitoring, and incident readiness. Success means new use cases can onboard efficiently without sacrificing reliability or maintainability.
+4. **Multiply your impact through independently successful owners.** For work involving multiple engineers, define ownership, milestones, decision rights, checkpoints, and success measures at the outset. Then deliberately pull back and allow each owner to execute, intervening when requested, when an agreed checkpoint is missed, or when a material risk emerges. Success should include engineers independently delivering meaningful parts of the roadmap without requiring you to remain in every execution loop.
+5. **Demonstrate consistently composed and calibrated technical leadership.** Use agreed communication cadences rather than repeated public and private follow-ups, clearly distinguish actual delivery risks from preferred acceleration, and tailor your support to each engineer's experience and needs. We will review progress during H2 through specific examples and direct feedback from your key working relationships.

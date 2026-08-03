@@ -1,62 +1,53 @@
-# Alok Malik — H1 2026 Performance Feedback (DRAFT v1, Leo, 2026-07-31)
+# Alok Malik — H1 2026 Performance Feedback (James's draft, verbatim, 2026-08-02)
 
-> **Status:** Leo draft in the Yuke/Bella-final structure, but calibrated to a **different register: developmental, not below-expectations** — Alok is not a perf case. The record supports "solid contributions with two real craft gaps (care/depth) and a promotion-patience conversation," not a formal shortfall verdict. If James reads H1 as genuinely below bar, the verdict sentence needs firming and this goes into the ER lane — say so and I'll redraft.
+> **Status:** James's own draft, logged verbatim 2026-08-02. **Supersedes Leo's inferred DRAFT v1 (2026-07-31)** — that version's bracketed placeholders and its "developmental, not below-expectations" register are both retired; James's draft carries a firmer verdict ("your H1 performance was uneven", primary roadmap impact not landed). Next step: ER pre-review bundle.
 >
-> **Delivery note:** James delivers this as H1 manager; Alok moves to Alim's pod announcement week, so H2 goal tracking transitions to Alim — the doc handles this in the closing paragraph without naming reporting mechanics beyond what's announced by delivery time. `[Brackets]` = work-side facts James fills.
+> **Pre-ER fix list (Leo flags, 2026-08-02):**
+> 1. **Launch/no-launch contradiction — most important.** ¶1 and ¶2 credit "launching the Tabular RL approach" and "through production launch"; ¶4 then says "the remaining latency prevented the Tabular RL system from launching" and "neither this work nor the NN-based version produced realized H1 impact"; Section 2 criticizes the self-review for describing the system "as shipped to full production, but it did not launch." As written the doc credits a launch, denies it, then faults him for claiming it. If the real split is *Tabular RL launched for Shopping Load Tuning* vs. *the model-based/NN PHP version did not*, ¶4's "Tabular RL system" is a mis-write and needs renaming. Reconcile before ER — this is the sentence Alok will quote back.
+> 2. **Garbled sentence, ¶5:** "The central shortfall is this project was not that you needed support…" — likely "The central shortfall **in** this project was not that…".
+> 3. **No reporting-transition clause.** Alok moves to Alim's pod (**Retrieval Modeling**, per the 8/1 work-leo delta) announcement week, so H2 goal tracking transitions. Yuke's final closes with "These are IC-level expectations and remain applicable regardless of project assignment…" — Alok's doesn't. Add the equivalent, or the H2 goals read as James-tracked.
+> 4. **Section 3 lead-in:** "Here's where we aligned on for H2 2026:" — "where we aligned on" is ungrammatical; "what we aligned on" or "where we landed".
+> 5. Confirm the 0.2% SSv2 portfolio target is the real number and that it doesn't collide with Yuke's identical 0.2% framing if the two compare notes.
 
 ---
 
 ## Key Accomplishments
 
-Thank you, Alok, for your contributions in H1 2026. You carried the Dynamic Triggering / PhP work through its funding decision, contributed to Reflex, and stepped up as the primary engineer on Retentive Recommendations in July as the pod's needs changed — a move you chose, and one the team genuinely needed.
+Thank you, Alok, for your contributions in H1 2026! You delivered meaningful impact this half, most notably launching the Tabular RL approach for Homefeed Shopping Load Tuning and building shared infrastructure that benefited multiple Homefeed teams. At the same time, your H1 performance was uneven. The model-based approach did not reach production, and recurring gaps in execution planning, timely escalation, and applied ML depth limited your overall impact.
 
-On Dynamic Triggering, you [owned the workstream at ~50% allocation and] carried it through the ELT presentation that cleared its funding gate in March. That is a real outcome: taking an investment case to a leadership audience and landing the decision. Following that, you began scoping the Ads surface expansion with Mehdi, covering [data, CG architecture, and transfer analysis — state of that scoping]. On Reflex, you [contribution — what he built/landed, artifact]. In July, you committed to Retentive Recommendations as your primary workstream, where you are load-bearing alongside Chuxi and Yidi as the pod's composition changes; [early RR contribution if any, artifact].
+Your most important product delivery was taking the Tabular RL approach for Shopping Load Tuning through production launch. This was complex work across shared serving paths and established a production foundation for more intelligent Shopping Load and CG budget tuning. Your second strongest landed contribution was Homefeed full-funnel logging. You helped design and build a shared logging foundation across Candidate Generation, Ranking, and P2P, working with partner teams to gather requirements and align schemas. You also built latency dashboards with per-stage statistics that allow the team to identify bottlenecks more effectively. This foundation is being used by downstream efforts including Retentive Recs, Pinkerton, and Reflex, giving the work leverage beyond the original debugging use case.
 
-The IC14 MLE role requires independently executing well-scoped technical projects with care: work that lands tested and validated the first time, depth of understanding in the systems you touch, and follow-through that converts starts into finished, documented outcomes. Your H1 shows real delivery and initiative. It also shows a consistent pattern I need you to take seriously: execution care and technical depth are not yet at the level of consistency your ambitions require — work has needed rework after review, and analyses have stopped short of the depth the problem needed.
+You also contributed to completing the Interests service deprecation, including winding down remaining pipelines and jobs, cleaning up dashboards, and removing the service infrastructure. This reduced legacy maintenance burden and operational surface area. In addition, your AI tooling contributions—including workflows for Bazel linting, staging deployments, W&B metrics, and CG tuning—along with your AI-assisted coding deep dive supported developer productivity and knowledge sharing across Homefeed.
 
-Taken together, H1 reflects meaningful contributions with two specific craft gaps — care and depth — that are now the gating items for your growth.
+On Shopping Load Tuning PHP, you built substantial training and serving infrastructure and worked through a difficult serving-latency problem. Dynamic Sizer reduced what would have been approximately 70 ms of added latency to approximately 20 ms. That was meaningful engineering progress on a complex blocker, but the remaining latency prevented the Tabular RL system from launching. As a result, neither this work nor the NN-based version produced realized H1 impact. This distinction between technical progress and delivered production impact is important to the overall assessment.
+
+The central shortfall is this project was not that you needed support to solve an unusually complex technical problem. At IC14, I expect you to execute your work independently while seeking guidance and support when the complexity requires it. The gap was in how you managed the blocker: the work remained stalled for too long without a sufficiently actionable plan, clear decision points, timely escalation, or a recommendation to pivot. Combined with limited progress in developing deeper applied ML expertise—another expectation we discussed at the end of 2025—this made your H1 impact less consistent than it should have been.
 
 ## Improvement Areas
 
-### Execution Care and Quality
+### Improve Execution Planning and Escalation
 
-The IC14 MLE role requires work that is correct and complete when it leaves your hands: changes tested before review, analyses checked before they are shared, and details handled so that reviewers and partners can build on your work rather than catch its gaps.
+At your level, I expect you to independently execute a defined workstream with appropriate support and guardrails, establish realistic milestones, communicate risks clearly, and escalate when a blocker puts delivery at risk. The model-based Shopping Load Tuning approach encountered a genuinely difficult serving-latency problem. Dynamic Sizer reduced the expected latency increase from approximately 70 ms to approximately 20 ms, but the remaining cost was still too high for launch. Needing senior technical support on a problem of this complexity was not itself the issue. The missed opportunity was that the work remained stalled without a sufficiently concrete plan for resolving the blocker, bringing in the necessary expertise, or deciding when to change direction. I ultimately needed to intervene to connect the work with additional senior support.
 
-Specifically:
+This is a continuation of the timeline-realism and execution-planning feedback from your 2025 year-end review. The model-based work therefore did not deliver its intended H1 production impact, despite substantial engineering investment. In H2, I expect you to define milestones, dependencies, risks, and decision points early; communicate confidence levels and changes in the plan promptly; and escalate or recommend a pivot as soon as the current approach no longer has a credible path to launch. The goal is not to solve every difficult problem alone, but to actively manage the work so that complexity does not turn into prolonged stalled execution.
 
-1. [Example 1 — a task/PR/analysis that needed rework after review or shipped with catchable issues: what, date, what was missed, cost.]
-2. [Example 2 — same format.]
-3. The pattern across H1 has been that the first version of your work often needs a second pass prompted by someone else. The expectation is that you are the last person to find your own mistakes, not the first person after the reviewer.
+### Develop Applied ML Depth Through Your Primary Work
 
-In H2, I expect your deliverables to land complete on first submission as the norm: tested, validated against the obvious edge cases, and checked against the ask before you send them.
+Your 2025 year-end feedback explicitly identified deeper ML expertise as a growth priority. PHP presented an opportunity to build that depth, but your H1 contribution remained concentrated in serving infrastructure, training-data pipelines, and experimentation mechanics. Those are areas where you have established strengths, but you did not make enough progress in model development, objective selection, evaluation rigor, or the other applied-ML skills needed to grow as an MLE.
 
-### Technical Depth
+This gap remains unresolved. In H2, I expect you to make ML development part of your core Retentive Recs ownership rather than treating it as an aspiration separate from delivery. That means taking on clearly defined model or evaluation work, becoming more fluent with Pinterest's ML tooling, grounding offline evaluation in product goals, and seeking technical guidance early enough to apply it during the project. The goal is to demonstrate ML judgment through a shipped outcome, not only to complete additional infrastructure work around the model.
 
-The IC14 MLE role requires going deep enough into the systems and data you work with that your conclusions hold: understanding why something works, not only that it appears to, and investigating anomalies before building on top of them.
+### Build Stronger Outcome Awareness and Act on Feedback
 
-Specifically:
+At your level, I expect an accurate and candid assessment of whether work launched, what impact it produced, where execution fell short, and how prior feedback should change your approach. Your self-review overstated the production status of Tabular RL: it described the system as shipped to full production, but it did not launch because of the unresolved latency cost. Your missed-opportunity reflection was also limited to a single general statement about developing more ML expertise and did not address the larger H1 issue—the amount of time spent without landing the primary roadmap impact.
 
-1. [Example — an analysis or design that stopped at surface level: what deeper question was missed, what it cost.]
-2. [Example — a case where depth someone else supplied (TL/James) should have come from him.]
-
-This matters doubly on Retentive Recommendations, where you are now a primary engineer in a pod with junior teammates: the depth bar you set becomes the pod's bar. In H2, I expect your investigations to reach root cause, your designs to address the constraint that actually binds, and your recommendations to come with the evidence that makes them trustworthy.
-
-### Focus and Follow-Through
-
-Strong execution at IC14 means sequencing commitments and finishing them: one scoped deliverable driven to done beats three efforts in flight. In H1, energy spread across parallel threads — Dynamic Triggering, Reflex, and then Retentive Recommendations — diluted follow-through, and our working cadence needed weekly review checkpoints to keep the active deliverable on track.
-
-I also want to address the promotion question directly, because you have raised it consistently: I value the ambition, and the path is concrete. Promotion at Pinterest follows a sustained record of the craft described in this review — care, depth, and finished outcomes at your current level. The most effective thing you can do for your promotion case in H2 is to make the quality conversation disappear: when your work consistently lands complete and deep, the case builds itself. Continuing to raise the question ahead of that record does not advance it.
-
-In H2, I expect one primary deliverable in flight at a time, driven to completion before the next expands, with your RR commitment as the anchor.
+The underlying themes of focus, timeline realism, and ML depth were communicated in your 2025 year-end feedback and reinforced in our weekly one-on-ones, but I did not see enough adjustment in H1. This makes it harder to build confidence that feedback is translating into different decisions and behaviors. In H2, I expect you to distinguish clearly between implementation progress, experimental results, production launch, and realized impact; proactively surface when actual progress differs from the plan; and use retrospection to identify specific changes you will make and then demonstrate those changes through your execution.
 
 ## Goals for H2
 
-Your H2 priorities are execution quality, technical depth, and focused delivery on Retentive Recommendations.
+Here's where we aligned on for H2 2026:
 
-1. Retentive Recommendations (primary): [named RR deliverables with dates and definition-of-done — the pod's committed milestones he owns, e.g., serving/experiment items alongside Chuxi and Yidi].
-2. Quality bar: deliverables land tested, validated, and complete on first submission as the norm; rework prompted by review becomes the exception, tracked simply — [mechanism, e.g., review-iteration count or TL spot-check].
-3. Depth artifacts: for each substantial piece of work, a short written analysis or design note showing the investigation — what binds, what was ruled out, why the approach holds.
-4. Reflex (secondary): [scoped contribution with a boundary — what he owns, capped allocation].
-5. Communication: a concise weekly written update covering the active deliverable's status, next milestone, and risks — surfacing slips when known, not when asked.
-
-These are IC14-level expectations and remain applicable regardless of project assignment. As the organization's structure settles, your Retentive Recommendations work continues with the Anticipation Modeling pod, and progress against these goals will be tracked with your manager there; the expectations for care, depth, and follow-through travel with you unchanged.
+1. **Deliver measurable portfolio impact.** Across the entirety of your H2 portfolio, collectively deliver at least 0.2% in validated SSv2 gains. Retentive Recs should be the primary source of this impact, supplemented by contributions from Reflex, Pinkerton, or PHP where appropriate. Success will be measured by production-launched work with validated experimental gains—not only by completed infrastructure, models, or offline results.
+2. **Land Retentive Recs as your primary H2 deliverable.** Own a clearly defined workstream within the larger Retentive Recs working group and drive it through planning, implementation, evaluation, experimentation, and production launch. Establish the scope and milestones early in H2 and deliver the work within the half, with a clear contribution toward the overall 0.2% SSv2 target.
+3. **Develop applied ML depth through direct ownership.** Own a defined ML component of Retentive Recs, such as model development, objective and loss selection, feature development, or offline and online evaluation. Demonstrate stronger independent use of Pinterest's ML tooling and make sound ML decisions that connect offline evaluation to production outcomes and SSv2 impact.
+4. **Operate against a credible execution plan.** Own the milestones, dependencies, risks, decision points, and escalation path for your Retentive Recs workstream. Communicate progress and confidence accurately, bring in senior support early when a blocker exceeds your expertise, and recommend a pivot when the current approach no longer has a credible path to production. We will use our one-on-ones to review risks and resolve priority or dependency issues, but I expect you to drive the plan proactively.

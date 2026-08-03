@@ -1,5 +1,14 @@
 # Workstream Descriptions — per-project reference (2026-07-27)
 
+> **⚠️ READ FIRST — 2026-08-02 corrections. This is a dated 7/27 record; the body below is preserved as written, but four things in it are now wrong. Do not propagate them (this doc feeds the EM primer).**
+> 1. **RecGPT / GenRet is a gains engine, not a time-boxed incubation.** The "explicit graduation/sunset criteria" and "graduates to Anticipation Modeling at settle" framing is **RETIRED** (James, 8/2: *"GenRet is gains producing and we just need to increase its impressions and make it more gains producing"*). No criteria artifact is owed. **Bella moves with the charter.**
+> 2. **Team names changed hands.** "Anticipation Modeling" is not a live team name — Alim's team is **Retrieval Modeling**; Daniel's is **Curation ML**. Any "→ Anticipation Modeling at settle" reads as the T2 open question, not a decision.
+> 3. **Intelligent Boards is a funded strategic bet**, not boards ballast — funded under Andrew Yaroshevsky's anticipation vision, with Balaji sprinting the prototype. IB is the **mid-funnel adoption step** after the pin-level exploration module (top of funnel).
+> 4. **Recommended Boards is deliberately slow-played** — starved of funding rather than divested, pending product direction (James, 8/2).
+>
+> Current T2 design record: `p13n_retrieval_split.md`.
+
+
 **Purpose:** deliverable 1 of the 7/27 session — one entry per workstream. Each entry has a **doc-ready description** (exec-safe, pasteable into the org GDoc's Workstreams & Leads / Mission cells), **current state** (internal, as of 7/27 — do NOT paste), and **ownership**. Sources: `org_design_doc_2026-07-24_exec_voice.md`, `org_design_proposal_2026-07_v2.md`, project files (`upp_retrieval_em.md` 7/25, `retentive_recs.md` 7/25, `reflex_program_state_2026-07.md`, `l1_utility.md`, `nlfu_support_2026.md`, `cost_investigation_2026.md`), `daniel_liu_team_2026-07.md`.
 
 **Team names (LOCKED 7/24):** Retrieval Foundations (James) · Retrieval Modeling (Daniel) · Anticipation Modeling (Alim). **Org name (LOCKED 7/25): "Personalization Retrieval and Anticipation."**

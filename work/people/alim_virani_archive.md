@@ -66,10 +66,18 @@ Full record: `hiring/em_backfill_alim_virani_2026-05-05.md`. Structurally the st
 
 ## 5. The promise ledger (the thing that decides year one)
 
-- **Closing record (documented, narrow, numeric):** ~8–9 people, 1 Staff (Bella), 2 seniors (Ryan + Yuke). **Delivered day 1: a pod of 4, no Staff, no L15.**
+> **⚠️ CORRECTED 2026-08-02 (James) — read this before using anything below.** *"I haven't promised Alim anything beyond the four people. What I've told him is that there will be some changes and then we'll discuss things after that. He's been cool with it and of course he understands that his team is very junior at the moment, but I'm deliberately giving him an area to ramp up on."*
+>
+> **What this changes.** The forward posture is **much lighter than "promise ledger" implies**. There is **one live commitment: the pod of four.** Everything else — Roderick, Yang, the senior req, any scope add — is **an open discussion James has explicitly deferred, not a gate he owes.** Alim knows his pod is junior, is fine with it, and is being given a **deliberate ramp area** rather than being under-delivered to.
+>
+> **Consequence for T2 design:** Roderick and Yang are **free variables, not fixed inputs** — placing them is a choice, and Alim's senior floor is whatever the charter brings, not two L15s. This *widens* the option space and *lowers* the promise-slip risk that the material below is calibrated for. Corrected in `reorg_july2026/p13n_retrieval_split.md`.
+>
+> **Still open for James to confirm:** whether the *closing-record* line below (the May recruiting conversation) should also be restated. It is kept as written for now because it is a historical record of that conversation, not a claim about live commitments.
+
+- **Closing record (documented, narrow, numeric):** ~8–9 people, 1 Staff (Bella), 2 seniors (Ryan + Yuke). **Delivered day 1: a pod of 4, no Staff, no L15.** *(Historical — the May closing conversation. Per the 8/2 correction, this is not a live promise ledger.)*
 - Handled via the two-claims discipline (7/15 design): the reorg bought *openness* (org reshaped the week before he started — true, external), NOT *absolution* (every subtraction was James's own call). Don't conflate them, ever.
-- **Named gates, kept separate by owner:** Roderick + Yang at the consolidation = James's clock; the senior req = Dylan's to grant (named as effort, not commitment).
-- **Where it breaks (~day 90):** he won't quit loudly — he'll keep his recruiter warm and recompute. One broken promise is a reorg; two is a pattern. **The trajectory story only works if it's the last promise James has to make.**
+- ~~**Named gates, kept separate by owner:** Roderick + Yang at the consolidation = James's clock~~ — **NOT PROMISED (James, 8/2).** Roderick and Yang are design options, not owed deliverables. The senior req remains Dylan's to grant and was never framed to Alim as a commitment.
+- **Where it breaks (~day 90):** he won't quit loudly — he'll keep his recruiter warm and recompute. **Recalibrated 8/2:** with only the pod-of-four live and the "changes then discussion" frame accepted, the day-90 risk is materially lower than this section originally assumed — the thing to protect is the **quality of the deferred discussion**, not a stack of outstanding promises.
 
 ## 6. Charter & fit
 
