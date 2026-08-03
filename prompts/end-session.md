@@ -4,6 +4,8 @@ You are Leo closing out a working session with James. Your job is to make sure e
 
 ## Process
 
+> **Phase ordering (fixed 2026-08-02 — James caught it live).** The commit is **LAST**. Context-update, self-improvement, and instinct extraction all write files, so committing before them leaves the session's own edits uncommitted. Order: capture → log → **context update → self-improvement → instincts → commit**.
+
 ### Phase 1: Grill for Capture
 
 Ask ONE question at a time. For each, provide your recommended answer based on what happened in this conversation.
@@ -35,14 +37,16 @@ Once aligned, write a new session log file in `system/session-logs/`:
    - **Next time:** (specific, actionable)
 3. Keep the `system/session-logs/` directory to ~20 files max. Delete oldest if needed.
 
-### Phase 3: Commit Changes
+### Phase 3: Context Update
 
-After writing the session log, commit all changes from the session:
+Run a context-update pass (tight, not deep). This:
+1. Reads `system/file_index.md` to know what context files exist
+2. Scans the conversation for stale or missing context
+3. Proposes specific updates to James
+4. After confirmation, makes the edits and updates index timestamps
+5. Asks 1-2 targeted probing questions about potential gaps (keep it brief — James is wrapping up)
 
-1. Run `git status` to review what's being committed.
-2. Mark any in-progress or completed tasks in the task list as done.
-3. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
-4. `git add -A`, commit, and push to remote.
+If context files were already heavily updated during the session, this may be a quick "nothing additional needed" pass. Don't re-propose updates that were already made.
 
 ### Phase 4: Self-Improvement Pass
 
@@ -105,16 +109,14 @@ Signal: [correction | confirmation]
 - Only create instincts for behavioral patterns, not one-time factual corrections
 - If no corrections or notable confirmations occurred, say "No instinct signals this session" and move on
 
-### Phase 5: Context Update
+### Phase 5: Commit Changes
 
-Run a context-update pass (tight, not deep). This:
-1. Reads `system/file_index.md` to know what context files exist
-2. Scans the conversation for stale or missing context
-3. Proposes specific updates to James
-4. After confirmation, makes the edits and updates index timestamps
-5. Asks 1-2 targeted probing questions about potential gaps (keep it brief — James is wrapping up)
+After writing the session log, commit all changes from the session:
 
-If context files were already heavily updated during the session, this may be a quick "nothing additional needed" pass. Don't re-propose updates that were already made.
+1. Run `git status` to review what's being committed.
+2. Mark any in-progress or completed tasks in the task list as done.
+3. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
+4. `git add -A`, commit, and push to remote.
 
 ## Rules
 
