@@ -1280,6 +1280,15 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 
 **Level:** **L17 Sr. Manager** — peer-EM altitude with James + Dhruvil. Verified via Slack 2026-05-23.
 
+## 2026-08-03: First post-reorg 1:1 (12:30, moved up from Wed at his ask) — continuity frame, James's commitments, new names
+
+- **Constructive and receptive** (matched Dylan's advance read; beat the 8/1 "likely bitter" expectation). His frame: *manager change is survivable — project change is the risk.* Concerns: **IB dogfood sprint at critical stage** (10-wk sprint, ~wk 5; ~half the engineers across his + Daniel's + Edward's teams) and **UEB/unified plumbing** (Roderick = single point of failure). Team fragility context: his team joined P13N ~mid-March, then reorg + layoffs.
+- **His ask: freeze people-to-project mapping through Q3, revisit after.** Scar tissue: **AMB (IB's previous iteration) never launched last year — big morale hit.** → One of the two inputs behind James's same-day **T2 → Nov 2026** move.
+- **James committed:** no immediate change; roadmap supported Q3 + very likely Q4; documented asks + priorities → funded; **Q1 = defined long-term support model with clearer API/tech-stack boundaries — ngAPI vs Unified split, Unified more self-contained on James's side.** This revives the direction of Yan's own Unity-HF ownership proposal (May) — he engaged positively ("这是一个很好的讨论点").
+- **His candid IB read — 1:1-ONLY, never cite onward:** IB = visibility project (leadership ask), big investment, deliberately conservative start, small Q3/Q4 scale; **UGC Board Recs = real holdout gains (~+300K WAU per him, unverified) that leadership undervalues.** James undecided (8/3) how much of this reaches Dylan.
+- The SWE-retention ask (from Dylan's AM readout) **never arose live**. New name: **Jonathan Luna — Sr SWE under Yan, works on ngAPI** (James invoked him re: the split; full context TBD).
+- Next: Wednesday touch-base + the 8/4 four-way comm-plan meeting. Full transcript-level debrief: `reorg_july2026/announcement_week_timeline_2026-08.md` 8/3 banner.
+
 ## Role in my 6–12 month goals
 - **Presentation-side peer EM.** Yan's team is a composite with 2 sub-EMs (Slack-verified 2026-05-23): **Daniel Liu** (Manager II, L16, ML — 8 directs) + **Edward Zhuang** (Manager I, L15, backend SWE — 7 directs). Came in during the reorg. Ownership negotiation (explore seeds, UIC-to-medoid logic, unity-gulp integrations) substantially closed via 4/3 consensus (Dylan + Dhruvil + Yan + James on CG / P13N-Experiences split).
 - **Peer under Dylan.** One of the managers reporting to Dylan. Dylan wants Yan's team to lean in on Explore/IB backend work. **Partner, not peer-friction** — locked 4/3.

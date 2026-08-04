@@ -13,6 +13,12 @@
 
 > New entries go at the top of this part. Entries are records — never restructure or rewrite older ones.
 
+## 2026-08-03 — Announcement-week D1 Slack: comm plan + SWE delegation (AM) · naming hold (PM)
+
+- **11:01 AM DM:** she'd talked to Yan — *"receptive, has questions/concerns on project and ownership."* Her comm plan: 8/3 Yan↔James · 8/3 3pm she joins Yan+Daniel's 1:1 to share the update · 8/4 she calls a Daniel+James+Yan comm-plan alignment meeting · **8/5 9am her email → James sends a follow-up email** · 8/6 James calls Daniel's-team Q&A. Declined James's offer to chat live before the Yan 1:1: *"nah it should be fine, you have all the information. let me know after you talking to Yan how it goes"* — trust-delegation datapoint.
+- **The SWE delegation (manager-maker move):** Yan asked her to keep "the SWE" in his team → *"I told him this is something he should discuss with you, it should be your decision and business driven. If he needs SWE resources, I can also look at future HC to replenish his team."* Read: her framing tilts the default toward the person moving with Daniel's team; she holds the backfill card. (The SWE ask then never arose in the Yan 1:1 itself.)
+- **6:50 PM — the naming hold:** *"let's hold on the product enablement team name and the product ML team name for now. I have other considerations, naming can always be modified later."* James: "Hold as in keep Curation ML?" → *"correct."* Datapoints: (1) **naming authority stays at her level for now, and she's holding ≥2 team names at once** (⟨"product enablement" — referent unclear⟩) — consistent with her being mid-design on something broader than James's org; hold hypotheses loosely. (2) James accepted without pushback ("I assume she has a good reason") — the open cost is Daniel-facing, not Dylan-facing: James had given Daniel the naming call that morning and owes him the walk-back.
+
 ## 2026-07-27 — 1:1 debrief (from James's notes photo, filed same day)
 
 **Four items:**
