@@ -2,7 +2,7 @@
 
 *Split out of `announcement_week_timeline_2026-08.md` on 2026-08-01. **Merged 2026-08-02:** absorbed `t2_organizing_axes_2026-08.md` (created earlier the same day in a `/grill-with-docs` session, now deleted) — one home for the T2 end-state work instead of three. **Part 0 = process** (how the three EMs decide) · **Part 1 = design** (the option space) · **Part 2 = approach** (how James gathers Daniel's and Alim's input).*
 
-**Decision of record (7/31):** internal org design finalized **between the EMs at ~2 months** (≈ early Oct) — the single venue for the organizing axis, CLR placement, **GenRet landing** (graduation-criteria framing retired 8/2), IB gains-origin gate, Balaji, UEB consolidation, and the open reqs.
+**Decision of record (7/31):** internal org design finalized **between the EMs** — **decision point moved to ~Nov 2026 (James, 8/3** — driven by the 8/3 1:1s: Yan's freeze-people-to-project-mapping-through-Q3 ask + Daniel's team-fragility read (Q1 reorg + layoffs, "二次创伤" risk); changes land post-Q3 with more gains-evidence runway. Every "~early Oct" in the body below now reads **~Nov**.**)** (was: ~2 months ≈ early Oct) — the single venue for the organizing axis, CLR placement, **GenRet landing** (graduation-criteria framing retired 8/2), IB gains-origin gate, Balaji, UEB consolidation, and the open reqs.
 
 > **Handling:** James-only. **Part 1 must never be seen by Daniel or Alim** — previewing candidate answers is exactly what principle 5's comms rider forbids. The shareable material is the primer (`p13n_retrieval_em_primer.md`, same folder), which carries the settled/open lists from Part 0 and no options at all.
 
@@ -12,7 +12,7 @@
 
 ## How it starts
 
-- **Vehicle = a standing EM staff sync** (James + Daniel + Alim), not a special reorg summit. Kick off ~week of Aug 17 (announcement +2 wks, after perf delivery crunch); biweekly 45 min; decision meeting ~early Oct. A staff sync where design is one standing thread signals *this is how we run the org now* — a summit named "reorg discussion" signals the org is still in play.
+- **Vehicle = a standing EM staff sync** (James + Daniel + Alim), not a special reorg summit. Kick off ~week of Aug 17 (announcement +2 wks, after perf delivery crunch); biweekly 45 min; decision meeting ~early Nov (moved 8/3). A staff sync where design is one standing thread signals *this is how we run the org now* — a summit named "reorg discussion" signals the org is still in play.
 - **Seed individually first:** Daniel at the 8/4 1:1; Alim at his next regular 1:1 (core-fixed / edges-open framing already established). Neither first hears the process exists in front of the other.
 - **Kickoff agenda:** charter recap (T1 names per 8/1 delta: **Retrieval Foundations** [James] / **Curation ML** [Daniel] / **Retrieval Modeling** [Alim] — T2 names deliberately TBD, don't invent them) → decisions up front (below) → design principles → what evidence each EM gathers over ~6 weeks → decision date.
 - **Principles first, names later:** agree on criteria before mapping a single person or project. Prevents the sync degenerating into scrap-negotiation, and lets private constraints bind invisibly as neutral criteria.
@@ -36,7 +36,7 @@ Each principle = design translation + a visible cost (a principle that costs not
 ## Decisions stated up front (kickoff, in this order)
 
 1. **Decision rights (one sentence, once):** "Final calls are mine. What I want from this table is aligned principles and your honest reads — and disagree-and-commit when we land."
-2. **Already settled (not reopening):** interim state (Alim's pod = Chuxi/Yidi/Alok/Lionel; Daniel's team intact under Daniel; everyone else James-direct) · T1 team identities (Retrieval Foundations [James] / Curation ML [Daniel] / Retrieval Modeling [Alim] — per 8/1 delta; **T2 names = open, deliberately TBD**) · charter cores (curation quality = Daniel's center of gravity; RR primary home = Alim's pod; UPP/Reflex stay James — **UPP confirmed James-direct at T2**) · the clock (end-state ~early Oct; no ad-hoc structural moves before).
+2. **Already settled (not reopening):** interim state (Alim's pod = Chuxi/Yidi/Alok/Lionel; Daniel's team intact under Daniel; everyone else James-direct) · T1 team identities (Retrieval Foundations [James] / Curation ML [Daniel] / Retrieval Modeling [Alim] — per 8/1 delta; **T2 names = open, deliberately TBD**) · charter cores (curation quality = Daniel's center of gravity; RR primary home = Alim's pod; UPP/Reflex stay James — **UPP confirmed James-direct at T2**) · the clock (end-state ~early Nov, moved 8/3; no ad-hoc structural moves before).
 3. **Explicitly open (the agenda):** the **organizing axis** for the three charters · CLR end placement · **GenRet landing** (as a gains engine) · IB (gains-origin gate) · UEB consolidation · Balaji · open req profile · eventual reporting lines for remaining James-directs.
 
 The settled list is what makes the open list credible. Note the free cover: remaining James-direct reporting lines sit on the OPEN list with an Oct date — exactly the freeze the cases need, wearing a process costume.
@@ -301,7 +301,7 @@ Combos 1 and 2 turn on whether Daniel's identity stays preranking-plus-boards or
 
 **Then time-box the real thing, out loud, on 8/5:**
 
-> *"Your scope read isn't due yet — you've been here a week. What I want is the same thing Dylan gave me: thirty days to learn it, then bring me your read on the shape. That's **August 26**, in writing, and it lands before anything gets decided in October. Between now and then I'll get you the context to form it."*
+> *"Your scope read isn't due yet — you've been here a week. What I want is the same thing Dylan gave me: thirty days to learn it, then bring me your read on the shape. That's **August 26**, in writing, and it lands before anything gets decided in November. Between now and then I'll get you the context to form it."*
 
 Time-boxed, decision rights explicit, constraints named before input is invited, and a fresh offer rather than a retroactive one — four things his archive asks for at once.
 
@@ -330,7 +330,7 @@ Time-boxed, decision rights explicit, constraints named before input is invited,
 | **~8/17** | EM sync kickoff — principles, decision rights, settled/open lists. **No names, no combinations.** |
 | **~8/26** | Alim's 30-day shape read lands, in writing. |
 | **~Sept** | Gains-origin read on IB **and** RecBoards → also the answer to Dylan's graded test. |
-| **~Early Oct** | Decision meeting. Combination chosen; destinations set; moves sequenced with notice. |
+| **~Early Nov (moved from ~early Oct, 8/3)** | Decision meeting. Combination chosen; destinations set; moves sequenced with notice. |
 
 ## Traps
 

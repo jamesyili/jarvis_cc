@@ -8,6 +8,28 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-03 — Reorg-day chat (4pm, his ping ~20 min after Dylan's 3pm share-out; transcript captured)
+
+**Context:** Dylan joined the Yan+Daniel 1:1 at 3pm to deliver the official word; Daniel DM'd James at 3:20 asking to talk same afternoon. Came organized, positive, with his own two-item agenda: mutual intro + advice. Ran over time; warm throughout. Front-ran much of the planned 8/4 45-min agenda.
+
+**His two asks:**
+1. **Team messaging for announcement week.** His team meeting = biweekly Wednesdays (off-week this week); offered to reserve a slot Wed/Thu/Fri post-email; floated **Dylan joining in person**. (Comm plan of record: Thu 8/6 team Q&A, James calls it.)
+2. **James's long-term goals/strategy for the team + what the team should be named.** James linked strategy→messaging (no overpromising, no inconsistency that reverses in two months) — **strategy read owed to Daniel, undated**. Post-meeting: James DM'd that the **T1 team name is Daniel's call — "Curation ML" is the default** until he responds.
+
+**Team-state read (his words):** Q1 reorg + layoffs left the team's mental state fragile; another change risks "二次创伤" (re-trauma). Roadmap ambiguity was the standing scar — he spent heavy energy clarifying scope; current scope now stable: **collection personalization + journey-related personalization**. ICs on ambiguous work want management-supplied clarity: what does this team do, how do I grow/perform.
+
+**The load-bearing values statement:** to "make sure I'm happy" — his happiness derives from the team's. He cares deeply about the people **but explicitly does not need them reporting to him forever**: reallocating people later "没有问题" if they land where they can grow. → **Major T2-design freedom datapoint** (and consistent with his 7/29 end-to-end-ownership want being about technology, not headcount).
+
+**Partner posture:** supports Yan's projects through end of year; "fully onboard" with the support/collaboration model — mirrors what James committed to Yan at 12:30 same day.
+
+**People reads he volunteered:** **Balaji** (L16 MLE, ~1 yr, steady ramp — watch via seniority/level lens) · **Kim** (experienced, opinionated on new things) · **Ling + Felix** (junior lens: worry = do they keep working with Daniel) · Felix sensitive detail → roster file only, do not circulate. **NEW team member surfaced: Esteban Zavala, L13 SWE, joined ~wk of 7/27, remote (Texas)** → roster updated.
+
+**His operating doctrine (MLE vs backend):** MLE responsibilities = **superset** of backend duties (modeling + workflow + some backend-system dev); backend engineers don't model but must understand the ML system end-to-end and own backend/pipeline fixes; the team **owns the end-user experience**, not just models — heuristic/rule-based strategy changes included. Wants MLE-vs-backend expectations defined more clearly later (open thread for the 30-day window).
+
+**James delivered:** management philosophy (support the manager first, so the manager can support the team — Dylan runs the same way) · scope-increase assurance ("no question about that") · the two-manager structure (Daniel + Alim) with tenure-vs-fresh-eyes framing · invitation to shape his own growth/scope. Daniel: "整体上很 make sense，我也完全支持."
+
+**Same-day consequence:** these reads (+ Yan's freeze-through-Q3 ask) → **James moved the T2 decision point to ~Nov 2026** (propagated across the record 8/3).
+
 ## 2026-08-04 — First official 1:1 (45 min) — UPCOMING
 **Five verbatim questions to pre-send with the booking note** now live in `reorg_july2026/p13n_retrieval_split.md` Part 2, together with the **scope-lean inference built from his own 7/29 words** (IB = the only thing the record calls *passionate*; generative retrieval at curiosity-strength; "listwise, working collections, deliberately not pointwise" as his technical identity; **LWS and CLR absent entirely**). Two of the five are the discriminators — the listwise/pointwise question and the eighteen-month LWS question. **Do not run them as a live battery** (his most-documented aversion); pre-send, run at most two. **Hold silently:** the anticipation seam with Alim's charter, and the Balaji fork. **After the meeting, file which questions he answered and — more useful — where his corrections cluster**, since that is the scope-appetite signal that arrives before he says anything out loud.
 Prep also lives in the announcement-week timeline (Tue 8/4 block): booking note pre-sends questions, live asks pruned to 4, spine = his two stated wants (end-to-end ownership + clearer responsibilities) → Phase-2 process with dates. File outcomes here after the meeting.

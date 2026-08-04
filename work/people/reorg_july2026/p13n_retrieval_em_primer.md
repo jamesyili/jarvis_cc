@@ -118,7 +118,7 @@ Board recommendations serving production traffic on Related Pins and Search, wit
 **Decided — not reopening:**
 - The interim team structure announced in August, and the current reporting lines.
 - Team charter cores: curation quality is Daniel's center of gravity; retentive recommendations is Alim's; UPP and Reflex stay with me.
-- The clock: we design the end state together and decide in early October. No ad-hoc structural moves before then.
+- The clock: we design the end state together and decide in early November. No ad-hoc structural moves before then.
 
 **Open — this is the agenda:**
 - The organizing principle for how the three charters divide.
