@@ -3,9 +3,9 @@ id: carry-uncertainty-markers-into-every-restatement
 trigger: Restating, migrating, or summarizing content that carries an uncertainty marker (⟨confirm⟩, `?`, TBD, "draft", "inferred", "not yet verified") — OR about to build a load-bearing claim on a field so marked
 behavior: The marker travels with the content. Never let a qualifier die in migration — content that was provisional in doc A must read as provisional in doc B, or it silently becomes settled fact and nobody re-examines it. Before asserting anything load-bearing, check whether the source field is marked uncertain; if it is, either verify with James or state it as unconfirmed. Corollary: after changing a person/entity fact, grep the WHOLE doc (and siblings) for that entity before shipping — not just the table being edited.
 confidence: 0.6
-evidence_count: 2
+evidence_count: 3
 created: 2026-07-15
-last_updated: 2026-07-31
+last_updated: 2026-08-03
 status: active
 ---
 
@@ -31,6 +31,12 @@ It was wrong, and the same doc said so: v2 line 79 depends on Zihao as the **UPP
 James instructed, for 9 team-member H1 review drafts: "Rather than leaving blanks… do your best to infer… **Make up stuff if needed.**" The marker principle applies even when invention is *authorized*: invented specifics in polished prose read as fact and can silently survive James's edit into a **delivered performance review** — the highest-stakes version of a qualifier dying in migration. Implementation that honored both the no-blanks ask and the marker rule: complete flowing prose, plus a **"Verify before delivery" block at the top of each file** enumerating every invented/inferred specific (and any premise, e.g. "promotion went through"); no invented precise metric numbers stated as measured results. James did not object across 9 drafts; the batch-summary rule given to him: *treat an unchecked verify-item as undelivered.*
 
 **Corollary rule:** when James authorizes inference/fabrication in a draft, the inventions still get an enumerated verify-list per artifact — authorization changes what may be written, not what must be marked.
+
+### 2026-08-03 (future-gated facts corollary — the naming whiplash)
+
+James granted Daniel the T1 team-naming call; Daniel picked "Personalization Product ML" and asked for it in the announcement email. Leo propagated it across 6 files within minutes — including the phrase **"announced in James's 8/5 follow-up email," written at ~5 PM Monday as accomplished fact about a Wednesday event**. At 6:50 PM Dylan held all team renames ("I have other considerations"); full revert required (clean, ~10 min, history preserved — the propagation-with-attribution itself was fine).
+
+**Corollary rule:** a fact that requires a **future event or a higher-altitude approval** to become true (a name "announced in Wednesday's email" before Wednesday; a stakeholder-granted change that hasn't crossed the next approval level) gets written as *pending* — "slated for the 8/5 email," "pending Dylan visibility" — never as done. James-approved ≠ settled when someone above James hasn't seen it yet.
 
 ### Why this one matters
 `⟨confirm⟩`, `?`, and "draft" are the repo's cheapest safety mechanism, and restatement is where they get stripped — because prose wants to read confidently. The cost here was real: a wrong pod in a Dylan-facing proposal and a wrong script for a retention-critical 1:1 with a new M16.

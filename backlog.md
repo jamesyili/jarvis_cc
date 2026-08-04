@@ -2,7 +2,7 @@
 
 > **Purged + rebuilt 2026-08-01 per James** (announcement-eve session): all pre-session items retired; full pre-purge file archived at `system/backlog_archive_2026-08-01.md` (also in git history). Items are now labeled at **outcome granularity** — one row per major workstream, ordered by James's priority. "Done" definitions are the bar; gates carry the dates.
 
-**Last updated:** 2026-08-02 PST (Sunday, pc-leo — T2 design session)
+**Last updated:** 2026-08-03 PST (Monday, pc-leo — announcement-week Day 1; T2 → ~Nov 2026; naming saga; Fri 8/7 Daniel 1:1 added)
 
 ## Time allocation (James, 8/1 — out of the Jan-2027 regret simulation)
 
@@ -12,7 +12,7 @@
 
 | # | Workstream | "Done" looks like | Gates / dates | Record |
 |---|---|---|---|---|
-| 1 | **Reorg week team activities** | Announcement lands 8/5; both teams stable; every 1:1 executed with its must-wins | Mon 8/3: Dylan ping → Daniel booking (5 pre-sent questions) + 4-way #1 · Tue: Daniel 45-min · Wed: announcement + Yan 1:1 + Alim 1:1 (RR ask) · Thu: both team meetings · Fri: sweeps + Daniel ping | `reorg_july2026/announcement_week_timeline_2026-08.md` |
+| 1 | **Reorg week team activities** | Announcement lands 8/5; both teams stable; every 1:1 executed with its must-wins | **Mon 8/3 DONE** (Yan 12:30 ✅ constructive · Daniel 4pm ✅ warm · 4-way #1 · ER bundle ✅) · Tue: Dylan's comm-plan 4-way + Dhruvil check-in · **walk-back DM to Daniel before Wed 9am** · Wed: 9am Dylan email + James follow-up + Yan touch + Alim 1:1 (RR ask, Nov dates) · Thu: both team meetings · **Fri: Daniel working 1:1 (new — agenda in timeline doc)** + sweeps | `reorg_july2026/announcement_week_timeline_2026-08.md` |
 | 2 | **Manage out Zili** | Pre-PIP runs to gate; clean exit path if unmet | Written recap + ER sequencing sign-off · gate **~8/13** · PTO 8/18–9/3 (if fired: no initiation 8/14–17, prep during PTO, open **Tue 9/8**) · Proactivity examples still owed | `downward_reviews/h12026` Zili draft · `team_members_scope.md` |
 | 3 | **Deliver H1 downward feedbacks** | All 13 delivered, fix lists applied, none contested on process | **ER pre-review bundle SENT 8/3 ✅** · Delivery week **8/10** (Bella early-week BEFORE demo · Yuke separate day · Daniel's own H1 via Yan input) · **8/2: James's own text now in 11 of 13** (Bella/Yuke finals + Alok/Zili/Zihao/Hanlin/Devin/Yali-v2/Hedi/Chuxi/Yidi drafts) · verify-before-delivery blocks cleared on the **remaining 2** inferred drafts (**Piyush, JJ**) · Leo pre-ER fix lists applied · **cross-doc collisions: James 8/2 — MINOR, no action; do not re-raise** (all 6 stay noted in the doc headers as record only) · **NEW 8/2: RecSys preranking paper is ACCEPTED (Hedi lead author, 15-min oral) — closes the stale quick-hit below** | `downward_reviews/h12026` |
 | 4 | **Ship UPP P2P V0 + extend to Search** | Exemplar launch shipped right (trade-off owned at deciding altitude, regression disclosed-first, remediation attached); then the Search pull answered with data | Seam pre-frame to Dylan armed with results (this month) · launch decision w/ monitoring + rollback criteria · V1 online · "how much more for Search" follow-on | `upp/upp_retrieval_em.md` 8/1 entries · `h2_2026_team_analysis.md` O1/R4 |

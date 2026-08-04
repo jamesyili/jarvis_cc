@@ -105,3 +105,4 @@
 | 2026-08-02 13:55 | gmail | [Leo] Context Leo holds that is NOT in the H1 downward write-ups | /tmp/claude-1000/-home-james-src-leo/f3ad8f20-7e26-4ade-ae35-2c0697758b72/scratchpad/context_not_in_h1_writeups_2026-08-02.md | to=jamesyili@gmail.com id=19fc44258a4a07f9 |
 | 2026-08-02 16:44 | gmail | [Leo] P13N Retrieval — EM Primer | p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fc4dd1732b0a3b |
 | 2026-08-02 16:47 | gmail | [Leo] P13N Retrieval — internal end-state design (James + Daniel + Alim) | work/people/reorg_july2026/p13n_retrieval_split.md, work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fc4e02b998a57f |
+| 2026-08-03 21:20 | gmail | [Leo] Announcement week timeline — week of Aug 3, 2026 | work/people/reorg_july2026/announcement_week_timeline_2026-08.md | to=jamesyili@gmail.com id=19fcb0009a2556b2 |
