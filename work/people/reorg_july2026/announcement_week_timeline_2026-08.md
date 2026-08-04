@@ -14,11 +14,13 @@
 - **After her signal, same day: reach out to Daniel to book the Tue 1:1 (45 min).** Verbatim booking note (pre-sends the reflective questions — the anti-put-on-the-spot design): *"Dylan shared the news — genuinely excited it's official. Can we grab 45 min tomorrow? No prep needed — mostly I want to hear how you're thinking about it. So nothing's a surprise, the things I'll want to talk through: how you'd shape your charter over the next year, what you need from me in the first 30 days, and how you want to run Thursday's team meeting. Answer whenever — tomorrow or over the next few weeks."* Do NOT contact him before Dylan's conversation happens.
 - **Yan 1:1 is booked for Wednesday** (he moved it from Tue). Mild datapoint — a day of processing space; don't read more into it. **Find out whether the slot is before or after the announcement email goes out** — it changes the register (before: working session while the world doesn't know; after: the public optics landed on him that same day — give the acknowledgment a beat more room).
 - Confirm Thursday's own-team slot (standing CG meeting; extend if needed).
-- *(Separate perf track: ER pre-review bundle goes out today — keeps delivery week 8/10 decoupled from announcement week.)*
+- *(Separate perf track: ER pre-review bundle goes out today — keeps delivery week 8/10 decoupled from announcement week.)* **✅ SENT 8/3 (James confirmed).**
 
 ---
 
 ## Tue 8/4 · Daniel 1:1 — the meeting of the week (45 min)
+
+> **⚠️ SUPERSEDED 8/3:** Daniel front-ran this with his own 4pm chat on 8/3 (debrief: `daniel_liu_archive.md` Part I) — the open, continuity commitment, reviews line, and week mechanics were delivered there. **The working 1:1 moved to Fri 8/7 (James's call, 8/3 PM) — see the Fri block.** Tue 8/4 now = Dylan's comm-plan 4-way (Daniel+James+Yan) + the Dhruvil check-in below. This block stays as the reference for landmine stances + the pre-sent question set.
 
 **When:** Tue Aug 4, **45 min** (booked Monday after Dylan's signal — booking note above pre-sends the questions).
 **Audience:** James + Daniel Liu.
@@ -242,10 +244,34 @@
 
 ---
 
-## Fri 8/7 — Buffer
+## Fri 8/7 — Daniel 1:1 (added 8/3 per James — replaces the Tue 45-min, which Daniel front-ran with his own 8/3 4pm chat) + buffer sweeps
 
+**Audience:** James + Daniel — first working 1:1 after the full announcement cycle (8/3 chat → 8/4 comm-plan 4-way → 8/5 emails → 8/6 team Q&A). Person context: `daniel_liu_archive.md`. **Format rule stands: no live question battery — pre-send this agenda Thursday evening with "add or cut anything."**
+
+**Goals:**
+1. **Announcement-week debrief:** team temperature by name — Ling + Felix especially (continuity worries on record) — and owners assigned for unanswered Q&A items (the "we'll answer by Friday" promise comes due today).
+2. **Review-week readiness:** his team's H1s (delivery wk 8/10) confirmed ready; his own H1 status via the Yan coordination.
+3. **Operating rhythm locked:** weekly 1:1 slot, decision-rights starting sketch, escalation norms — clarity is his currency, be mechanical.
+4. **30-day map started:** Ling Lan availability lock (model-pUIC leans on her) · Yang return/ramp plan · Esteban starter project + remote setup · technical deep-dive scheduling (IB w/ Balaji, RecBoards) · skip-level heads-up (start 8/10 — no surprises).
+5. **Phase 2 seeded concretely:** primer arrives wk of 8/10 (his homework: mark where I'm wrong), EM sync kickoff ~8/17, decisions ~Nov — and the owed strategy read given a date.
+
+**Land these (verbatim):**
+- Open: *"Now that the dust is settling — how did the week actually land with the team? Who should I be paying attention to?"*
+- Q&A promise: *"We told the team we'd answer everything by today — let's split the open list."*
+- Reviews: *"Your team's H1s land next week — anything you want to calibrate together before delivery? And on your own review: [Yan coordination status]."*
+- Rhythm: *"Let's lock a weekly slot. And I want to be mechanical about decision rights early — here's my starting sketch: you own X outright, we decide Y together, I own Z. Mark it up."*
+- Skip-levels: *"I'm starting intro skip-levels with your folks the week of the 10th — nothing evaluative, pure introductions. Anything I should know before I meet each person?"*
+- The owed strategy read (answer + process frame, don't design live): *"You asked for my long-term read — fair ask. Here's my sketch [verbal]. But I want to be honest about how this actually gets decided: the design happens in the EM sync, with you and Alim co-designing — kickoff mid-August, decisions around November. What I owe you before kickoff is my written starting view, and you'll have it with the primer."*
+- Name follow-through (if not fully closed via the DM walk-back): *"On the name — Dylan's holding all team renames for now; that's hers to time. The rename path is real, and it stays your call when it opens — likely at the November settle."*
+- Esteban: *"Esteban's in week two — what's his starter project, and does he have what he needs working remote?"*
+- Ling: *"Chuxi's model-pUIC work leans on Ling — can we lock her availability through the experiments, or do we need to re-plan?"*
+
+**Don'ts:** don't turn the strategy question into a live design session (Phase-2 material) · don't resolve IB or the Alim seam here · no name promises beyond Dylan's own words · MLE-vs-backend expectations = offer to co-write, don't hand him a draft.
+
+**Must-wins:** team temperature by name · review week confirmed ready · weekly slot on the calendar · Ling locked or re-planned · the primer/8-17/Nov frame said out loud.
+
+**Buffer sweeps (unchanged):**
 - Individual sweeps for anyone rattled; answer the collected open questions from both Thursday meetings.
-- **Short ping to Daniel (verbatim):** *"How did the team take it — anything I should pick up next week?"*
 - If Yan owed the asks list or the Daniel review input this week, nudge in writing today.
 
 ---
