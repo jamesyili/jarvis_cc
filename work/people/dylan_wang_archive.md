@@ -11,6 +11,17 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-04 — Announcement-eve: Yan's org-note review loop (joint thread + DM)
+
+Yan drafted a farewell/stability note to P13N-Ex (his own third email in the sequence, after Dylan's 9am + James's follow-up). Dylan's handling, in the joint Daniel+James+Yan thread — a register datapoint worth keeping:
+
+- **4:48 PM, blunt but empathetic-framed feedback to Yan in front of the group:** *"I understand this is a difficult change for you. But the email needs some work. I'd suggest you follow this one and keep it business focused. Otherwise it's prob be[tter] we just discuss in the team meeting."* Then pasted her own June email as the template — the **Jorge Amigon / Relevance Measurement → SSJ move (effective June 1)**, her structure: thanks → move + rationale + "nothing on the roadmap is changing" → "no other changes for P13N org" → questions welcome. (Side-intel: that June RM→SSJ move used the exact playbook now running for Curation ML.)
+- **4:50 / 5:15 PM, iterated in the doc herself:** *"Made some more changes, merge the part about no allocation change to one. I think it's important to set the right expectation."* Result in Yan's v2: the unbounded "assignments are not changing" became **"we will keep the current engineering assignments unchanged for Q3"** — she time-scoped the freeze on her own initiative, protecting the settle-process flexibility from the same angle as James. (Leo had flagged the identical issue to James that morning; Dylan landed it independently — convergent instinct datapoint.)
+- **5:04 PM DM to James:** *"are you comfortable with @Yan Li (P13N)'s email and msg? want to make sure ppl on the same page"* — announcement-eve checklist behavior; she runs explicit comfort-checks with each principal before send. James missed the DM but commented in the GDoc; she saw the comments and replied there. Leo rec (taken): close the DM loop anyway with a short "yes, comfortable — Q3 scoping was the right call."
+- **Effective date confirmed in Yan's draft: org change effective August 7** (announcement 8/5, effective 8/7).
+
+**Reads:** (1) her "keep it business focused" bar for org-change comms = James's own understatement instinct — his register is already calibrated to hers. (2) The "difficult change for you" framing to Yan, said in front of Daniel and James, gently names the emotional layer while overruling the draft — firm-with-grace is her pattern for peer-of-subject feedback. (3) She edits decisively in other leaders' drafts (suggestion mode → "made some more changes") — expect the same on James's artifacts; pre-align before circulating anything she'll co-sign.
+
 > New entries go at the top of this part. Entries are records — never restructure or rewrite older ones.
 
 ## 2026-08-03 — Announcement-week D1 Slack: comm plan + SWE delegation (AM) · naming hold (PM)

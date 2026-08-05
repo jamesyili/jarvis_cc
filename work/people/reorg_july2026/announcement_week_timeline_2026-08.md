@@ -1,85 +1,79 @@
 # Announcement week timeline — week of Aug 3, 2026
 
-*Created 2026-08-01 (Saturday); Yan 1:1 moved to Wed, Alim 1:1 confirmed Wed, per 8/1 updates. James's meeting layer under Dylan's implementation schedule, one block per meeting: date, audience, goals, talking points to land (verbatim — say-able as written), questions to ask (verbatim). Names finalized: **P13N Retrieval** (James) / **P13N Ranking** (Dhruvil). Announcement **Wed Aug 5**. Already done: pod 4 (Chuxi / Yidi / Alok / Lionel) told individually last week of July; Alim has reached out to each. Dylan tells Daniel + Yan **Mon Aug 3**.*
+*Created 2026-08-01 (Saturday). **Restructured 2026-08-04 (Tue AM):** Mon 8/3 marked ✅ done and now holds the record of both 1:1s (each front-ran the plan); **Dylan's comm-plan 4-way added for today (Tue)**; Wed Yan and Fri Daniel blocks refreshed against the 8/3 conversations. One block per meeting: date, audience, goals, talking points to land (verbatim — say-able as written), questions to ask (verbatim). Org names finalized: **P13N Retrieval** (James) / **P13N Ranking** (Dhruvil); **team-level renames HELD by Dylan 8/3 — Curation ML stands, no team name in the announcement.** Announcement **Wed Aug 5: 9am Dylan email + James follow-up after**; **org change effective Fri Aug 7** (confirmed in Yan's org note, 8/4). Pod 4 (Chuxi / Yidi / Alok / Lionel) told individually last week of July; Dylan told Daniel + Yan Mon 8/3.*
 
 *The further-reorg process (three-EM end-state design, kickoff ~8/17) lives in `p13n_retrieval_split.md`.*
 
 ---
 
-## Mon 8/3 — Dylan's heads-up day (+ first RR 4-way)
+## Mon 8/3 — ✅ DONE (record only — both 1:1s front-ran the plan)
 
-**NEW standing meeting: RR priorities 4-way, Mondays 15 min (Krystal-organized: James + Alim + Anna + Krystal), starts today.** This first one: **James drives, nothing announced** — the RR-ownership ask hasn't landed with Alim yet (it lands at this week's 1:1). Handoff happens at the SECOND 4-way (8/10), after the ask: *"Alim owns RR priorities from here — he's your first call. I stay close on the strategic side."* Before then, Anna gets the private line so the alliance layer is protected: *"You're not losing me — the RR operating channel is Alim's now, and he's good. You and I keep the product-narrative threads."*
+*Everything below happened 8/3; this block is context now. Full records: `work/people/stakeholders.md` §16 (Yan) · `daniel_liu_archive.md` Part I (Daniel) · 8/3 session log.*
 
-- **AM: ping Dylan** — ask her to signal when the Daniel and Yan conversations have landed.
-- **After her signal, same day: reach out to Daniel to book the Tue 1:1 (45 min).** Verbatim booking note (pre-sends the reflective questions — the anti-put-on-the-spot design): *"Dylan shared the news — genuinely excited it's official. Can we grab 45 min tomorrow? No prep needed — mostly I want to hear how you're thinking about it. So nothing's a surprise, the things I'll want to talk through: how you'd shape your charter over the next year, what you need from me in the first 30 days, and how you want to run Thursday's team meeting. Answer whenever — tomorrow or over the next few weeks."* Do NOT contact him before Dylan's conversation happens.
-- **Yan 1:1 is booked for Wednesday** (he moved it from Tue). Mild datapoint — a day of processing space; don't read more into it. **Find out whether the slot is before or after the announcement email goes out** — it changes the register (before: working session while the world doesn't know; after: the public optics landed on him that same day — give the acknowledgment a beat more room).
-- Confirm Thursday's own-team slot (standing CG meeting; extend if needed).
-- *(Separate perf track: ER pre-review bundle goes out today — keeps delivery week 8/10 decoupled from announcement week.)* **✅ SENT 8/3 (James confirmed).**
+- ✅ **RR priorities 4-way #1 ran** (Krystal-organized, Mondays 15 min; James drove, nothing announced — by design). The pen-transfer happens at 4-way #2, Mon 8/10 — moved to "Held for 8/10+" below, with Anna's private line due before it.
+- ✅ **Dylan compressed the comm plan (her Slack, 11:01 AM):** Yan 1:1 pulled to Mon 12:30 (Yan's initiative) · Dylan joined Yan+Daniel's 3pm 1:1 to share the news (Daniel officially informed there) · **Tue = Dylan's comm-plan 4-way (Dylan + James + Yan + Daniel)** · Wed 9am Dylan email + James follow-up after · Thu team meetings. Her advance read of Yan: receptive. Also surfaced: Yan's "keep the SWE" ask → Dylan made it James's decision ("business driven") + floated future HC replenish for Yan's team (**unclear if the HC offer was said to Yan**). The SWE ask then never arose live.
+- ✅ **Yan 1:1, 12:30 (he pulled it forward) — constructive.** His frame: *"manager change is survivable, **project change** is the risk."* His ask: **people-to-project mapping frozen through Q3** (scar tissue: AMB — IB's never-launched predecessor — big morale hit). Concerns: **IB dogfood sprint at wk ~5 of 10** (critical stage; ~half the engineers across Yan's + Daniel's + Edward's teams; Daniel's folks own foundation-model integration + e2e pipelines) · **UEB plumbing layer with Roderick (Gao, L15, Daniel's) as TL — "if he's pulled, it stalls."** Daniel-team H2 scope per Yan: IB (biggest) · UGC Board Recs (Yongwoo + Felix; **~+300K WAU per Yan — UNVERIFIED, James to dig in**) · UPP foundational (Kim Toy — allocation ambiguous vs. the Dhruvil-loan record) · fuzzy fourth ≈ module-platform-adjacent. **James committed:** no immediate change · Q3 roadmap support + Q4 "most likely" · documented asks get funded · phased transition w/ technical touchpoints each side (Lionel↔Roderick floated) · Q1 = long-term support model w/ clearer API/tech-stack boundaries (ngAPI-vs-Unified split; Yan positive). **HOLD from Dylan: Yan's candid IB read** (IB = visibility project vs. UGC's real, undervalued holdout gains). **Never raised: Yan's input on Daniel's own H1 → now the top Wed item.**
+- ✅ **Daniel chat, 4pm (his ping, ~20 min after the 3pm share) — warm, organized; front-ran the planned Tue 45-min** (the open, continuity commitment, reviews line, and week mechanics all delivered). His two asks: **team messaging** + **James's long-term strategy read** (owed — arrives written with the primer, pre-8/17; see Fri block). Team fragile from the Q1 reorg+layoffs ("二次创伤" risk — his 1:1 candor, not for quoting); **fine with later people-reallocation** (T2-design freedom datapoint); supports Yan's projects through EOY; MLE-superset doctrine; people reads filed to roster (+ **NEW: Esteban Zavala, L13 SWE, joined wk of 7/27, remote TX** → roster = 27).
+- ✅ **The naming saga (evening):** James gave Daniel the T1 naming call → Daniel picked "Personalization Product ML," wanted it in the email → **Dylan held all team renames 6:50 PM** (*"other considerations… naming can always be modified later"*; also held "Product Enablement" = Zisis's team) → **Curation ML stands; no team name in the 8/5 email.** Walk-back DM to Daniel drafted 8/3 — **send BEFORE today's 4-way** (see Tue block).
+- ✅ ER pre-review bundle sent (perf track stays decoupled from announcement week).
+- ✅ **Same evening: T2 decision point moved → ~Nov 2026** (Yan's freeze ask + Daniel's fragility read); propagated to the p13n doc, backlog, both archives, and this doc's verbatims.
 
 ---
 
-## Tue 8/4 · Daniel 1:1 — the meeting of the week (45 min)
+## Tue 8/4 · Dylan's comm-plan 4-way — Dylan + James + Yan + Daniel (TODAY)
 
-> **⚠️ SUPERSEDED 8/3:** Daniel front-ran this with his own 4pm chat on 8/3 (debrief: `daniel_liu_archive.md` Part I) — the open, continuity commitment, reviews line, and week mechanics were delivered there. **The working 1:1 moved to Fri 8/7 (James's call, 8/3 PM) — see the Fri block.** Tue 8/4 now = Dylan's comm-plan 4-way (Daniel+James+Yan) + the Dhruvil check-in below. This block stays as the reference for landmine stances + the pre-sent question set.
+**When/what:** called by Dylan Monday (her comm plan). **No agenda circulated — expect a talk-through of announcement timeline/strategy for Wed–Thu.** Dylan runs it; James's job is alignment and capture, not driving.
 
-**When:** Tue Aug 4, **45 min** (booked Monday after Dylan's signal — booking note above pre-sends the questions).
-**Audience:** James + Daniel Liu.
-**Person context (durable record):** `work/people/daniel_liu_archive.md` — history, motivation, user manual, open threads. The 7/14 landmine stances carried from `daniel_1on1_open_2026-07-14.md`.
-
-**Context snapshot (8/1):** warm start, not a cold welcome — 7/27 DM ("I love the clarity here"; LLM-backbone seed taken) + 7/29 conversation banked; Bowen Deng channel = trust pre-seeded (use silently); praise already delivered (don't re-praise); he likely knows the reorg is coming. His two 7/29 wants — **end-to-end ownership** + **clearer responsibilities** — are the meeting's spine. Behavioral read: doesn't like being put on the spot, doesn't volunteer team plans → questions pre-sent in the booking note, live asks pruned to 4, reflect his own words back.
+**⚠️ Before the meeting: send Daniel the walk-back DM** (drafted 8/3 — in the 8/3 conversation + `daniel_liu_archive.md`). The original deadline was "before Wed 9am," but this room moves it up: if Daniel mentions "Personalization Product ML" expecting it in tomorrow's email and hits the hold live in front of Dylan and Yan, that's the worst version of the walk-back. Two minutes, before the room.
 
 **Goals:**
-1. He leaves feeling welcomed, not absorbed — continuity register, not surprise-management.
-2. Interim-intact on the record: team stays whole under him; lateral change, not a layer.
-3. **Review-cycle answer locked** for Thursday (his team's = his; his own H1 = Yan coordination named).
-4. Thursday co-designed: Daniel runs content; James + Dylan = air cover; his "don't say" list captured.
-5. Phase 2 seeded **with dates** as the clearer-responsibilities answer (~8/17 sync, ~Nov decisions — T2 moved 8/3).
-
-**The 45-minute arc:**
-
-| Min | Beat |
-|---|---|
-| 0–5 | The open — short, warm, continuity register |
-| 5–15 | His reaction + his read on the team's reaction. One open question, then listen |
-| 15–30 | The spine: his two wants → ownership gap + Phase-2 as the clearer-responsibilities machine; LLM direction reaffirmed |
-| 30–38 | Mechanics: his team's reviews · his own H1 (Yan coordination) · Thursday co-design |
-| 38–45 | First 30 days + cadence + close |
+1. **Sequence locked out loud:** Wed 9am Dylan email → James follow-up right after → Thu Curation ML team session + own-team meeting → open-Q&A promise closes Fri. Who sends/says what, and what each person does with pings that arrive before the email lands.
+2. **Shared verbatims on the three questions guaranteed to come from the teams:** reviews (*"Daniel owns his team's; nothing changes mid-cycle"*) · the name (*"team names stay as they are; naming can be revisited once things settle"* — Dylan's frame) · continuity (*"day one: projects, priorities, and people-to-project mapping unchanged"*).
+3. **Yan + Daniel get messaging agency on the record** — their "say it differently / don't say" items captured while there's still a day to edit both emails.
+4. **Thursday's shape confirmed:** Dylan's comm plan says "James calls Daniel's-team Q&A"; the standing plan says Daniel runs content with James + Dylan as air cover. Same meeting — get one shape into everyone's head.
 
 **Land these (verbatim):**
-- **The open:** *"I'm genuinely glad this is official. The last few weeks made it easy — this formalizes a collaboration I already enjoy. Structure first, because the honest answer is: not much changes day one. Your team stays your team, you keep leading it, and the only real change is you report to me instead of Yan. I'm not here to reorganize you or take your people."*
-- **The spine (his words, reflected):** *"Two things you said in July stuck with me — you want end-to-end ownership of the technology, and you want clearer responsibilities. I want to design toward both, and I mean that mechanically: over the next two months, you, Alim, and I will finalize the end-state design together — a standing sync starting mid-August, decisions by around November. Clear responsibilities is exactly what that process exists to produce."*
-- **LLM direction (room, not promise):** *"The LLM direction you're curious about — pUIC, how LLMs get incorporated — has real room here, and it's something I'd genuinely want to build with you. You said it right: it needs clear requirements. Anna and I are shaping that inventory, and when it's concrete I want your team's read first."*
-- **Ownership invitation:** *"On end-to-end ownership — tell me where the gap is today. That's the kind of thing I want the design to fix, not paper over."*
-- **Reviews:** *"For your team's H1 reviews — you own them, and nothing about evaluation changes mid-cycle. For your own review, Yan has the H1 context, and I'm coordinating with him so it's handled right."*
-- **Thursday:** *"Thursday's meeting is yours to run — Dylan and I are there for air cover. What do you want from us in the room, and what should we not say?"*
-- **Close:** *"Nothing changes this week except that I'm now the person in your corner. Let's start regular 1:1s now and do a proper follow-up in a couple of weeks once you've seen how things settle."*
+- *"Can we walk the sequence once end to end — who sends what and when, and what each of us says if people ping us before the email lands?"*
+- *"Yan, Daniel — my follow-up email thanks both orgs and describes the transition. If there's anything you'd want said differently, or not said, tell me today and I'll match it before it goes out."*
+- The continuity plank (both are in the room — say it once, jointly, built on Monday's commitments): *"From my conversations with both of you yesterday: day one, projects, priorities, and people-to-project mapping don't change, and the in-flight work — the dogfood sprint, UEB, the recent launches — keeps its support. I'd like Wednesday's messaging to say that plainly."*
+- The name, only if it surfaces (Dylan's no-fault frame): *"Team names stay as they are in tomorrow's email — naming can always be revisited once things settle."*
 
-**Ask (verbatim — max 4 live; the rest travel via the booking note):**
-1. *"How are you feeling about it — and how do you think the team will take it?"*
-2. *"You said you want end-to-end ownership — where's the biggest gap between what your team owns today and owning the process end to end?"*
-3. *"What do you need from me in the first 30 days?"*
-4. *"Who on your team should I pay attention to first — who's critical, and who needs support right now?"* (expect thin live — offer: *"happy to take this one over the next couple weeks as you see how folks react"*)
+**Ask (verbatim):**
+1. *"Dylan — anything you want the three of us answering identically this week? I'd rather over-script the top three answers — reviews, names, project continuity — than have us improvise three versions."*
+2. *"For Thursday with Daniel's team — Daniel, my assumption is you run the content and Dylan and I are there as air cover. Is that still the right shape, and what should we not say?"*
+3. *"Yan — once the email's out, when your org gets questions about the change, how do you want them routed — to you, to me, or shared? And the same in reverse for PE-side questions that land on my new team."*
+4. *"If something lands badly Wednesday, who wants to know first — and how fast?"*
+5. (Only if timing is loose) *"Is 9am still the send time, and does my follow-up go out within the hour after?"*
 
-**Pre-sent (booking note), answered on his clock:** charter shape for the next year · clear win vs. bad outcome · where he wants to grow.
-**Retired:** the LLM-unprompted test (answered 7/29).
+**Landmines / holds for this room:**
 
-**Landmines (7/14 stances + two new):**
+| Risk | Stance |
+|---|---|
+| Daniel references his name pick | Moot if the DM went first. If it still surfaces: Dylan's own no-fault frame, one sentence, move on; anything more goes back to the DM thread. |
+| Yan's candid IB read (1:1-only) | **HOLD.** If IB comes up, stay at the "critical-stage sprint, continuity committed" altitude. The how-much-to-Dylan call is James's to make separately — never in a room with Yan present. |
+| The SWE / HC-replenish thread | Not this room. If Yan raises it: *"Let me follow up with you directly on that one."* (James's decision per Dylan; the HC-replenish offer may not have been said to Yan — don't reveal it.) |
+| Kim Toy allocation | Operational seam, not comm-plan material — park to the Wed 1:1. |
+| Roderick / UEB end-state | *"That's exactly the kind of thing the settle process decides deliberately."* No live boundary-drawing. |
+| Daniel's fragility read (二次创伤) | His to raise, not James's to quote. If stability messaging needs backing, argue from the Q1-reorg history in general terms. |
+| Q3 freeze as public messaging | James committed it to Yan 1:1-side; whether it's *announced* is Dylan's call — offer the continuity plank, let her set the altitude. |
+
+**Must-wins:** walk-back DM sent before the room · sequence + Thursday's shape locked · the three shared verbatims agreed · both EMs' "don't say" items captured.
+
+---
+
+### Reference — Daniel landmine stances (carried from the superseded Tue 45-min)
+
+> The planned Tue 45-min was front-ran by Daniel's 8/3 4pm chat (see Mon block); the working 1:1 moved to Fri 8/7. What survives here: the stances below — live in **any** Daniel room this week — plus three reflective questions that were never pre-sent (the booking note never went out): **charter shape for the next year · clear win vs. bad outcome · where he wants to grow** → fold into Friday's Thursday-evening agenda pre-send.
 
 | He asks / probes | Stance |
 |---|---|
 | Team staying intact? | *"Day-one intent is your team stays whole. Anything structural down the line is deliberate and you're in the room before it moves."* (Don't promise "never.") |
-| LLM / generative charter? | Room + build-together + requirements-first (see Land these). No charter promise. |
+| LLM / generative charter? | Room + build-together + requirements-first. No charter promise. |
 | Capped under another Sr EM? | *"No. Frontier modeling with a real metric surface and a publication track is a Senior-EM-track story, and I'll sponsor it."* |
 | Headcount? | *"Not this cycle. The scope is the growth right now, and I'll carry the case for more next cycle."* |
 | Yan — good terms? | Grace, no drama: *"Good terms all around. This is about putting your modeling work where it has the most surface."* |
-| **NEW — IB's future?** | *"IB's placement gets decided in the end-state process, on evidence about where the gains come from — and your passion for journey predictions is exactly the input that decides it."* No promise. |
-| **NEW — overlap with Alim's anticipation charter?** | *"That seam is one of the things the three of us will design deliberately — I'd rather get it right than fast."* Don't improvise a boundary live. |
-
-**Watch-fors:** frustration heat on "clearer responsibilities" (preference or grievance — sizes how fast Phase 2 must deliver) · flinch at the three-way-with-Alim framing · carried from 7/14 (unlikely, but two+ → flag to Dylan): early level/comp steer, strong Yan attachment, external-optionality fishing.
-
-**Don'ts:** no re-praising (one fresh specific max) · no Bowen name-drop · no "you probably already knew" · no live question battery; reflect his 7/29 words, invite expansion · don't resolve IB / the Anticipation seam / the backbone charter here — all Phase-2 material · carried: no "underutilized," no permanent-structure promises (promise process), no Yan drama.
-
-**Must-wins (if everything else runs short):** review answer locked + his own H1 handled cleanly · Thursday co-designed with his "don't say" list · Phase 2 seeded with dates · both stated wants attached to something real, not vibes.
+| IB's future? | *"IB's placement gets decided in the end-state process, on evidence about where the gains come from — and your passion for journey predictions is exactly the input that decides it."* No promise. |
+| Overlap with Alim's anticipation charter? | *"That seam is one of the things the three of us will design deliberately — I'd rather get it right than fast."* Don't improvise a boundary live. |
 
 ---
 
@@ -92,6 +86,7 @@
 1. *"Are we locked on the final strings — P13N Retrieval, P13N Ranking — in the email, the doc, everywhere?"*
 2. *"Anything from your Rahul conversation that should change how we message Wednesday?"*
 3. *"Your half of the stability email good to go?"*
+4. **NEW 8/4:** *"One flag from last night — Dylan's holding all team-level renames, org names only. Worth a pass on your half to make sure no team name slipped in."*
 
 ---
 
@@ -101,55 +96,49 @@
 - Org-wide email goes out (Dylan + Dhruvil + James).
 - **Banked reply-all fires** (text in `reorg_followups.md`, 7/20 log).
 - Stability email per Dylan's doc (James + Dhruvil halves).
+- **Third email in the sequence (added 8/4): Yan's own note to P13N-Ex** — reviewed by Dylan (her "keep it business focused" pass; template = her June RM→SSJ email) with James in the GDoc. v2 is clean: Curation ML named, org name right, warm continuity register, and the assignment freeze **time-scoped to Q3 by Dylan herself** ("important to set the right expectation"). Full loop in `dylan_wang_archive.md` 8/4 entry. Yan's roadmap-continuity plank (IB · UGC Board Recs · UEB on "our H2 roadmap") publicly mirrors James's Monday commitments.
 - Stance: open door, visible calm, no programming beyond the two 1:1s. Answer pings fast and short.
 
-> **⚠️ 8/3 SCHEDULE CHANGE (Dylan Slack, Mon 11:01 AM — supersedes the week structure below):** Yan 1:1 moved to **TODAY Mon 8/3 12:30pm** (Yan's initiative, pre-announcement). New comm plan: 8/3 3pm Dylan joins Yan+Daniel 1:1 to share update (Daniel officially informed then) · 8/4 Dylan calls Daniel+James+Yan comm-plan alignment meeting · **8/5 9am Dylan email, James sends follow-up email after** · 8/6 James calls Daniel's-team Q&A. Dylan's advance readout of Yan: **receptive** (better than the 8/1 "likely bitter" read); concerns = owns IB + explore module end-to-end today, post-change depends on James's org; **unified explore backend spans 3 teams**; asked Dylan **to keep "the SWE" in the team** — Dylan made it James's decision ("business driven") and told James he can look at future HC to replenish Yan's team (unclear if the HC offer was said to Yan). Debrief of the 12:30 pending.
+> *The 8/3 schedule-change and debrief notes that sat here were folded into the Mon 8/3 record block; full records in `stakeholders.md` §16 and `daniel_liu_archive.md`.*
 
-> **✅ 8/3 12:30 YAN 1:1 DEBRIEF (transcript captured; names verified w/ James same-day):** Constructive; his frame = "manager change is survivable, **project change** is the risk." **SWE ask never arose.** His concerns: (1) **IB dogfood sprint at critical stage** — 10-week sprint, ~week 5, LLM-based offline Intelligent Board for internal dogfood users (Andrew's ask); ~half the engineers across Yan's + Daniel's + Edward's teams; Daniel's folks own foundation-model integration + e2e pipelines; (2) **UEB / unified plumbing layer** — supports IB + Explore feed module + future Explore page; **Roderick (Gao, L15, reports to Daniel) is TL** — "if he's pulled, it stalls." Daniel-team H2 scope per Yan: IB (biggest) · UGC Board Recs (Yongwoo + Felix; recent launch **~+300K WAU — per Yan, UNVERIFIED, James to dig in**) · UPP foundational (**Kim Toy**, solo — NB record says she's loaned to Dhruvil w/ loan wind-down = Dylan ask; Yan wants her continuing) · a fuzzy fourth item ≈ Zisis's-team-adjacent (module platform), classification TBD. **Yan's ask: people-to-project mapping frozen through Q3, revisit after** — scar tissue: **AMB (= IB's previous iteration) never launched last year, big morale hit**; no mid-project pulls. **Yan's candid read (1:1-only, HOLD from Dylan until James decides):** IB = visibility project, big investment, small near-term scale/impact; UGC Board Rec = real holdout gains that leadership undervalues. **James committed:** no immediate change; support roadmap Q3 committed + Q4 "most likely" (short quarter); documented asks+priorities → funded; phased transition w/ technical touchpoint each side (pairing Lionel w/ Roderick floated); **Q1 = defined long-term support model, clearer API/tech-stack boundaries — ngAPI vs Unified split, Unified more self-contained on James's side** (Yan positive; ties to his old Unity-HF ownership proposal; James's "in light of Jonathan Luna" = Sr SWE under Yan on ngAPI). Next touch: Wednesday. **Design tension flagged (record-only):** T1/T2 has UEB consolidating under Alim w/ Roderick driving — Yan's continuity ask + Roderick-under-Daniel is a seam to sequence deliberately.
+### Yan 1:1 #2 (Wed touch-base — follow-up to Monday's 12:30)
 
-> **✅ 8/3 4PM DANIEL CHAT (his ping, post-Dylan-3pm-share; full debrief → `daniel_liu_archive.md` Part I 8/3 entry):** warm, organized, front-ran much of the Tue block. Headlines: team messaging + long-term strategy were his two asks (strategy read owed, undated) · team fragile from Q1 reorg+layoffs ("二次创伤" risk) · **fine with later people-reallocation** (T2 freedom datapoint) · supports Yan projects through EOY · people reads filed to roster (Balaji/Kim/Ling/Felix + **NEW: Esteban Zavala L13 SWE, wk-of-7/27 join, remote TX**) · MLE-superset doctrine · post-meeting James DM: **T1 name = Daniel's call → he picked "Personalization Product ML" → Dylan HELD the rename 6:50 PM ("other considerations… can always be modified later") → Curation ML stands, NO team name in the 8/5 email; James owes Daniel the walk-back first**. **Same day: James moved T2 → ~Nov 2026** (this + Yan's freeze-through-Q3 ask; propagated to p13n doc, backlog, both EM archives, roster, this doc's verbatims).
+> **Refreshed 8/4:** the 8/1 "likely bitter / expect little" read is **superseded** — Monday was constructive and specific (see Mon block). This touch-base has one hard-clock item (Daniel's H1 input — never arose Monday; reviews deliver wk of 8/10) and converts Monday's spoken commitments into writing. Keep the departure-proofing design anyway (names below him, dates, writing) — cheap insurance either way.
 
-### Yan 1:1 (moved from Tue by Yan)
-
-**When:** Wed Aug 5, ~30 min. Know whether it lands before or after the email drop.
+**When:** Wed Aug 5. **Check whether the slot lands before or after the 9am email.** After: give the public-optics moment one beat — *"the email's out — anything you want handled differently as the pings come in?"* Before: straight working-session register.
 **Audience:** James + Yan Li (L17 Sr. Manager, PE — professional, calm, manages up well; stakeholders §16).
 
-**Read going in (James, 8/1):** likely bitter, possibly not surprised, professionally contained either way — expect little to show. Historically tight-lipped about his own org's plans; won't open up here. **May be planning to leave** — which raises the price of leaving anything verbal. Design the meeting so its outcomes survive his departure: names below him, dates, writing.
-
-**Goals:**
-1. **PE's asks on James's org captured — both directions, with a timeline.** What PE needs FROM Curation ML going forward (existing + potential future), and what Curation ML still owes PE (inbound obligations James inherits). At minimum: a committed date for a written list.
-2. **Daniel's own H1 review mechanics locked.** Yan holds the H1 context on Daniel; reviews deliver week of 8/10; if Yan is a flight risk this evaporates. This is also the legitimate vehicle for "your read on Daniel" — a process obligation, not opinion-fishing.
-3. **Partnership departure-proofed:** POCs named below Yan (Daniel Reed / Edward Zhuang side), light cadence set.
-4. **Inherited people-commitments surfaced:** anything Yan promised Daniel's folks (promo cases, level expectations) that James now owns.
-5. Relationship left warm and respectful — if he does leave, James is the peer he left on best terms with.
+**Goals (priority order):**
+1. **Daniel's own H1 mechanics locked** — the one Monday never touched, and the only hard clock in the room (delivery wk of 8/10). Leave with a mechanism + a date.
+2. **Monday's commitments → writing:** the asks list with dates. "Documented asks get funded" was the commitment — now make the document exist. Draft-and-correct fallback stands.
+3. **Inherited people-commitments surfaced** (promo cases, level expectations to Daniel's folks) — not covered Monday.
+4. **POCs named + cadence set** — Monday floated Lionel↔Roderick technical touchpoints; convert to named POCs and a light check-in.
+5. **UGC Board Recs number verified:** get the holdout/dashboard pointer behind the ~+300K WAU claim (it's gains-origin evidence for the Nov settle).
 
 **Land these (verbatim):**
-- The acknowledgment (once, plainly, then move on): *"Before anything else — I know this wasn't your call, and I'm not going to pretend it's nothing. I want this to go well for your org too, and that's most of why I wanted this time."*
-- Partnership continuity: *"Curation Revisitation staying with you means we have real shared surface — I want that partnership to actually work, not just survive the transition."*
-- The service framing for the asks (this is what gets past his reticence — it asks what he NEEDS, not what he PLANS): *"My main worry is that the seam move quietly drops something your team needs from curation modeling. I'd rather over-collect your asks now than discover them broken in October."*
-- Messaging agency: *"Tomorrow's meeting and the emails thank you and PE plainly. If there's anything you'd want said differently — or not said — tell me and I'll match it."*
-- Commitments: *"Anything you've set in motion for Daniel's folks, I want to honor — I'd rather inherit it deliberately than trip over it."*
+- *"Monday was genuinely useful — I want to get what we discussed into writing this week: your asks with dates, the Q3 freeze, the support commitments. Documented asks get funded, so let's make the document exist."*
+- *"On transition mechanics — let's name the day-to-day POCs on each side and set a light check-in until the seam settles. Monday we floated pairing Lionel with Roderick — want to lock that in?"*
+- Commitments (unchanged from the original design — still undelivered): *"Anything you've set in motion for Daniel's folks, I want to honor — I'd rather inherit it deliberately than trip over it."*
 
 **Ask (verbatim):**
-1. *"What does your team need from Curation ML today — standing dependencies, in-flight work, anything Revisitation leans on? And what do you see coming in H2? I'd like to get it into a short written list with dates so nothing gets dropped while the orgs settle."* (If he demurs: *"Even a rough list by end of next week helps — I'll draft it from our side and you correct it."* — the draft-and-correct fallback keeps it moving without him having to author anything.)
-2. *"Same question in reverse — what is Curation ML still on the hook for with your org or your XFN partners, that I'm now inheriting?"*
-3. *"Daniel's own H1 review — you have the H1 context and I don't. How do you want to do it: you draft and we co-deliver, or you hand me your written assessment and I deliver? Reviews land the week of the 10th, so I'd want your part this week."*
-4. *"Are there commitments in flight to anyone on Daniel's team — promo cases, level expectations, growth conversations — that I should know about and honor?"*
-5. *"On the operational side — any oncall rotations, services, or pipelines that cross the new line and need a clean owner?"*
-6. *"Who should be day-to-day POC on the Revisitation partnership from your side — Daniel Reed, Edward, you? I'll name mine, and let's do a light check-in until the seam settles."*
-7. The read, kept light (expect low yield; the real extraction is Ask 3): *"Anything about Daniel or the team that isn't on paper — what they need, what to watch for — that would help me not fumble the first month?"*
+1. *"Daniel's own H1 — you have the context and I don't, and reviews land next week. How do you want to do it: you draft and we co-deliver, or you hand me your written assessment and I deliver? Either way I'd need your part this week."* (If it stalls: *"even bullet points work — I'll draft from them and you correct."*)
+2. *"Can we turn Monday's conversation into a short written list with dates — the dogfood-sprint support, UEB, what PE needs from Curation ML in H2? I'll draft it from my notes today and you correct it."* (draft-and-correct — he never has to author)
+3. *"Same question in reverse — anything Curation ML is still on the hook for with PE or your XFN partners that I'm inheriting and don't know about?"*
+4. *"Are there commitments in flight to anyone on Daniel's team — promo cases, level expectations, growth conversations — that I should honor?"*
+5. *"You mentioned the UGC Board Recs launch running around +300K WAU — can you point me at the holdout or dashboard? When I make the case for that work I want to cite it right."*
+6. *"On Kim Toy — I've got two versions of her allocation in my notes: UPP foundational, and the Dhruvil loan. What does her H2 actually look like from your side?"*
+7. *"Any oncall rotations, services, or pipelines crossing the new line that we didn't cover Monday and need a clean owner?"*
 
-**Must-wins if he gives you nothing** (professional-minimal mode): Ask 3 agreed with a date · a committed date for the written asks list · one named POC. Everything else can land async.
+**Must-wins if time is short:** Ask 1 agreed with a date · the asks-list draft-and-correct committed · one named POC pair.
 
-**Watch-fors:** bitterness surfacing as scope-guarding on Revisitation or slow-walking the asks list → don't push in the room; follow up in writing within 48h. Pure-minimal answers → take the three must-wins and get out warm.
+**Watch-fors:** slow-walking the asks list → don't push live; send the draft same day and let him correct async. H1 input stalling → drop to the bullet-points floor and take it.
 
-**Don'ts:**
+**Don'ts (carried, still live):**
 - **Don't probe whether he's leaving** — structure for it silently instead.
-- **Don't ask if he was surprised** or when he found out — nothing good lives there.
 - **Don't hint at any advance knowledge** of the redeployment thinking (the May-era intel is jarred; James learned this via Dylan's process like everyone else).
-- **Don't discuss internal end-state** (Alim split details, GenRet, settle-point design) — he's not in that room.
-- **No tribute register, no gratitude flooding** — it reads as gloating from the winning side. One plain acknowledgment, then work.
-- **Don't fix his feelings.** He's professional; match it.
+- **Don't discuss internal end-state** (Alim split details, GenRet, settle-point design) — he's not in that room. The Roderick/UEB design tension especially: record-only, sequence deliberately, never live here.
+- **Yan's IB candor stays in this channel** — never attribute it toward Dylan or Daniel; the how-much-to-Dylan call is still open and it's James's alone.
+- **No tribute register, no gratitude flooding** — Monday's register was right; match it.
 
 ---
 
@@ -246,10 +235,10 @@
 
 ## Fri 8/7 — Daniel 1:1 (added 8/3 per James — replaces the Tue 45-min, which Daniel front-ran with his own 8/3 4pm chat) + buffer sweeps
 
-**Audience:** James + Daniel — first working 1:1 after the full announcement cycle (8/3 chat → 8/4 comm-plan 4-way → 8/5 emails → 8/6 team Q&A). Person context: `daniel_liu_archive.md`. **Format rule stands: no live question battery — pre-send this agenda Thursday evening with "add or cut anything."**
+**Audience:** James + Daniel — first working 1:1 after the full announcement cycle (8/3 chat → 8/4 comm-plan 4-way → 8/5 emails → 8/6 team Q&A). Person context: `daniel_liu_archive.md`. **Format rule stands: no live question battery — pre-send this agenda Thursday evening with "add or cut anything," and include the three reflective questions that were never pre-sent** (the 8/3 booking note never went out): charter shape for the next year · clear win vs. bad outcome · where he wants to grow.
 
 **Goals:**
-1. **Announcement-week debrief:** team temperature by name — Ling + Felix especially (continuity worries on record) — and owners assigned for unanswered Q&A items (the "we'll answer by Friday" promise comes due today).
+1. **Announcement-week debrief:** team temperature by name — Ling + Felix especially (continuity worries on record) — and owners assigned for unanswered Q&A items (the "we'll answer by Friday" promise comes due today). Sweep in anything promised in Tuesday's 4-way too.
 2. **Review-week readiness:** his team's H1s (delivery wk 8/10) confirmed ready; his own H1 status via the Yan coordination.
 3. **Operating rhythm locked:** weekly 1:1 slot, decision-rights starting sketch, escalation norms — clarity is his currency, be mechanical.
 4. **30-day map started:** Ling Lan availability lock (model-pUIC leans on her) · Yang return/ramp plan · Esteban starter project + remote setup · technical deep-dive scheduling (IB w/ Balaji, RecBoards) · skip-level heads-up (start 8/10 — no surprises).
@@ -266,7 +255,7 @@
 - Esteban: *"Esteban's in week two — what's his starter project, and does he have what he needs working remote?"*
 - Ling: *"Chuxi's model-pUIC work leans on Ling — can we lock her availability through the experiments, or do we need to re-plan?"*
 
-**Don'ts:** don't turn the strategy question into a live design session (Phase-2 material) · don't resolve IB or the Alim seam here · no name promises beyond Dylan's own words · MLE-vs-backend expectations = offer to co-write, don't hand him a draft.
+**Don'ts:** don't turn the strategy question into a live design session (Phase-2 material) · don't resolve IB or the Alim seam here · no name promises beyond Dylan's own words · MLE-vs-backend expectations = offer to co-write, don't hand him a draft · carried from the superseded Tue block: no Bowen name-drop, no "underutilized," no permanent-structure promises (promise process).
 
 **Must-wins:** team temperature by name · review week confirmed ready · weekly slot on the calendar · Ling locked or re-planned · the primer/8-17/Nov frame said out loud.
 
@@ -278,6 +267,7 @@
 
 ## Held for 8/10+ (deliberately NOT announcement week)
 
+- **Mon 8/10 RR 4-way #2 = the public pen-transfer** (moved here from the Mon 8/3 block): *"Alim owns RR priorities from here — he's your first call. I stay close on the strategic side."* Requires the RR/UEB ask landing at Wed's Alim 1:1 first. **Anna's private line lands before the 8/10 meeting — that's this week:** *"You're not losing me — the RR operating channel is Alim's now, and he's good. You and I keep the product-narrative threads."*
 - **Perf delivery week runs 8/10+** on its own track — announcement week stays clean of it. (Now includes Daniel's own H1 review, pending Yan's input from the Wed 1:1.)
 - Skip-level intro 1:1s with Daniel's directs (intent announced Thursday).
 - Joint combined team session (Wave 2) — post-observe, ~week of 8/17+; script = `team_meeting_talking_points_2026-07-22.md` Meeting 3.

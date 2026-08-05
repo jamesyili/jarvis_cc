@@ -58,6 +58,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 - **always-commit-and-push** — session end / repo changes → always commit and push, even if the log is skipped.
 - **main-context-for-sequential-writes** — 5+ sequential query-then-edit steps → run in main context; spawned agents don't persist edits.
 - **repoint-structure-docs-on-file-moves** — repo file/folder moves (by hand or by Leo) → checklist beyond live prose refs: AGENTS.md §Folder Structure, .gitignore patterns, .claude agent/skill hardcoded paths (incl. stale absolute), file_index; git mv; grep old path to verify. **James's manual moves = D+untracked pairs (find the basename before calling anything deleted), `*:Zone.Identifier` junk, and layouts that keep evolving mid-session — re-`ls` before every wave.** (0.8 — promotion-eligible)
+- **propagate-schedule-deltas-into-blocks** — new intel changes a plan held in an operational doc → don't stop at the banner/blockquote; restructure the action blocks same-session (new meeting = new prep block) or name the debt out loud. (0.3 — 8/4: the 4-way was in the doc's 8/3 banner but had no block; James caught it meeting-morning)
 - **lead-with-cost-and-mechanism** — proposing remote/cloud automation or token-heavy multi-agent runs → lead with token cost + mechanism + cheaper alternative (usually sequential main-context); re-confirm before more parallel work after a same-session limit death.
 
 ## Identity / preference / comms

@@ -106,3 +106,5 @@
 | 2026-08-02 16:44 | gmail | [Leo] P13N Retrieval — EM Primer | p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fc4dd1732b0a3b |
 | 2026-08-02 16:47 | gmail | [Leo] P13N Retrieval — internal end-state design (James + Daniel + Alim) | work/people/reorg_july2026/p13n_retrieval_split.md, work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fc4e02b998a57f |
 | 2026-08-03 21:20 | gmail | [Leo] Announcement week timeline — week of Aug 3, 2026 | work/people/reorg_july2026/announcement_week_timeline_2026-08.md | to=jamesyili@gmail.com id=19fcb0009a2556b2 |
+| 2026-08-04 09:02 | gmail | [Leo] Announcement week timeline — week of Aug 3, 2026 | work/people/reorg_july2026/announcement_week_timeline_2026-08.md | to=jamesyili@gmail.com id=19fcd83196eb53d7 |
+| 2026-08-04 15:34 | gmail | [Leo] J.J. Hu — H1 2026 Performance Feedback (DRAFT v2, Leo, 2026-08-04 — promotion of | work/people/downward_reviews/h12026/jj_h1_2026_feedback_draft.md | to=jamesyili@gmail.com id=19fcee995f00151e |

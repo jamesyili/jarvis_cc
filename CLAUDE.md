@@ -125,6 +125,6 @@ Four hooks fire automatically. They're wired in the repo's **`.claude/settings.l
 
 Leo's behavioral memory lives in **`system/instincts/`** — repo-tracked, portable across tools, injected into every session by the SessionStart hook via `INDEX.md`. Each instinct is a `trigger → behavior` file with dated evidence. When James corrects a behavior worth remembering, enrich an existing instinct or create a new one and add a line to `INDEX.md` (the `detect-corrections.sh` hook prompts this).
 
-**Facts** (stakeholder intel, project state, profile) live in repo context files, not instincts — follow the routing guide in `AGENTS.md` (Dylan → `dylan_archive.md`, other stakeholders → `stakeholders.md`, projects → `work/projects/`, infra → `system/leo-overview.md`).
+**Facts** (stakeholder intel, project state, profile) live in repo context files, not instincts — follow the routing guide in `AGENTS.md` (Dylan → `dylan_wang_archive.md`, other stakeholders → `stakeholders.md`, projects → `work/projects/`, infra → `system/leo-overview.md`).
 
 The old Claude Code auto-memory store (`~/.claude/.../memory/`, indexed by `MEMORY.md`) was **retired 2026-06-26** — consolidated into instincts + repo files (backup: `system/memory_archive_2026-06-26/`; audit: `system/memory_audit_2026-06-26.md`). Because it's repo-tracked, Codex / Gemini / Cursor now share it too. Don't add new memories to the old store.

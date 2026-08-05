@@ -79,7 +79,7 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 | Balaji Rengarajan (he/him) | L16 | MLE | Intelligent Boards | Daniel | Daniel 8/3: ~1 yr in, steady ramp; watch via seniority/level lens (top-level IC on his team); his ICs want scope/growth clarity |
 | Devin Kreuzer | L15 | MLE | CLR · GULP | James | CLR lead |
 | Ryan Kam | L15 | SWE | CLR · LWS (dev-velocity focused) | James | Joined ~May 2026 |
-| J.J. Hu | L15 | MLE | Responsiveness · L1 · Reflex | James | IC16 package submitted 7/10 |
+| J.J. Hu | L15 | MLE | Responsiveness · L1 · Reflex | James | **IC16 promo APPROVED (James, 8/4)** — effective date TBC; level tables updated when it lands |
 | Yali Bian | L15 | MLE | LWS | James | De facto LWS owner |
 | Hedi Xia | L15 | MLE | LWS | James | — |
 | Yuke Yan | L15 | MLE | Retentive Recs · RecGPT | James | **Will move to RecGPT only**; PIP track |
@@ -156,7 +156,7 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 - **1:1:** Tue 4:00pm
 - **Context:** IC16 promo package **SUBMITTED in Workday 2026-07-10** — James's final edit preserved verbatim in `self/writing_style/example_promo_package.md` (Workday Q1/Q2/Q3). Q3 = decision ownership + communication to land decisions (per James: on Pinvestigator "I was making a lot of decisions for him"). Final version is quote-carried: full written assessments from Dafang, Nilesh Gohel, Olafur Gudmundsson, Vikram Deshpande woven in; ISR vision provenance corrected to Infra/PJ leads (JJ connected vision → practical application). Residual: ML Symposium year 2025 (Dafang quote) vs 2026 (James prose). Q1 = foundations/efficiency + AI tooling/ML-adjacent systems ("straddles ML systems and models"); Q2 = L1 Utility+efficiency / In-Session Responsiveness (PSv2 nod) / Pinvestigator+Reflex+mentorship; Q3 = tactical→strategic, strategic brevity. The old "ML depth gap" concern is answered in-package by reframing his depth as ML systems + agentic tooling. Open confirms before submit: savings total ($1.67M vs $1.8M), ML Symposium year (2025 vs 2026), Q1 ~10-engineer span, Heath/Olafur last names.
 - **Cross-org buy-in intel (2026-07-09):** Content Success is investing in L1 Utility shopping controls — Heath (Senior EM) strong buy-in, Olafur (IC17 Senior Staff) can corroborate the story; the engineer driving the shopping control experiment is from Content Success. Leo rec: Olafur belongs on JJ's assessor list.
-- **Risk:** If promo doesn't land + Bowen departure + AI market = potent combination for JJ to look. Have contingency conversation ready.
+- **Risk:** ~~If promo doesn't land + Bowen departure + AI market = potent combination for JJ to look. Have contingency conversation ready.~~ **RESOLVED 8/4: IC16 promo officially approved** (effective date TBC). The retention scenario this guarded against didn't materialize; H1 feedback draft v2 (8/4) frames the promotion as the floor of the new bar.
 - **Single point of failure:** Essentially solo on Real-Time. No coverage if he left.
 
 ### Yuke (TL → IC transition in progress)

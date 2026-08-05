@@ -14,6 +14,7 @@ Same process as the six below: pull context → confirm level/form → get James
 - [x] **Karli** — drafted 2026-07-16 (§8 below). Pure praise per James ("just glaze her"), no growth section. Case kept unnamed for discretion.
 - [x] **Krystal** — drafted 2026-07-16 (§7 below). ⚠ Spelling: repo says **Krystal**; James dictated "Crystal" — verify against Workday before submitting.
 - [x] **Daniel Liu** — drafted 2026-07-17 (§12 below). Reading-chain constrained: reorg unannounced, must read identically before and after. James-observed incidents only.
+- [x] **Armando Ordorica** — drafted 2026-08-04 (§13 below). IC16 DS, Retentive Recs / KDD paper. Growth encoded as influence-and-leadership framing per James's stated intent; no friction language in the record.
 
 Open sharpening on the six done: Karim (2 `[Anchor:]` slots want concrete moments); Dimitra content-quality POV + Sai P2P-vision articulation would each gain from one anecdote.
 
@@ -246,3 +247,23 @@ Daniel also handles ownership boundaries with a straightforwardness and low ego 
 **What is an area that this person could adjust - more of/less of - to be more effective?**
 
 I would like to see Daniel bring his and his team's depth into shared and adjacent problem spaces more assertively, without waiting for an explicit invitation. Where his team has engaged with mine, the work has visibly benefited, and my sense is there is more of that depth available than the org currently gets to use. Some of this may simply be respect for scope boundaries, which I appreciate, but I would encourage him to treat adjacency as license to lean in, propose directions, and push his team's point of view into joint spaces early. The depth is there, and the shared problem spaces would be better for having more of it.
+
+---
+
+## 13. Armando Ordorica — cycle peer feedback (IC16 Data Scientist, Retentive Recs / KDD paper)
+
+> Growth section carries James's real critique (ideas outrunning engineering feasibility, friction with eng counterparts) encoded as an influence-and-leadership growth lever, per his stated intent. No "disconnect" language in the record; Armando and his manager both read this.
+
+**This person and I worked together on:**
+
+Retentive Recs (Retentive Feedback Loop, core analyses and mechanism design), KDD 2026 paper (Representation, Prediction, Federation, and Evaluation subsections)
+
+**What is a strength you observed working with this person?**
+
+Armando has some of the deepest machine learning expertise of any scientist I have had the pleasure of working with, and he pairs that depth with real execution power. He has been core to Retentive Recommendations, especially the feedback loop component, where his work spans both the central analyses and the marquee mechanisms underneath them, including the composite reward design and the user-level explore/exploit strategy that make the feedback loop actually work. This is demanding ML territory, closer to reinforcement learning than to standard recommendation modeling, and Armando operates in it natively. The feedback loop reached its first launch while I was out of the office, which says something about how independently his work carries. On the KDD paper he was the operational engine of the effort: he drove the Representation, Prediction, Federation, and Evaluation subsections, most of the technical heavy lift of the architecture chapter, while also setting up the repository and tooling that let the rest of the team contribute. When I look at where Retentive Recs' hardest technical content came from, Armando's fingerprints are on a remarkable share of it.
+
+The other strength I want to call out is that Armando does not just see through to the heart of an issue, he can articulate it in whatever form the audience needs: in words, through examples, through artifacts, and through intuition. His framing of our prediction work, for instance his insistence that we predict at the level of user trajectory rather than point-wise change, became the spine of how we positioned and defended the entire effort. He was also the one who flagged our experiment-results dependency early, when it was still cheap to plan around. That combination of diagnosis and articulation is rare, and it repeatedly gave the group shared language for problems that would otherwise have stayed fuzzy.
+
+**What is an area that this person could adjust - more of/less of - to be more effective?**
+
+The biggest opportunity I see for Armando is to bridge the ambition of his out-of-the-box thinking with the realities of the engineering workflow. His range as an idea generator is genuinely unusual, and some of his best contributions started as ideas nobody else would have proposed. The adjustment I would encourage is to pair each ambitious idea with its grounding at the moment he introduces it: what is feasible in the current stack, what the sequencing would look like, and what it asks of the engineers who would build it. When an idea arrives already bridged to the workflow, engineering counterparts can engage as co-owners from the start rather than working out the translation afterward. I offer this because I want to see his influence and his leadership grow. The quality of his thinking is not the ceiling on his impact; consistently landing that thinking with engineering partners is, and closing that gap would make him one of the most influential scientists in the org.
