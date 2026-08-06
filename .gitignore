@@ -29,6 +29,9 @@ google_credentials.json
 google_token.json
 drive_folders.json
 
+# Notion integration (token lives in ~/.config/leo/, defense in depth)
+notion.json
+
 # Python bytecode
 __pycache__/
 *.pyc

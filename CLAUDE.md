@@ -40,6 +40,12 @@ The five most-used workflow skills (`start-session`, `end-session`, `prep`, `dra
 | `/save-to-drive` | Upload a file to "Leo Outbox" in Google Drive; `.md` converts to Google Doc by default |
 | `/doc-viewer` | Open a repo .md rendered as HTML in the local browser (send-me rendering, no email); `--edit` = in-browser editor that saves back to the .md; `--watch` = live external-editor preview |
 
+### Day-Job Ops (added 2026-08-06)
+| Skill | Trigger |
+|-------|---------|
+| `/delegate` | An ambiguous team-good task lands that shouldn't stay on James's plate — "who should take this?" Proposes 3+ candidates (spread-by-default via `work/people/team_service_ledger.md` + growth fit), Slack-ready DM per candidate with AI-first frame |
+| `/plan-week` | "Plan my week" / a to-do list dump. Pulls from Notion (`scripts/notion_pull_todo.py`, screenshot/paste fallback), ranks with one-line whys, flags delegate-instead items → `/delegate`, surfaces what's missing. Weekly horizon only |
+
 ### Knowledge Base (global skills)
 | Skill | Trigger |
 |-------|---------|
