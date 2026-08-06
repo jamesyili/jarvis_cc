@@ -327,7 +327,7 @@ Time-boxed, decision rights explicit, constraints named before input is invited,
 | **Tue 8/4** | Daniel 1:1 (45 min). Spine = his two wants + Phase-2 process with dates. At most two live. Anticipation seam and Balaji fork stay closed. |
 | **Wed 8/5** | Alim 1:1. RR/UEB ask is the headline. Two fresh-eyes questions. Time-box the 8/26 read out loud. |
 | **~Wk of 8/10** | Primer sent to both, identical. Homework differentiated. |
-| **~8/17** | EM sync kickoff — principles, decision rights, settled/open lists. **No names, no combinations.** |
+| **wk of 8/10** *(pulled forward from ~8/17 — Alim 1:1, 8/5: "P13N Retrieval Staff," 45-min weekly, trio first, Staff TLs added later)* | EM sync kickoff — principles, decision rights, settled/open lists. **No names, no combinations.** |
 | **~8/26** | Alim's 30-day shape read lands, in writing. |
 | **~Sept** | Gains-origin read on IB **and** RecBoards → also the answer to Dylan's graded test. |
 | **~Early Nov (moved from ~early Oct, 8/3)** | Decision meeting. Combination chosen; destinations set; moves sequenced with notice. |

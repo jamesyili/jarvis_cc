@@ -8,6 +8,14 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-04 — Team-mood DM (afternoon; filed from screenshots 8/5 AM)
+
+James asked what he's hearing from the team ("I'd imagine this is a surprise to many of them"). Daniel: team briefly met at the intern's final presentation + some 1:1s — **"generally people are surprised by this change and worried about how they might work with your team and the future plan. I assured them on the stability of the team and our goals and priorities won't change in the near term, and will get my full support if they are concerned."** James thanked him for delivering the reassurance and asked **permission to reach out to a few folks + "who would you suggest I talk to first?"** Read: the worry axis is *interface with James's team + the future plan*, not manager identity — consistent with his 8/3 re-trauma/ambiguity read, and it names the content Thursday's team meeting must carry.
+
+**Answer arrived 8/5 AM:** *"oh thanks for asking, please feel free to. i think having chats with Balaji Rengarajan, Kim Toy, Ling Lan would be helpful, not necessarily saying that they are concerned, but thanks for asking!"* → Permission granted, warm. His list = Balaji + Kim (matches the placement-ambiguity read) **+ Ling Lan** — consistent with his own 8/3 junior-lens read (Ling's worry = does she keep working with Daniel). The hedge ("not necessarily concerned") = his careful-manager framing: honor it — intro-framed chats, not concern triage. **Skip-level queue: these three first.**
+
+**Cross-signal (8/5 AM):** Kim + Balaji = the only two non-accepts on Thursday's team-meeting invite — also exactly the two placement-ambiguous names (Kim loan wind-down, Balaji fork). Call: no direct RSVP chase from James; attendance routes through Daniel, and both names fold into the who-first sequencing above.
+
 ## 2026-08-03 — Reorg-day chat (4pm, his ping ~20 min after Dylan's 3pm share-out; transcript captured)
 
 **Context:** Dylan joined the Yan+Daniel 1:1 at 3pm to deliver the official word; Daniel DM'd James at 3:20 asking to talk same afternoon. Came organized, positive, with his own two-item agenda: mutual intro + advice. Ran over time; warm throughout. Front-ran much of the planned 8/4 45-min agenda.
@@ -30,7 +38,7 @@
 
 **Same-day consequence:** these reads (+ Yan's freeze-through-Q3 ask) → **James moved the T2 decision point to ~Nov 2026** (propagated across the record 8/3).
 
-## 2026-08-04 — First official 1:1 (45 min) — UPCOMING
+## 2026-08-04 — First official 1:1 (45 min) — SUPERSEDED (8/3 chat front-ran it; working 1:1 moved to Fri 8/7, block in the timeline doc)
 **Five verbatim questions to pre-send with the booking note** now live in `reorg_july2026/p13n_retrieval_split.md` Part 2, together with the **scope-lean inference built from his own 7/29 words** (IB = the only thing the record calls *passionate*; generative retrieval at curiosity-strength; "listwise, working collections, deliberately not pointwise" as his technical identity; **LWS and CLR absent entirely**). Two of the five are the discriminators — the listwise/pointwise question and the eighteen-month LWS question. **Do not run them as a live battery** (his most-documented aversion); pre-send, run at most two. **Hold silently:** the anticipation seam with Alim's charter, and the Balaji fork. **After the meeting, file which questions he answered and — more useful — where his corrections cluster**, since that is the scope-appetite signal that arrives before he says anything out loud.
 Prep also lives in the announcement-week timeline (Tue 8/4 block): booking note pre-sends questions, live asks pruned to 4, spine = his two stated wants (end-to-end ownership + clearer responsibilities) → Phase-2 process with dates. File outcomes here after the meeting.
 
@@ -52,7 +60,7 @@ Warm and engaged: **"I love the clarity here. We can discuss further how my team
 
 ## 1. History (load-bearing)
 
-- **Ex-TL on the Homefeed CG team itself** (pre-James). **Dylan judged him not fit for management in that era.** Left Pinterest → returned via interview as a manager outside Dylan's scope → reorged under Dylan (as Yan's sub-EM) → now reorged under James (Aug 2026).
+- **Ex-TL on the Homefeed CG team itself** (pre-James). **Dylan judged him not fit for management in that era.** Left Pinterest → returned via interview as a manager outside Dylan's scope → reorged under Dylan (as Yan's sub-EM) → now reorged under James (Aug 2026). **8/5: James deploys the CG connection publicly** at the 8/6 team meeting ("Daniel was a core part of the CG team not too long ago" — homecoming frame, biographical surface only; the management-fit/departure history never leaves the record). Also resolves the Yan 8/5 transcript garble: the "worked in retrieval before, knows people here, already reconnecting" passage = **Daniel**, not Alim — Daniel is actively reconnecting with CG-side people he knows.
 - **Dylan's subtext in handing him over:** her word for the team was "relatively underutilized"; James's unstated second job is **develop-or-document** — her own unfinished evaluation, now his. The first ~60 days under an explicit charter are the clean read.
 - **The encroachment confound (James's own frame):** Daniel's apparent sideline posture on RR may have been deference to James's scope, not passivity. The reorg deletes the confound — engagement signals from here on are clean data. Early returns (7/27 DM, 7/29 conversation) point engaged.
 - **Anna's RR veto stands regardless:** she's emphatic he's not the EM/TLM for Retentive Recs (product instinct). Politically decisive for RR; irrelevant to the technical-backbone path she herself endorses him for.

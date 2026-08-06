@@ -8,6 +8,46 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-05 — 1:1 #2 (day after announcement; James's notes doc + evening sentiment, filed same day)
+
+**James's sentiment:** going deep technically — *wrestling for ownership of the technical problem*. Real Etsy anticipation experience showing up as the ability to lean into specific strategies over others; James is letting him run. Already developing career plans for each report; **willing to buy a flight to meet reports + stakeholders in person** (trip ~8/25–27). Apologized for slow week-one onboarding (computer setup) — James: "you're doing great." What James likes most: leaning into the problem space and asking good questions. Combined with the 8/4 pod pulse: *"really seeing good promise — let's not get too excited too early."*
+
+**Technical spine (his tactical map, from James's notes):**
+- GOAL: explore cheaply + quickly (Alok? Lionel?). **P0 Query→Pins:** SearchCLIP · NavBoost · SearchSage CLR (**Kim Toy + Devin Kreuzer** — NB: Kim's retrieval-side work appears by name in Alim's P0 map; quiet evidence for her allocation story).
+- **Explore-module-first instead of HF** for heuristic pUIC (geodesic · alpha-based jump · interpolation). Logic: HF = slow metric wins; Explore = fast dogfood wins, low traffic/low barrier, backend-heavy, quick iteration — "kill two birds with two stones." Explore-module context: Andrew (director of product, very technical PM) built it; backend = UIC frontier sampling; GULP = Aziz + Matt C.
+- **Model vs LLM pUIC: both can exist** (exploratory CGs can run multiple). **LLM pUIC is far away** — queries bad, user representation weak, predicted queries poor; CLR too exploitative and Search can't help; the problem = query quality. **"Alim can run with this and explore"** (+ Anna's "LLMs for Prod" query-quality doc). CLR alternatives on the table: SearchSage; masking-CLR (more personalization-resistant).
+- Already metabolizing the pressure line: *"when are you going to make bigger leaps"* — CEO likes persona-based, centerpiece of anticipations. Heuristic hosting → Daniel's team can do it (universal backend seam).
+
+**Org/structure outcomes:**
+- **P13N Retrieval Staff sync: James + Daniel + Alim, 45 min weekly, starting NEXT WEEK (wk of 8/10)** — pulled forward from the ~8/17 kickoff plan; Staff/near-Staff TLs join "when we're ready." Culture seeded via Five Dysfunctions: **the "first team" = the peer trio, not your own reports** — TL trust shouldn't color how the leadership pod works; "it's our success — number 1 priority."
+- James's operating principles delivered: take care of the manager first · people-goals work first · "want me to be happy — be transparent on what I want" · "Dylan is open about growth — let's make sure we're transparent about happy."
+- Constraint conveyed plainly: **Yan does not want Daniel's team changed** (the freeze).
+- His T1/T2 model matches the sanctioned frame: T1 = no changes → T2 = post-alignment "mini reorg (then stable)," **T1→T2 in 2–3 months** (≈ Oct–Nov settle).
+- His reads: *"Be excited by the mandate!"* · **"Team is currently too junior"** — his version of the no-senior-pod gap (Balaji fork / REQ-1 territory; observe, don't feed prematurely).
+- On Daniel: "Still to find out!" — will reach out to say hi; framing = *"how can Daniel and I both ramp up, and how can we ramp up in his area."*
+
+**His IC reads (week 1.5):** **Chuxi** — IC14 "right before Senior, making her way to senior"; adding value by asking questions · **Yidi** — nervous, very new, out of college · **Lionel** — onboarding good (structured onboarding doc; Yidi = onboarding buddy; 4-way DM; "check in the DM and have faith") · **Alok** — *"baggage with past. Will warm up"*; PHP being taken care of. His own first impression: **"James trusts me with transparency."**
+⚠️ Standing hold: James knows (8/4 pod pulse) Alok does NOT want the separate team meeting/channel Alim floated — Alim doesn't know; don't relay.
+
+**Anna interface read (1:1-only, don't circulate):** great with vibes / second-order / ecosystem effects; operationalizing less so — "can we ground it." Armando has a lot on his plate — "make him grounded."
+
+**SF/PA trip (~Aug 25–27):** lunches/dinners + pod kickoffs; the three reports dinner in PA; SF list = Anna, Dhruvil, Zisis, Matt Chun, Piyush; PA list = YiChin, Roberto, Dylan, Sai Xiao. Confirm dates w/ Anna (27th?); he posts in #homefeed-eng once set; pings James when ready.
+
+**Instrument-panel read (wk 1.5): strongly healthy column.** Airtime overwhelmingly tactical/delivery (pUIC strategy, exploration mechanics, IC ramp plans); career plans for reports; in-person investment on his own dime of effort. Org-shape notes present ("too junior," T2 timing) but delivery-anchored and inside the sanctioned frames. The wrestling-for-technical-ownership is the scope-coupling design *working* — ambition pointed at the scoreboard, not the org chart.
+
+**OPEN (verify with James):** did the formal **RR/UEB lean-in ask + repair line + 8/26 time-box** land as designed? Notes show deep RR-space technical alignment and "Alim can run with this," but not the explicit ownership ask — and the 8/10 4-way pen-transfer + Anna private line both sequence off it.
+
+## 2026-08-04 — Pod pulse: 4/4 positive first reads (Slack DMs, filed from screenshots 8/5 AM)
+
+James pinged all four pod members individually; every read came back positive. Alim's intro 1:1s ran ~8/3.
+
+- **Chuxi:** "interesting points around model based pUIC and LLM based pUIC strategies"; wants a deeper session on how his LLM-based interest prediction worked "from his previous learning." He cited **Etsy using search CG for LLM-based pUIC** — her reaction: "kind of aligned w/ what I thought initially." (Etsy-transplant watch-for: this instance arrived with engagement and Chuxi validating the mapping — healthy so far.)
+- **Yidi:** was "a bit nervous about transitioning to a new manager" → "friendly and approachable" after the first 1:1. No project specifics yet (he's ramping); she sent pUIC background docs and offered to be his go-to for context.
+- **Alok:** one meeting — "seemed to want to help me and went deep into the issues i was facing… asking right questions." Alim floated a **separate team meeting + channel** for Alok's crew; Alok didn't answer live **but doesn't want it** ("our team is small enough right now that there's no need"). ⚠️ James holds this preference before Alim does — don't relay the DM; if Alim raises the idea with James, steer him to collect preferences async rather than surfacing Alok's answer for him.
+- **Lionel:** first intro chat "he was great… seems like an experienced manager with a good mix of technical skills and good communication."
+
+**Instrument-panel read (week 1):** all engagement inward and delivery-facing (pUIC strategy depth, Alok's issues, ramp docs) — the healthy column; zero distraction signals. The separate-meeting/channel float is pod-level structure generation, benign at this altitude — log only if it compounds toward org-chart airtime.
+
 ## 2026-08-01 — Early-1:1 intel batch (James's recall, first working sessions)
 - **Opens with service questions, verbatim:** *"What do you need the most help with at the moment?"* · *"What can I do to help you?"* — his delegation thesis pointed upward; he builds trust through concrete help.
 - **Prior anticipation experience:** *"I've done anticipation before at Etsy… here's what we did…"* — offers playbooks proactively; connects his Etsy growth-ML work directly to the charter.

@@ -108,3 +108,6 @@
 | 2026-08-03 21:20 | gmail | [Leo] Announcement week timeline — week of Aug 3, 2026 | work/people/reorg_july2026/announcement_week_timeline_2026-08.md | to=jamesyili@gmail.com id=19fcb0009a2556b2 |
 | 2026-08-04 09:02 | gmail | [Leo] Announcement week timeline — week of Aug 3, 2026 | work/people/reorg_july2026/announcement_week_timeline_2026-08.md | to=jamesyili@gmail.com id=19fcd83196eb53d7 |
 | 2026-08-04 15:34 | gmail | [Leo] J.J. Hu — H1 2026 Performance Feedback (DRAFT v2, Leo, 2026-08-04 — promotion of | work/people/downward_reviews/h12026/jj_h1_2026_feedback_draft.md | to=jamesyili@gmail.com id=19fcee995f00151e |
+| 2026-08-05 19:56 | gmail | [Leo] Curation ML team meeting — talking points & framing (Thu 8/6) | work/people/reorg_july2026/curation_ml_team_meeting_talking_points_2026-08-06.md | to=jamesyili@gmail.com id=19fd4ffda6802555 |
+| 2026-08-05 21:59 | gmail | [Leo] Curation ML team meeting — talking points & framing (Thu 8/6) | work/people/reorg_july2026/curation_ml_team_meeting_talking_points_2026-08-06.md | to=jamesyili@gmail.com id=19fd570feaacbf1a |
+| 2026-08-05 22:24 | gmail | [Leo] Curation ML team meeting — talking points & framing (Thu 8/6) | work/people/reorg_july2026/curation_ml_team_meeting_talking_points_2026-08-06.md | to=jamesyili@gmail.com id=19fd587c4344bded |

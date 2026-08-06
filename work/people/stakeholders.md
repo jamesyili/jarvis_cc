@@ -326,6 +326,28 @@ Dylan explicitly named **motivating people** as something she wants James to gro
   
 # 3) Dhruvil — Peer Sr Engineering Manager (Homefeed Ranking)
 
+## 2026-08-05 — Announcement-evening DM: the Kim dossier + strategic reads (screenshots filed same evening)
+
+Announcement out 9am; Dhruvil spent the afternoon talking his own moving reports through it ("range of reactions: this is great / scary before we talked but now great / still not great"). Warm, generous, full alliance-mode — +1'd James's ICs-first instinct, volunteered between-us intel unprompted.
+
+**The Kim dossier (⚠️ 1:1-ONLY — never cite Dhruvil onward; he's her long-time mentor):**
+- His instant reaction to "Daniel told me she seems worried": *"Whaaat. This is great for her haha."*
+- **"Between us, Kim didn't like working with Yan."**
+- She complained to him a lot that **curation is "too 0 or 1"**; felt the Curation EMs *"were getting dragged into too many risky efforts by Curation PM with not much product vision."*
+- The worry he'd bet on: *"yet another change, what happens to my career planning etc"* — **their EM and PM leads left "not on great terms not so long ago… the fatigue might be there."**
+- **"I'd be surprised if her preferred work is on curation stack based on all she told me, keeping aside the fear of change."**
+- His advice: *"I think you talking to her will help 100%. Right now they might need your assurance more than Daniel's is my guess."* The driving uncertainty: *"what their projects / charter / focus will be and reporting will be."*
+
+**His strategic reads:** *"TBH Daniel's team should be thrilled"* (no disrespect to Yan or Curation-as-stack) · **culture may need to shift "more IC driven rather than EM/PM driven — the former is exactly how CG team works today, so it would be a good way to assimilate the cultures too"** · **"Getting Daniel fully on board may be the key."**
+
+**James on record to Dhruvil (promise-watch):** *"really thinking big plans for her to drive an important area for the team"* · Kim on CLR = fast ramp, deep + independent, organized, articulate · *"both deep IC or TL paths may be viable for her"* · *"ICs' opinions are very important — probably even more important than EM tbh"* (Dhruvil +1'd). Dhruvil is her mentor — assume warmth relays; don't arrive at the skip-level pitching a pre-picked area before asking what she wants.
+
+**Embedded datapoint:** Daniel told James 8/5 (channel not yet filed) that Kim "seems worried" — the prompt for James's question.
+
+**Synthesis:** Daniel's "worried" and Dhruvil's "great for her" are both true — fear-of-change on top of a latent preference match. Worry axis = career planning under repeat change; preference likely = retrieval-side work (she's solo on UPP now and complained about curation). Skip-level job: surface HER preference directly, reassure the career axis, seed — not pitch — the important-area line. Her stated preference then feeds the allocation resolution (Yan wants-her-continuing × Dylan wind-down ask): **her voice first, then settle.**
+
+**Relationship note:** the alliance at full function — mentor-grade shading on a shared person, zero territorialism about the loan. The wind-down conversation now has a warm path — **and a pre-agreed one: Dhruvil has promised to release Kim from the loan if it helps her career (James, 8/5).** The wind-down (Dylan's ask) is thus unblocked in principle, conditional on the move actually serving her — which routes back through her stated preference (skip-level first).
+
 ## 2026-06-05 — Promo trajectory read + sequencing implication
 
 UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team presenting ranking + foundations slides. That public-altitude visibility staging is *exactly* the shape of a promo packet being built. Honest weighted read (limited intel):
@@ -1279,6 +1301,18 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 # 16) Yan Li — Sr. Manager, P13N-Experiences (Peer under Dylan)
 
 **Level:** **L17 Sr. Manager** — peer-EM altitude with James + Dhruvil. Verified via Slack 2026-05-23.
+
+## 2026-08-05: Wed touch-base #2 (announcement day; James's transcript, some garble) — leaning in, new standing structures, the Thursday frame
+
+- **Posture: leaning in, not checking out.** "Overall it's good for Daniel's team — stay closer with real ML experts, work on deeper projects." On himself: Dylan "trying to do what's best for the organization"; "room to grow as a lead on the experiences side"; "not necessarily a setback in one dimension — could be an opportunity in another"; **"I want to lean in here."** Bittersweet losing a long-time team, said plainly, no bitterness. → Near-term exit-risk read softens; the capture-his-context-before-it-evaporates discipline stays (cheap insurance).
+- **He handed James the Thursday message frame:** every team adjusts a 6-month roadmap — but adjustments here run **"based on project priority and purpose, not the report chain"** (his words: that message makes the team 安心 + freer). And: "still figuring things out" is fine **only with a concrete clock** — tell them "next 3–4 weeks → a clear answer" on where H2 roadmap adjusts.
+- **New standing structures agreed live:** (1) **weekly James↔Yan 1:1, at least Q3** · (2) **three-way James+Yan+Daniel sync weekly-or-biweekly** (Yan's proposal; James's stated posture: "mostly there to learn… I honestly do not see myself making any decisions") · (3) **H2-roadmap deep-dive sit-down** (James+Yan+Daniel+related parties) **~end of wk of 8/10** — the engine behind the 3–4-week answer · (4) **James added to both IB meetings**: Tue 30-min IB leads sync (working-group register; Yan sometimes wants James's read on area-dependent things) + weekly 30–45-min **Andrew check-in** (Andrew = ultimate TL, "operation mode like Cupcake before"). James's deference explicit — asked Yan how to participate so his presence doesn't undercut Yan's leadership.
+- **Q3 operating agreement (de facto):** Daniel's team continues UGC Board Recs + IB + UEB support; James: "I wasn't involved before — whatever is working, we should continue." Division: **James takes the people line first** (career, "do my agreements with Yan persist?" questions), **project/process stays Daniel→Yan for now**. Yan's structural ask: he used to arbitrate cross-team priorities solo; that's no longer appropriate — **wants James inside those decision processes** ("you also get a responsibility"). James committed support.
+- **Yan on Daniel:** wants to confirm **Daniel is genuinely OK with the continued-support arrangement** — "we can even ask him how he feels"; floated a transition phase. Yan↔Daniel 1:1 Friday; Yan meets **Daniel + Alim together next week** — wants the two of them to clarify **what they each want to own**.
+- **Garbled passage RESOLVED 8/5 PM:** the person with retrieval background "who knows people here and is already reconnecting" = **Daniel** (ex-TL on Homefeed CG — James confirmed while building the 8/6 meeting frame). The Monday first-meeting visitor to Yan was likely Alim (new manager, intro); the two referents were blended in transcription.
+- **IB sprint outcome answer:** post-10-week sprint → **mostly dogfood, not A/B**; LLM serving constraints to solve; long iteration loop ahead.
+- **His Thursday-meeting suggestion (parting note):** some team members have had **2 reorgs in 1 year** → they want certainty + stability; and **"if you want to propose that there's scope for senior team members, that's actually a good thing"** — dovetails with the Balaji/Kim skip-level design.
+- **Must-wins NOT visible in the transcript** (may be partial — confirm with James before treating as missed): Daniel's H1 input mechanism+date (the hard clock) · Kim Toy allocation (needed before Thu Q&A) · +300K WAU holdout pointer · POC pair · inherited people-commitments list. Recovery = the designed async fallback: same-day draft-and-correct DM.
 
 ## 2026-08-03: First post-reorg 1:1 (12:30, moved up from Wed at his ask) — continuity frame, James's commitments, new names
 
