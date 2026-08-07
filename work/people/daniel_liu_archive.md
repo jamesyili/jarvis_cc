@@ -8,6 +8,10 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-06 — Curation ML team meeting: his first front-and-center moment under James
+
+Ran the content with James + Dylan as air cover, per the locked shape. **Deliberately projected confidence and optimism**; the room landed visibly happy and impressed (James, same-day). James's first calibrated public-stage read: **"a bit junior, but I am glad he is trying"** — effort visible, polish not yet. File under the develop-or-document evaluation: executive presence in front of his own team = a watchable axis for the ~60-day read. Register note for Friday's 1:1: the meeting was a success and he owns it — genuine credit first; no coaching on delivery this close to the win.
+
 ## 2026-08-04 — Team-mood DM (afternoon; filed from screenshots 8/5 AM)
 
 James asked what he's hearing from the team ("I'd imagine this is a surprise to many of them"). Daniel: team briefly met at the intern's final presentation + some 1:1s — **"generally people are surprised by this change and worried about how they might work with your team and the future plan. I assured them on the stability of the team and our goals and priorities won't change in the near term, and will get my full support if they are concerned."** James thanked him for delivering the reassurance and asked **permission to reach out to a few folks + "who would you suggest I talk to first?"** Read: the worry axis is *interface with James's team + the future plan*, not manager identity — consistent with his 8/3 re-trauma/ambiguity read, and it names the content Thursday's team meeting must carry.

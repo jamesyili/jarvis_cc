@@ -183,6 +183,8 @@
 
 ## Thu 8/6 · Curation ML team meeting (Wave 1)
 
+> **✅ HELD 8/6 — went really well (James, same-day): room visibly happy and impressed.** Daniel ran content front-and-center, projecting confidence + optimism (James's read → archive 8/6 entry: "a bit junior, but glad he's trying"). **Kim engaged live: two good questions (one on specifics; other not retained), read as satisfied by the answers** — her row updated; skip-level stays her-voice-first. **James + Dylan traded subtle public praise** (her org makes room for hard things ↔ his very-high EVS / great manager) → Dylan archive 8/6 entry. Deep dig deferred to skip 1:1s from 8/10.
+
 **When:** Thu Aug 6 (on Dylan's schedule).
 **Audience:** Daniel's team + Daniel + James + Dylan. Daniel front-and-center running content (locked Tuesday); James + Dylan = air cover.
 **Full script + Q&A bank:** ⚠️ **RECOMPILED 8/5 PM → `curation_ml_team_meeting_talking_points_2026-08-06.md` is now the doc of record for this meeting** (James's continuity spine: mission · strengths · people, + all 8/4–8/5 intel folded in; emailed to James 8/5). The blocks below remain as background; `team_meeting_talking_points_2026-07-22.md` Meeting 1 = historical.
@@ -229,6 +231,8 @@ The two named worry axes get addressed unprompted, not held for Q&A. Land these:
 ---
 
 ## Thu 8/6 · Own-team meeting (Wave 1, standing CG slot)
+
+> **✅ HELD 8/6 — went well (James, same-day).** The room's questions were integration mechanics, both bottom-up versions of settle questions: **(1) "how will the new team be integrated — do they join our scope or we join theirs?"** = the organizing-axis question arriving from below (answer lives in the T2 settle process; the couple-of-months framing held). **(2) "when do the new team members get on the oncall rotation?"** = bottom-up demand for oncall merging — James's existing to-do item now has team pull behind it; natural early agenda item for the P13N Retrieval Staff sync kicking off wk of 8/10.
 
 **When:** Thu Aug 6, standing CG team meeting (James books/extends — NOT on Dylan's schedule).
 **Audience:** James's full existing team (pod 4 + Alim + all staying reports).

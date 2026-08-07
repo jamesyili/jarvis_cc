@@ -111,3 +111,4 @@
 | 2026-08-05 19:56 | gmail | [Leo] Curation ML team meeting — talking points & framing (Thu 8/6) | work/people/reorg_july2026/curation_ml_team_meeting_talking_points_2026-08-06.md | to=jamesyili@gmail.com id=19fd4ffda6802555 |
 | 2026-08-05 21:59 | gmail | [Leo] Curation ML team meeting — talking points & framing (Thu 8/6) | work/people/reorg_july2026/curation_ml_team_meeting_talking_points_2026-08-06.md | to=jamesyili@gmail.com id=19fd570feaacbf1a |
 | 2026-08-05 22:24 | gmail | [Leo] Curation ML team meeting — talking points & framing (Thu 8/6) | work/people/reorg_july2026/curation_ml_team_meeting_talking_points_2026-08-06.md | to=jamesyili@gmail.com id=19fd587c4344bded |
+| 2026-08-06 21:24 | gmail | [Leo] Questions for Range — 2026 tax plan (2026-08-06) | /tmp/claude-1000/-home-james-src-pf/5380c96b-83a8-4636-bd22-a7a6b207dbf4/scratchpad/range_tax_plan_questions_2026-08-06.md | to=jamesyili@gmail.com id=19fda772480f1a92 |

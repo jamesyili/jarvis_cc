@@ -11,6 +11,10 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-06 — Curation ML team meeting: public mutual endorsement
+
+In the room together for the Wave-1 meeting; James same-day: "Dylan and I were in great sync." The two traded subtle public praise — James credited her for running an org that makes room to work on hard things; she praised **James's very high EVS score and called him a great manager, in front of the inherited team**. Read: deliberate public air cover for the re-parent ("you're landing with a great manager"), delivered as praise rather than argument. Datapoints: (1) she reinforces her own reorg decisions with public evidence when the moment serves; (2) **EVS is a currency she cites** — James's people-manager metrics are visible to her and count.
+
 ## 2026-08-04 — Announcement-eve: Yan's org-note review loop (joint thread + DM)
 
 Yan drafted a farewell/stability note to P13N-Ex (his own third email in the sequence, after Dylan's 9am + James's follow-up). Dylan's handling, in the joint Daniel+James+Yan thread — a register datapoint worth keeping:
