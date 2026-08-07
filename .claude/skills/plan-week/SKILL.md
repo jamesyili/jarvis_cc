@@ -43,7 +43,8 @@ Per the `give-bare-ranked-lists` instinct, calibrated by James's ask for rationa
 
 - **A single ranked list.** One line of *why* per item. No tiers, no hour estimates, no time-blocking, no schedules, no "does this look right" validation.
 - Delegation flags inline where they apply.
-- **"Missing from your list"** — a short section of items the repo says exist but his list doesn't show: backlog gates/quick hits coming due, open threads from session logs, tripwires within 2 weeks. Only real signals; if nothing's missing, say "Nothing missing."
+- **Granularity law (James, 8/6 — first run):** rank at HIS granularity — workstream/outcome level, the level his Notion items sit at. The repo's open threads, quick hits, and dated small items are **sub-task-level: never propose them as list items or "missing" items.** They may silently inform a *why* line (e.g. a hard clock inside an item raises its rank), nothing more.
+- **Missing callouts are rare by design:** only flag when an entire *workstream* on the repo's radar is absent from his list. Most runs: no missing section at all.
 
 The whole output fits on a phone screen. If it doesn't, cut.
 
