@@ -3,9 +3,9 @@ id: avoid-ai-prose-tells
 trigger: When drafting prose for James in his own voice — personal docs (North Star, mission/identity) AND workplace deliverables (peer feedback, reviews, Workday forms, emails)
 behavior: Avoid AI-writing tells — em-dash overuse, aphoristic rule-of-three parallelism, vague grandiosity, epigram verdict sentences ("X is not a project; it is a platform"), polished-but-empty cadence. Prefer plain punctuation, concrete domain-specific nouns, and evidence the reader can check; hand him substance to wordsmith rather than finished AI-cadence.
 confidence: 0.85
-evidence_count: 6
+evidence_count: 7
 created: 2026-06-11
-last_updated: 2026-07-17
+last_updated: 2026-08-07
 status: active
 ---
 
@@ -43,6 +43,12 @@ Lesson: epigrammatic verdict sentences are a prose tell in workplace deliverable
 Context: Six H1 cycle peer-feedback drafts (Dimitra, Sai, Karim, Yan, Olafur, Rahul G.) shipped with heavy em-dash density, negative parallelisms, and aphoristic verdict sentences despite this instinct at 0.7 and the 7/9 lesson explicitly covering Workday feedback. Repeat of the exact 7/9 failure mode. Drafts written later the same session (Krystal, Karli, YJ, Bowen, Van) applied the discipline from the first draft and drew no prose corrections.
 Signal: correction (repeat — second occurrence on the same deliverable class)
 Lesson: this instinct must fire at DRAFT time for anything entering Workday, not as a cleanup pass. If a peer-feedback/promo draft is written, run the humanizer patterns before showing it.
+
+### 2026-08-07 (EM primer workstream sections)
+> "Honestly I read through your descriptions of each of the work streams. **It's too AI-sounding. Make it human, okay, make it my voice. Also it's not descriptive enough.**"
+Context: The nine workstream entries in `p13n_retrieval_em_primer.md` (Leo-drafted 8/2) each ran a fixed label scaffold — `**TL:** … **Role:** …` / `**State:** …` / `**My read on the risk:** …` — with two-to-four polished sentences apiece. James read it for the first time on 8/7, before sending it to Daniel + Alim.
+Signal: correction
+Lesson: **two distinct tells, and the second is new.** (1) A repeated label scaffold across parallel sections is itself an AI tell — uniform shape reads machine-stamped no matter how clean the sentences. Fix: open each section with plain first-person prose that varies in length and rhythm; put the structured fields *after* the prose, as a compact list, not as the whole entry. (2) **Thin-but-polished is a tell of its own** — "not descriptive enough" arrived in the same breath as "too AI-sounding," so the cure for AI-cadence is MORE checkable specificity (names, numbers, history, politics, honest "I don't know yet"), never smoother prose. When he later enumerated the dimensions he wanted (staffing / current read / risk / launch history / strategic weight / systems-vs-modeling / politics / AI leverage / leadership runway), the depth ask was the real ask; voice was the symptom. Corollary: **unsent Leo-drafted docs age badly — re-read them in his voice before they ship**, not when he opens them.
 
 ## Absorbed from auto-memory (2026-06-26)
 

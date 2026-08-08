@@ -262,6 +262,8 @@ The two named worry axes get addressed unprompted, not held for Q&A. Land these:
 
 ## Fri 8/7 — Daniel 1:1 (added 8/3 per James — replaces the Tue 45-min, which Daniel front-ran with his own 8/3 4pm chat) + buffer sweeps
 
+> **✅ 8/7 ACTUALS (debrief in progress):** the day ran far bigger than planned — Daniel 1:1 HELD (debrief pending) **plus all three queue-lead skip-levels HELD EARLY (Balaji, Ling, Kim — planned for wk 8/10)**, plus Alim 1:1, David (career coach), and the P2P UPP launch decision. Skip-level records: `daniel_liu_team_2026-07.md` 8/7 update · Kim dossier validation: `stakeholders.md` §3 · Daniel calibration: `daniel_liu_archive.md` 8/7. New standing cadences claimed: **weekly 45-min Kim 1:1 (2-week working clock, her vacation end-Aug)** · **biweekly Balaji 1:1** (+ "buffet" area-menu owed him in ~2 weeks; Balaji↔Alim lunch ~8/25–27; Balaji OOO September). Remaining skips still to schedule: Yongwoo, Felix, Roderick, Yang (+ Esteban check-in).
+
 **Audience:** James + Daniel — first working 1:1 after the full announcement cycle (8/3 chat → 8/4 comm-plan 4-way → 8/5 emails → 8/6 team Q&A). Person context: `daniel_liu_archive.md`. **Format rule stands: no live question battery — pre-send this agenda Thursday evening with "add or cut anything," and include the three reflective questions that were never pre-sent** (the 8/3 booking note never went out): charter shape for the next year · clear win vs. bad outcome · where he wants to grow.
 
 **Goals:**

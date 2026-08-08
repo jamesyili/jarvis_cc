@@ -326,7 +326,18 @@ Dylan explicitly named **motivating people** as something she wants James to gro
   
 # 3) Dhruvil — Peer Sr Engineering Manager (Homefeed Ranking)
 
-## 2026-08-05 — Announcement-evening DM: the Kim dossier + strategic reads (screenshots filed same evening)
+## 2026-08-07 — Kim skip-level HELD (early): the dossier validated live, point by point
+
+The her-voice-first design ran 8/7 and the 8/5 dossier held up almost line for line (full record: `reorg_july2026/daniel_liu_team_2026-07.md` 8/7 update). Never cite Dhruvil — this entry tracks dossier-vs-reality only:
+
+- **Change fatigue / flawed-setup history: confirmed.** Her own words: "a lot of things in curation were very flawed" — anchored to a live **promo wound** (denied last year for "not enough ML work" while she was the only MLE and de-facto PM; "a fair reason… not really though. The setup was flawed").
+- **Preferred-work-likely-not-curation: directionally confirmed.** She self-identifies as a **systems engineer**, chose the deep-modeling bucket to fight imposter syndrome head-on, and is now questioning whether that's what brings her joy. Blend proposal (model depth in service of product/user, exploration-shaped) appealed.
+- **"Your assurance more than Daniel's": stronger than predicted.** Unprompted: James getting to her core in one 1:1 *"says a lot about Daniel as a manager. Maybe it's just that we are not clicking."* Manager-fit friction on record (n=1, ambiguous phrasing — don't over-read).
+- **The vacuum:** solo across teams not her own, no feedback loop, can't map owners/reviewers/approvers; Devin's vacation landed mid-ramp.
+- **Wind-down path now concrete and Kim-endorsed:** her own clean cut = ship the unified data pipeline; notifs side has a fallback. She wants to wrap cleanly, "not leave anyone hanging." Dhruvil's release promise + her cut-point = the loan wind-down is now fully sequenced in principle.
+- **Cadence claimed: weekly 45-min James↔Kim 1:1s from next week**, working clock = "get somewhere in the next two weeks" (her ~2-week vacation starts end of August).
+
+**Promise-watch note:** James's "big plans for her to drive an important area" line to Dhruvil is now backed by a real cadence — deliver the area conversation inside the two-week window or the promise starts aging.
 
 Announcement out 9am; Dhruvil spent the afternoon talking his own moving reports through it ("range of reactions: this is great / scary before we talked but now great / still not great"). Warm, generous, full alliance-mode — +1'd James's ICs-first instinct, volunteered between-us intel unprompted.
 

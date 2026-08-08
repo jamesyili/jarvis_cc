@@ -971,3 +971,23 @@ Strategic posture (Leo, ratify or adjust):
 - **Search is adopting V0** — and flagging that **GPU serving may be hard to get**: a delivery risk sitting on another org's capacity. (The "how much more for Search" pull is now an adoption in motion with an infra constraint attached.)
 - **UPP stays with James directly at T2** — heavy managing up and across, high risk, clear leadership ask. Not a settle-point transfer candidate.
 - Restated from the planner: V0 beating P2P production (OneTrans) on engagement + SSv2 (UCAN) while regressing some semantic relevance; launch push is the live thread (see 8/1 entries above for the exemplar-launch posture).
+
+## 2026-08-07 — Launch decision meeting: NOT launched — gated on a concrete relevance criterion (the exemplar process taking shape)
+
+Outcome: **no launch yet.** The relevance regression is now bounded by a **pre-agreed numeric launch gate — b2.5pre@4 (organic) must recover to above −0.3%; currently −2.17% (borderline stat-sig).** This is the 8/1 posture materializing: measured trade-off, explicit action threshold, remediation attached — not a slam-dunk push and not a quiet ship.
+
+**Room read:** **Kurchi and team supportive of the progress and warm on UPP Retrieval for SSJ in general** — notable given the SSJ "Intentful UPP" committee tension; the relevance-side stakeholders are engaging as partners, not blockers.
+
+**Blockers + P0 remediation plan (P2P team's own prioritization):**
+1. **[P0] Bundle the post-ranking utility relevance change with the UPP retrieval experiment** — PoCs: Yifan Li, Fan Jiang, Jiaxing Qu. **Timeline: 1–2 weeks, starting wk of 8/10.**
+2. **[P0] Same bundle + per-CG-level push-down of irrelevant pins from top-ranked slots.**
+3. **P10 WAU drop = second blocker** (launch needs it resolved or a clear mitigation strategy). Believed related to the relevance drop + **sampling**.
+4. **[P0] Sampling theory test:** Suki Li has training data under a different sampling scheme — parallel experiments start to validate.
+
+**Retired concern:** training time — V1's landed improvements make it "pretty neutral."
+
+**Piyush + Zihao (glad for the clarity) asked for two things — both now James-owed confirmations with Sai Xiao NEXT WEEK (wk 8/10):**
+1. **Freeze the baseline** — no chasing a moving target. (Jiaxing: no other modeling improvements on LR besides UPP — confirm with Sai Xiao.)
+2. **P2P eng resourcing clarity** — ask = **2 people if Jiaxing stays at 50%, or Jiaxing at 100%** on this effort.
+
+**Leo's reads (for the debrief):** (a) −2.17% → −0.3% is a wide gap, and P0s #1–2 mitigate at the *ranking* layer while the regression originates in *retrieval* — Suki's sampling experiment is the actual root-cause probe; watch whether the bundle alone can clear the gate. (b) Who set/owns the −0.3% criterion matters for the record — the 8/1 posture wants trade-off acceptance at the deciding altitude (Dylan/Matt/VP process), so the gate should be filed as *theirs*, with James's org executing. Pin this. (c) The 1–2-week clock puts a possible launch re-decision right inside delivery week — sequencing awareness for `/plan-week`.

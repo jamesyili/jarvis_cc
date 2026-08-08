@@ -24,6 +24,8 @@
 
 ## The five principles (James's tone: accountability over metrics · people first · long-term over quick hacks)
 
+> **8/7 update:** these five are now ABSORBED into §1 of the primer (`p13n_retrieval_em_primer.md` — "How we'll operate," 9 rules: First Team · cut-once · scoreboard/flag/plumbing · start-from-strength · no-ceilings · decision rights · nothing-leaves-as-maybe · AI-first · selective-funding; single artifact per James 8/7, sent as the Sunday pre-read). The primer is the room-facing form; this section remains the design rationale + costs. Session #1 = Mon 8/10, 60-min weeklies, ramp-up arc: ~2 wks James-scope walkthroughs → ~1 wk Daniel-scope (Daniel drives) → steady state; Alim drives the onboarding artifact (settled/open tags accumulate per walkthrough); James keeps a protected last-10-min "top of mind" offers slot.
+
 Each principle = design translation + a visible cost (a principle that costs nothing settles nothing).
 
 1. **Accountability over metrics** — *every workstream has one named owner who answers for outcomes; metrics are evidence, not the boss.* One accountable EM + TL per workstream (POC table as principle); no diffuse co-ownership; experiment-ledger QC = inspectable accountability without meetings. Bite: owners explain failures — no hiding behind green dashboards, AND no excusing misses with narrative (must not be heard as "metrics optional" given Jeff's SSv2/cost mandates).

@@ -113,3 +113,36 @@ Warm and engaged: **"I love the clarity here. We can discuss further how my team
 - **Three-way-with-Alim dynamics** — peer table with a brand-new M16; watch for flinch or quiet competition.
 - Carried from the 7/14 prep (unlikely given July warmth, but two+ → flag to Dylan): early steer to level/comp · strong Yan attachment · external-optionality fishing · flat affect on charter.
 - **The promise ledger:** he took a broken-promise-shaped path once already (Yan reorg churn). Everything offered him should be either delivered or explicitly conditional — the backbone thread's requirements-first condition is his own hedge; respect it.
+
+## 2026-08-07 — Skip-level calibration: two inside reads of Daniel, opposite directions
+
+First direct-report reads on Daniel-as-manager, from the 8/7 skip-levels (records: `reorg_july2026/daniel_liu_team_2026-07.md`):
+
+- **Ling (MLE II, first job): emphatic superfan.** "Very lucky to have him… more like a friend"; mentor-grade; "all his suggestions always turn out to be the correct one." Concrete AI-first evidence: he initiated the Pin tools now used team-wide; prototypes AI fixes in others' projects and hands them over rather than finishing the work — inspire-then-delegate. Strongest inside-view counter yet to the underutilized-because-of-Daniel hypothesis.
+- **Kim (Sr MLE, long-tenure): possible not-clicking.** James reaching her core in one 1:1 "says a lot about Daniel as a manager. Maybe it's just that we are not clicking." Ambiguous phrasing, n=1 — file as manager-fit friction, not indictment. Confound: her context (loaned out, change-fatigued, promo wound predating Daniel) makes ANY manager's job hard right now.
+
+**Develop-or-document ledger:** net positive-leaning — the Ling datapoint is specific and behavioral (AI-leverage leadership pattern matches what Dylan wants org-wide); the Kim datapoint is one seniority band up and confounded. Keep collecting per-person reads through the remaining skips (Yongwoo, Felix, Roderick, Yang) before any narrative.
+
+## 2026-08-07 — The motivation puzzle, worked with David (career coach): technique change
+
+James to David: 4–5 conversations over six months, every one ending *"I'm okay with anything."* His hypothesis set: (a) trust not there yet, (b) genuinely unsure himself what he wants — and two explicitly *ruled-down*: not promo-driven (contrast Alim, visibly gunning; Dylan said the mix is fine) and not rest-and-vest ("I don't get that sense as much"). Around him, everyone says deep technology.
+
+**David's prescription — swap the open question for a concrete conditional offer:** *"I understand you really like deep technology and want to go deep. We have those projects and that function here. I can skew your managing to that avenue — is that what you really want? Because I can help give it to you."* This converges exactly with the existing behavioral read (§4: draft-and-correct beats blank-page asks; reflect his words back) — now applied at the motivation/charter altitude, and with real inventory behind it (LLM-backbone thread, LWS distillation, LLM-boards). Use at the next 1:1 opportunity instead of another "what excites you."
+
+**Optional tool from David:** careerplanner.com transferable-skills assessment, taken two ways (good-at-now / want-to-get-better-at), ~$12. James unsure Daniel's head is there for it — hold as a later-stage option, not a first move.
+
+**David's coaching frame for both managers:** invite them to define their own purpose rather than assigning it — "the best version is Daniel and Alim become senior-manager caliber." For Daniel that means the offer above opens a door he walks through himself.
+
+## 2026-08-07 — First working 1:1: THE PUZZLE CRACKS — first named preferences on record
+
+**Daniel named what he wants — and it took the technique to get there.** James ran David's concrete-conditional-offer move **in this 1:1, same day it was prescribed, and it produced the first stated preferences in six months**: Generative Retrieval and LLM recommendations. James's refined read: **the center of gravity is LLM × Recommendations more than RecGPT/GenRet specifically.** Technique validated — retire the open-question approach with Daniel permanently; offers-with-inventory is the channel that works. Both named areas validate the trajectory-play design (LLM-backbone thread, Dylan's "LLM excites him," the 7/29 "curious + interested").
+
+**Design implication (hold for the settle table, don't act now):** LLM × Recommendations as his center of gravity points squarely at the **Anna-endorsed LLM-backbone lead role** (7/24) — the requirements inventory with Anna is now the highest-leverage open thread on him. GenRet interest is secondary; note it as input to the open GenRet-home question (Bella seam) but don't over-weight it.
+
+**Other reads from the 1:1 (James, vibe-level):**
+- Still **reserved; waited to be assigned rather than volunteering** (direct contrast: Alim volunteered to drive cross-team technical onboarding the same week). James: "the seniority difference between them is showing a little."
+- Assets confirmed: very technical (Ling's read seconded), articulate, considerate, flexible, willing to help.
+- **He asked for the trio conversation (James + Alim + Daniel) "sooner rather than later"** — pulls in the same direction as the wk-8/10 P13N Retrieval Staff sync; he's leaning toward the table, not away.
+- **Glad about the one-hour weeklies** — the cadence is landing as support, not surveillance.
+
+**⚠️ Leo's flag on the comparative frame:** James's own words — "I can tell I like Alim more… I want to give Daniel a chance as well." The attributes drawing James to Alim (bias for action, managing up, rallying) are James's own attributes — affinity-bias risk in the develop-or-document ledger. Daniel's profile (reserved, deep, considerate, execute-when-directed) is a different senior archetype, not the absence of one. Keep the ledger scored on behavior against explicit asks, not on temperamental resemblance. James is already self-aware here ("give Daniel a chance") — the flag is to keep the two men graded on different rubrics deliberately, not accidentally.

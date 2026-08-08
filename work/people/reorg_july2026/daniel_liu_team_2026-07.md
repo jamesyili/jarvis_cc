@@ -14,7 +14,7 @@ This is the 5/15 latent signal landing: Andrew's IB-cut / redeploy-Yan's-ML-engi
 - **Next step:** James↔Daniel conversation **after** Dylan's downward announcement (sequencing deliberate — tough conversation to have before it's official).
 - ⚠️ **Name disambiguation:** the "Daniel Liu (contractor)" entry in stakeholders.md was a mis-recording — the contractor is a different Daniel, surname NOT Liu. This Daniel Liu is the EM, ex-Yan sub-EM.
 
-## Roster (8; intel as of 7/7 — 3 unknowns remain)
+## Roster (8; intel as of 7/7 — 3 unknowns remain; **see 2026-08-07 skip-level update below for current per-person reads on Balaji / Ling / Kim**)
 
 | Person | Level/role | What James knows |
 |---|---|---|
@@ -96,3 +96,61 @@ Person-level record now lives in **`work/people/daniel_liu_archive.md`** (create
 - **Bowen channel (James, 8/1):** Daniel is very close to **Bowen Deng** (previous EM under James) and told James he knows James is a good manager — trust pre-seeded via someone he trusts. Use silently; never as leverage.
 - **Behavioral read (James, from several project meetings):** doesn't like being put on the spot; doesn't voluntarily discuss his team's plans. Prep response: pre-send reflective questions, prune live asks, reflect his own words back rather than open-ended probing.
 - James's sense: **he likely already knows the reorg is happening.**
+
+## 2026-08-07 update — skip-levels held EARLY (Balaji, Ling, Kim — full transcripts captured)
+
+All three of Daniel's who-first names ran **Fri 8/7**, three days ahead of the planned 8/10 start. Intro register held ("nothing evaluative") but all three went substantive. Kim dossier-validation entry: `stakeholders.md` §3 (8/7). Daniel calibration datapoint: `daniel_liu_archive.md` (8/7).
+
+### Balaji Rengarajan (Staff MLE, TL) — the sharpest IB read anyone has given James
+
+**Personal/background:** San Jose (PA office), no kids, ~13 months at Pinterest. Before: a startup building agents to automate data workflows ("institutional memory for data" — catalog from scraped code/conversations), pivoted to data-engineering-as-a-service, timing/survival death. Before that **Stitch Fix** (Karim was briefly his manager there): built the home feed from scratch during the Shop era, then the styling team — personalized stylist tooling with **inventory-aware optimization** (point-wise optimal ≠ system optimal; don't blow attractive inventory on a small client subset). Self-identified background: **optimization + resource allocation.**
+
+**IB status (his read):** dogfooding on track — "we will deliver at least what we promised, roughly on time."
+
+**His strategic reads (first-principles, volunteered):**
+1. **Dogfooding doesn't de-risk the real hypothesis.** "Can an LLM assemble a good board" was never in doubt. Real risk = will users click / find it useful / does it move top-line — **needs an experiment**; dogfooding only polishes design/UX.
+2. **Volume/funnel risk:** Explore module gates IB volume; module interaction is historically low → skeptical of IB volume. **Auto Org analogy:** +20% auto-board creation, SSv2 moved, **no top-line** — tiny fraction of board creates + poor discoverability. "Any impact we can have is gated by how much volume we can get" — a product problem worth explicit thought.
+3. **Engineering risk (his "biggest"):** Amon's latest prompt = several hundred words of instructions; approach needs long-context LLMs that don't lose attention over hundreds of candidate pins. **Open-source models untried — but they are the answer to cost/efficient compute.**
+4. **⚠️ Success metrics NOT aligned with Product.** No explicit conversations — everything framed as "get the dogfood/quality right." His own working hypothesis: use-case adoption ↑ → WAU ↑; virtuous cycle Explore (license to fish) → IB (converts spark into deeper engagement); "not very different from the return-to-X hypothesis."
+5. **Exploration is the hard core:** what even is a topic? OmniSage-space distance = a proxy with unclear mapping to user-perceived topics; tracking shown/known/adjacent topics = open problem; **efficient exploration is existential because exploration trades off top-line "literal money."** Whole strategy keys on this. His posture: premise is good, worth investing, but **"needs patience from the org"** — not a one-off intervention.
+
+**James's moves + promises made (track these):**
+- **Balaji↔Alim connect agreed** — same first-principles exploration framing; Alim's Etsy experience (LLM-based pUIC + search-clip) directly relevant to Retentive + IB. **Lunch during Alim's PA trip ~8/25–27.**
+- **"Buffet" promise: in ~2 weeks James shares the area menu** — risk profiles, historical launches, technical depth per area — and Balaji picks what excites him. Explicit retention frame used: "if I give you something you're not excited about, you leave."
+- Floated shape: split time between zero-to-one (Retentive — James read him as genuinely excited by it, he confirmed "I always like thinking about systems") and incremental work + a **technical-helm/guidance role** across existing workstreams. Top-of-org shaping invite made ("this group of people at the very top shaping the work for everyone else — includes you").
+- **Biweekly 1:1 agreed.**
+- **Constraint: September mostly gone** — ~2 weeks vacation + ~2 weeks working from India.
+- He asked the team-fit-with-others question **again** (also asked at 8/6 team meeting) — charter clarity is a live need for him, not idle curiosity.
+
+**Read update vs. 7/7 row:** the "little observed initiative/proactivity around RR" read needs revision — inside his own scope he is proactive, strategically sharp, and hands James org-level gaps unprompted (metrics alignment). The RR passivity was likely the encroachment confound. Staff-anchor-under-Alim option now has a taste datapoint: systems/ecosystem thinking excites him.
+
+### Ling Lan (MLE II) — healthy growth case, Daniel superfan
+
+**Personal/background:** NYU undergrad → 10+ years in NY → Columbia PhD (applied math) → Pinterest intern during PhD → joined end-2024 after graduation; **first industry position.** Chose Pinterest for the middle size — "enough resources and support but not much politics."
+
+**Career:** deliberate **IC track** ("I like working with the projects and problems"). Levels = guidance, not obsession — "act like a senior, then become a senior"; discusses the senior gap with Daniel regularly; explicitly not pushing timeline. Her two self-named H2 growth directions: (1) **business-metrics thinking** — decide how the project goes, not just complete assignments; (2) **leadership/visibility/scope** — with the mature observation that "Daniel doesn't assign you scope — you work, think more, and expand the scope yourself." Sees AI compressing the technical gap; the residual senior gap = prioritization, design, collaboration.
+
+**James's IC16-archetypes menu landed hard** (tech lead / domain expert / fixer / product generalist; blend of technology-product/business-people) + strengths-as-what-energizes-you framing. **Homework she took: which IC16 does she want to be + what are her strengths** — "I kind of have some answers but I need to reflect more to get a certain answer back to you next time." James offered the soft-skills resource library (communication, managing up, finding a mentor).
+
+**Projects (her rundown):**
+1. **BoardRanker** (backs the board-picker API — repin-to-which-board recs). Untouched ~2 years; **she found and fixed "a very large error" in the data pipeline**; H2 plan exists. (Cross-link: **Kim built the original BoardRanker** — replaced heuristics, became the basis for the board-recs model.)
+2. **pUIC-LM** — with Chuxi, Zoudu, and **Ru Chen (just joined)**. Confirms the 7/7 "critical to LLM-based pUIC" read.
+3. **IB with Balaji** — sees LLM-prediction similarity with different product design.
+
+**Daniel read (unprompted, emphatic):** "very lucky to have him… not only supportive but more like a friend"; insightful, technically solid, "all his suggestions always turn out to be the correct one." Concrete AI-first evidence: **Daniel initiated the Pin tools now used by everyone; builds framework; prototypes fixes in other people's projects with AI and hands them over** ("he will not finish the work for you — he prototypes that it works, then gives you the opportunity to prioritize"). Strongest inside-view datapoint yet against the underutilized-because-of-Daniel read.
+
+**Q4 watch:** she volunteered "I personally guess there will be some priority change in Q4 maybe" — the freeze-through-Q3 message has landed as *Q3 only*; expectation of Q4 change is already priced in on the team.
+
+### Kim Toy (Sr MLE) — dossier validated live; the case is now James's to run
+
+Full dossier-validation entry in `stakeholders.md` §3 (2026-08-07). Team-record essentials:
+
+- **Vacuum confirmed:** "touching all these different teams that are not my team… I don't get much feedback, hard to gauge how people think things are going." Split UPP-infra + CLR ramp = draining context-switching; **can't map who to ask for help/reviews/approvals/sign-off**; Devin's vacation hit exactly during her search-stage ramp; Da Fang / Hanlin / Piyush role confusion ("the answer is nobody").
+- **Identity:** strong **systems engineer**; deep modeling = imposter syndrome. She chose the modeling bucket **deliberately to face the fear head-on** — and is now questioning whether that's what brings her joy. **Learns by doing** (not papers/presentations). James's counter-question ("kill the imposter syndrome, or feel good at what you do?") visibly landed.
+- **Wants to ship:** "I would love to ship something for everybody" — and to reach a **clean wrap-up point, not leave anyone hanging** (her stated index).
+- **UPP cut-point (her own):** clean cut = **ship the unified data pipeline**; notifs side is backfilling → train → online experiments (months of iteration worst-case); fallback = revert to notifs logic in the same folders. → The wind-down Dylan asked for has a concrete, Kim-endorsed exit ramp.
+- **Promo wound (live):** felt she deserved promo last year — de-facto PM + leading several engineers, PM non-existent; denied for "not enough ML work" while being the only MLE among ~4 backend + frontend. Her verdict: "a fair reason to deny… not really though. The setup was flawed." No stated timeline now — but the flawed-setup pattern is exactly what she's watching for again.
+- **Daniel signal (⚠️ handle with care):** James getting close to what she cares about in one 1:1 "says a lot about Daniel as a manager. Maybe it's just that we are not clicking." Counterpoint to Ling's rave — file as manager-fit friction, not a Daniel indictment (n=1, ambiguous phrasing).
+- **James's blend proposal resonated:** model-side depth in service of product/user (exploration-shaped) — she found both directions appealing.
+- **Cadence set: weekly 45-min 1:1s starting next week.** Her vacation = ~2 weeks starting end of August → **"let's get somewhere in the next two weeks"** is the working clock.
+- **Personal:** Mountain View (Wisman Park side); son Aiden turns 2 in September. History: full-stack → infra → shopping ingestion → ML (related-products recs back when shopping recs were one team) → curation; built BoardRanker.
