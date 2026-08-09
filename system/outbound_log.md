@@ -116,3 +116,4 @@
 | 2026-08-07 23:00 | gmail | [Leo] Work-Leo delta — 2026-08-07 (announcement week + EM sync launch) | work/people/reorg_july2026/work_leo_delta_2026-08-07.md | to=jamesyili@gmail.com id=19fdff51c9639cf4 |
 | 2026-08-08 13:43 | gmail | [Leo] P13N Retrieval — EM Primer | work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe31dd468eb56b |
 | 2026-08-08 17:59 | gmail | [Leo] P13N Retrieval — EM Primer | work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe407f27f91dc6 |
+| 2026-08-08 19:14 | gmail | [Leo] P13N Retrieval — EM Primer | work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe44cf0bb6a38a |
