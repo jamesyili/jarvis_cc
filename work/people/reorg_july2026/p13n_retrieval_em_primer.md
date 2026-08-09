@@ -59,7 +59,7 @@ Accountability for this group runs along five axes, and each of the three teams 
 
 1. **Topline metrics.** We exist to drive meaningful impact to Pinners, and to do it efficiently. Representative annual numbers, to be aligned: **~3.5% SSv2** (engagement), **~0.5% WAU** (retention), **~$2M cost savings**. Against the 2025 baseline in §3, engagement and retention step up meaningfully; the cost number normalizes after 2025's deprecation harvest.
 2. **Incubation of new initiatives.** The frontier bets aligned with organizational strategy — usually 0→1, usually the biggest eventual levers for topline growth, always in need of patience and right-sized investment. Every initiative gets a **named incubation owner and explicit graduation-or-sunset criteria**. The lineage — roughly one funded bet a year becoming a topline lever — is this org's actual signature: LWS (2023), CLR (2024), L1 Utility (2025), UPP Retrieval (2025), RecGPT (2025 — now one of the highest-performing CGs), Predicted User Interest Clusters / Retentive Recs (2026), Intelligent Boards (2026). §3 tells this story properly — including the sunset that proves the discipline is real.
-3. **Cross-org initiatives.** Prioritized company efforts we support because we're accountable for the surfaces we own — even when it stretches us. In H2 2026: NLFU Growth; Content Quality (Teen Safety, GenAI controls); See More / See Less. Named leads in §5.
+3. **Cross-org initiatives.** Prioritized company efforts we support because we're accountable for the surfaces we own — even when it stretches us. In H2 2026: **NLFU Growth** (ISR: JJ · Modeling: Devin — the metric trade-off authorization expires end of September); **Content Quality** (JJ — Teen Safety, GenAI controls; scope and counterpart still thin); **See More / See Less** (Yali — a high-visibility co-ownership seat with Raymond Hsu on the front end, no primary or secondary); and **Content Exploration** (Bella — the newest, scope still firming up). Funded via named deliverables on existing engines, never ringfenced headcount.
 4. **Oncall.** Together with the other teams under Personalization: stewardship that keeps Homefeed, BMI, and Board systems stable, with metric fluctuations monitored and root-caused — HF and BMI metrics; unity-homefeed, unity-gulp, unity-board. Stability through the realignment is part of the job, not an interruption of it.
 5. **Organizational contributions.** *[To be filled at the table — hiring, calibration, interviewing, mentoring. The axis is named now so it doesn't ship empty.]*
 
@@ -89,7 +89,8 @@ My lean: 1 as the end-state flag, 3 if Reflex's demonstration lands first. 2 is 
 **Where confusion reliably happens** — worth naming so we handle it deliberately rather than rediscovering it:
 - **UPP is consumed, not shared.** CLR and LWS both build on UPP as a framework. That is a dependency, not joint ownership.
 - **The explore→boards path crosses teams.** The pin-level exploration module introduces new concepts to a user; Intelligent Boards is the step that converts introduction into real adoption. They flow into each other and do not currently sit together.
-- **LLM-pUIC appears on two maps.** It shows up in the Retentive Recs program (area 5) and in Daniel's Intelligent Board program (area 7). Designed overlap for now — Ling's pipeline serves both — but it's a named seam to settle, not one to discover.
+- **LLM-pUIC appears on two maps.** It shows up in the Retentive Recs program (area 5) and in Daniel's Intelligent Board program (area 9). Designed overlap for now — Ling's pipeline serves both — but it's a named seam to settle, not one to discover.
+- **The UPP ownership seam.** There is an active discussion above us about where the personalization substrate should live. I am handling it; you should know it exists.
 - **Oncall follows the charter, not the reporting line.** LWS and boards paging moved with their charters on day one; L1 and real-time ops sit with Rui under Foundations & Efficiency.
 - **Some people work a charter their manager does not hold.** This is real today and is on the list to resolve.
 
@@ -160,7 +161,7 @@ Then the honest turn, and the one I want this table to internalize: **we defunde
 
 ### RecGPT — the successor paradigm
 
-The 2025 incubation that became the top candidate generator on Homefeed. The H1 2026 arc, launch by launch: established as an HF candidate generator in January — HF repins +0.86% (unique users) with serving cost driven from $970k to $571k and then to ~$300k/yr; cost was the launch blocker, and we broke it. Onto BMI the next day as the first unified L0-retrieval + L1-scoring ensemble (BMI repins +3.63%). By April it had exceeded its goal and become the **#1-performing CG across Homefeed**; Manas migration landed the same month ($59k/yr, unblocking the SMS path), diversity improvements added +50% pin coverage in May, and on June 30 the ME sizer inheritance took impression share up +89%. The ceiling question now is impression share, not model quality. The full state is area 10.
+The 2025 incubation that became the top candidate generator on Homefeed. The H1 2026 arc, launch by launch: established as an HF candidate generator in January — HF repins +0.86% (unique users) with serving cost driven from $970k to $571k and then to ~$300k/yr; cost was the launch blocker, and we broke it. Onto BMI the next day as the first unified L0-retrieval + L1-scoring ensemble (BMI repins +3.63%). By April it had exceeded its goal and become the **#1-performing CG across Homefeed**; Manas migration landed the same month ($59k/yr, unblocking the SMS path), diversity improvements added +50% pin coverage in May, and on June 30 the ME sizer inheritance took impression share up +89%. The ceiling question now is impression share, not model quality. The full state is area 7.
 
 ### Retentive Recs — vision to validation
 
@@ -174,7 +175,7 @@ The bet that we build personalization once, centrally, instead of every surface 
 
 ### Reflex and the AI tooling line
 
-Ground rule 8 has a history; AI-first started as practice and became a program. Pinkerton began as a summer-2025 hackathon prototype and shipped its first production milestone in April 2026. PINvestigator was built inside the H1 2026 metric investigations, demoed to Jeff that April, and has been in regular weekly investigative use since. Reflex itself started as Andrew's autonomous-diagnostics prototype; we moved to explicit co-development in April 2026, Dafang took technical lead in May, Tim came on as PM, and Shifu folded in at the end of July on the strengths framing (Shifu ahead on Build, Reflex ahead on discovery). Dylan named the POC trio — me, Dafang, Tim — on August 1. Simulate demos mid-August. And by June, Reflex had production launches of its own — the first agent-surfaced, agent-implemented experiment shipped June 4 (area 9). The program state is area 9.
+Ground rule 8 has a history; AI-first started as practice and became a program. Pinkerton began as a summer-2025 hackathon prototype and shipped its first production milestone in April 2026. PINvestigator was built inside the H1 2026 metric investigations, demoed to Jeff that April, and has been in regular weekly investigative use since. Reflex itself started as Andrew's autonomous-diagnostics prototype; we moved to explicit co-development in April 2026, Dafang took technical lead in May, Tim came on as PM, and Shifu folded in at the end of July on the strengths framing (Shifu ahead on Build, Reflex ahead on discovery). Dylan named the POC trio — me, Dafang, Tim — on August 1. Simulate demos mid-August. And by June, Reflex had production launches of its own — the first agent-surfaced, agent-implemented experiment shipped June 4 (area 6). The program state is area 6.
 
 ### January to August 2026
 
@@ -197,7 +198,7 @@ Announced August 5: the Homefeed CG name retired, P13N Retrieval created. Daniel
 
 Ten areas, each with a TL and an EM. Over the next two months we decide the long-term structure (T2: October–November), with input from all the team members.
 
-A note on the shape of this list, because it's deliberate. These are **areas, not teams**: capabilities named durably, so the product bets inside them can graduate or sunset without redrawing the map ("LLM for Recommendations" survives even if a given MVP doesn't). Every area carries **one TL and one EM** — a single accountable pair, and a visible map of where the leadership seats are. The list is **flat on purpose**: areas are the stable unit; which areas cluster into which team is exactly the T2 decision, and I don't want today's execution to pre-draw November's structure. And where a funnel genuinely crosses org lines — Retentive Recs — the legs are named explicitly, with leads in other orgs, because accountability follows the funnel, not the reporting line. Cross-org initiatives sit in their own list (§5): obligations with named leads, not charters.
+A note on the shape of this list, because it's deliberate. These are **areas, not teams**: capabilities named durably, so the product bets inside them can graduate or sunset without redrawing the map ("LLM for Recommendations" survives even if a given MVP doesn't). Every area carries **one TL and one EM** — a single accountable pair, and a visible map of where the leadership seats are. The list is **flat on purpose**: areas are the stable unit; which areas cluster into which team is exactly the T2 decision, and I don't want today's execution to pre-draw November's structure. And where a funnel genuinely crosses org lines — Retentive Recs — the legs are named explicitly, with leads in other orgs, because accountability follows the funnel, not the reporting line. Cross-org initiatives sit under §2's accountability axes: obligations with named leads, not charters.
 
 | # | Area | TL | EM |
 |---|---|---|---|
@@ -206,11 +207,11 @@ A note on the shape of this list, because it's deliberate. These are **areas, no
 | 3 | Lightweight Scoring | Yali | James |
 | 4 | Responsiveness, L1 Utility | JJ | James |
 | 5 | Retentive Recs (UIC, pUIC) | Chuxi (Retrieval) · Andreanne (Blending) · Simin (UU) | Alim (Retrieval) · Rahul (Blending) · Yingjian (UU) |
-| 6 | Unified Explore Backend | Roderick | Daniel |
-| 7 | LLM for Recommendations (Intelligent Boards, etc.) | Balaji | Daniel |
-| 8 | Collection Personalization (Recommended Boards, etc.) | Yongwoo | Daniel |
-| 9 | Reflex | Dafang | James |
-| 10 | RecGPT / Generative Retrieval | Bella | James |
+| 6 | Reflex | Dafang | James |
+| 7 | RecGPT / Generative Retrieval | Bella | James |
+| 8 | Unified Explore Backend | Roderick | Daniel |
+| 9 | LLM for Recommendations (Intelligent Boards, etc.) | Balaji | Daniel |
+| 10 | Collection Personalization (Recommended Boards, etc.) | Yongwoo | Daniel |
 
 ### 1. UPP Retrieval — TL: Piyush
 UPP is the bet that we build personalization once, centrally, instead of every surface training its own variant. It owns the cross-surface user representation and the retrieval substrate that CLR and LWS consume. If it works, every leg of this org gets faster and cheaper at the same time. That is also why it's the most contested thing we own — when a substrate starts winning, everyone develops an opinion about where it should live.
@@ -220,10 +221,10 @@ Where we are: V0 beat the P2P production model head-to-head. SSv2 wins in US and
 - **Staffing:** Piyush (TL) with Zihao on cross-surface training. Partner side: Yifan Li, Fan Jiang, Jiaxing Qu from P2P — Jiaxing is at 50% and I'm resolving whether that becomes 100% or two people, with Sai Xiao next week. *[Full contributor map: fill in at walkthrough.]*
 - **The Curation ML leg:** Daniel's UPP ML Foundation program (Kim as DRI — unified data pipeline, SearchSage CLR, notification label volume recovery; PM Matt Chun) is the substrate's second engine room. That's how UPP stays "consumed, not shared" while still being built by more than one team.
 - **Launch history:** none yet on P2P — V0 is the first launch candidate there. Elsewhere the record is building:
-  - 2025 groundwork: the [CLR feature-alignment launch](https://pinterest.slack.com/archives/C05UMECTDDJ/p1765218319127799) (annotations v7 + legacy feature deprecations, Dec 2025) aligned HF CLR training data for a unified base model across HF and notif surfaces — fresh repins +2.50%, HF interest repins +6.92%.
-  - Notifications (2026): **UPP Retrieval CLR V0** — global WAU +156k (stat-sig), OEC neutral, broad email/push engagement lifts; **V1** — WAU +130k (stat-sig); **v2** — MAU +226k (stat-sig), engagement flat, with content-quality wins (racy −3%, low-quality −4.3%). *[Two tracker flags to confirm: whether V1 is measured against V0's baseline or on top of it, and the sign convention on the v2 slop metric.]*
-  - [UPP: Foundation Model in CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780360528626209) (Jun) — the FM integrated into the unified HF CLR model: SSv2 +0.07%, HF repins +0.85%, repin-rate lifts on every CLR CG (Board CLR +7%); accepted trade-offs on downloads (−1.53%) and freshness, named in the LR. Crucial for scaling the UPP base model.
-  - *[Experiment-by-experiment P2P history: I'll walk you through it live.]*
+    - 2025 groundwork: the [CLR feature-alignment launch](https://pinterest.slack.com/archives/C05UMECTDDJ/p1765218319127799) (annotations v7 + legacy feature deprecations, Dec 2025) aligned HF CLR training data for a unified base model across HF and notif surfaces — fresh repins +2.50%, HF interest repins +6.92%.
+    - Notifications (2026): **UPP Retrieval CLR V0** — global WAU +156k (stat-sig), OEC neutral, broad email/push engagement lifts; **V1** — WAU +130k (stat-sig); **v2** — MAU +226k (stat-sig), engagement flat, with content-quality wins (racy −3%, low-quality −4.3%). *[Two tracker flags to confirm: whether V1 is measured against V0's baseline or on top of it, and the sign convention on the v2 slop metric.]*
+    - [UPP: Foundation Model in CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780360528626209) (Jun) — the FM integrated into the unified HF CLR model: SSv2 +0.07%, HF repins +0.85%, repin-rate lifts on every CLR CG (Board CLR +7%); accepted trade-offs on downloads (−1.53%) and freshness, named in the LR. Crucial for scaling the UPP base model.
+    - *[Experiment-by-experiment P2P history: I'll walk you through it live.]*
 - **Risk:** high. Ambitious modeling, contested ownership, and delivery now partly dependent on other orgs' capacity (P2P eng, Search GPUs).
 - **Work type:** genuinely both. Deep modeling (cross-surface training in a batch, weighting, loss functions, optimizers) and serious systems work (serving paths, GPU efficiency).
 - **Strategic weight:** the highest-leverage thing we own. It's also the org's most visible story upward — treat anything UPP-related as exec-facing by default.
@@ -236,18 +237,18 @@ Frontier retrieval modeling on the main candidate-generation stack, including GP
 
 - **Staffing:** Devin (TL) with Yichi; Ryan and Rui joining on engineering this half.
 - **Launch history (2025):** the deepest gains record in the log, even in a deliberately under-funded year. The arc that matters: CLR started the year as an interests-only technique and ended it as a general conditioning framework.
-  - [CLR on Recommended Interests + Unity migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1736186706302699) (Jan) — SSv2 +0.22% (P6 +0.46%), and it deprecated the interest-service use cases that funded the later shutdown (>$350k).
-  - [CLR for Board More Ideas](https://pinterest.slack.com/archives/C05UMECTDDJ/p1736873003693229) (Jan) — the first application beyond the interest grid: BMI time spent +2.11%, repins +3.79%. The log credits this launch with setting the expand-CLR agenda for the whole year.
-  - [Unified Interest + Board CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1747156807722349) (May) — one model where four-plus were headed: ~21 eng-weeks a year saved, training 70% faster with conditional filtering. Enriched the same month with [large ID embeddings + OmniSage/UVE](https://pinterest.slack.com/archives/C05UMECTDDJ/p1747950234242069) (HF interest repins +27.77%).
-  - [Board CLR replacing board-based CG budgets](https://pinterest.slack.com/archives/C05UMECTDDJ/p1750447116383969) (Jun) — the headline launch: global MAU +0.06% (~+140k users), WAU +0.08% (~+120k), SSv2 +0.18%, HF downloads +2.15%, $50k saved.
-  - [Single Scorpion request](https://pinterest.slack.com/archives/C05UMECTDDJ/p1759772029867969) (Oct) — all condition-model requests collapsed into one: $350k, and the prerequisite for GPU serving and request-level feature optimization. [Fresh-pins injection](https://pinterest.slack.com/archives/C05UMECTDDJ/p1759860794391089) landed the same month (HF fresh repins without ads +7.01%).
-  - [Conditioned user sequence](https://pinterest.slack.com/archives/C05UMECTDDJ/p1763420412291149) (Nov) — sequence modeling in CLR for the first time; the log is explicit that this is the baseline most 2026 CLR/FM modeling builds on.
-  - [Pin-based CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1765288812801759) (Dec) — pins as a condition: SSv2 +0.13%, HF long clickthroughs +2.41%; opens UIC-signal retrieval and the notif landing-page surface.
-  - GULP: BMI became the first HF-powered surface on the GULP backend — [H1 groundwork](https://pinterest.slack.com/archives/C05UMECTDDJ/p1752707334520919) (Jul), [CG + blending migration complete](https://pinterest.slack.com/archives/C05UMECTDDJ/p1762464743739679) (Nov).
+    - [CLR on Recommended Interests + Unity migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1736186706302699) (Jan) — SSv2 +0.22% (P6 +0.46%), and it deprecated the interest-service use cases that funded the later shutdown (>$350k).
+    - [CLR for Board More Ideas](https://pinterest.slack.com/archives/C05UMECTDDJ/p1736873003693229) (Jan) — the first application beyond the interest grid: BMI time spent +2.11%, repins +3.79%. The log credits this launch with setting the expand-CLR agenda for the whole year.
+    - [Unified Interest + Board CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1747156807722349) (May) — one model where four-plus were headed: ~21 eng-weeks a year saved, training 70% faster with conditional filtering. Enriched the same month with [large ID embeddings + OmniSage/UVE](https://pinterest.slack.com/archives/C05UMECTDDJ/p1747950234242069) (HF interest repins +27.77%).
+    - [Board CLR replacing board-based CG budgets](https://pinterest.slack.com/archives/C05UMECTDDJ/p1750447116383969) (Jun) — the headline launch: global MAU +0.06% (~+140k users), WAU +0.08% (~+120k), SSv2 +0.18%, HF downloads +2.15%, $50k saved.
+    - [Single Scorpion request](https://pinterest.slack.com/archives/C05UMECTDDJ/p1759772029867969) (Oct) — all condition-model requests collapsed into one: $350k, and the prerequisite for GPU serving and request-level feature optimization. [Fresh-pins injection](https://pinterest.slack.com/archives/C05UMECTDDJ/p1759860794391089) landed the same month (HF fresh repins without ads +7.01%).
+    - [Conditioned user sequence](https://pinterest.slack.com/archives/C05UMECTDDJ/p1763420412291149) (Nov) — sequence modeling in CLR for the first time; the log is explicit that this is the baseline most 2026 CLR/FM modeling builds on.
+    - [Pin-based CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1765288812801759) (Dec) — pins as a condition: SSv2 +0.13%, HF long clickthroughs +2.41%; opens UIC-signal retrieval and the notif landing-page surface.
+    - GULP: BMI became the first HF-powered surface on the GULP backend — [H1 groundwork](https://pinterest.slack.com/archives/C05UMECTDDJ/p1752707334520919) (Jul), [CG + blending migration complete](https://pinterest.slack.com/archives/C05UMECTDDJ/p1762464743739679) (Nov).
 - **Launch history (H1 2026):** under-funded and still compounding — plus the engineering hardening that came with Ryan's arrival.
-  - Modeling: [Semantic IDs for long-tail](https://pinterest.slack.com/archives/C05UMECTDDJ/p1768924779474889) (Jan — SSv2 +0.13%, strongest for new-user cohorts), [DHEN feature reweighing](https://pinterest.slack.com/archives/C05UMECTDDJ/p1769031767040289) (Jan — repins +0.27%, Interest CLR repins +1.32%), [router simplification](https://pinterest.slack.com/archives/C05UMECTDDJ/p1775519133081589) (Apr — repins +0.39%; conditions become config mappings, unblocking Search CLR on HF and Semantic-ID conditions), [indyRank/pageRank feature deprecation](https://pinterest.slack.com/archives/C05UMECTDDJ/p1776363549969239) (Apr — deleting two stale features *gained* +0.43% repins: feature hygiene as engagement work), [ARF stabilization](https://pinterest.slack.com/archives/C05UMECTDDJ/p1778005051946709) (May — sitewide repins +0.81%, fresh neardup repins +5.40%, with a named shopping-clickout regression).
-  - Serving: [GPU serving via attached data](https://pinterest.slack.com/archives/C05UMECTDDJ/p1774896000652059) (Mar — **$650k saved, model latency −85%**; approved with named intent/non-shopping-clickout regressions and the CG-distribution-shift hypothesis still under confirmation — the honest version of a big win). [Claude-tuned condition budgets](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780068356468789) (May — SSv2 +0.18%, exploiting the freed GPU capacity; AI-in-the-loop). [Pin CLR on BMI-on-GULP](https://pinterest.slack.com/archives/C05UMECTDDJ/p1773417052639199) (Mar — BMI repins +4.24%, unlocking Pin CLR for the notif landing page and exploration modules).
-  - Config hardening (Ryan): [Unity Experiment Configuration migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1782410368379009) (Jun) and [Manas dynamic-field indexing](https://pinterest.slack.com/archives/C05UMECTDDJ/p1784744650552249) (Jul) — model config through the normal code lifecycle: less oncall, no per-model boilerplate PRs, AI-agent-editable.
+    - Modeling: [Semantic IDs for long-tail](https://pinterest.slack.com/archives/C05UMECTDDJ/p1768924779474889) (Jan — SSv2 +0.13%, strongest for new-user cohorts), [DHEN feature reweighing](https://pinterest.slack.com/archives/C05UMECTDDJ/p1769031767040289) (Jan — repins +0.27%, Interest CLR repins +1.32%), [router simplification](https://pinterest.slack.com/archives/C05UMECTDDJ/p1775519133081589) (Apr — repins +0.39%; conditions become config mappings, unblocking Search CLR on HF and Semantic-ID conditions), [indyRank/pageRank feature deprecation](https://pinterest.slack.com/archives/C05UMECTDDJ/p1776363549969239) (Apr — deleting two stale features *gained* +0.43% repins: feature hygiene as engagement work), [ARF stabilization](https://pinterest.slack.com/archives/C05UMECTDDJ/p1778005051946709) (May — sitewide repins +0.81%, fresh neardup repins +5.40%, with a named shopping-clickout regression).
+    - Serving: [GPU serving via attached data](https://pinterest.slack.com/archives/C05UMECTDDJ/p1774896000652059) (Mar — **$650k saved, model latency −85%**; approved with named intent/non-shopping-clickout regressions and the CG-distribution-shift hypothesis still under confirmation — the honest version of a big win). [Claude-tuned condition budgets](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780068356468789) (May — SSv2 +0.18%, exploiting the freed GPU capacity; AI-in-the-loop). [Pin CLR on BMI-on-GULP](https://pinterest.slack.com/archives/C05UMECTDDJ/p1773417052639199) (Mar — BMI repins +4.24%, unlocking Pin CLR for the notif landing page and exploration modules).
+    - Config hardening (Ryan): [Unity Experiment Configuration migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1782410368379009) (Jun) and [Manas dynamic-field indexing](https://pinterest.slack.com/archives/C05UMECTDDJ/p1784744650552249) (Jul) — model config through the normal code lifecycle: less oncall, no per-model boilerplate PRs, AI-agent-editable.
 - **Risk:** low on delivery, real on concentration — too much of it lives in Devin's head.
 - **Work type:** deep modeling at the core, with a meaningful GPU-serving systems layer.
 - **Strategic weight:** the workhorse of the main stack. Retention of gains here buys us the room to place bets elsewhere.
@@ -260,18 +261,18 @@ Lightweight preranking — the reliable gains engine of the org, and the oldest 
 
 - **Staffing:** Yali (TL) with Hedi.
 - **Launch history (2025):** the log reads like a metronome — modeling, serving, and evaluation advancing at once.
-  - Training-stack modernization — [Ray adoption](https://pinterest.slack.com/archives/C05UMECTDDJ/p1738348976419399) (Jan: throughput 138k → 305k examples/sec, training 17h → 8.5h), the [auto-retrain framework](https://pinterest.slack.com/archives/C05UMECTDDJ/p1736383505853879) (Jan: HF time spent +0.37%), and the [SOAP optimizer](https://pinterest.slack.com/archives/C05UMECTDDJ/p1741970550753649) (Mar: SSv2 +0.19%).
-  - The L1/L2-alignment campaign — the quiet theme of the year: [OmniSage + UVE features](https://pinterest.slack.com/archives/C05UMECTDDJ/p1741654477038219) (Mar), the long-impression [distillation](https://pinterest.slack.com/archives/C05UMECTDDJ/p1743706304255179) and [training-objective](https://pinterest.slack.com/archives/C05UMECTDDJ/p1749240681217589) deprecations (Apr/Jun: HF reports −14.67% and −10.92%), [pairwise loss](https://pinterest.slack.com/archives/C05UMECTDDJ/p1744914999260489) (Apr), [L1 calibration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1742241633880649) (Mar), and [learnable gating for UOE/DERM features](https://pinterest.slack.com/archives/C05UMECTDDJ/p1760731988281299) (Oct: total time in app +0.21%).
-  - Evaluation science — Hedi's [online alignment metrics](https://pinterest.slack.com/archives/C05UMECTDDJ/p1747244009848059) (May) and [offline replay](https://pinterest.slack.com/archives/C05UMECTDDJ/p1762371808654119) (Nov): the first reliable quantitative forecast of online metric shifts for pre-ranker models, and a framework the log notes is used beyond this team.
-  - [GPU serving and model scale-up](https://pinterest.slack.com/archives/C05UMECTDDJ/p1761252306724919) (Oct) — SSv2 +0.17% and the door open to next-generation architectures.
-  - [Calibration data to Iceberg](https://pinterest.slack.com/archives/C05UMECTDDJ/p1762301780573529) (Nov) — ~$220k a year.
+    - Training-stack modernization — [Ray adoption](https://pinterest.slack.com/archives/C05UMECTDDJ/p1738348976419399) (Jan: throughput 138k → 305k examples/sec, training 17h → 8.5h), the [auto-retrain framework](https://pinterest.slack.com/archives/C05UMECTDDJ/p1736383505853879) (Jan: HF time spent +0.37%), and the [SOAP optimizer](https://pinterest.slack.com/archives/C05UMECTDDJ/p1741970550753649) (Mar: SSv2 +0.19%).
+    - The L1/L2-alignment campaign — the quiet theme of the year: [OmniSage + UVE features](https://pinterest.slack.com/archives/C05UMECTDDJ/p1741654477038219) (Mar), the long-impression [distillation](https://pinterest.slack.com/archives/C05UMECTDDJ/p1743706304255179) and [training-objective](https://pinterest.slack.com/archives/C05UMECTDDJ/p1749240681217589) deprecations (Apr/Jun: HF reports −14.67% and −10.92%), [pairwise loss](https://pinterest.slack.com/archives/C05UMECTDDJ/p1744914999260489) (Apr), [L1 calibration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1742241633880649) (Mar), and [learnable gating for UOE/DERM features](https://pinterest.slack.com/archives/C05UMECTDDJ/p1760731988281299) (Oct: total time in app +0.21%).
+    - Evaluation science — Hedi's [online alignment metrics](https://pinterest.slack.com/archives/C05UMECTDDJ/p1747244009848059) (May) and [offline replay](https://pinterest.slack.com/archives/C05UMECTDDJ/p1762371808654119) (Nov): the first reliable quantitative forecast of online metric shifts for pre-ranker models, and a framework the log notes is used beyond this team.
+    - [GPU serving and model scale-up](https://pinterest.slack.com/archives/C05UMECTDDJ/p1761252306724919) (Oct) — SSv2 +0.17% and the door open to next-generation architectures.
+    - [Calibration data to Iceberg](https://pinterest.slack.com/archives/C05UMECTDDJ/p1762301780573529) (Nov) — ~$220k a year.
 - **Launch history (H1 2026):**
-  - [Training-serving alignment](https://pinterest.slack.com/archives/C05UMECTDDJ/p1773963091524149) (Mar) — redesigned the training objective from first principles and fixed a years-old distortion: the repin:closeup weight ratio was 20:1 in training but 400:1 at serving. SSv2 +0.10%, HF hides −4.40%.
-  - [Unified Tower + Transact on GPU](https://pinterest.slack.com/archives/C05UMECTDDJ/p1773177168614229) (Mar) — replaced the split CPU/GPU two-tower architecture: HF reports −12.72% (largest reduction on record), unblocking foundation models and 16k sequences.
-  - [Rank distillation loss](https://pinterest.slack.com/archives/C05UMECTDDJ/p1777919860405979) (May — the student learns the teacher's ordering, not just pointwise scores; HF clicks +1.15%).
-  - The training-data line: [funnel-log removal](https://pinterest.slack.com/archives/C05UMECTDDJ/p1779409650194399) (May — $46k/yr) and [PROD→L2-dataset migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1784675597815519) (Jul — SSv2 +0.20%, $80k/yr).
-  - [Model scaling on GPU](https://pinterest.slack.com/archives/C05UMECTDDJ/p1785359965349809) (Jul — RMSNorm + batched MaskNet + larger head: SSv2 +0.12% at neutral latency and cost).
-  - The CG-onboarding arc: [BoardCLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1767991644190129) (Jan) then [the shopping CGs](https://pinterest.slack.com/archives/C05UMECTDDJ/p1775853312102959) (Apr — 55 thread replies) took LWS/L1 coverage of CG budgets from 68.9% to ~79%, with trustworthy-product outbound click rate +10.39% — evidence LWS picks genuinely better product pins.
+    - [Training-serving alignment](https://pinterest.slack.com/archives/C05UMECTDDJ/p1773963091524149) (Mar) — redesigned the training objective from first principles and fixed a years-old distortion: the repin:closeup weight ratio was 20:1 in training but 400:1 at serving. SSv2 +0.10%, HF hides −4.40%.
+    - [Unified Tower + Transact on GPU](https://pinterest.slack.com/archives/C05UMECTDDJ/p1773177168614229) (Mar) — replaced the split CPU/GPU two-tower architecture: HF reports −12.72% (largest reduction on record), unblocking foundation models and 16k sequences.
+    - [Rank distillation loss](https://pinterest.slack.com/archives/C05UMECTDDJ/p1777919860405979) (May — the student learns the teacher's ordering, not just pointwise scores; HF clicks +1.15%).
+    - The training-data line: [funnel-log removal](https://pinterest.slack.com/archives/C05UMECTDDJ/p1779409650194399) (May — $46k/yr) and [PROD→L2-dataset migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1784675597815519) (Jul — SSv2 +0.20%, $80k/yr).
+    - [Model scaling on GPU](https://pinterest.slack.com/archives/C05UMECTDDJ/p1785359965349809) (Jul — RMSNorm + batched MaskNet + larger head: SSv2 +0.12% at neutral latency and cost).
+    - The CG-onboarding arc: [BoardCLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1767991644190129) (Jan) then [the shopping CGs](https://pinterest.slack.com/archives/C05UMECTDDJ/p1775853312102959) (Apr — 55 thread replies) took LWS/L1 coverage of CG budgets from 68.9% to ~79%, with trustworthy-product outbound click rate +10.39% — evidence LWS picks genuinely better product pins.
 - **Risk:** concentration. A great deal of reliable output depends on two people.
 - **Work type:** modeling-led with a solid serving-systems spine.
 - **Strategic weight:** the steadiest scoreboard we have, and now a publishing flag too (the RecSys oral).
@@ -284,13 +285,13 @@ Mid-funnel utility selection — the shopping, freshness and safety knobs, diver
 
 - **Staffing:** JJ (TL). *[Roster beyond JJ: fill at walkthrough.]*
 - **Launch history (2025):**
-  - The L1 serving line — [mini-batch serving optimization](https://pinterest.slack.com/archives/C05UMECTDDJ/p1741107892271839) (Mar: $345k) extended to [BMI and HFNP](https://pinterest.slack.com/archives/C05UMECTDDJ/p1745594528225029) (Apr).
-  - [L1 Utility itself](https://pinterest.slack.com/archives/C05UMECTDDJ/p1756830835739129) (Sep): a business-control layer for diversity, shopping, and freshness ahead of Pinnability — HF pin hides −3.46%, P99 latency −35ms, $115k.
+    - The L1 serving line — [mini-batch serving optimization](https://pinterest.slack.com/archives/C05UMECTDDJ/p1741107892271839) (Mar: $345k) extended to [BMI and HFNP](https://pinterest.slack.com/archives/C05UMECTDDJ/p1745594528225029) (Apr).
+    - [L1 Utility itself](https://pinterest.slack.com/archives/C05UMECTDDJ/p1756830835739129) (Sep): a business-control layer for diversity, shopping, and freshness ahead of Pinnability — HF pin hides −3.46%, P99 latency −35ms, $115k.
 - **Launch history (H1 2026):** the L1 layer matured into the org's control plane, and the responsiveness charter put its first big point on the board.
-  - The L1 Utility arc: [UIC & SID diversity control](https://pinterest.slack.com/archives/C05UMECTDDJ/p1769104749291599) (Jan — first use of L1 for global cross-CG control; the $37k cost increase was itself a success signal: better diversity drove more searching), [presort cutoff 1.3×→1.7×](https://pinterest.slack.com/archives/C05UMECTDDJ/p1774030092822119) (Mar — the cheapest win-per-effort in the tracker), [iterative diversity](https://pinterest.slack.com/archives/C05UMECTDDJ/p1781198598004049) (Jun — SSv2 +0.17% for one added for-loop) with its [latency-recovering follow-up](https://pinterest.slack.com/archives/C05UMECTDDJ/p1783548180035799) (Jul — p99 −5.7ms).
-  - Serving: [dynamic sizer migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1775758163913739) (Apr — async model-driven sizing, unblocking all future PHP models; 67 thread replies), [sub-chunk request CG](https://pinterest.slack.com/archives/C05UMECTDDJ/p1779395517757559) (May — recycles unconsumed pins straight from the chunk cache, skipping LWS and Pinnability entirely: SSv2 +0.14%, $48k saved), [deep-RL shopping load tuning](https://pinterest.slack.com/archives/C05UMECTDDJ/p1778691704025289) (May — the neural successor to 2025's tabular policy: SSv2 +0.15%, P6 countries).
-  - Responsiveness: [closeup cache invalidation for NLFUs](https://pinterest.slack.com/archives/C05UMECTDDJ/p1783447873989479) (Jul) — one of the largest NLF WAU wins to date (+37k WAUs, p=0.03), shipped on the legacy user-context sequence ahead of the real-time one; feeds the NLFU initiative in §5.
-- **Risk:** JJ is the most-loaded name on this map — TL here, Build lead in Reflex, anchor of the infra campaign, and named on two cross-org initiatives (§5). That concentration is a design input for T2, not a footnote.
+    - The L1 Utility arc: [UIC & SID diversity control](https://pinterest.slack.com/archives/C05UMECTDDJ/p1769104749291599) (Jan — first use of L1 for global cross-CG control; the $37k cost increase was itself a success signal: better diversity drove more searching), [presort cutoff 1.3×→1.7×](https://pinterest.slack.com/archives/C05UMECTDDJ/p1774030092822119) (Mar — the cheapest win-per-effort in the tracker), [iterative diversity](https://pinterest.slack.com/archives/C05UMECTDDJ/p1781198598004049) (Jun — SSv2 +0.17% for one added for-loop) with its [latency-recovering follow-up](https://pinterest.slack.com/archives/C05UMECTDDJ/p1783548180035799) (Jul — p99 −5.7ms).
+    - Serving: [dynamic sizer migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1775758163913739) (Apr — async model-driven sizing, unblocking all future PHP models; 67 thread replies), [sub-chunk request CG](https://pinterest.slack.com/archives/C05UMECTDDJ/p1779395517757559) (May — recycles unconsumed pins straight from the chunk cache, skipping LWS and Pinnability entirely: SSv2 +0.14%, $48k saved), [deep-RL shopping load tuning](https://pinterest.slack.com/archives/C05UMECTDDJ/p1778691704025289) (May — the neural successor to 2025's tabular policy: SSv2 +0.15%, P6 countries).
+    - Responsiveness: [closeup cache invalidation for NLFUs](https://pinterest.slack.com/archives/C05UMECTDDJ/p1783447873989479) (Jul) — one of the largest NLF WAU wins to date (+37k WAUs, p=0.03), shipped on the legacy user-context sequence ahead of the real-time one; feeds the NLFU cross-org initiative (§2).
+- **Risk:** JJ is the most-loaded name on this map — TL here, Build lead in Reflex, anchor of the infra campaign, and named on two cross-org initiatives (§2). That concentration is a design input for T2, not a footnote.
 - **Work type:** systems-led with business-logic judgment; the responsiveness side adds a real-time flavor.
 - **Strategic weight:** the layer where topline, cost, and safety trade off explicitly — which makes it the natural home of the org's efficiency story.
 - **Politics:** quiet. The knobs it owns (shopping load, freshness, safety) are exactly the ones other orgs ask about first — disclose-first applies.
@@ -307,46 +308,28 @@ We're in a deliberate launch lull while both tracks converge: model-based is ahe
 
 - **Staffing:** Chuxi (TL, Retrieval). Alim's pod — Yidi, Alok, Lionel — staffs the surrounding work. On the LLM track, Ling has been critical (she built much of the LLM inferencing pipeline), with Zoudu, and Ru Chen just joined.
 - **Launch history:** the lull is now; the record behind it is real, and it spans all three legs.
-  - [UIC signals in CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1767729395300429) (Jan) — the workstream's foundation: UIC v2 built and fully integrated, replacing legacy followed interest. DAU +0.17%, WAU +0.14%, ~$322k saved, UIC CG engagement on par with the top ML candidate generators.
-  - [Frontier sampling in UIC × CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1772557075488349) (Mar) — landmarks at the boundary of known interests: SSv2 +0.22%, confirmed diversity gains, and the first evidence for predicted UIC.
-  - [UIC diversification in SSD](https://pinterest.slack.com/archives/C05UMECTDDJ/p1777065083952529) (Apr) — HF reports −14.82%, hides −2.61%. The V1 before it was withdrawn as irreproducible (the January fresh-content spike had inflated its treatment group) — the team's own call, and the kind of integrity worth naming out loud.
-  - [New-use-case rewards in Downstream Rewards](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780676924633739) (Jun) — DAU +0.092% / WAU +0.066% All Users, concentrated in non-core and casual users, plus reusable new-use-case labels beyond Pinnability.
-  - [PinnerSpark v0.1 in CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780533136484609) (Jun) — better LLM, richer pin representation, stale-signal cleanup: markedly strongest for P10 users (in-segment retention WAU +0.34%), with up to ~$250k/yr of cleanup savings.
-  - Blending leg (Andreanne): [personalized interest exploration in blending](https://pinterest.slack.com/archives/C05UMECTDDJ/p1782229305520809) (Jun) — one exploration pin per request balancing new-to-app against new-to-user: windowed stat-sig WAU gains, traded against more hides — a deliberate exploration-budget reallocation.
+    - [UIC signals in CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1767729395300429) (Jan) — the workstream's foundation: UIC v2 built and fully integrated, replacing legacy followed interest. DAU +0.17%, WAU +0.14%, ~$322k saved, UIC CG engagement on par with the top ML candidate generators.
+    - [Frontier sampling in UIC × CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1772557075488349) (Mar) — landmarks at the boundary of known interests: SSv2 +0.22%, confirmed diversity gains, and the first evidence for predicted UIC.
+    - [UIC diversification in SSD](https://pinterest.slack.com/archives/C05UMECTDDJ/p1777065083952529) (Apr) — HF reports −14.82%, hides −2.61%. The V1 before it was withdrawn as irreproducible (the January fresh-content spike had inflated its treatment group) — the team's own call, and the kind of integrity worth naming out loud.
+    - [New-use-case rewards in Downstream Rewards](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780676924633739) (Jun) — DAU +0.092% / WAU +0.066% All Users, concentrated in non-core and casual users, plus reusable new-use-case labels beyond Pinnability.
+    - [PinnerSpark v0.1 in CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780533136484609) (Jun) — better LLM, richer pin representation, stale-signal cleanup: markedly strongest for P10 users (in-segment retention WAU +0.34%), with up to ~$250k/yr of cleanup savings.
+    - Blending leg (Andreanne): [personalized interest exploration in blending](https://pinterest.slack.com/archives/C05UMECTDDJ/p1782229305520809) (Jun) — one exploration pin per request balancing new-to-app against new-to-user: windowed stat-sig WAU gains, traded against more hides — a deliberate exploration-budget reallocation.
 - **Risk:** high, and time-boxed — the next few weeks of experiment results tell us a lot.
 - **Work type:** deep modeling, with the LLM track adding a prompt/inference engineering layer.
 - **Strategic weight:** this is Alim's charter core and the retention story for the whole org. Evidence here changes every conversation we have upward.
-- **Politics:** exec attention on retention is real and personal — results here get read at levels above Dylan. Handle readouts with care: disclose early, frame honestly. And note the LLM-pUIC seam with area 7 (§2's confusion list) — designed overlap, named to be settled.
+- **Politics:** exec attention on retention is real and personal — results here get read at levels above Dylan. Handle readouts with care: disclose early, frame honestly. And note the LLM-pUIC seam with area 9 (§2's confusion list) — designed overlap, named to be settled.
 - **AI leverage:** the LLM-pUIC track *is* an AI-leverage bet on the modeling itself.
 - **Leadership runway:** Chuxi is TL on the hardest open problem in the org — the support structure around her is something I want this table to own together.
 
-### 6. Unified Explore Backend — TL: Roderick · EM: Daniel
-
-In Daniel's structure this is the Module Platforms program — Roderick as DRI with Esteban, PM coverage from Anna Kiyantseva, Akshatha, and Emun. Consolidating the explore surfaces so the charter and the systems agree, plus the LLM-track serving side; Lionel has been ramping as Roderick's backend partner from the Retentive side. The charter/reporting-line alignment is on the open list (§6).
-
-*[Daniel: this one's yours — I've deliberately left the substance for you to write. The framing I care about: where does UEB's charter naturally live so its systems and its reporting agree, and what does it need from areas 1 and 5?]*
-
-### 7. LLM for Recommendations (Intelligent Boards, etc.) — TL: Balaji · EM: Daniel
-
-Daniel's Intelligent Board program: Intelligent Boards MVP (offline first), LLM-based pUIC, and Next Board Prediction — PM Emun, Balaji as DRI, Ling at 50%. The area name is deliberate: the charter is the LLM-for-recommendations capability, not any single MVP — bets inside it graduate or sunset without redrawing the map. It's also one of §2's two 2026 incubations, which means a named incubation owner and explicit graduation criteria apply here from day one.
-
-*[Daniel: yours to write — including success metrics with Product, which I care about being explicit before momentum sets them implicitly.]*
-
-### 8. Collection Personalization (Recommended Boards, etc.) — TL: Yongwoo · EM: Daniel
-
-Daniel's Collection P13N program: Board Rec (UGC Board, SMB Board) and Board Ranker (a cross-team project, currently without PM coverage) — Yongwoo as DRI, with Felix and Ling at 50%. A live production surface with real latent upside through surface pairings.
-
-*[Daniel: yours to write. The one thing I'll carry over from my earlier read: product direction here is genuinely unclear to me, and I'd rather understand it properly than decide — this is a walkthrough where I'm mostly listening.]*
-
-### 9. Reflex — TL: Dafang
+### 6. Reflex — TL: Dafang
 The AI-enabled dev-velocity accelerator: productizing AI-leveraged engineering practice as an internal platform every workstream can adopt. Deliberately small and nimble, measured on adoption and measurable velocity gains. This is the program behind ground rule 8 — PINvestigator is already in regular investigative use, Pinkerton is folded in, and Simulate demos mid-August. Search has active integration interest. Worth noting: Daniel's team already runs an AI Harness line of its own (code-quality agents, ML engineering skills, a curation-ML knowledge base — deliberately "everyone," not a staffed pod), which is exactly the team-level adoption pattern Reflex needs to prove. My honest read: what Reflex needs most right now is a visible, working demonstration — shown, not announced. That's on me to stage.
 
 - **Staffing:** Dafang overall, JJ on Build, Tim on product; Alok owns the Pinkerton line.
 - **Launch history:** adoption milestones plus — as of June — production LRs of its own:
-  - [Shopping L2R migration to CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780608693645509) (Jun 4) — **the first end-to-end production experiment surfaced by Reflex Detect agents and implemented by the Reflex Build Agent under engineer supervision.** Retired a stale legacy model and part of the 2–3× relevance gap the Detect agents had surfaced.
-  - [Following Feed + GraphSage CG deprecation](https://pinterest.slack.com/archives/C05UMECTDDJ/p1784241608815299) (Jul 16) — Reflex-driven removal of the two weakest CGs: SSv2 +0.17%, use-case adoption +0.75%, at neutral cost; shopping/MDD regressions acknowledged and under discussion.
-  - Same pattern, adjacent: [Claude-tuned CLR condition budgets](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780068356468789) (May 29) — AI tuning budgets from experiment feedback.
-  - §3 has the platform timeline: Pinkerton hackathon → production; PINvestigator; the Shifu fold; Simulate V0 mid-August.
+    - [Shopping L2R migration to CLR](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780608693645509) (Jun 4) — **the first end-to-end production experiment surfaced by Reflex Detect agents and implemented by the Reflex Build Agent under engineer supervision.** Retired a stale legacy model and part of the 2–3× relevance gap the Detect agents had surfaced.
+    - [Following Feed + GraphSage CG deprecation](https://pinterest.slack.com/archives/C05UMECTDDJ/p1784241608815299) (Jul 16) — Reflex-driven removal of the two weakest CGs: SSv2 +0.17%, use-case adoption +0.75%, at neutral cost; shopping/MDD regressions acknowledged and under discussion.
+    - Same pattern, adjacent: [Claude-tuned CLR condition budgets](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780068356468789) (May 29) — AI tuning budgets from experiment feedback.
+    - §3 has the platform timeline: Pinkerton hackathon → production; PINvestigator; the Shifu fold; Simulate V0 mid-August.
 - **Risk:** moderate — the risk isn't technical, it's attention. Programs like this die of quiet neglect, not failure.
 - **Work type:** systems and platform work, plus the craft of making AI leverage real in day-to-day engineering.
 - **Strategic weight:** this is my flag for the org and it stays with me. It's also the thing Dylan named me the EM point-of-contact for — exec visibility is built in.
@@ -354,16 +337,16 @@ The AI-enabled dev-velocity accelerator: productizing AI-leveraged engineering p
 - **AI leverage:** it *is* the AI-leverage play.
 - **Leadership runway:** JJ's Build ownership is a real leadership lane, and every workstream that adopts Reflex creates an adoption-champion role inside it.
 
-### 10. RecGPT / Generative Retrieval — TL: Bella
+### 7. RecGPT / Generative Retrieval — TL: Bella
 Generative retrieval in production on Homefeed. I want to say this plainly because it used to get miscast: this is a gains-producing engine, not an experiment. It launched to production in early 2026, and by April it had exceeded its goal and become the **#1-performing CG on Homefeed**. Serving migrated to Manas with real cost savings and dev-velocity gains, and the candidate budget expanded — largely inherited from ME as part of the consolidation (§3). The job now is impression share: its ceiling has been set by share, not model quality, and that's a solvable constraint. There's an early collaboration exploring whether a generative model could retrieve and rank in a single pass; genuinely early, and I'm not planning around it.
 
 - **Staffing:** Bella (TL) with Hanlin.
 - **Launch history (H1 2026):**
-  - [HF RecGPT CG established](https://pinterest.slack.com/archives/C05UMECTDDJ/p1769480099905659) (Jan 27) — HF repins +0.86% (unique users), shares +2.89%; serving cost driven $970k → $571k → ~$300k/yr (by replacing 100 CLR pins). Cost was the launch blocker; it broke.
-  - [BMI RecGPT unified retrieval/ranking CG](https://pinterest.slack.com/archives/C05UMECTDDJ/p1769641976895319) (Jan 28) — first unified L0-retrieval + L1-scoring ensemble in one service; BMI repins +3.63%, ~$295k/yr with savings expected from the GULP migration.
-  - [Manas migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1776701719670599) (Apr — $59k/yr, parity, unblocked the SMS path) and [UserEventsView migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780951119193459) (Jun — off the custom legacy sequence stack at $0, unblocking in-session sequences and the OmniSage upgrade).
-  - [Diversity improvements](https://pinterest.slack.com/archives/C05UMECTDDJ/p1778094842675639) (May) — Future Window Token Prediction + Gaussian noise: +50% pin coverage, SSv2 +0.08%.
-  - [ME sizer inheritance](https://pinterest.slack.com/archives/C05UMECTDDJ/p1782851752999499) (Jun 30) — 150 sizers: pin coverage +100%, impression share +89.3%, sitewide repins +0.42%, with the intent-expressions −0.13% regression named as the trade.
+    - [HF RecGPT CG established](https://pinterest.slack.com/archives/C05UMECTDDJ/p1769480099905659) (Jan 27) — HF repins +0.86% (unique users), shares +2.89%; serving cost driven $970k → $571k → ~$300k/yr (by replacing 100 CLR pins). Cost was the launch blocker; it broke.
+    - [BMI RecGPT unified retrieval/ranking CG](https://pinterest.slack.com/archives/C05UMECTDDJ/p1769641976895319) (Jan 28) — first unified L0-retrieval + L1-scoring ensemble in one service; BMI repins +3.63%, ~$295k/yr with savings expected from the GULP migration.
+    - [Manas migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1776701719670599) (Apr — $59k/yr, parity, unblocked the SMS path) and [UserEventsView migration](https://pinterest.slack.com/archives/C05UMECTDDJ/p1780951119193459) (Jun — off the custom legacy sequence stack at $0, unblocking in-session sequences and the OmniSage upgrade).
+    - [Diversity improvements](https://pinterest.slack.com/archives/C05UMECTDDJ/p1778094842675639) (May) — Future Window Token Prediction + Gaussian noise: +50% pin coverage, SSv2 +0.08%.
+    - [ME sizer inheritance](https://pinterest.slack.com/archives/C05UMECTDDJ/p1782851752999499) (Jun 30) — 150 sizers: pin coverage +100%, impression share +89.3%, sitewide repins +0.42%, with the intent-expressions −0.13% regression named as the trade.
 - **Risk:** low-to-moderate as an engine; the open question is ambition — how hard we push impression share.
 - **Work type:** deep modeling, with ATG as the research partner on the frontier end.
 - **Strategic weight:** our clearest claim to a Pinterest-leading LLM-era rec stack — and the winner of the two-paradigm consolidation, which raises the bar for what it owes.
@@ -373,26 +356,25 @@ Generative retrieval in production on Homefeed. I want to say this plainly becau
 
 ---
 
-## 5. Prioritized cross-org initiatives and seams
+### 8. Unified Explore Backend — TL: Roderick
 
-Obligations with named leads — funded via named deliverables on existing engines, never ringfenced headcount, and nothing ships empty:
+In Daniel's structure this is the Module Platforms program — Roderick as DRI with Esteban, PM coverage from Anna Kiyantseva, Akshatha, and Emun. Consolidating the explore surfaces so the charter and the systems agree, plus the LLM-track serving side; Lionel has been ramping as Roderick's backend partner from the Retentive side. The charter/reporting-line alignment is on the open list (§5).
 
-| Initiative | Lead(s) | EM |
-|---|---|---|
-| Content Exploration | Bella | James |
-| Content Quality (Teen Safety, GenAI controls) | JJ | James |
-| See More / See Less | Yali | James |
-| NLFU Growth | ISR: JJ · Modeling: Devin | James |
+*[Daniel: this one's yours — I've deliberately left the substance for you to write. The framing I care about: where does UEB's charter naturally live so its systems and its reporting agree, and what does it need from areas 1 and 5?]*
 
-- **NLFU (New Low Frequency Users) Growth** — supporting the Growth-led effort. Note the authorization for the associated metric trade-off expires end of September.
-- **See More / See Less** — a co-ownership seat: Yali on retrieval, Raymond Hsu on the front end, no primary or secondary. High visibility.
-- **Content Quality** — scope and counterpart are still thin. Flagged so it does not ship empty.
-- **Content Exploration** — the newest of the four; Bella carries it alongside RecGPT. *[Scope: fill as it firms up.]*
-- **The UPP ownership seam** — there is an active discussion above us about where the personalization substrate should live. I am handling it; you should know it exists.
+### 9. LLM for Recommendations (Intelligent Boards, etc.) — TL: Balaji
 
----
+Daniel's Intelligent Board program: Intelligent Boards MVP (offline first), LLM-based pUIC, and Next Board Prediction — PM Emun, Balaji as DRI, Ling at 50%. The area name is deliberate: the charter is the LLM-for-recommendations capability, not any single MVP — bets inside it graduate or sunset without redrawing the map. It's also one of §2's two 2026 incubations, which means a named incubation owner and explicit graduation criteria apply here from day one.
 
-## 6. What is decided, and what is open
+*[Daniel: yours to write — including success metrics with Product, which I care about being explicit before momentum sets them implicitly.]*
+
+### 10. Collection Personalization (Recommended Boards, etc.) — TL: Yongwoo
+
+Daniel's Collection P13N program: Board Rec (UGC Board, SMB Board) and Board Ranker (a cross-team project, currently without PM coverage) — Yongwoo as DRI, with Felix and Ling at 50%. A live production surface with real latent upside through surface pairings.
+
+*[Daniel: yours to write. The one thing I'll carry over from my earlier read: product direction here is genuinely unclear to me, and I'd rather understand it properly than decide — this is a walkthrough where I'm mostly listening.]*
+
+## 5. What is decided, and what is open
 
 **Decided — not reopening:**
 - The interim team structure announced in August, and the current reporting lines.
