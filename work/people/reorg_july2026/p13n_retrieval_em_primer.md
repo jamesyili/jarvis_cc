@@ -178,9 +178,9 @@ Ground rule 8 has a history; AI-first started as practice and became a program. 
 
 ### The year-over-year read (as of August 2026)
 
-Both logs are threaded above, so here's the honest compare — same naive cumulative-sum method both years, and the 2026 tracker is *stricter* about what counts (withdrawn results, pre-AA flags, regressions named), so if anything this understates the delta:
+Both logs are threaded above, so here's the honest compare — same naive cumulative-sum method both years, with one asymmetry worth knowing: the 2026 tracker is *stricter* about what counts (withdrawn results, pre-AA flags, regressions named), so the two totals aren't inflated equally:
 
-- **Pace.** 2025 delivered +2.12% SSv2 across the full year. H1 2026's stat-sig rows alone sum to roughly +2.5% — about double the pace, on half the calendar, from ~40 launches in six months.
+- **Pace.** 2025 delivered +2.12% SSv2 across the full year. H1 2026 sums to **~+1.5%** through late July (my own reconciliation, 8/8) from ~40 launches — annualizing to roughly +2.6%, ahead of 2025's pace but not a step-change, and measured under stricter rules. The topline says "modestly faster"; the mix below is where the year actually differs.
 - **Mix.** 2025's impact was engagement-harvest: one flagship (CLR) on essentially one surface, the LWS metronome beside it, funded by a ~$4.5M deprecation campaign. H1 2026 is a portfolio: five independently delivering lines — CLR, LWS + L1, RecGPT, Retentive Recs, UPP-on-notifications — across four surfaces, with savings redeployed into new engines rather than banked.
 - **Retention.** From byproduct to product line. 2025 had one named absolute-count win (Board CLR, ~+140k MAU); H1 2026 has five, across three distinct mechanisms (UIC signals, notification retrieval, NLFU responsiveness), plus the April program-level holdout validation. Retention is what this org was funded on — this is the trajectory line that matters most.
 - **The discipline completed its first full cycle.** 2025 demonstrated incubate-and-graduate. H1 2026 added the half most teams never do: sunsetting our own KDD-published paradigm on portfolio evidence.
