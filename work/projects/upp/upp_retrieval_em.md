@@ -4,6 +4,15 @@
 
 ---
 
+## August 7, 2026 Update — Kurchi invites the ship; P10 WAU confirmed blocking; two clarifiers open
+
+**From the group DM (Kurchi, Piyush, Jiaxing, Zhenjie, James) the day after the launch review — screenshot captured 8/8:**
+
+- **Kurchi (2:39pm), the bar in her own words:** relevance "down to neutralish to −0.3 ish range — that will be best. I am most worried about the complete off-topic ones (cat for nails, monkey for cartoon, bedroom for outdoor pool etc)." Then: **"Feel free to back channel and bring it to me once those very off topic pins are taken care of."** → Strongest cooperation signal on record from her; the political blocker has converted into a named, finite technical bar. Note the shape of her worry: the *tail* (egregious off-topic), not the mean — the effective bar may be softer than the metric bar. (Posture entry filed in stakeholders §6.)
+- **Piyush's two open clarifiers (3:39pm):** (1) is the −0.3 bar on **b2.5_precision@4 or b1.5_precision@8**? (2) is the P10 WAU drop a blocker given P6 WAU neutral + UCAN SSv2 wins?
+- **Zhenjie Zhang (4:57pm): P10 WAU IS blocking** — "P10 WAU is a key P2P OKR. If we have sig drop there, it does look blockering. We'll need mitigation strategy." P2P team digging into P10-user relevance; asked Piyush to size the better-sampling-with-P10-data work — **timeline unscoped**.
+- **Net launch state:** two gates, both now cooperatively owned — relevance recovery (−2.17% → −0.3ish; remediation running) and P10 WAU mitigation (new, unsized). James's read (8/8): strong odds of launching within ~4 months given Kurchi's support; the calendar risk is rating-relevant (EOY calibration lands ~Nov).
+
 ## July 27, 2026 Update — SSJ wrestle now runs through "Intentful UPP" doc + committee idea; Andrena/Krystal ops-lean thread opened
 
 **From James's Slack (group DM: Dhruvil, Krystal Benitez, Matt Chun — James initiated 5:36pm, executing Dylan's 1:1 action "ping Krystal, Matt"):**

@@ -154,3 +154,28 @@ Full dossier-validation entry in `stakeholders.md` §3 (2026-08-07). Team-record
 - **James's blend proposal resonated:** model-side depth in service of product/user (exploration-shaped) — she found both directions appealing.
 - **Cadence set: weekly 45-min 1:1s starting next week.** Her vacation = ~2 weeks starting end of August → **"let's get somewhere in the next two weeks"** is the working clock.
 - **Personal:** Mountain View (Wisman Park side); son Aiden turns 2 in September. History: full-stack → infra → shopping ingestion → ML (related-products recs back when shopping recs were one team) → curation; built BoardRanker.
+
+---
+
+## 2026-08-08 update — Daniel's own team map (from his working doc, pre-Monday)
+
+Captured from Daniel's running doc (screenshot, 8/8) — his own framing of the team, drawn before the first trio meeting. **Five programs, each with DRI + PM coverage named** (EM = Daniel on all rows); merge-ready with James's areas grammar — primer §4 areas 6–8 mirror it.
+
+| Program | Projects | PM | DRI | Eng |
+|---|---|---|---|---|
+| **Intelligent Board** | Intelligent Boards MVP (offline), pUIC (LLM-based pUIC, Next Board Prediction) | Emun Solomon | Balaji Rengarajan | Balaji, Ling Lan (50%) |
+| **Collection P13N** | Board Rec (UGC Board, SMB Board), Board Ranker (x-team project, no PM coverage) | Emun Solomon | Yongwoo Noh | Yongwoo, Felix Yang, Ling Lan (50%) |
+| **Module Platforms** | Unified Exploration Backend | Anna Kiyantseva, Akshatha K. ⟨surname truncated in capture⟩, Emun Solomon | Roderick Gao | Roderick, Esteban Zavala |
+| **UPP ML Foundation** | Notification Label Volume Recovery, Unified Data Pipeline, **SearchSage CLR** | Matt Chun | Kim Toy | Kim Toy |
+| **AI Harness** | Customized code-quality agents, ML engineering skills, curation-ML knowledge base | TBD | TBD | "Everyone" |
+
+**What this fills or changes vs. the 7/7 roster:**
+- **Yongwoo Noh unknown → RESOLVED:** DRI of Collection P13N (Board Rec UGC/SMB + Board Ranker).
+- **Felix Yang unknown → RESOLVED:** Board Rec eng under Yongwoo.
+- **Kim = solo DRI of "UPP ML Foundation"** — the map institutionalizes exactly the UPP-infra + CLR split behind her 8/7 vacuum and promo-wound reads, and her own clean cut-point (ship the unified data pipeline) isn't reflected. Raise with Daniel deliberately rather than letting the map settle it. **SearchSage CLR is new detail** — CLR expanding cross-surface inside Daniel's team; a quiet input to the where-does-CLR-end-up question.
+- **Ling at 50/50** (Intelligent Board + Collection P13N) while also critical to pUIC-LM with Chuxi's team — three claims on the team's scope-hungry growth case (her named H2 direction is *owning* scope); watch fragmentation. Rule-4's "what would make them leave" applies to her first.
+- **AI Harness = Daniel's Pin-tools pattern institutionalized** ("Everyone," DRI TBD) — breaks his own named-DRI discipline; the fix is the opportunity: naming an adoption champion creates the Reflex-adoption seat inside Curation ML (a clean build-together seed for the trajectory play).
+- **LLM-pUIC listed under Intelligent Board** — quiet charter overlap with the Retentive Recs program (now on the primer §2 confusion list); settle at the table, not by map placement. Charitable read: he's anticipating the Anna LLM-backbone play.
+- **Perf trending (his doc, sensitive):** EE-trending = Yongwoo, Ling, Roderick — all three hold the DRI/critical seats (investment-follows-talent behavior, unprompted); MS-trending = none. With Felix's do-not-circulate note on file, "none" is a calibrate-gently datapoint, not a challenge.
+- **His staff-meeting prep includes "First Team" (Patrick Lencioni) for P13N Retrieval Staff** — arriving Monday pre-bought into ground rule 1.
+- Also in the doc: an open question to work, "Thoughts on PinnerSpark vs LLM pUIC?" — he's engaging the pUIC design space on his own.

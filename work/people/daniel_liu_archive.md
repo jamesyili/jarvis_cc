@@ -146,3 +146,13 @@ James to David: 4–5 conversations over six months, every one ending *"I'm okay
 - **Glad about the one-hour weeklies** — the cadence is landing as support, not surveillance.
 
 **⚠️ Leo's flag on the comparative frame:** James's own words — "I can tell I like Alim more… I want to give Daniel a chance as well." The attributes drawing James to Alim (bias for action, managing up, rallying) are James's own attributes — affinity-bias risk in the develop-or-document ledger. Daniel's profile (reserved, deep, considerate, execute-when-directed) is a different senior archetype, not the absence of one. Keep the ledger scored on behavior against explicit asks, not on temperamental resemblance. James is already self-aware here ("give Daniel a chance") — the flag is to keep the two men graded on different rubrics deliberately, not accidentally.
+
+## 2026-08-08 — Staff-prep calibration: the map he drew before anyone asked
+
+From Daniel's working doc, captured 8/8 (team-level detail filed in `reorg_july2026/daniel_liu_team_2026-07.md`):
+
+- **Program-shaped map with named DRIs and PM coverage, unprompted** — structurally the same grammar as James's areas + TL/EM pairs; merged into the primer §4 with zero translation. Consistent with Ling's "he builds frameworks" read — this is who he is, not performance for the new boss.
+- **Strongest people on the flags:** his three EE-trending names (Yongwoo, Ling, Roderick) each hold a program's accountable seat. Rule-5 behavior (investment follows talent) executed before ever hearing the rule.
+- **Names gaps instead of hiding them** — Board Ranker "x-team, no PM coverage"; AI Harness DRI TBD.
+- **Staff prep includes Lencioni's "First Team" for the P13N Retrieval staff table** — walking into Monday pre-aligned with ground rule 1. With 7/27's "I love the clarity here" and the 8/7 trio-sooner ask, the engagement trajectory keeps compounding against the underutilized-because-of-Daniel hypothesis.
+- **Ledger note:** the map's two soft spots are people-shaped, not structure-shaped — Ling's 50/50 split (fragmentation vs. her scope-growth ask) and Kim's solo UPP ML Foundation seat (institutionalizes the vacuum split). Both are conversation items for James with Daniel; neither is a competence flag on Daniel.

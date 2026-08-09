@@ -46,6 +46,11 @@ The five most-used workflow skills (`start-session`, `end-session`, `prep`, `dra
 | `/delegate` | An ambiguous team-good task lands that shouldn't stay on James's plate — "who should take this?" Proposes 3+ candidates (spread-by-default via `work/people/team_service_ledger.md` + growth fit), Slack-ready DM per candidate with AI-first frame |
 | `/plan-week` | "Plan my week" / a to-do list dump. Pulls from Notion (`scripts/notion_pull_todo.py`, screenshot/paste fallback), ranks with one-line whys, flags delegate-instead items → `/delegate`, surfaces what's missing. Weekly horizon only |
 
+### Personal (added 2026-08-08)
+| Skill | Trigger |
+|-------|---------|
+| `/kids-schedule` | "What's the kids' schedule?" / "when does X start?" Renders `self/fall_2026_extracurriculars.md` — weekly grid, date-aware start dates, unbooked slots (speech & debate pending) |
+
 ### Knowledge Base (global skills)
 | Skill | Trigger |
 |-------|---------|

@@ -784,6 +784,12 @@ Dylan brought James + Dhruvil **three priorities she's carrying from Jeff**; a q
 - **Gatekeeper for IC access.** Her org's engineers (Jinfeng, Krishna, Huizhong's reports) are the ones who must engage for cross-surface scoping and co-design.
 - **The relationship that determines whether UPP succeeds through collaboration or attrition.** If Kurchi actively cooperates, Q2 cross-surface goals are achievable. If she slow-plays, progress stalls regardless of Jeff/Rajat support.
 
+### 2026-08-07 — Post-launch-review posture: conditional invitation, not block (group DM w/ Piyush, Jiaxing, Zhenjie)
+
+- After the UPP P2P launch review, Kurchi restated the bar plainly and **invited the ship**: relevance "down to neutralish to −0.3 ish range"; her stated worry is narrow — "the complete off-topic ones (cat for nails, monkey for cartoon, bedroom for outdoor pool etc)." Then: **"Feel free to back channel and bring it to me once those very off topic pins are taken care of."**
+- Read: the posture arc has moved active-block (6/3) → ownership-wrestle in process clothing (7/17–7/27) → **conditional invitation with a named, finite bar and a personal back-channel offer** — the strongest cooperation signal on record from her. Consistent with her C-profile: she committed to evidence-conditioned support, which for her is real commitment.
+- Same thread: **Zhenjie Zhang confirmed P10 WAU is blocking** ("key P2P OKR… does look blockering") and asked Piyush to size better-P10 sampling — the second gate now has a cooperative owner rather than an adversarial one. Piyush's metric-definition clarifier (b2.5_precision@4 vs b1.5_precision@8) still open.
+
 ## DiSC Profile (Inferred)
 - **Primary:** **C (Conscientious)** — leads with "I need data," "show me the evidence," reasonable-sounding process demands
 - **Secondary:** **D (Dominant)** — fiercely turf-protective, will push back on Rajat directly, doesn't fold under VP pressure
