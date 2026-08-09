@@ -2,14 +2,18 @@
 id: resolve-dictation-artifacts-against-context
 trigger: James's input reads voice-dictated and a project/person name doesn't match known context ("Allen Utility", "PinRec v2", "Oliver"), especially when the name is headed into a work deliverable
 behavior: Resolve garbled names against repo context (projects, people, artifacts) and use the canonical name, but flag the mapping explicitly in the reply ("assuming PinRec v2 = Pin Selection v2 (PSv2)") so James can correct. For names Leo cannot resolve from context (new people), carry them verbatim but surface them in a pre-submit spelling check — dictated names are a known error class.
-confidence: 0.8
-evidence_count: 3
+confidence: 0.9
+evidence_count: 4
 created: 2026-07-09
-last_updated: 2026-07-17
+last_updated: 2026-08-09
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-09 (todo/session-overhaul session) — two artifacts in one dictated line, resolve-and-flag confirmed
+> "start working on **leafguests** … looking at **Ashifu**"
+Resolved against the Notion [Reflex] Next steps subs and backlog #11: "leafguests" → **Reflex**, "Ashifu" → **Shifu** (also "authentic AI systems evals" → *agentic*). Flagged the mapping in-reply per the documented move; James's next message ("a new reflex item") confirmed the resolution. Signal: confirmation.
 
 ### 2026-07-17 (Dhruvil/reorg session) — a garbled list nearly reversed a load-bearing org premise
 Two artifacts in one session, both resolved by the documented move:
