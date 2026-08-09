@@ -118,3 +118,4 @@
 | 2026-08-08 17:59 | gmail | [Leo] P13N Retrieval — EM Primer | work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe407f27f91dc6 |
 | 2026-08-08 19:14 | gmail | [Leo] P13N Retrieval — EM Primer | work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe44cf0bb6a38a |
 | 2026-08-08 19:27 | gmail | [Leo] P13N Retrieval — EM Primer | work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe4591627abdf4 |
+| 2026-08-09 13:00 | gmail | [Leo] Trio Sync — Week 1 Pack (Mon 8/10) | work/people/reorg_july2026/trio_sync_week1_pack_2026-08-10.md, work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe81c7e8744e37 |
