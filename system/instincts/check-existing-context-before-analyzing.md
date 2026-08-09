@@ -2,14 +2,21 @@
 id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_archive.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
-confidence: 0.9
-evidence_count: 8
+confidence: 0.95
+evidence_count: 9
 created: 2026-04-23
-last_updated: 2026-07-31
+last_updated: 2026-08-08
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-08
+> James: "he invited two senior MLEs... to write very glowing feedback... and did not write anything at all for his improvement areas." The pasted primary document showed 2 of 5 recent entries (Anna, Yidi) contained substantive critiques corroborating James's own H1 findings.
+
+Context: Yuke performance session. James, angry, characterized the peer-feedback file as an orchestrated whitewash and was about to act on that read (probing ATG members in booked 1:1s). Leo read the pasted primary source cold before endorsing the characterization; the read materially changed the advice (don't probe; the file partially supports the case) and lowered the temperature. Extension of the load-bearing-facts clause: **an emotionally-loaded characterization of a document is itself a load-bearing claim — read the primary doc before building on it.** James accepted the corrected read and acted on it (kept 1:1s work-only, stopped chasing Krystal).
+
+Signal: confirmation (non-obvious move accepted and acted on; +0.1, capped at 0.95).
 
 ### 2026-04-23
 > "You should already look back at Roberto's incidents to get a context on how he has reacted to potential collaboration attempts in the past, which is to say that he was very actively against it. Take a look at that context so you should know."
