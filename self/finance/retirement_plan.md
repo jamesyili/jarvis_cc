@@ -79,3 +79,16 @@ Coast option (James stops earning, Fan keeps working, base returns): stopping in
 ## How This Sits With the Two Dreams
 
 The 2026-07-11 session framed frontier-lab-later and Director-here as an optionality portfolio sharing 90% of next moves. This plan adds the third axis and finds the same answer: **for the next ~5 years, maximum-trajectory work is also the fastest path to the money line, so nothing forks yet.** The fork arrives around 2030–2031 at ~$14M, when marginal work-years stop buying meaningful time and start costing Ethan-summers. That is the date to circle, and it is also roughly when the Director outcome resolves and when a lab move would be trust-routed through delivered work. All three clocks converge on the same two-year window. Plan accordingly, decide then.
+
+---
+
+## 2026-08-08 snapshot — SUPERSEDES the 2026-07-13 numbers above (post-Lee-sale, corrected costs)
+
+From James's PC-side workbook compute (pasted 8/8):
+
+- **Net worth $12,291,705** (+$1.13M / +10.1% YoY; +32% over two years). Mix: cash $1.90M (13%) · investments $6.40M (45%) · real estate $6.06M (42%, down from 53% — Lee sold) · debt −$2.07M (−22% YoY).
+- **Accessible-today liquidity: $6.12M after-tax** (after ~$796k tax on $2.3M embedded gains, 11.5% haircut), before touching retirement accounts or property.
+- **Income:** household TC $2,350,660 (James $1.50M · Fan $854k incl. one-time $70k retention). **Spend:** $455k measured 2025 → ~$407k run-rate with Lee carrying costs gone, vs the $447k limit — first real headroom.
+- **Retirement machine: ~70% funded.** Fuel $8.24M vs ~$11.8M target ($304k/yr mortgage-free @3.5% SWR, both surviving mortgages paid at finish). **Central crossing ~Jan 2029, at 42** (corrected — the earlier Apr-2030 carried dead Lee costs); band ≈ mid-2027 (at 41) to ~2032 (at 45) — even pessimistic paths land before 46. Gap closing at ~$1.6–1.7M/yr.
+- **Levers ranked:** recurring burn is king (−$25k/yr ≈ a $500k raise) · one-offs are noise (~0.7 days per $3k trip — take the vacations) · marginal income weak (~1.5 months per $100k/yr) · markets ±2 years. Job menu priced: Pinterest promo ≈ 8 months · Meta at the $3M ask ≈ 18-month sprint · lab offers count only if equity sells on schedule.
+- **Watch list:** (1) Oct 1 ARM reset — $2.07M repricing toward ~6.5% worst case; caps unknown (Range); paydown-vs-deploy analysis queued, $671k wire ready. (2) Taxes — $37k federal top-up Sep 15; ~$230–240k total tax cash earmarked through next April. (3) Grant dependency — ~63% of household income is PINS/TEAM equity (untradeable); a grant freeze = 2029 → 2032. (4) Education fork — both-kids-private pushes retirement ~1.5–2 years; decision arrives fall 2027 with the finish line visible.
