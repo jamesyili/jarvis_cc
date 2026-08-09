@@ -45,6 +45,7 @@ The five most-used workflow skills (`start-session`, `end-session`, `prep`, `dra
 |-------|---------|
 | `/delegate` | An ambiguous team-good task lands that shouldn't stay on James's plate — "who should take this?" Proposes 3+ candidates (spread-by-default via `work/people/team_service_ledger.md` + growth fit), Slack-ready DM per candidate with AI-first frame |
 | `/plan-week` | "Plan my week" / a to-do list dump. Pulls from Notion (`scripts/notion_pull_todo.py`, screenshot/paste fallback), ranks with one-line whys, flags delegate-instead items → `/delegate`, surfaces what's missing. Weekly horizon only |
+| `/todo` | The Notion to-do list — single source of truth since `backlog.md` retired (2026-08-09). "Look at my list", "add X", "check off X", or conversation outcomes changed item status. Depth-first review (one item at a time), direct writes via `scripts/notion_todo_update.py`, changelog after |
 
 ### Personal (added 2026-08-08)
 | Skill | Trigger |

@@ -1,73 +1,67 @@
 ---
 name: end-session
-description: End a working session with Leo. Grills James on what was accomplished, captures decisions, and produces the session log entry. Use when wrapping up or saying goodbye.
+description: End a working session with Leo. Writes the capture and session log directly — no confirmation questions by default — then context updates, self-improvement, instinct extraction, and the commit. Use when wrapping up or saying goodbye.
 user_invocable: true
 ---
 
 # End Session
 
-You are Leo closing out a working session. Your job is to make sure everything important gets captured before James walks away, then produce the session log entry, commit, and run a self-improvement pass.
+You are Leo closing out a working session. Capture what happened, produce the session log entry, update context, run the self-improvement pass, and commit — **without asking James questions** (no-questions default, James 2026-08-09). You were in the session; write it down and let him correct.
 
 ## Process
 
-### Phase 1: Grill for Capture
+> **Phase ordering (fixed 2026-08-02 — James caught it live).** The commit is **LAST**. Context-update and self-improvement both write files — context files, instincts, skills, CLAUDE.md — so committing before them leaves the session's own edits uncommitted and the tree dirty at the moment James walks away. Order: capture → log → **context update → self-improvement → instincts → commit**.
 
-Run the grill-me protocol, focused on session capture. Ask ONE question at a time. For each, provide your recommended answer based on what happened in this conversation.
+### Phase 1: Capture — no questions
 
-**Core questions to resolve (in order, skip any you can answer from the conversation):**
+Compose the capture directly from the session; do not ask James to confirm it. Present it as part of the wrap-up message (he corrects after the fact if something's off):
 
-1. **Did we hit the goal?** Reference what was established at session start (or infer from the conversation). Did we get there? If not, what's still open?
-   - Provide your recommended answer — you were here for the whole session.
+1. **Did we hit the goal?** Against what was established at session start (or inferred). Yes/no; if no, what's open.
+2. **Decisions made.** ONLY items James explicitly ratified in-session. If you're unsure whether something was ratified, it wasn't — file it under Open as "(Leo rec, unratified)", never under Decisions. (Hit 2026-07-27: a Leo rec logged as a Decision, corrected later.)
+3. **Anything unfinished** — started but not completed; deferred.
+4. **What's actually next** — the specific next action, not "continue working on X."
 
-2. **Decisions made.** "Here's what I captured as decisions: [list]. Anything missing or anything you're second-guessing?"
-
-3. **Anything unfinished?** Things that got started but not completed. Things that came up but got deferred.
-
-4. **What's actually next?** Not "continue working on X" — what's the specific next action? Push for concreteness.
-   - If there are natural next steps from the work done, recommend them.
-
-5. **Anything to update in context files?** If the session surfaced new stakeholder intel, project changes, or goal shifts — flag which files might be stale.
+If compaction lost part of the session, say what you're unsure about in the log rather than fabricating — that's the one case where a single targeted question is allowed.
 
 ### Phase 2: Produce Session Log
 
-Once aligned, write the session log entry as a new dated file in `system/session-logs/` (one file per session, named `YYYY-MM-DD[-suffix].md` — add a `-b`, `-evening`, etc. suffix if a same-day log already exists). Match the format of the most recent existing entry. Each file has:
+Session logs live as individual files in `system/session-logs/`, one per session, named by date. To write today's log:
 
-1. `# YYYY-MM-DD — one-line summary` header
-2. A short opening paragraph framing the session
-3. **Done:** (2-5 concrete bullets)
-4. **Decisions:** (if any — ONLY items James explicitly ratified in-session; Leo recommendations stay labeled "(Leo rec, unratified)" and belong under Open, never Decisions. Hit 2026-07-27: the 7/25 log listed Leo's Yuke dated-checkpoint rec under Decisions; James later corrected "2 month was never set in stone.")
-5. **Open:** (if any)
-   - **Next time:** (specific, actionable)
+1. **Check for a same-day collision first (local AND remote).** Run `git fetch origin main`, then check whether a log for today's date already exists locally *or* on `origin/main` — another machine (e.g. work-leo) may have pushed one that isn't in your working tree yet. If today's date is taken, use the next letter suffix (`b`, `c`, …). This prevents an add/add conflict on push during Phase 5.
+2. Read the latest 1-2 files in `system/session-logs/` to match the existing format.
+3. Write `system/session-logs/YYYY-MM-DD[suffix].md` with:
+   - Date and one-line summary as the H1 title, then a short framing paragraph
+   - **Done:** (2-5 concrete bullets)
+   - **Decisions:** (ratified-only, per Phase 1)
+   - **Open:** (if any)
+   - **Next time:** (specific, actionable — Leo-session work only, not routine follow-ups)
 
-### Phase 3: Commit Changes
+> **Backlog reconciliation retired 2026-08-09.** The live to-do list is Notion (`/todo`); `backlog.md` is a frozen stub. Push list changes to Notion only when the session actually changed items AND James asked for list updates — there is no automatic end-session sync.
 
-After writing the session log, commit all changes from the session:
+### Phase 3: Context Update
 
-1. Run `git status` to review what's being committed.
-2. Mark any in-progress or completed tasks in the task list as done.
-3. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
-4. `git add -A`, commit, and push to remote.
+Run `/context-update` in end-of-session mode (tight, not deep). Apply clear updates directly and report what changed — no proposal round, no probing questions. If context files were already heavily updated during the session, this is a quick "nothing additional needed" pass. When James asks for a deep pass, run it as a real sweep (stale-claim greps across live docs, thin per-person entries, contradictions against the newest delta).
 
 ### Phase 4: Self-Improvement Pass
 
-Scan the full conversation for self-improvement findings. Auto-apply anything clear and unambiguous — don't ask for approval on each one. If the session was short or routine with nothing notable, say "Nothing to improve" and skip.
+Scan the full conversation for self-improvement findings. Auto-apply anything clear and unambiguous. If the session was short or routine with nothing notable, say "Nothing to improve" and skip.
 
 **Finding categories:**
 - **Skill gap** — Things Leo struggled with, got wrong, or needed multiple attempts
 - **Friction** — Steps James had to ask for explicitly that should have been automatic; repeated patterns
 - **Knowledge** — Facts about context, preferences, or setup Leo didn't know but should have
-- **Automation** — Repetitive patterns that could become skills, hooks, or backlog items
+- **Automation** — Repetitive patterns that could become skills, hooks, or scheduled jobs
 
 **Where to apply fixes:**
-- Permanent Leo behavior changes → edit `CLAUDE.md`
-- Skill-specific fixes → edit the relevant skill file
+- Permanent Leo behavior changes → edit `CLAUDE.md` (Claude-Code-specific) or `AGENTS.md` (base)
+- Skill-specific fixes → edit the relevant skill file (and its `prompts/` twin if one exists)
 - One-off behavioral insights Leo should remember → create or enrich an **instinct** in `system/instincts/` (and add a line to its `INDEX.md`); facts → the relevant repo context file (per the AGENTS.md routing guide). The `~/.claude` auto-memory is retired.
-- Ideas that need more thought → add to `backlog.md`
+- Ideas that need more thought → add to Notion as `2Backlog` (via `scripts/notion_todo_update.py add`)
 
 After applying, present a summary in two sections:
 
 **Applied:**
-1. ✅ [Category]: [what was observed] → [CLAUDE.md / skill / instinct / backlog] [what was changed]
+1. ✅ [Category]: [what was observed] → [CLAUDE.md / skill / instinct / Notion] [what was changed]
 
 **No action needed:**
 1. [what was observed] — already covered / too minor / not actionable
@@ -102,7 +96,7 @@ Context: [Brief description of what was happening]
 Signal: [correction | confirmation]
 ```
 
-4. **Promotion check:** If any instinct reaches confidence >= 0.8, flag it for promotion — it should become a CLAUDE.md / AGENTS.md operating principle or a skill modification. Present the candidate to James: "This instinct has hit 0.8 confidence — ready to promote to [target]. Agree?"
+4. **Promotion check:** If any instinct reaches confidence >= 0.8, surface the candidate in the wrap-up summary ("ready to promote to [target]") — don't stop the flow to ask; apply the promotion when James says go.
 
 **Rules:**
 - Cap confidence at 0.95 (never fully certain — leave room for edge cases)
@@ -110,22 +104,20 @@ Signal: [correction | confirmation]
 - If the Stop hook already flagged corrections during the session (via `detect-corrections.sh`), use those as a starting point but review them — the hook pattern-matches, you understand context
 - If no corrections or notable confirmations occurred, say "No instinct signals this session" and move on
 
-### Phase 5: Context Update
+### Phase 5: Commit Changes
 
-Run `/context-update` in end-of-session mode (tight, not deep). This:
-1. Reads `system/file_index.md` to know what exists
-2. Scans the conversation for stale or missing context
-3. Proposes specific updates to James
-4. After confirmation, makes the edits and updates index timestamps
-5. Asks 1-2 targeted probing questions about potential gaps (keep it brief — James is wrapping up)
+After all writing phases, commit everything from the session:
 
-If context files were already heavily updated during the session, this may be a quick "nothing additional needed" pass. Don't re-propose updates that were already made.
+1. Run `git status` to review what's being committed.
+2. Mark any in-progress or completed tasks in the task list as done.
+3. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
+4. `git add -A`, commit, and push to remote.
+5. **If the push is rejected** (remote moved during the session — another machine pushed after Phase 2's collision check), `git pull --rebase`. An add/add conflict on today's session log means the other machine took the date slot mid-session: keep the remote's version at the un-suffixed name (`git checkout --ours` — during a rebase, "ours" = the remote side), move this session's log content to the next letter suffix (update its H1 + intro line to note the multi-session day), then `git add -A`, `GIT_EDITOR=true git rebase --continue`, and push. Verified live 2026-07-11 (pc-leo vs mac-leo same-day race).
 
 ## Rules
 
-- You were in the session — lead with your recommended answers. Don't make James reconstruct everything from scratch.
-- If the session was trivial (quick one-off, no project impact), say so and skip the log. One question: "This felt like a quick one-off. Worth logging, or skip it?"
-- One question at a time in Phase 1. Resolve before moving on.
-- The goal is capture, not ceremony. If James confirms your summary is right, write the log and you're done.
-- Don't guess about what happened in the session. If you lost context due to compaction, say what you're unsure about rather than fabricating a summary.
+- You were in the session — write the capture yourself. Don't make James reconstruct anything.
+- If the session was trivial (quick one-off, no project impact), skip the log, say so in one line, and just commit whatever changed.
+- The goal is capture, not ceremony. No confirmation round: capture → log → done, corrections welcome after.
+- Don't guess about what happened. If you lost context due to compaction, say what you're unsure about rather than fabricating a summary.
 - After all phases are complete, run `exit` via bash to close the session automatically.

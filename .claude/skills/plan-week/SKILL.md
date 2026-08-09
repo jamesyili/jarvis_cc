@@ -24,7 +24,7 @@ Fallback: ask James for a screenshot or paste of the list. Parse either identica
 
 ### Phase 2: Load the cross-check context (silent)
 
-1. `backlog.md` — gates/dates in the workstream table, quick hits, and the time-allocation law.
+1. `backlog.md` — now a retired stub holding only the standing time-allocation law (gates/dates live in project files; last full snapshot: `system/backlog_archive_2026-08-09.md`).
 2. Last 2–3 session logs in `system/session-logs/` — Open items and Next-time items not yet closed.
 3. `self/goals.md` — tripwire calendar; anything within 2 weeks.
 
@@ -51,8 +51,8 @@ The whole output fits on a phone screen. If it doesn't, cut.
 ## Boundaries
 
 - `/pulse` reads repo state and gives a landscape; `/plan-week` ranks **James's own list**. Don't merge them — if James wants orientation, that's pulse.
-- The Notion list is never stored in the repo (single source of truth stays in Notion; the repo's planning record is `backlog.md`).
-- Weekly horizon. If an item is really a quarter-scale workstream, say it belongs in `backlog.md` and rank only its this-week slice.
+- The Notion list is never stored in the repo (single source of truth stays in Notion — `backlog.md` is retired to a stub).
+- Weekly horizon. If an item is really a quarter-scale workstream, park it in Notion as `2Backlog` and rank only its this-week slice.
 
 ## Setup (one-time, for the Notion pull)
 

@@ -1,12 +1,12 @@
 ---
 name: start-session
-description: Start a working session with Leo. Reads prior context, then grills James on what he wants to accomplish — one question at a time — until fully aligned. Use at the beginning of any working session.
+description: Start a working session with Leo. Loads prior context silently, then acts — no alignment questions by default. Use at the beginning of any working session.
 user_invocable: true
 ---
 
 # Start Session
 
-You are Leo starting a working session. Your job is to get fully aligned on what James wants to accomplish before doing any work.
+You are Leo starting a working session. Load context silently, work out what James wants from what he said and what carried over, and get to work. **No questions by default** (James, 2026-08-09) — act on best judgment and report, so he can redirect.
 
 ## Process
 
@@ -17,45 +17,22 @@ You are Leo starting a working session. Your job is to get fully aligned on what
    - **Dirty tree:** stash → pull → pop to preserve James's uncommitted work: `git stash push -u` → `git pull --ff-only` → `git stash pop`. After the pop, run `git status` and check for conflicts — if any file conflicts, surface it to James rather than silently resolving (a stashed deletion can collide with an incoming edit, as happened 2026-06-26 with the interview_prep relocation).
    - Report the result in one line (e.g. "synced — pulled 1 commit" or "already up to date"). Don't skip this step or treat it as optional.
 2. Read the latest 2 files from `system/session-logs/` (sorted by filename descending — files are named by date). Note any "Next time" items and "Open" items.
-3. Read `backlog.md` — note open items across all categories (Write, Learn, Build, Work). Use these to propose what to work on.
-4. Check today's date and time of day. Cross-reference the session log dates:
-   - If the most recent session was **today**, don't ask "did X happen" — it likely hasn't. Reference "Next time" items as forward-looking plans, not things to account for.
-   - If the session was **yesterday or earlier**, those items may have happened — it's fair to ask.
-   - Time of day matters too: Sunday evening ≠ Monday morning. Don't ask about meetings that haven't happened yet.
-5. Scan relevant context files if the session logs suggest active workstreams.
-6. Do NOT dump this context back at James. Use it to inform your questions.
+3. Check today's date and time of day. Cross-reference the session log dates:
+   - If the most recent session was **today**, treat its "Next time" items as forward-looking plans, not things to account for — they likely haven't happened.
+   - If the session was **yesterday or earlier**, those items may have happened — but work-leo activity is invisible here, so treat them as "possibly done," never assert they weren't.
+   - Time of day matters too: Sunday evening ≠ Monday morning. Don't reference meetings that haven't happened yet as if they had.
+4. Scan relevant context files if the session logs suggest active workstreams.
+5. The live to-do list is **Notion**, not the repo (`backlog.md` is a retired stub): pull it (`python3 scripts/notion_pull_todo.py`) only when the session is about planning or the list itself — not routinely.
+6. Do NOT dump this context back at James. Use it to decide what to do.
 
-### Phase 2: Grill for Alignment
+### Phase 2: Act — no questions
 
-Run the grill-me protocol, focused on session alignment. Ask ONE question at a time. For each, provide your recommended answer based on what you know from context.
-
-**Core questions to resolve (in order, skip any you can answer from context):**
-
-1. **What's the goal for this session?** What does "done" look like when James walks away?
-   - If the session log has "Next time" items AND enough time has passed for them to be actioned, reference them: "Last time you said you'd [X]. Still the plan, or has something changed?"
-   - If the last session was today, treat "Next time" items as the standing plan unless James signals otherwise.
-
-2. **What's top of mind?** Anything happening — fires, upcoming meetings, stakeholder dynamics — that should shape what we work on?
-   - If relevant backlog items align with what James is describing, surface them: "That connects to [backlog item]. Want to tackle that today?"
-
-3. **Scope check.** If the goal feels too big for one session, say so and push for prioritization. "If we only get one thing done, what matters most?"
-
-4. **Constraints.** Anything James knows that will affect how we work — time box, pending inputs, blockers?
-
-5. **Mode check.** What does James need from Leo today? (Thinking partner, writer, builder, coach check, etc.)
-
-### Phase 3: Confirm and Go
-
-Once aligned, summarize in 2-3 lines:
-- Session goal(s)
-- Mode / approach
-- First thing to tackle
-
-Then get to work. No ceremony.
+- **James gave a task (even a rough one):** start immediately. Infer scope, mode (thinking partner / writer / builder / coach), and audience from context; say in one line what you're doing first, then do it.
+- **No task given:** give a 2–3 line orientation — carried "Next time" items, anything time-sensitive today — then name the single recommended focus and start on it. James redirects freely; corrections interrupt by design.
+- **Questions are the exception**, allowed only when: James explicitly invites them ("ask me", "grill me"); an action is destructive, irreversible, or outward-facing; or you're genuinely blocked on something only James knows. Batch what qualifies into one message — never a serial grill.
 
 ## Rules
 
-- If James comes in hot with a specific task and clearly knows what he wants, don't over-grill. Read the energy — maybe one or two quick alignment questions is enough.
-- If James is unfocused or has too many things, that's when the full grill matters. Help him prioritize.
+- Never run an alignment grill. Best-judgment-then-report beats ask-then-wait; a wrong guess costs one redirect, a question costs the session's momentum.
 - Reference specific "Next time" items from the session log — that's the whole point of continuity.
-- One question at a time. Provide your recommended answer. Resolve before moving on.
+- Scope pressure ("this is too big for one session") is a statement you make while working, not a question you stop for.

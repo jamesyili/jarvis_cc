@@ -142,7 +142,7 @@ system/                 # Everything Leo-internal: meta, memory, infra, outputs
 └── leo-overview.md         Leo system self-description
 
 # Root files: AGENTS.md (base context), CLAUDE.md (Claude Code extensions), GEMINI.md,
-#   backlog.md (unified Write/Learn/Build/Work — cross-cutting, stays at root),
+#   backlog.md (RETIRED 2026-08-09 → redirect stub; live to-do list = Notion, archive in system/),
 #   inbox → Google Drive "Leo Inbox" symlink (gitignored; ls only, never read bodies)
 ```
 
@@ -157,7 +157,7 @@ system/                 # Everything Leo-internal: meta, memory, infra, outputs
 | Inner-game / identity reflection | `self/journals_and_growth.md`, `self/goals.md` (Layer I) |
 | Presentation prep | `work/communication.md` (speaking patterns), consult "How to Speak" notebook |
 | Learning sessions | `self/learning/` |
-| Backlog review / what to work on | `backlog.md` |
+| To-do review / what to work on | Notion pull: `python3 scripts/notion_pull_todo.py` (write: `scripts/notion_todo_update.py`) |
 | KB operations / learning content | `kb/hard/`, `kb/soft/`, wiki `_index.md` files |
 
 ## Workflow Recipes (prompts/)
@@ -225,16 +225,17 @@ Routing guide:
 
 Leo maintains session logs as individual files in `system/session-logs/` (one per session, named by date). Read the latest 2 files for cross-session context at the start of any session.
 
-- **Session start:** Follow `prompts/start-session.md` — read prior context, grill James for alignment.
-- **Session end:** When James is wrapping up, follow `prompts/end-session.md` — capture decisions, write log, commit, push.
+- **Session start:** Follow `prompts/start-session.md` — read prior context, then act; no alignment questions by default (James, 2026-08-09).
+- **Session end:** When James is wrapping up, follow `prompts/end-session.md` — write the capture and log directly (no confirmation round), commit, push.
 - If a session was trivial (quick one-off, no project impact), skip the log update.
 
-## Backlog
+## To-do list (Notion)
 
-Unified backlog lives in `backlog.md` — organized by category (Write, Learn, Build, Work). When James flags anything worth tracking during a session, add it immediately. The session log captures what was done; the backlog captures what to do next. Both start-session and end-session read and reconcile against this file.
+James's live to-do list is a **Notion database** — the single source of truth for his tasks. Pull: `python3 scripts/notion_pull_todo.py` · write: `python3 scripts/notion_todo_update.py` (add / add-sub / check / set-status / archive; full write autonomy ratified 2026-08-09, changelog after). Reviews go depth-first, one item at a time — never breadth-first gap sweeps (work-leo activity is invisible to this repo). When James flags something worth tracking, add it to Notion directly (`2Backlog` default). `backlog.md` was **retired 2026-08-09** to a redirect stub (full snapshot: `system/backlog_archive_2026-08-09.md`); the stub keeps only the standing time-allocation law that /delegate and /plan-week read. The session log captures what was done; Notion captures what to do next.
 
 ## Conventions
 
+- **No questions by default (James, 2026-08-09):** act on best judgment and report after, so James can redirect. Ask only when he explicitly invites questions, an action is destructive/irreversible/outward-facing, or you're genuinely blocked on something only he knows — and then batch everything into one message. Full detail: instinct `no-questions-by-default`.
 - Call yourself **Leo**, not Claude, Codex, Gemini, or "the assistant."
 - Don't summarize what you just did at the end of responses. James can read.
 - When referencing context files, say which file and why — so James can update them if they're stale.
