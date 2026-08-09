@@ -28,7 +28,7 @@ We're basically strangers starting over together, all three of us. That's not a 
 
 **7. Nothing leaves this table as a maybe.** While we're building the map — and especially while structure is open — teams hear decisions, from their own manager, with notice. Never scenarios, never previews. That's what makes it safe for the three of us to think out loud in this room.
 
-**8. AI-first operations.** We operate AI-first as a norm, not a slogan: before we add process, meetings, or headcount, the default question is "what does this look like AI-leveraged?" This isn't aspiration — we're already doing it. Reflex is the program-level bet, and PINvestigator and Pinkerton are live examples of engineering leverage in regular use. Daniel's Pin tools are the same pattern from the Curation side. The cost we accept: we spend real time building leverage a quarter-driven team would skip — and all three of us work this way ourselves; it doesn't get delegated downward.
+**8. AI-first operations — and AI fluency as a bar.** We operate AI-first as a norm, not a slogan: before we add process, meetings, or headcount, the default question is "what does this look like AI-leveraged?" This isn't aspiration — we're already doing it. Reflex is the program-level bet, PINvestigator and Pinkerton are live examples in regular use, and Daniel's Pin tools are the same pattern from the Curation side. The other half of the rule is fluency: the candidate funnel we own is being rebuilt around LLMs — generative retrieval is already our #1 CG on Homefeed, LLM-predicted interests and LLM-native curation are next — and I want every engineer in this group fluent in that stack before the shift finishes arriving, the same way we expect fluency in two-tower retrieval today. The cost we accept: we spend real time building leverage and fluency that a quarter-driven team would skip — and all three of us work this way ourselves; it doesn't get delegated downward.
 
 **9. We don't fund everything — because we can't.** That's arithmetic, not philosophy. So we're selective and decisive: fewer things, funded properly, with named owners. And what we don't fund gets an explicit no — said out loud, with a reason — not a slow starvation. The cost we accept: we will decline or kill work that is genuinely good, and we'll own that call rather than letting things die of neglect.
 
@@ -63,28 +63,17 @@ Accountability for this group runs along five axes, and each of the three teams 
 4. **Oncall.** Together with the other teams under Personalization: stewardship that keeps Homefeed, BMI, and Board systems stable, with metric fluctuations monitored and root-caused — HF and BMI metrics; unity-homefeed, unity-gulp, unity-board. Stability through the realignment is part of the job, not an interruption of it.
 5. **Organizational contributions.** *[To be filled at the table — hiring, calibration, interviewing, mentoring. The axis is named now so it doesn't ship empty.]*
 
-*(A sixth heading in my accountability draft — Streamlined Technological Investments — is still to be written; parked here so it isn't lost.)*
+*(A sixth axis — **Streamlined Technological Investments** — is deliberately unwritten: which technologies we invest in once, together, instead of three times separately. The shape of what I mean, as one disposable example: a shared LLM backbone serving retrieval, curation, and interest prediction alike. Bring one candidate each; we draft the heading at the table.)*
 
-### Missions — the flag each team flies
+### The flag — what is this group known for
 
-Rule 3 promises every team a flag: a year from now, each team is known across Pinterest for something. Below are candidates, not decisions — I want each of us to pick, or rewrite, our own at the table. The test I applied to each: it names a capability, it implies the axis it drives, and you could say it in a hallway.
+Rule 3 promises every team a flag: a year from now, known across Pinterest for something. Here's the sequencing decision: **the joint flag comes first.** For the next few weeks the question at this table is the union — what the three of us are building that none of our teams could claim alone. The exercise:
 
-**Retrieval Foundations (mine):**
-1. *"Personalization built once — the substrate every Pinterest surface stands on."* (The UPP flag; measured in cross-surface adoptions.)
-2. *"The engine room: the most reliable gains-per-dollar in Personalization."* (The engines + cost axes; the interim-true version.)
-3. *"The team that makes every ML team faster — substrate below, AI leverage above."* (UPP + Reflex together; measured in adoption and velocity.)
+> **A year from now, what is this group known for across Pinterest — and what did we explicitly not fund to get there?**
 
-My lean: 1 as the end-state flag, 3 if Reflex's demonstration lands first. 2 is true but every team would claim it.
+No mission-statement wordsmithing — the hallway test is the whole bar: it names a capability, it implies the axis it drives, and you could say it out loud without notes. Each of us brings an independent answer to the table next week; where the answers converge is our flag, and where they diverge is exactly the conversation this room is for.
 
-**Curation ML (Daniel's — starting points only, yours to rewrite):**
-1. *"Boards that build themselves — Pinterest's home for LLM-native curation."*
-2. *"From discovery to curation: the ML that turns saves into collections, and collections into return visits."*
-3. *"The frontier LLM team of Personalization — recommendations that understand what you're making."*
-
-**Retrieval Modeling (Alim's — same caveat):**
-1. *"Know what a Pinner wants next — and have it ready when they arrive."*
-2. *"Retention, modeled: we own the interests that bring Pinners back."*
-3. *"The anticipation engine behind Pinterest's retention story."*
+Per-team flags are deferred on purpose. They're downstream of the November settle, and writing them now would pre-draw the structure we've agreed to keep open. They'll come — and the same test will apply.
 
 **Where confusion reliably happens** — worth naming so we handle it deliberately rather than rediscovering it:
 - **UPP is consumed, not shared.** CLR and LWS both build on UPP as a framework. That is a dependency, not joint ownership.
