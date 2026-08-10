@@ -20,6 +20,8 @@ It came out of the June 2026 trip. Tracing his deepest fear all the way down —
 ### Fan — wife (b. 1989-12-26, age 36)
 My wife Fan is a very rare human being. She is resourceful, beautiful, and kind. She comes from a family of means but shares my values of hard work and impact-orientation. I can't imagine building a life with anyone else. She is an engineering leader at Atlassian, CoreAI (Head of Engineering title). She can be impatient, sometimes with the kids and often with me. But I love her all the same.
 
+**Work context (2026-08-10, from James):** M70, leads ~20 engineers — B2B / sales-adjacent ML, forecasting, growth, plus applied agentic work. Manager: **Giri** — the friction; she says she hates him. Skip: **Vish** — her sponsor, invested in her growth; drove her promotion and, unusually fast after it, an Exceeds (XC) rating (2026). Two-year pattern (James's account, confirmed in conversation): setback days produce "I want to leave" talk; wins quiet it; no proactive search in two years. Read James landed on: the exit talk is regulation, not intention — she's strategically staying (mastery, team she loves, Vish's sponsorship, winning). Live wire: she lights up learning agentic workflows from her senior engineers — a reshaping want, not an exit want. What she wants from James on storm days: a witness, not a project manager.
+
 ### Evelyn — daughter (b. 2017-05-13, age 9)
 My daughter Evelyn is super sensitive and caring. She has a very kind heart and is very good to her younger brother and everyone around her. She's extremely smart and top honors student, even from a young age. She's also very competitive and is sometimes very nervous about how much she can achieve. I want to help her become more resilient. She reminds a lot about myself.
 

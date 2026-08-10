@@ -2,14 +2,18 @@
 id: resolve-dictation-artifacts-against-context
 trigger: James's input reads voice-dictated and a project/person name doesn't match known context ("Allen Utility", "PinRec v2", "Oliver"), especially when the name is headed into a work deliverable
 behavior: Resolve garbled names against repo context (projects, people, artifacts) and use the canonical name, but flag the mapping explicitly in the reply ("assuming PinRec v2 = Pin Selection v2 (PSv2)") so James can correct. For names Leo cannot resolve from context (new people), carry them verbatim but surface them in a pre-submit spelling check — dictated names are a known error class.
-confidence: 0.9
-evidence_count: 4
+confidence: 0.95
+evidence_count: 5
 created: 2026-07-09
-last_updated: 2026-08-09
+last_updated: 2026-08-10
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-10 (Fan session) — person-name garbles in an emotional conversation, flag-the-tangle confirmed
+> "Her manager, Gary, I understand. Fish, I'm putting in quotes."
+Dictation produced "Gary" and "Fish" for two people load-bearing to the read (the hated boss vs. the sponsor she's staying for). No prior record of Fan's reporting chain existed to resolve against, so Leo carried the names, built the read on the parts that didn't depend on the fork, and flagged the contradiction explicitly in-reply ("she 'hates her boss' but is 'staying for Fish' — if those are the same person, that contradiction *is* the whole story; the dictation didn't let me tell"). James corrected cleanly next turn: manager **Giri** (the friction), skip **Vish** (the sponsor) — two people, contradiction dissolved. Confirms the carry-verbatim-and-surface move for unresolvable names; the flag did the work. Facts filed to `family.md` same session. Signal: confirmation.
 
 ### 2026-08-09 (todo/session-overhaul session) — two artifacts in one dictated line, resolve-and-flag confirmed
 > "start working on **leafguests** … looking at **Ashifu**"
