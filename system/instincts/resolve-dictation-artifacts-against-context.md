@@ -3,13 +3,17 @@ id: resolve-dictation-artifacts-against-context
 trigger: James's input reads voice-dictated and a project/person name doesn't match known context ("Allen Utility", "PinRec v2", "Oliver"), especially when the name is headed into a work deliverable
 behavior: Resolve garbled names against repo context (projects, people, artifacts) and use the canonical name, but flag the mapping explicitly in the reply ("assuming PinRec v2 = Pin Selection v2 (PSv2)") so James can correct. For names Leo cannot resolve from context (new people), carry them verbatim but surface them in a pre-submit spelling check — dictated names are a known error class.
 confidence: 0.95
-evidence_count: 5
+evidence_count: 6
 created: 2026-07-09
 last_updated: 2026-08-10
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-10b (evening session) — the garble WAS a real, higher-stakes person; resolution flipped the advice
+> "This came from Kurchi's feedback that Alok isn't really ramping up well into the space"
+Dictation produced "Kurchi" — a real name in the repo (**Sr. Director SSJ, Roberto's boss, structurally adversarial on UPP**) — but the complaint shape (daily collaborator, "slowing her down," Alok's ~20-day RR ramp) fit **Chuxi**, whose 1:1 was the same day. The two readings demanded *different advice* (intra-pod re-scope under Alim vs. immediate pull-off-the-SSJ-surface political move). Leo checked the stakeholder file, flagged the fork explicitly, wrote the filed entry with the ⚠️ dictation-check open, covered both branches in the advice, and asked the one question. James: "It was Chuxi." Extends the 7/15 lesson: a near-match garble can land on a *real* different person, making it more dangerous, not less — the wrong reading was fully coherent and would have produced confident wrong strategy. Signal: confirmation (capped).
 
 ### 2026-08-10 (Fan session) — person-name garbles in an emotional conversation, flag-the-tangle confirmed
 > "Her manager, Gary, I understand. Fish, I'm putting in quotes."

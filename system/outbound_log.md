@@ -119,3 +119,5 @@
 | 2026-08-08 19:14 | gmail | [Leo] P13N Retrieval — EM Primer | work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe44cf0bb6a38a |
 | 2026-08-08 19:27 | gmail | [Leo] P13N Retrieval — EM Primer | work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe4591627abdf4 |
 | 2026-08-09 13:00 | gmail | [Leo] Trio Sync — Week 1 Pack (Mon 8/10) | work/people/reorg_july2026/trio_sync_week1_pack_2026-08-10.md, work/people/reorg_july2026/p13n_retrieval_em_primer.md | to=jamesyili@gmail.com id=19fe81c7e8744e37 |
+| 2026-08-10 20:14 | gmail | [Leo] Daniel pre-PTO plan — what to close by 8/21, and the coverage design for 8/24–9/ | work/people/reorg_july2026/daniel_pto_prep_plan_2026-08.md | to=jamesyili@gmail.com id=19feed04795c122f |
+| 2026-08-10 20:47 | gmail | [Leo] Daniel: the two weeks, the coverage, and the ownership timeline | /tmp/claude-1000/-home-james-src-leo/8925f829-a0fe-460f-a96b-f1daf754fa68/scratchpad/daniel_plan_and_ownership_timeline.md | to=jamesyili@gmail.com id=19feeee6c478e3cc |
