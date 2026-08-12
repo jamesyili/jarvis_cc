@@ -59,7 +59,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 - **verbatim-lines-in-meeting-prep** — writing meeting prep (talking points, asks, Q&A answers) → verbatim say-able lines (quoted, first-person), not summary bullets; goals/watch-fors can stay compressed. (0.3)
 
 ## Artifact persistence / process
-- **persist-and-email-artifacts** — substantive DURABLE artifact or status change → write to file w/ proposed path, edit in-place not companion, update source-of-truth immediately. **Email = explicit-ask only (7/25); ephemeral one-shot content (Slack drafts etc.) never becomes a repo file (7/25) — chat/email/scratchpad only.**
+- **persist-and-email-artifacts** — substantive DURABLE artifact or status change → write to file w/ proposed path, edit in-place not companion, update source-of-truth immediately. **Email = explicit-ask only (7/25); ephemeral one-shot content (Slack drafts etc.) never becomes a repo file (7/25) — chat/email/scratchpad only. Send-later drafts must reach a delivery channel (scratchpad path or email-on-ask) same-session — chat-only composition lost the Shifu drafts 8/10→8/11 (transcript archaeology).** (0.85)
 - **open-edit-viewer-for-written-docs** — Leo writes a .md doc deliverable → launch `doc_viewer.py --edit` for each (background, unique port, report URL) by default; NOT for context-file filing; don't edit a file James has open in the editor.
 - **always-commit-and-push** — session end / repo changes → always commit and push, even if the log is skipped.
 - **main-context-for-sequential-writes** — 5+ sequential query-then-edit steps → run in main context; spawned agents don't persist edits.

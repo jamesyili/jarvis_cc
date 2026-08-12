@@ -53,6 +53,12 @@ Triage in this order:
 | `extract_themes.py` fails on paths | **Orphaned** — points at `work/learning/`, which no longer exists | Do not run. Historical only |
 | `migrate.py` does nothing useful | Dead one-shot (learning/ → kb/ migration, source gone) | Do not run |
 
+## Local tooling
+
+| Symptom | Cause | Fix |
+|---|---|---|
+| Read tool fails on a PDF with "pdftoppm is not installed" (large/multi-page PDFs) | poppler-utils absent on pc-leo (hit 2026-08-11 reading a 12-page upload) | Text extraction via `~/.venvs/leo/bin/python` + `pypdf` (installed): `PdfReader(path).pages[i].extract_text()`. Loses figures/tables' layout — fine for prose docs. Or install poppler-utils for full rendering |
+
 ## Agents
 
 | Symptom | Cause | Fix |

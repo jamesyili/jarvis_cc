@@ -24,3 +24,11 @@ Every input arrived through a designed channel: flags (Aug) · walkthroughs (Aug
 
 ## Exceptions run as exceptions
 Kim (concludes 8/21, double-OOO-forced) · Balaji (September window). Framed explicitly as forced-by-calendar, never as precedent — or they become the wedge that reopens everything early.
+
+---
+
+## ⚠️ STATUS 2026-08-11 — Phase 0 overtaken by events; this file is now the record of the *intended* sequence
+
+The claims market opened ~2 months early: James shared the org-planner HTML with both EMs (8/10 PM) and asked for leans in writing; **Alim answered within the hour** (RecGPT + LLM-pUIC; full answer in the 8/12 1:1) and **Daniel's full want-map landed in the 8/11 1:1** (keep Collection P13N + LWS; RR/pUIC/UEB consolidation blessed; GenRet reluctant with a Bella carve-out offer). The live design state, scenarios, and containment (the decision-principles message: fewest-moves, continuity-wins-ties, preferences-are-inputs-not-claims, schedule discipline, no pre-wiring) now live in **`t2_team_setup_scenarios_2026-08-11.md`** — read that first.
+
+What survives from this file: the standing sentence · the symmetry mechanics of Phase 1 (~9/15 — note Daniel is **remote from China ~9/14–9/25**, so both same-week 1:1s run across time zones) · the October brokering sequence (1:1s first, straw design, Dylan pre-align) · November = summary · exceptions-run-as-exceptions (Kim now concludes by the **8/21** departure, both she and Daniel leave that day).

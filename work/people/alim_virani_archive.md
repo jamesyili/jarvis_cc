@@ -195,3 +195,21 @@ James's vibe-level debrief (week ~2): **manages up well, bias for action, tactic
 - **Counter-balance read (new, keep):** James expects Alim to counter him well — James impatient/pushing; Alim thoughtful, first-principled, balancing upper-management needs against team needs. A complementary-temperament pairing, named by James himself.
 - **His one ask: technical onboarding across the areas of James's team he's missing — and he VOLUNTEERED TO DRIVE IT, for both teams.** James: "I like the fact that he took something." Slots naturally alongside the wk-8/10 staff sync; also directly serves the Balaji connect (exploration/IB context is part of what he's missing).
 - Instrument panel: still strongly healthy — proactivity high, no scope-distraction signals.
+
+## 2026-08-11 — First T2 leans filed (Slack, unprompted speed) + the intro-chat offer
+
+Context: James shared `p13n_retrieval_org_planner.html` with **both EMs** the evening of 8/10 (board section for T2 member/headcount moves + workstreams + history) and wrote *"I honestly want you and Daniel to pick and choose what makes the most sense for each of you. Are you leaning initially towards any area? Any areas you're actively not interested in?"* — i.e., the claims market opened ahead of the Phase-0 design (see `reorg_july2026/t2_team_setup_scenarios_2026-08-11.md` for the containment: decision-principles message + symmetric process).
+
+**Alim's response (8:45 AM, within 13 min of his first message):**
+- Asked for 24 hours; will answer properly in the 1-hour 1:1 **tomorrow (8/12)**.
+- **Offhand leans: "I do naturally find RecGPT interesting" + "LLM pUIC is what I was doing at Etsy so that's also interesting."** LLM-pUIC = already his charter, no collision. **RecGPT/GenRet = live collision** — Daniel's 8/7 center of gravity is LLM×Recs, and the GenRet↔LWS charter pairing (James, 8/11) points the engine at Daniel's side. First confirmed two-sided overlap.
+- Personnel: "still not totally sure, still chatting with folks."
+- **8:32 AM offer: "if we feel like there might be people who get moved to my team in T2, let me know and I can set up time to chat (but obviously just a friendly intro chat)"** — read against the instinct profile: proactive AND a soft pre-wire. The boundary (no you-might-join-my-team framing with ICs before decisions announce) goes into the joint decision-principles message, stated as a rule for both EMs — kinder than a targeted correction, and it protects the EVS window.
+
+Instrument panel: proactivity/lean-in still the dominant read; hoover-watch now has its first concrete datapoint (RecGPT reach beyond charter) — logged as expected-by-disposition, not alarming; the process (criteria in the open, October brokering) is the counter, not a conversation.
+
+## 2026-08-11 (later) — logistics + two sanctioned chats
+
+- **Time zone: Texas (+2h ahead of PST)** — from Daniel's 1:1 doc, for trio scheduling (matters for the post-9/14 trio re-slot while Daniel is on China hours).
+- **James is taking up his intro-chat offer, scoped:** chat with **Balaji** and **Kim** to see how things are going — get-to-know register, no placement framing (the decision-principles rule #5 applies; these are James-directed, not self-serve pre-wires).
+- **GenRet interest read against Daniel's reluctance (same day):** Alim volunteers for the unproven paradigm Daniel is wary of — James's read: **Alim risk-taking, Daniel less so.** Fits the instrument panel (bias for action) and gives the GenRet question a natural resolution IF the Bella question is answered (she'd land on the newest EM mid-perf-case — the carve Daniel offered was Bella-stays-with-James; an Alim version of that carve needs its own design).
