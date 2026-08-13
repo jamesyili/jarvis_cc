@@ -106,6 +106,8 @@ Timing: Chao's next step is GEPA-optimizing the judge on ~20 cards — the lockb
 
 **Status 8/12 AM: items 1–3 drafted → `lockbox_protocol_2026-08-12.md` · `seam_message_drafts_2026-08-12.md` · `evalresult_v2_straw_schema_2026-08-12.md` (schema grounded in the TDD PDF, now filed under `sources/`). Item 4 scoped in §G below. Item 5 superseded: James supplied 6 links (GEPA/harness-eval focused), all captured verbatim into `sources/` (see §D) — the GEPA paper itself + DSPy docs remain un-ingested into the KB proper. Item 6 still open.**
 
+**Status 8/12 PM (evening teaching session — full log in §H): lockbox one-pager updated with the judge-as-gate corollary; seam drafts file now carries the merged V2 message as the recommended send; arXiv paper read → critique §15½ added. Wed 8/13 AM pick-up: (1) post the lockbox note on Chao's doc — still the time-critical move; (2) send seam V2 (Dafang heads-up first); (3) James answers the two open exercises in §H before posting the TDD review comments; (4) then the TDD reviewer-comment pack (§C items + §15½ baseline arm + schema offer — Leo drafts on request); (5) items 5–6 of the 8/12 AM list still open.**
+
 Ranked. Items 1–2 are time-critical relative to Chao's GEPA run; 3–4 are the IC build; 5–6 are cheap parallel moves.
 
 1. **Draft the lockbox protocol one-pager** (frozen human-labeled holdout untouched by both GEPA loops; judge-versioning rule — same judge for search + landing re-run, comparisons only within judge version; blind-audit cadence concentrated on highest-scored cards; contamination policy: calibration cards excluded from Feedback-Curator pattern extraction). Deliver as a comment on Chao's living doc or a short doc he can absorb — the framing is "making my 7/24 asks concrete," not new requirements.
@@ -133,3 +135,30 @@ Carried context for the picker-upper: Evolve attribution flag (repo said "Ads ML
 **Where it lives:** beside Evolve's fixture store with `case_source: "lockbox"` semantics — never enters any GEPA loop; it's a measurement set, not training material.
 
 **Blocked on (work-side, invisible from here):** the 66-cycle archive locations, the shipped-experiment record for the outcome window, and picking the 2–3 T dates. First concrete step at work: pull the cycle list, pick T₁, and hand-label ten outcomes as a calibration of effort-per-case.
+
+---
+
+## H. Teaching session log (8/12 evening) — where James's understanding is, and what's open
+
+James asked to be taught the concepts behind the six sources before acting on them. Five-lesson curriculum delivered, interactive. This section is the pick-up state for tomorrow.
+
+**Lessons delivered:**
+1. **Vocabulary** (deepeval): eval = dataset + task + scoring rule; harness = everything around the model; eval harness = the infra that runs evals end to end; **eval (offline, measures) vs guardrail (online, acts)** — same scorer, different role.
+2. **Evals are training data** (langchain): any signal an optimizer hill-climbs on becomes training data, flaws included (Goodhart; recsys clickbait analog). Corollaries: need a test set the optimizer never touches (= the lockbox); eval-design quality must exceed optimizer strength.
+3. **GEPA mechanics** (pydantic): evaluate → reflect (failures + rationales = "textual gradient") → propose (LLM writes targeted edit) → accept/reject (Evolve: Pareto-dominate parent). Three danger-relevant properties: pure selection pressure against the scorer; only sees what's in its dataset (data flow = the security model); Reflex has **two coupled loops** (judge→humans, playbooks→judge) = actor-critic with a critic-in-training.
+4. **Guarded-evaluator safety model** (SuperQode/GEPA Omni), expanded on request: four controls — structural validation / mutation-surface enforcement (**score is subordinate to policy**) / non-regression + policy audit / staged adoption — plus Actionable Side Information (diagnostics beyond the scalar). Honest citation guidance: cite the architecture, not the tiny experiment (3+2 cases, 24 evals). Thesis: prevent "the search process redefining what counts as success."
+5. **The matched-budget baseline argument** (arXiv 2607.12227 → §15½): better-artifact vs more-attempts; pass@5-not-pass@1 as the fingerprint of resampling; generalization split; Terminal-Bench harness-insensitivity caveat = the honest pro-Evolve counter that the baseline arm would prove rather than assume.
+
+**James's demonstrated understanding (evidence, not vibes):**
+- Correctly classified judge-over-graded-cards = eval, judge-as-live-threshold = guardrail.
+- Derived lockbox gap #1 himself: frozen against **both** GEPA loops + the Feedback Curator as a third channel. General rule he now holds: *every channel that folds graded-card information back into the system is an optimizer, and each must be explicitly fed or fenced.*
+- Honest flag "I don't know enough about GEPA to rank the leak dangers" → taught, then derived together: **judge-as-gate is the worse leak** (survivor-sampled labels → blind spots vanish from label distribution → recalibration self-confirms → loop self-seals; recsys serve→log→train feedback loop; counterfactual-eval "lost support"). Fix: judge-blind grading sample drawn pre-gate + lockbox refresh from the pre-gate stream — **now written into the lockbox one-pager (rule 4 corollary)**.
+- Taught gap #2 (he hadn't found it): **finite holdouts wear out under reuse** — the accept/reject bit leaks one bit per generation (Kaggle public-leaderboard analogy); no access rule fixes it; fixes are temporal (lockbox rotation, shadow validation on next live rotation). This is the *why* behind §12.
+
+**Comms decision made (James's call after Leo rec):** NO standalone terminology/basics doc — professor-mode risk, third-doc-beside-two problem, and terminology confusion is a symptom of the unnamed seam. Vehicle = inline doc comments + the 30-min working session; a glossary only if the group asks afterward (demand-pull, co-credited). James's draft opener recalibrated (specific credit over generic praise; terminology demoted from headline to symptom) → merged **V2 message now the recommended send in `seam_message_drafts_2026-08-12.md`**.
+
+**New idea to float to Janvi (from Lesson 4's gap):** Reflex playbooks embed *checks as prose* ("verify against Presto before citing") inside mutable sections — mutation-surface enforcement can't protect them, structural validation can't see them. Proposal: **"protected sentences"** — a `never_mutable` for prose spans — plus the existing backstops (blind audits on top-scored output, negative rubrics).
+
+**Open exercises James owes (answer before posting TDD review comments):**
+1. *Lesson 4 check:* a GEPA mutation softens "verify against Presto before including a metric" into "include metrics with a confidence note." Walk it through the four controls — which pass it, and where in the current TDD design does a human first get a chance to catch it?
+2. *Lesson 5 exercise:* draft the 2–4 sentence matched-budget baseline-arm reviewer comment for the TDD's §5 (name the confound; the control arm in Evolve's own terms — the 450-invocation budget; framed as making her result more defensible). Leo red-lines it against the paper before it ships.

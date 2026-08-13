@@ -39,6 +39,8 @@ The Feedback Curator folds learnings from graded cards into `quality_patterns.md
 
 **Rule:** Cards used for judge calibration or the lockbox are tagged, and the Feedback Curator excludes tagged cards from pattern extraction. One filter, one sentence of policy, saves us a quietly corrupted eval later.
 
+**Judge-as-gate corollary.** If the judge ever also acts as a live filter (only cards above a threshold surface to PMs), every downstream human label is sampled from the judge's survivors — the judge's blind spots vanish from the label distribution, recalibration then "confirms" the judge, and the loop self-seals. So this policy covers judge-as-gate, not just judge-as-scorer: a fixed fraction of human grading each cycle samples cards **judge-blind** — drawn before the gate, including cards the judge would have rejected — and lockbox refresh draws only from that pre-gate stream.
+
 ## Sizing note: what ~20 labels can and can't support
 
 ~20 PM-graded cards is a solid pilot for **measuring** judge–human agreement. It's too small to **optimize** the judge against without overfitting. Two preconditions before the first GEPA run on the judge:

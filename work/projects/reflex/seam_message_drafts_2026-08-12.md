@@ -6,7 +6,18 @@ Recommended delivery: one Slack message to Chao + Janvi together (they're each o
 
 ---
 
-## Main message (to Chao + Janvi, Dafang cc'd or in-channel)
+## RECOMMENDED — V2 merged message (8/12 PM, folds in James's expectation-setting draft)
+
+Context: James drafted an opener proposing to "disambiguate the terminology"; decision (8/12 evening session) was **no standalone terminology doc** (professor-mode risk, third-doc-beside-two problem) — vocabulary locks via the seam conversation instead. This version leads with specific credit (proves the docs were actually read), makes terminology a symptom of the seam rather than the headline ask, and pre-announces the lockbox note:
+
+> Hi Janvi, Chao — I spent real time in both docs this week. Chao, the judge V1 + calibration sequencing is the right backbone; Janvi, EvalResult-as-the-sole-coupling-point is exactly the contract move I'd have made. Reading them side by side as a reviewer, two things worth settling together, ideally live for 30 min:
+>
+> 1. We're using the same words for different work in a couple of places — the clearest one: Stage 2 of the Phase-1 plan and Evolve's Detect adapter describe the same GEPA-on-playbooks loop. I'd propose the seam as: Chao owns judge + calibration (the fitness function), Evolve owns the optimization loop, Stage 2 becomes the Detect adapter. Locking the vocabulary and ownership now is much cheaper than two parallel pipelines in October.
+> 2. The references already list EvalHub — worth a written build-on-it-or-why-not, before someone with less context asks us.
+>
+> Separately, I'm dropping a short eval-integrity note on the Detect doc today (holdout/lockbox, judge versioning, blind audits) — it's my 7/24 comments made concrete, and I'd rather it land before the first GEPA run than after. I have a couple of contract-field proposals too, but those are easier sketched live.
+
+## V1 — original main message (to Chao + Janvi, Dafang cc'd or in-channel)
 
 > Chao, Janvi — reading both docs side by side (Detect Eval Proposal + Evolve TDD), I think Stage 2 of the Phase-1 plan and Evolve's Detect adapter are the same work: run the calibrated judge in the detect cycle and use GEPA to improve playbook prompts against it. Same loop, described in two docs with two owners — if both proceed as written we'd have two GEPA-on-playbooks pipelines by fall.
 >
