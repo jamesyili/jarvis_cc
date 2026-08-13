@@ -4,6 +4,8 @@
 
 Inputs: Chao Wang's *Detect Evaluation Proposal* (7/9, + Gideon's Phase 0 doc 7/16, + Chao's Phase 1 LLM-judge plan 7/23, judge V1 built PR#63) and Janvi Palan's *Evolve for Reflex* TDD (8/4). KB sweep: 13 articles ranked (see §D).
 
+Source docs (verbatim PDFs, filed 8/12 from the 8/11 session uploads): `sources/chao_detect_eval_proposal_2026-07-09.pdf` · `sources/janvi_evolve_tdd_2026-08-04.pdf`.
+
 ## State of play (as of 8/11)
 
 | Workstream | Owner | Status |
@@ -61,6 +63,8 @@ The strongest doc of the set: typed contract, one-component mutations, un-bypass
 
 **14. Security and rollback remain the thin sections.** Fixtures contain untrusted text (Asana comments → prompt injection into a headless Claude run). `never_mutable` globs protect specs, but nothing stated protects the fixture store or screens fixture content. Rollback exists implicitly via `versions/vN.md`; write the explicit revert procedure. (These were the named gaps on 8/10; still open.)
 
+**15½. The missing baseline arm (new 8/12, from arXiv 2607.12227 — read after James supplied it).** AI2/UW compared automatic harness evolution against matched-budget test-time scaling on Terminal-Bench 2.1: evolution did **not** consistently beat parallel sampling or sequential refinement; its gains appeared in pass@5 but not pass@1 (i.e., they came from taking more attempts, not from a better harness); and harnesses evolved on a training split transferred almost nothing to held-out tasks (+0.6 pass@1 avg). Their qualitative read — meta-agent edits "memorize fixes rather than distilling strategies" — is §12's overfitting concern observed in the wild. Implications for Evolve: (a) the success criteria need a **matched-budget baseline arm**: run the incumbent spec with K-sample selection at the same compute before crediting the evolution loop; (b) the honest counter-argument in Evolve's favor is that Terminal-Bench is harness-*insensitive* (a shell tool + basic prompt suffices) while Reflex playbooks are harness-*dominant* (the domain strategy lives in the spec) — but that's exactly the claim the baseline arm would prove rather than assume. Raise as a review comment on the TDD's §5 success criteria.
+
 **15. Add the ultimate anti-Goodhart control:** periodic blind human A/B — baseline vs. evolved outputs, rater doesn't know which is which. Net-fitness-delta can drift upward on judge drift alone; blind A/B is the only signal that can't.
 
 ## D. KB resources (ranked; full sweep in session notes)
@@ -75,6 +79,15 @@ The strongest doc of the set: typed contract, one-component mutations, un-bypass
 **Tier 2:** `eugene-yan/evaluating-the-effectiveness-of-llm-evaluators` (κ/ρ targets: judge-human ≥ human-human is the ceiling; bias catalog), `wiki/counterfactual-evaluation.md` (replay math, IPS/DR, insufficient-support — the formal frame for §12), `cameron-wolfe/online-versus-offline-rl-for-llms.md` (where offline optimization fails: OOD), `louis-wang/the-harness-is-the-moat` (fixture infra as the durable asset — validates Evolve's core bet).
 
 **KB gap:** nothing on GEPA/DSPy specifically — worth ingesting the GEPA paper + DSPy docs this week since two workstreams now depend on it.
+
+**Project sources folder (`sources/`, James-supplied links filed 8/12):**
+- `pydantic_gepa_prompt_optimization_2026-02-02.md` — worked GEPA+evals pipeline; adapter pattern, train/val split, "evaluator blind spots get exploited," budget guidance (start 20–50 calls). Closest public analog to Chao's Stage 1.
+- `superagentic_gepa_omni_superqode_2026-07-26.md` — GEPA Omni multi-engine harness optimization with a guarded evaluator: mutation-surface enforcement, non-regression audit, sealed held-out cases, staged adoption. The safety model maps directly onto Evolve's human gate + `never_mutable`.
+- `deepeval_what_is_an_eval_harness.md` — eval-harness taxonomy; evals vs guardrails distinction.
+- `langchain_better_harness_hill_climbing_2026-04-08.md` — "evals are training data for agents"; sourcing from production traces, holdout-as-generalization-proxy, agents as "famous cheaters" → supports the lockbox argument.
+- `harness_evals_github_readme.md` — open-source eval framework (normalized 0–1 Score + threshold); EvalHub-adjacent comparison point for the build-vs-adopt paragraph.
+- `arxiv_2607.12227_rethinking-harness-evolution-evals.pdf` — "Rethinking the Evaluation of Harness Evolution for Agents" (Wang et al., AI2/UW, 13 pp) — directly on how to evaluate the kind of loop Evolve is.
+- Plus the two source proposals themselves: `chao_detect_eval_proposal_2026-07-09.pdf`, `janvi_evolve_tdd_2026-08-04.pdf`.
 
 ## E. James's IC lane
 
@@ -91,6 +104,8 @@ Timing: Chao's next step is GEPA-optimizing the judge on ~20 cards — the lockb
 
 ## F. Pick-up plan — next session (Tue 8/12 AM target)
 
+**Status 8/12 AM: items 1–3 drafted → `lockbox_protocol_2026-08-12.md` · `seam_message_drafts_2026-08-12.md` · `evalresult_v2_straw_schema_2026-08-12.md` (schema grounded in the TDD PDF, now filed under `sources/`). Item 4 scoped in §G below. Item 5 superseded: James supplied 6 links (GEPA/harness-eval focused), all captured verbatim into `sources/` (see §D) — the GEPA paper itself + DSPy docs remain un-ingested into the KB proper. Item 6 still open.**
+
 Ranked. Items 1–2 are time-critical relative to Chao's GEPA run; 3–4 are the IC build; 5–6 are cheap parallel moves.
 
 1. **Draft the lockbox protocol one-pager** (frozen human-labeled holdout untouched by both GEPA loops; judge-versioning rule — same judge for search + landing re-run, comparisons only within judge version; blind-audit cadence concentrated on highest-scored cards; contamination policy: calibration cards excluded from Feedback-Curator pattern extraction). Deliver as a comment on Chao's living doc or a short doc he can absorb — the framing is "making my 7/24 asks concrete," not new requirements.
@@ -101,3 +116,20 @@ Ranked. Items 1–2 are time-critical relative to Chao's GEPA run; 3–4 are the
 6. **Read Tier-1 KB articles** if not yet: rubric-based-rewards, applying-statistics, anatomy-of-a-benchmark (paths in §D).
 
 Carried context for the picker-upper: Evolve attribution flag (repo said "Ads MLE," TDD author is Janvi Palan — fix the program-state record when citing upward); James's IC-not-EM intent for this area is explicit; V2 Shifu Slack message (sent to James's inbox 8/11 AM, msg_id 19ff2023aadb5119) promises the eval layer cross-org — check whether it went out and what Roberto's reaction was.
+
+---
+
+## G. Hindsight-recall case bank — v0 scope (drafted 8/12, needs work-side data to build)
+
+**Claim it measures:** discovery, not redundancy — did Detect surface what later proved out, *before* humans did? Replaces the PM-roadmap gold set (§B.5).
+
+**Case format (straw):**
+- `world_at_T/` — the fixture snapshot as of date T: the same recorded Asana/Presto/MCP surfaces Evolve already snapshots (reuse Janvi's fixture format — one snapshot standard for both systems, and the `fixture_snapshot_id` field in EvalResult v2 is the join key).
+- `outcomes_T_to_Tn.md` — what was shipped/proven between T and T+n (experiment results, launches, reverted bets), each tagged discoverable-at-T: yes/no/partial. This tag is the labor-intensive part and the part only someone with the historical context can do.
+- `scoring.md` — hindsight-recall = fraction of discoverable-at-T outcomes the run's cards cover (LLM-assisted matching, human-verified in v0); plus a novelty ledger for cards that match nothing (not penalized — investigated).
+
+**v0 sizing:** 2–3 snapshots (T spaced ≥ a quarter apart), ~30 outcome cases total. Seeds: James's own historical catches — Following CG cycle 4, INTEREST.prod, VLM gap cycle 9 — as the first discoverable-at-T positives; he holds labels nobody else has.
+
+**Where it lives:** beside Evolve's fixture store with `case_source: "lockbox"` semantics — never enters any GEPA loop; it's a measurement set, not training material.
+
+**Blocked on (work-side, invisible from here):** the 66-cycle archive locations, the shipped-experiment record for the outcome window, and picking the 2–3 T dates. First concrete step at work: pull the cycle list, pick T₁, and hand-label ten outcomes as a calibration of effort-per-case.
