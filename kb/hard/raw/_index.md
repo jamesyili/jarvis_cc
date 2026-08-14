@@ -1,6 +1,6 @@
 # Hard Skills — Raw Content Index
 
-> Auto-generated. 795 articles across 10 sources. Last updated: 2026-04-05
+> Auto-generated. 801 articles across 12 sources. Last updated: 2026-08-14
 
 | Title | Source | Tags | Path | Wiki Concepts |
 |-------|--------|------|------|---------------|
@@ -433,6 +433,12 @@
 | Word2Vec | aman-ai | ml-fundamentals | [[hard/raw/aman-ai/word2vec.md]] | |
 | Youtube video search | aman-ai | ml-system-design | [[hard/raw/aman-ai/youtube-video-search.md]] | |
 | Youtube | aman-ai | system-design | [[hard/raw/aman-ai/youtube.md]] | |
+| Effective Harnesses for Long-Running Agents | anthropic | agent-harness, llm-agents, long-horizon, agent-engineering | [[hard/raw/anthropic/effective-harnesses-for-long-running-agents.md]] | |
+| AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness | arxiv | agent-harness, llm-agents, code-synthesis, agent-evolution | [[hard/raw/arxiv/autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-harness.md]] | |
+| EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents | arxiv | agent-harness, agent-evolution, reinforcement-learning, llm-agents, long-horizon | [[hard/raw/arxiv/evoharness-rl-learning-self-evolving-runtime-harness-for-long-horizon-llm-agents.md]] | |
+| EvoRec: Self-Evolving Agentic Recommender Systems | arxiv | agent-evolution, recsys, llm-agents, multi-agent | [[hard/raw/arxiv/evorec-self-evolving-agentic-recommender-systems.md]] | |
+| Self-Evolving Recommendation System: End-To-End Autonomous Model Optimization With LLM Agents | arxiv | agent-evolution, recsys, llm-agents, ml-systems, automation | [[hard/raw/arxiv/self-evolving-recommendation-system-end-to-end-autonomous-model-optimization-wit.md]] | |
+| SkillOS: Learning Skill Curation for Self-Evolving Agents | arxiv | agent-evolution, agent-memory, skill-curation, reinforcement-learning, llm-agents | [[hard/raw/arxiv/skillos-learning-skill-curation-for-self-evolving-agents.md]] | |
 | A Guide for Debugging LLM Training Data | cameron-wolfe | llms, rlhf, architectures | [[hard/raw/cameron-wolfe/a-guide-for-debugging-llm-training-data.md]] | |
 | AI Agents from First Principles | cameron-wolfe | llms, rlhf, architectures | [[hard/raw/cameron-wolfe/ai-agents-from-first-principles.md]] | |
 | Applying Statistics to LLM Evaluations | cameron-wolfe | llms, rlhf, architectures | [[hard/raw/cameron-wolfe/applying-statistics-to-llm-evaluations.md]] | |

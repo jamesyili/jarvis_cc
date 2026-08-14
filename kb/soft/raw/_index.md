@@ -1,6 +1,6 @@
 # Soft Skills — Raw Content Index
 
-> Auto-generated. 1556 articles across 4 sources. Last updated: 2026-04-05
+> Auto-generated. 1564 articles across 4 sources. Last updated: 2026-08-14
 
 | Title | Source | Tags | Path | Wiki Concepts |
 |-------|--------|------|------|---------------|
@@ -9,11 +9,25 @@
 | 3 Hidden Ways Work Stress Invades Your Life Outside of Work—and How to Fix the Damage | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/3-hidden-ways-work-stress-invades-your-life-outside-of-workand-how-to-fix-the-da.md]] | |
 | Be AI+: Human Skills for the Machine Age | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/be-ai-human-skills-for-the-machine-age.md]] | |
 | Community Events & News | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/community-events-news.md]] | |
+| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/decision-making--taking-control-of-your-career-ethan-evans-amazon.md]] | |
+| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/emotional-regulation-resilience--taking-control-of-your-career-ethan-evans-amazon.md]] | |
+| Career Strategy — The Long Game, the End Game, and the Cost of Climbing | ethan-evans |  | [[soft/raw/ethan-evans/ethan-career-strategy.md]] | |
+| Executive Presence — What It Is, Why It Matters, How to Build It | ethan-evans |  | [[soft/raw/ethan-evans/ethan-executive-presence.md]] | |
+| Feedback and Self-Assessment — Knowing Where You Actually Stand | ethan-evans |  | [[soft/raw/ethan-evans/ethan-feedback-and-self-assessment.md]] | |
+| Managing Up — The Magic Loop, Manager Alliances, and the Veiled Threat | ethan-evans |  | [[soft/raw/ethan-evans/ethan-managing-up.md]] | |
+| Promotion and Scope: How It Actually Works | ethan-evans |  | [[soft/raw/ethan-evans/ethan-promotion-and-scope-mechanics.md]] | |
+| Calculated Risk and Managing Failure — How Real Promotions Get Triggered | ethan-evans |  | [[soft/raw/ethan-evans/ethan-risk-and-failure.md]] | |
+| Sponsorship, Networking, and Visibility — Building Power Before You Need It | ethan-evans |  | [[soft/raw/ethan-evans/ethan-sponsorship-and-visibility.md]] | |
+| The Three Personal Standards of Executive Performance | ethan-evans |  | [[soft/raw/ethan-evans/ethan-three-personal-standards.md]] | |
+| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/external-personal-branding--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Get the Most Out of Your Performance Review | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/get-the-most-out-of-your-performance-review.md]] | |
 | How to Rise from Newbie to General Manager in Seven Years | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/how-to-rise-from-newbie-to-general-manager-in-seven-years.md]] | |
 | How VPs Get and Vet C-Suite Roles | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/how-vps-get-and-vet-c-suite-roles.md]] | |
+| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/influencing-without-authority--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Key Steps Now to Ensure Promotion in 2026: The Year of AI | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/key-steps-now-to-ensure-promotion-in-2026-the-year-of-ai.md]] | |
 | Layoffs will continue all year | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/layoffs-will-continue-all-year.md]] | |
+| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/managing-up-exec-presence--taking-control-of-your-career-ethan-evans-amazon.md]] | |
+| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/org-strategy-leverage--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Recover from Bad Decisions | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/recover-from-bad-decisions.md]] | |
 | The Leadership Skill They Never Taught You | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/the-leadership-skill-they-never-taught-you.md]] | |
 | Top 3 Product Management Insights from Stripe, Amazon, & Airbnb | ethan-evans | leadership, career, managing-up | [[soft/raw/ethan-evans/top-3-product-management-insights-from-stripe-amazon-airbnb.md]] | |
@@ -342,7 +356,6 @@
 | Seth Godin — Seth Godin's best tactics for building remarkable products, strategies, brands | lennys-podcast |  | [[soft/raw/lennys-podcast/decision-making--seth-godins-best-tactics-for-building-remarkable-products-strategies-brands.md]] | |
 | Melanie Perkins — She turned 100+ rejections into a $42B company | lennys-podcast |  | [[soft/raw/lennys-podcast/decision-making--she-turned-100-rejections-into-a-42b-company-melanie-perkins.md]] | |
 | Deb Liu — Succeeding as an introvert, building zero-to-one, and PM'ing your career like a product \| Deb Liu | lennys-podcast |  | [[soft/raw/lennys-podcast/decision-making--succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like.md]] | |
-| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/decision-making--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Kevin Aluwi — Taxi mafias, cash vaults & 100% MoM growth: The story of SEA's biggest startup | lennys-podcast |  | [[soft/raw/lennys-podcast/decision-making--taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup.md]] | |
 | Edwin Chen — The $1B Al company training ChatGPT, Claude & Gemini on the path to responsible AGI \| Edwin Chen | lennys-podcast |  | [[soft/raw/lennys-podcast/decision-making--the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible.md]] | |
 | Madhavan Ramanujam — The art and science of pricing \| Madhavan Ramanujam (Monetizing Innovation, Simon-Kucher) | lennys-podcast |  | [[soft/raw/lennys-podcast/decision-making--the-art-and-science-of-pricing-madhavan-ramanujam-monetizing-innovation.md]] | |
@@ -501,7 +514,6 @@
 | Nancy Duarte — Storytelling with Nancy Duarte: How to craft compelling presentations | lennys-podcast |  | [[soft/raw/lennys-podcast/emotional-regulation-resilience--storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and.md]] | |
 | Nir Eyal — Strategies for becoming less distractible and improving focus \| Nir Eyal | lennys-podcast |  | [[soft/raw/lennys-podcast/emotional-regulation-resilience--strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal.md]] | |
 | Deb Liu — Succeeding as an introvert, building zero-to-one, and PM'ing your career like a product \| Deb Liu | lennys-podcast |  | [[soft/raw/lennys-podcast/emotional-regulation-resilience--succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like.md]] | |
-| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/emotional-regulation-resilience--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Greg Isenberg and Sahil Bloom — Teaser_2021 | lennys-podcast |  | [[soft/raw/lennys-podcast/emotional-regulation-resilience--teaser-2021.md]] | |
 | Heidi Helfand — The art and wisdom of changing teams \| Heidi Helfand (Author of Dynamic Reteaming) | lennys-podcast |  | [[soft/raw/lennys-podcast/emotional-regulation-resilience--the-art-and-wisdom-of-changing-teams-heidi-helfand-author-of-dynamic-reteaming.md]] | |
 | Shreyas Doshi — The art of product management \| Shreyas Doshi (Stripe, Twitter, Google, Yahoo) | lennys-podcast |  | [[soft/raw/lennys-podcast/emotional-regulation-resilience--the-art-of-product-management-shreyas-doshi-stripe-twitter-google-yahoo.md]] | |
@@ -755,7 +767,6 @@
 | Gina Gotthilf — Scaling Duolingo, embracing failure, and insight into Latin America's tech scene | lennys-podcast |  | [[soft/raw/lennys-podcast/external-personal-branding--scaling-duolingo-embracing-failure-and-insight-into-latin-americas-tech.md]] | |
 | Nancy Duarte — Storytelling with Nancy Duarte: How to craft compelling presentations | lennys-podcast |  | [[soft/raw/lennys-podcast/external-personal-branding--storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and.md]] | |
 | Deb Liu — Succeeding as an introvert, building zero-to-one, and PM'ing your career like a product \| Deb Liu | lennys-podcast |  | [[soft/raw/lennys-podcast/external-personal-branding--succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like.md]] | |
-| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/external-personal-branding--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Edwin Chen — The $1B Al company training ChatGPT, Claude & Gemini on the path to responsible AGI \| Edwin Chen | lennys-podcast |  | [[soft/raw/lennys-podcast/external-personal-branding--the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible.md]] | |
 | Dan Shipper — The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code. | lennys-podcast |  | [[soft/raw/lennys-podcast/external-personal-branding--the-ai-native-startup-5-products-7-figure-revenue-100-ai-written-code.md]] | |
 | Arielle Jackson — The art of building legendary brands \| Arielle Jackson (Google, Square, First Round Capital) | lennys-podcast |  | [[soft/raw/lennys-podcast/external-personal-branding--the-art-of-building-legendary-brands-arielle-jackson-google-square-first.md]] | |
@@ -856,7 +867,6 @@
 | Seth Godin — Seth Godin's best tactics for building remarkable products, strategies, brands | lennys-podcast |  | [[soft/raw/lennys-podcast/influencing-without-authority--seth-godins-best-tactics-for-building-remarkable-products-strategies-brands.md]] | |
 | Nancy Duarte — Storytelling with Nancy Duarte: How to craft compelling presentations | lennys-podcast |  | [[soft/raw/lennys-podcast/influencing-without-authority--storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and.md]] | |
 | Deb Liu — Succeeding as an introvert, building zero-to-one, and PM'ing your career like a product \| Deb Liu | lennys-podcast |  | [[soft/raw/lennys-podcast/influencing-without-authority--succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like.md]] | |
-| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/influencing-without-authority--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Kevin Aluwi — Taxi mafias, cash vaults & 100% MoM growth: The story of SEA's biggest startup | lennys-podcast |  | [[soft/raw/lennys-podcast/influencing-without-authority--taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup.md]] | |
 | Heidi Helfand — The art and wisdom of changing teams \| Heidi Helfand (Author of Dynamic Reteaming) | lennys-podcast |  | [[soft/raw/lennys-podcast/influencing-without-authority--the-art-and-wisdom-of-changing-teams-heidi-helfand-author-of-dynamic-reteaming.md]] | |
 | Jonathan Becker — The crazy story of landing Uber as a client \| Jonathan Becker (Thrive Digital) | lennys-podcast |  | [[soft/raw/lennys-podcast/influencing-without-authority--the-crazy-story-of-landing-uber-as-a-client-jonathan-becker-thrive-digital.md]] | |
@@ -934,7 +944,6 @@
 | Peter Deng — Peter Deng on Building from Zero to Billions | lennys-podcast |  | [[soft/raw/lennys-podcast/managing-up-exec-presence--peter-deng.md]] | |
 | Nancy Duarte — Storytelling with Nancy Duarte: How to craft compelling presentations | lennys-podcast |  | [[soft/raw/lennys-podcast/managing-up-exec-presence--storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and.md]] | |
 | Nir Eyal — Strategies for becoming less distractible and improving focus \| Nir Eyal | lennys-podcast |  | [[soft/raw/lennys-podcast/managing-up-exec-presence--strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal.md]] | |
-| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/managing-up-exec-presence--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Noam Lovinsky — The happiness and pain of product management \| Noam Lovinsky (Grammarly, FB, Thumbtack, YT) | lennys-podcast |  | [[soft/raw/lennys-podcast/managing-up-exec-presence--the-happiness-and-pain-of-product-management-noam-lovinsky-grammarly-fb.md]] | |
 | Jeffrey Pfeffer — The paths to power: How to grow your influence and advance your career \| Jeffrey Pfeffer (Stanford) | lennys-podcast |  | [[soft/raw/lennys-podcast/managing-up-exec-presence--the-paths-to-power-how-to-grow-your-influence-and-advance-your-career-jeffrey.md]] | |
 | Austin Hay — The ultimate guide to Martech \| Austin Hay (Reforge, Ramp, Runway) | lennys-podcast |  | [[soft/raw/lennys-podcast/managing-up-exec-presence--the-ultimate-guide-to-martech-austin-hay-reforge-ramp-runway.md]] | |
@@ -1112,7 +1121,6 @@
 | Nancy Duarte — Storytelling with Nancy Duarte: How to craft compelling presentations | lennys-podcast |  | [[soft/raw/lennys-podcast/org-strategy-leverage--storytelling-with-nancy-duarte-how-to-craft-compelling-presentations-and.md]] | |
 | Nir Eyal — Strategies for becoming less distractible and improving focus \| Nir Eyal | lennys-podcast |  | [[soft/raw/lennys-podcast/org-strategy-leverage--strategies-for-becoming-less-distractible-and-improving-focus-nir-eyal.md]] | |
 | Deb Liu — Succeeding as an introvert, building zero-to-one, and PM'ing your career like a product \| Deb Liu | lennys-podcast |  | [[soft/raw/lennys-podcast/org-strategy-leverage--succeeding-as-an-introvert-building-zero-to-one-and-pming-your-career-like.md]] | |
-| Ethan Evans — Taking control of your career \| Ethan Evans (Amazon) | ethan-evans |  | [[soft/raw/ethan-evans/org-strategy-leverage--taking-control-of-your-career-ethan-evans-amazon.md]] | |
 | Kevin Aluwi — Taxi mafias, cash vaults & 100% MoM growth: The story of SEA's biggest startup | lennys-podcast |  | [[soft/raw/lennys-podcast/org-strategy-leverage--taxi-mafias-cash-vaults-100-mom-growth-the-story-of-seas-biggest-startup.md]] | |
 | Edwin Chen — The $1B Al company training ChatGPT, Claude & Gemini on the path to responsible AGI \| Edwin Chen | lennys-podcast |  | [[soft/raw/lennys-podcast/org-strategy-leverage--the-1b-al-company-training-chatgpt-claude-gemini-on-the-path-to-responsible.md]] | |
 | Dan Shipper — The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code. | lennys-podcast |  | [[soft/raw/lennys-podcast/org-strategy-leverage--the-ai-native-startup-5-products-7-figure-revenue-100-ai-written-code.md]] | |

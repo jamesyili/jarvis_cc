@@ -67,11 +67,25 @@ The strongest doc of the set: typed contract, one-component mutations, un-bypass
 
 **15. Add the ultimate anti-Goodhart control:** periodic blind human A/B — baseline vs. evolved outputs, rater doesn't know which is which. Net-fitness-delta can drift upward on judge drift alone; blind A/B is the only signal that can't.
 
+**16. The Pareto gate has two error rates, both unmeasured, and one cheap measurement sets both (new 8/14, from Lesson 6).** Strict dominance over 5 noisy axes is not a "strict" gate — it's a *high-variance* gate, and where it sits depends entirely on how correlated the judge's 5 dimensions are, which nobody has measured.
+- If the axes were independent, a candidate genuinely identical to its parent passes by noise alone with probability ≈ 0.5⁵ ≈ **3%** — and a candidate that's truly better on one axis and neutral on the rest passes only ~5% of the time. That's §11's starvation, quantified: the gate discards ~95% of real single-axis improvements.
+- If the axes are near-perfectly correlated (all five dims are really one "is this card good" factor wearing five hats — the common outcome for LLM-judge rubrics), the noise-accept rate rises toward **50%** and the gate stops filtering at all.
+- The true rate is somewhere between 3% and 50%, and **the 5×5 correlation matrix of judge dimension scores decides it**. That matrix is computable today from Chao's judge V1 outputs over already-graded cards — no new labels, no new runs.
+- Multiple-comparisons corollary: whatever the per-candidate false-accept rate is, it compounds over the run. Across ~100 candidate mutations in a 450-invocation budget, even the optimistic 3% yields ~3 accepted-on-noise edits per campaign, each of which becomes the parent for the next generation. This is the same leak as §12's holdout wear-out, in its statistical clothing — repeated testing against a fixed bank.
+- Ask: measure the correlation matrix, then set the gate from it — strict dominance only on axes that are actually independent, tolerance/epsilon bands on the correlated cluster, and a paired-bootstrap margin (§E.2) rather than raw mean comparison.
+
+**17. Effective sample size, not sample size, is what the calibration set has (new 8/14).** Applies to Chao's ~20 cards and to Evolve's case bank equally.
+- **Clustering.** Cards drawn from a handful of Detect cycles are not IID — same surface, same fixture snapshot, same playbook version. With ~4 cycles × 5 cards and moderate intra-cluster correlation (ρ≈0.5), the design effect is 1 + (m−1)ρ = 3: **effective n ≈ 7, and standard errors inflate ~1.7×.** Miller's paper documents a real case where clustering tripled the SE. Report *n and the number of clusters*, and use a clustered SE.
+- **What 20 cards can actually resolve.** Judge-human agreement measured at 80% on n=20 carries a 95% CI of roughly [63%, 98%] — *before* the clustering inflation, and before the small-n caveat below. That interval spans "judge is at the human ceiling" and "judge is far below it." It cannot distinguish them, so it cannot supervise a GEPA run (§6).
+- **Minimum detectable effect.** Paired comparison of two playbook versions on the same bank: n ≈ 7.84·Var(d)/δ². With a realistic disagreement profile (agree on 80% of cases, 15% evolved-wins, 5% incumbent-wins → Var(d) ≈ 0.19), detecting a **10-point** improvement needs **~150 cases**; the v0 hindsight bank at ~30 cases (§G) resolves only a ~22-point swing; 20 cards, only ~27 points. Halving the effect you want to see costs 4× the cases — this is the number that should set case-bank sizing, not intuition.
+- **Below n≈100 the CLT itself fails** (Bowyer et al. 2025): CLT intervals are systematically *too narrow* in exactly this regime, and they degenerate to zero width when a run passes or fails everything — which is precisely what a small curated bank does. At Reflex's sample sizes the honest tools are Bayesian (Beta-Binomial) intervals or bootstrap, not `mean ± 1.96·SE`.
+- Free wins available today: **pair everything** (same cases both arms — the positive score correlation is a variance reduction that costs nothing, and separate overlapping CIs are the wrong test; build the CI on the *difference* and check whether it excludes zero), and **resample K trials per case**, choosing K so within-case variance is small relative to across-case variance. Do **not** lower judge temperature to buy stability — that changes the distribution being measured, i.e. a different judge.
+
 ## D. KB resources (ranked; full sweep in session notes)
 
 **Tier 1 — read before finalizing the design:**
 1. `kb/hard/raw/cameron-wolfe/rubric-based-rewards-for-rl.md` — rubric design, implicit vs explicit aggregation, negative rubrics for discovered hacks. Directly applicable to the 5-dim rubric question.
-2. `kb/hard/raw/cameron-wolfe/applying-statistics-to-llm-evaluations.md` — CIs, paired analysis, power. Fixes both the 20-sample problem and the Pareto-on-noise problem.
+2. `kb/hard/raw/cameron-wolfe/applying-statistics-to-llm-evaluations.md` — CIs, paired analysis, power. Fixes both the 20-sample problem and the Pareto-on-noise problem. **READ 8/14 → Lesson 6 (§H) + critique items 16–17.** Primary sources behind it: Miller 2024 (arXiv 2411.00640, Anthropic — SEs on evals, clustered SEs, paired differences, power/sample-size formula); Bowyer et al. 2025 (arXiv 2503.01747 — don't use the CLT under a few hundred datapoints).
 3. `kb/hard/raw/cameron-wolfe/the-anatomy-of-an-llm-benchmark.md` — golden-set audits (MMLU-Redux removed 6.5% of items), contamination control, saturation. The case-bank curation playbook.
 4. `kb/hard/raw/cameron-wolfe/reward-models.md` + `kb/hard/raw/lilian-weng/reward-hacking-in-reinforcement-learning.md` — the coupled-optimizer hazard in §8, from first principles.
 5. `kb/hard/wiki/llm-evaluation.md` — eval taxonomy + EDD framing ("evals are specifications").
@@ -107,6 +121,8 @@ Timing: Chao's next step is GEPA-optimizing the judge on ~20 cards — the lockb
 **Status 8/12 AM: items 1–3 drafted → `lockbox_protocol_2026-08-12.md` · `seam_message_drafts_2026-08-12.md` · `evalresult_v2_straw_schema_2026-08-12.md` (schema grounded in the TDD PDF, now filed under `sources/`). Item 4 scoped in §G below. Item 5 superseded: James supplied 6 links (GEPA/harness-eval focused), all captured verbatim into `sources/` (see §D) — the GEPA paper itself + DSPy docs remain un-ingested into the KB proper. Item 6 still open.**
 
 **Status 8/12 PM (evening teaching session — full log in §H): lockbox one-pager updated with the judge-as-gate corollary; seam drafts file now carries the merged V2 message as the recommended send; arXiv paper read → critique §15½ added. Wed 8/13 AM pick-up: (1) post the lockbox note on Chao's doc — still the time-critical move; (2) send seam V2 (Dafang heads-up first); (3) James answers the two open exercises in §H before posting the TDD review comments; (4) then the TDD reviewer-comment pack (§C items + §15½ baseline arm + schema offer — Leo drafts on request); (5) items 5–6 of the 8/12 AM list still open.**
+
+**Status 8/14 (teaching session cont.): Lesson 6 delivered — statistics for evals (§H). Produced critique items 16 (Pareto-gate error rates are a function of the unmeasured judge-dimension correlation matrix) and 17 (effective n / MDE — the numbers that size both the calibration set and the case bank). Item 16's ask is the cheapest high-value move now open: request the 5×5 dimension correlation matrix from Chao's judge V1 outputs — no new labels, no new runs, and it sets the Evolve gate design. Exercises 1–2 still owed; checks 3–4 added. Lockbox note posting status still unconfirmed (carried 5×).**
 
 Ranked. Items 1–2 are time-critical relative to Chao's GEPA run; 3–4 are the IC build; 5–6 are cheap parallel moves.
 
@@ -161,4 +177,27 @@ James asked to be taught the concepts behind the six sources before acting on th
 
 **Open exercises James owes (answer before posting TDD review comments):**
 1. *Lesson 4 check:* a GEPA mutation softens "verify against Presto before including a metric" into "include metrics with a confidence note." Walk it through the four controls — which pass it, and where in the current TDD design does a human first get a chance to catch it?
-2. *Lesson 5 exercise:* draft the 2–4 sentence matched-budget baseline-arm reviewer comment for the TDD's §5 (name the confound; the control arm in Evolve's own terms — the 450-invocation budget; framed as making her result more defensible). Leo red-lines it against the paper before it ships.
+2. *Lesson 5 exercise:* draft the 2–4 sentence matched-budget baseline-arm reviewer comment for the TDD's §5 (name the confound; the control arm in Evolve's own terms — the 450-invocation budget; framed as making her result more defensible). Leo red-lines it against the paper before it ships. **Upgraded 8/14:** Lesson 6 gives this comment teeth — the baseline arm is only interpretable if the bank can resolve the difference at all, so the comment should carry the MDE number (§17).
+
+---
+
+### Lesson 6 (8/14) — Statistics for evals: how big does the number have to be before it means anything
+
+Source: `applying-statistics-to-llm-evaluations` (Wolfe, over Miller 2024 + Bowyer 2025 + Madaan 2024 + Heineman 2025). Taught because it is the direct input to IC artifact #2 (the significance-aware gate) and it is the argument that settles §6 (GEPA-on-20-labels).
+
+**The frame:** an eval score is not a measurement of your system, it's a *sample* from a super-population of things the system could be asked. Two sources of randomness stack — which cases you happened to pick (`Var(x)`), and the stochasticity of generation + judging on each case (`E[σᵢ²]`). `Var(mean) = (Var(x) + E[σᵢ²/K]) / n`. Every intervention below is an attack on one term.
+
+**The five moves:**
+1. **Report SE and n with every mean.** Costs one line of code. Without it, "68% → 74%" is not a claim, it's a number.
+2. **Cluster-adjust when cases aren't independent.** Cases from the same cycle/surface/playbook are correlated → effective n is smaller than n. Report clusters C alongside n.
+3. **Pair, and resample.** Same cases both arms → build the interval on the per-case *difference*, not on two separate means (comparing overlapping CIs is the wrong and over-conservative test). Positive correlation between arms makes this a free variance reduction. Then raise K until within-case variance is small next to across-case variance. Never buy stability by lowering temperature — that measures a different system.
+4. **Power-analyze *before* running.** `n ≈ (z_{α/2}+z_β)²·Var(d)/δ²`. Rearranged, it gives the minimum detectable effect of a bank you already have — i.e. whether an eval is worth running at all. Sample size scales with 1/δ²: half the effect, four times the cases.
+5. **Know where the CLT breaks.** Under ~100 datapoints, CLT intervals are too narrow and get worse at the ceiling/floor. Use Bayesian or bootstrap intervals in Reflex's regime.
+
+**Honest tension surfaced (worth holding, not resolving yet):** the variance literature (Madaan, Heineman) finds *continuous* scores — token probabilities, log-likelihood — give far better signal-to-noise than binary correctness, which appears to cut against James's on-record binary-primary position (§7). The reconciliation: binary is right for the **human** label (cheap, reliable, high inter-rater agreement); continuous is right for the **measurement** (lower variance). So — humans grade binary, the judge emits a calibrated continuous score, judge *quality* is scored on binary agreement, and the continuous score is what the gate does statistics on. That is a sharper version of §7, not a retreat from it.
+
+**Where it lands in the Reflex docs:** critique items **16** (Pareto gate error rates ← inter-dimension correlation; the cheap measurement) and **17** (effective n, the 20-card resolution limit, the ~150-cases-for-10-points number, small-n CLT failure). Item 16 is a genuinely new finding — not present in either source doc, not in Chao's or Janvi's review comments to date.
+
+**Checks James owes on Lesson 6:**
+3. Chao's judge V1 has already scored cards on 5 dimensions. Before any GEPA run: what single artifact would you ask him for, and what would you do with it? (Answer shape: the 5×5 dimension correlation matrix — and it sets the Pareto gate's design, per item 16.)
+4. Evolve reports "evolved spec dominates on 4 of 5 axes, +6 points net fitness, n=40 cases." Name the three questions you'd ask before believing it. (Candidates: how many clusters do those 40 cases span; is that a paired comparison on identical cases; what's the MDE at n=40 — is +6 even resolvable.)

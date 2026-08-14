@@ -32,6 +32,12 @@ Context: Session opened on "I feel like a failure for not having been at OpenAI 
 Signal: direct instruction (destination for the move list) + confirmation of the register.
 Refinement: on **envy/comparison** turns the move list has a fixed home — `work/career/compounding_assets.md` — so the answer stops being re-derived each time. Also: the "why do your wins feel fleeting" question has a *non-engine* answer worth leading with; don't route the whole thing to the comparison engine.
 
+
+### 2026-08-14 addendum — the carve-out held at the close
+Same session, final turn: after an hour of forward-momentum work (asset inventory, Director read), James said *"I don't know man, I kinda wanna stop working to be honest with you."* Leo did **not** produce a move list, did **not** open the just-built `compounding_assets.md`, and said so explicitly ("that list is for when you're comparing; you're withdrawing — different thing"). Instead: held both readings live (the want is documented — 6/25 and 6/28 — and genuinely available at $12M; *and* it arrived ninety seconds after the "case gets made in 2027" read), offered the one honest asymmetry — **the engine asks for more; it has never once asked him to stop** — and ended on a picture question, not a plan. James bracketed it ("maybe next time") and closed the session.
+Signal: confirmation (carve-out working as designed; contrast with the 7/15 misfire).
+Note for next time: this is the **third bracket** of the stopping thread (6/25 → 6/28 → 8/14). Three brackets is a pattern, not a mood. When it reopens it gets the floor, not a plan.
+
 ## Related
 
 - `work/career/compounding_assets.md` (the standing move list this instinct now points to)

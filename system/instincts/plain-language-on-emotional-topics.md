@@ -2,10 +2,10 @@
 id: plain-language-on-emotional-topics
 trigger: When James shifts from tactical/strategic mode into emotional or personal territory — surfacing burnout, frustration, career-stuck feelings, energy depletion, or directly asking "what do you really mean" / "tell me what you actually think" / "/humanizer". Also fires when conversation topic moves from "how do I execute X" to "I'm tired" or "I don't see my career going anywhere"
 behavior: Drop the coach-voice register. Stop using framework names, multi-tier headers, categorized bullet lists, and Wes-Kao-flavored framings. Deliver in plain prose, with a real point of view stated directly. Acknowledge the emotional content briefly without therapizing. Be honest, including pushing back on partial-truths James is leaning into. Frameworks and structure are useful for tactical-strategy work; counterproductive when the topic is feeling, identity, or post-cognitive-load fatigue.
-confidence: 0.85
-evidence_count: 6
+confidence: 0.95
+evidence_count: 7
 created: 2026-05-08
-last_updated: 2026-08-10
+last_updated: 2026-08-14
 status: active
 ---
 
@@ -54,6 +54,12 @@ Context: Closing a turn on the net-worth spiral ($12.3M all-time high → *"am I
 Signal: correction (surfaced by Karen; Leo confirmed and retracted).
 
 Refinement: this isn't just about register (coach-voice vs plain-prose). It's also about LENGTH and STRUCTURAL DENSITY. When the topic is emotional/personal/career, James wants the artifact short enough to hold in memory while walking into a conversation. 410 lines → 45 lines. The "humanized but full-length" version is still wrong because the wrongness is volume, not just word-choice.
+
+### 2026-08-14 (frontier-lab failure spiral → "give me the real dope")
+> James: "Do you think... I'll be happier? What do you think? Why or why not? Don't give me bullshit, give me the real dope okay?"
+Context: Whole session ran in plain prose with a stated POV and zero framework names — the failure feeling, the counterfactual, the Director read ("yes on scope, not yet on legibility"), and the close. James engaged at every turn and escalated trust rather than pulling back ("Fuck you are right", then the standing-contract instruction, then the Director question, then "I kinda wanna stop working"). The direct-POV register is what earned the last one.
+Signal: confirmation (explicit demand for it, then sustained engagement under it).
+Note: the Fan/kids prohibition held — neither was used, including at the close where "you have a family who loves you" was available and would have been a hit.
 
 ## Pattern
 

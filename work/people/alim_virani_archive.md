@@ -277,3 +277,17 @@ He opened with a career walk framed as a value statement, but it became an unusu
 ## 2026-08-13 — James's read three weeks in: carrying RR well; ideas-driven, needs execution pushing
 
 From James's 8/13 braindump (feelings section, filed as stated): "Thank God Alim is here. He's doing great to be honest and he's carrying my Retentive Recs load — though I do think he needs some pushing in order to make execution go smoothly. He tends to be more ideas-driven" ⟨trailing dictation garble: "so much of what Roberto says" — unresolved; possibly "much like what Roberto says"⟩. Leo note: this is not a new gap to design for — it matches his own 8/12 self-portrait (strengths XFN > modeling > systems > platform; operating model explicitly *invites* pushback as safety) and the T2 doc's designed interim role: James holds the pushback/execution seat on Alim's leg until the systems-TL seat is staffed, and per Alim's own account it lands as trust-building, not smothering. Practical form during Daniel's OOO (8/21–9/11): a standing RR execution checkpoint inside the existing James↔Alim 1:1 — cadence pressure on landings, not idea review.
+
+## 2026-08-14 — James's read: Alim is leaning into his OWN vision (the manager-of-managers flip, first evidence)
+
+From James's evening braindump, on reframing his EM relationships from *help me execute my vision* → *what is your vision and what do you want*:
+
+> "I think I need to start to be [flipping this] rather than them helping me accomplish my visions. I should be reframing to be basically: what is their vision and what do they want? I started doing that and that's something. […] that's what I see in **Alim** and I hope that I see that with Daniel as well." ⟨"Hanlin" in dictation → **Alim** confirmed by James same session; same word garbled once before on 8/1⟩
+
+**Why this matters beyond Alim.** James named this as his **third run at manager-of-managers** — the managers he had at Snap, then Bowen, now Alim + Daniel — and said he has never actually gotten there. Alim is the first of the three to show the behavior unprompted, three weeks in.
+
+**Reads against the existing record, doesn't contradict it.** The 8/13 entry ("ideas-driven, needs execution pushing") and this are the same trait seen from opposite sides: someone generating his own direction rather than waiting for James's. The designed interim pushback seat stays correct — cadence pressure on landings, *not* idea review, because idea generation is the asset here.
+
+**Test (James's own, this session):** by end of September, Alim and Daniel should each own a **written thing James didn't write**. That's the only real evidence the flip happened. See `work/career/compounding_assets.md` §The org-level version.
+
+**Watch-for:** Daniel is the open half. James hopes for the same and hasn't seen it yet — consistent with David's 8/7 coaching (asked Daniel the open motivation questions 4–5× over six months, always "I'm okay with anything") and the prescribed fix: a concrete conditional offer, not another generous open question.

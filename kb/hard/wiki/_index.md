@@ -1,6 +1,6 @@
 # Hard Skills — Wiki Index
 
-> Auto-generated. 66 concept articles. Last updated: 2026-04-05
+> Auto-generated. 66 concept articles. Last updated: 2026-08-14
 
 | Concept | Description | Sources | Related |
 |---------|-------------|---------|---------|
