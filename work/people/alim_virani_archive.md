@@ -8,7 +8,11 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
-## 2026-08-05 — 1:1 #2 (day after announcement; James's notes doc + evening sentiment, filed same day)
+## 2026-08-14 — Roberto's read on Alim (James↔Roberto 1:1; Twitter-era hypothesis, not verdict)
+
+Roberto (Alim's first-ever manager-of-managers context — Alim was the first EM Roberto managed as an M2; ATG group at Twitter): **fundamentalist** — likes to understand why; can get **really into the weeds**; **very ideas-driven**; *"execution can be stronger"*; **needed positive reinforcement / reassurance**; "will take some time."
+
+Consistency check vs. James's live reads: ideas-driven + weeds-diving match the 8/5 wrestling-for-technical-ownership (healthy so far, instrument panel green). The two *new* watch-fors from Roberto's read: (1) scaffold execution — clear milestones so depth-diving converts to shipped artifacts; (2) explicit early positive reinforcement lands disproportionately well with him (James's 8/5 "you're doing great" was already the right move). Hold as **dated hypothesis** — several years old, different company/context, and Roberto's incentives aren't neutral; weight James's own accumulating reads first. (day after announcement; James's notes doc + evening sentiment, filed same day)
 
 **James's sentiment:** going deep technically — *wrestling for ownership of the technical problem*. Real Etsy anticipation experience showing up as the ability to lean into specific strategies over others; James is letting him run. Already developing career plans for each report; **willing to buy a flight to meet reports + stakeholders in person** (trip ~8/25–27). Apologized for slow week-one onboarding (computer setup) — James: "you're doing great." What James likes most: leaning into the problem space and asking good questions. Combined with the 8/4 pod pulse: *"really seeing good promise — let's not get too excited too early."*
 
