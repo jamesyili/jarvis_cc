@@ -71,6 +71,7 @@ The hinge dependency: this is what gives the maintain-trajectory goals owners ot
 ## Keystone 3 — Build independent advocates (the Krishna fix)
 Scope without advocates is the packet that gets rejected. Presence (below) is behavior; this is advocates.
 - **Commit:** by EOY, two named senior leaders outside Dylan's org who can **independently articulate, in their own words, what I own** — targets: **Jiajing** (ATG) and **Faisal / Bo** (Signals); Jeff a third. Forcing function: first substantive scope conversation with each by end of Q3 (OOO until end-June).
+- **Mechanism (2026-08-14): → [`work/career/compounding_assets.md`](../work/career/compounding_assets.md).** Keystone 3 doesn't need a new workstream — it needs the assets I already hold run deliberately. Headline: **ML Day 2026 chair** (accepted 8/13; how the Kurchi relationship started in 2025; the VP roster ≈ my advocate list). Plus Reflex eval-as-standard, bar raiser/calibration, cross-org mentoring, KDD via Faisal, and what I choose to teach Dylan.
 
 ## Maintain trajectory (rebuild year — protect/maintain, conditional on Keystone 2)
 

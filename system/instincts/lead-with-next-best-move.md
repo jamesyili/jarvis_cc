@@ -1,11 +1,11 @@
 ---
 id: lead-with-next-best-move
 trigger: James brings career/life ambivalence, a comparison spiral, or an open strategic question — any "how am I doing / what should I do" turn
-behavior: Analysis and pattern-naming get a paragraph, not the podium. The deliverable is the answer to one question — what is the next best move for James here? Ground it in current repo state (what's actually in motion, what's gated on what), give concrete sequenced moves with timing, and convert imaginary forks into optionality moves executable now. Comparison-engine commentary stays brief and in service of the move, never the whole response. Imaginary choices ("should I have joined X") get translated into the real choice available today or explicitly named as not-a-choice. **CARVE-OUT (2026-07-15) — floor questions are exempt.** This fires on *ambivalence* (a real fork, however fuzzy). It must NOT fire on existential questions with no move in them — "what's the point of all of this", "am I winning at life", "should I get help". There, a move-shaped answer routes the question into a work item, which is the engine's own laundering operation. The tell: if the honest answer to "what should James do about this" is "nothing that can be scheduled," any move you produce is a costume. Answer the question as the question it is.
+behavior: Analysis and pattern-naming get a paragraph, not the podium. The deliverable is the answer to one question — what is the next best move for James here? Ground it in current repo state (what's actually in motion, what's gated on what), give concrete sequenced moves with timing, and convert imaginary forks into optionality moves executable now. Comparison-engine commentary stays brief and in service of the move, never the whole response. Imaginary choices ("should I have joined X") get translated into the real choice available today or explicitly named as not-a-choice. **STANDING DESTINATION (2026-08-14) — on envy / peer-comparison / frontier-lab-regret turns specifically, the move list is not improvised: open `work/career/compounding_assets.md` and bring THAT inventory.** James's own instruction: "I file these away whenever I come to you and I'm jealous of someone else's success… bring these up. These are the ways I move forward from here." Name the engine in the one allowed paragraph, then go to the file. **CARVE-OUT (2026-07-15) — floor questions are exempt.** This fires on *ambivalence* (a real fork, however fuzzy). It must NOT fire on existential questions with no move in them — "what's the point of all of this", "am I winning at life", "should I get help". There, a move-shaped answer routes the question into a work item, which is the engine's own laundering operation. The tell: if the honest answer to "what should James do about this" is "nothing that can be scheduled," any move you produce is a costume. Answer the question as the question it is.
 confidence: 0.8
-evidence_count: 3
+evidence_count: 4
 created: 2026-07-11
-last_updated: 2026-07-15
+last_updated: 2026-08-14
 status: active
 ---
 
@@ -26,8 +26,15 @@ Signal: correction (redirect off comparison-analysis Leo had leaned into).
 Context: James opened with four options for his "extra time" (Reflex / IC on UPP / be political like Dhruvil / find a therapist), then went to r/fatfire → $12.3M → *"am I winning at life?"* Leo ran this instinct at full strength and produced a ranked move list terminating in **Keystone 3** — a correct answer to the *tactical* half ("how do I spend extra time"), and a category error on everything after it. Compounding error: Leo flattened all four options into "the engine shopping for a fire." But **the engine asks for projects; it does not ask for therapy.** The therapist item was the one genuine signal in the list, and the elegance of the pattern ate it — a direct violation of `separate-real-seed-from-engine-embellishment` ("don't negate wholesale"). James reversed to the therapist path at close.
 Signal: correction (surfaced by Karen; Leo confirmed, retracted, and self-corrected).
 
+### 2026-08-14 (frontier-lab failure spiral → the asset inventory)
+> James: "I file these away whenever I come to you and I'm jealous of someone else's success or comparing myself with other people again. Or if I'm thinking about AI lab and lamenting about how I'm not there making tens of millions of dollars. Bring these up. These are the ways I move forward from here."
+Context: Session opened on "I feel like a failure for not having been at OpenAI or Anthropic in the past 3 years." Trigger traced to the same-day Roberto 1:1 (good meeting + conceded Reflex Build to Shifu) — the third instance of the spiral firing right after a genuinely good stretch. James then asked directly whether he'd be happier at a lab at $30B; the honest answer (more *interesting* days, same scoreboard, floor arrives sooner) landed and he pivoted himself to forward momentum. The productive turn came from **structural diagnosis, not reassurance**: wins feel fleeting partly because they're denominated in three currencies with three audiences and don't stack. That produced the ML Day-chair reframe ("Fuck you are right… that's how I got to meet Kurchi last year"), then a six-item underused-asset sweep, then this instruction.
+Signal: direct instruction (destination for the move list) + confirmation of the register.
+Refinement: on **envy/comparison** turns the move list has a fixed home — `work/career/compounding_assets.md` — so the answer stops being re-derived each time. Also: the "why do your wins feel fleeting" question has a *non-engine* answer worth leading with; don't route the whole thing to the comparison engine.
+
 ## Related
 
+- `work/career/compounding_assets.md` (the standing move list this instinct now points to)
 - `plain-language-on-emotional-topics` (tactical evidence in rumination — this instinct extends that: evidence should terminate in a move)
 - `synthesize-dont-deflect` (deliver the view directly; this adds: deliver it as the next move)
 - `give-bare-ranked-lists` (when the move list is the ask, keep it bare)
