@@ -1,5 +1,9 @@
 # Reflex — Program State, July 2026
 
+## ⚠️ August 13 Update — James commits the IC time; the 7/25 time-allocation tension resolves toward Reflex
+
+From James's 8/13 braindump: he spent real IC time getting deeper into the space this past week and **chatted with Janvi (Ads) and Chao (DS) about spending more time together going forward — he wants to commit to that.** With the reorg settling faster than he imagined, he can start providing real direction and guidance here. **JJ is ramping up on Reflex as well** (the 7/25 "looking forward to JJ's return" lever, now live). This resolves the 7/25 tension ("this is where I want to be… but RR/UPP") in Reflex's favor — the pivot happened in practice before it was declared. Standing Notion items now carry it: weekly with Janvi + Chao on Eval, Shifu eval setup w/ Janvi/Chao/An, biweekly with Tim + Dafang.
+
 **Captured:** 2026-07-25 context-dump session. Prior state: Dafang He = overall TL (5/29 structure), **Tim Chu** = PM (Andrew's FTE assignment; surname confirmed 7/29 from Slack), Andrew Yaroshevsky = sponsor, James = architect/sponsor altitude.
 
 ## Where James stands (7/25)

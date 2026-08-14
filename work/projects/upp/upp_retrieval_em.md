@@ -4,6 +4,25 @@
 
 ---
 
+## August 13, 2026 Update — both launch gates arguably cleared; Sai catch-up; staffing asks; notifs experiment incident
+
+**From James's status braindump (8/13):**
+
+- **P2P launch candidate — both 8/7 gates now look cleared:** P10 WAU negative → **neutral**, and the relevance regression is **not stat-sig** (James: "Kurchi just made a big deal out of it"). Thinking about escalating / talking to **Jeff** to launch on the SSv2 impacts — launching makes iteration much easier and unblocks parallel efforts. ⟨Leo note: Kurchi's 8/7 bar had two parts — the metric ("neutralish to −0.3ish") and the **off-topic tail** ("most worried about complete off-topic ones") + her explicit "back channel and bring it to me" invitation. Tail evidence status unstated in the dump.⟩
+- **Sai catch-up (today, the promised follow-ups):** she's **also unhappy the launch got blocked** — doesn't want the intermediate state either. But she **can't promise nobody works on learned retrieval** ("too much to ask"); she's already asking a few people to help **Jiaxing** (their only LR IC). James's forming ask for next week's meeting: **rebase all LR changes on top of UPP v0** — a unified, decisive stance. The tension he's working: build trust with her directly vs. escalate through **Dylan** for top-down guidance.
+- **Search surface:** update today ⟨dictated "Rope Urkel" — owner unresolved⟩ — experiment can start now, but **productionization needs GPU serving**; their POC is just-working and slower than expected → needs a push; James to talk to ⟨"Yichin," unresolved⟩ further.
+- **HF surface:** the fine-tuned version was much more positive but **has trended down**; could push a launch now but metrics "not as rosy as I'd like" — **Zihao + Piyush doubling down** on more iterations.
+- **Staffing asks from Piyush/Zihao:** (1) **another modeler** in the HF/fine-tune space — James stretched thin, exploring creative options (see 8/13 session log for the options analysis); (2) **more ML infra funding** — option: ask **Ryan** for cycles, requires alignment with **Sr. EM Evan Li**.
+- **Notifs incident:** a genuinely promising **WAU-moving experiment was turned off unilaterally** by the notifs POC to run a different "more promising" experiment. Unexpected to James; he gave feedback to the POC's manager, who was **also surprised**. Open: can the positive arm be restored/re-ramped; decision-rights clarity on shared-surface experiments.
+- **Cadence change:** James + Piyush + Zihao move to a **biweekly tactical sync replacing every other 1:1**.
+
+**From James's Dylan-1:1 prep doc (screenshots, 8/13 evening):**
+
+- **Quota/budget win:** Konish Dutta + J.J Hu + Aditya Mantha ⟨plausibly Kim's "Aditya leading UPP infra"; unconfirmed⟩ on SMS batch optimization + L1 utility experiments — latest experiment round is **neutral topline but frees ~400 candidate quota at zero L2 cost**; coordination sheet "Extra Candidates due…"; **Konish aiming to LR the change mid-August**. Channel question queued for Dylan: add Daniel + reports to #homefeed-eng, or rename it #p13n-relevance-eng.
+- **RecGPT & L1 — the LWS×UPP integration fork (strategic):** **ATG wants to replace all LWS models with the new RecGPT** (retrieval loss + ranking loss), starting with Notifs (LR: notif_recgpt_l1_ranker_…). James's posture: collaborate as a longer-term roadmap; the key upcoming intersection is **how LWS gets integrated into UPP** — **Jaewon: via RecGPT · Matt Lawhorn: via a stronger LWS model + tighter L1/L2 ranker coupling**. **Yali tasked to map the landscape and form an opinion; Piyush supports as needed.** ⟨Leo note: this fork touches Daniel's LWS engine while he's OOO 8/21–9/11 and feeds the GenRet/RecGPT November evidence review — RecGPT absorbing LWS would materially change what GenRet *is* by November.⟩
+- **Cost:** follow #p13n-cost-debug to confirmed-below-budget; **Daniel Dormer** to build the cost investigations into PINvestigator (both marked resolved/decided in the doc).
+- **ML Day 2026:** Chuck Rosenberg + Jiajing Xu asked James to **chair** (happy with last year's results) — **James agreed** (bigger than the committee-seat framing in this morning's notes; delegate-the-legwork advice stands, more so).
+
 ## August 7, 2026 Update — Kurchi invites the ship; P10 WAU confirmed blocking; two clarifiers open
 
 **From the group DM (Kurchi, Piyush, Jiaxing, Zhenjie, James) the day after the launch review — screenshot captured 8/8:**

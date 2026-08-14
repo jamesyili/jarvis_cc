@@ -125,3 +125,5 @@
 | 2026-08-11 22:37 | gmail | [Leo] T2 Org Scenarios — Pros & Cons and 2027 Futures (v2) | system/artifacts/t2_scenarios_2027_analysis_2026-08-11.md | to=jamesyili@gmail.com id=19ff47a269a815c5 |
 | 2026-08-12 07:29 | gmail | [Leo] Eval-Integrity Protocol for the Detect Judge (Lockbox + Versioning) | work/projects/reflex/lockbox_protocol_2026-08-12.md, work/projects/reflex/seam_message_drafts_2026-08-12.md, work/projects/reflex/evalresult_v2_straw_schema_2026-08-12.md | to=jamesyili@gmail.com id=19ff6610c48b446d |
 | 2026-08-12 17:10 | gmail | [Leo] Trio Sync Prep — Monday 8/17 (P13N Retrieval Staff Sync) | work/people/reorg_july2026/trio_sync_prep_2026-08-17.md | to=jamesyili@gmail.com id=19ff874dc60e6ab3 |
+| 2026-08-13 20:55 | gmail | [Leo] Kim framing — trio sync (Mon 8/17) then Alim 1:1 | work/people/reorg_july2026/kim_framing_trio_and_alim_2026-08-13.md | to=jamesyili@gmail.com id=19ffe693dd73aed3 |
+| 2026-08-13 22:23 | gmail | [Leo] OOO work blocks (Thu 8/14 + Sat 8/16) & Dylan prep (msg Mon · 1:1 Tue 8/18) | work/weekend_plan_and_dylan_prep_2026-08-14.md | to=jamesyili@gmail.com id=19ffeba22ee3c35c |

@@ -11,6 +11,14 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-13 — Two-week 1:1 gap; Monday-async + Tuesday-live plan set (ask-portfolio applied)
+
+No 1:1 in two weeks (reorg-busy; this week's canceled too). James's plan, shaped with Leo 8/13 and emailed to himself (msg 19ffeba22ee3c35c):
+- **Monday async (light FYI, per James: T2 and UPP are in-person-only topics):** trust-building with Daniel/Alim going well · offer a fuller Curation-ML-situation read "in another week, when we have more time" · L1 quota good news (~400 free candidate quota at zero L2 cost, Konish/JJ/Aditya, LR mid-Aug) · the one async-decidable question: add Daniel's folks to #homefeed-eng vs rename to #p13n-relevance-eng · closing line reserves Tuesday agenda space beyond H1 perf.
+- **Tuesday 8/18 1:1 (she drives H1 perf first):** (1) T2 + Kim — trio readout, Friday's closes, and the **Kim L16 sponsorship heads-up before the seat closes Friday** (she should hear the calibration-sponsor plan from James first); (2) UPP — gates cleared on Kurchi's own bar, receipts going through her invited back-channel; **the ask: if the bar moves, carry it to Jeff as a Core-VP launch decision** (pre-alignment, not action-today); 30-sec tack-on: the Reflex role-sentence to Tim/Dafang (open since July); tease-only: RecGPT×LWS×UPP fork (Yali mapping).
+- **Queued for the "more time" session (~wk of 8/24):** Curation-ML scope read (incl. IB post-gate posture) · Recommended-Boards gains-origin read (James has it from Daniel — closes her 7/14 question) · RecGPT×LWS fork in full · Reflex↔Shifu deeper · CQ technical thoughts. SM/SL success criteria: James 8/13 — already clear, item retired.
+- Pattern note: message shape deliberately matches the action-sponsor read (Part II) — FYIs + one binary question async; judgment items live; ≤2 asks per touchpoint.
+
 ## 2026-08-06 — Curation ML team meeting: public mutual endorsement
 
 In the room together for the Wave-1 meeting; James same-day: "Dylan and I were in great sync." The two traded subtle public praise — James credited her for running an org that makes room to work on hard things; she praised **James's very high EVS score and called him a great manager, in front of the inherited team**. Read: deliberate public air cover for the re-parent ("you're landing with a great manager"), delivered as praise rather than argument. Datapoints: (1) she reinforces her own reorg decisions with public evidence when the moment serves; (2) **EVS is a currency she cites** — James's people-manager metrics are visible to her and count.

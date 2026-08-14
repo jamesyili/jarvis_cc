@@ -3,9 +3,9 @@ id: resolve-dictation-artifacts-against-context
 trigger: James's input reads voice-dictated and a project/person name doesn't match known context ("Allen Utility", "PinRec v2", "Oliver"), especially when the name is headed into a work deliverable
 behavior: Resolve garbled names against repo context (projects, people, artifacts) and use the canonical name, but flag the mapping explicitly in the reply ("assuming PinRec v2 = Pin Selection v2 (PSv2)") so James can correct. For names Leo cannot resolve from context (new people), carry them verbatim but surface them in a pre-submit spelling check — dictated names are a known error class.
 confidence: 0.95
-evidence_count: 6
+evidence_count: 7
 created: 2026-07-09
-last_updated: 2026-08-10
+last_updated: 2026-08-13
 status: active
 ---
 
@@ -47,3 +47,8 @@ Three name-shaped dictation artifacts in one session:
 - "PinRec v2" → resolved to Pin Selection v2 (PSv2) and flagged in-chat; James did not object (correct).
 - "Oliver" → written into the draft as heard; James corrected mid-turn: "Olafur not Oliver." Unresolvable from context (new person), but a spelling-confirm nudge for new dictated names would have caught it — and it echoes the 7/9 peer-feedback session's pre-submit name-spelling checklist item (Andreanne, Jia Chong).
 Signal: mixed — two confirmations of the resolve-and-flag move, one correction showing the gap for unknown names.
+
+### 2026-08-13
+> (James, after Leo's flagged resolutions:) "Oliver = Olafur"
+Context: Heavy dictation session — resolved Kurchi→Chuxi, Sy→Sai, biology→Balaji, David→Dylan against repo context with mappings flagged inline; James confirmed the one Leo couldn't resolve (Oliver→Olafur Gudmundsson) and corrected nothing else. Two names carried verbatim + surfaced as unresolved ("Rope Urkel", "Yichin") per the behavior. The full loop worked end-to-end.
+Signal: confirmation

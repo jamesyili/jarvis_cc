@@ -27,15 +27,15 @@ Present all three as live versions, using the planner they already have. Per boa
 - **Barbell** — every team holds an engine *and* a bet. Alim = anticipation stack + CLR as ballast + a senior seat; Daniel = LWS + Collection P13N + IB through its gate, plus a funded LLM×Recs lane; James = UPP + Reflex.
 - **AnticipationCLR** — the bold consolidation: anticipation maximal under Alim (incl. IB with Balaji as Staff anchor), Daniel compact and frontier-deep. Most moves, biggest swing.
 
-**Open forks to name explicitly** (each with what resolves it): GenRet — parked, fall demo decides · CLR timing · IB — its gate, ~Oct · Kim's seat — Friday · reqs — at settle.
+**Open forks to name explicitly** (each with what resolves it): GenRet — parked, November decides on evidence · CLR timing · IB — its gate, ~Oct · Kim's seat — Friday · reqs — at settle.
 
 Let the discussion run. Where their reactions cluster — and what each of them pushes back on — is the best data this meeting can produce.
 
 **4. RR launch → roles between the three of you — 8 min (6).**
 Your lean-in idea: use the launch urgency as the live object for how the trio operates. Settle concretely: launch decisions run Alim + you while Daniel's out; Daniel's team's interface pre-named (Balaji); you take escalations and strategic exceptions only.
 
-**5. Kim — 5 min.**
-The most urgent org call. Frame strictly on her stated energy: user-facing, full-stack, not 100% modeling, not 100% UPP → the exploration-surface seat concept on Alim's leg. Daniel's on record wanting it settled sooner. Check the Alim↔Kim chat status. Decision lands Friday, after Kim's own 3-way — it's her choice to accept.
+**5. Kim — 5 min.** *(⚠️ Updated 8/13 — supersedes the exploration-surface concept: at her 8/13 1:1 she self-selected into **RR proper**. Full two-room framing in `kim_framing_trio_and_alim_2026-08-13.md` — use that for this segment.)*
+Frame strictly on her stated energy — she lit up on Retentive Recs specifically; already on the retrieval challenge via search-stage CLR (continuity, not a switch). Name the Chuxi guardrail out loud: Chuxi stays workstream TL; Kim's seat is chartered as the explorative-pUIC spine, a complementary lane, not a TL claim (Kim herself was explicit). Daniel's on record wanting it settled sooner; invite his Balaji-for-RR counter rather than dodge it. Check the Alim↔Kim chat status. Decision lands Friday, after Kim's own 3-way — it's her choice to accept.
 
 **6. Close: name Friday's list — 3 min.**
 *Decided Friday 8/21:* Kim's seat (post-3-way) · the working board direction (narrow three to a leading shape as the planning assumption — forks stay evidence-gated) · RR launch roles confirmed. *Not decided until fall:* final T2, GenRet, CLR/IB homes. Daniel leaves with process certainty; nothing settles while he's dark.

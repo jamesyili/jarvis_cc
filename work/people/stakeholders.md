@@ -790,6 +790,11 @@ Dylan brought James + Dhruvil **three priorities she's carrying from Jeff**; a q
 - Read: the posture arc has moved active-block (6/3) → ownership-wrestle in process clothing (7/17–7/27) → **conditional invitation with a named, finite bar and a personal back-channel offer** — the strongest cooperation signal on record from her. Consistent with her C-profile: she committed to evidence-conditioned support, which for her is real commitment.
 - Same thread: **Zhenjie Zhang confirmed P10 WAU is blocking** ("key P2P OKR… does look blockering") and asked Piyush to size better-P10 sampling — the second gate now has a cooperative owner rather than an adversarial one. Piyush's metric-definition clarifier (b2.5_precision@4 vs b1.5_precision@8) still open.
 
+### 2026-08-13 — Her stated bar now arguably met; back-channel pending
+
+- James's 8/13 status: **P10 WAU negative → neutral** (Zhenjie's gate condition no longer holds) and **the relevance regression is not stat-sig** (James: "Kurchi just made a big deal out of it"). Both 8/7 gates look cleared **on her own stated metric bar**; the off-topic-tail half of her worry (the part she emotionally weighted) has no evidence status captured yet.
+- Plan (Leo rec, unratified): use her own invited back-channel WITH tail-cleanup receipts before any Jeff escalation — her invitation is the cheapest channel on record; escalate via Dylan→Jeff only if the stated bar moves, which would then be a clean case ("the written bar was met; it moved"). Full state: `work/projects/upp/upp_retrieval_em.md` 8/13 entry.
+
 ## DiSC Profile (Inferred)
 - **Primary:** **C (Conscientious)** — leads with "I need data," "show me the evidence," reasonable-sounding process demands
 - **Secondary:** **D (Dominant)** — fiercely turf-protective, will push back on Rajat directly, doesn't fold under VP pressure
