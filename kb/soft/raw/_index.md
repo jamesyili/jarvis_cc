@@ -1,6 +1,6 @@
 # Soft Skills — Raw Content Index
 
-> Auto-generated. 1564 articles across 4 sources. Last updated: 2026-08-14
+> Auto-generated. 1564 articles across 4 sources. Last updated: 2026-08-15
 
 | Title | Source | Tags | Path | Wiki Concepts |
 |-------|--------|------|------|---------------|

@@ -1,6 +1,6 @@
 # Hard Skills — Raw Content Index
 
-> Auto-generated. 801 articles across 12 sources. Last updated: 2026-08-14
+> Auto-generated. 803 articles across 13 sources. Last updated: 2026-08-15
 
 | Title | Source | Tags | Path | Wiki Concepts |
 |-------|--------|------|------|---------------|
@@ -437,6 +437,7 @@
 | AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness | arxiv | agent-harness, llm-agents, code-synthesis, agent-evolution | [[hard/raw/arxiv/autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-harness.md]] | |
 | EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents | arxiv | agent-harness, agent-evolution, reinforcement-learning, llm-agents, long-horizon | [[hard/raw/arxiv/evoharness-rl-learning-self-evolving-runtime-harness-for-long-horizon-llm-agents.md]] | |
 | EvoRec: Self-Evolving Agentic Recommender Systems | arxiv | agent-evolution, recsys, llm-agents, multi-agent | [[hard/raw/arxiv/evorec-self-evolving-agentic-recommender-systems.md]] | |
+| GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning | arxiv | prompt-optimization, evolutionary-search, pareto-frontier, credit-assignment, reflection, compound-ai-systems, dspy, rl-alternatives, sample-efficiency | [[hard/raw/arxiv/gepa-reflective-prompt-evolution-can-outperform-reinforcement-learning.md]] | |
 | Self-Evolving Recommendation System: End-To-End Autonomous Model Optimization With LLM Agents | arxiv | agent-evolution, recsys, llm-agents, ml-systems, automation | [[hard/raw/arxiv/self-evolving-recommendation-system-end-to-end-autonomous-model-optimization-wit.md]] | |
 | SkillOS: Learning Skill Curation for Self-Evolving Agents | arxiv | agent-evolution, agent-memory, skill-curation, reinforcement-learning, llm-agents | [[hard/raw/arxiv/skillos-learning-skill-curation-for-self-evolving-agents.md]] | |
 | A Guide for Debugging LLM Training Data | cameron-wolfe | llms, rlhf, architectures | [[hard/raw/cameron-wolfe/a-guide-for-debugging-llm-training-data.md]] | |
@@ -469,6 +470,7 @@
 | Open challenges in LLM research | chip-huyen | ml-systems, mlops | [[hard/raw/chip-huyen/open-challenges-in-llm-research.md]] | |
 | Predictive Human Preference: From Model Ranking to Model Routing | chip-huyen | ml-systems, mlops | [[hard/raw/chip-huyen/predictive-human-preference-from-model-ranking-to-model-routing.md]] | |
 | What I learned from looking at 900 most popular open source AI tools | chip-huyen | ml-systems, mlops | [[hard/raw/chip-huyen/what-i-learned-from-looking-at-900-most-popular-open-source-ai-tools.md]] | |
+| dspy.GEPA — Reflective Prompt Optimizer (API reference, advanced features, implementation) | dspy | dspy, prompt-optimization, gepa, credit-assignment, feedback-function, instruction-proposer, component-selection, pareto-frontier, compound-ai-systems | [[hard/raw/dspy/dspy-gepa-reflective-prompt-optimizer.md]] | |
 | 2020 Retrospective: New Country, New Role, New Habit | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/2020-retrospective-new-country-new-role-new-habit.md]] | |
 | 2021 Roadmap: Sharing, Helping, and Living More | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/2021-roadmap-sharing-helping-and-living-more.md]] | |
 | 2021 Year in Review | eugene-yan | recsys, ml-systems | [[hard/raw/eugene-yan/2021-year-in-review.md]] | |

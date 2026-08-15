@@ -59,7 +59,11 @@ The strongest doc of the set: typed contract, one-component mutations, un-bypass
 
 **12. Fixture staleness + case-bank overfitting across generations.** Tables deprecate, experiments conclude, strategy docs move; an edit that dominates on stale fixtures can regress live. And since vN+1 becomes the next candidate against a finite bank, repeated evolution is slow training-on-the-test-set — the validation split leaks over generations. Needed: fixture age gate + refresh cadence; new cases flow in from each rotation, oldest retire; a rotating lockbox slice; and ideally one **shadow validation** (evolved spec runs beside incumbent on the next live rotation) before landing.
 
-**13. blame() deserves an ablation.** Credit assignment from judge rationales to components is the hardest part of GEPA here, and rationale biases (verbosity, position) can systematically misdirect mutation. Cheap test: blame() vs. random component selection over a few runs — if blame() doesn't beat random, simplify.
+**13. blame() deserves an ablation — and after reading the paper (8/15), it deserves more than that: it carries the burden of proof.** Credit assignment from judge rationales to components is the hardest part of GEPA here, and rationale biases (verbosity, position) can systematically misdirect mutation. Cheap test: blame() vs. random component selection over a few runs — if blame() doesn't beat random, simplify.
+- **Upgraded 8/15 (GEPA paper + DSPy source now ingested).** GEPA has no `blame()`. Algorithm 1 line 8 is `j ← SELECTMODULE(Φk)` and the paper states the policy plainly: **round-robin.** The reference implementation agrees — `dspy.GEPA(component_selector=...)` defaults to `"round_robin"` (`RoundRobinReflectionComponentSelector`), with `"all"` as the only other built-in. GEPA's credit assignment is *implicit*: it does not compute which module was at fault, it hands the reflection LM the module's inputs/outputs/reasoning plus the feedback text and lets attribution happen inside the prompt.
+- So the framing flips. `blame()` is not GEPA's hard part that Evolve must implement — it is a **departure from GEPA's default**, and the paper's headline results were obtained *without* it. The reviewer question is no longer "does blame() work" but "what does blame() buy over the round-robin the results were measured on?"
+- **The ablation is now one config flag, not a build.** In DSPy terms `blame()` is a custom `ReflectionComponentSelector` (documented extension point: `__call__(state, trajectories, subsample_scores, candidate_idx, candidate) -> list[str]`), so the control arm is literally `component_selector="round_robin"`. Any cost objection to running the ablation is gone.
+- **Where per-module credit legitimately does live in GEPA: the feedback function, not the selector.** `GEPAFeedbackMetric.__call__` receives `pred_name` and `pred_trace` — the predictor currently being optimized and its sub-trace — and may return `dspy.Prediction(score, feedback)` *for that predictor*. If it doesn't, GEPA falls back to program-level feedback; if there's none at all, the reflection prompt gets the string `"This trajectory got a score of {score}."` and nothing else. That is the real design question for Evolve: **can the Reflex judge emit per-component feedback at scoring time?** If yes, that beats a post-hoc `blame()` heuristic, because the attribution comes from the evaluator rather than from re-reading rationales. If no, the reflection LM is working from a scalar and a trace, and a `blame()` layered on top of that is a heuristic on top of a heuristic.
 
 **14. Security and rollback remain the thin sections.** Fixtures contain untrusted text (Asana comments → prompt injection into a headless Claude run). `never_mutable` globs protect specs, but nothing stated protects the fixture store or screens fixture content. Rollback exists implicitly via `versions/vN.md`; write the explicit revert procedure. (These were the named gaps on 8/10; still open.)
 
@@ -81,6 +85,22 @@ The strongest doc of the set: typed contract, one-component mutations, un-bypass
 - **Below n≈100 the CLT itself fails** (Bowyer et al. 2025): CLT intervals are systematically *too narrow* in exactly this regime, and they degenerate to zero width when a run passes or fails everything — which is precisely what a small curated bank does. At Reflex's sample sizes the honest tools are Bayesian (Beta-Binomial) intervals or bootstrap, not `mean ± 1.96·SE`.
 - Free wins available today: **pair everything** (same cases both arms — the positive score correlation is a variance reduction that costs nothing, and separate overlapping CIs are the wrong test; build the CI on the *difference* and check whether it excludes zero), and **resample K trials per case**, choosing K so within-case variance is small relative to across-case variance. Do **not** lower judge temperature to buy stability — that changes the distribution being measured, i.e. a different judge.
 
+**18. "Pareto" means two different things in this program, and conflating them in a review comment would be a visible error (new 8/15, from the GEPA paper — this was the open verification item).** Verified against Algorithm 1 and Algorithm 2 of arXiv 2507.19457 and against the DSPy implementation. They are different objects at every level:
+
+| | **GEPA's Pareto** (paper §3.1, Alg. 2) | **Evolve's Pareto gate** (Janvi's TDD) |
+|---|---|---|
+| What the axes are | **task instances** — one objective per case in `D_pareto` | **judge rubric dimensions** — 5 axes |
+| What it decides | *which parent to mutate next* — a sampling distribution | *whether a candidate is accepted* — a pass/fail gate |
+| How it's used | build per-instance best-score sets, prune strictly dominated candidates, sample ∝ how many instances a candidate leads | require the child to no-worse-dominate the parent on all axes |
+| Failure it prevents | local optima / premature convergence (Mouret & Clune "illumination") | (intended) accepting a candidate that regresses a dimension |
+| Effect of axis correlation | more instances = a richer frontier; correlation is not a hazard | correlated dims make domination easy → false-accept rate rises toward 50% (**item 16**) |
+| Reference implementation | `candidate_selection_strategy: Literal["pareto","current_best"] = "pareto"` | no counterpart in GEPA |
+
+- **The load-bearing consequence: GEPA's acceptance test is a plain scalar.** Algorithm 1 lines 13–14 — compute `σ, σ′` = average minibatch score before and after, accept `if σ′ improved`. Multi-objective reasoning appears *nowhere* in acceptance. Only after a candidate is accepted on that scalar is it evaluated on `D_pareto`, and that evaluation feeds **parent selection**, not admission.
+- So **GEPA cannot be cited in support of a Pareto acceptance gate.** If anything it is evidence for the opposite: the paper's results come from single-scalar acceptance plus Pareto-diverse *exploration*. Saying "we use a Pareto gate, like GEPA" in a doc comment is the kind of error a reader who has read the paper will catch.
+- **This independently converges with Lesson 9's rubric finding.** Implicit aggregation (one score) beat explicit weighted rubrics in the rubric literature; GEPA accepts on one aggregate score; and item 16 showed the 5-axis gate's false-accept rate is undefined until the correlation matrix is measured. Three separate paths to the same recommendation: **accept on one number, and spend the multi-objective machinery on keeping the search diverse instead.**
+- **Constructive version of the review comment** (the shape that improves the TDD rather than scoring a point): keep the axes as *diagnostics and as parent-selection diversity*, move *acceptance* to a single aggregate with a paired-bootstrap margin (IC artifact #2), and note that GEPA's own `"current_best"` vs `"pareto"` flag makes the exploration half a one-line ablation too.
+
 ## D. KB resources (ranked; full sweep in session notes)
 
 **Tier 1 — read before finalizing the design:**
@@ -92,7 +112,10 @@ The strongest doc of the set: typed contract, one-component mutations, un-bypass
 
 **Tier 2:** `eugene-yan/evaluating-the-effectiveness-of-llm-evaluators` (κ/ρ targets: judge-human ≥ human-human is the ceiling; bias catalog), `wiki/counterfactual-evaluation.md` (replay math, IPS/DR, insufficient-support — the formal frame for §12), `cameron-wolfe/online-versus-offline-rl-for-llms.md` (where offline optimization fails: OOD), `louis-wang/the-harness-is-the-moat` (fixture infra as the durable asset — validates Evolve's core bet).
 
-**KB gap:** nothing on GEPA/DSPy specifically — worth ingesting the GEPA paper + DSPy docs this week since two workstreams now depend on it.
+**KB gap — CLOSED 8/15.** Both now in the KB proper (full text, not summaries):
+- `kb/hard/raw/arxiv/gepa-reflective-prompt-evolution-can-outperform-reinforcement-learning.md` — arXiv 2507.19457v2, ICLR 2026 Oral. Main body + references + appendices A–J and N. Appendices K/L/M (raw evolved-prompt dumps, ~4.9k lines) omitted by design; note in the file. **Read for:** Algorithm 1 (the loop, and the scalar acceptance test at lines 13–14), Algorithm 2 (instance-wise Pareto selection), §3 Reflective Prompt Mutation + evaluation-traces-as-diagnostic-signal, §3.1 Pareto illumination, Appendix C (the actual meta-prompt), Appendix D.1 (system-aware merge).
+- `kb/hard/raw/dspy/dspy-gepa-reflective-prompt-optimizer.md` — new `dspy` source slug. The two docs pages plus `dspy/teleprompt/gepa/gepa.py` in full, since the published pages are mkdocstrings stubs. **Read for:** the `GEPAFeedbackMetric` protocol (`pred_name` / `pred_trace` — where per-component credit actually enters), `component_selector` (round-robin default), `candidate_selection_strategy` (`"pareto"` vs `"current_best"`), `instruction_proposer`, `DspyGEPAResult`, and the merge/budget knobs.
+- Fallout: critique item **13** upgraded and item **18** added (both below/above). Routing fix: `arxiv`, `anthropic`, `dspy` added to `HARD_SLUGS` in `scripts/ingest.py`, which had been silently routing them to `soft`.
 
 **Project sources folder (`sources/`, James-supplied links filed 8/12):**
 - `pydantic_gepa_prompt_optimization_2026-02-02.md` — worked GEPA+evals pipeline; adapter pattern, train/val split, "evaluator blind spots get exploited," budget guidance (start 20–50 calls). Closest public analog to Chao's Stage 1.
@@ -201,3 +224,29 @@ Source: `applying-statistics-to-llm-evaluations` (Wolfe, over Miller 2024 + Bowy
 **Checks James owes on Lesson 6:**
 3. Chao's judge V1 has already scored cards on 5 dimensions. Before any GEPA run: what single artifact would you ask him for, and what would you do with it? (Answer shape: the 5×5 dimension correlation matrix — and it sets the Pareto gate's design, per item 16.)
 4. Evolve reports "evolved spec dominates on 4 of 5 axes, +6 points net fitness, n=40 cases." Name the three questions you'd ask before believing it. (Candidates: how many clusters do those 40 cases span; is that a paired comparison on identical cases; what's the MDE at n=40 — is +6 even resolvable.)
+
+---
+
+### Lesson 8 (8/15) — Credit assignment: what `blame()` is for, and what GEPA actually does instead
+
+Sources: the GEPA paper and DSPy implementation, both ingested today (§D). Taught because §13 has been sitting open since 8/11 as "blame() deserves an ablation," and the review comment could not be written honestly without knowing what the paper does.
+
+**The problem.** A compound system has N modules. A rollout produces one score. Something went wrong; which module do you edit? That is credit assignment, and it is the same problem RL solves with value functions and advantage estimates — except here the "gradient" is text, so the attribution has to be done in language.
+
+**Four places the answer can come from, cheapest to most expensive:**
+1. **Don't attribute — rotate.** Round-robin over modules. This is GEPA's default and what the headline numbers were measured on.
+2. **Attribute at scoring time, from the evaluator.** The feedback function is handed `pred_name` + `pred_trace` and returns a score *and* text feedback for that specific module. Attribution comes from the thing that knows why the score was what it was.
+3. **Attribute at reflection time, implicitly.** Hand the LM the trace, the score, and the feedback, and let it work out what went wrong inside the prompt. GEPA does this on top of (1) and (2) — it's the "implicit credit assignment" the paper names.
+4. **Attribute explicitly, post hoc, from judge rationales.** Parse rationales, map complaints to components, pick the culprit. This is `blame()`. It is the only one of the four that GEPA does not do.
+
+**Why the ordering matters.** Each step down adds a place for error to enter. (4) is the worst position: it re-reads a text artifact that was written to *justify a score*, not to *locate a fault*, and it inherits every rationale bias — verbosity, position, self-consistency — into the mutation target. And a misdirected mutation isn't neutral; the wasted rollout is charged against a budget that item 17 already showed is too small to resolve small effects.
+
+**The reframe James should take into the review.** Not "prove blame() works." Rather: *GEPA got its results with round-robin; what does blame() buy over that, and is it measured?* That is a fairer question and a harder one to wave off. And because `blame()` is structurally a custom `ReflectionComponentSelector`, the control arm is a single config value — so "we don't have time to ablate it" isn't available as an answer.
+
+**The constructive move underneath it** (the thing that would actually make Evolve better): push credit assignment *up* to option (2). If the Reflex judge can emit per-component feedback at scoring time, that dominates any post-hoc `blame()`, because the attribution is produced by the evaluator with the trace in hand rather than reconstructed from prose afterward. Whether it can is a real open question about Chao's judge, and it is a good thing to ask him rather than assert.
+
+**Where it lands:** critique item **13** rewritten (burden of proof flipped, ablation cost collapsed to a flag, feedback-function path named), and item **18** added — see §C.
+
+**Checks James owes on Lesson 8:**
+5. Evolve runs with `blame()` and the mutation rate on one particular component is 4× the others. Give two readings of that — one where `blame()` is working, one where it's broken — and name the artifact that distinguishes them.
+6. You get option (2): the judge can emit per-component feedback. Name the new failure mode this creates that round-robin didn't have. (Hint: what is the judge now jointly optimizing, and against which of the two coupled loops from Lesson 3?)

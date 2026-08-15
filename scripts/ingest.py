@@ -32,7 +32,7 @@ MANIFEST_FILE = KB_DIR / ".ingested_manifest.json"
 HARD_SLUGS = {
     "aman-ai", "chip-huyen", "eugene-yan", "lilian-weng", "karpathy",
     "cameron-wolfe", "sebastian-raschka", "nathan-lambert", "jay-alammar",
-    "louis-wang",
+    "louis-wang", "arxiv", "anthropic", "dspy", "AgenticRecommendations",
 }
 SOFT_SLUGS = {"wes-kao", "jefferson-fisher", "ethan-evans", "lennys-podcast"}
 
