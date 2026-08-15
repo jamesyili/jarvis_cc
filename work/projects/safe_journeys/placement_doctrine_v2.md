@@ -48,14 +48,16 @@ The unit matters because **a metric defined on one unit cannot be optimized by a
 - **Filter / gate** — binary removal of a single pin at a threshold on one or more signals (§4.2).
 - **Demotion** — reduce a single pin's ranking score. Additive or multiplicative (§4.5).
 - **Probabilistic sampling** — stochastic removal of a single pin, keep-probability a function of its score (§4.4).
+- **Spacing** — separate flagged items so they do not cluster. It arranges a set, but it is an **item-unit** mechanism, because the decision it rests on is per-item: something must first be *declared bad* before it can be spaced from other bad things. **Threshold-dependent.**
 
-**Slate-unit.** Three distinct mechanisms, and the distinction between them is load-bearing:
+The unit is set by **what you must decide, not by what you touch.** Spacing rearranges a slate but decides per pin, so it lives here.
 
-- **Spacing** — separate flagged items so they do not cluster. **Threshold-dependent**: something must first be declared bad before it can be spaced from other bad things.
+**Slate-unit.** Two mechanisms, and what makes them different from spacing is load-bearing:
+
 - **Diversity (SSD)** — a modified Gram-Schmidt decorrelation over the set, already implemented today. **Threshold-free**: it consumes the *entire* classifier prediction vector and diversifies against it, with no prior determination that any individual pin is unsafe.
 - **Density control (L1 composition)** — cap how much of a candidate set falls within a given classifier-score range. **Threshold-free**: it needs a score, not a verdict. Concretely: take the pins whose classifier scores fall in a band and hold that population to a fixed budget.
 
-**We prefer diversity and density control over spacing.** Spacing reintroduces the threshold at the set level, which throws away the same information Faisal's argument says we should stop throwing away. Diversity and density control consume the full score distribution, which means the choice of set-level mechanism follows from the same principle as the choice of item-level mechanism.
+**We prefer diversity and density control over spacing.** Spacing requires a per-item verdict before it can act, which throws away the same information Faisal's argument says we should stop throwing away — and it is why spacing is not really a set-level tool at all, only a set-level *arrangement* of item-level decisions. Diversity and density control consume the full score distribution and never ask whether any single pin is bad.
 
 This is not a new proposal so much as an implementation of one already on the table. Faisal's idea list asks for *"topic diversity floors specifically for teens (no more than X% of the feed from any one cluster)"* and for *"mandatory exploration slots seeded from safe, broadly-appealing content."* SSD is the mechanism that already exists to do that, and it does it without requiring us to declare any individual pin unsafe first.
 
@@ -88,7 +90,7 @@ This is not a new proposal so much as an implementation of one already on the ta
 - **Density** — share of an *individual's* feed that is borderline or violative. Already proposed as a candidate success metric: *"what fraction of an individual teen's feed is borderline or violative? e.g. >33% of feed becoming borderline or violative."* See §4.3 — this is the metric our density-control lever moves directly.
 - **Unsafe Slate Rate (USR)** — share of slates an LLM judge rates unsafe. *Slate unit.* North star. 0.45% for teens, ~300× prevalence.
 - **Collateral damage** — engagement lost to *misclassification*, held separate from engagement lost to correct suppression.
-- **Regrettable engagement** — engagement the user themselves would take back.
+- **Unregrettable engagement** — engagement the user genuinely valued and would choose again. **This is the quantity collateral damage is denominated in**: losing engagement the user would have taken back anyway is not a cost. Its complement, regrettable engagement, is not a separate metric — it is the part of a measured engagement loss that we should stop counting as damage.
 
 ### 1.6 Calibration states
 
@@ -142,13 +144,13 @@ All ML makes mistakes. Every classifier in this program is wrong some of the tim
 
 This is also the part that decays quietly if nobody owns it, because the mistakes are invisible by construction: suppressed content generates no engagement to miss.
 
-Three distinct mistakes, each needing separate instrumentation:
+Two distinct mistakes needing separate instrumentation, and one thing that is not a mistake but a unit of account:
 
 **Misclassification cost.** Engagement lost because we suppressed content that was fine. This must be held separate from engagement lost by correctly suppressing content that was not fine — **the second is the price of the program, the first is waste.** Reported as one number, it makes the program look more expensive than it is and hides whether the classifier is improving. Every classifier improvement should show up as this number falling while the quality win holds.
 
 **Missed harm.** Content that should have been caught and was not — measured at the **slate** level rather than the item level, because the experiences we care about are ones no individual item creates. Their own numbers already establish this: prevalence is 0.03% while USR is 0.45%, a 300× gap. **That gap is the accumulation effect, already measured** — most unsafe experiences are not a single enforcement miss but a composition our item-level instruments cannot see.
 
-**Regrettable engagement.** Not all engagement is good engagement; some of it the user themselves would take back. This is collateral damage viewed from the user's side rather than the system's, and it is what makes "we lost engagement" an incomplete sentence. **Engagement we should not have had is not a cost.**
+**Both of those have to be denominated in *unregrettable* engagement.** Not all engagement is good engagement; some of it the user themselves would take back. So "we lost engagement" is an incomplete sentence, and the complete one is *we lost this much engagement the user actually valued.* **Engagement we should not have had is not a cost, and counting it as one overstates the price of every safety launch we will ever run.** This is not a third mistake to instrument — it is the unit the first two are measured in, and getting the unit wrong makes the program look more expensive than it is in exactly the forum where that matters most.
 
 **On the Pareto claim.** The Design Options doc argues that score-based soft enforcement achieves a better quality-engagement Pareto than filtering. That is very likely right — **and a Pareto claim requires both axes measured.** Without a cost curve, λ is picked rather than derived, by anyone, at any layer, on any surface.
 
@@ -162,7 +164,7 @@ Concretely:
 
 - **Sample from what the system actually suppressed**, stratified by score band, and human-label it. That yields a false-positive rate per band, which is the missing input to λ.
 - **Multiply FP rate by forgone engagement** on the held-back items to get misclassification cost in engagement units — the same units the other axis is reported in.
-- **For regrettable engagement**, start with behavioral proxies: hides, reports, See Less, session abandonment following the impression, and next-session return rate. Then validate the proxy against survey ground truth on a sample, and model it. The proxy alone will be biased toward users who bother to signal.
+- **To separate unregrettable from regrettable engagement**, start with behavioral proxies for the regrettable part: hides, reports, See Less, session abandonment following the impression, and a depressed next-session return rate. Subtract it, and report the remainder as the real loss. Validate the proxy against survey ground truth on a sample before trusting it — on its own it is biased toward users who bother to signal, which will understate regret among exactly the quiet users this program exists to protect.
 - **Governance rule: both axes on the same slide, always.** A quality win reported without its cost is not a result. This is cheap to enforce and it is the thing that prevents the metric from drifting once the program has attention.
 
 ### The holdout, and why the horizon argument matters
@@ -273,13 +275,13 @@ Every mechanism in the current proposals is point-wise: `wᵢ · BCE(predᵢ, la
 | **Slate** | Moves USR and density directly; backfill-proof; usable without declaring any pin unsafe | Pays in relevance, because you are overriding the ranker's ordering; per-pin attribution gets murky; needs a set-level metric to tune against; still cannot handle the genuinely violative item, so it does not replace removal |
 | **Session** | Matches the actual harm; protects the tail the average hides | Requires cross-request state, which is real infrastructure; hardest to measure and hardest to randomize; risks over-suppressing a legitimate sustained interest |
 
-**And within the slate unit**, the three mechanisms trade differently:
+**And among the mechanisms that arrange a set**, the three trade differently — note that spacing is in this comparison but is not a slate-unit mechanism, because it decides per item (§1.3):
 
-| Mechanism | What it buys | What it costs |
-|---|---|---|
-| **Spacing** | Simplest to explain to policy; targeted; easy to reason about | Needs a threshold, which throws away the middle of the signal; only ever acts on items already declared bad |
-| **SSD diversity** | Threshold-free; consumes the full prediction vector; already built and shipped | Diversifies against everything, so relevance cost is spread rather than targeted; "why did this pin drop" is hard to answer; tuning is indirect |
-| **Density control** | Moves the density metric directly; backfill-proof; needs a score, not a verdict | Needs calibrated bands, so it inherits §2 as a hard dependency; coarse; can starve a legitimate interest area if the bands are set badly |
+| Mechanism | Decides on | What it buys | What it costs |
+|---|---|---|---|
+| **Spacing** | the item | Simplest to explain to policy; targeted; easy to reason about | Needs a threshold, which throws away the middle of the signal; only ever acts on items already declared bad, so it inherits every weakness of the verdict it depends on |
+| **SSD diversity** | the set | Threshold-free; consumes the full prediction vector; already built and shipped | Diversifies against everything, so relevance cost is spread rather than targeted; "why did this pin drop" is hard to answer; tuning is indirect |
+| **Density control** | the set | Moves the density metric directly; backfill-proof; needs a score, not a verdict | Needs calibrated bands, so it inherits §2 as a hard dependency; coarse; can starve a legitimate interest area if the bands are set badly |
 
 
 ### 4.4 Remove, sample, or penalize
@@ -478,7 +480,7 @@ The honest read is that the coupling risk is real and should be named rather tha
 
 1. Calibration status of the self-harm and borderline classifiers — probability, severity, or neither.
 2. Whether we can stand up a long-running USR holdout, and who owns it.
-3. Where the collateral-damage and regrettable-engagement metrics live, and who reports them.
+3. Where the collateral-damage metric lives, who reports it, and how we establish the unregrettable-engagement denominator it is measured in.
 4. Base rates `πₖ` per category and surface — measured or assumed.
 5. Who owns board ideas, currently unassigned and roughly a quarter of the problem.
 6. Whether the journey risk signal is built on the anticipation substrate or standalone.
