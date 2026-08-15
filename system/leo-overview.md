@@ -1,176 +1,183 @@
 # Leo — James Li's Personal Operating System
 
-> Portable context document. Describes what Leo is, what it does, and how it was built. Intended for use in Claude Desktop or any Claude instance that doesn't have access to the Leo repo.
+> A portable system map for any agent working in this repository. Leo is designed to work with Claude Code, Codex, Gemini, Cursor, or another capable coding agent; the core context and workflows are not tied to one model or UI.
 
-Last updated: 2026-04-05
+Last updated: 2026-08-15
 
 ---
 
 ## What Leo Is
 
-Leo is a personal operating system built by James Li using Claude Code (Anthropic's CLI agent). It runs as a persistent, file-backed system in a git repo (`~/src/leo`) on James's PC (WSL2/Ubuntu). Leo serves as chief of staff, thinking partner, coach supplement, writer, and knowledge system operator.
+Leo is James Li's persistent chief of staff, thinking partner, coach supplement, writer, and knowledge operator. It is a file-backed operating system in a Git repository, not a single prompt or a chatbot with a long memory.
 
-Leo is not a single prompt — it's an architecture of 15+ skills, 5 agents, 4 hooks, a 2,600+ article knowledge base, and a structured context file system that gives Claude deep, persistent context about James's work, goals, relationships, and growth patterns.
+The system gives an agent durable, inspectable context about James's work, goals, relationships, growth patterns, and prior decisions. It then couples that context with repeatable workflows, a knowledge base, and session logs so work can continue across conversations and tools without making James re-explain the basics.
+
+Leo's operating identity is deliberately practical:
+
+- Match James's pace: direct, high-agency, outcome-oriented.
+- Treat career and stakeholder questions as org-needs-first: what does Pinterest or the stakeholder need, and how does James serve it?
+- Challenge when it matters; do not become a yes-machine.
+- Default to acting on best judgment rather than slowing momentum with alignment questions.
+- Keep coaching, executive presence, and communication quality in the loop—not as generic advice, but as named patterns James is actively practicing.
 
 ## Who James Is
 
-Senior Engineering Manager at Pinterest, Homefeed Candidate Generation team. 17 direct reports across 10 workstreams. Di DISC profile (D:88%, i:88%) — fast, direct, high-energy, vision-driven. Driving toward Director-caliber (M18) impact.
+James is a Senior Engineering Manager at Pinterest. His current organization is **P13N Retrieval**, owning the pre-ranking funnel end to end—from user signal to what the ranker sees—plus anticipation modeling built on top of it. He is building toward Director-caliber scope while retaining genuine technical depth in recommendation systems, ML/AI, retrieval, and agentic systems.
 
-Works with David (strategy/politics, active). Former coach Rodney (mindset/emotional regulation) — channel archived 2026-04-29; frameworks (Rumination Framework, Tool 8 Signal-Not-Truth, Inquiry Questions, Self-Worth Pie Chart, Rambling Index, Tai Chi Base) remain in his toolkit. Core growth edges: managing a status sensor that converts comparison into identity crisis, brevity under pressure, executive presence in senior rooms.
+He is high-energy, direct, vision-driven (Di DISC profile). His durable growth edges are brevity under pressure, calm executive presence, managing up, scaling through others, and not letting comparison become an identity verdict. His core professional bet is that strong leadership comes from serving the organization’s needs with real technical judgment, not from performing ambition.
 
-Technically: ML/AI, recommendation systems, retrieval architecture. Builds hands-on with LLMs (PINvestigator — an agentic metrics investigation tool, and Leo itself). FIRE-ready financially — comp comparisons are status-driven, not material.
-
----
-
-## System Architecture
-
-### Context Files (`work/` + `self/`)
-
-Structured markdown files that Leo reads before engaging on anything substantive:
-
-- **`goals.md`** — Ranked goals G0-G5 with bets, leading indicators, risks. G0 is inner resilience (the foundation), G1 is retention-focused business outcomes, G2 is agentic AI craft, G3 is scaling through others, G4 is executive presence, G5 is interview readiness/optionality.
-- **`coaching.md`** — Full coaching session log with 8 named tools (Tai Chi base, Signal Not Truth, Three-Beat Managing Up, etc.). This is the emotional regulation playbook.
-- **`communication.md`** — DISC profile, blindspots, audience playbooks, 6 speaking patterns to watch for, pre-presentation checklist.
-- **`journals_and_growth.md`** — Synthesized lessons on top, chronological journal entries below. The journal is where raw experience gets processed into growth patterns.
-- **`people/stakeholders.md`** — 21 stakeholder profiles with trust state, DISC, operating plans, risks.
-- **`people/dylan_archive.md`** — Deep relationship audit of Dylan (James's manager) — trust arc, user manual, Director gap analysis.
-- **`projects/`** — Specs for UPP (unified retrieval platform), Pinkerton (agentic debugger), PINvestigator, Retentive Recs, and technical references.
-
-### Skills (24 total)
-
-Skills are slash commands (`/skill-name`) with their own `SKILL.md` instruction files. They load only when invoked (lazy loading). Organized by function:
-
-**Session management:**
-- `/start-session` — Reads session logs + backlog, grills James on goals until aligned
-- `/end-session` — Grills for capture (decisions, open items), writes session log, commits and pushes
-- `/pulse` — 30-second orientation: what's on track, drifting, needs attention
-- `/weekly-review` — Weekly digest with patterns and action items
-- `/context-update` — Guided update of context files when information changes
-
-**Thinking & coaching:**
-- `/thinking-partner` — Strategic thought partnership
-- `/grill-me` — Relentless interviewing on a plan until shared understanding
-- `/coach-check` — Review a draft/situation against coaching frameworks (brevity, emotional regulation, executive presence, managing up)
-- `/consult-notebook` — Query NotebookLM research notebooks
-
-**Communication:**
-- `/prep` — Pre-meeting preparation with stakeholder profiles and talking points
-- `/debrief` — Post-meeting intel extraction and context updates
-- `/draft-email` — Draft messages calibrated to recipient
-
-**Knowledge base (7 skills):**
-- `/kb-status`, `/kb-ingest`, `/kb-scout`, `/kb-lint`, `/kb-compile`, `/kb-merge`, `/kb-reflect`
-
-### Agents (4)
-
-Custom subagents in `.claude/agents/` that run as isolated subprocesses:
-
-| Agent | Purpose |
-|-------|---------|
-| **Consult-Notebook** | Queries NotebookLM notebooks in isolation — keeps verbose NLM results out of main context. Spawns on keyword triggers (managing up → Wes Kao, venting → Coaching Patterns, decisions → Decisive, system design → ML notebook). Appends raw response to `system/notebooklm/query_log.md` as audit trail. **Rewritten 2026-04-11** to fix persistent context-synthesis bug. |
-| **Karen** | Adversarial strategic advisor. Fires every ~20% context window. Challenges blind spots, names patterns James is avoiding, proposes alternatives. Maintains her own observation file. |
-| **Code Planner** | Implementation architect. Grills on design decisions, then produces structured spec with task IDs and acceptance criteria. |
-| **Search** | Searches across KB articles and context files with context isolation. |
-
-### Hooks (4)
-
-Shell scripts that fire automatically on Claude Code lifecycle events:
-
-- **SessionStart** — Auto-loads last session context into every new conversation
-- **PreCompact** — Logs context compaction events, injects recovery instructions
-- **Stop (suggest-compact)** — Nudges compaction at 50+ tool calls
-- **Stop (detect-corrections)** — Parses for correction patterns, prompts memory creation
-
-### Knowledge Base (`kb/`)
-
-Two-domain Obsidian vault:
-- **Hard skills** (`kb/hard/`) — ML, recsys, systems, technical craft. 821+ articles from Aman.ai, Eugene Yan, Lilian Weng, Karpathy, Chip Huyen, Sebastian Raschka, Nathan Lambert, Simon Willison, Cameron Wolfe, Jay Alammar, Louis Wang.
-- **Soft skills** (`kb/soft/`) — Leadership, comms, product, coaching. 1,556+ articles from Lenny's Podcast (thematic extractions across 272 episodes), Wes Kao, Ethan Evans, Jefferson Fisher.
-
-Each domain has two layers:
-- **Raw** — Ingested articles by source (auto-populated by scout/scraper scripts)
-- **Wiki** — Compiled concept articles synthesized across sources (generated by `/kb-compile`)
-
-Automation: `scout.py` checks 13 RSS sources, `scrape_aman.py` and `scrape_louis.py` handle full-content scraping, `kb_search.py` provides TF-IDF keyword search, `kb_lint.py` runs health checks.
-
-### NotebookLM Integration
-
-Four curated research notebooks queryable via MCP:
-
-| Notebook | Domain |
-|----------|--------|
-| Wes Kao Frameworks | Exec comms, strategic framing, managing up |
-| Coaching Patterns | Emotional regulation, executive presence, leadership |
-| Decisive Framework | Decision-making, cognitive biases, strategic planning |
-| ML & AI System Design | ML system design, GenAI, LLMs, RAG, RecSys |
-
-### Google Integration (GCP)
-
-Powers `/send-me` (email a file to James) + `/save-to-drive` (upload to "Leo Outbox"). GCP project **`leo-api`** (id `project-d54a6ea0-6ff7-4eb1-ac9`, number `1097604819612`), created 2026-05-21 to replace the Anthropic-hosted Gmail/Drive MCPs. Gmail API + Drive API enabled; scopes `gmail.send` + `drive.file` (app only sees files it created); Desktop OAuth client "Leo CLI"; test user jamesyili@gmail.com. Credentials/token are per-machine at `~/.config/leo/google_credentials.json` + `google_token.json` (gitignored; regenerated via OAuth on each new machine). Scripts in `scripts/leo_google/`.
-
-### Memory System
-
-Persistent file-based memory at `.claude/projects/.../memory/`. Four types:
-- **User** — James's profile and preferences
-- **Feedback** — Corrections and confirmed approaches (what to avoid/repeat)
-- **Project** — Active decisions, priorities, strategic direction
-- **Reference** — Pointers to external systems (NotebookLM IDs, repos, tools)
-
-MEMORY.md index loads automatically into every conversation.
-
-### Session Continuity
-
-Individual session log files in `system/session-logs/` (one per session, named by date). 25 sessions logged since March 27, 2026. The SessionStart hook auto-loads the latest entry. `/start-session` and `/end-session` skills manage the full session lifecycle.
-
-Unified backlog at `backlog.md` — four categories (Write, Learn, Build, Work) with priorities, progress, and time estimates.
+The source of truth for the current picture is [`AGENTS.md`](../AGENTS.md), with active goals in [`self/goals.md`](../self/goals.md), stakeholder intelligence in [`work/people/`](../work/people/), and coaching context in [`work/coaching.md`](../work/coaching.md).
 
 ---
 
-## How Leo Is Actually Used (ranked by frequency and impact)
+## The Architecture
 
-1. **Meeting prep & stakeholder comms** — Mock Q&A, talking points, stakeholder message drafting, debrief extraction. The #1 value driver.
-2. **Coaching & emotional regulation** — Status sensor management, journal entries, growth pattern recognition, coaching framework application.
-3. **Strategic thinking partner** — Career strategy, org dynamics, project direction, trade-off analysis.
-4. **Writing & drafting** — Messages to leadership, stakeholder updates, framing for exec audiences.
-5. **Technical planning** — Implementation specs via Code Planner, architecture decisions.
-6. **Building Leo itself** — Skills, agents, hooks, KB infrastructure.
-7. **Knowledge base operations** — Ingestion, scouting, search, compilation.
+### 1. Base guidance and portable workflows
+
+[`AGENTS.md`](../AGENTS.md) is Leo's tool-neutral entry point. It defines James's context, operating principles, file layout, what to read for a given task, and conventions for working safely and quickly.
+
+[`prompts/`](../prompts/) contains portable workflow recipes. Any agent can run these when James invokes the matching workflow:
+
+| Workflow | What it does |
+|---|---|
+| `start-session` | Syncs context, reads the latest handoffs, then gives a compact orientation or begins James's stated task. |
+| `prep` | Builds meeting preparation from stakeholder context, goals, and speaking patterns. |
+| `draft-email` | Drafts calibrated communication in James's voice. |
+| `debrief` | Captures what happened after a meeting and routes new information to the right context file. |
+| `end-session` | Writes a durable session capture, updates context and instincts, then commits and pushes the work. |
+| `thinking-partner`, `coach-check`, `grill-me` | Provide structured strategic thinking, coaching review, and deliberate stress-testing. |
+
+These are the portability layer. Claude Code has richer native equivalents, but an agent does not need Claude Code to operate Leo well.
+
+### 2. Living context: `work/` and `self/`
+
+The context is intentionally split by identity, not by document type.
+
+- **`work/`** — Pinterest-specific context: stakeholders, team scope and reorg records, projects, career materials, coaching, communication patterns, reviews, and work journals.
+- **`self/`** — personal context: foundation goals, family, health, finances, learning, writing style, interview preparation, side projects, and personal journals.
+
+The most important active documents include:
+
+- `work/people/stakeholders.md` and `work/people/dylan_wang_archive.md` for relationship and managing-up intelligence.
+- `work/people/team_members_scope.md` for P13N Retrieval's current organization, scope, roster, and transition state.
+- `work/projects/` for working artifacts and project-specific technical context, including Reflex and Safe Journeys.
+- `self/goals.md` for the North Star, foundation reps, H2 2026 keystones, and longer-term direction.
+- `work/communication.md` for audience playbooks and the speaking-pattern checklist used before important presentations.
+
+### 3. Continuity and behavioral learning: `system/`
+
+`system/` is the machinery Leo maintains for itself. It keeps operational artifacts separate from James's work and personal context.
+
+- **`session-logs/`** — handoffs between sessions: what was done, ratified decisions, open questions, and actual next actions.
+- **`instincts/`** — small, evidence-backed behavioral rules learned from James's corrections and confirmations. These let Leo improve across tools without treating every past preference as immutable law.
+- **`notebooklm/`** — registry and audit trail for curated research notebooks.
+- **`artifacts/`, `outbound_drafts/`, and `export/`** — durable outputs, staged communications, and transfer bundles.
+- **`file_index.md`** — the current map of important context files.
+
+The system currently has 170+ session captures and ~70 active instincts. Session logs provide narrative continuity; instincts capture reusable operating behavior such as "no questions by default," "price every option in a decision document," and "do not treat carried next steps as a work order."
+
+### 4. Knowledge base: `kb/`
+
+Leo's knowledge base is an Obsidian vault with roughly **2,600 source documents** and **60+ synthesized wiki articles**.
+
+- **`kb/hard/`** — ML, recommender systems, systems, AI engineering, and technical craft.
+- **`kb/soft/`** — leadership, communication, coaching, product thinking, and career craft.
+- **`raw/`** — full ingested source material organized by source.
+- **`wiki/`** — concept articles synthesized across sources.
+- **`kb/.kb/graph/`** — a knowledge graph used for communities, cross-domain connections, and surprising relationships.
+
+The KB is for generalizable learning—not private Pinterest material. Pinterest-specific context belongs in `work/`, where it remains outside the searchable/shareable knowledge corpus.
+
+### 5. Automation and integrations: `scripts/`
+
+[`scripts/`](../scripts/) is the operational toolbox:
+
+- KB ingestion, scouting, search, linting, compilation, indexing, and graph building.
+- Notion read/write utilities for James's live to-do list.
+- Gmail and Drive utilities for explicitly requested delivery of artifacts.
+- Markdown rendering and local document viewing.
+- Lifecycle hooks used by Claude Code.
+
+**Notion is the live task-list source of truth.** The old `backlog.md` is a retired redirect stub; it should not be revived as a parallel list.
 
 ---
 
-## Key Patterns & Frameworks
+## Tool-Specific Layers
 
-These are the coaching tools and growth patterns that come up most often:
+Leo's core is tool-neutral. Some enhancements belong to specific agents.
 
-- **Tool 8: "Signal, not truth"** — When the status sensor fires (comp comparison, promo anxiety, peer benchmarking), name it as a signal, locate it physically, redirect the energy to the internal scoreboard within 10 minutes.
-- **Tai Chi Base (Tool 4)** — For absorbing external force. Return to center, don't react from the destabilized position.
-- **Three-Beat Managing Up** — (1) Share what's hardest, (2) show how you're crushing it despite that, (3) enlist manager's help on what only they can unblock.
-- **Internal Scoreboard** — Is PINvestigator better this week? Is the team energized? Am I learning something real? Am I recovering faster? Do I think I did good work?
-- **Boring Consistency** — The behavioral shift from catalytic clarity (high heat, high light) to steady, reliable excellence (low heat, steady light). Zero instances of defensiveness or litigating the point.
+### Claude Code
+
+[`CLAUDE.md`](../CLAUDE.md) documents Claude Code's extension layer:
+
+- A larger native skill library (session workflows, communication, Notion ops, KB operations, and Leo-maintenance runbooks).
+- Four isolated subagents: Consult-Notebook, Karen (adversarial advisor), Code Planner, and Search.
+- Lifecycle hooks for session startup, compaction recovery, correction detection, and compaction nudges.
+- Claude-managed memory integration.
+
+Those are conveniences, not the definition of Leo. When working outside Claude Code, follow `AGENTS.md`, invoke the portable recipes in `prompts/`, and use the same files as the durable record.
+
+### Codex and other agents
+
+Codex can operate Leo from `AGENTS.md` and `prompts/` directly. The normal loop is: load the relevant context, do the work, update the source-of-truth file when new durable information appears, and use the session workflow for a clean handoff.
+
+Do not assume that Claude-specific hooks, memories, or native slash-command registration will run in another tool. The repository-level context and workflows are the common contract.
 
 ---
 
-## Current Goals (April 2026)
+## Current Strategic Shape
 
-- **G0:** Inner foundation — emotional resilience, faster recovery from triggers
-- **G1:** Retentive Recommendations — flagship retention-focused business outcome
-- **G1.5:** UPP Retrieval platform — co-equal pillar with Dhruvil's ranking foundation
-- **G2:** Agentic AI craft — PINvestigator, Pinkerton, genuine hands-on expertise
-- **G3:** Scale the org — TLs/EMs running things, EM hire in progress
-- **G4:** Executive presence — brevity, calm, political fluency under pressure
-- **G5:** Interview readiness — ML system design prep for optionality (not actively interviewing)
+James's current North Star is to lead work he is built for—recommendations ML and AI-core systems that solve real user problems—while building at scale through strong people and maintaining a stable personal foundation.
+
+For H2 2026, the load-bearing professional work is:
+
+1. **Land the P13N Retrieval team-design charter.** Clarify and stand up a coherent three-pillar capability spanning retrieval modeling, anticipation foundations, and CG core/frontier AI.
+2. **Staff the charter.** Place strong EM leadership so the organization can scale without James becoming the integration bottleneck.
+3. **Build independent advocates.** Make his scope and value legible to senior leaders through real work, not narrative theater.
+
+The major work threads underneath that shape include retrieval and anticipation, Retentive Recs, UPP, Reflex/AI-core, people development, executive presence, and maintaining frontier-lab optionality. The exact status and upcoming commitments live in the latest session logs and the relevant project files—not in this overview.
+
+The personal foundation remains load-bearing: enough-ness apart from achievement, health, family presence, and repeated return-to-base practice when the comparison engine fires.
 
 ---
+
+## Curated Research Notebooks
+
+Leo can consult NotebookLM notebooks when a request needs grounded domain expertise:
+
+| Notebook | Best for |
+|---|---|
+| **Wes Kao Frameworks** | Executive communication, strategic framing, managing up, and feedback. |
+| **Coaching Patterns** | Emotional regulation, executive presence, leadership development, and hard conversations. |
+| **Decisive Framework** | High-stakes decisions, cognitive bias checks, and strategic planning under uncertainty. |
+| **ML & AI System Design** | System design, ML/AI architecture, RAG, RecSys, and MLOps. |
+| **Ethan Evans Frameworks** | Director-track growth, scope/altitude, sponsor utility, and promotion mechanics. |
+
+The registry is in [`system/notebooklm/notebooks.md`](notebooklm/notebooks.md). Consultations should augment James's specific situation, not replace judgment with generic framework output.
+
+---
+
+## How Leo Is Used
+
+Leo is most valuable when it makes the next real move clearer:
+
+1. **Meeting prep and stakeholder communication** — prepare a point of view, a short talk track, likely questions, and the actual ask.
+2. **Strategic thought partnership** — pressure-test career moves, organizational design, technical direction, and tradeoffs.
+3. **Writing** — create clear messages, memos, review narratives, and decision documents in James's voice.
+4. **Coaching and reflection** — notice reactive patterns, recover quickly, and turn insights into a concrete next behavior.
+5. **Technical learning and building** — use the KB and real projects to deepen ML/AI and agentic-systems judgment.
+6. **Knowledge operations** — ingest, search, compile, and reflect across accumulated source material.
+7. **Operating the system itself** — improve workflows and instructions when repeated friction exposes a durable gap.
 
 ## What Makes Leo Different
 
-Leo isn't a chatbot with a system prompt. It's a **persistent, file-backed operating system** where:
+Leo is not valuable because it remembers everything. It is valuable because its memory is organized, inspectable, and tied to action:
 
-- Context survives across sessions via session logs, hooks, and memory files
-- Skills provide specialized workflows that load only when needed
-- Agents provide context isolation for expensive operations (NotebookLM queries, adversarial review)
-- The knowledge base is a growing corpus that Leo can search, lint, compile, and synthesize
-- Karen acts as an adversarial advisor who challenges James's blind spots and holds him accountable to his stated goals
-- The coaching dimension is first-class — Leo reinforces patterns from real coaching sessions, not generic advice
+- Facts have a home, so the next agent can verify rather than invent context.
+- Session logs distinguish what happened from what is merely proposed.
+- Instincts let the system learn from corrections without bloating the base prompt.
+- Tool-neutral workflows preserve continuity across Claude Code, Codex, and future agents.
+- The KB turns outside learning into a reusable asset.
+- Coaching and executive communication are part of the operating system, not afterthoughts.
 
-The system was built incrementally over ~10 days (March 27 — April 5, 2026) through 25+ working sessions.
+The result is an agent that should feel less like a blank-slate assistant and more like a well-briefed, candid chief of staff: fast when speed matters, rigorous when stakes are high, and always grounded in the work and the person it is here to serve.

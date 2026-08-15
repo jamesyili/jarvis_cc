@@ -147,8 +147,9 @@ Career-optionality artifacts: OpenAI May 27 call prep, Pinterest EM story bank, 
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `session-logs/` | Individual session log files, one per date (latest: **2026-05-22 — OpenAI May 27 prep consolidated; Haibo EM eval Lean Yes; interview_prep stood up with system design + LLM-book + 6-story grill plan**) — replaces rolling `session-log.md` pattern | 2026-05-22 |
-| `instincts/` | Behavioral instincts from correction/confirmation patterns — dont-elaborate-on-delegated-work, no-surprises-public-delegation, proactive-restart-frozen-process, synthesize-dont-deflect (4/21), corrections-interrupt-by-design (4/21), check-existing-context-before-analyzing (4/23, bumped 4/25 — 2 evidence), challenge-overnight-reversals-after-hits (4/25) | 2026-04-25 |
+| `session-logs/` | Individual session handoffs, one per session/date. Latest: **2026-08-15 — first Codex session: portable Leo map refreshed, Custom-GPT boundary clarified, Reflex-evals learning plan set, and `feedback_codex.md` written.** Replaces the rolling `session-log.md` pattern. | 2026-08-15 |
+| `instincts/` | Evidence-backed behavioral rules learned from James's corrections and confirmations; currently ~70 active instincts. The indexed operating behavior is in `instincts/INDEX.md`. | 2026-08-15 |
+| `leo-overview.md` | Portable, tool-agnostic map of Leo's architecture, context layers, workflows, tool-specific extensions, active strategic shape, and NotebookLM integration. | 2026-08-15 |
 | `lennys_podcast_pipeline.md` | Lenny's podcast extraction pipeline: purpose, status, next steps, file locations | 2026-04-05 |
 | `karen_observations.md` | Karen's longitudinal pattern tracking | 2026-04-06 |
 
