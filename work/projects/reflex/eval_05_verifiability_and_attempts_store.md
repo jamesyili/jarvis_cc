@@ -133,7 +133,11 @@ This reframes it: the Skeptic isn't a pre-review quality nicety. It's Reflex's `
 
 **Over-filtering compounds.** Every mechanical check reduces what reaches a human. That's the benefit and also the exposure: filters are never audited by the people they save work for. Whatever gets built needs a periodic sample of *rejected* cards reviewed by a human — the mirror image of the blind audit on top-scored cards in `eval_02` rule 3.
 
-**Owner.** None of this has one. The taxonomy work is eval-shaped and close to my lane; the store is a data-engineering project spanning the experiment platform and LR docs, and it is not.
+**Owner.** Routed 8/15 (see `eval_00` §5 item 19): the eval framing goes to **Chao**, as the non-confounded version of his own Phase 3 shipped-experiment metric; the LR/Helium integration is data engineering and sits closer to **Gideon's** logging and infra lane. The taxonomy work in §2 and §4 is eval-shaped and stays with me.
+
+**The seam, which must be named in the ask rather than discovered later.** The attempts store and my hindsight case bank (`eval_00` §7) are the *same join*. The bank ties the cycle archive to the shipped-experiment record with outcome labels; the store ties the experiment platform to LR docs with hypothesis labels. The expensive half — tying experiments to hypotheses — is common to both. Propose it as **one join, two consumers.** Otherwise this reproduces the structural finding in `eval_00` §4 item 1 precisely: two people building one pipeline under two names, found in October.
+
+**And keep the two uses separate.** As an *eval source* — Detect's precision against reality — this is Chao's. As a *retrieval corpus at card-generation time*, so Detect stops re-proposing tried things, it is agent capability: the Skeptic, Andrew's surface. Same corpus, two consumers, different owners. Only the first is eval, and conflating them is how the proposal gets rejected as scope creep.
 
 ---
 
