@@ -25,7 +25,7 @@ The judge is being optimized while Evolve/Stage-2 uses it as a fitness function.
 
 **Rule:** Every judge prompt/model/rubric change bumps `judge_version`. Every eval result records the `judge_version` that produced it. Within one optimization run, search and the landing re-run use the **same pinned version**. Fitness comparisons across playbook generations are only valid within a judge version; when the judge upgrades, re-baseline.
 
-(Natural home: a `judge_version` field in the EvalResult contract in Janvi's TDD — happy to write that PR.)
+(Natural home: a `judge_version` field in the EvalResult contract in Janvi's TDD — happy to write that PR. Schema drafted in `eval_03_evolve_feedback_and_contract.md` §2.2.)
 
 ## 3. Blind audits, concentrated where the judge is happiest
 
