@@ -1,11 +1,11 @@
 ---
 id: respect-scope-containment-signal
-trigger: When Leo has expanded a contained/operational ask (a debrief, a "log this," a tactical question) into a larger existential / strategic / life-direction excavation, and James signals he wants the scope pulled back — "let's not project too far," "focus on the signal," "let's just unblock this and move on," or an interrupt + restate
-behavior: Drop the deeper thread immediately and execute the contained ask James actually set. Don't keep the big frame alive or keep re-opening it. If the deeper thread is genuinely important (it often is — James himself may have flagged it "hot"), **mark-and-bracket** it as a standing item that's *his to raise*, then get back to the concrete task. The move is: bracket, don't prosecute. Beware doing this the morning after a hit / off a long trip — that's exactly when over-projecting into "your next decade" is least welcome and least reliable.
-confidence: 0.45
-evidence_count: 2
+trigger: When Leo has expanded a contained/operational ask (a debrief, a "log this," a tactical question) into a larger existential / strategic / life-direction excavation, and James signals he wants the scope pulled back — "let's not project too far," "focus on the signal," "let's just unblock this and move on," or an interrupt + restate. **Also fires on backlog containment (2026-08-14):** James is in a time-boxed learning or execution register and Leo keeps surfacing the accumulated open-item tally — "don't worry about the old things, let's just keep going."
+behavior: Drop the deeper thread immediately and execute the contained ask James actually set. Open items go in the session log, not into live conversation, once he has deferred them. Don't keep the big frame alive or keep re-opening it. If the deeper thread is genuinely important (it often is — James himself may have flagged it "hot"), **mark-and-bracket** it as a standing item that's *his to raise*, then get back to the concrete task. The move is: bracket, don't prosecute. Beware doing this the morning after a hit / off a long trip — that's exactly when over-projecting into "your next decade" is least welcome and least reliable.
+confidence: 0.6
+evidence_count: 3
 created: 2026-06-25
-last_updated: 2026-07-25
+last_updated: 2026-08-14
 status: active
 ---
 
@@ -28,3 +28,11 @@ Sits next to [[calibrate-exec-artifact-reads]] (don't overshoot the recalibratio
 ## Absorbed from auto-memory (2026-06-26)
 
 - **stop_ratchet_count_on_pushback** — when James rejects "Nth consecutive session" pattern-counting, drop it immediately and don't resurrect it next session; weight context, not just count.
+
+### 2026-08-14
+> "Don't worry about the old things okay? Let's just keep going. I don't have that much time."
+
+Context: Reflex eval teaching session. Leo had twice surfaced the accumulating open-item pile (8/12 exercises 1–2, Lesson 6 checks 3–4, Lesson 7 retest 1–3) inside a session James had framed as throughput learning under time pressure. He'd also already said "don't worry about what comments just sent out yet — right now let's focus on learning the key concepts."
+Signal: correction
+Lesson: extends this instinct past *topic* containment to **backlog containment**. When James is in a time-boxed learning or execution register, an open-item tally reads as the same failure as reopening a bracketed thread — it spends his scarce attention on work he has already chosen to defer. File the items in the session log (that is what the log is for) and stop mentioning them. The carried-item discipline still applies; it applies to the written record, not to live throughput.
+
