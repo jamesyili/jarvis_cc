@@ -205,6 +205,19 @@ Set-level shaping is the opposite and belongs late. **Composition control belong
 
 **Corpus first, clean the graph, filter early, shape late.**
 
+**Tradeoffs by layer.**
+
+| Layer | What it buys | What it costs | Pick it when |
+|---|---|---|---|
+| **Corpus (daily batch)** | Cheapest per unit of harm removed; no serving latency; auditable and rerunnable; can join offline aggregates nothing online can see | No personalization or context, so it is coarse by construction; up to 24h stale, and fast-moving harm leaks for a day; **removal is a permanent loss of reach that no downstream nuance can recover**; global blast radius from one bad threshold; awkward to A/B, since the corpus is shared | The content is bad for everyone, in every context — worst-of-the-worst and very high report rates |
+| **Graph / embedding hygiene** | Compounds instead of being re-applied per request; protects every user, not just the one who spiraled; upstream of ~50% of the problem | Slowest feedback loop in the doc — you learn whether it worked at retrain cadence; attribution is very hard; a heavy hand degrades recommendation quality broadly; slow to reverse | The harm propagates *between* users, or the surface in question is graph-generated |
+| **Retrieval** | Shapes what is sourced per user; cheaper than acting in ranking | Candidate loss is invisible downstream — you cannot measure what was never retrieved; hard to attribute; easy to over-restrict without noticing | You want per-user shaping without paying ranking cost |
+| **L1** | Sees the whole candidate set, so composition is available; cheap; decoupled from the contested blender | Image-level features only today, so domain and landing-page signals are unusable; per-item effects get re-ranked away at L2 | The lever is compositional (density), not per-item |
+| **L2 / blender** | Most precise per-slot tradeoff; richest context; the only place a full slate exists; proven demotion launches | Highest ownership friction; a serving-time patch that leaves the learned objective untouched; most expensive to change | Precision matters more than cost, or the mechanism needs the assembled slate |
+
+The through-line: **cost and reversibility improve as you go upstream; precision and context improve as you go downstream.** Nothing about this doctrine says pick one.
+
+
 ### 4.2 Act on more than the classifier score
 
 Removal should not be a function of the classifier score alone. A single model output carries one kind of information, and the decision to take content out of the corpus entirely deserves more than one kind.
@@ -229,6 +242,19 @@ The second clause matters most and is the cheapest to ship. **Content with a ver
 
 Read another way, `h` is a second and largely independent read on the same question the classifier is answering — the classifier looks at the content, users look at the experience. Where the two agree, confidence is much higher than either alone. Where they disagree, that is the highest-value labeling queue we have, and it should feed the calibration work in §2 directly.
 
+**Tradeoffs by signal, and by how they are combined.**
+
+| Choice | What it buys | What it costs |
+|---|---|---|
+| **`q` alone** | One owner, one threshold, fully consistent, available for every pin including brand-new content | Blind to harm already caused and to category severity; weakest exactly where the model is weakest, which for needle-in-haystack self-harm is precisely where we need it |
+| **+ `h` (realized harm)** | Genuinely independent evidence; catches model misses; nearly free, we already collect it | **Lagging by construction — it only exists after the harm has happened**, so it does nothing for new content; biased toward whatever got distribution; skewed toward users who bother to report; brigadable |
+| **+ `cₖ` (policy severity)** | Lets self-harm and gross be treated differently without pretending a classifier decided it; forces policy to own a number it should own | Policy has to actually commit to numbers, which is slow and contested; changes are governance events, not config edits |
+| **OR triggers** | No washout — any one signal can act alone; simple to reason about and to audit after an incident | **More false positives, since the error sets union**; three thresholds to tune instead of one; cannot express "two moderate signals together equal one strong one" |
+| **Weighted average** | Smooth, one knob, fewer false positives, easy to sweep | A confident signal gets outvoted by two weak ones — the failure this section exists to prevent |
+
+The honest cost of the recommendation: **OR triggers buy protection against washout and pay for it in false positives.** That is the right trade for a small number of high-severity categories and the wrong trade if applied to every quality signal we have.
+
+
 ### 4.3 Match the mechanism to the unit
 
 Every mechanism in the current proposals is point-wise: `wᵢ · BCE(predᵢ, labelᵢ)`, per-item utility penalties, per-item quality heads. Each is good, and within that column the Design Options doc is close to complete. But a point-wise objective cannot optimize a set-level metric. **We can improve every item and still serve an unsafe slate.**
@@ -239,6 +265,23 @@ Every mechanism in the current proposals is point-wise: `wᵢ · BCE(predᵢ, la
 
 **Backfill is the reason this matters more than it looks.** One of the standing objections to last-mile filtering is that it *"backfills slightly-different bad content"* — remove a pin and the slot refills from the same neighbourhood, because the retrieval that produced the first candidate will happily produce the second. This is a genuine defect and it is not fixable at the item level, since per-item removal is what creates the empty slot in the first place. **A density cap is backfill-proof by construction.** It constrains the composition of the set rather than the identity of its members, so whatever arrives to fill a slot is subject to the same ceiling. This is the cleanest available argument for set-level mechanisms over item-level ones, and it comes from the critique of filtering rather than from a preference for a different tool.
 
+**Tradeoffs by unit.**
+
+| Unit | What it buys | What it costs |
+|---|---|---|
+| **Item** | Simple; well understood; clean per-pin attribution; trivially A/B-able; the only unit that can express "this must never be shown" | Cannot move a set-level metric; invites backfill; blind to composition harm |
+| **Slate** | Moves USR and density directly; backfill-proof; usable without declaring any pin unsafe | Pays in relevance, because you are overriding the ranker's ordering; per-pin attribution gets murky; needs a set-level metric to tune against; still cannot handle the genuinely violative item, so it does not replace removal |
+| **Session** | Matches the actual harm; protects the tail the average hides | Requires cross-request state, which is real infrastructure; hardest to measure and hardest to randomize; risks over-suppressing a legitimate sustained interest |
+
+**And within the slate unit**, the three mechanisms trade differently:
+
+| Mechanism | What it buys | What it costs |
+|---|---|---|
+| **Spacing** | Simplest to explain to policy; targeted; easy to reason about | Needs a threshold, which throws away the middle of the signal; only ever acts on items already declared bad |
+| **SSD diversity** | Threshold-free; consumes the full prediction vector; already built and shipped | Diversifies against everything, so relevance cost is spread rather than targeted; "why did this pin drop" is hard to answer; tuning is indirect |
+| **Density control** | Moves the density metric directly; backfill-proof; needs a score, not a verdict | Needs calibrated bands, so it inherits §2 as a hard dependency; coarse; can starve a legitimate interest area if the bands are set badly |
+
+
 ### 4.4 Remove, sample, or penalize
 
 The program has been framed as gate versus gradient. A third option collapses the choice.
@@ -248,6 +291,17 @@ Set `p_keep = 1 − g(q)` and sample. Expected impressions are then proportional
 Three things at once: full-spectrum use of the classifier, so no score is rounded to zero; the hard-removal property, so nothing downstream can undo it; and graded behavior implemented with binary machinery, which is what corpus selection and retrieval can actually execute. Plus the cost curve of §3.
 
 *Implementation note:* hash the draw on (user, item) so it is deterministic per user. Otherwise the same pin appears and vanishes across refreshes.
+
+**Tradeoffs by mechanism.**
+
+| Mechanism | What it buys | What it costs | Pick it when |
+|---|---|---|---|
+| **Hard removal** | Guaranteed; auditable; the only answer that is defensible to policy and legal for genuinely violative content | Step-function engagement cost at the cut; invites backfill; wastes the signal below the threshold; yields one point on the cost curve and no more | We are willing to say "never," and mean it |
+| **Probabilistic sampling** | Graded behavior from binary machinery; nothing downstream can undo it; sweeping the rate produces the whole cost curve | Non-determinism complicates debugging and attribution; needs deterministic hashing to avoid a flickering feed; experiments need larger samples for the added variance; **and "we show it 30% of the time" is not a sentence you can say to policy about violative content** | The content is borderline rather than violative, and we want the curve |
+| **Graded penalty** | Smooth, per-slot precision; preserves the ranker's judgment where it is good | Washed out downstream if applied early; never actually removes anything, so the tail still accumulates | Precision matters and the item is legitimately a tradeoff |
+
+The recommendation is not that sampling replaces removal. **Removal for violative, sampling for borderline, penalty for subjective** — the mechanism should follow the confidence and the severity, not team preference.
+
 
 ### 4.5 How the penalty meets engagement
 
@@ -269,6 +323,15 @@ They are complements, not alternatives. This reframes the usual argument from *s
 Two notes on the older framing. Additive's claimed advantage — that it decomposes quality from engagement — holds only in linear space; multiplicative decomposes just as cleanly in log space (`log U = log E + log(1 − λq)`). And the Design Options doc's loss reweighting is **the same idea as the multiplicative term, applied at training time rather than serving time.** Engagement purification and `(1 − q) · E` are one mechanism at two stages.
 
 **Choosing between them.** Where we are asserting that no amount of engagement redeems an item, the multiplicative form or a gate is correct, because suppression is unbounded as `q → 1`. Where we are asserting a tradeoff that sufficiently good content is allowed to win, the additive form is correct, because additive penalties are always beatable by a high enough `E`. The choice is a policy statement, and it should be made explicitly per signal rather than inherited from whichever mechanism was easiest to ship.
+
+**Tradeoffs by form.**
+
+| Form | What it buys | What it costs |
+|---|---|---|
+| **Multiplicative `(1−q)·E`** | Scale-free, so it bites hardest on the most engaging borderline content; invariant to engagement-weight inflation; suppression is unbounded as `q → 1`; falls out of expected utility when `q` is a probability | **Requires calibrated `q`** — miscalibration high silently zeroes out good content; the magnitude of effect is harder to reason about than a subtracted constant; engagement teams cannot outrun it, which is exactly why they will resist it |
+| **Additive `− q·C`** | Attributable — you can point at the term; bounded, so good content can still win; easy to tune and to explain | Decays as engagement weights inflate, silently and without a bad actor; needs a re-pegging discipline nobody will remember; weakest precisely at the head of the engagement distribution, where the viral borderline content lives |
+| **Both** | Each term answers its own question; policy owns `C`, the classifier owns `q` | Two parameters to maintain and two ways to be wrong; more governance than a single knob |
+
 
 ---
 
@@ -302,6 +365,22 @@ Per-surface *strength* is legitimate and expected. Per-surface *definitions* are
 
 This is also the direct answer to the question asked of the vision doc — Homefeed only, or all surfaces. All of them, and the only lever that reaches all of them at once is the shared user backbone, which is the Design Options doc's own Phase 2. **The surface data is an argument for moving that phase earlier.**
 
+**Tradeoffs: per-surface versus shared.**
+
+| Approach | What it buys | What it costs |
+|---|---|---|
+| **Per-surface implementations** | Fast; no cross-team coordination; each team ships on its own timeline; respects existing ownership, so it is the path of least political resistance | Definitions drift until the same pin gets three verdicts; the user's trajectory is invisible to every surface; suppression on one surface is undone by another; USR becomes incomparable across surfaces, which quietly destroys the north-star metric |
+| **Shared backbone** | One definition, one calibration, trajectory visible across surfaces; compounding rather than repeated work | Slow; high coordination cost; a single point of failure for every surface at once; depends on backbone adoption that is currently Phase 2 of someone else's plan; surface teams lose autonomy, which is a real cost and will be paid in friction |
+
+**And on sequencing, if we cannot do everything at once:**
+
+| Start with | Why | Why not |
+|---|---|---|
+| **Related Pins** | ~50% of the problem; the tightest feedback loop; a shipped demotion precedent exists | The most contested ownership; the surface where a relevance regression is most visible |
+| **Homefeed** | The program's stated scope; where this doctrine's authors have the most control | 25% of the problem — we would be optimizing the minority case first |
+| **Notifications** | Cheapest by far; send/do-not-send with a long latency budget; no ranking pipeline to destabilize; the only surface where *we* initiate contact and can restart a spiral that had ended | Smallest visible impact, so it is the least persuasive proof point for a program under executive attention |
+
+
 ### 5.2 Training the ranker on the right objective
 
 Faisal has already made the core argument, and it is the strongest one in the program:
@@ -330,6 +409,19 @@ Two things fold into this cleanly:
 
 **The honest dependency:** trajectory labels are scarcer than item labels. The bootstrap is chaining the distilled judge's slate labels into session-level labels, which makes this work downstream of §2 and §3 and is another reason the measurement DS role should be staffed before the modeling starts.
 
+**Tradeoffs by training-time option.**
+
+| Option | What it buys | What it costs |
+|---|---|---|
+| **Per-item quality head** | Matches existing multi-task patterns; context-aware and co-calibrated with engagement heads; near-zero marginal serving cost | Label bottleneck on the surface's own traffic; quality changes require retraining, so iteration is slow; multi-task tuning risk; does not touch the trajectory |
+| **Loss reweighting** | Cheapest real fix; no new head; attacks the reward loop at the root | Blunt — it discards information rather than modelling it; over-suppression of legitimately engaging content is easy and hard to detect; needs an explicit guardrail |
+| **Trajectory head** | The only option whose objective matches the harm; enables prevention rather than detection | **The most speculative thing in this document.** Label scarcity is worse than for any other option; the target is a rare future event, which is a genuinely hard learning problem; the feedback loop is long; attribution is difficult; and it is gated on the measurement stack existing first |
+| **Pretrain (CFM/UPP)** | Maximum leverage — every surface inherits it; amortized once | Objective washout risk when an engagement-only fine-tune follows; expensive and slow to iterate; hardest to attribute |
+| **Fine-tune** | Fast, per-surface, small blast radius, easy A/B | Sparse data per surface; duplicated effort; no consistency guarantee across surfaces |
+
+Stated plainly, because it is the weakest claim in the doc: **the trajectory head is the highest-upside and the least certain item here.** It should be scoped as a bet with a kill criterion, not as a dependency other work plans around.
+
+
 ### 5.3 In-session responsiveness
 
 JJ led in-session responsiveness in our org, so the capability question is settled. **What is missing is the trigger and the policy, not the machinery.**
@@ -348,11 +440,35 @@ Four design questions deserve real thought before anything ships:
 
 The rules-based version described in the vision is a good V1 and a poor V2. The strong version conditions responsiveness on the trajectory head from §5.2 rather than on hand-set rules — same intervention, learned trigger.
 
+**Tradeoffs across the three axes.**
+
+| Choice | What it buys | What it costs |
+|---|---|---|
+| **Within-session response** | Protects the user whose experience is deteriorating right now — the case the average hides | Real-time state store and serving latency; and it reacts to thin evidence, where one ambiguous tap is not a spiral |
+| **Next-session response** | Dramatically cheaper; evidence has accumulated, so the trigger is more reliable | Does nothing for the session actually going wrong, which is the one the program was named after |
+| **Rules-based trigger** | Explainable, auditable, debuggable, shippable now; defensible in a policy review | Brittle; needs hand-tuning per surface and per category; misses patterns nobody thought to encode |
+| **Learned trigger** | Earlier detection; generalizes to categories we did not hand-tune | Opaque, which is a serious cost for a safety system that policy has to sign off on; needs labels; harder to defend when it is wrong |
+| **Invisible (ranking-side)** | No shame risk; no design or legal dependency; fully reversible; no UX build | Gives the user no agency and builds no awareness; produces none of the visible leadership the program also wants |
+| **Visible (UX intervention)** | Real agency; supports the wellbeing narrative; the only thing that helps a deliberate seeker | **False positives are far more costly here** — telling a teen who is not in crisis that we think they are is a much worse error than a slightly duller feed; needs design, policy, and legal review before anything ships |
+
+The asymmetry in that last row is the reason for the sequencing: invisible interventions fail quietly, visible ones fail loudly and personally.
+
+
 ### 5.4 The same machinery as Anticipation
 
 In-session awareness and anticipation are the same machinery aimed at different objectives. Anticipation predicts what a user wants next; spiral detection predicts what will harm them next. Both are user-state problems rather than content problems: both need a representation of the user's trajectory that persists across surfaces, both are sequence-modeling problems over that representation, and both act by changing what gets sourced and how it is arranged rather than by removing individual items.
 
 The journey-risk signal §5.3 needs is a user-state object of exactly the kind the anticipation substrate already produces. Building it as a second head on that substrate, rather than as a standalone safety system, is the difference between a teen-safety feature and a capability any future objective can use — which is the stated ambition: build the muscle so that **any** business objective, whether quality, safety, or credibility, can be added to the stack.
+
+**Tradeoffs: build on the substrate, or standalone.**
+
+| Approach | What it buys | What it costs |
+|---|---|---|
+| **Second head on the anticipation substrate** | Reuses a user-state representation that already exists and is already cross-surface; compounds with every improvement to that substrate; serves the stated platform ambition rather than adding a one-off | **Couples a safety-critical system to another team's roadmap and release cadence.** Safety timelines are set by headlines; platform timelines are not, and the two will diverge. Shared failure modes, and contention for the same capacity |
+| **Standalone safety system** | Independent timeline under the safety team's control; simpler to reason about and to defend; no external dependency | Duplicates user-state modelling that already exists; drifts from the main system over time; does not compound; a second thing to staff and maintain forever |
+
+The honest read is that the coupling risk is real and should be named rather than waved away. The mitigation is a clear interface — the substrate produces the user-state representation, the safety head owns its own objective, labels, and thresholds — so that a slip on one side delays improvement rather than blocking the program.
+
 
 > *[Internal — cut before circulating] Matt Madrigal commented "Let's tie this back to Anticipation as well" on the In-Session Awareness section, 8/12. Whoever writes this section owns the connection; Andrew Y co-authored both the Anticipation Vision and this doc and can write it just as easily.*
 
