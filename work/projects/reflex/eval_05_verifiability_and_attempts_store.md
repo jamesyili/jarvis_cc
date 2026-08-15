@@ -141,6 +141,26 @@ This reframes it: the Skeptic isn't a pre-review quality nicety. It's Reflex's `
 
 ---
 
+## 7.5 Where to start — picking the first slice
+
+The partition says *what* to mechanize. It doesn't say *where*, and trying it across all of Reflex at once is how this dies. Three results argue for starting narrow: AutoHarness built **a separate harness per game** (145 of them, 100% legal-action accuracy) and lists cross-game reuse as future work; EvoHarness-RL's SFT stage tried to generalize teacher patterns across environments and scored *worse* than the untrained harness on unseen tasks; and Google's system started with one surface, the YouTube watch page.
+
+**The selection criterion falls out of the hardest problem, not the most attractive one.** The reason Reflex can't get verifiable outcomes today is that a change could originate anywhere — backend, model, composition — so a card can't be traced to an experiment. That difficulty *is* the criterion: **pick the slice where card → change → experiment is already a clean line.**
+
+Rank candidate slices in this order:
+
+1. **Attribution cleanliness** — one card maps to one change maps to one experiment. Non-negotiable; without it there is no verifiable reward to build on.
+2. **Already instrumented** — the experiment platform reports the outcome today, with no new logging.
+3. **Historical density** — enough past experiments with identifiable hypotheses to build the attempts store *retroactively*, so the slice starts with a corpus instead of an empty table.
+4. **Latency** — reads out in weeks, not quarters.
+5. **Then** business impact, and then org convenience.
+
+Against the axes on the table: **model-side** scores highest on attribution — it's what Google's agent did, with optimizer, architecture, and reward each a discrete experiment — but it's the worst fit for Detect, which proposes opportunities rather than architectures. **Business impact is the wrong criterion to lead with**; high-impact areas are the most contested and most confounded. **Existing problems** is a good proxy for criterion 3, since a known problem means people have already tried things. **CG** is the org-convenience candidate — ads and core CG people are present — and org convenience is real, but it belongs as a **tiebreak, not the first filter.** A slice with the right people and no verifiable signal reproduces the problem we're trying to escape.
+
+**This is a query, not a debate.** Pull the experiment record for the last few quarters, group by surface and stage, and find where volume is high *and* each experiment ties to an identifiable hypothesis. Criteria 1–4 are all readable off that output. Bring the ranked list to the room and spend the meeting on the tiebreak, which is the part where other people add something. It is also the same join as measurement zero (§4) and the attempts store (§5) — one piece of work, three payoffs.
+
+**Don't budget the extension as free.** DeepMind's own future work is "a library of reusable harnesses," which means transfer is unsolved at DeepMind. What plausibly transfers is the **playbook** — how you pick a slice, build the verifier, and measure it — not the artifact. Say it that way, or someone will assume slice two is cheap.
+
 ## 8. Sequencing
 
 1. **Classify existing rejected cards** into §2's taxonomy. Produces the ratio. Gates everything below. *(An afternoon, no new data.)*
