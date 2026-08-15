@@ -40,6 +40,10 @@ We have no way to say which one ours is. Four metrics fix that, all lifted direc
 
 The last one matters most for how we'd read the others: their trained curator did better while retrieving *fewer* patterns. Gains came from precision, not volume. A proposal that grows the patterns file and calls it progress is measuring the wrong thing.
 
+**A second paper found the same shape, which is why I'd treat this as a health metric rather than a curiosity.** EvoHarness-RL (Meta AI/UIUC) trains a policy over externalized harness state and observes *harness annealing*: after RL, external-state calls drop to roughly one per episode, because the policy internalizes routine scaffold use and reserves external access for when expected benefit exceeds step cost. Two independent labs, two different mechanisms, one result — **maturity shows up as reduced and more selective interaction with external state.**
+
+That inverts the natural instinct. If `quality_patterns.md` grows and cards retrieve more patterns over time, that is not the system learning; on this evidence it is the signature of an immature one. Which makes the growth curve in §3.1 a leading indicator rather than a filing concern.
+
 **Coverage is the one to run first.** If it comes back near 50%, half of what the Curator has produced has never been used by anything, and the under-curation failure mode in §1.8 is already live rather than projected.
 
 ### 3.1 The growth curve — runnable this week, no labels, no new runs
