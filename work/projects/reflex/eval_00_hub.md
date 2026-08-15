@@ -13,6 +13,7 @@
 | **`eval_02_judge_lockbox_protocol.md`** | **Chao** (Gideon, Janvi, Dafang) | 4 rules that must land before the first GEPA run on the judge |
 | **`eval_03_evolve_feedback_and_contract.md`** | **Janvi** | 8 design suggestions + the EvalResult v2 schema and gate implementation |
 | **`eval_04_curator_measurement_proposal.md`** | **Andrew / Dylan** (Curator owner) | making the Feedback Curator measurable; 3 design deltas |
+| **`eval_05_verifiability_and_attempts_store.md`** | me, pre-circulation | program strategy: partition card failures by verifiability, and build a store of what was tried. **New 8/15** |
 
 Not part of this set: `seam_message_drafts_2026-08-12.md` (Shifu comms), `sources/` (verbatim inputs), `reflex_feedback_curator_and_skeptic.md` (the Curator design doc `eval_04` builds on).
 
@@ -54,15 +55,16 @@ Not part of this set: `seam_message_drafts_2026-08-12.md` (Shifu comms), `source
 7. Per-criterion score variance, to prune non-discriminative metrics (Lesson 9).
 8. The blind test — run Detect with Presto/Asana disabled; whatever it still produces is testing Claude's recsys priors, not discovery (Lesson 10).
 9. `quality_patterns.md` growth curve — 341 lines at cycle 13, archive now at 66. No labels, no runs (`eval_04` §3.1).
+10. **Classify existing rejected cards by failure type** — the fraction that are mechanically adjudicable rather than judgment calls. In chess it was 78%, and that number is why AutoHarness worked. Gates all of `eval_05`. An afternoon, no new data. **Probably the highest value-per-hour item on this list.**
 
 **The IC build (never started)**
 
-10. **EvalResult v2 + the paired-bootstrap dominance gate.** Both specified in `eval_03`. This is the only artifact on the list nobody else will produce, and it's the prerequisite for the gate redesign.
-11. **Hindsight-recall case bank v0** — blocked on work-side data (§7 below).
+11. **EvalResult v2 + the paired-bootstrap dominance gate.** Both specified in `eval_03`. This is the only artifact on the list nobody else will produce, and it's the prerequisite for the gate redesign.
+12. **Hindsight-recall case bank v0** — blocked on work-side data (§7 below).
 
 **Curriculum**
 
-12. Lessons **15** (AutoHarness), **16** (EvoHarness-RL), **17** (Google/YouTube self-evolving recsys + EvoRec) remain. Lesson 16 bears directly on the open "should Reflex consider RL/finetuning" question — provisional answer today is no, on rollout arithmetic (§9). **The original twelve are closed as of 8/15.**
+13. Lessons **15** (AutoHarness), **16** (EvoHarness-RL), **17** (Google/YouTube self-evolving recsys + EvoRec) remain. Lesson 16 bears directly on the open "should Reflex consider RL/finetuning" question — provisional answer today is no, on rollout arithmetic (§9). **The original twelve are closed as of 8/15.**
 
 ---
 
@@ -179,7 +181,8 @@ Full lesson content is in my own notes, not here. This records what each lesson 
 | 12 | Replay validity — hindsight recall's unsupported region; the survivorship flaw one level deeper | 8/14 | salience stratification, novelty ledger, exploration budget |
 | 13 | Anthropic long-running-agent harness | 8/15 | thin source. Two usable items → `eval_03` §6, §7 |
 | 14 | SkillOS — the curator is the bottleneck | 8/15 | `eval_04` entire; compression objective → `eval_03` §5 |
-| 15–17 | AutoHarness · EvoHarness-RL · Google/YouTube + EvoRec | pending | — |
+| 15 | AutoHarness — harness beats model size when the critic can't lie; credit assignment from the error signature | 8/15 | `eval_05` entire; §15½ reconciliation (both papers agree evolution works within-task, not across); third parent-selection strategy |
+| 16–17 | EvoHarness-RL · Google/YouTube + EvoRec | pending | — |
 
 **Positions I now hold (derived in session, not just read):**
 - *Every channel that folds graded-card information back into the system is an optimizer, and each must be explicitly fed or fenced.* Channels: judge GEPA, playbook GEPA, Feedback Curator.
@@ -189,7 +192,7 @@ Full lesson content is in my own notes, not here. This records what each lesson 
 
 **Comms decision (8/12, still standing):** no standalone terminology/basics doc for the group — professor-mode risk, third-doc-beside-two problem. `eval_01` exists as an internal artifact and the work-leo transfer vehicle. Whether any of it circulates is still open.
 
-**Checks I owe:** 1–2 (Lessons 4–5) deprioritized 8/14. Open: 3–4 (Lesson 6), 5–6 (Lesson 8), Lesson 10's blind-test check. Answered 8/15: 11–12 (Lesson 11, below).
+**Checks I owe:** 1–2 (Lessons 4–5) deprioritized 8/14. Open: 3–4 (Lesson 6), 5–6 (Lesson 8), Lesson 10's blind-test check, 14 (Lesson 15). Answered 8/15: 11–12 (Lesson 11), 13 (Lesson 15 → became `eval_05` §2).
 
 **Two more positions, from Lesson 11's checks (8/15):**
 - **At a low human–human κ, the artifact to ask for is the disagreement set with both rationales — not more calibration cards.** Scaling a measurement that doesn't agree with itself buys noise. The rationales separate the two failure modes, which need different fixes: raters interpreting the same criterion differently is a rubric problem and is writable-around; raters holding genuinely different views of what a good card is is an unresolved question about what Detect is *for*, and has to be adjudicated by someone with authority over that.
