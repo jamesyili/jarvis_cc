@@ -127,3 +127,7 @@
 | 2026-08-12 17:10 | gmail | [Leo] Trio Sync Prep — Monday 8/17 (P13N Retrieval Staff Sync) | work/people/reorg_july2026/trio_sync_prep_2026-08-17.md | to=jamesyili@gmail.com id=19ff874dc60e6ab3 |
 | 2026-08-13 20:55 | gmail | [Leo] Kim framing — trio sync (Mon 8/17) then Alim 1:1 | work/people/reorg_july2026/kim_framing_trio_and_alim_2026-08-13.md | to=jamesyili@gmail.com id=19ffe693dd73aed3 |
 | 2026-08-13 22:23 | gmail | [Leo] OOO work blocks (Thu 8/14 + Sat 8/16) & Dylan prep (msg Mon · 1:1 Tue 8/18) | work/weekend_plan_and_dylan_prep_2026-08-14.md | to=jamesyili@gmail.com id=19ffeba22ee3c35c |
+| 2026-08-14 16:29 | gmail | [Leo] Reflex Eval — Dataset Glossary | work/projects/reflex/eval_dataset_glossary_2026-08-14.md | to=jamesyili@gmail.com id=1a0029c09f76425a |
+| 2026-08-14 17:43 | gmail | [Leo] Demotion Doctrine — the why, the math, and what it implies for Safe Journeys | work/projects/safe_journeys/demotion_doctrine.md | to=jamesyili@gmail.com id=1a002dfc7fce1c6b |
+| 2026-08-14 18:54 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_draft_v1.md | to=jamesyili@gmail.com id=1a0032072f763b0f |
+| 2026-08-14 19:54 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_v2.md | to=jamesyili@gmail.com id=1a0035796e12cf7e |

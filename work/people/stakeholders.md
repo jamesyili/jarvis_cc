@@ -1306,6 +1306,27 @@ Roberto reports into **Kurchi**. The Roberto-James competitive dynamic is partly
 - **Faisal DM (3:01pm): added James to the AI-pods projects doc** — follow-up to James asking at a Jeff EM sync which efforts are in the AI-pod working model. Response pending (see engagement plan).
 - **Status: James + Dafang coordinated; awaiting Dafang's ping on next steps.** Faisal 1:1 still play-by-ear — today's warmth (signal link + doc add) argues for letting the WG momentum carry; pocket items stay pocketed.
 
+## 2026-08-14 — the 7/27 thread became a CTO-visible program: **Safe Journeys**
+
+The GenAI-signals-in-ranking thread grew into a teen-safety program. Faisal co-authored the ACP vision (*"Safe Journeys — discovery should inspire, never endanger"*) with Michael Weissinger, Dylan, and Andrew Y, and wrote his own problem-statement doc (*Teen-Aware Pinterest Experience*). **James is a named Eng POC on two of the five workstreams.** All docs filed: `work/projects/safe_journeys/sources/`.
+
+**His July Slack argument is now the program's pillar 2, near-verbatim** — "filter-thresholding uses <20% of signal strength" became *"leveraging the entirety of the information from our content quality signals rather than simply a threshold."* Treat §14's 7/25 entry as the intellectual origin of the whole program.
+
+**Faisal's key points, consolidated across all three sources:**
+1. **The signal is SOTA and we throw most of it away.** Beats Google, matches Hive; a 0.8 cutoff treating 0.79 as 0.01 is "fundamentally broken."
+2. **Last-mile filtering is structurally losing** — filtered slots backfill with slightly-different bad content, and it recovers too late.
+3. **Train/inference incentive asymmetry** (his deepest point) — recsys are quality-unaware at training time, so the model has no incentive to prefer safe content and we fight our own model every request. "Must be inbuilt, not band-aided."
+4. **Imperfect signals make bad gates but good gradients** — his resolution to the precision/recall objection, and the elegant part.
+5. **The reward loop is the enemy** — borderline content earns engagement, engagement reinforces, feed spirals.
+6. **Traditional safety metrics are the wrong shape** — prevalence measures average exposure, user reach misses individual severity. Hence density / LLM-judged feed quality / USR.
+7. **He has pre-paid the engagement cost:** *"drive it down, even with localized SSv2 cost. This is the engagement we do not need on Pinterest."* Important — it means "engagement and safety are the same North Star" is a claim he has already publicly qualified.
+8. **The real ambition is a platform, not a fix** — with Dylan he has discussed building the muscle so **any** business objective (quality/safety/credibility) can be added to the stack. Teen self-harm is the proof point.
+9. **Method:** bias to action, explicitly not a PRD/TDD, living doc, "we will not try to perfect this document." Bring him a prototype and a sharp question, not a polished 12-week plan.
+
+**Two proposals of his that appear nowhere in CQ's design doc:** the curated teen-safe pool (flip allowlist-by-exception → denylist-by-exception; "worst-case feed quality is bounded by the quality of the pool, not by the recall of our filters") and LLM-in-the-loop feed auditing as both metric and training signal.
+
+**Engagement note:** the one technical contribution that *strengthens* his thesis rather than challenging it — **his <20% argument depends on calibration.** A threshold needs the score correct at one point; a graded penalty needs it correct everywhere. Going continuous raises the signal-quality bar rather than lowering it. Nobody in the docs has named this.
+
 ## Role in my 6–12 month goals
 - **Growth org leader.** Owns all of Growth (122 reports). His org was pushed into UPP by Jeff — initial friction, but he acted magnanimously and is now a big supporter of Dylan's organization.
 - **Close to Dylan.** Natural connection as they came into the org around similar times. Good political alignment.
@@ -2022,6 +2043,16 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 
 Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched James receive a joint "thank you for your ownership" from Andrew + Lily. A strong first exhibit on exactly the eng↔PM interface he was hired to manage from the PM side — no capital spent, formed his own read from the room (per the operating plan above).
 
+## 2026-08-14: Safe Journeys — Michael pulls James into the teen-safety program
+
+**Michael is the PM across all five Safe Journeys workstreams** and co-authored the ACP vision with Faisal, Dylan, and Andrew Y. He owns the execution doc (*Safe Journeys Milestones & Timeline*, last updated 8/14) and **is asking James directly for opinion + ETAs** — every Milestones/Timelines field in it is TBD. Filed: `work/projects/safe_journeys/sources/03_`.
+
+**He named James first among the Eng POCs on two workstreams** — *Safety First Ranking* and *In-Session Awareness* (alongside Qinglong §50, Dhruvil, Zisis Petrou). This is the first substantive James↔Michael working thread at Pinterest, and it rests on **Snap history**: Michael was the recsys PM lead there, and he and James shipped the suggestive-content spacing work together — the closest analogue to the teen slate problem. That shared case is the strongest thing James can lead with in the joint room, because it arrives as experience rather than critique.
+
+**He is the channel to the CTO comment thread.** Madrigal's two comments on §3 of the vision landed 8/12; Michael answered the surface question with **~50% RP / ~25% Homefeed / ~24% board ideas** — a number that quietly breaks the doc's own "starting with Homefeed" scoping.
+
+**Handle privately, not in the joint room:** the headline **7× spiral statistic** (after a teen taps 1 unsafe slate, USR goes 0.45% → 3.2%) **conditions on a tap** — that is selection, not causation. Combined with an uncalibrated GPT-5 judge at n=2K and no holdout, it is a credibility risk under the whole program if the CTO mandate rests on it. Michael conversation, one-on-one.
+
 ---
 
 # 39) Matt Madrigal — CTO (added 2026-07-13)
@@ -2042,8 +2073,20 @@ Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched Ja
 ## 2026-07-22 update — ads is the lever into Jeff
 - Per Dylan (§1 Dylan 7/22 coaching point; §5 Jeff 7/22): **Madrigal's priorities center on ads, and that is how you motivate Jeff** (his boss). Collaboration-with-ads = Jeff's incentive. Reinforces the existing Ads×UPP thread (§40 Dinesh, §41 Jiajing, GPU-retrieval interest above) — the CTO's ads focus is now a *named motivational lever*, not just a demand signal. Jeff pointed Andrena (Dir TPM, §48) at the ads-collaboration area.
 
+## 2026-08-12 — commented on the Safe Journeys vision doc, on the pillar James is a POC on
+
+Two margin comments on **§3 In-session Awareness** of the ACP Safe Journeys vision (captured from a screenshot 8/14; they did not export to PDF — filed in `work/projects/safe_journeys/sources/01_`):
+
+1. **10:19 AM — "Let's tie this back to Anticipation as well."** Anchored on the §3 header. **This is a CTO instruction pointing into James's own territory**: Anticipation Foundations is his Director-shaped scope claim, and his team owns the substrate. It is also the third distinct Madrigal touch on James-coded work (GPU retrieval 7/13 → intent×UPP interplay 7/13 → Anticipation×safety 8/12), and the first that arrives as a *directive* rather than a question.
+   The technical substance is real, not narrative: **in-session awareness and anticipation are the same machinery aimed at different objectives** — anticipation predicts the user's next want, spiral detection predicts the next harm. Same user-state representation, same sequence model, same cross-surface trajectory object. Nobody else on the POC list can say that sentence about a system they own.
+   **Whoever writes the tie-back paragraph owns the connection.** Andrew Y co-authored *both* the Anticipation Vision and this doc and can write it just as easily. Flagged to James 8/14 as the highest value-per-minute move available.
+2. **10:13 AM — "Homefeed only or all surfaces (RP, Search)?"** Michael answered: ~50% RP, ~25% Homefeed, ~24% board ideas. The CTO's question plus that answer is the argument for a **shared-backbone (CFM/UPP)** approach over surface-by-surface enforcement — i.e. for pulling CQ's own Phase 2 forward.
+
+**Pattern worth naming:** Madrigal engages on *mechanism* (GPU retrieval, intent clusters, now cross-surface spiral machinery), not on summary. Artifacts written at mechanism altitude are the currency — he retells mechanisms externally.
+
 ## Open
-- No direct James ↔ Madrigal relationship yet — group discussions so far. Watch for whether the GPU retrieval + intent-modeling interest turns into asks routed through Rajat/Jeff.
+- No direct James ↔ Madrigal relationship yet — group discussions and doc comments so far. Watch for whether the GPU retrieval + intent-modeling + Anticipation×safety interest turns into asks routed through Rajat/Jeff.
+- Whether other sections of the Safe Journeys vision carry Madrigal comments — only the §3 margin was captured.
 
 ---
 
@@ -2197,3 +2240,24 @@ Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched Ja
 - **Piyush IC17 promo:** Sen's year-end **peer feedback** would strengthen Piyush's case — a concrete reason to invest in this relationship in Q3.
 
 **Open:** surname; exact team/charter under Shipeng; what "helping Sen here" concretely costs (headcount? funding? James's time?).
+
+---
+
+# 50) Qinglong Zeng — Sr. EM, Content Quality (reports to Faisal Farooq §14; added 2026-08-14)
+
+**Role:** Senior EM on the **Content Quality** team, in **Faisal's** org. Owns the CQ signal stack and the `pin_selection` gate layer (9+ live experiments, DQv4 shipped, Pin Selection V2 with 33-country/25-language granularity — see `work/projects/reflex/pinkerton/quality_patterns.md`). Author of *Integrating Quality/Safety Objectives into the Recommendation System — Design Options* (filed: `work/projects/safe_journeys/sources/04_cq_design_options_qinglong.md`).
+
+**First contact (2026-07-27, GenAI WG):** surfaced in `#genai-feed-wg` as a new contact; posted a prioritization stack that **aligned with James's frame** — strong +1 on multi-layer-not-filtering-only and one shared metric stack. His speed-to-value order: (P0) demote GenAI slop for all users · (P0) demote GenAI for opt-out/low-affinity users · (P1) GenAI spacing · (P2) training-data cleaning. He added Jianing Sun to the WG. Detail in §14 (7/27).
+
+**The friction (2026-08, undocumented):** James: *"We got into it a little bit at a previous meeting."* **No record of what happened — asked twice in the 8/14c session, not supplied.** This is the gap to close before Monday.
+
+**The structural tension (Leo read, 8/14):** his design-options doc argues **"CQ's preference is L2"** for both the utility change and the ranking-loss change, which demotes **L1 Utility — James's team's system** (JJ/Rui owners) to "an optional complementary density lever." Simultaneously its **Phase 2 puts the quality objective into the CFM/UPP pretrain backbone** — also James's — on CQ's sequencing, gated behind a CQ-run Phase 1 on notif/search. Net: enforcement moves *out of* James's L1 and *into* James's UPP, with CQ holding the definition and the timeline. His L1-gets-washed-out argument is **technically sound and not bad-faith** — it is the real objection and should be engaged on the merits.
+Note also: **Faisal's own Teen-Aware doc out-scopes CQ's current teen work** ("short-term contextualized threshold changes for teens being driven by Content Quality" = Out of Scope). Part of the friction predates James.
+
+**Operating plan:**
+- **Monday 1:1 = cordiality reset.** The move Leo recommended (unratified): **offer co-authorship** of the placement doctrine that sits *above* his options doc. Converts a potential rebuttal into a joint artifact and solves the repair in the same stroke. James stays first author.
+- **Do not fight L1-vs-L2.** It is a turf fight on the 25% surface (Homefeed); RP is ~50% and CQ already has a shipped L2 demotion win there.
+- **Concede the corpus layer to him generously** — `pin_selection` is correctly placed as the earliest filter; it needs a teen-specific threshold policy, not relocation.
+- **Points of genuine agreement to hand him:** his loss reweighting and James's `(1−q)·E` are one mechanism at two stages; his "engagement-only ranker is structurally biased" motivation is exactly right.
+
+**Related:** §14 Faisal (his manager) · §38 Michael Weissinger (PM across the program) · `work/projects/safe_journeys/`

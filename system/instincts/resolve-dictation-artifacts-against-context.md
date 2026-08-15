@@ -3,13 +3,25 @@ id: resolve-dictation-artifacts-against-context
 trigger: James's input reads voice-dictated and a project/person name doesn't match known context ("Allen Utility", "PinRec v2", "Oliver"), especially when the name is headed into a work deliverable
 behavior: Resolve garbled names against repo context (projects, people, artifacts) and use the canonical name, but flag the mapping explicitly in the reply ("assuming PinRec v2 = Pin Selection v2 (PSv2)") so James can correct. For names Leo cannot resolve from context (new people), carry them verbatim but surface them in a pre-submit spelling check — dictated names are a known error class.
 confidence: 0.95
-evidence_count: 7
+evidence_count: 8
 created: 2026-07-09
-last_updated: 2026-08-13
+last_updated: 2026-08-14
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-14 (Safe Journeys session) — search by ROLE, not just by name spelling
+
+> James: *"Qinglong not Xing Xong. Sr EM on content quality reporting into Faisal. **Teen** safety not team safety."*
+
+Two garbles in one session opening, handled differently:
+- **"team safety" → teen safety.** Leo flagged it proactively and unprompted ("I'm reading that as *teen* safety given 'headlines' and 'up to the CTO'"). Correct, and the flag was the right shape. ✅
+- **"Xing Long" → Qinglong (Zeng).** Leo **failed** here. It grepped for the literal string `xing long`, found nothing, and then wrote *"Xing Long is not in the repo at all"* — building a whole "gap to fill" framing on a name that didn't exist. **Qinglong Zeng was already on file** from the 2026-07-27 GenAI WG entry, tagged *"CQ team — new contact,"* which matched James's description exactly (Content Quality, senior, Faisal's org).
+
+**The lesson:** a name-string grep returning nothing is not evidence the person is unknown. When a dictated name fails to resolve, **search by ROLE** — team, level, reporting line, the function James described — because that is what the repo actually indexes well. Phonetic distance here was small (Xing-Long / Qing-long) and the role match was exact; either check alone would have caught it.
+
+Signal: correction.
 
 ### 2026-08-10b (evening session) — the garble WAS a real, higher-stakes person; resolution flipped the advice
 > "This came from Kurchi's feedback that Alok isn't really ramping up well into the space"

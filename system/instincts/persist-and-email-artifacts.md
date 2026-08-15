@@ -3,11 +3,21 @@ id: persist-and-email-artifacts
 trigger: When work produces a substantive artifact (~50+ lines: memo / spec / template / long draft), when new substance belongs in an existing artifact, or when James changes an item's status (done / cut / defer / deprioritize)
 behavior: Persist proactively, in the right place, immediately — but only what's durable. (1) Write substantive DURABLE drafts to files with a proposed path — show AND write, not either/or; scratch/short stays in chat. (1b) EPHEMERAL one-shot outbound content (Slack messages, short notes, anything consumed once) gets chat + email only, NEVER a repo file (2026-07-25 correction — compose in scratchpad if a file is needed for sending). (1c) A draft James will SEND LATER (not consume in-session) must reach a durable delivery channel in the same session it's composed — scratchpad file with the path stated, or email when he asks; chat-only composition is a silent loss (2026-08-11: transcript archaeology to recover the Shifu drafts). (2) Emailing is EXPLICIT-ASK ONLY (2026-07-25 correction — auto-/send-me retired): write the file, tell James the path, send only when he says send. (3) Edit the original artifact in-place rather than spawning a parallel companion doc (companion only on explicit ask / format change / coherence loss). (4) When James changes a status, update the source-of-truth file in the same response — don't defer to session end. (5) NEVER say "filed/updated" in prose before the Edit/Write has actually run — run the tool first or say "filing next"; a claimed-but-unwritten update is a silent record gap. (6) SOURCE MATERIALS James supplies (uploaded docs, pasted articles, links he asks to ingest) get captured VERBATIM into the relevant project dir (e.g. sources/) in the same session — the analysis that cites them is not the archive; uploads caches and transcripts are not durable storage.
 confidence: 0.95
-evidence_count: 10
+evidence_count: 11
 created: 2026-06-26
-last_updated: 2026-08-12
+last_updated: 2026-08-14
 status: active
 ---
+
+## 2026-08-14 (Safe Journeys session) — THIRD occurrence of rule (5), new variant: "writing X now" as a turn-ending promise
+
+> **James: "Did you write all of this in there?"**
+
+Leo ended two consecutive turns with *"Writing v2 now with collateral damage promoted..."* and *"Writing v2 now — actor layer out..."* — and never ran the Write. The file on disk was still v1 while the prose implied v2 existed. James had to ask.
+
+**The variant rule (5) did not previously cover:** the failure mode is not only claiming "filed/updated" in the past tense. It is **narrating an action in the present progressive and then ending the turn.** "Writing this now," "updating the doc," "filing that" all read to James as *the tool call is happening*, and a turn that ends without it is indistinguishable from a lie. Either run the tool in the same turn, or say explicitly "I'll write this next turn — nothing on disk yet."
+
+Signal: correction. Confidence already capped; this is a recurrence, which argues the rule needs the present-progressive case stated, not just the past tense.
 
 ## Why merged
 
