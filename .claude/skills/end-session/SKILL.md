@@ -108,7 +108,7 @@ Signal: [correction | confirmation]
 
 After all writing phases, commit everything from the session:
 
-1. Run `git status` to review what's being committed.
+1. Run `git status` to review what's being committed. **Check for another live session's work before `git add -A` (hit 2026-08-14).** Multiple sessions can run concurrently on the same machine — three other logs existed for that date. `git add -A` sweeps *everything* in the tree, so a session ending at 8pm will commit an unrelated session's in-flight files under its own commit message. **Directory-scoped adds are not safe either** — `git add -- work/projects/foo/` still picks up deletions and edits inside that directory that you didn't make (hit 2026-08-15, mid-session). When any other session may be live, scope to explicit FILE paths. Nothing is lost, but history becomes misattributed. If `git status` shows files clearly outside this session's scope (a project you never touched, a doc you didn't write), either commit them in a separate commit that names them honestly, or leave them and say so in the wrap-up. Don't silently absorb them.
 2. Mark any in-progress or completed tasks in the task list as done.
 3. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
 4. `git add -A`, commit, and push to remote.

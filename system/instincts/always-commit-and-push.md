@@ -1,7 +1,7 @@
 ---
 id: always-commit-and-push
 trigger: At session end, or whenever repo changes have been made
-behavior: Always commit and push, even when the session log is skipped or the session was trivial. Never leave James's work uncommitted.
+behavior: Always commit and push, even when the session log is skipped or the session was trivial. Never leave James's work uncommitted. **Scope every `git add` to explicit FILE paths when any other session may be live — `git add -A` and directory-scoped `git add -- <dir>/` are both unsafe.** A directory-scoped add sweeps another session's (or James's own) uncommitted deletions and edits into your commit. Hit 2026-08-15: two draft files James had removed himself were recorded as deletions inside an unrelated reorg commit.
 confidence: 0.6
 evidence_count: 1
 created: 2026-06-26
