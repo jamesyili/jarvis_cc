@@ -62,7 +62,7 @@ Not part of this set: `seam_message_drafts_2026-08-12.md` (Shifu comms), `source
 
 **Curriculum**
 
-12. Lessons **11** (κ/ρ ceilings), **15** (AutoHarness), **16** (EvoHarness-RL), **17** (Google/YouTube self-evolving recsys + EvoRec) remain. Lesson 16 bears directly on the open "should Reflex consider RL/finetuning" question — provisional answer today is no, on rollout arithmetic (§9).
+12. Lessons **15** (AutoHarness), **16** (EvoHarness-RL), **17** (Google/YouTube self-evolving recsys + EvoRec) remain. Lesson 16 bears directly on the open "should Reflex consider RL/finetuning" question — provisional answer today is no, on rollout arithmetic (§9). **The original twelve are closed as of 8/15.**
 
 ---
 
@@ -175,7 +175,7 @@ Full lesson content is in my own notes, not here. This records what each lesson 
 | 8 | Credit assignment — GEPA has no `blame()`; module selection is round-robin | 8/15 | item 13 rewritten, item 18 added → `eval_03` §1, §3 |
 | 9 | Rubric design — implicit aggregation beats explicit weights; veto criteria, negative rubrics | 8/14 | dissolves item 16 → `eval_03` §1 |
 | 10 | Set curation — the blind test; MMLU-Redux 6.49% audit; GPQA two-stage validation | 8/14 | open item 8 |
-| 11 | κ/ρ ceilings — judge-human ≥ human-human is the ceiling | **not delivered** | — |
+| 11 | Reliability ceiling — the ceiling is a number *plus a metric*; κ vs percentage agreement reverses conclusions | 8/15 | `eval_02` sizing note rewritten (3-branch decision table + the disagreement-set ask); rationale-bias numbers → `eval_03` §3; collision 7 → `eval_01` |
 | 12 | Replay validity — hindsight recall's unsupported region; the survivorship flaw one level deeper | 8/14 | salience stratification, novelty ledger, exploration budget |
 | 13 | Anthropic long-running-agent harness | 8/15 | thin source. Two usable items → `eval_03` §6, §7 |
 | 14 | SkillOS — the curator is the bottleneck | 8/15 | `eval_04` entire; compression objective → `eval_03` §5 |
@@ -189,7 +189,11 @@ Full lesson content is in my own notes, not here. This records what each lesson 
 
 **Comms decision (8/12, still standing):** no standalone terminology/basics doc for the group — professor-mode risk, third-doc-beside-two problem. `eval_01` exists as an internal artifact and the work-leo transfer vehicle. Whether any of it circulates is still open.
 
-**Checks I owe:** 1–2 (Lessons 4–5) deprioritized 8/14. Open: 3–4 (Lesson 6), 5–6 (Lesson 8), Lesson 10's blind-test check.
+**Checks I owe:** 1–2 (Lessons 4–5) deprioritized 8/14. Open: 3–4 (Lesson 6), 5–6 (Lesson 8), Lesson 10's blind-test check. Answered 8/15: 11–12 (Lesson 11, below).
+
+**Two more positions, from Lesson 11's checks (8/15):**
+- **At a low human–human κ, the artifact to ask for is the disagreement set with both rationales — not more calibration cards.** Scaling a measurement that doesn't agree with itself buys noise. The rationales separate the two failure modes, which need different fixes: raters interpreting the same criterion differently is a rubric problem and is writable-around; raters holding genuinely different views of what a good card is is an unresolved question about what Detect is *for*, and has to be adjudicated by someone with authority over that.
+- **A high human–human κ raises the value of the frozen sets, not lowers it.** Agreement is reliability, not validity — a panel can agree consistently and still be consistently wrong about what makes a card valuable. High κ also means the judge can be fit tightly to the humans, so overfitting the calibration set gets *easier*. The **lockbox** catches the leak (internal validity); the **hindsight set** is the one that answers "are we converging on something meaningful, or just agreeing with each other" (construct validity). Don't conflate them — see `eval_01` §4-vs-5.
 
 ---
 

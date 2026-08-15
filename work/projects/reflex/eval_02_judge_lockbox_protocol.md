@@ -43,10 +43,42 @@ The Feedback Curator folds learnings from graded cards into `quality_patterns.md
 
 ## Sizing note: what ~20 labels can and can't support
 
-~20 PM-graded cards is a solid pilot for **measuring** judge–human agreement. It's too small to **optimize** the judge against without overfitting. Two preconditions before the first GEPA run on the judge:
+~20 PM-graded cards is a solid pilot for **measuring** judge–human agreement. It's too small to **optimize** the judge against without overfitting. Two preconditions before the first GEPA run on the judge.
 
-- **Measure the ceiling first.** Double-grade a subset (two humans, same cards) → human–human agreement (κ). If judge–human is already near human–human, GEPA "gains" would be fitting noise — and we'd know to invest in rubric clarity instead.
-- **Optimize at ~50+ labels** with the lockbox split above (or leave-one-out CV with variance reported, if we truly can't wait). Until then: run the judge uncalibrated, visualize, and accumulate labels — exactly the current plan, just with the split in place from day one.
+### Precondition 1 — measure the ceiling, in κ
+
+Double-grade a subset: two PMs, same cards, independently. Then report **Cohen's κ for human–human and judge–human on the same cards, side by side.**
+
+**Use κ, not percentage agreement.** This is not pedantry — the two metrics give opposite answers on the same data, because percentage agreement doesn't correct for chance and κ does. In the MT-Bench study, gpt-4 hit 85% agreement against a human–human 81%, i.e. the judge appeared to *beat* the human ceiling. In a study using κ on a comparable task, gpt-4 scored 0.84 against a human–human 0.97 — well below it. The sharpest single number: one evaluator had **80% percentage agreement and a Cohen's κ of 0.62.** Those are the same evaluator.
+
+Two columns of binary pass/fail naturally produce a percentage-agreement number. That number will be optimistic, and at n≈20 it also carries a 95% CI of roughly ±17pp before clustering. Both errors point the same way — toward "we're at the ceiling, ship it."
+
+Three outcomes, and the plan currently only anticipates one:
+
+| Result | Reading | Action |
+|---|---|---|
+| judge–human κ ≥ human–human κ | Judge is at the ceiling | GEPA gains would be noise. Don't run it; invest in rubric clarity. |
+| judge–human κ below a **high** human–human κ | Real headroom | GEPA is justified — this is the case the current plan assumes |
+| **human–human κ is itself low** (< ~0.6) | **The criteria are underspecified** | No judge optimization fixes this. Fix the rubric first. |
+
+The third branch deserves weight. The human–human κ of 0.97 quoted above comes from a near-objective task (is this answer correct, given a reference). "Is this opportunity card good" is considerably more subjective, so a lower ceiling is the likely outcome. If PMs don't agree with each other, a judge fitted to predict them is being fitted to noise.
+
+So the framing isn't "prove the judge needs work." It's **find out whether we have a judge problem or a criteria problem** — a question worth answering either way.
+
+### Precondition 1b — the artifact to ask for is the disagreement set, with rationales
+
+If human–human κ comes back low, the instinct will be to collect more calibration cards. That's the wrong move: more cards at a low κ buys more noise, not more signal.
+
+The artifact to ask for instead is **the cards the two raters split on, paired with both rationales.** No new labels required — it's already collected. It separates the two failure modes, which need completely different fixes:
+
+- **Raters applying different interpretations of the same criterion** → a rubric problem. Fixable by sharpening definitions and adding veto criteria.
+- **Raters holding genuinely different views of what a good card is** → not a rubric problem. It's an unresolved question about what Detect is *for*, and it has to be adjudicated by someone with authority over that, not written around.
+
+The rationales do double duty: they're also the human-authored `feedback_text` a GEPA loop consumes directly, and the raw material for deriving rubric criteria from contrastive pairs.
+
+### Precondition 2 — optimize at ~50+ labels
+
+With the lockbox split above (or leave-one-out CV with variance reported, if we truly can't wait). Until then: run the judge uncalibrated, visualize, and accumulate labels — exactly the current plan, just with the split in place from day one.
 
 ## What I'm volunteering
 

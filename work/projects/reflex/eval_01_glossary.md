@@ -71,7 +71,7 @@ Both are human-graded cards. The difference is permission, not content: the cali
 
 ## Live collisions to defuse
 
-*Three found 8/14 (dataset names); three more found 8/15 (mechanism names, see Part B).*
+*Three found 8/14 (dataset names); four more found 8/15 (mechanism and metric names, see Part B).*
 
 1. **"case bank" means two different objects.** Janvi's TDD uses it for the Evolve fixture bank (object 3, optimized on). The critique doc uses it for the hindsight set (object 5, never optimized on). These have *opposite* access rules. Saying "the case bank" in the working session will be understood as object 3 by everyone who read the TDD. **Fix: retire the phrase entirely.** Use "fixture bank" and "hindsight set."
 
@@ -97,7 +97,7 @@ Both are human-graded cards. The difference is permission, not content: the cali
 
 # Part B — Mechanisms and terms
 
-Added 2026-08-15. Part A fixes the *nouns for data*. This part fixes the *nouns for machinery*, because the worst collision in the program turned out to live here. Lessons 15–17 (AutoHarness, EvoHarness-RL, the two recsys papers) will add to this section.
+Added 2026-08-15. Part A fixes the *nouns for data*. This part fixes the *nouns for machinery and measurement*, because the worst collision in the program turned out to live here. Lessons 15–17 (AutoHarness, EvoHarness-RL, the two recsys papers) will add to this section.
 
 ## Collision 4 — "Pareto" means two unrelated things, in the same conversation
 
@@ -163,6 +163,12 @@ For reading the GEPA paper or DSPy source against the TDD.
 | grouped task streams | Curator evaluation groups (object 7) |
 | compression reward `r_comp` | **no equivalent** — see `eval_04_curator_measurement_proposal.md` §4.2 |
 | — | lineage / audit trail (§1.3.5) — **SkillOS has no equivalent** |
+
+## Collision 7 — "agreement" is ambiguous between percentage agreement and Cohen's κ
+
+Not a Reflex-invented collision, but it will decide a real call, so it belongs here. **Percentage agreement** is the raw fraction of cards two raters scored the same. **Cohen's κ** is the same comparison corrected for chance agreement. They diverge enough to reverse a conclusion: one published evaluator scored **80% percentage agreement and κ = 0.62**, and across studies judges have appeared to *beat* the human ceiling on percentage agreement (85% vs. 81%) while sitting well *below* it on κ (0.84 vs. 0.97) for comparable tasks. Correlation metrics (Spearman's ρ, Kendall's τ) also don't correct for chance and run high — one study reported κ of 0.3–0.5 where τ/ρ were 0.8–0.9 on the same data.
+
+**Fix:** never write bare "agreement" or bare "the ceiling." Write **"human–human κ"** and **"judge–human κ"**, and state the metric on every number. Reflex's grading is binary, which is exactly the case where κ is the right tool (see `eval_02` sizing note).
 
 ## Terms to pin (Reflex-internal, no external analogue)
 
