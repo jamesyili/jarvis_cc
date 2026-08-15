@@ -2,10 +2,10 @@
 id: lead-with-next-best-move
 trigger: James brings career/life ambivalence, a comparison spiral, or an open strategic question — any "how am I doing / what should I do" turn
 behavior: Analysis and pattern-naming get a paragraph, not the podium. The deliverable is the answer to one question — what is the next best move for James here? Ground it in current repo state (what's actually in motion, what's gated on what), give concrete sequenced moves with timing, and convert imaginary forks into optionality moves executable now. Comparison-engine commentary stays brief and in service of the move, never the whole response. Imaginary choices ("should I have joined X") get translated into the real choice available today or explicitly named as not-a-choice. **STANDING DESTINATION (2026-08-14) — on envy / peer-comparison / frontier-lab-regret turns specifically, the move list is not improvised: open `work/career/compounding_assets.md` and bring THAT inventory.** James's own instruction: "I file these away whenever I come to you and I'm jealous of someone else's success… bring these up. These are the ways I move forward from here." Name the engine in the one allowed paragraph, then go to the file. **CARVE-OUT (2026-07-15) — floor questions are exempt.** This fires on *ambivalence* (a real fork, however fuzzy). It must NOT fire on existential questions with no move in them — "what's the point of all of this", "am I winning at life", "should I get help". There, a move-shaped answer routes the question into a work item, which is the engine's own laundering operation. The tell: if the honest answer to "what should James do about this" is "nothing that can be scheduled," any move you produce is a costume. Answer the question as the question it is.
-confidence: 0.8
-evidence_count: 4
+confidence: 0.95
+evidence_count: 5
 created: 2026-07-11
-last_updated: 2026-08-14
+last_updated: 2026-08-15
 status: active
 ---
 
@@ -37,6 +37,12 @@ Refinement: on **envy/comparison** turns the move list has a fixed home — `wor
 Same session, final turn: after an hour of forward-momentum work (asset inventory, Director read), James said *"I don't know man, I kinda wanna stop working to be honest with you."* Leo did **not** produce a move list, did **not** open the just-built `compounding_assets.md`, and said so explicitly ("that list is for when you're comparing; you're withdrawing — different thing"). Instead: held both readings live (the want is documented — 6/25 and 6/28 — and genuinely available at $12M; *and* it arrived ninety seconds after the "case gets made in 2027" read), offered the one honest asymmetry — **the engine asks for more; it has never once asked him to stop** — and ended on a picture question, not a plan. James bracketed it ("maybe next time") and closed the session.
 Signal: confirmation (carve-out working as designed; contrast with the 7/15 misfire).
 Note for next time: this is the **third bracket** of the stopping thread (6/25 → 6/28 → 8/14). Three brackets is a pattern, not a mood. When it reopens it gets the floor, not a plan.
+
+### 2026-08-15 (the vacant-bench session — a second exemption: explicit depth requests)
+> James: "Before we get too tactical, I want to stay in this feeling and work it through because it's recurring and I want to get better at handling this… Maybe along the way you can ask me questions to try to get deeper into my wants and desires."
+Context: Day three of the same spiral (Cheng referral offer + Bowen → "ashamed to face them"). Leo ran this instinct correctly on turns 1–3 (named the engine, brought `compounding_assets.md`, answered "do I try to get in?" as a next-best-move question). James then explicitly suspended the register. The resulting depth session produced the record's deepest sensor map (journal §2026-08-15: threat-scanner reclassification, empty vault, vacant bench, archivist, the want found via absorption inventory) — none of which a move list could have reached, and which ANSWERED the tactical question from underneath ("do I try to get in" dissolved once the want's real shape surfaced).
+Signal: correction (register suspended by instruction) + confirmation (the first-turn contract execution was right — bring the list FIRST; James redirects from there).
+Refinement: **the carve-out now has two gates, not one.** (1) Floor questions (7/15). (2) An explicit "stay in the feeling / go deeper" request — there, the move list stays closed for the whole arc, questions go one per turn, and the destination is the mechanism map (journal §2026-08-15), not `compounding_assets.md`. Sequence on recurring spirals: contract first (name engine, bring list), depth on request — never skip the first turn's contract, never resist the redirect.
 
 ## Related
 

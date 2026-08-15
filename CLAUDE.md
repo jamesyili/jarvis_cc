@@ -96,7 +96,7 @@ Four custom sub-agents in `.claude/agents/`. Leo manages dispatch — agents don
 
 | Agent | Model | Mode | Trigger | Purpose |
 |-------|-------|------|---------|---------|
-| **Consult-Notebook** | Sonnet | Background | Keyword triggers (see below) or proactive consultation | Queries NotebookLM notebooks in isolation — keeps verbose NLM results out of main context. Appends raw response to `system/notebooklm/query_log.md` as audit trail. |
+| **Consult-Notebook** | Sonnet | Background | Keyword triggers (see below) or proactive consultation | Queries NotebookLM notebooks in isolation — keeps verbose NLM results out of main context. Appends raw response to `system/notebooklm/query_log.md` as audit trail. **Local machines only** — the NotebookLM MCP is not bound in remote/cloud sessions; the agent fails loudly with no query sent (verified 2026-08-15). Don't spawn it remotely; note the limitation and offer to run it next local session. |
 | **Karen** | Opus 4.6 | Background | Every ~20% context window (~5x/session) | Adversarial advisor — blind spots, alternatives, accountability |
 | **Code Planner** | Opus 4.6 | Foreground | Explicit: "plan this", new build scoped | Interrogation → structured implementation spec |
 | **Search** | — | Foreground | KB search queries needing context isolation | Search across KB articles and context files |

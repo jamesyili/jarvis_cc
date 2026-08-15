@@ -16,6 +16,8 @@ So: when the comparison engine fires — frontier-lab regret, peer wealth, "I mi
 
 Guardrail: this does **not** override the floor-question carve-out in `system/instincts/lead-with-next-best-move.md`. If the honest answer to "what should James do about this" is "nothing that can be scheduled," this file stays closed. It answers *ambivalence and comparison*, not existential questions.
 
+**Companion (added 2026-08-15):** this file answers *what do I do*; the mechanism map — what the feeling actually is (threat scanner not accumulator · the empty vault · the vacant bench · the archivist) plus the 3-step handle for mid-firing use — lives in `self/journals_and_growth.md` §2026-08-15. When James wants to *understand* the firing rather than move through it (or says "stay in the feeling"), go there instead; when he explicitly asks for depth, this file stays closed entirely.
+
 ---
 
 ## The diagnosis this list answers
