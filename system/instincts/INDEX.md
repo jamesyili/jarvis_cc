@@ -43,6 +43,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 
 ## Output / prose / format
 - **frame-life-plans-by-age** — multi-year life/financial timeline for James → index by his age (+ kids' ages/departures), calendar years in parentheses; "at 45" lands, "in 2032" doesn't.
+- **sections-must-serve-a-decision** — drafting/revising a work-facing technical doc → every section must change what someone does; cut framing/thesis sections, unused taxonomy, and elegant derivations no action consumes; "bets" must be decisions, not restatements of mechanisms already argued. Test: does any recommendation change if this is deleted? (0.3, 8/14 — four Leo-authored sections cut in one doc)
 - **avoid-ai-prose-tells** — drafting in James's voice → strip em-dash overuse, rule-of-three, vague grandiosity, epigram verdict sentences; evidence the reader can check; first person ("I", not "Leo").
 - **one-home-per-fact-in-multisection-docs** — drafting multi-section docs → each fact gets exactly one home section; collapse overlaps (benefits vs. outcomes, ownership vs. charter) at structure level before drafting, not after James flags wordiness.
 - **one-name-per-object-before-teaching** — teaching/quizzing off a working doc grown across sessions → sweep for synonym drift and one-name-two-objects collisions first, write the name-to-object map; an unclear question is Leo's defect, and a learner's conflation is usually downstream of Leo's own.

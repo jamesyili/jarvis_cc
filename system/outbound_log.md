@@ -131,3 +131,4 @@
 | 2026-08-14 17:43 | gmail | [Leo] Demotion Doctrine — the why, the math, and what it implies for Safe Journeys | work/projects/safe_journeys/demotion_doctrine.md | to=jamesyili@gmail.com id=1a002dfc7fce1c6b |
 | 2026-08-14 18:54 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_draft_v1.md | to=jamesyili@gmail.com id=1a0032072f763b0f |
 | 2026-08-14 19:54 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_v2.md | to=jamesyili@gmail.com id=1a0035796e12cf7e |
+| 2026-08-14 21:14 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_v2.md | to=jamesyili@gmail.com id=1a003a0e54859adc |

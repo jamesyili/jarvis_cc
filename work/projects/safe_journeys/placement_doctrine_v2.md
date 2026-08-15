@@ -4,7 +4,7 @@
 
 James Li · August 2026 · Draft for comment
 
-> *Draft v5 — Leo, 2026-08-14. **NOT circulation-safe:** §7 and the flagged blockquotes inside §3 and §5.4 are internal. Cut before sharing. `demotion_doctrine.md` retained on disk as the original thinking file.*
+> *Draft v5 — Leo, 2026-08-14. **NOT circulation-safe:** §7 and the flagged blockquotes inside §3 and §5.4 are internal. Cut before sharing. This is now the single doc — `demotion_doctrine.md` and `placement_doctrine_draft_v1.md` were folded in and deleted 2026-08-14 (recoverable from git at 0545a9f).*
 
 Michael's milestones doc asks for a tech design scalable across surfaces, with the tradeoffs surfaced. This is that. It is not a competing design — Content Quality's *Design Options* doc is a thorough treatment of one region of the space and most of what follows takes it as given.
 
@@ -57,6 +57,8 @@ The unit matters because **a metric defined on one unit cannot be optimized by a
 
 **We prefer diversity and density control over spacing.** Spacing reintroduces the threshold at the set level, which throws away the same information Faisal's argument says we should stop throwing away. Diversity and density control consume the full score distribution, which means the choice of set-level mechanism follows from the same principle as the choice of item-level mechanism.
 
+This is not a new proposal so much as an implementation of one already on the table. Faisal's idea list asks for *"topic diversity floors specifically for teens (no more than X% of the feed from any one cluster)"* and for *"mandatory exploration slots seeded from safe, broadly-appealing content."* SSD is the mechanism that already exists to do that, and it does it without requiring us to declare any individual pin unsafe first.
+
 **Session-unit:**
 - **Responsiveness** — change behavior within or across sessions in reaction to observed trajectory.
 - **Re-seeding** — fall back to declared interests or safe candidate sources.
@@ -83,7 +85,7 @@ The unit matters because **a metric defined on one unit cannot be optimized by a
 
 - **Prevalence** — share of impressions that are violative. *Average exposure, item unit.* ~0.03% for self-harm.
 - **User reach** — count of users seeing ≥1 violative item.
-- **Density** — share of an individual's feed that is borderline or violative.
+- **Density** — share of an *individual's* feed that is borderline or violative. Already proposed as a candidate success metric: *"what fraction of an individual teen's feed is borderline or violative? e.g. >33% of feed becoming borderline or violative."* See §4.3 — this is the metric our density-control lever moves directly.
 - **Unsafe Slate Rate (USR)** — share of slates an LLM judge rates unsafe. *Slate unit.* North star. 0.45% for teens, ~300× prevalence.
 - **Collateral damage** — engagement lost to *misclassification*, held separate from engagement lost to correct suppression.
 - **Regrettable engagement** — engagement the user themselves would take back.
@@ -189,9 +191,19 @@ Point-wise removal belongs as far upstream as possible, because every layer that
 
 Starting there means the pool is clean of the worst of the worst before any personalization runs, and it costs the serving path nothing.
 
+**The pool and the filter are the same workstream.** Faisal's second idea proposes inverting the default — from allowlist-by-exception, where everything is eligible until a filter removes it, to denylist-by-exception, where teens draw from a curated corpus. His argument for it is exactly right: *"the worst-case feed quality is bounded by the quality of the pool, not by the recall of our filters."* That is a statement about the corpus layer, and a curated pool is built the same way a cleaned corpus is built — **in a daily batch job, joining content signals against creator, board, and behavioural aggregates.** Removing the worst of the worst and assembling a high-confidence teen pool are the same pipeline run with two different thresholds, and the graduated-trust mechanic he describes is a column in that job's output rather than a separate system.
+
+This matters for staffing as much as for design. The milestones doc asks, under Safe Cold Start, *"what is the progress on defining a 'high quality' content corpus? Who (if anyone) is working on this?"* — and lists no engineering POC. If the corpus pipeline is where both the filtering work and the pooling work happen, then Safe Cold Start is not a separate build. It is the second threshold on a job we should be standing up anyway, and it should be owned by whoever owns the first.
+
+**The early funnel is itself trained on engagement, and that is where the largest surface comes from.** Corpus, retrieval, and Related Pins are not neutral pipes that a ranker later shapes. They are built out of artifacts — embeddings, the Pin2Pin graph, collaborative-filtering signals — that are themselves learned from engagement. When a teen engages with harm-adjacent content, that action does not merely affect their next slate; it is absorbed into the structures that decide what is adjacent to what, for everyone.
+
+Faisal names the fix precisely: *"discount or discard teen engagement on borderline content from collaborative filtering, embedding training, and Pin2Pin/related-pins graphs,"* *"quarantine signals from new teen accounts until a baseline of healthy engagement is established,"* and asymmetric propagation, where engagement on clearly-safe content flows normally and engagement on borderline content flows weakly or not at all.
+
+Put that next to the surface data and it becomes the highest-leverage intervention available. **Related Pins is roughly half of all unsafe slates, and Related Pins is generated from the P2P graph — which is exactly the artifact this hygiene protects.** Cleaning the graph is upstream of every RP slate we will ever serve, it requires no serving-path change, and it is the one intervention whose benefit compounds rather than being re-applied per request. It also prevents one teen's spiral from shaping recommendations for other teens, which no serving-time mechanism in this doctrine can do.
+
 Set-level shaping is the opposite and belongs late. **Composition control belongs at L1, where the whole candidate set is visible; diversity belongs at the blender, where the assembled slate is.**
 
-**Corpus first, filter early, shape late.**
+**Corpus first, clean the graph, filter early, shape late.**
 
 ### 4.2 Act on more than the classifier score
 
@@ -222,6 +234,10 @@ Read another way, `h` is a second and largely independent read on the same quest
 Every mechanism in the current proposals is point-wise: `wᵢ · BCE(predᵢ, labelᵢ)`, per-item utility penalties, per-item quality heads. Each is good, and within that column the Design Options doc is close to complete. But a point-wise objective cannot optimize a set-level metric. **We can improve every item and still serve an unsafe slate.**
 
 **Composition applies earlier than the blender.** The strongest objection to acting at L1 is that an engagement-only L2 re-ranks and washes the effect out. That is true of per-item demotion. It is **not** true of composition control: if a broad swath of a user's candidate pool is harm-adjacent and we cap that density upstream, no downstream re-ranking resurrects what is not there. Set-level thinking is not confined to blending, and the washout argument is narrower than it has been stated.
+
+**The metric we have been handed is already a set-level metric, and density control is the lever that moves it.** Among the candidate success metrics on the table is density — *"what fraction of an individual teen's feed is borderline or violative? e.g. >33% of feed becoming borderline or violative."* That is a proposal for a metric with no mechanism attached. Capping the share of a candidate set that falls in a given score band is a mechanism with no metric attached. They are the same object approached from two ends: the metric states a ceiling on composition, and density control enforces one. Matching them means the lever moves the number directly rather than through a chain of hoped-for effects, which is rarely true of a safety intervention and worth taking when it is.
+
+**Backfill is the reason this matters more than it looks.** One of the standing objections to last-mile filtering is that it *"backfills slightly-different bad content"* — remove a pin and the slot refills from the same neighbourhood, because the retrieval that produced the first candidate will happily produce the second. This is a genuine defect and it is not fixable at the item level, since per-item removal is what creates the empty slot in the first place. **A density cap is backfill-proof by construction.** It constrains the composition of the set rather than the identity of its members, so whatever arrives to fill a slot is subject to the same ceiling. This is the cleanest available argument for set-level mechanisms over item-level ones, and it comes from the critique of filtering rather than from a preference for a different tool.
 
 ### 4.4 Remove, sample, or penalize
 
