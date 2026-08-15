@@ -134,3 +134,4 @@
 | 2026-08-14 21:14 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_v2.md | to=jamesyili@gmail.com id=1a003a0e54859adc |
 | 2026-08-14 21:28 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_v2.md | to=jamesyili@gmail.com id=1a003ade774f2fc8 |
 | 2026-08-14 21:30 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_v2.md | to=jamesyili@gmail.com id=1a003afeef92181a |
+| 2026-08-14 21:35 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_v2.md | to=jamesyili@gmail.com id=1a003b46f549ea7f |

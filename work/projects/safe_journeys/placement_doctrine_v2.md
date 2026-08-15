@@ -167,11 +167,34 @@ Concretely:
 - **To separate unregrettable from regrettable engagement**, start with behavioral proxies for the regrettable part: hides, reports, See Less, session abandonment following the impression, and a depressed next-session return rate. Subtract it, and report the remainder as the real loss. Validate the proxy against survey ground truth on a sample before trusting it — on its own it is biased toward users who bother to signal, which will understate regret among exactly the quiet users this program exists to protect.
 - **Governance rule: both axes on the same slide, always.** A quality win reported without its cost is not a result. This is cheap to enforce and it is the thing that prevents the metric from drifting once the program has attention.
 
-### The holdout, and why the horizon argument matters
+### The final ask: retention gains in a CQ holdout
 
 A recommender exists to produce good experiences; harm prevention aims at the same place. But they are not identical inside a two-week window, and our own record says so — the racy filter cost ~4–5% of male impressions, and the vision doc accepts localized SSv2 cost explicitly.
 
-The honest statement is that **engagement and harm prevention converge on a longer horizon than our experiments measure.** If the payback period exceeds the test period, the only instrument that can observe it is a **long-running holdout on the safety metric itself.** Michael's doc asks whether we can create and maintain a USR holdout; that should be the measurement workstream's first commitment rather than an open question, because without it every safety launch will be judged on the axis where it looks worst, in the window where it looks worst.
+The honest statement is that **engagement and harm prevention converge on a longer horizon than our experiments measure.** Every individual launch will therefore be judged on the axis where it looks worst, in the window where it looks worst, and the compounding benefit will never appear in any single experiment readout because no single experiment runs long enough to contain it.
+
+There is one instrument that fixes this, and it is the thing this section has been building toward:
+
+> **A long-running content-quality holdout, measured on retention.**
+
+Not a per-launch holdout, and not a holdout measured on USR. A population held out from the content-quality stack *as a whole*, run for quarters rather than weeks, and read on **retention** — the metric both sides of this conversation already accept.
+
+Three reasons this is the right ask and not merely a nice-to-have:
+
+**It is the only way to settle the convergence claim.** We assert that preventing bad experiences raises retention. That is an empirical statement and it is currently untested. A stack-level holdout tests it directly; nothing else does.
+
+**It changes how quality work gets funded.** Today every content-quality launch is a negotiation in which quality is a cost and engagement is the budget. A measured retention gain converts the whole program from a cost centre into an investment with a return, and it does so in the only currency that travels — which matters more for the next three years of this work than any single launch does.
+
+**It is the honest version of accountability.** The measurement asks in this section are largely about cost: what did we break, how much did it cost, was it worth it. A retention holdout asks the harder question in the other direction — *did all of this actually produce the benefit we claimed?* We should want that number more than anyone.
+
+**Design constraints, stated plainly.**
+
+- **Stack-level, not launch-level.** The compounding argument only shows up if the holdout is excluded from the whole set of interventions. A holdout per launch measures per-launch effects and cannot see accumulation.
+- **Quarters, not weeks.** A two-week holdout measures the cost and none of the benefit, which is exactly the failure mode we are trying to escape.
+- **It cannot include vulnerable users on violative content.** We cannot hold teens out of self-harm protections to see what happens, and we should not pretend otherwise. The runnable holdout is on adults, and/or restricted to the borderline tier rather than the violative one, and/or on the general quality stack rather than the safety stack. The teen case is then inferred rather than measured, and that inference should be labelled as such wherever the number is quoted.
+- **We have to pre-commit to reporting it either way.** This can come back flat or negative, and if it does, the economic case for the program is weaker than we have been claiming. A holdout we would only report if it were favourable is not measurement. Pre-registering the readout — metric, window, and decision rule — before the data lands is what makes the number worth anything.
+
+Michael's doc already asks whether we can create and maintain a holdout on the new metric. This is that question, upgraded: **USR tells us the mechanism worked; retention tells us it was worth doing.** Both are needed, and only the second one settles the argument.
 
 > *[Internal — cut before circulating] Dylan asked James to hold CQ accountable and used similar language in the joint sync, so the accountability framing is sponsor-directed. Delivery still has to land as shared infrastructure rather than policing: use their own word — they invoked a Pareto, and a Pareto has two axes.*
 
@@ -479,7 +502,7 @@ The honest read is that the coupling risk is real and should be named rather tha
 ## 6. Open questions
 
 1. Calibration status of the self-harm and borderline classifiers — probability, severity, or neither.
-2. Whether we can stand up a long-running USR holdout, and who owns it.
+2. Whether we can stand up a long-running stack-level CQ holdout read on retention — who owns it, what population it can ethically cover, and what we pre-commit to reporting.
 3. Where the collateral-damage metric lives, who reports it, and how we establish the unregrettable-engagement denominator it is measured in.
 4. Base rates `πₖ` per category and surface — measured or assumed.
 5. Who owns board ideas, currently unassigned and roughly a quarter of the problem.
