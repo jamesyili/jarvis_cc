@@ -1,9 +1,9 @@
 ---
 id: sections-must-serve-a-decision
 trigger: Drafting or revising a work-facing technical doc for James — design doc, doctrine, strategy memo, anything with an expert audience
-behavior: Every section must change what someone does. Before writing a framing, taxonomy, or formalism section, name the downstream recommendation that depends on it; if nothing does, cut it. Specifically — (1) no scene-setting thesis or "why this matters" sections, they read as pompous to an expert audience that already agrees; (2) no definition or taxonomy that isn't consumed later in the doc; (3) no derivation whose result no action uses, however elegant; (4) a "bets" / "recommendations" section must contain real decisions, not restatements of mechanisms already argued above. When James asks "does this add anything?", the honest answer is usually no — check whether the doc's own action items depend on it before defending it.
-confidence: 0.3
-evidence_count: 1
+behavior: Every section must change what someone does. Before writing a framing, taxonomy, or formalism section, name the downstream recommendation that depends on it; if nothing does, cut it. Specifically — (1) no scene-setting thesis or "why this matters" sections, they read as pompous to an expert audience that already agrees; (2) no definition or taxonomy that isn't consumed later in the doc; (3) no derivation whose result no action uses, however elegant; (4) a "bets" / "recommendations" section must contain real decisions, not restatements of mechanisms already argued above. (5) **price every option you present** — a doc that argues positions without stating what each one costs cannot be used to decide anything, and "surface the tradeoffs" is usually the literal ask; (6) do not invent a category that duplicates one already in the doc. When James asks "does this add anything?", the honest answer is usually no — check whether the doc's own action items depend on it before defending it. **Standing check before delivering any doc: re-read the ask it quotes in its own opening, and confirm the doc does that thing.**
+confidence: 0.45
+evidence_count: 2
 created: 2026-08-14
 last_updated: 2026-08-14
 status: active
@@ -23,3 +23,13 @@ James edited a Leo-drafted technical doctrine across five revisions and cut four
 **The test that would have caught all four:** does any downstream recommendation change if this section is deleted? For all four, no.
 
 Signal: correction ×4.
+
+### 2026-08-14 (same doc, later) — the doc quoted its own ask and then did not do it
+
+> James: *"go through all of section four and five and provide all the trade-offs of the different options in each subsection because that's one thing that we're missing right now."*
+
+The doctrine's opening paragraph quotes Michael's ask verbatim — *"a tech design that is scalable across surfaces and parts of the stack, **and surface the tradeoffs**"* — and then argued a position in every subsection without pricing a single alternative. Nine tradeoff tables had to be added afterwards. Once written, they contained the most useful content in the document: that OR triggers pay for washout protection in false positives, that probabilistic sampling is indefensible to policy for violative content, that the trajectory head is the least certain item in the doc, and that building on the anticipation substrate couples a safety-critical system to another team's roadmap. **None of that could have been said by a doc that only argued for its own conclusions.**
+
+Same session, same underlying defect as the four cuts above: Leo optimizes for the argument being right rather than for the reader being able to choose. Related smaller instance in the same doc — "regrettable engagement" was added as a third metric when it was the complement of one already present (collateral damage); the useful move was to name the positive quantity, **unregrettable engagement**, as the unit the existing metric is denominated in.
+
+Signal: correction.
