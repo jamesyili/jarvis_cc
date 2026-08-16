@@ -3,9 +3,9 @@ id: resolve-dictation-artifacts-against-context
 trigger: James's input reads voice-dictated and a project/person name doesn't match known context ("Allen Utility", "PinRec v2", "Oliver"), especially when the name is headed into a work deliverable
 behavior: Resolve garbled names against repo context (projects, people, artifacts) and use the canonical name, but flag the mapping explicitly in the reply ("assuming PinRec v2 = Pin Selection v2 (PSv2)") so James can correct. For names Leo cannot resolve from context (new people), carry them verbatim but surface them in a pre-submit spelling check — dictated names are a known error class.
 confidence: 0.95
-evidence_count: 8
+evidence_count: 9
 created: 2026-07-09
-last_updated: 2026-08-14
+last_updated: 2026-08-15
 status: active
 ---
 
@@ -64,3 +64,7 @@ Signal: mixed — two confirmations of the resolve-and-flag move, one correction
 > (James, after Leo's flagged resolutions:) "Oliver = Olafur"
 Context: Heavy dictation session — resolved Kurchi→Chuxi, Sy→Sai, biology→Balaji, David→Dylan against repo context with mappings flagged inline; James confirmed the one Leo couldn't resolve (Oliver→Olafur Gudmundsson) and corrected nothing else. Two names carried verbatim + surfaced as unresolved ("Rope Urkel", "Yichin") per the behavior. The full loop worked end-to-end.
 Signal: confirmation
+
+### 2026-08-15
+> Session-long decode chain, all confirmed by non-correction: "Elim"→Alim · "WriteGBT"→RecGPT · "janitor retrieval"→GenRet/Generative Retrieval · "flat weight scoring"→LWS/lightweight scoring · "Zli"→Zili · "Lim"→Alim · "Neema"→Nima. "DR approved" (Zili PIP) unresolvable → carried with a ⟨dictated⟩ flag into the record.
+Context: Phone/dictation session on T2 scenario boards. Stating each mapping inline ("decoding: janitor retrieval = GenRet") let James confirm silently and never broke flow. Signal: confirmation.

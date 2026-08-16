@@ -20,14 +20,14 @@ One line sets the whole meeting: *"You've both given me your T2 thinking — exa
 **2. Daniel walks his prepared areas — 12 min (10).**
 Arranged with him **in advance** — he presents his own map (programs, DRIs, gaps). Framing: shared context before his OOO, and it's one of the inputs the boards are built from. Alim gets the estate tour he's been wanting; Daniel gets his prep honored in front of a peer.
 
-**3. The three boards — 20–25 min (18). The centerpiece.**
-Present all three as live versions, using the planner they already have. Per board: the organizing idea, what it means for each of their legs, and what's open. Rules of the room, said once: *"All three are alive. Nothing gets decided today. Your reactions shape the design; where interests collide, I decide and explain why."*
+**3. The boards — 20–25 min (18). The centerpiece.** *(⚠️ Updated 8/15 — supersedes the three-board list below: the deck is now **FOUR numbered scenario boards (Scenario 1–4, deliberately no team names — the EMs name their own teams later)**, spread so each of GenRet, LWS, IB, and Kim's seat flips sides exactly once and no single asset reads as the trophy. Rosters + flags: `t2_team_setup_scenarios_2026-08-11.md` §Update 8/15 + the private artifact. Sc 3 note for the room: it reverses the T1 LWS grant — pair it with "nothing is decided, including what you already hold." The bullets below are the 8/12 three-board state, kept for history.)*
+Present all as live versions, using the planner they already have. Per board: the organizing idea, what it means for each of their legs, and what's open. Rules of the room, said once: *"All are alive. Nothing gets decided today. Your reactions shape the design; where interests collide, I decide and explain why."*
 
 - **By Stages** — moves execute on gates over time, no single cutover. Alim's leg consolidates progressively (RR stack now, more at gates); Daniel = engines + boards; James = UPP + Reflex.
 - **Barbell** — every team holds an engine *and* a bet. Alim = anticipation stack + CLR as ballast + a senior seat; Daniel = LWS + Collection P13N + IB through its gate, plus a funded LLM×Recs lane; James = UPP + Reflex.
 - **AnticipationCLR** — the bold consolidation: anticipation maximal under Alim (incl. IB with Balaji as Staff anchor), Daniel compact and frontier-deep. Most moves, biggest swing.
 
-**Open forks to name explicitly** (each with what resolves it): GenRet — parked, November decides on evidence · CLR timing · IB — its gate, ~Oct · Kim's seat — Friday · reqs — at settle.
+**Open forks to name explicitly** (each with what resolves it): GenRet — *(8/15: park-with-James retired as an end-state; the charter leaves James on every board — the open question is the owner, Sc 1 vs Sc 2–4, November evidence decides)* · CLR timing · IB — its gate, ~Oct · Kim's seat — Friday · reqs — at settle.
 
 Let the discussion run. Where their reactions cluster — and what each of them pushes back on — is the best data this meeting can produce.
 
@@ -44,9 +44,9 @@ Frame strictly on her stated energy — she lit up on Retentive Recs specificall
 
 - [ ] Extend Monday's slot to 60 min if possible.
 - [ ] Pre-send the agenda to both; arrange Daniel's areas-walkthrough slot with him directly (never on the spot).
-- [ ] Pre-send the three board *theses* only (name + one-line organizing idea each); full member-level boards shown live in the room.
-- [ ] Get the Alim↔Kim intro chat on the calendar before Friday.
-- [ ] Schedule Kim's 3-way before Friday — it gates the Friday call.
+- [ ] Pre-send the board *theses* only (one-line organizing idea each); full member-level boards shown live in the room. *(8/15: four numbered scenarios now — pre-send "Scenario 1–4" + one-liners, no team names.)*
+- [x] Get the Alim↔Kim intro chat on the calendar before Friday. *(8/15: done — chat happens Mon 8/17; Alim pre-briefed.)*
+- [x] Schedule Kim's 3-way before Friday — it gates the Friday call. *(8/15: Kim's full sequence is on the calendar per James.)*
 - [ ] Have the planner open and ready — it's the artifact they already know.
 
 ## Watch-outs in the room

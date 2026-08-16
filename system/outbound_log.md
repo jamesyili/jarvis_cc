@@ -137,3 +137,4 @@
 | 2026-08-14 21:35 | gmail | [Leo] Where Quality and Safety Belong in the Stack | work/projects/safe_journeys/placement_doctrine_v2.md | to=jamesyili@gmail.com id=1a003b46f549ea7f |
 | 2026-08-15 15:01 | gmail | [Leo] The eight papers, what each gives Reflex, and Monday's talking point | work/projects/reflex/eval_06_papers_and_monday.md | to=jamesyili@gmail.com id=1a00771682af187e |
 | 2026-08-15 15:30 | gmail | [Leo] Eval-Integrity Protocol for the Detect Judge (Lockbox + Versioning) | work/projects/reflex/eval_02_judge_lockbox_protocol.md, work/projects/reflex/eval_03_evolve_feedback_and_contract.md, work/projects/reflex/eval_05_verifiability_and_attempts_store.md | to=jamesyili@gmail.com id=1a0078bef185cdca |
+| 2026-08-15 17:06 | gmail | [Leo] T2 Scenario Boards | /tmp/claude-1000/-home-james-src-leo/57a24a30-46eb-404e-b556-7a32db28fda4/scratchpad/t2-scenario-boards.html | to=jamesyili@gmail.com id=1a007e3ff0e6ba6c |

@@ -391,3 +391,27 @@ Gaps to close against the plan's ask:
 | **Wed 8/13 Kim #1** | Her preference (UPP pull vs. else) — decides the Kim×Nima pairing |
 | **Mon 8/17 walkthrough** | Where his corrections/energy cluster (scope-appetite signal); IB register — passion or stewardship |
 | **Tue 8/18 1:1** | The banked inkling, now played back off **his own written buckets** — the R1/R2 discriminator, esp. where IB goes |
+
+## ✅ Update 8/15 (phone session) — the deck goes to FOUR numbered scenarios; corrections land; Compare view + descriptive names dropped
+
+**The presentation logic (James's call, overriding Leo's two-boards-plus-fork rec):** with only boards 1–2 the room's frame collapses to "who gets RecGPT" — the one asset both could fight for — and the set reads favoritism/pre-decided. Four boards fix it structurally: **each of GenRet, LWS, IB, and Kim's seat flips sides exactly once across the set.** Names stripped to **Scenario 1–4** ("they can name their own teams later"); descriptive names and the Compare tab were built and then nixed by James. **Artifact (private, phone-first, tabbed): https://claude.ai/code/artifact/4d644302-7e79-41c0-8b85-1a07d50ee37f — emailed to James 8/15.** Supersedes this doc's three-board set (By Stages / Barbell / AnticipationCLR) as the working deck; those remain the analysis record.
+
+**Corrections applied to all boards (durable facts, also filed in `../team_members_scope.md`):**
+1. **Nima HIRED** (the REQ-1 IC15 MLE) — joining soon, works out of CLR; rides with CLR per board.
+2. Labels: "CLR + GULP" → **CLR** · "UEB & LLM-pUIC" → **UEB** (= Roderick + Lionel + **Esteban**, who moves with it).
+3. **IB · LLM-pUIC = one group:** Balaji + Ling carry both; if the gate misses, the work folds into **LLM×RecSys** — downside contained, the bet can't fully die (James's framing).
+4. **Bella = Reflex 1° / RecGPT 2°; stays James-direct on every board** (rating-handoff hold; GenRet charter moves without her — Daniel's carve offer made standing). **GenRet charter leaves James on every board** (park-with-James retired as an end-state).
+5. **Rui (= "Ray") rides with LWS wherever it lands — never stays James-direct.**
+6. Counts shown exact, not approximate (28 seats incl. Yang-on-leave, REQ-2, Nima-joining, Kim-pending).
+
+**The four boards (J/A/D exact):**
+- **Scenario 1** *(was By Stages)* — Alim: RR (Chuxi ws-TL, Yidi, Alok, Kim) + UEB (Roderick, Lionel, Esteban) + CLR at settle (Devin, Yichi, Ryan-2nd, Nima) + GenRet at graduation (Yuke ≥9/14, Hanlin). Daniel: LWS (Yali, Hedi, Zili-gate, Rui) + IB·LLM-pUIC (Balaji, Ling) + RB (Yongwoo, Felix, Yiping) + Yang, REQ-2. **4/13/11.** Flip: GenRet → Alim.
+- **Scenario 2** *(was Barbell)* — Alim: RR + UEB + CLR as ballast engine. Daniel: LWS + GenRet + IB·LLM-pUIC + RB + Yang, REQ-2. **4/11/13.** The spine board — no flip; still the risk-adjusted leader on the 2027 test.
+- **Scenario 3** *(NEW — James's board, built 8/15)* — Alim: **LWS** + RR + UEB. Daniel: **CLR** + GenRet + IB·LLM-pUIC + RB. **4/11/13.** Flip: the LWS↔CLR swap. ⚠️ Leo flags on the board: reverses the T1 LWS grant (Daniel's #1 keep — float only with "nothing is decided, including what you already hold" said aloud); Nima follows CLR to Daniel → the Alim senior-seat design breaks; Zili's gate-pending line lands on the new EM; Kim's CLR-continuity thread points at Daniel's team.
+- **Scenario 4** *(was AnticipationCLR; folded mid-session, restored for the four-board set)* — Alim: RR + UEB + CLR + **IB w/ Balaji as Staff anchor** (at the ~Oct gate, never mid-sprint). Daniel: LWS + GenRet + RB. **5/12/11.** Flips: IB → Alim; **Kim stays James, UPP-focused** (⚠ conflicts her 8/11 not-100%-UPP line — kept for board symmetry). Closest to Daniel's own sketch — floating it credits his thinking. Worst carve optics (5 lines leave Daniel).
+
+**The Daniel-as-loser worry, answered with the ledger (James raised it 8/15):** he has 8 directs today and lands at **11 / 13 / 13 / 11** — he *gains* people on every board, and what he gains is LWS (his #1 stated want, James's own crown-jewel engine) plus GenRet on three of four. The loser-optic is narrative (direction-of-flow + day-1 carve history), not headcount. The real risk stays the silent-accommodation dynamic: because he under-claims, the mitigation is *naming* his gains as his — LWS handed as a trust transfer, IB/GenRet called his bets, the LLM×Recs concrete-conditional offer, proxy-protection said out loud. Scope answers Alim's wants; naming answers Daniel's.
+
+**Also settled 8/15:** "Alim can't have LWS" was effectively decided at T1 (announced grant, oncall moved, his craft identity) — the boards honor it except Sc 3, which exists for presentational balance, not as a live lean. "Daniel can't have CLR" = really "Alim must hold ≥1 delivering engine" (R3); Sc 3 is the one board that trades that constraint against the LWS swap. Space check: the 2×2 on (GenRet × IB) is fully covered by Sc 1/2/4 + the dominated maximal-Alim cell (skipped); all other axes were fenced 8/11.
+
+**Closed later 8/15 (James):** Zili — PIP approved ⟨dictated "DR approved"⟩, launches soon, outcome path considered clear; her line stays James through the case, so every board's LWS placement of her is post-resolution only · Kim sequence fully calendared — Alim pre-briefed, **Alim↔Kim chat Mon 8/17** · **Nima starts Mon 9/8**. **Still open:** which scenario leads Monday · where Daniel's Balaji-for-RR counter gets invited.

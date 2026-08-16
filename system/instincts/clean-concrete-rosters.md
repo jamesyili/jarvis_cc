@@ -1,11 +1,11 @@
 ---
 id: clean-concrete-rosters
 trigger: When rendering a team/org roster or org-design deliverable (team splits, reporting structures, headcount tables) for James to read operationally
-behavior: List people cleanly — name, role, workstream. Use concrete real names, not abstract placeholders ("backfill req", "TBD head") where an actual person exists. Do NOT annotate current team members with evaluative/perf-status tags ("on watch", "promo vehicle", "underperformer", "perf checkpoint", "flight risk") inline in the roster unless James asks. Those tags belong in the analysis/prose around the roster or in a separate people-status file — not cluttering the operational chart. James reads rosters to see the structure; status editorializing makes them confusing.
-confidence: 0.4
-evidence_count: 2
+behavior: List people cleanly — name, role, workstream. Use concrete real names, not abstract placeholders ("backfill req", "TBD head") where an actual person exists. Do NOT annotate current team members with evaluative/perf-status tags ("on watch", "promo vehicle", "underperformer", "perf checkpoint", "flight risk") inline in the roster unless James asks. Those tags belong in the analysis/prose around the roster or in a separate people-status file — not cluttering the operational chart. James reads rosters to see the structure; status editorializing makes them confusing. When the underlying set is fully enumerable, show EXACT counts — never ~approximations (“what's the point?”).
+confidence: 0.55
+evidence_count: 3
 created: 2026-06-17
-last_updated: 2026-06-17
+last_updated: 2026-08-15
 status: active
 ---
 
@@ -24,3 +24,7 @@ Signal: correction.
 ## Pattern
 
 Distinct from `standalone-evaluation-no-comparative-in-doc` (that's about comparative framing in durable *evaluation* docs). This one is about **operational rosters / org-design artifacts**: keep them concrete (real names) and clean (no inline perf/status tags on current members). The evaluative reads are still valuable — they just live in the surrounding analysis, not in the chart itself. Note the deliberate exception: open *reqs* that have no person yet (e.g., Charlie's backfill after his exit) are fine to show as a req line; the rule is "use the real name when a real person exists."
+
+### 2026-08-15
+> "By the way the counts make it exact and count the exact number of people. Don't make it an approximation. What's the point?"
+Context: T2 scenario boards showed ~4/~13/~11 headcounts although every seat was enumerated on the same board. Approximation signals uncertainty that doesn't exist and forces James to re-count. Signal: correction.
