@@ -1327,6 +1327,21 @@ The GenAI-signals-in-ranking thread grew into a teen-safety program. Faisal co-a
 
 **Engagement note:** the one technical contribution that *strengthens* his thesis rather than challenging it — **his <20% argument depends on calibration.** A threshold needs the score correct at one point; a graded penalty needs it correct everywhere. Going continuous raises the signal-quality bar rather than lowering it. Nobody in the docs has named this.
 
+### 2026-08-16 — CQ political map + the Qinglong co-authorship play (from James, prepping the Mon 8/17 1:1)
+
+**Bad-blood geometry: [Qinglong + Andre (his eng director)] vs. Dylan's org.** CQ as a bloc, not Qinglong-vs-his-own-boss. Three standing fights:
+1. **CQ wants a final layer *behind Blending*** that owns all placement + quality control. Recsys side thinks this is ridiculous (architecturally: one gate can't see the candidate set for density, can't clean the P2P graph, can't carry cross-surface session state).
+2. **CQ pushes L2** as the enforcement point; James's side has pushed back historically.
+3. **CQ wanted spacing;** James's side countered "**do diversification instead**" — now codified in the placement doctrine (§1.3/§4.3: diversity/density over spacing).
+
+**Approval chain: Qinglong → Andre → Faisal.** Andre = territorial, has a veto, and per Dylan "can get really annoying." **Faisal is Andre's manager = the stronger approver — and he's James's ally + the thesis-author James's doctrine amplifies.** Implication: aim joint artifacts *up at Faisal* (+ Michael); Andre's veto is not fatal.
+
+**Dylan's handling doctrine for Andre's team:** *give them an ask, something to do, so they don't get annoyed.* The co-authorship play is exactly this, executed at the Qinglong level.
+
+**James ↔ Qinglong specifically:** historically okay; his Slack signals he wants to collaborate. BUT the last two syncs they clashed **hard on L1-vs-L2 in front of team members** (James advocated L1 for signal placement; Qinglong adamant about not precluding L2). Nothing irreversible.
+
+**The play (ratified direction, landing at Mon 8/17 1:1 — private):** co-author the placement doctrine, **James first author, his frame the spine**; Qinglong owns the intervention-design region (his Design Options doc's home turf, and where James's L2 concession lives), James owns placement + calibration + measurement. Sequence: open on common ground (dissolve L1/L2 as "the wrong 25% — Homefeed is a quarter, RP is ~50%"), concede first (L2-for-trajectory §5.2, his loss-reweighting = James's `(1−q)·E` §4.5, corpus placement), then offer, then point up at Faisal + Michael. **Leave the post-Blending-final-layer ownership question open (doctrine §6) — don't detonate it in the 1:1; the doc's distributed architecture wins that territory over time.** Note: `placement_doctrine_v2.md` is NOT circulation-safe — cut §7 + internal blockquotes (§3, §5.4) before sharing Thursday.
+
 ## Role in my 6–12 month goals
 - **Growth org leader.** Owns all of Growth (122 reports). His org was pushed into UPP by Jeff — initial friction, but he acted magnanimously and is now a big supporter of Dylan's organization.
 - **Close to Dylan.** Natural connection as they came into the org around similar times. Good political alignment.
