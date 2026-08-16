@@ -2,10 +2,10 @@
 id: repoint-structure-docs-on-file-moves
 trigger: Processing file/folder moves or renames in the leo repo (whether James did them by hand or Leo executes them)
 behavior: Re-pointing live cross-references is not just prose files — the checklist is (1) live .md references (skip historical docs — session logs, archives, memory archive, point-in-time snapshots describe where things were, correctly), (2) AGENTS.md §Folder Structure block, (3) .gitignore path patterns, (4) .claude/agents/*.md and .claude/skills/*/SKILL.md hardcoded paths (including absolute paths — watch for stale machine-local ones), (5) system/file_index.md. Use `git mv` so history is preserved. After the pass, grep the old path root-wide to verify nothing live remains.
-confidence: 0.8
-evidence_count: 4
+confidence: 0.9
+evidence_count: 5
 created: 2026-07-11
-last_updated: 2026-08-02
+last_updated: 2026-08-15
 status: active
 ---
 
@@ -26,6 +26,10 @@ Signal: confirmation ×1 (checklist held under heavy use) + heuristic enrichment
 Merging `t2_organizing_axes_2026-08.md` INTO `p13n_retrieval_split.md`, a blanket `sed` of old-name→new-name across every matching file **rewrote the surviving doc's references to itself**: its own header read "absorbed `p13n_retrieval_split.md`", Part 1 read "Absorbed from `p13n_retrieval_split.md`", and `backlog.md` ended with the same path listed twice in one cell. `file_index.md` also ended up with **three rows for one file** (the new row, the old row, and a pre-existing one).
 **Rule: when repointing A→B during a merge, exclude B from the sweep**, then hand-fix B's internal references. And after any merge, `grep -c` the surviving filename in `file_index.md` — more than one row means duplicates to collapse.
 Signal: self-caught (both bugs found by grep, not by James) — the checklist worked, the sweep did not.
+
+### 2026-08-15 (reflex folder reorg — confirmation at full scale)
+35 loose docs → 4 buckets + archive (`ad508f1`), 48 git renames all at 97–100% similarity, one approved deletion. The full checklist ran clean: live refs repointed across 10 files, historical docs (session logs, Bella's H1 review draft, dated reorg records, file_index changelog narrative) deliberately skipped, straggler grep + post-commit deletion audit both exact. James approved the plan — which named the repoint scope and the skip-historical rule explicitly — with one "Lg". One refinement worth keeping: **bare-name mentions of files that moved but kept their names don't need repointing** (still grep-resolvable); only explicit paths that would dangle and renamed files force edits. Keeps churn out of stakeholder docs.
+Signal: confirmation (plan incl. repoint scope approved as presented; execution self-verified clean)
 
 ## Related
 
