@@ -178,3 +178,88 @@ The pre-PTO setup 1:1 ran long and delivered nearly everything the plan wanted p
 - **Watch-fors:** (1) over-withdrawal risk — his smoothness means James could take too much scope without hearing an objection; (2) portfolio under-betting — pair his engine-preference with Alim's risk appetite deliberately; (3) he pre-empts so completely that the PTO window is the first live test of his systems handling surprise without him.
 
 **8/11 addendum — the self-test, M17, and the authenticity question.** Daniel himself named the absence-as-leadership-test frame ("a good test of my leadership is whether my absence leads to escalations") — the near-exact mirror of James's own earlier test with Dylan, arrived at independently. M17 path discussed; on Alim's aggression (observation shared by both): "fine with it — most interested in solving problems." James's open question: performed-for-the-audience or real? Leo read: the accommodation is backed by costly, falsifiable, *pre-dated* actions (没有问题 8/3 and the LLM×Recs conditional 8/7 both predate the 8/10 trio tone-setting broadcast; the shed line was pre-drawn in writing; the self-test's success makes him look dispensable — the opposite of impression management). Residual risk is not deception but **silent cost-absorption**: "fine" is true now and structurally unprotected later. Design consequences: (1) protect his named wants for him in T2; (2) build the M17 case on depth/impact (engines, metrics, publications, cross-org modeling influence) so problems-first can actually be promoted — otherwise the org punishes the exact behavior James prizes; (3) the PTO window doubles as the authenticity test he volunteered — watch it instead of interrogating the words.
+
+---
+
+# Daniel — Action Plan (read / bridge / reach / protect)
+
+*Created 2026-08-16 from working session (James's framing input below); merged into this archive same day (standalone `daniel_action_plan_2026-08.md` retired). Companion to Alim's action plan (`alim_virani_archive.md`, end of file) and to the Tier-1 rows in `team_members_scope.md`. The operational pre-departure machinery lives in `reorg_july2026/daniel_pto_prep_plan_2026-08.md` and is referenced, not duplicated. Evidence base: `daniel_liu_archive.md`.*
+
+***Ratified in substance 8/16 evening (James):** CLR → Alim's ramp; Daniel's lean-in starts with LWS; the UPP ask answered through the LWS-onboarding lane; both naming items dropped. §The LWS · UPP lane logs James's own notes for the 8/18 1:1.*
+
+## The problem this plan solves (James, 8/16)
+
+Not execution — that question is closed (led rec teams at ByteDance; built the Best Pins NUX model "really hard for us to beat"; two weeks of arriving with deliverables before being asked). The live questions, in James's words:
+
+1. **Can't read what he really wants** — face value only; feels passive; doesn't come proactively; doesn't volunteer to take things on.
+2. **The 5-week absence** (dark Fri 8/21 – Fri 9/11, then ~2 weeks remote from China ~9/14–9/25) lands right at relationship formation. James's worry: rest-and-vest, or a big vacation before taking an offer elsewhere.
+3. **"How much should I give him?"**
+4. **The cadence disruption** — "just getting to know each other, about to get something done together, and he leaves."
+
+## The read the plan is built on
+
+- **He is claim-passive but artifact-proactive.** Never volunteers wants or charters (took LWS when steered · "okay taking GenRet if you ask" · blessed RR/pUIC/UEB consolidating away · handed James the Kim call). Constantly volunteers work-product (8/3 DM 20 min after the share-out, own agenda · trio-sooner ask 8/7 · walkthrough pulled forward to 8/17 unprompted · OOO coverage doc unprompted · org map with DRIs before anyone asked). His initiative channel is **written artifacts, not spoken claims** — read his docs as him coming to James.
+- **Therefore: never size his scope by his claiming behavior.** He structurally under-claims (the silent-accommodation profile already guarded in the trio prep). James protects his named wants for him, and sizes scope by the two dated tests below.
+- **Rest-and-vest: evidence currently against, risk not zero, and the window itself is the test.** James ruled it down 8/7 ("I don't get that sense as much"); everything since points invested (cadence acceleration before the trip, coverage architecture, settle-Kim push, pre-loaded positions, M17 discussion). The trip is long-planned (on record 8/10) and predates the reporting line — it carries no commitment signal. Residual optionality is real (ByteDance-credential M16, LLM appetite). Daniel's own words: *"a good test of my leadership is whether my absence leads to escalations."* **Watch the window instead of interrogating the words.**
+- **Structural fairness note:** the window is 3 Alim-heavy weeks with the affinity flag already on record (8/7). Absence will read as disengagement while presence reads as hunger unless deliberately corrected — the compact + paused clock exist for exactly this. Grade the two EMs on different rubrics on purpose.
+
+## Leg 1 — Close the week (Mon 8/17 → Fri 8/21)
+
+1. **Run the pre-departure sequence as filed** (`daniel_pto_prep_plan_2026-08.md` §Sequence): Mon 8/17 trio walkthrough (his drive) + pUIC consumption-lane DRI named · Tue 8/18 1:1 #2 (coverage map final-draft, Kim proposal co-design, Balaji position, **preference inkling banked as playback of his own record**) · Thu 8/20 Kim 1:1 #2 · Fri 8/21 3-way + trio #3 (compact said aloud, coverage map socialized) + 30-min finalize.
+2. **Tue 8/18 is also the naming venue** (trio-prep Daniel lens, item 5): playback his own written buckets · the concrete-conditional naming — LWS decided at T1 and stands; Sc 3 exists so the set doesn't read pre-decided; IB is his bet through the gate · seed pubs support if pubs energy showed Monday.
+3. **Fri 8/21 finalize = the seed moment for the reach test (Leg 3).** After crediting the coverage work (genuine, specific), the feedback sentence: *"You deliver and I trust it. What I haven't seen is you reach. When you're back, I want one bet I didn't ask for — something you think we should be doing that nobody assigned."* Explicitly **not homework while dark** — the point is five weeks of incubation for a draft-and-correct processor who hates being put on the spot. Follow with a two-line written version (his channel) same day.
+4. **Tue 8/18 also closes the UPP ask and names the CLR trade.** UPP: the same fixed-point sentence Alim heard ("UPP is the piece I'm keeping this round") — **never "within your grasp" phrasing** (ownership-shaped, promise-ledger risk, asymmetric with Alim's denial) — then the redirect: *"The next phase of UPP is getting it into the engines, and that starts with lightweight scoring — I want you driving that."* CLR: the standing lean named honestly to his face — *"Your CLR interest was heard. The ramp goes to Alim's leg (Nima/Devin/Kim-relevance bench); T2 settle still runs, but you hear the lean from me, not from the process. Your modeling lane is LWS + the UPP integration + wherever your bet lands."* Naming it now is also compact compliance: Alim's CLR onboarding begins ~end Sept, **inside Daniel's absence** — disclosed before departure it's a known plan; discovered on return it's a breach. Sequencing: **Daniel hears it Tue 8/18, Alim sees it in the 30/60/90 Wed 8/19 — that order, deliberately.** *(Both naming-saga items — the walk-back and the T2-name offer — dropped per James, 8/16.)*
+
+## The LWS · UPP lane (ratified 8/16 — James's notes for the 8/18 1:1, logged)
+
+**The decision:** CLR ramps with Alim (see the action plan at the end of `alim_virani_archive.md`); Daniel's lean-in starts with LWS, and the UPP ask is honored through it — he drives UPP's next phase: onboarding LWS onto UPP.
+
+**People:** Yali Bian (de facto TL — **OOO 8/31–9/18**) + Hedi Xia (both L15 MLE, James-direct, alternating Thu 1:1s). **Hold off on Zili Li** (PIP live; her line stays James through the case). Supporting cast, post-return: Bella Huang (RecGPT) · Piyush Maheshwari (UPP) · Leo Zhang ⟨not in the roster file — capture⟩. **Weekly: LWS + L1 utility, Mondays noon** ("HF LWS eng sync" notes doc).
+
+**The ladder (double-OOO-proof):**
+1. **By Fri 8/21 — contact, not content:** meet Yali + Hedi; top challenges, top opportunities, some history; leave Yali a **written question list** (his channel) for the RecGPT-path-vs-L2-collaboration-path call — constraints, serving costs, what each path requires, her lean and why.
+2. **8/21–8/29 — Yali's window:** she answers in writing (the inputs packet) before her own OOO. James pre-frames her + Hedi early this week: *"Daniel led this class of systems at ByteDance; he's driving the UPP-onboarding recommendation with you."*
+3. **8/31–9/11 — both dark:** nothing happens; nothing needs to.
+4. **9/14 — Daniel remote (China):** starts with **Hedi first** (Yali out to 9/18); drafts against the packet.
+5. **9/18–9/25:** Yali back; async review round (China-morning / US-afternoon overlap if a call helps).
+6. **Late Sept — the deliverable:** a **written technical opinion on the LWS roadmap**, specifically **LWS × UPP integration: RecGPT path vs. L2 collaboration path** — tradeoffs, recommendation, phased plan. **Decision with James first week of October** — the same week as Alim's CLR gate; one decision week for both EMs.
+7. **Mid-October success criterion (James's words):** people feel his presence in the area — landed technical suggestions, James 90% hands-off, people still happy. Measured, not vibed: October skip-levels with Yali + Hedi, plus the EVS read.
+
+**Coverage fix, before Friday:** Daniel's 8/11 coverage doc names Yali as LWS DRI — she's out for two of his three dark weeks, leaving the gains engine unowned 8/31–9/11. Name the backstop (Hedi is the natural one), who chairs the Monday-noon sync in the window, and where LWS escalations route.
+
+**Watch:** the RecGPT path puts Daniel in working contact with **Bella** — his one energized GenRet hesitation. Those conversations are a quiet live test of that working relationship, a direct T2 input. And RecGPT-path exploration must never read as GenRet placement signal — the no-trophy discipline holds.
+
+**Pre-send discipline:** this brief goes to Daniel **in writing before the Tuesday 1:1** (his channel; never a live battery) — live minutes go to Kim co-design, coverage, and the preference playback.
+
+## Leg 2 — The absence IS the evaluation (8/21 → 9/11)
+
+5. **Run the coverage design as filed** (pull-not-push, ~3–4 h/wk cap, office hours, skip-levels Yongwoo/Felix/Esteban, one Balaji mid-window pulse, UEB ramp-authority line confirmed before 8/21). Everything observed goes to the settled-or-open ledger; a blown cap is T2 data, never silently absorbed.
+6. **The compact binds James too:** nothing structural in his absence · notes in the shared doc · never relay Daniel's banked preferences to Alim · nothing shaped against his stated non-negotiables while he's out.
+7. **Score the window both directions, in writing:** systems hold with no escalations → M17-grade evidence *for* him (the test he set himself, passed) and weight toward opening the reach lane. Escalation pattern / cap blown → develop-or-document evidence, sized honestly. Either way the five weeks are the cleanest evaluation chapter James will get — not a pause in it.
+
+## Leg 3 — The reach test (seeded 8/21; lands late Sep – Oct)
+
+8. **The one-bet ask** is the falsifiable version of "is he committed / will he reach." It converts James's unreadable-wants problem into a dated observable, exactly like "digested RR" did for Alim. Due: centerpiece of the first substantive post-return 1:1 (~week of 9/28, after the re-entry brief and the formal preference round).
+9. **The open-problem mandate is the conditional offer behind it** (David's validated technique — the only channel that has ever produced Daniel's stated wants). Engines are the floor; the mandate is the door: *"You named LLM×Recs as your center of gravity. The inventory is real — LLM-backbone thread, LWS distillation, LLM-boards, Recsplanations, the IB/LLM-pUIC fold-in question if the gate misses. I can build your charter around this. Walk through the door: the bet is yours to define."* No RecGPT dangling — GenRet/RecGPT stays resolved by the incubation structure; the mandate is charter-invention, not a trophy.
+10. **Re-entry design, booked now:** 30-min re-entry brief ~Mon 9/14 (the summary the compact promises) · his top-of-mind slot in that week's trio · formal symmetric preference ask week of 9/15 on China hours (he confirms/revises the banked August draft) · bet conversation ~week of 9/28.
+
+## Leg 4 — Protect & motivate (Sept → Nov)
+
+11. **Protect his named wants in T2 because he won't:** the Collection P13N investment thesis (the only want he ever argued for — RB metrics, Feature Boards revenue, Board Ranker EOY targets), LWS, and the LLM×Recs lane. In every scenario conversation his gains get named as *his* — silent accommodation fails silently, so "fine" in the room is never taken as consent.
+12. **Build the M17 case on depth/impact** — engines, metrics, publications, cross-org modeling influence — so problems-first can actually be promoted. If pubs energy shows at the walkthrough, the RecSys/KDD support out of LWS/LLM×Recs is the vehicle.
+13. **November settles it.** The clock treats the 3 dark weeks as paused; the T2 read combines the window score (Leg 2), the bet (Leg 3), and the banked-vs-confirmed preferences. If both tests pass: engines + the frontier mandate, and the M17 runway conversation. If neither: he settles as the engines EM, the case waits, and that is a fine, honest outcome — but it will be a *finding*, not a vibe.
+
+## How much to give him — the decision rule (the answer to question 3)
+
+**Floor now, gate the rest.** Floor = the engines he actually argued for (Collection P13N; LWS per the boards) **plus the assigned LWS × UPP integration lane**. Gate = the two tests: the window (his own) and the bet (James's). The tests replace tea-leaf reading; James never has to guess his commitment level again — by mid-October there is evidence in both columns or a clear miss.
+
+## If the flight-risk worry persists after the window
+
+Then the move is a **direct retention conversation at re-entry** — "what would make this the place you build for the next three years" — not pre-emptive scope-shrinking. Shrinking scope on an inference manufactures the outcome it fears (he'd read it instantly; clarity is his currency). And per the promise ledger: everything offered stays delivered or explicitly conditional.
+
+## Open questions (James, when known)
+
+- **Reconstruct Daniel's UPP ask:** what did he say, when, in what register? His own written map keeps UPP with James ("Keep: UPP, Reflex"), so a spoken ask inverts his normal channel — if real, the want has pressure behind it and Tuesday's fixed-point + redirect carries more weight. *(Five-week composition confirmed 8/16: dark 8/21–9/11 + China-remote 9/14–9/25.)*
+- **Seed timing preference:** reach-ask at the 8/21 send-off (default — maximizes incubation) or held to the 9/14 re-entry?
+- **Leo Zhang** (supporting cast in James's notes): team/role/level unknown — capture to `team_members_scope.md`.
+- What does Daniel's "committed" even look like to James — is there an observable besides the two tests that would move him? (If yes, add it to the ledger now so the window can collect it.)

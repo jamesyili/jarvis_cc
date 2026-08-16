@@ -291,3 +291,65 @@ From James's evening braindump, on reframing his EM relationships from *help me 
 **Test (James's own, this session):** by end of September, Alim and Daniel should each own a **written thing James didn't write**. That's the only real evidence the flip happened. See `work/career/compounding_assets.md` §The org-level version.
 
 **Watch-for:** Daniel is the open half. James hopes for the same and hasn't seen it yet — consistent with David's 8/7 coaching (asked Daniel the open motivation questions 4–5× over six months, always "I'm okay with anything") and the prescribed fix: a concrete conditional offer, not another generous open question.
+
+---
+
+# Alim — Action Plan (land / succeed / motivate)
+
+*Created 2026-08-16 from working session; ratified structure with James's amendments. Companion to the Tier-1 entry in `team_members_scope.md` and the T2 process in `reorg_july2026/`. The Exceeds campaign (`work/career/exceeds_h2_2026_campaign.md`) depends on this plan's Leg 2 — RR/Anticipation launches are half the headline case.*
+
+## Shape
+
+Prove-then-expand on the ~60-day clock already built into the settle gates. Days 0–60: land + prove on Retentive. Day ~60: James decides the expansion area — **RecGPT or CLR, deliberately undecided (James, 8/16)**. **→ Resolved later 8/16: CLR** — bench gravity (Devin/Yichi/Nima land there; Kim's landing includes CLR-relevance), October-rampable so the dual-track test is measurable, retrieval-axis coherence with RR; GenRet's fork waits on the Nov demo and stays open on evidence, **never allocated as leftover**. Sequencing: **Daniel hears the trade named Tue 8/18; Alim sees it in the 30/60/90 Wed 8/19 — that order.** Monday's trio room stays scenario-agnostic regardless. Days 60–90: onboard the new area and add value there **while maintaining execution toward the 90-day Retentive milestone** — the dual-track is itself the test of EM capacity. Plus one side quest (geo, below) sized to not break the load.
+
+## Leg 1 — Land (now → ~mid-Sep)
+
+1. **Define "digested RR" as three observable behaviors and tell him:** runs the pUIC syncs without James; can present + defend the RR plan-of-record to Dylan; makes his first real prioritization call James didn't feed him. Converts the worry into a dated checklist.
+2. **Co-write his 30/60/90 this week, success criteria explicit.** The instrument that makes the day-60 expansion decision (and November's T2 reads) evidence-based. Protects him too — he knows what's watched.
+3. **Seniority gap closes via what's in motion:** Kim (self-selected into RR; Alim↔Kim chat Mon 8/17 — integrating her well is itself an execution test, pre-frame that for him) · Nima 9/8 (CLR; his senior seat if CLR lands his leg) · Olafur mentorship offer for Kim strengthens the RR bench.
+
+## Leg 2 — Succeed (Sep → Nov)
+
+4. **He owns the RR launch scorecard** — per-launch metric, expected magnitude, land-by date. Doubles as the Exceeds ledger input. If he can't produce a credible scorecard in ~2 weeks, that's the execution signal in itself.
+5. **Settle gates stay the scope mechanism — no acceleration.** CLR not promised; RecGPT/GenRet decided on the organizing axis; scenario-board momentum (Sc 1/2/4 hand him CLR) must not outrun the gate read.
+6. **Day-60 expansion decision — RESOLVED 8/16: CLR.** The gate now governs *timing only*: if RR execution wobbles at day 60, the answer is "not yet," not a different area. Original inputs kept for the record: the gate read on RR execution · the T2 organizing axis · where Kim/Nima actually land · RecGPT carries the adjacent Bella complexity (her line stays James-direct in every scenario; charter moves without her) vs CLR comes with Devin + Nima bench.
+
+## Leg 3 — Motivate
+
+7. **Make the gate transparent to his face** (anti-carrot): "RR is the org's retention carry and a named bet. Land it by November and the team grows around you — here's specifically what 'land it' means." A bar he can hit, not a prize dangled.
+8. **Real authorship in T2** via the EM staff sync (kickoff wk of 8/17) — he co-designs his team, doesn't receive it.
+
+## 30/60/90 — milestones & success criteria (James's notes for the 8/19 1:1, logged 8/16)
+
+**30 day (end Aug):** RR team members settled and productive · articulate the current plan on the most challenging/important problem in RR (pUIC) · continue onboarding to the rest of RR — Feedback Loop, Explore Module, UIC improvements, connections to the modeling ecosystem (CLR, RecGPT, etc.) · decide on Kim · side quest started (ends with a great intro to **Jeff Harrell**).
+
+**60 day (end Sept):** RR context fully loaded — James 90% hands-off and people don't feel the gap · execution cadence felt on RR (experiments running, at least some promising) · **start onboarding into CLR while maintaining RR momentum** — people: Devin Kreuzer, Yichi Wang, Nima (starts 9/8); projects: HF Retrieval Weekly, Tuesday mornings; current focus **NLFU (New Low Frequency Users)** · side quest landed.
+
+**90 day (end Oct, right before T2):** landed win on RR pUIC (HF grid or Explore Module) · onboarded successfully to CLR, contributing to progress/momentum — James 90% hands-off, people don't feel the gap · contributed meaningfully to the reorganization + established his new team's charter · established the process for how his new team will run.
+
+**Leo deltas for the co-write (8/16):**
+- **"Decide on Kim" can't sit at end-August** — the decision concludes **Fri 8/21** (3-way before she and Daniel both leave; announcement held ~9/14). Alim's real 30-day item: **Kim integrated into RR post-decision** (Olafur mentorship live, Chuxi's TL runway protected).
+- **The RR launch scorecard is missing** (item 4 above): per-launch metric, expected magnitude, land-by date, credible within ~2 weeks — both the execution signal and the Exceeds ledger input. "Experiments running, some promising" is not a scorecard.
+- **"Digested RR" observables** (item 1): the pUIC-plan articulation made the 30-day bucket; the other two — runs pUIC syncs without James, presents + defends the RR plan-of-record to Dylan — should be dated in too.
+- **Nima's 9/8 arrival is invisible in the milestones:** CLR is still James's until the ramp — name Nima's onboarding owner now, and calendar the Alim↔Nima senior-seat intro early.
+- **Compact guard:** the 60-day window runs inside Daniel's absence. "Contribute to the reorganization" stays non-structural — notes to the shared doc, nothing shaped against Daniel's banked preferences, Alim covers nothing of Daniel's.
+
+## The side quest — Location/Geo-based recommendations (James, 8/16)
+
+**Provenance:** Rajat has asked about geo recs since he joined; now traced to **Jeff** — 7/30 Slack (Jeff → Dylan → James): are we using IP for personalization/targeting; IPv6 logging gap = "opportunity to enhance." Current state per the thread: ranking uses IP (Dhruvil); retrieval uses profile locale/language (James); **James on record 8/16: legal might block IP use — even ROI evaluation may need legal help.**
+
+**Why Alim (James's three reasons):** (1) otherwise it lands on James; (2) Alim ran a Trending-signals team at Twitter — geo/temporal signals are his domain comfort; (3) org-meeting + exec-visibility vehicle — something real to talk to Rajat about as a new hire. *(James's 8/19-notes addition: also a concrete thing to ask people about while meeting folks around the org — a live read on how people respond to technical questions.)*
+
+**8/16 additions (James's notes):** **Bella and Alok have prior experience here** — Alok proposed something similar earlier; Bella says Ads had success with it — both are named resources for the spike. One-pager audience per the notes: **Rajat/Jeff with James + Dylan CC'd**. If the spike shows promise: geo-as-context is anticipation-shaped (graduation path, per the design constraint below). Sequence unchanged: **legal gate first** — "legal might block IP use, worth evaluating a bit more" is the gate, not a parallel track.
+
+**Design constraints (Leo, accepted into plan):**
+- **Spike, not charter.** Time-boxed, ≤10–15% of his time, deliverable-first: a one-pager PoV to Rajat/Jeff (James CC'd) — current-state inventory, legal read, opportunity sizing, recommendation. Not a launch commitment. Side quests are how landing EMs drown; the time-box is the flotation device.
+- **Sequence: legal gate first.** (a) Inventory what uses IP/geo today (ranking yes, retrieval no, IPv6 logging quality per Jeff's flag) → (b) legal/privacy consult on IP-based personalization → (c) sizing/ROI → (d) recommendation. No modeling exploration before the legal read — wasted work if blocked.
+- **Pre-wire the exec exposure.** James intros Alim to Rajat/Jeff explicitly: "Alim ran Trending signals at Twitter; he's taking point on the geo question." First touch = crisp scoping note, not promises. Delegating an exec ask with a public frame is scaling-through-others — Director evidence for James, not a lost touchpoint.
+- **Graduation path = motivation:** if the spike shows promise, geo-as-context is anticipation-shaped — its natural home is likely his own charter. The side quest can become his engine.
+
+## Open questions (James, when known)
+
+- What does Alim say he wants — team-building, Director path, the problem domain? (Twitter background partially answers domain fit; stated wants still unrecorded.)
+- "Hasn't proven execution": concrete miss or absence of signal? "Hasn't digested RR": technical gap or ownership gap?
+- Will James state the day-60 expansion bar to Alim's face and honor it both directions?

@@ -6,6 +6,8 @@ Daniel OOO **Fri 8/21 – Fri 9/11** (his own coverage doc; corrected from 8/24 
 
 **⚠️ Addendum 8/11 AM:** Daniel **proactively volunteered his OOO coverage doc** (unprompted — items 4/parts of the ask arrived before the 1:1): meeting coverage (Sprint Planning → Balaji, AI L&L → Yongwoo, **bi-weekly unnamed**), project DRIs (IB → Balaji, UEB → Roderick, Collection P13N → Yongwoo), escalations → James, and **"no company data access" = fully dark contact protocol, self-declared**. **His doc says OOO 8/21–9/11, not 8/24** — if 8/21 is his first day out, Trio #3 + the finalize + the Kim conclusion all compress to ≤ Wed–Thu 8/19–20; **clarify in the 8/11 1:1 before anything else is scheduled.** He also added a team overview + org-planning buckets to the 1:1 doc unprompted — decoded, with the Nima S. placement fork, in `t2_team_setup_scenarios_2026-08-11.md`. Remaining coverage gaps (LWS, oncall line, bi-weekly chair, pUIC-DRI confirmation) listed there §5.
 
+**⚠️ Addendum 8/16:** **Yali OOO 8/31–9/18** — the coverage doc's LWS→Yali DRI line breaks for 8/31–9/11 (both out; the gains engine unowned). Before 8/21: name the backstop (Hedi natural), the Monday-noon LWS+L1-utility sync chair for the window, and the LWS escalation route. Also new in the window's design: Daniel now owns the **LWS×UPP onboarding recommendation** (RecGPT path vs. L2; question list to Yali by 8/21, her written packet by 8/29, written opinion late Sept, decision wk 1 Oct) — full lane in `daniel_liu_archive.md` §The LWS · UPP lane.
+
 ## 1:1 #1 outcomes (8/11) — coverage asks landed, most of the setup closed
 
 Daniel came with answers, not questions. What he asked of James for the window:
