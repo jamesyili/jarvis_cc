@@ -2,7 +2,7 @@
 
 > A portable system map for any agent working in this repository. Leo is designed to work with Claude Code, Codex, Gemini, Cursor, or another capable coding agent; the core context and workflows are not tied to one model or UI.
 
-Last updated: 2026-08-15
+Last updated: 2026-08-16
 
 ---
 
@@ -99,6 +99,25 @@ The KB is for generalizable learning—not private Pinterest material. Pinterest
 - Lifecycle hooks used by Claude Code.
 
 **Notion is the live task-list source of truth.** The old `backlog.md` is a retired redirect stub; it should not be revived as a parallel list.
+
+---
+
+## Machines
+
+Two machines share one git remote (see `.claude/skills/leo-build-and-env/`): **pc-leo** (`/home/james/src/leo`, WSL2 Ubuntu on Windows 11) and **mac-leo** (`/Users/jamesli/code/leo`; specs unrecorded).
+
+**pc-leo hardware** (CyberPowerPC build, recorded 2026-08-16):
+
+| Component | Spec |
+|---|---|
+| GPU | GeForce RTX 5070, **12GB GDDR7** |
+| CPU | AMD Ryzen 7 9800X3D (8c/16t, 4.7–5.2GHz) |
+| RAM | 32GB DDR5-6000 dual channel |
+| Storage | 2TB WD Green SN3000 NVMe (PCIe Gen4) |
+| Board / PSU | Gigabyte B850 Gaming WiFi6 (AM5) / 1000W Gold |
+| OS | Windows 11 Home (Leo runs in WSL2 Ubuntu) |
+
+Local-LLM implication (Frontier 2): 12GB VRAM fits ~14B-class models at Q4 fully on-GPU (fast, interactive-capable); ~27B-class models require CPU/GPU split — usable for unattended batch jobs (digests, summarization), too slow for interactive work. WSL2 caps RAM at 50% by default (`.wslconfig` to raise); prefer Windows-native Ollama for large models.
 
 ---
 
