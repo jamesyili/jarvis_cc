@@ -10,8 +10,12 @@ Buys: shipped, quantified business impact; a manager's case that's already writt
 
 ## The five workstreams
 
-### 1. Pick the 2–3 headline numbers — now, deliberately
-The case will rest on whatever has landed by ~Dec 1. Work backwards: choose the 2–3 metrics wins most likely to be (a) landed by November, (b) attributable to the org James built, (c) legible to non-retrieval people. Candidate pool: Reflex results, retrieval/CG wins, Retentive Recs, UPP-Search experiments. **Prereq: measurement zero** — a win that can't be cleanly measured doesn't exist in the room. The 5×-carried measurement item is now on the critical path with a date.
+### 1. The headline numbers — CHOSEN (James, 2026-08-16)
+The case rests on two launch families landing by ~Dec 1:
+1. **UPP launches**
+2. **Retentive Recs / Anticipation launches**
+
+"Landed" means shipped with readable metrics the room can quote — an experiment with a clean win number, not an internal milestone. Reflex stays in the case as the third incubating bet (narrative), but the *numbers* come from these two. **Prereq: measurement zero** — a win that can't be cleanly measured doesn't exist in the room; the 5×-carried measurement item is on the critical path for both launch families. Next step: per launch, name the specific metric, the expected magnitude, and the land-by date — then track slippage weekly, because a launch that slips past November exits the case.
 
 ### 2. The impact ledger (Leo maintains)
 Running, dated log of every landed result with numbers — appended from debriefs as they happen, not reconstructed in December. Becomes Dylan's packet. Lives in this file, §Ledger below.
@@ -30,7 +34,7 @@ Exceeds cases die when only the manager speaks. By mid-November each of these pe
 
 | When | What |
 |---|---|
-| **Aug** | Choose the 2–3 headline metrics; confirm each has a landing path by Nov. Measurement zero scoped with a date. Ledger starts. |
+| **Aug** | ~~Choose headline metrics~~ ✓ 8/16: UPP + RR/Anticipation launches. Next: per-launch metric, magnitude, land-by date. Measurement zero scoped with a date. Ledger starts. |
 | **Sep** | Dylan bar conversation. Working-model one-pager delivered. |
 | **Oct** | Reorg quiet. Jeff half-page delivered. First headline number lands. |
 | **Nov** | Remaining numbers land. Rajat/Faisal artifacts. One-page Exceeds case drafted. |
