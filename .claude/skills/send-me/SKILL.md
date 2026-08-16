@@ -78,7 +78,7 @@ For multiple files, build one combined .md (demote each file's H1 to H2) in the 
 | Too large for email (>25MB) | Script suggests `/save-to-drive`. Pass the suggestion through. |
 | Multiple candidate files | List candidates with timestamps, ask which one (one question only) |
 | Any other script error | Output the error verbatim. Don't pretend it succeeded. |
-| **Cloud / web session** (no local venv or `~/.config/leo/google_credentials.json`) | The local Gmail script can't run — the cloud container doesn't have James's Google creds. Don't fail silently or retry. Say so in one line and **deliver the file with `SendUserFile` instead** (surfaces it straight to his phone in-session). Same fallback applies to `/save-to-drive`. |
+| **Cloud / web session** (no local venv or `~/.config/leo/google_credentials.json`) | The local Gmail script can't run — the cloud container doesn't have James's Google creds. Don't fail silently or retry. **First check for a Gmail MCP connector in the session** (tools like `mcp__…__send_message` via ToolSearch) — if present, send the real email through it: render the .md to HTML for the body (`pip install markdown` if needed), attach the raw .md base64, subject `[Leo] …`, to jamesyili@gmail.com, and report the returned msg_id (verified 2026-08-16, msg_id=1a00b971b4aba8b2). Only if no Gmail connector exists, **deliver the file with `SendUserFile` instead** (surfaces it straight to his phone in-session). Same fallback ladder applies to `/save-to-drive` (Drive MCP connector first). |
 
 ## Rules
 

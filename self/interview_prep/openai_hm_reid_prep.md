@@ -180,6 +180,8 @@ You're a Sr EM with active executive sponsorship at a $30B+ consumer-ML company 
 - James came in **jet-lagged off a three-week China trip, scrambling for English, and did not prep.** This was a half-pursued round — engine-driven enough to take the call, not committed enough to compete. You can't read the bar from a round you didn't train for.
 - So: don't file this as evidence about James or about "OpenAI's high manager bar." It's a round he didn't run at.
 
+**8/16 delta — seat-filled hypothesis DEAD.** James (via Chung + other OpenAI contacts): **Reid is still hiring for the role.** So the no was about that day's performance (unprepped, jet-lagged — see above) and/or a level/fit read (Sr-EM-running-a-3-pillar-org interviewing for a single-team EM seat → overleveled/flight-risk signature: warm room, next-morning no). James's standing rule from this, ratified: **no more half-pursued rounds** — warm-no to recruiters until deliberately in-cycle (target: mid-2027, post-Exceeds, prepped, published, right-altitude seats only). Sequencing doc: `work/career/exceeds_h2_2026_campaign.md`.
+
 ### Intel worth keeping (durable regardless of outcome — this is a real map of OpenAI Integrity)
 
 **The org under Reid — three teams:**
