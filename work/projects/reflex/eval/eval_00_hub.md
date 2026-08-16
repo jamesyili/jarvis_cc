@@ -15,7 +15,7 @@
 | **`eval_04_curator_measurement_proposal.md`** | **Andrew / Dylan** (Curator owner) | making the Feedback Curator measurable; 3 design deltas |
 | **`eval_05_verifiability_and_attempts_store.md`** | me, pre-circulation | program strategy: partition card failures by verifiability, and build a store of what was tried. **New 8/15** |
 
-Not part of this set: `seam_message_drafts_2026-08-12.md` (Shifu comms), `sources/` (verbatim inputs), `reflex_feedback_curator_and_skeptic.md` (the Curator design doc `eval_04` builds on).
+Not part of this set: `../messaging/seam_message_drafts_2026-08-12.md` (Shifu comms), `../research/sources/` (verbatim inputs), `feedback_curator_and_skeptic.md` (the Curator design doc `eval_04` builds on).
 
 ---
 

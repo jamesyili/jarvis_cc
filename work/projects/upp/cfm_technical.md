@@ -106,7 +106,7 @@ Dataset distribution held fixed PT/FT for maintenance simplicity.
 
 | Name | Note |
 |---|---|
-| Matthew Lawhon | CFM scaling co-author; also Reflex Modeling lead (per `reflex/tim_friday_5-29_debrief.md`). Earlier in UPP alignment thread ("one base model per category" view). |
+| Matthew Lawhon | CFM scaling co-author; also Reflex Modeling lead (per `reflex/archive/tim_friday_5-29_debrief.md`). Earlier in UPP alignment thread ("one base model per category" view). |
 | Matthew Poska | CFM scaling co-author (he/him). New name. |
 | Kousik Rajesh | CFM scaling co-author. New name. |
 | Kelly He | CFM scaling co-author. New name. |

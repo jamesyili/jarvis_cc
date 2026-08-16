@@ -122,4 +122,4 @@ By end of September, **Alim and Daniel should each own a written thing James did
 - `system/instincts/lead-with-next-best-move.md` — the trigger
 - `self/journals_and_growth.md` 2026-07-11 — the collection-trap bar, the trust-ledger insight
 - `work/people/stakeholders.md` — VP map, Kurchi ML Day rapport evidence
-- `work/projects/reflex/reflex_program_state_2026-07.md` — the Build→Shifu concession this trades against
+- `work/projects/reflex/program_state.md` — the Build→Shifu concession this trades against

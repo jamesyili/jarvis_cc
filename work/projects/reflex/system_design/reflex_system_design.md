@@ -224,7 +224,7 @@ Risk level determines:
 
 ### 4.1 Reflex ↔ Pinkerton
 
-**Interface type:** MCP-primary (as designed in `reflex_pinkerton_interface_design_051626.md`)
+**Interface type:** MCP-primary (as designed in `../archive/reflex_pinkerton_interface_design_051626.md`)
 
 **Summary:** Pinkerton is the sensor substrate. Reflex agents query it for interpretable signals about user experience quality. Pinkerton stays dumb-but-rich — it returns structured data + narrative descriptions. Reasoning lives in Reflex.
 
@@ -917,8 +917,8 @@ The current system (manual dispatch, prompt-as-agent, no orchestrator) maps to t
 | Document | Relationship |
 |----------|-------------|
 | `reflex_rl_path.md` | Details the learning layer (Phase 1-5 of RL integration). This design references it as §10. |
-| `reflex_pinkerton_strategy_051626.md` | Strategic framing for Reflex + Pinkerton as co-equal architecture. This design implements that strategy. |
-| `reflex_pinkerton_interface_design_051626.md` | Detailed MCP/A2A/Event contracts. This design's §4.1 summarizes; that doc has the full schemas. |
+| `../archive/reflex_pinkerton_strategy_051626.md` | Strategic framing for Reflex + Pinkerton as co-equal architecture. This design implements that strategy. |
+| `../archive/reflex_pinkerton_interface_design_051626.md` | Detailed MCP/A2A/Event contracts. This design's §4.1 summarizes; that doc has the full schemas. |
 | `reflex-architecture_053126.md` | Descriptive doc of what exists today. This design is what we'd build from scratch. |
 | `references/agentic_rl.md` | RL formulations (reward, curriculum, tool-calling MDP). Informs §10 and `reflex_rl_path.md`. |
 | `references/agent_systems.md` | Multi-agent topology decisions. Informs §2 (agent topology choice). |

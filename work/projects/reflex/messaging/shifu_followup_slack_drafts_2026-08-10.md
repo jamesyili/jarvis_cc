@@ -1,6 +1,6 @@
 # Shifu deep-dive follow-up — Slack drafts (written 2026-08-10, recovered to repo 2026-08-11)
 
-Context: follow-up to the 8/10 Shifu deep-dive where the deck inverted the frame (Shifu as "strategic template," Reflex as upper-funnel feeder) and James's two closing asks went unanswered (he had to drop for an interview). Full background: `reflex_program_state_2026-07.md` §2026-08-10.
+Context: follow-up to the 8/10 Shifu deep-dive where the deck inverted the frame (Shifu as "strategic template," Reflex as upper-funnel feeder) and James's two closing asks went unanswered (he had to drop for an interview). Full background: `../program_state.md` §2026-08-10.
 
 **Recommendation: send V2, Tuesday 8/11 AM** — soon enough to keep first-mover on the open question, calm enough to not read as a reaction. Craft rules all three follow: lanes in *their* words (Roberto's 8/1 build-vs-discovery framing), never the who-folds-into-whom line (Kurchi sensitivity), every ask ends with a concrete next step.
 

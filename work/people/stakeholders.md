@@ -1153,7 +1153,7 @@ P2P approved a new retrieval architecture (OneTrans — unified transformer toke
 
 # 12) Roberto Konow — Sr. EM, Search (reports to Kurchi)
 
-> **Update 2026-08-14 — 1:1 reset lands; trust shifts guarded → transactional-open.** Roberto initiated a "re-try our 1:1" (self-flagged the prior weird vibe with a 🤣), and the meeting broke the guarded pattern on three fronts: (1) **asked James for a favor** — find a mentor for Zach Barnes (deep modeling, reads a lot of papers, wants Ranking collaborations; James will ask around — Dafang He is the obvious first candidate); (2) **offered to spend his own capital** — will talk to Jeff to unblock GPU serving for Search, the blocker on the sequence-modeling → UPP collaboration (Yichin's team wants to run experiments); (3) **shared candid intel on Alim** from their Twitter years (filed in `alim_virani_archive.md`; held as dated hypothesis). He also **pressed repeatedly** for Reflex Build to become part of Shifu — James: *"fine with it, as long as the ICs on the ground are aligned"* (strategic handling: `work/projects/reflex/reflex_program_state_2026-07.md` §2026-08-14 — the concession needs papering on James's terms this week). Also raised: SearchCLIP → SSJCLIP (pin + query representation; PinCLIP possibly encoding taste/styles) → bring into the UPP collaboration. James's read: quite positive, cautiously optimistic. Context: the prior 1:1 had ended oddly (James: "how can I help?" → Roberto: "I'm wondering why you're asking that question") — the lesson held in prep and confirmed today: Roberto trusts **legible, specific trades** over open-ended offers. The 4/9 "do not re-outreach / let him come to you" plan is now fully superseded — he came.
+> **Update 2026-08-14 — 1:1 reset lands; trust shifts guarded → transactional-open.** Roberto initiated a "re-try our 1:1" (self-flagged the prior weird vibe with a 🤣), and the meeting broke the guarded pattern on three fronts: (1) **asked James for a favor** — find a mentor for Zach Barnes (deep modeling, reads a lot of papers, wants Ranking collaborations; James will ask around — Dafang He is the obvious first candidate); (2) **offered to spend his own capital** — will talk to Jeff to unblock GPU serving for Search, the blocker on the sequence-modeling → UPP collaboration (Yichin's team wants to run experiments); (3) **shared candid intel on Alim** from their Twitter years (filed in `alim_virani_archive.md`; held as dated hypothesis). He also **pressed repeatedly** for Reflex Build to become part of Shifu — James: *"fine with it, as long as the ICs on the ground are aligned"* (strategic handling: `work/projects/reflex/program_state.md` §2026-08-14 — the concession needs papering on James's terms this week). Also raised: SearchCLIP → SSJCLIP (pin + query representation; PinCLIP possibly encoding taste/styles) → bring into the UPP collaboration. James's read: quite positive, cautiously optimistic. Context: the prior 1:1 had ended oddly (James: "how can I help?" → Roberto: "I'm wondering why you're asking that question") — the lesson held in prep and confirmed today: Roberto trusts **legible, specific trades** over open-ended offers. The 4/9 "do not re-outreach / let him come to you" plan is now fully superseded — he came.
 
 > **Major update 2026-04-23:** Roberto's position has materially strengthened via SSJ reorg (effective 2026-05-01). He now owns Text Search end-to-end: query understanding → retrieval → light-weight ranking → blending. Absorbs Query Understanding team (An Jiang, Ishita, Aakanksha). Kurchi's framing: *"I am excited to see how Roberto's influence evolves Text search going forward."* (Note the word "influence" — Director-track language.) Roberto got the scope that was previously Krishna's while Krishna was moved to platform work. This is part of the empirical "Kurchi move" pattern (see Krishna profile below).
 
@@ -1783,7 +1783,7 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 - **Anchor on federated Pinkerton stance early.** Don't let merge-vs-A2A debate open without James having pre-aligned Dafang on Option 2.
 - **Pre-OOO handoff.** Before 6/4: explicit "you have the wheel" conversation. Andrew's "I take it from there" presumes Dafang is the operator on the ground.
 - **Search CLR continues** — light-touch posture on that workstream still applies.
-- **Cross-reference:** `work/projects/reflex/tim_friday_5-29_debrief.md`.
+- **Cross-reference:** `work/projects/reflex/archive/tim_friday_5-29_debrief.md`.
 
 ---
 
@@ -1990,8 +1990,8 @@ Per Tim convo readout: *"Dafang He is excited to drive this as TL."* Real owners
 - **Pre-OOO sequencing.** James OOO begins ~6/4. Limited window to set Tim up such that Andrew's "I take it from there" actually holds during James's absence.
 
 ## Cross-references
-- `work/projects/reflex/tim_friday_5-29_roadmap.md` — opening roadmap framing (Fri 5/29 convo)
-- `work/projects/reflex/tim_friday_5-29_debrief.md` — post-convo what-actually-emerged (5/31 readout)
+- `work/projects/reflex/archive/tim_friday_5-29_roadmap.md` — opening roadmap framing (Fri 5/29 convo)
+- `work/projects/reflex/archive/tim_friday_5-29_debrief.md` — post-convo what-actually-emerged (5/31 readout)
 - `system/session-logs/2026-05-27.md` — Andrew hallway convo + 3-ask delegation
 - §9 Andrew — sponsor channel; assigned Tim
 - §28 Dafang He — Reflex overall TL (Tim's operational counterpart)

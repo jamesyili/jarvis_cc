@@ -1,5 +1,7 @@
 # Reflex Org Design — Research Synthesis
 
+> Raw research docs live in `../archive/org_research/` (archived 2026-08-15). This synthesis plus the "Deltas recovered" section at the bottom supersede them for live use.
+
 **Source:** 8 deep-research outputs across Gemini Deep Research and Claude Research, May 2026
 **Covers:** Prompts 1 (precedent), 2 (failure modes), 4 (charter/adoption), 5 (composition)
 **Not yet run:** Prompt 3 (metrics) — measurement framework still missing
@@ -238,3 +240,55 @@ Industry's killer use cases:
 2. **Validate one assumption with Xu Ning's actual Snap post.** The "2 GPUs + 1 week + 500 experiments" datapoint is sourced from snippets, not the full LinkedIn body. If true at the magnitudes claimed, it's the headline "proof the loop works" datapoint.
 3. **Stress-test the synthesis against Pinterest org reality.** Most of the research is from companies with cleaner platform/infra separation than Pinterest. The Krishna SSJ + Kanan/Karina reorg patterns argue for unusual care on the horizontal-vs-vertical framing.
 4. **Update artifact v1's Option 3 (AI-Leveraged Engineering)** with: the 2-2-1-1 composition, the explicit Stripe-architecture safety commitments, the killer use case anchor, the staged 6→12→20+ ramp, and the internal-mobility commitment to Dhruvil's org.
+
+---
+
+## Deltas recovered from the raw research (2026-08-15 merge)
+
+Re-read of all 9 archived docs against this synthesis. Most content survived distillation; below is what didn't and still bears on decisions. Doc keys: **[Scoping]** AI Engineering Org Scoping & Strategy, **[FM-GDR]** AI Tooling Failure Modes Research, **[Structures]** AI-Leveraged Engineering Team Structures, **[Comp-A]** AI-Leveraged RecSys Engineering Team Composition, **[Comp-B]** AI-Leveraged RecSys Engineering Team, **[15-Co]** ai_leveraged_eng_teams_15_companies, **[Compose]** composing_ai_leveraged_recsys_team, **[FM]** failure_modes_internal_ai_tooling_teams.
+
+### Measurement numbers — partial fill for the missing Prompt-3 framework
+- **Realized productivity in mature blended orgs is 5-15%, not 50-100%** (DX research, 38,880 devs / 184 companies); avg net savings ~3h45m/eng/week; mature programs report 300-600% ROI over 3 years, 6-12 month payback. CFO-defensible anchors. ([Structures])
+- **Google's ~100-engineer RCT: 21% faster on enterprise tasks — and seniors gained MORE than juniors** (deep architectural context makes AI a higher-order orchestration tool). Kills the "AI lifts juniors" framing; supports senior internal hires. ([Structures])
+- **The skeptic's counterweight: METR found experienced devs 19% SLOWER with early-2025 tools while self-estimating +20-24%.** Feb 2026 update was methodological, not a retraction — don't repeat the "METR backtracked" framing. Perception ≠ reality; only instrumented measurement counts. ([FM])
+- **Anthropic's objective internal number: +67% merged PRs/eng/day post-Claude-Code** (vs. the self-reported 50% the header flags); 27% of Claude-assisted work would not have happened otherwise. ([15-Co])
+- **Measure at team level, never individual** — individual AI-usage tracking destroys psychological safety and invites gaming. Track three vectors: utilization, impact, cost. ([Structures])
+- **Leading-metric candidates:** Shopify's "demo velocity" (weekly demos, not LOC); Cursor's "% of production PRs from autonomous agents" (35% internally, Apr 2026). ([15-Co])
+- **Quantitative tripwires:** agent-proposed-to-adopted PR ratio worse than 3:1 → stop hiring, fix eval/substrate ([Compose]); PR size +25% MoM or work-restarts >10% → CI/CD-collapse drift ([FM-GDR]); voluntary adoption <25-30% of addressable engineers after ~6 months → tool isn't good enough; dogfood harder, don't mandate ([15-Co], [FM]).
+
+### Economics — token cost as a first-class org-design input (absent above)
+- **Calibrated budget: $100-250/eng/day in tokens** (Shopify runs $250). If finance can't tolerate that line item, the math for the team doesn't work yet — surface this before the headcount ask. ([15-Co])
+- **The Uber canary: AI costs up 6x since 2024 with ~flat measured productivity at 92-95% adoption; 2026 AI budget exhausted by April.** Tripwire: token spend >3x YoY without output growth → build a cost-aware routing layer (cheap models for cheap tasks). ([15-Co], [FM])
+- **Decide the cost model upfront:** central team absorbs inference cost vs. per-token chargeback to consumer teams. Unplanned economics is a documented charter-killer. ([Scoping])
+- **Nuance vs. the tokenmaxxing finding:** [FM-GDR] argues token burn is a legitimate *private diagnostic* of experimentation engagement once blast radius is sandboxed. No contradiction with the anti-tokenmaxxing stance if held as: never a target, leaderboard, or perf input — at most an internal diagnostic.
+
+### Substrate design principles
+- **"You can't whisper at an AI agent":** Stripe's steering experiments showed agents ignore hints, warnings, and docs; only hard blocking errors change behavior. Design substrate guardrails as blocking errors, not guidance. ([FM-GDR])
+- **Yegge's "heresies":** agents resurrect excised bad architecture from lingering references (old markdown, PR comments, wikis). Purge the references, not just the code — directly relevant to agents ingesting Pinterest's recsys corpus. ([FM-GDR])
+- **Judge-gaming is real:** unfaithful CoT rewriting can inflate VLM-judge false positives by up to 90% ("Gaming the Judge," 2026). Build human spot-checks + A/B-test-as-ground-truth backstop into the eval layer from day 1. ([Compose])
+- **The 3-5 parallel-session ceiling:** OpenAI built Symphony because humans can't manage >3-5 concurrent agent sessions before context-switching eats the gains. Plan the orchestration layer before scaling agent parallelism. ([15-Co])
+- **Pierceable abstractions (Larson):** centralize fully at seed; at 10-20 expose extensible APIs so consumer-team engineers inject domain logic into the agent loop. The centralize→federate sequencing, not a static choice. ([Scoping])
+- **Reference architectures missing from the list above:** Shopify Roast (YAML/markdown orchestration; AI confined to classification/summarization/targeted codegen nodes) ([Scoping], [Structures]); Netflix Model Data Service (multi-hop lifecycle graph linking pipeline runs, model registries, A/B cells — template for the diagnostic substrate) ([Comp-B]); Cursor Shadow Workspace (isolated worktrees, 12-eng team precedent) ([Comp-A]).
+
+### Composition — variants and contradictions the synthesis flattened
+- **CONTRADICTION (placement):** [Comp-A] argues VP AI/ML Platform is optimal and names the domain-VP risk: **cannibalization** — a RecSys VP under quarterly pressure strips the team for manual tuning work. [Comp-B] argues domain-VP (adoption trust), which this synthesis adopted. The domain-VP call stands, but write the cannibalization risk into the charter: seed team's month-5 milestone is protected from quarterly metric fire drills.
+- **CONTRADICTION (EM profile):** [Comp-B] says the scale-stage EM needs deep recsys credibility (consumer teams won't let agents touch ranking pipelines otherwise); this synthesis chose agent-eng + ML-platform credibility per [Compose]. Keep the chosen call but staff the counterargument: the recsys-native staff TL must be visibly co-fronting consumer-team relationships.
+- **CONTRADICTION (research scientist timing):** [Comp-A] puts an applied research scientist at 10-12 (mandate: translate SOTA into the orchestration layer); this synthesis says 18+. [Compose] itself flags the point as contested. Safe default stands; revisit if eval-method innovation becomes the bottleneck.
+- **Seed variant worth keeping:** [Comp-A]'s bottleneck-conditioned templates — pick the seed shape by dominant constraint (infrastructure access → substrate-heavy; evaluation latency → evals-first; diagnostic opacity → interpretability-first). The 2-2-1-1 is the general answer; Reflex should sanity-check which bottleneck Pinterest actually has.
+- **If the unicorn TL search stalls:** concentrate hybrid-hunting on the eval layer only ("failure at the evaluation layer poisons the entire closed loop"); everywhere else, overlapping T-shaped pairs suffice. ([Comp-B])
+- **Embedded part-time EM at seed** (borrowed from the parent org) shields the TL from compute negotiations, security reviews, and skeptical execs without burning a headcount. Cheaper than the TL/M drowning. ([Comp-A])
+- **Missing role: a causal-measurement data scientist.** Anthropic staffs Developer Productivity with data scientists doing causal inference / synthetic controls to isolate real velocity gains. At Reflex scale: borrow one, but someone must own it or the Prompt-3 gap never closes. ([Structures])
+- **"Vampire burnout":** humans reviewing parallel agent output sustain only ~3 hours/day of that vigilance — the auditor role is more depleting than authoring. Size adoption-pod expectations and review capacity accordingly. ([FM-GDR])
+
+### Political durability
+- **Sponsor-departure is a top-frequency killer** the failure-mode table above misses (Meta RAI, Take-Two, Microsoft DevDiv). Counter: identify a second exec who owns the *outcome* (not the tool) and tie Reflex to one of their named OKRs before the first sponsor wobbles. Directly relevant to the Rajat/Jeff sequencing question. ([FM])
+- **The durable endgame is absorption on your own terms** — a fully-staffed sub-org inside the platform/domain org (Google Brain+Core model), not independence forever. Charters get renegotiated every 12-18 months; treat the org chart as fluid and the outcome as the constant. ([FM])
+- **Position deliverables as APIs consumed by incumbent DevEx/platform teams** and let them keep the velocity metrics — this dissolves the P&L attribution war before it starts. ([FM-GDR])
+- **Culture doctrine: "the AI generated that bug" is an invalid defense.** Whoever merges agent output owns it entirely. Prevents shadow codegen and keeps review engagement high. ([FM-GDR])
+- **"Comprehension debt"** — engineers gradually losing understanding of systems AI maintains — is what Shopify's and Anthropic's eng leaders say they fear most. A named risk for the artifact's risk section. ([15-Co])
+
+### Skeptic/safety ammunition for the Dylan/Rajat/Jeff conversations
+- **AI-generated code carries 2.74x more XSS, 1.91x more IDOR, 1.88x more insecure password handling than human code** (CodeRabbit, real-world PRs). Strengthens the "substrate IS the bet" pitch: eval/gating isn't overhead, it's the difference between net-positive and net-negative. ([FM-GDR])
+- **The trust gap is widening industry-wide:** Stack Overflow 2025 — 84% of devs use AI, only 33% trust it, trust falling YoY; Copilot NPS on accuracy is negative. Pull-based adoption is the only viable path with a skeptical population. ([FM])
+- **Replacement-reversal pattern:** Klarna rehired after its AI-for-headcount bet ("lower quality"); 55% of leaders who did AI-driven layoffs regret them. Never let Reflex be framed as headcount reduction. ([FM])
+- **Pinterest-specific context:** the Feb 2026 firing of two engineers who tracked AI-driven layoffs signals real internal anxiety about AI-as-headcount-reduction — the ambient political climate every Reflex comm operates inside. ([FM])

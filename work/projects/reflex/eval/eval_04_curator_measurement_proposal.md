@@ -1,6 +1,6 @@
 # Feedback Curator — making it measurable, and three design deltas
 
-**Status:** proposal, 2026-08-15 · **Author:** James Li · **Builds on:** `reflex_feedback_curator_and_skeptic.md` (the Curator design doc) · **Evidence:** SkillOS (Google Cloud AI Research / UIUC / MIT), `kb/hard/raw/arxiv/skillos-learning-skill-curation-for-self-evolving-agents.md`
+**Status:** proposal, 2026-08-15 · **Author:** James Li · **Builds on:** `feedback_curator_and_skeptic.md` (the Curator design doc) · **Evidence:** SkillOS (Google Cloud AI Research / UIUC / MIT), `kb/hard/raw/arxiv/skillos-learning-skill-curation-for-self-evolving-agents.md`
 
 **Circulation note:** §6 is internal. Everything above it is safe to share with Andrew, Dylan, and Janvi.
 

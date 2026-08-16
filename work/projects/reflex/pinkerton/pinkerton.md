@@ -11,7 +11,7 @@ Last Updated: 2026-05-14
 - `pinkerton-paper-summaries.md` — agentic recsys literature notes
 - `strategic_next_steps_april.md` — Wes Kao / Shreyas / Ethan Evans / Coaching Patterns playbook, 8 scenarios + 22 aggressive moves + sequencing
 - `bluf_memo_v0.md` — 2-page Pinkerton + Reflex memo for Dylan / Darren / Jeff (v0, FILL placeholders remain)
-- `reflex_context_instructions.md` — paste-ready prompt for work-leo to generate the Reflex agent's grounding `context.md`
+- `../context_instructions.md` — paste-ready prompt for work-leo to generate the Reflex agent's grounding `context.md`
 - `jeff_demo_deck_2026-05-14.md` — Pinkerton joint cross-surface DSAT deck for Jeff (5–8 min, 7 slides, James opens then hands off)
 
 ---

@@ -181,6 +181,6 @@ Not a Reflex-invented collision, but it will decide a real call, so it belongs h
 - Working state, undelivered critique, IC lane: `eval_00_hub.md`
 - Lockbox protocol (for Chao): `eval_02_judge_lockbox_protocol.md`
 - Evolve feedback + EvalResult v2 contract (for Janvi): `eval_03_evolve_feedback_and_contract.md` — the `case_source` field is where these distinctions become machine-enforceable
-- Curator design: `reflex_feedback_curator_and_skeptic.md` (objects 6 and 7 live here)
+- Curator design: `feedback_curator_and_skeptic.md` (objects 6 and 7 live here)
 - Curator measurement proposal (for the Curator owner): `eval_04_curator_measurement_proposal.md`
 - Primary sources in the KB: `kb/hard/raw/arxiv/gepa-reflective-prompt-evolution-can-outperform-reinforcement-learning.md` · `kb/hard/raw/dspy/dspy-gepa-reflective-prompt-optimizer.md` · `kb/hard/raw/arxiv/skillos-learning-skill-curation-for-self-evolving-agents.md`

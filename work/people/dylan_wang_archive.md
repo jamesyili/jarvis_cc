@@ -15,7 +15,7 @@
 
 No 1:1 in two weeks (reorg-busy; this week's canceled too). James's plan, shaped with Leo 8/13 and emailed to himself (msg 19ffeba22ee3c35c):
 - **Monday async (light FYI, per James: T2 and UPP are in-person-only topics):** trust-building with Daniel/Alim going well · offer a fuller Curation-ML-situation read "in another week, when we have more time" · L1 quota good news (~400 free candidate quota at zero L2 cost, Konish/JJ/Aditya, LR mid-Aug) · the one async-decidable question: add Daniel's folks to #homefeed-eng vs rename to #p13n-relevance-eng · closing line reserves Tuesday agenda space beyond H1 perf.
-- **Tuesday 8/18 1:1 (she drives H1 perf first):** (1) T2 + Kim — trio readout, Friday's closes, and the **Kim L16 sponsorship heads-up before the seat closes Friday** (she should hear the calibration-sponsor plan from James first); (2) UPP — gates cleared on Kurchi's own bar, receipts going through her invited back-channel; **the ask: if the bar moves, carry it to Jeff as a Core-VP launch decision** (pre-alignment, not action-today); 30-sec tack-on: the Reflex role-sentence to Tim/Dafang ⚠️ conflicting records — `reflex_program_state` 8/1 has James declaring this ask MOOT after Dylan named him EM POC ("I don't need to be named anymore… first deliver the glory"), while the H2 analysis still carried it as open (now fixed). James heard Leo's 8/13 re-recommendation without objecting; confirm whether it's live again before spending 1:1 time — skip it if the 8/1 stance holds; tease-only: RecGPT×LWS×UPP fork (Yali mapping).
+- **Tuesday 8/18 1:1 (she drives H1 perf first):** (1) T2 + Kim — trio readout, Friday's closes, and the **Kim L16 sponsorship heads-up before the seat closes Friday** (she should hear the calibration-sponsor plan from James first); (2) UPP — gates cleared on Kurchi's own bar, receipts going through her invited back-channel; **the ask: if the bar moves, carry it to Jeff as a Core-VP launch decision** (pre-alignment, not action-today); 30-sec tack-on: the Reflex role-sentence to Tim/Dafang ⚠️ conflicting records — `reflex/program_state.md` 8/1 has James declaring this ask MOOT after Dylan named him EM POC ("I don't need to be named anymore… first deliver the glory"), while the H2 analysis still carried it as open (now fixed). James heard Leo's 8/13 re-recommendation without objecting; confirm whether it's live again before spending 1:1 time — skip it if the 8/1 stance holds; tease-only: RecGPT×LWS×UPP fork (Yali mapping).
 - **Queued for the "more time" session (~wk of 8/24):** Curation-ML scope read (incl. IB post-gate posture) · Recommended-Boards gains-origin read (James has it from Daniel — closes her 7/14 question) · RecGPT×LWS fork in full · Reflex↔Shifu deeper · CQ technical thoughts. SM/SL success criteria: James 8/13 — already clear, item retired.
 - Pattern note: message shape deliberately matches the action-sponsor read (Part II) — FYIs + one binary question async; judgment items live; ≤2 asks per touchpoint.
 
@@ -1235,7 +1235,7 @@ Meet her **feeling**, don't co-sign her **conclusion**. "Yeah, coming back is st
 **Started:** 2026-05-19 (post-H1 career convo)
 **Anchor file:** [H1_career_convo.md](../H1_career_convo.md) — pre-convo prep; this file is the post-convo continuation
 **Draft artifact:** [dylan_team_design_artifact_draft_v1.md](dylan_team_design_artifact_draft_v1.md) — the 1-2 page input doc for Dylan, derived from this chapter's analysis
-**Cross-refs:** [dylan_archive.md](dylan_archive.md), [dylan_1on1_log.md](dylan_1on1_log.md), `work/projects/reflex/reflex_pinkerton_strategy_051626.md`, `work/projects/reflex/reflex_pinkerton_interface_design_051626.md`
+**Cross-refs:** [dylan_archive.md](dylan_archive.md), [dylan_1on1_log.md](dylan_1on1_log.md), `work/projects/reflex/archive/reflex_pinkerton_strategy_051626.md`, `work/projects/reflex/archive/reflex_pinkerton_interface_design_051626.md`
 
 ---
 
@@ -2514,7 +2514,7 @@ The proposed shape (Option 2) is the one that gives me the most leverage on all 
 
 > 30-min 1:1, day after EPD demo. Goal = **convert today's exec pull into a controlled program with clear ownership, boundaries, and next actions.** This is a program-operating-model meeting, not a celebration or reassurance meeting.
 >
-> **Companion docs:** `work/projects/pinkerton/epd_demo_2026-05-04_debrief.md` (full demo + DM debrief) · `work/people/pre_june_readiness.md` §May posture · `work/career/H1_career_convo.md` · `work/projects/pinkerton/epd_demo_2026-05-04_prep.md`
+> **Companion docs:** `work/projects/reflex/archive/epd_demo_2026-05-04_debrief.md` (full demo + DM debrief) · `work/people/pre_june_readiness.md` §May posture · `work/career/H1_career_convo.md` · `work/projects/reflex/archive/epd_demo_2026-05-04_prep.md`
 
 ---
 
@@ -2708,7 +2708,7 @@ This directly counters the IC-comfort instinct. Lock it now; tell yourself out l
 
 ## Cross-references
 
-- `work/projects/pinkerton/epd_demo_2026-05-04_debrief.md` — full demo debrief, DM threads verbatim, Sponsor Stack mapping, multi-variant Dylan-rescope read
+- `work/projects/reflex/archive/epd_demo_2026-05-04_debrief.md` — full demo debrief, DM threads verbatim, Sponsor Stack mapping, multi-variant Dylan-rescope read
 - `work/people/pre_june_readiness.md` — May posture section, Q11 5-signal dashboard, Sponsor Stack typology, items #14 #15 #16 (Pers-Ops Runbook revamp + JJ endorsement + EM backfill)
 - `work/people/jeff_rajat_office_hours_prep.md` — Jeff Tue 5/7 + Rajat Wed 5/8 prep
 - `work/career/H1_career_convo.md` — Dylan career convo (week of 5/20)

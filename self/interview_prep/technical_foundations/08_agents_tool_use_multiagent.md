@@ -99,4 +99,4 @@ Decompose a problem into **specialized roles** with **handoffs** and — critica
 7. Define workflows vs. agents (Anthropic's distinction) and place Reflex. What do MCP and A2A each standardize?
 8. Frame a multi-layer safety system as a multi-agent/multi-stage pipeline.
 
-*This is your ahead-of-curve story — own it cold. Anchors: `reflex-codebase-guide.md`, `pinkerton/`, `retentive_recs.md` §4.*
+*This is your ahead-of-curve story — own it cold. Anchors: `reflex/system_design/codebase-guide.md`, `pinkerton/`, `retentive_recs.md` §4.*

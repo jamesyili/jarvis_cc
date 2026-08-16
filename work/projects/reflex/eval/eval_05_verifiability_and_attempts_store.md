@@ -119,7 +119,7 @@ The honest cost. Experiment records are structured but don't carry the hypothesi
 
 ## 6. The filter already exists on paper
 
-The Skeptic (`reflex_feedback_curator_and_skeptic.md` §2) was designed in June with a `### Verified` section and a `### Related prior cards` section in its output format. Those are hallucination-check and already-tried-check. **The two mechanizable modes were already in the design and it's sitting unbuilt.**
+The Skeptic (`feedback_curator_and_skeptic.md` §2) was designed in June with a `### Verified` section and a `### Related prior cards` section in its output format. Those are hallucination-check and already-tried-check. **The two mechanizable modes were already in the design and it's sitting unbuilt.**
 
 This reframes it: the Skeptic isn't a pre-review quality nicety. It's Reflex's `is_legal_action()`, and it belongs *before* the judge, not beside it.
 
@@ -184,4 +184,4 @@ Against the axes on the table: **model-side** scores highest on attribution — 
 - `eval_00_hub.md` — program state and open items · `eval_01_glossary.md` — the attempts store is a candidate object 8
 - `eval_02_judge_lockbox_protocol.md` §rule 3 — the blind-audit pattern this borrows for rejected cards
 - `eval_03_evolve_feedback_and_contract.md` §3 — the failure-type variant of the `blame()` proposal
-- `reflex_feedback_curator_and_skeptic.md` §2 — the Skeptic, i.e. the filter, already designed
+- `feedback_curator_and_skeptic.md` §2 — the Skeptic, i.e. the filter, already designed
