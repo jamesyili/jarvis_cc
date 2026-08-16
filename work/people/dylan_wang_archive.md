@@ -11,6 +11,15 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-16 — H1 review confirmed for Tue 8/18; Monday message finalized (trimmed); Tuesday card + Exceeds questions set
+
+Dylan confirmed the Tue 8/18 1:1 opens with James's **H1 perf review (15–20 min)**. The 8/13 plan below updated in the Sunday-evening session; James's trims are register data for his own outbound to her: **exactly the specified items, no optional adds, no agenda-leading** ("I don't need to have leading for Tuesday topics" — the closing reserve-line and an ML-Day FYI both cut).
+
+- **Monday async, final (3 items):** (1) L1 quota — Konish/J.J/Aditya SMS-batch + L1-utility work frees **~400 candidate quota at zero L2 cost** (neutral topline; Konish LRing mid-Aug), shared so the number has context if upcoming launches reference it; (2) two understated sentences on Daniel/Alim ramp (cadence up, engaged, no surprises); (3) the #homefeed-eng vs #p13n-relevance-eng question, asked neutrally. Nothing else.
+- **Tuesday after the review (~10–15 min):** (1) **Kim** — heads-up register, not an ask: RR proper (her own choice, 8/13 1:1), James as **explicit calibration sponsor on an L16 path**, honest H2-2027 timeline; why-now = seat/coverage/RR R&R close **Fri 8/21**, she shouldn't encounter it settled. (2) **UPP** — both 8/7 gates arguably cleared **on Kurchi's own bar** (P10 WAU → neutral; relevance not stat-sig), receipts via her invited back-channel; pre-align: *"if the bar moves after the receipts, carry it to Jeff as a Core-VP launch decision this week."* Don't relitigate Kurchi; Matt Chun's Core-VP line = independent support if probed.
+- **Exceeds questions (campaign workstream 3, pulled forward from Sept — ride the review segue, before Kim):** Q1 *"When you're writing in December, what would the case need to contain for you to carry an Exceeds into the room?"* + sharpener validating UPP + RR/Anticipation as the headline. Q2 (drops first if squeezed): *"Given last year was also Exceeds — what does the room push on for a repeat, and what should we have pre-empted in writing?"* Packet-building voice, never rating-hunger voice.
+- **Scenario branches prepped:** *promo-aim* (unlikely per James) → test the advocates gap ("whose voices does the case need beyond yours — and where are they today?"), backwards timeline from packet-writing, what-a-miss-costs; *Meets-signal* (likelihood unknown) → work-vs-curve separator, the falsifier ("if both launch families land clean by early Dec, does that move it?"), double-reward probe. Extraction only in the room; a confirmed "even then, Meets" reprices the campaign and reopens the no-external-until-January decision afterward. Leo's standing prior: **Exceeds ~70–75%** (→~80% campaigned).
+
 ## 2026-08-13 — Two-week 1:1 gap; Monday-async + Tuesday-live plan set (ask-portfolio applied)
 
 No 1:1 in two weeks (reorg-busy; this week's canceled too). James's plan, shaped with Leo 8/13 and emailed to himself (msg 19ffeba22ee3c35c):

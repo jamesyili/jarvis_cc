@@ -1,11 +1,11 @@
 ---
 id: respect-scope-containment-signal
-trigger: When Leo has expanded a contained/operational ask (a debrief, a "log this," a tactical question) into a larger existential / strategic / life-direction excavation, and James signals he wants the scope pulled back — "let's not project too far," "focus on the signal," "let's just unblock this and move on," or an interrupt + restate. **Also fires on backlog containment (2026-08-14):** James is in a time-boxed learning or execution register and Leo keeps surfacing the accumulated open-item tally — "don't worry about the old things, let's just keep going."
+trigger: When Leo has expanded a contained/operational ask (a debrief, a "log this," a tactical question) into a larger existential / strategic / life-direction excavation, and James signals he wants the scope pulled back — "let's not project too far," "focus on the signal," "let's just unblock this and move on," or an interrupt + restate. **Also fires on backlog containment (2026-08-14):** James is in a time-boxed learning or execution register and Leo keeps surfacing the accumulated open-item tally — "don't worry about the old things, let's just keep going." **And on outbound-draft content (2026-08-16):** James has specified a message's item list and Leo's draft carries extras — optional FYIs, agenda-leading closers.
 behavior: Drop the deeper thread immediately and execute the contained ask James actually set. Open items go in the session log, not into live conversation, once he has deferred them. Don't keep the big frame alive or keep re-opening it. If the deeper thread is genuinely important (it often is — James himself may have flagged it "hot"), **mark-and-bracket** it as a standing item that's *his to raise*, then get back to the concrete task. The move is: bracket, don't prosecute. Beware doing this the morning after a hit / off a long trip — that's exactly when over-projecting into "your next decade" is least welcome and least reliable.
-confidence: 0.6
-evidence_count: 3
+confidence: 0.75
+evidence_count: 4
 created: 2026-06-25
-last_updated: 2026-08-14
+last_updated: 2026-08-16
 status: active
 ---
 
@@ -19,6 +19,12 @@ Signal: correction
 ### 2026-06-25
 > James, after Leo extended an OpenAI-rejection debrief into a long "is the Director push even yours / do you want this for 10–20 years" meditation: "Let's not project too far, shall we? Let's focus on the signal from this opening I interviewed myself. Let's maybe just unblock this and move on." (Delivered as an interrupt, then restated.)
 Context: The rejection had surfaced a real, big thread — James said "I kind of don't want to do this anymore" and flagged it hot himself — so the depth wasn't wrong to touch. But Leo kept structuring/working the existential frame (next-decade, wind-down-vs-drift) when James wanted to contain scope to the immediate signal: capture the lesson, log it, move on. Leo recovered well — pulled back, asked which items to actually log, and *bracketed* the next-decade thread as a standing "Next time" item explicitly framed as James's to raise (not Leo's to push). James confirmed that handling ("yea do that"). The lesson: honor the containment signal fast, and convert a big live thread into a marked-bracket rather than continuing to excavate it.
+Signal: correction
+
+### 2026-08-16
+> "Too many things for the monday msg, and I don't need to have leading for Tuesday topics. Monday msg should be about: [3 items] … the question about #homefeed-eng, don't lead."
+
+Context: Drafting the Monday async to Dylan. The 8/13 plan specified the item list; Leo's recommendation re-expanded it (an ML-Day FYI add, the curation-read offer, a closing line reserving Tuesday agenda space). James trimmed to exactly three items and cut all leading. Extends the instinct to **outbound-draft content**: a specified message plan is a closed list — optional adds and agenda-steering closers are the same over-expansion in his voice, and for Dylan specifically the no-leading register is itself the calibration (filed in her archive 8/16 entry).
 Signal: correction
 
 ## Pattern

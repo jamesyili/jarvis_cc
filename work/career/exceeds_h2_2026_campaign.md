@@ -20,8 +20,8 @@ The case rests on two launch families landing by ~Dec 1:
 ### 2. The impact ledger (Leo maintains)
 Running, dated log of every landed result with numbers — appended from debriefs as they happen, not reconstructed in December. Becomes Dylan's packet. Lives in this file, §Ledger below.
 
-### 3. Get Dylan's bar explicitly — September
-One 1:1 question: *"Looking at H2, what would an Exceeds case need to contain for you to carry it into the room?"* Then build to his answer, not to a guess. Folds in the carried pre-socialize item and the working-model one-pager. Dylan should never have to assemble the case himself — hand him the one-pager plus the ledger in early December, before he writes anything.
+### 3. Get Dylan's bar explicitly — ~~September~~ pulled forward to Tue 8/18 (decided 2026-08-16)
+Asked at the 8/18 1:1, riding the H1-review segue: Q1 bar-spec + sharpener validating the chosen headline (UPP + RR/Anticipation), Q2 repeat-year room-attack pre-emption ("what should we have pre-empted in writing?"). Scenario branches (promo-aim / Meets-signal, incl. the campaign-repricing falsifier) prepped in the 8/16c session log + Dylan archive. Her answers replace this placeholder. Original question: *"Looking at H2, what would an Exceeds case need to contain for you to carry it into the room?"* Then build to her answer, not to a guess. Folds in the carried pre-socialize item and the working-model one-pager. Dylan should never have to assemble the case himself — hand him the one-pager plus the ledger in early December, before he writes anything.
 
 ### 4. Room advocates — each needs one artifact, not vibes
 Exceeds cases die when only the manager speaks. By mid-November each of these people should have *seen one concrete thing*: **Jeff** — the GPU-serving half-page (carried item; now has a deadline and a why). **Rajat** — one substantive touchpoint on charter results. **Faisal** — sponsor-#2 cultivation continues; T&S-adjacent visibility. Not a push campaign — one real artifact each, timed Oct–Nov.
