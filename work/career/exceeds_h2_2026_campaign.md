@@ -36,9 +36,18 @@ Exceeds cases die when only the manager speaks. By mid-November each of these pe
 | **Nov** | Remaining numbers land. Rajat/Faisal artifacts. One-page Exceeds case drafted. |
 | **Early Dec** | Case + ledger handed to Dylan before review writing opens. |
 
-## Honest constraints
+## Odds and honest constraints
 
-Exceeds is curved — a perfect campaign moves the odds (est. ~55–60% → ~70–75%), not the quota. Grant sizing isn't purely rating-mechanical. And the sharpest competing risk is the one flagged 8/16: sponsor continuity — the case must survive even if the room's composition shifts.
+**Baseline ~70%; ~75–80% with the campaign run well.** (Revised up from 55–60% on 8/16 after James invoked the 2025 precedent: the record shows the conservative prediction that year was "expect Meets, capped by behavior" — actual outcome was Exceeds + $1.2M grant, carried by Dylan against live maturity-ceiling feedback. Dylan's conviction converts in the room, and it has since increased — the 3-pillar org grant is a costly public signal, not words.)
+
+**The case sentence (James, 8/16):** *"Delivered the same level of metrics while incubating three bets — UPP, Retentive, Reflex."* James is personally the incubator, so reorg-year attribution mud doesn't apply the way a generic read would suggest.
+
+**The residual 20–25%:**
+- **The double-reward read** — the one real attack vector: "James already got his reward — we gave him the org." Pre-load the counter in Dylan's packet: *the org was the investment, H2's numbers are the early returns.* Never improvised in the room.
+- **Consecutive-Exceeds re-anchor** — the room asks "what's new vs. last year?" The case answers it unprompted (three concurrent bets).
+- **Curve pressure and sponsor continuity** — uncontrollable; the case must survive a shifted room.
+
+Dylan's documented trust formula is **predictability in high-stakes environments** (Oct 2025 pattern). The calm-org-by-October workstream feeds her December conviction directly, not just the room's perception.
 
 ## Ledger
 
