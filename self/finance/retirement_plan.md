@@ -140,6 +140,13 @@ Same session, second pass: "should I retire or keep going for generational wealt
 
 **Seat risk (the assumption under the base case):** performance-managed exit ≈ low single digits/yr given rating trajectory + sponsorship; the real risks are reorg/consolidation and Pinterest-decline (consumer discovery disrupted by AI). Rough prior: the seat-with-latitude survives 5 years ~70–75%. The coupling to watch: ~63% of income is PINS/TEAM equity, the job is PINS, and the grant refresh is PINS — a company-decline scenario hits all three at once. Mitigation is already in the plan: diversify vested equity relentlessly (the $25k/mo auto-invest), and note that post-2031 a layoff is a lifestyle event, not a financial one.
 
+**Closing analysis (Leo, 8/17, James: "put this analysis in"):**
+- **Kid-time correction changes the ranking:** Pinterest paths buy compounding AND kid-time simultaneously (8–9 wks/yr off is the observed norm at his level); the work-vs-kids trade-off exists only on grind paths. The remaining question is not *whether* to trade but *whether/when to voluntarily re-enter grind mode*.
+- **Path F ≈ Path C:** the Dir-plus-sprint option lands within $3M of the full Sr-Director path at 55 without needing the Sr Dir seat to open — and the sprint window (2033–35) falls when Evelyn is in HS and Ethan is 13–15. Caveat: today's $4M+ external re-pricing is partly an AI-bubble phenomenon; the 2033 leverage will be "operator who scaled AI-native orgs," not "recsys expert." The option doesn't expire; the strike moves.
+- **Full-retirement verdict: no** — evidence: five voluntary Sunday sessions at $12M NW, Leo itself, angel portfolio, blog + Exceeds campaigns run for sport. Hunger is the engine; retired-James at 50+ is a chosen-work portfolio (advising/angel/building/writing) that looks like ~30 hrs/wk. The model's real function is the floor that makes every game voluntary — not a stop date.
+- **Chosen strategy (accepted-by-action, 8/17):** ride Pinterest to Director+ as long as it stays fun and flexible · sprint option in pocket · never fully stop.
+- **New annual tripwire:** each January (with the model re-run), check "is the lifestyle latitude real" — weeks *actually taken* vs. theoretically available. It is the load-bearing assumption of the base case, and it is measurable.
+
 **Still open after this pass:** exact investable split (taxable/retirement/cash) and current RE values — refresh from PC workbook; portfolio allocation (single-name concentration vs. index) and whether the $25k/mo VTI auto-invest still runs; the school fork (private-vs-public, fall 2027); refi terms when the Oct 2028 window approaches; and pressure-testing the $450k retirement burn (James: "I don't know how much we will likely spend in retirement tbh").
 
 ---
