@@ -115,6 +115,31 @@ James answered the assumption grill directly (remote session, 8/17). `retirement
 
 Band across all savings × return scenarios: work-optional **2030–2032**, full-certainty **2031–2034**. The 8/8 "central crossing ~Jan 2029" was an artifact of the $304k mortgage-free burn basis; James's $450k retirement burn answer is the single change that moved the date. Every $35k/yr of retirement burn ≈ $1M of target — the retirement-spend number is now the dominant soft assumption in the plan.
 
+### 8/17b — Career scenarios, generational-wealth tiers, and James's stated stance
+
+Same session, second pass: "should I retire or keep going for generational wealth?" Scenario comp paths are now in the model (`SCENARIOS` dict — re-runnable). Base 5% real:
+
+| Path | Timing prior | NW@45 | NW@50 | NW@55 | $30M | $50M |
+|---|---|---:|---:|---:|---|---|
+| A. Sr EM plateau ($2.1M) | — | $16.9M | $25.4M | $36.2M | 53 | never |
+| B. Director '28 ($2.6M) | ~75% by mid-'28 | $18.1M | $28.6M | $41.9M | 51 | 58 |
+| C. + Sr Dir '31 ($3.5M) | ~35–45% cond. | $18.6M | $32.1M | $49.3M | 50 | 56 |
+| D. + VP '33 ($5.5M) | ~10–15%, seat-dependent | $18.6M | $37.1M | $62.1M | 49 | 53 |
+| E. Lab move '28 ($4.5M) | rejected as now-move | $22.9M | $40.7M | $63.5M | 48 | 53 |
+| F. Dir + sprint '33–'35 ($4.5M×3yr) | James's stated realistic option | $18.1M | $32.2M | $46.6M | 50 | 57 |
+
+**Wealth tiers (what the money actually buys):** ~$15M = life funded forever (44, every path) · ~$20–25M = fat FI, college irrelevant, first houses (46–47, every path) · ~$30M = endow each kid a few $M (49–53, path-dependent) · ~$50M+ = perpetual engine, trusts, philanthropy at scale (only C/D/E/F, mid-50s). **Marginal working year past the 2031 line ≈ +$3M at age 55.** All paths cross work-optional at 44 (E: 43) — Director is financially decorative; it's worth chasing for the game, not the money.
+
+**Kid-time correction (James, 8/17):** the "Ethan-summers exchange rate" was overdrawn for the Pinterest paths. At his level (and his managers'/peers' observed norm), 6–8 weeks/yr off is real — he just took 3 weeks essentially without notice. Staying at Pinterest = compounding AND kid-time; the trade-off is real only on the grind paths (lab-now, VP-sprint). This materially strengthens A/B/C/F over E.
+
+**James's stated stance (8/17, his words paraphrased):**
+- **Base case: stay at Pinterest** — Director "likely gonna happen" in 1–2 years; the lifestyle option (two 3-week PTOs + Christmas + scattered weeks) exists at current level and likely at Director.
+- **Lab-now rejected:** Anthropic/OpenAI comp "not worth the grind" at this wealth level — would recreate Meta-era kid-time loss. Not right "at this moment with this amount of money."
+- **The realistic external option is F:** if recsys goes stale in 5–10 years, jump to a pre-breakout company, grind ~3 years for the cash/runway, then let go. (F lands within $3M of the Sr-Director path at 55 without needing the Sr Dir seat.)
+- **Full retirement: not happening** — "what the F am I gonna do, seriously."
+
+**Seat risk (the assumption under the base case):** performance-managed exit ≈ low single digits/yr given rating trajectory + sponsorship; the real risks are reorg/consolidation and Pinterest-decline (consumer discovery disrupted by AI). Rough prior: the seat-with-latitude survives 5 years ~70–75%. The coupling to watch: ~63% of income is PINS/TEAM equity, the job is PINS, and the grant refresh is PINS — a company-decline scenario hits all three at once. Mitigation is already in the plan: diversify vested equity relentlessly (the $25k/mo auto-invest), and note that post-2031 a layoff is a lifestyle event, not a financial one.
+
 **Still open after this pass:** exact investable split (taxable/retirement/cash) and current RE values — refresh from PC workbook; portfolio allocation (single-name concentration vs. index) and whether the $25k/mo VTI auto-invest still runs; the school fork (private-vs-public, fall 2027); refi terms when the Oct 2028 window approaches; and pressure-testing the $450k retirement burn (James: "I don't know how much we will likely spend in retirement tbh").
 
 ---

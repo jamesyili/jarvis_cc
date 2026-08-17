@@ -58,6 +58,40 @@ EFF_TAX = 0.42            # fed+CA+FICA effective on $2-3M W2 CA married
 # Fan works to the family finish line — both stop together (James 8/17).
 # The old one-earner "coast" scenarios were removed accordingly.
 
+# --- career-path scenarios (8/17 session; household comp) -------------------
+# Timing priors (Leo, 8/17, from James's own reads): Director by mid-2028 ~75%;
+# Sr Director 2031±1 ~35-45% conditional on Director (needs org growth/altitude
+# change, not just performance); VP at Pinterest ~10-15% (seat-dependent —
+# likelier route is external, which converges with the lab path).
+def comp_sr_director(y):
+    """Director 2028 -> Sr Director ~2031 (James ~$2.6M + Fan ~$0.9M)."""
+    return 3_500_000 if y >= 2031 else comp_director(y)
+
+def comp_vp(y):
+    """Sr Dir path -> VP ~2033 (James ~$4.5M). Priced despite low probability."""
+    return 5_500_000 if y >= 2033 else comp_sr_director(y)
+
+def comp_lab(y):
+    """External AI-lab re-pricing from 2028 (~$4.5M household, equity risk).
+    REJECTED as a now-move (James 8/17): Meta-era kid-time cost, not worth it
+    at current wealth."""
+    return 4_500_000 if y >= 2028 else 2_100_000
+
+def comp_boredom_sprint(y):
+    """James's stated realistic external option (8/17): ride Pinterest+Director,
+    and IF recsys goes stale in 5-10 yrs, jump to a pre-breakout company for a
+    ~3-year cash sprint, then forget about it."""
+    return 4_500_000 if 2033 <= y <= 2035 else comp_director(y)
+
+SCENARIOS = {
+    "A Sr EM plateau ($2.1M)":   comp_current,
+    "B Director '28 ($2.6M)":    comp_director,
+    "C + Sr Dir '31 ($3.5M)":    comp_sr_director,
+    "D + VP '33 ($5.5M)":        comp_vp,
+    "E Lab move '28 ($4.5M)":    comp_lab,
+    "F Dir + sprint '33-35":     comp_boredom_sprint,
+}
+
 # ---------------------------------------------------------------- returns
 REAL_RETURN = {"bear": 0.03, "base": 0.05, "bull": 0.07}
 
@@ -143,3 +177,16 @@ if __name__ == "__main__":
     # aggressive 4% SWR reference line
     t4 = gross_need(RETIRE_BURN - MORTGAGE_PI - RENTAL_NET) / 0.04 + ARM_PRINCIPAL + college_liability(2026)
     print(f"Reference: 4% SWR (payoff strategy) target today = {fmt(t4)}")
+    print()
+    # career-path scenario table (base 5% real): NW at 45/50/55 + wealth-tier crossings
+    print("CAREER SCENARIOS (base 5% real):")
+    print(f"{'path':28s} {'opt':>5s} {'NW@45':>8s} {'NW@50':>8s} {'NW@55':>8s}   $20M / $30M / $50M")
+    for name, fn in SCENARIOS.items():
+        rows = simulate(fn, 0.05, horizon=20)
+        byyear = {r[0]: r[3] for r in rows}
+        opt = first_cross(rows, 4)
+        cr = []
+        for t in (20e6, 30e6, 50e6):
+            hit = next((r for r in rows if r[3] >= t), None)
+            cr.append(f"{hit[0]}(J{hit[1]})" if hit else ">2046")
+        print(f"{name:28s} {opt[0]:>5d} {byyear[2032]/1e6:>7.1f}M {byyear[2037]/1e6:>7.1f}M {byyear[2042]/1e6:>7.1f}M   {' / '.join(cr)}")
