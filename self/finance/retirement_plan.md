@@ -93,7 +93,33 @@ From James's PC-side workbook compute (pasted 8/8):
 - **Levers ranked:** recurring burn is king (−$25k/yr ≈ a $500k raise) · one-offs are noise (~0.7 days per $3k trip — take the vacations) · marginal income weak (~1.5 months per $100k/yr) · markets ±2 years. Job menu priced: Pinterest promo ≈ 8 months · Meta at the $3M ask ≈ 18-month sprint · lab offers count only if equity sells on schedule.
 - **Watch list:** (1) Oct 1 ARM reset — $2.07M repricing toward ~6.5% worst case; caps unknown (Range); paydown-vs-deploy analysis queued, $671k wire ready. (2) Taxes — $37k federal top-up Sep 15; ~$230–240k total tax cash earmarked through next April. (3) Grant dependency — ~63% of household income is PINS/TEAM equity (untradeable); a grant freeze = 2029 → 2032. (4) Education fork — both-kids-private pushes retirement ~1.5–2 years; decision arrives fall 2027 with the finish line visible.
 
-### 8/16 delta (verbal, remote session — refresh from PC workbook when able)
+## 2026-08-17 re-run — SUPERSEDES all sections above (James's answers, model constants rewritten)
+
+James answered the assumption grill directly (remote session, 8/17). `retirement_model.py` constants rewritten with these facts; the engine is unchanged.
+
+**New fact base (James, 8/17, ratified):**
+- **1339 sold**, net ~$650–700k after taxes/fees/mortgage payoff (modeled $675k). Three properties remain: Whisman (primary), Gatetree, Lexington. **Net rental income ~$30k/yr**, carried into retirement as a burn offset.
+- **Investable $8.92M** = 8/8 workbook fuel $8.24M + 1339 proceeds. (Taxable/retirement/cash split not refreshed — next PC re-run.)
+- **529s $65k, NO superfund** — decision made; college funds from the portfolio (~$895k carried in targets).
+- **ARM reset confirmed Oct 2028** (the 5/1-vs-7/1 open item is closed). Plan: **refinance, not payoff**.
+- **Comp: $2.1M/yr household current; $2.6M if Director** (modeled from 2028). **Fan works to the family line — both finish together**; coast scenarios removed.
+- **Current burn $450–500k** (modeled $475k), lower post-1339. **Retirement burn $450k** — James's explicit "let's just say" number, flagged SOFT ("most likely lower").
+
+**Result — the finish lines moved out ~2 years vs. the 8/8 read:**
+
+| Line | Target | Current comp | Director path |
+|---|---|---|---|
+| 4% SWR reference | ~$13.3M | 2030 | 2030 |
+| **Work-optional (3.5%)** | **~$14.7M** | **2031 (J44)** | **2031 (J44), 2030 on bull** |
+| Full-certainty (3.0%) | ~$16.7M | 2032 (J45) | 2032 (J45) |
+
+Band across all savings × return scenarios: work-optional **2030–2032**, full-certainty **2031–2034**. The 8/8 "central crossing ~Jan 2029" was an artifact of the $304k mortgage-free burn basis; James's $450k retirement burn answer is the single change that moved the date. Every $35k/yr of retirement burn ≈ $1M of target — the retirement-spend number is now the dominant soft assumption in the plan.
+
+**Still open after this pass:** exact investable split (taxable/retirement/cash) and current RE values — refresh from PC workbook; portfolio allocation (single-name concentration vs. index) and whether the $25k/mo VTI auto-invest still runs; the school fork (private-vs-public, fall 2027); refi terms when the Oct 2028 window approaches; and pressure-testing the $450k retirement burn (James: "I don't know how much we will likely spend in retirement tbh").
+
+---
+
+### 8/16 delta (verbal, remote session — superseded by 8/17 above)
 
 - **Another property liquidated** (which one unrecorded — post-Lee second sale); cash up, **~$500k ready to deploy**. NW ~$12.4M. Income ~$2.1M at current stock prices; burn $450–500k; net savings ~$750–800k/yr — **contingent on an Exceeds-level 2027 grant refresh** (James: no promo expected in the Jan '27 cycle; real chance Jul '27, very real Jan '28; Director ≈ $2M/yr for James alone).
 - **$500k parking plan (Leo rec, unratified):** T-bills/SGOV until the Oct 1 ARM decision resolves → 529 superfund (~$95k/parent/kid 5-yr-averaged, ~$380k capacity) → VTI auto-invest. No new asset classes until the dated items are dead.
