@@ -56,3 +56,5 @@ Dylan's documented trust formula is **predictability in high-stakes environments
 ## Ledger
 
 *(dated entries appended from debriefs — result, number, date, who saw it)*
+
+- **2026-08-16 — Retentive recs post published on Pinterest Engineering** (*Pinner Progression: Better Use-Case Representation Driving WAU Growth*, Part 1 of 2): public technical narrative for the RR headline bet — UICs through retrieval/L1/ranking/diversity, cross-team (P13N + UU + DS). No public metric in Part 1. LinkedIn amplification drafted (`self/blog/retentive-recs-linkedin-posts.md`), posting = James's move. Audience so far: public/external; internal advocacy value once amplified.
