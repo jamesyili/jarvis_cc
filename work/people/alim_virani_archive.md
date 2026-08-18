@@ -294,6 +294,13 @@ From James's evening braindump, on reframing his EM relationships from *help me 
 
 ---
 
+## 2026-08-17 — Trio walkthrough + the Kim pull, stated unprompted
+
+- **Trio (James + Alim + Daniel):** good technical discussion; James deliberately let the two EMs come first, and each brought unique perspectives. James previewed the scenario-thinking ask at the end (boards to be shared later) and floated Daniel-takes-LWS by both EMs — no disagreement from Alim. (Full entry: Daniel archive 8/17.)
+- **The Kim question, answered — enthusiastically.** Alim told James he **really enjoys conversations with Kim and would love to have her as part of Retentive.** This closes the 8/13 next-step (James asked Alim to decide whether he'd enjoy working with Kim) with a clear yes — and it's Alim *volunteering a want*, consistent with the 8/14 own-vision read. The choice now sits with Kim (her deadline 9/11; her archive has the structure).
+
+---
+
 # Alim — Action Plan (land / succeed / motivate)
 
 *Created 2026-08-16 from working session; ratified structure with James's amendments. Companion to the Tier-1 entry in `team_members_scope.md` and the T2 process in `reorg_july2026/`. The Exceeds campaign (`work/career/exceeds_h2_2026_campaign.md`) depends on this plan's Leg 2 — RR/Anticipation launches are half the headline case.*

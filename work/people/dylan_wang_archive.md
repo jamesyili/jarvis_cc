@@ -11,6 +11,15 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-17 — Her written H1 review lands a day early (form generated 8/17 7:46 PM; James captured it)
+
+Full record + peer/upward feedback + Leo read: `../career/h1_2026_review_record.md`. What it changes for Tuesday:
+
+- **Her Q3 is the Exceeds bar in her own hand:** "scale UPP, Anticipation, and Reflex beyond P13N… broader, repeatable capabilities for Pinterest" + "enabling EMs and TLs to lead major workstreams end to end." The workstream-3 Q1 bar question upgrades from open question to **confirmation**: play her Q3 back and ask whether December's case is exactly that, landed. The chosen headline (UPP + RR/Anticipation) sits inside her frame; **she names Reflex in all three answers** — it's more load-bearing to her than the campaign assumed.
+- **Her Q2 growth theme = scale through others, don't carry every high-stakes thread** (Reflex the named example). Register note for Tuesday: receive it as confirmation of what's already in James's submitted self-review (durable-scaling personal-improvement area, EMs/TLs own end-to-end + review-gate altitude) — the alignment is genuine, and it's also the Alim/Daniel-ramp story James is literally living this month.
+- **Tone check:** strong but not gushing — "strong contributions," "great progress," Act as One + Aim for Extraordinary cited twice. Values hooks for the December packet. No rating language (no ratings cycle at mid-year).
+- **Watch:** upward's one substantive note (high bar → pressure; calibrate high-stakes vs good-enough, prioritize so not everything feels urgent) is the team-side echo of her Q2. If she raises it Tuesday, the answer is the already-written commitment: workstream design assumes sustainable pace as a constraint; measured by zero repeat feedback in H2.
+
 ## 2026-08-16 — H1 review confirmed for Tue 8/18; Monday message finalized (trimmed); Tuesday card + Exceeds questions set
 
 Dylan confirmed the Tue 8/18 1:1 opens with James's **H1 perf review (15–20 min)**. The 8/13 plan below updated in the Sunday-evening session; James's trims are register data for his own outbound to her: **exactly the specified items, no optional adds, no agenda-leading** ("I don't need to have leading for Tuesday topics" — the closing reserve-line and an ML-Day FYI both cut).

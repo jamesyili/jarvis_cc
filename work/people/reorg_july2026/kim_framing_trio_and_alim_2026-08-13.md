@@ -1,6 +1,6 @@
 # Kim framing — trio sync (Mon 8/17) then Alim 1:1
 
-*Prepared 8/13 after Kim's 1:1 #2 (she self-selected into RR — full record: `../kim_toy_archive.md`). Sequence: **trio Mon 8/17 → Alim 1:1 → Alim↔Kim chat → 3-way (James+Daniel+Kim) → decision Fri 8/21.** Same story in both rooms at different depth: the trio gets energy-and-fit, the 1:1 gets design-and-sponsorship. Nothing in either room relies on anything Kim hasn't sanctioned.*
+*Prepared 8/13 after Kim's 1:1 #2 (she self-selected into RR — full record: `../team_members_scope.md` §Kim Toy — Archive (merged 8/17)). Sequence: **trio Mon 8/17 → Alim 1:1 → Alim↔Kim chat → 3-way (James+Daniel+Kim) → decision Fri 8/21.** Same story in both rooms at different depth: the trio gets energy-and-fit, the 1:1 gets design-and-sponsorship. Nothing in either room relies on anything Kim hasn't sanctioned.*
 
 **Never in either room:** the not-Daniel datapoint · Dhruvil's 1:1-only intel · the almost-missed-LR detail. Sanctioned substitute when setup comes up: *"her setup has been calibration-hostile — fragmented, loaned out, foundation work that's invisible at ratings — and I'm personally fixing that."*
 
@@ -53,4 +53,4 @@
 
 ---
 
-*Prep pointers: 3-way script + L16 path — T2 doc §Kim · trio run-of-show — `trio_sync_prep_2026-08-17.md` (Kim segment content updated by this doc) · verbatim 1:1 record — `../kim_toy_archive.md`.*
+*Prep pointers: 3-way script + L16 path — T2 doc §Kim · trio run-of-show — `trio_sync_prep_2026-08-17.md` (Kim segment content updated by this doc) · verbatim 1:1 record — `../team_members_scope.md` §Kim Toy — Archive.*
