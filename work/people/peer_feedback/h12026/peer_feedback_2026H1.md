@@ -15,6 +15,7 @@ Same process as the six below: pull context → confirm level/form → get James
 - [x] **Krystal** — drafted 2026-07-16 (§7 below). ⚠ Spelling: repo says **Krystal**; James dictated "Crystal" — verify against Workday before submitting.
 - [x] **Daniel Liu** — drafted 2026-07-17 (§12 below). Reading-chain constrained: reorg unannounced, must read identically before and after. James-observed incidents only.
 - [x] **Armando Ordorica** — drafted 2026-08-04 (§13 below). IC16 DS, Retentive Recs / KDD paper. Growth encoded as influence-and-leadership framing per James's stated intent; no friction language in the record.
+- [x] **Alex O** — drafted 2026-08-18 (§14 below). Senior Staff PM. No repo record of him at all — surname, level, and the worked-together line pending from James. Growth = absorb expert feedback + build recsys depth; AI-in-conversation folded into the first. Cross-check against James's own XFN-patience signal (`stakeholders.md` §9) before submitting.
 
 Open sharpening on the six done: Karim (2 `[Anchor:]` slots want concrete moments); Dimitra content-quality POV + Sai P2P-vision articulation would each gain from one anecdote.
 
@@ -267,3 +268,29 @@ The other strength I want to call out is that Armando does not just see through 
 **What is an area that this person could adjust - more of/less of - to be more effective?**
 
 The biggest opportunity I see for Armando is to bridge the ambition of his out-of-the-box thinking with the realities of the engineering workflow. His range as an idea generator is genuinely unusual, and some of his best contributions started as ideas nobody else would have proposed. The adjustment I would encourage is to pair each ambitious idea with its grounding at the moment he introduces it: what is feasible in the current stack, what the sequencing would look like, and what it asks of the engineers who would build it. When an idea arrives already bridged to the workflow, engineering counterparts can engage as co-owners from the start rather than working out the translation afterward. I offer this because I want to see his influence and his leadership grow. The quality of his thinking is not the ceiling on his impact; consistently landing that thinking with engineering partners is, and closing that gap would make him one of the most influential scientists in the org.
+
+---
+
+## 14. Alex O — cycle peer feedback (Senior Staff PM)
+
+> Drafted 2026-08-18 from James's dictation only. **No prior record of Alex O anywhere in the repo** (not in `stakeholders.md`, project files, or session logs) — surname, level confirmation, and the "worked together on" line all pending from James. Two growth threads per James: (1) absorb and act on domain-expert feedback, (2) build real recsys depth if he wants to live in that space. The AI point is folded into (1) as the concrete in-room behavior rather than standing as a third item.
+>
+> ⚠️ **Read against `stakeholders.md` §9.** James's own H1 mid-year growth area from Andrew is patience with and appreciation for XFN partners who "may not grok ML systems or the recsys stack." This feedback lands on precisely that surface, and Alex's chain may include readers who authored that signal. Written accordingly: strengths are real and specific, growth is about the collaboration pattern and about what would grow Alex's influence, never about his competence. No "doesn't understand" language in the record.
+
+**This person and I worked together on:**
+
+[Pending — projects / surfaces where James and Alex partnered]
+
+**What is a strength you observed working with this person?**
+
+Alex brings real knowledge and genuine curiosity to the problems he takes on, and he is unusually motivated to see them land. He forms a point of view before the meeting rather than during it, and he shows up with the kind of energy that pulls a project forward when it would otherwise sit. [Anchor: one moment where Alex's preparation or drive moved something concrete forward.] That combination is not the default. A lot of hard product work stalls simply because nobody cares enough to keep pushing on it, and Alex visibly does.
+
+His investment is also legible to the people around him, which matters more than it sounds like it should. When he believes in a direction, the room can tell, and that makes it easier for engineers to see why the work is worth their time. [Anchor: one project where Alex's visible investment changed how the team engaged.] Product partners who carry that kind of conviction are the ones who get hard things staffed and finished.
+
+**What is an area that this person could adjust - more of/less of - to be more effective?**
+
+The adjustment I would encourage most is shifting the balance between advocating and absorbing when domain experts are in the room. Alex arrives with a lot of well formed thinking, which is a real asset, but in several of our working sessions the plan looked the same coming out as it did going in, even after engineers with deep context on the system raised specific concerns. What I would like to see more of is treating expert pushback as the highest value input in the conversation: naming what he heard, saying what he intends to do differently because of it, and closing the loop in the next session. The ideas themselves would land considerably better, because the people who have to build them would see their input reflected in the plan.
+
+A related version of this shows up in how AI is showing up in these discussions. Generated material is entering the conversation faster than it can be grounded, and the effect is more surface area to evaluate live rather than more resolution. My suggestion is to use AI upstream of the meeting to pressure test his own thinking, then bring the conclusion and the reasoning behind it. What the room needs from a senior staff PM is the judgment call and the evidence for it.
+
+The second area compounds with the first, and it matters most if Alex wants recommendation systems to be his long term home. Some of the proposals to date rest on assumptions about how the recsys stack behaves that do not match how it actually behaves, and because they are stated with confidence they are expensive for the team to unwind. Recsys is a domain where the intuitive answer is often wrong, since candidate generation, ranking, and serving constraints interact in ways that do not follow product logic. He does not need to become an engineer. He needs enough of the mechanics that his conviction is calibrated, so he can tell the difference between a hard problem worth pushing on and one the system has already foreclosed. Given how much interest and drive he already brings, that depth is the thing that would convert both into durable influence with this org.
