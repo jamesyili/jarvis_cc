@@ -140,3 +140,5 @@
 | 2026-08-15 17:06 | gmail | [Leo] T2 Scenario Boards | /tmp/claude-1000/-home-james-src-leo/57a24a30-46eb-404e-b556-7a32db28fda4/scratchpad/t2-scenario-boards.html | to=jamesyili@gmail.com id=1a007e3ff0e6ba6c |
 | 2026-08-16 14:24 | gmail | [Leo] Qinglong 1:1 — Monday 8/17 (private) — co-authorship prep | work/projects/safe_journeys/qinglong_1on1_prep_2026-08-17.md | to=jamesyili@gmail.com id=1a00c75eab53ab59 |
 | 2026-08-16 17:05 | gmail | [Leo] Retentive recs LinkedIn post — 3 versions, humanized | self/blog/retentive-recs-linkedin-posts.md | body-only |
+| 2026-08-18 09:57 | gmail | [Leo] Quality and Safety Levers in the Recommendation Stack | work/projects/safe_journeys/joint_framework_v1.md | to=jamesyili@gmail.com id=1a015ceddd78f038 |
+| 2026-08-18 21:01 | gmail | [Leo] Quality and Safety Levers in the Recommendation Stack | work/projects/safe_journeys/joint_framework_v1.md | to=jamesyili@gmail.com id=1a0182e63ab39544 |

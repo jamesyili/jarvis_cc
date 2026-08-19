@@ -5,6 +5,8 @@
 James Li · August 2026 · Draft for comment
 
 > *Draft v5 — Leo, 2026-08-14. **NOT circulation-safe:** §7 and the flagged blockquotes inside §3 and §5.4 are internal. Cut before sharing. This is now the single doc — `demotion_doctrine.md` and `placement_doctrine_draft_v1.md` were folded in and deleted 2026-08-14 (recoverable from git at 0545a9f).*
+>
+> **STATUS (2026-08-18): private master — do not circulate in any form.** The circulating artifact is now `joint_framework_v1.md` (James + Qinglong co-authored, derived from this doctrine per the 8/18 grill — decisions in `joint_doc_plan.md`). This file stays as James's fuller private analysis: the unsoftened positions (RP-first sequencing, corpus/pool unification, the 7×-selection-effect critique), full tradeoff tables, and material for the exec-tab co-write and future categories.
 
 Michael's milestones doc asks for a tech design scalable across surfaces, with the tradeoffs surfaced. This is that. It is not a competing design — Content Quality's *Design Options* doc is a thorough treatment of one region of the space and most of what follows takes it as given.
 

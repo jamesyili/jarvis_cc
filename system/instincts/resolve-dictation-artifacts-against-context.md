@@ -3,13 +3,18 @@ id: resolve-dictation-artifacts-against-context
 trigger: James's input reads voice-dictated and a project/person name doesn't match known context ("Allen Utility", "PinRec v2", "Oliver"), especially when the name is headed into a work deliverable
 behavior: Resolve garbled names against repo context (projects, people, artifacts) and use the canonical name, but flag the mapping explicitly in the reply ("assuming PinRec v2 = Pin Selection v2 (PSv2)") so James can correct. For names Leo cannot resolve from context (new people), carry them verbatim but surface them in a pre-submit spelling check — dictated names are a known error class.
 confidence: 0.95
-evidence_count: 10
+evidence_count: 11
 created: 2026-07-09
-last_updated: 2026-08-17
+last_updated: 2026-08-18
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-18
+> (RACI→racy, RackGPD→RecGPT, "corporate selection"→corpus selection, "key and safety"→teen safety — all resolved inline with flagged mappings in the CQ 1:1 notes ingest; James corrected none.)
+Context: Qinglong 1:1 notes pasted from dictation during the joint-doc grill; resolutions applied before filing to sources/05.
+Signal: confirmation (non-correction)
 
 ### 2026-08-17 (review-night session) — phonetic-hypothesis offer works even for reaction-attribution
 > Decode chain: "library scoring"→LWS · "Lim"→Alim · "Chushi"→Chuxi · "Dan and Daniel"→trio roster — all flagged inline, confirmed by non-correction. "**Tingling**" (who reacted to a Slack message) had no roster match; Leo offered the phonetic hypothesis ("if that's Qinglong, it's his public co-sign") alongside the unknown-person branch; James mid-turn: "Qinglong not tingling."
