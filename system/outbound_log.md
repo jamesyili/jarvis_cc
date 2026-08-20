@@ -142,3 +142,4 @@
 | 2026-08-16 17:05 | gmail | [Leo] Retentive recs LinkedIn post — 3 versions, humanized | self/blog/retentive-recs-linkedin-posts.md | body-only |
 | 2026-08-18 09:57 | gmail | [Leo] Quality and Safety Levers in the Recommendation Stack | work/projects/safe_journeys/joint_framework_v1.md | to=jamesyili@gmail.com id=1a015ceddd78f038 |
 | 2026-08-18 21:01 | gmail | [Leo] Quality and Safety Levers in the Recommendation Stack | work/projects/safe_journeys/joint_framework_v1.md | to=jamesyili@gmail.com id=1a0182e63ab39544 |
+| 2026-08-19 18:35 | gmail | [Leo] Friday 8/21 — Trio Session (James · Alim · Daniel) | /tmp/claude-1000/-home-james-src-leo/038484c8-0e80-47ef-ab8c-20009c80e071/scratchpad/friday_trio_agenda_2026-08-21.md | to=jamesyili@gmail.com id=1a01ccecb2c81560 |
