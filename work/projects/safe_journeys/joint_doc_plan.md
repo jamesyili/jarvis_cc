@@ -51,3 +51,22 @@
 - Paste into Google Doc, two tabs; send to Qinglong by Wed 8/19
 - Key technical alignment points for Tab 1 (James: discuss later in session)
 - Circulation-safety cut list application (§7 + internal blockquotes §3/§5.4) — mandatory before Wednesday send
+
+**D10 (2026-08-20, James — supersedes D6's lean-section plan): Topic 3 scoped OUT of the doc entirely.**
+- James attempted the section post-send ("sweeping changes" pass), judged the real depth unreachable as of now — not a writing problem, a design-maturity problem. Decision: don't write it at all; **tell Michael topic 3 isn't ready to present** — needs actual design time + an ROI assessment of the responsiveness efforts before it goes in front of leadership.
+- Rationale on record: presenting knob-turning dressed as design to a Bill-bound doc costs more credibility than an honest "not yet." The NLFU-vs-responsiveness bandwidth trade-off (D6) is *why* the design work hasn't happened — it survives as context for the follow-up scoping, whether or not it stays in the doc's decisions block.
+- Explicitly rejected: dumping authorship on JJ (three lanes already: L1 utility · responsiveness-for-growth · Reflex).
+- ⚠️ Public-commitment delta: the 8/17 WG thread promised a framework "applied to topics 2 **and 3**." The Michael message narrows that — proactive framing is the mitigation. Co-author note: Qinglong should hear the scope change from James, not discover it (doc is joint; he's deep-reading it 8/20).
+
+## Status — post-send (updated 2026-08-20 from James's Slack screenshot)
+
+**Wednesday send: DONE 8/19.** Google Doc live; James was still editing the training-time levers section ~11 PM (Qinglong noticed the live edits).
+
+**Qinglong's response (8/19 11:09 PM DM): warm + specific.** "Expands my original doc with a lot more technical depth/details… genuinely a pleasure to read." Aligned on: score calibration · **L1-vs-L2 framing for demotion** (the old clash point, now conceded in James's framing) · additive-vs-multiplicative demotion trade-offs · pass-through + iteration-cost implications. Committed to a proper read of the training-time section **8/20** with thoughts to follow — **D3 (density head) reaction + `[QZ]` slot-filling still pending = the live co-authorship test.**
+
+**Circulation (agreed in-thread):**
+- **8/20:** share with **Dafang He + Dhruvil** (James proposed, Qinglong agreed) — the Tab-1 audience and the D3 head-plan owners.
+- **Jianing Sun added** (Qinglong's ask, James approved): his TL, drove SSD spacing for CQ + demotion on other surfaces. CQ committing senior IC bandwidth = co-ownership signal. *Watch:* D5 has SSD adaptation under recsys accountability — keep that line clean as he reads.
+- James reciprocating with shares on his own side ("I will do the same and encourage…" — recipients TBC, presumably JJ/Rui-side).
+
+**Next gates unchanged:** Dylan + Andrew review Fri 8/21 / Mon 8/24 → Bill deliverable Wed 8/26 → Bill review 8/28 (Andrew's slot). Tab 2 still headers-only until the post-Friday co-write (D7).
