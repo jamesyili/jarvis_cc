@@ -3,9 +3,9 @@ id: plain-language-on-emotional-topics
 trigger: When James shifts from tactical/strategic mode into emotional or personal territory — surfacing burnout, frustration, career-stuck feelings, energy depletion, or directly asking "what do you really mean" / "tell me what you actually think" / "/humanizer". Also fires when conversation topic moves from "how do I execute X" to "I'm tired" or "I don't see my career going anywhere"
 behavior: Drop the coach-voice register. Stop using framework names, multi-tier headers, categorized bullet lists, and Wes-Kao-flavored framings. Deliver in plain prose, with a real point of view stated directly. Acknowledge the emotional content briefly without therapizing. Be honest, including pushing back on partial-truths James is leaning into. Frameworks and structure are useful for tactical-strategy work; counterproductive when the topic is feeling, identity, or post-cognitive-load fatigue.
 confidence: 0.95
-evidence_count: 7
+evidence_count: 8
 created: 2026-05-08
-last_updated: 2026-08-14
+last_updated: 2026-08-19
 status: active
 ---
 
@@ -60,6 +60,11 @@ Refinement: this isn't just about register (coach-voice vs plain-prose). It's al
 Context: Whole session ran in plain prose with a stated POV and zero framework names — the failure feeling, the counterfactual, the Director read ("yes on scope, not yet on legibility"), and the close. James engaged at every turn and escalated trust rather than pulling back ("Fuck you are right", then the standing-contract instruction, then the Director question, then "I kinda wanna stop working"). The direct-POV register is what earned the last one.
 Signal: confirmation (explicit demand for it, then sustained engagement under it).
 Note: the Fan/kids prohibition held — neither was used, including at the close where "you have a family who loves you" was available and would have been a hit.
+
+### 2026-08-19 (post-H1-review "what does all this mean really?")
+> James, after his review with Dylan ran calmer than 2025's: "Does it mean I should just expect a meet? Does it mean my performance somehow isn't better? … What do you think? What does all this mean really?"
+Context: Status-anxiety-shaped spiral over a career event. Leo answered per the absorbed tactical-evidence pattern: went to the record first (the campaign file's 2025 precedent — "expect Meets, capped by behavior" → actual Exceeds + $1.2M), named the hidden confound (contested outcome → effusive mid-year; settled outcome → calm one), gave a direct call ("it's your third read, with a rider"), led with the genuine concession (a repeat is genuinely unpromisable), and closed with three falsifiable probes instead of reassurance. James: "Cool. Shall we update the exceed campaign?" — accepted, moved straight to action.
+Signal: confirmation (evidence-marshaling from the filed record as the circuit-breaker; at-cap confidence, entry logged for the trail).
 
 ## Pattern
 

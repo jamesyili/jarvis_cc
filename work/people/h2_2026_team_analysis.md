@@ -47,7 +47,7 @@ Alim's leg has **no delivering engine day 1** (by design), no L15+, a two-level-
 ### R5 — Daniel-side unknowns + the Yan context window
 The biggest single SSv2 slice (2.0) rides on a team James has never operated: Yang Liu on parental leave (return/ramp open), Yongwoo + Felix workstreams unknown, Kim Toy loaned to Dhruvil (wind-down owed to Dylan), Balaji placement open, IB flat ~6 months with an Andrew cut-paperwork history. Daniel's own H1 depends on Yan, who may exit — that context evaporates on his last day. Develop-or-document runs concurrently and quietly.
 **In motion:** Wed Yan 1:1 asks (review mechanics, inherited commitments, asks-with-dates); Daniel 1:1 questions; skip-levels from 8/10.
-**Gap:** a simple workstream map for Yongwoo/Felix/Yang is the cheapest unknown-killer — ask Daniel for it Tuesday.
+**Gap:** a simple workstream map for Yongwoo/Felix/Yang is the cheapest unknown-killer — ask Daniel for it Tuesday. ⟨MOSTLY CLOSED 8/19: Yongwoo + Felix initial 1:1s filed (first-hand workstream/career reads → their roster rows in `team_members_scope.md`); Yang waits for her return end-Nov.⟩
 
 ### R6 — Exec clocks: cost, GenAI, and the JJ dependency
 The $2M savings line ($1.2M on James's own leg) + the ~$5M/$1.8M investigation + the 12-week Bill/Anoop GenAI perception sprint + NLFU's SSv2-trade-off authorization **expiring end-Sept** all run on exec time, not team time. Three of these route through **JJ, who returns mid-Aug** to: GenAI placement doctrine, L1 hosting surface, NLFU responsiveness — while his IC16 case sits at Jeff's round with Kurchi's calibration sniping on record. A promo miss in this AI market converts the cost-line owner into a flight risk. ⟨RESOLVED 8/13: **JJ got the promo** — risk retired.⟩

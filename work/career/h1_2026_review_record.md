@@ -1,6 +1,6 @@
 # H1 2026 Mid-Year Review — Record (Dylan's write-up + peer + upward feedback)
 
-*Filed 2026-08-17 (evening) from James's screenshots: the MY-2026 review form (5 pages, generated 8/17 07:46 PM — pages 1, 4, 5 captured; pages 2–3 fragmentary) + the peer/upward feedback spreadsheet + a Gemini score summary James ran. James's submitted self-assessment matches `self_review_H1_2026_draft.md` (v2, 2026-07-10) nearly verbatim — use that file for the full self-review text; deltas noted below. Dylan delivers this live Tue 8/18 (1:1 opens with it, 15–20 min — see `../people/dylan_wang_archive.md` 8/16 entry). No ratings this cycle.*
+*Filed 2026-08-17 (evening) from James's screenshots: the MY-2026 review form (5 pages, generated 8/17 07:46 PM — pages 1, 4, 5 captured; pages 2–3 fragmentary) + the peer/upward feedback spreadsheet + a Gemini score summary James ran. James's submitted self-assessment matches `self_review_H1_2026_draft.md` (v2, 2026-07-10) nearly verbatim — use that file for the full self-review text; deltas noted below. Dylan delivered it live **Wed 8/19** (planned Tue 8/18 — slipped a day; delivery record = Part 6 below). No ratings this cycle.*
 
 ---
 
@@ -71,6 +71,10 @@ Free-text (4 comments captured):
 4. **Upward is strong (4.58), and the lowest score is AI-use expectations (4.45)** — notable given James's AI-first identity. Likely a legibility gap (expectations exist but aren't uniformly explicit per-person), cheap to fix: one written team-level AI-expectations note in H2 would close it.
 5. **Values language matters:** Dylan cites **Act as One + Aim for Extraordinary** twice, unprompted. Those are the two hooks to write the December packet against.
 6. **Yan's adjust is a coordinated signal, now confirmed:** she wrote the same ask into her peer feedback for James (written ownership/interface agreements between Unity/CG and experience teams) and into Daniel's H1 review (help establish the ML↔product-eng collaboration model). Same person, same window, both sides of the seam. One artifact — the ownership/interface doc — answers her ask in both reviews, and she's pre-committed to valuing it.
+
+## Part 6 — Delivery record (live 1:1, Wed 2026-08-19)
+
+Delivery matched the written text (she mostly read through it; sincere appreciation). James deliberately did **not** run the prepped Exceeds playback (Q1 bar-spec / Q2 repeat-year) — wrong moment after her off-books disclosure. What she added live is filed in `../people/dylan_wang_archive.md` (2026-08-19 entry): the bench ask (*"someone in the room when I'm not… Piyush, beyond him no one"* → coach Alim/Daniel), the Anticipation focus/bandwidth guidance, and the ⚠️ SECRET UPP-SSJ wind-down (~end of Q3) with *"let's land and escalate where needed"* on record. Net: the Part 5 manager-alignment read confirmed — she volunteered the bar unprompted; the playback re-venues to an ordinary September 1:1 as low-stakes confirmation. On James's calmer-than-2025 worry: resolved against the record — 2025's effusive mid-year reflected a contested outcome; this year's calm reflects a settled one (see Dylan archive 8/19 reads).
 
 ## Cross-references
 

@@ -50,7 +50,7 @@ Don't hedge variants into mush. Don't skip evidence. Don't end without the robus
 
 ### Cross-Org (Growth / Search)
 - **Shipeng Yu (Sr. Director, Growth)** — close to Dylan; now UPP supporter after initial friction; Brian Lee + Tingting are trust anchors.
-- **Kurchi (Sr. Director, SSJ)** — primary political counterweight to UPP; relationship warming but structurally adversarial.
+- **Kurchi (Sr. Director, SSJ)** — primary political counterweight to UPP; relationship warming but structurally adversarial. **8/19 ⚠️ SECRET (Dylan, closed-laptop):** Dylan is considering **stopping the UPP×SSJ collaboration ~end of Q3 (9/30)** — SSJ ranking-side churn, "tons of escalations" — refocusing UPP on Ads + Growth. Do not act visibly; no new SSJ-UPP commitments; land what's in flight ("let's land and escalate where needed" — Dylan). Full entry: `dylan_wang_archive.md` 8/19; consequences: `../projects/upp/upp_retrieval_em.md` 8/19.
 - **Jinfeng (IC18, P2P ML Lead)** — Kurchi’s champion; co-design counterpart. **2026-06-14: leaving the company.** As Kurchi's key technical lieutenant on P2P, his departure is a variable to watch — it may shift the P2P-blocking dynamics (Kurchi has been actively blocking P2P). Reassess the P2P path on return.
 
 ### Strategic Partners

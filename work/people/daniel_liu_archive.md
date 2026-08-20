@@ -294,6 +294,8 @@ Not execution — that question is closed (led rec teams at ByteDance; built the
 
 **Watch:** the RecGPT path puts Daniel in working contact with **Bella** — his one energized GenRet hesitation. Those conversations are a quiet live test of that working relationship, a direct T2 input. And RecGPT-path exploration must never read as GenRet placement signal — the no-trophy discipline holds.
 
+**⚠️ 8/19 addendum (SECRET source — do not surface to Daniel):** Dylan may stop the UPP×SSJ collaboration ~end of Q3 (`dylan_wang_archive.md` 8/19). The LWS·UPP lane is HF-internal integration and likely survives untouched — but keep the late-Sept deliverable from growing SSJ dependencies, and route any SSJ-adjacent scope questions to James. Separately, same 1:1: **Dylan named Daniel (or Alim) as the candidate to coach into "someone who can be in the room when I am not — who can scale my judgment"** — the LWS·UPP deliverable + the October decision week is exactly that rep; file outcomes against it.
+
 **Pre-send discipline:** this brief goes to Daniel **in writing before the Tuesday 1:1** (his channel; never a live battery) — live minutes go to Kim co-design, coverage, and the preference playback.
 
 ## Leg 2 — The absence IS the evaluation (8/21 → 9/11)

@@ -4,6 +4,15 @@
 
 ---
 
+## August 19, 2026 Update — ⚠️ SECRET: Dylan considering stopping the SSJ collaboration ~end of Q3 (closed-laptop, H1-review 1:1)
+
+**Do not propagate — Dylan asked for secrecy (then: "but what's the point").** At the 8/19 H1-review 1:1 she closed the laptop and said: because of churn and unhappiness on the SSJ ranking side (*"not having fun at all on UPP, tons of escalations"*), they're thinking about **stopping the UPP-SSJ collaboration with Kurchi and refocusing UPP collaboration on Ads and Growth — time-bound ~end of Q3 (9/30)**. James pushed back twice: unified messaging, and land the in-flight work ("we're getting really close"). Dylan: *"Of course — let's land, and let's escalate where needed."*
+
+- **Clock inversion:** anything on the SSJ line not landed by ~9/30 may never land. The P2P launch candidate (8/13: both gates arguably cleared) is the close-to-landing project — Dylan's escalation air cover is now on record for it; the 8/13 Jeff-escalation option has its blessing.
+- **Perimeter open:** does the stop cover only the Search-surface expansion + the Sai/LR-rebase wrestles, or P2P too (P2P sits in Kurchi's org)? "Let's land" implies in-flight P2P is protected — clarify with Dylan before acting on anything. Note it likely also dissolves the "Intentful UPP" doc/committee wrestle (7/27) by fiat.
+- **Pivot assets already in hand:** Ads — the 7/22 "P2P launch = ads-collaboration proof point" framing + Reflex-Ads inbound + Faisal considering UPP funding in Q4; Growth — Shipeng now a UPP supporter, the NLFU/Brian proposal scopes LFU-on-UPP, the Sen connect. When this goes public, James can look prescient rather than scrambling — warm those legs now; it discloses nothing.
+- **Collisions (can't disclose):** Kim's 9/11 decision (pitched partly on UPP receipts — flag filed in `../../people/team_members_scope.md`) · Daniel's LWS·UPP lane (HF-internal integration, likely survives — but keep the late-Sept deliverable from growing SSJ dependencies) · Search-surface GPU-serving push (8/13): don't spend new capital on SSJ-only productionization before the perimeter is clear.
+
 ## August 13, 2026 Update — both launch gates arguably cleared; Sai catch-up; staffing asks; notifs experiment incident
 
 **From James's status braindump (8/13):**
