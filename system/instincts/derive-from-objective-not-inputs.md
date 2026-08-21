@@ -1,11 +1,11 @@
 ---
 id: derive-from-objective-not-inputs
 trigger: James asks for a plan / meeting prep / agenda and lists candidate topics — or challenges a recommendation Leo has been carrying across sessions
-behavior: Derive the design independently from the objective FIRST, then reconcile with his listed topics — never assemble his suggestions into a plan and call it prep ("what might I be missing?" is the standing bar). And when he challenges a carried recommendation, re-derive it from scratch instead of defending it: state what the action would actually produce; if the answer is thin, downgrade it loudly. Watch for filing-drift — a claim restated across successive doc updates tends to inflate ("align" → "highest-information action") without new evidence; each restatement must re-earn its size.
-confidence: 0.7
-evidence_count: 4
+behavior: Derive the design independently from the objective FIRST, then reconcile with his listed topics — never assemble his suggestions into a plan and call it prep ("what might I be missing?" is the standing bar). And when he challenges a carried recommendation, re-derive it from scratch instead of defending it: state what the action would actually produce; if the answer is thin, downgrade it loudly. Watch for filing-drift — a claim restated across successive doc updates tends to inflate ("align" → "highest-information action") without new evidence; each restatement must re-earn its size. Extends to RECOMMENDATION RANKING — rank candidate work by the stated objective ("what makes X better"), never by convenience constraints (doable-from-this-machine, ties into a learning goal); when a rec gets rejected as boring/off-target, name the ranking bias out loud and re-rank honestly rather than defending.
+confidence: 0.8
+evidence_count: 5
 created: 2026-08-12
-last_updated: 2026-08-16
+last_updated: 2026-08-20
 status: active
 ---
 
@@ -24,6 +24,11 @@ Signal: correction
 ### 2026-08-13
 > "i have no idea wtf this is. kill it from your notes"
 Context: The "fall demo" — the GenRet park's anchor event across the whole T2 doc — turned out not to exist. Provenance trace: a Reflex "fall glory deliverable" aspiration (7/29 notes) → 8/10 session log compressed it to "the fall demo already scheduled" → 8/11–12 sessions transplanted it into the T2 design as a scheduled GenRet milestone. A phrase hardened into a fact, then into a load-bearing decision anchor, across three session boundaries, with no re-derivation. Sharpest instance yet of the filing-drift clause: before building a mechanism on a named event/date/fact, trace it to a primary entry in the repo; if the trace dies in a paraphrase, flag it instead of building on it. 13 live-doc references scrubbed; park re-anchored to the date ("November decides on evidence + criteria"), which the rationale never actually needed the event for.
+Signal: correction
+
+### 2026-08-20
+> "This sounds boring as hell. I don't think this will actually make reflex better. I think you're overreaching a little bit."
+Context: Asked "what should I do for Reflex," Leo recommended the paired-bootstrap gate build — a ranking quietly dominated by "doable from this machine tonight" and "matches the learning anchor" instead of the stated objective (make Reflex better). On the pushback, Leo named the bias explicitly and re-ranked to the verifiability path (measurement zero, Skeptic mode-1 check, blind test); James then produced his own better idea (the LR connector) and the session's main artifact followed. The concede-and-re-derive move restored momentum immediately.
 Signal: correction
 
 ### 2026-08-16 (confirmation — positive instance)

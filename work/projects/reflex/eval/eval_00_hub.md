@@ -14,12 +14,19 @@
 | **`eval_03_evolve_feedback_and_contract.md`** | **Janvi** | 8 design suggestions + the EvalResult v2 schema and gate implementation |
 | **`eval_04_curator_measurement_proposal.md`** | **Andrew / Dylan** (Curator owner) | making the Feedback Curator measurable; 3 design deltas |
 | **`eval_05_verifiability_and_attempts_store.md`** | me, pre-circulation | program strategy: partition card failures by verifiability, and build a store of what was tried. **New 8/15** |
+| **`eval_07_world_store_proposal.md`** | me → then Andrew/Dylan (homing), Janvi (contract), Chao (eval consumer) | the World Store + LR Connector proposition — Detect-stage memory closing the Prove→Detect gap; executes the corpus half of `eval_05`. **New 8/20, grilled + ratified in-session** |
 
-Not part of this set: `../messaging/seam_message_drafts_2026-08-12.md` (Shifu comms), `../research/sources/` (verbatim inputs), `feedback_curator_and_skeptic.md` (the Curator design doc `eval_04` builds on).
+Not part of this set: `../messaging/seam_message_drafts_2026-08-12.md` (Shifu comms), `../research/sources/` (verbatim inputs), `feedback_curator_and_skeptic.md` (the Curator design doc `eval_04` builds on), and `reflex_eval_evolve_notes_0816.html` (the 8/16 consolidated working-notes export from the work side — the iteration record these docs were synced against on 8/20).
 
 ---
 
 ## 2. State of play (8/15)
+
+**Update 8/20 — the 8/16 consolidated notes landed** (`reflex_eval_evolve_notes_0816.html`, dropped into `eval/` by James; the work-side iteration record — glossary + eval_02–05 + a references section, one day newer than this folder's 8/15 state). Repo synced to it 8/20:
+- **`eval_01` revised to the 8/16 state:** objects renumbered (pattern store → 5, Curator groups → 6), object 7 renamed **Record of System Launches** (hindsight set now the shorthand alias), new **2-vs-4** section (judge-scoped vs program-scoped holdout — James's question), and Part B reworked — the Pareto collision expanded into the load-bearing argument for `eval_03` §1–2, and **`blame()` upgraded from a naming fix to an open design question for Janvi and Chao** (three ordered questions in `eval_01` Part B: mechanism? signal? was round-robin considered?). Raise it in the same conversation as open item 5's seam naming — it's the same seam (judge blind spots would mis-target Evolve's entire search).
+- **Lesson 17 closed** (see §9 row 17) — the notes' references section carries full readings of the YouTube paper and EvoRec.
+- **Canonical Google-Doc links for Chao's proposal and Janvi's TDD** are now on record (§8) — they existed nowhere in the repo before this drop.
+- **Later same day: `eval_07_world_store_proposal.md` written** — James's new build (the LR Connector + World Store, Detect-homed, Curator as dual-store custodian). Decisions D1–D5 ratified in-session; glossary candidate object 8 filed. First move is Phase 0 verification at work (Helix→Glean access, the §7.5 slice query). Supersedes nothing — it *executes* `eval_05` §5's corpus half and forces the Curator-ownership resolution productively.
 
 | Workstream | Owner | Status |
 |---|---|---|
@@ -64,7 +71,7 @@ Not part of this set: `../messaging/seam_message_drafts_2026-08-12.md` (Shifu co
 
 **Curriculum**
 
-13. Lesson **17** (Google/YouTube self-evolving recsys + EvoRec) remains — the only two sources in the batch with *production* results in recsys. **The original twelve plus 13–16 are closed as of 8/15.**
+13. ~~Lesson **17** (Google/YouTube self-evolving recsys + EvoRec) remains~~ — **closed 8/16** (per the consolidated notes' references section). **All seventeen lessons are now closed.**
 14. **Check whether Detect maintains anything like Belief or Progress** (§9, Lesson 16). Experience exists as `quality_patterns.md`; the other two may not. A code question, not a design question, and it decides whether the cheapest finding in Lesson 16 applies here at all.
 
 ---
@@ -167,6 +174,10 @@ Timing: Chao's next step is GEPA-optimizing the judge on ~20 cards — the lockb
 - `harness_evals_github_readme.md` — open-source eval framework (normalized 0–1 Score + threshold); EvalHub-adjacent comparison point for the build-vs-adopt paragraph.
 - `arxiv_2607.12227_rethinking-harness-evolution-evals.pdf` — "Rethinking the Evaluation of Harness Evolution for Agents" (Wang et al., AI2/UW, 13 pp) — directly on how to evaluate the kind of loop Evolve is.
 - Plus the two source proposals themselves: `chao_detect_eval_proposal_2026-07-09.pdf`, `janvi_evolve_tdd_2026-08-04.pdf`.
+
+**Canonical internal doc links (filed 8/20 from the 8/16 notes):**
+- Reflex Detect Eval — Chao Wang: https://docs.google.com/document/d/1mIFj1vzClSwXegocdkYwAdzBxXpMiT3mr9PDXQ9z6mE
+- Reflex Evolve TDD — Janvi Palan: https://docs.google.com/document/d/1IyTAM2xXOfnOFVEovkasPFNcvW1Oj5EleW1yJB21lpY/edit?tab=t.0
 ---
 
 ## 9. Curriculum index
@@ -191,7 +202,7 @@ Full lesson content is in my own notes, not here. This records what each lesson 
 | 14 | SkillOS — the curator is the bottleneck | 8/15 | `eval_04` entire; compression objective → `eval_03` §5 |
 | 15 | AutoHarness — harness beats model size when the critic can't lie; credit assignment from the error signature | 8/15 | `eval_05` entire; §15½ reconciliation (both papers agree evolution works within-task, not across); third parent-selection strategy |
 | 16 | EvoHarness-RL — BPE harness state; structure is cheap, training is expensive; harness annealing | 8/15 | the verifiable-signal reframe and the RL sequencing argument (above); BPE gap → open item 14; annealing as a Curator health metric → `eval_04` |
-| 17 | Google/YouTube self-evolving recsys + EvoRec | pending | — |
+| 17 | Google/YouTube self-evolving recsys + EvoRec — the two production existence proofs | 8/16 | YouTube: the two-loop split (cheap fast proxy / expensive slow truth); Reflex has the fast loop (judge) and **is missing the Slow Loop** (experiment journal → live experiments → north-star feedback) — another argument for the attempts store + Record of System Launches; guardrails-as-explicit-constraints → veto criteria. EvoRec: **the single most useful citation for arguing the Curator deserves investment** (+1.85% revenue from distilling methodology out of past experiments); curation is a first-class component, not plumbing |
 
 **Positions I now hold (derived in session, not just read):**
 - *Every channel that folds graded-card information back into the system is an optimizer, and each must be explicitly fed or fenced.* Channels: judge GEPA, playbook GEPA, Feedback Curator.
@@ -211,7 +222,7 @@ Full lesson content is in my own notes, not here. This records what each lesson 
 
 **Two more positions, from Lesson 11's checks (8/15):**
 - **At a low human–human κ, the artifact to ask for is the disagreement set with both rationales — not more calibration cards.** Scaling a measurement that doesn't agree with itself buys noise. The rationales separate the two failure modes, which need different fixes: raters interpreting the same criterion differently is a rubric problem and is writable-around; raters holding genuinely different views of what a good card is is an unresolved question about what Detect is *for*, and has to be adjudicated by someone with authority over that.
-- **A high human–human κ raises the value of the frozen sets, not lowers it.** Agreement is reliability, not validity — a panel can agree consistently and still be consistently wrong about what makes a card valuable. High κ also means the judge can be fit tightly to the humans, so overfitting the calibration set gets *easier*. The **lockbox** catches the leak (internal validity); the **hindsight set** is the one that answers "are we converging on something meaningful, or just agreeing with each other" (construct validity). Don't conflate them — see `eval_01` §4-vs-5.
+- **A high human–human κ raises the value of the frozen sets, not lowers it.** Agreement is reliability, not validity — a panel can agree consistently and still be consistently wrong about what makes a card valuable. High κ also means the judge can be fit tightly to the humans, so overfitting the calibration set gets *easier*. The **lockbox** catches the leak (internal validity); the **hindsight set** is the one that answers "are we converging on something meaningful, or just agreeing with each other" (construct validity). Don't conflate them — see `eval_01` §4-vs-7.
 
 ---
 

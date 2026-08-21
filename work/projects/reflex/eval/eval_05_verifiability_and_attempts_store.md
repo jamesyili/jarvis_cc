@@ -97,7 +97,7 @@ This is the third appearance of the same survivorship structure in this program:
 
 ### 5.3 What it unlocks beyond mode 2
 
-The hindsight set (glossary object 5) measures **recall** — of things that proved out, how many did Detect surface. It is scored against what shipped, so it too is biased toward positives.
+The Record of System Launches (glossary object 7, a.k.a. the hindsight set) measures **recall** — of things that proved out, how many did Detect surface. It is scored against what shipped, so it too is biased toward positives.
 
 An attempts store adds the missing axis: **precision against reality.** Of the things Detect proposed, how many were actually tried, and how many of those failed? Today a Detect card that was pursued and didn't pan out looks like nothing at all. That's a false positive the program currently cannot see.
 

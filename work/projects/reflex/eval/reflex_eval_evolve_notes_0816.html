@@ -1,0 +1,1243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reflex Eval & Evolve — Glossary</title>
+<style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #6b6b6b;
+  --accent: #2c5cdd;
+  --border: #e5e5e5;
+  --row-alt: #fafafa;
+  --code-bg: #f4f4f5;
+  --callout-bg: #f5f8ff;
+  --callout-border: #c7d4f7;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1a1a;
+    --fg: #e8e8e8;
+    --muted: #999;
+    --accent: #7a9cff;
+    --border: #333;
+    --row-alt: #232323;
+    --code-bg: #262626;
+    --callout-bg: #1d2438;
+    --callout-border: #3a4a78;
+  }
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+}
+.meta {
+  color: var(--muted);
+  font-size: 13px;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.meta .kind {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--callout-bg);
+  border: 1px solid var(--callout-border);
+  border-radius: 4px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+h1 { font-size: 28px; line-height: 1.25; margin: 0 0 16px; font-weight: 700; }
+h2 { font-size: 22px; line-height: 1.3; margin: 32px 0 12px; font-weight: 650; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+h3 { font-size: 18px; line-height: 1.35; margin: 24px 0 8px; font-weight: 600; }
+h4 { font-size: 16px; margin: 20px 0 8px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+p { margin: 0 0 14px; }
+ul, ol { margin: 0 0 14px; padding-left: 24px; }
+li { margin-bottom: 6px; }
+li > ul, li > ol { margin-top: 6px; margin-bottom: 0; }
+strong { font-weight: 650; }
+em { font-style: italic; }
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+a:hover { border-bottom-color: var(--accent); }
+hr { border: 0; border-top: 1px solid var(--border); margin: 32px 0; }
+blockquote {
+  margin: 16px 0;
+  padding: 8px 16px;
+  border-left: 3px solid var(--accent);
+  background: var(--callout-bg);
+  color: var(--fg);
+  border-radius: 0 4px 4px 0;
+}
+blockquote p:last-child { margin-bottom: 0; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 13.5px;
+  background: var(--code-bg);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 12px 14px;
+  overflow-x: auto;
+  font-size: 13.5px;
+  line-height: 1.5;
+  margin: 16px 0;
+}
+pre code { background: transparent; padding: 0; }
+.table-wrap { overflow-x: auto; margin: 16px 0; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+th, td { padding: 8px 12px; border: 1px solid var(--border); text-align: left; vertical-align: top; }
+th { background: var(--row-alt); font-weight: 650; font-size: 13px; text-transform: uppercase; letter-spacing: 0.03em; color: var(--muted); }
+tbody tr:nth-child(even) { background: var(--row-alt); }
+@media (max-width: 600px) {
+  .wrap { padding: 16px 14px 48px; }
+  h1 { font-size: 24px; }
+  h2 { font-size: 19px; }
+  h3 { font-size: 16.5px; }
+  body { font-size: 15.5px; }
+  table { font-size: 13.5px; }
+  th, td { padding: 6px 8px; }
+}
+</style>
+<style>
+:root { --outline-w: 300px; }
+/* Override the shared 760px/auto-centered wrap: fill the space right of the rail
+   up to a readable cap, so wide tables aren't squeezed and there's no dead
+   right-hand gutter. margin-right is fixed (not auto) so the box grows to fill. */
+body.has-outline .wrap {
+  max-width: 1400px;
+  margin-left: calc(var(--outline-w) + 2.5rem);
+  margin-right: 2.5rem;
+}
+/* Let wide tables break out to the full content width even past the prose cap. */
+body.has-outline .table-wrap { max-width: 100%; }
+body.has-outline table { min-width: max-content; }
+nav.doc-outline {
+  position: fixed; top: 0; left: 0; width: var(--outline-w); height: 100vh;
+  overflow-y: auto; box-sizing: border-box; padding: 1.25rem 1rem 2rem;
+  border-right: 1px solid rgba(0,0,0,0.08); background: rgba(250,250,250,0.97);
+  font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);
+}
+@media (prefers-color-scheme: dark) {
+  nav.doc-outline { background: rgba(28,28,30,0.97); border-right-color: rgba(255,255,255,0.1); }
+}
+nav.doc-outline .outline-title {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+  opacity: 0.55; margin: 0 0 0.75rem 0.25rem; font-weight: 600;
+}
+nav.doc-outline a {
+  display: block; padding: 3px 8px; border-radius: 5px; text-decoration: none;
+  color: inherit; opacity: 0.8; border-left: 2px solid transparent;
+}
+nav.doc-outline a.lvl-1 { font-weight: 600; margin-top: 0.55rem; opacity: 0.95; }
+nav.doc-outline a.lvl-2 { padding-left: 20px; font-size: 12.5px; opacity: 0.7; }
+nav.doc-outline a:hover { background: rgba(120,125,190,0.12); opacity: 1; }
+nav.doc-outline a.active {
+  background: rgba(120,125,190,0.16); border-left-color: rgb(120,125,190);
+  opacity: 1; font-weight: 600;
+}
+@media (max-width: 900px) {
+  body.has-outline .wrap { margin-left: 0; }
+  nav.doc-outline { display: none; }
+}
+</style>
+</head>
+<body class="has-outline">
+<nav class="doc-outline"><div class="outline-title">Outline</div>
+<a class="lvl-1" href="#reflex-eval-evolve-glossary">Reflex Eval &amp; Evolve — Glossary</a>
+<a class="lvl-1" href="#part-a-datasets">Part A — Datasets</a>
+<a class="lvl-2" href="#the-two-questions-that-separate-every-dataset">The two questions that separate every dataset</a>
+<a class="lvl-2" href="#the-seven-objects">The seven objects</a>
+<a class="lvl-2" href="#aliases-in-the-wild-what-each-source-doc-calls-these">Aliases in the wild — what each source doc calls these</a>
+<a class="lvl-2" href="#the-one-paragraph-version">The one-paragraph version</a>
+<a class="lvl-1" href="#part-b-mechanisms-and-terms">Part B — Mechanisms and terms</a>
+<a class="lvl-2" href="#clarifying-pareto-meaning">Clarifying Pareto meaning</a>
+<a class="lvl-2" href="#open-question-for-janvi-and-chao-what-is-blame-for">Open question for Janvi and Chao: what is blame() for?</a>
+<a class="lvl-2" href="#proposed-terminology-for-harness">Proposed terminology for &quot;harness&quot;</a>
+<a class="lvl-2" href="#gepa-reflex-mapping">GEPA ↔ Reflex mapping</a>
+<a class="lvl-2" href="#skillos-reflex-mapping">SkillOS ↔ Reflex mapping</a>
+<a class="lvl-2" href="#agreement-always-say-percentage-agreement-or-cohens">&quot;Agreement&quot; — always say percentage-agreement or Cohen&#x27;s κ</a>
+<a class="lvl-2" href="#terms-to-pin-reflex-internal-no-external-analogue">Terms to pin (Reflex-internal, no external analogue)</a>
+<a class="lvl-1" href="#eval-integrity-protocol-for-the-detect-judge-lockbox-versioning">Eval-Integrity Protocol for the Detect Judge (Lockbox + Versioning)</a>
+<a class="lvl-2" href="#1-the-lockbox-a-frozen-holdout-neither-optimizer-ever-sees">1. The lockbox: a frozen holdout neither optimizer ever sees</a>
+<a class="lvl-2" href="#2-judge-versioning-no-score-comparisons-across-judge-versions">2. Judge versioning: no score comparisons across judge versions</a>
+<a class="lvl-2" href="#3-blind-audits-concentrated-where-the-judge-is-happiest">3. Blind audits, concentrated where the judge is happiest</a>
+<a class="lvl-2" href="#4-contamination-policy-graded-cards-stay-out-of-the-learning-loop">4. Contamination policy: graded cards stay out of the learning loop</a>
+<a class="lvl-2" href="#sizing-note-what-20-labels-can-and-cant-support">Sizing note: what ~20 labels can and can&#x27;t support</a>
+<a class="lvl-2" href="#what-im-volunteering">What I&#x27;m volunteering</a>
+<a class="lvl-1" href="#evolve-tdd-design-feedback">Evolve TDD — design feedback</a>
+<a class="lvl-1" href="#part-1-design-suggestions">Part 1 — Design suggestions</a>
+<a class="lvl-2" href="#1-separate-acceptance-from-parent-selection">1. Separate acceptance from parent selection</a>
+<a class="lvl-2" href="#2-give-the-gate-a-statistical-margin-and-the-contract-the-fields-to-support-it">2. Give the gate a statistical margin, and the contract the fields to support it</a>
+<a class="lvl-2" href="#3-ablate-blame-and-consider-replacing-it-with-per-component-feedback-at-scoring-time">3. Ablate blame(), and consider replacing it with per-component feedback at scoring time</a>
+<a class="lvl-2" href="#4-add-a-matched-budget-baseline-arm-to-the-success-criteria">4. Add a matched-budget baseline arm to the success criteria</a>
+<a class="lvl-2" href="#5-put-parsimony-pressure-on-the-spec">5. Put parsimony pressure on the spec</a>
+<a class="lvl-2" href="#6-pre-flight-the-incumbent-before-each-generation">6. Pre-flight the incumbent before each generation</a>
+<a class="lvl-2" href="#7-protect-verification-rules-by-changing-their-container-not-by-guarding-prose">7. Protect verification rules by changing their container, not by guarding prose</a>
+<a class="lvl-2" href="#8-close-the-two-open-gaps-in-security-and-rollback">8. Close the two open gaps in security and rollback</a>
+<a class="lvl-1" href="#part-2-the-contract">Part 2 — The contract</a>
+<a class="lvl-2" href="#21-metricscore">2.1 MetricScore</a>
+<a class="lvl-2" href="#22-evalresult">2.2 EvalResult</a>
+<a class="lvl-2" href="#23-the-gate">2.3 The gate</a>
+<a class="lvl-2" href="#24-what-changed-since-the-812-draft-and-why">2.4 What changed since the 8/12 draft, and why</a>
+<a class="lvl-2" href="#25-migration">2.5 Migration</a>
+<a class="lvl-2" href="#what-im-not-raising">What I&#x27;m not raising</a>
+<a class="lvl-2" href="#sources">Sources</a>
+<a class="lvl-1" href="#feedback-curator-making-it-measurable-and-three-design-deltas">Feedback Curator — making it measurable, and three design deltas</a>
+<a class="lvl-2" href="#1-what-this-proposes-in-one-paragraph">1. What this proposes, in one paragraph</a>
+<a class="lvl-2" href="#2-what-the-existing-design-already-covers">2. What the existing design already covers</a>
+<a class="lvl-2" href="#3-the-gap-the-design-has-operations-but-no-metrics">3. The gap: the design has operations but no metrics</a>
+<a class="lvl-2" href="#4-three-design-deltas">4. Three design deltas</a>
+<a class="lvl-2" href="#5-what-this-proposal-does-not-do">5. What this proposal does not do</a>
+<a class="lvl-2" href="#6-open-questions-and-what-id-want-from-whoever-owns-this">6. Open questions and what I&#x27;d want from whoever owns this</a>
+<a class="lvl-1" href="#making-reflexs-failures-verifiable-the-partition-and-the-attempts-store">Making Reflex&#x27;s failures verifiable — the partition, and the attempts store</a>
+<a class="lvl-2" href="#1-the-idea">1. The idea</a>
+<a class="lvl-2" href="#2-the-taxonomy-a-start-not-a-finish">2. The taxonomy — a start, not a finish</a>
+<a class="lvl-2" href="#3-what-the-partition-buys">3. What the partition buys</a>
+<a class="lvl-2" href="#4-measurement-zero-the-ratio-that-gates-all-of-this">4. Measurement zero — the ratio that gates all of this</a>
+<a class="lvl-2" href="#5-the-attempts-store">5. The attempts store</a>
+<a class="lvl-2" href="#6-the-filter-already-exists-on-paper">6. The filter already exists on paper</a>
+<a class="lvl-2" href="#7-risks">7. Risks</a>
+<a class="lvl-2" href="#75-where-to-start-picking-the-first-slice">7.5 Where to start — picking the first slice</a>
+<a class="lvl-2" href="#8-sequencing">8. Sequencing</a>
+<a class="lvl-2" href="#9-open-questions">9. Open questions</a>
+<a class="lvl-2" href="#references-the-papers-behind-this-program">References — the papers behind this program</a>
+</nav>
+
+<div class="wrap">
+<div class="meta">
+<span class="kind">base</span>
+</div>
+<h1 id="reflex-eval-evolve-glossary">Reflex Eval &amp; Evolve — Glossary</h1>
+<p><strong>Purpose:</strong> there are seven distinct datasets in the Reflex eval program, and a mechanism vocabulary shared with GEPA that does not always mean the same thing on both sides. This file fixes one canonical name per object and records every alias in the wild, so a sentence in a review comment can't quietly mean two things.</p>
+<p>Written 2026-08-14 because the terminology collided in James's own working session — the strongest available evidence that it will collide in the group's. <strong>Extended 2026-08-15</strong> after the GEPA paper, the DSPy implementation, and SkillOS were read into the KB: Part A gained two objects, and Part B was added because the most dangerous collision found so far — "Pareto" — is not a dataset name at all.</p>
+<p><strong>This is also the work-leo transfer artifact.</strong> A work-leo session shares no state with this one. This file plus <code>eval_00_hub.md</code> is the intended cold-start pair.</p>
+<hr />
+<h1 id="part-a-datasets">Part A — Datasets</h1>
+<h2 id="the-two-questions-that-separate-every-dataset">The two questions that separate every dataset</h2>
+<p>Every set below is fully specified by two answers. Nothing else matters for telling them apart.</p>
+<ol>
+<li><strong>Where do its labels come from?</strong> A human grading a card, or the world recording an outcome.</li>
+<li><strong>Who is allowed to optimize on it?</strong> A specific optimizer, or nobody.</li>
+</ol>
+<p>That's it. All five objects are combinations of those two answers.</p>
+<hr />
+<h2 id="the-seven-objects">The seven objects</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Canonical name</th>
+<th>What it is</th>
+<th>What it catches</th>
+<th>Who may optimize on it</th>
+<th>Labels come from</th>
+<th>Status today</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>LLM Judge calibration set</strong></td>
+<td>Cards with human labels (binary pass/no-pass + rationale)</td>
+<td>Judge-human misalignment</td>
+<td>LLM judge GEPA loop</td>
+<td>Humans grading cards</td>
+<td>~20 PM-graded cards via Asana forms</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>LLM Judge holdout</strong></td>
+<td>Human-labeled cards withheld from judge optimization</td>
+<td>Judge overfit to the calibration set</td>
+<td>Nobody; the LLM judge is scored on it</td>
+<td>Humans grading cards</td>
+<td>Needs to be built</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Evolve fixture bank</strong></td>
+<td>The recorded Asana/Presto/MCP snapshots each candidate playbook runs against</td>
+<td>Nothing; it's the training input</td>
+<td>Evolve Playbook GEPA loop</td>
+<td>N/A</td>
+<td>Specified in the TDD</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Ultimate holdout / Golden Set / Lockbox</strong></td>
+<td>Human-labeled cards, frozen, entering <em>no</em> optimizer's objective — not judge GEPA, not playbook GEPA, not the Feedback Curator</td>
+<td>The whole stack fooling itself; leakage; overfit</td>
+<td>Nobody; everything scores on it, nothing tunes on it</td>
+<td>Humans grading cards (ideally periodically refreshed)</td>
+<td>Needs to be built</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Pattern store</strong> (<code>quality_patterns.md</code>)</td>
+<td>The Curator's institutional memory, read by PM/DS agents and the Skeptic each cycle</td>
+<td>Nothing directly — but it is the <strong>third channel</strong> by which graded-card information re-enters the system (§9)</td>
+<td>The Feedback Curator writes it (human-merged); Detect agents consume it</td>
+<td>N/A</td>
+<td>Live; 341 lines at cycle 13, unmeasured since</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Curator evaluation groups</strong></td>
+<td>Runs of <em>related</em> cycles, used to ask whether a curation decision helped a later related card</td>
+<td>Curator accretion: patterns that are written but never help anything</td>
+<td>The Feedback Curator</td>
+<td>Outcomes of related cards</td>
+<td>Needs to be built, ideally with some notion of cycle / card lineage to help define "relatedness"</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Record of System Launches</strong></td>
+<td>World-at-T snapshots + the record of what actually shipped or proved out between T and T+n</td>
+<td>Construct failure: optimizing legibility instead of discovery</td>
+<td>Nobody — read periodically as a drift check</td>
+<td>History: system-level outcome snapshots to help ensure construct validity</td>
+<td>Needs to be built in a way that keeps track recurringly (e.g. monthly) of what ended up shipping</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="why-5-and-6-belong-in-a-dataset-table">Why 5 and 6 belong in a dataset table</h3>
+<p>Object 5 (pattern store) has no labels, which is also true of the fixture bank — both are inputs, and the table is organized by <em>access rules</em>, not by label type. §9's contamination finding is precisely an access rule: calibration and lockbox cards must be excluded from pattern extraction, or scores self-inflate.</p>
+<p>Object 6 (Curator evaluation groups) is the one with a structural requirement that conflicts with the others. <strong>Judge evaluation needs cards spread across cycles; Curator evaluation needs cards grouped within a lineage.</strong> Lesson 6 treated cycle-clustering as a statistical nuisance that shrinks effective n; SkillOS's largest single ablation showed the same clustering <em>is the training signal</em> for curation (random task sequences cost more than removing either reward term). Both are true. They are different datasets and cannot be the same set.</p>
+<h3 id="the-distinction-that-actually-matters-4-vs-7">The distinction that actually matters: 4 vs 7</h3>
+<p>Both are frozen. Both are optimized on by nobody. That's why they blur. Here is the difference:</p>
+<ul>
+<li><strong>Ultimate holdout / Lockbox (4): humans grade cards.</strong> Same construct as the judge. Answers <em>"is this number real, or did we leak?"</em> → <strong>internal validity.</strong></li>
+<li><strong>Record of System Launches (7): history grades outcomes.</strong> Different construct entirely. Answers <em>"is this number measuring the thing I care about?"</em> → <strong>construct validity.</strong></li>
+</ul>
+<p>A perfect lockbox score with a flat launch-record number means the loop is optimizing card legibility. The lockbox cannot detect that — it is scored by the same judge, so it reports the same construct error with a clean conscience. <strong>This is the reason both must exist.</strong> They are not redundant frozen sets; they catch different failures, and Lesson 6 vs Lesson 7 is exactly this split.</p>
+<h3 id="2-vs-4-llm-judge-holdout-vs-ultimate-holdout-the-question-you-asked">2 vs 4 — LLM Judge holdout vs Ultimate holdout (the question you asked)</h3>
+<p>Both are human-labeled cards that <strong>nobody optimizes on</strong>, and both are scored <em>against</em>, never tuned <em>on</em>. So why two objects? Because they answer to different optimizers and therefore catch different failures — the difference is <strong>scope</strong>, not content:</p>
+<ul>
+<li><strong>LLM Judge holdout (2) is judge-scoped.</strong> It is withheld from the <em>judge's</em> GEPA loop only. Its single job: detect whether the judge overfit its calibration set — i.e. whether the judge memorized the ~20 calibration cards rather than learning to grade. It is silent about everything downstream of the judge.</li>
+<li><strong>Ultimate holdout / Lockbox (4) is program-scoped.</strong> It is withheld from <em>every</em> optimizer in the program — judge GEPA, playbook GEPA, <strong>and</strong> the Feedback Curator. Its job: detect whether the <em>whole stack</em> is fooling itself, including the failure the judge holdout structurally cannot see — the coupled-loop leak where the playbook generator learns to exploit the judge's blind spots, or the Curator folds test cards back into <code>quality_patterns.md</code>.</li>
+</ul>
+<p>The sharpest way to hold it: <strong>a card can pass the judge holdout and still be poisoning the lockbox.</strong> If the judge is well-calibrated (holdout clean) but the playbook optimizer has discovered the judge's systematic blind spots, judge-scoped tests all look healthy while program quality rots — exactly what only the lockbox catches. The judge holdout guards <em>one optimizer</em>; the lockbox guards <em>the interaction of all of them</em>. Draw them from the same human-labeled pool with an explicit split, or they contaminate each other on day one.</p>
+<h3 id="1-vs-4-the-other-easy-confusion">1 vs 4 — the other easy confusion</h3>
+<p>Both are human-graded cards. The difference is permission, not content: the calibration set is <em>training data for the judge</em>; the lockbox is <em>the sealed exam nobody studies from</em>. If the two are ever drawn from the same pool without an explicit split, the lockbox is already contaminated on day one.</p>
+<hr />
+<h2 id="aliases-in-the-wild-what-each-source-doc-calls-these">Aliases in the wild — what each source doc calls these</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Object</th>
+<th>Appears as</th>
+<th>Where</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 — Judge calibration set</td>
+<td>"graded cards", "human-labeled cards", "the ~20 cards", "Phase 1 labels"</td>
+<td>Chao's proposal; session notes</td>
+</tr>
+<tr>
+<td>2 — Judge holdout</td>
+<td>"held-out split", "leave-one-out CV"</td>
+<td>§B.6 of the critique doc</td>
+</tr>
+<tr>
+<td>3 — Evolve fixture bank</td>
+<td><strong>"case bank"</strong>, "fixture store", "fixtures", "cases"</td>
+<td>Janvi's TDD; §12 of the critique doc</td>
+</tr>
+<tr>
+<td>4 — Lockbox</td>
+<td><strong>"ultimate holdout"</strong> (James's notes), <strong>"golden set"</strong> (James, 7/24 meeting), "frozen holdout", "sealed cases"</td>
+<td>James's notes; §E.3; the lockbox one-pager</td>
+</tr>
+<tr>
+<td>5 — Pattern store</td>
+<td>"quality_patterns", "institutional memory", "patterns file", <strong>"SkillRepo"</strong> (SkillOS's name for the same object)</td>
+<td>Curator design doc; §9 of the critique doc; SkillOS</td>
+</tr>
+<tr>
+<td>6 — Curator evaluation groups</td>
+<td><strong>"grouped task streams"</strong> (SkillOS), "task groups", "lineage"</td>
+<td>SkillOS §3.2.1; §1.5 <code>Evidence:</code> field</td>
+</tr>
+<tr>
+<td>7 — Record of System Launches</td>
+<td><strong>"hindsight set"</strong>, "hindsight-recall case bank", "the anchor", "outcome anchor"</td>
+<td>§E.4, §G of the critique doc</td>
+</tr>
+<tr>
+<td>—</td>
+<td>"recall gold set" — a <em>different</em> thing again: past PM roadmaps used as a recall reference. Critiqued in §B.5 and being replaced by object 7</td>
+<td>Chao's proposal</td>
+</tr>
+</tbody>
+</table></div>
+<hr />
+<h2 id="the-one-paragraph-version">The one-paragraph version</h2>
+<blockquote>
+<p>Humans grade cards. Some of those grades train the judge (<strong>calibration set</strong>); some are withheld to check the judge didn't just memorize them (<strong>judge holdout</strong>); and some are sealed away from every optimizer in the program so we can tell whether the whole stack is fooling itself (<strong>lockbox</strong>). Separately, the playbook optimizer runs candidates against recorded world-snapshots (<strong>Evolve fixture bank</strong>). And finally, one set is graded not by humans at all but by history — what actually shipped and proved out (<strong>hindsight set</strong>) — because every other number in the program is ultimately somebody's opinion of a card, and only that one can tell us whether we're finding things or just writing well.</p>
+</blockquote>
+<hr />
+<h1 id="part-b-mechanisms-and-terms">Part B — Mechanisms and terms</h1>
+<p>Added 2026-08-15. Part A fixes the <em>nouns for data</em>. This part fixes the <em>nouns for machinery and measurement</em>, because the sharpest ambiguities in the program turned out to live here. Lessons 15–17 (AutoHarness, EvoHarness-RL, the two recsys papers) will add to this section.</p>
+<h2 id="clarifying-pareto-meaning">Clarifying Pareto meaning</h2>
+<p>"Pareto" is the most dangerous word in the Evolve review, because it names two <strong>unrelated</strong> mechanisms that are both live in the <em>same</em> conversation — not, as with most terminology drift, in two documents read by different people. One is a parent-<strong>selection</strong> distribution borrowed from the GEPA paper; the other is an acceptance <strong>gate</strong> invented in Janvi's TDD. They share a name and nothing else: different axes, different job, different math, and — critically — opposite exposure to a hazard nobody has measured yet. If a review comment says "the Pareto step," half the room hears selection and half hears the gate, and the disagreement that follows is real but invisible.</p>
+<h3 id="the-two-things-pareto-refers-to">The two things "Pareto" refers to</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Instance-Pareto</strong> — GEPA's selection frontier (paper §3.1, Alg. 2; DSPy <code>candidate_selection_strategy="pareto"</code>)</th>
+<th><strong>Dimension-Pareto</strong> — Evolve's acceptance gate (Janvi's TDD)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Axes are</strong></td>
+<td><strong>task instances</strong> — one objective per case in the selection set <code>D_pareto</code> (30 cases → a 30-dimensional frontier)</td>
+<td><strong>judge rubric dimensions</strong> — the 5 quality scores (clarity, evidence, rigor, actionability, novelty)</td>
+</tr>
+<tr>
+<td><strong>What it decides</strong></td>
+<td><em>which parent to mutate next</em> — it is a sampling distribution over the candidate pool, not a yes/no</td>
+<td><em>whether a mutated candidate is kept</em> — a pass/fail admission test</td>
+</tr>
+<tr>
+<td><strong>Mechanism</strong></td>
+<td>keep every candidate that leads on ≥1 instance (the frontier), prune the strictly dominated, then sample the next parent with probability ∝ the number of instances it leads</td>
+<td>require the child to <strong>no-worse-dominate</strong> the parent — ≥ on all 5 dimensions and &gt; on at least one</td>
+</tr>
+<tr>
+<td><strong>What it's for</strong></td>
+<td><em>exploration</em> — it stops the search collapsing onto one lineage, preserving candidates that are only good on a few cases so their strengths can recombine (GEPA calls this "illumination")</td>
+<td><em>quality control</em> — the intent is to refuse any candidate that regresses a dimension, even if its average went up</td>
+</tr>
+<tr>
+<td><strong>Axis correlation</strong></td>
+<td><strong>not a hazard.</strong> More instances = a richer, higher-dimensional frontier; correlation between cases just means fewer distinct leaders, which is fine</td>
+<td><strong>the central hazard.</strong> The 5 judge dimensions are almost certainly correlated (LLM rubrics usually are), and correlation makes "dominate on all 5" easy to pass on noise — the false-accept rate climbs toward 50% as correlation → 1</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="the-fact-that-settles-the-confusion">The fact that settles the confusion</h3>
+<p><strong>GEPA's acceptance test is a plain scalar.</strong> In Algorithm 1 (lines 13–14) a mutated candidate is accepted iff its <strong>average minibatch score</strong> improved over the parent's — one number, before vs. after. Multi-objective reasoning appears nowhere in GEPA's <em>acceptance</em>; the only place GEPA is multi-objective is <em>parent selection</em> (Alg. 2), and there the objectives are task instances, never rubric dimensions. So:</p>
+<blockquote>
+<p><strong>GEPA cannot be cited in support of a dimension-Pareto acceptance gate.</strong> The paper's Pareto machinery is doing the <em>opposite</em> job (selection, not admission) over <em>different axes</em> (instances, not dimensions). Reflex's gate is a genuine Reflex invention, and it inherits a correlation-driven failure mode that GEPA's design never had to reason about.</p>
+</blockquote>
+<p>This matters beyond vocabulary: the case <em>for</em> the dimension-Pareto gate leans on "GEPA does Pareto," and that support evaporates once the two senses are separated. It's the load-bearing argument in <code>eval_03</code> §1 (separate acceptance from parent selection) and §2 (give the gate a statistical margin) — both of which follow directly from the table above.</p>
+<h3 id="the-fix">The fix</h3>
+<p>Never write bare "Pareto." Use:
+- <strong>"instance-Pareto (parent selection)"</strong> — GEPA's frontier over cases; the exploration mechanism Reflex <em>should</em> adopt and currently lacks.
+- <strong>"dimension-Pareto (acceptance gate)"</strong> — Reflex's rubric-dimension admission test; the thing under scrutiny, and the thing GEPA does not do.</p>
+<h2 id="open-question-for-janvi-and-chao-what-is-blame-for">Open question for Janvi and Chao: what is <code>blame()</code> for?</h2>
+<p>This one isn't a naming collision to legislate away — it's a <strong>design question I don't think has an owner's answer yet</strong>, and it should be asked directly rather than resolved unilaterally in a glossary.</p>
+<p><strong>The factual starting point: <code>blame()</code> is not standard GEPA.</strong> GEPA selects which component to mutate with <code>SELECTMODULE</code> (Algorithm 1, line 8), and the policy is <strong>round-robin</strong> — it just cycles through the components in order. The DSPy reference implementation agrees: <code>component_selector="round_robin"</code> by default (<code>RoundRobinReflectionComponentSelector</code>). GEPA never <em>computes</em> which component is at fault; credit assignment is either <strong>implicit</strong> (the reflection LM reads the execution trace and figures out what to change) or <strong>supplied by the feedback function</strong> (<code>µf</code> returns component-scoped feedback). A named <code>blame()</code> selector that picks the component to mutate is therefore a <strong>Reflex-specific departure</strong> from the configuration GEPA's published results were measured on. Anyone reading the TDD will assume it's stock GEPA; it isn't.</p>
+<p><strong>My best reconstruction of the rationale</strong> (from where <code>blame()</code> appears in the TDD, not from a stated design note — so this is inference, flag it as such when raising it): the intent seems to be <em>efficiency under a tiny budget</em>. Evolve has ~450 invocations total; round-robin spends mutations on components that may be fine, and <code>blame()</code> looks like an attempt to spend the budget only on the component actually responsible for a low score — a targeted alternative to round-robin's blind cycling. That is a reasonable instinct. The concern is <em>how</em> it locates the culprit: if <code>blame()</code> works by <strong>re-reading the judge's rationales</strong> to decide what to mutate, it inherits every rationale bias into the targeting decision — and those biases are large and measured (verbosity bias made MT-Bench evaluators prefer the longer answer &gt;90% of the time; position bias 50–70%; self-enhancement 10–25%). A <code>blame()</code> that reads rationales carrying a &gt;90% verbosity bias will systematically point at whichever component emits the most text, regardless of fault. It would also be reconstructing, after the fact, information the judge already had and threw away when it collapsed its reasoning into five numbers — where GEPA's actual move is the opposite: extend the metric into a feedback function <code>µf</code> that captures the evaluation trace <em>at scoring time</em> (DSPy: <code>pred_name</code> + <code>pred_trace</code>) and hands it straight to reflection.</p>
+<p><strong>The questions to put to them, in order:</strong>
+1. <strong>What is <code>blame()</code> actually designed to do</strong> — pick the single component to mutate (a <code>SELECTMODULE</code> replacement), or weight/prioritize among components? Confirm the mechanism, because the rest depends on it.
+2. <strong>What signal does it read</strong> — judge rationales, raw scores, execution traces, or something else? If rationales, the bias problem above is live.
+3. <strong>Was round-robin considered and rejected, or just not adopted?</strong> If there's a reason round-robin fails for Reflex specifically, it should be written down; if not, round-robin is the proven default and <code>blame()</code> carries the burden of proof.</p>
+<p><strong>Why alignment here matters</strong> (this is the part worth stressing to them): the judge is <em>itself</em> being GEPA-optimized by Chao while Evolve uses it as the fitness signal. If <code>blame()</code> reads the judge's output to decide what to mutate, then <strong>a judge blind spot doesn't just mis-score a candidate — it mis-<em>targets the entire search</em>,</strong> steering mutation budget toward the wrong component generation after generation. That couples Chao's judge work and Janvi's loop far more tightly than either doc acknowledges, and it's exactly the seam (<code>eval_00</code> structural finding 1) where two people's work silently interacts. The cheap resolution is <code>eval_03</code> §3: <strong>ablate <code>blame()</code> against round-robin</strong> (one config value, since it's structurally a custom <code>ReflectionComponentSelector</code>) and keep it only if it beats round-robin by a margin the fixture bank can resolve — and, better, move component-scoped feedback to scoring time so reflection reads the trace, not a reconstructed attribution.</p>
+<h2 id="proposed-terminology-for-harness">Proposed terminology for "harness"</h2>
+<p>"Harness" carries three distinct meanings across the sources now in the KB, so bare "harness" in a cross-team doc gets read in whichever sense the reader last encountered. Rather than police the word, here's the qualified vocabulary to adopt — pick the specific term and the ambiguity disappears:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Use this term</th>
+<th>Means</th>
+<th>Where the sense comes from</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>agent harness</strong></td>
+<td>the scaffold around the model — prompts, tools, the loop, context management; everything that isn't the weights</td>
+<td>Anthropic long-running-agent post; DSPy</td>
+</tr>
+<tr>
+<td><strong>eval harness</strong></td>
+<td>the fixture-and-evaluation infrastructure — the recorded-snapshot + replay plumbing that scores a candidate</td>
+<td><code>louis-wang/the-harness-is-the-moat</code>; Reflex internal usage</td>
+</tr>
+<tr>
+<td><strong>synthesized harness</strong></td>
+<td>a generated <strong>code artifact</strong> the agent runs inside — scaffolding the system writes and then optimizes</td>
+<td>AutoHarness, EvoHarness-RL</td>
+</tr>
+</tbody>
+</table></div>
+<p>The three are easy to conflate in Reflex specifically because it has all three at once: the agent harness (the PM/DS prompts + tools), the eval harness (the fixture bank + judge), and — if Evolve ever synthesizes playbook scaffolding — a synthesized harness. When in doubt, say which one; "the harness is the moat" is about the <strong>eval harness</strong>, whereas AutoHarness/EvoHarness-RL results are about the <strong>synthesized harness</strong>, and the two don't transfer to each other.</p>
+<h2 id="gepa-reflex-mapping">GEPA ↔ Reflex mapping</h2>
+<p>For reading the GEPA paper or DSPy source against the TDD.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>GEPA / DSPy</th>
+<th>Reflex</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>candidate</td>
+<td>candidate playbook / spec version</td>
+<td></td>
+</tr>
+<tr>
+<td>candidate pool <code>P</code>, ancestry <code>A</code></td>
+<td><code>versions/vN.md</code> + version history</td>
+<td></td>
+</tr>
+<tr>
+<td>Reflective Prompt Mutation</td>
+<td>the mutation step</td>
+<td></td>
+</tr>
+<tr>
+<td><code>SELECTMODULE</code> (round-robin)</td>
+<td><code>blame()</code></td>
+<td><strong>not equivalent</strong> — see "what is <code>blame()</code> for?" above</td>
+</tr>
+<tr>
+<td>feedback function <code>µf</code> / <code>GEPAFeedbackMetric</code></td>
+<td>the judge, extended</td>
+<td><code>pred_name</code> + <code>pred_trace</code> are where per-component credit legitimately enters</td>
+</tr>
+<tr>
+<td><code>D_feedback</code> (minibatch source)</td>
+<td>fixture bank slice per generation</td>
+<td></td>
+</tr>
+<tr>
+<td><code>D_pareto</code> (selection/validation set)</td>
+<td>—</td>
+<td><strong>no Reflex equivalent named</strong></td>
+</tr>
+<tr>
+<td>minibatch improvement test (Alg. 1 L13–14)</td>
+<td>—</td>
+<td>Reflex uses the dimension-Pareto gate here instead</td>
+</tr>
+<tr>
+<td><code>candidate_selection_strategy</code> = <code>"pareto"</code> | <code>"current_best"</code></td>
+<td>—</td>
+<td>makes the exploration ablation a one-line config change</td>
+</tr>
+<tr>
+<td>System-Aware Merge (<code>use_merge</code>)</td>
+<td>—</td>
+<td>not in the TDD</td>
+</tr>
+<tr>
+<td>rollout budget</td>
+<td>the 450-invocation budget</td>
+<td>GRPO's entry ticket on IFBench was 24,000 rollouts; GEPA's was 678</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="skillos-reflex-mapping">SkillOS ↔ Reflex mapping</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>SkillOS</th>
+<th>Reflex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>frozen agent executor <code>π_L</code></td>
+<td>PM Agent / DS Agent</td>
+</tr>
+<tr>
+<td>skill curator <code>π_S</code></td>
+<td><strong>Feedback Curator</strong></td>
+</tr>
+<tr>
+<td>SkillRepo</td>
+<td><code>quality_patterns.md</code> (object 5)</td>
+</tr>
+<tr>
+<td><code>insert_skill</code> / <code>update_skill</code> / <code>delete_skill</code></td>
+<td>intake (§1.3.1) / conflict resolution (§1.3.2) / decay handling (§1.3.3)</td>
+</tr>
+<tr>
+<td>BM25 retrieval</td>
+<td>ranked pattern lookup (§1.3.4)</td>
+</tr>
+<tr>
+<td>grouped task streams</td>
+<td>Curator evaluation groups (object 6)</td>
+</tr>
+<tr>
+<td>compression reward <code>r_comp</code></td>
+<td><strong>no equivalent</strong> — see <code>eval_04_curator_measurement_proposal.md</code> §4.2</td>
+</tr>
+<tr>
+<td>—</td>
+<td>lineage / audit trail (§1.3.5) — <strong>SkillOS has no equivalent</strong></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="agreement-always-say-percentage-agreement-or-cohens">"Agreement" — always say percentage-agreement or Cohen's κ</h2>
+<p>Not a Reflex-invented collision, but it will decide a real call, so it belongs here. <strong>Percentage agreement</strong> is the raw fraction of cards two raters scored the same. <strong>Cohen's κ</strong> is the same comparison corrected for chance agreement. They diverge enough to reverse a conclusion: one published evaluator scored <strong>80% percentage agreement and κ = 0.62</strong>, and across studies judges have appeared to <em>beat</em> the human ceiling on percentage agreement (85% vs. 81%) while sitting well <em>below</em> it on κ (0.84 vs. 0.97) for comparable tasks. Correlation metrics (Spearman's ρ, Kendall's τ) also don't correct for chance and run high — one study reported κ of 0.3–0.5 where τ/ρ were 0.8–0.9 on the same data.</p>
+<p><strong>Fix:</strong> never write bare "agreement" or bare "the ceiling." Write <strong>"human–human κ"</strong> and <strong>"judge–human κ"</strong>, and state the metric on every number. Reflex's grading is binary, which is exactly the case where κ is the right tool (see <code>eval_02</code> sizing note).</p>
+<h2 id="terms-to-pin-reflex-internal-no-external-analogue">Terms to pin (Reflex-internal, no external analogue)</h2>
+<p><strong>fitness</strong> — the judge's output used as the optimization objective. Always qualify with judge version; cross-generation comparisons are only valid within one judge version (§2). · <strong>landing re-run</strong> — re-execution of an accepted candidate before it lands. · <strong><code>never_mutable</code></strong> — glob-based protection on files; does <em>not</em> protect prose spans inside mutable files (the Lesson 4 gap). · <strong>shadow validation</strong> — evolved spec run beside the incumbent on the next live rotation, proposed in §12, not in the TDD. · <strong><code>is_pareto_axis</code></strong> — TDD flag defaulting to <code>true</code>, which silently promotes any new diagnostic metric into a gate axis (§11).</p>
+<hr />
+<h1 id="eval-integrity-protocol-for-the-detect-judge-lockbox-versioning">Eval-Integrity Protocol for the Detect Judge (Lockbox + Versioning)</h1>
+<p><strong>Audience: Chao (owner), Gideon, Janvi, Dafang. Deliver as a comment/linked doc on Chao's Detect Evaluation Proposal.</strong></p>
+<hr />
+<p><em>Framing note (for James, not for the doc): this is your 7/24 meeting comments — binary pass/no-pass, hold out a golden set, beware reward hacking — made executable. Post it as "concretizing what I asked for in the review," not as new requirements.</em></p>
+<hr />
+<p>At the 7/24 review I flagged three things: keep the primary label binary, hold out a golden set if we use GEPA, and watch for reward hacking. Before the first GEPA run on the judge, here's the concrete version of those asks — four rules, each about a day or less of work, all cheaper now than retrofitted.</p>
+<h2 id="1-the-lockbox-a-frozen-holdout-neither-optimizer-ever-sees">1. The lockbox: a frozen holdout neither optimizer ever sees</h2>
+<p>We are about to run two coupled optimization loops: GEPA tunes the <strong>judge</strong> to human labels (Stage 1), then GEPA tunes the <strong>generator/playbooks</strong> against the judge (Stage 2). The generator will find the judge's blind spots — and a GEPA-tuned judge has <em>systematic</em> blind spots. The only measurement that stays trustworthy is one neither loop ever touched.</p>
+<p><strong>Rule:</strong> Before the first GEPA run, split the human-labeled cards: ~60–70% calibration (GEPA may use), ~30–40% <strong>lockbox</strong> (frozen). Lockbox cards never appear in GEPA train/val data, never as few-shot examples in any prompt, and never in Feedback-Curator pattern extraction (see rule 4). New human labels get split the same way on arrival.</p>
+<p><strong>Use:</strong> After every judge change, report judge–human agreement on <strong>both</strong> sets. Calibration agreement up while lockbox agreement is flat or down = we optimized noise, not judgment → revert. This is a one-line table per run, not a dashboard project.</p>
+<h2 id="2-judge-versioning-no-score-comparisons-across-judge-versions">2. Judge versioning: no score comparisons across judge versions</h2>
+<p>The judge is being optimized while Evolve/Stage-2 uses it as a fitness function. If the judge changes mid-experiment, score deltas are unattributable — we can't tell an improved playbook from a drifted judge.</p>
+<p><strong>Rule:</strong> Every judge prompt/model/rubric change bumps <code>judge_version</code>. Every eval result records the <code>judge_version</code> that produced it. Within one optimization run, search and the landing re-run use the <strong>same pinned version</strong>. Fitness comparisons across playbook generations are only valid within a judge version; when the judge upgrades, re-baseline.</p>
+<p>(Natural home: a <code>judge_version</code> field in the EvalResult contract in Janvi's TDD — happy to write that PR. Schema drafted in <code>eval_03_evolve_feedback_and_contract.md</code> §2.2.)</p>
+<h2 id="3-blind-audits-concentrated-where-the-judge-is-happiest">3. Blind audits, concentrated where the judge is happiest</h2>
+<p>Reward hacks concentrate in the region the judge scores highest — that's what "hacking" means. So spot-checks sampled uniformly will miss them.</p>
+<p><strong>Rule:</strong> Each optimization cycle (or biweekly, whichever is shorter), a human grades 5–10 cards drawn mostly from the judge's <strong>top-scored</strong> output, blind — grader doesn't see the judge's score, and for evolved-vs-baseline comparisons doesn't know which is which. Discovered hacks become explicit negative rubric items in the next judge version (which bumps <code>judge_version</code>, per rule 2).</p>
+<h2 id="4-contamination-policy-graded-cards-stay-out-of-the-learning-loop">4. Contamination policy: graded cards stay out of the learning loop</h2>
+<p>The Feedback Curator folds learnings from graded cards into <code>quality_patterns.md</code>, which the agent reads next cycle. If calibration/lockbox cards feed that extraction, the system slowly memorizes its own test set and scores self-inflate without quality moving.</p>
+<p><strong>Rule:</strong> Cards used for judge calibration or the lockbox are tagged, and the Feedback Curator excludes tagged cards from pattern extraction. One filter, one sentence of policy, saves us a quietly corrupted eval later.</p>
+<p><strong>Judge-as-gate corollary.</strong> If the judge ever also acts as a live filter (only cards above a threshold surface to PMs), every downstream human label is sampled from the judge's survivors — the judge's blind spots vanish from the label distribution, recalibration then "confirms" the judge, and the loop self-seals. So this policy covers judge-as-gate, not just judge-as-scorer: a fixed fraction of human grading each cycle samples cards <strong>judge-blind</strong> — drawn before the gate, including cards the judge would have rejected — and lockbox refresh draws only from that pre-gate stream.</p>
+<h2 id="sizing-note-what-20-labels-can-and-cant-support">Sizing note: what ~20 labels can and can't support</h2>
+<p>~20 PM-graded cards is a solid pilot for <strong>measuring</strong> judge–human agreement. It's too small to <strong>optimize</strong> the judge against without overfitting. Two preconditions before the first GEPA run on the judge.</p>
+<h3 id="precondition-1-measure-the-ceiling-in">Precondition 1 — measure the ceiling, in κ</h3>
+<p>Double-grade a subset: two PMs, same cards, independently. Then report <strong>Cohen's κ for human–human and judge–human on the same cards, side by side.</strong></p>
+<p><strong>Use κ, not percentage agreement.</strong> This is not pedantry — the two metrics give opposite answers on the same data, because percentage agreement doesn't correct for chance and κ does. In the MT-Bench study, gpt-4 hit 85% agreement against a human–human 81%, i.e. the judge appeared to <em>beat</em> the human ceiling. In a study using κ on a comparable task, gpt-4 scored 0.84 against a human–human 0.97 — well below it. The sharpest single number: one evaluator had <strong>80% percentage agreement and a Cohen's κ of 0.62.</strong> Those are the same evaluator.</p>
+<p>Two columns of binary pass/fail naturally produce a percentage-agreement number. That number will be optimistic, and at n≈20 it also carries a 95% CI of roughly ±17pp before clustering. Both errors point the same way — toward "we're at the ceiling, ship it."</p>
+<p>Three outcomes, and the plan currently only anticipates one:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Result</th>
+<th>Reading</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>judge–human κ ≥ human–human κ</td>
+<td>Judge is at the ceiling</td>
+<td>GEPA gains would be noise. Don't run it; invest in rubric clarity.</td>
+</tr>
+<tr>
+<td>judge–human κ below a <strong>high</strong> human–human κ</td>
+<td>Real headroom</td>
+<td>GEPA is justified — this is the case the current plan assumes</td>
+</tr>
+<tr>
+<td><strong>human–human κ is itself low</strong> (&lt; ~0.6)</td>
+<td><strong>The criteria are underspecified</strong></td>
+<td>No judge optimization fixes this. Fix the rubric first.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The third branch deserves weight. The human–human κ of 0.97 quoted above comes from a near-objective task (is this answer correct, given a reference). "Is this opportunity card good" is considerably more subjective, so a lower ceiling is the likely outcome. If PMs don't agree with each other, a judge fitted to predict them is being fitted to noise.</p>
+<p>So the framing isn't "prove the judge needs work." It's <strong>find out whether we have a judge problem or a criteria problem</strong> — a question worth answering either way.</p>
+<h3 id="precondition-1b-the-artifact-to-ask-for-is-the-disagreement-set-with-rationales">Precondition 1b — the artifact to ask for is the disagreement set, with rationales</h3>
+<p>If human–human κ comes back low, the instinct will be to collect more calibration cards. That's the wrong move: more cards at a low κ buys more noise, not more signal.</p>
+<p>The artifact to ask for instead is <strong>the cards the two raters split on, paired with both rationales.</strong> No new labels required — it's already collected. It separates the two failure modes, which need completely different fixes:</p>
+<ul>
+<li><strong>Raters applying different interpretations of the same criterion</strong> → a rubric problem. Fixable by sharpening definitions and adding veto criteria.</li>
+<li><strong>Raters holding genuinely different views of what a good card is</strong> → not a rubric problem. It's an unresolved question about what Detect is <em>for</em>, and it has to be adjudicated by someone with authority over that, not written around.</li>
+</ul>
+<p>The rationales do double duty: they're also the human-authored <code>feedback_text</code> a GEPA loop consumes directly, and the raw material for deriving rubric criteria from contrastive pairs.</p>
+<h3 id="precondition-2-optimize-at-50-labels">Precondition 2 — optimize at ~50+ labels</h3>
+<p>With the lockbox split above (or leave-one-out CV with variance reported, if we truly can't wait). Until then: run the judge uncalibrated, visualize, and accumulate labels — exactly the current plan, just with the split in place from day one.</p>
+<h2 id="what-im-volunteering">What I'm volunteering</h2>
+<ul>
+<li>The lockbox split + tagging scheme on the current labeled set (with whoever owns the Asana grading flow).</li>
+<li>The <code>judge_version</code> / trial-level-scores / provenance fields as a PR to the EvalResult contract (with Janvi).</li>
+<li>The blind-audit sampling script (draw from top-scored, strip scores, randomize order).</li>
+</ul>
+<p>None of this blocks the current plan — run the uncalibrated judge, collect labels, visualize. It just makes sure that when we do turn on GEPA, we can still trust what the numbers say.</p>
+<h1 id="evolve-tdd-design-feedback">Evolve TDD — design feedback</h1>
+<p>Eight suggestions, ordered by how much they change. Each states the concrete change, the reason, and what it costs. Grounded in the GEPA paper (arXiv 2507.19457v2, ICLR 2026 Oral), its reference implementation in DSPy, SkillOS, and AI2/UW 2607.12227 — all now in the KB, cited by line where it matters.</p>
+<p>Context this is written against: the TDD is the strongest doc in the eval program. Typed contract, one-component mutations, un-bypassable human gate, landing re-run, version history, success criteria with healthy/broken bands. Everything below is at the margins — but the margins are where the loop either measures something or doesn't.</p>
+<p><strong>Part 1</strong> is the design suggestions. <strong>Part 2</strong> is the concrete contract: the EvalResult v2 schema and the gate implementation, drafted 8/12 against TDD §3.2/§3.3.5 and revised 8/15 to match suggestion 1. Part 2 supersedes the standalone straw-schema doc that circulated on 8/12 — if you have that version, this one replaces it, and the difference is called out in §2.4.</p>
+<hr />
+<h1 id="part-1-design-suggestions">Part 1 — Design suggestions</h1>
+<hr />
+<h2 id="1-separate-acceptance-from-parent-selection">1. Separate acceptance from parent selection</h2>
+<p><strong>Suggestion.</strong> Split the two jobs the Pareto machinery is currently doing at once.</p>
+<ul>
+<li><strong>Acceptance:</strong> a single aggregate score plus a statistical margin. Accept a candidate only if a paired bootstrap over the fixture cases puts the CI on the per-case difference clear of zero.</li>
+<li><strong>Parent selection:</strong> instance-Pareto over fixture <em>cases</em> — retain candidates that lead on at least one case, prune strictly dominated ones, sample the next parent with probability proportional to the number of cases it leads.</li>
+<li><strong>The five rubric dimensions</strong> become diagnostics, plus optional hard-floor <strong>veto criteria</strong>. They stop being gate axes. Retire <code>is_pareto_axis</code>; replace it with <code>is_veto_axis</code> defaulting to <strong>false</strong> and <code>is_diagnostic</code> defaulting to true.</li>
+</ul>
+<p><strong>Why.</strong> GEPA runs exactly this split, and it's easy to miss because both halves are called Pareto. Its frontier (Alg. 2) is over task instances and decides <em>which parent to mutate next</em>. Its acceptance test (Alg. 1, lines 13–14) is a plain scalar: average minibatch score before vs. after, accept if improved. Multi-objective reasoning appears nowhere in acceptance.</p>
+<p>The current design does the opposite — dimension-Pareto for acceptance, nothing for parent diversity — and that inherits both known failure modes. Strict dominance over five noisy axes is not a strict gate, it's a high-variance one, and where it sits depends entirely on the judge's inter-dimension correlation, which has not been measured. If the dimensions were independent, a candidate genuinely identical to its parent passes on noise alone about 3% of the time, and a candidate that is truly better on one axis and neutral on the rest passes only ~5% of the time — the gate discards ~95% of real single-axis improvements. If the dimensions are strongly correlated, which is the common outcome for LLM-judge rubrics, the noise-accept rate rises toward 50% and the gate stops filtering at all. The true number is somewhere between, and nobody knows where.</p>
+<p>Three independent lines land on the same recommendation: GEPA's own acceptance is scalar; the rubric literature finds implicit aggregation beats explicit weighted dimensions; and the false-accept arithmetic above is undefined until someone measures the correlation matrix. Meanwhile the loop loses nothing, because the diversity that dimension-Pareto was implicitly providing is exactly what instance-Pareto provides deliberately and better.</p>
+<p><strong>Cost.</strong> The largest change here. Requires the bootstrap module (§2) to exist first, and requires agreeing that a single aggregate is defensible — which is easier if the aggregate is the judge's calibrated score rather than a weighted sum of five arbitrary weights.</p>
+<hr />
+<h2 id="2-give-the-gate-a-statistical-margin-and-the-contract-the-fields-to-support-it">2. Give the gate a statistical margin, and the contract the fields to support it</h2>
+<p><strong>Suggestion.</strong> Three pieces, in order:</p>
+<ol>
+<li><strong>EvalResult v2 carries trial-level scores, not just a scalar mean</strong> — plus <code>judge_version</code> and <code>fixture_snapshot_id</code> per result.</li>
+<li><strong>The dominance test becomes a paired bootstrap module</strong> that Evolve calls, rather than a raw mean comparison. Same cases both arms; build the interval on the per-case difference; require it to exclude zero.</li>
+<li><strong>§5 states the fixture bank's minimum detectable effect.</strong> <code>n ≈ (z_{α/2}+z_β)²·Var(d)/δ²</code>. With a realistic disagreement profile — agree on 80% of cases, 15% evolved-wins, 5% incumbent-wins, so <code>Var(d) ≈ 0.19</code> — detecting a <strong>10-point</strong> improvement needs about <strong>150 paired cases</strong>. A 30-case bank resolves roughly a 22-point swing; 20 cases, about 27 points.</li>
+</ol>
+<p><strong>Why.</strong> Without the margin, "evolved spec dominates on 4 of 5 axes, +6 points net fitness" is not a result — it is a number with an unstated error bar, and at plausible bank sizes +6 is not resolvable at all. Without <code>judge_version</code> pinned per run and recorded per result, score deltas across generations are unattributable, because the judge is itself being GEPA-optimized on the other side of the program. And below roughly 100 datapoints the CLT intervals are systematically too narrow and degenerate to zero width when a run passes or fails everything — which is precisely what a small curated bank does. At this program's sample sizes the honest tools are bootstrap or Beta-Binomial, not <code>mean ± 1.96·SE</code>.</p>
+<p>One free win regardless of the rest: <strong>pair everything.</strong> Running both arms on identical cases makes the positive score correlation a variance reduction that costs nothing, and comparing two overlapping CIs is the wrong test.</p>
+<p><strong>Cost.</strong> About a day of IC work for the module. I'd like to own this piece — it is the same object as EvalResult v2, and it removes the biggest silent failure mode in the loop. <strong>The schema and the gate implementation are in Part 2</strong> — this suggestion is the argument, Part 2 is the code.</p>
+<p><strong>Prerequisite that costs nothing:</strong> the 5×5 dimension correlation matrix is computable today from Chao's existing judge V1 output over already-graded cards. No new labels, no new runs. It sets the design of everything above.</p>
+<hr />
+<h2 id="3-ablate-blame-and-consider-replacing-it-with-per-component-feedback-at-scoring-time">3. Ablate <code>blame()</code>, and consider replacing it with per-component feedback at scoring time</h2>
+<p><strong>Suggestion.</strong> Add an ablation arm to §5: <code>blame()</code> vs. round-robin component selection, matched budget, same fixture slice, compare net fitness delta <em>and</em> the per-component mutation distribution. Kill criterion stated up front: if <code>blame()</code> does not beat round-robin by a margin the bank can actually resolve, drop it.</p>
+<p>Separately and better: <strong>extend the judge's output contract to emit per-component feedback text at scoring time</strong> — a <code>feedback</code> field scoped to the component being evaluated, carried in EvalResult v2 alongside the score.</p>
+<p><strong>Why.</strong> GEPA has no <code>blame()</code>. Module selection is <code>SELECTMODULE</code> at Algorithm 1 line 8, and the policy is round-robin; the reference implementation agrees, defaulting <code>component_selector="round_robin"</code>. So <code>blame()</code> is a departure from the configuration GEPA's published results were measured on, which puts the burden of proof on it rather than on the ablation. The ablation is also nearly free: <code>blame()</code> is structurally a custom <code>ReflectionComponentSelector</code>, so the control arm is one config value, not a build.</p>
+<p>The deeper reason to prefer per-component feedback: <code>blame()</code> re-reads judge rationales — text written to <em>justify a score</em>, not to <em>locate a fault</em> — and inherits every rationale bias into the choice of what to mutate. These biases are measured, and they are not small: in the MT-Bench study, <strong>verbosity bias made evaluators prefer the longer response more than 90% of the time</strong>, position bias ran 50–70% depending on model, and self-enhancement bias gave evaluators a 10–25% win-rate bump on their own outputs. A <code>blame()</code> reading rationales carrying a verbosity bias that strong will systematically point at whichever component emits the most text — a mutation-targeting bias with no relationship to fault. It is reconstructing, after the fact, information the judge already had and discarded when it collapsed its reasoning into five numbers. GEPA's actual innovation on this axis is the opposite move: extend the metric <code>µ</code> into a feedback function <code>µf</code> that captures the <strong>evaluation trace</strong> — what the environment produced on the way to the score — and hands it to reflection. DSPy exposes this directly: the feedback metric receives <code>pred_name</code> and <code>pred_trace</code> and may return a score <em>and</em> feedback for that specific predictor. If it returns nothing, reflection receives the string <code>"This trajectory got a score of {score}."</code> and nothing else.</p>
+<p>A misdirected mutation is not neutral. It burns rollouts from a 450-invocation budget that §2 above already shows is too small to resolve small effects.</p>
+<p><strong>Cost.</strong> Ablation: one config value plus the runs. Per-component feedback: a judge change, so it depends on whether V1 can carry it or it waits for V2. Worth asking Chao rather than assuming.</p>
+<hr />
+<h2 id="4-add-a-matched-budget-baseline-arm-to-the-success-criteria">4. Add a matched-budget baseline arm to the success criteria</h2>
+<p><strong>Suggestion.</strong> Before crediting the evolution loop with a gain, run the incumbent spec with K-sample selection at the <strong>same</strong> invocation budget. Report pass@1 and pass@k separately.</p>
+<p><strong>Why.</strong> AI2/UW compared automatic harness evolution against matched-budget test-time scaling on Terminal-Bench 2.1. Evolution did not consistently beat parallel sampling or sequential refinement; its gains appeared in pass@5 but not pass@1 — that is, they came from taking more attempts, not from a better harness. Harnesses evolved on a training split also transferred almost nothing to held-out tasks, +0.6 pass@1 on average.</p>
+<p>The honest counter-argument in Evolve's favor is that Terminal-Bench is harness-<em>insensitive</em> — a shell tool and a basic prompt suffice — while Reflex playbooks are harness-<em>dominant</em>, since the domain strategy lives in the spec. That is a real difference, and it is also exactly the claim the baseline arm would prove rather than assume. Adding the arm is what makes a positive result defensible instead of attackable.</p>
+<p><strong>Cost.</strong> One extra arm per evaluation, at the same budget. It roughly doubles the cost of a success claim and removes the strongest available objection to it.</p>
+<hr />
+<h2 id="5-put-parsimony-pressure-on-the-spec">5. Put parsimony pressure on the spec</h2>
+<p><strong>Suggestion.</strong> Track spec token length per generation and make growth cost something. Minimum: record it and report it in the version history. Better: require an accepted mutation that increases spec length to clear a larger margin than one that holds length flat or reduces it.</p>
+<p><strong>Why.</strong> This is the mechanism-level reconciliation of the two pieces of evidence above, and it is the reason I'd not read the AI2/UW result as fatal.</p>
+<p>Their qualitative diagnosis of why evolution underperformed was that meta-agent edits "memorize fixes rather than distilling strategies." SkillOS names the identical failure and builds an explicit objective term against it — a compression reward penalizing repository size against the curator's input context, whose stated purpose is to discourage verbatim trajectory copying and force distillation into reusable rules. Removing that term measurably hurt performance (ALFWorld success rate 61.2 → 60.0, with the full ablation set showing content-quality at 58.6 and ungrouped training at 57.3).</p>
+<p>Two independent papers, the same failure mode, and one of them has the counter-mechanism. That reframes the negative result: it may be a finding about self-evolution run <em>without</em> a compression objective, rather than about self-evolution. An Evolve loop with no length pressure is running the configuration that failed.</p>
+<p><strong>Cost.</strong> Recording length is free. The margin rule is a gate parameter, and it needs the margin from §2 to exist first.</p>
+<hr />
+<h2 id="6-pre-flight-the-incumbent-before-each-generation">6. Pre-flight the incumbent before each generation</h2>
+<p><strong>Suggestion.</strong> At the start of each generation, re-run the incumbent spec on a small fixed canary slice of the fixture bank. Record <code>incumbent_canary_score</code> per generation. If it deviates beyond tolerance from the prior generation's recorded value, halt and flag rather than proceeding.</p>
+<p><strong>Why.</strong> Fixtures go stale — tables deprecate, experiments conclude, strategy docs move — and the judge is being optimized concurrently. Either can move the fitness scale underneath a generation. When that happens without a canary, the drift is silently attributed to the mutation, and every number that generation produces is unattributable after the fact. A canary converts a forensics problem into a halt condition.</p>
+<p><strong>Cost.</strong> A handful of invocations per generation, and it pays for itself the first time it fires.</p>
+<hr />
+<h2 id="7-protect-verification-rules-by-changing-their-container-not-by-guarding-prose">7. Protect verification rules by changing their container, not by guarding prose</h2>
+<p><strong>Suggestion.</strong> Move the playbooks' verification rules — the "verify against Presto before citing a metric" class — out of prose and into a structured block within the playbook, where only designated fields are mutable. <code>never_mutable</code> then has something it can actually protect.</p>
+<p><strong>Why.</strong> <code>never_mutable</code> globs operate on files. Reflex playbooks embed checks as prose <em>inside</em> mutable sections, so the glob can't reach them and structural validation can't see them. A GEPA mutation that softens "verify against Presto before including a metric" into "include metrics with a confidence note" passes every existing control, and there is no point in the current design where a human is guaranteed to catch it.</p>
+<p>The obvious fix is a new mechanism — protected prose spans. There is a cheaper one. Anthropic hit the same problem building long-running agents: they tried strongly-worded prose instructions against editing a test manifest, found it insufficient, and solved it by changing the file format, reporting that the model is measurably less likely to inappropriately modify JSON than Markdown. One field mutable, the rest structurally inert. A mutation that cannot find a prose sentence to soften cannot soften it.</p>
+<p><strong>Cost.</strong> A playbook format change, which is a migration. But it needs no new enforcement machinery and it degrades gracefully.</p>
+<hr />
+<h2 id="8-close-the-two-open-gaps-in-security-and-rollback">8. Close the two open gaps in security and rollback</h2>
+<p><strong>Suggestion.</strong> Two paragraphs the doc currently doesn't have:</p>
+<ul>
+<li><strong>Fixture content is untrusted.</strong> Fixtures contain Asana comments and other user-authored text that will be fed into headless agent runs. State that fixture content is data and never instructions — delimit it, instruct the agent explicitly to ignore imperatives inside it, and screen new fixtures at intake for instruction-shaped content.</li>
+<li><strong>The revert procedure, written down.</strong> Rollback exists implicitly via <code>versions/vN.md</code>. Make it explicit: what triggers a revert, who may execute one, and what happens to fixtures and results added since the reverted version landed.</li>
+</ul>
+<p><strong>Why.</strong> These were named as the thin sections on 8/10 and are still open. The prompt-injection path in particular is the one failure in this list that is not a measurement problem — it's a live surface, and the mutation loop makes it worse by construction, since a successful injection can persist into an accepted spec.</p>
+<p><strong>Cost.</strong> Writing time, not build time.</p>
+<hr />
+<hr />
+<h1 id="part-2-the-contract">Part 2 — The contract</h1>
+<p>Drafted 2026-08-12 against TDD §3.2/§3.3.5 as written 8/4 (<code>sources/janvi_evolve_tdd_2026-08-04.pdf</code>); revised 8/15. Target: <code>evolve/infra/schemas/eval_result.py</code>.</p>
+<p>The TDD's contract design is right: rubric lives in the values, EvalResult is the sole coupling point, <code>contract_version</code> asserted at startup. v2 adds the fields that make scores <em>trustworthy over time</em> — uncertainty, judge provenance, fixture provenance — plus the axis-declaration change. Everything is additive except that one flip.</p>
+<h2 id="21-metricscore">2.1 MetricScore</h2>
+<pre><code class="language-python">class MetricScore(BaseModel):
+    name: str
+    value: float                              # aggregate over trials (mean unless noted)
+    trial_values: list[float] | None = None   # NEW — per-trial raw scores, len == n_trials
+    scale_min: float = 0.0
+    scale_max: float = 1.0
+    direction: Direction = &quot;maximize&quot;
+    weight: float = 0.0
+    is_diagnostic: bool = True                # NEW — reported, never gates
+    is_veto_axis: bool = False                # REPLACES is_pareto_axis — a hard floor, not a Pareto axis
+    rationale: str | None = None
+</code></pre>
+<p><strong>Why <code>trial_values</code>:</strong> K trials produce a distribution; passing only the scalar mean forces the gate to compare noisy point estimates, and with small K it selects on noise. Trial-level scores also let Evolve compute Pass@K / Pass^K itself instead of each adapter pre-aggregating differently. <strong>Nothing else in Part 2 works without this field.</strong></p>
+<p><strong>Why <code>is_veto_axis</code> replaces <code>is_pareto_axis</code>:</strong> see §2.4.</p>
+<h2 id="22-evalresult">2.2 EvalResult</h2>
+<pre><code class="language-python">class EvalResult(BaseModel):
+    contract_version: str                 # existing — bump to 2.0
+    scores: dict[str, MetricScore]        # existing, unchanged shape
+    feedback: str                         # existing — the reflective gradient
+    n_trials: int                         # existing per TDD §3.3.5
+
+    # NEW — judge provenance
+    judge_version: str                    # bumps on ANY judge prompt/model/rubric change
+    judge_model: str | None = None        # convenience; version is the contract
+
+    # NEW — world provenance
+    fixture_snapshot_id: str              # which frozen world produced this result
+    fixture_created_at: datetime          # feeds a staleness gate (refuse/warn past max age)
+
+    # NEW — case provenance
+    case_id: str
+    case_source: Literal[&quot;rotation&quot;, &quot;calibration&quot;, &quot;lockbox&quot;, &quot;synthetic&quot;]
+
+    # NEW — per-component feedback (suggestion 3)
+    component_feedback: dict[str, str] | None = None
+</code></pre>
+<p><strong><code>judge_version</code></strong> — the judge is itself being GEPA-optimized (Chao's Stage 1) while Evolve uses it as fitness. Unversioned, a score delta across generations is unattributable: improved playbook, or drifted judge? Rules the field enables, enforced in the runner rather than the schema: search and landing re-run pin the same version; cross-generation fitness comparisons only within a version; a judge upgrade means re-baseline.</p>
+<p><strong><code>fixture_snapshot_id</code> + <code>fixture_created_at</code></strong> — an edit that dominates on stale fixtures can regress live. The snapshot ID makes "same world" checkable; the timestamp makes staleness a gate instead of a hope. This is also the join key to the hindsight case bank, which reuses the same snapshot format.</p>
+<p><strong><code>case_source</code></strong> — makes the contamination policy enforceable rather than aspirational. The runner refuses <code>lockbox</code> cases in any GEPA loop, and the Feedback Curator filters <code>calibration</code> and <code>lockbox</code> out of pattern extraction. One enum, three protections.</p>
+<p><strong><code>component_feedback</code></strong> — the carrier for suggestion 3. If the judge can emit per-component feedback at scoring time, this is where it lands, and it is what reflection reads instead of a reconstructed attribution.</p>
+<h2 id="23-the-gate">2.3 The gate</h2>
+<p>Replaces raw mean comparison in TDD §3.3.6.5. <strong>Primary form</strong>, matching suggestion 1 — accept on a single aggregate with a margin, with hard floors as vetoes:</p>
+<pre><code class="language-python">def accepts(parent: list[EvalResult], candidate: list[EvalResult],
+            aggregate: str, veto_axes: list[str],
+            alpha: float = 0.05, B: int = 10_000) -&gt; GateVerdict:
+    &quot;&quot;&quot;Paired bootstrap over shared cases (pairing removes case-difficulty variance).
+
+    1. Veto: for each axis in veto_axes, reject if the candidate falls below its
+       declared floor. Floors are absolute, not relative to the parent.
+    2. Accept: per-case delta on `aggregate` = mean(candidate trials) - mean(parent trials);
+       resample cases with replacement B times -&gt; CI on the mean delta;
+       accept iff the CI lies entirely above zero.
+
+    Verdict carries the delta, the CI, n, and the number of case clusters, so the
+    proposal record shows *why* — and so an underpowered comparison is visible
+    rather than silent.
+    &quot;&quot;&quot;
+</code></pre>
+<p><strong>Fallback form</strong>, if suggestion 1 isn't adopted and per-dimension acceptance stays: keep dominance, but make it significance-aware — candidate survives iff <strong>not significantly worse on any declared axis and significantly better on at least one</strong>, same paired bootstrap per axis. That is strictly better than comparing means, and it is the version drafted on 8/12.</p>
+<p>Either way: ~a day of work including tests, a pure function of the v2 fields, living in <code>evolve/infra/gates/</code>. It is also what makes the "held-out regression catch" success criterion in TDD §5 statistically meaningful rather than anecdotal.</p>
+<h2 id="24-what-changed-since-the-812-draft-and-why">2.4 What changed since the 8/12 draft, and why</h2>
+<p>The straw schema I circulated on 8/12 proposed keeping <code>is_pareto_axis</code> and flipping its default from <code>True</code> to <code>False</code>, so that gate axes became opt-in rather than a side effect of logging a metric. That fixed axis accumulation but left dimension-level acceptance in place.</p>
+<p>After reading the GEPA paper and its implementation on 8/15, I'd go further, and the two proposals shouldn't both be live. <strong>Suggestion 1 retires the concept</strong>: if acceptance moves to a single aggregate with a margin, there are no gate axes to opt into, and the dimensions become diagnostics plus optional hard floors. <code>is_pareto_axis</code> is therefore replaced by <code>is_diagnostic</code> (default true) and <code>is_veto_axis</code> (default false).</p>
+<p>If suggestion 1 doesn't land, the 8/12 proposal is the fallback: keep <code>is_pareto_axis</code>, default it to <code>False</code>, and use the fallback gate in §2.3.</p>
+<h2 id="25-migration">2.5 Migration</h2>
+<p>v1 adapters keep working behind a shim: <code>trial_values=None</code> means the gate falls back to means with a loud <code>UNPOWERED_COMPARISON</code> warning written into the proposal record. The only true break is the axis-declaration change — a one-line explicit declaration in each existing target YAML, grep-able, done in minutes.</p>
+<hr />
+<h2 id="what-im-not-raising">What I'm not raising</h2>
+<p><strong><code>is_pareto_axis</code> defaulting to true as a standalone ask.</strong> Any diagnostic metric a stage adds silently becomes a gate axis, and with four or more axes no-worse-everywhere approaches unsatisfiable. This is real, but suggestion 1 dissolves it and §2.4 handles the fallback, so it isn't raised separately.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>GEPA: <code>kb/hard/raw/arxiv/gepa-reflective-prompt-evolution-can-outperform-reinforcement-learning.md</code> — Alg. 1 (loop, scalar acceptance at L13–14), Alg. 2 (instance-Pareto selection), §3 (reflective mutation, evaluation traces), §3.1 (Pareto illumination)</li>
+<li>DSPy implementation: <code>kb/hard/raw/dspy/dspy-gepa-reflective-prompt-optimizer.md</code> — <code>GEPAFeedbackMetric</code> (<code>pred_name</code>, <code>pred_trace</code>), <code>component_selector</code>, <code>candidate_selection_strategy</code></li>
+<li>SkillOS: <code>kb/hard/raw/arxiv/skillos-learning-skill-curation-for-self-evolving-agents.md</code> — compression reward, ablation table</li>
+<li>Harness-evolution evaluation: <code>sources/arxiv_2607.12227_rethinking-harness-evolution-evals.pdf</code></li>
+<li>Long-running agent harnesses: <code>kb/hard/raw/anthropic/effective-harnesses-for-long-running-agents.md</code> — format-as-guard</li>
+<li>Statistics: <code>kb/hard/raw/cameron-wolfe/applying-statistics-to-llm-evaluations.md</code> (over Miller 2024, Bowyer 2025)</li>
+<li>Working state and undelivered critique: <code>eval_00_hub.md</code> · terminology: <code>eval_01_glossary.md</code></li>
+</ul>
+<h1 id="feedback-curator-making-it-measurable-and-three-design-deltas">Feedback Curator — making it measurable, and three design deltas</h1>
+<p><strong>Builds on:</strong> <code>reflex_feedback_curator_and_skeptic.md</code> (the Curator design doc) · <strong>Evidence:</strong> SkillOS (Google Cloud AI Research / UIUC / MIT), <code>kb/hard/raw/arxiv/skillos-learning-skill-curation-for-self-evolving-agents.md</code></p>
+<p><strong>Circulation note:</strong> §6 is internal. Everything above it is safe to share with Andrew, Dylan, and Janvi.</p>
+<hr />
+<h2 id="1-what-this-proposes-in-one-paragraph">1. What this proposes, in one paragraph</h2>
+<p>The Curator design already specifies the right <em>operations</em> — intake, dedup/conflict resolution, decay handling, ranked retrieval, lineage. What it does not specify is how anyone would know whether the Curator is working. §1.8 names over-curation and under-curation as the failure modes and offers mitigations, but no measurement that would tell us which one we're in. SkillOS is the first paper I've seen that isolates the curator as a component, trains it, and measures it — and its measurements transfer to our design without adopting any of its training machinery. This proposes four metrics, one growth curve we can run against the existing archive this week, and three deltas to the design.</p>
+<h2 id="2-what-the-existing-design-already-covers">2. What the existing design already covers</h2>
+<p>Worth stating plainly so the deltas below read as additions rather than rediscovery.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>SkillOS component</th>
+<th>Already in our design</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>insert_skill</code></td>
+<td>§1.3.1 pattern intake</td>
+</tr>
+<tr>
+<td><code>update_skill</code></td>
+<td>§1.3.2 dedup + conflict resolution (merge / version / replace)</td>
+</tr>
+<tr>
+<td><code>delete_skill</code></td>
+<td>§1.3.3 decay handling, human-confirmed</td>
+</tr>
+<tr>
+<td>BM25 retrieval</td>
+<td>§1.3.4 ranked pattern lookup</td>
+</tr>
+<tr>
+<td>—</td>
+<td>§1.3.5 <strong>lineage records</strong> — SkillOS has no equivalent</td>
+</tr>
+<tr>
+<td>—</td>
+<td>§1.6 <strong>conflict reports with options and a recommendation</strong> — no equivalent</td>
+</tr>
+</tbody>
+</table></div>
+<p>Two things we have that the paper doesn't: an audit trail that answers "why does Reflex believe X," and an explicit human resolution step for contradictions. Both are worth keeping even where they cost us something below.</p>
+<h2 id="3-the-gap-the-design-has-operations-but-no-metrics">3. The gap: the design has operations but no metrics</h2>
+<p>SkillOS's headline behavioral result is about the <em>ratio</em> of operations, not their existence. Early in training the curator almost exclusively inserts; as it improves, <code>update</code> rises and <code>insert</code> declines, with <code>delete</code> staying small but growing. Their conclusion: "the dominant form of adaptation is to revise and consolidate previously acquired skills." An immature curator accretes; a mature one consolidates.</p>
+<p>We have no way to say which one ours is. Four metrics fix that, all lifted directly from the paper's Figure 6 (their base → trained values on ALFWorld shown for calibration, not as targets):</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Definition for us</th>
+<th>Their base → trained</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pattern coverage</strong></td>
+<td>fraction of <code>quality_patterns.md</code> entries retrieved by any card in a window</td>
+<td>53.6% → 72.9%</td>
+</tr>
+<tr>
+<td><strong>Usage rate</strong></td>
+<td>fraction of cards where ≥1 pattern was retrieved</td>
+<td>87.9% → 100%</td>
+</tr>
+<tr>
+<td><strong>Successful-usage rate</strong></td>
+<td>pass rate among cards that used patterns</td>
+<td>61.2% → 88.6%</td>
+</tr>
+<tr>
+<td><strong>Patterns per card</strong></td>
+<td>mean retrieved per card — <em>lower is better</em></td>
+<td>2.24 → <strong>1.95</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>The last one matters most for how we'd read the others: their trained curator did better while retrieving <em>fewer</em> patterns. Gains came from precision, not volume. A proposal that grows the patterns file and calls it progress is measuring the wrong thing.</p>
+<p><strong>A second paper found the same shape, which is why I'd treat this as a health metric rather than a curiosity.</strong> EvoHarness-RL (Meta AI/UIUC) trains a policy over externalized harness state and observes <em>harness annealing</em>: after RL, external-state calls drop to roughly one per episode, because the policy internalizes routine scaffold use and reserves external access for when expected benefit exceeds step cost. Two independent labs, two different mechanisms, one result — <strong>maturity shows up as reduced and more selective interaction with external state.</strong></p>
+<p>That inverts the natural instinct. If <code>quality_patterns.md</code> grows and cards retrieve more patterns over time, that is not the system learning; on this evidence it is the signature of an immature one. Which makes the growth curve in §3.1 a leading indicator rather than a filing concern.</p>
+<p><strong>Coverage is the one to run first.</strong> If it comes back near 50%, half of what the Curator has produced has never been used by anything, and the under-curation failure mode in §1.8 is already live rather than projected.</p>
+<h3 id="31-the-growth-curve-runnable-this-week-no-labels-no-new-runs">3.1 The growth curve — runnable this week, no labels, no new runs</h3>
+<p>The design doc records <code>quality_patterns.md</code> at <strong>341 lines at cycle 13</strong>. The archive is now at 66 cycles. That gives a baseline and a five-fold interval for free.</p>
+<p>Plot lines and entry count per cycle, then sample entries from early, middle, and late cycles and score them pairwise for restatement. Two outcomes, both useful:</p>
+<ul>
+<li><strong>Monotonic growth with heavy late-stage redundancy</strong> → we are in the accretion regime the design was written to prevent, and the Curator's operation mix is the thing to fix.</li>
+<li><strong>Flattening, or growth with low redundancy</strong> → the design is holding, and the four metrics become routine reporting rather than a diagnosis.</li>
+</ul>
+<p>This is the cheapest real measurement available anywhere in the eval program right now. It needs no human labels, no judge, and no new agent runs.</p>
+<h2 id="4-three-design-deltas">4. Three design deltas</h2>
+<h3 id="41-the-human-gate-is-also-a-bias-toward-accretion">4.1 The human gate is also a bias toward accretion</h3>
+<p>§1.4 and §1.7 are unambiguous: the Curator proposes, humans merge; retirement is never autonomous. That is the right safety property and I don't propose weakening it.</p>
+<p>But it has a consequence nobody has written down. An insert is a low-stakes approval — a reviewer glances and accepts. An update means adjudicating a contradiction (§1.6 asks them to pick between merge, version, and replace). A retirement means asserting that something we once believed is now wrong. <strong>The approval cost of the three operations is wildly unequal, and it is cheapest for exactly the operation SkillOS identifies as the immature one.</strong> Whatever mix the Curator proposes, the realized mix will skew toward insert.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th></th>
+<th>What it buys</th>
+<th>What it costs</th>
+<th>Pick it when</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leave as-is</td>
+<td>Maximum safety; no stale pattern ever silently disappears</td>
+<td>The file accretes regardless of how good the Curator gets; §1.8's under-curation mitigation never actually fires</td>
+<td>Reviewer bandwidth is abundant and the file is small</td>
+</tr>
+<tr>
+<td><strong>Measure proposed vs. merged separately</strong></td>
+<td>Tells us whether the bottleneck is the Curator or the humans — different fixes</td>
+<td>One extra field in the audit trail</td>
+<td><strong>Now — it's nearly free and we currently can't tell these apart</strong></td>
+</tr>
+<tr>
+<td>Tiered approval: consolidation is lightweight, retirement stays heavy</td>
+<td>Removes the bias where it's cheapest to remove; retirement keeps full protection</td>
+<td>Requires agreeing that merging two near-duplicate patterns is lower-risk than retiring one</td>
+<td>After the proposed-vs-merged data shows humans are the bottleneck</td>
+</tr>
+</tbody>
+</table></div>
+<p>Recommendation: take the middle row now, hold the third until we have the data.</p>
+<h3 id="42-compression-and-its-real-tension-with-the-evidence-field">4.2 Compression, and its real tension with the evidence field</h3>
+<p>SkillOS carries an explicit compression reward — repository size penalized against the curator's input context — and states its purpose directly: to discourage verbatim trajectory copying and force distillation into reusable skills. Removing it measurably hurt performance.</p>
+<p>We have no analogous pressure. And §1.8's mitigation for over-curation — "preserve original reviewer language in the evidence field" — deliberately pushes the other way.</p>
+<p>I don't think that mitigation is wrong. Preserving the reviewer's own words is what makes the lineage trail worth having. But the two goals are pulling on the same file, and the resolution is to stop treating a pattern entry as one thing:</p>
+<ul>
+<li><strong><code>Correction:</code></strong> is the distilled, reusable part. Compression applies here. It should get shorter and more general as a pattern is reaffirmed across cycles.</li>
+<li><strong><code>Evidence:</code></strong> is the verbatim archive. Compression does not apply. It should grow as reaffirmations accumulate.</li>
+</ul>
+<p>Measure compression on <code>Correction:</code> only. A pattern whose <code>Correction</code> field is still growing at its third reaffirmation is being accreted, not consolidated.</p>
+<p>This also connects to something already in the critique doc. AI2/UW's explanation for why harness evolution underperformed was that meta-agent edits "memorize fixes rather than distilling strategies" (§15½). SkillOS names the same failure and builds an objective term against it. That's a mechanism-level reconciliation of the two papers, and it argues the negative result may be a result about self-evolution <em>run without a compression objective</em> — which is a materially different claim from "self-evolution doesn't work."</p>
+<h3 id="43-do-not-point-the-biggest-model-at-the-curator">4.3 Do not point the biggest model at the Curator</h3>
+<p>SkillOS's most counterintuitive result: using Gemini-2.5-Pro directly as the curator <strong>underperformed their trained 8B curator</strong>, and the gap was worst when paired with a weaker executor. Their reading — "stronger reasoning ability alone does not guarantee effective skill curation, as frontier-generated skills may be misaligned with the executor's capacity or usage patterns."</p>
+<p>The default instinct when the Curator underperforms will be to upgrade its model. The evidence says the axis that matters is the match between what the Curator writes and how the executor actually retrieves and uses it — which the coverage and patterns-per-card metrics in §3 measure directly, and model capability does not.</p>
+<h2 id="5-what-this-proposal-does-not-do">5. What this proposal does not do</h2>
+<p>Explicitly, so it isn't inferred: <strong>no finetuning, no RL, no GRPO.</strong> SkillOS's training recipe is not adoptable here and I am not proposing it. Their entry cost is grouped task streams plus rollout volume; for calibration, GEPA reached better results than GRPO on IFBench with 678 rollouts against GRPO's 24,000, and Evolve's entire budget is 450 invocations. We are two orders of magnitude from the regime where weight optimization is a question worth asking, and the prerequisite is a fitness signal we trust — which is the eval-integrity work, not this.</p>
+<p>What transfers is the measurement apparatus and the operation-mix framing. That's it, and it's enough.</p>
+<h2 id="6-open-questions-and-what-id-want-from-whoever-owns-this">6. Open questions and what I'd want from whoever owns this</h2>
+<p>Internal — not for circulation.</p>
+<ol>
+<li><strong>Evaluation unit.</strong> Judging a curation decision requires seeing whether it helped a <em>related</em> later card. SkillOS's largest single ablation was exactly this: random task sequences cost more than either reward term. Our §1.5 <code>Evidence:</code> field already records cycle-and-card lineage — that is the grouping key, and it means the raw material exists. But it also means Curator evaluation needs lineage-linked cycle groups while judge evaluation needs spread across cycles. <strong>These are two different datasets and the 8/14 glossary has an object for neither.</strong> Worth adding before anyone builds either.</li>
+<li><strong>Ownership.</strong> §5 of the design doc flagged this for Andrew and Dylan and I don't believe it was resolved. The measurements in §3 are eval-shaped and sit close to my lane; the design deltas in §4 are Curator-shaped and do not. I'd rather hand §4 to whoever owns the component than carry it.</li>
+<li><strong>Does the Skeptic change this?</strong> The Skeptic reads patterns via the Curator's retrieval (§2.7), which means it is a second consumer and should appear in the coverage metric. If it isn't counted, coverage will look better than it is.</li>
+</ol>
+<h1 id="making-reflexs-failures-verifiable-the-partition-and-the-attempts-store">Making Reflex's failures verifiable — the partition, and the attempts store</h1>
+<p><strong>Provoked by:</strong> AutoHarness (<code>kb/hard/raw/arxiv/autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-harness.md</code>, Google DeepMind)</p>
+<p>This is not a critique of anyone's doc. It's a strategy for the program, and it starts from one observation about why AutoHarness worked.</p>
+<hr />
+<h2 id="1-the-idea">1. The idea</h2>
+<p>AutoHarness let Gemini-2.5-Flash beat Gemini-2.5-Pro — 56.3% vs 38.2% win rate across 16 two-player games, and in the code-as-policy limit case it beat GPT-5.2-High (0.870 vs 0.844) at roughly zero inference cost against ~$640. The motivating statistic was that <strong>78% of Flash's chess losses were illegal moves, not strategic blunders.</strong></p>
+<p>It's tempting to read that as "harness beats model size." The more useful reading is narrower:</p>
+<blockquote>
+<p>The harness didn't make chess verifiable — chess already was. What the harness did was <strong>take the verifiable part away from the LLM entirely, at 100% accuracy, so the model only ever faced the part that needed judgment.</strong> It didn't solve the hard problem. It shrank it.</p>
+</blockquote>
+<p>That is a move Reflex can make, and it does not require the loop to be verifiable end to end. It requires <strong>partitioning</strong> card failures into the part a program can adjudicate and the part that genuinely needs a judge — and then never spending judgment, human attention, or optimizer budget on the first part again.</p>
+<p><strong>Hallucinated references are Reflex's illegal moves.</strong> A card citing a table, metric, or experiment that does not exist is checkable with a catalog lookup and zero judgment.</p>
+<hr />
+<h2 id="2-the-taxonomy-a-start-not-a-finish">2. The taxonomy — a start, not a finish</h2>
+<p>Five failure modes, sorted by what it would take to make each a mechanical true/false. The first column is the failure; the last column is the honest cost of mechanizing it.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Failure mode</th>
+<th>Verifiable?</th>
+<th>By what</th>
+<th>What it would take</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Hallucinated reference</strong> — cites a table, metric, component, or experiment that doesn't exist</td>
+<td><strong>Fully, today</strong></td>
+<td>catalog / schema lookup</td>
+<td>wiring to the existing catalogs. Cheapest item here.</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Already tried</strong> — a genuine result, but it was attempted before and the outcome was never logged</td>
+<td><strong>Yes, if the log exists</strong></td>
+<td>retrieval against an attempts corpus</td>
+<td><strong>the corpus doesn't exist — see §5</strong></td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Too small</strong> — real, but the magnitude doesn't justify verification effort</td>
+<td><strong>Yes, if the card asserts magnitude</strong></td>
+<td>threshold on declared fields</td>
+<td>a card-schema change: cards must state estimated effect and effort</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Not worthwhile given the metrics</strong> — genuine, correctly sized, and still not worth doing</td>
+<td><strong>No</strong></td>
+<td>irreducible judgment about priorities</td>
+<td>this is what the judge and the humans are <em>for</em></td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Unsupported causal claim</strong> — the finding may be real but the stated mechanism isn't evidenced</td>
+<td><strong>Partially</strong></td>
+<td>check whether cited evidence supports the claim</td>
+<td>LLM-assisted; not mechanical, but far more constrained than open-ended scoring</td>
+</tr>
+</tbody>
+</table></div>
+<p>Modes 1–3 came out of working through this on 8/15; 5 is a carryover from the earlier failure-type sketch. <strong>This taxonomy is a starting hypothesis and should be replaced by one derived from real labeled failures</strong> (§4).</p>
+<h3 id="two-things-the-table-makes-visible">Two things the table makes visible</h3>
+<p><strong>Mode 2 is not a harness problem.</strong> AutoHarness's environment always knew whether a move was legal. Reflex's environment has amnesia. That's an <em>instrumentation</em> defect, not an agent defect, and no amount of harness synthesis fixes it. It should be argued for separately — and it's the easiest of these to argue, because "we don't record what happened to things we tried" is indefensible on its face.</p>
+<p><strong>Mode 4 is where the judge earns its keep.</strong> Everything above it is currently consuming judge calls, human review, and optimizer budget that it does not deserve.</p>
+<hr />
+<h2 id="3-what-the-partition-buys">3. What the partition buys</h2>
+<ol>
+<li><strong>The judgment surface shrinks.</strong> Cards disqualified on mechanical grounds never reach a judge or a human.</li>
+<li><strong>The κ measurement gets cleaner.</strong> Some of the human–human disagreement Lesson 11 is about to measure will be on cards that are mechanically disqualifiable. Strip those first and the remaining disagreement is <em>purer judgment</em> — which is the number that actually tells you whether you have a judge problem or a criteria problem.</li>
+<li><strong>The "why" gets partitioned too.</strong> AutoHarness's refiner reads <em>error messages from the environment</em>, not rationales. For verifiable failures the explanation is free and exact — "table <code>x</code> not in schema <code>y</code>." For judgment failures it's a human rationale, and those carry a measured &gt;90% verbosity bias. <strong>Half the diagnosis can be generated deterministically; only the other half has to be read out of prose.</strong></li>
+<li><strong><code>blame()</code> becomes a lookup table for the mechanized share.</strong> AutoHarness assigns credit from the <em>error signature</em>: if <code>is_legal_action()</code> returned True but the action was invalid, refine both functions; if it returned False, refine only <code>propose_action()</code>. Deterministic, immune to rationale bias. For modes 1–3 the same is available: failure type implies component. Modes 4–5 stay in the noisy path — but over a much smaller share, and you know exactly which share.</li>
+</ol>
+<hr />
+<h2 id="4-measurement-zero-the-ratio-that-gates-all-of-this">4. Measurement zero — the ratio that gates all of this</h2>
+<p><strong>Classify the rejected cards you already have into the taxonomy above, plus "other."</strong> No new labels, no new runs, no judge changes.</p>
+<p>The output is one number: <strong>the fraction of Reflex's failures that are mechanically adjudicable.</strong></p>
+<ul>
+<li>In chess it was 78%, and that's why AutoHarness worked.</li>
+<li>If Reflex's is high, this is the highest-leverage work in the program.</li>
+<li>If it's ~10%, this is a sideshow, the judgment problem dominates, and the effort belongs in rubric design instead.</li>
+</ul>
+<p>Nobody has measured this. It is an afternoon of work and it decides whether §5 below is worth building. <strong>Do this before anything else in this document.</strong></p>
+<hr />
+<h2 id="5-the-attempts-store">5. The attempts store</h2>
+<p>Mode 2 is the only entry in the taxonomy whose fix requires a corpus that doesn't exist. It's also the one with the most upside, because the corpus is useful far beyond failure classification.</p>
+<p><strong>What it is:</strong> a store of things that were tried, what specifically was tried, and what happened — with enough specificity to be looked up rather than merely browsed.</p>
+<h3 id="51-the-two-sources-have-opposite-biases-and-thats-the-point">5.1 The two sources have opposite biases, and that's the point</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Source</th>
+<th>What it contains</th>
+<th>Its bias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>LR (launch request) docs</strong> across surfaces</td>
+<td>Engineer-proposed changes, accepted or rejected, most reaching production</td>
+<td><strong>Survivorship toward positives.</strong> People write an LR when they have a result worth launching. This is the record of <em>what worked</em>.</td>
+</tr>
+<tr>
+<td><strong>The experiment platform (Helium), joined to Reflex</strong></td>
+<td>Every experiment that ran, read out against the metrics matrix, whether or not anyone wrote it up</td>
+<td><strong>The full distribution, including failures.</strong></td>
+</tr>
+</tbody>
+</table></div>
+<p>LR docs are the numerator; the experiment platform is the denominator. <strong>The gap between them — experiments that ran and never became an LR doc — is, almost by definition, the negative-results corpus nobody wrote down.</strong> That gap is the highest-value content in the store and it is currently invisible.</p>
+<p>This is the third appearance of the same survivorship structure in this program: the recall gold set measures redundancy because PM roadmaps only contain what humans found (§B.5); hindsight recall covers only what was eventually investigated (Lesson 12); and now the written record covers only what worked. The attempts store is the first thing that would actually break the pattern, because the experiment platform holds attempts nobody chose to write about.</p>
+<h3 id="52-the-record-schema">5.2 The record schema</h3>
+<p>"Tried X, didn't work" is nearly useless as a lookup. The specificity is the product:</p>
+<ul>
+<li><strong>Hypothesis</strong> — what was believed, stated in the vocabulary a card would use</li>
+<li><strong>Intervention</strong> — what was actually built. The diff, config, or model change, not the summary</li>
+<li><strong>Locus</strong> — surface, stage, model, ranking layer</li>
+<li><strong>Timeline</strong> — proposed → launched → read-out → decision, with dates</li>
+<li><strong>Movement</strong> — metric deltas <em>with intervals and powering</em>, not "positive/negative." An underpowered null is not a negative result</li>
+<li><strong>Decision and its reason</strong> — shipped / reverted / inconclusive / abandoned before readout</li>
+<li><strong>Mechanism of failure, where known</strong> — the field that makes it a lookup rather than an archive. "Didn't work because the effect was real and negative" and "didn't work because the holdout couldn't resolve it" are opposite lookups, and only one of them means don't try again</li>
+</ul>
+<h3 id="53-what-it-unlocks-beyond-mode-2">5.3 What it unlocks beyond mode 2</h3>
+<p>The Record of System Launches (glossary object 7, a.k.a. the hindsight set) measures <strong>recall</strong> — of things that proved out, how many did Detect surface. It is scored against what shipped, so it too is biased toward positives.</p>
+<p>An attempts store adds the missing axis: <strong>precision against reality.</strong> Of the things Detect proposed, how many were actually tried, and how many of those failed? Today a Detect card that was pursued and didn't pan out looks like nothing at all. That's a false positive the program currently cannot see.</p>
+<h3 id="54-the-hazard-that-would-silently-corrupt-everything">5.4 The hazard that would silently corrupt everything</h3>
+<p><strong>Temporal leakage.</strong> The hindsight set works by snapshotting the world at time T and scoring what Detect produces against outcomes from T to T+n. If Detect also reads the attempts store, and the store contains records dated after T, then Detect at time T is reading the answers.</p>
+<p><strong>Rule, non-negotiable if both exist:</strong> the store is time-indexed, and any run anchored at T may only retrieve records with decision dates strictly before T. This is easy to get right at design time and nearly impossible to detect after the fact — the numbers just quietly improve.</p>
+<h3 id="55-it-has-the-curators-lifecycle-problem-and-the-curator-already-solved-it">5.5 It has the Curator's lifecycle problem, and the Curator already solved it</h3>
+<p>"This was tried and failed in 2024" may be false today; the system changed. Every record needs staleness handling, supersession, and human-confirmed retirement — which is exactly §1.3.2 and §1.3.3 of the Feedback Curator design, plus the lineage record in §1.3.5. <strong>Reuse that design rather than inventing a second one.</strong> The attempts store is a second repository with the same custodian problem.</p>
+<h3 id="56-the-join-is-the-work">5.6 The join is the work</h3>
+<p>The honest cost. Experiment records are structured but don't carry the hypothesis. LR docs carry the hypothesis in prose but not in a schema. Tying an experiment to a working code change or a stated hypothesis — the thing that makes a record useful — is a manual or LLM-assisted join, and that's where the effort lives. Any plan that doesn't budget for the join is not a plan.</p>
+<hr />
+<h2 id="6-the-filter-already-exists-on-paper">6. The filter already exists on paper</h2>
+<p>The Skeptic (<code>reflex_feedback_curator_and_skeptic.md</code> §2) was designed in June with a <code>### Verified</code> section and a <code>### Related prior cards</code> section in its output format. Those are hallucination-check and already-tried-check. <strong>The two mechanizable modes were already in the design and it's sitting unbuilt.</strong></p>
+<p>This reframes it: the Skeptic isn't a pre-review quality nicety. It's Reflex's <code>is_legal_action()</code>, and it belongs <em>before</em> the judge, not beside it.</p>
+<hr />
+<h2 id="7-risks">7. Risks</h2>
+<p><strong>Hallucination and novelty look identical from the outside.</strong> Both cite something not in the record. A card asserting a table that doesn't exist is a defect; a card proposing a signal nobody has built yet is the entire point of the program. The check must distinguish <strong>an assertion about the present</strong> from <strong>a proposal about the future</strong> — structurally different claims — and that has to be in the design from day one, not retrofitted. This is Lesson 12's unsupported-region warning arriving from a different direction.</p>
+<p><strong>"Already tried" must annotate, not reject.</strong> This is the sharpest asymmetry in the whole scheme. Mode 1 can <em>reject</em> — a nonexistent table is simply wrong. Mode 2 cannot: a prior failure is a reason to look harder, or to check whether the earlier attempt was underpowered, not a veto. If "already tried" becomes a filter, Reflex re-creates the conformity problem it exists to break, and it does so invisibly.</p>
+<p><strong>Over-filtering compounds.</strong> Every mechanical check reduces what reaches a human. That's the benefit and also the exposure: filters are never audited by the people they save work for. Whatever gets built needs a periodic sample of <em>rejected</em> cards reviewed by a human — the mirror image of the blind audit on top-scored cards in <code>eval_02</code> rule 3.</p>
+<p><strong>Owner.</strong> Routed 8/15 (see <code>eval_00</code> §5 item 19): the eval framing goes to <strong>Chao</strong>, as the non-confounded version of his own Phase 3 shipped-experiment metric; the LR/Helium integration is data engineering and sits closer to <strong>Gideon's</strong> logging and infra lane. The taxonomy work in §2 and §4 is eval-shaped and stays with me.</p>
+<p><strong>The seam, which must be named in the ask rather than discovered later.</strong> The attempts store and my hindsight case bank (<code>eval_00</code> §7) are the <em>same join</em>. The bank ties the cycle archive to the shipped-experiment record with outcome labels; the store ties the experiment platform to LR docs with hypothesis labels. The expensive half — tying experiments to hypotheses — is common to both. Propose it as <strong>one join, two consumers.</strong> Otherwise this reproduces the structural finding in <code>eval_00</code> §4 item 1 precisely: two people building one pipeline under two names, found in October.</p>
+<p><strong>And keep the two uses separate.</strong> As an <em>eval source</em> — Detect's precision against reality — this is Chao's. As a <em>retrieval corpus at card-generation time</em>, so Detect stops re-proposing tried things, it is agent capability: the Skeptic, Andrew's surface. Same corpus, two consumers, different owners. Only the first is eval, and conflating them is how the proposal gets rejected as scope creep.</p>
+<hr />
+<h2 id="75-where-to-start-picking-the-first-slice">7.5 Where to start — picking the first slice</h2>
+<p>The partition says <em>what</em> to mechanize. It doesn't say <em>where</em>, and trying it across all of Reflex at once is how this dies. Three results argue for starting narrow: AutoHarness built <strong>a separate harness per game</strong> (145 of them, 100% legal-action accuracy) and lists cross-game reuse as future work; EvoHarness-RL's SFT stage tried to generalize teacher patterns across environments and scored <em>worse</em> than the untrained harness on unseen tasks; and Google's system started with one surface, the YouTube watch page.</p>
+<p><strong>The selection criterion falls out of the hardest problem, not the most attractive one.</strong> The reason Reflex can't get verifiable outcomes today is that a change could originate anywhere — backend, model, composition — so a card can't be traced to an experiment. That difficulty <em>is</em> the criterion: <strong>pick the slice where card → change → experiment is already a clean line.</strong></p>
+<p>Rank candidate slices in this order:</p>
+<ol>
+<li><strong>Attribution cleanliness</strong> — one card maps to one change maps to one experiment. Non-negotiable; without it there is no verifiable reward to build on.</li>
+<li><strong>Already instrumented</strong> — the experiment platform reports the outcome today, with no new logging.</li>
+<li><strong>Historical density</strong> — enough past experiments with identifiable hypotheses to build the attempts store <em>retroactively</em>, so the slice starts with a corpus instead of an empty table.</li>
+<li><strong>Latency</strong> — reads out in weeks, not quarters.</li>
+<li><strong>Then</strong> business impact, and then org convenience.</li>
+</ol>
+<p>Against the axes on the table: <strong>model-side</strong> scores highest on attribution — it's what Google's agent did, with optimizer, architecture, and reward each a discrete experiment — but it's the worst fit for Detect, which proposes opportunities rather than architectures. <strong>Business impact is the wrong criterion to lead with</strong>; high-impact areas are the most contested and most confounded. <strong>Existing problems</strong> is a good proxy for criterion 3, since a known problem means people have already tried things. <strong>CG</strong> is the org-convenience candidate — ads and core CG people are present — and org convenience is real, but it belongs as a <strong>tiebreak, not the first filter.</strong> A slice with the right people and no verifiable signal reproduces the problem we're trying to escape.</p>
+<p><strong>This is a query, not a debate.</strong> Pull the experiment record for the last few quarters, group by surface and stage, and find where volume is high <em>and</em> each experiment ties to an identifiable hypothesis. Criteria 1–4 are all readable off that output. Bring the ranked list to the room and spend the meeting on the tiebreak, which is the part where other people add something. It is also the same join as measurement zero (§4) and the attempts store (§5) — one piece of work, three payoffs.</p>
+<p><strong>Don't budget the extension as free.</strong> DeepMind's own future work is "a library of reusable harnesses," which means transfer is unsolved at DeepMind. What plausibly transfers is the <strong>playbook</strong> — how you pick a slice, build the verifier, and measure it — not the artifact. Say it that way, or someone will assume slice two is cheap.</p>
+<h2 id="8-sequencing">8. Sequencing</h2>
+<ol>
+<li><strong>Classify existing rejected cards</strong> into §2's taxonomy. Produces the ratio. Gates everything below. <em>(An afternoon, no new data.)</em></li>
+<li><strong>Build the mode-1 check</strong> — catalog lookup for hallucinated references. Cheapest, fully mechanical, and independently useful whatever the ratio says.</li>
+<li><strong>Move it pre-judge</strong>, then re-measure human–human and judge–human κ on what survives. This is the number Lesson 11 actually wants.</li>
+<li><strong>Scope the attempts store</strong> — pick one surface, join a quarter of experiment records to LR docs by hand, and measure effort-per-record before proposing anything wider.</li>
+<li><strong>Derive the real taxonomy</strong> from step 1's labels and replace §2.</li>
+<li><strong>Only then</strong> build the failure-type → component lookup that makes <code>blame()</code> deterministic for the mechanized share.</li>
+</ol>
+<hr />
+<h2 id="9-open-questions">9. Open questions</h2>
+<ol>
+<li><strong>What's the actual ratio?</strong> Everything here is conditional on step 1.</li>
+<li><strong>Can the experiment platform be joined to Reflex cards at all</strong>, or only to LR docs? If only the latter, the store inherits the positive-result bias and most of its value evaporates.</li>
+<li><strong>Who owns the store?</strong> It spans the experiment platform, LR docs, and Reflex, which likely means no one does today.</li>
+<li><strong>Does the card schema change?</strong> Mode 3 requires cards to assert estimated magnitude and effort. That's a change to what Detect emits, which is Andrew's surface, not the eval program's.</li>
+</ol>
+<h2 id="references-the-papers-behind-this-program">References — the papers behind this program</h2>
+<p>the sources this eval/evolve notes work is built on, with links.</p>
+<h3 id="internal-design-docs-the-two-things-this-critiques-and-builds-on">Internal design docs (the two things this critiques and builds on)</h3>
+<ul>
+<li>
+<p><strong>Reflex Detect Eval</strong> — Chao Wang. <a href="https://docs.google.com/document/d/1mIFj1vzClSwXegocdkYwAdzBxXpMiT3mr9PDXQ9z6mE">https://docs.google.com/document/d/1mIFj1vzClSwXegocdkYwAdzBxXpMiT3mr9PDXQ9z6mE</a>
+  <em>The Detect-stage evaluation proposal: metrics across Phases 0–3, the LLM Hypothesis Judge, and human calibration. Phase 0 is task-performance telemetry (cost, tokens, tool calls); Phase 1 builds the LLM judge and calibrates it to ~20 PM-graded cards; Stage 2 runs the calibrated judge in the detect cycle and feeds card quality back into playbooks via GEPA; Phase 3 proposes business metrics (funnel survival, shipped-experiment counts). This is the doc the lockbox protocol, the κ-not-percentage-agreement ask, and the "Phase 3 is confounded → make it an attempts-store join" critique all attach to. Its Stage 2 is the same work as Janvi's Evolve Detect adapter — the seam to name before October.</em></p>
+</li>
+<li>
+<p><strong>Reflex Evolve (TDD)</strong> — Janvi Palan. <a href="https://docs.google.com/document/d/1IyTAM2xXOfnOFVEovkasPFNcvW1Oj5EleW1yJB21lpY/edit?tab=t.0">https://docs.google.com/document/d/1IyTAM2xXOfnOFVEovkasPFNcvW1Oj5EleW1yJB21lpY/edit?tab=t.0</a>
+  <em>The Evolution-stage technical design: the GEPA loop over playbook specs, the EvalResult contract, the dimension-Pareto acceptance gate, the un-bypassable human gate, landing re-runs, and versioned spec history. The strongest doc in the program (typed contract, one-component mutations, healthy/broken success bands). The eight design suggestions in this notes doc — separate acceptance from parent selection, give the gate a statistical margin, ablate <code>blame()</code>, matched-budget baseline, parsimony pressure, incumbent pre-flight, container-not-prose rule protection, and the security/rollback gaps — are all written against this TDD, and the EvalResult v2 schema + paired-bootstrap gate are the proposed additions to it.</em></p>
+</li>
+</ul>
+<h3 id="external-papers">External papers</h3>
+<ol>
+<li>
+<p><strong>GEPA: Reflective Prompt Evolution Can Outperform RL</strong> — UC Berkeley / Stanford / Databricks / MIT, ICLR 2026 Oral. arXiv:2507.19457v2 → <a href="https://arxiv.org/abs/2507.19457">https://arxiv.org/abs/2507.19457</a>
+   <em>A prompt optimizer that reads execution traces in natural language, reflects on them, and proposes targeted edits — instead of collapsing rollouts into a scalar and estimating a policy gradient. Beat GRPO by ~6% on average (up to 20%) with up to 35× fewer rollouts (IFBench: 38.61% after 678 rollouts vs GRPO's 35.88% after 24,000). The thesis isn't "text beats scalars" — it's that a scalar reward destroys attribution information already sitting in the rollout, which GRPO then needs 24k samples to statistically reconstruct. The feedback function can also carry human-written rationales as <code>feedback_text</code>. Source for three load-bearing facts: (a) GEPA's acceptance test is a plain scalar — average minibatch score before vs. after (Alg. 1, L13–14) — so GEPA cannot be cited for a dimension-Pareto acceptance gate; (b) its Pareto machinery is instance-level and only picks which parent to mutate next (Alg. 2); (c) GEPA has no <code>blame()</code> — module selection is round-robin (DSPy <code>component_selector="round_robin"</code>), so <code>blame()</code> is a Reflex departure carrying the burden of proof.</em></p>
+</li>
+<li>
+<p><strong>Effective Harnesses for Long-Running Agents</strong> — Anthropic Engineering. <a href="https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents">https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents</a>
+   <em>Engineering notes on getting agents to make progress across many context windows: an initializer agent that sets up the environment, then a coding agent that works one feature at a time and leaves clean artifacts. Honest grade — thin: no numbers, no baseline, n=1 application, so cite the failure taxonomy, never a performance claim. Two keepers: (a) </em><em>format as guard</em><em> — strongly-worded prose instructions against editing a test manifest weren't enough; changing the file format worked, because the model is measurably less likely to modify JSON than Markdown; (b) the </em><em>get-your-bearings</em><em> routine — smoke-test the environment before new work so a broken state is caught, not compounded. Source for: moving Evolve's verification rules out of prose into a structured block where one field is mutable (a mutation that can't find a sentence to soften can't soften it), and pre-flighting the incumbent on a fixture slice before each generation.</em></p>
+</li>
+<li>
+<p><strong>SkillOS: Learning Skill Curation for Self-Evolving Agents</strong> — Google Cloud AI Research / UIUC / MIT. arXiv:2605.06614 → <a href="https://arxiv.org/abs/2605.06614">https://arxiv.org/abs/2605.06614</a>
+   <em>A frozen executor plus a separately </em><em>trained</em><em> skill curator that issues insert / update / delete against an external skill repo — all learning lives in the curator, not the executor. ALFWorld success 47.9 → 61.2 with the trained curator; Gemini-2.5-Pro 66.4 → 80.2. Ablations: full 61.2 · without content-quality reward 58.6 · without compression reward 60.0 · without grouped task streams 57.3. Behavioral headline: untrained curators </em><em>append</em><em> (insert-dominant); trained curators </em><em>consolidate</em><em> (update rises, insert declines). Utilization rose 53.6% → 72.9% coverage while using </em><em>fewer</em><em> skills per example (2.24 → 1.95) — precision, not volume. An explicit compression reward exists to stop verbatim trajectory copying and force distillation. And pointing Gemini-2.5-Pro directly at curation </em><em>underperformed a trained 8B curator</em><em> — stronger reasoning ≠ better curation. Source for: the four Feedback-Curator metrics (coverage first), the growth-curve measurement, the proposed-vs-merged logging, compression applied to <code>Correction:</code> not <code>Evidence:</code>, and "don't fix the Curator by upgrading its model."</em></p>
+</li>
+<li>
+<p><strong>AutoHarness: Synthesizing a Code Harness</strong> — Google DeepMind. arXiv:2603.03329 → <a href="https://arxiv.org/abs/2603.03329">https://arxiv.org/abs/2603.03329</a>
+   <em>The LLM writes its own harness as code — <code>propose_action()</code> and <code>is_legal_action()</code> — found by tree search with Thompson sampling, with the environment as critic. The motivating stat: </em><em>78% of Gemini-2.5-Flash's chess losses were illegal moves, not strategy.</em><em> After synthesis: 100% legal-action success across all 145 games (avg 14.5 iterations to converge); Flash+harness beat Gemini-2.5-Pro 56.3% vs 38.2%; in the code-as-policy limit it beat GPT-5.2-High 0.870 vs 0.844 at ~$0 inference cost against ~$640. The key reading: the harness didn't make chess verifiable — chess already was — it </em><em>took the verifiable part away from the LLM at 100% accuracy so the model only faced what needed judgment</em><em>; it shrank the hard problem rather than solving it. Credit assignment comes from the error signature (if <code>is_legal_action()</code> returned True but the action was invalid, refine both functions; if False, refine only <code>propose_action()</code>) — deterministic, immune to rationale bias. Source for: partitioning card failures by verifiability, "hallucinated references are Reflex's illegal moves," and failure-type → component as a deterministic lookup replacing <code>blame()</code> for the mechanized share. Note it does </em><em>not</em><em> conflict with #8 — AutoHarness builds a separate harness per game and lists cross-game reuse as future work, so both papers agree evolution works </em>within<em> a task.</em></p>
+</li>
+<li>
+<p><strong>EvoHarness-RL: Self-Evolving Runtime Harness</strong> — Meta AI / UIUC. arXiv:2608.05446 → <a href="https://arxiv.org/html/2608.05446v1">https://arxiv.org/html/2608.05446v1</a>
+   <em>Externalize three harness states — </em><em>Belief</em><em> (facts inferred from interaction), </em><em>Progress</em><em> (<code>(subgoal, status)</code> records), </em><em>Experience</em><em> (cross-episode skills and failure modes) — then train a coordination policy with cost-aware GRPO. Unseen split: base ReAct 50.0% → </em><em>BPE harness at prompt time, zero training, 77.6% (+27.6)</em><em> → supervised fine-tuning 69.4% (</em>worse than prompt-time<em>) → cost-aware GRPO 86.6% (+36.6). The same harness lifted GPT-4.1 +22.1, GPT-5 +25.7, and Claude Opus 4.5 to 98.5%. Three findings: the untrained </em><em>structure</em><em> captured 27.6 of 36.6 points (RL bought only nine more, at the cost of a whole training pipeline); SFT made generalization </em>worse<em> than doing nothing (imitating good harness use isn't learning when use is worthwhile); and </em><em>harness annealing</em><em> — after RL, external-state calls drop to ~one per episode, so maturity looks like </em>less<em> scaffold interaction. Reward design: success is a strict gatekeeper and the efficiency bonus is only granted on success. Source for: the sequencing ladder (trustworthy signal → externalized state → prompt/harness optimization → weight optimization — "you can't learn a policy over state you haven't externalized"), the BPE→Reflex mapping (Experience = <code>quality_patterns.md</code>, Progress = apparently nothing), and — with SkillOS — the "a growing patterns file is the signature of an immature system" position.</em></p>
+</li>
+<li>
+<p><strong>Self-Evolving Recommendation System</strong> (the YouTube paper) — Google; Wang, Wu, Chang, Wei, Heldt. arXiv:2602.10226 → <a href="https://arxiv.org/abs/2602.10226">https://arxiv.org/abs/2602.10226</a>
+   <em>Two agents optimizing YouTube's watch-page ranking model end to end. The </em><em>Offline Agent (Fast Loop)</em><em> is a high-frequency nomination engine generating hypotheses against cheap proxy metrics; the </em><em>Online Agent (Slow Loop)</em><em> runs daily, ranks candidates, promotes them to live experiments, and validates against delayed north-star business metrics — including deciding when to kill an experiment. Against all launches on the surface over six months, the agentic system beat </em><em>64% of human launches on the YouTube-level metric and 73% on the surface-level metric</em><em>, with several successful production launches. It didn't just tune config — it discovered Adagrad → RMSprop with specific hyperparameters, an architecture refinement off standard sigmoid gates, and </em><em>a novel reward function incorporating a new signal that beat the human-engineered baseline</em><em> (it redefined the business logic of success). The whole design is the two-loop split — cheap fast proxy, expensive slow truth — because optimizing the proxy alone Goodharts it and waiting for the north star alone gets you one experiment a month; safety guardrails are stated in the agent's task prompt as explicit constraints ("Keep Metric#3 ≤ +1%"). Source for: the existence proof that Reflex's structure works at production scale (the judge is the fast proxy; retention/shipped-outcome metrics are the slow north star), the observation that Reflex is missing the Slow Loop (an Experiment Journal + automated path to live experiments + north-star feedback — another argument for the attempts store and Record of System Launches), and guardrails-as-explicit-constraints mapping onto veto criteria.</em></p>
+</li>
+<li>
+<p><strong>EvoRec: Self-Evolving Agentic Recommender Systems</strong> — Alibaba International Digital Commerce. arXiv:2606.28368 → <a href="https://arxiv.org/abs/2606.28368">https://arxiv.org/abs/2606.28368</a>
+   <em>Four agents on a dual-track loop: a Research Agent and Code Agent iterate the model each round, while a </em><em>Skill Evolver</em><em> periodically distills reusable methodology from a persistent Memory of past experiments. Up to </em><em>5.54% relative offline improvement</em><em> over the strongest baseline; online A/B on the advertising platform </em><em>+1.85% revenue, +1.02% CTR, both statistically significant</em><em>. The sharp critique of prior work: existing approaches "use the agent only as a code translator that </em><em>accumulates no methodology</em><em>" — the Skill Evolver exists to fix exactly that, so model and methodology co-evolve on two tracks, not one. Source for: the single most useful citation for arguing the Feedback Curator deserves investment — a production system where distilling methodology from past experiments produced a </em><em>measurable revenue lift</em><em> — and a reinforcement of SkillOS that the curation layer is a first-class component, not plumbing.</em></p>
+</li>
+<li>
+<p><strong>Rethinking the Evaluation of Harness Evolution</strong> (the counterweight) — AI2 / UW. arXiv:2607.12227 → <a href="https://arxiv.org/abs/2607.12227">https://arxiv.org/abs/2607.12227</a>
+   <em>On Terminal-Bench 2.1, automatic harness evolution did </em><em>not</em><em> consistently beat matched-budget parallel sampling or sequential refinement; gains showed in pass@5 but </em><em>not pass@1</em><em> — i.e. they came from taking more attempts, not from a better artifact — and evolved harnesses transferred almost nothing to held-out tasks (+0.6 pass@1 on average). Two ways it doesn't sink Evolve, both worth carrying: (a) its diagnosis — meta-agent edits "memorize fixes rather than distilling strategies" — is precisely what SkillOS's compression reward exists to prevent, so the negative result may be about self-evolution run </em>without<em> a compression objective, a much narrower claim; (b) it's about </em>transfer<em>, and Evolve evolves per-playbook specs, which is the within-task regime where AutoHarness and both production papers succeeded. Source for: the matched-budget baseline arm in Evolve's success criteria (run the incumbent with K-sample selection at the same invocation budget before crediting the loop, and report pass@1 vs pass@k separately).</em></p>
+</li>
+</ol>
+</div>
+
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('nav.doc-outline a'));
+  if (!links.length) return;
+  var byId = {};
+  links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
+  var targets = links.map(function (a) {
+    return document.getElementById(a.getAttribute('href').slice(1));
+  }).filter(Boolean);
+  var current = null;
+  function onScroll() {
+    var best = null, bestTop = -Infinity;
+    for (var i = 0; i < targets.length; i++) {
+      var top = targets[i].getBoundingClientRect().top;
+      if (top <= 120 && top > bestTop) { bestTop = top; best = targets[i]; }
+    }
+    if (!best) best = targets[0];
+    if (best && best.id !== current) {
+      if (current && byId[current]) byId[current].classList.remove('active');
+      current = best.id;
+      var a = byId[current];
+      if (a) { a.classList.add('active'); a.scrollIntoView({block: 'nearest'}); }
+    }
+  }
+  document.addEventListener('scroll', onScroll, {passive: true});
+  window.addEventListener('resize', onScroll);
+  onScroll();
+})();
+</script>
+
+</body>
+</html>
