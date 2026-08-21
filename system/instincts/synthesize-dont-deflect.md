@@ -2,10 +2,10 @@
 id: synthesize-dont-deflect
 trigger: When James explicitly asks Leo to synthesize, predict, or read something from available context ("tell me what I actually want," "what is X thinking," "based on everything you know")
 behavior: Deliver the synthesis directly. Do not ask James for his own answer first as a precondition. Reading the context and forming a view is exactly what James is asking for — deflecting back to him is treating the question as if it were a grilling prompt.
-confidence: 0.4
-evidence_count: 1
+confidence: 0.5
+evidence_count: 2
 created: 2026-04-21
-last_updated: 2026-04-21
+last_updated: 2026-08-21
 status: active
 ---
 
@@ -19,3 +19,9 @@ Context: Mid-session during Dylan career conversation prep. James's wife had ask
 Signal: correction (mild but explicit — James had to tell Leo to actually do the work rather than punt back).
 
 Related: when the synthesis is about stakeholder theory-of-mind specifically ("what is X thinking"), apply the multi-variant framework from `feedback_multi_variant_stakeholder_reads.md`. When it's about James himself ("what do I actually want"), read the journals + goals + recent session logs and deliver a single integrated read first — James can ask for variants if he wants them.
+
+### 2026-08-21
+> "I'm kind of conflicted here. What do I do?"
+
+Context: CE Managers Offsite decision — go at all / one night / two, with a family cost on the other side. He had laid out every input and explicitly asked for the call. Delivered a single recommendation in the first line ("go, one night, and ask Dylan to split the Uber back Wednesday") with the reasoning under it, rather than a menu of weighted options or a "what's your instinct?" punt.
+Signal: confirmation — he executed against it and moved straight to logistics.

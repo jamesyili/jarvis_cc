@@ -681,6 +681,8 @@ UPP deck to CEO/CTO this month with Matthew + foundations IC from Dhruvil's team
 
 # 5) Jeff H — Skip-Level Sponsor (VP of Core, Rajat's manager)
 
+**2026-08-21 — He's hosting the CE Managers Offsite (Asilomar, 9/15–17), his org and his travel budget.** Org fact established same day: **CE = Content Engineering**; **SSJ reports into Rajat, who reports into Jeff**, so Kurchi's org is inside this one. Faisal, Shipeng and Bo Zhao also report to Jeff. Format is deliberately summer camp — arts and crafts, campfires, alcohol, one carved-out business block on Wed 9/16. **This is his native terrain and it rewards exactly what the profile says: connection and vibes, not artifacts.** The operational takeaway holds inverted here — at camp the currency is being good company, and working the room with an agenda is the failure mode. Plan of record: `../career/ce_managers_offsite_2026-09.md`.
+
 ## Role in my 6–12 month goals
 - **The "Scope Expander":** Actively pushing you to be "more ambitious" and look beyond Homefeed. He is the bridge to **Goal #4 (Expand Internal Network)**.
 - **Sponsor of "Modernization":** He views your work (AI/Agentic workflows) as the template for the future of Core engineering.
@@ -778,6 +780,8 @@ Dylan brought James + Dhruvil **three priorities she's carrying from Jeff**; a q
 ---
 
 # 6) Kurchi — Peer Senior Director (SSJ: Search, Shopping, Journey)
+
+**⚠️ 2026-08-21 — She is attending the CE Managers Offsite (Asilomar, 9/15–17), same two nights as James.** Two live and opposed facts in one room: (a) James holds Dylan's closed-laptop disclosure that the UPP×SSJ collaboration may stop ~9/30 — no disclosure, no visible posture change, no new SSJ-UPP commitments; (b) **her 8/7 back-channel invitation is still unused** and both her stated gates looked cleared as of 8/13, while the P2P launch must land before ~9/30 or exits the Exceeds case. Play: 30 seconds, register-matched to her C-profile — *the off-topic tail numbers moved, can I send you the writeup* — earning the right to send receipts, not pitching at a campfire. Landing P2P is precisely what Dylan sanctioned ("let's land, and let's escalate where needed"). Tripwire: camp intimacy plus alcohol manufactures commitments beyond the landing. Full tripwire list: `../career/ce_managers_offsite_2026-09.md` §3.
 
 ## Role in my 6–12 month goals
 - **Primary political counterweight to UPP expansion.** She controls the surfaces (Search, P2P) that UPP must expand to for the platform thesis to hold.

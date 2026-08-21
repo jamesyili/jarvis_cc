@@ -11,6 +11,15 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-21 — Offsite intel + she's taking James AND Alim to lunch next week (bench mandate, her own hand)
+
+Not a 1:1 — facts surfaced while working the CE Managers Offsite decision.
+
+- **She's taking James *and* Alim out to lunch next week**, when Alim visits in person. Read: this is her running her own read on the bench candidate, not just delegating ask #1 to James. The H2 ask was *coach Alim or Daniel into "someone in the room when I am not"* — and she's now creating the three-way herself.
+- **Offsite (Asilomar 9/15–17): she attends two of the three days** (which two, unknown). Travel: shuttle out, **Uber back — alone**. James's read: she'd rather ride solo, so he's not proposing a share. **Correct read, and worth holding as a pattern** — her sponsorship dialect is costly acts, not talk time; a captive 2.5 hours with her report is a cost to her, not a gift. Don't engineer proximity with her.
+- **⚠️ The exposure asymmetry she cannot see around.** Alim gets the Friday 8/21 trio → this lunch → two nights at camp with Jeff, Rajat, Kurchi and Bo. Daniel is dark 8/21–9/11 then remote from China 9/14–9/25 and gets none of it. **Her read of the bench will be Alim-shaped by default**, because Alim is the only one she can see for five weeks. James is the only person who can put Daniel's evidence in front of her. *(Leo rec, unratified: at the lunch, low talk-share plus one honest unforced moment naming something Daniel did — the volunteered OOO coverage doc, or pulling his walkthrough forward before a long-planned vacation.)*
+
+
 ## 2026-08-19 — H1 review delivered live: text matched; the signal was all off-script (bench ask + closed-laptop UPP-SSJ disclosure)
 
 Delivery matched the written text — she mostly read through it; James read sincere appreciation. James deliberately did **not** run the prepped Exceeds playback — the moment was wrong after the disclosure below. All the new signal was unwritten:

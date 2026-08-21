@@ -39,7 +39,7 @@ Exceeds cases die when only the manager speaks. By mid-November each of these pe
 | When | What |
 |---|---|
 | **Aug** | ~~Choose headline metrics~~ ✓ 8/16: UPP + RR/Anticipation launches. Next: per-launch metric, magnitude, land-by date. Measurement zero scoped with a date — **now on the ~9/30 SSJ wind-down clock (⚠️ see §1)**. Ledger starts. |
-| **Sep** | ~~Dylan bar conversation~~ ✓ bar volunteered unprompted 8/19 (bench + beyond-P13N). Remaining: low-stakes Q1 playback + Q2 repeat-year pre-emption in an ordinary 1:1. Working-model one-pager delivered. **SSJ-line landings banked before ~9/30.** |
+| **Sep** | ~~Dylan bar conversation~~ ✓ bar volunteered unprompted 8/19 (bench + beyond-P13N). Remaining: low-stakes Q1 playback + Q2 repeat-year pre-emption in an ordinary 1:1. Working-model one-pager delivered. **SSJ-line landings banked before ~9/30.** **NEW 8/21 — the advocate venue exists: CE Managers Offsite, Asilomar 9/15–17** (Jeff's org + budget; Rajat, Dylan, Kurchi, Bo Zhao, Alim all going). Bo = sponsorship fallback #2 in the same room as Jeff and Rajat; Kurchi's unused 8/7 back-channel is the cheapest route to banking the P2P landing before the wind-down. Plan of record + tripwires: `ce_managers_offsite_2026-09.md`. **Measurement zero now has a hard internal deadline: skeleton it before 9/15.** |
 | **Oct** | Reorg quiet. Jeff half-page delivered. First headline number lands. |
 | **Nov** | Remaining numbers land. Rajat/Faisal artifacts. One-page Exceeds case drafted. |
 | **Early Dec** | Case + ledger handed to Dylan before review writing opens. |

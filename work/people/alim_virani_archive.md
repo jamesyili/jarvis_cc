@@ -8,6 +8,21 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-21 — The five-week exposure run: trio → Dylan lunch → CE offsite, while Daniel is invisible
+
+Not a touchpoint — a structural read filed while working the offsite decision. **Alim's next five weeks:** Fri 8/21 trio (the bench audition) → **lunch with Dylan next week** when he visits in person (she's taking James and Alim together — her own hand on the bench mandate) → **CE Managers Offsite 9/15–17**, two nights at Asilomar with Jeff, Rajat, Kurchi and Bo Zhao.
+
+**Daniel gets none of it** — dark 8/21–9/11, then remote from China 9/14–9/25. He *structurally cannot* attend the offsite. Then James runs a symmetric Phase-1 ownership ask around 9/15–21.
+
+**Two readings, both true:**
+1. It is a real asymmetry in a process whose credibility rests on *visible symmetry* — and it isn't fixable by rescheduling. The duty it creates is on James: put Daniel's evidence in front of Dylan, because she can only see Alim for five weeks.
+2. **It is also Dylan's H2 ask #1 executing itself** — "someone in the room when I am not." Alim at a campfire with Jeff and Rajat while James drives home Wednesday night is not a cost; it's the assignment.
+
+**Guardrail:** the published no-pre-wiring rule still holds. If he returns having had scope conversations with Dylan or Rajat, that is an **input** to Phase 1, surfaced openly — never a shortcut around it.
+
+*(Leo rec, unratified)* **Brief him for 15 minutes before he goes** — not "network for me," but *come back with your read on where Jeff and Rajat think CE is heading.* Costs nothing, builds the exact muscle Dylan named, and produces both a debrief hook and a real entry for the per-EM scoring ledger. Full plan: `../career/ce_managers_offsite_2026-09.md`.
+
+
 ## 2026-08-14 — Roberto's read on Alim (James↔Roberto 1:1; Twitter-era hypothesis, not verdict)
 
 Roberto (Alim's first-ever manager-of-managers context — Alim was the first EM Roberto managed as an M2; ATG group at Twitter): **fundamentalist** — likes to understand why; can get **really into the weeds**; **very ideas-driven**; *"execution can be stronger"*; **needed positive reinforcement / reassurance**; "will take some time."
