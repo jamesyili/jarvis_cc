@@ -799,6 +799,12 @@ Dylan brought James + Dhruvil **three priorities she's carrying from Jeff**; a q
 - James's 8/13 status: **P10 WAU negative → neutral** (Zhenjie's gate condition no longer holds) and **the relevance regression is not stat-sig** (James: "Kurchi just made a big deal out of it"). Both 8/7 gates look cleared **on her own stated metric bar**; the off-topic-tail half of her worry (the part she emotionally weighted) has no evidence status captured yet.
 - Plan (Leo rec, unratified): use her own invited back-channel WITH tail-cleanup receipts before any Jeff escalation — her invitation is the cheapest channel on record; escalate via Dylan→Jeff only if the stated bar moves, which would then be a clean case ("the written bar was met; it moved"). Full state: `work/projects/upp/upp_retrieval_em.md` 8/13 entry.
 
+### 2026-08-20 — Feedback collection on Huizhong, routed through Dylan; James's read: building an out
+
+- Kurchi asked Dylan for feedback on **Huizhong**; Dylan fanned the ask out to James ("fact driven and candid… I will synthesize and share"). James's read (hypothesis): with the UPP-SSJ churn escalating toward Dylan's ~9/30 wind-down consideration, Kurchi is assembling a **Huizhong-shaped explanation** — "using Huizhong as an out" — rather than owning org-level inconsistency. In-pattern with her documented candor-when-it-positions ("promotion not warranted" to Dylan) and her lieutenant-loyalty structure (Jinfeng IC18).
+- Precedent James cites: Ravi/notifications (Dylan + Shupeng → Ravi out). Full entry + James's submission strategy: `dylan_wang_archive.md` 8/20.
+- Operational: James's submission kept limited-vantage, first-hand, system-attributed — honest with Dylan without arming the case.
+
 ## DiSC Profile (Inferred)
 - **Primary:** **C (Conscientious)** — leads with "I need data," "show me the evidence," reasonable-sounding process demands
 - **Secondary:** **D (Dominant)** — fiercely turf-protective, will push back on Rajat directly, doesn't fold under VP pressure
@@ -822,7 +828,7 @@ Dylan brought James + Dhruvil **three priorities she's carrying from Jeff**; a q
 | Person | Role | Notes |
 |--------|------|-------|
 | Krishna | Sr. EM, Text Search Relevance | Long-standing report. Past collaboration with Dhruvil built trust. |
-| Huizhong | Director, P2P Backend/ML | Recently rolled under Kurchi. Kurchi skeptical of her promotion. Making IC access difficult. |
+| Huizhong | Director, P2P Backend/ML → Closeup & Multimodal Relevance (org note 8/1) | Recently rolled under Kurchi. Kurchi skeptical of her promotion. Making IC access difficult (early UPP; unblocked after Rajat's decision). **8/20: subject of a Kurchi-originated feedback collection via Dylan** — James's read: scapegoat-in-progress for the UPP-SSJ churn. James likes her personally; Sai's private read on her (§27, protected) is the only negative on file and stays out of anything chain-readable. |
 | Jinfeng | IC18, P2P ML Lead | Kurchi's lieutenant. Fights technical battles on her behalf. Pushed for P2P LR as base model. Now co-designing UPP CLR after Dylan/Rajat forced alignment. |
 
 ## Current trust state (with James)

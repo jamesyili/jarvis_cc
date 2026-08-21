@@ -20,6 +20,15 @@ Not a 1:1 — facts surfaced while working the CE Managers Offsite decision.
 - **⚠️ The exposure asymmetry she cannot see around.** Alim gets the Friday 8/21 trio → this lunch → two nights at camp with Jeff, Rajat, Kurchi and Bo. Daniel is dark 8/21–9/11 then remote from China 9/14–9/25 and gets none of it. **Her read of the bench will be Alim-shaped by default**, because Alim is the only one she can see for five weeks. James is the only person who can put Daniel's evidence in front of her. *(Leo rec, unratified: at the lunch, low talk-share plus one honest unforced moment naming something Daniel did — the volunteered OOO coverage doc, or pulling his walkthrough forward before a long-planned vacation.)*
 
 
+## 2026-08-20 — Feedback-collection ask on Huizhong (Kurchi-originated); James's pattern read filed
+
+9:56 AM Slack (screenshot filed by James): *"@Kurchi Subhra Hazra asked me to provide feedback for @Huizhong Duan, please share me yours, fact driven and candide. I will synthesize and share."*
+
+- **James's pattern read (his hypothesis, hold loosely):** this rhymes with **Ravi/notifications** — Dylan worked with Shupeng and Ravi was "basically fired essentially" (James's words; first time this precedent is on file). Read: feedback collection as case-building. And one level up: **"Kurchi's using Huizhong as an out"** — routing blame for the UPP-SSJ churn onto Huizhong rather than herself.
+- **Consistency check (existing record):** Kurchi already told Dylan she didn't believe Huizhong's Sr.EM→Director promotion was warranted (Kurchi §6 background) — this ask is in-pattern for her, and Dylan is the synthesizing channel both times.
+- **Interaction with the 8/19 closed-laptop:** the ~9/30 wind-down consideration ("tons of escalations") and this feedback cycle are plausibly the same arc — the escalations need an owner, and a Huizhong-shaped explanation spares both Kurchi's org story and the collaboration's. James's submission is deliberately written to be non-weaponizable (limited-vantage, first-hand incidents only, system-level attribution) — and reads as business-as-usual partnership feedback, consistent with not knowing about the wind-down.
+- **James's own stance, on record:** he likes Huizhong personally. His biggest direct experience: *"it's really confusing and I always get conflicted information from SSJ leadership"* — org-level, not Huizhong-specific. Sai's private read (Huizhong conservative/controlling on ML investment, §27 — protected source) was re-stated to Leo by James 8/20 but **deliberately excluded from the submission**.
+
 ## 2026-08-19 — H1 review delivered live: text matched; the signal was all off-script (bench ask + closed-laptop UPP-SSJ disclosure)
 
 Delivery matched the written text — she mostly read through it; James read sincere appreciation. James deliberately did **not** run the prepped Exceeds playback — the moment was wrong after the disclosure below. All the new signal was unwritten:

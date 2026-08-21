@@ -144,3 +144,4 @@
 | 2026-08-18 21:01 | gmail | [Leo] Quality and Safety Levers in the Recommendation Stack | work/projects/safe_journeys/joint_framework_v1.md | to=jamesyili@gmail.com id=1a0182e63ab39544 |
 | 2026-08-19 18:35 | gmail | [Leo] Friday 8/21 — Trio Session (James · Alim · Daniel) | /tmp/claude-1000/-home-james-src-leo/038484c8-0e80-47ef-ab8c-20009c80e071/scratchpad/friday_trio_agenda_2026-08-21.md | to=jamesyili@gmail.com id=1a01ccecb2c81560 |
 | 2026-08-20 20:08 | gmail | [Leo] The World Store and the LR Connector — Detect-stage memory, closing the Prove→De | work/projects/reflex/eval/eval_07_world_store_proposal.md | to=jamesyili@gmail.com id=1a0224ae45fc893f |
+| 2026-08-20 21:58 | gmail | [Leo] Huizhong peer feedback - full + short versions | /tmp/claude-1000/-home-james-src-leo/75bd8b79-75ff-4142-b567-3047e143eb49/scratchpad/huizhong_feedback_versions.md | body-only, scratchpad source (no repo artifact per James) |

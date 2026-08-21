@@ -1,15 +1,20 @@
 ---
 id: encode-sensitive-feedback-for-the-reading-chain
 trigger: When drafting peer feedback, promo assessments, or any written artifact whose subject's management chain (or the subject) will read it — especially mid-political-situation or when a reorg is shifting scope
-behavior: Encode honest-but-sensitive growth areas as positive next-altitude framing ("operate at broader scope", "bring your strength into closer contact with X"). Never state the raw critique, a wellbeing read ("seems stressed"), or IC-level friction by name. Ask who reads it before choosing bluntness. The honest read still lives — capture it privately in stakeholders.md behind the trust perimeter; the artifact only carries the constructive encoding.
-confidence: 0.5
-evidence_count: 5
+behavior: Encode honest-but-sensitive growth areas as positive next-altitude framing ("operate at broader scope", "bring your strength into closer contact with X"). Never state the raw critique, a wellbeing read ("seems stressed"), or IC-level friction by name. Ask who reads it before choosing bluntness. The honest read still lives — capture it privately in stakeholders.md behind the trust perimeter; the artifact only carries the constructive encoding. ADVERSARIAL-COLLECTION variant (8/20) — when the feedback is being solicited as possible case-building material against the subject: limited-vantage caveat up front (structural protection — makes the text unusable as an exhibit), first-hand incidents only, attribute systemic problems to the system not the person ("I cannot pin this on X individually"), exclude anything that triangulates to a protected source, and keep the close consistent with what James is *not* supposed to know.
+confidence: 0.6
+evidence_count: 6
 created: 2026-07-15
-last_updated: 2026-07-17
+last_updated: 2026-08-20
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-20
+> James: "Kurchi's using Huizhong as an out basically… Use my peer feedback voice and follow the templates there." Then sent both drafted versions to himself unedited.
+Context: Dylan fanned out Kurchi-originated feedback collection on Huizhong ("I will synthesize and share") — James reads it as scapegoating-in-progress (Ravi/Shupeng precedent). Draft used: limited-vantage caveat, first-hand incidents only, "cannot pin this on Huizhong individually — SSJ leadership as a whole" attribution, Sai's protected-source read excluded (would triangulate), forward-looking close consistent with not knowing the 8/19 closed-laptop wind-down. Accepted wholesale, both versions emailed for submission.
+Signal: confirmation
 
 ### 2026-07-15
 > Sai: "be very careful here since her entire chain can read these... she is too 小气 but I am not sure this will carry well with Huizhong and potentially Kurchi. We are still in a political situation with them for UPP."
