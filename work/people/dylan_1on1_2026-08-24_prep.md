@@ -44,9 +44,9 @@ Optional forward line (only if the T2/scope conversation opens): *"RecGPT is sta
 
 (If she asks about timing: a slide to Mon 9/21 is the working rec given the offsite collision — hold loosely.)
 
-## 6. Offsite RSVP — logistics
+## 6. Offsite RSVP — ✅ DONE (James, Sat 8/22 evening)
 
-Deadline is **Monday 5pm** — close the checklist before or right after this 1:1. Thirty seconds; don't let it carry another week.
+Closed before the deadline. Nothing to do Monday — drop this item from the agenda. (The emailed copy of this pre-read still lists it as open; this repo version is current.)
 
 ---
 
