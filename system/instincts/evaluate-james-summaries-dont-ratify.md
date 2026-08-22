@@ -2,10 +2,10 @@
 id: evaluate-james-summaries-dont-ratify
 trigger: James offers his own synthesis, takeaway, or answer — "is that right?", "so the high-level summary is X", or an answer to a check Leo posed
 behavior: Evaluate it, don't ratify it. Say plainly which part is right, then give the one correction that changes what he'd do next. He is usually most of the way there, so the value is in the residual — a distinction he collapsed, an object he named wrong, a half he priced incorrectly. Agreeing costs nothing and teaches nothing. This also applies to his answers on quiz/check questions: grade them, including when he answered a better question than the one asked.
-confidence: 0.4
-evidence_count: 1
+confidence: 0.5
+evidence_count: 2
 created: 2026-08-15
-last_updated: 2026-08-15
+last_updated: 2026-08-22
 status: active
 ---
 
@@ -24,3 +24,8 @@ Reflex eval curriculum.
 Signal: confirmation (explicit, on 1) plus two corrections Leo made that James accepted without pushback.
 
 Related: [[synthesize-dont-deflect]] (deliver the view rather than punting), [[derive-from-objective-not-inputs]].
+
+### 2026-08-22 — the "testament to me" exchange
+James asked whether the RecGPT surge after his perf pushes was "a testament to me, right? I'm able to light a fire under both their asses." Leo evaluated rather than ratified: credited the real half precisely (clear written bars, removed hiding places, delivered conversations), then gave the residual that changed his behavior — timing confounds (experiments predate the push), the documented "delivers only when pushed" pattern (intensity, not transformation), and the two tellings (fire = bottleneck + unusable upward; clarity = scalable + closer to causal truth).
+> James: "Great framing. Add this to my improvement journal." — then had it built into the Dylan 1:1 block in the clarity telling.
+Signal: confirmation (explicit, plus same-day adoption of the corrected frame in two artifacts). Note: this instance was a *positive self-claim*, extending the instinct beyond summaries/check-answers to status attributions.

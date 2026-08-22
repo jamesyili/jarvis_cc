@@ -3,6 +3,7 @@
 ## 2026-08-22 — Dafang takes the scheduler; James's IC proposal = LR docs into Reflex
 
 - **"Get Reflex running on a consistent schedule (like Shifu/Dash)" is Dafang's now** (via Tim, James 8/22) — consistent with the 8/17 role design (Dafang TL owns operational build; James stays out of that lane).
+- **Availability note (8/22, same day):** Dafang canceled his 1:1s with James — a family-emergency window, likely through ~early Sept (sensitive context: `../../people/team_members_scope.md` §Bella 8/22). Expect the scheduler item to idle ~2 weeks; don't read the silence as neglect, and don't chase it before ~9/8.
 - **James's candidate IC project: add LR docs to Reflex's grounding** (chatted Thu/Fri 8/20–21, work-leo side — details unfiled here). Receipt already on record: Tim's 7/25 notes name the Detect-stage opportunity as "getting agents to produce actionable solutions; evals important, templates important; **LR docs can be a source**." Sits squarely in James's named Evaluation & Evolution thread.
 
 ## ⚠️ August 17 Update — James's H2 role designed (with Dafang + Tim): broad sponsor + ONE named thread = Evaluation & Evolution

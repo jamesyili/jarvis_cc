@@ -1,8 +1,8 @@
 # Journals & Growth (work)
 
-> The career/leadership arc: Lessons 1–13 (altitude, frame-flip, operational embedding, calibration bar, Asking≠Performing…), the Active Growth Edges, and the work journal entries. The identity/comparison-engine arc (Lessons 14–18) and inner-game journal entries live in `self/journals_and_growth.md`.
+> The career/leadership arc: Lessons 1–13 + 19 (altitude, frame-flip, operational embedding, calibration bar, Asking≠Performing, clarity-not-pressure…), the Active Growth Edges, and the work journal entries. The identity/comparison-engine arc (Lessons 14–18) and inner-game journal entries live in `self/journals_and_growth.md`.
 
-Last updated: 2026-06-11 (split from work+self/journals_and_growth.md)
+Last updated: 2026-08-22 (Lesson 19: Clear Bars Light Fires — Credit the Clarity, Not the Pressure). Prior: 2026-06-11 (split from work+self/journals_and_growth.md)
 
 ### The External Picture
 - UPP has shipped cross-surface proof points (P2P, then Search). James is the person Rajat and Dylan think of when retrieval platform direction is in question.
@@ -223,6 +223,18 @@ The version of James in 18 months still builds. He just also asks cleanly. Still
 - *"The visceral reaction to Dhruvil is a values signal. The work is to translate it into 'I won't do it that way' — not 'I won't do it at all.'"*
 
 **Why this is Lesson 13 and not just a coaching note:** James named the question himself (*"How do I get better at it?"*). The reframe shifts him from *"do I have to become Dhruvil"* (false binary, sensor-firing) to *"watch Dylan, learn the surgical version, layer it on top of the build I already do"* (Director-shaped, integrity-preserving). This is the kind of reframe that — like the Frame Flip and the IC Ruling — restructures how James operates going forward. Worth holding at the same altitude as the other lessons in this section.
+
+### Lesson 19: Clear Bars Light Fires — Credit the Clarity, Not the Pressure
+
+> **PROVISIONAL (Karen, same day):** minted same-afternoon from a two-conversation sample — evaluation must not become ratification at the filing step. Holds its number only if it survives a second independent datapoint; her named tell to watch: the same session had James take over Bella's cross-EM oncall alignment (time-boxed, altitude-appropriate — but the bottleneck pattern this lesson warns about). Confirm or demote by ~mid-Sept.
+
+**Source:** 2026-08-22 weekend session, after both H1 review conversations (Bella, Yuke) were delivered and RecGPT/RR started visibly producing — two potential launches on Bella's side, a positive experiment from Yuke, results brought proactively to 1:1s weekly. (Lessons 14–18 are the identity arc in `self/journals_and_growth.md`; this continues the work numbering.)
+
+**The incident:** First instinct was *"this is a testament to me — I light a fire under people and they start producing instead of coasting."* Same week, companion incident: the Bella new-CG flashpoint — James demanded strategy (*"why can't you strategize?"*) while the consolidation strategy lived only in his head and his reactions; her proposal was a strategy, just the risk-conservative one. He named the overreaction himself and converted the demand into a delegation: she writes the RecGPT strategy one-pager, he grades it.
+
+**The pattern:** Two tellings of the same facts. The **fire telling** — my pressure makes people produce — makes James the engine and therefore the bottleneck, is unrepeatable by the EMs he's handing teams to, takes credit for fear, and is unusable upward (two people in perf processes suddenly producing after "hard pushes" reads very differently to ER/Dylan). The **clarity telling** — clear written expectations, dated deliverables, removed hiding places, hard conversations actually delivered, and performance followed — is closer to the causal truth (experiment lead times predate the push; Yuke's "perfect conversation" came from finally having a legible deal; the record itself says Bella "delivers only when pushed," so this is intensity, not transformation) and is the version that scales, survives scrutiny, and produces ownership rather than compliance.
+
+**The operating principle:** When performance follows a push, ask which telling is true before claiming credit. Claim and repeat the clarity mechanism. Pressure produces output; only clarity plus delegated ownership (make them write the strategy, then grade it) produces the thing actually being demanded. Durability test: does the production survive me not pushing?
 
 ---
 
