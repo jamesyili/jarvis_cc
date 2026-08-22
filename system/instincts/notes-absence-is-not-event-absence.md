@@ -2,10 +2,10 @@
 id: notes-absence-is-not-event-absence
 trigger: Capturing pasted notes/transcripts of a real-world event (doctor visit, meeting, 1:1) and about to state that a topic "was not discussed" or "never came up" — OR answering "did person X ever say/ask Y?" from the repo record
 behavior: Distinguish "absent from the notes/record" from "didn't happen." Notes are a lossy sample of the event, and the repo is a lossy sample of James's work life (work-channel events routinely go unrecorded). Say "not in the record" with that caveat and invite correction, rather than asserting the negative as fact — even when the record contains affirmative counter-evidence, deliver the verdict as "the record says X" not "X is what happened."
-confidence: 0.55
-evidence_count: 2
+confidence: 0.7
+evidence_count: 3
 created: 2026-07-08
-last_updated: 2026-08-16
+last_updated: 2026-08-21
 status: active
 ---
 
@@ -20,3 +20,8 @@ Signal: direct correction
 > "I think he did ask for it but I forgot to tell you about it. What if he did?"
 Context: James asked "did Daniel ask for UPP?" Leo answered a flat "No — and the record is stronger than a mere absence" (Daniel's own T2 map wrote "Keep: UPP" for James). The ask had happened in an unrecorded work channel. The affirmative counter-evidence made the flat "no" feel safe — it wasn't; the record is still a lossy sample. Extends the instinct from pasted-notes capture to any repo-record negative about what a person said/asked.
 Signal: direct correction
+
+### 2026-08-21 (stale-deadline corollary — the Kim close)
+> "Oh for Kim we've already decided. She has two choices, she told us herself."
+Context: The repo recorded the Kim decision as "concludes 8/21, double-OOO-forced." When Daniel called in sick and the trio was cancelled, Leo built an urgency read — "the Kim close lost its venue" — and recommended using Daniel's Slack-open offer to close it async. The decision had already been made at work days earlier; the repo just hadn't heard. Extends the instinct from negatives ("X never came up") to *recorded open items and due-dates*: a deadline on file that work-leo-invisible events may have already closed gets flagged conditionally ("if this isn't already closed…"), never asserted as live-and-at-risk.
+Signal: correction

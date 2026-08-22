@@ -375,3 +375,19 @@ Prove-then-expand on the ~60-day clock already built into the settle gates. Days
 - What does Alim say he wants — team-building, Director path, the problem domain? (Twitter background partially answers domain fit; stated wants still unrecorded.)
 - "Hasn't proven execution": concrete miss or absence of signal? "Hasn't digested RR": technical gap or ownership gap?
 - Will James state the day-60 expansion bar to Alim's face and honor it both directions?
+
+## 2026-08-21 — Expansion lane self-ratified: RR + CLR over RecGPT (his own conclusion, in writing)
+
+Overnight Slack (8/20 6:40 PM): after James shared the team-members context, Alim came back with two things at once.
+
+1. **A staffing plan, unprompted:** Zelun onboards/mentors Alok on trainer clustering (part of the PinnerFormer v2 proposal) and the CLR relevance head — "Alok can start on CLR training and eventually move to PinnerFormer training," which "gives us some room to set him up on Retentive Recs." Chuxi's thread embedded as evidence he'd already run the diligence (Zelun bandwidth confirmed, PFv2 conflict checked, Chuxi comfortable).
+2. **The lane choice:** *"I've thought about it, and I think your point on RecGPT makes sense. I do think, although the project is exciting, it might make sense to take on retentive recs and CLR."*
+
+**Reads (filed 8/21):**
+- **Closes the 8/16 "Alim expansion = CLR" reaffirm-or-re-open item — reaffirmed, from his side.** Not compliance-in-the-moment: "I've thought about it" after a day's gap, with the tradeoff named honestly (RecGPT "exciting" but not the right ownership bet).
+- **Machine-inversion evidence (David 8/7):** James shared context; Alim found his place in the machine within hours — plan, staffing, and lane choice self-initiated. Also pre-commits the 60-day milestone ("start onboarding into CLR while maintaining RR momentum").
+- **Claim footprint shrinks → October brokering softens.** His 8/10 lean was RecGPT + LLM-pUIC; dropping RecGPT keeps the RecGPT×LWS×UPP fork clean (Yali's landscape opinion pending) and reduces adjacency pressure on Daniel's LLM×Recs territory.
+- **Watch — RR is getting crowded:** Kim (structure decided 8/21 — her choice of RR vs CLR by 9/11, leaning RR; reports to a line EM either way), Chuxi's TL runway to protect, now Alok being set up on RR via CLR training. The Chuxi/Kim named-lanes split is load-bearing for three people; Kim's challenge #1 (model-based pUIC charter) must survive Alok's arrival or her seat repeats the model-depth gap.
+- **Same-morning asymmetry note:** Daniel sick, trio cancelled — Alim's initiative is the only live bench evidence generated this week (cross-ref `daniel_liu_archive.md` 8/21).
+
+**⚠️ Correction (James, 8/21 later same morning):** the 8/21 entry above overstates the RecGPT read. Alim did NOT relinquish RecGPT — his message says his *preference probably isn't* RecGPT. A lean away, not a decline; RecGPT remains live for him if offered. The CLR-expansion reaffirmation stands unchanged.

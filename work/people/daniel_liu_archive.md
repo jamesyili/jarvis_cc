@@ -336,3 +336,20 @@ Then the move is a **direct retention conversation at re-entry** — "what would
 - **Seed timing preference:** reach-ask at the 8/21 send-off (default — maximizes incubation) or held to the 9/14 re-entry?
 - **Leo Zhang** (supporting cast in James's notes): team/role/level unknown — capture to `team_members_scope.md`.
 - What does Daniel's "committed" even look like to James — is there an observable besides the two tests that would move him? (If yes, add it to the ledger now so the window can collect it.)
+
+## 2026-08-21 — Send-off overtaken by a sick day: trio cancelled, seed defaults to re-entry
+
+Daniel woke up sick (possible COVID — "something going around" his team), out most of the day. The last trio/staff meeting before the five-week window is cancelled, on the day both he and Kim leave. His message: apologetic, and he offered *"I will keep my Slack open, please message me if you want to discuss anything."* James sent the right-shaped note back at 7:42 AM — warmth, zero work content, "talk to you when you get back." Compact-consistent; no ask planted.
+
+**Consequences (filed 8/21):**
+- **Seed-timing open question resolved by events:** the 8/21 send-off option for the reach-ask is gone (sick day + a warm note that correctly carried no ask). The seed now lands at the **9/14 re-entry brief** by default — maximum-incubation variant is off the table.
+- **The bench audition didn't run.** His A/B/C, worked to reference shape 8/19, never got its room; earliest next venue is post-9/11 — right against the Phase-1 window. This week's only live bench evidence is Alim's same-morning initiative (see `alim_virani_archive.md` 8/21). James's carry-Daniel's-evidence duty (Dylan+Alim lunch next week, offsite 9/15) gains weight accordingly.
+- **Kim close: already concluded — corrected by James same morning.** The structure was decided before the sick day: Kim herself named her two options (leaning **Retentive Recs**; **CLR** the alternative), she reports to a line EM regardless of which she picks, and she chooses by **9/11** (wants the thinking time; announcement ~9/14 unchanged). Nothing rides on Daniel's sick day; no async channel needed.
+- **Window bookkeeping:** the sick day precedes the window; it counts toward nothing in the Leg-2 score.
+
+**Addendum 8/21 — Daniel's full reorg thoughts (shared with James after Tue 8/18; relayed to Leo 8/21):**
+1. **He wants to keep Roderick in all three of his scenarios.** Pairs with his uncorroborated 8/19 preference-table row (Roderick "off UEB post-Q3, stays Daniel's line"). Collides with: James's 8/10 word to Roderick ("your deepest priority will always be UEB"), the UEB→Alim design (Roderick is UEB's systems spine — the thing that makes that charter real on Alim's weakest axis), and Daniel's own ≤12 cap. **The Roderick corroboration (skip-level, still pending) is now load-bearing** — his own voice before any board honors this.
+2. **He wants RecGPT scope — motivation: growth scope for the seniors on his team — just not Bella.** The Bella-avoidance read (8/19) sharpens: the hesitancy was Bella-specific, not paradigm-wariness; with the standing card ("wherever RecGPT lands, Bella stays with James," line + management, charter matrixes) his want is unencumbered. **GenRet→Daniel now has a willing owner AND a cleared path** — combined with Alim's 8/20 written relinquishment, the fork points one way from both sides; November formalizes.
+3. **Cap math consequence:** his wanted package (LWS 5 + GenRet 2 + RB 2 + Roderick + Yang + REQ-2) = 13–14 vs his own ≤12 — it fits only via his scenarios' IB pre-deletion, which James has ruled stays visible through the ~Oct gate. The gate is now also the resolver of Daniel's cap; if IB survives on his line, something else moves.
+
+**⚠️ Correction (James, 8/21 later same morning):** point 2 of the addendum above overstates Alim's side — his 8/20 message was a *lean away* from RecGPT ("preference probably isn't"), not a written relinquishment. GenRet remains a genuinely open fork: Daniel wants the scope (not Bella), Alim leans away but hasn't declined. Prior still points Daniel; November still decides.

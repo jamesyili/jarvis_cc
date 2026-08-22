@@ -1,0 +1,40 @@
+{
+  "tool": "org_planner",
+  "as_of": "2026-08-01",
+  "name": "scenario_7",
+  "saved_at": "2026-08-21T00:00:00.000Z",
+  "assign": {
+    "Piyush Maheshwari": "James",
+    "Bella Huang": "James",
+    "Balaji Rengarajan": "Daniel",
+    "Devin Kreuzer": "Alim",
+    "Ryan Kam": "Alim",
+    "J.J. Hu": "James",
+    "Yali Bian": "Daniel",
+    "Hedi Xia": "Daniel",
+    "Yuke Yan": "Daniel",
+    "Zihao Chen": "James",
+    "Roderick Gao": "Alim",
+    "Esteban Zavala": "Alim",
+    "Yiping Wang": "Daniel",
+    "Yang Liu": "Alim",
+    "Kim Toy": "Alim",
+    "Yongwoo Noh": "Daniel",
+    "Nima Sheikholeslami": "Alim",
+    "Rui Wang": "Daniel",
+    "Alok Malik": "Alim",
+    "Zili Li": "Daniel",
+    "Hanlin Lu": "Daniel",
+    "Chuxi Wang": "Alim",
+    "Lionel Bewa": "Alim",
+    "Ling Lan": "Daniel",
+    "Felix Yang": "Daniel",
+    "Yichi Wang": "Alim",
+    "Yidi Wang": "Alim",
+    "REQ-2 (open)": "Daniel"
+  },
+  "capacity": {
+    "Kim Toy": 1,
+    "Yang Liu": 1
+  }
+}

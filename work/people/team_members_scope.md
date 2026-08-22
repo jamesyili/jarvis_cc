@@ -316,6 +316,10 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 
 ---
 
+### 2026-08-21 — Landing structure finalized: her choice, RR vs CLR, decides by 9/11
+
+Decision concluded (per James, 8/21 morning): Kim named her own two options — **leaning Retentive Recs**, with **CLR** as the alternative. Either way she **reports to a line EM**, not James. She decides by **9/11** — the delay is her own ask for thinking time, not indecision upstream. Announcement timing (~9/14) unchanged. Note for the RR branch: lands into a crowding seat (Chuxi TL runway, Alok arriving via CLR training — see `alim_virani_archive.md` 8/21); the model-based-pUIC charter is the thing to protect either way. *(Entry briefly mis-filed to a recreated standalone `kim_toy_archive.md` on 8/21 — removed same session; this section is the home.)*
+
 ### 2026-08-19 — ⚠️ Collision flag (SECRET source): the role she's evaluating may change shape under her
 
 Dylan's closed-laptop 8/19 disclosure (UPP-SSJ collaboration may stop ~end of Q3, refocus on Ads + Growth — `dylan_wang_archive.md` 8/19) lands inside Kim's decision window (by 9/11). Her pitch included UPP receipts; if the SSJ leg is what she anchored on, she's evaluating a role about to change. **James can't disclose.** Safe handling: emphasize surviving surfaces (HF/Notif) + the Ads/Growth direction in any further framing; don't let her anchor on SSJ-line specifics; Alim's Retentive pull (8/17) stands as the alternative frame if the UPP shape wobbles.

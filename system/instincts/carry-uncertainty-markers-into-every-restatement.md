@@ -2,10 +2,10 @@
 id: carry-uncertainty-markers-into-every-restatement
 trigger: Restating, migrating, or summarizing content that carries an uncertainty marker (⟨confirm⟩, `?`, TBD, "draft", "inferred", "not yet verified") — OR about to build a load-bearing claim on a field so marked
 behavior: The marker travels with the content. Never let a qualifier die in migration — content that was provisional in doc A must read as provisional in doc B, or it silently becomes settled fact and nobody re-examines it. Before asserting anything load-bearing, check whether the source field is marked uncertain; if it is, either verify with James or state it as unconfirmed. Corollary: after changing a person/entity fact, grep the WHOLE doc (and siblings) for that entity before shipping — not just the table being edited.
-confidence: 0.6
-evidence_count: 3
+confidence: 0.75
+evidence_count: 4
 created: 2026-07-15
-last_updated: 2026-08-03
+last_updated: 2026-08-21
 status: active
 ---
 
@@ -42,3 +42,9 @@ James granted Daniel the T1 team-naming call; Daniel picked "Personalization Pro
 `⟨confirm⟩`, `?`, and "draft" are the repo's cheapest safety mechanism, and restatement is where they get stripped — because prose wants to read confidently. The cost here was real: a wrong pod in a Dylan-facing proposal and a wrong script for a retention-critical 1:1 with a new M16.
 
 Related: [[check-existing-context-before-analyzing]] (verify load-bearing facts), [[resolve-dictation-artifacts-against-context]] (the "Ray"=Rui Wang artifact surfaced in the same session, same root shape — unverified content carried as fact).
+
+### 2026-08-21 (modal-strength corollary — Alim's RecGPT "relinquishment")
+> "Now Alim didn't say he didn't want RecGPT. It just says that his preference probably isn't RecGPT."
+Context: Alim's 8/20 Slack said "it might make sense to take on retentive recs and CLR" — a hedged lean. Leo filed it across three docs as "relinquished RecGPT in writing" / "the fork effectively closes," and a scenario board got graded "DOA" partly on that basis. James corrected; three correction notes filed.
+Signal: correction
+**Corollary rule:** the marker isn't only `⟨confirm⟩`/`?` — it's the *modal strength of the source language*. "Probably," "might," "leaning" must survive into every filing at the same strength. A lean is never filed as a decline; upgrading a preference into a decision is James's move (or the person's own explicit words), never a restatement's.
