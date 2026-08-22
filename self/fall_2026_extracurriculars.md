@@ -19,7 +19,7 @@
 | Kid | Activity | Day / time | Dates | Format | Notes |
 |---|---|---|---|---|---|
 | Ethan | **Soccer — YDP Fall Rec League** (Rec League 2018–2020, Coach Ken) | **Sun 8:45am** ⟨end time — 10:15 as before?⟩ | Sun 8/23 – 10/18 (9 weeks) ⟨confirm new date range⟩ | In person ⟨field/location?⟩ | Moved off Saturday 8/21. Ends mid-October — Sunday frees up after |
-| Ethan | **Think Academy** (math) | Sat 9:00–10:30am | 8/15/26 – 1/9/27 | In person ⟨campus?⟩ | |
+| Ethan | **Think Academy** (math) | Sat 9:00–10:30am | 8/15/26 – 1/9/27 | In person — **Cupertino campus, 1081 S De Anza Blvd, San Jose 95129** | Campus confirmed 8/21 |
 | Ethan | **HuoHuaSiWei** (火花思维, online math) | Tue + Sat 7:00–7:40pm | From 8/11/26, ongoing | Online | |
 | Ethan | **Robotics** ⟨provider?⟩ | Sat 11:00am–12:30pm | 8/15/26 – 12/19/26 | ⟨format/location?⟩ | Booked 8/8; time moved 8/21 |
 | Evelyn | **Think Academy** (math) | Sat 11:30am–1:30pm | 8/15/26 – 1/9/27 | In person ⟨campus?⟩ | |
@@ -30,8 +30,8 @@
 ## Logistics flags
 
 - **Saturday is still the load-bearing day, but now front-loaded.** Ethan: Think Academy 9:00–10:30 → robotics 11:00–12:30 → online math 7:00–7:40 (three blocks, done by 12:30 + evening). Evelyn: Think Academy 11:30–1:30 → ping-pong 4:00–6:00 → online coding 7:00–7:40.
-- **New Saturday late-morning split (11:00–12:30):** Ethan's robotics starts 11:00 and Evelyn's Think Academy starts 11:30 — 30 minutes apart, likely different sites ⟨confirm locations/drive times⟩. Ethan's robotics pickup at 12:30 lands mid-Evelyn-TA.
-- **Think Academy no longer chains.** Ethan 9:00–10:30 and Evelyn 11:30–1:30 are now separate trips with a 1-hr gap — two round trips even if it's the same campus ⟨confirm same campus⟩.
+- **New Saturday late-morning split (11:00–12:30):** Ethan's robotics starts 11:00 and Evelyn's Think Academy starts 11:30 — 30 minutes apart ⟨robotics location and Evelyn's TA campus both unconfirmed; Ethan's 10:30 TA release is from 1081 S De Anza Blvd, so that's the drive-time origin⟩. Ethan's robotics pickup at 12:30 lands mid-Evelyn-TA.
+- **Think Academy no longer chains.** Ethan 9:00–10:30 (**Cupertino campus, 1081 S De Anza Blvd**) and Evelyn 11:30–1:30 are separate trips with a 1-hr gap — two round trips regardless. ⟨Evelyn's campus still unconfirmed — if she's also at 1081 S De Anza, the gap is dead time at one location rather than a second drive.⟩
 - **Saturday afternoon cleared for Ethan.** The old robotics/ping-pong 3:15–4:45 vs 4:00–6:00 collision is gone; Evelyn's ping-pong 4:00–6:00 is the only afternoon block. Her 6:00→7:00 dinner gap before coding is still tight.
 - **Sat 7:00–7:40pm both kids online simultaneously** (Ethan math, Evelyn coding) — needs two devices, two quiet rooms.
 - **Sunday is no longer free.** Soccer at 8:45am claims Sunday morning through mid-October — this directly collides with the GSA speech option (Sun 8:30–10:00am), see below.
