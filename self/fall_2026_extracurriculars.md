@@ -1,6 +1,6 @@
 # Ethan + Evelyn — Fall 2026 Extracurricular Timetable
 
-**Living file — updated as James adds activities (started 2026-07-25; batch 2 — robotics booked — 2026-08-08; batch 3 — Evelyn ping-pong booked — 2026-08-10).** Companion: [`evelyn_prep/contacts_fall_2026.md`](evelyn_prep/contacts_fall_2026.md), [`evelyn_prep/speech_debate_options_2026-07.md`](evelyn_prep/speech_debate_options_2026-07.md).
+**Living file — updated as James adds activities (started 2026-07-25; batch 2 — robotics booked — 2026-08-08; batch 3 — Evelyn ping-pong booked — 2026-08-10; batch 4 — Ethan Sat/Sun times rearranged — 2026-08-21).** Companion: [`evelyn_prep/contacts_fall_2026.md`](evelyn_prep/contacts_fall_2026.md), [`evelyn_prep/speech_debate_options_2026-07.md`](evelyn_prep/speech_debate_options_2026-07.md).
 
 ## Weekly grid
 
@@ -11,17 +11,17 @@
 | **Wed** | — | 7:30–8:30pm · Chinese (online) |
 | **Thu** | — | — |
 | **Fri** | — | 7:00–7:40pm · HuoHuaBianCheng coding (online) |
-| **Sat** | 8:45–10:15am · Soccer (thru 10/17) · · 1:00–2:30pm · Think Academy math · · 3:15–4:45pm · Robotics · · 7:00–7:40pm · HuoHuaSiWei math (online) | 11:30am–1:30pm · Think Academy math · · 4:00–6:00pm · Ping-pong · · 7:00–7:40pm · HuoHuaBianCheng coding (online) |
-| **Sun** | — | — |
+| **Sat** | 9:00–10:30am · Think Academy math · · 11:00am–12:30pm · Robotics · · 7:00–7:40pm · HuoHuaSiWei math (online) | 11:30am–1:30pm · Think Academy math · · 4:00–6:00pm · Ping-pong · · 7:00–7:40pm · HuoHuaBianCheng coding (online) |
+| **Sun** | 8:45am · Soccer (thru mid-Oct) | — |
 
 ## Activity details
 
 | Kid | Activity | Day / time | Dates | Format | Notes |
 |---|---|---|---|---|---|
-| Ethan | **Soccer — YDP Fall Rec League** (Rec League 2018–2020, Coach Ken) | Sat 8:45–10:15am | Sat 8/22 – 10/17 (9 weeks) | In person ⟨field/location?⟩ | Ends mid-October — Saturday morning frees up after 10/17 |
-| Ethan | **Think Academy** (math) | Sat 1:00–2:30pm | 8/15/26 – 1/9/27 | In person ⟨campus?⟩ | |
+| Ethan | **Soccer — YDP Fall Rec League** (Rec League 2018–2020, Coach Ken) | **Sun 8:45am** ⟨end time — 10:15 as before?⟩ | Sun 8/23 – 10/18 (9 weeks) ⟨confirm new date range⟩ | In person ⟨field/location?⟩ | Moved off Saturday 8/21. Ends mid-October — Sunday frees up after |
+| Ethan | **Think Academy** (math) | Sat 9:00–10:30am | 8/15/26 – 1/9/27 | In person ⟨campus?⟩ | |
 | Ethan | **HuoHuaSiWei** (火花思维, online math) | Tue + Sat 7:00–7:40pm | From 8/11/26, ongoing | Online | |
-| Ethan | **Robotics** ⟨provider?⟩ | Sat 3:15–4:45pm | 8/15/26 – 12/19/26 | ⟨format/location?⟩ | Booked 8/8 |
+| Ethan | **Robotics** ⟨provider?⟩ | Sat 11:00am–12:30pm | 8/15/26 – 12/19/26 | ⟨format/location?⟩ | Booked 8/8; time moved 8/21 |
 | Evelyn | **Think Academy** (math) | Sat 11:30am–1:30pm | 8/15/26 – 1/9/27 | In person ⟨campus?⟩ | |
 | Evelyn | **HuoHuaBianCheng** (火花编程, online coding) | Fri + Sat 7:00–7:40pm | From 8/21/26, ongoing | Online | |
 | Evelyn | **Chinese** (online) | Wed 7:30–8:30pm | From 8/12/26, ongoing | Online | ⟨provider name?⟩ |
@@ -29,11 +29,13 @@
 
 ## Logistics flags
 
-- **Saturday is the load-bearing day.** Ethan: soccer 8:45–10:15 → Think Academy 1:00–2:30 → robotics 3:15–4:45 → online math 7:00–7:40 (four blocks; 45-min gap between TA and robotics ⟨same area? drivable?⟩). Evelyn: Think Academy 11:30–1:30 → ping-pong 4:00–6:00 → online coding 7:00–7:40 (three blocks).
-- **Saturday afternoon two-kid split:** Ethan's robotics (3:15–4:45) overlaps Evelyn's ping-pong (4:00–6:00) — likely different locations, two adults or a relay ⟨confirm locations/drive times⟩. Evelyn also has only ~1 hr between ping-pong end (6:00) and coding (7:00) — dinner is tight.
-- **Think Academy chaining:** Evelyn 11:30–1:30 and Ethan 1:00–2:30 overlap 1:00–1:30 — if both are at the same campus, one continuous 11:30–2:30 trip covers both drop-offs/pickups ⟨confirm same campus⟩.
+- **Saturday is still the load-bearing day, but now front-loaded.** Ethan: Think Academy 9:00–10:30 → robotics 11:00–12:30 → online math 7:00–7:40 (three blocks, done by 12:30 + evening). Evelyn: Think Academy 11:30–1:30 → ping-pong 4:00–6:00 → online coding 7:00–7:40.
+- **New Saturday late-morning split (11:00–12:30):** Ethan's robotics starts 11:00 and Evelyn's Think Academy starts 11:30 — 30 minutes apart, likely different sites ⟨confirm locations/drive times⟩. Ethan's robotics pickup at 12:30 lands mid-Evelyn-TA.
+- **Think Academy no longer chains.** Ethan 9:00–10:30 and Evelyn 11:30–1:30 are now separate trips with a 1-hr gap — two round trips even if it's the same campus ⟨confirm same campus⟩.
+- **Saturday afternoon cleared for Ethan.** The old robotics/ping-pong 3:15–4:45 vs 4:00–6:00 collision is gone; Evelyn's ping-pong 4:00–6:00 is the only afternoon block. Her 6:00→7:00 dinner gap before coding is still tight.
 - **Sat 7:00–7:40pm both kids online simultaneously** (Ethan math, Evelyn coding) — needs two devices, two quiet rooms.
-- **Start-date stagger (first two weeks):** HuoHuaSiWei first = Tue 8/11 · Chinese first = Wed 8/12 · Think Academy + Robotics + Ping-pong first = Sat 8/15 · HuoHuaBianCheng first = Fri 8/21 · Soccer first = Sat 8/22.
+- **Sunday is no longer free.** Soccer at 8:45am claims Sunday morning through mid-October — this directly collides with the GSA speech option (Sun 8:30–10:00am), see below.
+- **Start-date stagger (first two weeks):** HuoHuaSiWei first = Tue 8/11 · Chinese first = Wed 8/12 · Think Academy + Robotics + Ping-pong first = Sat 8/15 · HuoHuaBianCheng first = Fri 8/21 · Soccer first = Sun 8/23 ⟨confirm — was Sat 8/22 before the move⟩.
 
 ## Not yet scheduled (slots still open)
 
@@ -47,7 +49,7 @@
   | Teacher / size | Carlos · class size 6 | ⟨verify — unpublished; ask⟩ |
   | Ages | 9–11 | Gr 4–5 (informative/persuasive + congressional) |
   | Cost | $660 (≈$44/session, 60 min) | $975/sem in-person (≈90-min sessions) |
-  | Grid fit | Evelyn's Sat 9:30–10:30 is free, but overlaps Ethan's soccer (8:45–10:15) until 10/17 → two-kid Saturday-morning split; 1-hr gap to her TA at 11:30 | Sunday is empty → zero conflicts, spreads the weekend load; early start |
+  | Grid fit | Evelyn's Sat 9:30–10:30 is free, but now overlaps **Ethan's Think Academy (9:00–10:30)** → still a two-kid Saturday-morning split, different sites; 1-hr gap to her TA at 11:30 | **Now collides with Ethan's soccer (Sun 8:45am) through mid-Oct** — the Sunday slot is no longer free; would need two adults or a relay until soccer ends |
 
 - **Evelyn — PYT "Exploring Improv"** (optional swap-in) — fall catalog posts ~August.
-- **Ethan — post-soccer** — Saturday morning frees up after 10/17; successor activity TBD if any.
+- **Ethan — post-soccer** — Sunday morning frees up after soccer ends mid-Oct (~10/18 ⟨confirm⟩); successor activity TBD if any.
