@@ -353,3 +353,16 @@ Daniel woke up sick (possible COVID — "something going around" his team), out 
 3. **Cap math consequence:** his wanted package (LWS 5 + GenRet 2 + RB 2 + Roderick + Yang + REQ-2) = 13–14 vs his own ≤12 — it fits only via his scenarios' IB pre-deletion, which James has ruled stays visible through the ~Oct gate. The gate is now also the resolver of Daniel's cap; if IB survives on his line, something else moves.
 
 **⚠️ Correction (James, 8/21 later same morning):** point 2 of the addendum above overstates Alim's side — his 8/20 message was a *lean away* from RecGPT ("preference probably isn't"), not a written relinquishment. GenRet remains a genuinely open fork: Daniel wants the scope (not Bella), Alim leans away but hasn't declined. Prior still points Daniel; November still decides.
+
+## 2026-08-21 — David coaching session: the "building trust with Daniel" operating plan (notes filed 8/22)
+
+The David session ran Friday; Daniel was topic 1 of 2 (offsite the other → `../career/ce_managers_offsite_2026-09.md` §7). From James's notes, the working frame:
+
+- **Read:** people-pleaser. Implication: James's approval is itself a distorting force — Daniel will shape answers toward it, so the coaching stance has to make dissent/ownership the thing that gets approved.
+- **Reinforce the scenarios step:** Daniel volunteering his 3 scenarios + full reorg thoughts (8/18–21 addendum above) is exactly the behavior to feed — explicit "give me more of this."
+- **Make him part of the next steps with his own thoughts:** involve him in evaluating his proposals, ask good questions, hold back judgement; teach through things not working out — let mistakes run when not hugely consequential.
+- **Concrete empowerment lever: Recommended Boards** — trip-wire + let Daniel choose (fits RB→Daniel decided 8/21; the tripwire design is the James-side homework ⟨define before 9/14 re-entry⟩).
+- **Open craft questions from the session:** what's a question that challenges him; how to raise his judgement; what's *his* ideal / how would he grow — connect his ambitions to what he needs to figure out; possibly talk to him about getting a coach.
+- **Self-instruction (James, DiSC "DI"):** "I really need to hold myself back… I'm not the guy looking over his shoulders — I'm there to support and make it as safe as he can to take these risks." David's line: **"Leaders invite people to their excellence."** Stage-setting for Daniel ≠ stage-setting for others — frame differently for him.
+
+Ties: the 9/14 re-entry brief (seed + tripwire+empower framing), the ~Oct gate (judgement-raising through the IB readout), skip-level corroboration duty (his voice before boards travel).

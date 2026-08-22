@@ -1,5 +1,10 @@
 # Reflex — Program State, July 2026
 
+## 2026-08-22 — Dafang takes the scheduler; James's IC proposal = LR docs into Reflex
+
+- **"Get Reflex running on a consistent schedule (like Shifu/Dash)" is Dafang's now** (via Tim, James 8/22) — consistent with the 8/17 role design (Dafang TL owns operational build; James stays out of that lane).
+- **James's candidate IC project: add LR docs to Reflex's grounding** (chatted Thu/Fri 8/20–21, work-leo side — details unfiled here). Receipt already on record: Tim's 7/25 notes name the Detect-stage opportunity as "getting agents to produce actionable solutions; evals important, templates important; **LR docs can be a source**." Sits squarely in James's named Evaluation & Evolution thread.
+
 ## ⚠️ August 17 Update — James's H2 role designed (with Dafang + Tim): broad sponsor + ONE named thread = Evaluation & Evolution
 
 Decided among the three POCs (James / Dafang / Tim): James **broadly supports Dafang (TL) and Tim (PM)**, and keeps **one named hands-on thread: Evaluation & Evolution**, supporting **Janvi (Ads)** and **Chao (PA DS)** — formalizing the 8/13 "weekly with Janvi + Chao on Eval" commitment into the official role shape. Same-day context: Dylan's written H1 review names Reflex in all three answers — hands-on shaping valorized *as the H1 phase*, Reflex as the named example of the scale-through-others learning, and "scaling… Reflex beyond P13N into broader, repeatable capabilities" as the H2 bar (full text + read: `../../career/h1_2026_review_record.md`). Leo read: the thread choice is Dylan-compatible **if held as capability-building with a succession shape** — eval harness → owned org tooling with a named owner (JJ ramping is the natural successor) by ~Nov, James at review gates; narrated as "built the capability that made Reflex measurable and let Ads + DS onboard," never "James's IC lane." Also closes toward the carried 7/25 item (Tim unclear on James's role): present this design to Dylan Tue 8/18 for co-sign, then have her make the role explicit to Tim/Andrew.

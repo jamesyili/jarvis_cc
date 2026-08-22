@@ -423,3 +423,7 @@ Tai Chi visualization. They serve different purposes:
 
 The grounding question remains: "What can I control? What can I do about it?"
 The answer is always the same: build something.
+
+### Session 2026-08-21 (David) — Building trust with Daniel + offsite presence
+
+Two topics; full notes routed to the files of record: Daniel operating plan → `people/daniel_liu_archive.md` (8/21 entry: people-pleaser read, reinforce-the-scenarios-step, RB tripwire+empower, teach-through-safe-mistakes, "hold myself back" DI self-instruction); offsite approach → `career/ce_managers_offsite_2026-09.md` §7 ("show up as James, not the P13N Retrieval EM"; personal stories; accept opportunities as gifts). Keeper line: **"Leaders invite people to their excellence."** Deliberately not covered: the Huizhong thread — James converted the fear into sponsor-building instead (Rajat OH 9/11 booked, Jeff OH Oct/Nov planned).

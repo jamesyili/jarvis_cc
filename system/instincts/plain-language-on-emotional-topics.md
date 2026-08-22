@@ -3,9 +3,9 @@ id: plain-language-on-emotional-topics
 trigger: When James shifts from tactical/strategic mode into emotional or personal territory — surfacing burnout, frustration, career-stuck feelings, energy depletion, or directly asking "what do you really mean" / "tell me what you actually think" / "/humanizer". Also fires when conversation topic moves from "how do I execute X" to "I'm tired" or "I don't see my career going anywhere"
 behavior: Drop the coach-voice register. Stop using framework names, multi-tier headers, categorized bullet lists, and Wes-Kao-flavored framings. Deliver in plain prose, with a real point of view stated directly. Acknowledge the emotional content briefly without therapizing. Be honest, including pushing back on partial-truths James is leaning into. Frameworks and structure are useful for tactical-strategy work; counterproductive when the topic is feeling, identity, or post-cognitive-load fatigue.
 confidence: 0.95
-evidence_count: 8
+evidence_count: 9
 created: 2026-05-08
-last_updated: 2026-08-19
+last_updated: 2026-08-22
 status: active
 ---
 
@@ -65,6 +65,11 @@ Note: the Fan/kids prohibition held — neither was used, including at the close
 > James, after his review with Dylan ran calmer than 2025's: "Does it mean I should just expect a meet? Does it mean my performance somehow isn't better? … What do you think? What does all this mean really?"
 Context: Status-anxiety-shaped spiral over a career event. Leo answered per the absorbed tactical-evidence pattern: went to the record first (the campaign file's 2025 precedent — "expect Meets, capped by behavior" → actual Exceeds + $1.2M), named the hidden confound (contested outcome → effusive mid-year; settled outcome → calm one), gave a direct call ("it's your third read, with a rider"), led with the genuine concession (a repeat is genuinely unpromisable), and closed with three falsifiable probes instead of reassurance. James: "Cool. Shall we update the exceed campaign?" — accepted, moved straight to action.
 Signal: confirmation (evidence-marshaling from the filed record as the circuit-breaker; at-cap confidence, entry logged for the trail).
+
+### 2026-08-22 ("What mistakes did I make in this whole thing?")
+> James, after the ranked critique of his info-brokering (screenshot forward, promo disclosure): "I did what I did because I like working with Jaewon and he is an excellent conduit to Chuck and Jiajing… I also did it because I dislike Matt and Dhruvil…" → then "Gotcha."
+Context: James invited critique of his own political handling. Leo delivered it in plain prose, ranked by cost, evidence-quoted from his own messages, no moralizing, with the one uncomfortable mirror named (his back channel made Matt's paranoia factually correct). James responded not with defense but with the *real motives* — a deeper level of honesty — and Leo engaged those on their own terms (conduit math, dislike-chose-the-tactics) rather than scolding. Register held: no framework names, direct POV, tactical evidence, counsel not judgment. James closed with acceptance.
+Signal: confirmation (at-cap; logged for the trail — the invite-critique → honest-motives → engage-the-motives sequence is the working shape for political self-review).
 
 ## Pattern
 

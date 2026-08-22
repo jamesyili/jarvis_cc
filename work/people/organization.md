@@ -110,6 +110,11 @@ Announced 2026-04-23 by Kurchi. Key changes relevant to James's strategic landsc
 - RecGBT → **RecGPT** (also known as **PinRec**)
 - "Ray" → **Rui Wang** (dictation artifact; corrected 2026-07-15)
 - Raymond Su → **Raymond Hsu** (canonical spelling, 2026-07-22)
+- "Hoodie" → **Hedi Xia** (dictation artifact; 2026-08-22)
+- "Jaewong" → **Jaewon Yang** · "Rajaad" → **Rajat** (dictation artifacts; 2026-08-22)
+- "Matt Lawhorn" → **Matt(hew) Lawhon** (2026-08-22)
+- "Hanlin" in dictation ⚠️ **check context** — twice resolved to someone else (8/1 → the Reflex EM-POC subject; 8/22 → **Dafang He**); real Hanlin exists on the team, so never auto-accept
+- "Pinsight" → **Pinkerton** (James 8/22: never use Pinsight; legacy URLs/Notion history keep it)
 
 ---
 

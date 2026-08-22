@@ -2763,3 +2763,19 @@ This directly counters the IC-comfort instinct. Lock it now; tell yourself out l
 - `work/communication.md` — *"At the same time"* credit-keeping technique (Wes 4/26 case study)
 - `notebooklm/query_log.md` — Ethan 5/2 + 5/4 consult logs (Sponsor Stack, bounded ramp, Magical Thinking trap)
 - `system/file_index.md` — full context file index
+
+---
+
+## 2026-08-21 — James asks for the CQ/T&S lead; Dylan grants it in 14 minutes and offers help (verbatim, from screenshot 8/22)
+
+> **James (11:02 AM):** Hi Dylan, over the past 2 weeks, there's a couple of asks from T&S and Content Quality (Safe Journeys, GenAI, etc.). I can take the lead here if you're ok with it, and work with @Michael Weissinger @Dafang He @Dhruvil Deven Badani on the next steps. *(edited)*
+>
+> **Dylan (11:16 AM):** Yes that would be great. Anything you need help? 👍
+>
+> **James (11:19 AM):** Yes, probably next week there'll be an question / ask brought up to you and Andrew around how we can prioritize the various efforts. There's a lot of related or overlapping efforts /meetings that Dhruvil and I are both in with the CQ team (GenAI, Safe Journeys, Racy, etc.) so the team would like some guidance on what is the relative priority and how we can better set expectations with CQ & T&S leads. *(thank-you react)*
+
+**Reads (Leo, 8/22):**
+- **Scope granted is broader than "CQ POC"** — it's the lead on *incoming T&S + CQ asks* across Safe Journeys/GenAI/etc., coordinating Michael W (PM Director) + Dafang + Dhruvil. Fourteen-minute turnaround + "Anything you need help?" = the action-sponsor pattern on cue (2 asks/1:1 rule applies to what comes next).
+- **The help-ask is already seeded and shaped:** a prioritization question to Dylan *and Andrew* about the overlapping CQ-adjacent efforts (GenAI, Safe Journeys, **Racy** ⟨new thread name — capture what it is⟩), framed as *the team* needing guidance — clean altitude. Mon 8/25 1:1 deliverable: bring it concretely (the Qinglong 8/21 WG update — two experiments + L2 PoC + quality-aware-ranking planning inside James's doc — is the evidence base; `work/projects/safe_journeys/sources/06_`).
+- **Same-day context:** hours after this exchange, James led the Neeti (VP T&S) DSAT investigation and shipped the Safe Journeys framework — the granted lead was exercised before the day ended.
+- *(Dictation note: James's 8/22 verbal recap said "Dhruvil, Hanlin" — the actual thread names Dafang. Second "Hanlin" dictation artifact; cf. `reflex/program_state.md` 8/1.)*

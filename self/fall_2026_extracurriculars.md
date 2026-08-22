@@ -29,8 +29,9 @@
 
 ## Logistics flags
 
+- **Driver split — standing assumption (James, 8/22):** James chauffeurs **Ethan** (Sat Think Academy + robotics, Sun soccer); **Hanlin** chauffeurs **Evelyn** (Sat Think Academy + ping-pong). Ethan's wait blocks — Sat 9:00–10:30 and 11:00–12:30, Sun ~8:45–10:15 — are James's recurring phone/laptop work windows (Leo sessions or work laptop).
 - **Saturday is still the load-bearing day, but now front-loaded.** Ethan: Think Academy 9:00–10:30 → robotics 11:00–12:30 → online math 7:00–7:40 (three blocks, done by 12:30 + evening). Evelyn: Think Academy 11:30–1:30 → ping-pong 4:00–6:00 → online coding 7:00–7:40.
-- **New Saturday late-morning split (11:00–12:30):** Ethan's robotics starts 11:00 and Evelyn's Think Academy starts 11:30 — 30 minutes apart ⟨robotics location and Evelyn's TA campus both unconfirmed; Ethan's 10:30 TA release is from 1081 S De Anza Blvd, so that's the drive-time origin⟩. Ethan's robotics pickup at 12:30 lands mid-Evelyn-TA.
+- **New Saturday late-morning split (11:00–12:30):** Ethan's robotics starts 11:00 and Evelyn's Think Academy starts 11:30 — 30 minutes apart ⟨robotics location and Evelyn's TA campus both unconfirmed; Ethan's 10:30 TA release is from 1081 S De Anza Blvd, so that's the drive-time origin⟩. Ethan's robotics pickup at 12:30 lands mid-Evelyn-TA. **Absorbed by the driver split** — James runs Ethan's leg, Hanlin runs Evelyn's; no single-driver relay needed.
 - **Think Academy no longer chains.** Ethan 9:00–10:30 (**Cupertino campus, 1081 S De Anza Blvd**) and Evelyn 11:30–1:30 are separate trips with a 1-hr gap — two round trips regardless. ⟨Evelyn's campus still unconfirmed — if she's also at 1081 S De Anza, the gap is dead time at one location rather than a second drive.⟩
 - **Saturday afternoon cleared for Ethan.** The old robotics/ping-pong 3:15–4:45 vs 4:00–6:00 collision is gone; Evelyn's ping-pong 4:00–6:00 is the only afternoon block. Her 6:00→7:00 dinner gap before coding is still tight.
 - **Sat 7:00–7:40pm both kids online simultaneously** (Ethan math, Evelyn coding) — needs two devices, two quiet rooms.

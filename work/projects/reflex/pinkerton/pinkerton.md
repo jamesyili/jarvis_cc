@@ -2,7 +2,14 @@
 
 LLM-powered deep analysis tool for Homefeed recommendation systems — user understanding, request debugging, and aggregate insight generation. **Pinkerton is the data substrate for the Anticipation Vision via Reflex co-development with Andrew Yaroshevsky.**
 
-Last Updated: 2026-05-14
+Last Updated: 2026-08-22
+
+> **Naming (James, 8/22):** call it **Pinkerton** everywhere — do not use "Pinsight" (stale Notion label).
+
+## Headline (week of 2026-08-17)
+
+- **Roadmap per James (8/22), three main tasks:** (1) **full-funnel logging on Notifications and Search**; (2) **stand Pinkerton up as its own recurring service**; (3) **support See More / See Less** (partly depends on 2). Alok is the standing exec hand on Pinkerton; Dimitra's notifications-logging integration ask (Notion, open) folds into task 1.
+- **Fri 8/21 — Pinkerton used live on the T&S "Elon scam pins" DSAT** (#user-feedback-xfn, thread from Becky Stoneman, Dir Product; the test account of **Neeti Deshmukh, VP of T&S** → Chief Legal Officer chain). Andrew asked for same-day help; James led the investigation, Michael Weissinger (PM Director, §38) wrote the response + sharpening questions, Dhruvil on utility weights + lookup. Full-funnel cross-reference → verdict "not a suppression failure, a relevance problem" (cross-surface silo + positive/negative asymmetry + nothing systematic); response posted Fri with three next-step lanes (UPP cross-surface negatives · CQ demotion experiments · Safe Journeys responsive approaches) and a **public timeline follow-up committed for wk of 8/24**. Slack AI summary credits "investigation led by @James Li." Full capture = **golden dataset case #1** → `golden_dataset.md`. No VP/Dylan/Andrew response as of Sat am (posted late Fri; check Mon).
 
 ## Sibling artifacts
 

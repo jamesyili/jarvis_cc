@@ -96,3 +96,12 @@ The symmetry is procedurally intact and experientially nowhere close. Not James'
 - [ ] RSVP form field — *"favorite two-word phrase"*: shortlist was **"One more"** (Leo pick), "Second breakfast," "Ordinary James," "Dad joke." Calibration that matters more than the wit: warm and zero-threat, not impressive — a phrase that signals *operator* is the one wrong answer in that room. **James's actual pick: unrecorded.**
 - [ ] 15 minutes with **Alim** on the calendar before 9/15 (the pre-offsite brief)
 - [ ] Confirm which two days **Dylan** is there
+
+## 7. David-session coaching input (8/21, notes filed 8/22)
+
+Offsite was topic 2 of the Friday David session (Daniel topic 1 → `../people/daniel_liu_archive.md` 8/21 entry). The approach that came out:
+
+- **Core frame: show up as James, not "the P13N Retrieval EM."** Prepare a few **personal stories**; **accept opportunities as gifts** (invitations, seatings, asks — take them rather than deflecting).
+- **Connect with leaders as actual people.** The calibration triad from the session: *what does playing it safe look like at this offsite? what does being aggressive look like? how about just being myself?* — the third is the answer the first two exist to bracket.
+- Pairs with the RSVP-form read in §6 (warm and zero-threat beats impressive) and the advocate-diversification thread — which James has now converted into concrete sponsor moves *outside* the offsite: **Rajat OH booked Thu 9/11**, Jeff OH planned Oct/Nov (so the offsite carries relationship weight, not pitch weight).
+- **Consciously dropped:** the planned Huizhong-fear opener. James's stated reasoning (8/22): rather than process the fear, build the sponsorships that make the Huizhong outcome structurally unlikely for him.
