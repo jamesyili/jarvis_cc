@@ -102,3 +102,4 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 
 ## Ops
 - **proactive-restart-frozen-process** — a monitored background process freezes → kill and relaunch without asking, then explain.
+- **anchor-dates-to-james-local-time** — an answer turns on "today" (schedules, deadlines, start dates, countdowns) → resolve it with `TZ=America/Los_Angeles date`, not the injected currentDate or a bare `date`; in remote sessions those are UTC and disagree by a full weekday every Pacific evening. Label the local day in the output. (0.3, 8/21 kids-schedule)

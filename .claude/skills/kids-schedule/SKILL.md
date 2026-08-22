@@ -19,7 +19,7 @@ Companions (read only if the question goes deeper):
 
 ## Process
 
-1. Read `self/fall_2026_extracurriculars.md`. Check today's date.
+1. Read `self/fall_2026_extracurriculars.md`. Resolve today's date with `TZ=America/Los_Angeles date` — **not** the injected `currentDate` or a bare `date`, which are UTC in remote sessions and read a full day (and weekday) ahead every Pacific evening. Everything below turns on the weekday, so get this right and state the local day in the output.
 2. Render three blocks, in this order:
 
 **① Weekly grid** — reproduce the day-by-day table (Mon–Sun, one column per kid). Compact; this is the thing James most often wants at a glance.
