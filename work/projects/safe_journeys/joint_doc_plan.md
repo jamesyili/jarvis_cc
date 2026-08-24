@@ -70,3 +70,22 @@
 - James reciprocating with shares on his own side ("I will do the same and encourage…" — recipients TBC, presumably JJ/Rui-side).
 
 **Next gates unchanged:** Dylan + Andrew review Fri 8/21 / Mon 8/24 → Bill deliverable Wed 8/26 → Bill review 8/28 (Andrew's slot). Tab 2 still headers-only until the post-Friday co-write (D7).
+
+## Status — Dhruvil's section lands (2026-08-24, Monday)
+
+**Dhruvil wrote a full review section directly into the doc** — summary, observations, ten action items — following Qinglong's 8/21 commitment to add his ideas. Verbatim + full Leo read: `sources/07_dhruvil_doc_section_2026-08-24.md`.
+
+**The structural read:** 80% correct, 100% consequential. Two moves stacked — (A) a new prioritization rubric (*effectiveness × funnel efficiency × risk*, "most importantly risk"), where the risk axis is **HF L2 offline-online correlation**, a quantity only his pillar measures; (B) the work relocates upstream into James's pillar while blending (his pillar post-reorg) becomes the thing protected from intervention. Four of ten action items name James Li, including all three open-ended ones; Dhruvil is never a sole owner. The summary line — *"many of these things will need to be addressed before LR approval / shipping"* — makes the section function as a **launch-review gate written in advance**.
+
+**D11 (2026-08-24, proposed — unratified): integrate, don't append.** Fold Dhruvil's section into the existing spine before the Wed 8/26 Bill deliverable rather than let it stand as a block: success criteria → new §0/§4.0 · three-axis rubric → §4, *applied* to the lever list · model-intervention menu (margin loss, VLM-positives-as-in-batch-negatives, genAI in impression sequence, bucketed calibration/offline eval) → §5, credited to Dhruvil/Akshay · offline-online correlation as a **measured budget** + blending holdout → §7 · funnel analysis + Helium prevalence → §8 Phase 1 · genAI-vs-teen-safety sequencing pushed back to **§9 decision #1** rather than resolved silently · the two early-funnel questions → §10 with James as owner and a date. Rationale: whoever integrates owns the frame, and a doc with three appended author blocks has no author.
+
+**Three counters on record** (all sourced, none territorial):
+1. **"All upstream" is not currently available for genAI** — genAI-domain is a domain/landing-page-level signal and **L1 cannot consume it today** (CQ's own doc, source 04, 1A-i cons + their L2-preference rationale). Fork: L1 gains domain-signal capability (a build, needs date + owner), or genAI enforcement stays at L2/blending near-term.
+2. **Washout (CQ's argument) and dilution (Dhruvil's X*K argument) are the same phenomenon** — wherever the quality objective is absent, that layer reverses the layer that has it. Both resolve to the doc's §5 spine: put the objective in the model. His section is an argument *for* §5.
+3. **"No counterfactual" is false** — §7 already carries the ε hold-back and the retention holdout; a blending-intervention holdout supplies exactly the counterfactual he says can't exist.
+
+**D10 precedent applies to Tab 2:** present the framework + teen-safety timeline, with **genAI as the second instantiation gated on the funnel analysis and success criteria**. Honest "not yet" over a workplan whose priorities aren't settled — the same call that earned credibility on topic 3.
+
+**Timing risk:** Bill deliverable Wed 8/26, review Fri 8/28, Tab 2 still headers-only. Raw, the section gives the exec tab an action list reading "James Li owes four answers" plus an unsettled-and-risky genAI story — the opposite of D1/D7's timelines-are-the-centerpiece.
+
+**Open:** D11 unratified · CG-level genAI load + affinity analysis (the best deliverable James can put on the table this week; doubles as the funnel analysis) · 2×2 L1×blending factorial design (item 7 — propose, don't receive) · HF L2 PoC pick (Dylan's read first, then coordinate with Dhruvil) · the concession-and-forks message to Dhruvil.

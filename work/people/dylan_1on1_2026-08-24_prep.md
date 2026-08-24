@@ -56,3 +56,17 @@ Closed before the deadline. Nothing to do Monday — drop this item from the age
 - The words **"gentleman's agreement"** for Yuke — the substance is fine, the phrase isn't.
 - The **screenshot-share / promo-disclosure** details from the L1 flashpoint.
 - **Anti-Matt or ranking-negative sentiment** in any form — her constraint set, and yours.
+
+---
+
+## Addendum (Mon 8/24, pre-1:1) — Dhruvil's doc section is the price tag for §2's prioritization ask
+
+Dhruvil wrote a full review section into the CQ doc over the weekend (verbatim + read: `../projects/safe_journeys/sources/07_dhruvil_doc_section_2026-08-24.md`). It hands §2's third ask a concrete answer: **four of ten action items name James**, including all three open-ended ones, and the summary frames the whole set as *"needs to be addressed before LR approval / shipping."*
+
+Two additions to §2, both cheap:
+
+> *(after the prioritization ask)* "One concrete data point on what CQ now costs: Dhruvil added a review section to the doc over the weekend — good technical content, and four of the ten action items land on me, three of them open-ended. That's the trade I want us to name."
+
+> *(the escalation, if the prioritization line opens)* "One thing I'd rather route to you than absorb: the section puts a full genAI workplan in motion, but the doc's own §9 asks leadership for the genAI-vs-teen-safety priority call, and that call hasn't been made. I don't want to resolve it by writing it down."
+
+**Do NOT say, in this room or any other:** anything reading as territory — that Dhruvil is protecting blending, or that the risk axis favors his pillar. The read stays in the repo. The room gets technical synthesis only. (Karen watch, 8/22 flashpoint self-review: dislike-driven moves toward Matt/Dhruvil reopen the XFN-patience narrative.)
