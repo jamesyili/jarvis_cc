@@ -2,7 +2,7 @@
 
 > James's org, whole: the **people** (roster, per-person context, dynamics) and the **scope** (org shape, charters, workstreams, boundaries, canonical outcomes). Renamed from `team_members.md` 2026-08-01, absorbing the team/project/scope content from `organization.md` — that file now covers org structure + teams outside this org and points here.
 
-Last updated: 2026-08-22b (**Bella + Yuke H1 review conversations both DELIVERED, both landed well** — Bella: weekly RecGPT experiments + two launch candidates (SSv2 mover; first RecGPT L0+L1 proving-out), new-CG-vs-replace strategy flashpoint, Simulate progressing, oncall unmoved (timing rec on file), China 8/27 ~1.5wk family emergency, 🔒 Dafang disclosure — see her §; Yuke: gentleman's agreement → détente-with-documentation, PIP pre-armed not live — see his §). Prior: 2026-08-19b (**T2 grill session**: Daniel's counter-scenarios A/B/C + ≤12 caps + funding constraints filed to §T2 scenario boards Update 8/19; Yiping landing decided (RB ramp, ~3-wk time-bound, James wk-1 meet); Zili non-operational/severance-seeking; Alim RecGPT passion ×2; Bella as T2 design variable; Daniel fold-then-excavate read → his archive). Prior same-day: (**initial 1:1s filed — Yongwoo Noh + Felix Yang**: first-hand workstream/values/career/reorg reads into their roster rows; closes 2 of the 3 pre-PTO skip-levels from Daniel's coverage design — Esteban remains). Prior: 2026-08-15 (**T2 scenario-boards session (phone)** — four numbered scenario boards built for the trio, §T2 scenario boards below + private artifact; **Nima hired into CLR** (was REQ-1); Bella = **Reflex 1° / RecGPT 2°, stays James-direct in every scenario**; **Rui rides with LWS**; **Esteban → UEB**; IB·LLM-pUIC staffing note (Balaji+Ling carry both, LLM×RecSys fold-back); name trims: "CLR + GULP" → CLR, "UEB & LLM-pUIC" → UEB.) Prior: 2026-08-02 (deep context pass — per-person H1 records folded in from James's own drafts: Yali/Hedi/Yidi/Hanlin enriched from near-empty stubs, Chuxi TL-in-writing, Zihao 7/15 'contested one' marked SUPERSEDED; GenRet = gains engine; IB vs RecBoards split. Prior: 2026-08-01 (rename + org-shape/scope sections built from `reorg_july2026/` full context: org = P13N Retrieval, three teams locked, announcement Wed 8/5. Prior: 2026-07-31 midyear-review sweep — all 13 H1 docs in `downward_reviews/h12026/`; Bella/Yuke/Zili/Alok 7/31 entries below.)
+Last updated: 2026-08-24 (**§Daniel's team per-person entries created** (James's ask — nine entries, narrative lifted from roster rows, rows → pointers); **headcount re-confirmed by James: 28 IC seats = 27 people + REQ-2, + 2 EMs** — Yiping added to the roster table, level distribution corrected; §Roster currency audit added (per-person freshness + what needs James); Yichi + Nima sections created (were zero-content); Devin/Ryan/Rui refreshed from 8/21–8/23 decisions; tier headers repointed to the 8/23 cadence table). Prior: 2026-08-23 (**§1:1 cadence & pre-announcement runway added** — James's directive: team starts hearing new managers before end of Sept; standing cadence table (incl. three no-slot gaps: Ryan/Yichi/Rui), week-by-week runway 8/24→9/28, post-announcement step-down proposal; stale-tier flags: Yuke biweekly since 7/31, Alok/Chuxi/Yidi = Alim's since 8/3). Prior: 2026-08-22b (**Bella + Yuke H1 review conversations both DELIVERED, both landed well** — Bella: weekly RecGPT experiments + two launch candidates (SSv2 mover; first RecGPT L0+L1 proving-out), new-CG-vs-replace strategy flashpoint, Simulate progressing, oncall unmoved (timing rec on file), China 8/27 ~1.5wk family emergency, 🔒 Dafang disclosure — see her §; Yuke: gentleman's agreement → détente-with-documentation, PIP pre-armed not live — see his §). Prior: 2026-08-19b (**T2 grill session**: Daniel's counter-scenarios A/B/C + ≤12 caps + funding constraints filed to §T2 scenario boards Update 8/19; Yiping landing decided (RB ramp, ~3-wk time-bound, James wk-1 meet); Zili non-operational/severance-seeking; Alim RecGPT passion ×2; Bella as T2 design variable; Daniel fold-then-excavate read → his archive). Prior same-day: (**initial 1:1s filed — Yongwoo Noh + Felix Yang**: first-hand workstream/values/career/reorg reads into their roster rows; closes 2 of the 3 pre-PTO skip-levels from Daniel's coverage design — Esteban remains). Prior: 2026-08-15 (**T2 scenario-boards session (phone)** — four numbered scenario boards built for the trio, §T2 scenario boards below + private artifact; **Nima hired into CLR** (was REQ-1); Bella = **Reflex 1° / RecGPT 2°, stays James-direct in every scenario**; **Rui rides with LWS**; **Esteban → UEB**; IB·LLM-pUIC staffing note (Balaji+Ling carry both, LLM×RecSys fold-back); name trims: "CLR + GULP" → CLR, "UEB & LLM-pUIC" → UEB.) Prior: 2026-08-02 (deep context pass — per-person H1 records folded in from James's own drafts: Yali/Hedi/Yidi/Hanlin enriched from near-empty stubs, Chuxi TL-in-writing, Zihao 7/15 'contested one' marked SUPERSEDED; GenRet = gains engine; IB vs RecBoards split. Prior: 2026-08-01 (rename + org-shape/scope sections built from `reorg_july2026/` full context: org = P13N Retrieval, three teams locked, announcement Wed 8/5. Prior: 2026-07-31 midyear-review sweep — all 13 H1 docs in `downward_reviews/h12026/`; Bella/Yuke/Zili/Alok 7/31 entries below.)
 
 ---
 
@@ -15,7 +15,7 @@ Last updated: 2026-08-22b (**Bella + Yuke H1 review conversations both DELIVERED
 - **Dylan's reorg (announces Wed 8/5):** Daniel Liu (M16) + his 7-person Curation ML team re-parent **laterally** from Yan to James (team intact under Daniel in the interim); Dhruvil gains the blending team (Rahul Goutam + ~5–6). Only Dhruvil + James took headcount this cycle.
 - **Transition states (James, 8/1): T1 → T2, no T3.**
   - **T1 — starts the week of 8/3, immediately after the announcement:** **Alok, Chuxi, Lionel, Yidi report to Alim**, whose team is named **"Retrieval Modeling"** (re-decided from the July design's "Anticipation Modeling"). **Everyone else stays reporting to James; Daniel retains his team (Curation ML) intact.** No other changes at T1.
-  - **T2 — ~Nov 2026 (moved from ~early Oct, James 8/3 — Yan's freeze-through-Q3 ask + Daniel team-fragility reads):** between T1 and T2, **James + Daniel + Alim figure out the right structure together** — the standing EM staff sync (kickoff ~week of 8/17; process, principles, and settled/open lists in `reorg_july2026/p13n_retrieval_split.md`). Open at T2: **the organizing axis** (`reorg_july2026/p13n_retrieval_split.md` — 3 open charters × 2 teams → 4 viable combinations) · CLR placement · **GenRet landing** (graduation framing retired 8/2; **Bella moves with it**) · IB gains-origin gate (~60d) · UEB consolidation · Balaji · the two open reqs · remaining James-direct lines. **Settled 8/2: James = UPP + Reflex only at T2.**
+  - **T2 — ~Nov 2026 (moved from ~early Oct, James 8/3 — Yan's freeze-through-Q3 ask + Daniel team-fragility reads):** between T1 and T2, **James + Daniel + Alim figure out the right structure together** — the standing EM staff sync (kickoff ~week of 8/17; process, principles, and settled/open lists in `reorg_july2026/p13n_retrieval_split.md`). Open at T2: **the organizing axis** (`reorg_july2026/p13n_retrieval_split.md` — 3 open charters × 2 teams → 4 viable combinations) · CLR placement · **GenRet landing** (graduation framing retired 8/2; **Bella moves with it**) · IB gains-origin gate (~60d) · UEB consolidation · Balaji · the two open reqs · remaining James-direct lines. **Settled 8/2: James = UPP + Reflex only at T2.** **Update 8/23 (James): manager-announcement conversations begin before end of Sept** (T2 effective date unchanged) — comms runway + per-person plan in §1:1 cadence & pre-announcement runway below.
 
 ### The three-team charter design (July target — a T2 input, NOT the T1 state)
 
@@ -63,14 +63,16 @@ Four member-level boards built 8/15 to float with Alim + Daniel — **numbered S
 
 Kim on the boards: Sc 1–3 = Alim/RR (explorative-pUIC spine; her call — 3-way + Fri 8/21); Sc 4 = James/UPP-focused (⚠ conflicts her 8/11 not-100%-UPP line). Leo flags held privately: **Sc 3 reverses the T1 LWS grant** (Daniel's #1 keep — needs "nothing is decided, including what you already hold" said aloud) **and carries Nima to Daniel with CLR** (breaks the Alim senior-seat design); **Sc 4** has the worst Daniel carve optics (5 lines) + the weakest Kim seat; **Zili: PIP approved 8/15, launching soon** — her line stays James through the case; every board's LWS placement of her is post-resolution only.
 
-**Update 8/19 (grill session on Daniel's counter-scenarios; full behavioral read → `daniel_liu_archive.md` 8/19):** Daniel shared his own **Scenarios A/B/C** (A ≈ Sc 3 adjusted, B ≈ Sc 2, C ≈ Sc 1) + a people-preference table — **all rows Daniel-sourced, uncorroborated** (James confirmed; Roderick's "off UEB post-Q3, stays Daniel's line" needs his own voice before any board relies on it — it collides with James's 8/10 "your deepest priority will always be UEB"). All three **pre-delete IB·LLM-pUIC** — the ~Oct gains-origin gate stays live; anything the trio sees must keep the bet visible. **New hard constraints:** both EMs independently capped at **≤12 reports** (kills Sc 1 as drawn — Alim 13; Sc 2/3 put Daniel at 13 once Yang returns + REQ-2 fills; only Sc 4 fits natively) · **LWS needs +2–3** (highest Pinterest-wide obligation load via L1 utility; effectively Yali+Hedi+Rui with Zili out; content-quality/Safe-Journeys L1 work lands here) · **CLR+UPP = 7 total** (James/Devin agreement — Piyush+Zihao stay James; rest report to whoever owns CLR). **Alim wants RecGPT** (stated twice, incl. 8/19 1:1) — and Daniel's CLR-over-RecGPT is substantially Bella-avoidance, so the trophy isn't contested. ⚠️ Collision James owns: his **8/16 resolution "Alim day-60 expansion = CLR"** predates all of this — reaffirm or re-open before the Fri 8/21 trio; also note the **8/17 LWS-to-Daniel hint** is already planted, so an Alim-LWS shape needs an explicit walk-back, not drift. *(Leo reference shape, unratified — Option 1: Alim = LWS+RR+RecGPT ~11–12 · Daniel = CLR+UEB+IB-gate+RB-min ~11–12 · James unchanged; fits caps + both revealed preferences; known costs: Nima rides to Daniel with CLR, Bella matrixes into Alim's area, UEB-consolidation design reversed.)* **Friday room design (James's intent, agenda emailed 8/19):** constraints-first opening, then EMs negotiate directly — Daniel presents A/B/C to Alim, steelman swap, James talk-share <25%, never take Daniel's first yes, score both EMs against Dylan's 8/19 bench mandate; no new SSJ-UPP commitments in the room.
+**Update 8/19 (grill session on Daniel's counter-scenarios; full behavioral read → `daniel_liu_archive.md` 8/19):** Daniel shared his own **Scenarios A/B/C** (A ≈ Sc 3 adjusted, B ≈ Sc 2, C ≈ Sc 1) + a people-preference table — **all rows Daniel-sourced, uncorroborated** (James confirmed; Roderick's "off UEB post-Q3, stays Daniel's line" needs his own voice before any board relies on it — it collides with James's 8/10 "your deepest priority will always be UEB"). All three **pre-delete IB·LLM-pUIC** — the ~Oct gains-origin gate stays live; anything the trio sees must keep the bet visible. **New hard constraints:** both EMs independently capped at **≤12 reports** (kills Sc 1 as drawn — Alim 13; Sc 2/3 put Daniel at 13 once Yang returns + REQ-2 fills; only Sc 4 fits natively) · **LWS needs +2–3** (highest Pinterest-wide obligation load via L1 utility; effectively Yali+Hedi+Rui with Zili out; content-quality/Safe-Journeys L1 work lands here) · **CLR+UPP = 7 total** (James/Devin agreement — Piyush+Zihao stay James; rest report to whoever owns CLR) · **Esteban stays with Roderick in every scenario (James, 8/23)** — a person-level pairing constraint, stronger than "Esteban moves with UEB": if Roderick's UEB status changes (Daniel's 8/19 uncorroborated off-UEB-post-Q3 claim; Roderick's own-voice convo wk of 8/24), Esteban follows **Roderick**, not the charter. **Alim wants RecGPT** (stated twice, incl. 8/19 1:1) — and Daniel's CLR-over-RecGPT is substantially Bella-avoidance, so the trophy isn't contested. ⚠️ Collision James owns: his **8/16 resolution "Alim day-60 expansion = CLR"** predates all of this — reaffirm or re-open before the Fri 8/21 trio; also note the **8/17 LWS-to-Daniel hint** is already planted, so an Alim-LWS shape needs an explicit walk-back, not drift. *(Leo reference shape, unratified — Option 1: Alim = LWS+RR+RecGPT ~11–12 · Daniel = CLR+UEB+IB-gate+RB-min ~11–12 · James unchanged; fits caps + both revealed preferences; known costs: Nima rides to Daniel with CLR, Bella matrixes into Alim's area, UEB-consolidation design reversed.)* **Friday room design (James's intent, agenda emailed 8/19):** constraints-first opening, then EMs negotiate directly — Daniel presents A/B/C to Alim, steelman swap, James talk-share <25%, never take Daniel's first yes, score both EMs against Dylan's 8/19 bench mandate; no new SSJ-UPP commitments in the room.
 
 Cross-org lanes: **NLFU** (James front door; named deliverables on existing engines) · **SM/SL** (Daniel's LWS lane; Yali + Raymond Hsu — closed as a design item) · **Content Quality** (owner unknown) · **Cost/budget investigation** (James, for Dylan; feeds the $2M line). Front-door routing table: `org_doc_fill_2026-07-27.md` §Proposal→Ownership.
 
 ---
 
-## Roster (authoritative — James, 2026-07-15)
+## Roster (authoritative — James, 2026-07-15; headcount re-confirmed 2026-08-24)
 
+> **Headcount of record (James, 8/24): 28 IC seats = 27 people + 1 open req (REQ-2), plus 2 EMs (Daniel, Alim).** Anyone not in the table below is not in the org.
+>
 > Levels/families/projects confirmed by James. The per-person sections below carry the *narrative* context (perf cases, flight risk, growth); this table is the **source of truth for who exists and at what level.**
 >
 > **Naming correction (2026-07-15):** the engineer these notes called **"Ray"** is **Rui Wang** — a dictation/preferred-name artifact. One person, not two. Corrected throughout here and in `reorg_july2026/org_design_proposal_2026-07_v2.md`.
@@ -82,20 +84,20 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 | **Daniel Liu** | **M16** MLE | (current) EM on Curation ML | Supports 8 ICs (+Esteban, surfaced 8/3) + intern; comes to James via Dylan's reorg. **Naming saga 8/3: Daniel picked "Personalization Product ML" under the call James gave him → Dylan HELD it same evening ("other considerations; naming can always be modified later") → Curation ML stands; James owes Daniel the walk-back before Wed's email** |
 | **Alim Virani** (he/him) | **M16** MLE | Retrieval Modeling (T1) | **Started 7/27/2026** — see Tier-1 entry |
 
-### IC level distribution (27 incl. 2 open reqs — Esteban added 8/3)
+### IC level distribution (28 seats incl. 1 open req — Yiping added 8/24; Nima filled REQ-1)
 | Level | Count | People |
 |---|---|---|
 | **L16** | 3 (11%) | Piyush, Bella, Balaji |
-| **L15** | 12 (44%) | JJ, Zihao, Yali, Devin, Hedi, Yuke, Roderick, Yang, Kim, Yongwoo, Ryan, Nima (hired 8/15, starts 9/8) |
-| **L14** | 8 (30%) | Chuxi, Ling, Hanlin, Rui, Felix, Alok, Lionel, Zili |
-| **L13** | 4 (15%) | Yichi, Yidi, Esteban, Req-2 |
+| **L15** | 12 (43%) | JJ, Zihao, Yali, Devin, Hedi, Yuke, Roderick, Yang, Kim, Yongwoo, Ryan, Nima (hired 8/15, starts 9/8) |
+| **L14** | 8 (29%) | Chuxi, Ling, Hanlin, Rui, Felix, Alok, Lionel, Zili |
+| **L13** | 5 (18%) | Yichi, Yidi, Esteban, Yiping (starts 8/24), REQ-2 (open) |
 
 ### Full IC roster
 | Name | Level | Family | Current main projects | Reports to | Notes |
 |---|---|---|---|---|---|
 | Piyush Maheshwari | L16 | MLE | UPP · CLR (advisory) · LWS (advisory) | James | SPOF on UPP |
 | Bella Huang | L16 | MLE | Reflex (1°) · RecGPT (2°) | James | Staying; top-lab leave-trigger. **8/15: marked Reflex primary / RecGPT secondary; stays James-direct in all four T2 scenario boards (rating-handoff hold; the GenRet charter moves without her — she matrixes in)** |
-| Balaji Rengarajan (he/him) | L16 | MLE | Intelligent Boards | Daniel | Daniel 8/3: ~1 yr in, steady ramp; watch via seniority/level lens (top-level IC on his team); his ICs want scope/growth clarity. **Daniel 8/11: very solid backend + good ML expertise, very strong product sense, not that deep in modeling — "might be a good fit for Retentive Recs / pUIC / IB."** IB sprint = 100% his through conclusion. James 8/11: likely stays on Daniel's team → offer him things that travel with that team; Alim asked to chat with him (get-to-know register) |
+| Balaji Rengarajan (he/him) | L16 | MLE | Intelligent Boards | Daniel | **L16, IB TL — stays Daniel; IB sprint 100% his.** Entry → §Daniel's team. First standing 2w 1:1 wk 8/24 (L16 floor rule, 8/23) |
 | Devin Kreuzer | L15 | MLE | CLR · GULP | James | CLR lead |
 | Ryan Kam | L15 | SWE | CLR · LWS (dev-velocity focused) | James | Joined ~May 2026 |
 | J.J. Hu | L15 | MLE | Responsiveness · L1 · Reflex | James | **IC16 promo APPROVED (James, 8/4)** — effective date TBC; level tables updated when it lands |
@@ -103,10 +105,10 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 | Hedi Xia | L15 | MLE | LWS | James | **8/16: Daniel's first LWS contact on return (9/14 — Yali still out to 9/18); natural LWS coverage backstop for the 8/31–9/11 double-dark window; supporting role in the LWS×UPP rec (full lane: `daniel_liu_archive.md` §LWS·UPP)** |
 | Yuke Yan | L15 | MLE | Retentive Recs · RecGPT | James | **Will move to RecGPT only**; PIP track |
 | Zihao Chen | L15 | MLE | UPP · Content Exploration | James | UPP succession hedge |
-| Roderick Gao | L15 | SWE | Unified Explore Backend | Daniel | **8/10 first skip-level (from the 8/7 queue) — strong, no concerns.** Learned of reorg from the email/Yan's message first ("a little bit of a surprise" — comms-sequencing datum, benign; already worked w/ James's team on RR so relaxed about the move). Amazon Ads recsys background, glad to shed ads terminology; happy to be at top-of-funnel. **Keep-doing feedback delivered:** ownership (chases things to the end) + obtaining/communicating clarity across many people = "foundation of a strong tech lead"; landed well, he wants to add product-why depth. **Self-identified leverage:** LRM [or LLM — dictation] online-serving enablement (real experiments, iterate on results, not just offline generation) · managing [prompt/model versions? — garbled] · serving latency. **Year-out ask:** whole-funnel domain expert + strong serving foundation for fast iteration; wants ATG (CG tech) + Ads connections. **Build vs lead: architecture/system altitude** — scale by coordinating (named Ling as platform-build partner), deliberately not owning all implementation. AI-fluent by disposition (uses AI to buy study time, scans what other companies try) — a rule-8 native. **James committed:** Q3 working model unchanged (Yan agreement, restated) · **"your deepest priority will always be UEB"** · support-only posture — "I will only put people in your effort, like Lionel," more on request. **He raised Unity Board ownership** (his side leverages it for UGC Board recs w/ own rec stack; the other team [Ads/ATG? — garbled] may lack the knowledge) → James pointed to **Bella's ownership investigation, promised a proposal "signed off across everyone"**; Roderick volunteered to think it through — **feed him to Bella as a named source.** |
-| Yang Liu | L15 | MLE | **Parental leave** | Daniel | **Returning end of Nov 2026, gradual ramp (James, 8/10)** — counted out of H2 2026 planning; nothing lands during Daniel's 8/24–9/11 PTO; skip-level waits for her return |
+| Roderick Gao | L15 | SWE | Unified Explore Backend | Daniel | **UEB lead — moves w/ UEB to Alim in every scenario; contested (Daniel wants to keep him).** Entry → §Daniel's team. Choice convo Tue 8/25 1:30 |
+| Yang Liu | L15 | MLE | **Parental leave** | Daniel | **Parental leave → end-Nov 2026**, out of H2 planning; hears the reorg 1:1 on return. Entry → §Daniel's team |
 | Kim Toy | L15 | MLE | UPP foundational (loaned to Dhruvil) · CLR | Daniel | Loan wind-down = Dylan ask. Yan 8/3: solo on UPP, wants her continuing (⚠️ cross-current w/ wind-down). Daniel 8/3: experienced, opinionated on new things; Daniel 8/5: "seems worried." **James 8/5: prior working relationship — she worked search-stage CLR with Devin and the team; no intro framing needed, check-in register is right.** **Dhruvil 8/5 (⚠️ 1:1-only, never cite — her mentor):** didn't like working w/ Yan; curation "too 0 or 1"; EM+PM leads left not-on-great-terms → change fatigue, career-planning anxiety; **preferred work likely NOT the curation stack** → reorg plausibly great for her. Her own preference = the missing input for the allocation call — get it at the skip-level BEFORE settling wind-down mechanics. **Dhruvil promised to release her from the loan if it helps her career (James 8/5)** — wind-down pre-agreed in principle, conditional on her benefit. James on record to Dhruvil: big plans / deep-IC or TL both viable. **8/6 team meeting: asked two good questions live (one on specifics; the other not retained) — James's read: satisfied by his answers.** Skip-level stays her-voice-first. **8/11 (Kim 1:1 #1, via James): does NOT want 100% UPP, does NOT want a 100% modeling job — energized by solving problems for users; full-stack background. ⚠️ Does not like Daniel as manager (James, 8/11) → any placement keeping her on Daniel's line is off the table regardless of work fit; viable homes = a user-facing surface under Alim (IB/UEB-shaped) or a James-direct hybrid (partial-UPP + user-facing), NOT 100% UPP. **8/11 Daniel 1:1:** his candid read — team switches, ML technical depth missing, missing impact; UPP challenges in his framing = infra blocks depth, lacking support/org structure, lacking recognition (LRs, SSv2). Strengths: organize/TL an effort, detail + holistic thinking, sound deliverables over volume; YE2025 Exceeds (rallying), YE2024 and prior Met; Dhruvil very happy with her. ⚠️ **Discrepancy, open question (James's, unresolved):** she tells Daniel she's happy with his support but questioned support in James's 1:1 — James wonders about baseline-emotions vs. audience-calibrated accounts (his word: whether she's working him for more support). Both readings live; the **3-way (James+Daniel+Kim) before both leave same day** is the instrument that collapses it. Placement state: James leaning **Retentive Recs** for her; Daniel's counter — **Balaji might be the better RR/pUIC/IB fit**; Kim's James-direct option still shapeless ("what is there to be done on my team" — open). Alim asked to chat with her (get-to-know register). **8/12 (James, via Daniel): she almost didn't get her LRs — sharpens the recognition thread; James's diagnosis (Leo-confirmed): setup failure, not performance — fragmentation kills her narrative, foundation work is calibration-invisible, no advocate in the room. Designed answer: exploration-surface TL seat under Alim (user-facing, not RR), James as explicit calibration sponsor, honest H2-2027 L16 timeline — full path + 3-way script in `reorg_july2026/t2_team_setup_scenarios_2026-08-11.md` §Kim. Seat is offered as her choice at the 3-way, decision Fri 8/21** **8/13 (1:1 #2): she self-selected into RR proper — loves it, wants it, wants to start; supersedes the UEB-not-RR seat design. Careful not to claim TL (Chuxi-aware, her own instinct); main concern = no very-senior in-space person to learn from (James offered Olafur Gudmundsson, IC17, Dylan-direct). Landing: bulk RR + CLR-relevance help, no UPP bridge mentioned. IC16 narrative synthesized from 4 yrs of reviews (gaps: topline linkage, model-depth, central-domain repeat, assertive visibility, developing owners). Next: James pre-briefs Alim before the Alim↔Kim chat. Full record + verbatim transcript: §Kim Toy — Archive below (merged 8/17; was standalone `kim_toy_archive.md`)** **8/15 (scenario boards): Sc 1–3 seat her Alim/RR (explorative-pUIC spine); Sc 4 = James/UPP-focused (⚠ conflicts her 8/11 not-100%-UPP line — weakest seat, kept for board symmetry). Still her call — 3-way + decision Fri 8/21. **8/15 late: sequence fully on the calendar — Alim pre-briefed (done), Alim↔Kim chat Mon 8/17**** |
-| Yongwoo Noh | L15 | MLE | UGC Board Recs (w/ Felix) | Daniel | Filled 8/3 (Yan+Daniel 1:1s); recent UGC BR launch ~+300K WAU per Yan — unverified. **Initial 1:1 (held ~wk of 8/17, filed 8/19).** His account of scope: TL/owner of UGC Board Rec — user-generated boards recommended cross-surface; launched on closeup last year → HF module → recently Notifications; owns it near end-to-end (candidate generation, ranking model, filtering/business logic) leading Ling, Roderick + others ⟨two names garbled in dictation: "Apple", "Lakes"⟩ + client engineers. Prior: LinkedIn, Twitter ⟨possibly Google too — dictation garbled⟩, search/rec problems; **remote — Irvine, SoCal**. **What he values (his own list): ownership + control · less (organizational) ambiguity · end-to-end platform/problem over one slice · making impact** — loves board rec precisely for its end-to-end extensiveness. Career: recent quarters deliberately building leadership — scaling the project across more engineers, wants technical leadership at broader scope; **names the visibility problem himself**: board rec is isolated within the team, "not very highly visible or recognized"; actively hunting ways to influence other products with board-rec learnings/tech, "make the impact farther." On the reorg: glad about new opportunities, **open to deprioritizing recommended boards**; challenge = uncertainty; likes RB as "a very Pinteresty thing" but his own candid read: "right now it's not being consumed enough." Aligned with James's company-first framework, said so explicitly. Flagged his dual posture unprompted: as TL/owner he will pitch board rec if its metrics are questioned ("we don't have a lot of metrics… I'm just gonna try to convince you") while staying open-minded — self-aware advocacy, a TL-maturity datum consistent with Daniel's EE-trending read |
+| Yongwoo Noh | L15 | MLE | UGC Board Recs (w/ Felix) | Daniel | **UGC Board Recs TL/owner (RB stays Daniel, confirmed 8/21); remote Irvine.** Entry → §Daniel's team. Skip-level starts wk 8/31 (3w) |
 | **Nima** (was REQ-1) | L15 | MLE | CLR (on landing) | James | Granted ~7/11. **8/10: IC15 MLE role closed** — two finalists both won on James's team, James picked one. **8/15 (James): HIRED — Nima, starts Mon 9/8, will work out of CLR.** The "likely Nima seat" from the 8/11 boards confirmed; candidate for Alim's systems/pushback-TL senior seat if CLR lands on his leg at T2 |
 | Rui Wang | L14 | SWE | Reflex · L1 | James | **= "Ray"** in prior notes. Joined ~late June 2026. **8/15: at T2 he rides with LWS wherever it lands (Daniel in Sc 1/2/4, Alim in Sc 3) — never stays James-direct** |
 | Alok Malik | L14 | MLE | **Retentive Recs (primary)** · Reflex | **Alim (eff. w/o 8/3)** | RR is his own call; needed there as Yuke exits RR. **RESOLVED 7/31: goes to Alim with the announcement**; Reflex work matrixes back to James |
@@ -114,12 +116,13 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 | Hanlin Lu | L14 | MLE | RecGPT | James | — |
 | Chuxi Wang | L14 | MLE | Retentive Recs | **Alim (T1, wk of 8/3)** | Supported, unannounced TL ramp |
 | Lionel Bewa | L14 | SWE | — | **Alim (T1, wk of 8/3)** | **Joined 7/27**; Toronto; Charlie backfill |
-| Ling Lan | L14 | MLE | Retentive Recs · Intelligent Boards | Daniel | Chuxi's daily delivery partner. Daniel 8/3: junior-lens worry = whether she keeps working w/ him post-reorg. **Daniel 8/11: "Ling is not really working on IB"** — the 50/50 IB split in his own 1:1-doc sketch overstates it; her load is effectively RR-side |
-| Felix Yang | L14 | SWE | UGC Board Recs (w/ Yongwoo) | Daniel | Filled 8/3. Worry = continuity w/ Daniel post-reorg. **SENSITIVE — do not circulate (Daniel 8/3, shared for management support only): job-security anxiety, raised layoffs repeatedly; ex-Meta, green-card/PERM stability was a key reason for joining.** Very motivated; stability matters most. **Initial 1:1 (held ~wk of 8/17, filed 8/19) — trust established; ran partly in Mandarin.** His account: joined late July 2025 ex-Meta (~4 yrs), lives Mountain View; started on AutoCollage backend under Daniel ⟨dictated "AutoClutch"/"Auto Cloud" — resolved to AutoCollage⟩, recalls a late-Nov/Dec 2025 meeting w/ James+Daniel+JJ on AutoCollage candidate-generation ranking across surfaces; March re-arc → Board Rec backend w/ Ling + Roderick. On the Aug reorg: **surprised** (two re-arcs in ~5 months), expects board-rec scope may transfer away + unknown new projects incoming. When probed, named his three worries: **uncertainty · does prior experience transfer · layoffs** — first-hand confirmation of the 8/3 sensitivity note, raised directly to James. **James's answers on record:** (1) **layoffs — none**; reorg = consolidation not cost-cutting (Jeff-level dedup of parallel rec stacks — boards/HF/PDP/search/notifs each had one; UPP is that consolidation project); "what I know I can tell you: none." (2) **skills — very transferable**: he already works the three services (HF/Notifs/P2P) wiring UGC Board Recs candidates into them; James's org sits closest to the Unity↔ML serving boundary and is short exactly this talent; **projects deliberately not named yet** ("先别讲 project"). (3) uncertainty — Q3 projects frozen (Yan's ask, Dylan agreed), Q4 gradual case-by-case. Reframed change→opportunity: what interests you, how do you grow to next level. His state: **satisfied with current project** — board rec ≫ AutoCollage on impact (AutoCollage tiny impact/usage), real traffic across HF/notif/P2P, he + Yongwoo driving it, learning scope+complexity. Career: open by his own word; Meta-bred **metrics-driven mindset** — wants whatever project drives team metrics; his self-declared P0 framing = lift other-board-section metrics → WAU / SSv2. Closed with: "I feel you're a great manager who really wants to support me… you are trying your best to help me" |
+| Ling Lan | L14 | MLE | Retentive Recs · Intelligent Boards | Daniel | **RR-side in practice (Chuxi's delivery partner), IB on paper.** Entry → §Daniel's team. First skip-level Tue 8/25 1pm → 2w |
+| Felix Yang | L14 | SWE | UGC Board Recs (w/ Yongwoo) | Daniel | **UGC Board Recs backend w/ Yongwoo; SENSITIVE stability anxiety — see entry (do not circulate).** Entry → §Daniel's team. Skip-level starts wk 8/31 (3w) |
 | Yichi Wang | L13 | MLE | CLR | James | — |
 | Yidi Wang | L13 | MLE | Retentive Recs | **Alim (T1, wk of 8/3)** | Carrying most of model-based pUIC |
-| Esteban Zavala | L13 | SWE | UEB (w/ Roderick + Lionel) | Daniel | **Joined ~wk of 7/27**; remote — Texas. Surfaced by James 8/3 (not in prior roster). **8/15: assigned to the UEB workstream — moves with UEB to Alim on all four scenario boards (another line leaving Daniel; fold into the "UEB consolidates with its people" framing)** |
-| **REQ-2 (open)** | L13 | MLE | — | James | Granted ~7/11; unallocated |
+| Esteban Zavala | L13 | SWE | UEB (w/ Roderick + Lionel) | Daniel | **UEB w/ Roderick + Lionel; joined ~7/27, remote Texas; moves w/ UEB to Alim.** 🔒 family context in entry. Entry → §Daniel's team. First 1:1 held (filed 8/23); 3w series |
+| Yiping Wang | L13 | MLE | Recommended Boards (Collection P13N) → UPP+CLR pool as its 7th ~9/14 | Daniel | **Starts Mon 8/24 (Toronto); RB ramp → UPP+CLR pool as its 7th ~9/14 (8/21c).** Entry → §Daniel's team. First 1:1 w/ James Mon 8/24 12:30 |
+| **REQ-2 (open)** | L13 | MLE | — | James | Granted ~7/11; unallocated. **The 28th IC seat (James, 8/24) — not yet hired**; stays in the count so the headcount foots |
 
 *Not in the 27: Rita Lyu (intern, Daniel's team, ~2 months left). Departed/exiting: Sophia, David, Charlie.*
 
@@ -128,7 +131,110 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 
 ---
 
+### Roster currency audit (2026-08-24 — James asked "is all the context current?")
+
+> How to read: **Entry** = where the narrative lives · **Last dated** = newest dated fact in that entry · ✅ current (≥8/15 and reflects the 8/21 T2 settle) · ⚠️ stale/thin (older than 8/15, or roster-row-only, or no 1:1 read) · ❌ nothing on file. **Refresh** = what James dictates to close it. Daniel's ICs now have entries (§Daniel's team, added 8/24 at James's ask) — narrative moved out of the roster-row Notes cells; rows keep one-line pointers.
+
+| Person | Reports to | Entry | Last dated | Status | Refresh |
+|---|---|---|---|---|---|
+| Daniel Liu (EM) | James | `daniel_liu_archive.md` | 8/21 | ✅ | PTO 8/24–9/11; re-entry seed on file |
+| Alim Virani (EM) | James | `alim_virani_archive.md` + §Tier 1 | 8/22 | ✅ | ratify the 8/22 role design by wk 8/31 |
+| Piyush Maheshwari | James | §Tier 1 | 8/19 | ✅ (8 lines — thin for a TL) | growth/next-level read |
+| Bella Huang | James | §Tier 1 | 8/22 | ✅ | one-pager landing; China 8/27 |
+| Devin Kreuzer | James | §Tier 1 (refreshed 8/24 from decisions) | 8/23 | ⚠️ no 1:1 read since Q2 | how he's taking CLR→Alim; TL growth |
+| Ryan Kam | James | §Recently joined (refreshed 8/24) | 8/23 | ⚠️ no read since 7/15 | perf/growth read; the step-down message |
+| J.J. Hu | James | §Tier 1 | 8/13 | ✅ | IC16 effective date when it lands |
+| Yali Bian | James | §Tier 2 + `upp/l1_flashpoint_2026-08.md` | 8/2 (narrative) / 8/22 (flashpoint) | ⚠️ narrative predates the L1 flashpoint | one paragraph on where she is post-8/21 |
+| Hedi Xia | James | §Tier 2 + flashpoint file | 8/2 / 8/22 | ⚠️ same | CFM handoff outcome (Tue/Wed) |
+| Yuke Yan | James | §Tier 1 | 8/22 | ✅ | peer validation (quiet) |
+| Zihao Chen | James | §Tier 2 (weekly; cadence fixed 8/24) | 8/1 | ⚠️ | current read — 3+ wks silent |
+| Nima Sheikholeslami | James → CLR owner | §Incoming (created 8/24) | 8/23 | ⚠️ thin | why hired, what promised, ramp buddy |
+| Rui Wang | James | §Recently joined (refreshed 8/24) | 8/23 | ⚠️ no 1:1 ever held | book slot; first read |
+| Zili Li | James | §Tier 3 | 8/18 | ✅ (case) | PIP launch on 9/3 return |
+| Hanlin Lu | James | §Tier 3 (biweekly; cadence fixed 8/24) | 8/2 | ⚠️ | current read |
+| Yichi Wang | James | §Tier 2 (created 8/24) | — | ❌ zero intel anywhere | **one dictated paragraph — top gap** |
+| REQ-2 (open) | James | roster row | 7/11 | open seat | hiring status? profile? |
+| Alok Malik | Alim | §Tier 1 | 8/23 | ✅ | the announced step-down |
+| Chuxi Wang | Alim | §Tier 1 + `retentive_recs.md` | 8/17 / 8/22 | ✅ | — |
+| Lionel Bewa | Alim | §Incoming | 7/27 | ⚠️ one month in, no read | how the founding-member ramp went |
+| Yidi Wang | Alim | §Tier 2 + `retentive_recs.md` | 8/2 / 8/22 | ⚠️ narrative stale (design work current) | — |
+| Balaji Rengarajan | Daniel | §Daniel's team | 8/11 | ⚠️ no first-hand read | first 2w 1:1 Tue 8/25 |
+| Roderick Gao | Daniel | §Daniel's team (+8/19 Daniel-sourced claim) | 8/10 | ⚠️ | **UEB lead — moves w/ UEB to Alim in every scenario; contested (Daniel wants to keep him).** Entry → §Daniel's team. Choice convo Tue 8/25 1:30 |
+| Yang Liu | Daniel | §Daniel's team | 8/10 | ✅ (leave to end-Nov) | **Parental leave → end-Nov 2026**, out of H2 planning; hears the reorg 1:1 on return. Entry → §Daniel's team |
+| Kim Toy | Daniel | §Kim Toy archive | 8/21 | ✅ | decision by 9/11 |
+| Yongwoo Noh | Daniel | §Daniel's team | 8/19 | ⚠️ | **UGC Board Recs TL/owner (RB stays Daniel, confirmed 8/21); remote Irvine.** Entry → §Daniel's team. Skip-level starts wk 8/31 (3w) |
+| Ling Lan | Daniel | §Daniel's team | 8/11 | ⚠️ | **RR-side in practice (Chuxi's delivery partner), IB on paper.** Entry → §Daniel's team. First skip-level Tue 8/25 1pm → 2w |
+| Felix Yang | Daniel | §Daniel's team | 8/19 | ⚠️ | **UGC Board Recs backend w/ Yongwoo; SENSITIVE stability anxiety — see entry (do not circulate).** Entry → §Daniel's team. Skip-level starts wk 8/31 (3w) |
+| Esteban Zavala | Daniel | §Daniel's team | 8/23 | ✅ | **UEB w/ Roderick + Lionel; joined ~7/27, remote Texas; moves w/ UEB to Alim.** 🔒 family context in entry. Entry → §Daniel's team. First 1:1 held (filed 8/23); 3w series |
+| Yiping Wang | Daniel | §Daniel's team (moved from §Incoming 8/24) | 8/19 | ✅ | **Starts Mon 8/24 (Toronto); RB ramp → UPP+CLR pool as its 7th ~9/14 (8/21c).** Entry → §Daniel's team. First 1:1 w/ James Mon 8/24 12:30 |
+
+**Housekeeping flagged, not done:** David / Sophia / Charlie still sit as sections inside the live tiers — move to `archive/`. The tier headings themselves are now advisory (cadence authority = the table below).
+
+## 1:1 cadence & pre-announcement runway (added 2026-08-23)
+
+> James 8/23: **the team starts hearing who their new manager is before end of Sept** (T2 effective date unchanged, ~Nov). This section is the standing record of how often each person meets James + the calendar plan for 8/24 → 9/28.
+>
+> **The cadence model (James, 8/23): three periods, then done.** (1) **Now**, (2) **T1 through end of Sept**, (3) **steady state from Oct onward** — the steady-state column is final; T2 in Nov does NOT change cadences again. Being ratified person-by-person in-session 8/23; ⟨angle brackets⟩ = Leo-proposed, not yet James-ratified. Slot times pulled from the tier entries below; tier *placement* is stale in spots (Yuke biweekly since 7/31; Yichi + Ryan already biweekly though no tier entry exists; Zihao is weekly, not Tier-2 biweekly; Alok/Chuxi/Yidi are Alim's since T1 8/3). **⚠️ 8/23 late: calendar screenshots showed the tier-entry slot *times* are stale too** (real: Chuxi Mon 10:30, JJ Mon 2pm, Yali Mon 3:30 [W], Bella Mon/Thu 4pm, Zili [W] Fri 10am during the PIP period) — **the calendar is the source of truth for times; this table is the source of truth for cadence.** Full decode, time budget, duration policy (3w = 30m; low-stakes 2w = 20m), the 2-interviews/wk cap, and the Thu-sprint block proposal: `work/calendar_time_budget_2026-09.md`.
+
+### Cadence — the three periods (RATIFIED person-by-person, 8/23)
+
+**Every row James-ratified in the 8/23 walk-through** (one at a time, suggestions-then-decision) · W = weekly, 2w = biweekly, 3w = every three weeks.
+
+| Person | Now | T1 → end Sept | Steady (Oct →, final) | Slot / notes |
+|---|---|---|---|---|
+| **Alim** | **W** | **W** | **W** | + three-EM staff; **role-design ratification (8/22 draft) wk 8/31 at latest** — he receives most movers |
+| **Daniel** | **W** | **W** | **W** | + three-EM staff; **PTO 8/24–9/11** — unless the Fri 8/21 trio settled the T2 shape, finalization waits for wk 9/14, which is what makes the end-of-Sept comms date real |
+| **Piyush** | **W** | **W** | **W** | Tue 3:00pm |
+| **Zihao** | **W** | **W** | **W** | Mon 3:30pm — was mis-filed Tier-2 biweekly; corrected 8/23 |
+| **Bella** | **W** | **W** | **W** | Mon 10:30am; China 8/27–~9/8; **"the charter moves, you stay"** from James before the team hears anything; one-pager landing |
+| **JJ** | **W** | **W** | **W** | Tue 4:00pm; deliver IC16 effective date when it lands |
+| **Devin** | **W** | **W** | **2w** | Tue 3:30pm; CLR+UPP=7 runs through him — the one mover whose topics stay structurally James's. Steady state revised 8/23 later in-session (supersedes the earlier "→monthly") |
+| **Yuke** | **2w** | **2w** | **2w** | Thu 2:00pm (biweekly since 7/31 — Tier-1 listing stale); **most sensitive handoff**: gentleman's agreement + détente + pre-armed PIP transfer to no one by default — design what moves vs. stays James *before* his convo |
+| **Chuxi** | **W** (45m) | **W** — trim 45m→30m from ~wk 9/7 | **2w** | Wed 4:30pm; line is Alim's — 2w = the sponsorship cadence (7/07 "sponsor no matter what" + TL ramp); weekly holds through the announcement (James 8/23) |
+| **Kim** | **ad hoc** (placement) | **2w** from landing (~9/11) | **2w** | calibration-sponsor commitment + the org's most fragile landing; RR-vs-CLR decision by 9/11 *is* her announcement convo — standing slot starts right after, making the sponsorship visible day one |
+| **Yichi** | **2w** | **2w** | **3w** | already biweekly (no slot was on file — recorded 8/23); moves w/ CLR |
+| **Ryan** | **W → 2w** | **2w** | **3w** | stepping down now (James 8/23: few topics at weekly); moves w/ CLR |
+| **Nima** | — starts **Mon 9/8** | **3w** from 9/8 | **3w** | James 8/23; ⚠️ new-hire optics — hired by James into CLR, manager likely changes within ~2 months; his convo needs the most careful framing |
+| **Yali** | **W** (file's alt-Thu biweekly note was stale — corrected 8/23) | **2w** | **2w** | **OOO 8/31–9/18** — pre-OOO touch ≤8/28 (packet ≤8/29), first-week-back touch ~9/22–24 so the announcement doesn't reach her cold |
+| **Hedi** | **2w** | **2w** | **3w** — standing trigger: promote to 2w if the CFM decision-experiment becomes a real ownership bet | Thu 3:00pm; CFM handoff Tue/Wed 8/25–26; natural extra touches while Yali's out |
+| **Rui** | **none** (confirmed 8/23) — book the slot this week | **2w** | **3w** | rides w/ LWS in every scenario |
+| **Hanlin** | **2w** (file's "monthly" was stale — corrected 8/23) | **2w** | **3w** | Wed 4:00pm; moves w/ RecGPT charter |
+| **Alok** | **W → 2w** within ~2 wks — **announce the step-down, don't drift** (the 8/23 needy-ping lesson: an unexplained skip triggers escalation; framed as structure — "Alim's your day-to-day" — it's policy, not rejection) | **2w** | **3w** | Thu 2:30pm; "closer eye" moves to instrumentation, not face time: standing Alok line item in the weekly Alim 1:1 + Chuxi's 2w as the friction sensor. If underdelivery is real, the lane is Alim setting written expectations (line manager owns the case — the Yuke lesson). **Protect Chuxi in the Alok↔Chuxi friction** — her ramp outranks his comfort (James, 8/23) |
+| **Yidi** | **2w** | **2w** | **3w** | Wed 4:00pm; Alim's line, Chuxi her TL — James's read rides the RR design work |
+| Zili | monthly / case-driven | case mechanics (PTO to 9/3; PIP/severance launch) | — resolves with the case | Tue 1:30pm; stays James throughout — no announcement applies |
+
+**The steady-state biweekly list (ratified 8/23):** Devin, Yuke, Chuxi, Kim, Yali, Balaji — people where James personally owns something that can't wait three weeks (a live case, a sponsorship promise, a kept-scope boundary, the org's highest-obligation engine TL) **plus the L16 floor: no senior IC sits below biweekly (James, 8/23)**.
+
+**Load check (final, all groups incl. Daniel's team):** steady state = 6 weekly + 6 biweekly + 14 at 3w ≈ **13–14 1:1s/wk (~7 hrs)**. T1 (Sept) runs hotter — ~15–16/wk on paper, partly offset by the Daniel/Yali/Bella OOOs. The flex lever if too heavy is the 3w group (→ monthly), never the biweekly list.
+
+**Daniel's team (skip-levels — per-person tactical starts, all ratified 8/23; James's rule for this group: name the *start date*, he's already adding a lot of load):**
+
+| Person | Start | T1 → end Sept | Steady (Oct →) | Notes |
+|---|---|---|---|---|
+| **Roderick** | **1:1 wk of 8/24** — the choice conversation: his own voice on UEB, vs. Daniel's 8/19 secondhand "off UEB post-Q3, stays Daniel" claim (collides w/ James's 8/10 "deepest priority = UEB" commitment) | **2w** | **3w** | first skip-level 8/10 done; moves w/ UEB to Alim in every scenario |
+| **Esteban** | first 1:1 **DONE** (held ⟨recently — date not dictated⟩; Leo's "never held" flag was stale — corrected 8/23; notes filed in his roster row) | **3w** | **3w** | moves w/ UEB to Alim; remote (Texas) |
+| **Balaji** | **start wk of 8/24** | **2w** | **2w** | stays Daniel; IB sprint 100% his. **James's principle (8/23): no 3w with an L16 — seniority floors the cadence at biweekly** |
+| **Yongwoo** | **start wk of 8/31** (coverage touch during Daniel's PTO; he self-named the visibility hunger — org-lead contact is the ask) | **3w** | **3w** | stays Daniel; initial 1:1 done wk 8/17; remote (Irvine) |
+| **Felix** | **start wk of 8/31** | **3w** | **3w** | stays Daniel; initial 1:1 done wk 8/17; **"no layoffs" answer must be re-said at announcement** (named anxiety) |
+| **Ling** | **start wk of 8/24** | **2w** | **3w** | stays Daniel; first skip-level = the start; junior-lens continuity worry (keeps working w/ Chuxi?) is the standing topic |
+| **Yiping** | **first 1:1 wk of 8/24** — her week-1 James meet (the 8/19 joint decision), day-1 arrival same week | **2w** | **3w** | lands on RB ramp (Daniel), then → UPP+CLR pool as its 7th ~9/14 (8/21c ruling) — her steady-state manager = whoever owns CLR; ⟨"Yuting" in 8/23 dictation = Yiping⟩ |
+| Yang | on leave to end-Nov | — | joins on return | hears the news 1:1 on return, never by email |
+| Rita (intern) | — | wrap-up + final review land ~early Oct, colliding w/ announcement — confirm Daniel has it covered before his PTO Mon 8/24 | — | — |
+
+### The runway (week-by-week, 8/24 → 9/28)
+
+- **Wk 8/24** — front-load the OOO-bound + the new starts: Dylan Mon 1:1 (pre-read sent 8/22). Bella Mon 10:30 = last before China. Hedi CFM handoff Tue/Wed. Yali pre-OOO touch + packet ≤8/29. **New this week: Roderick choice convo · Balaji first 2w · Ling first skip-level · Yiping first 1:1 (day-1 arrival) · book Rui's slot · Ryan steps W→2w · Alok step-down announced.** Normal weeklies otherwise.
+- **Wk 8/31** — quiet week (Daniel + Yali + Bella all out). Use it: **Alim role-design ratification**; Kim pre-decision check-in; Zili PIP launch on her 9/3 return. *(8/23 updates: Hanlin already 2w — no extra needed; Esteban first 1:1 already held.)*
+- **Wk 9/7** — **Nima day 1 (Mon 9/8)** + weekly slot starts. Bella re-entry ~9/8 (family-emergency aftercare before any business). **Kim decision by Fri 9/11.**
+- **Wk 9/14** — Daniel back: **trio finalizes T2 structure + per-person comms order; Dylan sign-off.** Yali back 9/18.
+- **Wk 9/21** — **pre-announcement 1:1s, movers first — every mover hears it face-to-face before any email** (the 8/5 lesson: Roderick and Felix both learned of the reorg from the email and called it a surprise). ⟨Order: Devin → Yuke (handoff design ready) → Kim (landing confirm) → Hedi / Rui / Ryan / Yichi / Hanlin → Yali (just back 9/18) → Nima (care framing) → Roderick + Esteban (with Daniel).⟩
+- **Wk 9/28** — announcement lands; Alim/Daniel welcome 1:1s begin; from Oct 1 every line runs on the **Steady** column above — final, no T2 ripple.
+
+---
+
 ## Tier 1 — Weekly 1:1s
+
+> **Cadence authority is §1:1 cadence table (8/23), not these tier headings** — the tiers are the pre-8/23 grouping and are kept for the narrative entries. Known placement mismatches (8/23): **Yuke** is biweekly (since 7/31) though filed here; **Zihao** is weekly though filed in Tier 2; **Hanlin** is biweekly though filed in Tier 3; **Yali** is weekly now → biweekly from T1; **Ryan/Alok** step W→2w now.
 
 ### Alim Virani (M16, ML Engineering Manager II — Retrieval Modeling, T1) — STARTED 7/27/2026
 
@@ -149,6 +255,7 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 - **Context:** Just came back from OOO. Already engaging on UPP. First 1:1 with James is Monday. Holds full retrieval architecture context post-Bowen.
 - **Growth:** Building toward senior TL scope. UPP cross-surface expansion is his proving ground.
 - **2026-08-19 — Dylan on record (H1-review 1:1):** *"someone who can be in the room when I am not, someone who can scale my judgment — Piyush is doing a good job here; beyond him, no one else."* She named him the team's only current room-grade judgment-scaler. Promo ammo for the IC17 case alongside Matt Chun's H1 peer line ("meaningful opportunities to grow their leadership skills and play key roles in the UPP effort") — file both together when the case is written.
+- **2026-08-24 — P2P launch push + the understaffing point:** carried the Sai/Matt group DM at the technical layer all day (efficiency plan, offline-eval flag, sequencing question); James put him on the two ship-critical items (snapshot-release section + efficiency list/ETAs by Wed 8/26) and told him the escalation doc stays James/Matt/Piyush. **His own read, unprompted: "we need to form a virtual team across all surface teams to handle the operation work for UPP… at least get some funding from the surface teams"** — the UPP understaffing thread James is working with Dylan/Dhruvil. UPPv2 Retrieval presentation status chased twice (9:00, 4:07), still owed. 1:1 moved to Tue (PA). Full thread: `work/projects/upp/upp_retrieval_em.md` 8/24.
 
 ### Bella Huang (TL, RecGPT)
 - **Role:** Tech lead for RecGPT / generative retrieval with ATG
@@ -173,6 +280,7 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 - **1:1:** Tue 3:30pm
 - **Context:** Sole deep CLR model expert currently. Ryan (April) provides coverage. Asked for strong collaborators. Watch for flight risk in 2-3 week gap before Ryan arrives.
 - **Growth:** Leadership visibility. Q2 goal: Devin's leadership is visible in CLR improvements.
+- **2026-08-21/23 update:** the **UPP+CLR = 7 pool is a James/Devin agreement** (Piyush, Zihao, Devin, Yichi, Ryan, Nima, Yiping ~9/14; Piyush+Zihao stay James, the rest report to the CLR owner) — **CLR → Alim settled 8/21** (`reorg_july2026/t2_decision_ledger.md`), so Devin is a mover. Cadence (8/23): weekly through Sept → **biweekly** steady state — "the one mover whose topics stay structurally James's" (CLR+UPP=7 runs through him). **First in the pre-announcement 1:1 order** (wk 9/21). Chuxi+Devin's first LFU gains (unstable, disciplined revert/restart) filed in `retentive_recs.md` §Aug 2026 (8/22). *The flight-risk / "Ryan arrives" context above is April-vintage — superseded.*
 
 ### JJ (TL, Real-Time + Pinvestigator)
 - **Role:** Real-Time systems + L1 Utility (absorbing from David in April) + Pinvestigator collaboration
@@ -184,7 +292,7 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 - **Risk:** ~~If promo doesn't land + Bowen departure + AI market = potent combination for JJ to look. Have contingency conversation ready.~~ **RESOLVED 8/4: IC16 promo officially approved** (effective date TBC). The retention scenario this guarded against didn't materialize; H1 feedback draft v2 (8/4) frames the promotion as the floor of the new bar.
 - **Single point of failure:** Essentially solo on Real-Time. No coverage if he left.
 
-### Yuke (TL → IC transition in progress)
+### Yuke (TL → IC transition in progress) — cadence: BIWEEKLY Thu 2:00pm since 7/31 (Tier-1 listing stale; corrected 8/23)
 - **Role:** Tech lead for Retentive Recs / p(UIC) — **TL role ending; stepping to IC**
 - **Workstream:** Retentive Recs
 - **1:1:** Thu 2:00pm
@@ -234,16 +342,16 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 
 ## Tier 2 — Biweekly 1:1s
 
-### Zihao Chen (L15, MLE)
+### Zihao Chen (L15, MLE) — cadence: WEEKLY (mis-filed here; corrected 8/23)
 - **Workstream:** UPP (feature alignment, surface documentation), Content Exploration (~50%)
-- **1:1:** Mon 3:30pm
+- **1:1:** Mon 3:30pm **weekly** (all three periods per the 8/23 cadence table; stays James at T2 — UPP+CLR pool, Piyush+Zihao stay James)
 - **Context:** Transitioning deeper into UPP architecture. Accelerate understanding by pairing with Piyush.
 - **Growth:** Demonstrate basic project leadership on Content Exploration.
 - ~~**2026-07-15 — the contested one.**~~ **SUPERSEDED 2026-08-01/02.** Zihao is **UPP full-time and was never on Retentive Recs** (work-leo delta correction); Alim's day-1 pod is Chuxi / Yidi / Alok / Lionel with **no L15 or above**. The move that this entry called unresolved never happened, so the UPP hedge stays intact under James. Kept for provenance: at **L15**, Zihao was at one point slated as the *only* senior IC in Alim's pod. He is also the **UPP succession hedge against Piyush** (see Single Points of Failure below). Moving him to Alim puts the UPP hedge inside another EM's pod, pointed at a charter (exploration) that pulls him away from UPP. Alim's first-sync agenda already carries the mitigation ("coordinate with Piyush before pulling him fully into exploration") — i.e. a hedge against a problem the move creates. **Unresolved.**
 
 ### Yali Bian (L15, MLE — LWS de facto owner / TL)
 - **Workstream:** LWS + L1 Utility (de facto owner and TL) · **SM/SL retrieval-side co-owner**
-- **1:1:** Thu 3:00pm (alternating with Hedi)
+- **1:1:** Mon 3:30pm **weekly** (the "alt-Thu with Hedi" note was stale — corrected 8/23) → 2w from T1; **OOO 8/31–9/18** — pre-OOO touch ≤8/28. LWS → Daniel at T2 (settled 8/21)
 - **Context:** Give recognition. Consider one bounded project outside LWS to build range.
 - **2026-08-02 — H1 record (from James's own v2 draft; the entry was 3 lines before this).** Verdict: **trending above IC15 MLE expectations — the strongest verdict in the H1 cycle.** Eight LRs delivering SSv2 +0.31 and SSv2-proxy +0.875; two foundational launches onboarding candidate generators to LWS (coverage toward ~80%, ~$67K cost savings); productionized LWS **GPU serving and migrated 100% of traffic**, resolving multiple SEVs — stable 3+ months with no GPU incident; **re-architected the LWS data/training pipelines, cutting training time from 40+ hours to ~7**. Peers: "strong ownership and independence," "clear communication and documentation."
 - **2026-08-02 — SM/SL is the H2 test.** Named **retrieval-side co-owner with Raymond Hsu** (front end) — a true co-ownership seat, no primary/secondary — chosen by James with **strong endorsement from leadership across the org**. SM/SL is one of **Jeff's three stated priorities** ("for Bill Ready") and carries the highest visibility any IC on the team touches. ⚠️ **The success-criteria conversation with Dylan is still owed** (carried follow-up #7) — until it lands, accountability exists without an agreed definition of success.
@@ -270,6 +378,11 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 - **Reports to Alim from announcement week.**
 - **2026-06-24 update.** Flagged to James (unprompted) that Yuke has been less engaged and she's been carrying most of the model-based pUIC implementation. Zelun (ATG) is the cross-team collaborator on this work. James asked her to add him to Slack threads with Yuke and Zelun — she agreed but wants their permission first. Strong signal of good judgment and communication; James gave her explicit positive feedback on communication dimension (significant improvement, lots of posting). Yidi also confirmed that Chuxi has been involved in pUIC and knows the serving challenges.
 
+### Yichi Wang (L13, MLE — CLR) — added 8/24: the only direct with zero notes on file
+- **Workstream:** CLR (in the UPP+CLR=7 pool; moves with CLR → Alim at T2, settled 8/21)
+- **1:1:** biweekly already (recorded 8/23 — no slot was on file; the calendar shows a [2W] Yichi Thu) → 3w from Oct
+- **Context:** cited as CLR "bench gravity" (with Devin/Nima) in the 8/16 CLR-vs-RecGPT decision. **No 1:1 intel, growth read, or perf context exists anywhere in the repo** — first refresh = James dictates one paragraph (role on CLR, level trajectory, how he's doing, anything the announcement convo needs).
+
 ### David — DEPARTED
 - **Status:** Gone (departed ~April–June 2026; negotiated a 2-month extension to his vesting cliff). Not on the 7/15 roster of 26. Cited alongside Sophia as churn context in the H1 self-review.
 - **Former workstream:** L1 Utility — transferred to JJ, with Rui Wang now the operational owner underneath.
@@ -278,9 +391,9 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 
 ## Tier 3 — Monthly 1:1s
 
-### Hanlin Lu (L14, MLE — RecGPT)
+### Hanlin Lu (L14, MLE — RecGPT) — cadence: BIWEEKLY (the "monthly" here was stale; corrected 8/23)
 - **Workstream:** RecGPT / GenRet · Multi-Embedding
-- **1:1:** Wed 4:00pm monthly
+- **1:1:** Wed 4:00pm **biweekly** → 3w from Oct; moves with the RecGPT charter to Alim at T2
 - **Performance:** ~~Hard mid-April checkpoint; if not shipping, moves to LWS.~~ **Resolved — H1 came in strong.**
 - **2026-08-02 — H1 record (from James's own draft).** *"Congratulations on a strong first half… I'm happy with your performance."* Primary contributor to the **official HF-RecGPT CG launch**; led the diversity improvement via Gaussian noise; drove the **candidate-budget expansion transferring 150 sizers from Multi-Embedding to HF-RecGPT** (high ROI for a focused change); owned the **RecGPT ANN serving migration from Faiss to Manas (~$60K savings)**; collaborated on moving sequence serving onto UserEventsView. Led UOE and Decoupled Entity Representation on Multi-Embedding, and stepped up through the **HF Multi-Embedding GPU Serving rollout** to completion. Presented at **ML Symposium 2026** on productionizing generative retrieval.
 - **The Manas migration is the growth story:** end-to-end ownership was the 2025 development area, and H1 showed clear improvement — worked through serving details, followed up proactively, documented, and carried it to conclusion. Peers: "takes the time to understand what is happening end-to-end rather than only looking at surface-level symptoms."
@@ -465,6 +578,65 @@ That would turn a strong emerging IC16 case into a durable one.
 
 ---
 
+## Daniel's team — per-person entries (added 2026-08-24)
+
+> James asked (8/24) for Daniel's ICs to get real entries instead of living in roster-row Notes cells. Narrative moved here verbatim from the rows (dated as originally filed); rows keep a one-line pointer. Reporting line today = **Daniel** for all nine (PTO 8/24–9/11 — James covers: skip-levels per the 8/23 cadence table). **T2 destinations** per `reorg_july2026/t2_decision_ledger.md` (8/21): RB/Collection P13N + LWS → Daniel; UEB → Alim; IB → ~Oct gains-origin gate. Skip-level rule for this group (James, 8/23): name the *start date* — he's already adding a lot of load.
+
+### Balaji Rengarajan (he/him) — L16, MLE — Intelligent Boards TL
+- **Workstream:** Intelligent Boards — IB sprint = **100% his through conclusion** (Andrew-funded bet; ~Oct gains-origin gate decides whether IB carries forward and which EM's LLM lane it attaches to — Balaji + Ling travel as one group; his L16 line move would need **Dylan sign-off**)
+- **T2:** stays Daniel in every scenario; Daniel volunteered him as a step-up candidate (7/29, bandwidth-flagged) and as "maybe the better RR/pUIC/IB fit" vs Kim (8/11)
+- **1:1 w/ James:** standing **2w** 30m from wk 8/24 (Tue 8/25 3pm on the calendar, make it recurring) — **L16 floor: no senior IC below biweekly** (James, 8/23); Alim connection set 8/7 (`alim_virani_archive.md`)
+- **Notes (as filed):** Daniel 8/3: ~1 yr in, steady ramp; watch via seniority/level lens (top-level IC on his team); his ICs want scope/growth clarity. **Daniel 8/11: very solid backend + good ML expertise, very strong product sense, not that deep in modeling — "might be a good fit for Retentive Recs / pUIC / IB."** IB sprint = 100% his through conclusion. James 8/11: likely stays on Daniel's team → offer him things that travel with that team; Alim asked to chat with him (get-to-know register)
+- **Open:** no first-hand read from James yet — the 8/25 1:1 is the first; growth/scope clarity is what Daniel says his ICs want.
+
+### Roderick Gao — L15, SWE — Unified Explore Backend lead
+- **Workstream:** 8/10 (w/ Lionel + Esteban; Ling named as his platform-build partner)
+- **T2:** **moves with UEB to Alim in every scenario** — but *contested*: Daniel wants to keep him (all three of his 8/19 scenarios) and reported an "off UEB post-Q3, stays Daniel's line" preference that is **Daniel-sourced and uncorroborated**; it collides with James's 8/10 word ("your deepest priority will always be UEB"). **Roderick → Daniel is arithmetically blocked** (cap 13) unless something displaces. Needs **his own voice** before any board relies on it.
+- **1:1 w/ James:** first skip-level 8/10 done; **Tue 8/25 1:30 = the choice conversation** → recurring 2w 30m → 3w from Oct. Named buddy for Lionel as the org settles.
+- **Notes (8/10 skip-level, as filed):** Tue 8/25 choice convo → section
+
+### Yang Liu — L15, MLE — parental leave
+- **Status:** nothing until return
+- **T2:** a free variable, not a promise (`p13n_retrieval_split.md` §"Roderick + Yang are free variables", corrected 8/2) — a returning senior is the cheapest way to seed a charter with weight; the ramp *is* the placement decision. Hears the reorg **1:1 on return, never by email** (8/23).
+
+### Kim Toy — L15, MLE — see §Kim Toy — Archive (merged 8/17)
+- Placement in flight: RR vs CLR, **her choice, decides by Fri 9/11**; standing 2w 1:1 starts right after (the sponsorship visible day one). Roster row keeps the full 8/3–8/15 trail; the archive below has 8/13 onward + the IC16 narrative.
+
+### Yongwoo Noh — L15, MLE — UGC Board Recs TL/owner
+- **Workstream:** 8/19 · RB / Collection P13N **stays Daniel (confirmed 8/21)**; RB coverage DRI during Daniel's PTO (presumed Yiping's day-1 owner — confirm)
+- **Pre-1:1 placement read:** recorded literally as "Not sure" in the split doc — "highest-variance asset in the org"; Daniel's EE-trending trio = Yongwoo, Ling, Roderick (each holds a program's accountable seat)
+- **1:1 w/ James:** initial 1:1 done wk 8/17; **start wk 8/31** (coverage touch — he self-named the visibility hunger; org-lead contact is the ask) → 3w 30m
+- **Notes (initial 1:1, as filed 8/19):** section at wk 8/31 touch
+
+### Ling Lan — L14, MLE — Retentive Recs (in practice) · Intelligent Boards (on paper)
+- **Workstream:** 8/11 — Chuxi's daily delivery partner; Daniel 8/11: "Ling is not really working on IB"
+- **T2:** travels with Balaji as one group on the IB question; junior-lens continuity worry = does she keep working with Chuxi/Daniel post-reorg (the standing topic)
+- **Daniel's read (8/7 skip-level calibration, `daniel_liu_archive.md`):** MLE II, first job, **emphatic Daniel superfan** — "very lucky to have him… more like a friend," mentor-grade; concrete AI-first evidence: she initiated the Pin tools now used team-wide, prototypes AI fixes in others' projects (the Ling datapoint is the specific, behavioral one in the develop-or-document ledger)
+- **1:1 w/ James:** **first skip-level Tue 8/25 1pm** (on the calendar) → recurring 2w 30m through Sept → 3w Oct
+- **Notes (as filed):** Tue 8/25 first skip-level → section
+
+### Felix Yang — L14, SWE — UGC Board Recs backend
+- **Workstream:** 8/19; RB stays Daniel (8/21)
+- **1:1 w/ James:** initial 1:1 done wk 8/17; **start wk 8/31** → 3w 30m. **At the announcement, the "no layoffs" answer must be re-said** (named anxiety, 8/23).
+- **Notes (as filed 8/3 + initial 1:1 8/19):** section at wk 8/31 touch
+
+### Esteban Zavala — L13, SWE — UEB
+- **Workstream:** 8/23; **moves with UEB to Alim** on every board ("UEB consolidates with its people")
+- **1:1 w/ James:** first 1:1 **held** (filed 8/23; Leo's "never held" flag was stale) → **3w 30m recurring** from wk 8/31 (no series on the calendar yet)
+- **Notes (first 1:1, as filed 8/23):** section (content exists, wrong container)
+
+### Yiping Wang — L13, MLE — Recommended Boards → UPP+CLR pool (~9/14)
+> Added 2026-08-11, from the Daniel 1:1 — headcount not previously accounted for anywhere in the repo.
+- **Start date:** **Mon 8/24/2026** — **Daniel's first day OOO** (out 8/21–9/11)
+- **Location:** Toronto (third new Toronto arrival in 6 weeks: Lionel 7/27 → Yiping 8/24 → Nima S. 9/7)
+- **Team / workstream:** Daniel's team — **Recommended Boards (Collection P13N)**
+- **⚠️ Onboarding collides with the PTO window:** her manager is dark for her entire first three weeks. Week-1–3 design must be closed by 8/20 and named in Daniel's coverage map: day-1 owner (Yongwoo is the Collection P13N coverage DRI — confirm he's also her onboarding owner), buddy, starter task, and whether James runs Lionel-style 30/60/90 skip check-ins. Her arrival belongs in Daniel's 8/19–20 team-meeting cascade alongside the coverage announcement.
+- **Note:** Daniel's 8/11 1:1-doc sketch had "+1 (new hire)" penciled under Collection P13N — James read that as Esteban (IC13-3); an incoming Collection P13N new hire makes Yiping the other plausible referent. Not relitigated, just flagged.
+- **2026-08-19 — landing decided (James+Daniel joint decision, no-blame framing):** she **ramps on Recommended Boards first** — a promise existed that she'd work on boards ⟨to Yan, or to Yiping in recruiting; dictated "Yuna"⟩ and plans shouldn't flip on her at day 0 — with a **time-bound: start joining other efforts ~3 weeks in (~9/14, as Daniel returns)**. **James meets her personally in week 1.** James's standing want (named to Daniel first as his own CLR-funding ask granted): CLR next, possibly UPP or LWS as she ramps — CLR+UPP=7 needs her there. Supersedes the open who-owns-week-1 questions above in part; Yongwoo as RB coverage DRI presumably still day-1 owner — confirm in the coverage map before Fri.
+- **8/21c ruling:** out of RB → **the UPP+CLR pool as its 7th** (transition ~9/14 as Daniel returns; steady-state manager = the CLR owner, Alim). REQ-2 ↔ Yiping are interchangeable seats (one fills CLR's 7th, one LWS's 5th; default Yiping → CLR).
+- **1:1 w/ James:** **first 1:1 Mon 8/24 12:30** (day-1 arrival, week-1 meet per the 8/19 joint decision) → 2w through Sept → 3w Oct.
+- **Daniel datum:** her landing conversation is the specimen for his "fold-then-excavate" growth area (`daniel_liu_archive.md` 8/19) — the RB promise only surfaced under 30 minutes of digging.
+
 ## Adjacent / Cross-Team (not direct reports)
 
 ### Edward Zhuang — partner EM (client side)
@@ -493,11 +665,13 @@ That would turn a strong emerging IC16 case into a durable one.
 - **Start date:** ~April–May 2026 (notes said April 6; James's 7/15 roster says "joined 2 months ago")
 - **Workstream (current, per 7/15 roster):** **CLR · LWS (dev-velocity focused)** — supersedes the earlier "GULP/CLR with Devin, spare bandwidth to UPP infra" and the v1 table's "ML Infrastructure ⟨reconfirm⟩", which is now resolved.
 - **Context:** Provides the CLR coverage hedge behind Devin.
+- **2026-08-21/23 update:** in the UPP+CLR=7 pool → **moves with CLR to Alim at T2**. Cadence: **W → 2w now** (James 8/23: few topics at weekly; 20m, out of the dying Thu 11:20 stack into the Thu 2:30–4:30 sprint block) → 3w from Oct. No perf/growth read on file since 7/15 — refresh due.
 
 ### Rui Wang (L14, SWE) — joined ~late June 2026
 - **Workstream:** Reflex · L1
 - **Context:** **This is the person prior notes called "Ray"** (dictation/preferred-name artifact, corrected 2026-07-15). One of the two engineers James hired this half ("Ryan and Rui" — the H1 self-review says "Ryan and Ray").
 - **Role in the org design:** **L1 / Real-Time operational owner** under the Foundations & Efficiency charter JJ co-owns (v2 §Calls #4, fork F6 resolved). He is the **day-1 oncall owner for L1/Real-Time** in the no-pager-gap table — the load-bearing reason this name has to be right in the Dylan-facing doc.
+- **2026-08-21/23 update:** rides with **LWS → Daniel** in every T2 scenario (LWS = Yali, Hedi, Zili/backfill, Rui, +1). **No standing 1:1 existed (confirmed 8/23) — book a [2W] 30m slot wk 8/24** (⟨the Thu 8/27 1pm slot on the calendar may already be it⟩) → 3w from Oct. No 1:1 intel on file since joining — refresh due.
 
 ---
 
@@ -509,14 +683,13 @@ That would turn a strong emerging IC16 case into a durable one.
 - **Workstream:** Reflex · Pinvestigator · migration tasks the team doesn't want to do.
 - **Note:** Candidate technical guide for Lionel's possible oncall-alert-AI-cleanup ramp project (see Lionel 7/25).
 
-### Yiping Wang (IC13, MLE)
-> Added 2026-08-11, from the Daniel 1:1 — headcount not previously accounted for anywhere in the repo.
-- **Start date:** **Mon 8/24/2026** — **Daniel's first day OOO** (out 8/21–9/11)
-- **Location:** Toronto (third new Toronto arrival in 6 weeks: Lionel 7/27 → Yiping 8/24 → Nima S. 9/7)
-- **Team / workstream:** Daniel's team — **Recommended Boards (Collection P13N)**
-- **⚠️ Onboarding collides with the PTO window:** her manager is dark for her entire first three weeks. Week-1–3 design must be closed by 8/20 and named in Daniel's coverage map: day-1 owner (Yongwoo is the Collection P13N coverage DRI — confirm he's also her onboarding owner), buddy, starter task, and whether James runs Lionel-style 30/60/90 skip check-ins. Her arrival belongs in Daniel's 8/19–20 team-meeting cascade alongside the coverage announcement.
-- **Note:** Daniel's 8/11 1:1-doc sketch had "+1 (new hire)" penciled under Collection P13N — James read that as Esteban (IC13-3); an incoming Collection P13N new hire makes Yiping the other plausible referent. Not relitigated, just flagged.
-- **2026-08-19 — landing decided (James+Daniel joint decision, no-blame framing):** she **ramps on Recommended Boards first** — a promise existed that she'd work on boards ⟨to Yan, or to Yiping in recruiting; dictated "Yuna"⟩ and plans shouldn't flip on her at day 0 — with a **time-bound: start joining other efforts ~3 weeks in (~9/14, as Daniel returns)**. **James meets her personally in week 1.** James's standing want (named to Daniel first as his own CLR-funding ask granted): CLR next, possibly UPP or LWS as she ramps — CLR+UPP=7 needs her there. Supersedes the open who-owns-week-1 questions above in part; Yongwoo as RB coverage DRI presumably still day-1 owner — confirm in the coverage map before Fri.
+### Nima Sheikholeslami (L15, MLE) — added 8/24
+- **Start date:** **Mon 9/8/2026** (hired 8/15 into REQ-1; Toronto — third Toronto arrival after Lionel 7/27 and Yiping 8/24)
+- **Workstream:** **CLR** — hired by James into the UPP+CLR=7 pool; steady-state manager = the CLR owner (**Alim**, settled 8/21)
+- **1:1:** day-1 welcome 1:1 Mon 9/8 + **3w** 30m series from that week (8/23)
+- **⚠️ New-hire optics (8/23):** hired by James, manager likely changes within ~2 months of start — his pre-announcement conversation (wk 9/21) needs the most careful framing of anyone's; Alim 30/60/90 already names a "Nima owner" delta (8/16b). No interview/offer notes on file beyond the hire fact — refresh: why James hired him, what he was promised, who his ramp buddy is.
+
+### Yiping Wang (IC13, MLE) — entry moved to §Daniel's team (8/24)
 
 ### Lionel Bewa (L14, SWE)
 - **Start date:** **7/27/2026** — the same day Alim starts

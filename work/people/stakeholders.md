@@ -1707,6 +1707,10 @@ Per H1 career convo: Dylan named Manu as someone she is *"trying to actually als
 
 # 27) Sai — Peer Sr EM (M17), P2P Retrieval (she/her, added 2026-04-11)
 
+## 2026-08-24: "Very close to launch approval" — the P2P v0 decision moves to a Huizhong thread; she hands HF the training-efficiency slot
+
+Full day in the James/Piyush/Matt/Sai group DM (verbatim + reads: `work/projects/upp/upp_retrieval_em.md` 8/24 + addenda). Her posture: cooperative and concrete — "I do not want to delay the launch too much after the approval," a six-item productionization list with owners, "let's time box," Yilin named as P2P counterpart, and the p4de/GPU budget flagged as a leadership call-out (her ask). Tells: the V0-vs-V1 throwaway-work question (she's protecting her team's weeks, not blocking); "Owner: unclear, need to discuss with HF" left open for James to fill — he did, in her doc, with a Wed 8/26 ETA. Decision status at 9:36 PM: "I started a thread today, still waiting for replies from Huizhong… on top of my mind." Escalation record drafted privately (James/Matt/Dylan); nothing said to her. Private read unchanged; nothing today contradicts the good-faith trajectory.
+
 ## 2026-07-17: Shared SSJ-side friction intel directly (with Tie)
 
 - Sai + Tie (§47) proactively told James that the Dhruvil-M.O. friction (silo→exec→demand rollouts; Dhruvil chapter 7/17 entry) is hitting their teams too, and that Kurchi is converting it into UPP concerns (Kurchi chapter 7/17 entry). **Candor/alliance signal** — continues the post-OneTrans good-faith trajectory, and sits interestingly alongside the private 小气 read: whatever her turf instincts, she keeps choosing the direct channel with James.
@@ -2093,6 +2097,10 @@ Week 2 on the job. Attended the SM/SL sync (§9 2026-07-20 entry) and watched Ja
 **He is the channel to the CTO comment thread.** Madrigal's two comments on §3 of the vision landed 8/12; Michael answered the surface question with **~50% RP / ~25% Homefeed / ~24% board ideas** — a number that quietly breaks the doc's own "starting with Homefeed" scoping.
 
 **Handle privately, not in the joint room:** the headline **7× spiral statistic** (after a teen taps 1 unsafe slate, USR goes 0.45% → 3.2%) **conditions on a tap** — that is selection, not causation. Combined with an uncalibrated GPT-5 judge at n=2K and no holdout, it is a credibility risk under the whole program if the CTO mandate rests on it. Michael conversation, one-on-one.
+
+## 2026-08-2x: The Andrew debrief DM — sequencing call delivered, Michael takes the plan (filed 8/24)
+
+After James asked him for "next steps on a joint prioritization," Michael came back with Andrew's sequencing (GenAI first for CQ-aware ranking · Racy pod rollout, borrow for self-harm short-term · self-harm rides the long-term solution), named **UICs the top Anticipation resourcing priority**, and offered to **drive the Safe Journeys plan himself** (Andrew/Dylan/Faisal by Friday → VJD → Bill later; code red pushed Bill reviews) with James as input. Asked whether to reach out to **Andrey Gusev** for Faisal resources beyond Qinglong. Verbatim + read: `work/projects/safe_journeys/sources/08_michael_andrew_debrief_sequencing.md`. Pattern: he is operating exactly as the operating plan hoped — org-alignment channel, no capital spent, asks James before moving on people.
 
 ## 2026-08-21: First joint fire — the Neeti T&S DSAT investigation (bonded)
 
