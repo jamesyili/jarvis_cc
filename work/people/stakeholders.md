@@ -1135,6 +1135,12 @@ P2P approved a new retrieval architecture (OneTrans — unified transformer toke
 
 ---
 
+## 2026-08-25: "pUIC is really the main bet of this whole thing" — the sponsor says it to James directly
+
+Anticipation group DM (Andrew, **Anna Kiyantseva**, **Krystal Benitez**, James), 11:42 AM (verbatim): *"Lots of great work is coming together in Anticipation – very exciting! I hope you understand how much dependency there is on getting pUIC right – it's really the main bet of this whole thing. You guys are our very best people to work on this, so I'm sure you gonna come through. Let me know if I can help anyhow to accelerate anything."* **Krystal answered for the team (11:48):** "oh we are very, very aware. A lot of iterations are in the works… rest assured, we have eggs in several baskets in hopes that we get to a breakthrough soon. And we are actively discussing our confidence in each method (the standardized hop definition will help) so we can decide if we need to double-down and/or defund any work to get to a pUIC method that effectively surfaces novel content." (Preceding context, Krystal 8/24 2:17 PM: Explore-page dogfooding of module variants needs extra work — Allen Pan looped; OTA is the fastest path; update at the execution sync.)
+
+**Read:** This is Michael's 8/2x line ("UICs the top Anticipation priority — multiple projects dependent," source 08) in the sponsor's own words, addressed to James — praise-wrapped pressure, and the expectation now has James's name on it. Two uses: (1) **leverage** — the pUIC line (Yuke/Chuxi/Yidi/Zelun + the model-based pUIC × UPP base-model sync) is the thing Andrew has just said must not give, so CQ/GenAI asks on James's team come out of something else, in writing; (2) **exposure** — "our very best people" is the frame that becomes "they didn't come through" if pUIC misses; Krystal's "double-down and/or defund" is the mechanism to decide early rather than late — James should be the one framing that decision (confidence per method, hop definition, date), not receiving it. James did not need to reply; Krystal covered it. Anna Kiyantseva's role still unidentified (also the person Michael wants the CQ doc shared with — source 08 addendum).
+
 # 10) Darren Regers — Sr. EM → Director, Infrastructure (promo official 2026-04-16)
 
 ## Role in my 6–12 month goals
@@ -2246,7 +2252,7 @@ Two margin comments on **§3 In-session Awareness** of the ACP Safe Journeys vis
 
 ---
 
-# 46) Krystal ⟨surname pending⟩ — TPM, UPP (added 2026-07-17)
+# 46) Krystal Benitez — TPM, UPP + Anticipation (added 2026-07-17; surname confirmed 2026-08-25)
 
 **Role:** James's TPM on UPP. **Up for promotion this cycle** (level pending). ⚠ Spelling: **Krystal** with a K (repo-consistent; James's dictation homophone "Crystal" corrected via his own Slack screenshot context).
 
@@ -2256,6 +2262,8 @@ Two margin comments on **§3 In-session Awareness** of the ACP Safe Journeys vis
 - **Technical competency:** solid; follows architecture-level discussion, represents technical state to leadership without a translator. Growth (soft, future-framed): deepen foundational technical knowledge to bridge workstreams more creatively as her influence expands.
 
 ---
+
+- **2026-08-25:** Surname **Benitez** (Slack). She is also the TPM voice on **Anticipation/pUIC** — answered Andrew's "pUIC is the main bet" note for the team (§9 2026-08-25: iterations in flight, per-method confidence, standardized hop definition, double-down/defund call coming) and tracks Explore-variant dogfooding (OTA path, execution sync). cc'd on the UPP v0 P2P launch approval (`work/projects/upp/upp_retrieval_em.md` 8/25).
 
 # 47) Tie ⟨surname pending⟩ — EM, P2P Ranking (Kurchi's SSJ org; added 2026-07-17)
 

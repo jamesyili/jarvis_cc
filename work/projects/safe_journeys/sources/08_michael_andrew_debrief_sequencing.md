@@ -29,3 +29,31 @@
 - Which day the thread is from (fixes "by Friday").
 - **VJD = Vicky, Jeff, Dana** (James, 8/24) — the exec read before Bill. Andrey Gusev still unidentified.
 - Which "multiple projects" depend on UICs, and their dates — worth getting from Michael/Andrew in writing; it's the roadmap justification for protecting the pUIC line.
+
+## Addendum 2026-08-25 — James's reply (9:44 AM, sent before Leo's pack) + Michael's answers (4:35 / 4:37 PM)
+
+**James, 9:44 AM (verbatim):**
+> Thanks Michael! This is very clear and I'm glad that we have such clarity for the next steps. Here's what I'm thinking about doing today around CQ:
+> 1. Talk to @J.J Hu and @Dafang He for L1 Utility + how they feel about the current experiments in GenAI vs the longer term plan. Get clear ETAs on planned experiments + get their sense of the prioritization of next set of experiments.
+> 2. Start a thread with @Dhruvil Deven Badani @Dafang He @Qinglong Zeng about the next steps to align on the priorities of the training-time efforts, since that seems to be the bulk of discussion items we want to address between the various eng leads.
+> ↳ Happy to work with you on the Safe Journeys doc. Let me know what input would be helpful.
+> | We should share a Safe Journeys plan with Andrew/Dylan/Faisal by Friday
+> SG. Happy to help. Is the goal of this doc just for sharing how the two teams are thinking about the long term framework or will it also include execution and prioritization proposals from the team? If the latter, will the plan also be inclusive of the GenAI work?
+> | Andrew wanted me to follow-up to see if we could pull in any Faisal resources to accelerate the long-term CQ aware solution
+> This is possible as well. What are your thoughts on this sequencing: first finalize the prioritization and get some clarity on who is doing what by when, then see what concrete asks we can make for Andrey / Faisal?
+
+**Michael, 4:35 PM (verbatim):**
+> Thanks James. (1) and (2) make sense to me. I would appreciate help on (3). I'm going to work on a draft tomorrow afternoon, and will share what I have. (It seems like we're NOT going to get TPM support. 😔)
+> | Is the goal of this doc just for sharing … will the plan also be inclusive of the GenAI work?
+> It's more the latter of execution and prioritization considerations. For the latter, I think we'll have to surface the CQ prioritization mentioned above.
+> | What are your thoughts on this sequencing …
+> SG. Perhaps I'll structure the doc then around our (a) CQ priorities and (b) Key Safe Journeys Milestones/Deliverables. Then we can get feedback on resourcing and timeline from Andrew/Dylan/Faisal.
+
+**Michael, 4:37 PM (verbatim):**
+> On a separate but related topic, have you shared your 'Quality and Safety Levers in the Recommendation Stack' doc with @Anna Kiyantseva? I know incorporating CQ signals into the recommendation stack is still potentially controversial - so would like to make sure she's had a chance to review and give her feedback.
+> *(3 replies in thread, last 8:36 PM — James's reply not captured.)*
+
+**What it settles (Leo read, 8/25 PM):**
+1. **Michael's Friday plan is structured around James's prioritization work.** (a) CQ priorities = the doc's §9 block + the training-arms decision James's item (2) thread is meant to produce; (b) SJ milestones/deliverables. The plan is execution + prioritization, **inclusive of GenAI** (implied by "surface the CQ prioritization mentioned above" — the GenAI-first sequencing). Michael drafts **Wed 8/26 afternoon**; feedback on resourcing/timeline from Andrew/Dylan/Faisal follows — so the Andrey/Faisal-resources question is deferred behind prioritization, per James's sequencing. **No TPM** — Michael + James carry tracking themselves.
+2. **James's three commitments, now public to Michael:** (1) JJ + Dafang L1-utility ETAs + next-experiment prioritization (= the Dafang+JJ note in the 8/25 reply pack — Dafang is L3-first this week per Dylan, so JJ is the realistic respondent); (2) the training-time priorities thread with Dhruvil/Dafang/Qinglong (Qinglong already agreed to the three-way — source 10); (3) help on the SJ doc.
+3. **Anna Kiyantseva** — unknown to the repo. She sits in the Anticipation group DM with Andrew + Krystal (8/25), so most likely an Anticipation/Homefeed product lead. Michael's phrasing — "CQ signals in the recommendation stack is still potentially controversial" — says there is a product constituency that reads quality signals in ranking as engagement risk, and he wants her read *before* the doc reaches VJD. The doc's answer to that constituency already exists (D5: regrettable/non-regrettable decomposition, SSv2 guardrail budget, hold-back → derived λ). **Action: identify Anna's role, share the doc with a short note that leads with the guardrails, log her feedback as a source.**
