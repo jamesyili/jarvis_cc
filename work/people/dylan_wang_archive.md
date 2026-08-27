@@ -2783,3 +2783,16 @@ This directly counters the IC-comfort instinct. Lock it now; tell yourself out l
 ## 2026-08-25 — Reflex: James DMs about Dafang's time; Dylan closes the back-channel and opens a 3-way ("what would be needed for Reflex to be successful?")
 
 James (12:27 PM DM): Dafang can't spend much time on Reflex, "things are getting really stalled," James will lean in. Dylan: "he didn't bring up with me — did he mention why?" → "let me check with Dafang." **4:23 PM: a NEW Dylan/Dafang/James DM** — "Dafang needs to focus more time in L3 launches. He informed me that there are sub-areas pocs and many ppl involved in Reflex. From your perspective, what would be missing in the short term? Seems this should be a short term a few weeks focus." **Handling pattern:** she protects a direct report from a peer's back-channel by making it three-way, rules his priority herself, and converts the complaint into a bounded ask with a real question attached (Reflex is her H2 named bar for James — "scaling Reflex beyond P13N"). James's sent reply (coverage map, H2 success definition, three Build-stage items, JJ/Tim/James to own the Shifu-fold decision, ask to Dylan to sponsor P13N-EM alignment on "default build path") + full read: `../projects/reflex/program_state.md` 8/25. **Watch:** her reaction to "Reflex Build folds into Shifu" — first time in writing from James unless the Mon 8/24 1:1 covered it (outcome still uncaptured). Note for the 2-asks/1:1 rule: the ask to Dylan in the thread (EM alignment on the milestone) is now a standing one.
+
+## 2026-08-26 — The layoff under her (Francisco + ~15), and the lunch
+
+**Fact (James, Wed evening):** a layoff this morning — **Francisco Navarrete and most of his team, ~15 people including Francisco himself.** The decision dates to the beginning of the year; execution waited on regulatory approval (team primarily in Mexico). James's read: this is why Dylan has been visibly stressed the past few days — she was carrying a months-old decision she couldn't say out loud, through the same week as the Reflex 3-way and the CQ threads.
+
+**The lunch (James + Dylan + Alim, 1.5h, in person):** "really nice… a great conversation." James on Dylan afterward: "a really smart, talented individual who also knows how to work with people… I felt bad for her… I don't want to make her life harder than it is."
+
+**Leo notes (8/26):**
+- **Re-read the week's silences.** No reaction yet to "Reflex folds into Shifu," the 3-way not moved — bandwidth, not signal. Don't infer a position from a delay this week.
+- **"Don't make her life harder" ≠ go quiet.** The way to lighten her load is fewer, cleaner items — decisions pre-packaged with a recommendation — not fewer decisions brought. Going quiet on things only she can decide makes her life harder later.
+- **Everything James's team hears in the next two weeks lands through this layoff** — the pre-announcement runway (team hears new managers before end of Sept) needs to account for it: org-change news the same fortnight as a 15-person cut will be read as "who's next" unless the framing pre-empts it.
+- Francisco §18 in `stakeholders.md` and `organization.md` updated; he's no longer an internal ally, keep the relationship personally.
+

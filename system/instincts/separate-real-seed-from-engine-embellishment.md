@@ -2,10 +2,10 @@
 id: separate-real-seed-from-engine-embellishment
 trigger: When James (in SELF/coaching mode) voices a fear, suspicion, or catastrophic read about a person or situation, and Leo is tempted to label the whole thing "the engine" / "creative writing" / "no evidence" to help him drop it
 behavior: Don't negate the suspicion wholesale — that's both inaccurate and it makes James correct you (he usually has a real evidentiary seed Leo doesn't know about). Instead, SPLIT it: name the documented, real seed (the part with evidence) and validate it as legitimate, then isolate only the catastrophic *specific* the engine grew on top as the unfounded part. "X is looking" (real: tip from Bowen + repeated pay complaints) vs. "X found a job and is waiting until I'm back to twist the knife" (the engine's cruel embellishment with no evidence). The engine doesn't invent fear from nothing; it takes a true seed and grows the most painful possible specific on it. Hold the seed, drop the embellishment. **EXTENSION (2026-08-14) — counterfactual questions ("would I be happier if I'd gone to X?") take the same shape, and the concession goes FIRST.** Open with what would genuinely be better about the road not taken, specifically and without hedging, *then* give the answer. Leading with the answer makes a true answer read as consolation and it bounces. James's demand — "don't give me bullshit, give me the real dope" — is a request for the concession, not for a verdict.
-confidence: 0.45
-evidence_count: 2
+confidence: 0.55
+evidence_count: 3
 created: 2026-06-23
-last_updated: 2026-08-14
+last_updated: 2026-08-26
 status: active
 ---
 
@@ -25,3 +25,9 @@ Refinement: the seed/embellishment split applies to *counterfactual regret*, not
 ## Pattern
 
 Sibling to [[catch-cognitive-override-as-engine-costume]] and [[hold-hypotheses-loosely-on-stakeholder-reads]], but distinct direction: those guard against *over-constructing* a clean narrative; this guards against *over-dismissing* a real signal as "just the engine." Both errors are the same root mistake — not honoring the actual evidence. In coaching, the useful move is almost never "that's all in your head"; it's "here's the real part, and here's the part the engine added." James responds to precision, not blanket reassurance (consistent with `feedback-comparison-engine-positive-firing`: don't calm the judge by waving away facts). Also connects to the Karen blind-spot rule in CLAUDE.md (verify real-world status with James rather than infer from absence) — work-leo activity and live stakeholder conversations are systematically invisible to personal Leo, so a suspicion Leo can't see evidence for may still be well-grounded.
+
+### 2026-08-26
+> James, on Chuxi's "I don't believe in conditional retrieval" sounding word-for-word like Bella: after Leo split the real seed (second collaboration gone sour in a month, on the load-bearing seam) from the embellishment (Chuxi = Bella running the leave script) — "I think the CLR technical objection is just coming out of nowhere, right? … I do agree with you. I do like what you said about a positive thing."
+Context: morning digest of a hard 1:1; Leo led with the Bella-echo concession, then the read; James adopted it and supplied the PinSpark history that confirmed the seed.
+Signal: confirmation
+

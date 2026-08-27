@@ -39,7 +39,7 @@ Bill Ready (CEO)
         │   │   ├── Yan Li (Sr. Manager M17, Eng — P13N-Experiences) — sheds Daniel's Curation ML to James; Curation Revisitation stays in his org
         │   │   │   └── Edward Zhuang (Manager I L15, Eng) — 7 reports — backend SWE pool
         │   │   ├── Tim Leung (Manager M16→**M17** per 7/14, Eng — Presentation: ngAPI + Android/iOS client) — stays under Dylan; non-ML
-        │   │   ├── Francisco Navarrete (Sr. Manager L17, Eng — Platform/Labeling) — 16 reports — exiting to Kurchi
+        │   │   ├── Francisco Navarrete (Sr. Manager L17, Eng — Platform/Labeling) — LAID OFF 8/26/2026 with ~15 of his team (was: 16 reports, exiting to Kurchi)
         │   │   ├── Olafur Gudmundsson (Sr. Staff MLE — IC, direct to Dylan)
         │   │   └── Dafang He (Sr. Staff MLE — IC, direct to Dylan) — Search CLR lead; Reflex overall TL
         │   ├── Kurchi Subhra Hazra (Sr. Director, ML — Search/SSJ) — 114 reports
@@ -74,7 +74,7 @@ Other CTO direct reports (outside Jeff's chain):
 
 - **Dylan Wang:** Sr. Director of Homefeed Relevance
   - Style: values accuracy and exec-ready comms; peak trust with James
-  - Direct reports post-reorg: James, Dhruvil, Yan, Tim, Francisco (exiting), Olafur, Dafang
+  - Direct reports post-reorg: James, Dhruvil, Yan, Tim, ~~Francisco~~ (laid off 8/26), Olafur, Dafang
 - **Rajat C:** VP of Engineering under Jeff
   - Joined from leading Alexa at Amazon
   - Direct reports: Dylan, Kurchi, Kaanon, Karina
@@ -83,7 +83,7 @@ Other CTO direct reports (outside Jeff's chain):
 - **Dhruvil:** Sr EM for P13N Ranking (peer under Dylan). Sub-EMs: **Rahul Goutam** (Blender — moves under him with the blending team in the reorg) + **Zisis Petrou** (GULP — Dylan named Zisis's team as GULP owner, 6/1)
 - **Yan Li:** Sr EM for P13N-Experiences (peer under Dylan). Frontend + backend SWE (Edward Zhuang). Owns Explore/IB surfaces on the experience side; Curation Revisitation stays with him post-reorg.
 - **Tim Leung:** Manager under Dylan (M16→M17 per 7/14 intel; 13 reports). Presentation: ngAPI + Android/iOS client. James mentors him. TL Yu Zhao is one of the best engineers in the org.
-- **Francisco Navarrete:** Sr Manager under Dylan (16 reports). Team primarily in Mexico. Labeling + foundational platform work. Exiting to Kurchi. Good relationship with James.
+- **Francisco Navarrete:** ~~Sr Manager under Dylan (16 reports). Team primarily in Mexico. Labeling + foundational platform work. Exiting to Kurchi.~~ **Laid off 8/26/2026 with ~15 of his team** — a beginning-of-year decision delayed by regulatory approval. Good relationship with James.
 - **Olafur Gudmundsson:** Sr. Staff MLE under Dylan. IC. Involved in ownership boundary discussions; looped into pUIC architecture reviews.
 - **Dafang He:** Sr. Staff MLE under Dylan. Search CLR lead; **Reflex overall TL** (Dylan-named POC trio: James/Dafang/Tim-PM).
 - **Kartik Paramasivam:** Chief Architect, reports to CTO. Fan of James's work. Has connected with Dylan about James. Dylan has hinted Kartik's support is important for James's future.

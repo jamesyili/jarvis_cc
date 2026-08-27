@@ -1535,6 +1535,8 @@ Following Anna conversation + Tim conversation + Slack-verified org chart (see `
 
 # 18) Francisco Navarrete — Sr. Manager, Platform/Labeling (under Dylan)
 
+> **2026-08-26 — LAID OFF this morning, with most of his team (~15 people incl. Francisco).** Per James: the outcome of a beginning-of-2026 decision that sat for months in regulatory approval (team primarily in Mexico). The "exiting to Kurchi" line below is superseded — the move never became a home. Keep the relationship warm personally; he's no longer a Pinterest ally.
+
 ## Role in my 6–12 month goals
 - **Peer and ally under Dylan.** Good mutual respect — exchanged compliments during calibrations. Collaborative before the reorg.
 - **Platform work overlap.** Francisco has worked on debugging tooling (never took off). His team does foundational platform work for all of Core — constantly stretched.
