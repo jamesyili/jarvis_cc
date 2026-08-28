@@ -2,10 +2,10 @@
 id: carry-uncertainty-markers-into-every-restatement
 trigger: Restating, migrating, or summarizing content that carries an uncertainty marker (⟨confirm⟩, `?`, TBD, "draft", "inferred", "not yet verified") — OR about to build a load-bearing claim on a field so marked
 behavior: The marker travels with the content. Never let a qualifier die in migration — content that was provisional in doc A must read as provisional in doc B, or it silently becomes settled fact and nobody re-examines it. Before asserting anything load-bearing, check whether the source field is marked uncertain; if it is, either verify with James or state it as unconfirmed. Corollary: after changing a person/entity fact, grep the WHOLE doc (and siblings) for that entity before shipping — not just the table being edited.
-confidence: 0.75
-evidence_count: 4
+confidence: 0.85
+evidence_count: 5
 created: 2026-07-15
-last_updated: 2026-08-21
+last_updated: 2026-08-28
 status: active
 ---
 
@@ -48,3 +48,10 @@ Related: [[check-existing-context-before-analyzing]] (verify load-bearing facts)
 Context: Alim's 8/20 Slack said "it might make sense to take on retentive recs and CLR" — a hedged lean. Leo filed it across three docs as "relinquished RecGPT in writing" / "the fork effectively closes," and a scenario board got graded "DOA" partly on that basis. James corrected; three correction notes filed.
 Signal: correction
 **Corollary rule:** the marker isn't only `⟨confirm⟩`/`?` — it's the *modal strength of the source language*. "Probably," "might," "leaning" must survive into every filing at the same strength. A lean is never filed as a decline; upgrading a preference into a decision is James's move (or the person's own explicit words), never a restatement's.
+
+
+### 2026-08-28 (confirmation — the T2 preference batch)
+> "None of these are decisions, just remember the preferences."
+Context: James handed over three wants at once — Ryan+Rui (LWS + L1 utility), Yichi (happy on CLR, eventually more UPP, fine with Alim), Roderick (wants to keep reporting to Daniel, relayed via JJ). Leo had already kept scenario 8 out of the ledger's DECIDED sections and said so unprompted ("this is a scenario, not a ratified decision"); James's line confirmed the discipline and extended it to the whole batch. Filed as a new STATED PREFERENCES table under the published criterion-3 language ("preferences are inputs, not claims"), never in DECIDED.
+Signal: confirmation
+**Corollary rule (source-distance):** the *relay chain* is a marker too. A want reported by a third party stays secondhand in every restatement, however many relays agree. Two independent relays pointing the same way reduce a self-interest confound — they do not satisfy a gate that names the person's own voice, and Leo must say which of the two it did. (Roderick: Daniel 8/19 + JJ 8/28 agree; the own-voice gate did not move.)
