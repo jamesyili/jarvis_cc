@@ -232,3 +232,6 @@ James acknowledged the time-crunch concern is real but consciously chose to **ri
 ## 2026-08-01 — Status: folding into Reflex (deliberate)
 
 James (8/1): Pinkerton work has stalled — and that's acceptable, because the plan is now to **fold it into Reflex** and concentrate attention there. One narrative, one funding story; Pinkerton's DSAT/deep-analysis substance becomes Detect/Prove content inside Reflex rather than a separately defended program. This file stays as the historical record; forward state lives in the Reflex program docs.
+
+- **2026-08-27 — direction shift: Pinkerton re-implemented as Reflex's Prove-stage deep analysis (James).** James's decision: build "a new deep-analysis stage via the Prove stage that re-implements a lot of Pinkerton," reusing Armando's full-funnel logging and the CG subtitle reports ⟨name as dictated⟩. Implication for the Q3 roadmap above: task 2 ("stand Pinkerton up as its own recurring service") is in tension with this — the recurring service is Reflex-on-a-schedule, and Pinkerton's investigation logic rides inside it. Task 1 (full-funnel logging on Notifications + Search) and task 4 (Armando's front end reintegration) remain inputs. The 5-issue golden dataset = acceptance test for the new stage. Program-level record: `../program_state.md` 8/27.
+

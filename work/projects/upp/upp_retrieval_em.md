@@ -1092,3 +1092,5 @@ From relevance analysis, this change increases b2.5@4 guardrail by 3.25%, and si
 5. **Piyush cc'd Dylan himself** — the launch reached James's manager from the P2P channel, not from James. Good.
 
 **Closes (Notion):** "Launch push: back-channel Kurchi w/ receipts" (moot) · the 8/24 "decision date" open item. **Still open:** Piyush's Wed 8/26 ETAs; WAU guardrail read; V1 timeline (Sai's throwaway-work worry); the operational-plan/virtual-team thread.
+
+**8/27 (James): rollout-prep ownership during Jiaxing's PTO (~3 wks from 8/27) is handled** — HF-side owner for the v0 training-time reduction / rebase / pinperf replacement confirmed (details not captured; Piyush/Zihao per the biweekly tactical).

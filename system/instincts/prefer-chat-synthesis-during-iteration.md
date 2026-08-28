@@ -2,14 +2,20 @@
 id: prefer-chat-synthesis-during-iteration
 trigger: When James is iterating in real-time on a question, plan, or document — refining a draft, asking for a tighter version, asking for a different angle, or stress-testing a proposal — and asks Leo for synthesis or an integrated answer
 behavior: Default to in-chat synthesis. Do not auto-write to a doc unless James explicitly asks for a durable artifact or the output is canonical reference for later. During iteration, doc writes create friction — James has to context-switch to find the file. Show it inline; offer to persist to a doc only if he asks.
-confidence: 0.5
-evidence_count: 2
+confidence: 0.65
+evidence_count: 3
 created: 2026-05-04
-last_updated: 2026-06-17
+last_updated: 2026-08-27
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-27
+> "Remove a design doc. I already have that on my work Leo. It's much better than yours. Actually what I want to talk about is: how do I improve feedback curator?"
+Context: James said "let's first build on this for now" after deciding Pinkerton folds into Reflex. Leo read "build on this" as "write the design" and produced a 93-line Prove-stage design v0 in `system_design/`. James already had the design on work-leo (where the code is); he wanted the *next conversation* (Curator improvements), not an artifact. Removed same session; README/program_state re-pointed to work-leo.
+Signal: correction. Extension of the pattern: "build on this" / "let's go with this" after a decision is a *conversation* cue, not a doc cue — and technical design for James's own builds lives on work-leo (see `work-leo-execution-scope`). Personal Leo files the decision and the seams; it does not draft the design.
+
 
 ### 2026-06-17
 > "Give him actual people and scope." … "Just put Bella's name…" … "Let's just add it in a file after this final change."

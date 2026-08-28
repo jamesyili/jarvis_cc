@@ -1,6 +1,6 @@
 # organization.md — Org Structure & Cross-Org Context
 
-Last updated: 2026-08-01 (people-folder reorg: James's-org people/project/scope content moved to [`team_members_scope.md`](team_members_scope.md); this file now covers org structure and teams **outside** James's org. Leadership chain updated to the approved July-reorg state — announcement Wed 8/5. Prior: 2026-05-23 Slack-verified org chart.)
+Last updated: 2026-08-27 (ATG PM → Andrew; AI Compliance & Wellbeing → Core Product head; Chuck/ATG vision line). Prior: 2026-08-01 (people-folder reorg: James's-org people/project/scope content moved to [`team_members_scope.md`](team_members_scope.md); this file now covers org structure and teams **outside** James's org. Leadership chain updated to the approved July-reorg state — announcement Wed 8/5. Prior: 2026-05-23 Slack-verified org chart.)
 
 ---
 
@@ -90,6 +90,7 @@ Other CTO direct reports (outside Jeff's chain):
 - **Faisal Farooq:** VP Eng under Jeff. Owns T&S + Signals (content understanding, user understanding). Very technical, KDD chair. Open supporter of UPP.
 - **Shipeng Yu:** Sr. Director ML (Growth) under Jeff (122 reports). Close to Dylan. Org was pushed into UPP by Jeff — now supportive. Brian Lee and Tingting (Notifications) report to him.
 - **Cross-org partners (non-exhaustive):** ATG, ML Infra/Core Infra, Notifications ML, Growth/Activation, UU (User Understanding), Search/Related Pins surfaces
+- **Org change, announced ~8/27 (product side; excerpt from James):** **ATG PM team → Andrew Yaroshevsky** (Sr. Director Product — Personalization + UX Frameworks; UPP and Anticipation Cupcake named as the credential); announcement references "a longer-term vision for ATG with **Chuck**" (Chuck Rosenberg, VP Eng, CTO-direct — outside Jeff's chain). **AI Compliance and Wellbeing (Adi Narayan) → direct to the announcer** ⟨Core Product product head; name not captured⟩ — relevant to Safe Journeys WS5 (wellbeing UX) getting exec focus. Details + reads: `stakeholders.md` §9, §41.
 
 ### Notable: Raymond Hsu
 Reports to Tim Leung. Was the previous HF CG manager before James joined above him. Transitioned back to IC unwillingly. Holds resentment toward James. Not an active risk but worth tracking. (Now also the SM/SL pairing alongside Yali — staffed 7/25.)

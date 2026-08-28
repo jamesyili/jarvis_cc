@@ -2,14 +2,20 @@
 id: carry-uncertainty-markers-into-every-restatement
 trigger: Restating, migrating, or summarizing content that carries an uncertainty marker (⟨confirm⟩, `?`, TBD, "draft", "inferred", "not yet verified") — OR about to build a load-bearing claim on a field so marked
 behavior: The marker travels with the content. Never let a qualifier die in migration — content that was provisional in doc A must read as provisional in doc B, or it silently becomes settled fact and nobody re-examines it. Before asserting anything load-bearing, check whether the source field is marked uncertain; if it is, either verify with James or state it as unconfirmed. Corollary: after changing a person/entity fact, grep the WHOLE doc (and siblings) for that entity before shipping — not just the table being edited.
-confidence: 0.85
-evidence_count: 5
+confidence: 0.95
+evidence_count: 6
 created: 2026-07-15
 last_updated: 2026-08-28
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-27
+> "It's a he by the way."
+Context: Yali's roster entry carried an explicit "⚠️ Pronoun ambiguity, unresolved" line since 8/2. Leo's session-open orientation still said "she's out 8/31–9/18" — the file's default pronoun was restated as fact and the marker died. James corrected in passing. Fixed across roster + Daniel archive; the flag line replaced with the resolution.
+Signal: correction. When a source field is marked uncertain about a *person* fact (pronouns, name, role), use the name or they/them in restatements until resolved — the marker travels even into a one-line orientation.
+
 
 ### 2026-07-15 (Alim roster session) — three failures, one root cause
 

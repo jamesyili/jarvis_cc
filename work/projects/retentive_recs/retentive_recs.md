@@ -1,11 +1,37 @@
 # System Context: Retentive Recommendations & The Prediction Engine
-**Current Status: August 2026 — RR now Alim's (confirmed 8/21), Chuxi ws-TL visibly running the program; model-pUIC broke its lull with first LFU-cohort gains (unstable — reversion/restart plan in motion); novelty-definition redesign (Yidi) + CLR-relevance design (Zelun) + Chuxi's unify-into-RecGPT-structure 1-pager all landed the same week; weekly reading group launched**
+**Current Status: August 2026 — RR now Alim's (confirmed 8/21; 8/27: Alim drives the RR focus-areas prioritization with Anna/Krystal at the 8/31 Slumber Party — snapshot in §2026-08-27), Chuxi ws-TL visibly running the program; model-pUIC broke its lull with first LFU-cohort gains (unstable — reversion/restart plan in motion); novelty-definition redesign (Yidi) + CLR-relevance design (Zelun) + Chuxi's unify-into-RecGPT-structure 1-pager all landed the same week; weekly reading group launched**
 
 > Technical reference content below remains accurate as of January/March 2026. August + July + May + April 2026 program status sections capture current results, narrative artifacts, and co-author roster. Read the August status section first; the technical content for architecture deep dives.
 
 ---
 
 ## Program Status — August 2026 Update (2026-08-22, from #puic-collab screenshots + Yidi's design doc)
+
+### 2026-08-27 — the RR focus-areas snapshot (from the 8/26 Alim hour) + the transfer: Alim drives it at the Mon 8/31 Slumber Party
+
+**What happened:** the in-person hour Wed 8/26 covered RR ("great chat on RR yesterday" — James, Slack 8/27 3:01 PM). James wrote the discussion up as a one-screen snapshot and handed it to Alim to (a) fill in the details by the Monday sync, no rush, and (b) **bring it up himself with Anna + Krystal at the next Slumber Party sync (Mon 8/31 9:45 — the "Align RR priorities" slot)**. Alim: "I'd love to bring that up" → "ok thanks! I can work on that" (6:43 PM).
+
+> **RR Eng Focus areas Snapshot View** (James → Alim, Slack 8/27 3:27 PM, verbatim structure)
+> - **[p0] 2026 Q3-ish pUIC Roadmap (ETAs)** — Chuxi Wang on RecGPT Novel Loss · Zelun Wang on CLR with relevance head · Yidi Wang on label redefinition to include close-up and clicks
+> - **[p0] Explore Module** — Heuristic pUIC: Roderick Gao, Esteban Zavala · Model pUIC integration: Lionel Bewa · Chuxi Wang overseeing the integration and guiding Lionel
+> - **[p?] UIC representation** — Simin Li, Raymond Dinh, Sufyan Suliman on Long UIC, Dynamic UIC · Chuxi Wang acting as POC to support these efforts from HF · Alok Malik on OSv2 improvement + upgrading CLR with OSv2
+> - **[p?] LLM pUIC** — Ling Lan on …? · Xiangyi Chen, Logan Jeon on …? · Chuxi Wang on …? · Zelun Wang on …?
+> - **[p?] Feedback Loop** — Andreanne Lemay, Armando Ordorica, Olafur Gudmundsson · J.J Hu to help with analysis and debugging in the L1 experiment
+> - **[p?] Downstream Reward × Retentive Recs** — David Woo, Kelly He, Armando Ordorica
+> - **How to accelerate efforts to have bigger jumps in HF grid and Explore module** — Do not burn Chuxi Wang out, so take things off Chuxi's plate, not add on. Examples of things that can be taken away: ␣ · What is not covered above? What kind of skillset do we need to cover these? ␣
+> - **Suggestion for how we lean in without micromanaging** — Template: *If by X we don't see Y, then we Z.* Example: If by Thanksgiving we don't see positive results, then we go on vacation for 4 weeks.
+
+**James's framing to Alim (4:04 PM, verbatim):** "(1) hopefully this is a good summary of what you and i discussed (minus some details) (2) this might be a good thing to bring up with Anna and Krystal at the next slumber party sync (3) i can help with whichever parts, but it would be a good idea for you to drive the convo (4) for the last part, 'if by x we don't see y then we do z' it can also be a few strawman proposals and let them fill in the blanks."
+
+**Reads (Leo, 8/27):**
+1. **This is the convergence session, PM-facing** — the 8/26 agenda's item 2 ("he runs the convergence session and makes the calls publicly") lands as Alim driving RR priorities with the PM/TPM pair. James's 8/26 answer to "should I insert more?" holds: he wrote the map, Alim carries it.
+2. **The snapshot makes Chuxi's overload legible** — she appears in **five of six areas** (RecGPT novel loss · Explore integration oversight + guiding Lionel · UIC POC · LLM pUIC · plus the pUIC roadmap) and the doc's own bullet says take things off her plate. The "examples of things that can be taken away" blank is the real deliverable Alim owes Monday; the 8/25 burnout flag now has a structural home rather than a feelings home.
+3. **Four of six areas are `[p?]`** — the ask to Anna/Krystal is prioritization, not status. That is the right ask for a PM/TPM sync and the right place for it to come from Alim.
+4. **The "if by X we don't see Y then Z" template is Krystal's double-down/defund date** (open since 8/26) in a form the team writes for itself — strawman proposals, PM fills the blanks. The Thanksgiving joke is the real shape: a dated kill-or-double criterion for model-pUIC. **If Monday produces X/Y/Z for model-pUIC, the 8/26 open item closes.**
+5. **Placements visible here, not yet confirmed as choices:** Roderick Gao + Esteban Zavala on heuristic pUIC in Explore ⟨Roderick's "choice" was still open on Notion — is this it?⟩; **Lionel Bewa** on model-pUIC integration under Chuxi's guidance (the absorption plan's first concrete line); JJ helping with L1-experiment analysis/debugging in the Feedback Loop.
+6. **New names to the repo:** Xiangyi Chen, Logan Jeon (LLM pUIC), David Woo, Kelly He (Downstream Reward). Simin/Raymond Dinh/Sufyan = Yingjian's UU team (stakeholders §43).
+
+**Open:** the filled-in version (Alim, by Mon 8/31); whether Chuxi's "take-away" list names anything concrete; Krystal's X/Y/Z; what the rest of the 8/26 hour covered (lunch debrief, "the nervous part," Alok↔Chuxi — Alok confirmed fine 8/27 separately).
 
 ### 2026-08-26 — the staffing question, answered (James asked "should I throw more people/attempts at pUIC?" after Andrew's 8/25 "main bet" note)
 

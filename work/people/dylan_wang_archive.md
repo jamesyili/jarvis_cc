@@ -2790,6 +2790,12 @@ James (12:27 PM DM): Dafang can't spend much time on Reflex, "things are getting
 
 **The lunch (James + Dylan + Alim, 1.5h, in person):** "really nice… a great conversation." James on Dylan afterward: "a really smart, talented individual who also knows how to work with people… I felt bad for her… I don't want to make her life harder than it is."
 
+**Lunch color (James, 8/27 evening):** stories and laughter, good paella, **Dylan paid.** "Quite charming and smart." One moment of **genuine emotion from her over the Mexico layoff** — Francisco and the rest of his team. James saw it directly; it wasn't performed for the room. Read: the trust-deposit direction is hers → James this time (she let him see it, with Alim present); file under the same "don't make her life harder" rule — the response is fewer, cleaner asks, not solicitude.
+
+**The 8/25 3-way, as of 8/27:** neither Dylan nor Dafang replied. Dafang is now OOO; Dylan either moved on or will raise it later. James: "Whatever, I will gas Reflex anyways." Consistent with the 8/26 bandwidth read — the H2 definition is on record regardless, which was the point of writing it.
+
+**Next artifact for her — the Org Setup summary (Notion: "Write / prepare summary for Dylan discussion and feedback"): James writes it Sat 8/29.** Leo's standing input: it's the place to settle the pre-announcement-runway framing post-layoff (team hears new managers before end of Sept; pre-empt "who's next"), and to carry the pre-packaged decisions (Kim 9/11, Roderick/Balaji choices, Alim's cadence) rather than open questions.
+
 **Leo notes (8/26):**
 - **Re-read the week's silences.** No reaction yet to "Reflex folds into Shifu," the 3-way not moved — bandwidth, not signal. Don't infer a position from a delay this week.
 - **"Don't make her life harder" ≠ go quiet.** The way to lighten her load is fewer, cleaner items — decisions pre-packaged with a recommendation — not fewer decisions brought. Going quiet on things only she can decide makes her life harder later.

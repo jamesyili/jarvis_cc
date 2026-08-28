@@ -289,14 +289,14 @@ Not execution — that question is closed (led rec teams at ByteDance; built the
 
 **The ladder (double-OOO-proof):**
 1. **By Fri 8/21 — contact, not content:** meet Yali + Hedi; top challenges, top opportunities, some history; leave Yali a **written question list** (his channel) for the RecGPT-path-vs-L2-collaboration-path call — constraints, serving costs, what each path requires, her lean and why.
-2. **8/21–8/29 — Yali's window:** she answers in writing (the inputs packet) before her own OOO. James pre-frames her + Hedi early this week: *"Daniel led this class of systems at ByteDance; he's driving the UPP-onboarding recommendation with you."*
+2. **8/21–8/29 — Yali's window:** he answers in writing (the inputs packet) before his own OOO. James pre-frames him + Hedi early this week: *"Daniel led this class of systems at ByteDance; he's driving the UPP-onboarding recommendation with you."*
 3. **8/31–9/11 — both dark:** nothing happens; nothing needs to.
 4. **9/14 — Daniel remote (China):** starts with **Hedi first** (Yali out to 9/18); drafts against the packet.
 5. **9/18–9/25:** Yali back; async review round (China-morning / US-afternoon overlap if a call helps).
 6. **Late Sept — the deliverable:** a **written technical opinion on the LWS roadmap**, specifically **LWS × UPP integration: RecGPT path vs. L2 collaboration path** — tradeoffs, recommendation, phased plan. **Decision with James first week of October** — the same week as Alim's CLR gate; one decision week for both EMs.
 7. **Mid-October success criterion (James's words):** people feel his presence in the area — landed technical suggestions, James 90% hands-off, people still happy. Measured, not vibed: October skip-levels with Yali + Hedi, plus the EVS read.
 
-**Coverage fix, before Friday:** Daniel's 8/11 coverage doc names Yali as LWS DRI — she's out for two of his three dark weeks, leaving the gains engine unowned 8/31–9/11. Name the backstop (Hedi is the natural one), who chairs the Monday-noon sync in the window, and where LWS escalations route.
+**Coverage fix, before Friday:** Daniel's 8/11 coverage doc names Yali as LWS DRI — he's out for two of Daniel's three dark weeks, leaving the gains engine unowned 8/31–9/11. Name the backstop (Hedi is the natural one), who chairs the Monday-noon sync in the window, and where LWS escalations route.
 
 **Watch:** the RecGPT path puts Daniel in working contact with **Bella** — his one energized GenRet hesitation. Those conversations are a quiet live test of that working relationship, a direct T2 input. And RecGPT-path exploration must never read as GenRet placement signal — the no-trophy discipline holds.
 
