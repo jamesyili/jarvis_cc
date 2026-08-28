@@ -1,0 +1,43 @@
+{
+  "tool": "org_planner",
+  "as_of": "2026-08-01",
+  "name": "scenario_8",
+  "saved_at": "2026-08-28T00:00:00.000Z",
+  "derived_from": "scenario_6",
+  "note": "Sc 6 + James's 8/28 adjustment: Ryan Kam moves Alim/CLR -> Daniel/LWS (Ryan + Rui want to work together on LWS + L1 utility); the Zili LWS backfill seat moves Daniel -> Alim to keep both EMs at 12. 'Zili Li' is the token for that backfill seat (her own line stays James through the PIP case).",
+  "assign": {
+    "Piyush Maheshwari": "James",
+    "Bella Huang": "James",
+    "Balaji Rengarajan": "Daniel",
+    "Devin Kreuzer": "Alim",
+    "Ryan Kam": "Daniel",
+    "J.J. Hu": "James",
+    "Yali Bian": "Daniel",
+    "Hedi Xia": "Daniel",
+    "Yuke Yan": "Alim",
+    "Zihao Chen": "James",
+    "Roderick Gao": "Daniel",
+    "Esteban Zavala": "Daniel",
+    "Yiping Wang": "Daniel",
+    "Yang Liu": "Alim",
+    "Kim Toy": "Alim",
+    "Yongwoo Noh": "Daniel",
+    "Nima Sheikholeslami": "Alim",
+    "Rui Wang": "Daniel",
+    "Alok Malik": "Alim",
+    "Zili Li": "Alim",
+    "Hanlin Lu": "Alim",
+    "Chuxi Wang": "Alim",
+    "Lionel Bewa": "Alim",
+    "Ling Lan": "Daniel",
+    "Felix Yang": "Daniel",
+    "Yichi Wang": "Alim",
+    "Yidi Wang": "Alim",
+    "REQ-2 (open)": "Daniel"
+  },
+  "workstreams": {
+    "LWS": ["Yali", "Hedi", "Rui", "Ryan"],
+    "CLR": ["Devin", "Yichi", "Nima"]
+  },
+  "capacity": {}
+}
