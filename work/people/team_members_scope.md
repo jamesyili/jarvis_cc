@@ -384,6 +384,7 @@ Cross-org lanes: **NLFU** (James front door; named deliverables on existing engi
 - **Workstream:** CLR (in the UPP+CLR=7 pool; moves with CLR → Alim at T2, settled 8/21)
 - **1:1:** biweekly already (recorded 8/23 — no slot was on file; the calendar shows a [2W] Yichi Thu) → 3w from Oct
 - **Context:** cited as CLR "bench gravity" (with Devin/Nima) in the 8/16 CLR-vs-RecGPT decision. **No 1:1 intel, growth read, or perf context exists anywhere in the repo** — first refresh = James dictates one paragraph (role on CLR, level trajectory, how he's doing, anything the announcement convo needs).
+- **2026-08-28 — stated preference (input, not a commitment; James-heard):** happy on CLR · **eventually wants more UPP work** · **fine reporting to Alim**. First preference datapoint on file for him. Consistent with the settled board (CLR → Alim), so it costs nothing now; the UPP want is the thing to hold — UPP sits on James's line (Piyush, Zihao) and the CLR+UPP=7 pool is the seam where that could be honoured without a line move.
 
 ### David — DEPARTED
 - **Status:** Gone (departed ~April–June 2026; negotiated a 2-month extension to his vesting cliff). Not on the 7/15 roster of 26. Cited alongside Sophia as churn context in the H1 self-review.
@@ -594,6 +595,7 @@ That would turn a strong emerging IC16 case into a durable one.
 ### Roderick Gao — L15, SWE — Unified Explore Backend lead
 - **Workstream:** 8/10 (w/ Lionel + Esteban; Ling named as his platform-build partner)
 - **T2:** **moves with UEB to Alim in every scenario** — but *contested*: Daniel wants to keep him (all three of his 8/19 scenarios) and reported an "off UEB post-Q3, stays Daniel's line" preference that is **Daniel-sourced and uncorroborated**; it collides with James's 8/10 word ("your deepest priority will always be UEB"). **Roderick → Daniel is arithmetically blocked** (cap 13) unless something displaces. Needs **his own voice** before any board relies on it.
+- **2026-08-28 — second secondhand datapoint, same direction (JJ → James):** JJ reports Roderick **really wants to continue reporting to Daniel**. This *partially* answers the "uncorroborated" flag: two independent relays (Daniel 8/19, JJ 8/28) now point the same way, and JJ does not carry Daniel's self-interest in the answer — so the confound is reduced, not removed. **Still not his own voice; the gate does not move.** **James's stance (8/28): let Roderick come to him — no summons, no prompting.** Until then the board keeps him where the criteria put him, and the 8/10 word stands. ⚠️ Also still open: the **Tue 8/25 1:30 "choice conversation"** outcome was never captured — if that call happened, an own-voice datapoint may already exist and simply be unfiled.
 - **1:1 w/ James:** first skip-level 8/10 done; **Tue 8/25 1:30 = the choice conversation** → recurring 2w 30m → 3w from Oct. Named buddy for Lionel as the org settles.
 - **Notes (8/10 skip-level, as filed):** Tue 8/25 choice convo → section
 
@@ -668,11 +670,13 @@ That would turn a strong emerging IC16 case into a durable one.
 - **Workstream (current, per 7/15 roster):** **CLR · LWS (dev-velocity focused)** — supersedes the earlier "GULP/CLR with Devin, spare bandwidth to UPP infra" and the v1 table's "ML Infrastructure ⟨reconfirm⟩", which is now resolved.
 - **Context:** Provides the CLR coverage hedge behind Devin.
 - **2026-08-21/23 update:** in the UPP+CLR=7 pool → **moves with CLR to Alim at T2**. Cadence: **W → 2w now** (James 8/23: few topics at weekly; 20m, out of the dying Thu 11:20 stack into the Thu 2:30–4:30 sprint block) → 3w from Oct. No perf/growth read on file since 7/15 — refresh due.
+- **2026-08-28 — stated preference (input, not a commitment):** **he and Rui want to work together on LWS + L1 utility.** Note this is *continuity*, not a new pairing — his 7/15 workstream line is already "CLR · LWS (dev-velocity focused)", and LWS's obligation load runs through L1 utility (8/19 constraint). Honouring it means Ryan → Daniel, which reverses the 8/21 "Ryan full-time CLR (was secondary)" call and drops the UPP+CLR pool to 5. Boarded as `scenario_boards/scenario_8_2026-08-28.json` (a scenario, **not** a decision). ⚠️ Devin was party to the CLR+UPP=7 agreement and loses his full-time hedge here — he hears it from James before it appears on any shared board.
 
 ### Rui Wang (L14, SWE) — joined ~late June 2026
 - **Workstream:** Reflex · L1
 - **Context:** **This is the person prior notes called "Ray"** (dictation/preferred-name artifact, corrected 2026-07-15). One of the two engineers James hired this half ("Ryan and Rui" — the H1 self-review says "Ryan and Ray").
 - **Role in the org design:** **L1 / Real-Time operational owner** under the Foundations & Efficiency charter JJ co-owns (v2 §Calls #4, fork F6 resolved). He is the **day-1 oncall owner for L1/Real-Time** in the no-pager-gap table — the load-bearing reason this name has to be right in the Dylan-facing doc.
+- **2026-08-28 — stated preference (input, not a commitment):** **he and Ryan want to work together on LWS + L1 utility** — see Ryan Kam's entry. Coherent with his existing L1/Real-Time ownership and with LWS's L1-utility obligation load; if honoured, Ryan fills the LWS 5th seat 1-for-1 in place of the Zili backfill.
 - **2026-08-21/23 update:** rides with **LWS → Daniel** in every T2 scenario (LWS = Yali, Hedi, Zili/backfill, Rui, +1). **No standing 1:1 existed (confirmed 8/23) — book a [2W] 30m slot wk 8/24** (⟨the Thu 8/27 1pm slot on the calendar may already be it⟩) → 3w from Oct. No 1:1 intel on file since joining — refresh due.
 
 ---
