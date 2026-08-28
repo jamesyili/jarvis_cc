@@ -9,7 +9,7 @@ Rule vintage tags:
 Severity: BLOCKER (violates settled rule) / FORK (contradicts current evidence or 8/21 decisions)
           / WATCH (design debt, optics, timing)
 """
-import json, sys
+import json, sys, pathlib
 from collections import Counter
 
 FULL2SHORT = {
@@ -36,8 +36,8 @@ FRAGILE = {"Yuke":"active perf case (peer-validation Aug-Sept)","Alok":"high-mai
            "Lionel":"triple-fragility","Chuxi":"ramping first-time ws-TL","Zili":"PIP live / severance-seeking"}
 DAY1_DANIEL = {"Balaji","Kim","Ling","Felix","Yongwoo","Roderick","Esteban","Yang"}
 
-def board(name, assign, capacity=None, note=""):
-    return {"name":name, "assign":assign, "capacity":capacity or {}, "note":note}
+def board(name, assign, capacity=None, note="", ws=None):
+    return {"name":name, "assign":assign, "capacity":capacity or {}, "note":note, "ws":ws or {}}
 
 def mk(james, alim, daniel):
     a={}
@@ -62,15 +62,16 @@ boards.append(board("Sc 4 (IB->Alim, 8/15)", mk(J4+["Kim"],
     ["Chuxi","Yidi","Alok","Roderick","Lionel","Esteban","Devin","Yichi","Ryan","Nima","Balaji","Ling"],
     ["Yali","Hedi","Zili","Rui","Yuke","Hanlin","Yongwoo","Felix","Yiping","Yang","REQ2"])))
 
-for path,nm in [("scenario_5_2026-08-21.json","Sc 5 (new 8/21)"),
-                ("scenario_6_2026-08-21.json","Sc 6 (new 8/21)"),
-                ("scenario_7_2026-08-21.json","Sc 7 (new 8/21)")]:
-    with open(f"/home/james/src/leo/work/people/reorg_july2026/scenario_boards/{path}") as f:
+HERE = pathlib.Path(__file__).resolve().parent
+for path in sorted(HERE.glob("scenario_*.json")):
+    with path.open() as f:
         d=json.load(f)
+    n = d["name"].split("_")[-1]
+    nm = f"Sc {n} ({d['saved_at'][:10]})"
     assign={FULL2SHORT[k]:v for k,v in d["assign"].items()}
     cap={FULL2SHORT.get(k,k):v for k,v in d.get("capacity",{}).items()}
     assert set(assign)==ROSTER, ("roster mismatch", set(assign)^ROSTER)
-    boards.append(board(nm, assign, cap))
+    boards.append(board(nm, assign, cap, d.get("note",""), d.get("workstreams")))
 
 def mgr_of(a, ppl):
     return {p:a[p] for p in ppl}
@@ -108,7 +109,7 @@ def check(b):
     if set(lws_mgrs.values())!={lws_home}: add("WATCH","lws-split","LWS core (Yali/Hedi) split across managers")
     if lws_home!="Daniel": add("FORK","lws-grant",f"LWS -> {lws_home}: reverses the announced T1 grant (Daniel's #1 keep, oncall moved) — needs an explicit walk-back, effectively fenced")
     if a["Rui"]!=lws_home: add("BLOCKER","rui-rides",f"Rui -> {a['Rui']} but LWS sits with {lws_home} — settled: Rui rides with LWS wherever it lands")
-    lws_ppl=[p for p in ["Yali","Hedi","Zili","Rui"] if a[p]==lws_home]
+    lws_ppl=[p for p in b["ws"].get("LWS", ["Yali","Hedi","Zili","Rui"]) if a[p]==lws_home]
     req_lws = (a["REQ2"]==lws_home)
     eff=len(lws_ppl)-(1 if a["Zili"]==lws_home else 0)+(1 if a["Zili"]==lws_home else 0)  # count Zili seat as backfill seat
     staffed=len(lws_ppl)+(1 if req_lws else 0)
@@ -137,7 +138,7 @@ def check(b):
     # --- UPP+CLR = 7 pool [8/21: James/Devin agreement + Yiping as the 7th] ---
     clr_mgrs=mgr_of(a,["Devin","Yichi"])
     clr_home=Counter(clr_mgrs.values()).most_common(1)[0][0]
-    pool=[p for p in ["Devin","Yichi","Ryan","Nima"] if a[p]==clr_home]
+    pool=[p for p in b["ws"].get("CLR", ["Devin","Yichi","Ryan","Nima"]) if a[p]==clr_home]
     pool_n=2+len(pool)+(1 if a["Yiping"]==clr_home else 0)
     if pool_n!=7: add("FORK","pool-7",f"UPP+CLR pool = {pool_n}, target 7 (James/Devin agreement; Piyush+Zihao stay James, rest report to the CLR owner) — Yiping is the designated 7th per 8/21")
     if a["Yiping"]!=clr_home: add("FORK","yiping",f"Yiping -> {a['Yiping']}: contradicts 8/21 'pull Yiping out of RB' + the 8/19 joint decision (RB ramp from 8/24, transition to other efforts ~9/14, standing want = CLR)")

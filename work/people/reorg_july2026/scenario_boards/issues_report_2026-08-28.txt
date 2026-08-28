@@ -1,0 +1,121 @@
+====================================================================================================
+Sc 1 (By Stages, 8/15)   —   James 4 / Alim 13 / Daniel 11
+   issues: 1 blocker / 4 fork / 4 watch
+   [BLOCKER] (cap-12) Alim at 13 — breaches his own <=12 cap (8/19)
+   [FORK   ] (genret-fork) GenRet -> Alim: contradicts BOTH 8/20-21 positions — Alim relinquished RecGPT in writing; Daniel wants the scope (senior-growth motivation, not-Bella; Bella carve already standing)
+   [FORK   ] (roderick) Roderick -> Alim holds the 8/10 UEB-priority word and the UEB spine BUT contradicts Daniel's 8/21 stated want (keep Roderick in all 3 scenarios) — corroborate with Roderick before adjudicating
+   [FORK   ] (pool-7) UPP+CLR pool = 6, target 7 (James/Devin agreement; Piyush+Zihao stay James, rest report to the CLR owner) — Yiping is the designated 7th per 8/21
+   [FORK   ] (yiping) Yiping -> Daniel: contradicts 8/21 'pull Yiping out of RB' + the 8/19 joint decision (RB ramp from 8/24, transition to other efforts ~9/14, standing want = CLR)
+   [WATCH  ] (kim-lanes) Kim on Alim/RR: Chuxi/Kim named-lanes charter (Chuxi ws-TL, Kim explorative-pUIC spine) due before ~9/14 announcement; Olafur anchor ask attached; Kim's own 9/11 confirmation still gates
+   [WATCH  ] (zili-case) Zili -> Daniel: her line stays James through the PIP case — placement is post-resolution only, and she is severance-seeking, so this seat is really 'backfill (open)'
+   [WATCH  ] (yuke-timing) Yuke's move lands on a new-to-him manager mid perf-arc — any transfer >=9/14 only (peer-validation Aug-Sept load-bearing)
+   [WATCH  ] (fragile-stack) Fragile stack on the day-~180 remote EM: 4 — Yuke (active perf case (peer-validation Aug-Sept)); Alok (high-maintenance); Lionel (triple-fragility); Chuxi (ramping first-time ws-TL)
+====================================================================================================
+Sc 2 (Barbell/spine, 8/15)   —   James 4 / Alim 11 / Daniel 13
+   issues: 1 blocker / 3 fork / 5 watch
+   [BLOCKER] (cap-12) Daniel at 13 — breaches his own <=12 cap (8/19)
+   [FORK   ] (roderick) Roderick -> Alim holds the 8/10 UEB-priority word and the UEB spine BUT contradicts Daniel's 8/21 stated want (keep Roderick in all 3 scenarios) — corroborate with Roderick before adjudicating
+   [FORK   ] (pool-7) UPP+CLR pool = 6, target 7 (James/Devin agreement; Piyush+Zihao stay James, rest report to the CLR owner) — Yiping is the designated 7th per 8/21
+   [FORK   ] (yiping) Yiping -> Daniel: contradicts 8/21 'pull Yiping out of RB' + the 8/19 joint decision (RB ramp from 8/24, transition to other efforts ~9/14, standing want = CLR)
+   [WATCH  ] (kim-lanes) Kim on Alim/RR: Chuxi/Kim named-lanes charter (Chuxi ws-TL, Kim explorative-pUIC spine) due before ~9/14 announcement; Olafur anchor ask attached; Kim's own 9/11 confirmation still gates
+   [WATCH  ] (zili-case) Zili -> Daniel: her line stays James through the PIP case — placement is post-resolution only, and she is severance-seeking, so this seat is really 'backfill (open)'
+   [WATCH  ] (yuke-timing) Yuke -> Daniel: transfer >=9/14 only (peer-validation Aug-Sept)
+   [WATCH  ] (fragile-stack) Fragile stack on the day-~180 remote EM: 3 — Alok (high-maintenance); Lionel (triple-fragility); Chuxi (ramping first-time ws-TL)
+   [WATCH  ] (ib-cap) Daniel >=12 with IB (Balaji+Ling) on his line: his own scenarios fit the cap only by pre-deleting IB, which James ruled stays visible through the ~Oct gate — the gate now resolves both IB's home and Daniel's cap
+====================================================================================================
+Sc 3 (LWS<->CLR swap, 8/15)   —   James 4 / Alim 11 / Daniel 13
+   issues: 1 blocker / 3 fork / 5 watch
+   [BLOCKER] (cap-12) Daniel at 13 — breaches his own <=12 cap (8/19)
+   [FORK   ] (lws-grant) LWS -> Alim: reverses the announced T1 grant (Daniel's #1 keep, oncall moved) — needs an explicit walk-back, effectively fenced
+   [FORK   ] (lws-5) LWS staffed at 4 incl. req (REQ-2 elsewhere) — 8/21 target is 5 (Yali, Hedi, Zili/backfill, Rui, +1 MLE); 8/19 note said +2-3 needed (highest Pinterest-wide obligation load)
+   [FORK   ] (roderick) Roderick -> Alim holds the 8/10 UEB-priority word and the UEB spine BUT contradicts Daniel's 8/21 stated want (keep Roderick in all 3 scenarios) — corroborate with Roderick before adjudicating
+   [WATCH  ] (kim-lanes) Kim on Alim/RR: Chuxi/Kim named-lanes charter (Chuxi ws-TL, Kim explorative-pUIC spine) due before ~9/14 announcement; Olafur anchor ask attached; Kim's own 9/11 confirmation still gates
+   [WATCH  ] (zili-case) Zili -> Alim: her line stays James through the PIP case — placement is post-resolution only, and she is severance-seeking, so this seat is really 'backfill (open)'
+   [WATCH  ] (yuke-timing) Yuke -> Daniel: transfer >=9/14 only (peer-validation Aug-Sept)
+   [WATCH  ] (fragile-stack) Fragile stack on the day-~180 remote EM: 4 — Alok (high-maintenance); Lionel (triple-fragility); Chuxi (ramping first-time ws-TL); Zili (PIP live / severance-seeking)
+   [WATCH  ] (ib-cap) Daniel >=12 with IB (Balaji+Ling) on his line: his own scenarios fit the cap only by pre-deleting IB, which James ruled stays visible through the ~Oct gate — the gate now resolves both IB's home and Daniel's cap
+====================================================================================================
+Sc 4 (IB->Alim, 8/15)   —   James 5 / Alim 12 / Daniel 11
+   issues: 0 blocker / 4 fork / 5 watch
+   [FORK   ] (kim-seat) Kim on James = 100%-UPP-shaped seat — violates her stated not-100%-UPP line AND the 8/21 decision (Kim -> RR under Alim)
+   [FORK   ] (roderick) Roderick -> Alim holds the 8/10 UEB-priority word and the UEB spine BUT contradicts Daniel's 8/21 stated want (keep Roderick in all 3 scenarios) — corroborate with Roderick before adjudicating
+   [FORK   ] (pool-7) UPP+CLR pool = 6, target 7 (James/Devin agreement; Piyush+Zihao stay James, rest report to the CLR owner) — Yiping is the designated 7th per 8/21
+   [FORK   ] (yiping) Yiping -> Daniel: contradicts 8/21 'pull Yiping out of RB' + the 8/19 joint decision (RB ramp from 8/24, transition to other efforts ~9/14, standing want = CLR)
+   [WATCH  ] (cap-12) Alim at exactly 12 — zero headroom (LWS +1 req, Zili backfill, or any future add breaches)
+   [WATCH  ] (zili-case) Zili -> Daniel: her line stays James through the PIP case — placement is post-resolution only, and she is severance-seeking, so this seat is really 'backfill (open)'
+   [WATCH  ] (yuke-timing) Yuke -> Daniel: transfer >=9/14 only (peer-validation Aug-Sept)
+   [WATCH  ] (fragile-stack) Fragile stack on the day-~180 remote EM: 3 — Alok (high-maintenance); Lionel (triple-fragility); Chuxi (ramping first-time ws-TL)
+   [WATCH  ] (carve-optics) 5 of Daniel's day-1 roster leave his line (Balaji, Esteban, Kim, Ling, Roderick) — the planner's own bad-optics banner fired at 4 (Kim's exit is forced by the confidential constraint; still counts in the optics)
+====================================================================================================
+Sc 5 (2026-08-21)   —   James 4 / Alim 11 / Daniel 13
+   issues: 1 blocker / 4 fork / 7 watch
+   [BLOCKER] (cap-12) Daniel at 13 — breaches his own <=12 cap (8/19)
+   [FORK   ] (lws-5) LWS staffed at 4 incl. req (REQ-2 elsewhere) — 8/21 target is 5 (Yali, Hedi, Zili/backfill, Rui, +1 MLE); 8/19 note said +2-3 needed (highest Pinterest-wide obligation load)
+   [FORK   ] (roderick) Roderick -> Daniel honors Daniel's keep-him-in-all-3 want BUT: (a) needs Roderick's own voice — the off-UEB-post-Q3 row is Daniel-sourced, uncorroborated, skip-level pending; (b) requires James to explicitly walk back his 8/10 word to Roderick ('your deepest priority will always be UEB'); (c) guts UEB's systems spine on Alim's weakest axis
+   [FORK   ] (pool-7) UPP+CLR pool = 6, target 7 (James/Devin agreement; Piyush+Zihao stay James, rest report to the CLR owner) — Yiping is the designated 7th per 8/21
+   [FORK   ] (yiping) Yiping -> Daniel: contradicts 8/21 'pull Yiping out of RB' + the 8/19 joint decision (RB ramp from 8/24, transition to other efforts ~9/14, standing want = CLR)
+   [WATCH  ] (kim-lanes) Kim on Alim/RR: Chuxi/Kim named-lanes charter (Chuxi ws-TL, Kim explorative-pUIC spine) due before ~9/14 announcement; Olafur anchor ask attached; Kim's own 9/11 confirmation still gates
+   [WATCH  ] (zili-case) Zili -> Daniel: her line stays James through the PIP case — placement is post-resolution only, and she is severance-seeking, so this seat is really 'backfill (open)'
+   [WATCH  ] (yuke-timing) Yuke -> Daniel: transfer >=9/14 only (peer-validation Aug-Sept)
+   [WATCH  ] (ueb-split) UEB split {'Roderick': 'Daniel', 'Lionel': 'Alim', 'Esteban': 'Daniel'} — 8/15: Esteban moves with UEB; Roderick is the systems spine; a split leaves the charter ambiguous (who owns UEB?) and orphans the remainder
+   [WATCH  ] (fragile-stack) Fragile stack on the day-~180 remote EM: 3 — Alok (high-maintenance); Lionel (triple-fragility); Chuxi (ramping first-time ws-TL)
+   [WATCH  ] (yang-leave) Yang -> Alim: manager change executed mid-leave — he is out of H2 entirely, returns to a manager he has never met; also inflates Alim's paper headcount with zero H2 capacity
+   [WATCH  ] (ib-cap) Daniel >=12 with IB (Balaji+Ling) on his line: his own scenarios fit the cap only by pre-deleting IB, which James ruled stays visible through the ~Oct gate — the gate now resolves both IB's home and Daniel's cap
+====================================================================================================
+Sc 6 (2026-08-21)   —   James 4 / Alim 12 / Daniel 12
+   issues: 0 blocker / 4 fork / 9 watch
+   [FORK   ] (genret-fork) GenRet -> Alim: contradicts BOTH 8/20-21 positions — Alim relinquished RecGPT in writing; Daniel wants the scope (senior-growth motivation, not-Bella; Bella carve already standing)
+   [FORK   ] (roderick) Roderick -> Daniel honors Daniel's keep-him-in-all-3 want BUT: (a) needs Roderick's own voice — the off-UEB-post-Q3 row is Daniel-sourced, uncorroborated, skip-level pending; (b) requires James to explicitly walk back his 8/10 word to Roderick ('your deepest priority will always be UEB'); (c) guts UEB's systems spine on Alim's weakest axis
+   [FORK   ] (pool-7) UPP+CLR pool = 6, target 7 (James/Devin agreement; Piyush+Zihao stay James, rest report to the CLR owner) — Yiping is the designated 7th per 8/21
+   [FORK   ] (yiping) Yiping -> Daniel: contradicts 8/21 'pull Yiping out of RB' + the 8/19 joint decision (RB ramp from 8/24, transition to other efforts ~9/14, standing want = CLR)
+   [WATCH  ] (cap-12) Alim at exactly 12 — zero headroom (LWS +1 req, Zili backfill, or any future add breaches)
+   [WATCH  ] (cap-12) Daniel at exactly 12 — zero headroom (LWS +1 req, Zili backfill, or any future add breaches)
+   [WATCH  ] (kim-lanes) Kim on Alim/RR: Chuxi/Kim named-lanes charter (Chuxi ws-TL, Kim explorative-pUIC spine) due before ~9/14 announcement; Olafur anchor ask attached; Kim's own 9/11 confirmation still gates
+   [WATCH  ] (zili-case) Zili -> Daniel: her line stays James through the PIP case — placement is post-resolution only, and she is severance-seeking, so this seat is really 'backfill (open)'
+   [WATCH  ] (yuke-timing) Yuke's move lands on a new-to-him manager mid perf-arc — any transfer >=9/14 only (peer-validation Aug-Sept load-bearing)
+   [WATCH  ] (ueb-split) UEB split {'Roderick': 'Daniel', 'Lionel': 'Alim', 'Esteban': 'Daniel'} — 8/15: Esteban moves with UEB; Roderick is the systems spine; a split leaves the charter ambiguous (who owns UEB?) and orphans the remainder
+   [WATCH  ] (fragile-stack) Fragile stack on the day-~180 remote EM: 4 — Yuke (active perf case (peer-validation Aug-Sept)); Alok (high-maintenance); Lionel (triple-fragility); Chuxi (ramping first-time ws-TL)
+   [WATCH  ] (yang-leave) Yang -> Alim: manager change executed mid-leave — he is out of H2 entirely, returns to a manager he has never met; also inflates Alim's paper headcount with zero H2 capacity
+   [WATCH  ] (ib-cap) Daniel >=12 with IB (Balaji+Ling) on his line: his own scenarios fit the cap only by pre-deleting IB, which James ruled stays visible through the ~Oct gate — the gate now resolves both IB's home and Daniel's cap
+====================================================================================================
+Sc 7 (2026-08-21)   —   James 4 / Alim 12 / Daniel 12   capacity overrides: {'Kim': 1, 'Yang': 1}
+   issues: 0 blocker / 3 fork / 10 watch
+   [FORK   ] (roderick) Roderick -> Alim holds the 8/10 UEB-priority word and the UEB spine BUT contradicts Daniel's 8/21 stated want (keep Roderick in all 3 scenarios) — corroborate with Roderick before adjudicating
+   [FORK   ] (pool-7) UPP+CLR pool = 6, target 7 (James/Devin agreement; Piyush+Zihao stay James, rest report to the CLR owner) — Yiping is the designated 7th per 8/21
+   [FORK   ] (yiping) Yiping -> Daniel: contradicts 8/21 'pull Yiping out of RB' + the 8/19 joint decision (RB ramp from 8/24, transition to other efforts ~9/14, standing want = CLR)
+   [WATCH  ] (cap-12) Alim at exactly 12 — zero headroom (LWS +1 req, Zili backfill, or any future add breaches)
+   [WATCH  ] (cap-12) Daniel at exactly 12 — zero headroom (LWS +1 req, Zili backfill, or any future add breaches)
+   [WATCH  ] (kim-lanes) Kim on Alim/RR: Chuxi/Kim named-lanes charter (Chuxi ws-TL, Kim explorative-pUIC spine) due before ~9/14 announcement; Olafur anchor ask attached; Kim's own 9/11 confirmation still gates
+   [WATCH  ] (zili-case) Zili -> Daniel: her line stays James through the PIP case — placement is post-resolution only, and she is severance-seeking, so this seat is really 'backfill (open)'
+   [WATCH  ] (yuke-timing) Yuke -> Daniel: transfer >=9/14 only (peer-validation Aug-Sept)
+   [WATCH  ] (fragile-stack) Fragile stack on the day-~180 remote EM: 3 — Alok (high-maintenance); Lionel (triple-fragility); Chuxi (ramping first-time ws-TL)
+   [WATCH  ] (yang-leave) Yang -> Alim: manager change executed mid-leave — he is out of H2 entirely, returns to a manager he has never met; also inflates Alim's paper headcount with zero H2 capacity
+   [WATCH  ] (yang-cap) Board counts Yang at capacity 1.0 — overstates real H2 capacity (he is out of H2)
+   [WATCH  ] (carve-optics) 4 of Daniel's day-1 roster leave his line (Esteban, Kim, Roderick, Yang) — the planner's own bad-optics banner fired at 4 (Kim's exit is forced by the confidential constraint; still counts in the optics)
+   [WATCH  ] (ib-cap) Daniel >=12 with IB (Balaji+Ling) on his line: his own scenarios fit the cap only by pre-deleting IB, which James ruled stays visible through the ~Oct gate — the gate now resolves both IB's home and Daniel's cap
+====================================================================================================
+Sc 8 (2026-08-28)   —   James 4 / Alim 12 / Daniel 12
+   issues: 0 blocker / 4 fork / 9 watch
+   [FORK   ] (genret-fork) GenRet -> Alim: contradicts BOTH 8/20-21 positions — Alim relinquished RecGPT in writing; Daniel wants the scope (senior-growth motivation, not-Bella; Bella carve already standing)
+   [FORK   ] (roderick) Roderick -> Daniel honors Daniel's keep-him-in-all-3 want BUT: (a) needs Roderick's own voice — the off-UEB-post-Q3 row is Daniel-sourced, uncorroborated, skip-level pending; (b) requires James to explicitly walk back his 8/10 word to Roderick ('your deepest priority will always be UEB'); (c) guts UEB's systems spine on Alim's weakest axis
+   [FORK   ] (pool-7) UPP+CLR pool = 5, target 7 (James/Devin agreement; Piyush+Zihao stay James, rest report to the CLR owner) — Yiping is the designated 7th per 8/21
+   [FORK   ] (yiping) Yiping -> Daniel: contradicts 8/21 'pull Yiping out of RB' + the 8/19 joint decision (RB ramp from 8/24, transition to other efforts ~9/14, standing want = CLR)
+   [WATCH  ] (cap-12) Alim at exactly 12 — zero headroom (LWS +1 req, Zili backfill, or any future add breaches)
+   [WATCH  ] (cap-12) Daniel at exactly 12 — zero headroom (LWS +1 req, Zili backfill, or any future add breaches)
+   [WATCH  ] (kim-lanes) Kim on Alim/RR: Chuxi/Kim named-lanes charter (Chuxi ws-TL, Kim explorative-pUIC spine) due before ~9/14 announcement; Olafur anchor ask attached; Kim's own 9/11 confirmation still gates
+   [WATCH  ] (zili-case) Zili -> Alim: her line stays James through the PIP case — placement is post-resolution only, and she is severance-seeking, so this seat is really 'backfill (open)'
+   [WATCH  ] (yuke-timing) Yuke's move lands on a new-to-him manager mid perf-arc — any transfer >=9/14 only (peer-validation Aug-Sept load-bearing)
+   [WATCH  ] (ueb-split) UEB split {'Roderick': 'Daniel', 'Lionel': 'Alim', 'Esteban': 'Daniel'} — 8/15: Esteban moves with UEB; Roderick is the systems spine; a split leaves the charter ambiguous (who owns UEB?) and orphans the remainder
+   [WATCH  ] (fragile-stack) Fragile stack on the day-~180 remote EM: 5 — Yuke (active perf case (peer-validation Aug-Sept)); Alok (high-maintenance); Lionel (triple-fragility); Chuxi (ramping first-time ws-TL); Zili (PIP live / severance-seeking)
+   [WATCH  ] (yang-leave) Yang -> Alim: manager change executed mid-leave — he is out of H2 entirely, returns to a manager he has never met; also inflates Alim's paper headcount with zero H2 capacity
+   [WATCH  ] (ib-cap) Daniel >=12 with IB (Balaji+Ling) on his line: his own scenarios fit the cap only by pre-deleting IB, which James ruled stays visible through the ~Oct gate — the gate now resolves both IB's home and Daniel's cap
+====================================================================================================
+SUMMARY  (blockers / forks / watches)
+  Sc 1 (By Stages, 8/15)           J4/A13/D11   1 / 4 / 4
+  Sc 2 (Barbell/spine, 8/15)       J4/A11/D13   1 / 3 / 5
+  Sc 3 (LWS<->CLR swap, 8/15)      J4/A11/D13   1 / 3 / 5
+  Sc 4 (IB->Alim, 8/15)            J5/A12/D11   0 / 4 / 5
+  Sc 5 (2026-08-21)                J4/A11/D13   1 / 4 / 7
+  Sc 6 (2026-08-21)                J4/A12/D12   0 / 4 / 9
+  Sc 7 (2026-08-21)                J4/A12/D12   0 / 3 / 10
+  Sc 8 (2026-08-28)                J4/A12/D12   0 / 4 / 9
