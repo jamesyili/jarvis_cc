@@ -238,6 +238,8 @@ Markdown
 - Taking on too much personally and degrading quality or calm.
 
 ## Operating plan (how I work with Dylan)
+
+> **Standing 1:1 theme from 2026-08-28 (James):** wean the org off its dependence on him — every 1:1 carries one concrete instance of someone else driving (Alim / JJ / Tim / Daniel) and what James did to make room; never narrated, never "I'll lean in more." Detail + per-1:1 rule: `dylan_wang_archive.md` Part I 8/28.
 - **Default artifact:** 6-bullet update
   - *So what / Progress / Risks / Decision needed / Ask / Next milestone*
 - **Cadence (proposed):**
@@ -1804,6 +1806,8 @@ Full day in the James/Piyush/Matt/Sai group DM (verbatim + reads: `work/projects
 ---
 
 # 28) Dafang He — Reflex TL + Search CLR Lead (added 2026-04-11, MAJOR UPGRADE 2026-05-31)
+
+> **2026-08-28 — repair owed.** James's own verdict on the 8/25 Reflex call-out + same-hour DM to Dylan: "I came down too hard… the escalation was probably unwarranted." Dafang is OOO (family — Bella's, 🔒 detail). **When he's back: one direct conversation, not Slack, not about Reflex** — went to Dylan fast, should have talked to him first, tell me what you're holding. No mention of the emergency unless he raises it. Relationship bruised, not broken (he defended himself to Dylan — "many people involved" — and went home). Full record: `../projects/reflex/program_state.md` 8/25 + 8/28. **Tim's read (8/25 DM):** worries about Dafang's ability to influence technical direction and people; can't tell if bandwidth / belief / unclear uber-TL role / doesn't know how to make impact / development area — an open diagnosis, not a verdict; Tim also thought the 8/25 call-out "came at a needed time."
 
 ## 2026-05-31 scope upgrade — Reflex overall TL
 

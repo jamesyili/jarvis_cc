@@ -749,3 +749,19 @@ The 6/28 wanting question — *what do I want that isn't the scoreboard's* — h
 **Leo's note (brief):** The session worked because James asked for depth and the tactical contract was suspended on his explicit instruction — the compounding-assets file stayed closed after the first turn. Method notes for recurrence: the descent ran on *his own sentences handed back* (three tells), one question per turn, ugly-version-first; the two deepest layers surfaced in Chinese and the pivot from memory-retrieval ("a proud moment") to live-detection ("where does time disappear") is what broke the archivist deadlock — remember that move. Watch-items: (1) "best in the world" will re-arrive in ranking currency some weeks — the anonymity test is the sorter, and he only half-ran it tonight; (2) the ruling is Leo-drafted from his words — it counts when *he* says it under load, not before; the "right?" tic (handing the gavel to Leo) appeared four times tonight and is the same vacant bench with a friendlier occupant.
 
 **Connections:** 3/27 (the sensor's first mapped firing — "ranking, about being enough"; Cheng Ju origin) · 6/28 (the wanting question — first real answer tonight) · 8/14 (the counterfactual answered; compounding_assets born; this entry is that session's missing half: it answers "what is this feeling" where that one answered "what do I do") · `work/career/compounding_assets.md` (the move list; this entry now holds the mechanism map + handle) · `system/instincts/lead-with-next-best-move.md` (carve-out extended: an explicit "stay in the feeling" suspends the move list entirely) · [[separate-real-seed-from-engine-embellishment]] (the status-want was named without being shamed; the mastery seed inside it was real) · [[plain-language-on-emotional-topics]]
+
+## 2026-08-28 — "I came down too hard": the Dafang call-out, and the theme it turns into
+
+*(Friday morning, remote, before a wall-to-wall office day. Opened as unease — "paranoid, or something else?" — and located within three exchanges: not the calendar, not the layoff, but Tuesday 8/25.)*
+
+**The event, in my words:** Dafang was trying to drive Reflex and wasn't doing well. I came down too hard in the sync, and I DM'd Dylan within the hour — "things are getting really stalled." The escalation was probably unwarranted. There were other ways this could have gone. That's my mistake. I won't apologize for it; it's about how I move forward.
+
+**The connection I made myself:** this is the eggshells feedback (Feb 3 "limiting ceiling"; the April PM tone note) showing up again — directness landing as force on someone without trust built, or under strain. It's legitimate. The new part is that I caught it in 72 hours instead of hearing it from Dylan in a review.
+
+**What it turns into — a standing theme for my 1:1s with Dylan:** how to wean the organization off its dependence on me. Get everyone used to me not being the one driving, and let the real drivers come out of the woodwork. Leo's line, which I'll keep: *the mistake and the theme are the same object — drivers only come out of the woodwork if the first one who tries and drives badly isn't flattened.* "I'll lean in more" is the reflex this theme exists to retire.
+
+**The handle:** talk to the person before their manager, and never in the same hour as the meeting. (Sibling of 8/22's "buys closeness with intel instead of judgment" — this one buys relief with escalation. Same fix: the pause.)
+
+**Status:** PROVISIONAL — one instance, self-diagnosed. Confirm against the Dafang conversation when he's back and against whether the 1:1 theme actually gets a concrete instance each fortnight through September; demote if it stays a sentence.
+
+**Connections:** Feb 3 maturity-ceiling feedback (`dylan_wang_archive.md` Part II) · 8/22 flashpoint self-review (the info-brokering pattern) · 8/9 (the engine swap — "who can I grow"; this is the first time it cost me something to forget) · Dylan H1 Q2 (scale through others).

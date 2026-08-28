@@ -86,6 +86,7 @@ For multiple files, build one combined .md (demote each file's H1 to H2) in the 
 - No tone calibration, no body rewriting, no signature. Treat the file as-is.
 - Don't ask "are you sure?" before sending. James asked; send it.
 - One confirmation line on success. No essay.
+- **Ephemeral artifacts (James 2026-08-28: "no need to keep the Dylan 1:1 prep artifacts"):** when James wants a file emailed but not kept, write it inside the repo, send, then delete it in the same turn — `common.py` computes repo-relative paths for the outbound log, so a scratchpad path can crash it. Say "sent, file removed" and leave the debrief content in the routed context file (archive/program_state), never in the deleted prep.
 - If James asks to send to someone else, redirect: "That's `/draft-email` territory — `/send-me` is for emailing yourself."
 - If James wants the file in Drive instead, redirect: "Use `/save-to-drive` for that."
 

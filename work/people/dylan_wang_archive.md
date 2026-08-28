@@ -11,6 +11,25 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-08-28 — STANDING 1:1 THEME set by James: wean the org off its dependence on him; the Dafang self-assessment; Dylan knows about Bella + Dafang
+
+**The theme (James, Fri 8/28 — "note this down"):** *"One persistent theme I should be building into my 1:1s with Dylan going forward is how to wean the organization off its reluctance or its dependence on me. How to slowly get everyone used to the fact that I'm not the one driving it forward, and for the real drivers to come out of the woodwork."* → **Standing agenda thread from 9/1 on.** It is her own H2 growth note for him (scale through others; don't carry every high-stakes thread) restated as his project, so every 1:1 should carry one concrete instance: who drove something this fortnight that James didn't, and what James did to make room. `prep` should surface a candidate each time (Alim on the RR snapshot/Slumber Party · JJ on the Shifu decision · Tim on the schedule · Daniel on LWS). The counter-example to keep in view is 8/25 — "I'll lean in more" is the reflex this theme exists to retire.
+
+**The Dafang incident, James's own verdict (8/28):** came down too hard on someone who was trying to drive and not doing well; the escalation to Dylan was probably unwarranted; no apology — forward motion. Full self-assessment + repair plan in `../projects/reflex/program_state.md` 8/28. For this file: **don't reopen it with her, don't apologize**; the repair she sees is the next few weeks' shape (JJ/Tim/Daniel driving, James making room), which is exactly the standing theme above. One sentence if she raises it.
+
+**Correction (James, 8/28): Dylan almost certainly knows Bella and Dafang are married** — long-standing, in her own org's orbit ("she was probably invited to the wedding"). The 8/22 "Dylan does not know" line was Leo's inference. Consequences: (a) the disclosure-trigger question is moot; (b) **re-read her 8/25 3-way with that context** — "Dafang needs to focus more time in L3… seems this should be a short term few weeks focus" is bounded cover for a man whose household is in crisis, ruled by someone who knew; her question to James ("what would be missing?") was her way of moving the load off Dafang without saying why. That makes James's same-hour escalation land worse in her eyes than the record assumed — and makes "she took you to lunch the next day" a stronger signal that it didn't cost him.
+
+## 2026-08-24 — 1:1 outcome (filed 8/28 from James's account): she went technical on RecGPT-L1 and structural on "how are you thinking about structuring things"
+
+Filed four days late — James recounted it Fri 8/28 morning while asking what Dylan most wants to hear on Tue 9/1. The six-topic pre-read built 8/22 (prep file since removed, 8/28 — in git history) was not the meeting that happened.
+
+- **RecGPT as L1 (and L0):** she asked a run of skeptical technical questions. James didn't have the answers — the evidence is from the Notification surface and he hadn't read the detail. He felt defensive / on his toes; had prepped strategically, not technically. ⟨Leo read: this seam is where Matt (one of her favorite ICs) got anxious 8/20 and Dhruvil got looped 8/21 — she plausibly heard the ranking-side version first and was checking whether James had done the work. Her "in the room when I'm not" bar is Piyush, who has that detail cold. Trust not dented — she opened the 3-way to him the next day and built the lunch — but the gap gets charged again only if it isn't closed before 9/1.⟩
+- **UPP:** what it means, potential escalation — pre-dated Sai's 8/25 approval of v0 on P2P (escalation now moot; she should hear that as a no-action line).
+- **Early reads of Alim and Daniel:** James went into detail; she cut across with **"How are you thinking about structuring things?"** ⟨= the 7/14 "your own clock" grant coming due; not surprise, the invoice.⟩ **James promised the next 1:1 (Tue 9/1) covers "how we're thinking about things right now"** — the Sat 8/29 Org Setup summary is that artifact.
+- Nothing else discussed. Not covered from the pre-read: CQ/T&S narration, Curation ML close, T2 standing items, the Dafang trigger question.
+
+**Plan for 9/1 (Leo, 8/28):** Monday async = the RecGPT-L1 answer she asked for (~5 lines: live evidence, the actual claim, unproven parts, decision structure, next evidence date; on surviving surfaces). Tuesday = structure only, one page: decided vs open with recommendations, the two signatures (Balaji ~Oct; announcement timing/wording post-layoff), the pre-Sept-end runway, bench as two facts each, UPP + Reflex as no-action one-liners (incl. retracting the EM-alignment ask). No "I went too deep last time" opener.
+
 ## 2026-08-21 — Offsite intel + she's taking James AND Alim to lunch next week (bench mandate, her own hand)
 
 Not a 1:1 — facts surfaced while working the CE Managers Offsite decision.
