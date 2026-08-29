@@ -153,3 +153,4 @@
 | 2026-08-25 17:01 | gmail | [Leo] Reflex / Dafang — three replies (Tue 2026-08-25) | /tmp/claude-1000/-home-james-src-leo/9088f911-8db3-460d-be96-627cab0460f9/scratchpad/reflex_dafang_dylan_replies_2026-08-25.md | to=jamesyili@gmail.com id=1a03b5f329ef77f9 |
 | 2026-08-28 07:46 | gmail | [Leo] Dylan 1:1 — Tuesday 2026-09-01 — prep (two topics, James's pick) | work/people/dylan_1on1_2026-09-01_prep.md | to=jamesyili@gmail.com id=1a048d61696c2598 |
 | 2026-08-28 08:31 | gmail | [Leo] Dylan 1:1 — next one (Tue 9/1 or Fri 9/4 — check) — prep v2 | work/people/dylan_1on1_2026-09-01_prep.md | to=jamesyili@gmail.com id=1a048ffbf5511bbf |
+| 2026-08-28 20:16 | gmail | [Leo] The eight papers behind the Curator/Skeptic work — plain-language learnings | work/projects/reflex/eval/eval_09_paper_learnings_plain.md | to=jamesyili@gmail.com id=1a04b852eff37777 |
