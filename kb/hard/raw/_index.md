@@ -1,6 +1,6 @@
 # Hard Skills — Raw Content Index
 
-> Auto-generated. 803 articles across 13 sources. Last updated: 2026-08-15
+> Auto-generated. 807 articles across 14 sources. Last updated: 2026-08-28
 
 | Title | Source | Tags | Path | Wiki Concepts |
 |-------|--------|------|------|---------------|
@@ -435,11 +435,14 @@
 | Youtube | aman-ai | system-design | [[hard/raw/aman-ai/youtube.md]] | |
 | Effective Harnesses for Long-Running Agents | anthropic | agent-harness, llm-agents, long-horizon, agent-engineering | [[hard/raw/anthropic/effective-harnesses-for-long-running-agents.md]] | |
 | AutoHarness: Improving LLM Agents by Automatically Synthesizing a Code Harness | arxiv | agent-harness, llm-agents, code-synthesis, agent-evolution | [[hard/raw/arxiv/autoharness-improving-llm-agents-by-automatically-synthesizing-a-code-harness.md]] | |
+| Context as an Environment: Programmatic Context Management for Long-Horizon Agents | arxiv | context-management, agent-harness, llm-agents, long-horizon, agent-memory | [[hard/raw/arxiv/context-as-an-environment-programmatic-context-management-for-long-horizon-agents.md]] | |
 | EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents | arxiv | agent-harness, agent-evolution, reinforcement-learning, llm-agents, long-horizon | [[hard/raw/arxiv/evoharness-rl-learning-self-evolving-runtime-harness-for-long-horizon-llm-agents.md]] | |
 | EvoRec: Self-Evolving Agentic Recommender Systems | arxiv | agent-evolution, recsys, llm-agents, multi-agent | [[hard/raw/arxiv/evorec-self-evolving-agentic-recommender-systems.md]] | |
 | GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning | arxiv | prompt-optimization, evolutionary-search, pareto-frontier, credit-assignment, reflection, compound-ai-systems, dspy, rl-alternatives, sample-efficiency | [[hard/raw/arxiv/gepa-reflective-prompt-evolution-can-outperform-reinforcement-learning.md]] | |
+| Recursive Experiential–Working Memory Evolution for Long-Horizon Agent Harnesses (Recuris) | arxiv | agent-memory, agent-harness, agent-evolution, llm-agents, long-horizon | [[hard/raw/arxiv/recursive-experiential-working-memory-evolution-for-long-horizon-agent-harnesses.md]] | |
 | Self-Evolving Recommendation System: End-To-End Autonomous Model Optimization With LLM Agents | arxiv | agent-evolution, recsys, llm-agents, ml-systems, automation | [[hard/raw/arxiv/self-evolving-recommendation-system-end-to-end-autonomous-model-optimization-wit.md]] | |
 | SkillOS: Learning Skill Curation for Self-Evolving Agents | arxiv | agent-evolution, agent-memory, skill-curation, reinforcement-learning, llm-agents | [[hard/raw/arxiv/skillos-learning-skill-curation-for-self-evolving-agents.md]] | |
+| WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution | arxiv | agent-memory, skill-curation, agent-evolution, llm-agents, knowledge-wiki | [[hard/raw/arxiv/wikiskill-compiling-agent-experience-into-persistent-knowledge-for-skill-evolution.md]] | |
 | A Guide for Debugging LLM Training Data | cameron-wolfe | llms, rlhf, architectures | [[hard/raw/cameron-wolfe/a-guide-for-debugging-llm-training-data.md]] | |
 | AI Agents from First Principles | cameron-wolfe | llms, rlhf, architectures | [[hard/raw/cameron-wolfe/ai-agents-from-first-principles.md]] | |
 | Applying Statistics to LLM Evaluations | cameron-wolfe | llms, rlhf, architectures | [[hard/raw/cameron-wolfe/applying-statistics-to-llm-evaluations.md]] | |
@@ -786,6 +789,7 @@
 | Use multiple models | nathan-lambert | rlhf, reinforcement-learning, llms | [[hard/raw/nathan-lambert/use-multiple-models.md]] | |
 | What comes next with open models | nathan-lambert | rlhf, reinforcement-learning, llms | [[hard/raw/nathan-lambert/what-comes-next-with-open-models.md]] | |
 | Why Nvidia builds open models with Bryan Catanzaro | nathan-lambert | rlhf, reinforcement-learning, llms | [[hard/raw/nathan-lambert/why-nvidia-builds-open-models-with-bryan-catanzaro.md]] | |
+| Brain: Agentic Memory as a Knowledge Wiki (Perplexity) | perplexity | agent-memory, knowledge-wiki, self-improving-agents, llm-agents, product-launch | [[hard/raw/perplexity/brain-agentic-memory-as-a-knowledge-wiki.md]] | |
 | A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026 | sebastian-raschka | llms, ml-research | [[hard/raw/sebastian-raschka/a-dream-of-spring-for-open-weight-llms-10-architectures-from-jan-feb-2026.md]] | |
 | A Visual Guide to Attention Variants in Modern LLMs | sebastian-raschka | llms, ml-research | [[hard/raw/sebastian-raschka/a-visual-guide-to-attention-variants-in-modern-llms.md]] | |
 | Beyond Standard LLMs | sebastian-raschka | llms, ml-research | [[hard/raw/sebastian-raschka/beyond-standard-llms.md]] | |

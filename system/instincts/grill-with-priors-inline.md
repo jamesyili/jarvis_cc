@@ -1,15 +1,20 @@
 ---
 id: grill-with-priors-inline
 trigger: James invites an assumption/fact-gathering grill ("ask me detailed questions to make this more reliable") — or Leo is running any grill, batched or serial
-behavior: Present every question with the current assumption inline — "X? (I'm carrying Y)" — grouped by topic, ranked by impact, answerable in one pass from a phone. He confirms-or-corrects instead of composing from scratch; explicitly say skipped items become flagged open items, then actually file them as open. In SERIAL grills, the same discipline caps density per question: one decision per question, recommendation in a few lines; if a question needs five recommendation bullets plus a two-part ask, split it or simplify — an overloaded question loses him entirely. JARGON ALTITUDE is part of the cap: questions in plain concrete words — no domain-taxonomy tables, no glossary-object numbering, no invented canonical names as load-bearing terms in the question itself ("what the fuck" = the signal; re-ask in plain words and the decision comes immediately).
-confidence: 0.6
-evidence_count: 3
+behavior: (Third "what the fuck" 8/28 — the jargon was paper shorthand for sources James had not read; see [[plain-learnings-before-synthesis]].) Present every question with the current assumption inline — "X? (I'm carrying Y)" — grouped by topic, ranked by impact, answerable in one pass from a phone. He confirms-or-corrects instead of composing from scratch; explicitly say skipped items become flagged open items, then actually file them as open. In SERIAL grills, the same discipline caps density per question: one decision per question, recommendation in a few lines; if a question needs five recommendation bullets plus a two-part ask, split it or simplify — an overloaded question loses him entirely. JARGON ALTITUDE is part of the cap: questions in plain concrete words — no domain-taxonomy tables, no glossary-object numbering, no invented canonical names as load-bearing terms in the question itself ("what the fuck" = the signal; re-ask in plain words and the decision comes immediately).
+confidence: 0.75
+evidence_count: 4
 created: 2026-08-17
-last_updated: 2026-08-20
+last_updated: 2026-08-28
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-28
+> "What does this mean exactly? Let's first start a concrete proposal from the paper where we want to borrow the idea from, and be more specific with our goals?" … "I really feel I don't understand what the fuck you're talking about so maybe I need to read the papers first."
+Context: /grill-with-docs on improving the Curator + Skeptic. Q1 was an abstract "what does 'improve' optimize for" with four framings; Q2 was a two-table menu of nine items labeled S1–S4 / C1–C5 with Greek letters (ρ, C) and schema field names as load-bearing terms. He hadn't read the papers the items were borrowed from. Fix that landed: stop the grill, write the plain per-paper learnings doc (eval_09), email it, resume the grill from its six-idea menu next time.
+Signal: correction
 
 ### 2026-08-20
 > "What the fuck? I don't understand what you're saying. Don't bend over backwards. What are we talking about here?"

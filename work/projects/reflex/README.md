@@ -14,7 +14,7 @@ Reorganized 2026-08-15 (James-approved disposition; was ~35 loose docs). Rule go
 
 | Dir | Contents |
 |---|---|
-| `eval/` | The eval workstream: `eval_00_hub` (James) → `eval_07` numbered by audience (see hub §1), plus `feedback_curator_and_skeptic.md` (the Curator design doc `eval_04` builds on) and `reflex_eval_evolve_notes_0816.html` (8/16 consolidated notes export from the work side; repo docs synced to it 8/20). |
+| `eval/` | The eval workstream: `eval_00_hub` (James) → `eval_08` numbered by audience (see hub §1), plus `feedback_curator_and_skeptic.md` (the June Curator design doc `eval_04` builds on), `feedback_curator_skeptic_deepdive_0828.md` (work-side walkthrough of the Skeptic + Curator as built, 8/28 — what `eval_08` is written against), and `reflex_eval_evolve_notes_0816.html` (8/16 consolidated notes export from the work side; repo docs synced to it 8/20). `eval_06` is the running list of Reflex-relevant papers (twelve as of 8/28). |
 | `simulate/` | **Declared, empty** — workstream named but no docs mapped yet. Create the dir when the first doc lands. |
 | `foundational/` | **Declared, empty** — same. |
 | `research/` | `sources/` (verbatim eval inputs — papers, readmes, proposals) + `org_design_synthesis.md` (the live synthesis of the May org research; raw dumps in `archive/org_research/`). |

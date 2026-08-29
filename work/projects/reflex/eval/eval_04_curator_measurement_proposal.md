@@ -57,6 +57,8 @@ Plot lines and entry count per cycle, then sample entries from early, middle, an
 
 This is the cheapest real measurement available anywhere in the eval program right now. It needs no human labels, no judge, and no new agent runs.
 
+*Added 8/28 (`eval_08` §3):* record the **create:edit ratio per cycle** alongside the line count — it's free from the same audit log. Reference range: WikiSkill's *untrained* maintainer, given a "don't duplicate, update existing" rule plus full-wiki context before every edit, ran edit-dominant at 0.8–2.8 edits per create (Table 4). The Curator has both of those conditions. If it still runs insert-dominant, the cause is the approval-cost asymmetry in §4.1, not the Curator's own mix — which is why proposed-vs-merged is the first thing to log. And the position in §3 is conditional: a growing file is the signature of an immature system **when the consumer reads it wholesale** (Recuris's 51-add / 0-deprecate store cost nothing under gated invocation); the Skeptic currently does — `eval_08` §2.2.
+
 ## 4. Three design deltas
 
 ### 4.1 The human gate is also a bias toward accretion
