@@ -2,14 +2,19 @@
 id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_archive.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
-confidence: 0.9
-evidence_count: 8
+confidence: 0.95
+evidence_count: 9
 created: 2026-04-23
-last_updated: 2026-07-31
+last_updated: 2026-08-29
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-29
+> "You have those metrics. I gave them to you last time. Remember we went through this together. You have not only the 2025 numbers but you also have the 2026 cumulative numbers as well. Go check."
+Context: Building the Exceeds Track-0 case, Leo asked James to fetch the YTD cumulative SSv2 and 2025 comparable "next work session" — both were already on file (session log 2026-08-08: 2025 +2.12%; `p13n_retrieval_em_primer.md` §honest-compare: H1 2026 ~+1.5%). A 30-second grep would have found them. Extends the instinct's scope: NUMBERS James has dictated before count as documented context — grep session logs + primers before asking him for any figure.
+Signal: correction.
 
 ### 2026-04-23
 > "You should already look back at Roberto's incidents to get a context on how he has reacted to potential collaboration attempts in the past, which is to say that he was very actively against it. Take a look at that context so you should know."

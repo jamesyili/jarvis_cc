@@ -2,14 +2,19 @@
 id: separate-real-seed-from-engine-embellishment
 trigger: When James (in SELF/coaching mode) voices a fear, suspicion, or catastrophic read about a person or situation, and Leo is tempted to label the whole thing "the engine" / "creative writing" / "no evidence" to help him drop it
 behavior: Don't negate the suspicion wholesale — that's both inaccurate and it makes James correct you (he usually has a real evidentiary seed Leo doesn't know about). Instead, SPLIT it: name the documented, real seed (the part with evidence) and validate it as legitimate, then isolate only the catastrophic *specific* the engine grew on top as the unfounded part. "X is looking" (real: tip from Bowen + repeated pay complaints) vs. "X found a job and is waiting until I'm back to twist the knife" (the engine's cruel embellishment with no evidence). The engine doesn't invent fear from nothing; it takes a true seed and grows the most painful possible specific on it. Hold the seed, drop the embellishment. **EXTENSION (2026-08-14) — counterfactual questions ("would I be happier if I'd gone to X?") take the same shape, and the concession goes FIRST.** Open with what would genuinely be better about the road not taken, specifically and without hedging, *then* give the answer. Leading with the answer makes a true answer read as consolation and it bounces. James's demand — "don't give me bullshit, give me the real dope" — is a request for the concession, not for a verdict.
-confidence: 0.55
-evidence_count: 3
+confidence: 0.65
+evidence_count: 4
 created: 2026-06-23
-last_updated: 2026-08-26
+last_updated: 2026-08-29
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-29 — the measuring-stick confession: grant the seed, trim the absolutism, engineer the response
+> James: "I think that's a lie. I think without a measuring stick of an OpenAI or Anthropic offer, I would not be as enticed by learning the craft. I have to be honest with myself, with you at least. I need a measuring stick. That's how I've lived all my adult life." → next turn: "Okay this is actually a pretty good analysis."
+Context: The pattern run in reverse — James self-diagnosing, Leo splitting. Granted the seed entirely (stick-driven is real, lifelong, built the $12M life; no monk fantasy sold), trimmed only the absolutist edge (Leo/blog/Friday-eval sessions run ungraded), then ENGINEERED for the seed instead of moralizing against it: the stick-portfolio design (horizon/daily/craft sticks + one unsticked garden). Confirmation that the move after the split is design-for-the-trait, not correction-of-the-trait — same shape as the concession-first extension.
+Signal: confirmation.
 
 ### 2026-06-23
 > James, after Leo had filed the Yuke-interviewing suspicion under engine-writing: "Btw, Yuke interviewing is not pure conjecture. Bowen has told me that Yuke might be very much looking because he was so curious about openAI pay, and Yuke himself has complained about the pay multiple times."

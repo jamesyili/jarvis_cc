@@ -1,6 +1,6 @@
 # goals.md
 
-Last Updated: 2026-06-11
+Last Updated: 2026-08-29
 
 > **Structure — three layers:**
 > **I. Foundation** — the ground I stand on (ongoing, built through daily reps, scored yes/no).
@@ -154,3 +154,21 @@ A father whose kids feel enough apart from achievement — especially Evelyn, wh
 - Narrative dilution on UPP/Reflex → show up in the right rooms consistently, not constantly.
 - Reactivity under pressure erodes trust + wellbeing → Foundation reps, return to base.
 - Chasing the title for status rather than what it enables → the litmus test is title *plus* a strong foundation to do it happily, not the title alone.
+
+---
+
+## Motivation Architecture — the Stick Portfolio (added 2026-08-29)
+
+Named honestly (8/29 session): I am measuring-stick driven — that's how I've lived my adult life, and it built what I have. The design response is not to fight stick-dependence but to engineer the sticks. Background diagnosis: with the financial floor in (work-optional ~44 on every modeled path), nothing is mandatory anymore; a single far-off stick (Director) left dead air underneath it, felt as boredom/lostness. The fix is a portfolio with feedback at every timescale.
+
+**Design rule — a good stick for me is:** (1) measurable, (2) mine to control (Commit-shaped, not committee-shaped), (3) short feedback loop, (4) pointed at a game I'd enjoy winning. Anti-pattern (see Risks): sticks defined by comparison/credit, or whose score other people own.
+
+**The portfolio:**
+
+- **Horizon stick — Director.** Sets direction; scores quarterly at best; Influence-shaped. Do not demand daily grip from it — that produces promo-pressure signaling, the known failure mode. It rides on top of the near sticks; it is not one.
+- **Daily grip — the weaning game.** Score = how little the org needs me. Concrete counters: meetings that run without me; decisions that don't route through me; named transfers (Alim → RR/GULP/LLM-pUIC representation; Daniel → LWS/IB; SM/SL declined); weeks off *actually taken* vs. theoretically available (already the January tripwire — this stick's score funds the lifestyle latitude the base case rests on). Aligned with the standing Dylan 1:1 theme (wean the org off James). Let the engine chase the falling number while the identity catches up.
+- **12-month craft stick — the lab bar.** "Could clear an OpenAI/Anthropic loop by mid-2027." The bar without the exit (JJ's frame: interviewing ≠ leaving). Scoreboard: evals/agentic-systems depth built through Reflex, the eval-harness blog post shipped, a mock loop when close. Robust to either branch — Director evidence if the leaving appetite fades, readiness if it persists. **Guard:** any actual leave-now urge is tested only in ordinary calm weeks, never right after a bruising one (reversal-after-hits pattern).
+- **Base stick — health.** Weight → 180, sodium, lipid panel. Daily feedback, fully mine. Grounds the others.
+- **One unsticked garden — on purpose.** Solo grounding trips (2–3/yr; Toronto next, to book), play, Leo tinkering. Deliberately unmeasured; attaching a stick here poisons the practice ground.
+
+**Near-term anchor:** the year-end rating. The deliverables slate that makes it realistic is the planning exercise attached to this portfolio — the weaning game and the rating are not in tension: the rating case is *the team* landing its slate, which is what the weaning game produces.

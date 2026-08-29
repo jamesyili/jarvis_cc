@@ -3,13 +3,18 @@ id: resolve-dictation-artifacts-against-context
 trigger: James's input reads voice-dictated and a project/person name doesn't match known context ("Allen Utility", "PinRec v2", "Oliver"), especially when the name is headed into a work deliverable
 behavior: Resolve garbled names against repo context (projects, people, artifacts) and use the canonical name, but flag the mapping explicitly in the reply ("assuming PinRec v2 = Pin Selection v2 (PSv2)") so James can correct. For names Leo cannot resolve from context (new people), carry them verbatim but surface them in a pre-submit spelling check — dictated names are a known error class.
 confidence: 0.95
-evidence_count: 11
+evidence_count: 12
 created: 2026-07-09
-last_updated: 2026-08-18
+last_updated: 2026-08-29
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-29 — the "Liam" phantom: a dictated name entered FILES unverified
+> "Liam doesn't exist. Drop that."
+Context: A morning dictation ("I worry about Liam feeling like I'm micromanaging him") carried a name with no roster match. Leo neither checked the authoritative roster (`team_members_scope.md` — "anyone not in the table is not in the org") nor flagged the name, and propagated "Liam" into the Exceeds campaign file (watch list + person map) across several turns before James killed it. Failure mode to hold: the verbatim-carry rule is for *replies*; before a dictated name enters a repo file, it must clear the roster or carry an explicit ⟨unverified⟩ flag — which the map row did have, but the watch-list mention didn't, and neither triggered the roster check that would have caught it same-turn.
+Signal: correction.
 
 ### 2026-08-18
 > (RACI→racy, RackGPD→RecGPT, "corporate selection"→corpus selection, "key and safety"→teen safety — all resolved inline with flagged mappings in the CQ 1:1 notes ingest; James corrected none.)

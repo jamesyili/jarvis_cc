@@ -1,5 +1,9 @@
 # Reflex — Program State, July 2026
 
+## 2026-08-29 — Reflex's H2 crossables consolidated into the Exceeds scoreboard; ML-training milestone added
+
+Saturday session: the on-record H2 definition (8/25 3-way: (a) schedule + default build path · (b) attributable launches · (c) ≥1 non-P13N org launching) is now tracked as crossable boxes D-0…D-7 in `../../career/exceeds_h2_2026_campaign.md` §SCOREBOARD, mirrored in Notion "H2 milestones." Two James rulings: **Reflex competes on launch numbers, never PR counts** (attribution definition w/ Tim+Dafang = D-0, the unlock); **D-7 NEW — ML model training runs through Reflex, an explicit milestone** (ties to Tim's model-integration gap + the Dhruvil ranking-driver ask). Target launches: HF firm, Notif ideal, Ads (Janvi) = criterion (c).
+
 ## 2026-08-28 — JJ's Shifu deep-dive lands: reuse the infra, the core doesn't map; decision (1) heads toward "components, not fold"
 
 **JJ (Fri 8/28, to the team — end-to-end read of the Shifu codebase + conversations with their engineers, verbatim substance):**

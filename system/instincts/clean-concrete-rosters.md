@@ -2,14 +2,19 @@
 id: clean-concrete-rosters
 trigger: When rendering a team/org roster or org-design deliverable (team splits, reporting structures, headcount tables) for James to read operationally
 behavior: List people cleanly — name, role, workstream. Use concrete real names, not abstract placeholders ("backfill req", "TBD head") where an actual person exists. Do NOT annotate current team members with evaluative/perf-status tags ("on watch", "promo vehicle", "underperformer", "perf checkpoint", "flight risk") inline in the roster unless James asks. Those tags belong in the analysis/prose around the roster or in a separate people-status file — not cluttering the operational chart. James reads rosters to see the structure; status editorializing makes them confusing. When the underlying set is fully enumerable, show EXACT counts — never ~approximations (“what's the point?”).
-confidence: 0.55
-evidence_count: 3
+confidence: 0.7
+evidence_count: 4
 created: 2026-06-17
-last_updated: 2026-08-15
+last_updated: 2026-08-29
 status: active
 ---
 
 ## Evidence
+
+### 2026-08-29 — a per-person exercise means the FULL authoritative roster, person→goal
+> "You didn't understand the exercise I wanted you to do. I want you to go through each person that reports into me and tell me which section (A–D) they contribute to. Call out the names that aren't contributing to any of these."
+Context: James asked how each person in his org contributes to the H2 scoreboard. Leo's v1 answered goal→people from conversation memory (~20 names, some non-reports like ATG/UU folks mixed in, one phantom). The exercise James wanted: enumerate the authoritative 27-IC roster table, sweep person→section exhaustively, make the count foot, and surface the non-contributors explicitly (the call-outs were the payload — they produced the Daniel-pod mandate). Extends the instinct: "fully enumerable set → exact counts" also means per-person exercises START from the roster table, never from memory, and the empty rows are the finding.
+Signal: correction.
 
 ### 2026-06-17
 > "Don't mark the people who are currently here as potentially shaky because that's really confusing for me."
