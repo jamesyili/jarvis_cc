@@ -4,6 +4,14 @@
 
 ---
 
+## August 30, 2026 Update — Karthik Subbian (DE) lands on UPP at Dylan's direction
+
+**Karthik Subbian, Distinguished Engineer (ML), moved M10N → Core 8/29; Dylan asked him to focus on UPP and pointed him at James** (8/28 DM; ⚠️ not Kartik Paramasivam, the Chief Architect). First sync Fri 8/28 4:35pm, James + Piyush: Piyush fielded the deep technical questions to Karthik's explicit admiration ("not easy to explain ML concepts in words" — he did a great job); James delivered organized links + the UPPV2-to-Jeff heads-up. Weekend follow-up (Sat 12:14 AM): (1) why Pixie/random-walk survives in the CG mix vs. embedding-based; (2) how CG %imp sums to 100 given overlap — read as a DE forming first architectural opinions: reasons-vs-inertia probe + measurement-rigor probe.
+
+**Relationship play (James + Leo, 8/30 — full strategy + guards in `../../people/stakeholders.md` §Strategic Partners):** James owns history/strategy/context; **Piyush is the staged technical expert on every deep dive** (building the firsthand record for his EOY promo letter — tell Piyush the plan); give Karthik fingerprints on **UPPV2 pre-read before the Jeff presentation**; standing biweekly (James+Piyush+Karthik) replacing the promised one-off follow-up.
+
+**Actions:** Monday reply to the weekend message — honest Pixie history/consolidation answer from James, %imp mechanics handed to Piyush, UPPV2 pre-read invitation attached. **Guard:** future-plans conversations with Karthik stay on the public track (Notif line, P2P, HF fine-tuning, Ads expansion) — no visibility into the 8/19 SSJ item below; his channel to Dylan also means the UPP narrative must match the structure 1:1 exactly.
+
 ## August 19, 2026 Update — ⚠️ SECRET: Dylan considering stopping the SSJ collaboration ~end of Q3 (closed-laptop, H1-review 1:1)
 
 **Do not propagate — Dylan asked for secrecy (then: "but what's the point").** At the 8/19 H1-review 1:1 she closed the laptop and said: because of churn and unhappiness on the SSJ ranking side (*"not having fun at all on UPP, tons of escalations"*), they're thinking about **stopping the UPP-SSJ collaboration with Kurchi and refocusing UPP collaboration on Ads and Growth — time-bound ~end of Q3 (9/30)**. James pushed back twice: unified messaging, and land the in-flight work ("we're getting really close"). Dylan: *"Of course — let's land, and let's escalate where needed."*
