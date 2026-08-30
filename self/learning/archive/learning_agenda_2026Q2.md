@@ -1,3 +1,5 @@
+> **ARCHIVED 2026-08-30.** This is the Q2 2026 five-track agenda, superseded by the rebuilt LLM×RecSys + Reflex program at `self/learning/learning_agenda.md` (James, 8/30: replace wholesale; non-technical tracks continue ambiently, not as curriculum). Kept intact as a record — do not repoint or edit.
+
 # Learning Agenda
 
 Personal structured curriculum. Five tracks, each independent. Prioritized for Q2 2026 and beyond.
