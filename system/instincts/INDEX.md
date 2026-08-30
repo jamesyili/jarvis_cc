@@ -103,6 +103,7 @@ One line per instinct in `system/instincts/`. Injected into every session by the
 - **personal-taxonomy-over-content-type** — filing James's artifacts → respect his felt-ownership taxonomy (self vs work by identity); defer fast.
 - **honor-explicit-preference-ask** — a stakeholder asked what James wants → lead with his preference, not the org-needs-first default.
 - **drop-sponsor-and-credit-framing** — technical-design ask or high-trust circle → strip sponsor/narrative/credit/ownership framing; let the work speak.
+- **prep-simple-spine-with-drawers** — exec/stakeholder conversation prep → 3-4 theme spine max, one breath each, detail as zoom-in drawers that open on drilling; never front-load per-item detail; uniform answer pattern per drawer for in-depth questioners. (0.4, 8/30 — "too much detail… stay high-level, zoom in as needed")
 - **no-surprises-public-delegation** — a public message names someone else as lead → confirm they were privately briefed and accepted the baton first.
 
 ## File placement / security

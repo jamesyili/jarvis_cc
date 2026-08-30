@@ -103,6 +103,17 @@ Yan drafted a farewell/stability note to P13N-Ex (his own third email in the seq
 
 > New entries go at the top of this part. Entries are records — never restructure or rewrite older ones.
 
+## 2026-08-30 — Structure-1:1 plan settled (prep session; script held by James, not in repo per 8/28 rule)
+
+The team-arrangement 1:1 will run as a four-part funnel, ratified by James in-session:
+
+1. **Gratitude, one beat** (peer register — the return story is the real thank-you), pivoting immediately to "what you get."
+2. **The shape, shown not described** — the work-leo reorg HTML page: areas + rough shape of people at her altitude, deeper staffing view offered but her call. Her click-depth is signal.
+3. **Return on the investment** — his time on the true 0-to-1 only (UPP w/ her directly incl. Ads expansion; Reflex with the beyond-P13N receipt), closing with an **explicit upward hand-off sentence** she can carry to VPs: *"same headcount, more shots on goal — two EMs own the run-rate end-to-end, James full-time on the two hardest bets, the underutilized bench now on launch-level work."* The five-name bench story (Kim, Balaji, Felix, Yongwoo, Ling — "underutilized" is her own word coming back) is a drawer, not mainline.
+4. **Opens as one-breath FYI** (all dated: 9/11 Kim → ~9/14 announce, Oct gate, Nov GenRet, Roderick own-pace) + **the only real asks, people-side:** Chuxi (recognition of the ws-TL step-up, not a wellness check), Kim (a touch AFTER the announcement to make the lane org-real, not before the choice), Balaji (**no action — her read only**: scope at his level from her altitude; never the reporting-line question — see t2_decision_ledger 8/30 entry for the full rule).
+
+**Framing decisions:** Dylan's utility here = **attention + voice, never approvals** (James: "this isn't any sign-off") · claim trajectories, not feelings ("Balaji is moving toward the work he's built for," never "happy") · the boredom/withdrawal diagnosis and "I looked at your week" stay out of the room · "revolutionize" swapped for receipts. Karthik Subbian's arrival (see stakeholders §Strategic Partners) upgrades part 3: receive her DE as a gift — "with Karthik on it, the partnership is even stronger." 1:1 day still unconfirmed (Tue 9/1 vs Fri 9/4 1 PM).
+
 ## 2026-08-03 — Announcement-week D1 Slack: comm plan + SWE delegation (AM) · naming hold (PM)
 
 - **11:01 AM DM:** she'd talked to Yan — *"receptive, has questions/concerns on project and ownership."* Her comm plan: 8/3 Yan↔James · 8/3 3pm she joins Yan+Daniel's 1:1 to share the update · 8/4 she calls a Daniel+James+Yan comm-plan alignment meeting · **8/5 9am her email → James sends a follow-up email** · 8/6 James calls Daniel's-team Q&A. Declined James's offer to chat live before the Yan 1:1: *"nah it should be fine, you have all the information. let me know after you talking to Yan how it goes"* — trust-delegation datapoint.
