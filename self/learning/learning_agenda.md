@@ -33,19 +33,19 @@ Status: live · **Weeks dated Mon 8/31 → Sun 12/6, 2026** · review at week 7 
 ## Week-by-week
 
 ### ☐ W1 · Aug 31 – Sep 6 — The generative-recommendation map
-- Lesson: `lessons/w01_generative_rec_map.html` (interactive — the three-meanings map, RQ-VAE walked with real numbers, the terminology glossary, production-evidence ledger)
+- Lesson: `lessons/w01_generative_rec_map.html` · live: https://claude.ai/code/artifact/9bb00081-4a86-4f6d-b87c-4a6fc183b250 (interactive — the three-meanings map, RQ-VAE walked with real numbers, the terminology glossary, production-evidence ledger)
 - Watch: Eugene Yan, AI Engineer 2025 keynote — https://www.youtube.com/watch?v=YxpwskHTtkc (35 min, warm-up)
 - Read: Yuan Meng, "Is Generative Recommendation the ChatGPT Moment of RecSys?" — https://www.yuan-meng.com/posts/generative_recommendation/ (~2 hrs; the single best on-ramp — TIGER → HSTU → OneRec with skepticism intact)
 - **Output:** one page naming the three things people mean by "generative recommender" — (a) semantic-ID generative retrieval (TIGER), (b) sequential transduction at scale (HSTU), (c) end-to-end cascade replacement (OneRec) — and which one RecGPT actually is. *(work-leo: file it where the November decision prep lives.)*
 
 ### ☐ W2 · Sep 7 – 13 — Training dynamics: what actually changes the weights
 *(Re-aimed 8/30 against LR-0001: the forward pass is known cold — attention math, multi-head, RoPE, SASRec/BERT4Rec, TransAct/CFM/CLR mappings. The genuine gap is training mechanics. Do NOT re-watch attention explainers.)*
-- Lesson: `lessons/w02_training_dynamics.html` (interactive — optimization, loss-curve diagnosis, recsys training specifics: sampled softmax, in-batch negatives, LogQ)
+- Lesson: `lessons/w02_training_dynamics.html` · live: https://claude.ai/code/artifact/f2d1ca74-1797-40e3-bf96-de74721a42c8 (interactive — optimization, loss-curve diagnosis, recsys training specifics: sampled softmax, in-batch negatives, LogQ)
 - Build: Karpathy, "Let's build GPT" — https://www.youtube.com/watch?v=kCc8FmEb1nY — **watch for the training loop, not the attention block**: loss → backward → step, then train the Shakespeare model and read its loss curve (~2 hrs; Colab)
 - **Exit test:** given a loss curve + config, diagnose stalled vs diverging vs overfitting, and explain what warmup and clipping each protect against.
 
 ### ☐ W3 · Sep 14 – 20 — Generation mechanics: decoding, beam search, KV cache
-- Lesson: `lessons/w03_generation_mechanics.html` (interactive — sampling/temperature, beam search + constrained decoding over a valid-ID trie, KV-cache arithmetic; the direct bridge to TIGER in W4 and serving econ in W11)
+- Lesson: `lessons/w03_generation_mechanics.html` · live: https://claude.ai/code/artifact/84de37f9-9b69-48a4-89e6-fa27d4402e0d (interactive — sampling/temperature, beam search + constrained decoding over a valid-ID trie, KV-cache arithmetic; the direct bridge to TIGER in W4 and serving econ in W11)
 - Explore: bbycroft.net 3D LLM visualization — https://bbycroft.net/llm (~45 min; locate K and V, note their shapes and why the cache is per-token)
 - **Exit test:** given (layers, heads, d_model), write the parameter count; given a beam width and SID vocabulary, sketch how constrained decoding keeps generation valid.
 
