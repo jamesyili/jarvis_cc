@@ -33,19 +33,21 @@ Status: live · **Weeks dated Mon 8/31 → Sun 12/6, 2026** · review at week 7 
 ## Week-by-week
 
 ### ☐ W1 · Aug 31 – Sep 6 — The generative-recommendation map
+- Lesson: `lessons/w01_generative_rec_map.html` (interactive — the three-meanings map, RQ-VAE walked with real numbers, the terminology glossary, production-evidence ledger)
 - Watch: Eugene Yan, AI Engineer 2025 keynote — https://www.youtube.com/watch?v=YxpwskHTtkc (35 min, warm-up)
 - Read: Yuan Meng, "Is Generative Recommendation the ChatGPT Moment of RecSys?" — https://www.yuan-meng.com/posts/generative_recommendation/ (~2 hrs; the single best on-ramp — TIGER → HSTU → OneRec with skepticism intact)
 - **Output:** one page naming the three things people mean by "generative recommender" — (a) semantic-ID generative retrieval (TIGER), (b) sequential transduction at scale (HSTU), (c) end-to-end cascade replacement (OneRec) — and which one RecGPT actually is. *(work-leo: file it where the November decision prep lives.)*
 
-### ☐ W2 · Sep 7 – 13 — Transformers I: see it, then build it
-- Watch: 3Blue1Brown, Transformers + Attention chapters — https://www.3blue1brown.com/lessons/gpt/ and https://www.3blue1brown.com/lessons/attention/ (~55 min; the geometric intuition)
-- Build: Karpathy, "Let's build GPT" first half, through single-head attention — https://www.youtube.com/watch?v=kCc8FmEb1nY (~2 hrs, **retype the attention block, don't copy-paste**; Colab)
-- **Exit test:** explain Q/K/V without notes — one paragraph, to a DLRM engineer, using only recsys vocabulary.
+### ☐ W2 · Sep 7 – 13 — Training dynamics: what actually changes the weights
+*(Re-aimed 8/30 against LR-0001: the forward pass is known cold — attention math, multi-head, RoPE, SASRec/BERT4Rec, TransAct/CFM/CLR mappings. The genuine gap is training mechanics. Do NOT re-watch attention explainers.)*
+- Lesson: `lessons/w02_training_dynamics.html` (interactive — optimization, loss-curve diagnosis, recsys training specifics: sampled softmax, in-batch negatives, LogQ)
+- Build: Karpathy, "Let's build GPT" — https://www.youtube.com/watch?v=kCc8FmEb1nY — **watch for the training loop, not the attention block**: loss → backward → step, then train the Shakespeare model and read its loss curve (~2 hrs; Colab)
+- **Exit test:** given a loss curve + config, diagnose stalled vs diverging vs overfitting, and explain what warmup and clipping each protect against.
 
-### ☐ W3 · Sep 14 – 20 — Transformers II: finish the build, make it physical
-- Build: "Let's build GPT" second half (~1 hr); train the Shakespeare nanoGPT, fiddle with heads/layers/context (~1 hr)
-- Explore: bbycroft.net 3D LLM visualization — https://bbycroft.net/llm (~45 min; locate every tensor you just coded; find K and V and note their shapes)
-- **Exit test:** given (layers, heads, d_model), write down the parameter count.
+### ☐ W3 · Sep 14 – 20 — Generation mechanics: decoding, beam search, KV cache
+- Lesson: `lessons/w03_generation_mechanics.html` (interactive — sampling/temperature, beam search + constrained decoding over a valid-ID trie, KV-cache arithmetic; the direct bridge to TIGER in W4 and serving econ in W11)
+- Explore: bbycroft.net 3D LLM visualization — https://bbycroft.net/llm (~45 min; locate K and V, note their shapes and why the cache is per-token)
+- **Exit test:** given (layers, heads, d_model), write the parameter count; given a beam width and SID vocabulary, sketch how constrained decoding keeps generation valid.
 
 ### ☐ W4 · Sep 21 – 27 — Generative retrieval: the founding papers
 - Read: TIGER, "Recommender Systems with Generative Retrieval" — https://arxiv.org/abs/2305.05065 (~2 hrs; internalize content embedding → RQ-VAE codes → seq2seq, and what Amazon-Beauty benchmarks do NOT prove)
