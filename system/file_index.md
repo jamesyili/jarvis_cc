@@ -177,7 +177,7 @@ Career-optionality artifacts: OpenAI May 27 call prep, Pinterest EM story bank, 
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `learning_agenda.md` | 5-track curriculum, prioritized for Q2 2026; Track 3 promoted to Tier 1 (April 2026) | 2026-04-05 |
+| `learning_agenda.md` | 14-week dated LLM×RecSys + Reflex program (8/31→12/6): gen retrieval before Nov GenRet gate, post-training, transformers, serving economics, RL/evals; 4 judging-question appendices. Old 5-track agenda → `archive/learning_agenda_2026Q2.md` | 2026-08-30 |
 | `clr_codebase_notes.md` | CLR/P2P learning notes from codebase exploration | Unknown |
 | `sources.md` | Knowledge base source registry — 13 curated feeds, sync status | 2026-04-02 |
 | `articles/` | 945 ingested articles across 13 sources, organized by source slug | 2026-04-02 |

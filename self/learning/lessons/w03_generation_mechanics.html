@@ -1,0 +1,460 @@
+<!-- Lesson W3 · Learning Agenda 2026 · self/learning/lessons/ -->
+<title>Generation Mechanics</title>
+<style>
+  :root{
+    --bg:#fbfcfe; --card:#ffffff; --ink:#1a1f29; --soft:#5b6573; --line:#e3e7ee;
+    --accent:#2f6df0; --accent-soft:#eef4ff; --accent-line:#d6e3ff;
+    --accent2:#7b3fe4; --accent2-soft:#f3f1fc; --accent2-line:#e2dbf8;
+    --good:#1f9d57; --good-soft:#eafaf1; --good-line:#c7ecd5; --good-ink:#15683a;
+    --bad:#d23f3f; --bad-soft:#fdecec; --bad-ink:#a32424;
+    --warn:#b96a08; --warn-soft:#fff8ec; --warn-line:#f5e3bf; --warn-ink:#6b4a12;
+    --codebg:#f4f6fb; --code-ink:#28406e;
+    --link-underline:#cdd9f7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12151c; --card:#1a1f29; --ink:#e7ebf2; --soft:#98a2b3; --line:#2a3140;
+      --accent:#6f9bf5; --accent-soft:#1c2536; --accent-line:#2c3c5c;
+      --accent2:#a685f0; --accent2-soft:#241f33; --accent2-line:#3a3055;
+      --good:#3fbf7a; --good-soft:#15271e; --good-line:#265c40; --good-ink:#7fd8a8;
+      --bad:#e06c6c; --bad-soft:#2e1a1a; --bad-ink:#f0a0a0;
+      --warn:#d99a3d; --warn-soft:#2a2214; --warn-line:#54401e; --warn-ink:#e8c187;
+      --codebg:#232a38; --code-ink:#b9c8ea;
+      --link-underline:#3a4a6e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12151c; --card:#1a1f29; --ink:#e7ebf2; --soft:#98a2b3; --line:#2a3140;
+    --accent:#6f9bf5; --accent-soft:#1c2536; --accent-line:#2c3c5c;
+    --accent2:#a685f0; --accent2-soft:#241f33; --accent2-line:#3a3055;
+    --good:#3fbf7a; --good-soft:#15271e; --good-line:#265c40; --good-ink:#7fd8a8;
+    --bad:#e06c6c; --bad-soft:#2e1a1a; --bad-ink:#f0a0a0;
+    --warn:#d99a3d; --warn-soft:#2a2214; --warn-line:#54401e; --warn-ink:#e8c187;
+    --codebg:#232a38; --code-ink:#b9c8ea;
+    --link-underline:#3a4a6e;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 ui-serif,Georgia,"Times New Roman",serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:34px 22px 120px;}
+  .kicker{font:600 12px/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);}
+  h1{font:700 30px/1.2 ui-sans-serif,system-ui,sans-serif;margin:6px 0 8px;letter-spacing:-.01em;text-wrap:balance;}
+  h2{font:700 21px/1.3 ui-sans-serif,system-ui,sans-serif;margin:40px 0 8px;letter-spacing:-.01em;}
+  h2 .secno{color:var(--accent);margin-right:8px;}
+  h3{font:700 16px/1.3 ui-sans-serif,system-ui,sans-serif;margin:24px 0 4px;}
+  p{margin:12px 0;}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--link-underline);}
+  .lead{font-size:19px;}
+  .mission{background:var(--accent2-soft);border:1px solid var(--accent2-line);border-left:4px solid var(--accent2);border-radius:10px;
+    padding:12px 16px;margin:18px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .note{background:var(--accent-soft);border:1px solid var(--accent-line);border-radius:10px;padding:12px 16px;margin:16px 0;
+    font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .recsys{background:var(--good-soft);border:1px solid var(--good-line);border-left:4px solid var(--good);border-radius:10px;
+    padding:12px 16px;margin:16px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .recsys b{color:var(--good-ink);}
+  .breaks{background:var(--warn-soft);border:1px solid var(--warn-line);border-left:4px solid var(--warn);border-radius:10px;
+    padding:12px 16px;margin:16px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;color:var(--warn-ink);}
+  .eq{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--codebg);border:1px solid var(--line);
+    border-radius:8px;padding:10px 12px;margin:12px 0;font-size:14.5px;color:var(--code-ink);white-space:pre-wrap;overflow-x:auto;}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--codebg);border:1px solid var(--line);
+    border-radius:5px;padding:1px 5px;font-size:13.5px;color:var(--code-ink);}
+  table{border-collapse:collapse;width:100%;font:14.5px/1.55 ui-sans-serif,system-ui,sans-serif;margin:14px 0;}
+  .tablewrap{overflow-x:auto;margin:14px 0;}
+  th{text-align:left;font-weight:700;border-bottom:2px solid var(--line);padding:8px 10px;white-space:nowrap;}
+  td{border-bottom:1px solid var(--line);padding:8px 10px;vertical-align:top;}
+  .num{font-variant-numeric:tabular-nums;}
+  .quiz,.predict,.selfx,.lab{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:20px 0;}
+  .predict{border-left:4px solid var(--accent2);}
+  .qk{font:600 11px/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px;}
+  .quiz .qk{color:var(--accent);} .predict .qk{color:var(--accent2);} .selfx .qk{color:var(--good);} .lab .qk{color:var(--accent2);}
+  .q{font:600 16px/1.5 ui-sans-serif,system-ui,sans-serif;margin-bottom:10px;}
+  .conf{font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin:2px 0 8px;}
+  .conf button{font:600 12.5px/1 ui-sans-serif,system-ui,sans-serif;border:1px solid var(--line);background:var(--card);color:var(--soft);
+    border-radius:99px;padding:6px 12px;margin-right:6px;cursor:pointer;}
+  .conf button.sel{border-color:var(--accent);color:var(--accent);background:var(--accent-soft);}
+  .opt{display:block;width:100%;text-align:left;font:15px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--ink);
+    background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:7px 0;cursor:pointer;transition:.12s;}
+  .opt:hover{border-color:var(--accent);background:var(--accent-soft);}
+  .opt.correct{border-color:var(--good);background:var(--good-soft);color:var(--good-ink);}
+  .opt.wrong{border-color:var(--bad);background:var(--bad-soft);color:var(--bad-ink);}
+  .fb{display:none;margin-top:8px;font:14.5px/1.6 ui-sans-serif,system-ui,sans-serif;padding:10px 12px;border-radius:8px;}
+  .fb.show{display:block;}
+  .fb.ok{background:var(--good-soft);color:var(--good-ink);}
+  .fb.no{background:var(--bad-soft);color:var(--bad-ink);}
+  .hyper{display:none;margin-top:8px;font:600 14px/1.5 ui-sans-serif,system-ui,sans-serif;padding:10px 12px;border-radius:8px;
+    background:var(--warn-soft);border:1px solid var(--warn-line);color:var(--warn-ink);}
+  .hyper.show{display:block;}
+  textarea{width:100%;min-height:64px;font:15px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--ink);background:var(--card);
+    border:1px solid var(--line);border-radius:8px;padding:10px 12px;resize:vertical;}
+  .btn{font:600 14px/1 ui-sans-serif,system-ui,sans-serif;background:var(--accent);color:#fff;border:0;border-radius:8px;
+    padding:10px 16px;cursor:pointer;margin-top:8px;}
+  .btn.ghost{background:var(--card);color:var(--accent);border:1px solid var(--accent);}
+  .btn:disabled{opacity:.5;cursor:default;}
+  .btn:focus-visible,.opt:focus-visible,.conf button:focus-visible,input[type=range]:focus-visible{outline:3px solid var(--accent);outline-offset:2px;}
+  .modelans{display:none;margin-top:10px;padding:10px 12px;border-radius:8px;background:var(--good-soft);color:var(--good-ink);
+    font:14.5px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .modelans.show{display:block;}
+  .lab svg{width:100%;height:auto;display:block;}
+  .ctrl{display:flex;gap:16px;flex-wrap:wrap;font:14px/1.5 ui-sans-serif,system-ui,sans-serif;margin-top:8px;}
+  .ctrl label{display:flex;flex-direction:column;gap:4px;min-width:140px;}
+  .ctrl output{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  input[type=range]{width:150px;accent-color:var(--accent);}
+  .presets{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
+  .kvout{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px;font:14px/1.5 ui-sans-serif,system-ui,sans-serif;}
+  .kvcard{flex:1 1 150px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--codebg);}
+  .kvcard .v{font:700 20px/1.2 ui-sans-serif,system-ui,sans-serif;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .kvcard .l{color:var(--soft);font-size:12.5px;}
+  .beam{font:14px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .beam table{margin:8px 0;}
+  .beam .alive{background:var(--good-soft);}
+  .beam .dead{color:var(--soft);text-decoration:line-through;}
+  .beam .invalid{background:var(--bad-soft);color:var(--bad-ink);}
+  .sid{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:14px;background:var(--codebg);border:1px solid var(--line);
+    border-radius:6px;padding:2px 8px;color:var(--code-ink);}
+  .progress{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);
+    font:12.5px/1 ui-sans-serif,system-ui,sans-serif;color:var(--soft);}
+  .progress .bar{height:3px;background:var(--accent);width:0%;transition:width .2s;}
+  .progress .plabel{padding:8px 22px;display:flex;justify-content:space-between;max-width:780px;margin:0 auto;}
+  .cite{font:13px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--soft);}
+  hr{border:0;border-top:1px solid var(--line);margin:34px 0;}
+  .foot{font:14px/1.6 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin-top:40px;}
+  details{border:1px solid var(--line);border-radius:10px;background:var(--card);margin:12px 0;}
+  details summary{cursor:pointer;font:600 15px/1.5 ui-sans-serif,system-ui,sans-serif;padding:12px 16px;color:var(--accent);list-style:none;}
+  details summary::before{content:"▸ ";}
+  details[open] summary::before{content:"▾ ";}
+  details .dbody{padding:0 16px 14px;}
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important;} }
+</style>
+
+<div class="progress"><div class="bar" id="pbar"></div>
+  <div class="plabel"><span>Lesson W3 · Generation Mechanics</span><span id="plabel">§0 / 7</span></div>
+</div>
+
+<div class="wrap">
+
+<div class="kicker">Learning Agenda · Week 3 · Sep 14 – 20</div>
+<h1>Generation Mechanics</h1>
+<p class="lead">Training decides what a model knows; <b>decoding decides what it does at serve time</b> — and for generative retrieval, decoding <i>is</i> the retrieval algorithm. This lesson is the machinery under next week's TIGER deep-dive and the arithmetic under the GPU-serving conversation.</p>
+
+<div class="mission"><b>What this lesson changes:</b> after ~60–75 min you can (1) explain each decoding strategy by what it trades, (2) run a beam search by hand and say precisely why beam ≠ greedy and why beams collapse onto shared prefixes, (3) compute KV-cache memory from the model config from memory, and (4) write the parameter count of any transformer from its config. Direct inputs: the <b>W4–5 TIGER work</b>, the <b>GPU-serving push</b> (this is calculation #1 and #8 of the agenda's Appendix C), and any "put an LLM in the serving path" proposal.</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="1"><span class="secno">§1</span>Warm-up: three, spaced</h2>
+
+<div class="quiz">
+  <div class="qk">Retrieval · W2</div>
+  <div class="q">Init loss for a sampled-softmax model with 511 negatives should be ≈</div>
+  <button class="opt" onclick="pick(this,true,'ln(512) ≈ 6.24 — chance over positive + 511 negatives. Computable before the run exists; deviations mean broken labels or leaky negatives.')">6.2</button>
+  <button class="opt" onclick="pick(this,false,'ln(50257) ≈ 10.8 is the FULL-softmax GPT-2 number — the sampled version is chance over k+1.')">10.8</button>
+  <button class="opt" onclick="pick(this,false,'2.1 at init was the &quot;model already knows the answer&quot; red flag from the cumulative quiz.')">2.1</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Retrieval · W2</div>
+  <div class="q">In-batch negatives without LogQ correction systematically…</div>
+  <button class="opt" onclick="pick(this,true,'Over-suppress popular items (they appear as negatives proportional to popularity) and under-train the tail. The correction subtracts log q̂(item) from the logit.')">over-suppress the head, under-train the tail</button>
+  <button class="opt" onclick="pick(this,false,'Direction flipped — popularity makes head items appear as negatives too often.')">boost popular items</button>
+  <button class="opt" onclick="pick(this,false,'It trains stably — the danger is bias, not divergence.')">cause divergence</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Retrieval · W1</div>
+  <div class="q">Why is a SID prefix semantically meaningful at all?</div>
+  <button class="opt" onclick="pick(this,true,'Residual quantization is coarse-to-fine: level 1 captures the broad region, each later level encodes what earlier levels missed — so items sharing a prefix share a content neighborhood. This is the property beam search will exploit in §3.')">RQ is coarse-to-fine — each level quantizes the previous level's residual</button>
+  <button class="opt" onclick="pick(this,false,'Nobody designs the taxonomy — the hierarchy is emergent from residual quantization.')">Engineers assign categories to the first code</button>
+  <button class="opt" onclick="pick(this,false,'Hashes deliberately destroy neighborhood structure; SIDs preserve it — that&#39;s the whole point.')">Prefixes are locality-sensitive hashes</button>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="2"><span class="secno">§2</span>Sampling: one knob, three costumes</h2>
+
+<p>At each step the model hands you a distribution over the vocabulary. Everything in decoding is a policy for spending that distribution. Temperature rescales the logits before softmax: <code>p_i ∝ exp(z_i / T)</code>. Top-k and top-p (nucleus) are truncations: sample only from the k most likely, or the smallest set covering probability p.</p>
+
+<div class="lab">
+  <div class="qk">Interactive · temperature</div>
+  <div class="q">A real next-code distribution over 6 SID codes. Question to answer with the slider: at what temperature does sampling become effectively greedy — and what happens to the tail at T = 2?</div>
+  <svg id="tempChart" viewBox="0 0 640 200" aria-label="Temperature-scaled distribution"></svg>
+  <div class="ctrl">
+    <label>Temperature <output id="tOut">1.0</output><input type="range" id="temp" min="0.1" max="3" step="0.1" value="1" oninput="drawTemp()"></label>
+    <span style="align-self:center;">Entropy: <output id="entOut" style="font-weight:700;color:var(--accent2);">—</output> bits</span>
+  </div>
+</div>
+
+<div class="recsys"><b>Bridge:</b> temperature is the same dial as Boltzmann exploration in your bandit layers — one scalar trading exploitation (T→0: argmax, deterministic, maximally on-distribution) against exploration (T&gt;1: flattened, tail gets real mass). For generative retrieval this is a <i>diversity control you get for free</i>, which the two-tower + ANN stack never had natively — ANN returns the same neighbors every time. <b>Where it breaks:</b> in recsys the "tail" you up-weight with high T isn't neutral — it's disproportionately low-quality and off-policy inventory, so temperature-as-diversity needs the same guardrails as any exploration budget. Uniform noise is not curated discovery.</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="3"><span class="secno">§3</span>Beam search, by hand</h2>
+
+<p>Greedy decoding takes the argmax at every step. Its failure is structural: <b>a confident first token can lead to a mediocre sequence</b>, and greedy can never back out. Beam search keeps the B highest-probability <i>partial sequences</i> (beams) and extends them all. For GR-SID with 3-code SIDs, retrieval = beam search of depth 3; the final beams <i>are</i> the retrieved candidates.</p>
+
+<p>Work one by hand — width B = 2, codebooks of 4. These are the model's actual conditionals:</p>
+
+<div class="lab beam">
+  <div class="qk">Interactive · step the beam</div>
+  <div id="beamStage"></div>
+  <div class="rqrow" style="display:flex;gap:10px;align-items:center;margin-top:10px;">
+    <button class="btn" id="beamBtn" onclick="beamStep()">Show level-1 distribution</button>
+  </div>
+</div>
+
+<div class="predict" id="beamPredict">
+  <div class="qk">Predict — before the final level</div>
+  <div class="q">After two levels, prefix (0,1) leads at p = .231 vs (1,0) at .186. Which finishes as the top beam?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'Reasonable — it leads now. But leading after two tokens only wins if its continuations are competitive. Step the widget and watch.')">(0,1,·) — it's ahead and stays ahead</button>
+  <button class="opt" onclick="pick(this,true,'(1,0) has a much more <i>confident</i> continuation (p=.70 for its best code vs .30), so its best completion .186×.70=.130 beats .231×.30=.069. <b>A confident continuation beats a confident start</b> — this is exactly what greedy cannot discover, and why beam width is a quality knob: at B=1 this item is unreachable.')">(1,0,·) — its continuation is more concentrated</button>
+  <button class="opt" onclick="pick(this,false,'They cannot tie with these numbers — one continuation is far more concentrated. Run it.')">Effectively a tie</button>
+</div>
+
+<div class="breaks"><b>The two production consequences</b> (both from W1, now visible mechanically): (1) <b>Prefix collapse</b> — high-probability beams tend to share prefixes (both survivors here could easily share code 0 with a slightly different table), so naive beam search retrieves near-duplicates; that is why PinRec built multi-token generation and why every GR-SID deployment carries an explicit diversity mechanism. (2) <b>Invalid sequences</b> — the model happily assigns mass to code combinations no item has. <b>Constrained decoding</b> masks each step's distribution to the children of the current prefix in a trie of valid SIDs, renormalizes, and guarantees every beam is a real item. Cost: a trie lookup per step; the latency question from W1's judging file ("does constrained decoding fit the budget?") is asking about exactly this loop.</div>
+
+<div class="selfx">
+  <div class="qk">Self-explain</div>
+  <div class="q">Why does the invalid-sequence problem not exist in two-tower retrieval? One sentence.</div>
+  <textarea placeholder="Commit first."></textarea>
+  <button class="btn ghost" onclick="this.nextElementSibling.classList.add('show')">Compare to model answer</button>
+  <div class="modelans">Two-tower retrieval selects from an index that only <i>contains real items</i> — the candidate set is enumerated, not generated — whereas a decoder composes items token-by-token from a vocabulary, so "combinations that exist" is a constraint that must be imposed from outside (the trie). Generation trades an enumeration guarantee for compositional flexibility; constrained decoding buys the guarantee back at per-step cost.</div>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="4"><span class="secno">§4</span>The KV cache — what generation remembers</h2>
+
+<p>Autoregressive generation re-attends to the whole prefix at every step. Without caching, each new token recomputes K and V for every previous token in every layer — O(n²) recomputation of things that <i>cannot have changed</i>. The KV cache stores each token's K and V per layer at the moment it's produced; generating token n+1 computes exactly one new Q, K, V and attends against the cache.</p>
+
+<div class="eq">KV bytes per token = 2 · n_layers · n_kv_heads · head_dim · bytes_per_value
+                      (2 = one K + one V)</div>
+
+<p>That formula is calculation #1 of the program. Get it into your hands:</p>
+
+<div class="lab">
+  <div class="qk">Interactive · the cache bill</div>
+  <div class="q">Question to answer: for the 70B preset, how many <i>concurrent 8K-context users</i> fit in one H100's 80 GB after the weights are loaded — and what does switching to MQA (1 KV head) do to that number?</div>
+  <div class="presets">
+    <button class="btn ghost" onclick="kvPreset(80,8,128,2,8192,'Llama-3-70B (GQA), FP16')">Llama-3-70B · GQA · FP16</button>
+    <button class="btn ghost" onclick="kvPreset(24,8,128,2,2048,'~1B ranker-class model, FP16')">1B ranker-class · FP16</button>
+    <button class="btn ghost" onclick="kvPreset(80,1,128,2,8192,'70B with MQA (1 KV head)')">70B but MQA</button>
+  </div>
+  <div class="ctrl" style="margin-top:12px;">
+    <label>Layers <output id="kvL">80</output><input type="range" id="rL" min="4" max="96" step="4" value="80" oninput="kvCalc()"></label>
+    <label>KV heads <output id="kvH">8</output><input type="range" id="rH" min="1" max="64" step="1" value="8" oninput="kvCalc()"></label>
+    <label>Head dim <output id="kvD">128</output><input type="range" id="rD" min="64" max="256" step="32" value="128" oninput="kvCalc()"></label>
+    <label>Bytes/value <output id="kvB">2</output><input type="range" id="rB" min="1" max="2" step="1" value="2" oninput="kvCalc()"></label>
+    <label>Context (tokens) <output id="kvC">8192</output><input type="range" id="rC" min="1024" max="65536" step="1024" value="8192" oninput="kvCalc()"></label>
+  </div>
+  <div class="kvout">
+    <div class="kvcard"><div class="v" id="oTok">—</div><div class="l">KB per token</div></div>
+    <div class="kvcard"><div class="v" id="oSeq">—</div><div class="l">GB per sequence at this context</div></div>
+    <div class="kvcard"><div class="v" id="oFit">—</div><div class="l">concurrent sequences in 80 GB − weights*</div></div>
+  </div>
+  <p class="cite" id="kvNote">*Assumes the preset's weights are resident: 70B FP16 = 140 GB (needs 2 GPUs; the fit number then uses the ~20 GB headroom of the pair) · 1B FP16 = 2 GB. Rough arithmetic on purpose — the point is orders of magnitude.</p>
+</div>
+
+<div class="recsys"><b>Bridge:</b> the KV cache plays the role of your <b>precomputed candidate-side embeddings</b> in two-tower serving — pay compute once, reuse across scoring. <b>Where it breaks — and this is the recsys-shaped trap:</b> candidate-side embeddings are <i>global</i> (computed once, shared by every request all day); a KV cache is <b>per-user, per-request</b> — user histories don't repeat across requests, so there is no cross-request reuse. LLM-serving economics leans hard on shared-prefix caching (system prompts); recommendation gets none of that for the user side. What recommendation gets <i>instead</i> is the M-FALCON trick: score N ranking candidates against <b>one</b> user's cached prefix — the cache amortizes across candidates within a request, not across requests. Any LLM-in-the-ranking-path proposal that quotes vanilla LLM serving benchmarks without this correction is quoting the wrong workload.</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="5"><span class="secno">§5</span>Why decode is the expensive half (30-second preview of W11)</h2>
+
+<p>Prefill (encoding the user history) processes all tokens in parallel — big matrix multiplies, compute-bound, cheap per token. Decode emits one token at a time, and each token must stream <i>all model weights</i> (plus the cache) through memory — bandwidth-bound. That asymmetry is the whole economics of serving: batch-1 decode speed ≈ memory bandwidth ÷ model bytes, and batching is the game. W11 does the full arithmetic; carry one number until then: <b>a 1B model prefilling a 2K-token history costs ~8 ms on an H100 at 50% MFU — inside a ranking budget; a 70B the same way is ~560 ms — not.</b></p>
+
+<!-- ====================================================== -->
+<h2 data-sec="6"><span class="secno">§6</span>Parameter counting — the exit skill</h2>
+
+<p>The config → parameter-count mapping, once, precisely (standard decoder, FFN expansion 4×, MHA):</p>
+
+<div class="eq">Embeddings:   V · d              (tied output head: free; untied: + V · d)
+Per layer:
+  Attention:  4 · d²             (W_Q, W_K, W_V, W_O — each d×d)
+  FFN:        8 · d²             (d→4d and 4d→d)
+  ≈ 12 · d² per layer            (+ small: norms, biases)
+Total ≈ V·d + L · 12 · d²
+GQA note: with n_kv &lt; n_heads, W_K and W_V shrink by n_kv/n_heads —
+  attention becomes (2 + 2·n_kv/n_heads) · d²</div>
+
+<div class="quiz">
+  <div class="qk">Verify it on GPT-2</div>
+  <div class="q">GPT-2 small: V = 50,257 · d = 768 · L = 12, tied embeddings. Compute before revealing — does the formula hit the famous "124M"?</div>
+  <button class="opt" onclick="pick(this,true,'Emb: 50,257 × 768 ≈ 38.6M. Layers: 12 × 12 × 768² ≈ 84.9M. Position embeddings: 1024 × 768 ≈ 0.8M. Total ≈ 124.3M. The formula is exact enough to sanity-check any model card in your head — which is the actual use: when a proposal says &quot;a small 400M model&quot;, you can now check whether its config arithmetic is honest in ten seconds.')">≈ 38.6M + 84.9M (+0.8M pos) ≈ 124M — it checks</button>
+  <button class="opt" onclick="pick(this,false,'Run it: V·d = 50,257×768 ≈ 38.6M; L·12d² = 12×12×768² ≈ 84.9M. It lands almost exactly on 124M.')">The formula misses badly; GPT-2 has extra machinery</button>
+</div>
+
+<div class="selfx">
+  <div class="qk">Do one cold</div>
+  <div class="q">A TIGER-style decoder: vocab = 3×256 codes + specials ≈ 1,024 · d = 512 · L = 8, tied. Parameter count?</div>
+  <textarea placeholder="Write the arithmetic out."></textarea>
+  <button class="btn ghost" onclick="this.nextElementSibling.classList.add('show')">Check</button>
+  <div class="modelans">Emb: 1,024 × 512 ≈ 0.5M. Layers: 8 × 12 × 512² ≈ 25.2M. Total ≈ <b>26M</b> — and notice what the exercise just showed you: GR-SID models are <i>tiny</i>, because the SID vocabulary deleted the V·d monster (a 10⁸-item catalog at d=512 would be 51 <i>billion</i> embedding parameters). The entire capacity story of generative retrieval is visible in this one subtraction — the catalog's parameters moved out of the embedding table and into the RQ-VAE + the decoder's ability to compose codes.</div>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="7"><span class="secno">§7</span>Cumulative quiz — all three weeks</h2>
+
+<div class="quiz">
+  <div class="qk">Cumulative 1</div>
+  <div class="q">Beam width B in GR-SID retrieval is most analogous to which knob in your current stack?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,true,'Both set the candidate-count/quality/cost trade at retrieval time: ANN&#39;s k (or ef/nprobe) and beam width both buy recall with latency. The disanalogy worth keeping: raising k is nearly free at query time, while raising B multiplies sequential decode work — which is why GR-SID latency curves bend much harder with candidate count. That asymmetry is a review question in serving discussions.')">ANN retrieval depth (k / ef_search)</button>
+  <button class="opt" onclick="pick(this,false,'Temperature is a sampling knob — beam search is deterministic given the model; B controls how much of the hypothesis space stays alive.')">Sampling temperature</button>
+  <button class="opt" onclick="pick(this,false,'Negative count is a TRAINING knob; beam width is pure serve-time.')">Number of training negatives</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Cumulative 2</div>
+  <div class="q">A proposal says: "Our generative ranker serves 4K-token user histories with a 70B model; LLM inference is fast now — vLLM benchmarks show thousands of tokens/sec." The flaw this lesson arms you to name:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'Beam search matters for retrieval-style decoding, but the deeper error here is about which workload the benchmark measures.')">They forgot beam search costs</button>
+  <button class="opt" onclick="pick(this,true,'Those throughput numbers come from batched decode with shared-prefix caching — a chat workload. Ranking is per-user prefill-dominated (2·params·prompt_tokens FLOPs per request, no cross-request cache reuse), and 70B × 4K tokens ≈ hundreds of ms of prefill per request before a single score exists. The honest comparison is prefill cost at their latency budget — which is the ~8ms-vs-~560ms gap between a 1B and a 70B. Distillation (W7) exists precisely to move quality down this curve.')">Chat-serving benchmarks measure the wrong workload — ranking is per-request prefill with no shared cache</button>
+  <button class="opt" onclick="pick(this,false,'Quantization helps decode bandwidth, but the binding constraint in this proposal is prefill compute, which quantization helps far less.')">They should quantize to INT4 first</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Cumulative 3 · the three-week braid</div>
+  <div class="q">Trace the single thread that runs W1→W2→W3: why do 3×256-code SIDs simultaneously fix a training problem AND create a serving problem?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,true,'Training: the 10⁸-way softmax (W2&#39;s bottleneck, dodged by every recsys recipe) becomes three 256-way softmaxes — exact, no negative sampling, no LogQ machinery. Serving: retrieval stops being one parallel ANN lookup and becomes SEQUENTIAL constrained beam decoding — three dependent steps × beam width, with prefix-collapse and invalid-sequence machinery on top (W3). The same design choice moved the hard part from the loss function to the decode loop. Whether that trade wins is an empirical serving question — which is why LIGER&#39;s answer is a hybrid and PinRec runs behind the ranker.')">The softmax bottleneck moves from the loss (solved exactly) into the decode loop (sequential, constrained, collapse-prone)</button>
+  <button class="opt" onclick="pick(this,false,'SIDs shrink the embedding table (§6) — parameters are the part that gets BETTER, on both sides.')">SIDs blow up the parameter count</button>
+  <button class="opt" onclick="pick(this,false,'Cold-start is the generalization story (W1) — real, but not the training↔serving trade this question traces.')">SIDs fix cold-start but break warm-start</button>
+</div>
+
+<hr>
+<div class="foot">
+<p><b>This week's remaining item:</b> bbycroft.net/llm (~45 min) — walk the 3D model and physically locate the K and V tensors you just priced by the kilobyte. Exit tests: the parameter formula and the KV formula, from memory, on paper.</p>
+<p><b>Sources:</b> KV/GQA arithmetic (kipp.ly transformer-inference-arithmetic; JAX scaling book ch. 7) · M-FALCON (HSTU paper §serving, arxiv 2402.17152) · constrained decoding &amp; multi-token generation (TIGER arxiv 2305.05065; PinRec arxiv 2504.10507) · prefill feasibility numbers (Appendix C #8 of the agenda, derived from 2·params·tokens at 50% MFU on H100 — rough by design). All worked arithmetic here is computed, not quoted; the beam-search table is synthetic for teaching. <b>Marked uncertain:</b> the 80 GB fit numbers assume weights resident and zero fragmentation — real serving stacks lose 10–20% to overhead.</p>
+<p>Next: <b>W4 · TIGER and the founding papers</b> — you now own every mechanism that paper assumes.</p>
+</div>
+
+</div>
+
+<script>
+function conf(btn){
+  const row=btn.parentElement;
+  row.querySelectorAll('button').forEach(b=>b.classList.remove('sel'));
+  btn.classList.add('sel');
+  row.dataset.conf=btn.textContent;
+}
+function pick(btn,ok,msg){
+  const card=btn.closest('.quiz,.predict');
+  if(card.dataset.done)return;
+  card.dataset.done="1";
+  card.querySelectorAll('.opt').forEach(o=>o.disabled=true);
+  btn.classList.add(ok?'correct':'wrong');
+  if(!ok){card.querySelectorAll('.opt').forEach(o=>{
+    const on=o.getAttribute('onclick')||'';
+    if(on.includes('this,true'))o.classList.add('correct');
+  });}
+  const fb=document.createElement('div');
+  fb.className='fb show '+(ok?'ok':'no');
+  fb.innerHTML=(ok?'<b>Right.</b> ':'<b>Not quite.</b> ')+msg;
+  card.appendChild(fb);
+  const confRow=card.querySelector('.conf');
+  if(!ok && confRow && confRow.dataset.conf==='Sure'){
+    const h=document.createElement('div');
+    h.className='hyper show';
+    h.textContent='High-confidence miss — worth 30 extra seconds on the feedback.';
+    card.appendChild(h);
+  }
+}
+
+/* Temperature widget */
+const baseP=[0.40,0.25,0.15,0.10,0.06,0.04];
+const labels=['code 17','code 4','code 201','code 88','code 9','code 150'];
+function drawTemp(){
+  const T=+document.getElementById('temp').value;
+  document.getElementById('tOut').textContent=T.toFixed(1);
+  const logits=baseP.map(p=>Math.log(p));
+  const scaled=logits.map(z=>z/T);
+  const m=Math.max(...scaled);
+  const ex=scaled.map(z=>Math.exp(z-m));
+  const Z=ex.reduce((a,b)=>a+b,0);
+  const p=ex.map(e=>e/Z);
+  const H=-p.reduce((a,q)=>a+(q>0?q*Math.log2(q):0),0);
+  document.getElementById('entOut').textContent=H.toFixed(2);
+  const svg=document.getElementById('tempChart');
+  const W=640,B=160,T0=18;
+  let bars='';
+  p.forEach((q,i)=>{
+    const x=60+i*95,bw=64,h=q*(B-T0-10)/0.999;
+    bars+='<rect x="'+x+'" y="'+(B-h)+'" width="'+bw+'" height="'+h+'" rx="4" fill="var(--accent)" opacity="'+(i===0?'1':'0.75')+'"/>'+
+      '<text x="'+(x+bw/2)+'" y="'+(B-h-6)+'" text-anchor="middle" font-size="12" fill="var(--ink)" font-family="system-ui" font-weight="600">'+(q*100).toFixed(q>0.1?0:1)+'%</text>'+
+      '<text x="'+(x+bw/2)+'" y="'+(B+16)+'" text-anchor="middle" font-size="11" fill="var(--soft)" font-family="system-ui">'+labels[i]+'</text>';
+  });
+  svg.innerHTML='<line x1="40" y1="'+B+'" x2="620" y2="'+B+'" stroke="var(--line)"/>'+bars;
+}
+
+/* Beam search stager */
+const beamSteps=[
+{btn:'Keep the beam (B = 2)',html:
+ '<p><b>Level 1.</b> Model emits p(c₁):</p>'+
+ '<div class="tablewrap"><table><tr><th>prefix</th><th class="num">p</th><th></th></tr>'+
+ '<tr class="alive"><td><span class="sid">(0)</span></td><td class="num">.42</td><td>kept</td></tr>'+
+ '<tr class="alive"><td><span class="sid">(1)</span></td><td class="num">.31</td><td>kept</td></tr>'+
+ '<tr class="dead"><td><span class="sid">(2)</span></td><td class="num">.17</td><td>pruned</td></tr>'+
+ '<tr class="dead"><td><span class="sid">(3)</span></td><td class="num">.10</td><td>pruned</td></tr></table></div>'+
+ '<p class="cite">Everything under prefixes (2) and (3) — a quarter of the catalog&#39;s regions — is now unreachable this request. Beam search is a hard pruning commitment, made on 1/3 of the information.</p>'},
+{btn:'Expand to level 2',html:
+ '<p><b>Level 2.</b> Each survivor expands; joint p = p(c₁)·p(c₂|c₁). Conditionals: after (0): [.05, .55, .25, .15] · after (1): [.60, .20, .10, .10]</p>'+
+ '<div class="tablewrap"><table><tr><th>prefix</th><th class="num">joint p</th><th></th></tr>'+
+ '<tr class="alive"><td><span class="sid">(0,1)</span></td><td class="num">.42 × .55 = .231</td><td>kept — leader</td></tr>'+
+ '<tr class="alive"><td><span class="sid">(1,0)</span></td><td class="num">.31 × .60 = .186</td><td>kept</td></tr>'+
+ '<tr class="dead"><td><span class="sid">(0,2)</span></td><td class="num">.105</td><td>pruned</td></tr>'+
+ '<tr class="dead"><td><span class="sid">(1,1)</span></td><td class="num">.062</td><td>pruned</td></tr>'+
+ '<tr class="dead"><td colspan="3">…and four more, all pruned</td></tr></table></div>'+
+ '<p class="cite">Now answer the Predict card below before the final step.</p>'},
+{btn:'Final level — resolve it',html:
+ '<p><b>Level 3.</b> Conditionals: after (0,1): [.30, .30, .25, .15] · after (1,0): [<b>.70</b>, .15, .10, .05]</p>'+
+ '<div class="tablewrap"><table><tr><th>full SID</th><th class="num">joint p</th><th></th></tr>'+
+ '<tr class="alive"><td><span class="sid">(1,0,0)</span></td><td class="num">.186 × .70 = <b>.130</b></td><td>top beam — the retrieved item</td></tr>'+
+ '<tr class="alive"><td><span class="sid">(0,1,0)</span></td><td class="num">.231 × .30 = .069</td><td>second</td></tr>'+
+ '<tr class="invalid"><td><span class="sid">(1,0,2)</span></td><td class="num">.186 × .10 = .019</td><td>NO SUCH ITEM — masked by the trie</td></tr></table></div>'+
+ '<p class="cite"><b>The two lessons, live:</b> the level-2 leader lost — a concentrated continuation beat a confident start, which greedy (B=1) could never discover. And one of (1,0)&#39;s continuations was a code combination no item has: without the trie mask that probability is silently wasted (or worse, an invalid ID reaches serving); with it, the mass renormalizes over real children.</p>'}
+];
+let beamIx=0;
+function beamStep(){
+  if(beamIx>=beamSteps.length){return;}
+  const stage=document.getElementById('beamStage');
+  const d=document.createElement('div');
+  d.innerHTML=beamSteps[beamIx].html;
+  stage.appendChild(d);
+  beamIx++;
+  const btn=document.getElementById('beamBtn');
+  if(beamIx<beamSteps.length){btn.textContent=beamSteps[beamIx].btn;}
+  else{btn.textContent='Done — continue reading';btn.disabled=true;}
+}
+
+/* KV calculator */
+function kvPreset(L,H,D,B,C,label){
+  document.getElementById('rL').value=L;document.getElementById('rH').value=H;
+  document.getElementById('rD').value=D;document.getElementById('rB').value=B;
+  document.getElementById('rC').value=C;
+  kvCalc(label);
+}
+function kvCalc(label){
+  const L=+document.getElementById('rL').value,H=+document.getElementById('rH').value,
+        D=+document.getElementById('rD').value,B=+document.getElementById('rB').value,
+        C=+document.getElementById('rC').value;
+  document.getElementById('kvL').textContent=L;document.getElementById('kvH').textContent=H;
+  document.getElementById('kvD').textContent=D;document.getElementById('kvB').textContent=B;
+  document.getElementById('kvC').textContent=C;
+  const perTok=2*L*H*D*B;                 // bytes
+  const perSeq=perTok*C;                  // bytes
+  document.getElementById('oTok').textContent=(perTok/1024).toFixed(0)+' KB';
+  document.getElementById('oSeq').textContent=(perSeq/1073741824).toFixed(2)+' GB';
+  // headroom heuristic: big model (L>=64): 20GB headroom across 2 GPUs; small: 78GB
+  const head=(L>=64)?20:78;
+  const fit=Math.floor(head*1073741824/perSeq);
+  document.getElementById('oFit').textContent=fit.toLocaleString();
+}
+
+const secs=document.querySelectorAll('h2[data-sec]');
+const pbar=document.getElementById('pbar');
+const plabel=document.getElementById('plabel');
+function onScroll(){
+  let current=0;
+  secs.forEach(s=>{ if(s.getBoundingClientRect().top<120) current=parseInt(s.dataset.sec); });
+  pbar.style.width=(current/7*100)+'%';
+  plabel.textContent='§'+current+' / 7';
+}
+document.addEventListener('scroll',onScroll,{passive:true});
+onScroll();
+drawTemp();
+kvCalc();
+</script>

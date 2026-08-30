@@ -1,0 +1,514 @@
+<!-- Lesson W1 · Learning Agenda 2026 · self/learning/lessons/ -->
+<title>Three Generative Recommenders</title>
+<style>
+  :root{
+    --bg:#fbfcfe; --card:#ffffff; --ink:#1a1f29; --soft:#5b6573; --line:#e3e7ee;
+    --accent:#2f6df0; --accent-soft:#eef4ff; --accent-line:#d6e3ff;
+    --accent2:#7b3fe4; --accent2-soft:#f3f1fc; --accent2-line:#e2dbf8;
+    --good:#1f9d57; --good-soft:#eafaf1; --good-line:#c7ecd5; --good-ink:#15683a;
+    --bad:#d23f3f; --bad-soft:#fdecec; --bad-ink:#a32424;
+    --warn:#b96a08; --warn-soft:#fff8ec; --warn-line:#f5e3bf; --warn-ink:#6b4a12;
+    --codebg:#f4f6fb; --code-ink:#28406e; --pre-bg:#0f1730; --pre-ink:#d7e0f5;
+    --link-underline:#cdd9f7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12151c; --card:#1a1f29; --ink:#e7ebf2; --soft:#98a2b3; --line:#2a3140;
+      --accent:#6f9bf5; --accent-soft:#1c2536; --accent-line:#2c3c5c;
+      --accent2:#a685f0; --accent2-soft:#241f33; --accent2-line:#3a3055;
+      --good:#3fbf7a; --good-soft:#15271e; --good-line:#265c40; --good-ink:#7fd8a8;
+      --bad:#e06c6c; --bad-soft:#2e1a1a; --bad-ink:#f0a0a0;
+      --warn:#d99a3d; --warn-soft:#2a2214; --warn-line:#54401e; --warn-ink:#e8c187;
+      --codebg:#232a38; --code-ink:#b9c8ea; --pre-bg:#0d1220; --pre-ink:#c9d4ec;
+      --link-underline:#3a4a6e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12151c; --card:#1a1f29; --ink:#e7ebf2; --soft:#98a2b3; --line:#2a3140;
+    --accent:#6f9bf5; --accent-soft:#1c2536; --accent-line:#2c3c5c;
+    --accent2:#a685f0; --accent2-soft:#241f33; --accent2-line:#3a3055;
+    --good:#3fbf7a; --good-soft:#15271e; --good-line:#265c40; --good-ink:#7fd8a8;
+    --bad:#e06c6c; --bad-soft:#2e1a1a; --bad-ink:#f0a0a0;
+    --warn:#d99a3d; --warn-soft:#2a2214; --warn-line:#54401e; --warn-ink:#e8c187;
+    --codebg:#232a38; --code-ink:#b9c8ea; --pre-bg:#0d1220; --pre-ink:#c9d4ec;
+    --link-underline:#3a4a6e;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 ui-serif,Georgia,"Times New Roman",serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:34px 22px 120px;}
+  .kicker{font:600 12px/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);}
+  h1{font:700 30px/1.2 ui-sans-serif,system-ui,sans-serif;margin:6px 0 8px;letter-spacing:-.01em;text-wrap:balance;}
+  h2{font:700 21px/1.3 ui-sans-serif,system-ui,sans-serif;margin:40px 0 8px;letter-spacing:-.01em;}
+  h2 .secno{color:var(--accent);margin-right:8px;}
+  h3{font:700 16px/1.3 ui-sans-serif,system-ui,sans-serif;margin:24px 0 4px;}
+  p{margin:12px 0;}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--link-underline);}
+  a:hover{border-color:var(--accent);}
+  .lead{font-size:19px;}
+  .mission{background:var(--accent2-soft);border:1px solid var(--accent2-line);border-left:4px solid var(--accent2);border-radius:10px;
+    padding:12px 16px;margin:18px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .note{background:var(--accent-soft);border:1px solid var(--accent-line);border-radius:10px;padding:12px 16px;margin:16px 0;
+    font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .recsys{background:var(--good-soft);border:1px solid var(--good-line);border-left:4px solid var(--good);border-radius:10px;
+    padding:12px 16px;margin:16px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .recsys b{color:var(--good-ink);}
+  .breaks{background:var(--warn-soft);border:1px solid var(--warn-line);border-left:4px solid var(--warn);border-radius:10px;
+    padding:12px 16px;margin:16px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;color:var(--warn-ink);}
+  .eq{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--codebg);border:1px solid var(--line);
+    border-radius:8px;padding:10px 12px;margin:12px 0;font-size:14.5px;color:var(--code-ink);white-space:pre-wrap;overflow-x:auto;}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--codebg);border:1px solid var(--line);
+    border-radius:5px;padding:1px 5px;font-size:13.5px;color:var(--code-ink);}
+  table{border-collapse:collapse;width:100%;font:14.5px/1.55 ui-sans-serif,system-ui,sans-serif;margin:14px 0;}
+  .tablewrap{overflow-x:auto;margin:14px 0;}
+  th{
+    text-align:left;font-weight:700;border-bottom:2px solid var(--line);padding:8px 10px;white-space:nowrap;}
+  td{border-bottom:1px solid var(--line);padding:8px 10px;vertical-align:top;}
+  td b{white-space:nowrap;}
+  .num{font-variant-numeric:tabular-nums;}
+  .quiz,.predict,.selfx{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:20px 0;}
+  .predict{border-left:4px solid var(--accent2);}
+  .qk{font:600 11px/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px;}
+  .quiz .qk{color:var(--accent);} .predict .qk{color:var(--accent2);} .selfx .qk{color:var(--good);}
+  .q{font:600 16px/1.5 ui-sans-serif,system-ui,sans-serif;margin-bottom:10px;}
+  .conf{font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin:2px 0 8px;}
+  .conf button{font:600 12.5px/1 ui-sans-serif,system-ui,sans-serif;border:1px solid var(--line);background:var(--card);color:var(--soft);
+    border-radius:99px;padding:6px 12px;margin-right:6px;cursor:pointer;}
+  .conf button.sel{border-color:var(--accent);color:var(--accent);background:var(--accent-soft);}
+  .opt{display:block;width:100%;text-align:left;font:15px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--ink);
+    background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:7px 0;cursor:pointer;transition:.12s;}
+  .opt:hover{border-color:var(--accent);background:var(--accent-soft);}
+  .opt.correct{border-color:var(--good);background:var(--good-soft);color:var(--good-ink);}
+  .opt.wrong{border-color:var(--bad);background:var(--bad-soft);color:var(--bad-ink);}
+  .fb{display:none;margin-top:8px;font:14.5px/1.6 ui-sans-serif,system-ui,sans-serif;padding:10px 12px;border-radius:8px;}
+  .fb.show{display:block;}
+  .fb.ok{background:var(--good-soft);color:var(--good-ink);}
+  .fb.no{background:var(--bad-soft);color:var(--bad-ink);}
+  .hyper{display:none;margin-top:8px;font:600 14px/1.5 ui-sans-serif,system-ui,sans-serif;padding:10px 12px;border-radius:8px;
+    background:var(--warn-soft);border:1px solid var(--warn-line);color:var(--warn-ink);}
+  .hyper.show{display:block;}
+  textarea{width:100%;min-height:64px;font:15px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--ink);background:var(--card);
+    border:1px solid var(--line);border-radius:8px;padding:10px 12px;resize:vertical;}
+  .btn{font:600 14px/1 ui-sans-serif,system-ui,sans-serif;background:var(--accent);color:#fff;border:0;border-radius:8px;
+    padding:10px 16px;cursor:pointer;margin-top:8px;}
+  .btn.ghost{background:var(--card);color:var(--accent);border:1px solid var(--accent);}
+  .btn:focus-visible,.opt:focus-visible,.conf button:focus-visible{outline:3px solid var(--accent);outline-offset:2px;}
+  .modelans{display:none;margin-top:10px;padding:10px 12px;border-radius:8px;background:var(--good-soft);color:var(--good-ink);
+    font:14.5px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .modelans.show{display:block;}
+  details{border:1px solid var(--line);border-radius:10px;background:var(--card);margin:12px 0;padding:0;}
+  details summary{cursor:pointer;font:600 15px/1.5 ui-sans-serif,system-ui,sans-serif;padding:12px 16px;color:var(--accent);list-style:none;}
+  details summary::before{content:"▸ ";}
+  details[open] summary::before{content:"▾ ";}
+  details .dbody{padding:0 16px 14px;font-size:16px;}
+  .rq{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:16px 18px;margin:20px 0;}
+  .rq svg{width:100%;height:auto;display:block;}
+  .rqrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center;font:14px/1.5 ui-sans-serif,system-ui,sans-serif;margin-top:10px;}
+  .sid{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:15px;background:var(--codebg);border:1px solid var(--line);
+    border-radius:6px;padding:4px 10px;color:var(--code-ink);}
+  .progress{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);
+    font:12.5px/1 ui-sans-serif,system-ui,sans-serif;color:var(--soft);}
+  .progress .bar{height:3px;background:var(--accent);width:0%;transition:width .2s;}
+  .progress .plabel{padding:8px 22px;display:flex;justify-content:space-between;max-width:780px;margin:0 auto;}
+  .pole{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:4px 18px 14px;margin:18px 0;}
+  .pole h3{display:flex;align-items:baseline;gap:10px;}
+  .tag{font:700 11px/1 ui-sans-serif,system-ui,sans-serif;letter-spacing:.08em;border-radius:6px;padding:5px 8px;}
+  .tag.t1{background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent-line);}
+  .tag.t2{background:var(--accent2-soft);color:var(--accent2);border:1px solid var(--accent2-line);}
+  .tag.t3{background:var(--warn-soft);color:var(--warn);border:1px solid var(--warn-line);}
+  .bfm{font:15px/1.65 ui-sans-serif,system-ui,sans-serif;margin:10px 0;}
+  .bfm b{display:inline-block;min-width:64px;}
+  .cite{font:13px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--soft);}
+  hr{border:0;border-top:1px solid var(--line);margin:34px 0;}
+  .foot{font:14px/1.6 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin-top:40px;}
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important;} }
+</style>
+
+<div class="progress"><div class="bar" id="pbar"></div>
+  <div class="plabel"><span>Lesson W1 · Three Generative Recommenders</span><span id="plabel">§0 / 8</span></div>
+</div>
+
+<div class="wrap">
+
+<div class="kicker">Learning Agenda · Week 1 · Aug 31 – Sep 6</div>
+<h1>Three Generative Recommenders</h1>
+<p class="lead">The phrase "generative recommendation" currently names <b>three different bets</b> that share almost no machinery. Conflating them is the most common failure in proposals, reviews, and vendor pitches — and the November GenRet/RecGPT decision depends on not conflating them.</p>
+
+<div class="mission"><b>What this lesson changes:</b> after ~60–75 minutes you can (1) classify any proposal — including RecGPT — into one of the three poles within two questions, (2) walk the RQ-VAE semantic-ID mechanism with real numbers and name its three failure modes from having stepped through it, and (3) cite the production evidence ledger — who deployed what, what it moved, what it cost. Direct inputs: the <b>November GenRet decision</b>, the LWS×UPP integration fork, and DE-parity conversations.</div>
+
+<div class="note" style="font-size:14px;"><b>Prior knowledge honored:</b> this lesson assumes (and never re-teaches) attention math, next-token training, SASRec/BERT4Rec, two-tower retrieval, and the item=token mapping — all demonstrated in LR-0001. Everything here is the delta.</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="1"><span class="secno">§1</span>Before anything: three commitments</h2>
+<p>Answer these before reading further — being wrong is fine and useful; committing is what makes the correction stick.</p>
+
+<div class="predict">
+  <div class="qk">Predict</div>
+  <div class="q">Kuaishou replaced their entire cascade (retrieval → ranking → re-ranking) with one generative model, serving 400M DAU. What did it move on their top metric, App Stay Time?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'That is the intuition their marketing wants — the real number is two orders of magnitude smaller.')">+5–10% — replacing the whole cascade is a step change</button>
+  <button class="opt" onclick="pick(this,false,'Still an order too high.')">+2–3%</button>
+  <button class="opt" onclick="pick(this,true,'OneRec V1/V2 report <b>+0.47% and +0.74%</b> App Stay Time. Real, validated, valuable at their scale — and small enough that the infra economics (MFU, serving cost) carry half the argument. Hold that shape: modest online wins, big architecture claims.')">under +1%</button>
+  <button class="opt" onclick="pick(this,false,'They did ship positive online results — the direction is real; the magnitude is the surprise.')">Neutral-to-negative; it shipped for cost reasons</button>
+</div>
+
+<div class="predict">
+  <div class="qk">Predict</div>
+  <div class="q">Head-to-head on ranking quality, same candidate budget: pure generative retrieval (decode the next item's ID) vs a well-tuned dense two-tower. Who wins today?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'Not what the best current head-to-head shows.')">Generative — that's why everyone is switching</button>
+  <button class="opt" onclick="pick(this,true,'Meta&#39;s LIGER study (2024) finds <b>dense retrieval still ahead on quality</b>; generative wins on serving efficiency and cold-start, and their answer is a hybrid. Your two decades of two-tower intuition are not obsolete — they are the baseline the new thing must beat.')">Dense two-tower still wins on quality</button>
+  <button class="opt" onclick="pick(this,false,'They differ in measurable, documented ways — LIGER (2024) quantifies the gap.')">Statistically indistinguishable</button>
+</div>
+
+<div class="predict">
+  <div class="qk">Predict</div>
+  <div class="q">Do recommendation models follow LLM-style compute scaling laws?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'Half right. Sequential-transduction models (HSTU) do show power-law scaling across ~3 orders of magnitude. But it is architecture-contingent, not free.')">Yes — scale is all you need now</button>
+  <button class="opt" onclick="pick(this,false,'Too pessimistic — Meta demonstrated genuine power-law scaling for HSTU-style models, and it is the single strongest argument the generative camp has.')">No — DLRMs plateaued and so will these</button>
+  <button class="opt" onclick="pick(this,true,'<b>Only with the right architecture.</b> HSTU scales like a language model across ~3 orders of magnitude of compute; classic DLRM-style feature-interaction models do not scale without architectural surgery (Wukong), and the exponents are shallower than language. "Do our models scale" is an empirical question per architecture — demand the curve on your data.')">Architecture-contingent: sequence models yes, DLRMs not without surgery</button>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="2"><span class="secno">§2</span>The map: one phrase, three bets</h2>
+
+<p>Fix the vocabulary first — the field has not, and the ambiguity is doing real work in proposals. One canonical name per object, used for the rest of the program:</p>
+
+<div class="tablewrap"><table>
+  <tr><th>Canonical name</th><th>The bet</th><th>Anchor system</th><th>What it is <i>not</i></th></tr>
+  <tr><td><b>GR-SID</b><br><span class="cite">semantic-ID generative retrieval</span></td>
+      <td>Replace the retrieval index: represent each item as a short sequence of discrete <b>semantic ID tokens</b>; a seq2seq model <i>decodes</i> the next item token-by-token instead of ANN-searching an embedding space.</td>
+      <td>TIGER (Google, 2023) · PinRec · Spotify SIDs</td>
+      <td>Not an LLM; typically a small encoder-decoder. Ranking stack survives.</td></tr>
+  <tr><td><b>GR-SEQ</b><br><span class="cite">sequential transduction at scale</span></td>
+      <td>Reformulate ranking+retrieval as one <b>sequential transduction</b> over raw interaction streams (items <i>and</i> actions as tokens), then scale it with compute like a language model.</td>
+      <td>HSTU (Meta, ICML 2024) · MTGR · Netflix FM</td>
+      <td>No semantic IDs, no text, no pretrained LLM. Raw item vocabulary.</td></tr>
+  <tr><td><b>GR-E2E</b><br><span class="cite">end-to-end cascade replacement</span></td>
+      <td>Delete the cascade: one generative model emits the final slate (session-wise), aligned with a reward model / RL stage — the "ChatGPT moment" ambition.</td>
+      <td>OneRec V1/V2 (Kuaishou)</td>
+      <td>Not just retrieval — it absorbs ranking, re-ranking, and the business-logic knobs. The maximal bet.</td></tr>
+</table></div>
+
+<div class="breaks"><b>Terminology collisions to retire on sight</b> (one name per object):
+<ul style="margin:6px 0 0 18px;padding:0;">
+<li><b>"Generative recommenders"</b> — HSTU's paper title uses it for GR-SEQ; most people mean GR-SID; vendors mean whatever they sell. Never use the bare phrase in a decision doc — say the pole.</li>
+<li><b>"Generative retrieval"</b> — in the IR literature (DSI) it means decoding <i>document</i> IDs for search. Same trick, different corpus; conflating the maturity of the two fields flatters the recsys version.</li>
+<li><b>"Foundation model"</b> — Netflix's is a GR-SEQ-style user-representation model consumed by downstream tasks; it does not imply generative <i>decoding</i> of items at serve time.</li>
+<li><b>"Semantic ID" vs "SID"</b> — same object; this program writes <b>SID</b>. An old-style hashed/learned ID is an <b>atomic ID</b>.</li>
+</ul></div>
+
+<div class="quiz">
+  <div class="qk">Check</div>
+  <div class="q">A partner team says: "We trained a transformer over user action sequences with a new attention variant; it unifies our retrieval and ranking models and keeps improving as we add compute. No content embeddings involved." Which pole?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'GR-SID requires semantic IDs built from content embeddings — explicitly absent here.')">GR-SID</button>
+  <button class="opt" onclick="pick(this,true,'Raw action streams + unified retrieval/ranking + the scaling claim + no content encoder = <b>GR-SEQ</b>, the HSTU shape. Your first review question is now determined: <i>show me the compute-vs-quality curve on our data, against our production baseline with its full feature set.</i>')">GR-SEQ</button>
+  <button class="opt" onclick="pick(this,false,'Nothing here says the cascade is deleted or a slate is generated end-to-end.')">GR-E2E</button>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="3"><span class="secno">§3</span>Mechanism: RQ-VAE semantic IDs, with real numbers</h2>
+
+<p>GR-SID stands on one mechanism: <b>residual quantization</b>. TIGER's recipe, concretely: take each item's <i>content</i> embedding (Sentence-T5 over title/description; 768-d), train an <b>RQ-VAE</b> that compresses it into <b>3 discrete codes from 3 codebooks of 256 entries each</b>, and use those codes — e.g. <span class="sid">(12, 87, 203)</span> — as the item's tokens. The catalog stops being a vocabulary of N atomic IDs and becomes sequences over 3×256 shared tokens.</p>
+
+<p>The "residual" part is the whole trick, and it's the part people wave past:</p>
+
+<div class="eq">z          = encoder(x)            # item's latent, say 32-d
+c₁         = argmin_k ‖z − e₁ₖ‖     # nearest entry in codebook 1
+r₁         = z − e₁(c₁)             # residual: what codebook 1 missed
+c₂         = argmin_k ‖r₁ − e₂ₖ‖    # codebook 2 quantizes the RESIDUAL
+r₂         = r₁ − e₂(c₂)
+c₃         = argmin_k ‖r₂ − e₃ₖ‖
+SID(x)     = (c₁, c₂, c₃)           # + a 4th disambiguation token if items collide
+ẑ          = e₁(c₁)+e₂(c₂)+e₃(c₃)   # reconstruction = sum of codebook vectors
+</div>
+
+<p>Each level quantizes what the previous levels <i>failed to capture</i>. The consequence: <b>the code sequence is coarse-to-fine</b>. Items sharing <code>c₁</code> are in the same broad region of content space; sharing <code>(c₁,c₂)</code> means genuinely similar. That prefix-hierarchy is what makes beam-decoding over SIDs meaningful — each generated token narrows a semantic region, not an arbitrary hash bucket.</p>
+
+<div class="rq">
+  <div class="qk" style="color:var(--accent2);font:600 11px/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;">Interactive · step the quantizer</div>
+  <div class="q" style="font:600 15px/1.5 ui-sans-serif,system-ui,sans-serif;">A 2-D toy: one item embedding (●), two codebooks of 4 entries each (■ level 1, ▲ level 2). Step through the quantization. Before each step, answer the prompt.</div>
+  <svg viewBox="0 0 640 300" aria-label="Residual quantization visualization">
+    <g id="rqPanel1">
+      <rect x="8" y="8" width="300" height="284" rx="10" fill="none" stroke="var(--line)"/>
+      <text x="20" y="30" font-size="12" fill="var(--soft)" font-family="system-ui">Level 1 · embedding space</text>
+      <!-- codebook 1 squares -->
+      <rect x="70" y="70" width="12" height="12" fill="var(--accent)"/><text x="88" y="81" font-size="11" fill="var(--soft)" font-family="system-ui">e₁(0)</text>
+      <rect x="210" y="90" width="12" height="12" fill="var(--accent)"/><text x="228" y="101" font-size="11" fill="var(--soft)" font-family="system-ui">e₁(1)</text>
+      <rect x="100" y="210" width="12" height="12" fill="var(--accent)"/><text x="118" y="221" font-size="11" fill="var(--soft)" font-family="system-ui">e₁(2)</text>
+      <rect x="230" y="200" width="12" height="12" fill="var(--accent)"/><text x="248" y="211" font-size="11" fill="var(--soft)" font-family="system-ui">e₁(3)</text>
+      <circle id="rqItem" cx="185" cy="120" r="7" fill="var(--accent2)"/>
+      <text x="196" y="116" font-size="12" fill="var(--accent2)" font-family="system-ui">z</text>
+      <line id="rqLine1" x1="185" y1="120" x2="216" y2="96" stroke="var(--accent2)" stroke-width="2" stroke-dasharray="4 3" opacity="0"/>
+    </g>
+    <g id="rqPanel2" opacity="0.25">
+      <rect x="330" y="8" width="300" height="284" rx="10" fill="none" stroke="var(--line)"/>
+      <text x="342" y="30" font-size="12" fill="var(--soft)" font-family="system-ui">Level 2 · residual space (recentred)</text>
+      <path d="M470 60 L482 84 L458 84 Z" fill="var(--good)"/><text x="488" y="80" font-size="11" fill="var(--soft)" font-family="system-ui">e₂(0)</text>
+      <path d="M410 190 L422 214 L398 214 Z" fill="var(--good)"/><text x="428" y="210" font-size="11" fill="var(--soft)" font-family="system-ui">e₂(1)</text>
+      <path d="M540 160 L552 184 L528 184 Z" fill="var(--good)"/><text x="558" y="180" font-size="11" fill="var(--soft)" font-family="system-ui">e₂(2)</text>
+      <path d="M470 240 L482 264 L458 264 Z" fill="var(--good)"/><text x="488" y="260" font-size="11" fill="var(--soft)" font-family="system-ui">e₂(3)</text>
+      <circle id="rqRes" cx="432" cy="130" r="7" fill="var(--accent2)" opacity="0"/>
+      <text id="rqResLabel" x="443" y="126" font-size="12" fill="var(--accent2)" font-family="system-ui" opacity="0">r₁ = z − e₁(1)</text>
+      <line id="rqLine2" x1="432" y1="130" x2="468" y2="76" stroke="var(--accent2)" stroke-width="2" stroke-dasharray="4 3" opacity="0"/>
+    </g>
+  </svg>
+  <div class="rqrow">
+    <button class="btn" id="rqBtn" onclick="rqStep()">Step 1: assign c₁</button>
+    <span id="rqOut" class="sid" style="visibility:hidden;">SID = ( · , · )</span>
+  </div>
+  <div id="rqNote" class="cite" style="margin-top:8px;"></div>
+</div>
+
+<div class="predict">
+  <div class="qk">Predict — before Step 2</div>
+  <div class="q">Level 2's codebook quantizes…</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'If every level re-quantized z, the levels would be redundant — 3 noisy copies of the same coarse code, no hierarchy.')">The original embedding z, at finer granularity</button>
+  <button class="opt" onclick="pick(this,true,'The <b>residual</b> r₁ = z − e₁(c₁). Each level encodes what the previous levels missed — that is what makes the code coarse-to-fine, and why prefixes are semantically meaningful.')">The residual — the error left after level 1</button>
+  <button class="opt" onclick="pick(this,false,'Reconstruction is the output (sum of chosen entries), not the input to the next level.')">The reconstruction ẑ so far</button>
+</div>
+
+<h3>The three failure modes (you will see all three in the Week 5 hands-on)</h3>
+<div class="tablewrap"><table>
+  <tr><th>Failure</th><th>Mechanism</th><th>Review question it arms</th></tr>
+  <tr><td><b>Dead codes</b></td><td>Codebook entries no item maps to; effective capacity silently shrinks. (Utilization is a training-health metric, like expert collapse in MoE.)</td><td>"What's your per-level codebook utilization at our catalog size?"</td></tr>
+  <tr><td><b>Collisions</b></td><td>Distinct items with identical full SIDs. TIGER appends an extra disambiguation token; at 10⁸–10⁹ items the collision layer does real work.</td><td>"What's the collision rate, and how is the tie broken at decode time?"</td></tr>
+  <tr><td><b>ID instability</b></td><td>Retrain the RQ-VAE (new content, drifted encoder) → items' SIDs <i>change</i>. Now the decoder's learned "language" and the serving index refer to a moved catalog.</td><td>"What fraction of SIDs change per retrain, what's the cadence, and what's the migration path — dual-index? re-train the decoder?"</td></tr>
+</table></div>
+
+<div class="recsys"><b>Bridge to what you own</b> — and where it breaks. A SID prefix tree is playing the role your <b>ANN index</b> plays in two-tower retrieval: both organize the catalog so that "nearby" is cheap. But the mapping breaks in two places, and both matter: (1) an ANN index is rebuilt nightly with <i>no model retrain</i> — SIDs entangle the index with the model's vocabulary, which is why ID instability is a new failure class, not a variant of index staleness; (2) two-tower similarity is <i>learned from engagement</i>, while TIGER-style SIDs are built from <i>content</i> embeddings — collaborative signal only enters through the decoder's training data. An item whose content is unrepresentative of its engagement (your classic clickbait-thumbnail problem) is mis-shelved in a way engagement-learned embeddings would have caught. The industry's answers form a spectrum: OneRec uses RQ-<i>Kmeans</i> over collaborative-informed embeddings; the YouTube ranking work uses engagement-trained SIDs; and Taobao's TSGR (§4) goes furthest — <b>QP-SID</b> assigns token indices using query-conditioned click statistics and business value directly, putting engagement <i>and money</i> into the vocabulary itself. <b>"Where does collaborative signal enter the ID space?" is a first-order review question, not a nit — and "what else rode in with it?" is its twin.</b></div>
+
+<div class="selfx">
+  <div class="qk">Self-explain</div>
+  <div class="q">In one sentence: why does the cold-start benefit of SIDs depend entirely on the content encoder, not on the decoder?</div>
+  <textarea placeholder="Type it — the box saves nothing; the typing is the point."></textarea>
+  <button class="btn ghost" onclick="this.nextElementSibling.classList.add('show')">Compare to model answer</button>
+  <div class="modelans">A new item has zero interactions, so the <i>only</i> path to a sensible SID is its content embedding landing near similar items' embeddings — the decoder has never seen the SID, but if the prefix is shared with warm items, generation probability transfers. If the content encoder mis-places the item, no amount of decoder quality recovers it. (This is why the cold-start reproducibility study finds the claim holds only on some slices — encoder quality is the variable.)</div>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="4"><span class="secno">§4</span>Pole GR-SID in production: what's actually deployed</h2>
+
+<div class="pole">
+<h3><span class="tag t1">GR-SID</span> The cheap version first: SIDs as <i>features</i> (YouTube, RecSys 2024)</h3>
+<p class="bfm"><b>Built:</b> replaced hashed atomic video IDs with SID-derived features <i>inside the existing ranking model</i> — no generative decoding anywhere.</p>
+<p class="bfm"><b>Found:</b> better generalization on cold-start and tail slices without hurting overall CTR; SentencePiece-style subword grouping over SIDs beat fixed n-grams.</p>
+<p class="bfm"><b>Means:</b> a large share of the semantic-ID benefit is available for the price of a feature swap. <b>This is the baseline any full GR-SID rewrite must beat</b> — "why not just SIDs-as-features?" is the cheapest question in the November conversation, and it has to have an answer.</p>
+</div>
+
+<div class="pole">
+<h3><span class="tag t1">GR-SID</span> The real thing at home: PinRec (Pinterest, 2025)</h3>
+<p class="bfm"><b>Built:</b> generative retrieval in production on homefeed/search/related surfaces, with three design moves worth knowing mechanically. (1) <b>Outcome-conditioned generation</b>: the decoder is conditioned on the <i>desired action</i> (repin vs click vs long-click), so the same model steers retrieval per surface and per business goal — validated by checking that recall shifts toward the conditioned outcome and away from others. (2) <b>Multi-token generation</b>: emit several representations per step instead of one chain, directly attacking beam search's probability-mass concentration — the diversity mechanism is built into generation, not bolted on as post-hoc dedup. (3) The serving shape — read this twice: autoregressive generation with a KV cache produces <i>representations</i>, the ID embedder runs as a separate CPU-optimized service (single-digit-ms), and the final step is a <b>Faiss ANN lookup</b> that snaps generated representations to real items.</p>
+<p class="bfm"><b>Found:</b> as one retrieval source among several: up to <b>+0.55% time spent</b> and <b>+4.01% Homefeed grid clicks</b> in A/B, <b>+4% search saves</b> — real lifts, surface-scoped, with explicit latency accounting.</p>
+<p class="bfm"><b>Means:</b> two lessons. First, the de-risked deployment shape exists: launch GR <i>behind</i> the existing ranker as an additional candidate generator — incremental, reversible, measurable. Second, and easy to miss: <b>Pinterest's deployed "generative retrieval" still ends in an ANN lookup.</b> Generate-then-snap sidesteps the invalid-sequence problem entirely (Faiss can only return real items — no trie needed) and quietly agrees with LIGER's conclusion: the production-viable shapes are hybrids of generation and dense retrieval, not pure decoding. Outcome-conditioning is meanwhile a genuine capability the two-tower stack lacks natively — a <i>controllability</i> win, which is a different (and more defensible) pitch than a quality win. You can benchmark every claim here against your own memory of these surfaces; that's rare leverage.</p>
+</div>
+
+<div class="pole">
+<h3><span class="tag t1">GR-SID</span> The stage-eater: TSGR (Taobao Search, 2026 — full paper read)</h3>
+<p class="bfm"><b>Built:</b> value-aware generative retrieval, fully deployed on Taobao Search (hundreds of millions of users; Qwen2.5-0.5B backbone on H20 GPUs, <b>65 ms latency budget</b>) — attacking GR's blind spot: standard SIDs optimize semantic matching and are <i>value-blind</i>, so two equally-relevant items with very different conversion odds are indistinguishable at retrieval. Two mechanisms:</p>
+<p class="bfm">(1) <b>QP-SID</b> — and note it is <i>not</i> a TIGER-style RQ-VAE. Levels 1–2 form a <b>semantic codebook built from structural priors</b>: Level 1 is initialized directly from the ~8,100-category taxonomy's embeddings, Level 2 is RQ-KMeans over cluster−category <i>residuals</i> (so every item in a cluster shares its full semantic prefix by construction), merged to 32768 for deployment — a shallower SID also accumulates fewer cascading decode errors. Level 3 is an <b>"efficiency codebook": within each cluster, items are ordered by 30-day click value</b>, so high-value items get early token indices — and because items sharing a token share training signal, early indices get trained hardest. On top of that, each cluster carries <b>4 parallel orderings</b> (default click-ordering + 3 conditioned on the cluster's most discriminative query terms, filtering terms that cover &gt;80% of the cluster), and the third token is assigned <i>per query</i> at training time. Their ablations earn their scars: an earlier design had <b>99.8% of outputs collapse onto the default path</b>, and inconsistent input/label orderings broke the model's copy behavior — ordering consistency is load-bearing.</p>
+<p class="bfm">(2) <b>VRM</b> — candidate item representation (offline side-info features + item embedding + an MLP over the SID token embeddings) <b>cross-attends into the backbone's own hidden states</b> as the user context (mean-pooled — reusing generation compute, so no extra serving latency), with pv/ctr/cvr heads trained jointly with generation (L = L<sub>gen</sub> + L<sub>rank</sub>); serving re-ranks by ŷ<sub>pv</sub>×ŷ<sub>ctr</sub>. Result: <b>TSGR's channel bypasses the pre-ranking stage entirely</b> — its top-1,500 go straight to ranking — and the built-in VRM beats the external pre-ranking model it replaced (+3.73% vs +3.30% HR@1000, and better at other cutoffs, without the cross-stage objective mismatch).</p>
+<p class="bfm"><b>Found:</b> offline <b>+9.16 points HR@1000</b> over the FORGE baseline (0.7735 → 0.8651; QP-SID alone contributes +4.42); online, 1% traffic for 38 days: <b>+0.43% IPV, +1.12% transaction count, +1.64% GMV</b>, statistically significant → full deployment. Training pipeline: five Pre-SFT tasks teaching an LLM to speak SID (the retrieval task contributes most, +3.82 of the +5.76 multi-task gain), then session-wise weighted multi-positive SFT (pay=3 &gt; click=2 &gt; pv=1, attention-masked between labels; listwise beats pointwise across every cutoff).</p>
+<p class="bfm"><b>Means:</b> a fourth deployed shape between retrieval-scoped and E2E: <b>stage consolidation</b> — GR eats one adjacent cascade stage where joint training is tractable, rather than all of them (a scoping option the November conversation should have on the menu). The caution is the mirror of the win: the click-ordered efficiency codebook moves <i>merchandising into the vocabulary</i> — the retrieval layer stops being a neutral relevance surface. The paper reports IPV slightly positive (mild evidence engagement didn't pay for the GMV), but publishes no relevance metrics — "did relevance hold?" remains the audit question to ask of any value-aware SID proposal. Note also: these are <i>search</i>-conditioned SIDs — one more datapoint for the SIDs-unify-search-and-rec thread, which touches your own search-surface story.</p>
+<details><summary>The buried lede: their GRPO pipeline lost to an architecture change (forward-pointer to W14)</summary><div class="dbody"><p style="font:15px/1.65 ui-sans-serif,system-ui,sans-serif;">They built a complete RL stage — GRPO with the <i>online ranking model</i> as reward source (32 sampled candidates/query at T=1.0 under constrained decoding; top-10 by CTR×CVR get +1, bottom-10 get −1; KL 0.5; entropy regularization on levels 1–2). It gained <b>+0.55% HR@1000 — marginal — and was not deployed.</b> The VRM (jointly-trained side-info fusion, an architecture change) delivered +3.73% instead. This is a clean industrial answer to W14's design question #10 — <i>"is this RL because RL is needed, or because RL is fashionable?"</i> — from a team that did the work honestly: when the signal you need (item side-info) can enter through the architecture, joint supervised training beats bolting a reward loop on top. Keep this example loaded for any "we should RL-train it" proposal.</p></div></details>
+</div>
+
+<div class="quiz">
+  <div class="qk">Check</div>
+  <div class="q">TSGR's QP-SID differs from TIGER's SID construction in that:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'Both use discrete hierarchical codes — the quantization machinery is the shared part.')">It abandons discrete codes for continuous embeddings</button>
+  <button class="opt" onclick="pick(this,true,'TIGER&#39;s codes come from content embeddings alone — value- and engagement-blind by construction. QP-SID assigns token indices using query-conditioned click statistics and business value, on the insight that items sharing tokens share training signal — so token assignment becomes an allocation decision, not a neutral compression. The gain: high-value items stop being invisible to retrieval (+1.64% GMV). The cost: the vocabulary itself now encodes a business policy, and relevance-neutrality must be audited rather than assumed.')">Token assignment is driven by query-item statistics and value, not content alone — the vocabulary encodes policy</button>
+  <button class="opt" onclick="pick(this,false,'The parallel orderings are about value-aware token assignment, not about beam width or decoding.')">It replaces beam search with parallel decoding</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Check</div>
+  <div class="q">Which is the correct statement about where a SID comes from?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'This is the misconception that makes ID instability invisible: SIDs are NOT learned end-to-end with the recommender. They come from a separately trained quantizer, and the recommender consumes them as fixed vocabulary.')">SIDs are parameters of the recommender, learned jointly with the ranking objective</button>
+  <button class="opt" onclick="pick(this,true,'A separately trained RQ-VAE (or RQ-Kmeans) over item embeddings produces the codes; the recommender then treats them as its token vocabulary. Two models, two training runs, one coupling point — which is exactly where the retrain-migration problem lives.')">A separately trained quantizer over item embeddings; the recommender consumes them as vocabulary</button>
+  <button class="opt" onclick="pick(this,false,'Hashing is how atomic IDs are compressed. SIDs are the anti-hash: they preserve semantic neighborhood structure, hashes deliberately destroy it.')">They are a locality-sensitive hash of the item's atomic ID</button>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="5"><span class="secno">§5</span>Pole GR-SEQ: HSTU and the scaling-law argument</h2>
+
+<div class="pole">
+<h3><span class="tag t2">GR-SEQ</span> HSTU (Meta, ICML 2024)</h3>
+<p class="bfm"><b>Built:</b> recommendation reformulated as <b>sequential transduction</b>: one long token stream per user interleaving items <i>and actions</i>, one model answering both retrieval ("what next") and ranking ("engagement given candidate"), with a redesigned attention unit (pointwise, SiLU-gated — dropping softmax normalization to preserve engagement <i>intensity</i>, not just preference order) and hardware-aware kernels. Plus <b>M-FALCON</b>: scoring thousands of ranking candidates by reusing the user-prefix computation — micro-batched candidates against one encoded history.</p>
+<p class="bfm"><b>Found:</b> <b>+12.4%</b> topline online at Meta scale (their reported number); and the first credible <b>compute power-law</b> for recsys quality across ~3 orders of magnitude — the DLRM baseline curve flattens, the HSTU curve keeps buying quality with compute.</p>
+<p class="bfm"><b>Means:</b> the strongest single argument the generative camp owns is <i>this curve</i>, not any offline metric. The counterweight is MTGR (Meituan): pure sequence models <b>discard cross features</b>, and their ablation says scaling does not buy that signal back — their production version reintroduces DLRM-style cross features into the HSTU shape. And the synerise critique says: check whose baseline the +12.4% was earned against.</p>
+</div>
+
+<div class="breaks"><b>Freshness trap (flag for any GR-SEQ proposal):</b> your current stack is online/incrementally trained; a batch-retrained sequence model can be <i>worse at freshness</i> than what it replaces even while beating it offline. Non-stationarity was HSTU's own motivation — ask what the incremental-training story is before anything else about serving.</div>
+
+<div class="quiz">
+  <div class="qk">Check — discrimination drill</div>
+  <div class="q">HSTU and TIGER both "treat recommendation like language modeling." The load-bearing difference is:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'Both are autoregressive sequence models; that is the shared part, not the difference.')">TIGER is autoregressive, HSTU is not</button>
+  <button class="opt" onclick="pick(this,true,'<b>The vocabulary.</b> TIGER decodes compositional SID tokens built from content (catalog = sequences over ~768 shared codes); HSTU consumes raw atomic item/action tokens (catalog = the vocabulary itself) and never touches content embeddings. Everything else follows: TIGER&#39;s bet is generalization-through-shared-structure; HSTU&#39;s bet is scale-through-architecture. A proposal telling you both stories at once is two proposals wearing one coat — split them.')">What a token is: content-derived SID codes vs raw atomic item/action IDs</button>
+  <button class="opt" onclick="pick(this,false,'HSTU unifies both tasks in one model — that is one of its claims, not TIGER&#39;s.')">TIGER handles ranking; HSTU only retrieval</button>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="6"><span class="secno">§6</span>Pole GR-E2E: OneRec and the honest ledger</h2>
+
+<div class="pole">
+<h3><span class="tag t3">GR-E2E</span> OneRec V1 → V2 (Kuaishou, 2025)</h3>
+<p class="bfm"><b>Built:</b> the maximal bet at 400M DAU: encoder-decoder generating the session's slate directly, SIDs from RQ-Kmeans over collaborative-informed embeddings, and — the part that makes it E2E rather than retrieval — a <b>preference-alignment stage</b> (reward model + iterative alignment) standing in for everything the deleted cascade's knobs used to do. V2's "lazy decoder" cut training compute ~94%, largely to make the economics survivable.</p>
+<p class="bfm"><b>Found:</b> App Stay Time <b>+0.47%</b> (V1) and <b>+0.74%</b> (V2) online; much higher hardware utilization (MFU) than the fragmented cascade it replaced — the infra-economics argument carries a large share of the total case.</p>
+<p class="bfm"><b>Means:</b> three durable lessons. (1) End-to-end is <i>possible</i> — the existence proof is real. (2) The wins are <b>sub-1% on the metric that matters</b>, bought with enormous engineering — anyone quoting OneRec as "the cascade is dead" is reading the abstract, not the ledger. (3) The reward model becomes the single point where business logic, integrity, and multi-objective trade-offs live — V2 exists substantially because V1's alignment was weak. <b>"Where do the cascade's knobs go?" is the E2E-killing question</b> — ads load, policy filters, contractual carriage, diversity floors all live <i>between</i> stages today.</p>
+</div>
+
+<div class="selfx">
+  <div class="qk">Self-explain</div>
+  <div class="q">Why does deleting the cascade concentrate risk in the reward model? One sentence.</div>
+  <textarea placeholder="Commit before revealing."></textarea>
+  <button class="btn ghost" onclick="this.nextElementSibling.classList.add('show')">Compare to model answer</button>
+  <div class="modelans">A cascade encodes objectives <i>structurally</i> — each stage and inter-stage knob is an explicit, individually-tunable constraint — while an end-to-end generator can only express those objectives through whatever the reward model scores, so every objective you forget to encode in the reward (or encode gameably) is silently optimized away. This is also why Week 14's reward-hacking material is a recsys lesson, not just an agents lesson.</div>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="7"><span class="secno">§7</span>The evidence ledger</h2>
+
+<p>The table to carry into any conversation. Numbers are the papers' own claims; treat each as its authors' best case.</p>
+
+<div class="tablewrap"><table>
+  <tr><th>System</th><th>Pole</th><th>Deployed?</th><th class="num">Reported result</th><th>The caveat that travels with it</th></tr>
+  <tr><td>HSTU (Meta)</td><td>GR-SEQ</td><td>Yes, at scale</td><td class="num">+12.4% topline; power-law scaling ~3 orders</td><td>Baseline hygiene contested (synerise); cross-feature loss (MTGR) not in headline</td></tr>
+  <tr><td>OneRec V1/V2 (Kuaishou)</td><td>GR-E2E</td><td>Yes, 400M DAU</td><td class="num">+0.47% / +0.74% App Stay Time; MFU way up</td><td>Sub-1% wins for a ground-up rebuild + RL stage; reward model = new risk center</td></tr>
+  <tr><td>YouTube SIDs (Google)</td><td>GR-SID (features)</td><td>Yes</td><td class="num">Cold-start/tail generalization up, CTR neutral+</td><td>No generative decoding — the cheap adoption path</td></tr>
+  <tr><td>PinRec (Pinterest)</td><td>GR-SID</td><td>Yes (as one CG)</td><td class="num">+0.55% time spent · +4.01% HF grid clicks · +4% search saves</td><td>Runs <i>behind</i> the ranker; final step is still a Faiss ANN snap — a hybrid in practice</td></tr>
+  <tr><td>TSGR (Taobao Search)</td><td>GR-SID + pre-rank</td><td>Yes, fully</td><td class="num">+9.16 pts HR@1000 off · +1.64% GMV, +1.12% txns online</td><td>Click-ordered codebook = policy in the vocabulary; its channel bypasses pre-ranking; no relevance metrics published; GRPO tried, lost to the VRM, not deployed</td></tr>
+  <tr><td>LIGER (Meta, research)</td><td>SID vs dense study</td><td>No (study)</td><td class="num">Dense &gt; generative on quality; hybrid best</td><td>The two-tower is still the quality bar; GR wins efficiency + cold-start</td></tr>
+  <tr><td>MTGR (Meituan)</td><td>GR-SEQ (hybrid)</td><td>Yes</td><td class="num">HSTU-shape + retained cross features wins</td><td>Direct counter-evidence to "delete the feature stack"</td></tr>
+  <tr><td>Netflix FM</td><td>GR-SEQ (representation)</td><td>Yes</td><td class="num">Dozens of specialized models consolidated</td><td>Org/leverage win; not a generative-decoding win</td></tr>
+</table></div>
+
+<div class="recsys"><b>The pattern across all eight:</b> everything that shipped either (a) kept the existing stack and added generative machinery <i>inside</i> it (YouTube, PinRec — which even keeps an ANN lookup as its final step — MTGR, Netflix), (b) replaced the stack and banked most of the win as <i>infrastructure economics</i> rather than user metrics (OneRec), or (c) consolidated <i>one adjacent stage</i> where joint training was tractable (TSGR eating the pre-ranker, with the strongest online numbers in the table — though on value metrics its own objective directly targets). Nothing deployed supports "generative replaces the stack and the engagement metrics jump." That's the honest state of the field as of mid-2026 — hold it loosely; HSTU's scaling curve is the argument that it could change, and TSGR's stage-consolidation is the argument that the migration can be eaten one stage at a time.</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="8"><span class="secno">§8</span>Close: the two-question classifier + cumulative quiz</h2>
+
+<p>The classifier you now own — two questions sort any proposal:</p>
+<div class="eq">Q1. What is a token?   content-derived SID code → GR-SID
+                       raw atomic item/action → GR-SEQ
+Q2. What survives?     ranking stack survives  → retrieval-scoped (SID or SEQ)
+                       cascade deleted         → GR-E2E  (ask: where do the knobs go?)</div>
+
+<div class="note"><b>Apply it this week (the W1 output):</b> run RecGPT through the classifier — its retrieval loss + ranking loss over sequence models with no content-SID vocabulary is <i>prima facie</i> GR-SEQ wearing ambitions of unification, but classify it from its actual design doc, not from memory. One page: which pole, which anchor system it should be benchmarked against, and the three review questions the pole determines. That page is November prep.</div>
+
+<div class="quiz">
+  <div class="qk">Cumulative 1</div>
+  <div class="q">The single strongest argument the generative camp currently owns is:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'LIGER says dense still wins on quality — offline quality is the generative camp&#39;s WEAK flank, not its strong one.')">Offline ranking quality beats dense retrieval</button>
+  <button class="opt" onclick="pick(this,true,'The HSTU compute-vs-quality power law. It reframes the argument from "better model" to "better returns on compute" — and the correct response is neither acceptance nor dismissal but <i>demand the curve on our data against our production baseline</i>.')">The scaling curve — quality keeps buying with compute where DLRMs flatten</button>
+  <button class="opt" onclick="pick(this,false,'OneRec&#39;s user-metric wins are sub-1%; the economics argument is real but it is the second-strongest card, and it is an infra card, not a quality card.')">OneRec proves end-to-end wins big on user metrics</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Cumulative 2</div>
+  <div class="q">Your team proposes full GR-SID retrieval. Which is the cheapest counterfactual they must price first?</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,true,'The YouTube result: most of the SID generalization benefit may be available as a feature swap in the existing ranker — no decoder, no beam search, no ID-migration problem. If the proposal can&#39;t say why that&#39;s insufficient, it isn&#39;t ready.')">SIDs as features in the existing stack, no generative decoding</button>
+  <button class="opt" onclick="pick(this,false,'A bigger two-tower is a fair baseline but not the cheapest counterfactual — the feature-swap path reuses everything.')">Scale up the existing two-tower instead</button>
+  <button class="opt" onclick="pick(this,false,'That is the maximal alternative, not the cheapest one.')">Go straight to E2E so you only migrate once</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Cumulative 3 — the trap question</div>
+  <div class="q">"Semantic IDs solve cold-start." The precise version of this claim is:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'The decoder has never seen a cold item&#39;s SID — there is nothing about decoding that helps cold items per se.')">The decoder generalizes to unseen items because generation is compositional</button>
+  <button class="opt" onclick="pick(this,true,'Cold items inherit warm items&#39; statistics exactly insofar as the <b>content encoder</b> places them near warm neighbors so they share SID prefixes. The benefit is real (YouTube), slice-dependent (reproducibility study), and bounded by encoder quality — and an engagement-misleading item is mis-shelved with no engagement signal to correct it.')">Cold items share SID prefixes with warm items iff the content encoder places them well — the benefit is exactly as good as the encoder</button>
+  <button class="opt" onclick="pick(this,false,'Popularity bias is about the training distribution, a different (also real) issue.')">SIDs remove popularity bias, which is what hurts cold items</button>
+</div>
+
+<hr>
+<div class="foot">
+<p><b>This week's remaining items:</b> Eugene Yan's keynote (35 min, video) and Yuan Meng's essay (~2 hrs) — you now have the skeleton they'll hang flesh on. Then write the one-page RecGPT classification.</p>
+<p><b>Sources for every claim here:</b> TIGER <span class="cite">arxiv.org/abs/2305.05065</span> · HSTU <span class="cite">arxiv.org/abs/2402.17152</span> · OneRec <span class="cite">arxiv.org/abs/2506.13695, /2508.20900</span> · YouTube SIDs <span class="cite">arxiv.org/abs/2306.08121</span> · LIGER <span class="cite">arxiv.org/abs/2411.18814</span> · MTGR <span class="cite">arxiv.org/abs/2505.18654</span> · PinRec <span class="cite">arxiv.org/abs/2504.10507</span> · TSGR <span class="cite">arxiv.org/abs/2607.18796</span> · Wukong <span class="cite">arxiv.org/abs/2403.02545</span>. Reported numbers are the papers' own; independent replication noted where it exists (cold-start reproducibility: arxiv 2603.29845). <b>Marked uncertain:</b> RecGPT's pole classification — inferred from secondhand descriptions; verify against its design doc. TSGR details verified against the full paper (arXiv:2607.18796v2, read 8/30): codebook structure, VRM architecture, training pipeline, GRPO configuration and its non-deployment, and all numbers are the paper's own. The one open item the paper doesn't answer: relevance metrics for the value-tilted channel are not published — IPV +0.43% is the closest proxy.</p>
+<p>Next lesson: <b>W2 · Training Dynamics</b> — what actually changes the weights, and how to read a loss curve like a clinician.</p>
+</div>
+
+</div>
+
+<script>
+function conf(btn){
+  const row=btn.parentElement;
+  row.querySelectorAll('button').forEach(b=>b.classList.remove('sel'));
+  btn.classList.add('sel');
+  row.dataset.conf=btn.textContent;
+}
+function pick(btn,ok,msg){
+  const card=btn.closest('.quiz,.predict');
+  if(card.dataset.done)return;
+  card.dataset.done="1";
+  card.querySelectorAll('.opt').forEach(o=>o.disabled=true);
+  btn.classList.add(ok?'correct':'wrong');
+  if(!ok){card.querySelectorAll('.opt').forEach(o=>{
+    const on=o.getAttribute('onclick')||'';
+    if(on.includes('this,true'))o.classList.add('correct');
+  });}
+  const fb=document.createElement('div');
+  fb.className='fb show '+(ok?'ok':'no');
+  fb.innerHTML=(ok?'<b>Right.</b> ':'<b>Not quite.</b> ')+msg;
+  card.appendChild(fb);
+  const confRow=card.querySelector('.conf');
+  if(!ok && confRow && confRow.dataset.conf==='Sure'){
+    const h=document.createElement('div');
+    h.className='hyper show';
+    h.textContent='High-confidence miss — these are the ones that rewrite the schema. Worth 30 extra seconds on the feedback above.';
+    card.appendChild(h);
+  }
+}
+let rqState=0;
+function rqStep(){
+  const btn=document.getElementById('rqBtn');
+  const note=document.getElementById('rqNote');
+  const out=document.getElementById('rqOut');
+  if(rqState===0){
+    document.getElementById('rqLine1').style.opacity=1;
+    note.textContent='c₁ = 1: e₁(1) is the nearest level-1 entry to z. Every item in this whole region shares this first token — the coarse shelf.';
+    out.style.visibility='visible'; out.textContent='SID = ( 1 , · )';
+    btn.textContent='Step 2: compute residual, assign c₂';
+    rqState=1;
+  } else if(rqState===1){
+    document.getElementById('rqPanel2').style.opacity=1;
+    document.getElementById('rqRes').style.opacity=1;
+    document.getElementById('rqResLabel').style.opacity=1;
+    document.getElementById('rqLine2').style.opacity=1;
+    note.textContent='r₁ = z − e₁(1) is re-centred and quantized against codebook 2: c₂ = 0. The second token encodes only what the first missed. Reconstruction ẑ = e₁(1) + e₂(0).';
+    out.textContent='SID = ( 1 , 0 )';
+    btn.textContent='Step 3: a nearby item';
+    rqState=2;
+  } else if(rqState===2){
+    const svg=btn.closest('.rq').querySelector('svg');
+    const g=document.createElementNS('http://www.w3.org/2000/svg','g');
+    g.innerHTML='<circle cx="196" cy="132" r="6" fill="var(--warn)"/><text x="205" y="146" font-size="12" fill="var(--warn)" font-family="system-ui">z′ (similar item)</text>';
+    svg.getElementById?svg.appendChild(g):svg.appendChild(g);
+    note.innerHTML='z′ sits near z → same c₁ = 1 (same shelf), but its residual lands nearer e₂(1) → SID′ = (1, 1). <b>Shared prefix, different suffix — the hierarchy is emergent, nobody designed the taxonomy.</b> Now imagine the RQ-VAE retrained after a content-encoder update: z drifts across the c₁ boundary and the item changes shelves. That is ID instability, seen from inside.';
+    out.textContent='SID = (1,0) · SID′ = (1,1)';
+    btn.textContent='Done — continue reading';
+    btn.disabled=true;
+    rqState=3;
+  }
+}
+const secs=document.querySelectorAll('h2[data-sec]');
+const pbar=document.getElementById('pbar');
+const plabel=document.getElementById('plabel');
+function onScroll(){
+  let current=0;
+  secs.forEach(s=>{ if(s.getBoundingClientRect().top<120) current=parseInt(s.dataset.sec); });
+  pbar.style.width=(current/8*100)+'%';
+  plabel.textContent='§'+current+' / 8';
+}
+document.addEventListener('scroll',onScroll,{passive:true});
+onScroll();
+</script>

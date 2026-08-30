@@ -1,0 +1,457 @@
+<!-- Lesson W2 · Learning Agenda 2026 · self/learning/lessons/ -->
+<title>Training Dynamics</title>
+<style>
+  :root{
+    --bg:#fbfcfe; --card:#ffffff; --ink:#1a1f29; --soft:#5b6573; --line:#e3e7ee;
+    --accent:#2f6df0; --accent-soft:#eef4ff; --accent-line:#d6e3ff;
+    --accent2:#7b3fe4; --accent2-soft:#f3f1fc; --accent2-line:#e2dbf8;
+    --good:#1f9d57; --good-soft:#eafaf1; --good-line:#c7ecd5; --good-ink:#15683a;
+    --bad:#d23f3f; --bad-soft:#fdecec; --bad-ink:#a32424;
+    --warn:#b96a08; --warn-soft:#fff8ec; --warn-line:#f5e3bf; --warn-ink:#6b4a12;
+    --codebg:#f4f6fb; --code-ink:#28406e;
+    --link-underline:#cdd9f7;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#12151c; --card:#1a1f29; --ink:#e7ebf2; --soft:#98a2b3; --line:#2a3140;
+      --accent:#6f9bf5; --accent-soft:#1c2536; --accent-line:#2c3c5c;
+      --accent2:#a685f0; --accent2-soft:#241f33; --accent2-line:#3a3055;
+      --good:#3fbf7a; --good-soft:#15271e; --good-line:#265c40; --good-ink:#7fd8a8;
+      --bad:#e06c6c; --bad-soft:#2e1a1a; --bad-ink:#f0a0a0;
+      --warn:#d99a3d; --warn-soft:#2a2214; --warn-line:#54401e; --warn-ink:#e8c187;
+      --codebg:#232a38; --code-ink:#b9c8ea;
+      --link-underline:#3a4a6e;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#12151c; --card:#1a1f29; --ink:#e7ebf2; --soft:#98a2b3; --line:#2a3140;
+    --accent:#6f9bf5; --accent-soft:#1c2536; --accent-line:#2c3c5c;
+    --accent2:#a685f0; --accent2-soft:#241f33; --accent2-line:#3a3055;
+    --good:#3fbf7a; --good-soft:#15271e; --good-line:#265c40; --good-ink:#7fd8a8;
+    --bad:#e06c6c; --bad-soft:#2e1a1a; --bad-ink:#f0a0a0;
+    --warn:#d99a3d; --warn-soft:#2a2214; --warn-line:#54401e; --warn-ink:#e8c187;
+    --codebg:#232a38; --code-ink:#b9c8ea;
+    --link-underline:#3a4a6e;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.7 ui-serif,Georgia,"Times New Roman",serif;}
+  .wrap{max-width:780px;margin:0 auto;padding:34px 22px 120px;}
+  .kicker{font:600 12px/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);}
+  h1{font:700 30px/1.2 ui-sans-serif,system-ui,sans-serif;margin:6px 0 8px;letter-spacing:-.01em;text-wrap:balance;}
+  h2{font:700 21px/1.3 ui-sans-serif,system-ui,sans-serif;margin:40px 0 8px;letter-spacing:-.01em;}
+  h2 .secno{color:var(--accent);margin-right:8px;}
+  h3{font:700 16px/1.3 ui-sans-serif,system-ui,sans-serif;margin:24px 0 4px;}
+  p{margin:12px 0;}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid var(--link-underline);}
+  .lead{font-size:19px;}
+  .mission{background:var(--accent2-soft);border:1px solid var(--accent2-line);border-left:4px solid var(--accent2);border-radius:10px;
+    padding:12px 16px;margin:18px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .note{background:var(--accent-soft);border:1px solid var(--accent-line);border-radius:10px;padding:12px 16px;margin:16px 0;
+    font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .recsys{background:var(--good-soft);border:1px solid var(--good-line);border-left:4px solid var(--good);border-radius:10px;
+    padding:12px 16px;margin:16px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .recsys b{color:var(--good-ink);}
+  .breaks{background:var(--warn-soft);border:1px solid var(--warn-line);border-left:4px solid var(--warn);border-radius:10px;
+    padding:12px 16px;margin:16px 0;font:15px/1.6 ui-sans-serif,system-ui,sans-serif;color:var(--warn-ink);}
+  .eq{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--codebg);border:1px solid var(--line);
+    border-radius:8px;padding:10px 12px;margin:12px 0;font-size:14.5px;color:var(--code-ink);white-space:pre-wrap;overflow-x:auto;}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;background:var(--codebg);border:1px solid var(--line);
+    border-radius:5px;padding:1px 5px;font-size:13.5px;color:var(--code-ink);}
+  table{border-collapse:collapse;width:100%;font:14.5px/1.55 ui-sans-serif,system-ui,sans-serif;margin:14px 0;}
+  .tablewrap{overflow-x:auto;margin:14px 0;}
+  th{text-align:left;font-weight:700;border-bottom:2px solid var(--line);padding:8px 10px;white-space:nowrap;}
+  td{border-bottom:1px solid var(--line);padding:8px 10px;vertical-align:top;}
+  .num{font-variant-numeric:tabular-nums;}
+  .quiz,.predict,.selfx,.lab{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:20px 0;}
+  .predict{border-left:4px solid var(--accent2);}
+  .qk{font:600 11px/1.4 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px;}
+  .quiz .qk{color:var(--accent);} .predict .qk{color:var(--accent2);} .selfx .qk{color:var(--good);} .lab .qk{color:var(--accent2);}
+  .q{font:600 16px/1.5 ui-sans-serif,system-ui,sans-serif;margin-bottom:10px;}
+  .conf{font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin:2px 0 8px;}
+  .conf button{font:600 12.5px/1 ui-sans-serif,system-ui,sans-serif;border:1px solid var(--line);background:var(--card);color:var(--soft);
+    border-radius:99px;padding:6px 12px;margin-right:6px;cursor:pointer;}
+  .conf button.sel{border-color:var(--accent);color:var(--accent);background:var(--accent-soft);}
+  .opt{display:block;width:100%;text-align:left;font:15px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--ink);
+    background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:7px 0;cursor:pointer;transition:.12s;}
+  .opt:hover{border-color:var(--accent);background:var(--accent-soft);}
+  .opt.correct{border-color:var(--good);background:var(--good-soft);color:var(--good-ink);}
+  .opt.wrong{border-color:var(--bad);background:var(--bad-soft);color:var(--bad-ink);}
+  .fb{display:none;margin-top:8px;font:14.5px/1.6 ui-sans-serif,system-ui,sans-serif;padding:10px 12px;border-radius:8px;}
+  .fb.show{display:block;}
+  .fb.ok{background:var(--good-soft);color:var(--good-ink);}
+  .fb.no{background:var(--bad-soft);color:var(--bad-ink);}
+  .hyper{display:none;margin-top:8px;font:600 14px/1.5 ui-sans-serif,system-ui,sans-serif;padding:10px 12px;border-radius:8px;
+    background:var(--warn-soft);border:1px solid var(--warn-line);color:var(--warn-ink);}
+  .hyper.show{display:block;}
+  textarea{width:100%;min-height:64px;font:15px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--ink);background:var(--card);
+    border:1px solid var(--line);border-radius:8px;padding:10px 12px;resize:vertical;}
+  .btn{font:600 14px/1 ui-sans-serif,system-ui,sans-serif;background:var(--accent);color:#fff;border:0;border-radius:8px;
+    padding:10px 16px;cursor:pointer;margin-top:8px;}
+  .btn.ghost{background:var(--card);color:var(--accent);border:1px solid var(--accent);}
+  .btn:focus-visible,.opt:focus-visible,.conf button:focus-visible,input[type=range]:focus-visible{outline:3px solid var(--accent);outline-offset:2px;}
+  .modelans{display:none;margin-top:10px;padding:10px 12px;border-radius:8px;background:var(--good-soft);color:var(--good-ink);
+    font:14.5px/1.6 ui-sans-serif,system-ui,sans-serif;}
+  .modelans.show{display:block;}
+  .lab svg{width:100%;height:auto;display:block;background:var(--card);}
+  .ctrl{display:flex;gap:18px;flex-wrap:wrap;font:14px/1.5 ui-sans-serif,system-ui,sans-serif;margin-top:8px;}
+  .ctrl label{display:flex;flex-direction:column;gap:4px;min-width:150px;}
+  .ctrl output{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  input[type=range]{width:160px;accent-color:var(--accent);}
+  .curvegrid{display:grid;grid-template-columns:1fr;gap:0px;}
+  .case{border-top:1px solid var(--line);padding-top:14px;margin-top:14px;}
+  .case:first-child{border-top:0;margin-top:0;padding-top:0;}
+  .legend{font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin:4px 0 0;}
+  .legend .tr{color:var(--accent);font-weight:700;} .legend .va{color:var(--accent2);font-weight:700;}
+  .progress{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--line);
+    font:12.5px/1 ui-sans-serif,system-ui,sans-serif;color:var(--soft);}
+  .progress .bar{height:3px;background:var(--accent);width:0%;transition:width .2s;}
+  .progress .plabel{padding:8px 22px;display:flex;justify-content:space-between;max-width:780px;margin:0 auto;}
+  .cite{font:13px/1.5 ui-sans-serif,system-ui,sans-serif;color:var(--soft);}
+  hr{border:0;border-top:1px solid var(--line);margin:34px 0;}
+  .foot{font:14px/1.6 ui-sans-serif,system-ui,sans-serif;color:var(--soft);margin-top:40px;}
+  @media (prefers-reduced-motion: reduce){ *{transition:none !important;} }
+</style>
+
+<div class="progress"><div class="bar" id="pbar"></div>
+  <div class="plabel"><span>Lesson W2 · Training Dynamics</span><span id="plabel">§0 / 7</span></div>
+</div>
+
+<div class="wrap">
+
+<div class="kicker">Learning Agenda · Week 2 · Sep 7 – 13</div>
+<h1>Training Dynamics</h1>
+<p class="lead">You know what one training step <i>is</i> (Lesson 01, June: forward → loss → backward → step). This lesson is about what a hundred thousand of them <i>do</i> — why the knobs exist, how runs die, and how to read a loss curve the way a clinician reads an ECG.</p>
+
+<div class="mission"><b>What this lesson changes:</b> after ~60–75 min you can (1) explain what each of the four training defenses — warmup, decay, clipping, weight decay — protects against, mechanically; (2) diagnose the six canonical loss-curve pathologies on sight; (3) run the sanity ladder (init-loss check → overfit-one-batch → scale) on any run your team shows you; and (4) interrogate the training half of an HF fine-tuning review with the same authority you bring to a two-tower design. Direct inputs: the <b>live HF fine-tuning iterations</b> (Piyush/Zihao), and every "we'll train it better" claim in the November conversation.</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="1"><span class="secno">§1</span>Warm-up: three from last week</h2>
+<p>Spaced retrieval — answer from memory before revealing.</p>
+
+<div class="quiz">
+  <div class="qk">Retrieval · W1</div>
+  <div class="q">The two-question classifier for any "generative recommendation" proposal is:</div>
+  <button class="opt" onclick="pick(this,true,'Q1: what is a token (content-derived SID → GR-SID; raw atomic item/action → GR-SEQ). Q2: what survives (ranking stack survives → retrieval-scoped; cascade deleted → GR-E2E, and then: where do the knobs go?).')">What is a token? · What survives?</button>
+  <button class="opt" onclick="pick(this,false,'Model size and loss type are downstream details — the poles are set by the token vocabulary and the blast radius.')">How big is the model? · What's the loss?</button>
+  <button class="opt" onclick="pick(this,false,'Offline metrics don&#39;t separate the poles at all — all three report wins on them.')">Offline lift? · Online lift?</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Retrieval · W1</div>
+  <div class="q">Why is "SIDs fix cold-start" bounded by the content encoder?</div>
+  <button class="opt" onclick="pick(this,true,'Cold items inherit warm statistics only through shared SID prefixes, and prefix placement is decided entirely by where the content encoder puts the embedding. Encoder mis-placement = mis-shelved item with no engagement signal to correct it.')">Cold items only inherit warm behavior through encoder-placed prefix sharing</button>
+  <button class="opt" onclick="pick(this,false,'The decoder has never seen a cold item&#39;s SID — decoding contributes nothing cold-specific.')">Because the decoder memorizes cold items faster</button>
+  <button class="opt" onclick="pick(this,false,'Popularity bias is real but is a training-distribution issue — a different mechanism.')">Because SIDs remove popularity bias</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Retrieval · W1</div>
+  <div class="q">Meta's LIGER head-to-head found:</div>
+  <button class="opt" onclick="pick(this,true,'Dense (two-tower-style) retrieval still ahead on quality; generative wins efficiency and cold-start; their answer is the hybrid. The tuned two-tower remains the quality bar.')">Dense still wins on quality; hybrid is their answer</button>
+  <button class="opt" onclick="pick(this,false,'That would have ended the debate; it did not happen.')">Generative dominates on both quality and cost</button>
+  <button class="opt" onclick="pick(this,false,'LIGER measured a real, directional gap — not a wash.')">No significant difference</button>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="2"><span class="secno">§2</span>Why Adam, and the four defenses</h2>
+
+<p>SGD updates every parameter with the same global step size. A transformer (and even more so a recsys model) is the worst possible customer for that: gradient magnitudes differ by orders of magnitude across layers, and — the part you'll recognize — <b>embedding rows are sparse customers</b>: any given item's row gets a gradient only on steps where the item appears. Adam fixes both with two running estimates per parameter:</p>
+
+<div class="eq">m ← β₁·m + (1−β₁)·g          # first moment: smoothed gradient (direction)
+v ← β₂·v + (1−β₂)·g²         # second moment: smoothed magnitude
+θ ← θ − lr · m̂ / (√v̂ + ε)    # per-parameter step: big for quiet params, damped for loud ones</div>
+
+<p>Dividing by <code>√v</code> normalizes each parameter's step by its own typical gradient scale. A rarely-updated embedding row (small accumulated <code>v</code>) takes confident steps when its item finally shows up; a hot dense layer (large <code>v</code>) is damped. <b>AdamW</b> is the same thing with weight decay applied directly to the weights rather than mixed into the gradient — decay strength stops depending on gradient scale, which is why it's the default.</p>
+
+<div class="recsys"><b>Bridge:</b> this is the same reason your feature-embedding infra ended up with per-feature adaptive optimizers (Adagrad lineage) — power-law item frequency makes any single global step size wrong for both the head and the tail simultaneously. Adam is that lesson, generalized. <b>Where it breaks:</b> Adam's state costs 2 extra values per parameter — for a 10⁸-row embedding table that's real memory, which is why big recsys systems often run <i>different optimizers for embeddings vs dense layers</i>. Worth asking which choice your team's fine-tuning stack made.</div>
+
+<h3>The four defenses, by what kills the run without them</h3>
+<div class="tablewrap"><table>
+  <tr><th>Defense</th><th>The death it prevents</th><th>Mechanism</th></tr>
+  <tr><td><b>LR warmup</b></td><td>Divergence in the first few hundred steps</td><td>At step 10, <code>v</code> is an estimate from ~10 samples — garbage. Full LR ÷ garbage variance = huge, wrongly-scaled steps that can break training before statistics stabilize. Warmup keeps steps small until <code>v</code> means something.</td></tr>
+  <tr><td><b>LR decay (cosine)</b></td><td>Endless bouncing around the minimum</td><td>Late in training the loss surface's remaining structure is finer than the step size; annealing lets the model settle instead of orbit. (Shape matters less than people argue; having decay matters.)</td></tr>
+  <tr><td><b>Gradient clipping</b></td><td>One bad batch nuking the weights</td><td>Cap the global gradient norm (typically 1.0). A rare pathological batch produces a 100× gradient once — clipped, it's a non-event; unclipped, it's a loss spike the run may never recover from.</td></tr>
+  <tr><td><b>Weight decay</b></td><td>Slow drift into overfit/bloated weights</td><td>Constant pull toward zero — capacity control. In fine-tuning reviews the question is whether it's on for embeddings too (often it shouldn't be).</td></tr>
+</table></div>
+
+<div class="lab">
+  <div class="qk">Interactive · the schedule</div>
+  <div class="q">Drag the knobs. Question to answer with the widget: what does the schedule look like at step 200 if warmup is 100 vs 1,000 — and which run is in more danger, given what <code>v</code> knows at step 200?</div>
+  <svg id="lrChart" viewBox="0 0 640 220" aria-label="Learning rate schedule curve"></svg>
+  <div class="ctrl">
+    <label>Warmup steps <output id="wuOut">500</output><input type="range" id="wu" min="0" max="3000" step="50" value="500" oninput="drawLR()"></label>
+    <label>Peak LR (×10⁻⁴) <output id="lrOut">3.0</output><input type="range" id="lrmax" min="1" max="10" step="0.5" value="3" oninput="drawLR()"></label>
+    <label>Total steps <output id="tsOut">10000</output><input type="range" id="ts" min="4000" max="20000" step="1000" value="10000" oninput="drawLR()"></label>
+  </div>
+  <p class="legend">Cosine decay to 10% of peak after warmup. The shaded zone is the danger window: steps where LR is high <i>and</i> Adam's <code>v</code> is still young.</p>
+</div>
+
+<div class="quiz">
+  <div class="qk">Check</div>
+  <div class="q">A fine-tuning run diverges at step ~150 of 20,000. The config: peak LR 5e-4, no warmup, clipping off ("it was slowing us down"). The <i>first</i> change to make:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'Halving peak LR might mask it, but step-150 divergence with no warmup is the textbook early-variance failure — fix the mechanism, not the symptom.')">Halve the peak LR</button>
+  <button class="opt" onclick="pick(this,true,'Step ~150 is inside the window where Adam&#39;s second-moment estimate is unreliable — exactly what warmup exists for. Add warmup (and turn clipping back on; &quot;it was slowing us down&quot; usually means &quot;it was doing its job&quot;). If it still diverges after those two, then look at LR.')">Add warmup; re-enable clipping</button>
+  <button class="opt" onclick="pick(this,false,'More data does nothing about step-scale pathology in the first 150 steps.')">Train on more data</button>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="3"><span class="secno">§3</span>The loss-curve clinic</h2>
+
+<p>Six runs, train loss in <span style="color:var(--accent);font-weight:700;">blue</span>, validation in <span style="color:var(--accent2);font-weight:700;">purple</span>. Diagnose each before revealing — this is the skill you'll use weekly, and the cases are deliberately confusable.</p>
+
+<div class="curvegrid" id="clinic"></div>
+
+<!-- ====================================================== -->
+<h2 data-sec="4"><span class="secno">§4</span>The sanity ladder</h2>
+
+<p>The debugging recipe, in the order that isolates cause. Each rung is cheap and each failure localizes the bug:</p>
+
+<div class="eq">1. Loss at init ≈ ln(vocab)?      # untrained model should be exactly as wrong as chance
+   GPT-2 vocab 50,257 → expect ≈ 10.8. Wildly off → bug in loss/labels/init, not "needs training".
+2. Overfit ONE batch to ~0 loss.   # can the model+loss+optimizer memorize 32 examples?
+   Can't → wiring bug (masking, off-by-one labels, LR). No amount of data fixes wiring.
+3. Overfit 1% of data.             # does val loss behave sanely on a toy split?
+4. Full run, watch the FIRST 500 steps against the clinic patterns.
+5. Only now discuss capacity, data, and hyperparameters.</div>
+
+<div class="recsys"><b>Recsys instantiation of rung 1:</b> a sampled-softmax next-item model with k negatives should start at ≈ ln(k+1) — with 511 negatives, ≈ 6.24. A CLR-style in-batch-softmax with batch 4,096 starts ≈ ln(4096) ≈ 8.3. If your team's run starts at 2.1, the labels are leaking or the negatives are broken; <b>the expected init loss is a number you can compute before the run exists</b>, and asking for it is the fastest credibility move in a training review.</div>
+
+<div class="selfx">
+  <div class="qk">Self-explain</div>
+  <div class="q">Why does "can't overfit one batch" rule out data quantity as the problem? One sentence.</div>
+  <textarea placeholder="Commit first."></textarea>
+  <button class="btn ghost" onclick="this.nextElementSibling.classList.add('show')">Compare to model answer</button>
+  <div class="modelans">Memorizing 32 fixed examples requires no generalization — only that gradients flow from a correctly-computed loss to the right parameters; failure means the mechanism is broken (masking, label alignment, optimizer state), and mechanisms don't heal with more data.</div>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="5"><span class="secno">§5</span>The softmax bottleneck — recsys training's defining constraint</h2>
+
+<p>Language models compute the full softmax: vocabulary ~50K, final layer cost per token = <code>2·d·V</code> FLOPs — fine. Your catalog is 10⁸–10⁹. The full softmax is <i>architecturally impossible</i>, and every recsys training recipe is a workaround wearing a different name:</p>
+
+<div class="tablewrap"><table>
+  <tr><th>Workaround</th><th>Mechanism</th><th>The bias it introduces</th><th>The fix</th></tr>
+  <tr><td><b>Sampled softmax</b></td><td>Score the positive against k sampled negatives instead of all V</td><td>Depends on the sampling distribution q — the gradient is biased unless corrected</td><td>Subtract <code>log q(item)</code> from each logit (the classic correction)</td></tr>
+  <tr><td><b>In-batch negatives</b></td><td>Other positives in the batch are your negatives — free, since their embeddings are already computed</td><td>q = <i>popularity</i> (items appear as negatives proportional to engagement) → popular items over-punished, tail under-trained</td><td><b>LogQ correction</b>: same logit correction with q̂ = estimated in-batch frequency</td></tr>
+  <tr><td><b>Two-tower + ANN</b></td><td>Don't decode at all — dot-product against a prebuilt index</td><td>Not a softmax at serve time at all; training still uses one of the above</td><td>— (this is your home turf)</td></tr>
+</table></div>
+
+<div class="recsys"><b>This is CLR's training loop.</b> The in-batch-negatives + LogQ pattern is (a lineage of) how sampling-bias-corrected two-tower training works, and it's the direct ancestor of how CLR trains today. The reason this section is in a <i>transformer</i> lesson: <b>a GR-SID decoder faces the same bottleneck in a new costume</b> — TIGER's answer is that decoding over 3×256 codes replaces the 10⁸-way softmax with three 256-way softmaxes. That's the honest efficiency argument for semantic IDs, and it's also why codebook sizing is a serving decision, not just a quality one. When ATG or anyone shows you a generative trainer, your first training question is now: <i>what plays the role of the negative sampler here, and what's the correction?</i></div>
+
+<div class="quiz">
+  <div class="qk">Check</div>
+  <div class="q">A team trains a two-tower with in-batch negatives, no LogQ correction. The predictable symptom:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,true,'Popular items appear as negatives far more often than uniform, so the model learns to suppress exactly the items users engage with most; tail items are barely contested. Offline metrics on a popularity-skewed eval can even look fine — the damage shows in head-item recall and online. The LogQ term repays its one line of code.')">Popular items get systematically over-suppressed; tail under-trained</button>
+  <button class="opt" onclick="pick(this,false,'The opposite direction — popularity makes popular items appear as negatives too OFTEN, not too rarely.')">Popular items get boosted because they're seen more</button>
+  <button class="opt" onclick="pick(this,false,'The run trains fine — this is a bias problem, not a stability problem. That&#39;s what makes it dangerous.')">Training diverges early</button>
+</div>
+
+<!-- ====================================================== -->
+<h2 data-sec="6"><span class="secno">§6</span>This week's video, watched at the right altitude</h2>
+
+<p>Karpathy's "Let's build GPT" this week is <b>not</b> for the attention block (known cold). Watch it as a <i>training</i> video. What to actively verify while the Shakespeare model trains on your Colab:</p>
+
+<div class="note" style="font-size:15px;">
+<b>The watching checklist:</b>
+<ol style="margin:6px 0 0 18px;padding:0;">
+<li>Pause at the first loss print: does it match ln(65) ≈ 4.17 (his character vocab)? That's rung 1 of the ladder, live.</li>
+<li>Watch what happens to the loss when he scales from bigram to full model — which changes buy loss and which buy nothing.</li>
+<li>When your own run is going: change LR ×10 up and down, once each, and match the resulting curves to clinic cases B and F.</li>
+<li>Kill it, restart with warmup off — do you see the early-step instability at this tiny scale? (Often not — small models are forgiving; note <i>that</i> too: fragility grows with scale, which is why "it worked on the small model" is weak evidence.)</li>
+</ol></div>
+
+<!-- ====================================================== -->
+<h2 data-sec="7"><span class="secno">§7</span>Cumulative quiz</h2>
+
+<div class="quiz">
+  <div class="qk">Cumulative 1 · interleaved with W1</div>
+  <div class="q">A TIGER-style decoder is trained on next-SID prediction. Its final-layer softmax per generated token is over:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'That is exactly the bottleneck SIDs exist to avoid.')">The full catalog (10⁸ items)</button>
+  <button class="opt" onclick="pick(this,true,'One codebook at a time — a ~256-way softmax per token, three tokens per item. The 10⁸-way problem became 3×256. This is the training-side efficiency argument for GR-SID, and it&#39;s why codebook size is simultaneously a quality knob (capacity), a serving knob (beam width cost), and a training knob (softmax width).')">One codebook (~256 codes) per decoding step</button>
+  <button class="opt" onclick="pick(this,false,'In-batch negatives are a two-tower training trick; the decoder has an explicit small vocabulary instead.')">The in-batch negatives</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Cumulative 2</div>
+  <div class="q">Val loss sits <i>below</i> train loss for the whole run of a next-item model. Most likely:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,false,'Regularization (dropout on train, off at eval) can produce a small persistent gap in this direction — but for sequence recsys the first suspect is nastier, and you must rule it out first.')">Normal — dropout is active at train time only</button>
+  <button class="opt" onclick="pick(this,true,'<b>Leakage until proven otherwise</b> — in recsys usually temporal: val windows overlapping train, or features computed with post-event data. Dropout can cause a small version of this gap legitimately, but the cost of mistaking leakage for dropout is a launched model that collapses online, so the burden of proof runs one way. Check the split timeline before celebrating.')">Leakage — check the temporal split before anything else</button>
+  <button class="opt" onclick="pick(this,false,'Underfitting shows both curves high and close, not val below train.')">Underfitting</button>
+</div>
+
+<div class="quiz">
+  <div class="qk">Cumulative 3</div>
+  <div class="q">Your team reports: "loss 2.1 at init, dropped to 1.4, HR@10 up 40% offline." Using this lesson, the first question is:</div>
+  <div class="conf">Confidence: <button onclick="conf(this)">Sure</button><button onclick="conf(this)">Think so</button><button onclick="conf(this)">Guessing</button></div>
+  <button class="opt" onclick="pick(this,true,'2.1 at init should be ≈ ln(effective vocabulary) — for any plausible negative count that&#39;s way too low (511 negatives → 6.24; batch-4096 in-batch → 8.3). An init loss far below chance means the model is being told the answer before training starts: label leakage, broken negatives, or a masking bug. The 40% HR gain is then measuring the bug, not the model.')">"What should init loss have been, given your negative sampling — and why was it 2.1?"</button>
+  <button class="opt" onclick="pick(this,false,'A fine later question, but the init-loss anomaly upstream invalidates everything downstream if unexplained.')">"What's the online A/B plan?"</button>
+  <button class="opt" onclick="pick(this,false,'Also downstream of the init anomaly.')">"Which negatives did you use?"</button>
+</div>
+
+<hr>
+<div class="foot">
+<p><b>Deeper (drawers, open if pulled):</b></p>
+<details><summary>Why √v and not v — one paragraph</summary><div class="dbody"><p style="font:15px/1.65 ui-sans-serif,system-ui,sans-serif;">Dividing by <code>v</code> (the variance) would make the step size scale like 1/g — big gradients would produce <i>tiny</i> steps and the update would lose all magnitude information. Dividing by <code>√v</code> (the standard deviation) makes steps approximately <i>scale-free</i>: a parameter whose gradient is consistently 10× larger takes the same effective step as one 10× smaller, so the learning rate means the same thing everywhere in the network. That normalization is the entire point; ε just prevents division blow-ups for near-silent parameters.</p></div></details>
+<details><summary>Warmup, precisely: why the first steps are dangerous</summary><div class="dbody"><p style="font:15px/1.65 ui-sans-serif,system-ui,sans-serif;">With β₂ = 0.999, <code>v</code> has an effective memory of ~1,000 steps; at step 20 it's an average of 20 noisy samples, and bias-correction amplifies rather than fixes the noise (it corrects the mean, not the variance of the estimate). A parameter that happened to see small gradients gets a huge 1/√v̂ multiplier and a violent step. At small scale the loss surface forgives this; at large scale (or with long sequences and hot embeddings) it doesn't. Warmup is not a superstition; it's holding fire until the estimator earns trust.</p></div></details>
+<p><b>Sources:</b> Adam/AdamW (Kingma &amp; Ba 2014; Loshchilov &amp; Hutter 2017) · sampling-bias-corrected two-tower / LogQ (Yi et al., RecSys 2019 lineage) · sanity ladder (Karpathy, "A Recipe for Training Neural Networks") · TIGER softmax structure (arxiv 2305.05065). Init-loss arithmetic: ln(50257)=10.82, ln(65)=4.17, ln(512)=6.24, ln(4096)=8.32 — computed, not quoted. <b>Marked uncertain:</b> which optimizer split your team's stack uses for embedding vs dense params — ask, don't assume.</p>
+<p>Next: <b>W3 · Generation Mechanics</b> — decoding, beam search over SID tries, and the KV cache arithmetic that decides what fits in a ranking path.</p>
+</div>
+
+</div>
+
+<script>
+function conf(btn){
+  const row=btn.parentElement;
+  row.querySelectorAll('button').forEach(b=>b.classList.remove('sel'));
+  btn.classList.add('sel');
+  row.dataset.conf=btn.textContent;
+}
+function pick(btn,ok,msg){
+  const card=btn.closest('.quiz,.predict');
+  if(card.dataset.done)return;
+  card.dataset.done="1";
+  card.querySelectorAll('.opt').forEach(o=>o.disabled=true);
+  btn.classList.add(ok?'correct':'wrong');
+  if(!ok){card.querySelectorAll('.opt').forEach(o=>{
+    const on=o.getAttribute('onclick')||'';
+    if(on.includes('this,true'))o.classList.add('correct');
+  });}
+  const fb=document.createElement('div');
+  fb.className='fb show '+(ok?'ok':'no');
+  fb.innerHTML=(ok?'<b>Right.</b> ':'<b>Not quite.</b> ')+msg;
+  card.appendChild(fb);
+  const confRow=card.querySelector('.conf');
+  if(!ok && confRow && confRow.dataset.conf==='Sure'){
+    const h=document.createElement('div');
+    h.className='hyper show';
+    h.textContent='High-confidence miss — these rewrite the schema. Reread the feedback above slowly.';
+    card.appendChild(h);
+  }
+}
+
+/* LR schedule widget */
+function drawLR(){
+  const wu=+document.getElementById('wu').value;
+  const lr=+document.getElementById('lrmax').value;
+  const ts=+document.getElementById('ts').value;
+  document.getElementById('wuOut').textContent=wu;
+  document.getElementById('lrOut').textContent=lr.toFixed(1);
+  document.getElementById('tsOut').textContent=ts;
+  const svg=document.getElementById('lrChart');
+  const W=640,H=220,L=46,B=190,T=16,R=620;
+  let pts=[];
+  for(let i=0;i<=300;i++){
+    const t=i/300*ts;
+    let f;
+    if(t<wu) f=wu===0?1:(t/wu);
+    else{const p=(t-wu)/Math.max(1,(ts-wu));f=0.1+0.45*(1+Math.cos(Math.PI*p));} /* cosine 1→0.1 */
+    if(t<wu) f=f; else f=Math.min(f,1);
+    const x=L+(t/ts)*(R-L);
+    const y=B-(f)*(B-T)* (lr/10) / (10/10) ;
+    pts.push([x,B-(f*lr/10)*(B-T)]);
+  }
+  const danger=Math.min(1000,ts); // young-v window ~1k steps
+  const dx=L+(danger/ts)*(R-L);
+  let path='M'+pts.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join(' L');
+  svg.innerHTML=
+    '<rect x="'+L+'" y="'+T+'" width="'+(dx-L)+'" height="'+(B-T)+'" fill="var(--warn-soft)" opacity="0.7"/>'+
+    '<line x1="'+L+'" y1="'+B+'" x2="'+R+'" y2="'+B+'" stroke="var(--line)"/>'+
+    '<line x1="'+L+'" y1="'+T+'" x2="'+L+'" y2="'+B+'" stroke="var(--line)"/>'+
+    '<text x="'+(L-6)+'" y="'+(T+8)+'" text-anchor="end" font-size="11" fill="var(--soft)" font-family="system-ui">1e-3</text>'+
+    '<text x="'+(L-6)+'" y="'+B+'" text-anchor="end" font-size="11" fill="var(--soft)" font-family="system-ui">0</text>'+
+    '<text x="'+R+'" y="'+(B+16)+'" text-anchor="end" font-size="11" fill="var(--soft)" font-family="system-ui">step '+ts+'</text>'+
+    '<text x="'+(dx-4)+'" y="'+(T+12)+'" text-anchor="end" font-size="11" fill="var(--warn)" font-family="system-ui">young-v̂ window</text>'+
+    '<path d="'+path+'" fill="none" stroke="var(--accent)" stroke-width="2.5"/>';
+}
+
+/* Loss-curve clinic */
+const cases=[
+ {id:'A',title:'Case A',gen:function(t){const tr=2.5*Math.exp(-t/28)+1.15+0.03*Math.sin(t*1.7);const va=2.5*Math.exp(-t/30)+1.28+0.02*Math.sin(t*1.3+2);return[tr,va];},
+  q:'Diagnosis?',opts:[
+   ['Healthy: fast early drop, smooth deceleration, val tracking with a small steady gap',true,'The reference picture. Small persistent train–val gap = generalizing; both still trending down = not done training. Memorize this shape — every pathology below is a deviation from it.'],
+   ['Overfitting — there is a train/val gap',false,'A small CONSTANT gap is normal (train is optimized directly). Overfitting is a WIDENING gap with val turning upward.'],
+   ['LR too low',false,'Too-low LR shows a shallow, nearly-linear crawl from the start — this drops fast early.']]},
+ {id:'B',title:'Case B',gen:function(t){const base=2.6-0.15*Math.exp(-t/40);const n=0.35*Math.sin(t*2.1)+0.25*Math.sin(t*0.9+1);return[base+n*0.5,base+0.15+n*0.4];},
+  q:'Loss dropped a little, then oscillates noisily around a high plateau. Diagnosis?',opts:[
+   ['LR too high — bouncing across the valley instead of descending into it',true,'The step size exceeds the local curvature scale: each update overshoots, so loss rattles around a plateau well above what the model could reach. Distinguish from divergence (case C): here it&#39;s stably bad. Fix: LR down 3–10×, or check warmup actually ran.'],
+   ['Bad data — the model can&#39;t learn this distribution',false,'Data problems usually show as a smooth plateau (nothing left to extract), not violent oscillation. Oscillation = optimizer dynamics.'],
+   ['Underfitting — needs more capacity',false,'Capacity shows as a smooth early plateau with LOW noise. The noise signature points at step size.']]},
+ {id:'C',title:'Case C',gen:function(t){if(t<55){return[2.5*Math.exp(-t/25)+1.2,2.5*Math.exp(-t/27)+1.32];} const e=(t-55);const x=1.2+0.9*e*e/120;return[Math.min(x,6.4),Math.min(x+0.2,6.5)];},
+  q:'Trained beautifully for 55% of the run, then exploded. Diagnosis and first response?',opts:[
+   ['Loss spike → divergence: a pathological batch or LR/precision instability; check clipping, then the data at that step',true,'Mid-run explosions after healthy training are usually one of: clipping off/too loose (one bad batch nukes weights), an LR schedule bug, or numerical instability (fp16 overflow). First: was clipping on and what did grad-norm logs show at the spike? Second: what data shipped in that step&#39;s batches? Recovery = resume from checkpoint before the spike with the cause fixed — retraining through it rarely works.'],
+   ['Overfitting kicked in suddenly',false,'Overfitting is gradual and shows in VAL while train keeps improving. Both curves exploding together is an optimization/numerics event.'],
+   ['The cosine schedule ended',false,'Decay ENDING makes steps smaller — the safest moment of the run, not the most dangerous.']]},
+ {id:'D',title:'Case D',gen:function(t){const tr=2.5*Math.exp(-t/22)+0.55;const va=t<40?2.5*Math.exp(-t/26)+1.25:2.5*Math.exp(-40/26)+1.25+(t-40)*0.012;return[tr,va];},
+  q:'Diagnosis?',opts:[
+   ['Overfitting: train still improving, val bottomed and rising — the gap is widening',true,'The canonical scissors. The model is trading generalization for memorization. Levers in order of cheapness: early-stop at the val minimum (free), more/better data, then regularization (dropout, weight decay, smaller model). Fine-tuning corollary: small datasets overfit in FRACTIONS of an epoch — val curves need to be dense enough to catch the minimum.'],
+   ['Healthy — both dropped a lot',false,'Look at val&#39;s direction after its minimum. Train-down + val-up is the one unambiguous pathology in this clinic.'],
+   ['Leakage',false,'Leakage makes val look too GOOD (below train). This is val going bad — the opposite.']]},
+ {id:'E',title:'Case E',gen:function(t){const tr=2.5*Math.exp(-t/25)+1.2;const va=2.4*Math.exp(-t/23)+0.85;return[tr,va];},
+  q:'Val loss below train loss, entire run. Diagnosis?',opts:[
+   ['Leakage until proven otherwise — audit the temporal split and feature computation',true,'Val below train for a whole run means val is EASIER than train, and in recsys the usual reason is time travel: overlapping windows, or features computed with information from after the prediction moment. (Dropout-off-at-eval produces a small legitimate version — but you must rule out leakage first, because launching a leaky model is the expensive failure.) The audit: exact timestamps of both splits, and every feature&#39;s computation window.'],
+   ['Great generalization — ship it',false,'A model cannot systematically generalize better than it fits, absent an asymmetry. Find the asymmetry before shipping; usually the asymmetry is a bug.'],
+   ['Val set too small — noise',false,'A small val set produces a NOISY curve, not a consistently offset one.']]},
+ {id:'F',title:'Case F',gen:function(t){const tr=2.45-t*0.004+0.01*Math.sin(t);const va=2.5-t*0.0035+0.01*Math.sin(t+1);return[tr,va];},
+  q:'Barely moving from step one — a slow, smooth, almost-linear crawl. Diagnosis?',opts:[
+   ['Stalled: LR too low, frozen parameters, or the signal isn&#39;t reaching the loss — run the sanity ladder',true,'Three families produce this: LR orders of magnitude too low (steps too small to matter), most parameters accidentally frozen (a requires_grad/optimizer-group bug — common in LoRA setups: check which modules are actually trainable), or the inputs don&#39;t predict the target (data/feature wiring). Rung 2 of the ladder separates them: if you CAN&#39;T overfit one batch it&#39;s wiring; if you CAN, it&#39;s LR/schedule.'],
+   ['Healthy but slow — let it run',false,'From-the-start flatness with no early drop is not patience territory; the early steep drop (easy structure) is missing, which means learning isn&#39;t happening at normal rates at all.'],
+   ['Overfitting',false,'Nothing is being fit at all yet, let alone over-fit.']]}
+];
+const clinic=document.getElementById('clinic');
+cases.forEach(function(c,ix){
+  const W=640,H=170,L=42,B=150,T=12,R=624;
+  let ptsT=[],ptsV=[];
+  for(let i=0;i<=100;i++){
+    const [tr,va]=c.gen(i);
+    const sc=v=>B-((v-0.3)/6.4)*(B-T);
+    ptsT.push([L+i/100*(R-L),sc(tr)]);ptsV.push([L+i/100*(R-L),sc(va)]);
+  }
+  const pth=p=>'M'+p.map(q=>q[0].toFixed(1)+','+q[1].toFixed(1)).join(' L');
+  const div=document.createElement('div');
+  div.className='case lab';
+  div.innerHTML='<div class="qk">Clinic · '+c.title+'</div>'+
+    '<svg viewBox="0 0 '+W+' '+H+'" aria-label="Loss curves case '+c.id+'">'+
+    '<line x1="'+L+'" y1="'+B+'" x2="'+R+'" y2="'+B+'" stroke="var(--line)"/>'+
+    '<line x1="'+L+'" y1="'+T+'" x2="'+L+'" y2="'+B+'" stroke="var(--line)"/>'+
+    '<text x="'+(L-4)+'" y="'+(T+8)+'" text-anchor="end" font-size="10" fill="var(--soft)" font-family="system-ui">loss</text>'+
+    '<text x="'+R+'" y="'+(B+14)+'" text-anchor="end" font-size="10" fill="var(--soft)" font-family="system-ui">steps →</text>'+
+    '<path d="'+pth(ptsT)+'" fill="none" stroke="var(--accent)" stroke-width="2.2"/>'+
+    '<path d="'+pth(ptsV)+'" fill="none" stroke="var(--accent2)" stroke-width="2.2" stroke-dasharray="5 3"/>'+
+    '</svg><p class="legend"><span class="tr">— train</span> &nbsp; <span class="va">- - val</span></p>'+
+    '<div class="quiz" style="margin:10px 0 0;border:0;padding:0;"><div class="q">'+c.q+'</div>'+
+    c.opts.map(o=>'<button class="opt" data-ok="'+o[1]+'">'+o[0]+'</button>').join('')+'</div>';
+  clinic.appendChild(div);
+  div.querySelectorAll('.opt').forEach((btn,i)=>{
+    btn.addEventListener('click',()=>pick2(btn,c.opts[i][1],c.opts[i][2]));
+  });
+});
+function pick2(btn,ok,msg){
+  const card=btn.closest('.case');
+  if(card.dataset.done)return;
+  card.dataset.done="1";
+  card.querySelectorAll('.opt').forEach(o=>{o.disabled=true;if(o.dataset.ok==='true'&&!ok)o.classList.add('correct');});
+  btn.classList.add(ok?'correct':'wrong');
+  const fb=document.createElement('div');
+  fb.className='fb show '+(ok?'ok':'no');
+  fb.innerHTML=(ok?'<b>Right.</b> ':'<b>Not quite.</b> ')+msg;
+  card.appendChild(fb);
+}
+drawLR();
+
+const secs=document.querySelectorAll('h2[data-sec]');
+const pbar=document.getElementById('pbar');
+const plabel=document.getElementById('plabel');
+function onScroll(){
+  let current=0;
+  secs.forEach(s=>{ if(s.getBoundingClientRect().top<120) current=parseInt(s.dataset.sec); });
+  pbar.style.width=(current/7*100)+'%';
+  plabel.textContent='§'+current+' / 7';
+}
+document.addEventListener('scroll',onScroll,{passive:true});
+onScroll();
+</script>

@@ -1,1335 +1,166 @@
-# Learning Agenda
+# Learning Agenda — LLM×RecSys + Reflex (14-Week Program)
 
-Personal structured curriculum. Five tracks, each independent. Prioritized for Q2 2026 and beyond.
+Created: 2026-08-30 (replaces the Q2 2026 five-track agenda → `archive/learning_agenda_2026Q2.md`)
+Owner: James
+Status: live · **Weeks dated Mon 8/31 → Sun 12/6, 2026** · review at week 7 and week 14
 
-**Time budget:** ~3 hrs/week dedicated learning + continuous on-the-job learning with Leo/Claude Code.
+**Why this program exists.** The 8/15 ruling: *I choose the LLM×recsys frontier, because it's where my time disappears — and I don't need anyone's building to pursue it.* This is that choice made executable. Goal is **judging depth**, not implementation mastery: interrogate a RecGPT-class proposal at parity, review the team's fine-tuning like an expert, reason about serving cost without borrowing opinions, and design Reflex's feedback loops from first principles.
 
-**Companion system:**
-- **Concept notes** live in this `learning/` folder as individual `.md` files (e.g., `condition-token.md`, `pretraining-finetuning.md`). Variable granularity — some broad, some very specific. Each focuses on key nuances, what I understand, what I'm still working through.
-- **Learning events** are logged in `outputs/session-log.md` (tagged as learning, not a separate journal).
+**The learning law (8/15, binding):** learning-for-use flows; learning-for-the-badge grinds. Every week below names the live decision it feeds. If a week ever stops connecting to a real decision, flag it in session — don't push through.
 
----
+**Time budget:** ~3 hrs/week dedicated + ambient on-the-job. Substrates: Colab/toy repos (primary hands-on) · work-leo exercises (prompts written here, run at work) · Leo-as-lab (judge/eval exercises on Leo's own logs).
 
-## Prioritization
+**Deliberately excluded:** pretraining at depth and interview drilling — that's lab-bar prep, gated on the calm-week test (~mid-Sept). If the bar activates, it gets added *as* bar prep, honestly labeled. Old non-technical tracks (Claude Code mastery, eng leadership, ML system design) continue ambiently, not as curriculum.
 
-### Tier 1 — Now (Q2 2026)
-- **Track 5:** Model Architecture & Transformers — directly supports UPP decisions happening right now
-- **Track 2:** Evals modules + **Module 2.8 (Verification Checkpoints)** — PINvestigator Q2 eval-driven development + knowing where to insert human checkpoints
-- **Track 1:** Claude Code hooks, skills, best practices + **Module 1.10 (AI Pipeline Failure Modes)** — daily workflow + systems thinking for Leo/PINvestigator/Rekko
+**Companion system (carried over):** concept notes as individual `.md` files in this folder (what I understand / nuances / still working through / how it shows up in my work); learning events logged in session logs. Weekly checkbox = crossable, scoreboard-style.
 
-### Tier 2 — Next (Q3 2026)
-- **Track 3:** ML System Design interview prep — promoted to Tier 1 (April 2026). Start with UPP + PINvestigator interview answer writeups. Building optionality, not actively interviewing.
-- **Track 2:** RL/bandit modules — when Retentive Recs feedback loop work is more active
-
-### Tier 3 — Ongoing
-- **Track 4:** Engineering Leadership + **Module 4.4 (Human Judgment in AI Systems)** — practiced in live situations, reflected on in session logs; governance questions increasingly relevant as PINvestigator and Rekko automate more decisions
+**Source verification note:** all URLs verified via live search Aug 2026 by four research agents; a few domains couldn't be fetched directly from the research sandbox (kipp.ly, bbycroft.net, eugeneyan.com, netflixtechblog, yuan-meng.com) — confirmed via multiple independent citations. If a URL 404s, title-search it.
 
 ---
 
-## How to Use Concept Notes
+## The five areas and their live decisions
 
-Each concept note in `learning/` follows this shape:
-
-```markdown
-# {Concept Name}
-
-## What it is
-(My understanding, in my words)
-
-## Key nuances
-(The non-obvious stuff — what surprised me, what I got wrong initially, the gotchas)
-
-## What I understand well
-(Parts I can explain clearly to someone who doesn't know this)
-
-## What I'm still working through
-(Parts where my understanding is fuzzy, incomplete, or I can't yet explain simply)
-
-## How it shows up in my work
-(Concrete connections to UPP, Retentive Recs, PINvestigator, Homefeed, etc.)
-
-## Go deeper
-- [ ] Suggested exercise, reading, or open question
-```
-
-Granularity is intentionally variable. "Two-tower retrieval" and "condition token for user history modeling" can both be notes. They link naturally but don't need to live at the same level.
+| Area | Weeks | Live decision it feeds |
+|---|---|---|
+| 1 · Generative retrieval / semantic IDs | 1, 4-5, 8-10 | **GenRet/RecGPT owner decision (November)** · LWS×UPP integration fork · holding parity with ATG and Karthik (DE) |
+| 2 · Post-training practice | 6-7 | **HF fine-tuning iterations (live now, Piyush/Zihao)** · distillation-to-serving path |
+| 3 · Transformer internals | 2-3 | Foundation for areas 1-2; capability claims judgment |
+| 4 · Inference economics | 11-12 | **GPU-serving productionization push** · the cost line |
+| 5 · RL for agents + evals | 13-14 (+stretch) | **Curator/Skeptic improvement plan** (eval_09 six-idea menu) · any "RL-train our agent" proposal |
 
 ---
 
-# Track 1: Claude Code & Claude AI Mastery
+## Week-by-week
 
-## Why This Track
-Building Leo, PINvestigator, and daily workflow all run on Claude Code. This track fills gaps systematically so I stop discovering features by accident and start wielding the full toolkit intentionally.
+### ☐ W1 · Aug 31 – Sep 6 — The generative-recommendation map
+- Lesson: `lessons/w01_generative_rec_map.html` · live: https://claude.ai/code/artifact/9bb00081-4a86-4f6d-b87c-4a6fc183b250 (interactive — the three-meanings map, RQ-VAE walked with real numbers, the terminology glossary, production-evidence ledger)
+- Watch: Eugene Yan, AI Engineer 2025 keynote — https://www.youtube.com/watch?v=YxpwskHTtkc (35 min, warm-up)
+- Read: Yuan Meng, "Is Generative Recommendation the ChatGPT Moment of RecSys?" — https://www.yuan-meng.com/posts/generative_recommendation/ (~2 hrs; the single best on-ramp — TIGER → HSTU → OneRec with skepticism intact)
+- **Output:** one page naming the three things people mean by "generative recommender" — (a) semantic-ID generative retrieval (TIGER), (b) sequential transduction at scale (HSTU), (c) end-to-end cascade replacement (OneRec) — and which one RecGPT actually is. *(work-leo: file it where the November decision prep lives.)*
 
-**Deepened priority (2026-04-03):** The differentiating skill isn't prompt fluency — it's AI systems architecture. Where do pipelines fail silently? How do I instrument agentic systems for observability? Where do I insert human checkpoints before errors propagate? Module 1.10 addresses this directly. Prioritize alongside 1.1 and 1.4.
+### ☐ W2 · Sep 7 – 13 — Training dynamics: what actually changes the weights
+*(Re-aimed 8/30 against LR-0001: the forward pass is known cold — attention math, multi-head, RoPE, SASRec/BERT4Rec, TransAct/CFM/CLR mappings. The genuine gap is training mechanics. Do NOT re-watch attention explainers.)*
+- Lesson: `lessons/w02_training_dynamics.html` · live: https://claude.ai/code/artifact/f2d1ca74-1797-40e3-bf96-de74721a42c8 (interactive — optimization, loss-curve diagnosis, recsys training specifics: sampled softmax, in-batch negatives, LogQ)
+- Build: Karpathy, "Let's build GPT" — https://www.youtube.com/watch?v=kCc8FmEb1nY — **watch for the training loop, not the attention block**: loss → backward → step, then train the Shakespeare model and read its loss curve (~2 hrs; Colab)
+- **Exit test:** given a loss curve + config, diagnose stalled vs diverging vs overfitting, and explain what warmup and clipping each protect against.
 
----
+### ☐ W3 · Sep 14 – 20 — Generation mechanics: decoding, beam search, KV cache
+- Lesson: `lessons/w03_generation_mechanics.html` · live: https://claude.ai/code/artifact/84de37f9-9b69-48a4-89e6-fa27d4402e0d (interactive — sampling/temperature, beam search + constrained decoding over a valid-ID trie, KV-cache arithmetic; the direct bridge to TIGER in W4 and serving econ in W11)
+- Explore: bbycroft.net 3D LLM visualization — https://bbycroft.net/llm (~45 min; locate K and V, note their shapes and why the cache is per-token)
+- **Exit test:** given (layers, heads, d_model), write the parameter count; given a beam width and SID vocabulary, sketch how constrained decoding keeps generation valid.
 
-## Module 1.1: Core Concepts & The Agentic Loop
+### ☐ W4 · Sep 21 – 27 — Generative retrieval: the founding papers
+- Read: TIGER, "Recommender Systems with Generative Retrieval" — https://arxiv.org/abs/2305.05065 (~2 hrs; internalize content embedding → RQ-VAE codes → seq2seq, and what Amazon-Beauty benchmarks do NOT prove)
+- Read: "Better Generalization with Semantic IDs" (YouTube ranking, RecSys 2024) — https://arxiv.org/abs/2306.08121 (~1 hr; the cheapest useful SID adoption — SIDs as features in the existing ranker — the baseline a full generative rewrite must beat)
+- **Output:** concept note on RQ-VAE / semantic IDs — including the cold-start honesty question.
 
-### What to learn
-- How Claude Code works under the hood: the agentic loop (model -> tool calls -> results -> model)
-- Available tools: Read, Edit, Write, Bash, Glob, Grep, WebFetch, WebSearch, Agent (subagents)
-- How the model decides which tools to use and in what order
-- Context window management: what happens when context fills up (compaction, summarization)
+### ☐ W5 · Sep 28 – Oct 4 — Hands-on: build the toy generative retriever
+- Run: EdoardoBotta/RQ-VAE-Recommender — https://github.com/EdoardoBotta/RQ-VAE-Recommender — on MovieLens 1M, end-to-end (~3 hrs over two sittings; Colab/laptop)
+- Inspect **by hand**: codebook utilization, collision rates, what happens to an item's SID when the RQ-VAE retrains. The failure modes (dead codes, collisions, unstable IDs) become tangible — more judging depth per hour than any paper.
+- **Output:** three observed failure modes, written down; they become review questions verbatim.
 
-### Key concepts
-- **The agentic loop**: Claude reads prompt -> decides tool calls -> executes -> reads results -> decides next action -> repeats until done
-- **Tool selection**: Claude chooses tools based on task; guide it by being specific
-- **Context window**: Everything in conversation consumes tokens; long sessions degrade quality
-- **Checkpointing**: Claude automatically checkpoints file changes; rewind with `/undo`
+### ☐ W6 · Oct 5 – 11 — Post-training I: the pipeline at manager altitude
+- Watch: Karpathy, "Deep Dive into LLMs" — https://www.youtube.com/watch?v=7xTGNNLPyMI — SFT section onward at 1.5x (~75 min; his "SFT = imitation, RL = practice" framing is the vocabulary)
+- Read: Nathan Lambert, The RLHF Book — https://rlhfbook.com/ — intro + SFT + preference-data chapters (~1 hr; navigate from TOC, chapter numbering shifts)
+- Skim: Raschka, "New LLM Pre-training and Post-training Paradigms" — https://magazine.sebastianraschka.com/p/new-llm-pre-training-and-post-training (~30 min)
+- **Exit test:** whiteboard pretraining → SFT → RM/preference → RL and say what each stage's data looks like. **Use immediately:** the reviewer's checklist (Appendix B) at the next HF fine-tuning review with Piyush/Zihao.
 
-### Practice
-- Start a session, ask Claude to explain a file, then modify it. Watch the tool sequence.
-- Deliberately fill context by exploring a large codebase. Notice when compaction kicks in.
-- Use `/undo` to revert a change Claude made.
+### ☐ W7 · Oct 12 – 18 — Post-training II: run a LoRA fine-tune yourself
+- Read: Raschka, "Practical Tips for Finetuning LLMs Using LoRA" — https://magazine.sebastianraschka.com/p/practical-tips-for-finetuning-llms (~40 min; extract the r/alpha/target-modules rules of thumb first so nothing is cargo-culted)
+- Run: Unsloth SFT notebook (Qwen3-4B or Llama-3.1-8B), free Colab — https://github.com/unslothai/notebooks + guide https://unsloth.ai/docs/get-started/fine-tuning-llms-guide — stock first, then swap in a custom dataset (300–1,000 examples shaped like the team's task; e.g., query+item → relevance judgment) and retrain (~2 hrs attention)
+- **Output:** a model you personally fine-tuned + visceral sense of what r/alpha/LR/epochs feel like. *(Leo-as-lab option: fine-tune on Leo session-log style transfer instead.)*
+- **Mid-program review:** is the 3 hrs/week holding? Is each week feeding a real decision? Adjust here, not silently.
 
-### Resources
-| Resource | URL | Format | Cost |
-|----------|-----|--------|------|
-| Claude Code Docs | code.claude.com/docs/en/overview | Docs | $0 |
-| Claude Code Best Practices | code.claude.com/docs/en/best-practices | Docs | $0 |
-| "Building effective agents" | anthropic.com/engineering/ | Blog | $0 |
+### ☐ W8 · Oct 19 – 25 — Generative recommendation at scale (the HSTU pole)
+- Read: HSTU, "Actions Speak Louder than Words" — https://arxiv.org/abs/2402.17152 — §1-3 + scaling/deployment + M-FALCON serving sections (~2 hrs; skim kernels); slides: https://icml.cc/media/icml-2024/Slides/32684.pdf
+- Read: Shaped.ai HSTU explainer — https://www.shaped.ai/blog/is-this-the-chatgpt-moment-for-recommendation-systems (~45 min; author-reviewed)
+- Skim: Wukong scaling law — https://arxiv.org/abs/2403.02545 (~30 min: intro, curves, conclusion)
+- Optional background: kick off meta-recsys/generative-recommenders ml-1m quickstart — https://github.com/meta-recsys/generative-recommenders — and compare HSTU vs SASRec HR@10 yourself
+- **Exit test:** a crisp answer to "do recsys models scale like LLMs?" (power laws exist but are architecture-contingent; sequence models scale, DLRMs need surgery; exponents shallower than language).
 
----
+### ☐ W9 · Oct 26 – Nov 1 — Production evidence and the honest tradeoffs
+- Read: OneRec V1 — https://arxiv.org/abs/2506.13695 (full) + V2 architecture/deployment — https://arxiv.org/pdf/2508.20900 (~2 hrs; note how modest the online wins are vs. the infra spend)
+- Read: LIGER, generative-vs-dense head-to-head — https://arxiv.org/abs/2411.18814 (~1 hr; **the bridge paper for a two-tower veteran** — dense still out-ranks pure generative; the hybrid mitigates cold-start)
+- Skim: MTGR (Meituan) cross-feature ablation — https://arxiv.org/abs/2505.18654 (~30 min; the strongest documented counterargument to "throw away the feature stack")
+- **Output:** two-column ledger — reported online wins vs infra cost/complexity, cited by paper.
 
-## Module 1.2: CLAUDE.md — Your Most Powerful Lever
+### ☐ W10 · Nov 2 – 8 — The prosecutor's file (GenRet decision-ready)
+- Read: PinRec — https://arxiv.org/abs/2504.10507 (~1 hr; generative retrieval on the surfaces you built — benchmark every claim against memory); teardown companion: https://www.shaped.ai/blog/pinrec-teardown-inside-pinterests-production-ready-generative-retrieval-model
+- Read: GRID practitioner's handbook (Snap) ablations — https://arxiv.org/abs/2507.22224 (~1 hr; many "critical" SID components matter less than claimed)
+- Skim: cold-start reproducibility study — https://arxiv.org/abs/2603.29845 · synerise HSTU critique (baseline hygiene) — https://sair.synerise.com/basemodel-vs-meta-ais-hstu-for-sequential-recommendations/ · Netflix foundation-model pair — https://netflixtechblog.com/foundation-model-for-personalized-recommendation-1a0bd8e02d39 + https://netflixtechblog.medium.com/integrating-netflixs-foundation-model-into-personalization-applications-cf176b5860eb · Eugene Yan's written survey as consolidation — https://eugeneyan.com/writing/recsys-llm/
+- **Output (the point of the whole area):** your personal judging checklist, tuned to RecGPT — seed from Appendix A. *(work-leo: this walks into the November decision and any ATG review.)*
 
-### What to learn
-- Project-level CLAUDE.md (checked into repo) vs user-level instructions
-- How to write effective instructions that shape every response
-- `.claude/rules/` directory for granular, path-specific rules
-- File imports for composing instructions from multiple files
+### ☐ W11 · Nov 9 – 15 — Inference economics I: the arithmetic
+- Work by hand: kipp.ly, "Transformer Inference Arithmetic" — https://kipp.ly/transformer-inference-arithmetic/ (~1.5 hrs; do every calculation for one model you own numbers for)
+- Read: Baseten ops:byte guide — https://www.baseten.co/blog/llm-transformer-inference-guide/ (~40 min; redo its math for your fleet's GPUs)
+- Read: Anyscale continuous batching — https://www.anyscale.com/blog/continuous-batching-llm-inference (~40 min; be able to redraw the two diagrams)
+- **Exit test:** calculations 1–4 of Appendix C from memory.
 
-### Key concepts
-- **CLAUDE.md is loaded into every conversation** — always-on context
-- **Specificity matters**: "Use pytest, not unittest" > "follow best practices"
-- **Rules directory**: `.claude/rules/*.md` files loaded alongside CLAUDE.md
-- **Layering**: User-level -> project-level -> directory-level rules; more specific overrides more general
+### ☐ W12 · Nov 16 – 22 — Inference economics II + capability judgment
+- Read: JAX ML Scaling Book, "All About Transformer Inference" — https://jax-ml.github.io/scaling-book/inference/ (~1.25 hrs, do the quizzes)
+- Read: Grootendorst, "A Visual Guide to Quantization" — https://www.maartengrootendorst.com/blog/quantization/ (~45 min; keep the comparison table)
+- Read: Character.AI serving cost posts — https://blog.character.ai/optimizing-ai-inference-at-character-ai-2/ + part deux (~30 min; for each technique, one line on whether it applies to an LLM-in-recsys path)
+- Read: "chinchilla's wild implications" — https://www.lesswrong.com/posts/6Fpvch8RR29qLEWNH/chinchilla-s-wild-implications (~45 min; then answer why Llama-3 trained past Chinchilla-optimal)
+- **Exit test:** calculations 5–8, especially #8 — the LLM-in-the-ranking-path feasibility math. *(work-leo: bring to the GPU-serving push.)*
 
-### What I already have
-Leo CLAUDE.md is thorough — persona, operating principles, AIContext references, session continuity, conventions. Good template for future projects.
+### ☐ W13 · Nov 23 – 29 — **Thanksgiving week (PTO stick honored): light + flex**
+- Catch-up buffer for anything slipped, plus light reading only:
+- Read: Jay Alammar, "The Illustrated DeepSeek-R1" — https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1 (~30 min; the map for W14)
+- Read: Shunyu Yao, "The Second Half" — https://ysymyth.github.io/The-Second-Half/ (~20 min; evaluation now dominates algorithms — the frame for Reflex)
+- Nothing else. The org works through your PTO; so does the curriculum.
 
-### Practice
-- Add a `.claude/rules/` directory with a rule specific to ML work
-- Try adding a user-level CLAUDE.md for preferences spanning all projects
+### ☐ W14 · Nov 30 – Dec 6 — RL for agents: rewards, hacking, and evals
+- Read: RLHF Book — Reward Models + Policy Gradients chapters (~90 min; work the GRPO advantage equation by hand for a group of 4 — why no value network, and what that costs)
+- Read: Raschka, "The State of RL for LLM Reasoning" — via https://sebastianraschka.com/blog/ (~45 min, intro half)
+- Read: Lilian Weng, "Reward Hacking in RL" — https://lilianweng.github.io/posts/2024-11-28-reward-hacking/ (~40 min, RLHF sections) + METR, "Recent Frontier Models Are Reward Hacking" — https://metr.org/blog/2025-06-05-recent-reward-hacking/ (~30 min; for each transcript, name the harness flaw that allowed it)
+- **Output:** half-page memo — *"how would Reflex's verdict pipeline get Goodharted?"* — this is direct input to the Curator/Skeptic plan. **Exit test:** explain GRPO in 5 minutes without notes.
 
----
-
-## Module 1.3: Skills, Slash Commands & Subagents
-
-### What to learn
-- **Skills**: Reusable prompt templates invoked via `/skill-name`. Project-specific.
-- **Slash commands**: Built-in commands (`/help`, `/clear`, `/undo`, `/compact`, `/fast`)
-- **Subagents**: Specialized agents via Agent tool (Explore, Plan, general-purpose)
-- **Agent teams**: Multiple agents working in parallel on different parts of a task
-
-### Key built-in slash commands
-| Command | Purpose |
-|---------|---------|
-| `/help` | Show help |
-| `/clear` | Clear conversation context |
-| `/compact` | Force context compaction |
-| `/undo` | Revert last file changes |
-| `/fast` | Toggle fast mode (same model, faster output) |
-| `/review` | Code review |
-| `/commit` | Create a git commit |
-
-### Custom skills (what I'm building in Leo)
-- Located in `.claude/skills/`
-- Frontmatter: name, description, trigger conditions, tool access
-- User-invocable (slash commands) or auto-triggered
-- Current Leo skills: `/grill-me`, `/start-session`, `/end-session`, `/thinking-partner`, `/coach-check`, `/session-log`
-
-### Subagent types
-- **Explore**: Fast codebase exploration (search, find, understand)
-- **Plan**: Architecture planning without making changes
-- **general-purpose**: Full capability for complex multi-step tasks
-- **claude-code-guide**: Answers questions about Claude Code itself
-
-### Practice
-- Create a custom skill for a repetitive task
-- Use `/compact` mid-session when context feels bloated
-- Ask Claude to use an Explore subagent to map part of the codebase
+### Stretch (December, unscheduled — pick by pull, not obligation)
+- **The judge-calibration exercise (highest value, Leo-as-lab or work-leo):** take 30 traces from Reflex's `verdict_log.jsonl` (or Leo's logs), hand-label pass/fail, write a judge prompt, measure judge–human agreement with Cohen's kappa per Eugene Yan's recipe — https://eugeneyan.com/writing/llm-evaluators/
+- Anthropic, "Demystifying Evals for AI Agents" — https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents (~45 min; audit one Reflex harness against its component checklist) + Hamel Husain's evals FAQ as standing reference — https://hamel.dev/blog/posts/evals-faq/
+- Unsloth GRPO notebook — https://unsloth.ai/docs/get-started/reinforcement-learning-rl-guide — run it, then **deliberately weaken the format reward and watch the model exploit it**: reward hacking reproduced on your own GPU
+- Agentic RL survey — https://arxiv.org/abs/2509.02547 (intro + MDP formalization + self-improvement/memory sections) · credit-assignment survey — https://arxiv.org/pdf/2604.09459 (problem setup; why "just run GRPO on our agent" usually fails) · Meta "Early Experience" — https://arxiv.org/pdf/2510.08558 (the bridge from the memory literature you already know to RL)
+- Thinking Machines, "On-Policy Distillation" — https://thinkingmachines.ai/blog/on-policy-distillation + Pinterest search-relevance distillation — https://medium.com/pinterest-engineering/improving-pinterest-search-relevance-using-large-language-models-4cd938d4e892 (the reference architecture for the team's teacher→student path) + "Let's Verify Step by Step" — https://arxiv.org/abs/2305.20050 and the Qwen PRM lessons corrective — https://arxiv.org/pdf/2501.07301
 
 ---
 
-## Module 1.4: Hooks & Automation
+## Appendix A — Judging questions for a generative-recommendation proposal
 
-### What to learn
-- Hooks: Shell commands that execute in response to Claude Code events
-- Hook events: SessionStart, UserPromptSubmit, PreToolUse, PostToolUse, Stop
-- Configuration: Defined in `.claude/settings.json`
-- Use cases: Auto-formatting, blocking protected files, audit logging
+**Semantic IDs / RQ-VAE:** (1) ID stability under catalog churn — retrain cadence, migration path, what fraction of items change SIDs? (2) Codebook health at 10⁸–10⁹ items — utilization, collision rate, disambiguation? (3) Cold-start honesty — measured lift on cold slices vs the cheap alternative of SIDs-as-features in the existing ranker? (4) Where does collaborative signal enter a content-derived ID space?
 
-### Hook types
-- **Command-based**: Run a shell command
-- **HTTP hooks**: Call a URL
-- **Prompt-based**: Inject instructions
-- **Agent-based**: Launch an agent
-- **Async background**: Run without blocking
+**Generative vs two-tower:** (1) Show the generative-vs-tuned-two-tower head-to-head on our data, same candidate budget, first. (2) p99 latency and cost per 1k requests for beam search vs one ANN lookup at our QPS — does constrained decoding fit? (3) Beam search concentrates mass — what's the diversity/dedup mechanism, and how are policy/contractual items guaranteed retrievable? (4) What serves the request when the model emits an invalid SID?
 
-### Key events
-| Event | When | Use case |
-|-------|------|----------|
-| `SessionStart` | Session begins | Set up environment |
-| `UserPromptSubmit` | Before processing user input | Validate/transform prompts |
-| `PreToolUse` | Before a tool executes | Block dangerous operations |
-| `PostToolUse` | After a tool executes | Auto-format edited files |
-| `Stop` | Session ends | Cleanup |
+**HSTU-style "delete the feature stack":** (1) Which cross features does this discard, and the ablated cost of each (MTGR: scaling doesn't recover them)? (2) Baseline hygiene — production ranker with full features and tuning, or an academic SASRec? Who tuned the baseline? (3) Show the compute-vs-quality curve on *our* data — what exponent, and where does it cross the current model? (4) Streaming/incremental training — a batch-retrained generative model can be *worse* at freshness than the online-learned stack.
 
-### Practice
-- Set up a PostToolUse hook that runs a formatter after Python file edits
-- Set up a PreToolUse hook that warns before modifying protected directories
+**Cascade replacement (OneRec-style):** (1) Kuaishou's headline is ~0.5% stay time after enormous spend — what lift on what metric justifies this here, at what MFU/cost? (2) Where do the cascade's between-stage knobs (policy, ads load, integrity) live in a single model, and what's the reward model's failure mode? (3) Can it launch behind the existing ranker (retrieval-only, PinRec-style) or is it all-or-nothing?
 
----
+**LLM-as-ranker/feature-factory:** (1) Tuned or frozen, and is a conventional model still in the serving path? Production evidence favors LLMs offline (features, labels, distillation) over online. (2) Did you compare against distilling the LLM's signal into the existing model — the pattern that actually ships?
 
-## Module 1.5: Model Context Protocol (MCP)
+## Appendix B — Reviewer's checklist for fine-tuning work
 
-### What to learn
-- MCP = universal standard for connecting AI tools to external services
-- Client-server architecture: Claude Code is the client, MCP servers provide tools
-- Configuration via `.mcp.json` (project-level) or settings (user-level)
-- Supported by Anthropic, OpenAI, Google — the emerging standard
+**Data:** (1) Where did every example come from, who/what labeled it, what's the label error rate — did anyone hand-read a random 100? (2) Contamination checked against every eval, including the online holdout (temporal leakage counts)? (3) What's the mix, and what did removing each slice do? No mixture ablations = folklore.
 
-### Key concepts
-- **MCP servers expose tools** that Claude can call (database queries, API calls, etc.)
-- **Remote servers** (HTTP/SSE): hosted services, no local install needed
-- **Local servers** (stdio): run on your machine, communicate via stdin/stdout
-- **Scopes**: Local (this machine), Project (shared via `.mcp.json`), User (all projects)
+**Method:** (4) Was more/better SFT data tried before preference methods? DPO earns its keep on "fluent but wrong preference," not "can't do the task." (5) Where do preference pairs come from and how on-policy are they? KTO if you only have thumbs, not pairs. (6) Why LoRA vs full FT — r, alpha, target modules, measured (not assumed) quality gap?
 
-### Practice
-- Add an MCP server to a project
-- Explore the MCP server ecosystem at modelcontextprotocol.io
+**Eval:** (7) What's the held-out suite nobody model-selected against? (8) LLM judge validated against human ratings, different model family than the generator, length-bias checked? (9) Overfit/degradation signals — response-length drift, diversity collapse, regression on untargeted capabilities? (10) What would reward-hacked look like here, concretely? If nobody can tell the story, nobody looked.
 
-### Resources
-| Resource | URL | Format | Cost |
-|----------|-----|--------|------|
-| Intro to MCP (Skilljar) | anthropic.skilljar.com | Course | $0 |
-| MCP Advanced Topics (Skilljar) | anthropic.skilljar.com | Course | $0 |
-| MCP Docs | modelcontextprotocol.io/introduction | Docs | $0 |
+**Serving:** (11) Path from checkpoint to latency budget — distill to what student, on-policy or off, quantized how, measured quality drop per step (Pinterest writeup = reference shape)? (12) Online A/B tied to the offline eval, drift monitoring, versioned data+configs, rollback?
+
+## Appendix C — The 8 back-of-envelope calculations (from memory by W12)
+
+1. **KV cache/token** = 2 × layers × kv_heads × head_dim × bytes. (Llama-3-70B FP16 ≈ 320 KB/token → 8K context ≈ 2.6 GB *per concurrent sequence* — why MQA gave Character.AI ~8x, and why batch×context, not weights, caps concurrency.)
+2. **Model memory** = params × bytes (70B FP16 = 140 GB — doesn't fit one H100; INT4 = 35 GB — does).
+3. **Batch-1 decode ceiling** ≈ memory bandwidth / bytes-per-token (70B FP16 on H100 ≈ 24 tok/s; FP8 ≈ 48) — decode is memory-bound; quantization ≈ linear decode speedup.
+4. **Memory- vs compute-bound crossover:** GPU ops:byte (H100 ≈ ~300) vs workload arithmetic intensity — the one number explaining why prefill is cheap/token, decode expensive, and batching is the whole game.
+5. **Cost per M tokens** = $/hr ÷ (tokens/sec × 3600) × 10⁶ — utilization, not list price, is the lever.
+6. **Training FLOPs** ≈ 6 × params × tokens; inference ≈ 2 × params/token; Chinchilla ≈ 20 tok/param — and at high inference volume you over-train a smaller model instead.
+7. **When quantization pays:** weight-only when decode is weight-bandwidth-bound (small batch); KV-cache quantization when batch×context rivals weights (long histories, high concurrency — i.e., recsys).
+8. **LLM-in-ranking-path feasibility:** prefill ≈ 2 × params × prompt_tokens FLOPs. 1B over 2K-token history ≈ ~8 ms on H100 @50% MFU — fits 100 ms; 70B ≈ ~560 ms — doesn't. Recsys twist: no cross-request KV reuse on per-user histories, but scoring N candidates against one cached history amortizes (M-FALCON).
+
+## Appendix D — The 10 design questions for any self-improvement loop
+
+(1) Where does reward come from — verified or learned? A learned judge is a proxy that WILL be optimized against. (2) Outcome, process, or both — and who checks the checker? PRM-as-reranker ≫ safer than PRM-as-training-signal. (3) What gets credit over a 40-turn trajectory with one terminal reward? (4) How would it get hacked — can the agent see/modify/route around the grader; can it flatter the judge? (5) Are weight updates needed at all, or does memory/context suffice? (Memory improvement is reversible, auditable, cheap — weight updates need recurring cross-context failures + thousands of graded trajectories.) (6) Is the environment stationary and resettable — same task twice, fair trial? (7) Signal per dollar — enough within-group reward spread for GRPO to learn at all? (8) Judge calibration — kappa (not raw %) against how many human labels, re-checked as criteria drift? (9) What degrades off the metric, and what holdout tripwires catch it? (10) The null hypothesis — would better prompts/tools/base model beat the loop at 10% of the cost?
 
 ---
 
-## Module 1.6: Permissions, Security & Sandboxing
-
-### What to learn
-- Permission modes: which tools require approval vs auto-execute
-- Permission rules syntax for fine-grained control
-- Filesystem and network sandboxing
-- Protecting sensitive files and directories
-
-### Practice
-- Review current permission settings
-- Add rules that auto-approve reads but require confirmation for writes to certain areas
-
----
-
-## Module 1.7: Advanced Workflows
-
-### What to learn
-- **Plan Mode**: Ask Claude to plan without executing
-- **Extended Thinking**: Enable deeper reasoning for complex decisions
-- **Git Worktrees**: Run parallel sessions on isolated branches simultaneously
-- **Non-interactive mode** (`claude -p`): Use Claude in scripts, CI/CD, automation
-- **Session management**: Resume, fork, name sessions
-
-### Practice
-- Use Plan Mode to design an approach, review it, then execute
-- Run two parallel sessions using git worktrees for independent tasks
-- Set up a `claude -p` command in a git pre-commit hook
-
----
-
-## Module 1.8: Claude API & Agent SDK
-
-### What to learn
-- **Messages API**: Programmatic access to Claude models
-- **Tool use (function calling)**: Define tools Claude can call in applications
-- **Streaming**: Real-time response streaming
-- **Agent SDK**: Build standalone agents (Python/TypeScript)
-- **Prompt caching**: Reduce costs by caching common system prompts
-
-### Relevance
-PINvestigator uses Claude for LLM digest. Understanding the raw API helps debug agent behavior and optimize token usage.
-
-### Practice
-- Build a simple Claude API script
-- Compare raw API usage vs higher-level wrappers
-
-### Resources
-| Resource | URL | Format | Cost |
-|----------|-----|--------|------|
-| Building with Claude API (Skilljar) | anthropic.skilljar.com | Course | $0 |
-| Claude API Docs | docs.anthropic.com | Docs | $0 |
-| Agent SDK Docs | platform.claude.com/docs/en/agent-sdk/overview | Docs | $0 |
-| Anthropic Cookbook | github.com/anthropics/anthropic-cookbook | Examples | $0 |
-| Agent SDK Demos | github.com/anthropics/claude-agent-sdk-demos | Demos | $0 |
-| Tool Use Course | github.com/anthropics/courses/tree/master/tool_use | Notebooks | $0 |
-
----
-
-## Module 1.9: Courses & Certification
-
-### Structured courses
-| Course | URL | Hours | Priority |
-|--------|-----|-------|----------|
-| **Claude Code in Action** | anthropic.skilljar.com/claude-code-in-action | 3-4 | High |
-| **Intro to Agent Skills** | anthropic.skilljar.com/introduction-to-agent-skills | 1-2 | High |
-| **Prompt Engineering Tutorial** | github.com/anthropics/prompt-eng-interactive-tutorial | 3-4 | Medium |
-| **Prompt Evaluations** | github.com/anthropics/courses/tree/master/prompt_evaluations | 2-3 | High (evals) |
-
-### Engineering blog posts (selected)
-| Post | Key takeaway |
-|------|-------------|
-| Building effective agents | Agent design patterns: chaining, routing, parallelization, orchestrator-workers |
-| Effective context engineering | Context management, just-in-time retrieval, compaction, sub-agent architectures |
-| Demystifying evals for AI agents | Three grader types, pass@k reliability, 8-step eval implementation |
-| The "think" tool | Improving Claude's reasoning in complex tool-use scenarios |
-| Writing effective tools for agents | Optimizing tool definitions for agent performance |
-
-### Track 1 time estimate: ~29-39 hours total
-Spread over 4-6 weeks at ~6-8 hrs/week. Start with Claude Code in Action, then alternate between courses and hands-on building.
-
----
-
-## Module 1.10: AI Pipeline Failure Modes & Observability
-
-### Why this module
-Most AI systems fail silently. A subagent returns a plausible-sounding wrong answer. An extraction script skips edge cases without logging them. A pipeline degrades gradually as data drifts. The gap between "it ran" and "it worked correctly" is where systems thinking lives.
-
-This applies directly to Leo (ingest + theme extraction pipelines), PINvestigator (multi-subagent orchestration), and Rekko (content generation + trading analysis pipelines).
-
-### What to learn
-- **Failure mode taxonomy**: Silent failures (bad output, no error), graceful degradation (partial output), catastrophic failures (crash). Know which your system produces.
-- **Observability primitives**: Logging inputs/outputs at each stage. Structured logs > print statements. What to measure: latency, token usage, output length, error rate, downstream impact.
-- **Feedback loops**: Where does the system get signal that it's wrong? If nowhere, that's the first gap to close.
-- **Assumption surfacing**: What does this pipeline assume is true about inputs? Where does it break when inputs are malformed, empty, or adversarial?
-- **Human checkpoint design**: Where in an automated flow should a human review before the output propagates? Cost of a bad checkpoint (friction) vs. cost of no checkpoint (errors at scale).
-
-### Applied to my systems
-| System | Known failure modes | Checkpoint to add |
-|--------|--------------------|--------------------|
-| **Theme extraction** | JSON parse errors silently skipped; context fatigue degrades quality after N episodes | Log parse failures; spot-check every 50th episode |
-| **PINvestigator** | Subagent returns empty SQL result, orchestrator proceeds anyway; Slack MCP timeout returns null | Validate subagent outputs before Phase 2; inject failures in evals |
-| **Rekko pipeline** | 302 scripts generated, 9 videos finished — gap unmonitored | Build completion rate metric; alert when ratio drops below threshold |
-| **Leo ingest** | Unicode errors silently skip episodes (saw this with Gustav Söderström) | Log all skips to manifest with reason |
-
-### Practice
-- Add structured logging to the theme extraction script — log episode slug, themes written, parse errors, and processing time per episode.
-- Identify one silent failure mode in PINvestigator and add a validation step before Phase 2 orchestration.
-- Write down the assumptions behind the Rekko content pipeline. Pick the most fragile one.
-
-### Resources
-| Resource | What you get |
-|----------|-------------|
-| **Demystifying evals for AI agents** (Anthropic) | Failure handling as a first-class eval dimension |
-| **A Field Guide to Improving AI Products** (Hamel) | Production observability patterns for LLM systems |
-| **Langfuse** | Open-source observability for LLM pipelines — traces, spans, scores |
-
----
-
-# Track 2: RL & Evaluation for Rec Systems
-
-## Why This Track
-Retentive Recommendations is fundamentally an explore/exploit problem. The Geometric Bandit (Section 6 of the spec) is active design work. PINvestigator needs a proper eval harness for Q2. This track formalizes the RL and eval concepts directly applicable to both.
-
-**Deepened priority (2026-04-03):** Evals are verification. The skill isn't just knowing eval metrics — it's knowing where to insert human checkpoints in automated AI systems before bad outputs propagate downstream. Module 2.8 addresses this: verification discipline as a design practice, not just a testing afterthought. Prioritize alongside 2.7.
-
----
-
-## Module 2.1: Offline Evaluation — Formalizing What You Know
-
-### Core metrics
-| Metric | Best for | Key property |
-|--------|----------|-------------|
-| Precision@K | "Are the top-K items relevant?" | Ignores rank order within K |
-| Recall@K | "Did we find all relevant items?" | Captures coverage |
-| MAP | Binary relevance, multiple relevant items | Averages precision at each relevant rank |
-| MRR | Single "right answer" tasks | Only cares about first relevant item |
-| NDCG | Graded relevance, rank-sensitive | Discounts by position; handles non-binary relevance |
-| AUC-ROC | Binary classification (click/no-click) | Threshold-independent |
-
-### For Retentive Recs
-NDCG is the right primary metric for ranking UIC-conditioned candidates — some candidates are more relevant than others (graded), and position in the feed matters. But the key insight is that **relevance is defined relative to the UIC lifecycle state**: an "Enticement" cluster needs curiosity signals (closeups/clicks) as positive labels, while a "Stabilization" cluster needs commitment signals (repins/saves).
-
-Standard offline eval treats all positive labels equally. Retentive Recs requires **state-dependent evaluation**: the same user action has different relevance depending on which UIC lifecycle state the candidate was served for.
-
-### Resources
-| Resource | URL | Format | Cost |
-|----------|-----|--------|------|
-| Evaluation Metrics — Weaviate | weaviate.io/blog/retrieval-evaluation-metrics | Blog | $0 |
-| Evaluating Rec Systems — Shaped | shaped.ai/blog/evaluating-recommendation-systems-map-mmr-ndcg | Blog | $0 |
-| Aman.ai: Evaluation Metrics | aman.ai/recsys/metrics/ | Reference | $0 |
-| 10 Metrics — Evidently AI | evidentlyai.com/ranking-metrics/evaluating-recommender-systems | Blog | $0 |
-
----
-
-## Module 2.2: Online Evaluation & Counterfactual Methods
-
-### A/B Testing
-Gold standard but slow. Retention is a lagging indicator — A/B tests for Retentive Recs require weeks to reach significance on WAU/MAU.
-
-### Interleaving
-Merges recommendations from two models in one list shown to same user. Airbnb reported **50x speedup** over traditional A/B testing. Relevant for comparing UIC-conditioned retrieval vs. baseline CLR candidates within the same feed.
-
-### Multi-Armed Bandits for experimentation
-Dynamically allocates traffic to better-performing variants. Thompson Sampling converges fastest in practice.
-
-### Counterfactual / Off-Policy Evaluation
-Estimate "what would have happened" from logged data without running live experiments:
-- **IPS (Inverse Propensity Scoring)**: Reweight logged interactions by propensity ratio. High variance.
-- **SNIPS (Self-Normalized IPS)**: Normalizes weights. More stable, small bias.
-- **Doubly Robust**: Combines model estimate with IPS correction. Robust if either is correct.
-
-### For Retentive Recs
-Off-policy evaluation lets you ask: **"Would different UIC lifecycle state transitions have improved retention?"** without actually serving different feeds. This is high-leverage because:
-- Retention signal is delayed (days/weeks)
-- The explore/exploit tradeoff means some users got exploration that didn't pay off — was the exploration well-targeted?
-- You can evaluate alternative Geometric Prediction strategies (Vector Transport vs. Sensible Sourcing vs. Graph Completeness) against logged data
-
-### Resources
-| Resource | URL | Format | Cost |
-|----------|-----|--------|------|
-| Counterfactual Evaluation — Eugene Yan | eugeneyan.com/writing/counterfactual-evaluation/ | Blog | $0 |
-| KDD 2022 Counterfactual Tutorial | counterfactual-ml.github.io/kdd2022-tutorial/ | Tutorial | $0 |
-| RecSys 2021 Off-Policy Tutorial | sites.google.com/cornell.edu/recsys2021tutorial | Tutorial | $0 |
-| Beyond A/B Testing — Shaped | shaped.ai/blog/multi-armed-bandits | Blog | $0 |
-
----
-
-## Module 2.3: Multi-Armed Bandits — The Geometric Bandit
-
-### Classic bandits
-- **Epsilon-Greedy**: Explore randomly with prob epsilon. Simple but epsilon needs tuning.
-- **UCB (Upper Confidence Bound)**: Pick arm with highest confidence upper bound. "Optimism in the face of uncertainty."
-- **Thompson Sampling**: Maintain posterior per arm, sample and pick highest. Best empirically.
-
-### Contextual bandits
-Algorithm sees *context* (features) before choosing an arm. This is where personalization enters.
-- **LinUCB**: Linear model mapping context -> expected reward per arm.
-- **Neural contextual bandits**: Neural net for richer representations.
-
-### For Retentive Recs: The Geometric Bandit (Active Design)
-The Retentive Recs system uses Thompson Sampling over **Geometric Hash keys** (LSH of UIC medioids), not Semantic IDs. This is a critical architecture decision:
-
-**Why Geometric Hashing over Semantic IDs:**
-- SIDs cause "Signal Bleed" — aliasing distinct user interests into generic categories
-- SimHash preserves cosine similarity: similar vectors hash to same key, dissimilar vectors hash differently
-- "Glamping" and "Survivalist Camping" are geometrically distant -> different LSH keys -> different Beta distributions
-- Reward signal stays clean per-region rather than bleeding across a category label
-
-**The Reward Function — Log-Lift:**
-$R_t = \log(\frac{CTR_{current} + \epsilon}{CTR_{baseline} + \epsilon})$
-
-This optimizes for **momentum** (is engagement accelerating?) rather than absolute CTR. A stale high-volume interest shouldn't crowd out a growing low-volume one.
-
-**Negative feedback:** Fast Scroll / Hide = explicit penalty (reduces alpha in Beta distribution), collapsing confidence interval immediately.
-
-**The bandit naturally handles explore/exploit:**
-- Stabilized clusters: narrow Beta distributions (high confidence) -> sampled less often
-- Predicted/new clusters: wide Beta distributions (low confidence) -> sampled more often -> if user engages, mean shifts right; if they ignore, mean shifts left and variance decreases
-
-### Resources
-| Resource | URL | Format | Cost |
-|----------|-----|--------|------|
-| **Bandits for Rec-Sys — Eugene Yan** | eugeneyan.com/writing/bandits/ | Blog | $0 |
-| Sutton & Barto Chapter 2 | incompleteideas.net/book/the-book-2nd.html | Textbook | $0 |
-| Aman.ai: Multi-Armed Bandits | aman.ai/recsys/multi-armed-bandit/ | Reference | $0 |
-| Spotify: Explore, Exploit, Explain | research.atspotify.com | Paper | $0 |
-
----
-
-## Module 2.4: Full RL for Sequential Recommendation
-
-### Value-based: DQN -> SlateQ
-- **DQN for rec-sys**: Learn Q(state, action) = expected cumulative reward
-- **SlateQ (Google/YouTube)**: Decomposes slate-level Q-value into per-item LTVs. Solves the combinatorial action space.
-
-### Policy gradient: REINFORCE
-- **Top-K Off-Policy Correction (Google, WSDM 2019)**: REINFORCE at YouTube production scale with off-policy correction for logged data. Reported highest single-launch revenue gain at YouTube.
-
-### For Retentive Recs
-Full RL maps to the **UIC lifecycle management** problem:
-- **State**: Current UIC configuration (set of clusters with lifecycle states, engagement velocities, medioid positions)
-- **Action**: Which Geometric Prediction strategy to apply to which cluster (Vector Transport, Sensible Sourcing, Graph Completeness, Synthetic Profiling)
-- **Reward**: Long-term retention (WAU), not short-term engagement (CTR)
-- **The sequential nature**: Each prediction strategy changes the user's UIC landscape, which changes the state for the next decision. This is genuinely sequential — not a one-shot ranking problem.
-
-**Current scale reality**: The Geometric Bandit (Module 2.3) is the right starting point. Full RL for lifecycle management is Phase 3-4 — when there's enough logged data on strategy outcomes to train a policy.
-
-### Resources
-| Resource | URL | Priority |
-|----------|-----|----------|
-| **Top-K Off-Policy REINFORCE (Chen et al.)** | arxiv.org/abs/1812.02353 | Essential |
-| SlateQ (IJCAI 2019) | arxiv.org/abs/1905.12767 | High |
-| Deep RL for List-wise Recs | arxiv.org/abs/1801.00209 | Medium |
-| Survey on RL for RecSys (Afsar et al.) | arxiv.org/abs/2101.06286 | Reference |
-
----
-
-## Module 2.5: Reward Design & Delayed Feedback
-
-### The Retentive Recs reward problem
-The core tension: **short-term engagement metrics vs. long-term retention**. A feed optimized purely for clicks produces filter bubbles and user fatigue. A feed optimized purely for exploration produces irrelevance and churn. The right reward function balances both — and the signal is delayed.
-
-### Layered reward signals
-| Signal | Latency | Weight | Notes |
-|--------|---------|--------|-------|
-| Closeup/Click | Immediate | Medium | Curiosity signal — high value in Enticement state |
-| Repin/Save | Minutes-hours | High | Commitment signal — high value in Stabilization state |
-| Board creation | Hours-days | Very High | "Sealing the deal" — strongest new use case signal |
-| Session return | Days | High | Short-term retention proxy |
-| WAU/MAU | Weeks | Highest | True retention — the north star |
-
-### State-dependent reward weighting
-The same action has different reward value depending on UIC lifecycle state:
-- **Enticement**: Closeups/clicks weighted high (gauging receptivity)
-- **Activation**: Board creation weighted highest (sealing the deal)
-- **Stabilization**: Repins/saves weighted high (commitment)
-- **Re-evaluation**: Negative signals (fast scroll, hide) weighted high (detect decay faster)
-
-### Engagement feedback loops — the traps
-- **Popularity bias**: Stabilized clusters get more exposure -> more data -> appear more "optimal" -> crowd out Enticement clusters
-- **Filter bubbles**: Users only see content from their strongest clusters -> no new use case discovery
-- **Zombie clusters**: Interests that persist in the system despite user disengagement (the bandit's negative feedback handles this)
-- **Mitigation**: Diversity injection between UICs, exploration budgets via Thompson Sampling, Log-Lift reward (momentum over absolute CTR)
-
-### Resources
-| Resource | URL | Format | Cost |
-|----------|-----|--------|------|
-| ROLeR: Reward Shaping in Offline RL (2024) | arxiv.org/html/2407.13163 | Paper | $0 |
-| Handling Feedback Loops: Deep Bayesian Bandits | towardsdatascience.com | Blog | $0 |
-
----
-
-## Module 2.6: Production Systems & Industry Practice
-
-### Company approaches
-| Company | Approach | Key insight |
-|---------|----------|-------------|
-| YouTube | REINFORCE + off-policy correction; SlateQ | Policy gradient scales to millions; off-policy is essential |
-| Spotify | In-context exploration-exploitation | Coordinated exploration across recommender surfaces |
-| Netflix | Contextual bandits for artwork personalization | Start bandits on a narrow surface, expand later |
-| **Pinterest** | PinRec: outcome-conditioned generative retrieval (2025) | Moving beyond RL toward generative retrieval |
-| DoorDash | Thompson Sampling with Beta distributions | Simple bandits, highly effective for categorical |
-| Alibaba | LinUCB with positional bias correction | Contextual bandits with domain-specific corrections |
-
-### Safe exploration in production
-- **Conservative policy updates**: Constrain KL-divergence between old and new policies
-- **Shadow mode**: Run new policy in shadow, evaluate with IPS/SNIPS, promote when confident
-- **Exploration budgets**: Reserve slots for underexplored clusters (Retentive Recs does this by reserving Enticement slots in diversity scoring)
-
-### Resources
-| Resource | URL | Priority |
-|----------|-----|----------|
-| **PinRec (Pinterest, 2025)** | arxiv.org/html/2504.10507v1 | High — your day job |
-| RL for Recommendations — Eugene Yan | eugeneyan.com/writing/reinforcement-learning-for-recsys-and-search/ | High |
-| RL for Long-term Engagement (KDD 2019) | dl.acm.org/doi/10.1145/3292500.3330668 | Medium |
-
----
-
-## Module 2.7: Evaluating AI Agents (PINvestigator Focus)
-
-### Why this module
-PINvestigator is shifting to eval-driven development in Q2. The agent has 3 parallel subagents (engagement analysis, holdout analysis, Slack search) — evaluating multi-step agentic behavior is fundamentally different from evaluating a single model call.
-
-### Three evaluation levels
-1. **Black-box (final output)**: Does the investigation report correctly identify the root cause? Compare against human-generated golden set investigations.
-2. **Glass-box (trajectory)**: Did each subagent query the right tables? Did the orchestrator cross-correlate correctly? Compare tool call sequences against expected patterns.
-3. **White-box (per-step)**: Unit-test individual subagent outputs. Did Subagent A correctly compute WoW deltas? Did Subagent C find the relevant Slack deploy messages?
-
-### Key eval dimensions for PINvestigator
-| Dimension | What to measure | How |
-|-----------|----------------|-----|
-| **Tool correctness** | Did the agent call the right Presto tables with valid queries? | Regex match on SQL, validate column names |
-| **Tool efficiency** | Did the agent use optimal query patterns (not over-fetching)? | Count queries, measure token usage |
-| **Cross-correlation quality** | Did Phase 2 correctly connect signals across subagents? | Golden set of known incidents with expected cross-correlations |
-| **Report quality** | Is the final report actionable and accurate? | LLM-as-judge against human expert reports |
-| **Failure handling** | When one subagent fails (e.g., Slack MCP down), does the system degrade gracefully? | Inject failures, verify partial report quality |
-
-### Implementation roadmap
-1. **Start with 20-50 real failure cases** — past investigations where PINvestigator got it wrong or missed something. This is the golden set.
-2. **Build per-subagent unit evals** — can each subagent independently produce correct analysis for known scenarios?
-3. **Build trajectory evals** — for a given metric anomaly, does the full system produce the right investigation sequence?
-4. **Add LLM-as-judge** — have Claude evaluate report quality using binary pass/fail with detailed critiques (Hamel's approach)
-5. **Run pass@k** — PINvestigator is non-deterministic. Run each eval case 3-5 times. Report pass@3 (succeeds in at least 1 of 3 runs) and pass^3 (succeeds in all 3 runs).
-
-### Resources — Foundational
-| Resource | URL | Format | Cost |
-|----------|-----|--------|------|
-| **Demystifying evals for AI agents** (Anthropic) | anthropic.com/engineering/demystifying-evals-for-ai-agents | Blog | $0 |
-| **Your AI Product Needs Evals** (Hamel) | hamel.dev/blog/posts/evals/ | Blog | $0 |
-| **LLM-as-a-Judge Guide** (Hamel) | hamel.dev/blog/posts/llm-judge/ | Blog | $0 |
-| **LLM Evals FAQ** (Hamel & Shreya) | hamel.dev/blog/posts/evals-faq/ | Reference | $0 |
-| **Task-Specific LLM Evals** (Eugene Yan) | eugeneyan.com/writing/evals/ | Blog | $0 |
-| **A Field Guide to Improving AI Products** (Hamel) | hamel.dev/blog/posts/field-guide/ | Blog | $0 |
-
-### Resources — Frameworks & Platforms
-| Platform | URL | Best for | Cost |
-|----------|-----|----------|------|
-| **Inspect AI** (UK AISI) | inspect.aisi.org.uk | Most comprehensive open-source eval framework | $0 |
-| **DeepEval** | deepeval.com | Easiest to start; pytest integration | $0 |
-| **Langfuse** | langfuse.com | Open-source observability + eval | $0 self-hosted |
-| **Promptfoo** | promptfoo.dev | Red-teaming and security eval | $0 |
-
-### Resources — Papers & Benchmarks
-| Resource | URL | Relevance |
-|----------|-----|-----------|
-| TRACE: Trajectory-Aware Eval | arxiv.org/html/2602.21230 | Trajectory eval theory |
-| KDD 2025: LLM Agent Eval Survey | arxiv.org/html/2507.21504v1 | Comprehensive taxonomy |
-| AgentRewardBench | arxiv.org/abs/2504.08942 | LLM judges for agent trajectories |
-| Langfuse Agent Eval Cookbook | langfuse.com/guides/cookbook/ | Hands-on PydanticAI eval |
-
-### Module 2.7 time estimate: ~22-30 hours
-Read Anthropic + Hamel blog posts first (Week 1). Then hands-on: build evals with Inspect or DeepEval (Weeks 2-4). Papers last.
-
----
-
-## Module 2.8: Verification Checkpoints in Agentic Systems
-
-### Why this module
-AI outputs are confidently wrong. The professional edge isn't catching every error — it's knowing *where* errors are most likely to propagate and inserting lightweight checkpoints at those exact points before downstream impact compounds.
-
-This is distinct from evals (which run offline against golden sets). Checkpoints are live, in-pipeline gates that catch bad outputs before they reach users, databases, or irreversible decisions.
-
-### What to learn
-- **Checkpoint placement heuristics**: High-stakes irreversible actions (DB writes, external API calls, trading decisions) always warrant a checkpoint. Low-stakes reversible actions (drafting text, intermediate computations) usually don't.
-- **Checkpoint design patterns**:
-  - *Threshold gates*: Output must meet a minimum confidence/quality bar. Below threshold → route to human or fallback.
-  - *Cross-validation*: Run two independent paths, compare outputs. Divergence = flag for review.
-  - *Schema validation*: Enforce output structure before downstream consumption. Catches malformed JSON, missing fields, type errors.
-  - *Canary outputs*: For batch jobs, validate the first N outputs manually before releasing the full run.
-- **Human-in-the-loop design**: Where does human review add the most value per unit of friction? Not everywhere — the goal is targeted, not exhaustive.
-- **Confidence calibration**: AI models are often over-confident. Learn to recognize when low-information outputs should trigger review vs. proceed.
-
-### Applied to my systems
-| Decision point | Risk if unchecked | Checkpoint design |
-|---------------|-------------------|-------------------|
-| PINvestigator Phase 2 synthesis | Subagent failure → orchestrator hallucinates correlation | Validate each subagent output is non-empty + schema-valid before Phase 2 |
-| Rekko trade execution | Bad analysis → live trade placed | Shadow mode first; require human confirm for any live trade above $X |
-| Theme extraction JSON | Parse failure → episode silently skipped | Canary: manually review first 5 extracted episodes per model change |
-| Leo context updates | Stale/wrong info → Leo gives bad advice | Flag files not updated in >30 days; prompt James to verify before acting |
-
-### Practice
-- Add a canary check to theme extraction: after first 5 episodes, print a summary and pause for review before continuing.
-- Design (on paper) the checkpoint architecture for Rekko live trading: what are the 3 gates before a trade executes?
-
----
-
-## Track 2 Textbooks & Courses
-| Resource | URL | Hours | Priority |
-|----------|-----|-------|----------|
-| Sutton & Barto Ch. 2 (Bandits) | incompleteideas.net/book/the-book-2nd.html | 3-4 | High |
-| Sutton & Barto Ch. 6 (TD Learning) | " | 2-3 | Medium |
-| Sutton & Barto Ch. 13 (Policy Gradient) | " | 2-3 | Medium |
-| David Silver Lectures 1-3 | davidstarsilver.wordpress.com/teaching/ | 3 | High |
-| David Silver Lectures 6-7 | " | 2 | Medium |
-| OpenAI Spinning Up (VPG, DQN) | spinningup.openai.com | 4-6 | Medium |
-
-## Track 2 Frameworks
-| Framework | URL | Best for |
-|-----------|-----|----------|
-| Vowpal Wabbit | vowpalwabbit.org | Production contextual bandits |
-| Mab2Rec | github.com/fidelity/mab2rec | Bandit-based recommenders |
-| d3rlpy | github.com/takuseno/d3rlpy | Offline deep RL |
-| Ray RLlib | docs.ray.io/en/latest/rllib | Scalable distributed RL |
-
----
-
-# Track 3: ML System Design Interviews
-
-## Why This Track
-Two rare assets: (1) UPP — a production-scale cross-surface ML platform I'm overseeing with 17+ engineers, and (2) PINvestigator — an agentic AI system I'm building hands-on. Most candidates describe systems they maintained or contributed to. I can describe one I designed at scale (UPP) AND one I built from scratch (PINvestigator). Breadth AND depth.
-
----
-
-## Module 3.1: The ML System Design Interview Framework
-
-### What interviewers evaluate
-1. **Problem framing**: Translate business goals into ML objectives
-2. **System architecture**: Design end-to-end, not just the model
-3. **Data strategy**: How do you get, clean, store, and serve features?
-4. **Model selection**: Why this approach over alternatives? Tradeoffs?
-5. **Evaluation**: How do you know it's working? Offline -> online -> business metrics.
-6. **Iteration**: How do you improve the system over time?
-7. **Scale considerations**: What breaks at 10x, 100x, 1000x?
-8. **Edge cases & failure modes**: What goes wrong and how do you handle it?
-
-### The RESHAPES framework
-1. **R**equirements: Clarify functional and non-functional
-2. **E**stimation: Scale numbers (DAU, QPS, storage, latency)
-3. **S**ervice architecture: High-level components and data flow
-4. **H**igh-level design: API design, key abstractions
-5. **A**rticulate data model: Schema, storage, access patterns
-6. **P**erformance: Caching, indexing, optimization
-7. **E**xtend: Edge cases, scale challenges, monitoring
-8. **S**ecurity: Auth, rate limiting, data protection
-
----
-
-## Module 3.2: Mapping UPP to System Design Dimensions
-
-### The Story
-UPP (Unified Personalization Platform) eliminates fragmentation where Homefeed, Notifications, Search, and P2P maintain parallel, independently-evolving ranking and retrieval models. The solution: a pretraining/fine-tuning framework where a shared base model gets continuously improved, and surface teams fine-tune on top.
-
-**Why this is a strong interview case study:**
-- Director-scale oversight: 17+ engineers, cross-org stakeholder management
-- Rich model architecture: three-tier hierarchy (Foundation Model -> Base Models -> Surface-Specific Models)
-- Live cross-org dynamics: Jinfeng's pushback, Kurchi's skepticism, co-design resolution
-- Shipped results: +286k WAU on Notifications (only shipped online wins in all of UPP)
-
-### Dimension 1: Problem Framing
-**Interview hook**: "I lead the retrieval platform for Pinterest's Unified Personalization Platform — eliminating the fragmentation where four surfaces each maintain independent ranking and retrieval models."
-
-**Key talking points:**
-- Business metric: WAU (retention), not just engagement (clicks)
-- ML objective: A shared base retriever that, when fine-tuned per surface, matches or beats standalone surface-specific models
-- The non-obvious constraint: surface teams must own fine-tuning, features, and launch decisions — otherwise they won't adopt
-
-### Dimension 2: System Architecture
-**The Three-Tier Hierarchy:**
-```
-        [Foundation Model]
-        User-level next-token prediction
-                    |
-               fine-tune
-          +--------+--------+
-          v                 v
-  [Base Ranking Model]  [Base Retrieval Model (CLR)]
-  (CFM option)           Dual-tower architecture
-          |                 |
-     fine-tune         fine-tune
-     +----+----+      +-----+-----+
-     v    v    v      v     v     v
-   [HF] [Notif] [P2P] [HF] [Notif] [Search]
-   Surface-Specific Models
-```
-
-**What interviewers love:**
-- Clear separation between foundation, base, and surface-specific layers
-- The pretraining/fine-tuning paradigm mirrors how frontier AI labs think about model platforms
-- Co-equal platform pillars: Retrieval (James) and Ranking (Dhruvil)
-
-### Dimension 3: Data Strategy
-**The cross-surface data challenge** (great interview narrative):
-1. "Each surface has different training data distributions — Homefeed is engagement-heavy, Search is relevance-heavy, P2P has contextual pins."
-2. "The key unsolved problem: how do you build a cross-surface training dataloader that doesn't dilute surface-specific signal?"
-3. "We evaluated two dataloader architectures (Options A vs B) and benchmarked them."
-4. "The deeper insight: cross-surface training data is the shared infrastructure that makes a unified base model viable. If you can't solve the data, the model architecture doesn't matter."
-
-**Feature engineering:**
-- UIC medioids as condition inputs for CLR (replacing deprecated "Followed Interests" logic)
-- OmniSage embedding space fusing Visual/Semantic (CLIP) + Interaction Graph + Topology Graph
-- Surface-specific features owned by surface teams (fine-tuning layer)
-
-### Dimension 4: Model Selection & Tradeoffs
-**The UPP CLR architecture:**
-- Dual-tower model: User Context Tower + Condition Tower (UIC medioid) + surface-specific Surface Towers
-- Shared base pretrained on HF data, fine-tuned per surface
-- Key design decision: CLR extended with P2P's context tower strengths ("UPP CLR") rather than separate base models per surface family
-
-**The architecture debate (great interview material):**
-- Option 1: One unified base retriever across all surfaces (chosen)
-- Option 2: Two separate base models — one for HF/Notif, one for SSJ surfaces
-- Why Option 1 won: Dylan's "one moving variable" reframe — add surfaces on existing base, then iterate architecture. Two base models fragments the thesis and doubles maintenance.
-- How we got there: co-design process with P2P's ML lead, not a top-down mandate
-
-**Evolution story:**
-- v0: Standalone surface-specific CLRs (fragmented, each team builds independently)
-- v1: HF CLR architecture replicated to Notif (+156k WAU)
-- v2: Pretrained HF base, fine-tuned for Notif + DHEN scaling (+130k WAU)
-- v3 (current): UPP CLR co-designed with P2P context tower, expanding to Search
-
-### Dimension 5: Evaluation
-**Offline:** Surface-specific metrics per fine-tuned model. Semantic relevance is the key concern for Search/P2P (engagement-optimized base may sacrifice relevance).
-
-**The relevance challenge:**
-- CLR supports multi-head objectives (relevance loss added for Notif, validated in production)
-- But not yet validated on a relevance-heavy surface (Search)
-- Kurchi's "I need data" was the right pushback — solved by scoping relevance loss experiments in co-design
-
-**Online:** WAU impact per surface. Notif fine-tune matches standalone Notif CLR = proof point that pretraining/fine-tuning paradigm works for retrieval.
-
-### Dimension 6: Iteration & Feedback
-**The pretraining/fine-tuning flywheel:**
-- Base model improves continuously with more surfaces and data
-- Each surface team benefits from base improvements without retraining
-- Surface teams can independently iterate on fine-tuning without affecting base
-
-### Dimension 7: Scale
-| Scale | Challenge | Solution |
-|-------|-----------|----------|
-| More surfaces | Cross-surface data distribution shifts | Surface-specific feature alignment (Zihao's documentation work) |
-| Larger base model | Training cost, serving latency | DHEN scaling, GPU serving via CSI |
-| Real-time features | Feature logging across surfaces | Cross-team infra dependencies (Notif feature logging) |
-
-### Dimension 8: Edge Cases & Failure Modes
-| Failure mode | Mitigation |
-|-------------|------------|
-| Base model regresses a surface | Surface teams own launch decisions; go/no-go milestone |
-| Relevance degradation on semantic surfaces | Multi-head objectives with relevance loss |
-| Cross-surface data dilution | Surface-specific dataloader weighting |
-| Political resistance to platform adoption | Co-design model — surface teams are co-owners, not adopters |
-
----
-
-## Module 3.3: Mapping PINvestigator to System Design Dimensions
-
-### The Story
-PINvestigator is an LLM-powered metrics investigation tool for the Homefeed Relevance team. Built as a Claude Code skill with parallel subagent architecture. James is building this hands-on as a tech lead.
-
-**Why this is a differentiating interview case study:**
-- Novel agentic AI architecture — most candidates can't talk about building agent systems from scratch
-- Parallel subagent design with independent failure domains
-- Real production use case (metrics investigation), not a toy demo
-- Eval harness design (Q2 focus) — demonstrates the "hard part" of agent engineering
-
-### Dimension 1: Problem Framing
-**Interview hook**: "I built an LLM-powered metrics investigation agent that parallelizes across three independent data sources — engagement tables, holdout data, and Slack deploy history — then cross-correlates findings to identify root causes."
-
-**Key framing:**
-- Business problem: metric investigations take hours of manual SQL + Slack searching. Agents can do 80% of the rote work.
-- ML objective: correctly identify root cause of metric movements with high recall (don't miss real issues) and reasonable precision (minimize false alarms)
-- The hard part isn't the LLM — it's the orchestration, failure handling, and evaluation
-
-### Dimension 2: Architecture — Thin Orchestrator + 3 Parallel Subagents
-```
-SKILL.md (orchestrator)
-  |
-  +-- Phase 0: Resolve target date + metric
-  +-- Phase 1: Dispatch 3 subagents IN PARALLEL
-  |   +-- Subagent A (engagement) -> 7 Presto tables
-  |   +-- Subagent B (holdout)     -> 1 holdout table
-  |   +-- Subagent C (Slack)       -> 4 Slack channels
-  +-- Phase 1b: Validate results (handle partial failures)
-  +-- Phase 2: Cross-correlate findings across A + B + C
-  +-- Phase 3: Generate report
-```
-
-**Design principles:**
-- Minimal context loading — only load schemas when a subagent needs them (~290 lines vs. ~900 monolithic)
-- One subagent per data source — clean ownership, failures contained
-- Synthesis in orchestrator — cross-correlation requires all outputs, runs after all subagents return
-- Shared reference files — data-tables.md as single source of truth for schemas
-
-### Dimension 5: Evaluation (Key Differentiator)
-This is where the interview gets interesting — most candidates can't talk about evaluating agents.
-- Three-level eval: black-box (report quality), glass-box (trajectory), white-box (per-step)
-- pass@k for non-determinism (agents don't produce identical output each run)
-- Golden set built from 20-50 real past investigations where the system got it wrong
-- LLM-as-judge for report quality using binary pass/fail with critiques
-
-### Dimension 8: Failure Modes
-| Failure mode | Mitigation |
-|-------------|------------|
-| Slack MCP down | Subagent C fails gracefully; report generated from A + B only |
-| Wrong SQL generated | Schema validation + query result sanity checks |
-| LLM hallucination in cross-correlation | Ground all findings in specific data points from subagent outputs |
-| Context window exhaustion | Layered context loading — only load what's needed per phase |
-
----
-
-## Module 3.4: Common Interview Questions -> Your Answers
-
-### "Design a recommendation system"
-**Hook**: "I lead the retrieval platform for Pinterest's Unified Personalization Platform, which unifies recommendation models across four surfaces."
-**Walk through**: Three-tier hierarchy (FM -> Base Models -> Surface-Specific). Emphasize the pretraining/fine-tuning paradigm, cross-surface data challenge, and the co-design process.
-
-### "Design a recommendation system with exploration"
-**Hook**: "We built a system called Retentive Recommendations that engineers serendipity — using Geometric Prediction in embedding space rather than random exploration."
-**Walk through**: UIC representation, three prediction strategies (Vector Transport, Sensible Sourcing, Graph Completeness), Thompson Sampling Geometric Bandit with LSH keys and Log-Lift reward.
-
-### "How would you evaluate an ML model in production?"
-**Hook**: "We use layered evaluation because our key metric — retention — is a lagging indicator that takes weeks to measure."
-**Walk through**: Offline (NDCG with state-dependent labels) -> Counterfactual (IPS/SNIPS on logged data) -> Online (A/B with WAU) -> Business (retention curves).
-
-### "Design an anomaly detection / investigation system"
-**Hook**: "I built an LLM-powered metrics investigation agent with parallel subagent architecture."
-**Walk through**: Thin orchestrator + 3 parallel subagents, cross-correlation in Phase 2, eval harness with golden sets and pass@k. Emphasize failure handling and eval — that's what separates real agents from demos.
-
-### "How do you handle cross-org resistance to platform adoption?"
-**Hook**: "UPP expansion to Search and P2P faced real resistance. Here's how we navigated it."
-**Walk through**: Co-design model (surface teams are co-owners, not adopters), "one moving variable" reframe, escalation pattern (surface right questions to right people, let them act), evidence over promises (ship wins on Notif first, then expand).
-
-### The "why not just..." rebuttals
-- **"Why not separate models per surface?"** -> "We tried that. It fragments the platform, doubles maintenance, and each surface misses cross-surface signal. The pretraining/fine-tuning paradigm is strictly better — and we proved it on Notif."
-- **"Why not just use one model for everything?"** -> "Surface teams need to own fine-tuning. A monolithic model removes their agency and makes them adopters instead of co-owners. The three-tier hierarchy preserves ownership at the right level."
-- **"Why Thompson Sampling over UCB?"** -> "Thompson Sampling handles the non-stationary reward landscape better — user interests evolve, so the Beta distributions need to adapt. Also, it naturally handles the exploration budget without a tuning parameter."
-- **"Why LSH keys instead of Semantic IDs?"** -> "Signal bleed. Semantic IDs alias distinct interests into categories. Geometric hashing preserves the structure of the embedding space — similar interests hash together, dissimilar ones don't."
-
----
-
-## Module 3.5: Technical Depth Drills
-
-For each topic, practice explaining in 2 minutes:
-
-### Two-tower retrieval (your Pinterest expertise)
-- Query tower: user features -> embedding
-- Item tower: item features -> embedding
-- ANN for fast retrieval
-- **UPP application**: CLR is a dual-tower model. User Context Tower + Condition Tower (UIC medioid) -> retrieve candidates close to the conditioned query point.
-
-### Pretraining/fine-tuning for retrieval models
-- Base model pretrained on cross-surface data (HF + BMI + Notif)
-- Surface-specific fine-tuning preserves base representations while adapting to surface distribution
-- **UPP application**: The core thesis. Pretrained HF base fine-tuned for Notif = +130k WAU. Same paradigm extending to P2P and Search.
-
-### Cross-surface representation learning
-- Challenge: different surfaces have different label distributions (engagement vs. relevance)
-- Solution: multi-head objectives (engagement loss + relevance loss)
-- **UPP application**: CLR with relevance loss already in production on Notif. Key open question: does it transfer to relevance-heavy surfaces (Search)?
-
-### Feature engineering for embedding spaces
-- OmniSage: fused Visual/Semantic (CLIP) + Interaction Graph + Topology Graph
-- UIC construction: complete-link hierarchical clustering on L500 sequence
-- **Retentive Recs application**: UICs as externalized features in GSS Feature Store — portable across CG, Ranking, and Diversity stages
-
-### Agentic AI architecture patterns
-- Thin orchestrator + parallel subagents (PINvestigator)
-- Minimal context loading (only load schemas when needed)
-- Layered failure handling (partial results > no results)
-- Eval as first-class concern (golden sets, pass@k, LLM-as-judge)
-
----
-
-## Module 3.6: Practice Schedule
-
-### Week 1-2: Framework Mastery
-- Memorize RESHAPES framework
-- Practice drawing the UPP three-tier hierarchy in 60 seconds
-- Practice drawing PINvestigator's subagent architecture in 60 seconds
-- Prepare the "cross-surface data challenge" narrative (2 minutes)
-
-### Week 3-4: Dimension Deep Dives
-- Practice explaining each of the 8 dimensions using UPP
-- Practice PINvestigator's eval story (the differentiator)
-- Record yourself answering "Design a recommendation system" (aim for 35 minutes)
-
-### Week 5-6: Common Questions
-- Work through Module 3.4 questions, one per session
-- Practice transitioning from generic answer -> UPP/PINvestigator-specific example
-- Time yourself: 5 min clarification -> 20 min design -> 10 min deep dive
-
-### Week 7-8: Technical Depth + Mocks
-- Work through Module 3.5 drills (2 min each)
-- Practice the "go deeper" follow-ups
-- Mock interview with someone who can push back on tradeoffs
-
-### Ongoing
-Every time something evolves in UPP or PINvestigator, draft:
-1. The 2-sentence interview description of what changed
-2. The tradeoff considered and why this approach was chosen
-3. The evolution story — "we started with X, learned Y, evolved to Z"
-
----
-
-## Track 3 Resources
-| Resource | URL | Hours | Priority |
-|----------|-----|-------|----------|
-| **ML System Design Interview** (Xu & Aminian) | amazon.com/dp/1736049127 | 10-12 | High |
-| **Designing ML Systems** (Chip Huyen) | amazon.com/dp/1098107969 | 8-10 | Medium |
-| System Design for Recs — Eugene Yan | eugeneyan.com/writing/system-design-for-discovery/ | 1.5 | High |
-| Patterns for Personalization — Eugene Yan | eugeneyan.com/writing/patterns-for-personalization/ | 1 | Medium |
-| Aman.ai: ML System Design Framework | aman.ai/mlsysdes/framework/ | 3-4 | High |
-| Aman.ai: ML System Design Questions | aman.ai/mlsysdes/ | 3-4 | High |
-| khangich/machine-learning-interview | github.com/khangich/machine-learning-interview | 2-3 | Medium |
-| Grokking the ML Interview (Educative) | educative.io | 4-6 | Medium |
-
----
-
-# Track 4: Engineering Leadership
-
-## Why This Track
-The soft skills are load-bearing for everything else. Strategic thinking shapes how UPP and Retentive Recs get prioritized. Delegation determines whether I can invest in Goal 2 (Agentic AI craft) without sacrificing Goal 1 (business outcomes). Emotional regulation is Goal 0 — the inner foundation.
-
-This track is qualitatively different: it's practiced in live situations and reflected on, not studied in blocks.
-
-**Deepened priority (2026-04-03):** As AI automates more execution, the leadership edge shifts to human judgment in automated systems — knowing when to override, where accountability sits, and how to build governance that doesn't just rubber-stamp AI decisions. Module 4.4 addresses this. Relevant now for PINvestigator (who owns the investigation output?), Rekko (who is accountable for a bad trade?), and any AI-adjacent work at Pinterest.
-
----
-
-## Module 4.1: Strategic Thinking
-
-### What it means for an EM at Director trajectory
-Strategic thinking at this level is not "having a vision." It's the ability to:
-- See the system of incentives, constraints, and stakeholder motivations around a problem
-- Identify the highest-leverage intervention point (not the most obvious one)
-- Frame problems in ways that create alignment rather than resistance
-- Hold multiple timescales simultaneously (this quarter's delivery AND the 18-month platform thesis)
-
-### Key nuances I'm working through
-- **The difference between being strategic and sounding strategic.** Real strategy is choosing what NOT to do. "We're going to do X, Y, and Z" is a plan, not a strategy. "We're going to do X because it's the only thing that unblocks Y and Z" is strategic.
-- **Strategic framing as a political tool.** Dylan's "one moving variable" reframe solved the Option 1 vs. Option 2 impasse not by arguing either side but by changing the frame entirely. This is a learnable skill.
-- **When to be strategic vs. when to be operational.** In senior rooms, my speaking power comes from being the practitioner (operational), not the strategist (Dylan's job). Strategic thinking informs *what I choose to say*, but the delivery should sound like lived experience.
-
-### Applied practice (live situations)
-- **UPP expansion**: How to frame the retrieval platform narrative for Rajat in a way that makes it co-equal with Dhruvil's ranking platform — not competing, complementary
-- **Retentive Recs**: Framing as "the technical engine for Anticipation" (strategic alignment with company vision) rather than "a ranking optimization" (tactical)
-- **Resource allocation**: Making the case for what to drop when adding scope — not "we need more people" but "here's the tradeoff we're making and why"
-
-### Frameworks
-- **"What game are we playing?"** — Finite (deliver this feature) vs. infinite (build a platform that compounds). Director-caliber leaders play infinite games.
-- **The DACI for strategic decisions**: Driver, Approver, Contributors, Informed. Forces clarity on who actually decides.
-- **Pre-alignment before broadcast**: Raise flags in small forums first, especially for contentious cross-team topics.
-
-### Suggested reading
-| Resource | What you learn |
-|----------|---------------|
-| **Good Strategy / Bad Strategy** (Rumelt) | The kernel of strategy: diagnosis, guiding policy, coherent actions. Most "strategies" are just goals. |
-| **The Art of Action** (Bungay) | Bridging the gap between plans and execution. Directed opportunism. |
-| **Playing to Win** (Lafley & Martin) | Strategy as an integrated set of choices: Where to Play and How to Win. |
-| **An Elegant Puzzle** (Larson) | Engineering management strategy — sizing teams, managing technical debt, organizational design. |
-
----
-
-## Module 4.2: Delegation & Coaching TLs
-
-### The core challenge
-Director-readiness is leverage. But delegation without capability scaffolding produces one of two failure modes:
-1. **Under-delegation**: I stay in the critical path for everything. Can't take a week off without escalation debt. (Current risk.)
-2. **Over-delegation**: TLs don't have the judgment yet, decisions go sideways, I end up cleaning up. (Historical pattern.)
-
-### Key nuances
-- **"Barbell delegation"**: Delegate ownership while retaining 2-3 key review gates. Not micromanaging, but not abdication.
-- **The narrative gap**: TLs can own execution but often can't own the narrative. If Piyush delivers the technical work but I'm not present for the exec framing, the story gets lost or captured.
-- **Coaching TLs who aren't performing to standard**: The instinct is to take it back. The Director move is to invest in their growth with clear feedback, explicit expectations, and a deadline for improvement.
-- **Scaling through Bowen's departure**: 17 direct reports is not sustainable. The EM hire and pod model activation (if no signed offer by mid-May) are structural interventions, not just backfill.
-
-### Applied practice
-- **Piyush**: Owns UPP CLR technical architecture. My job: narrative ownership with Rajat, cross-org unblocking, not technical oversight.
-- **TL operating system**: Weekly TL sync, decision review rubric, artifact templates. The goal: TLs proactively write decision docs and pre-align stakeholders without prompting.
-- **Explicit leader scoreboard**: Are my TLs spending more time on strategy and system design than on unblocking tickets?
-
-### Frameworks
-- **Situational Leadership II**: Match leadership style (directing, coaching, supporting, delegating) to follower development level per task
-- **The Coaching Habit** (Bungay Stanier): 7 questions that shift from advice-giving to coaching. "What's the real challenge here for you?"
-- **Intent-based leadership** (Marquet, "Turn the Ship Around"): Push authority to where the information lives. "I intend to..." instead of "permission to..."
-
-### Suggested reading
-| Resource | What you learn |
-|----------|---------------|
-| **Turn the Ship Around** (Marquet) | Leader-leader model. Push decision authority down. |
-| **The Coaching Habit** (Bungay Stanier) | 7 essential coaching questions. Stop giving advice, start asking. |
-| **High Output Management** (Grove) | The classic on leverage, meetings, and organizational output. |
-| **Radical Candor** (Scott) | Care personally + challenge directly. The framework for hard feedback. |
-
----
-
-## Module 4.3: Emotional Regulation & Executive Presence
-
-### The pattern (from coaching with David & Rodney)
-Under pressure, the Di profile intensifies:
-- **High D spike**: Overly demanding, blunt, pushing agenda without inviting input
-- **High i spike**: Overselling, optimistic promises to preserve momentum
-- **Speed bias**: Steamrolling methodical thinkers, dismissing legitimate concerns
-- **Rumination**: Uncertainty converts to analysis. The analysis feels productive but is avoidance.
-
-### The Tai Chi base
-Not passivity — a practice of returning to base. When something hits (reorg, lukewarm response, peer's success), the question is not "what does this mean about me?" It's "where is my base, and how quickly can I return to it?"
-
-### Key practices
-- **Intent labeling**: Before disagreeing or pushing for speed, state intent. "My intent here is to unblock us for Friday, so I'm pushing hard on X. Thoughts?" Prevents directness from reading as aggression.
-- **Pre-meeting reset**: 2 minutes before high-stakes meetings. Story -> facts -> ask. Visualize the Tai Chi base.
-- **Post-meeting debrief**: What did I feel? What story am I telling? What are the facts? Did I say what was true and useful before asking "how did I land?"
-- **Naming the pattern**: "I'm reading tea leaves again." "I'm converting uncertainty to analysis." The act of naming interrupts the spiral.
-- **Boring Consistency**: Low Heat, Steady Light. Metric: zero instances of defensiveness or litigating the point. "I am not the owner of the truth; I am the mechanic fixing the car."
-
-### The UPP training ground
-The SSJ/Kurchi/Jinfeng dynamic is a live case for all three skills:
-- **Strategic thinking**: Framing UPP retrieval as co-equal with Ranking, not competing
-- **Delegation**: Letting Dylan and Rajat handle the political escalation; staying in the practitioner lane
-- **Emotional regulation**: When Jinfeng misrepresented alignment, flagging it factually, not emotionally. When Kurchi pushed back ("I need data"), recognizing it as reasonable, not adversarial.
-
-### Applied practice
-- **Weekly check**: Am I leaving high-stakes meetings asking "did I say what was true and useful?" before "how did I land?"
-- **Recovery tracking**: Rumination episodes getting shorter? Returning to base faster after triggering events?
-- **The internal scoreboard**: Is PINvestigator better this week? Is my team energized? Am I learning? Am I recovering faster? Do *I* think I did good work?
-
-### Suggested reading
-| Resource | What you learn |
-|----------|---------------|
-| **Leadership and Self-Deception** (Arbinger Institute) | How self-betrayal creates organizational dysfunction. The "box." |
-| **Crucial Conversations** (Patterson et al.) | High-stakes dialogue when opinions differ and emotions run hot. |
-| **Nonviolent Communication** (Rosenberg) | Observation, feeling, need, request framework. Reduces reactivity. |
-| **The Inner Game of Tennis** (Gallwey) | Self 1 (conscious) vs Self 2 (unconscious). Quiet the inner critic. |
-
----
-
-## Module 4.4: Human Judgment in AI-Automated Systems
-
-### Why this module
-When AI handles execution, humans don't disappear — they move upstream. The leadership question shifts from "how do we do this?" to "who is accountable when this goes wrong?" and "what decisions should never be automated?"
-
-This is practical now: PINvestigator produces investigation reports that engineers act on. Rekko will eventually execute trades. At Pinterest, AI-generated recommendations shape user experience at scale. Where does accountability sit? How do leaders govern these systems without just rubber-stamping outputs?
-
-### What to learn
-- **Accountability mapping**: For any AI-automated decision, answer: who reviews the output? Who can override? Who is responsible when it's wrong? If the answer is "nobody," that's the gap.
-- **Edge case ownership**: AI handles the common case well. Humans own the tail. Define what constitutes an edge case *before* deployment, not after the first incident.
-- **Ethical tripwires**: What outputs would be unacceptable regardless of confidence? Define these explicitly as hard stops — not soft guidelines.
-- **Governance without theater**: The failure mode is governance that looks rigorous (review boards, checklists) but doesn't actually change outcomes. Good governance is fast and targeted, not exhaustive.
-- **The "last human in the chain" problem**: Someone signs off on an AI decision. That person needs enough context to actually evaluate it, not just approve it. How do you design for informed sign-off?
-
-### Applied to my systems
-| System | Who reviews? | Override mechanism? | Hard stops defined? |
-|--------|-------------|--------------------|--------------------|
-| **PINvestigator** | Engineer receiving report | Manual investigation | Hallucinated SQL query with no real table |
-| **Rekko trading** | James/Daniel | Manual cancel | Trade above $X; trade on unvalidated analysis |
-| **Leo context updates** | James | James rejects/modifies | Leo proposing to delete a file |
-| **Pinterest recs** | Team + A/B test | Holdout, manual override | Undefined — worth defining |
-
-### Key question for every AI system I build
-*"If this system produces a confidently wrong output that propagates downstream — what happens, how quickly do we find out, and who is responsible?"*
-
-If the answer is "we find out eventually, and it's unclear who owns it," that's the design gap.
-
-### Suggested reading
-| Resource | What you learn |
-|----------|---------------|
-| **The Alignment Problem** (Christian) | How AI systems embed and amplify human values/mistakes |
-| **Weapons of Math Destruction** (O'Neil) | How automated systems create accountability vacuums at scale |
-| **Human Compatible** (Russell) | CAIS framing — building AI that defers to human judgment by design |
-
----
-
-# Track 5: Model Architecture & Transformers
-
-## Why This Track
-UPP decisions happen at the architecture level — pretraining, fine-tuning, tower design, cross-surface representation learning. Being able to engage credibly at the technical review level (not just the strategy level) is what separates a strong EM from one who's just "above the fray."
-
----
-
-## Module 5.1: Transformer Fundamentals
-
-### What to learn
-- Self-attention mechanism: queries, keys, values, attention weights
-- Multi-head attention: why multiple heads capture different relationship types
-- Positional encoding: how transformers handle sequence order
-- Layer normalization, residual connections, feed-forward layers
-- The encoder-decoder architecture vs. decoder-only (GPT-style) vs. encoder-only (BERT-style)
-
-### Key nuances for UPP
-- **Foundation Model layer** uses next-token prediction (decoder-style) — why? Because it's learning sequential user behavior patterns.
-- **CLR** uses a dual-tower encoder architecture — why? Because retrieval needs independent encoding of queries and items for ANN serving.
-- The relationship between these two layers is a pretraining/fine-tuning paradigm, not a single architecture.
-
-### Resources
-| Resource | URL | Hours | Priority |
-|----------|-----|-------|----------|
-| **3Blue1Brown: Attention in Transformers** | youtube.com (Visualizing attention) | 0.5 | High (intuition) |
-| **Jay Alammar: The Illustrated Transformer** | jalammar.github.io/illustrated-transformer/ | 1-2 | High |
-| **Attention Is All You Need** (Vaswani et al.) | arxiv.org/abs/1706.03762 | 2-3 | High |
-| **Stanford CS224N** (selected lectures) | web.stanford.edu/class/cs224n/ | 3-4 | Medium |
-| **Karpathy: Deep Dive into LLMs like ChatGPT** | youtube.com (watch-and-code) | 2 | High |
-| **Karpathy: How I use LLMs** | youtube.com (watch-and-code) | 1 | High |
-| **Karpathy: Let's build GPT from scratch** | youtube.com (watch-and-code) | 3-4 | High |
-| **Karpathy: Intro to language modeling (makemore)** | youtube.com (watch-and-code) | 2 | High |
-| **Karpathy: LLM Tokenization / GPT Tokenizer** | youtube.com (watch-and-code) | 2 | High |
-| **Karpathy: makemore Part 2: MLP** | youtube.com (watch-and-code) | 2 | Medium |
-| **Karpathy: makemore Part 3: Activations & Gradients** | youtube.com (watch-and-code) | 2 | Medium |
-| **Karpathy: makemore Part 4: Backprop Ninja** | youtube.com (watch-and-code) | 2 | Medium |
-| **Karpathy: makemore Part 5: Building a WaveNet** | youtube.com (watch-and-code) | 2 | Medium |
-| **Stanford CS229: Building LLMs** | youtube.com (Stanford Online) | 1.5 | High |
-| **Stanford CS25 V2: Intro to Transformers w/ Karpathy** | youtube.com (Stanford Online) | 1.5 | High |
-| **Grant Sanderson: Visualizing transformers and attention** | youtube.com (TNG Big Tech Day '24) | 1 | High (intuition) |
-| **Stanford CME295: Transformers & LLMs Lecture 1** | youtube.com (Stanford Online, Autumn 2025) | 1.5 | Medium |
-
----
-
-## Module 5.2: Two-Tower Architectures for Retrieval
-
-### What to learn
-- The fundamental constraint: at serving time, you can't run a cross-attention model over billions of items
-- Solution: encode queries and items independently, use ANN for retrieval
-- Query tower: user features + context -> query embedding
-- Item tower: item features -> item embedding
-- Training: contrastive loss (positive pairs close, negative pairs far)
-- Serving: item tower pre-computed and indexed; query tower runs at request time
-
-### Key nuances for UPP CLR
-- **Condition Tower**: The UIC medioid is a condition input — it tells the query tower *what aspect of the user* to retrieve for. This is different from a standard query tower that encodes a single user representation.
-- **Surface-specific Surface Towers**: Each surface can add its own tower elements on top of the shared base. This is the fine-tuning layer.
-- **Cross-surface pretraining**: The base CLR is trained on data from multiple surfaces. The hypothesis: cross-surface signal improves each surface's retrieval because user behavior on one surface is informative for another.
-- **The semantic relevance challenge**: Standard CLR optimizes for engagement. Search needs relevance. Multi-head objectives (engagement loss + relevance loss) are the solution, but balancing the heads is non-trivial.
-
-### Codebase deep dives (completed 2026-03-29)
-- **CLR technical reference**: `AIContext/projects/clr_technical.md` — full architecture walkthrough (condition system, routing masks, DHEN, training, inference, fine-tuning)
-- **P2P LR technical reference**: `AIContext/projects/p2p_lr_technical.md` — Closeup learned retrieval (multi-tower DHEN, SID/RQ-VAE, distillation, C2C/Q2Q losses)
-- **Personal learning notes**: `learning/clr_codebase_notes.md` — what I understand, what's still fuzzy, how it connects to UPP work
-- **Key architectural difference**: CLR uses explicit conditions (interest/board/pin) with routing masks; P2P uses query pin as implicit condition in the viewer tower. The UPP co-design must reconcile these approaches.
-
-### Resources
-| Resource | URL | Hours | Priority |
-|----------|-----|-------|----------|
-| Google: Recommendation Systems (two-tower section) | developers.google.com/machine-learning/recommendation | 1-2 | High |
-| Aman.ai: Candidate Generation | aman.ai/recsys/candidate-gen/ | 2 | High |
-| YouTube: Deep Neural Networks for Recommendations | arxiv.org/abs/1606.07792 | 2 | Medium |
-| **PinRec (Pinterest, 2025)** | arxiv.org/html/2504.10507v1 | 2-3 | High |
-
----
-
-## Module 5.3: Pretraining & Fine-Tuning Paradigms
-
-### What to learn
-- **Pretraining**: Train a large model on broad data (self-supervised or multi-task)
-- **Fine-tuning**: Adapt the pretrained model to a specific task/surface with task-specific data
-- **Why it works**: Pretrained representations capture general patterns; fine-tuning specializes without losing them
-- **Key design decisions**: What to freeze vs. unfreeze, learning rate scheduling, how much fine-tuning data is enough
-
-### Key nuances for UPP
-- **The UPP thesis**: A shared base model pretrained on cross-surface data should produce better surface-specific models than surface-specific training from scratch. Validated on Notif (+130k WAU with pretrained HF -> Notif fine-tune).
-- **What the base model learns**: Cross-surface user behavior patterns that no single surface could learn in isolation. Users who engage with hiking content on Homefeed also click camping notifications — that cross-surface signal improves both.
-- **The risk**: Pretraining on a dominant surface (HF) may bias the base model toward that surface's distribution. Fine-tuning may not fully overcome this bias for surfaces with very different distributions (Search, P2P).
-- **DHEN scaling**: Deep Hierarchical Expert Networks — scaling the model capacity at the fine-tuning layer. Used in the Notif win.
-
-### The evolution story (strong interview material)
-1. **Status quo**: Each surface builds and maintains its own retrieval model independently
-2. **Insight**: Cross-surface pretraining on ranking (CFM) showed wins. Does the same work for retrieval?
-3. **Proof point**: HF CLR architecture replicated to Notif = +156k WAU. Pretrained HF, fine-tuned for Notif = +130k WAU.
-4. **Scaling**: Co-design UPP CLR incorporating P2P context tower strengths. Expand to Search.
-5. **Future**: Foundation Model -> Base Retriever -> Surface-Specific Retrievers as the permanent architecture
-
-### Resources
-| Resource | URL | Hours | Priority |
-|----------|-----|-------|----------|
-| **Designing ML Systems** Ch. 9 (Chip Huyen) | amazon.com/dp/1098107969 | 2-3 | High |
-| Transfer Learning survey | ruder.io/transfer-learning/ | 1-2 | Medium |
-| BERT: Pre-training of Deep Bidirectional Transformers | arxiv.org/abs/1810.04805 | 2 | Medium |
-
----
-
-## Module 5.4: Cross-Surface Representation Learning
-
-### What to learn
-- **Multi-task learning**: Training one model on multiple tasks/surfaces simultaneously
-- **Shared vs. task-specific parameters**: Which layers are shared (base) vs. surface-specific
-- **Label distribution mismatch**: Engagement-heavy surfaces (HF) vs. relevance-heavy surfaces (Search)
-- **Multi-head objectives**: Multiple loss functions (engagement + relevance) weighted per surface
-- **Negative transfer**: When cross-surface training hurts rather than helps a specific surface
-
-### Key nuances for UPP
-- **The cross-surface dataloader challenge**: How to sample and weight training data from surfaces with wildly different distributions. This is the unsolved infrastructure problem that gates everything.
-- **Relevance loss in production**: Already deployed on Notif (no relevance regression). Key open question: does it transfer to Search where relevance is the primary concern, not a secondary constraint?
-- **The condition tower as the bridge**: UIC medioids encode personalized user state across surfaces. The same UIC can condition retrieval on HF (engagement-oriented) and Search (relevance-oriented) — the surface tower adapts the base representation.
-- **Feature alignment across surfaces**: Different surfaces log different features. Zihao's surface documentation work maps which features exist on which surfaces and identifies gaps that must be filled before cross-surface training.
-
-### Resources
-| Resource | URL | Hours | Priority |
-|----------|-----|-------|----------|
-| Multi-Task Learning in Rec Systems — Aman.ai | aman.ai/sysdes/sys-design/ | 2 | High |
-| Aman.ai: RecSys Architectures | aman.ai/recsys/architectures/ | 2 | Medium |
-| Eugene Yan: Real-time ML for Recs | eugeneyan.com/writing/real-time-recommendations/ | 1 | Medium |
-
----
-
-## Module 5.5: Embedding Spaces & Representation Quality
-
-### What to learn
-- **Embedding space geometry**: What "closeness" means (cosine similarity, euclidean distance)
-- **Embedding fusion**: Combining multiple signal layers into one space (OmniSage approach)
-- **Clustering in embedding space**: How to identify coherent groups (hierarchical, k-means, HDBSCAN)
-- **Evaluation of embedding quality**: Retrieval benchmarks, alignment metrics, downstream task performance
-
-### Key nuances for Retentive Recs
-- **OmniSage fuses three signal layers**: Visual/Semantic (CLIP) + Interaction Graph + Topology Graph (Pin-Board). In OmniSage, "closeness" = functional utility, not just visual similarity. A hiking boot and a granola bar are neighbors because users curate them on the same "Hiking Trip" boards.
-- **UIC construction**: Complete-link hierarchical clustering on the user's L500 sequence (last 500 actions). Merge criterion: similarity must exceed threshold relative to ALL events in target cluster (ensuring high coherence).
-- **Dynamic cluster count**: The number of UICs per user is not fixed — users with diverse interests have more clusters. This is a key innovation over fixed-category approaches.
-- **Geometric operations in embedding space**: Vector Transport, Slerp interpolation, centroid computation — these are meaningful operations because OmniSage is structured so that geometric proximity = functional utility.
-
-### Resources
-| Resource | URL | Hours | Priority |
-|----------|-----|-------|----------|
-| Jay Alammar: Illustrated Word2Vec | jalammar.github.io/illustrated-word2vec/ | 1 | High (intuition) |
-| Stanford CS246: Dimensionality Reduction | web.stanford.edu/class/cs246/ | 2-3 | Medium |
-| Google: Embeddings overview | developers.google.com/machine-learning/crash-course/embeddings | 1 | Medium |
-
----
-
-## Track 5 time estimate: ~20-30 hours
-Prioritize Modules 5.1-5.3 (T1). Modules 5.4-5.5 deepen as UPP work demands.
-
----
-
-# Appendix A: Master Resource List
-
-## Newsletters (subscribe to 4-5 max)
-| Newsletter | Author | URL | Focus |
-|------------|--------|-----|-------|
-| **Latent Space** | swyx & Alessio | latent.space | AI engineering (most technically relevant) |
-| **ByteByteGo** | Alex Xu | blog.bytebytego.com | System design (clear diagrams) |
-| **Eugene Yan's Blog** | Eugene Yan | eugeneyan.com/writing/ | Rec-sys + LLM intersection |
-| **The Batch** | Andrew Ng | deeplearning.ai/the-batch/ | Broad AI news |
-| **Ahead of AI** | Sebastian Raschka | magazine.sebastianraschka.com | Deep technical dives, paper roundups |
-
-## Podcasts
-| Podcast | Suggested episodes | Hours |
-|---------|--------------------|-------|
-| Lenny's Podcast | AI evals (Hamel & Shreya), LinkedIn full-stack builders | 5-6 |
-| Latent Space | Agents, evals, rec-sys episodes | 3-4 |
-| Behind the Craft | AI product episodes | 2-3 |
-
-## Key Papers (priority order)
-| Paper | URL | Priority |
-|-------|-----|----------|
-| **Top-K Off-Policy REINFORCE** (Chen et al.) | arxiv.org/abs/1812.02353 | Essential |
-| **PinRec (Pinterest, 2025)** | arxiv.org/html/2504.10507v1 | High (your day job) |
-| SlateQ (IJCAI 2019) | arxiv.org/abs/1905.12767 | High |
-| Attention Is All You Need | arxiv.org/abs/1706.03762 | High |
-| BERT | arxiv.org/abs/1810.04805 | Medium |
-| ROLeR: Reward Shaping (2024) | arxiv.org/html/2407.13163 | Medium |
-| TRACE: Trajectory-Aware Eval | arxiv.org/html/2602.21230 | Medium |
-
----
-
-# Appendix B: Time Estimates
-
-| Track | Hours (Range) | Priority Tier |
-|-------|--------------|---------------|
-| 1. Claude Code & Claude AI Mastery | 29-39 | T1 (selected modules) |
-| 2. RL & Evaluation for Rec Systems | 45-60 | T1 (evals), T2 (RL) |
-| 3. ML System Design Interviews | 42-58 | T2 |
-| 4. Engineering Leadership | Ongoing | T3 |
-| 5. Model Architecture & Transformers | 20-30 | T1 |
-| **TOTAL** | **~136-187 hrs** | |
-
-### Realistic timeline
-| Pace | Hours/Week | Duration |
-|------|-----------|----------|
-| **Normal** (alongside work) | 3-4 | 8-12 months |
-| **Moderate** (dedicated learning time) | 6-8 | 4-6 months |
-| **Intensive** (interview prep) | 10-15 | 3-4 months |
-
-### If time-constrained (100 hours)
-1. Xu/Aminian ML System Design book (12 hrs, whiteboard)
-2. Claude Code in Action + 2-3 Anthropic courses (10 hrs)
-3. Eugene Yan: Bandits + Counterfactual Eval + System Design (5 hrs)
-4. YouTube REINFORCE + PinRec papers (6 hrs)
-5. Hamel eval blog posts + hands-on eval building (8 hrs)
-6. Transformer fundamentals + two-tower deep dive (8 hrs)
-7. UPP case study prep — write interview answers (10 hrs)
-8. PINvestigator case study prep — write interview answers (8 hrs)
-9. Mock interviews (20 hrs)
-10. Leadership reading (1-2 books) (13 hrs)
-
-### If time-constrained (50 hours)
-1. Xu/Aminian ML System Design book (12 hrs)
-2. Claude Code in Action (4 hrs)
-3. Eugene Yan: Bandits + System Design for Recs (3 hrs)
-4. YouTube REINFORCE paper (4 hrs)
-5. Hamel evals blog posts (3 hrs)
-6. Write UPP + PINvestigator interview answers (8 hrs)
-7. Mock interviews (16 hrs)
-
----
-
-# Appendix C: Study Mode Reference
-
-| Mode | When to Use | Retention |
-|------|-------------|-----------|
-| **Read** | Concepts, surveys, blog posts, docs | ~20% after 1 week |
-| **Watch** | Lectures, demos, walkthroughs | ~30% after 1 week |
-| **Build** | Code, experiment, integrate into your project | ~75% after 1 week |
-| **Whiteboard** | Draw diagrams, practice explaining, mock interviews | ~60% after 1 week |
-| **Discuss** | Teach someone, explain to a peer, rubber-duck to Leo | ~90% after 1 week |
-
-Best approach: Read -> Whiteboard -> Discuss for conceptual material. Watch -> Build for tools/code. The concept notes in `learning/` are the "Discuss" artifact — writing forces understanding.
+**Provenance:** built 2026-08-30 from four deep-research passes (generative retrieval · post-training · transformers+serving · RL-for-agents), each briefed on the profile (20-yr recsys, judging-depth goal, 3 hrs/wk, learn-by-doing) with URL verification. Sequencing owned by Leo: GR before the November gate, PT while HF fine-tuning is live, serving before year-end GPU decisions, RL/evals feeding the Curator/Skeptic plan.
