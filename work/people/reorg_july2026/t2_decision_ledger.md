@@ -4,6 +4,16 @@
 
 ---
 
+## Entry 2026-08-30 (Sun, remote session) — Balaji own-voice datapoint (first-hand)
+
+**Balaji → James directly (week of 8/24):** if James had asked in Jan/Feb whether he wanted to switch managers, "definitely yes" — now he's not so sure and needs to think about it. He noted Daniel also had a hard time during the friction period ("it's not entirely his problem" — Balaji's own framing, holding both sides). Separately: he wants scope that is **less 0-to-1, more incremental**.
+
+Weight: this is **first-hand own-voice**, unlike the Roderick relays — but it's a *deliberation in progress*, not an answer. Treat as: tension with Daniel partially resolved and cooling; the reporting-line question stays open at Balaji's pace. Do not force a read; the ~Oct gate (undecided question 2) remains the decision point. The scope-flavor want (incremental, at-scale) is the actionable part now — it constrains what a good landing looks like for him regardless of line.
+
+Dylan-facing rule (James, 8/30, prepping the structure 1:1): if Dylan engages Balaji, it must be about **scope, never the reporting-line choice** — senior gaze mid-deliberation hardens whatever gets said. The wavering itself ("Jan/Feb yes, now unsure") is not shared with Dylan; only the stable parts (wants incremental scope; friction easing, situational on both sides).
+
+---
+
 ## Entry 2026-08-28 (Fri, remote session) — preferences only, nothing decided
 
 **Nothing in this entry is a decision.** These are stated preferences — inputs under published criterion 3 ("preferences are inputs, not claims; everything goes into the design, nothing said now is a commitment"). Recorded here so they can't quietly harden into expectations, and so the trail shows what was known when the fall calls get made.
