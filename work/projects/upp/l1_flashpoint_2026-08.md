@@ -80,3 +80,12 @@ Ranked, agreed in-session: (1) **forwarding Matt's DM screenshot to Jaewon** —
 - Yali's revised one-pager (explicit recommendation/actions/decision criteria) — landing this week; back it.
 - Whether/how to brief **Dylan Mon 8/25**: the ATG-relationship read and race-prevention plan are fair game (DE intel came from her); the screenshot-share and promo-disclosure details are not.
 - Hedi 1:1 (inclusion + James's own visibility gap); Matt's named co-design role proposal.
+
+## 2026-09-02 update — Jaewon promoted to DE; the succession read reshaped
+
+- **Jaewon Yang was promoted to Distinguished Engineer (MLE) on 9/1** and told James directly (DM, thanking him for *"the support I receive from you and your team members"*). Stakeholders §51.
+- **⟨Leo inference, unconfirmed⟩ The "unnamed DE" in the Cast is most plausibly Karthik Subbian** — DE, joined Core 8/29 from M10N, Dylan asked him to focus on UPP and pointed him at James (first sync 8/28; full-velocity ramp 8/31; stakeholders Karthik entry). The record carried both facts for a week without connecting them.
+- **Consequence:** UPP now has **two DEs** — Karthik (incoming; TL-designate per Dylan's 8/21 intel) and Jaewon (de-facto TL, ATG, freshly promoted). A newly promoted DE is much harder to "replace"; the plan may have been reshaped (co-lead / split by layer / retention). Dhruvil's "Jaewon feeling threatened" read is weaker with a promo in hand; Jaewon's 8/20 confidence (*"both are my projects anyway"*) may have been a man who knew his promo was coming.
+- **Freeze angle:** Karthik already started (8/29); the 9/2 hiring freeze doesn't touch him.
+- **Open items, updated:** "Who the DE is" → likely Karthik ⟨confirm with Dylan⟩. "Whether Jaewon knows" → moot if the plan changed. **New: what the UPP TL shape is** (Karthik vs Jaewon vs co-lead) — ask Dylan; fair game since the intel came from her.
+- **James's posture:** keep both DE channels warm, take no side on TL-ship, route technical questions by layer owner.
