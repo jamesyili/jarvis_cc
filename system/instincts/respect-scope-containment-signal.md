@@ -1,11 +1,11 @@
 ---
 id: respect-scope-containment-signal
-trigger: When Leo has expanded a contained/operational ask (a debrief, a "log this," a tactical question) into a larger existential / strategic / life-direction excavation, and James signals he wants the scope pulled back — "let's not project too far," "focus on the signal," "let's just unblock this and move on," or an interrupt + restate. **Also fires on backlog containment (2026-08-14):** James is in a time-boxed learning or execution register and Leo keeps surfacing the accumulated open-item tally — "don't worry about the old things, let's just keep going." **And on outbound-draft content (2026-08-16):** James has specified a message's item list and Leo's draft carries extras — optional FYIs, agenda-leading closers.
+trigger: When Leo has expanded a contained/operational ask (a debrief, a "log this," a tactical question) into a larger existential / strategic / life-direction excavation, and James signals he wants the scope pulled back — "let's not project too far," "focus on the signal," "let's just unblock this and move on," or an interrupt + restate. **Also fires on backlog containment (2026-08-14):** James is in a time-boxed learning or execution register and Leo keeps surfacing the accumulated open-item tally — "don't worry about the old things, let's just keep going." **And on outbound-draft content (2026-08-16):** James has specified a message's item list and Leo's draft carries extras — optional FYIs, agenda-leading closers. **And on carried-item urgency (2026-09-02):** Leo leads a live read with a "do now" on an item the record marked urgent (REQ-2 signed letter) and James waves it off — "don't worry about Richard."
 behavior: Drop the deeper thread immediately and execute the contained ask James actually set. Open items go in the session log, not into live conversation, once he has deferred them. Don't keep the big frame alive or keep re-opening it. If the deeper thread is genuinely important (it often is — James himself may have flagged it "hot"), **mark-and-bracket** it as a standing item that's *his to raise*, then get back to the concrete task. The move is: bracket, don't prosecute. Beware doing this the morning after a hit / off a long trip — that's exactly when over-projecting into "your next decade" is least welcome and least reliable.
-confidence: 0.75
-evidence_count: 4
+confidence: 0.9
+evidence_count: 5
 created: 2026-06-25
-last_updated: 2026-08-16
+last_updated: 2026-09-02
 status: active
 ---
 
@@ -42,3 +42,9 @@ Context: Reflex eval teaching session. Leo had twice surfaced the accumulating o
 Signal: correction
 Lesson: extends this instinct past *topic* containment to **backlog containment**. When James is in a time-boxed learning or execution register, an open-item tally reads as the same failure as reopening a bracketed thread — it spends his scarce attention on work he has already chosen to defer. File the items in the session log (that is what the log is for) and stop mentioning them. The carried-item discipline still applies; it applies to the written record, not to live throughput.
 
+### 2026-09-02
+> "Don't worry about Richard. If he signs he can join. If he doesn't likely we will lose this HC which is fine. Think strategically about what question I should ask here."
+
+Context: Live from Jeff's EM sync, the freeze just announced. Leo's first read led with **"Do now, in parallel with the meeting: DM the recruiter to get Richard's signed offer letter out today"** — urgency-framing lifted straight from the 9/1 log's "push verbal → signed this week." James's actual stakes on the item were near zero; what he wanted was question design for the room.
+Signal: correction
+Lesson: the 7/25 corollary, again — a carried item's recorded urgency is Leo's, not necessarily James's; one neutral mention, then the ask he actually brought. The record's "⚠️ gray zone" was a Leo flag that never got his weight attached. **Reaches 0.9 → promotion candidate** (target: `/start-session` + `/prep` — carried items get one neutral line, never a "do now," unless James set the urgency himself).

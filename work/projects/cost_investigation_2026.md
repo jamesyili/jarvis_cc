@@ -34,3 +34,9 @@
 - Quantify the >$1.8M-under-Dylan breakdown → prioritized trim list.
 - Feed findings into Jeff's discussion with his EMs.
 - Deliver the Monday 7/27 staff-meeting update.
+
+## Status (2026-09-02) — stale-doc note + a new gap
+
+- **No status on record since 7/25** (the 7/27 staff-meeting update outcome was never filed). Before James is on record with Jeff as "running the cost work," get the current state from Dylan.
+- **New gap (James, 9/2, during Jeff's EM sync):** the **infra cost-estimation tool is underfunded and has unclear ownership.** Under a hiring freeze, cost is the lever teams still have — and they can't see infra cost per project. **Leo rec (unratified):** raise it as an **ownership** question, not a funding one (ownership is free; Jeff likes fixing the system, not a component), and to **Dylan first** — *"Do you want to carry that to Jeff, or want me to?"* Ask Jeff only as a follow-up if he names cost. Reason: she carries Jeff's priority #3 and named James the driver; a cost-capability gap raised in Jeff's forum without her reads as going around her (the "Dylan Gap" risk in his profile). Jeff-level line if she hands it over: *"In a freeze, cost is the lever we still have. Right now teams can't see infra cost per project, and the estimation tooling has no clear owner. Is that something you'd want to name an owner for at the Core level?"*
+- Context: Jeff's 9/2 EM sync — hiring freeze public, EM offsite + travel cancelled, "free to paid," "Code Red in Ads," "strategic growth efforts." See `../people/stakeholders.md` §5 Jeff 9/2.

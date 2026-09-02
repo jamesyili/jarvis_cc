@@ -11,6 +11,12 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-09-02 — The freeze goes public in Jeff's EM sync; her EM/leads offsite falls with the CE offsite; the 9/1 energy read now has a cause on record
+
+Not a 1:1. Jeff announced the hiring freeze + EM offsite/travel cancellation to all EMs (James live in the room; see `stakeholders.md` §5 Jeff 9/2). Her 9/1 *"don't tell anyone"* is discharged by Jeff's own announcement — James heard it fresh, did not reference her, and should keep it that way (the pre-disclosure was hers to make; that he had it stays private). James's read: **her EM/leads offsite will be cancelled too** ⟨unconfirmed — hers to say⟩. The 9/1 "energy visibly lower" read now has its base-rate cause on record: she was sitting on a freeze and two cancellations she couldn't discuss, on top of the 8/26 layoff and the CFO exit. Passive test (does she keep initiating) still running.
+
+**Two things for her channel, not Jeff's — James asked Jeff neither, deliberately:** (1) the freeze's shape — attrition backfills? duration? → Zili timing (back Thu 9/3); (2) the **infra cost-estimation tool is underfunded with unclear ownership** (James 9/2). Leo rec, unratified: *"Do you want to carry that to Jeff, or want me to?"* — an ownership framing, not a funding ask, and to her first: she carries Jeff's cost priority and named James the driver, so she hands him the scope rather than Jeff handing it to him in front of her (the "Dylan Gap" risk). REQ-2: James is no longer pushing the signed letter — "if he signs he can join; if he doesn't we likely lose the HC, which is fine."
+
 ## 2026-09-01 — Structure 1:1: shape ratified ("this looks good to me"), the hiring freeze confirmed 🔒, Dafang's Reflex engagement now hers to handle
 
 Filed same day from James's account (remote session). The 8/30 four-part script ran: gratitude → the shape → Reflex; the time-allocation part got a nod, the people-side asks did not clearly get made (see "not covered").

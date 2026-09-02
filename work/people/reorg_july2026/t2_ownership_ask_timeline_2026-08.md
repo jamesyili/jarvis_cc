@@ -14,6 +14,8 @@ Do **not** open an explicit claims market in August. Four reasons: Alim hoovers 
 ## Phase 1 — week of ~9/15: the explicit, symmetric ask
 
 > **⚠️ Collision flagged 2026-08-21 — the CE Managers Offsite is Tue–Thu 9/15–17** (Asilomar; Jeff's org). James is out Tue afternoon + Wednesday. Mon 9/14 is already carrying Daniel's re-entry brief, Yiping's transition off RB, and the Kim announcement. *(Leo rec, unratified: slide Phase 1 to the **week of 9/21** — both EMs, same week, symmetry intact, still clear of the 9/30 freeze expiry that set the ~9/15 date; the offsite then becomes calibrating **input** to how expansively to grant scope rather than competition with it. Second rec: move the Kim announcement to Mon 9/21 rather than announcing and then vanishing three days.)* See `../../career/ce_managers_offsite_2026-09.md` §4–5 — including the Alim/Daniel exposure asymmetry this creates going into a *symmetric* ask.
+>
+> **2026-09-02 update: the offsite is CANCELLED** (Jeff's EM sync — freeze + travel cut; see `../../career/ce_managers_offsite_2026-09.md`). The collision above is gone, so the week-of-9/21 slide rec loses its main reason; the other constraints (Mon 9/14 load: Daniel re-entry, Yiping off RB, Kim announcement; the ~9/30 freeze expiry) still stand. Revisit the date with James. Also open: whether Dylan's own EM/leads offsite (James: likely cancelled too) was carrying any of the pre-announcement runway.
 
 Why then: Daniel back 9/14 · freeze expires 9/30 (answers become actionable) · both walkthroughs done · the ~60-day Daniel read is nearly in (calibrates how expansively to grant his ask).
 
