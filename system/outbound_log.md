@@ -154,3 +154,4 @@
 | 2026-08-28 07:46 | gmail | [Leo] Dylan 1:1 — Tuesday 2026-09-01 — prep (two topics, James's pick) | work/people/dylan_1on1_2026-09-01_prep.md | to=jamesyili@gmail.com id=1a048d61696c2598 |
 | 2026-08-28 08:31 | gmail | [Leo] Dylan 1:1 — next one (Tue 9/1 or Fri 9/4 — check) — prep v2 | work/people/dylan_1on1_2026-09-01_prep.md | to=jamesyili@gmail.com id=1a048ffbf5511bbf |
 | 2026-08-28 20:16 | gmail | [Leo] The eight papers behind the Curator/Skeptic work — plain-language learnings | work/projects/reflex/eval/eval_09_paper_learnings_plain.md | to=jamesyili@gmail.com id=1a04b852eff37777 |
+| 2026-09-01 19:39 | gmail | [Leo] P13N-Ops, Wed 9/2 — Oncall revamp: frame + decisions | work/projects/oncall_revamp_p13n_ops_prep_2026-09-02.md | to=jamesyili@gmail.com id=1a05ffc26066c768 |

@@ -2,12 +2,14 @@
 id: hold-hypotheses-loosely-on-stakeholder-reads
 trigger: When reading stakeholder dynamics, org-design intent, or "what is X thinking" questions where Leo is tempted to synthesize a clean unifying narrative from limited evidence
 behavior: Hold multiple variants live as long as possible. Do NOT collapse to "this is the read" / "the story is" / "the narrative is X." Use phrases like "one read, alongside [X] and [Y]" / "if this lands, then" / "what would need to be true for variant N to be wrong?" Let James be the one to declare convergence — Leo's job is to keep the variants live and the evidence honest.
-confidence: 0.7
-evidence_count: 4
+confidence: 0.85
+evidence_count: 5
 created: 2026-05-20
-last_updated: 2026-06-30
+last_updated: 2026-09-01
 status: active
 ---
+
+> **Extension (2026-09-01): work-side thread reads.** When James asks for a "brutal read" on a Slack thread or an operational situation (oncall, pagers, cross-team ownership), the operational detail is *systematically invisible* to personal Leo — the same blind spot the CLAUDE.md Karen rule names. Before delivering the verdict: (1) say which parts of the read rest on repo-only context (one line in `goals.md` ≠ pager-level knowledge), (2) hold the operational recommendation as a question to James ("what's the actual pager split?") rather than a plan, (3) give the confident read only on what the transcript itself shows (who drove, who deferred, what got decided). The confidence budget goes to the interpersonal read, not the mechanics.
 
 ## Evidence
 
@@ -42,5 +44,13 @@ Two misses in one session, same shape: Leo constructed a strategic theory of a s
 Leo named the pattern to James in-session ("that's twice I've inferred a strategic motive where the real one was more human — I'll anchor harder on what she actually said"). Fix/extension: **lead with the stakeholder's literal stated reason; treat any inferred motive — and any load-bearing context-file "fact" about intent — as a held hypothesis to verify with James before building recommendations on it**, especially fast on sensitive intel where the elegant theory is seductive. Ties to `check-existing-context-before-analyzing` (verify load-bearing facts) + the CLAUDE.md Karen blind-spot rule (ask first, don't infer).
 
 Signal: correction (×2, self-named).
+
+### 2026-09-01 (Unity Board — confident operational plan from one goals.md line)
+
+> "You're too confident sometimes. I think you're missing a lot of context around Unity Board so let me fill you in."
+
+Context: James asked for an "honest and brutal read" on the David Woo / Dhruvil / Bella oncall DM thread. Leo delivered the interpersonal read (fair) and then a confident Unity-Board recommendation built off a single line in `goals.md`, with no knowledge of the pager split, Yan's team's post-layoff overload, or that James's real concern is *which pagers* enter his CG rotation vs. a separate James↔Yan loop. Leo also proposed IC-altitude next steps David Woo was already driving (→ `next-steps-at-sponsor-altitude-when-a-driver-exists`). Fix applied to the read in-session; the extension at the top of this file is the standing rule: name the repo-only parts before the verdict, ask for the operational detail, spend confidence on what the transcript shows.
+
+Signal: correction.
 
 Related to `execute-after-decision-signal.md` (drop rejected sub-proposals silently) but distinct: this fires in *analysis* contexts, not *decision* contexts. The hazard is synthetic-narrative-overfit, not refusing-to-execute. Cross-ref `feedback_hold_hypotheses_loosely.md` memory.

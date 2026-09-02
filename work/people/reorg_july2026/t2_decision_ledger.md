@@ -4,6 +4,24 @@
 
 ---
 
+## Entry 2026-09-01 (Tue, remote session) — Dylan ratified the structure; her four clicks; Yang → Alim accepted; 🔒 freeze
+
+**RATIFIED (Dylan, structure 1:1, her words):** *"Overall, glad for focus under each manager and thank you for leading the discussions. This looks good to me."* The shape shown was the 8/29 work-side Org Setup summary (areas + rough people). Nothing in the DECIDED spine below was challenged. Full 1:1 record → `../dylan_wang_archive.md` 9/1.
+
+**Her four questions — all ownership-coverage, none direction — and the answers now on record with her:**
+1. **Heuristic CGs** → get rid of them → **CLR owns the sunset.** (decision, in the room)
+2. **L0/L1 split** → **a primary EM + a TL POC per top-down project.** (mechanism, in the room — the routing-table exercise, restated as a rule)
+3. **MDD + Shopping** → "figure out," likely Daniel's team. ⟨**open**; as dictated — confirm what MDD expands to and land the owner before Oct 1; this is the E-3 class of gap: an ownership question that reached her desk⟩
+4. **Why Yang under Alim** → James: Balaji may switch, more senior people under Alim → Dylan: **Alim already has IC15s, fine with the transfer.** → **Undecided #4 (Yang's T2 line) is effectively settled: Alim**, with her OK. ⚠️ On the 8/21 arithmetic that puts Alim at 13; the 8/29 work-side board presumably re-footed (invisible here) — check before the next scenario run. The people-care flag (returning to a manager he's never met) still applies; Alim should be the one to reach him before the announcement.
+
+**Also on her radar now (from James's own mouth, as the Yang rationale):** "Balaji may switch." That is a *maybe*, offered as pre-wire for the ~Oct L16 line move that needs her sign-off (undecided #2). The 8/30 Dylan-facing rule holds: the wavering ("Jan/Feb yes, now unsure") stays unshared; with her it is scope, never the choice.
+
+**🔒 Hiring freeze is coming** (Dylan, "don't tell anyone" — Code Red from monetization). REQ-2 has a verbal accept (Richard) → sign this week. Consequence for this ledger: **undecided #5 (the UPP hedge req) is effectively closed** unless it opens before the freeze; every board from here assumes no new reqs — REQ-2 is the last seat that fills. Nima 9/8 and Yiping ~9/14 are in-seat moves, unaffected.
+
+**The three people-side asks — MADE, AGREED (Dylan, 9/1).** She'll do the 1:1s and asked James to **schedule them through her EA "when you think it's the right time."** Timing is James's lever — which is the guard the 8/30 Balaji rule needed. Sequence (Leo rec, unratified): **Chuxi first, soon** (recognition; burnout-adjacent) → **Kim after the ~9/14 announcement** (never before 9/11) → **Balaji last, after the ~Oct IB gate or after his own answer lands** — scope, never the reporting line; no senior gaze mid-deliberation. Pending-not-contested list: add "schedule Dylan×Chuxi via EA" as the first move.
+
+---
+
 ## Entry 2026-08-30 (Sun, remote session) — Balaji own-voice datapoint (first-hand)
 
 **Balaji → James directly (week of 8/24):** if James had asked in Jan/Feb whether he wanted to switch managers, "definitely yes" — now he's not so sure and needs to think about it. He noted Daniel also had a hard time during the friction period ("it's not entirely his problem" — Balaji's own framing, holding both sides). Separately: he wants scope that is **less 0-to-1, more incremental**.

@@ -91,8 +91,8 @@ James's format rule (8/29): each item is a launch he can cross off, or a milesto
 - [ ] D-1 — 1 Reflex-attributable launch on **HF** (firm)
 - [ ] D-2 — 1 on **Notif** (ideal; any ⚡ from section A/B can cross-fill)
 - [ ] D-3 — 1 on **Ads** (Janvi) — **criterion (c): ≥1 team outside P13N building AND launching with Reflex**
-- [ ] D-4 — **Reflex running on a schedule** — criterion (a), first half (the scheduler item; Dafang's, idling until ~9/8)
-- [ ] D-5 — **Shifu fold decision (1) closed and papered** on JJ's evidence — components-not-fold lane split; Dylan hears it first (Tue 9/1 1:1)
+- [ ] D-4 — **Reflex running on a schedule** — criterion (a), first half (the scheduler item; **Tim owns since 8/27, James's ~9/10 tripwire** — corrected 9/1: was "Dafang's, idling until ~9/8"; Dafang's Reflex role is Dylan's conversation post-PTO, don't plan on his hours)
+- [ ] D-5 — **Shifu fold decision (1) closed and papered** on JJ's evidence — components-not-fold lane split; 9/1 1:1: Dylan thanked James + JJ for "the Shifu discussions" — awareness, not a ruling; she hears the decision when JJ's one-pager lands
 - [ ] D-6 — **The "open up" milestone set with the P13N EMs and hit: Reflex as the default build path for P13N relevance engineers** — criterion (a) in full; Build-stage items (2)+(3) from the 3-way
 - [ ] D-7 — **ML model training runs through Reflex** — NEW explicit milestone (James, 8/29); ties to Tim's "model integration is the biggest Build gap," the automatic-builds thread, and the ranking-driver ask to Dhruvil
 
