@@ -1,5 +1,25 @@
 # Reflex — Program State, July 2026
 
+## 2026-09-02 — Karthik (DE) is a Reflex *user* on day 3: README → tests → a real bug → cadence/observability questions; two promises now carry his name
+
+**Source:** group DM (Karthik Subbian + Piyush + James), 9/1 7:15 PM → 9/2 11:51 AM, screenshots filed 9/2 (verbatim in `../../people/stakeholders.md` Karthik entry). James: "Karthik is vibing hard with Reflex."
+
+**What he did, in order:** asked whether the model is *humans write hypotheses/opportunities, agents explore the end-to-end pipeline* (correct) → read the README → cloned the repo and ran the full pytest suite with a coding agent → hit the one known failure and, instead of asking, had the agent diagnose it → asked how often the agents run, what the latency is from a card comment/add to an output, and whether he can monitor them. That is the exact question sequence of someone deciding whether to *depend* on the thing.
+
+**The bug he surfaced (his agent's read, verbatim substance):** the documented known failure `test_hypothesis_judge_log_dedup` is not test-only — `infra/jsonl_merge.py:17-24` registers `timestamp+expert+card_gid`, but `scripts/sync_state_to_s3.py:703` passes `dedup_key="timestamp+card_gid"` when syncing `hypothesis_judge_log.jsonl`, so `merge_entries` would raise `ValueError` **on that path in production too.** One-word decision of intent: register `timestamp+card_gid` in `DEDUP_KEYS` (plus a `_natural_key` branch) or change the caller to the existing key — "which is correct depends on whether judge verdicts are keyed per expert." (Also: 2 Pydantic V2 class-based-config deprecation warnings in `detect/infra/schemas/`.) **James, 10:09:** "we've been iterating on the Eval component. I'll share with the team and we'll get on it." → **This lands in James's own named thread (Evaluation & Evolution, 8/17).** Fix it this week; a DE is watching the known-bug list.
+
+**The pitch, James's words (9/1 9:02 PM) — the canonical one paragraph:** *"You can use reflex to validate your hypotheses via the knowledge base it has as well as the pm and ds agents, then ask it to build the change itself since it knows about the codebase, and even start and analyze the AB test for you! We're operationalizing this by task types, and we've gotten pretty far automating CG quota tuning and Blending tuning experiments."*
+
+**Two promises now attached to a DE's name:**
+1. **"stand alone service in ~2 weeks so it can run at least daily"** (11:51 AM) → ≈ **Tue 9/16.** This is **D-4** (Reflex-on-a-schedule; Tim's since 8/27, 9/10 tripwire). The external date is now later than the internal tripwire — fine, but it means the 9/10 tripwire is the one to hold; if it slips, the DE hears "adhoc" twice.
+2. **The dedup-key fix** (Eval) — small, but it's the first thing he reported, so it's the first thing he'll check.
+
+**Product feedback embedded in his questions (file for the D-4 design):** (a) the *trigger model* is illegible to a new user — what event produces output, and when; (b) *observability* — he wants to watch a run. Both are default-build-path questions, not features; the standalone service should answer them in its README on day one.
+
+**Board state in his screenshot (9/1):** Hypotheses **6** · Opportunities **3** · Rough Ideas **0**; tabs Board / List / Dashboard / Board / **Ads**; every visible card **Ads-tagged** (auction-winner logging null on 91.5% of rows; CG 213 CPC-lane-only vs RP sibling 17.9% ROAS; non-US no-ad-winner gap = candidate-quality floor, not supply; CG 283 worst $/CPU in Shopping Search, overfetch 100→50 reclaims ~3.4% recall-neutrally). **Leo read:** Reflex's live corpus is Ads-side the same week Jeff declared a Code Red in Ads (stakeholders §5 Jeff 9/2). D-3 (Ads launch) just became the timeliest box on the scoreboard — and it is already sanctioned work, distinct from the ads-side *AI-collaboration* chasing Dylan cautioned against. Don't pitch it in Jeff's forum; do make sure the Ads hypotheses have owners.
+
+**Receipt routing:** tell Dylan offhand in the next 1:1 (unchanged from 9/1) — now with the specific: *her* DE, pointed at UPP, filed a Reflex bug on his third day. Karthik's open offer to chat this week (James 9/1) — take it if he bites; Piyush stays the technical expert in the room per the 8/30 play.
+
 ## 2026-08-29 — Reflex's H2 crossables consolidated into the Exceeds scoreboard; ML-training milestone added
 
 Saturday session: the on-record H2 definition (8/25 3-way: (a) schedule + default build path · (b) attributable launches · (c) ≥1 non-P13N org launching) is now tracked as crossable boxes D-0…D-7 in `../../career/exceeds_h2_2026_campaign.md` §SCOREBOARD, mirrored in Notion "H2 milestones." Two James rulings: **Reflex competes on launch numbers, never PR counts** (attribution definition w/ Tim+Dafang = D-0, the unlock); **D-7 NEW — ML model training runs through Reflex, an explicit milestone** (ties to Tim's model-integration gap + the Dhruvil ranking-driver ask). Target launches: HF firm, Notif ideal, Ads (Janvi) = criterion (c).
