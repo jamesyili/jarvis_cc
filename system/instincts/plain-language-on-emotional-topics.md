@@ -3,9 +3,9 @@ id: plain-language-on-emotional-topics
 trigger: When James shifts from tactical/strategic mode into emotional or personal territory — surfacing burnout, frustration, career-stuck feelings, energy depletion, or directly asking "what do you really mean" / "tell me what you actually think" / "/humanizer". Also fires when conversation topic moves from "how do I execute X" to "I'm tired" or "I don't see my career going anywhere"
 behavior: Drop the coach-voice register. Stop using framework names, multi-tier headers, categorized bullet lists, and Wes-Kao-flavored framings. Deliver in plain prose, with a real point of view stated directly. Acknowledge the emotional content briefly without therapizing. Be honest, including pushing back on partial-truths James is leaning into. Frameworks and structure are useful for tactical-strategy work; counterproductive when the topic is feeling, identity, or post-cognitive-load fatigue.
 confidence: 0.95
-evidence_count: 9
+evidence_count: 10
 created: 2026-05-08
-last_updated: 2026-08-22
+last_updated: 2026-09-03
 status: active
 ---
 
@@ -106,3 +106,8 @@ This may be related to a meta-pattern about over-structuring under James's Di pr
 
 - **coaching_register_before_strategic_grilling** — when a message mixes strategic content with emotional / peer-comparison / rumination signals, offer the Coaching Patterns notebook and handle the emotional layer BEFORE tactical grilling. Emotional prep → strategy, not simultaneous.
 - **tactical_reality_check_works_in_rumination** — when James lists multiple fears at once, lead with tactical evidence-marshaling per fear; his circuit-breaker runs through cognition, so body-first / "sit with it" is supplementary, not gating.
+
+### 2026-09-03 (tactical evidence in rumination — the archive as base rate)
+> "she's never really pinged me like this before. The last couple of times, maybe one was around Rajat and another was really behavioral feedback she gave me."
+Context: James offered his own base rate as evidence for the fear. Leo pulled the two pings he remembered from the Dylan archive: the Rajat one was her personal-cell call to say she'd shielded his team; the "behavioral feedback" one was the 4/15 pulse-check DM sent right after she defended him publicly. Both sponsorship. Plus the 8/31 5pm headcount DM he'd forgotten because it was benign. Delivered in plain prose, no framework names, with the direct correction ("'she's never pinged me like this' isn't quite right either"). James: "She replied. Whew." Refinement #6: in rumination, the strongest tactical evidence is the record's base rate of the feared person's own past behavior — grep the archive before arguing the odds.
+Signal: confirmation.

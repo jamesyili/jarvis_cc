@@ -66,9 +66,10 @@ James's format rule (8/29): each item is a launch he can cross off, or a milesto
 - [ ] SSv2 #1 — RecGPT/LWS ⟨experiment TBD — Bella/Daniel name it⟩
 - [ ] SSv2 #2 — RecGPT/LWS ⟨TBD⟩
 - [ ] SSv2 #3 — RecGPT/LWS ⟨TBD — Bella's +0.4% commitment covers most of the RecGPT share⟩
-- [ ] SSv2 #4 — CLR ⟨TBD — Daniel's org⟩
+- [ ] SSv2 #4 — CLR — **candidate named (Notion H2 milestones, wk of 8/31): CLR SGI using the PBTY dataset — Devin's line** ⟨Notion shows this box *checked* as of 9/3 — candidate named, or already launched? confirm; 8/29 had it as "Daniel's org", it's James-direct CLR⟩
 - [ ] SSv2 #5 — UPP fine-tuning (= B-6, one launch counted in both views)
 - [ ] SSv2 #6 — **the Daniel-pod mandate (James, 8/29): one SSv2-moving launch from the IB/RB cluster — Felix, Yongwoo, Ling — by EOY. How is Daniel's call; the bar is the mandate. Also the reasonable bar for Balaji/IB.**
+- [ ] SSv2 #7 — **NEW (Notion, wk of 8/31): Devin — CLR UIC-condition tuning for NLFU** (`../projects/nlfu_support_2026.md` — the first CLR-side NLFU lever with a name and an owner)
 - *Upside, not counted in the six:* ⚡ ideally 1 Reflex-driven SSv2 launch (cross-fills D-2) · In-session Responsiveness launch (pending — chase the cost savings that gate it)
 
 **B. UPP launches, enumerated:**
@@ -76,7 +77,7 @@ James's format rule (8/29): each item is a launch he can cross off, or a milesto
 - [x] UPP-2 — Notif launch #2 — landed ⟨number → ledger⟩
 - [x] UPP-3 — Notif launch #3 — landed ⟨number → ledger⟩
 - [ ] UPP-4 — P2P landed + read banked (~9/19–26; Piyush)
-- [ ] UPP-5 — Notif launch #4 (WAU gains already showing)
+- [x] UPP-5 — Notif launch #4 — **launched (Notion box checked as of 9/3)** ⟨number → ledger⟩
 - [ ] UPP-6 — HF fine-tuning launched (Piyush; Dec/early Jan fine; scores as SSv2 #5)
 - [ ] UPP-7 *(milestone)* — Search A/B promising read (no landing obligation; "infra-gated" framing pre-agreed w/ Dylan)
 
@@ -87,7 +88,7 @@ James's format rule (8/29): each item is a launch he can cross off, or a milesto
 - [ ] C-4 — UIC improvement launch (dynamic, long, or hybrid UIC — driven by the UU team, Alim oversees)
 
 **D. Reflex — the full milestone set (launches + the H2 definition on record with Dylan, 8/25 3-way + the Tim thread):**
-- [ ] D-0 — "launched through Reflex" definition agreed w/ Tim + Dafang — unlocks the count
+- [x] D-0 — "launched through Reflex" definition agreed w/ Tim + Dafang — unlocks the count — **done (Notion box checked as of 9/3)** ⟨capture the definition itself + date⟩
 - [ ] D-1 — 1 Reflex-attributable launch on **HF** (firm)
 - [ ] D-2 — 1 on **Notif** (ideal; any ⚡ from section A/B can cross-fill)
 - [ ] D-3 — 1 on **Ads** (Janvi) — **criterion (c): ≥1 team outside P13N building AND launching with Reflex**
@@ -165,6 +166,8 @@ Dylan's documented trust formula is **predictability in high-stakes environments
 ## Ledger
 
 *(dated entries appended from debriefs — result, number, date, who saw it)*
+
+- **2026-09-03 — Two CLR launch candidates named this week** (from the Notion H2 milestones page; James: *"very meaningful progress actually"*): **SSv2 #4 = CLR SGI using the PBTY dataset** (Devin's line; Notion box checked) and **SSv2 #7 NEW = Devin's CLR UIC-condition tuning for NLFU.** The A-row's CLR share went from ⟨TBD⟩ on 8/29 to two named candidates in one week, both from Devin. Also crossed in Notion since 8/29: **UPP-5 Notif #4 launched** and **D-0 definition agreed.** ⟨Attach numbers/links; confirm whether the #4 checkbox means launched.⟩
 
 - **2026-08-29 — RecGPT SSv2 +0.11%** (James, Saturday session) — adds to the year's cumulative SSv2 total; part of the Track-0 "same level of metrics" clause. ⟨Attach: experiment name, readout link, who saw it — next work session.⟩
 - **2026-08-21/22 — Advocate diversification goes concrete: Rajat OH booked for Thu 9/11; Jeff OH planned Oct/Nov.** James's own move out of the Huizhong reflection — he deliberately dropped the planned Huizhong-fear opener from the David session in favor of building the sponsorships that make that outcome structurally unlikely ("build sponsorships to avoid what happened to them happening to me"). Workstream-4 material: each OH needs one artifact, not vibes — Rajat's mental anchor is Pinkerton/AI-debugging (his own 4/16 fix-loop endorsement), and 9/11 lands right as quality-aware ranking + T&S receipts are fresh.

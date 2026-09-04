@@ -8,6 +8,10 @@
 
 # Part I — 1:1 & Touchpoint Log (newest first)
 
+## 2026-09-03 — James's ruling: RecGPT is not on Alim's plate this year
+
+James (9/3 evening, T2 board session): **RecGPT (Yuke + Hanlin) stays with James through EOY** — *"there's a lot of context behind CLR and I want him to do well, so I don't want him to take on the context for RecGPT in addition to CLR."* → Alim once Yuke's case settles, if it settles well. Alim asked for RecGPT twice (8/19) and relinquished it in writing 8/20; James's reason is protective (ramp load), not a verdict on the want — if Alim asks, that is the line: CLR first, done well; RecGPT when the case is closed. Also 9/3: **Richard Wang (SWE II IC14, Toronto, starts 9/21) → Alim's line (CLR)**; Ryan → Daniel/LWS (so CLR's SWE support = Richard, Yichi); **if Balaji chooses Alim, Ling does not come with him.** Board: `reorg_july2026/scenario_boards/scenario_9_2026-09-03.json` (Alim 10; 11 with Balaji).
+
 ## 2026-08-21 — The five-week exposure run: trio → Dylan lunch → CE offsite, while Daniel is invisible
 
 Not a touchpoint — a structural read filed while working the offsite decision. **Alim's next five weeks:** Fri 8/21 trio (the bench audition) → **lunch with Dylan next week** when he visits in person (she's taking James and Alim together — her own hand on the bench mandate) → **CE Managers Offsite 9/15–17**, two nights at Asilomar with Jeff, Rajat, Kurchi and Bo Zhao.

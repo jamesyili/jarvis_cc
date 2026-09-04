@@ -40,3 +40,7 @@ Top-down leadership push for P13N to support NLFU (New Low Frequency User) growt
 - Build the **inventory of existing P13N/James-org work that already serves NLFU** (Dylan's public "can confirm" makes this a due item — her staff mtg Monday + the Caitlin follow-up meeting are the natural deadlines).
 - **Fund-or-not decision:** does James put his own headcount behind NLFU beyond the inventory?
 - **The Sen play:** connect for ML grounding + Piyush-promo feedback, against the fund-his-area-more cost.
+
+## 2026-09-03 — a CLR lever gets a name
+
+- **Devin — CLR UIC-condition tuning for NLFU** is now **A/SSv2 #7** on the Exceeds scoreboard (`../career/exceeds_h2_2026_campaign.md`; Notion H2 milestones, wk of 8/31). First James-org NLFU item with a named owner and a launch framing. The 7/25 "inventory of existing work that serves NLFU" item is still open — this is one row of it.

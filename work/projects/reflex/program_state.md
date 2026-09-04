@@ -1,5 +1,11 @@
 # Reflex — Program State, July 2026
 
+## 2026-09-03 — Promise #2 kept in two days: the dedup-key fix landed (Tim signed off); a Code Red lane arrives that will displace James's hands-on Reflex time
+
+- **Dedup-key fix (`sync_state_to_s3.py:703` vs the `jsonl_merge.py` key registration): James wrote it, Tim reviewed and signed off, landed Thu 9/3 evening.** The first thing Karthik reported is the first thing closed, inside the "this week" he was told. ⟨Was Karthik tagged as reviewer / told it's in? He should hear it from James, not find it.⟩ Receipt for Dylan: her DE filed a Reflex bug on day 3; it was fixed on day 6.
+- **James's hands-on queue (9/3, his own triage on a low-energy day):** experiment-analysis PR **halfway, parked** (next week or later); **golden-dataset labels** owed and prioritized (dictated "for Basil"; Notion: *"Give golden dataset labels for Chao"* — the Eval golden set, Janvi/Chao weekly ⟨confirm Basil = Chao's ask⟩) over his own **LR doc connector / World store** (dictated "world connector") and the **Detect-stage improvement** (Notion: *"Implement Improvements for Feedback Curator"* ⟨same item?⟩), both pushed out. Notion "[Reflex] Next steps" as of 9/3: *Fix issues called out by Kartik* ✅, *Review Janvi PR* ✅; open = labels for Chao · Prove-stage deep analysis · LR doc connector / World store · Feedback Curator improvements. He also reviewed a teammate's PR the same evening ⟨dictated "John V" then "Jamie" — same review?⟩.
+- **Why this matters for D-4 / D-6:** Dylan's **"TP Load and Impact"** (Fri 9/4 11:30, James + Dhruvil — Search free-to-paid spillover into Core; `../../people/dylan_wang_archive.md` 9/3) is a top-down Code Red lane. Leo's sizing: Level 2 of 4 — it displaces James's discretionary hands-on time, not the program. The standalone daily service (~9/16) stays **Tim's**; the 9/10 tripwire holds; JJ/Dafang drive Build. This is the 8/28 weaning theme getting its first forcing function.
+
 ## 2026-09-02 — Karthik (DE) is a Reflex *user* on day 3: README → tests → a real bug → cadence/observability questions; two promises now carry his name
 
 **Source:** group DM (Karthik Subbian + Piyush + James), 9/1 7:15 PM → 9/2 11:51 AM, screenshots filed 9/2 (verbatim in `../../people/stakeholders.md` Karthik entry). James: "Karthik is vibing hard with Reflex."

@@ -2,10 +2,10 @@
 id: separate-real-seed-from-engine-embellishment
 trigger: When James (in SELF/coaching mode) voices a fear, suspicion, or catastrophic read about a person or situation, and Leo is tempted to label the whole thing "the engine" / "creative writing" / "no evidence" to help him drop it
 behavior: Don't negate the suspicion wholesale — that's both inaccurate and it makes James correct you (he usually has a real evidentiary seed Leo doesn't know about). Instead, SPLIT it: name the documented, real seed (the part with evidence) and validate it as legitimate, then isolate only the catastrophic *specific* the engine grew on top as the unfounded part. "X is looking" (real: tip from Bowen + repeated pay complaints) vs. "X found a job and is waiting until I'm back to twist the knife" (the engine's cruel embellishment with no evidence). The engine doesn't invent fear from nothing; it takes a true seed and grows the most painful possible specific on it. Hold the seed, drop the embellishment. **EXTENSION (2026-08-14) — counterfactual questions ("would I be happier if I'd gone to X?") take the same shape, and the concession goes FIRST.** Open with what would genuinely be better about the road not taken, specifically and without hedging, *then* give the answer. Leading with the answer makes a true answer read as consolation and it bounces. James's demand — "don't give me bullshit, give me the real dope" — is a request for the concession, not for a verdict.
-confidence: 0.65
-evidence_count: 4
+confidence: 0.75
+evidence_count: 5
 created: 2026-06-23
-last_updated: 2026-08-29
+last_updated: 2026-09-03
 status: active
 ---
 
@@ -36,3 +36,7 @@ Sibling to [[catch-cognitive-override-as-engine-costume]] and [[hold-hypotheses-
 Context: morning digest of a hard 1:1; Leo led with the Bella-echo concession, then the read; James adopted it and supplied the PinSpark history that confirmed the seed.
 Signal: confirmation
 
+### 2026-09-03 (Alok vs "something I can't remember")
+> "maybe I had too rough of a conversation with Alok this morning and he went to her about it, or perhaps someone ratted on me about something I did that I can't even remember."
+Context: Leo split the two: the Alok conversation was a real seed (his own same-day read; the Dafang precedent a week earlier) worth a repair on its own terms — and the chain to Dylan's ping didn't hold (two-level skip within hours, "show you" language, she was fine waiting). The second fear was named as seedless by construction: "can't be checked, which is exactly why the engine likes it… if you'd done something bad enough to reach a director, you would remember it." James accepted both halves; the real-seed half became a concrete offer (tell me the shape, I'll say whether it needs a one-line repair). Confirmed by Dylan's reply.
+Signal: confirmation.

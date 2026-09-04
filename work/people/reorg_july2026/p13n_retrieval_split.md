@@ -186,6 +186,7 @@ Everything settled collapses this to **three charters and two receiving teams.**
 2. **Daniel must keep a bet.** LWS is an engine and RecBoards is starved, so if IB leaves he needs **GenRet** (which is both) or he becomes all-harvest.
 
 ### Roderick + Yang are free variables — NOT promises *(corrected 8/2)*
+> **9/3: Roderick's variable is resolved by his own voice — he stays with Daniel.** UEB's charter landing is the remaining question (`../team_members_scope.md` Roderick 9/3; `t2_decision_ledger.md` Entry 9/3). Yang → Alim was accepted by Dylan 9/1.
 
 **James, 8/2:** *"I haven't promised Alim anything beyond the four people. What I've told him is that there will be some changes and then we'll discuss things after that. He's been cool with it and of course he understands that his team is very junior at the moment, but I'm deliberately giving him an area to ramp up on."*
 
