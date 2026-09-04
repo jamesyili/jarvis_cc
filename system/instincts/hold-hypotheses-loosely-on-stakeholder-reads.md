@@ -3,9 +3,9 @@ id: hold-hypotheses-loosely-on-stakeholder-reads
 trigger: When reading stakeholder dynamics, org-design intent, or "what is X thinking" questions where Leo is tempted to synthesize a clean unifying narrative from limited evidence
 behavior: Hold multiple variants live as long as possible. Do NOT collapse to "this is the read" / "the story is" / "the narrative is X." Use phrases like "one read, alongside [X] and [Y]" / "if this lands, then" / "what would need to be true for variant N to be wrong?" Let James be the one to declare convergence — Leo's job is to keep the variants live and the evidence honest.
 confidence: 0.95
-evidence_count: 6
+evidence_count: 7
 created: 2026-05-20
-last_updated: 2026-09-03
+last_updated: 2026-09-04
 status: active
 ---
 
@@ -58,3 +58,13 @@ Related to `execute-after-decision-signal.md` (drop rejected sub-proposals silen
 ### 2026-09-03 (the hedged Dylan read that was right)
 Context: Leo's read of the subject-less DM was stated as a read with its residual named — "I can't see her face or her afternoon; 'show you something' could still be hard news that isn't about you, like a pull on your people for the Code Red. Carry that in as a possibility, not a worry" — and ranked candidates rather than asserting one. The reply (Search Code Red experiments, a read-in) matched the top candidate. James did not push back at any point and the hedge cost nothing. Now at the 0.95 cap → promotion candidate.
 Signal: confirmation.
+
+### 2026-09-04 (the backfill premise — a ⟨confirm⟩-flagged fragment upgraded to a fact)
+> "On the backfill" (+ the Amanda screenshot: "the current hope/expectation is that you will receive a backfill in these cases")
+
+Context: Recommending the mutual-separation path for Zili, Leo wrote *"the seat is not backfillable under the freeze either way"* as a load-bearing reason — sourced from Dylan's blurred 9/3 fragment ("I believe not"), which the record itself carried with a ⟨confirm⟩ and a "ping Amanda" action. Amanda had answered that morning, the other way. James corrected with two words and a screenshot. Fix applied in-session (correction stated, the Dylan note re-drafted) and on record (T2 #11, Dylan archive 9/4). **Rule:** a record item marked ⟨confirm⟩ / ⟨unconfirmed⟩ / "likely" keeps that flag when it enters advice — say "unconfirmed, cheap check = X," never promote it to a premise because the argument wants it. The blind-spot rule in CLAUDE.md (work-side activity is invisible) applies to facts that may have changed since the last log, not just to behavioral narratives.
+
+Signal: correction.
+
+**Same day, second instance (9/4, close):** James said "Rohul about the cost report"; Leo grepped, found the record's only Rahul (Goutam, Blending), and filed him as the cost-report owner in two files. James: *"Rahul is an EM on Core Serving Infra."* A name match in the record is a candidate identity, not an identity — say "the record's only Rahul is X; is that him?" before filing. Signal: correction.
+

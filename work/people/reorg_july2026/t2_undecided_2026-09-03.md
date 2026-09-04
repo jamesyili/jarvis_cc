@@ -29,9 +29,9 @@
 
 ## C. Mechanics / dates
 
-11. **Zili backfill** — likely none (Dylan: "you can check with Amanda Gomes, I believe not"). Ping Amanda to confirm the freeze's shape.
+11. **Zili backfill** — ~~likely none~~ **9/4: Amanda — perf cases are still expected to get a backfill under the freeze; confirmation early next week. James: mutual separation counts as a perf case (documented since July).** Dylan's "I believe not" fragment most plausibly meant "the freeze does *not* apply." If confirmed → an L14 MLE seat on LWS, i.e. a candidate answer to #1.
 12. **Devin hears the Ryan reversal from you first** — he was party to the CLR+UPP=7 agreement with Ryan full-time. Before any shared board.
-13. **Nima's day-one lane** — Mon 9/8. Record has both "CLR" (the hire) and "shadow Zihao on UPP" (8/29). Pick one before he logs in.
+13. **Nima's day-one lane** — **Tue 9/8** (Mon 9/7 is Labor Day). Record has both "CLR" (the hire) and "shadow Zihao on UPP" (8/29). Pick one before he logs in.
 14. **Richard's day-one manager + onboarding owner** — starts 9/21; same optics as Nima (hired by you, manager changes at T2 within two months).
 15. **Announcement date** — 9/14 vs the 9/21 slide (the slide was partly about the offsite, which is cancelled).
 16. **Chuxi/Kim named-lanes charter** — due before the announcement; Olafur anchor ask attached.
@@ -42,3 +42,10 @@
 - Jeff's 9/2 answers to the two-beat question (still not captured).
 - Alok: shape of Thursday's rough conversation; repair, if any, goes to Alok.
 - Karthik: told/tagged on the landed dedup fix?
+
+## 9/4 addendum
+
+- **Zili is likely exiting** (CPP shared 9/4; she asked for the mutual separation package; ER meets her ~Tue 9/8) — the Sc 9 "Zili → James (PIP case)" line resolves itself; her seat's backfill (#11) is the live question, and it feeds #1.
+- **#10 Shopping/MDD owner:** the 9/4 "TP Load and Impact" sprint produced "clarity on what to do next," run through Reflex — whether it also named the TL POC is ⟨capture⟩.
+- **Nima** starts Tue 9/8; lane ⟨settled?⟩.
+

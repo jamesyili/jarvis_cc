@@ -84,7 +84,7 @@ James's format rule (8/29): each item is a launch he can cross off, or a milesto
 **C. pUIC launches — four, Alim oversees all four (each crossed box is also Track-4 evidence):**
 - [ ] C-1 — FBL launch (collaboration with Blending — they drive, we support; JJ on analysis)
 - [ ] C-2 — pUIC launch (through Alim's team; ship bar: adoption primary, SSv2 ~neutral; framing pre-agreed w/ Dylan in Sept)
-- [ ] C-3 — pUIC launch #2 (through Alim's team — Explore module, Roderick)
+- [ ] C-3 — pUIC launch #2 (through Alim's team — Explore module, Roderick) — **9/3: the HF Exploratory Module experiment (UIC × CLR Frontier Sampling baseline) ramped — Akshatha's #p13n-all post; UEB = Roderick/Esteban/Lionel/Yichi; max ramp wk of 9/7, early read ~9/24. An experiment ramp, not a launch yet; the pUIC arms come behind it.**
 - [ ] C-4 — UIC improvement launch (dynamic, long, or hybrid UIC — driven by the UU team, Alim oversees)
 
 **D. Reflex — the full milestone set (launches + the H2 definition on record with Dylan, 8/25 3-way + the Tim thread):**
@@ -99,7 +99,7 @@ James's format rule (8/29): each item is a launch he can cross off, or a milesto
 
 **E. Org-settled sticks (the "calm org shipping" proof — concrete and countable):**
 - [ ] E-1 — Every IC has a named pod, charter, and EM by **Oct 1**; zero open placements after that date (last dominoes: Kim's RR/CLR decision 9/11 · Nima onboarded 9/8 · Rita conversion decided in Sept)
-- [ ] E-2 — Perf portfolio closed on its own dates: Yuke checkpoint resolved either way by **9/30** · Zili resolution on ER cadence · all midyear convos done
+- [ ] E-2 — Perf portfolio closed on its own dates: Yuke checkpoint resolved either way by **9/30** · Zili resolution on ER cadence — **9/4: CPP shared; she asked for the mutual separation package; ER meets her ~9/8 (closes ~4 weeks earlier than the plan path if she takes it)** · all midyear convos done
 - [ ] E-3 — **Zero ownership escalations reaching Dylan from Oct 1 on** ("who owns X?" landing on her desk = a miss; countable per 1:1)
 - [ ] E-4 — **EVS (James 8/29 — replaces the too-strict attrition stick): Curation ML brought up to James's historical average; the rest of the org maintains that average through Alim's line.** ⟨fill: the historical-average number + next survey window, from work-leo⟩
 
@@ -167,6 +167,7 @@ Dylan's documented trust formula is **predictability in high-stakes environments
 
 *(dated entries appended from debriefs — result, number, date, who saw it)*
 
+- **2026-09-04 — The Code Red lane runs through Reflex.** Dylan's "TP Load and Impact" (Search F2P → Core; James + Dhruvil) became a same-day sprint and its plan + implementation go through Reflex (James's words at sign-off). Track-4 / D-row evidence from the least James-chosen source possible ⟨content → next session; row placement TBD⟩. Same day: **E-2 moves** (Zili CPP shared → mutual separation requested), and **C-3's experiment is live** (ramped 9/3, read ~9/24).
 - **2026-09-03 — Two CLR launch candidates named this week** (from the Notion H2 milestones page; James: *"very meaningful progress actually"*): **SSv2 #4 = CLR SGI using the PBTY dataset** (Devin's line; Notion box checked) and **SSv2 #7 NEW = Devin's CLR UIC-condition tuning for NLFU.** The A-row's CLR share went from ⟨TBD⟩ on 8/29 to two named candidates in one week, both from Devin. Also crossed in Notion since 8/29: **UPP-5 Notif #4 launched** and **D-0 definition agreed.** ⟨Attach numbers/links; confirm whether the #4 checkbox means launched.⟩
 
 - **2026-08-29 — RecGPT SSv2 +0.11%** (James, Saturday session) — adds to the year's cumulative SSv2 total; part of the Track-0 "same level of metrics" clause. ⟨Attach: experiment name, readout link, who saw it — next work session.⟩

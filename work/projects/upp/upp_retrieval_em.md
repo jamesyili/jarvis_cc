@@ -4,6 +4,10 @@
 
 ---
 
+## September 4, 2026 Update — UPPv2 Retrieval Presentation (10:30, EMs + TLs across teams): Piyush ran it
+
+**Per the 8/30 play (Piyush = the staged technical expert on every deep dive), Piyush ran the show; James and Piyush aligned on that beforehand.** First UPP v2 kickoff in the record (first mentioned 9/3 in the Dylan DM thread). Content, questions, who attended, Karthik's part ⟨capture next session⟩.
+
 ## August 30, 2026 Update — Karthik Subbian (DE) lands on UPP at Dylan's direction
 
 **Karthik Subbian, Distinguished Engineer (ML), moved M10N → Core 8/29; Dylan asked him to focus on UPP and pointed him at James** (8/28 DM; ⚠️ not Kartik Paramasivam, the Chief Architect). First sync Fri 8/28 4:35pm, James + Piyush: Piyush fielded the deep technical questions to Karthik's explicit admiration ("not easy to explain ML concepts in words" — he did a great job); James delivered organized links + the UPPV2-to-Jeff heads-up. Weekend follow-up (Sat 12:14 AM): (1) why Pixie/random-walk survives in the CG mix vs. embedding-based; (2) how CG %imp sums to 100 given overlap — read as a DE forming first architectural opinions: reasons-vs-inertia probe + measurement-rigor probe.

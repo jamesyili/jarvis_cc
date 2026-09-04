@@ -2376,3 +2376,25 @@ Note also: **Faisal's own Teen-Aware doc out-scopes CQ's current teen work** ("s
 - **Receipt for the record:** *"the support I receive from you and your team members"* — an ATG DE crediting P13N Retrieval's collaboration, unprompted, in writing. Advocate-grade for the H2 Exceeds case (`../career/exceeds_h2_2026_campaign.md`); add him when the advocate list is next touched.
 
 **Watch:** who gets announced as UPP TL and how Karthik↔Jaewon is set up (co-lead vs handoff). James's posture: keep both DE channels warm, take no side on TL-ship, route technical questions by whichever DE owns the layer.
+
+# 52) Karli Wessale — Employee Relations partner on James's perf cases (added 2026-09-04)
+
+- **Role:** ER partner running the **Zili** case (and presumably Charlie's — ⟨confirm⟩). Pre-supplied the 8/26 mutual-separation language; asked James 9/4 12:59 which he prefers — *"offering her mutual separation with severance at this time or… move forward with the CPP."* Meets Zili early the week of 9/8.
+- **How she works:** fast, procedural, gives James words to use in the room and asks for the verbatim of what the employee said. Give her the notes as written (James did, 10:32).
+- **Open with her:** the package decision (Leo rec: yes, CPP as fallback), Charlie-consistency, timeline/last day, team announcement framing. Full sequence → `team_members_scope.md` Zili 9/4.
+
+# 53) Amanda Gomes — HR / headcount partner (added 2026-09-04)
+
+- **Role:** the person who processed the REQ-2 MLE→SWE switch ("I've submitted my part for the change") and answers freeze questions — Dylan pointed James to her 9/3 (*"you can check with @Amanda Gomes"*). **9/4 8:54:** perf-case exits are still *expected* to get a backfill under the freeze; "more answers early next week." Also: "happy 2 years!!" — James's Pinterest anniversary is 9/4.
+- **Register:** warm, fast (answered within the hour on a Friday), hedged honestly ("hope/expectation," "still waiting to hear"). James's reply matched it ("beacon of clarity for the past 2 years"). Dylan is in the DM.
+
+# 54) Akshatha Kommalapati — PM, HF Exploratory Module / Interest Exploration (added 2026-09-04)
+
+- **9/3 5:39 PM, #p13n-all:** announced the **[Experiment Ramp] HF Exploratory Module with UIC × CLR Frontier Sampling** — first HF exploratory-module experiment; complementary baseline to the cupcake single-pin experiment; UEB testing more aggressive pUIC jumps behind it; two arms (dynamic ranking via the module ranker; fixed slot 7, learning-only); max ramp wk of 9/7, 3–4 weeks, **early learnings ~9/24.** Thanked 16 people flat (Diana's frontend/design/UXR crew + Chuxi, Devin, Yuke, Olafur, Yan Chen, Armando); tagged leads and workstreams separately — **the UEB engineers (Roderick, Esteban, Yichi, Lionel) landed in the stakeholder tag block, not the thanks block.** Diana ("fearless and extremely thorough PM") and AJ thanked *her*; Andrew Yaroshevsky reacted.
+- **James's read:** a huge launch, backend→frontend, with the backend team changing orgs (Yan's → James's via Daniel) mid-flight. His thread reply (Leo draft 9/4) fills the engineer-credit gap without correcting her. Maps to Exceeds **C-3**.
+
+# 55) Rahul — EM, Core Serving Infra; his team owns the cost report (added 2026-09-04)
+
+- ⚠️ **Not Rahul Goutam (§35, Blending).** Leo matched the name to the only Rahul in the record and filed it wrong for ~20 minutes on 9/4; James corrected: *"Rahul is an EM on Core Serving Infra."* Surname ⟨capture⟩.
+- **9/4:** Slack message to James about the **cost report** — his team owns it; James: *"I could probably spell out details about what that looks like."* → the 9/2 cost-tool ownership gap has a non-James home; James specs, Serving Infra builds (`../projects/cost_investigation_2026.md` 9/4).
+

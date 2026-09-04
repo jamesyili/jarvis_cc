@@ -1,5 +1,11 @@
 # Reflex — Program State, July 2026
 
+## 2026-09-04 — The Code Red lane chose Reflex: "TP Load and Impact" → an all-day sprint → "leverage Reflex to put together the plan as well as implement the plan"
+
+- **James, sign-off 9/4:** *"we finally finished sprinting on this TP thing… we have clarity on what to do next… We're going to leverage Reflex to do it, actually, to put together the plan as well as implement the plan."* — Dylan's top-down Search free-to-paid / TP-load lane (9/3), the one Leo sized as the thing that would *displace* hands-on Reflex time, instead **runs through Reflex end-to-end (plan + build).** That is D-6-class evidence (Reflex as the default build path for a P13N relevance lane) arriving from the most legible possible source: a Dylan-and-Dhruvil Code Red ask, not a James-chosen demo. **Not yet on record:** the plan's content, which agents/stages (Detect → Prove → Build?), who owns it (JJ? Devin? Tim?), whether Dhruvil's side is in, and what "implement" means for the shopping-CG consolidation ⟨debrief next session; then decide whether this is a new D-row item or the D-6 milestone itself⟩.
+- **Karthik tagged on the landed dedup fix — done 9/4 AM** (closes the 9/3 ⟨confirm⟩). Promise #2 closed inside the week, and he heard it from James.
+- Hands-on queue unchanged from 9/3 (golden-dataset labels for Chao owed; experiment-analysis PR parked). The 9/10 D-4 tripwire holds; Tim's.
+
 ## 2026-09-03 — Promise #2 kept in two days: the dedup-key fix landed (Tim signed off); a Code Red lane arrives that will displace James's hands-on Reflex time
 
 - **Dedup-key fix (`sync_state_to_s3.py:703` vs the `jsonl_merge.py` key registration): James wrote it, Tim reviewed and signed off, landed Thu 9/3 evening.** The first thing Karthik reported is the first thing closed, inside the "this week" he was told. ⟨Was Karthik tagged as reviewer / told it's in? He should hear it from James, not find it.⟩ Receipt for Dylan: her DE filed a Reflex bug on day 3; it was fixed on day 6.

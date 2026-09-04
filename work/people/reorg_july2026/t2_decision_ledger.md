@@ -19,6 +19,12 @@
 
 ---
 
+## Entry 2026-09-04 (Fri, remote session) — Zili: CPP shared, mutual separation requested; backfill expected for perf cases
+
+- **Zili (James's line, Sc 9 "PIP case"):** CPP + 4-week milestones shared in the 10:00 1:1; she declined engagement and asked for the mutual separation package ASAP; Karli (ER) meets her ~Tue 9/8; Leo rec = offer it (CPP stays as fallback). If she takes it, the "Zili → James" line on the board closes by itself.
+- **Backfill:** Amanda 9/4 — perf-case exits are expected to get a backfill under the freeze (confirmation next week). **James ruled the mutual separation counts as a perf case** (documentation trail since July). Supersedes 9/3 "likely none." → a possible LWS MLE seat = a candidate for the fifth-MLE question (#1).
+- Nothing else on the board moved. "TP Load and Impact" (#10) ran through Reflex all afternoon — TL POC ⟨capture⟩.
+
 ## Entry 2026-09-01 (Tue, remote session) — Dylan ratified the structure; her four clicks; Yang → Alim accepted; 🔒 freeze
 
 **RATIFIED (Dylan, structure 1:1, her words):** *"Overall, glad for focus under each manager and thank you for leading the discussions. This looks good to me."* The shape shown was the 8/29 work-side Org Setup summary (areas + rough people). Nothing in the DECIDED spine below was challenged. Full 1:1 record → `../dylan_wang_archive.md` 9/1.

@@ -13,6 +13,7 @@ You are Leo working James's actual to-do list, which lives in a Notion database.
 ```bash
 python3 scripts/notion_pull_todo.py            # read: open items + sub-lists
 python3 scripts/notion_pull_todo.py --flat     # read: top-level only
+# NOTE (9/4): the pull is NOT cached — "you already have yesterday's list" is never true in a new session; re-run it (~20 s without --all)
 # NOTE (9/3): --all fetches every page body and can exceed 90 s — run it once with a long timeout, redirect to the scratchpad, and grep the file; a second run may rate-limit
 python3 scripts/notion_todo_update.py …        # write: see below
 ```
