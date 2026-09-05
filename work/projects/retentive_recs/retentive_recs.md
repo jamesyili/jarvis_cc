@@ -7,6 +7,10 @@
 
 ## Program Status — August 2026 Update (2026-08-22, from #puic-collab screenshots + Yidi's design doc)
 
+### 2026-09-04 — Anna promoted to Principal PM (the only one at Pinterest)
+
+- The RR product co-owner was promoted to **Principal PM** — James: "the only such level PM in all of Pinterest." Product-org validation of the Pinner Progression line at the top IC altitude on the PM ladder. The DM exchange and the read: `../../people/stakeholders.md` §2 (9/4). Program implication: the ~9/24 pUIC readout and blog Part 2 are the first RR artifacts she carries at the new level — prep accordingly (invisible support).
+
 ### 2026-08-27 — the RR focus-areas snapshot (from the 8/26 Alim hour) + the transfer: Alim drives it at the Mon 8/31 Slumber Party
 
 **What happened:** the in-person hour Wed 8/26 covered RR ("great chat on RR yesterday" — James, Slack 8/27 3:01 PM). James wrote the discussion up as a one-screen snapshot and handed it to Alim to (a) fill in the details by the Monday sync, no rush, and (b) **bring it up himself with Anna + Krystal at the next Slumber Party sync (Mon 8/31 9:45 — the "Align RR priorities" slot)**. Alim: "I'd love to bring that up" → "ok thanks! I can work on that" (6:43 PM).
