@@ -103,6 +103,52 @@ When you pass the deep research, I'll merge it against this, mark where it agree
 
 **Owed next session:** the seams map (external owners, Dylan/Jeff priorities, seam risks) and the adversarial verification of the five leader picks — re-run the workflow trimmed to what a 2-agent box finishes (resume id and script are in the session log).
 
+### 2026-09-06 — LLM-scaling research filed and judged; the seams map; final bet order; the leader slate (Leo, unratified; adversarial verification results appended below as they land)
+
+**Filed:** `llm_scaling_research_synthesis_2026-09-06.md` (James's second deep-research synthesis, verbatim) and `personalization_retrieval_org_2027/map_seams_2026-09-06.md` (the fourth map, completing the 9/5 set).
+
+**1. The LLM-scaling research, judged for a retrieval org.** James asked for discretion on relevance. Roughly a third is directly actionable; the rest is background.
+- *Directly actionable → bet 1.* The serving primitives map one-to-one: user-state/prefix KV caching (its own #1 intersection), prefill/decode disaggregation, FP8/INT4 + KV quantization, speculative decoding/MTP for SID beam search. One detail matters: **UBR already runs the viewer tower on GPU and the pin tower on CPU** (`upp/upp_retrieval_assessment.md` §deploy path) — that *is* the prefill/decode split, so lane 1 starts from a structure we own, not a paper. LWS's Unified Tower + TransAct on GPU is the natural first KV-caching prototype (the research's own Stage-1 test: cache-hit rate >50% on session candidates).
+- *Sharpens bet 2.* The Chinchilla inversion: recsys is data-rich and compute-starved, so the scaling question is how to convert unlimited interaction data into compute-absorbing architecture, and **the embedding-vs-dense compute allocation is the recsys-specific scaling question with no LLM analog.** That is the x-axis the retrieval scaling study should vary. MoE is the way to add capacity without serving FLOPs; overtraining-like regimes are the default, not a deviation. µP-style hyperparameter transfer makes the small-to-large sweep cheaper.
+- *One genuinely new idea, reframed.* The FineWeb-Edu lesson (a cheap quality classifier beat 10× the raw data at fixed compute) applied to interaction logs. For retrieval this is an extension of work the org already does — the unimpressed dataset, Yidi's label redefinition, Hedi's pairwise-distillation blocking — so it is a cheap ablation on an existing track, not a lane.
+- *The metric for the compute-budget artifact:* **model FLOPs utilization.** OneRec reports 24–29% against <5% for a classic cascade; top LLM runs reach ~40%. Instrumenting MFU on our GPU serving and training is how the GPU-hours allocation becomes a number rather than a spreadsheet.
+- *Background for us, not lanes:* FP8 training, DualPipe, reliability-at-scale (only matter if a teacher gets to 1B+, and ATG owns that leg); RLHF→DPO→RLVR, test-time compute, "thinking" recommenders (ranking's and Reflex's territory, not a ~10 ms retrieval budget; OneRec's DPO lift is a ranking-surface result); foundation-model unification (strategic, not 2027).
+- *Two disanalogies it names that we should carry:* item corpora change daily, so the SID space must be continually re-minted (that is exactly the codebook-stability SLA in bet 4, and the strongest argument for the dense-fallback hybrid); and 10–100 ms at 10^5+ QPS means constrained beam search, caching, and sparsity are the levers, never raw model size.
+- *Its own caveats hold:* DeepSeek's margins are theoretical, vendor multipliers are best cases, and only DPO-in-OneRec, HSTU/Wukong scaling laws, 360Brew, and LLM content features are production-proven transfers.
+
+**2. What the seams map changed.**
+- **Lane 1 is the only lane with a stated executive priority behind it** (Jeff 7/22: AI/GPU usage down, cost tracking; Core ~$5M/yr over, >$1.8M under Dylan). Neither Dylan nor Jeff has said anything about scaling laws, curves, or research arms. Dylan went skeptical-technical on RecGPT as L1/L0 on 8/24. That settles the order and the framing: the agenda is presented as cost and capability, never as research.
+- **Correction to v0 and to my own phrasing:** "as few models as possible" does not appear in the repo. The real direction is Dylan's CG consolidation (heuristic CG sunset 9/1; three CLR corpora as one CG; five shopping CGs → two) and Jaewon's naming doctrine (8/22). Same wind, different words. **Matthew Lawhon reports to Dhruvil, not ATG** (stale line corrected; `l1_flashpoint_2026-08.md` 8/22).
+- **Lanes 2 and 3 cannot be led internally.** The fixed-fine-tune-compute framing is the CFM group's central question; a retrieval curve published without Lawhon or Jaewon as co-author reads as a race (the OneTrans pattern, pointed at us). The tokenizer SLAs run through ATG and Dinesh; joint artifact or land grab.
+- **Lane 4's written L1 exit criterion lands on the August flashpoint.** Yali as single L1 POC plus a unilateral criterion is the shape that reopened it; co-sign with Dhruvil under the relay-race doctrine.
+- Allies unchanged: Roberto's Jeff door (feed him the half-page on what GPU serving unblocks), ML Day chair and theme as the external legibility vehicle, Anna at Principal, Jaewon's DE, Dinesh considering Q4 UPP funding.
+
+**3. Final bet order (supersedes v0's numbering; the diff map's order, confirmed by the LLM research):**
+1. Bend the serving-cost curve for long sequences (KV/user-state caching in LWS + UBR viewer tower; quantization; the CPU-host bottleneck; MFU instrumented).
+2. Retrieval offline→online calibration — extend Hedi's L1 offline-replay method to retrieval recall@K; closes UPP gap #4; gates everything below.
+3. The retrieval scaling curve under fixed FT compute, with embedding-vs-dense allocation as an axis — **co-authored with the CFM group from day one.**
+4. Semantic-ID tokenizer as a platform service with the four SLAs, RecGPT as the dense-fallback hybrid nominator it already is — **joint artifact with ATG.**
+5. Write the L1 exit criterion — inside Daniel's LWS×UPP recommendation, co-signed with Dhruvil.
+6. Scale the teacher — ATG's Next-Gen Teacher owns it; our slice is Bella's H2 distillation criterion. Do not build a second teacher.
+7. LLMs as offline annotators (LLM-pUIC under the NLFU frame) — lowest; RR prioritization sits with Alim/Anna/Krystal.
+- Cheap ablation on an existing track: interaction-log quality filtering/reweighting (the FineWeb lesson) on one LWS or UBR training slice.
+
+**4. Who leads the charge — the slate (Leo; refute pass running, results in §6).**
+- **Lane 1, serving-cost curve.** JJ owns the architecture and the exec story now (cost line, ISR caching paradigm, Roberto's half-page for Jeff). **Balaji** becomes the hands-on lane TL from ~Oct, landing in LWS after the IB gains-origin gate — which also answers his open LWS-vs-CLR placement with "a project that doesn't change on him." Yali (LWS GPU serving) and Devin (CLR GPU serving) own their engines; Hanlin's GQA/batch-size work and Yidi's quantization debugging as hands. EM sponsor: Daniel. Off plates: JJ drops the Shopping/MDD POC candidacy and the RR feedback-loop analysis; Balaji drops IB at the gate. Runner-up as TL: JJ himself, if Reflex Build actually folds into Shifu.
+- **Lane 2, calibration then curve.** **Hedi** leads the calibration extension (his method, his paper) as the gate. **Piyush** leads the scaling-study design and the seam — Lawhon or Jaewon named co-author before anything is written; **Zihao** runs it; **Nima** shadows Zihao on UPP pretraining as third hands (the Tuesday decision; also the only hedge left for the Piyush SPOF under the freeze). EM sponsor: Alim. Runner-up for the curve: Devin (CLR FM + 16k sequence).
+- **Lane 3, tokenizer as platform.** **Hanlin** as day-to-day owner (HF-RecGPT production owner, Faiss→Manas migration, the 150-sizer transfer, the ML Symposium talk; the most stable of the three RecGPT people), with Jaewon/ATG as co-owner so the SLAs are joint. Bella remains RecGPT modeling TL of record; Chuxi's 2-in-1 design is a consumer, not an owner. James holds the seat through EOY per the 9/3 ruling; the SLA doc is the Q1 handoff artifact to Alim once Yuke's case settles.
+- **Lane 4, logging + eval + exit criterion.** **Alok** owns candidate logging at retrieval/L1 (extends his full-funnel logging; live thread with Karthik; one scoped deliverable, which is how he works best and what his promo case lacks). Hedi owns the calibration method (shared with lane 2). **Daniel** writes the L1 exit criterion inside his assigned LWS×UPP recommendation after ~9/21, co-signed with Dhruvil — and that is his written thing James didn't write. Kim Toy owns a quality/evaluation flywheel only if she picks RR by 9/11; not pre-assigned. JJ succeeds James on the Reflex eval thread by ~Nov (agent eval, a different thing). EM sponsor: Daniel.
+- **Lane 5, the arm.** **James holds the seat through Q4:** sets the compute budget (the GPU-hours artifact recast from the cost investigation, MFU as its unit), chairs one monthly cross-lane review, owns the curves. **Piyush** is the technical lead-in-waiting (Dylan 8/19: the only one who can be in the room when she isn't; the IC17 case), with the scaling-study seam memo as his first arm-level artifact. **EM sponsorship splits by lane:** Alim sponsors 2 and 3 (bets), Daniel sponsors 1 and 4 (engines) — "bets lean Alim, engines lean Daniel." End-of-September written things: Alim = the filled-in RR focus-areas snapshot (assigned 8/27), with the scaling-study charter as his Q4 artifact; Daniel = the LWS×UPP recommendation carrying the exit criterion. External legibility comes from the ML Day chair and theme, not a title.
+
+**5. This week (Leo rec, unratified; cheap first).**
+- **Tue 9/8, Nima's lane:** UPP pretraining under Zihao, not CLR. Cost named honestly: CLR loses the senior hire it was designed around and Alim's operating model still wants a pushback TL; Richard (9/21) and Yichi are CLR's bodies. The agenda's scaling lane and the Piyush SPOF both argue for UPP.
+- Ask Hedi whether offline replay extends to retrieval recall@K (one conversation, after his oncall week).
+- Ask Yali, when he is back 9/18, whether the L1 one-pager can carry an exit-criterion line — then hand the line to Daniel's recommendation, not Yali's doc.
+- Feed Roberto the half-page on what GPU serving unblocks (lane 1's exec story) — the ammo agreed 8/14 and still owed.
+- Nothing else. Zili/Karli Tue, Bella re-entry ~9/8, Daniel dark to 9/21.
+
+**6. Verification results.** *(pending — refute pass running; to be appended.)*
+
 ## Related
 
 - `upp/cfm_technical.md` §6 (CFM model scaling, in-flight) · `upp/upp_retrieval_assessment.md` §What's Missing · `upp/ubr_design.md`
@@ -110,4 +156,6 @@ When you pass the deep research, I'll merge it against this, mark where it agree
 - `reflex/program_state.md` · `reflex/eval/`
 - `cost_investigation_2026.md`
 - `../career/compounding_assets.md` (#1 ML Day theme, #2 Reflex eval as a standard)
+- `retrieval_preranking_research_synthesis_2026-09-05.md` · `llm_scaling_research_synthesis_2026-09-06.md` (James's two deep-research syntheses, verbatim)
+- `personalization_retrieval_org_2027/` (the four maps: roster, investments, research diff — 9/5; seams — 9/6)
 - KB: `kb/hard/wiki/llm-recsys.md`, `kb/hard/wiki/generative-recommendation.md`, `kb/hard/raw/louis-wang/` (HSTU/OneRec/PLUM in production; TurboQuant), `kb/hard/raw/arxiv/evorec-self-evolving-agentic-recommender-systems.md`
