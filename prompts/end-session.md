@@ -28,7 +28,7 @@ Write a new session log file in `system/session-logs/`:
    - **Decisions:** (ratified-only, per Phase 1)
    - **Open:** (if any)
    - **Next time:** (specific, actionable — Leo-session work only)
-3. Keep the `system/session-logs/` directory to ~20 files max. Delete oldest if needed.
+3. Preserve existing logs. Retention cleanup is a separate task, not an automatic part of session closeout.
 
 > **Backlog reconciliation retired 2026-08-09.** The live to-do list is Notion (pull: `python3 scripts/notion_pull_todo.py`; write: `python3 scripts/notion_todo_update.py`); `backlog.md` is a frozen stub. Push list changes to Notion only when the session actually changed items AND James asked for list updates — there is no automatic end-session sync.
 
@@ -104,7 +104,7 @@ After all writing phases, commit everything from the session:
 1. Run `git status` to review what's being committed. **Check for another live session's work first (hit 2026-08-14).** Multiple sessions can run concurrently on the same machine. `git add -A` sweeps *everything* in the tree, so one session will commit another's in-flight files under its own message. **Directory-scoped adds are not safe either** — `git add -- work/projects/foo/` still picks up deletions and edits inside that directory that you didn't make (hit 2026-08-15, mid-session). When any other session may be live, scope to explicit FILE paths. Nothing is lost, but history becomes misattributed. If `git status` shows files clearly outside this session's scope, commit them separately with an honest message, or leave them and say so in the wrap-up.
 2. Mark any in-progress or completed tasks in the task list as done.
 3. Write a concise commit message summarizing the session's work (not just "end session" — capture what was actually done).
-4. `git add -A`, commit, and push to remote. If the push is rejected because the remote moved, pull with rebase, resolve any same-day session-log collision by moving this session's log to the next letter suffix, and push again.
+4. Stage the reviewed session files with `git add -- <explicit file paths>`, commit, and push to remote. Use `git add -A` only when every pending change is confirmed as this session's work. If the push is rejected because the remote moved, pull with rebase, resolve any same-day session-log collision by moving this session's log to the next letter suffix, stage only the resolved file paths, and push again.
 
 ## Rules
 

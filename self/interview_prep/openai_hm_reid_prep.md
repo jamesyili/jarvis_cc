@@ -1,5 +1,7 @@
 # OpenAI — Reid (Hiring Manager) 30-min Chat — Prep
 
+> **Evidence correction, 2026-09-05:** Read the dated interview-history clarification at the end before interpreting the rejection or reusing this prep's diagnoses. Earlier statements about why Reid said no, and about James's "known" Anthropic failure mode, are Leo hypotheses, not employer feedback. The Anthropic PDF is a two-page scratchpad, not a transcript.
+
 **What it is:** 30-minute conversation with Reid Gustin, the hiring manager for the Integrity Foundations ML EM seat. Coralynn's framing: *"not an interview per se"* — but he'll go into **a lot more technical depth than the recruiter call**, he's the **source of truth on roadmap and the hard problems**, he'll share the team shape + the 30-60-90 for the seat, and he'll ask about your experience. It's a **mutual-fit gate**: pass it (both directions, green lights) and you move into the formal loop.
 
 **Coralynn's read on him:** *"He's wonderful — probably one of my favorite hiring partners at OpenAI."* So: a real practitioner, mission-serious, the kind of HM a good recruiter protects. Walk in expecting a peer, not a gatekeeper.
@@ -202,3 +204,53 @@ You're a Sr EM with active executive sponsorship at a $30B+ consumer-ML company 
 - **The person:** deep ML expertise in *one* area; **facile** (not expert) understanding of adjacent areas + ability to ramp fast (his example: multimodal embeddings — follow the conversation, learn, give good leadership feedback, decide if it's the right tool). Same on the systems side — enough to give good feedback, not the deepest expert on every system. **Humility to ask questions** when he doesn't know. ("In a codex world, more systems show up all the time.")
 
 **If James ever circles a frontier-lab integrity seat again:** this map is the prep. The lesson for next time is operational, not existential — *don't take a high-stakes interview you won't prep as a craft.* Half-in costs the sting without buying the upside.
+
+---
+
+## Interview history clarified by James — 2026-09-05
+
+**Source:** James's direct account in this session. Approximate dates remain approximate. This clarification supersedes earlier causal interpretations; it does not replace the historical prep or invent employer feedback.
+
+### OpenAI, approximately April or May 2024
+
+- Passed recruiter and hiring-manager rounds; did not pass system design.
+- James recalls explicit feedback that there was not enough technical depth and the interviewer could not get into depth on the topics.
+- The question was something like search or ranking; exact prompt is not recalled. James says he did not study or prepare and felt overwhelmed by the amount he did not know at the time.
+- This is a distinct interview from the June 2026 Reid conversation. It was not in 2023. Do not use the earlier financial counterfactual's assumed 2023 entry date as James's actual opportunity date.
+
+### Anthropic Safety Classifiers EM, approximately May 2025
+
+- James explicitly says: "I prepared hard and I did my best." Do not describe this as another unprepared or half-pursued attempt.
+- Passed the hiring-manager round. James reports that the management round also went very well; that assessment is his, not a documented scorecard.
+- System design concerned preventing weapon-building assistance from an LLM API. An IC probed deeply. James thought his answers might be sufficient but felt he was grasping at what the interviewer wanted and could not identify what was missing.
+- James attributes the unsuccessful loop to system design, but reports no explanatory employer feedback establishing the reason or exact round verdict.
+- Supporting artifact: `failed_anthropic_system_design.pdf`, inspected 2026-09-05. Two pages of collaborative scratchpad notes: requirements, input/output classifiers, model options, data sourcing, metrics, and a substitution-cipher challenge. It is **not a full transcript**. Missing reasoning or an unwritten answer is not proof that James failed to supply it aloud. Earlier "breadth-first / abstract under pressure / cut off mid-resolution" diagnoses are hypotheses to test, not established facts.
+
+### OpenAI / Reid, June 2026
+
+- Did not advance beyond the hiring-manager conversation. James recalls high-level, generic questions, not understanding what Reid wanted, and feeling that Reid had already made up his mind.
+- The rejection still stings. "What did I say that pissed you off or what didn't I say that you wanted to hear?" expresses James's uncertainty, not evidence that Reid was annoyed or had prejudged him.
+- The earlier contemporaneous account recorded postponement, jet lag and limited preparation. These are context, not a proven explanation of the rejection. Likewise, warm closing remarks do not establish a positive assessment.
+- The August report that Reid was still hiring weakened the prior seat-filled explanation. It did **not** establish overqualification, flight risk, poor performance, or another specific cause. Those remain unverified possibilities.
+
+### Implications for future Leo work
+
+- Keep these three experiences distinct: acknowledged underpreparation with recalled depth feedback; substantial preparation with an unclear technical outcome; an opaque hiring-manager rejection. There is no evidence for one explanation covering all three.
+- James reports regret about missed financial upside, an ego sting at not belonging to either lab, and continued desire to join for both financial and status reasons. Do not reduce this account to lack of effort or treat the desire as proof that a move is right or wrong.
+- For a useful diagnostic, reconstruct a specific question, James's answer, and the next follow-up. Separate knowledge, reasoning, communication and role-fit hypotheses; use calibrated mock feedback to test them. Do not claim access to either employer's hidden rubric or scorecard.
+- No new recruiting timetable, preparation commitment or exit decision was made in this clarification.
+
+### Evaluator-sourcing correction — 2026-09-05
+
+- **Shivani Rao: do not recommend as James's ML coach or evaluator.** James reports firsthand that she wanted to become a manager under him, that he rejected her because of performance issues, and that he assessed her ML knowledge as inadequate. This is James's account of his evaluation, not an independently verified public finding.
+- Leo had surfaced her paid-coaching profile based on advertised ML leadership, interview counts and services. James's correction demonstrates that those signals did not establish the technical competence needed for this task. Calling the candidates "worth screening" did not solve his stated difficulty finding qualified evaluators; it transferred the vetting burden back to him.
+- The other marketplace candidate, Tejash T., remains unverified, not an endorsed alternative. No evidence from this correction establishes his competence or lack of competence.
+- For this search, require evidence of technical reasoning James can inspect or a specific recommendation from someone whose technical judgment he trusts. Titles, logos, interview counts, testimonials and company-targeted landing pages are discovery leads, not proof of evaluator quality or familiarity with a frontier-lab EM bar.
+- Do not respond by substituting another profile-only recommendation, treating all paid coaches as incapable, or claiming Leo can certify frontier-lab interview readiness. No coach was booked or contacted.
+
+### Preparation and current interview access — 2026-09-05
+
+- James reports no interview requests currently and asks whether he should prepare before receiving them, and whether more opportunities will come. How the earlier three opportunities originated (inbound recruiter, referral or application) remains unanswered.
+- James explicitly asked Leo to act as the demanding practice interviewer/evaluator and first research source websites plus human-mock providers. The requested [single directory](interview_sources_and_mock_providers.md) is complete; no mock, paid booking or new recurring cadence has been initiated.
+- Leo recommended sustained preparation before an invitation, tied to the existing learning agenda, with interview access addressed separately through role fit and visible evidence of relevant work. Future interviews were described as plausible based on James's prior access, not guaranteed. This is advice, not a ratified job-search plan or change to the existing timetable.
+- Anthropic's [official hiring FAQ](https://www.anthropic.com/careers), checked 2026-09-05, welcomes reapplications after 12 months or sooner with materially changed skills/experience. Based on James's approximate May 2025 date, that interval has elapsed. Eligibility to reapply does not imply an interview invitation; no corresponding OpenAI cooldown rule was established.

@@ -1,0 +1,30 @@
+{
+  "description": "Leo lifecycle hooks shared with Claude where the behavior is portable.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/hooks/session-start.sh\"",
+            "statusMessage": "Loading Leo session context",
+            "additionalContextLimit": 16000
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/hooks/pre-compact.sh\"",
+            "statusMessage": "Saving Leo compaction context",
+            "additionalContextLimit": 1200
+          }
+        ]
+      }
+    ]
+  }
+}

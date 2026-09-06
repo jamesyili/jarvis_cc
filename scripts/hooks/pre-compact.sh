@@ -3,7 +3,8 @@
 # 1. Logs the compaction event for tracking
 # 2. Outputs a recovery instruction that survives compaction
 
-COMPACT_LOG="/home/james/src/leo/system/compaction-log.md"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+COMPACT_LOG="$REPO_ROOT/system/compaction-log.md"
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
 
 # Log the compaction event

@@ -10,9 +10,9 @@ The operating runbook. Interpreter matters — wrong python = ModuleNotFoundErro
 ## Session lifecycle
 
 1. **SessionStart hook fires automatically**: git sync (clean tree only, ff-only, 20s timeout) → injects `system/instincts/INDEX.md` → injects last 2 session logs. If that block is missing from context, the hook failed — triage before proceeding.
-2. **/start-session**: reads latest 2 logs + `backlog.md`, grills for alignment. Non-Claude tools: follow `prompts/start-session.md`.
+2. **/start-session**: read the latest 2 logs, load task-relevant context, then act on James's request; no alignment questions by default. Non-Claude tools: follow `prompts/start-session.md`.
 3. **Work**, honoring instincts (INDEX is in context; read the full instinct file when one applies).
-4. **/end-session** (or `prompts/end-session.md`): grill for capture → write the session log → **commit AND push (mandatory — even if the log is skipped)** → self-improvement pass → instinct extraction → /context-update.
+4. **/end-session** (or `prompts/end-session.md`): capture without confirmation questions → check local/remote same-day log collisions → write the log → context update → self-improvement → instinct extraction → review ownership, stage explicit session files, **commit AND push LAST**. Verify the push landed, even when the log is skipped. Preserve existing logs; no automatic retention deletion.
 
 **Session log spec** (`system/session-logs/YYYY-MM-DD.md`; multi-segment days append `b`, `c`):
 
@@ -24,7 +24,7 @@ The operating runbook. Interpreter matters — wrong python = ModuleNotFoundErro
 **Next time:** specific and actionable
 ```
 
-Skip the log for trivial sessions. Standing upkeep every session: update `backlog.md` when anything trackable surfaces; bump `system/file_index.md` timestamps on context-file edits; add an INDEX line for any new instinct.
+Skip the log for trivial sessions. `backlog.md` is retired; Notion is the live task list. End-session does not automatically sync it: apply list changes only when the session changed items and James asked for list updates. Bump `system/file_index.md` timestamps on context-file edits and add an INDEX line for any new instinct.
 
 ## KB operations
 

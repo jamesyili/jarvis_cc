@@ -1,6 +1,6 @@
 # goals.md
 
-Last Updated: 2026-08-29
+Last Updated: 2026-09-05
 
 > **Structure — three layers:**
 > **I. Foundation** — the ground I stand on (ongoing, built through daily reps, scored yes/no).
@@ -100,7 +100,7 @@ Behavior, not advocates. Short, decisive, option-oriented; low reactivity; trust
 ## Interview optionality — a real branch (parallel path)
 Not a hedge. The frontier-lab EM arm of the litmus test, and a genuine parallel path. **Reframed 2026-07-11:** the two dreams (frontier lab later / Director here) are an optionality portfolio, not a fork — they share ~90% of next moves for 6–12 months, because labs hire senior applied-AI EMs on evidence of running AI-heavy orgs well. No live choice exists today; the work is keeping A openable while executing B.
 - **The strategy is a trust ledger, not a network map.** Leadership hires at frontier labs are trust-routed and stay that way — leaders pull in people they've already survived something with. Banked: Dylan, Andrew (wrote post-Pinterest support unprompted). Building, through work already on my plate: **Darren** (live Pinkerton surface; infra Directors = prime lab-recruitment profile), **Faisal** (Q3 advocate convo, dual payload; KDD currency), **Kartik** (the one deliberate add — post-reorg architecture touchpoint, systems not narrative), **Rajat** (trust = the Director case itself). Plus the alumni channel (Jinfeng, Jiacong — know where they land) and day-one help for arriving leaders (Michael, PM Director, 7/13). Cold networking dropped.
-- **Learning anchor = evals/verification for agentic systems** — learned by building (Reflex sessions double as study), written up publicly (eval-harness post = blog Tech #1). The fundamentals corpus demotes to reference material, refreshed 2–3 weeks out when a real loop is scheduled (May proved that cadence works).
+- **Learning anchor (clarified 2026-09-05): recommendation systems × retrieval × language models × scaling**, with Reflex/evals as a connected application. Build genuine technical depth day by day and week by week through the existing [learning agenda](learning/learning_agenda.md), including the fundamentals needed to reason independently. Interview readiness at OpenAI, Anthropic, and other frontier labs is an explicit purpose of this sustained learning: the depth should show in explanations and answers under questioning. This is not a decision to start interviewing now; focused interview rehearsal remains a separate scheduling choice.
 - **Influence:** frontier-lab readiness when the right opportunity appears — arriving warm through someone's ledger, not cold through a feed.
 
 ## Concrete health targets (from `health.md`)
@@ -120,6 +120,8 @@ Engineers more capable because of AI, not more dependent. Real fluency in agenti
 
 ## C. Strategic ownership of the recommendations + AI-core platform
 Own the substrate that the surfaces consume — recs-ML + AI-core platform direction — at the strategic level.
+
+**Capability-building clarification (James, 2026-09-05):** develop the organization toward the intersection of recommendation systems, retrieval, language models, and scaling. James's assessment: the team is good, but does not yet have the technical firepower he wants in that intersection. Build particular team members, technical agendas, and real work toward that capability while developing his own knowledge alongside them. Leo should help connect personal learning, team development, and technical direction over time. Specific capability gaps, people, and investments still need to be worked through; no new assignments or staffing decisions were made here.
 
 ## D. The kind of father, partner, and person I'm becoming
 A father whose kids feel enough apart from achievement — especially Evelyn, who mirrors me, and Ethan, who is never ranked against his sister. A steady, patient base at home. A real partner to Fan. Someone who has stopped needing to be the hero: present, not performing. → [family.md](family.md)

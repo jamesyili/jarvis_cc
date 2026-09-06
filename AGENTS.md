@@ -4,6 +4,8 @@ This file is the **tool-neutral entry point** for any agentic tool working in th
 
 Tool-specific extensions live alongside:
 - **`CLAUDE.md`** — Claude Code extensions: slash-command skill registry, custom agents (Karen / Code Planner / Search / Consult-Notebook), settings.json hooks, file-based memory system.
+- **`.agents/skills`** — Codex skill discovery path, symlinked to `.claude/skills` so the workflows have one canonical source.
+- **`.codex/`** — Codex project configuration: the local NotebookLM MCP connection, custom-agent configurations, and portable lifecycle hooks.
 - **`GEMINI.md`** — symlink to this file.
 - **`prompts/`** — workflow recipes (`start-session`, `end-session`, `prep`, `draft-email`, `debrief`) flattened into tool-neutral prose for tools without a registered-command system. Read the matching file when the user requests that workflow by name.
 
@@ -141,7 +143,7 @@ system/                 # Everything Leo-internal: meta, memory, infra, outputs
 ├── karen_observations.md   adversarial-advisor longitudinal pattern tracking
 └── leo-overview.md         Leo system self-description
 
-# Root files: AGENTS.md (base context), CLAUDE.md (Claude Code extensions), GEMINI.md,
+# Root files: AGENTS.md (base context), CLAUDE.md (Claude Code extensions), `.agents/` + `.codex/` (Codex integration), GEMINI.md,
 #   backlog.md (RETIRED 2026-08-09 → redirect stub; live to-do list = Notion, archive in system/),
 #   inbox → Google Drive "Leo Inbox" symlink (gitignored; ls only, never read bodies)
 ```

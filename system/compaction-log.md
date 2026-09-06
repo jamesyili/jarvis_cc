@@ -14,3 +14,5 @@ Tracks context compaction events for debugging context loss.
 - 2026-05-02 20:50:33 — compaction triggered
 - 2026-05-23 18:43:30 — compaction triggered
 - 2026-09-01 20:04:34 — compaction triggered
+- 2026-09-05 19:22:05 — compaction triggered
+- 2026-09-05 19:54:45 — compaction triggered

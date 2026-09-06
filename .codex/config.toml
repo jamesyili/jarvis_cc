@@ -1,0 +1,5 @@
+# Project-scoped live research integration. The server reads its existing local
+# NotebookLM authentication state; credentials are intentionally not copied here.
+[mcp_servers.notebooklm]
+command = "notebooklm-mcp"
+startup_timeout_sec = 20
