@@ -64,6 +64,45 @@ When you pass the deep research, I'll merge it against this, mark where it agree
 
 *(Dated entries, newest at the bottom. Add here as the conversation continues.)*
 
+### 2026-09-05 (evening) — research filed, three maps built, preliminary read on who leads (Leo, unratified; adversarial verification NOT run)
+
+**What happened.** James passed the deep-research synthesis; it is filed verbatim at `retrieval_preranking_research_synthesis_2026-09-05.md`. Leo launched a multi-agent analysis (roster/strengths → investments → research-vs-agenda diff → seams → per-lane leader candidates → adversarial verification → memo). The remote box caps the run at 2 agents at a time and the subscription hit its session limit partway: **three of four maps completed; the seams map, the five lane-candidate agents, the portfolio agent, and the synthesis did not run.** The completed maps are saved as JSON under `personalization_retrieval_org_2027/` (`map_roster_2026-09-05.json` — 34 people; `map_investments_2026-09-05.json` — 17 workstreams with keep/pivot/stop calls; `map_research_diff_2026-09-05.json`). Everything below is Leo reading those three maps directly. The leader recommendations have **not** been through the refute pass; treat them as a first read.
+
+**1. What the research changes in v0 (from the diff map)**
+- Agrees with the thesis and with bets 2, 4, 6 and the organizing question of bet 1 (its §12.7 cost-per-request formula is the same idea).
+- Adds five things v0 lacked: candidate logging at retrieval/L1 as a first-class data project (rec #6); SID tokenizer SLAs (rec #7); the dense-fallback hybrid as the grounding choice (rec #8); the multi-interest A/B measured on downstream L2 acceptance (rec #9); a written L1 exit criterion (rec #10). Plus the HSTU/OneRec caveats and the 2025–26 tokenizer literature.
+- Misses exactly what James said it would: user-state / cross-request KV caching, the serving-GPU headroom fact from `cfm_technical.md` §6, scale-the-teacher distillation, the fixed-FT-compute framing, the dense-LLM training toolkit, and LLMs as offline annotators.
+- **Four reframes that matter for us specifically:** (a) rec #2 (L1↔L2 consistency + full-space sampling) is *already done and published* by this org — the LWS 2025 alignment campaign and the RecSys 2026 preranking oral (Hedi lead author); it is a credential, not a to-do. (b) rec #8 is RecGPT's existing architecture — PinRec *is* RecGPT (generate a representation, retrieve via ANN). (c) rec #9 has effectively been run as a portfolio decision (Multi-Embedding LR vs RecGPT for one candidate budget), never as a designed experiment. (d) "Reflex eval" and "recsys eval" are two different things — the Reflex eval lane is agent evaluation (Judge V1, GEPA calibration); UPP gap #4 is a recsys offline→online calibration problem and v0 conflated them.
+- **Revised bet order (diff map's suggestion):** 1 serving-cost curve (unchanged) · 2 retrieval offline→online calibration, extending Hedi's L1 offline-replay method to retrieval recall@K (up from 6) · 3 the retrieval scaling curve, gated on #2 · 4 tokenizer as a platform service with the four SLAs (bigger than "a lens") · 5 write the L1 exit criterion (new, small, timely — the org already runs GR-as-L1 on BMI) · 6 scale the teacher (down; Bella's H2 criterion and ATG's Next-Gen Teacher already cover the first step) · 7 LLMs as offline annotators (lowest; RR prioritization sits with Alim/Anna/Krystal).
+
+**2. The team's real strengths for this agenda (roster map)**
+- Two reliable gains engines with proven TLs: LWS (Yali — 8 LRs, +0.31 SSv2 in H1, GPU serving at 100% traffic; Hedi — RecSys 2026 oral) and CLR (Devin — GPU serving via attached data, $650k saved, FM + 16k-sequence foundations).
+- UPP shipped: v0 beat OneTrans head-to-head (8/1), launched on P2P 8/25; Piyush is the only IC Dylan names as able to scale her judgment; Zihao + Piyush own the cross-surface pretraining infra and the V1 FM component.
+- Generative retrieval is in production: official HF-RecGPT CG, Faiss→Manas migration and the 150-sizer transfer (Hanlin), the first RecGPT L0+L1 proving-out (Bella, 8/22).
+- A systems-execution culture at the IC level: GPU serving productionized across LWS, Multi-Embedding, CLR, and model-pUIC (Yidi: TorchScript, Scorpion, int8/fp16).
+- Publication track: RecSys 2026 oral, KDD 2025 (Multi-Embedding), ML Symposium 2026 (Hanlin on productionizing generative retrieval).
+- Eval rigor in pockets: Chuxi's LLM-judge + human-eval grounding; Yidi's train/eval consistency; Hedi's offline replay (Nov 2025) — the org's existing offline→online calibration method, for L1.
+- Two experienced M16 EMs with complementary postures ("bets lean Alim, engines lean Daniel").
+
+**Gaps, per lane (roster map):** systems — no one's charter is GPU-serving efficiency or inference research; JJ is the only IC16-grade systems owner and the most over-subscribed IC. Scaling — UPP is two people (Piyush SPOF, Zihao "not there yet"); the hedge req is closed by the **hiring freeze (Dylan 9/1, Jeff 9/2)**. Tokenizer — the three people already there (Bella, Yuke, Hanlin) are the org's most fragile cluster. Evaldata — gap #4 documented and unowned; candidate logging exists only as Alok's full-funnel logging. Armlead — Dylan 8/19: only Piyush clears "in the room when I am not"; no IC17 in the org.
+
+**3. Where we are already invested (investments map, 17 workstreams).** Everything is a reframe; the freeze means no new headcount.
+- KEEP + bounded pivot: UPP (make V1/FM work *the* retrieval scaling study with gap #4 as its first deliverable) · RecGPT/GenRet (pivot framing from "raise impression share" to "own the item tokenizer + hybrid nominator" with a dated kill criterion) · LWS + L1 Utility (convert Yali's one-pager into the rec-#10 L1 exit criterion) · Reflex (point Eval & Evolve's first measurable target at gap #4) · Foundations & Efficiency + cost investigation (pivot the remaining artifact into the GPU-hours allocation the agenda asks for) · RR/pUIC (keep as-is under Alim; agenda stays off Chuxi's plate) · CLR (dense arm of the rec-#9 A/B).
+- PIVOT: Hedi's CFM comparison + V1/FM retrieval work → one fixed-FT-budget retrieval scaling study, seam-checked with the CFM group · LLM-pUIC → offline interest annotation for LFU/cold-start under the NLFU frame, tied to the ~Oct IB gate.
+- STOP/SHRINK (already the direction): Learned Dynamic Triggering (cite as prior art) · Multi-Embedding LR → maintenance, reuse as the rec-#9 dense baseline · Recommended Boards → KTLO after 9/11.
+- Cost facts to carry: serving GPUs host-CPU-bottlenecked (headroom already paid for); ranking cost exposure ~$6.5M/yr scaling with candidates sent; Dylan's org >$1.8M/yr over budget; $2M savings top-line on the org charter.
+
+**4. Who leads the charge — preliminary read, unverified.**
+- **Lane 1, serving-cost curve:** Yali (LWS TL; productionized GPU serving at 100% traffic; owns the L1 where the cost exposure lives) as lead, Devin as the CLR-side counterpart, JJ as architect/reviewer *not* owner. Risk: LWS is thin through September; JJ is over-subscribed. Runner-up: Devin.
+- **Lane 2, calibration + scaling curve:** Hedi leads the offline→online calibration extension (his method, his paper); Piyush leads the scaling curve with Zihao running it, positioned as the retrieval leg of the CFM study and seam-checked with Lawhon's group. This is IC17 evidence for Piyush. Risk: Piyush SPOF, no hedge.
+- **Lane 3, tokenizer as platform:** Hanlin as day-to-day owner (ANN migration, sizer transfer, the ML Symposium talk), with the ATG partnership; the TL question stays open until Yuke's case settles; RecGPT stays parked with James through EOY per the 9/3 ruling.
+- **Lane 4, candidate logging + eval:** Hedi (calibration) + Alok (full-funnel logging seed); Chuxi's eval rigor stays inside RR. Reflex eval is *not* this lane.
+- **Lane 5, the arm itself:** James holds the seat through Q4 — sets the compute budget, chairs one cross-lane review, owns the curves — with Piyush as the technical lead-in-waiting. EM sponsor: Alim ("bets lean Alim"), and the compute-budget/agenda charter doc is the natural "written thing James didn't write" for the end-of-September test. Rationale from the roster map: no IC17 in the org; Piyush is the only one Dylan names.
+
+**5. Cheap moves for the week of 9/8 (Leo rec, unratified).** Read the three JSON maps (phone-friendly enough). Ask Hedi whether the offline-replay method extends to retrieval recall@K — one conversation. Ask Yali whether the L1 one-pager can carry an exit-criterion line. Nothing else this week: Zili/Karli Tue, Nima day one, Daniel back ~9/21.
+
+**Owed next session:** the seams map (external owners, Dylan/Jeff priorities, seam risks) and the adversarial verification of the five leader picks — re-run the workflow trimmed to what a 2-agent box finishes (resume id and script are in the session log).
+
 ## Related
 
 - `upp/cfm_technical.md` §6 (CFM model scaling, in-flight) · `upp/upp_retrieval_assessment.md` §What's Missing · `upp/ubr_design.md`
