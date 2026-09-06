@@ -1,0 +1,559 @@
+{
+ "workstreams": [
+  {
+   "name": "UPP Retrieval (UBR — cross-surface base retriever, V0/V1, surface fine-tuning)",
+   "owners": [
+    "James (EM, stays James-direct at T2)",
+    "Piyush Maheshwari (TL, L16 — Dylan-named 'room-grade' SPOF)",
+    "Zihao Chen (L15, cross-surface pretraining lead + succession hedge)",
+    "Hongtao Lin (ATG hat, P2P FT)",
+    "Jaewon Yang (ATG, de-facto UPP TL, promoted DE 9/1)",
+    "Karthik Subbian (DE, Core — pointed at UPP by Dylan 8/28)",
+    "P2P side: Jiaxing Qu, Suki Li, Yilin Chen (Sai Xiao's team); Search: Konik Kothari; Notif: Lei Wang"
+   ],
+   "status_2026_09": "Launched on P2P 8/25 (combined arm UPP v0 + relevance-utility push-down; SSv2 proxy +0.23% global, repin +0.64%, b2.5@4 +3.25%) — Sai's own words: 'new teacher-student framework'. Notif launches 1–4 landed (~286k WAU from the first two). HF fine-tune showed +0.5% HF repins in June but 'trended down' by 8/13; Zihao + Piyush iterating. V1 (with FM component) not online. Search adopting V0 but productionization gated on GPU serving. UPPv2 Retrieval kickoff presented 9/4 (Piyush ran it). SECRET (8/19): Dylan considering stopping the UPP×SSJ collaboration ~9/30 and refocusing on Ads/Growth. Post-launch list in HF's lap: training efficiency (P2P FT 18h on p4de → ≤10h target, Piyush ETAs due 8/26), base-model snapshot release, ads-free pinperf rebase, GPU planning, ops plan; Piyush asked for a cross-surface virtual team (understaffed).",
+   "what_is_built": "Codebase (May 2026): 5-surface StackLoader (HF/BMI/P2P/Search/Notif, 50/20/15/10/5 mixing), SurfaceMetadataManager, 5 condition towers with uniform [B,256]+[B,512] contract, multi-head IBN loss with all_gather negatives + CountMinSketch correction + uid masking, per-surface recall@K eval, TorchScript deploy (viewer tower GPU / pin tower CPU), snapshot checkpointing, cosine LR, TorchRec ID-embedding path. Fine-tuning path (PR #251610): module-embedding of base towers into CLR, 4-mode integration ladder (none/into_ft_dhen/late_fusion/both), snapshot pattern remap, differential LR, decomposed forward API, `_ft` batch routing. Release-cycle + cross-org operational model doc (v4, 4/25) with Notif as V0 handoff test case.",
+   "what_is_missing": "Per upp_retrieval_assessment.md §What's Missing: (1) LoRA/adapter PEFT; (2) surface-specific output heads; (3) serving/indexing integration + model-versioning story (N×M ANN lookups undocumented); (4) offline↔online correlation validation — confirmed live 8/24: P2P offline eval had UPP 1% worse than OneTrans while it was much better online ('almost accidental that we took the UPP model online'); (5) cross-surface negative contamination analysis; (6) scaling/operational guardrails incl. NO compute-budget documentation (GPU-hours, cost per iteration); (7) condition dropout. Plus: training-efficiency ownership just landed on HF (target ≤10h), long-term GPU constraints need leadership alignment, no retrieval scaling curve has been run, V1 timeline unanswered (Sai's throwaway-work worry).",
+   "maps_to_lanes": [
+    "scaling (the trainer is the vehicle for bet 2 — the retrieval scaling curve; V1/FM is the frontier layer)",
+    "systems (GPU viewer-tower serving; training efficiency p4de→≤10h; Search GPU-serving gate)",
+    "evaldata (gap #4 offline→online correlation is the org's most consequential eval hole)"
+   ],
+   "maps_to_research_recs": [
+    "#4 provision GPU inference before scaling sequence/FLOPs (Search GPU-serving gate, p4de contention)",
+    "#5 scaling-law discipline (fixed-FT-budget curve on own data — not yet run for retrieval)",
+    "#1 infra rung (release cycle/version maintenance exists; streaming/collisionless embeddings not mentioned in repo)",
+    "#6 candidate logging (indirect — needed to fix gap #4)",
+    "§13a cross-surface retrieval — UPP is the thing both research reports omit"
+   ],
+   "keep_pivot_stop": "KEEP — and add one bounded pivot: make V1/FM work the retrieval scaling study (bet 2) with gap #4 (offline→online map) as its first deliverable.",
+   "rationale": "It is the org's substrate, James-direct at T2, launched on P2P with Sai's 'teacher-student' framing already in the record, and CTO-visible. But the repo shows the V1/FM layer has no scaling curve and the offline eval is demonstrably miscalibrated — so scaling work without the eval fix is unfalsifiable. The 8/19 SSJ-stop clock means new capital should go to HF/Notif/Ads-facing work and to the base model, not SSJ-only productionization.",
+   "evidence": [
+    "work/projects/upp/upp_retrieval_em.md — 2026-08-25 (launch approved, metrics, Sai's follow-up list), 2026-08-24 addenda (18h p4de, ≤10h target, offline eval broken), 2026-08-19 (SECRET SSJ stop ~9/30), 2026-08-13 (HF trended down; Search needs GPU serving), 2026-09-04 (UPPv2 kickoff), 2026-06-23 (v0 FT +0.5% HF repins; Search/Notif adopting)",
+    "work/projects/upp/upp_retrieval_assessment.md — 'What's Missing' #1–#7 (written 2026-05-31)",
+    "work/projects/upp/ubr_design.md — §Alternative Design Choices 'Unified tokenization scaling' (OneTrans/RankMixer/FM backbone), captured 2026-04-11",
+    "work/projects/upp/cross_org_operational_model/draft_v3_synthesized.md — BLUF (2026-04-25)",
+    "work/people/team_members_scope.md — Piyush entry 2026-08-19/08-24; Zihao entry; roster row 'SPOF on UPP'"
+   ]
+  },
+  {
+   "name": "CLR (HF Conditional Learned Retrieval) + GULP — the dense retrieval engine",
+   "owners": [
+    "Devin Kreuzer (TL, L15)",
+    "Yichi Wang (L13)",
+    "Ryan Kam (L15 SWE — leaning LWS as of 9/3)",
+    "Nima Sheikholeslami (L15, starts 9/8)",
+    "Richard Wang (IC14 SWE, starts 9/21 → Alim/CLR per Sc 9)",
+    "Kim Toy (L15, RR-vs-CLR decision 9/11)",
+    "→ Alim at T2 (settled 8/21)"
+   ],
+   "status_2026_09": "Stable gains engine, deliberately under-funded in H1 ('harvesting an engine we stopped investing in' — EM primer). H1 2026 launches: Semantic IDs for long-tail (Jan, SSv2 +0.13%, strongest for new users), router simplification (Apr, repins +0.39%, conditions become config), ARF stabilization (May, repins +0.81%), GPU serving via attached data (Mar, $650k saved, latency −85%), Claude-tuned condition budgets exploiting freed GPU (May, SSv2 +0.18%). Two H2 SSv2 candidates carry Devin's name: CLR SGI using the PBTY dataset (A/SSv2 #4) and CLR UIC-condition tuning for NLFU (A/SSv2 #7, 9/3). Dylan 9/1: CLR owns the heuristic-CG sunset. Zelun (ATG) design 8/20: dedicated relevance head on HF CLR (named blocker for pUIC). HF Exploratory Module (UIC × CLR Frontier Sampling) ramped 9/3. Chuxi (8/25) reports the CLR side unwelcoming and doesn't believe in conditional retrieval — interface under active management.",
+   "what_is_built": "General conditioning framework (interest/board/pin/text conditions), conditioned user-sequence transformer (Nov 2025 baseline most 2026 CLR/FM work builds on), DHEN feature cross, multi-head IBN loss, GPU-served viewer tower with batched multi-condition inference + CUDA graphs, Manas ANN serving, single Scorpion request ($350k, Oct 2025). Optional frozen RQ-VAE SID consumption exists on the P2P LR side (8 codebooks × 2048); HF CLR launched SIDs as a long-tail condition.",
+   "what_is_missing": "Bench depth (Devin concentration risk named repeatedly; Ryan drifting to LWS; Nima/Richard ramping); the relevance head (Zelun design A→B gated); 16k sequence + FM in CLR ('almost done, +0.2% SSv2' per May table — status not updated); no serving-cost/GPU-hours accounting per launch beyond one-off savings claims.",
+   "maps_to_lanes": [
+    "systems (GPU-served retrieval already in production — the capability Madrigal called 'bread and butter for Meta')",
+    "tokenizer (consumer of SIDs as conditions — not owner)",
+    "other (the SSv2 engine)"
+   ],
+   "maps_to_research_recs": [
+    "#4 GPU inference/ANN (done for the viewer tower; CPU HNSW for pins)",
+    "#9 the multi-interest A/B — CLR (+ multi-embedding) is the dense/K-embedding arm against a RecGPT nominator",
+    "#7 SID as platform service (consumer side)",
+    "§13a gap: I2I/graph nominators + multi-source ensembling — Karthik's Pixie/random-walk and %imp-overlap questions (8/30) land here"
+   ],
+   "keep_pivot_stop": "KEEP (engine); use it as the dense arm of the rec-#9 A/B rather than adding a new lane to it.",
+   "rationale": "The record says this is where SSv2 concentrates and where GPU serving is already paid for; the risk is bench, not direction. Devin's two named candidates and the heuristic-CG sunset are enough charter; the research-arm move is to measure CLR vs RecGPT on downstream L2 acceptance, not to give CLR another workstream.",
+   "evidence": [
+    "work/people/reorg_july2026/p13n_retrieval_em_primer.md — §2 CLR launch history 2025 + H1 2026 (GPU serving Mar 2026 $650k/−85%; SIDs Jan 2026)",
+    "work/people/team_members_scope.md — Devin entry 2026-09-03/09-04; Chuxi entry 2026-08-25/08-26; Workstreams table CLR row; UPP+CLR pool notes 8/21–9/3",
+    "work/projects/retentive_recs/retentive_recs.md — 2026-08-22 'The consolidation thread' (Zelun relevance-head design)",
+    "work/people/reorg_july2026/t2_decision_ledger.md — 2026-09-01 (CLR owns heuristic-CG sunset), 2026-09-03 (Sc 9)",
+    "work/people/stakeholders.md — §39 Madrigal 'GPU retrieval — bread and butter for Meta' (2026-07)",
+    "work/projects/upp/two_tower_architecture_comparison.md — §Feature Summary (RQ-VAE 8×2048 in Closeup LR; HF CLR 'not used')"
+   ]
+  },
+  {
+   "name": "LWS (lightweight pre-ranking) + L1 Utility — incl. the LWS×UPP/RecGPT L1 decision",
+   "owners": [
+    "Yali Bian (L15, de-facto LWS owner/TL; OOO 8/31–9/18) — drives L1 (James moved Piyush off L1 ~8/6)",
+    "Hedi Xia (L15; unimpressed track; CFM comparison)",
+    "Zili Li (L14; exit track — mutual separation requested 9/4)",
+    "Rui Wang (L14 SWE, L1/Real-Time ops)",
+    "JJ Hu (L1 Utility; IC16 approved 8/4)",
+    "Konish Dutta + Aditya Mantha (quota/SMS batch optimization)",
+    "Daniel Liu (EM owner at T2; drives the LWS×UPP written recommendation)",
+    "Co-design partners: Hanyu Li (RecGPT), Matt Lawhon (Ranking POC, Dhruvil's team)",
+    "Yongwoo + Felix likely LWS landing (9/3 own-voice)"
+   ],
+   "status_2026_09": "The org's reliable gains engine. GPU serving productionized at 100% traffic, stable 3+ months with no GPU incident (H1); Unified Tower + TransAct on GPU (Mar 2026, HF reports −12.72%, unblocks FMs and 16k sequences); training pipeline 40+h → ~7h; rank-distillation loss (May, HF clicks +1.15%); training-serving alignment fix (Mar, SSv2 +0.10%). L1 Utility shipped SID+UIC diversity controls; shopping/freshness knobs next; ~400 candidate quota freed at zero L2 cost (8/13). Preranking paper accepted at RecSys 2026 with an oral. L1 flashpoint (8/20–22): converged on LWS+RecGPT co-design as main path with CFM as a scoped minimal decision experiment (Yali's one-pager to carry explicit criteria + sequencing gate; Hedi to own the CFM comparison as a bounded experiment). LWS×UPP onboarding decision (RecGPT path vs L2 path) — Daniel's written opinion due late Sept, decision first week of Oct; postponed until Yali returns (~9/21). ATG (8/13) wants RecGPT to replace all LWS models starting with Notifs. LWS now over-supplied on people vs +2–3 need (9/3 Leo note, unratified).",
+   "what_is_built": "GPU LWS multi-head model; L1 Utility mid-funnel layer (k-way heap merge, dedup → SID caps → UIC caps, U_pinner/U_shop/U_fresh utilities, negative-head safety filters); unimpressed-data distillation + pairwise loss; Hedi's online-alignment metrics + offline replay (first reliable forecast of online shifts for pre-rankers); Ray + Iceberg training data; auto-retrain framework.",
+   "what_is_missing": "Shopping-based and some freshness-based CGs not yet under LWS+L1; 16k sequences / larger models on the freed GPU headroom not yet scaled; offline↔online alignment still listed as 2026 focus; the L1 exit criterion (rec #10) is being fought as a personnel/governance question (CFM vs RecGPT-L1) rather than written as a cost threshold; RecGPT L0+L1 only at 'first proving-out'.",
+   "maps_to_lanes": [
+    "systems (GPU LWS scale-up is 'now unblocked' — the pre-ranking twin of bet 1)",
+    "evaldata (Hedi's alignment metrics/offline replay + the RecSys paper are the org's only published eval-methodology assets)",
+    "other (SSv2 engine; business knobs)"
+   ],
+   "maps_to_research_recs": [
+    "#2 consistency + full-space sampling — largely done (rank distillation, unimpressed track, calibration); RecSys paper is the writeup",
+    "#10 write down the L1 exit criterion — the 8/20 flashpoint is exactly this decision, unpapered",
+    "#6 candidate logging (unimpressed data is a partial instance)",
+    "§13b generative models as the pre-ranker (RecGPT L0+L1) — the repo's live fork"
+   ],
+   "keep_pivot_stop": "KEEP; convert Yali's one-pager into the rec-#10 artifact (the cost at which enforcing L1↔L2 consistency exceeds collapsing the stage), so the CFM-vs-RecGPT race is settled by a number, not by who holds the pen.",
+   "rationale": "Highest gains-per-head in the org and the one place the GPU headroom is already 'paid for' (CFM §6 fact) and productionized. The research value is in writing down the exit criterion and running the scale-up on the freed GPUs; both are cheap relative to a new lane and de-risk Daniel's October decision.",
+   "evidence": [
+    "work/projects/l1_utility.md — §3.2 (GPU serving fully up-ramped), §3.7 opportunities, §5 timeline",
+    "work/people/reorg_july2026/p13n_retrieval_em_primer.md — §3 Lightweight Scoring launch history (H1 2026: Unified Tower+TransAct on GPU; RecSys oral)",
+    "work/projects/upp/l1_flashpoint_2026-08.md — 8/20 Yali position, 8/21 Dhruvil/Jaewon, Play (Hedi owns CFM comparison), 9/2 update",
+    "work/projects/upp/upp_retrieval_em.md — 2026-08-13 (RecGPT & L1 fork; ~400 quota freed)",
+    "work/people/daniel_liu_archive.md — §LWS·UPP lane (late-Sept deliverable; decision first week Oct); team_members_scope.md Yali entry 2026-08-27 (postponed)",
+    "work/people/team_members_scope.md — Yali/Hedi H1 records (2026-08-02); LWS row 9/3 supply note"
+   ]
+  },
+  {
+   "name": "RecGPT / Generative Retrieval (GenRet)",
+   "owners": [
+    "Bella Huang (TL, L16 — Reflex primary / RecGPT secondary; stays James-direct)",
+    "Hanlin Lu (L14)",
+    "Yuke Yan (L15, IC; contribution marked uncertain on the H2 scoreboard)",
+    "ATG: Jaewon Yang, Prabhat (creator), Hanyu Li (L1 co-design)",
+    "James (charter parked with him through EOY; → Alim if conditions settle; November evidence review)"
+   ],
+   "status_2026_09": "Reframed by James 8/2 from 'time-boxed incubation' to 'a gains engine to scale — raise impression share.' H1: official HF-RecGPT CG launch; 150 sizers transferred from Multi-Embedding to RecGPT; Faiss→Manas ANN migration (~$60K saved); diversity via Gaussian noise; ML Symposium talk. Offline gains (larger batch, SID augmentation, GQA) did not translate online. H2 written target: RecGPT + Unimpressed + Teacher Distillation = +0.4% SSv2 (Bella's hedge recorded). 8/22: two potential launches — an SSv2-moving sizer-tuning candidate and the first proving-out of RecGPT L0+L1 (a pre-ranker after the retriever). Strategy dispute 8/22 (new CG vs replace existing CG) → James asked Bella for a RecGPT strategy one-pager. RecGPT structure spreading into RR (Chuxi's 2-in-1 novelty prompt). ATG reads RecGPT-as-backbone as 'more of a P2' (via Tim). Yuke/Hanlin ruled 9/3 to stay with James through EOY.",
+   "what_is_built": "Production HF-RecGPT candidate generator with 6-iteration × 5-action autoregressive rollout, Manas ANN serving, sequence serving on UserEventsView, SID available for coarse history compression; a shared decoder with action prompts that RR now proposes to extend with a `p_novel` side readout.",
+   "what_is_missing": "Online-legible gains at scale (the offline→online gap is documented); a written strategy (one-pager requested 8/22); ownership of the SID tokenizer itself is not in the repo (P2P LR consumes a frozen RQ-VAE; RR explicitly deprecated SIDs for reward tracking due to 'signal bleed') — codebook stability/drift/cold-start are unaddressed; no dense-fallback hybrid framing; no evaluation-beyond-accuracy; LLM-serving cost model absent.",
+   "maps_to_lanes": [
+    "tokenizer (bet 4 — 'Yuke, Hanlin and Bella are already here' per the agenda; the codebook is the shared vocabulary)",
+    "scaling (the only autoregressive/generative model in the org)",
+    "systems (LLM-serving investment shared with LLM-pUIC and boards per 7/27 workstream doc)"
+   ],
+   "maps_to_research_recs": [
+    "#3 pilot GR as an additional nominator, build SID pipeline as reusable infra (current additive-CG rollout matches this; James pushed for replacement)",
+    "#7 treat the SID tokenizer as a platform service with SLAs",
+    "#8 prefer dense-fallback hybrid (PinRec/LIGER/COBRA)",
+    "#9 the multi-interest A/B on downstream L2 acceptance",
+    "§13b GR-as-L1 (RecGPT L0+L1) and §13c tokenizer robustness literature"
+   ],
+   "keep_pivot_stop": "KEEP the investment; PIVOT the framing from 'raise impression share' to 'own the item tokenizer + hybrid nominator' with a dated kill criterion — a lens change, not headcount (the agenda's own wording).",
+   "rationale": "The repo shows a strategy dispute, offline-online slippage, and an ATG 'P2' read on RecGPT-as-backbone; 'more impressions' alone is the weakest research framing available. The durable asset is the codebook as the LLM↔user-model interface (rec #7/#8) and the retrieval-vs-L1 evidence (rec #9/#10). Requesting the one-pager is already the right move; this is what it should be about.",
+   "evidence": [
+    "work/people/team_members_scope.md — Workstreams table RecGPT row (8/2, 8/15, 9/3 rulings); Bella entry 2026-07-27 (H2 criteria +0.4% SSv2, teacher distillation), 2026-08-22 (L0+L1, strategy one-pager); Hanlin entry 2026-08-02",
+    "work/projects/retentive_recs/retentive_recs.md — 2026-08-22 'The consolidation thread' (Chuxi 2-in-1 via RecGPT; Leo strategic read); §Technical Specification 'DEPRECATE Semantic IDs' (signal bleed)",
+    "work/projects/upp/upp_retrieval_em.md — 2026-08-13 (ATG wants RecGPT to replace LWS models)",
+    "work/people/reorg_july2026/workstream_descriptions_2026-07-27.md — §6 (ATG 'P2' read; shared LLM-serving investment)",
+    "work/people/reorg_july2026/t2_decision_ledger.md — Undecided #1 GenRet owner (November decides); 2026-09-03 ruling #3",
+    "work/projects/personalization_retrieval_org_2027_agenda.md — bet 4 (2026-09-05)"
+   ]
+  },
+  {
+   "name": "CFM scaling study + FM-in-retrieval (V1 viewer tower) + Hedi's CFM comparison for L1",
+   "owners": [
+    "CFM scaling authors (ranking/ATG): Matthew Lawhon, Matthew Poska, Kousik Rajesh, Kelly He, Jaewon Yang",
+    "James's org: Hedi Xia (CFM/FM experiments for L1 — to own the bounded comparison), Zihao + Piyush (V1 FM viewer tower)",
+    "Related: '[One-Pager][ATG] Next-Gen Teacher Foundation Model' (Dhruvil/ATG)"
+   ],
+   "status_2026_09": "Ranking-side CFM scaling is in flight under a fixed fine-tune compute budget: early signal ~1% repin wins on HF and BMI FT from CFM pretraining alone; LoRA/DoRA/PiSSA variants ~−2% repin; freeze+quantize embedding table +0.3%; every variant lower throughput than baseline; 'snapshot, not verdict.' Retrieval side: team believed 6/23 that moving the viewer tower to FM is higher-ROI than iterating v0; V1 still not online 9/5 (13h on p4de). For L1, Yali (8/20): 'the FM experiments have not shown meaningful progress so far'; Hedi has been grinding FM work 'with nothing coming out' — James under-tracked it; play is to hand Hedi the CFM comparison as a bounded decision experiment with kill/graduate criteria.",
+   "what_is_built": "The CFM design (FM backbone + TransAct v2 16k + per-surface non-shared context encoders; future-action + BCE + pairwise losses); an ablation harness of FT strategies; the distillation principle (teacher needn't be serveable). On retrieval: UBR doc's 'unified tokenization scaling' path (OneTrans/RankMixer/FM backbone) and the CLR-FM integration route.",
+   "what_is_missing": "Nobody runs the scaling study for retrieval (parameters × sequence length × data → fine-tuned surface metric under fixed FT budget); no negative-result publication path; teacher distillation into the serveable two-tower/GenRet is a stated H2 criterion (Bella) but has no owner-with-plan in the repo; seam with the CFM group and ATG's teacher-FM one-pager not checked.",
+   "maps_to_lanes": [
+    "scaling (bet 2 — the retrieval scaling curve; bet 3 — scale the teacher)",
+    "systems (fixed-FT-compute constraint; throughput regressions; multi-node/LLM training toolkit absent)"
+   ],
+   "maps_to_research_recs": [
+    "#5 scaling-law discipline before capital",
+    "#4 provision GPU/context parallelism before sequence-length scaling",
+    "§9 scaling-laws through-line; §13e unit economics"
+   ],
+   "keep_pivot_stop": "PIVOT: fold Hedi's CFM comparison and the V1/FM retrieval work into one fixed-FT-budget retrieval scaling study with dated kill criteria, seam-checked with the CFM group — this is the cheapest way to start bet 2 without new headcount.",
+   "rationale": "The compute constraint, the harness, and the distillation principle already exist on the ranking side; the retrieval side has the trainer and a person (Hedi) whose FM results are currently 'decision evidence' for L1 anyway. Turning that into a curve converts a morale problem into an artifact, and answers Jeff's 'how much more for Search' with a number rather than a hope.",
+   "evidence": [
+    "work/projects/upp/cfm_technical.md — §6 CFM Model Scaling (results so far; constraints) — created 2026-06-07",
+    "work/projects/upp/l1_flashpoint_2026-08.md — 8/20 Yali quote; Update 8/22 (Hedi FM grind); Play step 3",
+    "work/projects/upp/upp_retrieval_em.md — 2026-06-23 (viewer tower to FM higher-ROI), 2026-08-24 (V1 13h p4de)",
+    "work/projects/upp/ubr_design.md — §Unified tokenization scaling",
+    "work/projects/personalization_retrieval_org_2027_agenda.md — bets 2–3; §Open 'Seam check for bet 2'",
+    "work/people/team_members_scope.md — Bella entry 2026-07-27 (Teacher Distillation in H2 criteria)"
+   ]
+  },
+  {
+   "name": "Retentive Recs / pUIC (model-pUIC, Explore module/UEB, UIC representation, Feedback Loop, Downstream Reward)",
+   "owners": [
+    "Alim Virani (EM since 7/27; drives RR priorities with Anna/Krystal)",
+    "Chuxi Wang (L14, ws-TL — in 5 of 6 focus areas; burnout flagged 8/25)",
+    "Yidi Wang (L13; novelty label redesign)",
+    "Alok Malik (L14; OSv2→CLR upgrade; CLR training via Zelun)",
+    "Lionel Bewa (L14 SWE; model-pUIC integration)",
+    "Kim Toy (L15; RR vs CLR decision 9/11)",
+    "Ling Lan (L14, Daniel's line — delivery partner)",
+    "UEB: Roderick Gao, Esteban Zavala (stay Daniel per 9/3), Yichi",
+    "Cross-org: Zelun Wang (ATG), UU team (Simin Li, Raymond Dinh, Sufyan Suliman), Blending (FBL), Yan Chen, Armando Ordorica, Devin Kreuzer (frontier sampling)",
+    "Anna (Principal PM as of 9/4)"
+   ],
+   "status_2026_09": "Deliberate launch lull; all-in on pUIC. Model-pUIC (Chuxi + Devin K, 8/19): promising LFU-cohort session + SSv2-proxy gains but unstable (flip with end day; pre-AA on MAU) → revert to one 4% arm long run + restart with anchor/ratio subsequence sampling. Yan Chen funnel analysis: model-pUIC dies at L1 Presort (overfetch ≈1x vs 5x). Yidi's design (8/22): mean-history novelty dilutes minority interests → top-K/cluster-aware score. Chuxi's design: 2-in-1 pUIC via RecGPT `p_novel` prompt (arms P-novel → P-all → F-full → S-joint). HF Exploratory Module experiment (UIC × CLR Frontier Sampling baseline) ramped 9/3, early read ~9/24. FBL launched on partial CG funnel (May); FBL in L1/Retrieval in flight. 8/26 staffing answer: no more people now (constraints are traffic, label, funnel plumbing). RR focus-areas snapshot handed to Alim 8/27; kill/double-down template 'if by X we don't see Y, we Z' pending. KDD 2026 paper draft done; blog Part 2 and ~9/24 pUIC readout are Anna's first artifacts as Principal PM.",
+   "what_is_built": "UIC clustering on OmniSage L500 sequences; PinnerSage-style pUIC user tower → CLR 'Pin' condition serving path (Scorpion GPU serving + Unity graph, L500 migration — Yidi); heuristic pUIC live (LFU-positive); geometric bandit / three-word feedback loop launched; funnel-debugger tooling (Armando); weekly RR reading group; Tue UIC sync + two Wed pUIC syncs run by Chuxi.",
+   "what_is_missing": "A stable LFU read; convergence of Yidi's novelty score into Chuxi's 2-in-1 training weight + eval buckets (same-week docs disagree); quantitative q_novel↔q_repin collapse check; the overfetch/funnel-plumbing fix (the one place a body helps); Krystal's dated double-down/defund criterion; Chuxi's take-away list.",
+   "maps_to_lanes": [
+    "other (the retention/anticipation product bet — bets 5's target consumer)",
+    "evaldata (novelty definition + bucketized eval discipline; funnel survival analysis)",
+    "tokenizer (SID-prefix novelty labels proposed 'later, label-only'; RR deprecated SIDs for reward tracking)"
+   ],
+   "maps_to_research_recs": [
+    "#9 multi-interest retrieval measured downstream (UIC-based multi-interest IS this)",
+    "#6 candidate/funnel logging (Armando's funnel debugger; Presort drop finding)",
+    "§13a exploration nominators and exposure bias — omitted by both reports, live here"
+   ],
+   "keep_pivot_stop": "KEEP as-is under Alim; explicitly keep the 2027 research agenda OFF Chuxi's plate (the agenda's own constraint); fund only the overfetch/systems item if anything.",
+   "rationale": "Andrew's 'main bet,' Anna's Principal-PM validation, and an experiment read due ~9/24 make this the wrong moment to reshape. The binding constraints are traffic, label and plumbing, not people; the research-arm contribution is the eval discipline (novelty metric shared between train and eval) which is already in Yidi's doc.",
+   "evidence": [
+    "work/projects/retentive_recs/retentive_recs.md — 2026-08-27 RR focus-areas snapshot; 2026-08-26 staffing answer; 'Model-pUIC: first real gains signal'; 'Novelty-definition redesign (Yidi 8/22)'; 'The consolidation thread'; 2026-09-04 Anna Principal PM; 2026-07-25 status",
+    "work/career/exceeds_h2_2026_campaign.md — §C pUIC launches (C-3 ramped 9/3), Section C staffing (8 ICs + Alim)",
+    "work/people/team_members_scope.md — Chuxi entry 2026-08-25/08-27; Alok entry 2026-08-27; Kim archive 2026-08-21",
+    "work/people/reorg_july2026/workstream_descriptions_2026-07-27.md — §4"
+   ]
+  },
+  {
+   "name": "LLM-based pUIC (LLM interest prediction) / LLM-backbone thread",
+   "owners": [
+    "Ling Lan (L14)",
+    "Xiangyi Chen, Logan Jeon (ATG)",
+    "Chuxi Wang (runs the bi-weekly LLM pUIC sync; backup Zelun Wang)",
+    "Ruchen Zhen (UU)",
+    "On paper (8/15): carried by the IB crew (Balaji + Ling)",
+    "Daniel Liu — Anna's 7/24 proposal that he lead a shared personalization LLM backbone (LLM pUIC, Recsplanation, Board Titles, New HF Tuner, SM/SL)"
+   ],
+   "status_2026_09": "7/25: 'LLM-based pUIC: not very performant right now'; slowed further as Chuxi leaned into model-pUIC. 8/27 snapshot lists it '[p?]' with owners' tasks as '…?'. 7/25 NLFU list repositions it as the sparse-user interest engine (LLM pUIC × PinnerSpark — James: 'a great idea'). Anna's LLM-backbone consolidation idea is a Daniel-trajectory thread with no repo status since 8/7 (requirements inventory owed by James + Anna). The 2027 agenda (bet 5) says keep LLMs offline as annotators for cold interests/novelty/pseudo-labels; 'the Anna LLM-backbone thread you parked for Q4.'",
+   "what_is_built": "Plumbing/pipeline/model across Daniel's and James's teams (May 2026); VLM visual user-signature (Pinkerton) was to feed it; sync structure exists.",
+   "what_is_missing": "Performance; a defined niche (general-population competition with model-pUIC vs LFU/cold-start); an owner with a plan post-8/15; the LLM-backbone requirements inventory.",
+   "maps_to_lanes": [
+    "other (bet 5 — LLMs as offline annotators, not hot path)"
+   ],
+   "maps_to_research_recs": [
+    "§7 data investments / semantic features as offline signals (QARM/EmbSum-style)",
+    "§13a exposure/cold-start; no direct rec #1–#10"
+   ],
+   "keep_pivot_stop": "PIVOT (and shrink): scope it to offline interest annotation for LFU/cold-start under the NLFU frame (Growth-funded), tied to the ~Oct IB gate; stop competing head-on with model-pUIC.",
+   "rationale": "Three independent signals in the repo point the same way — underperformance on the general population (7/25), the NLFU niche (7/25), and the agenda's 'keep it offline' (9/5). The Q4 backbone conversation is the place to decide whether it grows, not September.",
+   "evidence": [
+    "work/projects/retentive_recs/retentive_recs.md — 2026-07-25 (not performant; Q3 sync structure), 2026-08-27 snapshot '[p?] LLM pUIC', 2026-05-23 workstream table",
+    "work/projects/nlfu_support_2026.md — H2 candidate #5 (LLM pUIC × PinnerSpark, DECISION 7/25)",
+    "work/people/team_members_scope.md — Workstreams table RR+UEB row (8/15 'LLM-pUIC is carried by the IB crew'); IB row",
+    "work/people/reorg_july2026/daniel_liu_team_2026-07.md — 2026-07-24 Anna's LLM-backbone proposal; work_leo_delta_2026-08-07.md (requirements inventory owed)",
+    "work/projects/personalization_retrieval_org_2027_agenda.md — bet 5"
+   ]
+  },
+  {
+   "name": "Reflex (Detect · Prove · Build · Simulate · Eval & Evolve) — incl. PINvestigator (Detect) and Pinkerton (folding into Prove)",
+   "owners": [
+    "James (EM POC; named hands-on thread = Evaluation & Evolution; three IC builds decided 8/27)",
+    "Dafang He (overall TL — L3-first for a few weeks per Dylan 8/25)",
+    "Tim Chu (PM; owns Reflex-on-a-schedule since 8/27, 9/10 tripwire)",
+    "JJ Hu (Build lead), Rui Wang, Daniel Dormer, Ananth Pushpendran",
+    "Bella Huang (Simulate), Mehdi Ben Ayed + Chi Zhang (ATG)",
+    "Eval & Evolve: Chao Wang + Gideon Kim (PA DS), Janvi Palan (Ads — Evolve TDD author)",
+    "Users/adopters: Karthik Subbian (DE), Tim Leung's team (Detect), Ads (Jacob Gao et al.)",
+    "Andrew Yaroshevsky (sponsor); Dylan"
+   ],
+   "status_2026_09": "9/4: Dylan's Code Red 'TP Load and Impact' lane will be planned and implemented through Reflex (D-6-class evidence). Karthik became a Reflex user on day 3 and filed a real dedup-key bug; James fixed it 9/3 (Tim signed off). D-0 'launched through Reflex' definition agreed. Standalone daily service promised ~9/16 (Tim; 9/10 tripwire). Shifu fold decision heading to 'components, not fold' on JJ's 8/28 read (reuse staging/testing/Slack; core concepts don't map). Eval lane: judge V1 built (PR#63); Evolve TDD in review; Feedback Curator + Skeptic unmeasured with ownership unresolved (Andrew/Dylan); World Store/LR Connector proposal written 8/20; memory-literature synthesis 8/28 (write side ahead of literature, read side unbuilt). Build gap: 3 of 4 Build engineers retrieval, 0 ranking — ask Dhruvil to name a ranking driver; D-7 'ML model training runs through Reflex' added 8/29. Reflex live corpus is Ads-tagged the week Jeff declared Code Red in Ads. PINvestigator in regular investigative use (8/1). Cost of Reflex runs untracked (8/10).",
+   "what_is_built": "Hypothesis/opportunity board; Detect agents with quality_patterns.md + dead_ends.yaml + analytical checks; DS/PM agents; Build agent automating CG quota tuning and Blending tuning experiments (156-PR-class velocity is Shifu's, not Reflex's); Simulate UI + simulation paths; LLM judge V1; EvalResult contract draft; PINvestigator 3-subagent metrics investigator with 8-example golden set + eval harness.",
+   "what_is_missing": "EvalResult v2 + paired-bootstrap dominance gate (the one artifact nobody else will produce); the frozen lockbox (posting unconfirmed, carried 5×); the 5×5 judge-dimension correlation matrix; hindsight-replay set (blocked on work-side data); Progress ledger in the DS agent; a ranking engineer on Build; the schedule; an EvalHub build-or-why-not paragraph; and — for the research agenda — a trusted offline→online map (UPP gap #4) that none of the current eval docs target.",
+   "maps_to_lanes": [
+    "evaldata (bet 6 — 'eval is upstream of everything else'; compounding asset #2)",
+    "other (dev-velocity accelerator; Code Red execution vehicle)"
+   ],
+   "maps_to_research_recs": [
+    "#5 scaling-law discipline needs a trusted metric — Reflex eval is the org's only candidate for the offline→online instrument",
+    "#6 candidate logging (Prove-stage full-funnel logging, Armando)",
+    "§13e retrieval evaluation methodology + independent replication — open in both reports; EvoRec-style agentic iteration is the lab bench"
+   ],
+   "keep_pivot_stop": "KEEP; PIVOT the Eval & Evolution thread's first measurable target onto UPP gap #4 (offline recall → online lift calibration, by surface segment) so bets 1–3 have a yardstick before curves are drawn.",
+   "rationale": "Dylan named Reflex in all three H1 answers, a DE adopted it unprompted, and a Code Red lane just chose it — momentum is real. But the eval work is currently pointed at judging Detect cards; the 2027 agenda says the unsolved upstream problem is offline→online correlation. That re-aim costs no headcount and is exactly James's named thread.",
+   "evidence": [
+    "work/projects/reflex/program_state.md — 2026-09-04 (TP lane through Reflex), 2026-09-03 (dedup fix), 2026-09-02 (Karthik as user; promises), 2026-08-29 (D-0…D-7), 2026-08-28 (JJ Shifu read; Build has no ranking engineer), 2026-08-25 (3-way; H2 success definition), 2026-08-14 (Roberto; Build concession), 2026-08-10 (Shifu deep-dive; 'cost untracked')",
+    "work/projects/reflex/eval/eval_00_hub.md — §2 State of play (8/15, 8/20, 8/28 updates; workstream table), §3 Open items 1–19, §4 structural findings",
+    "work/projects/pinvestigator/pinvestigator.md — 2026-04-11 status; 2026-08-01 'in regular use'",
+    "work/career/exceeds_h2_2026_campaign.md — §D Reflex milestones (8/29), Section D staffing (2–3 ICs)",
+    "work/projects/personalization_retrieval_org_2027_agenda.md — bet 6; upp_retrieval_assessment.md gap #4"
+   ]
+  },
+  {
+   "name": "Foundations & Efficiency (Responsiveness, L1/Real-Time ops, cost) + the Cost/Budget Investigation",
+   "owners": [
+    "JJ Hu (~half his scope; In-session Responsiveness launch pending cost savings)",
+    "Rui Wang (L1/Real-Time ops + oncall)",
+    "James (driving the budget investigation for Dylan — Jeff priority #3)",
+    "Rahul (EM, Core Serving Infra) — his team owns the cost report (9/4); James specs it",
+    "Daniel Dormer — building cost investigations into PINvestigator (8/13)",
+    "Konish Dutta / Aditya Mantha — SMS batch + quota experiments"
+   ],
+   "status_2026_09": "Carries the org's $2M cost-savings top-line (Leo-proposed split $1.2M James / $0.6M Daniel / $0.2M Alim, unratified). Investigation: Core ~$5M/yr over budget, >$1.8M/yr over under Dylan (James's dig, 7/22); 'going well' 7/25; staff update 7/27; NO status on record since 7/25. 8/13: follow #p13n-cost-debug to confirmed-below-budget; ~400 candidate quota freed at zero L2 cost. 9/2: infra cost-estimation tool underfunded/unowned → 9/4 Rahul's team owns the report. Jeff priority #2 (AI/GPU usage down) 'handled' per James 7/25 — team GPU usage up + monitoring in place. Hiring freeze public 9/2: 'in a freeze, cost is the lever we still have.' 2027 agenda open item: recast the cost numbers as a GPU-hours allocation managed like headcount.",
+   "what_is_built": "L1 Utility platform (see LWS entry); 2025 deprecation campaign (~$3M/yr savings; per-launch claims ~$4.5M directional); In-session responsiveness (NLFU × Responsiveness launched); cost channel + the ownership-fix for the report.",
+   "what_is_missing": "The prioritized trim list for the >$1.8M; the one-page report spec (who reads it, cadence, infra $/month · trend vs budget · $ per SSv2 point, over-budget by team); a compute-budget artifact (GPU-hours per workstream); any per-launch serving-cost accounting for UPP/RecGPT/pUIC; the Responsiveness launch's gating savings.",
+   "maps_to_lanes": [
+    "systems (this is the budget half of bet 1 — 'scaled the user model 10× at flat serving cost' pays both stories)",
+    "other (org cost charter)"
+   ],
+   "maps_to_research_recs": [
+    "#4 provision GPU inference/ANN capacity deliberately",
+    "§13e unit economics — cost per incremental engagement for GPU retrieval vs CPU ANN 'is the number that actually decides #4'",
+    "#10 exit criterion revisited annually against GPU pricing and MFU achieved"
+   ],
+   "keep_pivot_stop": "KEEP; PIVOT the cost investigation's remaining artifact into the compute-budget (GPU-hours) allocation the agenda asks for — one document that serves Jeff's priority #3, Rahul's report spec, and the research-arm charter.",
+   "rationale": "Three docs converge: cost_investigation (no status since 7/25, owner now Rahul), the agenda ('a compute budget managed like headcount… your cost investigation gives you the numbers'), and the synthesis (§13e unit economics decides the GPU-retrieval question). It is the cheapest Director-shaped artifact on the board and it makes bet 1 measurable.",
+   "evidence": [
+    "work/projects/cost_investigation_2026.md — 2026-07-22, 07-25, 09-02, 09-04 entries",
+    "work/projects/upp/upp_retrieval_em.md — 2026-08-13 (cost channel; ~400 quota freed)",
+    "work/people/team_members_scope.md — Org shape 'Topline accountability' ($2M split); Workstreams table F&E row; JJ entry",
+    "work/people/reorg_july2026/workstream_descriptions_2026-07-27.md — §9, §13",
+    "work/career/exceeds_h2_2026_campaign.md — §A upside (Responsiveness pending cost savings)",
+    "work/projects/personalization_retrieval_org_2027_agenda.md — 'What makes it a research arm' + §Open 'Compute-budget artifact'"
+   ]
+  },
+  {
+   "name": "Learned Dynamic Triggering / PhP (per-request CG budget allocation)",
+   "owners": [
+    "Mehdi Ben Ayed + Jiajing Xu (ATG) — technical roadmap",
+    "Sai Xiao, Ryan Hou (SSJ CG / Related Pins)",
+    "Alok Malik (was ~50%; moved to Retentive Recs 7/15)",
+    "Kent Jiang, Darren Regger (CSI infra)",
+    "James — exec relationships (Dylan shielding him: 'Let Mehdi drive, you focus on AI')"
+   ],
+   "status_2026_09": "ELT presentation 3/30/2026 was a strong success (funding gate cleared; Ads/T&S/Chief Architect inbound). Shipped: ~$938K/yr annualized savings (HF $258K + RP $680K), shopping load −8% with repins +0.51%, Dynamic Sizer latency 70ms→~15–20ms. James locked it as a cut 5/20/2026 ('Stop funding — low-leverage; not worth ongoing investment'); Alok reassigned 7/15; NLFU-targeted DT pocketed as an in-inventory idea (7/25). File stale since 3/31 (h2 analysis 8/1).",
+   "what_is_built": "Surface-agnostic decisioning framework: offline replay + value model shipped; Dynamic Sizer with CSI async RPC; 95/5 explore/exploit; RL next for the 150+-config action space. Proven on HF + RP; Search/Ads scoped.",
+   "what_is_missing": "Any James-org investment (by decision); joint retrieval+ranking modeling ('open area'); extension into LWS/Ranking budget tuning ('may need GPU optimizations from MLP teams').",
+   "maps_to_lanes": [
+    "systems (the only place the org has built per-request compute allocation — the cost-curve lever bet 1 needs at the funnel level)",
+    "other"
+   ],
+   "maps_to_research_recs": [
+    "§13b gap: adaptive per-request candidate budgets / learned cascade (both reports miss it; Pinterest already shipped a version)",
+    "#10 L1 exit criterion (cost asymmetry retrieval fetch sub-linear vs ranking linear is stated here)"
+   ],
+   "keep_pivot_stop": "STOP-or-shrink stands (already cut 5/20); do not re-fund — but cite it as prior art and let Mehdi's framework be the place any 'personalized compute budget' idea from bet 1 lands.",
+   "rationale": "James's own ruling, consistent with Dylan's portfolio curation; the research synthesis nonetheless flags exactly this capability as a literature gap, so the org already owns a publishable negative-cost story without spending a head.",
+   "evidence": [
+    "work/projects/learned_dynamic_triggering_elt.md — 2026-03-31 deck + 'ELT Presentation Outcome (March 30, 2026)' + Key Numbers",
+    "work/people/dylan_wang_archive.md — 2026-05-20 'Dynamic Triggering — locked as cut'; scope table 'Stop funding'; 'Let Mehdi drive, you focus on AI'",
+    "work/people/team_members_scope.md — Alok entry (workstream superseded 7/15)",
+    "work/projects/nlfu_support_2026.md — H2 candidate #6 (pocketed)",
+    "work/people/h2_2026_team_analysis.md — Appendix stale files (DT 3/31)"
+   ]
+  },
+  {
+   "name": "Multi-Embedding Learned Retrieval (ME LR) — GPU migration",
+   "owners": [
+    "Hanlin Lu (L14; UOE, Decoupled Entity Representation; drove viewer-tower CPU→GPU to completion)",
+    "Yuke Yan (was owner of the Unity side)"
+   ],
+   "status_2026_09": "ME GPU serving rollout passed launch review in 2025, slipped several months, completed in H1 2026 (viewer tower CPU→GPU). 150 sizers transferred from ME to HF-RecGPT (H1). Listed in May 2026 'proposed cuts' as lower-leverage (Yuke 10%). KDD'25 paper (Pan et al.) is the published anchor. No H2 milestone carries it.",
+   "what_is_built": "Multi-embedding user representation for diverse/tail interests; GPU-served viewer tower; KDD 2025 paper.",
+   "what_is_missing": "Nothing planned; no owner beyond maintenance.",
+   "maps_to_lanes": [
+    "other (maintenance)",
+    "evaldata (natural dense/K-embedding baseline for rec #9)"
+   ],
+   "maps_to_research_recs": [
+    "#9 'K coordinated embeddings with adaptive dispatch vs one beam-search GR nominator' — ME LR + CLR are the K-embedding arm",
+    "§12.5 embedding collapse vs interest collapse"
+   ],
+   "keep_pivot_stop": "SHRINK to maintenance (already the direction); reuse as the dense multi-interest baseline in the rec-#9 A/B rather than investing.",
+   "rationale": "Budget already moved to RecGPT (150 sizers); the only research value left is as a controlled comparison arm, which costs an experiment, not a team.",
+   "evidence": [
+    "work/people/team_members_scope.md — Hanlin entry 2026-08-02; Yuke entry 2026-06-23/06-24; §2025 highlights 'Multi-Embedding Learned Retrieval'",
+    "work/people/dylan_wang_archive.md — 2026-05 workstream table (Multi-embedding: Yuke 10%, 'Roll out GPU migration to save costs', +0%) and proposed cuts",
+    "work/people/downward_reviews/h12026/hanlin_h1_2026_feedback_draft.md — ME GPU serving credit (2026-08)"
+   ]
+  },
+  {
+   "name": "Intelligent Boards (LLM-based offline board recs, dogfood sprint)",
+   "owners": [
+    "Balaji Rengarajan (L16 TL, 100% through the sprint)",
+    "Ling Lan (on paper)",
+    "Daniel Liu (EM); Andrew Yaroshevsky (ultimate TL, hands-on)",
+    "Yan's / Edward's teams on FM integration + e2e pipelines; client EM partner (Jiaqi + Yash IB clients)"
+   ],
+   "status_2026_09": "Andrew-funded anticipation bet, 'NOT boards ballast' (James 8/2). 10-week dogfood sprint (~wk 5 as of 8/3): LLM-based offline IB serving internal dogfood users; post-sprint mostly dogfood not A/B — 'LLM serving constraints to solve, long iteration loop.' Gains-origin gate ~Oct decides whether IB carries forward and which EM's LLM lane it attaches to; Balaji's L16 line move needs Dylan sign-off. SSv2 #6 mandate (8/29): one SSv2-moving launch from the IB/RB cluster by EOY. Predecessor AMB never launched (morale scar). Balaji (8/30): wants scope 'less 0-to-1, more incremental'.",
+   "what_is_built": "LLM-based offline IB prototype; Unity Board backend essentially finalized (Roderick).",
+   "what_is_missing": "An A/B path; LLM serving cost/latency solution; the gains-origin read.",
+   "maps_to_lanes": [
+    "other (bet 5 — LLM offline; the second instance after LLM-pUIC)"
+   ],
+   "maps_to_research_recs": [
+    "§7 data investments (LLM-generated features/annotations); no direct rec #1–#10"
+   ],
+   "keep_pivot_stop": "KEEP through the ~Oct gate at current size; decide then; do not grow before the gate.",
+   "rationale": "Already gated by James's own design (gains-origin read) and funded by Andrew; the research-arm relevance is only as an offline-LLM consumer, which the gate will price.",
+   "evidence": [
+    "work/people/team_members_scope.md — Workstreams table IB row (8/2, 8/3, 8/5 Yan 1:1s); Balaji entry 2026-09-03; Sc boards",
+    "work/people/reorg_july2026/t2_decision_ledger.md — Undecided #2 IB·LLM-pUIC (~Oct gate); 2026-08-30 Balaji entry",
+    "work/career/exceeds_h2_2026_campaign.md — SSv2 #6 mandate (8/29)",
+    "work/people/reorg_july2026/workstream_descriptions_2026-07-27.md — §7"
+   ]
+  },
+  {
+   "name": "Recommended Boards (Collection P13N)",
+   "owners": [
+    "Daniel Liu (EM)",
+    "Yongwoo (L15 MLE, RB/UGC TL) and Felix (L14 SWE) — both 'fine with anything' (9/3), pointed at LWS",
+    "Yiping Wang (L13; ramping on RB, stays Daniel)"
+   ],
+   "status_2026_09": "No metric movement in ~6 months (Dylan 7/14); a notification collab produced 'wow' improvements. James 8/2: deliberately slow-played/starved. 9/1: still a problem — Daniel wants to keep investing; Anna recommends cutting it ('waste of time'); James tends to agree but won't do it top-down. Leo rec (unratified): make it Daniel's conclusion via capacity arithmetic + product's stance + a scope trade; land Yongwoo + Felix → LWS as a move-to.",
+   "what_is_built": "Live surfaces on Related Pins and Search; several small models; Unity Board backend.",
+   "what_is_missing": "A reason to keep investing; Daniel's own conclusion (back 9/11).",
+   "maps_to_lanes": [
+    "other (ballast)"
+   ],
+   "maps_to_research_recs": [],
+   "keep_pivot_stop": "STOP-or-shrink to KTLO (already the intended direction); execute as Daniel's conclusion after 9/11, redeploying Yongwoo/Felix to LWS.",
+   "rationale": "Product, James, and the capacity arithmetic under a hiring freeze all point the same way; the only open question is the how (Daniel's ownership of the call).",
+   "evidence": [
+    "work/people/team_members_scope.md — Workstreams table Recommended Boards row (7/14, 8/2, 9/1, 9/3)",
+    "work/people/reorg_july2026/workstream_descriptions_2026-07-27.md — §8",
+    "work/people/reorg_july2026/t2_decision_ledger.md — 2026-09-03 (Yongwoo/Felix own voice)"
+   ]
+  },
+  {
+   "name": "Preranking paper — 'Alignment + Accuracy: A First-Principles Framework for Preranking' (RecSys 2026)",
+   "owners": [
+    "Hedi Xia (lead author)",
+    "James (co-author position 13; editor/pressure-tester — his edits complete by 4/29)",
+    "13 co-authors total (LWS team)"
+   ],
+   "status_2026_09": "Accepted at RecSys 2026 with an oral (per the P13N Retrieval EM primer). Editing infrastructure (49 fixes across 6 tiers) built 4/25; James's parts closed 4/29; Tier-0 LaTeX blockers were still unapplied at 4/25e (later status unknown). Frames L1 as alignment-to-L2 + accuracy on unimpressed candidates; includes offline metric ↔ online A/B correlation (N=20 forward test).",
+   "what_is_built": "The org's one peer-reviewed eval-methodology artifact for the L1 stage; Hedi's online-alignment metrics + offline replay underpin it.",
+   "what_is_missing": "Follow-through into the L1 exit criterion (rec #10) and into retrieval-stage eval (recall@K vs L2 acceptance) — the paper is L1-only.",
+   "maps_to_lanes": [
+    "evaldata (offline↔online alignment methodology)"
+   ],
+   "maps_to_research_recs": [
+    "#2 consistency/logit distillation on the L1 candidate set (the paper's L_align)",
+    "#10 L1 exit criterion (the paper supplies the alignment metric the criterion needs)",
+    "§13e retrieval evaluation methodology gap — extend the method upstream"
+   ],
+   "keep_pivot_stop": "KEEP (harvest): present it as the org's eval-science credential and extend its offline↔online method to retrieval as the first evaldata deliverable.",
+   "rationale": "An accepted oral is exactly the 'curves and negative results as deliverables' the agenda wants; the marginal cost of extending the framework to retrieval is far lower than inventing a new eval program.",
+   "evidence": [
+    "work/projects/preranking_paper/README.md — effort started 2026-04-25; roles; top blockers",
+    "work/projects/preranking_paper/paper_capture.md — action items (RecSys 2026 deadline)",
+    "work/people/reorg_july2026/p13n_retrieval_em_primer.md — §3 'preranking paper accepted at RecSys with an oral' (2026-08)",
+    "system/session-logs/2026-04-29b.md — 'Closed: Hedi preranking edits (James's parts)'"
+   ]
+  },
+  {
+   "name": "NLFU (New Low Frequency User) support — cross-org H2 ask",
+   "owners": [
+    "James (front door) + Dhruvil (Dylan: '@Dhruvil and @James can confirm')",
+    "Brian Lee (Growth, H2 plan), Sen Yang (IC18 MLE, Growth)",
+    "Devin Kreuzer — CLR UIC-condition tuning for NLFU (A/SSv2 #7, 9/3)",
+    "JJ Hu — NLFU × Responsiveness follow-ups",
+    "RR (Chuxi/Alim) — offsite-signal + NLFU-targeted experiments"
+   ],
+   "status_2026_09": "Growth goal ~0.5% NLFU WAU via a 3-month sprint; SSv2 trade-offs OK'd by Vicky/Jeff only through Q3 (end-Sept). James's Monday message (7/27) carried his three items + LLM pUIC × PinnerSpark; pocketed: LFU eval suite/debiasing on UPP and NLFU Dynamic Triggering. First James-org lever with owner and launch framing: Devin's CLR UIC-condition tuning (9/3). Inventory of existing P13N work serving NLFU still open since 7/25.",
+   "what_is_built": "NLFU × Responsiveness joint launch (JJ); heuristic pUIC positive for LFU; UPP NLF, GULP in SEO/notif, see-more/see-less (Dylan's list).",
+   "what_is_missing": "The inventory; per-segment (LFU) offline metrics + online dashboards across UPP/P2P; the fund-or-not decision; the Sen connect.",
+   "maps_to_lanes": [
+    "other (Growth-funded deliverables on existing engines)",
+    "evaldata (Leo's #4 — an LFU segment eval suite would make every UPP launch legible as NLFU work)"
+   ],
+   "maps_to_research_recs": [
+    "#5/#4 indirectly (segment eval is a precondition for any scaling claim on LFU)",
+    "§13a cold-start/exposure bias omitted by both reports"
+   ],
+   "keep_pivot_stop": "KEEP as funded deliverables on existing engines (Dylan-aligned posture); use it as the funding niche for the LLM-pUIC pivot.",
+   "rationale": "The authorization window closes end-Sept, the posture is already set, and one named CLR lever exists; the research-arm value is the segment eval suite, which doubles as the NLFU inventory.",
+   "evidence": [
+    "work/projects/nlfu_support_2026.md — captured 2026-07-25; H2 candidate proposals; DECISION 7/25; 2026-09-03 CLR lever",
+    "work/career/exceeds_h2_2026_campaign.md — A/SSv2 #7",
+    "work/people/reorg_july2026/workstream_descriptions_2026-07-27.md — §10"
+   ]
+  },
+  {
+   "name": "Safe Journeys / CQ×P13N joint quality-safety framework (GenAI density, teen safety)",
+   "owners": [
+    "James + Qinglong Zeng (CQ) co-authors; Dhruvil + Dafang (density head plan); JJ (in-session responsiveness design); Michael/Faisal (T&S); deliverable to Bill Ready (8/26–28)"
+   ],
+   "status_2026_09": "Joint framework v1 (24 pp) delivered ~8/26 for Bill Ready review 8/28; Dhruvil's 8 observations dispositioned 8/24 (one real gap: success criteria; one half-gap: offline-online correlation missing from the diversification table). Decisions: P0 = density control in L1 Utility (CQ picks the signal); quality head predicting downstream session density lives at FINE-TUNE on the UPP/CFM framework (Dhruvil + Dafang put the plan on paper, kill criterion); training-time reweighting = evaluated alternative; retention holdout asked for in exec tab; pretraining quality objectives = explicitly open research (RecGPT-era note).",
+   "what_is_built": "Placement doctrine v2; L1 Utility negative-head filtering; the doc's ownership split (CQ: signals/calibration; Recsys: integration, density head, experiment scaffolding).",
+   "what_is_missing": "Success criteria section (§0), calibrated classifiers landing in Galaxy (CQ critical path), the density head itself (ranking-side), in-session responsiveness design depth.",
+   "maps_to_lanes": [
+    "other (XFN safety obligation on James's L1 platform)",
+    "evaldata (regrettable vs non-regrettable engagement decomposition; retention holdout)"
+   ],
+   "maps_to_research_recs": [
+    "§13a exposure/creator-side distribution objectives (gap in both reports)",
+    "#6 candidate logging (density control needs candidate-set→served-slate translation)"
+   ],
+   "keep_pivot_stop": "KEEP as an XFN obligation on the L1 platform; not a research-arm lane (the head is Dhruvil's ranking bet).",
+   "rationale": "Exec-visible (Bill Ready) and already landed; the org's role is integration on L1/UPP fine-tune, which is bounded. Anything more would compete with the six bets for the same people (JJ).",
+   "evidence": [
+    "work/projects/safe_journeys/joint_doc_plan.md — D1–D8 (2026-08-18)",
+    "work/projects/safe_journeys/dhruvil_disposition_2026-08-24.md — pattern + Obs 1",
+    "work/projects/safe_journeys/placement_doctrine_v2.md — §4–5 headers"
+   ]
+  },
+  {
+   "name": "UPP base-retriever release cycle + cross-org operational model (the handoff mechanism)",
+   "owners": [
+    "James (author, v4 2026-04-25) with Hongtao Lin, Rui Liu, Piyush, Zihao, Jaewon Yang, Dimitra, Matt Chun",
+    "Notif = V0 handoff test case; P2P productionization via Sai's ops doc (8/24); Monthly Handoff Review proposed"
+   ],
+   "status_2026_09": "Doc v4 in working-group review since 4/25; pending addendum (5/13) on coupled-design info-sharing after the OneTrans surprise. In practice the P2P launch (8/25) made Sai's 'UPP P2P v0: Operational Challenges and Maintenance' doc the productionization surface: HF owns base-model snapshot release + ARF, training efficiency (Piyush), ads-free pinperf rebase; Piyush asked for a cross-surface virtual team/funding (understaffing).",
+   "what_is_built": "Roles/ownership boundaries, release cadence, version-maintenance defaults (three scenarios), surface-team ops-plan checklist, tripwires, MHR mechanism.",
+   "what_is_missing": "Adoption as the standing process (Notif handoff 'by end of May' status not on record); the virtual-team funding answer (Dylan/Dhruvil/James thread); GPU-planning section.",
+   "maps_to_lanes": [
+    "other (platform operations — the delivery path for anything bets 2–3 produce)",
+    "systems (GPU planning + training-time targets are release-cycle items)"
+   ],
+   "maps_to_research_recs": [
+    "#1 infra rung (release cadence/versioning; not streaming embeddings)",
+    "§13d embedding-version skew, index-rebuild cadence vs re-tokenization cadence — the ops doc is where those SLAs belong"
+   ],
+   "keep_pivot_stop": "KEEP; add GPU budget + retrain cadence as first-class sections so base-model releases carry a compute line.",
+   "rationale": "Bets 2–3 only matter if a scaled base model can be released to surfaces in 2–4 weeks; the mechanism exists on paper and got its first real test on P2P. It is also where Piyush's understaffing point must be answered.",
+   "evidence": [
+    "work/projects/upp/cross_org_operational_model/draft_v3_synthesized.md — BLUF, §1, pending addendum 2026-05-13",
+    "work/projects/upp/upp_retrieval_em.md — 2026-08-24 addendum (Sai's six-item list; James's doc edits), 2026-08-25 'What it settles' #4"
+   ]
+  }
+ ],
+ "already_invested_summary": [
+  "Org size and shape (team_members_scope.md, headcount of record 8/24; Sc 9 board 9/3): 28 IC seats = 27 people + REQ-2 (now Richard Wang, signed 9/2) + 2 EMs (Daniel Liu M16, Alim Virani M16) under James (M17). T2 board Sc 9: James 7 / Alim 10 / Daniel 11. Hiring freeze public 9/2; no new reqs assumed.",
+  "Where the people are (exceeds_h2_2026_campaign.md 'Who carries what, v2', 8/29): ~9 ICs feed the five SSv2 movers (RecGPT: Bella, Hanlin, Yuke; LWS: Yali, Hedi; CLR: Devin, Yichi, Ryan; Yiping); UPP runs through 3 (Piyush, Zihao, Nima 9/8 — 'B runs through Piyush alone'); pUIC/RR ~8 ICs + Alim (Chuxi, Yidi, Alok, Kim, Ling, Lionel, Roderick, Esteban); Reflex 2–3 ICs (JJ, Rui, Bella-Simulate); Balaji/Yongwoo/Felix on IB/RB under Daniel. Cross-org non-reports: Zelun (ATG), UU team, Blending (FBL), Chao/Gideon/Janvi (Reflex eval).",
+  "Dense two-tower retrieval is the org's mature, GPU-served engine: CLR (Devin) and UPP (Piyush/Zihao) are both two-tower conditional retrievers; GPU viewer-tower serving is in production since Mar 2026 ($650k saved, latency −85%); UPP v0 launched on P2P 8/25 and on Notif ×4; the 5-surface trainer + fine-tune ladder exist (upp_retrieval_assessment.md, May 2026).",
+  "Pre-ranking is the second mature engine: LWS at 100% GPU serving (stable 3+ months), Unified Tower + TransAct on GPU, training 40h→7h, rank distillation, unimpressed track, L1 Utility with SID+UIC diversity controls, and a RecSys 2026 oral (Alignment + Accuracy). Daniel owns it at T2; the LWS×UPP (RecGPT-path vs L2) decision is due first week of October (p13n_retrieval_em_primer.md; l1_flashpoint_2026-08.md; daniel_liu_archive.md).",
+  "Generative retrieval is invested but contested: RecGPT (Bella/Hanlin/Yuke + ATG) has a production HF CG, a +0.4% SSv2 H2 target incl. teacher distillation, a RecGPT L0+L1 proving-out, and its structure is spreading into RR (Chuxi's 2-in-1); but offline gains haven't translated online, a strategy one-pager was requested 8/22, ATG reads RecGPT-as-backbone 'P2', and ownership is parked with James until a November evidence review (team_members_scope.md; retentive_recs.md 8/22; t2_decision_ledger.md).",
+  "Anticipation/retention (Retentive Recs, pUIC, Explore module, FBL) is the largest single bet by headcount (~8 ICs + Alim), with Anna promoted to Principal PM 9/4, model-pUIC showing unstable LFU gains, the HF Exploratory Module ramped 9/3 (early read ~9/24), and an explicit 'no more people now' ruling 8/26; Chuxi is in 5 of 6 focus areas (retentive_recs.md 8/26–8/27).",
+  "Eval/AI-leverage is invested through Reflex (James's named Evaluation & Evolution thread; Dafang TL, Tim PM, JJ Build; judge V1 built, Evolve TDD in review, Curator unmeasured) plus PINvestigator in regular use and Pinkerton folding into Reflex's Prove stage; a Code Red lane chose Reflex 9/4 and a DE adopted it on day 3 (reflex/program_state.md; eval_00_hub.md).",
+  "Ranking-side foundation-model scaling (CFM) is invested by Dhruvil's team + ATG, not James's: fixed-FT-budget study with ~1% repin from CFM pretraining, PEFT variants negative, all lower throughput; James's org touches it via Hedi's FM/CFM experiments for L1 and the V1 (FM viewer tower) plan, neither of which has produced a result on record (cfm_technical.md §6; l1_flashpoint 8/20–22).",
+  "LLM-in-the-loop work exists in three offline-leaning places — LLM-pUIC (underperforming, [p?]), Intelligent Boards (LLM offline dogfood sprint, Oct gate), and Anna's LLM-backbone consolidation idea (Daniel trajectory, parked to Q4) — none in the serving hot path (retentive_recs.md 7/25; team_members_scope IB row; daniel_liu_team_2026-07.md 7/24).",
+  "Cost/efficiency is a named charter with a $2M savings top-line and a >$1.8M/yr over-budget find under Dylan, but the investigation has no status since 7/25 and the cost report just found an owner outside James's line (Rahul, Core Serving Infra, 9/4); Dynamic Triggering (the org's per-request compute-allocation framework, $938K/yr shipped) was cut by James 5/20 and is driven by ATG/Mehdi (cost_investigation_2026.md; dylan_wang_archive.md 5/20).",
+  "Recommended Boards is being starved by design and Multi-Embedding is at maintenance; both are already 'shrink' decisions awaiting execution (team_members_scope.md RB row 9/1; May 2026 proposed-cuts table)."
+ ],
+ "compute_and_cost_facts": [
+  "cfm_technical.md §6 (created 2026-06-07): 'serving clusters have underutilized GPUs (host-CPU-bottlenecked, low SM activity → inference headroom)'; fine-tune compute is fixed (training); distillation targets larger non-serveable teachers ('teacher can be arbitrarily better since it needn't be serveable'); all FT variants (LoRA/DoRA/PiSSA, freeze+quant emb) had lower throughput than baseline; batch sizes master 4400 / baseline_v3 4000 (80M embedding table) / other groups 2200; runs without semi-sync.",
+  "cost_investigation_2026.md: Jeff's Core org ~$5M/yr over budget; James's dig found >$1.8M/yr over budget under Dylan alone (7/22); Jeff priority #3 = trim it, James driving for Dylan from 7/23; Jeff priority #2 = AI/GPU usage down — James 'handled… team GPU usage up + monitoring in place' (7/25); no investigation status on record since 7/25; 9/2: infra cost-estimation tool underfunded and unowned under a hiring freeze ('cost is the lever we still have'); 9/4: Rahul's team (Core Serving Infra) owns the cost report, James specs it (Leo rec: infra $/month · trend vs budget · $ per SSv2 point/launch · over-budget by team).",
+  "Org cost charter (team_members_scope.md Org shape; org_doc_fill_2026-07-27.md): $2M cost-savings top-line → James $1.2M / Daniel $0.6M / Alim $0.2M (Leo-proposed, unratified); Foundations & Efficiency 'carries the $2M line… aligned with the budget investigation's >$1.8M trim opportunity'. 2025 canonical: ~$3M/yr cost savings; per-launch claims sum ~$4.5M annualized (directional; probable double count) vs ~$180k accepted increases (p13n_retrieval_em_primer.md).",
+  "CLR serving (p13n_retrieval_em_primer.md §2): GPU serving via attached data (Mar 2026) — $650k saved, model latency −85%, approved with named intent/non-shopping-clickout regressions; Single Scorpion request (Oct 2025) — $350k, prerequisite for GPU serving; Claude-tuned condition budgets (May 2026) — SSv2 +0.18% 'exploiting the freed GPU capacity'; interest-service shutdown $424k (2025); Unified Interest+Board CLR training 70% faster (May 2025).",
+  "LWS serving/training (p13n_retrieval_em_primer.md §3; team_members_scope.md Yali H1 record): GPU serving + model scale-up (Oct 2025) SSv2 +0.17%; Yali productionized GPU serving and migrated 100% of LWS traffic, 3+ SEVs resolved, stable 3+ months with no GPU incident (H1 2026); Unified Tower + TransAct on GPU (Mar 2026) HF reports −12.72%, 'unblocking foundation models and 16k sequences'; training pipeline re-architected 40+h → ~7h; Ray adoption 138k→305k examples/sec, 17h→8.5h (Jan 2025); calibration data to Iceberg ~$220k/yr; funnel-log removal $46k/yr; PROD→L2 dataset migration $80k/yr + SSv2 +0.20%; LWS CG onboarding ~$67K savings. l1_utility.md: 'GPU serving for LWS is fully up-ramped in production' → target ~16k user sequences on GPU. l1_flashpoint: the LWS GPU-serving launch was built by Matt Lawhon + Piyush over ~9 months, then taken over by Yali.",
+  "Ranking cost exposure (learned_dynamic_triggering_elt.md, 3/31/2026): Pinnability ~$5M/yr + LWS ~$1.5M/yr = ~$6.5M/yr ranking exposure scaling linearly with candidates sent; Dynamic Triggering shipped ~$938K/yr savings (HF $258K + RP $680K), shopping load −8% with repins +0.51%; Dynamic Sizer latency 70ms → ~15ms (Alok's H1 review says ~20ms); funnel ~20 CGs → ~10k pins → LWS/Pinnability → ~2k → ~200; retrieval fetch cost sub-linear vs ranking score cost linear; 'may need GPU optimizations from MLP teams' if extended to LWS/Ranking budget tuning.",
+  "UPP P2P training/GPU (upp_retrieval_em.md 8/24–8/25): UPP v0 fine-tune = 18h on p4de ('a lot'); p4d 17h acceptable; Sai wants ≤10h; v1 = 13h on p4de; OneTrans already requires p4de (so UPP adds no new hardware class); PMLI collaboration got OneTrans to 6h → back on p4d; Sai's p4de request is unfulfilled and conflicts with the P2P ranking team; 'if we launch UPP and expect p4de long-term we should push for budget approval… call out to leadership'; HF owns training-efficiency (Piyush ETAs due 8/26; ~10h target); Piyush offered HF-retrieval + ATG GPU as interim; Sai's post-approval item 6: 'GPU constraints for UPP adoption long-term — need leadership alignment on urgency and resource-sharing plan'.",
+  "Search surface GPU serving: 8/1 — Search adopting V0, 'GPU serving may be hard to get' (another org's capacity); 8/13 — 'productionization needs GPU serving; their POC is just-working and slower than expected'; 8/14 — Roberto Konow (Sr EM Search) offered to spend his own capital with Jeff to unblock GPU serving for Search, the blocker on the sequence-modeling → UPP collaboration (Yichin's team wants to run experiments); James owes Roberto a half-page on what the experiments need in GPU serving + expected win (Reflex program_state 8/14; exceeds §4 'Jeff — the GPU-serving half-page, carried item'); 8/19 — don't spend new capital on SSJ-only productionization before the SSJ-stop perimeter is clear.",
+  "UPP deployment/compute documentation (upp_retrieval_assessment.md, May 2026): viewer tower GPU at query time, pin tower CPU for offline HNSW index; N forward passes × M conditions = N×M ANN lookups at serving (undocumented); batch mixing 50/20/15/10/5 hardcoded; 'No documentation of compute budget: training cost per iteration, total training time, GPU-hours' (gap #6).",
+  "Quota: SMS batch optimization + L1 utility experiments (Konish Dutta, JJ, Aditya Mantha) freed ~400 candidate quota at zero L2 cost, neutral topline (8/13); the UPP hedge req question referenced landing 'inside the free-quota window (~400 candidates)' (t2_decision_ledger undecided #5).",
+  "P6 GPUs: Dhruvil's 4/5/2026 thread tagged Dylan + CTO asking P6 GPUs for ranking ('unblocks the long-term vision for UPP'); James +1'd and explained why retrieval had no p6 requests; the 6/5 UPP CEO/CTO deck's 'where can we get help' asks (P6 GPUs, ML Foundations funding, ATG resources) were entirely foundations/ranking-coded (dylan_wang_archive.md 4/5; upp_retrieval_em.md 6/5).",
+  "CTO Matt Madrigal (~7/13, Ads Retrieval discussion): 'particularly interested in GPU retrieval — bread and butter for Meta'; CLR GPU serving already in production, Notif adopting, P2P adopted (stakeholders.md §39; upp_retrieval_em.md 7/13).",
+  "RecGPT serving: ANN migration Faiss → Manas saved ~$60K (Hanlin H1); 150 sizers moved from Multi-Embedding to HF-RecGPT; Bella's GPU-allocation handling was critiqued as 'critique-only' in the 7/27 H2 conversation (a GPU allocation discussion exists within RecGPT; details not on record). Multi-Embedding GPU serving rollout slipped several months before Hanlin completed the viewer-tower CPU→GPU migration in H1 2026.",
+  "Model-pUIC serving path: model export → Scorpion GPU serving → Unity retrieval; SMS/RecGPT feature incompatibility forced the L500 migration; int8/fp16 dequantization issues (Yidi H1). Intelligent Boards: 'LLM serving constraints to solve, long iteration loop' → mostly dogfood, not A/B (Yan 8/5).",
+  "Shifu (Search's build agent): 7 launches incl. $340K cost reduction (8/10 deep-dive). Reflex run cost is untracked (8/10 'sober ledger'). NLFU trade-off math (7/25): unconstrained 3% NLF WAU would cost 2.8% SSv2; focused plan 0.5% NLFU WAU for ~0.5% SSv2 trade-off, authorized only through Q3 (end-Sept); Brian's 4-HC ringfence ask rejected in favor of named deliverables."
+ ],
+ "uninvested_lanes": [
+  "systems — bet 1 (bend the serving cost curve for long sequences): no one in the org owns prefix/KV caching of user-history attention state, KV-cache quantization, linear-attention (HSTU-style) serving, or FP8/INT4 inference for retrieval; the only systems facts are the CFM group's 'host-CPU-bottlenecked, low SM activity' observation (ranking side) and shipped GPU-serving migrations (CLR, LWS, ME) that were cost/latency launches, not a research lane. The agenda itself says 'Your org spends roughly none of its explicit charter on it.' Closest adjacent capacity: Ryan/Rui 'retrieval ML infra (Manas)' willingness (9/3), Piyush's training-efficiency item, and the UPP release-cycle doc — none framed as research.",
+  "systems — training half of bet 3 (LLM training toolkit: multi-node, FSDP, sequence packing, mixed precision for a 1B–7B offline user model): absent from every project file; teacher distillation appears only as a Bella H2 criterion and a CFM design principle, with no plan, owner, or compute allocation.",
+  "scaling — bet 2 (retrieval scaling curve, parameters × sequence × data under fixed FT budget, published on own data): not run anywhere; the CFM scaling study is ranking-only (Lawhon/Poska/Rajesh/Kelly He/Jaewon); UPP V1/FM is a build plan, not a curve; no negative-results deliverable path exists (rec #5 unmet).",
+  "tokenizer — bet 4 as a platform service (rec #7): the SID codebook (frozen RQ-VAE, 8 codebooks × 2048 in P2P LR) has no owner in the repo; codebook stability under item churn, collision handling, drift between re-tokenizations, cold-item coverage SLAs are unaddressed; RR deprecated SIDs for reward tracking ('signal bleed'); RecGPT consumes SIDs but does not own them; no GR+dense hybrid (rec #8) framing on record.",
+  "evaldata — candidate logging at retrieval/L1 as a first-class project (rec #6) is not a named workstream (only partial instances: unimpressed data, Armando's funnel debugger, Reflex full-funnel logging); the offline→online correlation map for retrieval (UPP gap #4) is confirmed broken (P2P: 1% worse offline, much better online) and no one owns fixing it — Reflex eval is aimed at Detect-card judging, not at this; the LFU segment eval suite (NLFU #4) is pocketed, not funded.",
+  "other — compute budget managed like headcount (GPU-hours allocation artifact): explicitly listed as open in the 2027 agenda; the cost investigation has no status since 7/25 and its report owner is outside James's line; unit economics (cost per incremental engagement for GPU retrieval vs CPU ANN — §13e) does not exist for any James-org launch.",
+  "other — rec #9 (the multi-interest A/B: K coordinated embeddings vs one beam-search GR nominator, measured on downstream L2 acceptance): all the arms exist in the org (CLR/UIC multi-interest, Multi-Embedding LR, RecGPT) but no one has proposed or scheduled the experiment.",
+  "other — rec #10 (a written L1 exit criterion): the CFM-vs-RecGPT L1 question is being settled by governance (one POC, criteria in Yali's one-pager) rather than by a cost threshold revisited against GPU pricing/MFU; not written anywhere in the repo.",
+  "other — bet 5 as a deliberate lane (LLMs as offline annotators for cold interests/novelty/pseudo-labels): LLM-pUIC is under-performing and un-owned as of 8/27 ([p?]), IB is gate-pending, and the LLM-backbone inventory owed to Anna since 7/24 has not been written — LLM work exists but has no offline-annotation charter."
+ ]
+}

@@ -1,0 +1,1251 @@
+{
+ "people": [
+  {
+   "name": "James Li (org lead — included for completeness)",
+   "level": "M17 MLE (Sr. Manager)",
+   "reports_to": "Dylan Wang (Sr. Director, Homefeed Relevance)",
+   "team_or_pod": "P13N Retrieval org lead; James-direct pod at T2 (Sc 9, 9/3) = UPP (Piyush, Zihao) + Reflex/F&E (JJ, Bella) + RecGPT parked (Yuke, Hanlin) + Zili's case = 7 lines",
+   "current_workstreams": [
+    "UPP (front door, Piyush TL) — UPP v0 shipped on P2P 8/25 [work/projects/upp/upp_retrieval_em.md 2026-08-25]",
+    "Reflex — one of three POCs; H2 role = broad sponsor of Dafang (TL) + Tim (PM) with ONE hands-on thread: Evaluation & Evolution (Janvi/Ads, Chao/DS) [work/projects/reflex/program_state.md 2026-08-17]",
+    "T2 org design (three-EM staff sync); ratified by Dylan 9/1 [T2L 2026-09-01]",
+    "Perf cases held personally: Zili (CPP 9/4), Yuke (détente, PIP pre-armed), Bella (rating-and-doc path) [TMS §Tier 1/3]",
+    "2027 'research arm' agenda opened 9/5 (six ranked bets: serving-cost curve, retrieval scaling curve, scale-the-teacher, own the item tokenizer, LLMs as offline annotators, Reflex eval as lab bench) [work/projects/personalization_retrieval_org_2027_agenda.md 2026-09-05]"
+   ],
+   "demonstrated_strengths": [
+    "Org design under churn: absorbed −Bowen/−Sophia/−David/−Charlie and +Alim/+Daniel's team while landing UPP v0 [work/people/h2_2026_team_analysis.md §4, 2026-08-01]",
+    "Dylan's H1 review names Reflex in all three answers; H2 bar = scale Reflex beyond P13N [work/projects/reflex/program_state.md 2026-08-17]"
+   ],
+   "evidence": [
+    "9/4: Dylan's Code Red 'TP Load and Impact' lane ran through Reflex end-to-end (plan + build) [work/projects/reflex/program_state.md 2026-09-04]",
+    "9/3 evening rulings: Yiping stays Daniel; Ling doesn't travel with Balaji; RecGPT stays James through EOY [T2L 2026-09-03]"
+   ],
+   "growth_edges_or_risks": [
+    "Self-verdict 8/28 on Dafang escalation: 'came down too hard'; 9/3 'too rough' conversation with Alok — same shape [work/projects/reflex/program_state.md 2026-08-28; TMS §Alok 9/3]",
+    "Leo (8/1): defining H2 risk = concentration — everything bottlenecked on James [work/people/h2_2026_team_analysis.md R1]"
+   ],
+   "bandwidth_flags": [
+    "Steady-state 1:1 load ≈13–14/wk (~7 hrs); Sept runs hotter [TMS §1:1 cadence 8/23]",
+    "Holds two live perf cases + the RecGPT park + Reflex hands-on eval thread"
+   ],
+   "relevance": {
+    "systems": "Author of the 2027 thesis that the systems half (serving-cost curve) is the arm's unstaked ground; not a hands-on systems owner [org_2027_agenda 9/5].",
+    "scaling": "Sponsor of the UPP FM→base→surface hierarchy; would need to broker bet 2 (retrieval scaling curve) with the CFM group (Lawhon, Poska, Rajesh, Kelly He, Jaewon Yang) [org_2027_agenda §Open].",
+    "tokenizer": "Holds RecGPT parked through EOY by his own 9/3 ruling; 'needs a lens, not headcount' is his framing [T2L 9/3; org_2027_agenda bet 4].",
+    "evaldata": "Personally owns the Reflex Evaluation & Evolution thread (golden-dataset labels for Chao owed 9/3) [program_state 2026-09-03].",
+    "armlead": "De facto arm lead today; the question the 9/5 agenda opens is who else could hold it — Dylan (8/19): only Piyush currently scales her judgment [TMS §Piyush 2026-08-19]."
+   }
+  },
+  {
+   "name": "Alim Virani",
+   "level": "M16 MLE (ML Engineering Manager II); he/him; started 7/27/2026; Texas time zone",
+   "reports_to": "James",
+   "team_or_pod": "Retrieval Modeling (T1 name). Day-1 pod: Chuxi, Yidi, Alok, Lionel. Sc 9 (9/3) line = RR pod 4 + CLR (Devin, Yichi, Nima 9/8, Richard 9/21) + Yang (Dylan accepted 9/1) + Kim (pencil, her call by 9/11) = 10; 11 if Balaji picks him",
+   "current_workstreams": [
+    "Retentive Recs end to end incl. PM interface (Anna/Krystal) — officially his since 8/21; carried the RR Eng Focus-areas Snapshot to the 8/31 Slumber Party sync [AVA 2026-08-27; work/projects/retentive_recs/retentive_recs.md 2026-08-27]",
+    "CLR ramp = his day-60 expansion (start onboarding ~end Sept while holding RR momentum); CLR → Alim settled 8/21 [AVA §30/60/90 logged 8/16; T2L 2026-08-21]",
+    "Geo/location-recs side quest (spike, ≤10–15%, legal gate first; audience Rajat/Jeff) [AVA §side quest 2026-08-16]",
+    "Kim integration into RR if she chooses it; absorption plan for Nima/Kim/Lionel owed (the end-of-Sept 'written thing James didn't write' test) [AVA 2026-08-26 agenda]",
+    "CE Managers Offsite 9/15–17 with Jeff/Rajat/Kurchi/Bo Zhao; Dylan lunch wk 8/24 [AVA 2026-08-21]"
+   ],
+   "demonstrated_strengths": [
+    "Self-ranked strengths XFN > modeling > systems > platform, with an unprompted concession that platform/systems is not his strength [AVA 2026-08-12 1:1]",
+    "James week-2 read: manages up, bias for action, tactical on pUIC, rallies the team — 'exactly the senior-manager attributes'; volunteered to drive technical onboarding across both teams [AVA 2026-08-07]",
+    "First of James's three manager-of-managers attempts to show own-vision behavior unprompted (8/14) [AVA 2026-08-14]",
+    "Self-ratified the expansion lane (RR + CLR over RecGPT) in writing 8/20 with a staffing plan (Zelun mentors Alok on CLR training) after doing diligence with Chuxi [AVA 2026-08-21; correction same day: a lean away from RecGPT, not a decline]",
+    "4/4 positive pod first reads (Chuxi, Yidi, Alok, Lionel) [AVA 2026-08-04]",
+    "Prior work: Google Core Search (early production TPU + attention), Twitter Cortex recsys research, Twitter Growth Platform EM under Roberto Konow, Spotify foundational distillation service, Etsy first growth-ML team + Etsy LLM-pUIC founder ('almost traction') [AVA §1 Career arc; hiring/em_backfill_alim_virani_2026-05-05.md]",
+    "Interview: cleanest Q3 of the Bowen-backfill loop (severity-tiered perf handling, day-90 outcomes) [hiring/em_backfill_alim_virani_2026-05-05.md]"
+   ],
+   "evidence": [
+    "8/12 written leans: LLM for RecSys, research partnerships (RecSys/KDD), XFN; GenRet 'fit after retentive recs'; UPP reach; Reflex explicitly not claimed ('not drawn to systems and platform type work') [AVA 2026-08-12]",
+    "8/13 James: 'carrying my Retentive Recs load… needs some pushing in order to make execution go smoothly. He tends to be more ideas-driven' [AVA 2026-08-13]",
+    "8/14 Roberto Konow read (dated hypothesis): fundamentalist, ideas-driven, weeds-diving, 'execution can be stronger', needs positive reinforcement [AVA 2026-08-14]",
+    "8/19: asked for RecGPT a second time; stated ≤12 reports cap [TMS §Alim 2026-08-19]",
+    "9/3 James ruling: RecGPT not on his plate this year — 'I want him to do well' [AVA 2026-09-03; T2L 2026-09-03 #3]",
+    "Dylan 8/19 mandate: coach Alim (or Daniel) into 'someone who can be in the room when I am not'; no scope creep on Anticipation [TMS §Alim 2026-08-19]"
+   ],
+   "growth_edges_or_risks": [
+    "Operating model needs a strong pushback TL (his own account 8/12); pod has no L15+ TL day 1 — James holds the pushback seat until the seat fills [AVA 2026-08-12 reads 1–3]",
+    "Very risk-loving / bets over engines (James 8/12); watch 'groundbreaking before landed' [AVA §3, §8]",
+    "UEB sits on his self-declared weakest axis; 9/3 Roderick chose Daniel, so UEB's landing on his leg is open and Lionel needs to hear his workstream [TMS §Roderick 9/3; t2_undecided_2026-09-03.md #7]",
+    "SENSITIVE, uncorroborated: 7/25–26 ex-Google-manager backchannel (via Chuxi) alleged character/PIP/harassment claims (third-hand, years-dated); Dylan looped 7/27 ('whether or not true is irrelevant — fair chance'); counter-evidence Roberto's warm 7/28 note. Observe-and-monitor posture; do not propagate [TMS §Alim 2026-07-25/27/28]",
+    "Interview yellow flag: ambition framed self-trajectory-first ('senior management in 3–5 years') [hiring/em_backfill_alim_virani_2026-05-05.md]",
+    "Network runs through Search/SSJ (Roberto, YiChin) — assume informal info flow both ways [AVA §2]"
+   ],
+   "bandwidth_flags": [
+    "Month two; RR + CLR dual-track by ~Oct is itself the EM-capacity test [AVA §Shape]",
+    "Receives most T2 movers; ≤12 cap stated [TMS §cadence]"
+   ],
+   "relevance": {
+    "systems": "Weak by his own ranking; would need Balaji/Nima-class systems TL beside him [AVA 2026-08-12].",
+    "scaling": "Modeling-strong; Spotify foundational distillation service + Google TPU/attention lineage; natural sponsor for teacher-distillation-shaped bets, not an owner [AVA §1].",
+    "tokenizer": "Wants GenRet/LLM×RecSys (stated 8/11, 8/12, 8/19) but ruled off RecGPT through EOY; his GenRet want decoded as ATG-access-seeking [AVA 2026-08-12 second pass; 9/3].",
+    "evaldata": "No direct evidence; Etsy LLM-pUIC experience adjacent to offline-annotation lane (bet 5).",
+    "armlead": "One of Dylan's two named bench candidates (8/19); XFN + research-partnership appetite + publication interest fit an arm lead; too new (6 weeks), execution-pushing needed, systems half missing [TMS §Alim 8/19; AVA 8/13]."
+   }
+  },
+  {
+   "name": "Daniel Liu",
+   "level": "M16 MLE (ML Engineering Manager II)",
+   "reports_to": "James (lateral re-parent from Yan Li, announced Wed 8/5)",
+   "team_or_pod": "Curation ML (T1; Dylan held his 'Personalization Product ML' rename 8/3). T1 line: Balaji, Roderick, Yang (leave), Kim, Yongwoo, Ling, Felix, Esteban, Yiping (8/24) + Rita (intern). Sc 9 (9/3) = LWS (Yali, Hedi, Rui, Ryan) + Roderick, Esteban + Balaji, Ling + Yongwoo, Felix + Yiping = 11",
+   "current_workstreams": [
+    "LWS (settled 8/21; T1 grant) incl. the LWS × UPP integration recommendation (RecGPT path vs L2) — decision postponed to Yali's return ~9/21 [T2L 2026-08-21; TMS §Yali 2026-08-27]",
+    "Collection P13N: Recommended Boards (UGC/SMB Board Rec) + Board Ranker (EOY targets Recall@1 50→80%, Recall@3 90→99%, sitewide repin +0.4→0.5%) [DLA 2026-08-11]",
+    "Intelligent Boards (Balaji) through the ~Oct gains-origin gate; UEB (Roderick/Esteban) charter-vs-ad-hoc now his to answer [work/people/reorg_july2026/daniel_return_message_2026-09-10.md]",
+    "Return-message asks (send 9/10): LWS 5th MLE, Collection P13N funding level, IB, UEB, LLM pUIC lane; proposal by Fri 9/18 [daniel_return_message_2026-09-10.md]",
+    "PTO 8/24–9/11, then remote from China ~9/14–9/25 [DLA §Action Plan]"
+   ],
+   "demonstrated_strengths": [
+    "Technical credential closed: led recommendation teams at ByteDance; built the Best Pins NUX model 'really hard for us to beat'; ex-TL on the Homefeed CG team [DLA 2026-08-11; §1 History]",
+    "H1 (Yan's review): 3 TL-led pillars; Board Rec for Notif +260K WAU / +350K MAU; Board Ranker +20% offline AUC (not shipped by end of H1); UEB TDD approved by all seven partner-team reviewers; consolidated two divergent LLM user-modeling pipelines into one config-driven pUIC LLM framework; ~10× model iteration speed via AI-native workflow; presented at company AI-acceleration session [DLA §Q1 MY-2026 review, dumped 8/17]",
+    "Artifact-proactive: coverage doc, program map with named DRIs/PMs, Scenarios A/B/C — all before being asked [DLA 2026-08-08; §Action Plan read]",
+    "Peer read: technical, straightforward, diplomatic, first-principles; culture defaulting to cross-org partnership; Ling: 'all his suggestions always turn out to be correct'; AI-first — initiated the Pin tools now used team-wide [DLA §2; 2026-08-07 skip-level]",
+    "Lencioni 'First Team' in his staff prep; asked for the trio 'sooner rather than later' [DLA 2026-08-08; 2026-08-07]"
+   ],
+   "evidence": [
+    "8/7: first named preferences in six months after David's concrete-conditional technique — Generative Retrieval and LLM recommendations; center of gravity LLM × Recs [DLA 2026-08-07]",
+    "8/11: wants Collection P13N + LWS/CLR (steered to LWS, took it); GenRet 'okay if you ask' with Bella-stays-with-James carve; blessed RR/pUIC/UEB consolidating away [DLA 2026-08-11]",
+    "8/19: Yiping 'sure' instantly; the RB promise surfaced only under 30 min of digging → growth area named: proactive offering [DLA 2026-08-19]",
+    "8/21 addendum: wants Roderick in all three scenarios; wants RecGPT scope for his seniors, not Bella; all three scenarios pre-delete IB·LLM-pUIC [DLA 2026-08-21]",
+    "Team service ledger: engaged without ego on CG↔P13N-Experiences boundaries [work/people/team_service_ledger.md §Daniel]"
+   ],
+   "growth_edges_or_risks": [
+    "Proactive offering / 'bring the team's perspective forward earlier' — named independently by Yan (Q2 #2) and James (8/19) [DLA §Q2; 2026-08-19]",
+    "Conversion gap: H1 heavy on foundations/offline gains, light on shipped wins (Board Ranker unshipped) — Yan Q2 #3 and his own Q2 #2 agree [DLA §Q2]",
+    "Safe-things preference (fund CLR, avoid line changes, dissolve unproven bet) [DLA 2026-08-19 patterns]",
+    "Silent cost-absorption risk — 'fine' in the room is not consent; James must protect his wants (Collection P13N, LWS, LLM×Recs) for him [DLA 2026-08-11 synthesis; Leg 4]",
+    "Anna's RR veto: emphatic he is not the EM for Retentive Recs [DLA §1]",
+    "RB investment vs Anna's 'waste of time' — James won't cut top-down; Leo rec make it Daniel's conclusion (unratified) [TMS §Workstreams RB 9/1]",
+    "Public-stage read 8/6: 'a bit junior, but glad he is trying' [DLA 2026-08-06]",
+    "People-pleaser read (David 8/21) — James's approval distorts answers [DLA 2026-08-21 David session]"
+   ],
+   "bandwidth_flags": [
+    "Dark 8/21–9/11 + China-remote to 9/25 — misses the Sept exposure run Alim gets [AVA 2026-08-21]",
+    "≤12 cap live arithmetic with Roderick+Esteban+Ryan/Rui+Yongwoo/Felix+Yiping on his line [T2L 2026-09-03]"
+   ],
+   "relevance": {
+    "systems": "MLE-superset-of-backend doctrine; UEB consolidation artifact; no personal GPU/inference-efficiency evidence on file [DLA 2026-08-03].",
+    "scaling": "ByteDance rec-team leadership + LWS ownership; LWS × UPP (RecGPT path vs L2) recommendation is his assigned late-Sept deliverable [DLA §LWS·UPP lane].",
+    "tokenizer": "Wants GenRet/LLM×Recs scope for his seniors (8/7, 8/21); Bella-avoidance is the constraint; live fork = Daniel vs park in November [T2L 2026-08-21 #1].",
+    "evaldata": "AI Harness / sprint agent / prototyping-viz platform builder; 'process is the next unlock' diagnosis [DLA §Q2 self].",
+    "armlead": "Publishes-and-gains mission by design; own M17 claim in writing; Dylan's other bench candidate; reach/proactive-offering gap is the blocker [DLA §Q1–Q3; TMS §Alim 8/19]."
+   }
+  },
+  {
+   "name": "Piyush Maheshwari",
+   "level": "L16 MLE (IC16); IC17 case being built",
+   "reports_to": "James (stays James in every T2 board)",
+   "team_or_pod": "UPP Retrieval TL (Retrieval Foundations); CLR + LWS advisory; UPP+CLR pool anchor",
+   "current_workstreams": [
+    "UPP retrieval — v0 launched on P2P 8/25 (`n_4_r_2x0_enabled_p2p_prod_v100`); snapshot-release section + efficiency list/ETAs by 8/26; UPPv2 Retrieval presentation owed [work/projects/upp/upp_retrieval_em.md 2026-08-24/25; TMS §Piyush 2026-08-24]",
+    "V1 (foundation-model component) through online experimentation [DR/piyush_h1_2026_feedback_draft.md goal 2 (Leo-inferred draft)]",
+    "Oncall rotation adjusted: Piyush 8/6–8/13 slot [TMS §Zili 9/4]",
+    "Reflex-adjacent: in Karthik (DE) group DM as the technical expert [work/projects/reflex/program_state.md 2026-09-02]"
+   ],
+   "demonstrated_strengths": [
+    "Dylan on record 8/19: 'someone who can be in the room when I am not… Piyush is doing a good job here; beyond him, no one else' [TMS §Piyush 2026-08-19]",
+    "Co-authored the unified base retriever design with P2P (March 2026), turning a whose-model-wins debate into joint architecture; shipped the CLR redesign with P2P best practices; with Zihao built cross-surface data loading + pretraining infra and produced the V0/V1 model sets; flagged a partner team's parallel architecture same evening (May) and drove joint-design resolution [DR/piyush_h1_2026_feedback_draft.md — ⚠ Leo-inferred draft 7/31, verify attribution]",
+    "Ran UPP end to end through James's OOO with zero manager intervention [same draft]",
+    "Deepest retrieval-architecture context holder in the org post-Bowen; senior technical reference across CLR and LWS [TMS §Piyush; org_design_proposal v2 §Key Personnel]",
+    "8/24: unprompted 'we need a virtual team across all surface teams to handle UPP operation work' — the understaffing point James is working with Dylan/Dhruvil [TMS §Piyush 2026-08-24]"
+   ],
+   "evidence": [
+    "UPP V0 beat OneTrans head-to-head (SSv2 wins US + Canada, engagement globally; known semantic-relevance regressions) [work/projects/upp/upp_retrieval_em.md 2026-08-01]",
+    "Matt Chun H1 peer line: 'meaningful opportunities to grow their leadership skills and play key roles in the UPP effort' [TMS §Piyush 2026-08-19]",
+    "Named by Kim as a proactive advisor who tracks what's going on [TMS §Kim 2026-08-13 transcript]"
+   ],
+   "growth_edges_or_risks": [
+    "SPOF on UPP; Zihao hedge 'not there yet' [TMS §Single Points of Failure 7/15]",
+    "Growth edges (Leo draft): multiply himself (two-person sprint pattern; context lives in him), written platform narrative at senior-partner altitude [DR/piyush draft §Improvement]",
+    "Chuxi's PinSpark-era friction names Piyush + Hongtao (ad-hoc asks without explanation) [TMS §Chuxi 2026-08-26]",
+    "UPPv2 presentation chased twice 8/24, still owed [TMS §Piyush 8/24]",
+    "Roster audit: entry thin for a TL (8 lines) — growth/next-level read owed [TMS §Roster currency audit 8/24]"
+   ],
+   "bandwidth_flags": [
+    "UPP = 2 people (Piyush, Zihao) carrying the org's largest platform bet; understaffing thread live with Dylan/Dhruvil [TMS §Piyush 8/24; T2L undecided #5]"
+   ],
+   "relevance": {
+    "systems": "Owns the platform whose serving/indexing integration and condition-routing (N×M ANN lookups) are documented gaps [work/projects/upp/upp_retrieval_assessment.md §What's Missing #3]; not a GPU-efficiency specialist.",
+    "scaling": "Strongest fit in the org: V1 FM component, cross-surface pretraining infra, FM→base→surface hierarchy — natural owner of a retrieval scaling curve (bet 2) [upp_retrieval_em.md L70; org_2027_agenda bet 2].",
+    "tokenizer": "Advisory only; no RecGPT/SID hands-on on file.",
+    "evaldata": "UPP gap #4 (offline-online correlation validation) lives inside his platform, unowned [upp_retrieval_assessment.md §4].",
+    "armlead": "Strongest IC candidate by Dylan's own words (8/19); cross-org co-design record; gaps = written narrative and multiplying himself; IC17 promo ammo being filed [TMS §Piyush 8/19; piyush draft]."
+   }
+  },
+  {
+   "name": "Bella Huang",
+   "level": "L16 MLE (IC16)",
+   "reports_to": "James (stays James-direct in every T2 scenario; rating-handoff hold — James delivers the 2026 rating)",
+   "team_or_pod": "Reflex 1° / RecGPT 2° (marked 8/15); RecGPT/GenRet TL of record with ATG; Content Exploration",
+   "current_workstreams": [
+    "RecGPT: weekly experiments (incl. 'Helium Mix' as heard); two launch candidates — an SSv2-moving sizer-tuning candidate and the first proving-out of RecGPT L0+L1 (pre-ranker after the retriever) [TMS §Bella 2026-08-22]",
+    "H2 criteria: RecGPT + Unimpressed + Teacher Distillation ≥ +0.4% SSv2; Content Exploration initial launch + enablement (Content Success/P2P/Search); Reflex Simulate V0 (UI built, simulation paths working) [DR/bella_h1_2026_feedback_final.md §Goals; TMS §Bella 8/22]",
+    "RecGPT strategy one-pager asked for 8/22 [TMS §Bella 2026-08-22]",
+    "P13N oncall process one-pager DONE 8/27; James runs cross-EM alignment wk 8/31, execution back to her ~9/8 [TMS §JJ 2026-08-27 sub-bullet]",
+    "OOO China 8/27–~9/7 (family emergency, not a trip) [TMS §Bella 8/22]"
+   ],
+   "demonstrated_strengths": [
+    "Led RecGPT modeling workstream and roadmap alignment with Hanlin, Chuxi, Yuke, ATG; drove to initial launch [DR/bella_h1_2026_feedback_final.md 7/31]",
+    "Unimpressed dataset: launches on Multi-Embedding CG and the LWS model; extended to P2P early-funnel improvements [same]",
+    "Content Exploration: designed the shared Manas-based indexing/retrieval framework across HF/P2P/Search; resolved model-mismatch/experiment-config issues (current LR +10% non-graduated content impressions) [same]",
+    "Response arc since 7/27: visibly trying, weekly experiments, proactive Simulate updates; H1 review conversation 8/22 'landed well' [TMS §Bella 2026-08-22]",
+    "Prior Ads geo-recs experience named as resource for Alim's geo spike [AVA §side quest 8/16]"
+   ],
+   "evidence": [
+    "H1 verdict (final, 7/31): 'landed impact falls below expectations for IC16'; Manas migration stalled until James stepped in; impression-share not prioritized early [DR/bella_h1_2026_feedback_final.md]",
+    "7/25 Tim (Reflex PM): Simulate 'so far is not concrete enough'; V0 mid-Aug agreed [TMS §Bella 2026-07-25 (8)]",
+    "8/19: T2 design variable — Daniel's CLR-over-RecGPT preference substantially Bella-avoidance; James: 'really hard to manage and probably to work with' [TMS §Bella 2026-08-19]",
+    "8/22 strategy flashpoint: proposed adding RecGPT as new CG vs replacing; James acknowledged overreaction same day and asked for the one-pager [TMS §Bella 8/22 (3)]"
+   ],
+   "growth_edges_or_risks": [
+    "Performance (factual): ER ticket filed 6/14; case closed/paused 7/25; written H1 review delivered 8/22; Dylan's posture 'no formal PIP' — any PIP needs her explicit sign-off; PIP pre-armed with triggers, not live [TMS §Bella 6/14, 7/25, 7/31, 8/22]",
+    "Flight: named leave-trigger = top-tier AI lab (OpenAI/Anthropic) offer; declined lateral recsys offers (incl. Meta IC6) 6/30; James 7/25 read: prepping/interviewing for those targets [TMS §Bella 6/30, 7/25]",
+    "James's standing assessment: 'doesn't create ideas — needs James to architect, then resists'; declined to TL Retentive Recs 6/30 [TMS §Bella]",
+    "🔒 Married to Dafang He (Reflex TL) — Dylan almost certainly knows (8/28); what stays sensitive is the emergency detail; info-hygiene: Reflex/Dafang channel and Bella perf channel are one household [TMS §Bella 8/22 (6), 8/28 correction]",
+    "Improvement areas in writing: strategic clarity/adaptation, communication & influence (no senior TL feedback e.g. Olafur/Jaewon), team leadership declined vs prior years [DR/bella final]",
+    "Her frame ('stack cannot satisfy') appears to be propagating to Chuxi [TMS §Chuxi 8/25 Leo read]"
+   ],
+   "bandwidth_flags": [
+    "Out ~8/27–9/7; nothing lands on her during the emergency [TMS §Bella 8/22 (4)]",
+    "Reflex 1° + RecGPT 2° + CE + oncall redesign — four named H2 lanes"
+   ],
+   "relevance": {
+    "systems": "No systems-lane evidence; GPU-allocation discussion was critique-only [DR/bella final §Team leadership].",
+    "scaling": "Teacher distillation is in her H2 criteria — the 'scale the teacher' bet already names her [TMS §Bella 7/27; org_2027_agenda bet 3].",
+    "tokenizer": "RecGPT TL of record; L0+L1 proving-out and sizer work are the live artifacts; but perf + flight make her the most fragile owner of the codebook [TMS §Bella 8/22].",
+    "evaldata": "Reflex Simulate (user-bot simulation pintool) V0 is hers — an eval-adjacent lane [DR/bella final §Reflex Simulate].",
+    "armlead": "No — James: not ready for promo, IC16-TL bar not met, influence gap in writing [TMS §Bella 6/30; DR/bella final]."
+   }
+  },
+  {
+   "name": "Balaji Rengarajan",
+   "level": "L16 MLE (Staff); he/him; ~13 months at Pinterest (as of 8/7)",
+   "reports_to": "Daniel (own voice 9/3: fine with either manager; Alim + Daniel decide, James brings the rec; L16 line move needs Dylan sign-off)",
+   "team_or_pod": "Intelligent Boards TL (IB sprint 100% his through conclusion); candidate LWS or CLR seat",
+   "current_workstreams": [
+    "IB 10-wk dogfood sprint (LLM-based offline IB for internal dogfood; Andrew Yaroshevsky's anticipation bet); ~Oct gains-origin gate [TMS §Workstreams IB 8/3, 8/5]",
+    "Placement: LWS vs CLR 'equally interesting'; one criterion = a project that doesn't change on him three months in [TMS §Balaji 2026-09-03]",
+    "IB · LLM-pUIC pairing (with Ling) — broken by ruling 9/3 if he moves [T2L 2026-09-03 #2]"
+   ],
+   "demonstrated_strengths": [
+    "8/7 skip-level: 'the sharpest IB read anyone has given James' — dogfooding doesn't de-risk the real hypothesis (needs an experiment); volume/funnel risk (Auto Org analogy); engineering risk = long-context LLM attention over hundreds of pins; open-source models as the cost answer; success metrics not aligned with Product [work/people/reorg_july2026/daniel_liu_team_2026-07.md 2026-08-07]",
+    "Background: Stitch Fix home feed from scratch + inventory-aware optimization ('point-wise optimal ≠ system optimal'); self-ID = optimization + resource allocation; startup building data-workflow agents [same]",
+    "Daniel 8/11: very solid backend + good ML expertise, very strong product sense, not that deep in modeling [TMS §Balaji notes]",
+    "Alim archive read: platform-TL archetype, first-principles, pushback temperament — 'nearly the exact spec of Alim's missing counterpart' [AVA 2026-08-12 read 6]",
+    "Daniel volunteered him as step-up candidate (7/27) and 'maybe the better RR/pUIC/IB fit' vs Kim (8/11) [DLA 2026-07-27; TMS §Kim 8/11]"
+   ],
+   "evidence": [
+    "8/30 own voice: Jan/Feb would have said 'definitely yes' to switching managers, now unsure; friction with Daniel 'not entirely his problem'; wants less 0-to-1, more incremental at-scale scope [T2L 2026-08-30]",
+    "9/3: 'equally interesting' LWS/CLR; stability criterion [TMS §Balaji 9/3]",
+    "Asked the team-fit question twice (8/6 meeting, 8/7 skip-level) — charter clarity is a live need [daniel_liu_team_2026-07.md 8/7]"
+   ],
+   "growth_edges_or_risks": [
+    "IB flat ~6 months; AMB (IB's prior iteration) never launched last year — the team's morale scar [TMS §Workstreams IB; h2_2026_team_analysis §1]",
+    "Friction period with Daniel (cooling per 8/30) [T2L 2026-08-30]",
+    "Not deep in modeling (Daniel's read) [TMS §Balaji]",
+    "Sept mostly gone: ~2 wks vacation + ~2 wks working from India [daniel_liu_team_2026-07.md 8/7]",
+    "Dylan-facing rule: scope only, never the reporting-line choice [T2L 2026-08-30]"
+   ],
+   "bandwidth_flags": [
+    "100% IB through the gate; September largely unavailable"
+   ],
+   "relevance": {
+    "systems": "Strong: optimization/allocation identity, backend depth, already reasoning about long-context LLM serving cost and open-source models — the org's best-fit senior for a systems/inference-efficiency TL seat [daniel_liu_team 8/7; AVA 8/12].",
+    "scaling": "Not deep in modeling (Daniel 8/11); no training-scale evidence.",
+    "tokenizer": "LLM-board-assembly (IB) and IB·LLM-pUIC carry adjacent to the LLM×recs lane; no SID/codebook work on file.",
+    "evaldata": "Pushed for real experiments over dogfood and for product-aligned success metrics — eval-methodology instinct evidenced [daniel_liu_team 8/7].",
+    "armlead": "L16, first-principles, product sense, systems thinking; but not deep modeling, ~1 yr tenure, and wants stability/incremental scope over 0-to-1 [T2L 8/30]."
+   }
+  },
+  {
+   "name": "Devin Kreuzer",
+   "level": "L15 MLE",
+   "reports_to": "James → Alim at T2 (CLR → Alim settled 8/21); first in the pre-announcement 1:1 order wk 9/21",
+   "team_or_pod": "CLR TL (CLR + GULP); UPP+CLR pool",
+   "current_workstreams": [
+    "CLR: two SSv2 launch candidates carry his name (9/3) — CLR SGI using the PBTY dataset; CLR UIC-condition tuning for NLFU [TMS §Devin 2026-09-03]",
+    "HF Exploratory Module with UIC × CLR Frontier Sampling — his original proposal is the retrieval strategy the experiment runs on (Akshatha's ramp post 9/3); Sep 24 readout [TMS §Devin 2026-09-04]",
+    "H2 goals: NLFU wave of CLR quality; FM + 16k sequence capabilities across UPP; CLR/GULP as scalable foundations; heuristic CG sunset (Dylan 9/1: CLR owns it) [DR/devin_h1_2026_feedback_draft.md; T2L 2026-09-01 #1]",
+    "Leo rec (unratified): TL POC for shopping-CG consolidation on the Shopping/MDD owner question [T2L 2026-09-01 #3]",
+    "LFU-cohort model-pUIC results with Chuxi (8/19) [work/projects/retentive_recs/retentive_recs.md §Model-pUIC]"
+   ],
+   "demonstrated_strengths": [
+    "H1 (James's draft 8/2, met/slightly above IC15): advanced CLR GPU serving through attached data; router simplification design; FM and 16k sequence-feature foundations; automated condition-budget tuning; ManagedMap→PinConf migration; Shopping LR migration onto CLR; owns CLR docs/code quality/incidents [DR/devin_h1_2026_feedback_draft.md]",
+    "Led Pin CLR migration to Unity-GULP backend and BMI launch (engagement up at constant Pin budget); notifications landing page CG design; exploration-pins backend design [same]",
+    "Onboarded three engineers; peer: 'consistently raises the technical bar… strong debugging instincts, clear ownership' [same]",
+    "Kim names him as a proactive advisor who tracks progress; 'respects Devin' (Chuxi, 8/26) [TMS §Kim 8/13; §Chuxi 8/26]"
+   ],
+   "evidence": [
+    "9/3 DM: 'am I going to get credit? I did a lot of foundational work here…' after a flat thank-you list [TMS §Devin 2026-09-04]",
+    "CLR+UPP=7 pool is a James/Devin agreement (8/21) — Ryan's LWS lean (9/3) drops his full-time hedge; he must hear it from James first [TMS §Ryan 8/28; t2_undecided #12]"
+   ],
+   "growth_edges_or_risks": [
+    "Improvement areas in writing (continuation of 2025): scale through trust/deliberate delegation (PinConf migration follow-ups); composure and calibrated urgency — not acknowledged in his self-review [DR/devin draft]",
+    "Chuxi: CLR side (Devin, Hongtao, Piyush) 'not welcoming'; root = PinSpark-era pattern; James routing her CLR interface through Devin with well-scoped asks (done 8/27) [TMS §Chuxi 8/25–8/27]",
+    "No 1:1 read since Q2 [TMS §Roster currency audit]",
+    "Watch (April-vintage, superseded): flight risk when solo on CLR [TMS §Devin]"
+   ],
+   "bandwidth_flags": [
+    "CLR thin on people, rich on candidates: Ryan → LWS, Nima 9/8, Richard 9/21, Yichi; Piyush/Zihao stay UPP [TMS §Devin 9/3]"
+   ],
+   "relevance": {
+    "systems": "Real: CLR GPU serving via attached data, Unity-GULP migration, serving scalability goal [DR/devin draft].",
+    "scaling": "Owns CLR's FM + 16k sequence-feature evolution — the CLR-side hook for longer sequences/larger models [DR/devin draft goal 2].",
+    "tokenizer": "Minimal; conditional retrieval is his paradigm, and Chuxi's 'doesn't believe in conditional retrieval' sits on this seam [TMS §Chuxi 8/25].",
+    "evaldata": "Frontier-sampling proposal + LFU cohort forensics with Chuxi (8/19) show experimental judgment; no eval-infra ownership [retentive_recs.md §Model-pUIC].",
+    "armlead": "Deep cross-stack + original strategy authorship, but delegation/composure gap and credit sensitivity; IC15 [DR/devin draft; TMS 9/4]."
+   }
+  },
+  {
+   "name": "Ryan Kam",
+   "level": "L15 SWE",
+   "reports_to": "James → Daniel/LWS on Sc 9 (9/3; a scenario James ruled into the board, Devin still to hear it)",
+   "team_or_pod": "CLR · LWS (dev-velocity focused); UPP+CLR pool until 9/3",
+   "current_workstreams": [
+    "Stated lean (8/28, 9/3): LWS + L1 utility together with Rui; willing to pick up ML infra / retrieval ML infra (Manas connections) [TMS §Ryan 2026-08-28, 2026-09-03]",
+    "Added to the LWS oncall rotation 9/2 [TMS §Zili 9/4]",
+    "Ramping on UPP infrastructure per Piyush's bench plan (Leo-inferred draft) [DR/piyush draft §Multiplying]"
+   ],
+   "demonstrated_strengths": [
+    "Provides the CLR coverage hedge behind Devin; joined ~Apr/May 2026; one of two James hires this half [TMS §Ryan]"
+   ],
+   "evidence": [
+    "9/3 James: 'Ryan and therefore Rui' — they move as a pair [TMS §Rui 9/3]"
+   ],
+   "growth_edges_or_risks": [
+    "No perf/growth read on file since 7/15 — refresh due [TMS §Ryan 8/21/23]",
+    "Cadence stepped W→2w (few topics at weekly) [TMS §cadence 8/23]"
+   ],
+   "bandwidth_flags": [
+    "Oncall rotation new as of 9/2"
+   ],
+   "relevance": {
+    "systems": "Yes — SWE, retrieval ML infra/Manas willingness stated 9/3; thin evidence of delivered systems work [TMS §Ryan 9/3].",
+    "scaling": "None on file.",
+    "tokenizer": "None on file.",
+    "evaldata": "None on file.",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "J.J. Hu",
+   "level": "L15 → IC16 (promotion officially approved 8/4; effective date TBC; level tables not yet updated)",
+   "reports_to": "James (stays James at T2)",
+   "team_or_pod": "Reflex Build lead (~half) + Foundations & Efficiency (Responsiveness/ISR, L1 Utility, cost — carries the $2M line with Rui)",
+   "current_workstreams": [
+    "Reflex Build-agent charter end to end (design doc + multi-quarter roadmap with Dafang; staging/correctness gates; Pinconf experiment setup) [DR/jj_h1_2026_feedback_draft.md (FINAL 8/4) goal 1]",
+    "L1 Utility next phase: Pinnability efficiency, throughId deprecation, shopping distribution controls, UIC feedback-loop experiments, T&S controls [same goal 2]",
+    "In-Session Responsiveness launch readiness + cost optimization; NLFU expansion with Growth/Activation [same goal 3]",
+    "8/28 Shifu deep-dive: 'reuse the infra, the core doesn't map' — decision (1) heading to components-not-fold; head-to-head on CGSizerBuilder pending [work/projects/reflex/program_state.md 2026-08-28]",
+    "RR Feedback Loop: helping with analysis/debugging in the L1 experiment [retentive_recs.md 2026-08-27 snapshot]",
+    "Leo rec (unratified): TL POC on measurement for Shopping/MDD ('TP Load and Impact') [T2L 2026-09-01 #3]"
+   ],
+   "demonstrated_strengths": [
+    "L1 Utility: next-stage roadmap, shipped SID- and UIC-based diversity controls, made L1 the home for shopping/safety/business controls; partner teams building on it (Content Success shopping controls) — Olafur: 'transforming a complicated legacy infrastructure into a principled framework' [DR/jj final 8/4]",
+    "ISR: designed and launched cache-based CG + dual-path serving architecture; cost efficiency as core constraint; Growth built a low-frequency-user launch on it; Featured Poster at ML Symposium; Nilesh: 'established a new serving paradigm for the Discovery organization' [same]",
+    "Pinvestigator: scattered prototype → production tool used by P13N on-calls (investigations 1 day/2–3 eng → 30 min); rebuilt on production-grade agent harness; founding engineer/Build-agent owner for Reflex; first agent-built HF launch [same; team_service_ledger §JJ]",
+    "Promo package: cumulative 48 launches, $1.67M/yr savings (removed from final doc); assessments from Dafang, Nilesh Gohel, Olafur, Vikram Deshpande [DR/jj final header; TMS §JJ]",
+    "Heaviest glue carrier in the org (9 ledger entries) — onboarded Yali, Yujiao Guo, Content Success ICs; L1 Utility wiki; Homefeed+Growth Responsiveness sync [team_service_ledger §JJ]"
+   ],
+   "evidence": [
+    "8/28 relayed Roderick's wish to stay with Daniel (second independent relay) [TMS §Roderick 8/28]",
+    "8/29 post-16 interviewing signal: 'you can go out and interview as long as you clear the bar' — James: may start looking; watch, don't confront [TMS §JJ 2026-08-29]"
+   ],
+   "growth_edges_or_risks": [
+    "Improvement areas (final 8/4): own the decision not just the analysis; communicate at Staff altitude; socialize cost alongside impact (ISR infra friction) [DR/jj final]",
+    "Single point of failure on Real-Time — Rui now the operational owner underneath [TMS §SPOF]",
+    "Post-promotion optionality (8/29) — retainer is problem quality (Reflex Build → D-1, ISR, C-1) [TMS §JJ 8/29]"
+   ],
+   "bandwidth_flags": [
+    "Reflex Build + L1 + ISR + NLFU + cost line + Shifu decision + RR feedback-loop analysis + candidate Shopping/MDD POC — the most over-subscribed IC on the board [DR/jj final; T2L 9/1]"
+   ],
+   "relevance": {
+    "systems": "Strongest in the org: caching-based CG, dual-path serving paradigm, cost-as-constraint, GPU/CPU cost line — the natural owner of 'bend the serving cost curve' if freed [DR/jj final; org_2027_agenda bet 1].",
+    "scaling": "Not a model-scaling person ('straddles ML systems and models'); could own the systems half of a scaling program [TMS §JJ promo notes].",
+    "tokenizer": "Consumer of SIDs (SID-based diversity controls in L1) — not a codebook owner [DR/jj final].",
+    "evaldata": "Pinvestigator + Reflex eval; named as the natural successor to James's eval-harness thread by ~Nov [program_state 2026-08-17 Leo read].",
+    "armlead": "IC16 with cross-org standing (Olafur, Nilesh quotes) and agentic-tooling leadership; strategic-comms and decision-ownership gaps in writing; no research/publication record on file [DR/jj final]."
+   }
+  },
+  {
+   "name": "Yali Bian",
+   "level": "L15 MLE; he/him (resolved 8/27)",
+   "reports_to": "James → Daniel/LWS at T2 (settled 8/21)",
+   "team_or_pod": "LWS de facto owner/TL; L1 Utility; SM/SL retrieval-side co-owner",
+   "current_workstreams": [
+    "LWS preranking + CG onboarding to LWS (coverage toward ~80%) [DR/yali_h1_2026_feedback_draft.md 8/2]",
+    "See More / See Less retrieval-side co-owner with Raymond Hsu (front end) — one of Jeff's three stated priorities; success criteria clear per James 8/13 [TMS §Yali 8/2; h2_2026_team_analysis §1]",
+    "LWS × UPP onboarding recommendation (RecGPT path vs L2) with Daniel — postponed until his return ~9/21 [TMS §Yali 2026-08-27]",
+    "OOO 8/31–9/18 [TMS §Yali]"
+   ],
+   "demonstrated_strengths": [
+    "H1 verdict: trending above IC15 — the strongest verdict in the H1 cycle; 8 LRs delivering SSv2 +0.31 / SSv2-proxy +0.875; two foundational CG-onboarding launches (~$67K savings) [DR/yali draft; TMS §Yali 8/2]",
+    "Productionized LWS GPU serving and migrated 100% of traffic; resolved 3+ SEVs; stable 3+ months with no GPU incident; CPU + GPU resource audits [same]",
+    "Re-architected LWS data/training pipelines (unified impressed+unimpressed loader) cutting training from 40+ hours to ~7 — 'leverage for future model scaling'; worked through Ray/infra limits [same]",
+    "Peers: 'strong ownership and independence', 'clear communication and documentation'; JJ onboarded him onto unity-homefeed [DR/yali draft; team_service_ledger §JJ]",
+    "Alim after chatting with him: 'really great' [AVA 2026-08-12 second pass]"
+   ],
+   "evidence": [
+    "Selected for SM/SL by James with strong leadership endorsement across the org [DR/yali draft]",
+    "Dylan 7/28 quote 'see how she's doing' left verbatim (pronoun error at the time) [TMS §Yali]"
+   ],
+   "growth_edges_or_risks": [
+    "Cross-org voice: stating and holding a technical position before consensus; silence reads as agreement in senior rooms [DR/yali draft §Lead with a Clear Cross-Org Voice]",
+    "Portfolio-level prioritization vs hands-on intensity [same §Strategic Leverage]",
+    "Narrative in roster predates the L1 flashpoint (8/22) — refresh owed [TMS §Roster currency audit; work/projects/upp/l1_flashpoint_2026-08.md]",
+    "OOO breaks Daniel's coverage-map LWS-DRI line 8/31–9/11 (Hedi backstop) [TMS §Yali]"
+   ],
+   "bandwidth_flags": [
+    "LWS is thin: Yali OOO to 9/18, Zili exiting, Hedi covering oncall, Ryan/Rui ramping [TMS §Workstreams RB 9/1]"
+   ],
+   "relevance": {
+    "systems": "Strong hands-on: LWS GPU serving productionization, SEV resolution, resource audits [DR/yali draft].",
+    "scaling": "Training-pipeline re-architecture explicitly framed as leverage for model scaling; owns the LWS side of the LWS×UPP (RecGPT path vs L2) decision [DR/yali draft; DLA §LWS·UPP lane].",
+    "tokenizer": "None on file beyond the RecGPT-path evaluation.",
+    "evaldata": "None specific; unified dataset loader is data-infra adjacent.",
+    "armlead": "Top executor and TL of the highest-obligation engine; cross-org voice is the named gap [DR/yali draft]."
+   }
+  },
+  {
+   "name": "Hedi Xia",
+   "level": "L15 MLE (H1 2026 = first review period at IC15); pronouns not stated in record",
+   "reports_to": "James → Daniel/LWS at T2",
+   "team_or_pod": "LWS preranking · unimpressed track · iterative diversity",
+   "current_workstreams": [
+    "LWS oncall this week incl. Labor Day weekend through next Friday (absorbing the Zili re-cut, 9/4) [TMS §Hedi 2026-09-04]",
+    "Daniel's first LWS contact on return (9/14); LWS coverage backstop while Yali is out [TMS §Hedi 8/16]",
+    "CFM handoff Tue/Wed 8/25–26; standing trigger to promote cadence if the CFM decision-experiment becomes a real ownership bet [TMS §cadence 8/23]",
+    "RecSys 2026 preranking paper oral — who presents is open [TMS §Hedi 8/2]"
+   ],
+   "demonstrated_strengths": [
+    "Lead author of the RecSys 2026 preranking paper 'Alignment + Accuracy: A First-Principles Framework for Preranking' — accepted with a 15-minute oral; 14 pages, 13 co-authors (James position 13) [TMS §Hedi 8/2; work/projects/preranking_paper/README.md]",
+    "Unimpressed track: designed model requirements, the pairwise distillation loss, and the blocking/optimization algorithms that made it computationally practical; supported training-serving alignment, multi-embedding funnel efficiency, rank distillation, early-funnel distribution launches [TMS §Hedi 8/2]",
+    "With Yidi launched LWS unified tower/transact (+0.10% total SSv2); ramped Yali on shopping CGS into L1 utility (+0.03% SSv2); iterative diversity reframed as optimization over L1 utility (+0.17% SSv2 proxy, +0.16% impression diversity) [same]",
+    "Peers: 'strong technical depth with a quantitative lens', 'careful, rigorous, dependable'; distinctive strength = first-principles reasoning [same]",
+    "Took two oncall schedule changes in one week without friction (9/4) [TMS §Hedi 9/4]"
+   ],
+   "evidence": [
+    "Team service ledger: senior presence on an LWS workstream staffed with juniors; helped Zili understand loss structure [team_service_ledger §Hedi]"
+   ],
+   "growth_edges_or_risks": [
+    "Convert depth into a more consistent cadence of shipped production gains ('lean into an engineering mindset as distinct from a research one'); time-box exploration [TMS §Hedi 8/2]",
+    "Broaden first-principles influence across the stack (Dafang, L3 diversity); give collaborators the why (Zili handoff confusion) [same]",
+    "H1 doc has no explicit verdict sentence; goal 1 asks Hedi to follow Yali's project leadership at the same level [TMS §Hedi 8/2 ⚠]"
+   ],
+   "bandwidth_flags": [
+    "Oncall through ~9/11 while Yali is out; Leo rec: comp day + thank-you [TMS §Hedi 9/4]"
+   ],
+   "relevance": {
+    "systems": "Computationally-practical blocking/optimization for distillation; not a serving-infra owner [TMS §Hedi 8/2].",
+    "scaling": "Rank distillation / L2→L1 distillation and training-serving alignment — the cross-stage-consistency thread the 9/5 synthesis calls the L1 step change [TMS §Hedi; research_synthesis §6.2]. A natural collaborator on 'scale the teacher'.",
+    "tokenizer": "None on file.",
+    "evaldata": "Alignment + accuracy as defining L1 principles is eval-methodology thinking; no eval-infra ownership [TMS §Hedi].",
+    "armlead": "The org's clearest research-writing signal (lead author, oral) but new at IC15 and cadence-of-shipping gap; not a cross-org voice yet [TMS §Hedi]."
+   }
+  },
+  {
+   "name": "Yuke Yan",
+   "level": "L15 MLE (TL role ended; IC since ~7/07 transition)",
+   "reports_to": "James (stays through EOY; → Alim with RecGPT after the case settles well — ruled 9/3)",
+   "team_or_pod": "RecGPT / Generative Retrieval only (single stream; Bella = technical TL-of-record, not perf-aware)",
+   "current_workstreams": [
+    "RecGPT: a positive metric-moving RecGPT experiment (8/22); H2 goals = ≥2 material RecGPT launches end-to-end, ≥0.2% SSv2 attributable, oncall-process audit/automation [TMS §Yuke 2026-08-22; DR/yuke_h1_2026_feedback_final.md §Goals]",
+    "Bi-weekly 1:1 Thu 2pm; weekly Monday posts in the Bella/James DM [TMS §Yuke 7/31 (4)]"
+   ],
+   "demonstrated_strengths": [
+    "Q1 2026: led frontier sampling from design through production launch (ambiguous problem, hands-on) — the clearest IC15-level example in H1; helped ramp Chuxi and Yidi onto RR as TL [DR/yuke final 7/31]",
+    "2025 year-end rating: Exceeds [TMS §Yuke 7/25 (4)]",
+    "8/22: H1 review conversation landed clean; delivery signal 'artifact-level' (experiments, online responses) [TMS §Yuke 8/22]"
+   ],
+   "evidence": [
+    "H1 verdict (final): on par in Q1, 'delivery and ownership declined materially in Q2'; overall below IC15; model-pUIC ≥2 months behind via three design/leadership issues; ME GPU rollout slipped several months unflagged [DR/yuke final; TMS §Yuke 7/28]",
+    "6/24: confirmed actively interviewing (Pinterest long-term doubt, green card stability) [TMS §Yuke 2026-06-24]",
+    "7/27: 'worried you are collecting documentation against me'; self-declared holding pattern until visa resolves [TMS §Yuke 7/27]",
+    "7/31 multi-sampling bug credit incident (root-caused by Chuxi + Yidi; he claimed it in writing) [TMS §Yuke 7/31]"
+   ],
+   "growth_edges_or_risks": [
+    "Performance (factual): PIP track locked 7/06 → superseded by 8/22 'gentleman's agreement' (performs at IC15 meets while looking); PIP pre-armed, fires only if below meets; Aug–Sept ad-hoc peer validation still being collected; James sends same-day written recaps [TMS §Yuke 8/22, 7/31]",
+    "Flight/holding pattern: EB1 filed; job search 'failing' per James 7/25; second interpretation (AC21 portability) never enters records [TMS §Yuke 7/25, 7/27 plan]",
+    "Counter-documentation makes any line transfer worse (fragments records) [TMS §Yuke 7/31 (3)]",
+    "Chuxi wants RecGPT 'for the people' — James told her Yuke is a likely short-timer [TMS §Chuxi 8/25]"
+   ],
+   "bandwidth_flags": [
+    "Single-stream by design; count as IC15 meets-level capacity on RecGPT only"
+   ],
+   "relevance": {
+    "systems": "Owned ME GPU serving rollout that slipped months (fact) — negative evidence [DR/yuke final].",
+    "scaling": "None on file.",
+    "tokenizer": "Hands-on RecGPT IC now with a metric-moving experiment (8/22); one of the three people 'already here' per the 9/5 agenda, but the least stable [TMS §Yuke 8/22; org_2027_agenda bet 4].",
+    "evaldata": "None.",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Zihao Chen",
+   "level": "L15 MLE",
+   "reports_to": "James (stays James at T2; UPP+CLR pool, Piyush+Zihao stay James); weekly 1:1 Mon 3:30",
+   "team_or_pod": "UPP full-time (cross-surface training; succession hedge behind Piyush) · Content Exploration (~50%)",
+   "current_workstreams": [
+    "UPP launch sequence P2P → Homefeed → Search (H2 goal 1); V0/V1 model sets with Piyush [DR/zihao_h1_2026_feedback_draft.md 8/2; upp_retrieval_em.md L70]",
+    "Content Exploration CG to launch and validation (dedicated exploration slot, Manas Unified Embeddings, Scorpion two-tower inference) [DR/zihao draft goal 2]",
+    "Co-mentored intern Arowa with Hanlin (internship final check-in 8/7) [DR/hanlin draft goal 4; work/calendar_time_budget_2026-09.md 8/7]",
+    "8/29 James: Nima 'will shadow Zihao and work with him there' — conflicts with Nima-on-CLR; reconcile before 9/8 [TMS §Nima 8/29]"
+   ],
+   "demonstrated_strengths": [
+    "Established the base training framework for UPP CLR-based retrieval; enabled fine-tuning experiments; peer: 'impressive ability to move quickly from an idea to a working implementation and trained model' [DR/zihao draft 8/2]",
+    "Cross-layer Content Exploration design end to end (retrieval/ranking/blending, exploration slot, inference pipeline, Manas cluster, online serving); generalized configs toward PinConf/Unity Config — peer: 'standout strength is designing a cross-layer ML system end to end' [same]",
+    "Peer: 'actively uses AI tools and keeps up with relevant papers and developments, often more deeply than others on the team' [same]",
+    "Shaped the Pinteration intern project (design, benchmarking strategy, AI-assisted workflows) [same]"
+   ],
+   "evidence": [
+    "Cross-surface data loading + pretraining infra built with Piyush in a compressed sprint (Leo-inferred Piyush draft — verify) [DR/piyush draft]",
+    "Never on RR — the 7/15 'contested one' entry is SUPERSEDED (8/1–2) [TMS §Zihao]"
+   ],
+   "growth_edges_or_risks": [
+    "Prioritize and drive to measurable impact — H1 ended with foundations, no launches (2025 POV feedback continues) [DR/zihao draft]",
+    "End-to-end workstream leadership/comms — CE updates lacked clarity; needed Bella's debugging; late escalation for Yidi cost ~2–3 weeks [same]",
+    "Quality bar — CE batching path that could silently drop data, MDD group-naming issue, model-mismatch [same]",
+    "3+ weeks silent as of 8/24 — current read owed [TMS §Roster currency audit]",
+    "UPP hedge 'not there yet' [TMS §SPOF]"
+   ],
+   "bandwidth_flags": [
+    "UPP + CE at ~50/50; the UPP pool is two people"
+   ],
+   "relevance": {
+    "systems": "Breadth across training infra, inference pipeline (Scorpion), serving — builder, not an efficiency specialist [DR/zihao draft].",
+    "scaling": "Second-best fit after Piyush: cross-surface pretraining infra + V1 FM component; natural hands for a retrieval scaling study if given a POV and a hypothesis discipline [DR/piyush draft; DR/zihao draft goal 3].",
+    "tokenizer": "Co-mentored on RecGPT/ME knowledge sharing; no SID work on file.",
+    "evaldata": "CE eval/graduation criteria are his H2 goal; quality-bar gap cuts against eval-rigor ownership [DR/zihao draft].",
+    "armlead": "No — point-of-view and leadership gaps in writing; strong paper/AI-tool literacy is an asset for a research arm [DR/zihao draft]."
+   }
+  },
+  {
+   "name": "Roderick Gao",
+   "level": "L15 SWE (Sr SWE)",
+   "reports_to": "Daniel (own voice 9/3 — stays with Daniel; supersedes 'moves with UEB to Alim in every scenario')",
+   "team_or_pod": "Unified Explore Backend lead (Module Platforms program; with Esteban; Lionel as T1 backend partner on Alim's side)",
+   "current_workstreams": [
+    "UEB — charter follows him to Daniel or dissolves into ad hoc? open; 8/10 word 'your deepest priority will always be UEB' needs a walk-back [t2_undecided_2026-09-03.md #7; TMS §Roderick 9/3]",
+    "Explore Module → Heuristic pUIC: Roderick + Esteban (RR snapshot 8/27) [retentive_recs.md 2026-08-27]",
+    "UEB crew on HF Exploratory Module with UIC × CLR Frontier Sampling (Roderick/Esteban/Lionel) [TMS §Devin 9/4]"
+   ],
+   "demonstrated_strengths": [
+    "UEB TDD approved by all seven partner-team reviewers; phase-1 migration planned Q3 (Daniel's H1) [DLA §Q1]",
+    "Proactively drove UEB; Yan speaks highly and gave him the important project; proactively reached out to James for UEB design review; took over UIC-adjacent work after Yang's leave — James: 'solid — and we do need a strong IC15' [daniel_liu_team_2026-07.md §Roster 7/7]",
+    "EE-trending in Daniel's doc (sensitive) [daniel_liu_team 2026-08-08]"
+   ],
+   "evidence": [
+    "Two secondhand relays (Daniel 8/19, JJ 8/28) then own voice 9/3: stays Daniel [TMS §Roderick 8/28, 9/3]",
+    "Learned of the reorg from the 8/5 email — 'a surprise' [TMS §runway wk 9/21]"
+   ],
+   "growth_edges_or_risks": [
+    "UEB split: Lionel on Alim's pod, Roderick + Esteban on Daniel's — 'UEB consolidates with its people' is broken [TMS §Roderick 9/3 knock-ons]",
+    "Daniel-sourced claim (8/19) that he wants off UEB post-Q3 — never own-voiced; direction of his UEB appetite still ⟨open⟩ [T2L 2026-08-21 #3]"
+   ],
+   "bandwidth_flags": [
+    "Esteban pairing constraint follows him [TMS §Esteban 9/3]"
+   ],
+   "relevance": {
+    "systems": "Strong backend/systems spine (UEB); not ML-serving-efficiency specific [DLA §Q1].",
+    "scaling": "None.",
+    "tokenizer": "None.",
+    "evaldata": "None.",
+    "armlead": "No (SWE, platform-facing)."
+   }
+  },
+  {
+   "name": "Yang Liu",
+   "level": "L15 MLE (Sr MLE)",
+   "reports_to": "Daniel today → Alim at T2 (Dylan accepted the transfer 9/1: 'Alim already has IC15s, fine')",
+   "team_or_pod": "Parental leave → end-Nov 2026; out of H2 planning",
+   "current_workstreams": [
+    "None until return; hears the reorg 1:1 on return, never by email [TMS §cadence 8/23]"
+   ],
+   "demonstrated_strengths": [
+    "Worked with James's team on UIC before parental leave (Roderick took over); 'supposedly a pretty solid engineer' [daniel_liu_team_2026-07.md §Roster 7/7]"
+   ],
+   "evidence": [
+    "Counts toward the ≤12 cap wherever placed (8/21 ruling) [T2L 2026-08-21]",
+    "People-care flag: returns to a manager (Alim) he has never met — Alim should reach him before the announcement [T2L 2026-09-01 #4]"
+   ],
+   "growth_edges_or_risks": [
+    "Thin: no first-hand read; placement = 'the ramp is the placement decision' [TMS §Yang]"
+   ],
+   "bandwidth_flags": [
+    "On leave through end-Nov"
+   ],
+   "relevance": {
+    "systems": "Unknown.",
+    "scaling": "Unknown.",
+    "tokenizer": "Unknown.",
+    "evaldata": "Unknown.",
+    "armlead": "Unknown; UIC-representation adjacency is the only technical anchor on file."
+   }
+  },
+  {
+   "name": "Kim Toy",
+   "level": "L15 MLE (Sr MLE); long tenure; IC16 narrative synthesized 8/13",
+   "reports_to": "Daniel today → a line EM of her choice (Retentive Recs/Alim leaning vs CLR) — decides by Fri 9/11; the last open placement input",
+   "team_or_pod": "UPP ML Foundation DRI (loaned to Dhruvil: Notif label volume recovery, unified data pipeline, SearchSage CLR) · search-stage CLR; landing = RR (challenge #2 fetch-given-explorative-pUIC, ideally #1 model-based explorative pUIC)",
+   "current_workstreams": [
+    "Placement decision by 9/11 (RR vs CLR); talked/talking to Chuxi as diligence; Alim 'would love to have her' (8/17) [TMS §Kim Toy Archive 8/17, 8/21]",
+    "UPP loan wind-down (Dylan ask; Dhruvil pre-agreed conditional on her benefit); her own clean cut = ship the unified data pipeline [TMS §Kim row 8/5; daniel_liu_team 8/7]",
+    "Search-stage CLR / SearchSage CLR — appears by name in Alim's P0 Query→Pins map [AVA 2026-08-14]"
+   ],
+   "demonstrated_strengths": [
+    "IC16 narrative (4-yr synthesis, 8/13): creates direction from ambiguity (TiDB, Board Ranker, AutoCollage); builds reusable foundations (Board Ranker = team's first e2e modeling foundation; AutoCollage versioning/eval/monitoring infra); 17× AutoCollage generation-speed improvement; multiplies engineers; written clarity; 2025 YE manager feedback recognized higher-level performance; YE2025 Exceeds [TMS §Kim 2026-08-13 IC16 narrative; §Kim row 8/11]",
+    "Built the original BoardRanker (basis of board-recs model) [daniel_liu_team 8/7 Ling section]",
+    "Self-ID: strong systems engineer; learns by doing; loves documentation/knowledge-sharing; product-facing over pure modeling [TMS §Kim 8/13 transcript; daniel_liu_team 8/7]",
+    "Asked two good questions live at the 8/6 team meeting [TMS §Kim row 8/6]"
+   ],
+   "evidence": [
+    "8/13: self-selected into RR — 'loves it'; careful not to claim TL (Chuxi-aware); main concern = no very-senior in-space person (James offered Olafur Gudmundsson, IC17) [TMS §Kim 8/13]",
+    "8/17: asked for more time; CLR named as the alternative; decides 9/11 [TMS §Kim 8/17]",
+    "8/12 (via Daniel): almost didn't get her LRs — James's diagnosis: setup failure, not performance [TMS §Kim row 8/12]"
+   ],
+   "growth_edges_or_risks": [
+    "IC16 gaps: connect wins to topline; deepen model-focused ownership; repeat staff-scale pattern in a central domain; make judgment visible/assertive; develop independent owners [TMS §Kim IC16 narrative]",
+    "Context-switching drain (CLR + notifs + UPP simultaneously); change fatigue; promo wound (denied for 'not enough ML work') [TMS §Kim 8/13; daniel_liu_team 8/7]",
+    "🔒 Does not like Daniel as manager (8/11) — any Daniel-line placement off the table; Dhruvil 1:1-only intel never cited onward [TMS §Kim row 8/11, 8/5]",
+    "⚠ SECRET collision: UPP×SSJ collaboration may stop ~end Q3 — she pitched partly on UPP receipts; James can't disclose [TMS §Kim 8/19]",
+    "RR is crowding (Chuxi TL runway, Alok via CLR training) — her challenge-#1 charter must survive or the model-depth gap repeats [AVA 2026-08-21 watch]"
+   ],
+   "bandwidth_flags": [
+    "Vacation ~2 wks from end Aug (back ~9/4); son turns 2 in Sept [TMS §Kim 8/17; daniel_liu_team 8/7]"
+   ],
+   "relevance": {
+    "systems": "Strong systems engineer by self-ID and record (17× speedup, platform reuse); not GPU/inference-efficiency specific [TMS §Kim IC16 narrative].",
+    "scaling": "Model-depth is her named gap [same].",
+    "tokenizer": "None on file.",
+    "evaldata": "LLM evaluation credibility (Board Ranker/LLM eval in narrative); 'quality/evaluation flywheel' named as a best-fit next project; unified data pipeline DRI [TMS §Kim IC16 narrative; daniel_liu_team 8/8 map].",
+    "armlead": "Demonstrated staff-shaped scope (7+ engineer vteam, 2025) but in a limited-reach domain; model depth and assertive visibility gaps [TMS §Kim IC16 assessment]."
+   }
+  },
+  {
+   "name": "Yongwoo Noh",
+   "level": "L15 MLE (Sr MLE); remote Irvine",
+   "reports_to": "Daniel (RB stays Daniel, confirmed 8/21)",
+   "team_or_pod": "Collection P13N DRI — UGC Board Recs TL/owner (Board Rec UGC/SMB + Board Ranker x-team); with Felix (+ Ling 50%)",
+   "current_workstreams": [
+    "Collection P13N / Recommended Boards (deliberately slow-played per James 8/2; Anna recommends cutting; Daniel wants to keep investing) [TMS §Workstreams RB 9/1]",
+    "Presumed RB coverage DRI during Daniel's PTO; presumed Yiping's day-1 owner ⟨confirm⟩ [TMS §Yongwoo]",
+    "Candidate LWS 5th MLE (Leo rec 9/1, unratified; his own voice supports) [TMS §Workstreams RB/LWS 9/3]"
+   ],
+   "demonstrated_strengths": [
+    "Holds a program's accountable seat; EE-trending in Daniel's doc (sensitive) [daniel_liu_team_2026-07.md 2026-08-08]",
+    "Team results under his program: Board Rec for Notif +260K WAU / +350K MAU; Board Ranker +20% offline AUC (attribution is team-level, not individual) [DLA §Q1]",
+    "9/3 own voice: 'really fine with anything, with any project'; meaningful work over promotion; outside Daniel's scope OK [TMS §Yongwoo 2026-09-03]"
+   ],
+   "evidence": [
+    "Recorded literally as 'Not sure' pre-1:1 — 'highest-variance asset in the org' (8/1); variance narrowed 9/3 to placement uncertainty, not appetite [p13n_retrieval_split.md §leadership inventory; TMS §Yongwoo 9/3]",
+    "Self-named visibility hunger — org-lead contact is the ask [TMS §cadence 8/23]"
+   ],
+   "growth_edges_or_risks": [
+    "Thin technical record in the repo (no H1 doc on file — Daniel/Yan era)",
+    "RB slow-play could starve his charter; move must be announced as move-to, never cut-from [TMS §Workstreams RB 9/1]"
+   ],
+   "bandwidth_flags": [
+    "Skip-level cadence 3w from wk 8/31 [TMS §cadence]"
+   ],
+   "relevance": {
+    "systems": "Unknown.",
+    "scaling": "Unknown.",
+    "tokenizer": "Unknown (LLM board titles are in Daniel's LLM×Recs can-merge list, ownership unclear).",
+    "evaldata": "Unknown.",
+    "armlead": "No evidence either way; flexible senior body — the LWS-backfill candidate [TMS 9/1]."
+   }
+  },
+  {
+   "name": "Nima Sheikholeslami",
+   "level": "L15 MLE (filled REQ-1; hired 8/15)",
+   "reports_to": "James at start → CLR owner (Alim) at T2 — 'new-hire optics' flag: manager changes within ~2 months",
+   "team_or_pod": "CLR (the hire) — but 8/29 James: 'will shadow Zihao and work with him there' (UPP pre-training). One is stale; lane to be picked before day one",
+   "current_workstreams": [
+    "Starts Tue 9/8 (Mon 9/7 Labor Day); Toronto (third Toronto arrival after Lionel 7/27, Yiping 8/24) [TMS §Nima 8/24; t2_undecided #13]",
+    "Designed as Alim's systems/pushback-TL senior seat if CLR lands his leg; Alim↔Nima intro to be calendared early [TMS §Nima row; AVA §30/60/90 Leo deltas]"
+   ],
+   "demonstrated_strengths": [
+    "Won an IC15 MLE loop where two finalists both won on James's team; James picked him [TMS §Nima row 8/10, 8/15]"
+   ],
+   "evidence": [
+    "No interview/offer notes on file beyond the hire fact — why hired, what promised, ramp buddy all owed [TMS §Nima 8/24]"
+   ],
+   "growth_edges_or_risks": [
+    "Cited as CLR 'bench gravity' with Devin/Yichi in the 8/16 CLR-vs-RecGPT decision [TMS §Yichi]",
+    "Pre-announcement conversation needs the most careful framing of anyone [TMS §cadence 8/23]"
+   ],
+   "bandwidth_flags": [
+    "Day one 9/8; 3w 1:1 cadence with James"
+   ],
+   "relevance": {
+    "systems": "Unknown — but slotted by James as the systems/pushback TL Alim's operating model needs [TMS §Nima row].",
+    "scaling": "Unknown (UPP-shadow possibility 8/29).",
+    "tokenizer": "Unknown.",
+    "evaldata": "Unknown.",
+    "armlead": "Unknown."
+   }
+  },
+  {
+   "name": "Rui Wang (= 'Ray' in pre-7/15 notes)",
+   "level": "L14 SWE",
+   "reports_to": "James → Daniel/LWS at T2 (rides with LWS in every scenario, 8/15)",
+   "team_or_pod": "Reflex · L1 / Real-Time operational owner (under F&E, JJ co-owns); day-1 oncall owner for L1/Real-Time",
+   "current_workstreams": [
+    "L1/Real-Time ops post-David; Reflex vTeam commitment (7/25) [TMS §Rui; team_service_ledger §Rui]",
+    "Stated pair lean with Ryan: LWS + L1 utility, retrieval ML infra (Manas) if needed (Ryan's voice, not his) [TMS §Rui 8/28, 9/3]",
+    "Added to LWS oncall rotation 9/2 [TMS §Zili 9/4]"
+   ],
+   "demonstrated_strengths": [
+    "Ended JJ's single-point-of-failure status on Real-Time [TMS §SPOF 7/15]"
+   ],
+   "evidence": [
+    "Joined ~late June 2026; one of two James hires this half [TMS §Rui]"
+   ],
+   "growth_edges_or_risks": [
+    "No standing 1:1 existed until 8/23; still no solo 1:1 read [TMS §Roster currency audit 8/24]"
+   ],
+   "bandwidth_flags": [
+    "Oncall owner; new rotation 9/2"
+   ],
+   "relevance": {
+    "systems": "Yes at the ops layer (L1/Real-Time, oncall); no efficiency-project ownership on file.",
+    "scaling": "None.",
+    "tokenizer": "None.",
+    "evaldata": "None.",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Alok Malik",
+   "level": "L14 MLE",
+   "reports_to": "Alim (since announcement week 8/3); Reflex work matrixes to James",
+   "team_or_pod": "Retentive Recs (primary) — since 8/21 via CLR training/relevance head under Zelun (ATG) mentoring, then PinnerFormer training; OSv2 improvement + upgrading CLR with OSv2 (RR snapshot 8/27) · Reflex/Pinkerton secondary",
+   "current_workstreams": [
+    "CLR training via Zelun (Alim's 8/20 plan) — confirmed landed with Alok 8/27 ('plan looks good') [AVA 2026-08-21; TMS §Alok 8/27]",
+    "CG-overlap logging thread with Karthik Subbian (DE, Core): `after_candidate_generation` 0-row find (8/31); Karthik 'engaging with Alok' 9/2 [TMS §Alok 9/2]",
+    "H2 goals: ≥0.2% validated SSv2 across portfolio; RR primary deliverable; own an ML component (model/loss/eval) [DR/alok_h1_2026_feedback_draft.md 8/2]",
+    "Geo side quest resource (proposed something similar earlier) [AVA §side quest 8/16]"
+   ],
+   "demonstrated_strengths": [
+    "Homefeed full-funnel logging foundation across CG, Ranking, P2P — now used by Retentive Recs, Pinkerton, Reflex; latency dashboards with per-stage statistics [DR/alok draft 8/2]",
+    "Tabular RL for Homefeed Shopping Load Tuning (launch status contradictory in the doc — ⚠ flagged); Dynamic Sizer cut added latency ~70 ms → ~20 ms [same]",
+    "Interests service deprecation cleanup; AI tooling (Bazel linting, staging deploys, W&B metrics, CG tuning) + AI-assisted-coding deep dive [same]",
+    "ELT presentation cleared the Dynamic Triggering funding gate (March 30) [TMS §Alok context]",
+    "Alim 8/4: 'went deep into the issues I was facing… asking right questions' [AVA 2026-08-04]"
+   ],
+   "evidence": [
+    "8/10: Chuxi flagged he wasn't ramping into RR/pUIC and was slowing her down; 8/17 open two-way conflict; 8/21 plan; 8/27 resolved for now [TMS §Alok 8/10, 8/17, 8/27]",
+    "9/3: James reports 'too rough of a conversation' with Alok that morning (shape not captured) [TMS §Alok 9/3]"
+   ],
+   "growth_edges_or_risks": [
+    "H1 verdict: 'uneven' — model-based approach did not reach production; gaps in execution planning, timely escalation, applied ML depth (2025 continuation); self-review overstated production status [DR/alok draft]",
+    "Promo pressure vs depth ('constantly asking about promotion… not going deep enough', 7/25); tight-leash pattern (one scoped deliverable at a time) [TMS §Alok 7/25, context]",
+    "Relitigating pattern (8/10); protect Chuxi in the friction — her ramp outranks his comfort (James 8/23) [TMS §cadence Alok row]"
+   ],
+   "bandwidth_flags": [
+    "Step-down W→2w to be announced, not drifted [TMS §cadence 8/23]"
+   ],
+   "relevance": {
+    "systems": "Serving-latency work (Dynamic Sizer), latency dashboards, shared infra builder — solid infra hands, not efficiency research [DR/alok draft].",
+    "scaling": "None; applied-ML depth is his named gap.",
+    "tokenizer": "None.",
+    "evaldata": "Best fit in the org for logging/data infra: full-funnel logging foundation + live CG-overlap logging thread with a DE — the candidate-logging prerequisite the 9/5 synthesis names [DR/alok draft; TMS 9/2; research_synthesis §12.2].",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Zili Li",
+   "level": "L14 MLE",
+   "reports_to": "James (stays through the case — no incoming EM inherits an open case)",
+   "team_or_pod": "LWS",
+   "current_workstreams": [
+    "Corrective Performance Plan + 'LWS Modeling 4-Week Project Milestones' shared 9/4; she asked to escalate the mutual separation option; Karli Wessale (ER) meets her ~Tue 9/8 [TMS §Zili 2026-09-04]",
+    "Oncall: Hedi covers this week; Zili on 9/24–10/1 (adjusted) [TMS §Zili 9/4]"
+   ],
+   "demonstrated_strengths": [
+    "Thin: none recorded beyond 2025 hire cohort; Hedi helped her understand LWS loss structure and tuning [TMS §2025 hires; team_service_ledger §Hedi]"
+   ],
+   "evidence": [
+    "Sequence (factual): known underperformer pattern (Bowen + TLs); 4/06 FM-incident depth example; ER engaged 7/22; feedback delivered 7/30 (depth, deliverables, proactivity); PIP approved 8/15; PTO 8/18–9/3; 9/4 oncall dispute → DM to Dylan 8:38 → CPP shared 10:00 → 'help Zili escalate the mutual separation option' [TMS §Zili 7/22, 7/30, 8/15, 9/4]",
+    "9/4 Amanda Gomes: perf-case exits expected to get a backfill under the freeze (confirm early wk 9/7); James ruled mutual separation counts as a perf case [TMS §Zili 9/4; T2L 2026-09-04]"
+   ],
+   "growth_edges_or_risks": [
+    "Case state: severance-seeking; effectively non-operational since 8/19 ('nothing, read emails' 9/4); count out of LWS staffing math; every message third-party-readable; never reference the Dylan escalation to her [TMS §Zili 8/19, 9/4 watch-fors]"
+   ],
+   "bandwidth_flags": [
+    "Zero capacity either way"
+   ],
+   "relevance": {
+    "systems": "N/A.",
+    "scaling": "N/A.",
+    "tokenizer": "N/A.",
+    "evaldata": "N/A.",
+    "armlead": "N/A."
+   }
+  },
+  {
+   "name": "Hanlin Lu",
+   "level": "L14 MLE",
+   "reports_to": "James (through EOY with RecGPT; → Alim with Yuke after the case settles) — cadence 2w Wed 4pm",
+   "team_or_pod": "RecGPT / GenRet · Multi-Embedding",
+   "current_workstreams": [
+    "HF-RecGPT launch pipeline: fine-tuning, diversity, serving parameters, model efficiency; the RecGPT-as-new-CG vs replace question (8/22 flashpoint was about his next step) [DR/hanlin_h1_2026_feedback_draft.md goals; TMS §Bella 8/22]",
+    "Co-mentors Arowa with Zihao (RecGPT + ME knowledge sharing) [DR/hanlin draft goal 4]"
+   ],
+   "demonstrated_strengths": [
+    "Primary contributor to the official HF-RecGPT CG launch; led diversity improvement via Gaussian noise; drove the candidate-budget expansion transferring 150 sizers from Multi-Embedding to HF-RecGPT (high-ROI focused change) [DR/hanlin draft 8/2]",
+    "Owned RecGPT ANN serving migration Faiss → Manas (~$60K savings); moved sequence serving onto UserEventsView; led UOE and Decoupled Entity Representation on ME; stepped up through the HF Multi-Embedding GPU Serving rollout (viewer-tower CPU→GPU) to completion [same; team_service_ledger §Hanlin]",
+    "Presented at ML Symposium 2026 on productionizing generative retrieval [same]",
+    "Peers: 'takes the time to understand what is happening end-to-end'; 'Exceeds at year-end is reachable' — one of two trajectory statements in the cycle [TMS §Hanlin 8/2]"
+   ],
+   "evidence": [
+    "H1 experiments — larger batch sizes, SID augmentation, GQA — produced offline gains that didn't translate online [DR/hanlin draft]",
+    "Mid-April 'ship or move to LWS' checkpoint resolved — H1 strong [TMS §Hanlin]"
+   ],
+   "growth_edges_or_risks": [
+    "Turn activity into named launches with topline SSv2; system-level judgment for sizer-class opportunities; concise decision-oriented updates [DR/hanlin draft]",
+    "Underrepresented in the service ledger relative to level [team_service_ledger tally]",
+    "Current read owed (last dated 8/2) [TMS §Roster currency audit]"
+   ],
+   "bandwidth_flags": [
+    "Stable single-charter load"
+   ],
+   "relevance": {
+    "systems": "Real hands-on: ANN migration to Manas, GPU serving rollout, GQA/batch-size efficiency experiments [DR/hanlin draft].",
+    "scaling": "Batch-size scaling experiments; no training-scale ownership.",
+    "tokenizer": "Strongest hands-on tokenizer/GenRet engineer in the org today: HF-RecGPT production owner, SID augmentation, sizers — and the most stable of the three RecGPT people [DR/hanlin draft; org_2027_agenda bet 4].",
+    "evaldata": "Lived the offline→online gap (three experiments); no eval-infra ownership.",
+    "armlead": "No — L14; system-level judgment is the named growth edge."
+   }
+  },
+  {
+   "name": "Chuxi Wang",
+   "level": "L14 MLE (IC14; TL role 'in writing' since the 8/2 H1 draft — supported, unannounced ramp)",
+   "reports_to": "Alim (T1, wk of 8/3); James = sponsor ('no matter what', 7/7); weekly 1:1 Wed 4:30 (45m → 30m from ~wk 9/7)",
+   "team_or_pod": "Retentive Recs workstream TL (model-based pUIC + UIC); LLM-pUIC; Ling Lan (Daniel's) = daily delivery partner",
+   "current_workstreams": [
+    "pUIC roadmap: RecGPT Novel Loss; '2-in-1 pUIC prediction & retrieval via RecGPT structure' design (8/21–22: p_novel prompt, side readout, P-novel → P-all → F-full arms, SID for coarse history compression, 10% novel budget) [retentive_recs.md §consolidation thread 8/22; §snapshot 8/27]",
+    "Model-pUIC LFU-cohort results with Devin (8/19) + revert/restart plan; overfetch-ratio lever identified [retentive_recs.md §Model-pUIC]",
+    "Oversees Lionel's model-pUIC Explore-module integration; UIC representation POC for HF (Long UIC/Dynamic UIC with Yingjian's team); LLM pUIC; roadmap ETAs — five of six RR areas [retentive_recs.md 8/27 snapshot]",
+    "BMI RecGPT → GULP + UserEventsView migration; point-diversity and user-context experiments (H2 goal 4) [DR/chuxi_h1_2026_feedback_draft.md]",
+    "Weekly Retentive Recs Reading Group launched in #puic-collab [retentive_recs.md §Program health]"
+   ],
+   "demonstrated_strengths": [
+    "H1 (James's draft 8/2): 'clear above-level signals' — UIC signals in CLR (+0.11% SSv2 unique users, +0.17% DAU, +0.14% WAU) and frontier-sampling iteration (+0.22% SSv2 proxy, +0.80% HF repins, +0.38% use-case adoption, +0.25% impression diversity) [DR/chuxi draft]",
+    "Built much of the pUIC evaluation and LLM-judge workflow, grounded automated results via human evaluation, drove the online experiment pipeline — peers: 'leading the evaluation and LLM-judge work', 'exceptional execution speed with strong technical rigor' [DR/chuxi draft]",
+    "7/22 ramping well as TL — uncovering issues from Yuke's distraction; 7/30 root-caused Yuke's multi-sampling bug overnight with Yidi (right-padding fix) [TMS §Chuxi 7/22; §Yuke 7/31]",
+    "7/25 brought the Alim backchannel straight to James privately rather than letting it travel [TMS §Chuxi 8/10 entry]",
+    "Alim 8/14: 'right before Senior, making her way to senior' [AVA 2026-08-14]",
+    "Dylan-facing recognition ask queued (Chuxi first, soon) [T2L 2026-09-01]"
+   ],
+   "evidence": [
+    "8/25: wants RecGPT (the people); burnout — needs vacation; CLR side 'not welcoming'; 'doesn't believe in conditional retrieval'; James: 'you need to grow up' [TMS §Chuxi 2026-08-25]",
+    "8/27: replied, 'we're good now'; RR snapshot instructs 'do not burn Chuxi out — take things off her plate' [TMS §Chuxi 8/27; retentive_recs.md 8/27]",
+    "Leo integration flag 8/22: her 2-in-1 novelty definition uses mean(history) — the flaw Yidi's doc falsified; must converge [retentive_recs.md §Leo integration flags]"
+   ],
+   "growth_edges_or_risks": [
+    "Prioritization / stretched too thin (peer feedback); H1 zero-to-one threads not converted [DR/chuxi draft]",
+    "Two collaborations soured in a month (Alok 8/10→8/17; CLR side 8/25) — pattern James named; Bella's frame propagating [TMS §Chuxi 8/25 Leo read]",
+    "Carries the sensitive Alim backchannel prior into reporting to him — her comfort read is a first-class signal [TMS §Chuxi 8/10]",
+    "Two-level gap to the IC16 TL bar (6/30 correction) [TMS §Chuxi 6/30]"
+   ],
+   "bandwidth_flags": [
+    "Burnout flagged 8/25; five of six RR areas 8/27; Alim owes the take-away list [retentive_recs.md 8/27]",
+    "2027 agenda: 'has to come off her plate, not onto it' [org_2027_agenda §Honest constraints]"
+   ],
+   "relevance": {
+    "systems": "Serving-integration competence (GULP/UEV migrations, pUIC serving path) but not a systems owner.",
+    "scaling": "None directly; PinnerFormer v2 adjacency via Zelun.",
+    "tokenizer": "Strong: authored the design making RecGPT structure load-bearing for RR (2-in-1, novelty prompt, SID history compression) — the bottom-up consolidation signal [retentive_recs.md 8/22].",
+    "evaldata": "Strongest RR eval evidence: LLM-judge + human-eval grounding workflow, online experiment pipeline, funnel forensics [DR/chuxi draft].",
+    "armlead": "Judgment and ownership above level, but IC14, burnout, and collaboration edges; a future arm TL candidate, not a now one."
+   }
+  },
+  {
+   "name": "Lionel Bewa",
+   "level": "L14 SWE; Toronto; started 7/27 (Charlie backfill)",
+   "reports_to": "Alim (day-1 pod, founding member)",
+   "team_or_pod": "RR pod serving/plumbing; Explore Module → model-pUIC integration under Chuxi's guidance (8/27); T1 backend partner to Roderick on UEB",
+   "current_workstreams": [
+    "Model-pUIC integration into the Explore module (first concrete landing, 8/27) [retentive_recs.md 8/27 snapshot]",
+    "Added to LWS oncall rotation 9/2 [TMS §Zili 9/4]",
+    "Oncall-alert-AI cleanup with Daniel Dormer = later/second project [TMS §Lionel 7/25]",
+    "Needs to hear what his workstream is now that UEB split (Roderick → Daniel) [t2_undecided #7]"
+   ],
+   "demonstrated_strengths": [
+    "Onboarding 'good' — structured onboarding doc, Yidi as buddy, 4-way DM (Alim 8/14); first read of Alim: 'experienced manager… good mix of technical skills and good communication' [AVA 2026-08-14; 2026-08-04]"
+   ],
+   "evidence": [
+    "Triple-fragility onboarding design (new hire + new manager + remote); pod-distributed onboarding (Yidi, Chuxi, Alok) [TMS §Lionel 7/25]"
+   ],
+   "growth_edges_or_risks": [
+    "One month in, no read from James on file [TMS §Roster currency audit]",
+    "Guiding Lionel is an add on Chuxi's plate unless something comes off [TMS §Lionel 8/27]"
+   ],
+   "bandwidth_flags": [
+    "Ramping; oncall new"
+   ],
+   "relevance": {
+    "systems": "RR serving plumbing (SWE) — the pod's only dedicated SWE; no efficiency work yet [org_design_proposal v2 §Calls #2].",
+    "scaling": "None.",
+    "tokenizer": "None.",
+    "evaldata": "None.",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Ling Lan",
+   "level": "L14 MLE (MLE II); first industry job (joined end-2024; Columbia PhD applied math)",
+   "reports_to": "Daniel (ruled 9/3: does NOT travel with Balaji if he chooses Alim)",
+   "team_or_pod": "pUIC-LM / LLM-pUIC (with Chuxi, Zoudu, Ru Chen) in practice · Intelligent Boards 50% on paper · Collection P13N (BoardRanker) 50%",
+   "current_workstreams": [
+    "LLM pUIC — 'Ling Lan on …?' in the 8/27 snapshot (lane ownership open; spans Alim's UEB & LLM-pUIC and Daniel's IB·LLM-pUIC) [retentive_recs.md 8/27; t2_undecided #9]",
+    "BoardRanker H2 plan (found and fixed 'a very large error' in the data pipeline untouched ~2 years) [daniel_liu_team_2026-07.md 8/7]",
+    "IB with Balaji ('not really working on IB' — Daniel 8/11) [TMS §Ling]"
+   ],
+   "demonstrated_strengths": [
+    "Built much of the actual LLM inferencing pipeline for LLM-based pUIC on ATG's LLMs; works daily with Chuxi [daniel_liu_team §Roster 7/7]",
+    "Mature growth self-diagnosis: business-metrics thinking; expand scope yourself; IC track by choice [daniel_liu_team 8/7]",
+    "EE-trending in Daniel's doc (sensitive); embedded cross-line in James's engineers' working sessions [daniel_liu_team 8/8; team_service_ledger §Ling]"
+   ],
+   "evidence": [
+    "Daniel superfan ('very lucky to have him… more like a friend') — strongest inside-view datapoint for Daniel [daniel_liu_team 8/7]",
+    "Expects Q4 priority change (freeze-through-Q3 read as Q3-only) [daniel_liu_team 8/7]"
+   ],
+   "growth_edges_or_risks": [
+    "Fragmentation: 50/50 IB + Collection P13N while critical to pUIC-LM; junior-lens continuity worry (keeps working with Chuxi/Daniel?) [daniel_liu_team 8/8; TMS §cadence]",
+    "LLM pUIC 'is far away' per Alim's 8/14 read (queries bad, user representation weak) [AVA 2026-08-14]"
+   ],
+   "bandwidth_flags": [
+    "Three claims on her scope [daniel_liu_team 8/8]"
+   ],
+   "relevance": {
+    "systems": "LLM inference pipeline builder — serving-side LLM experience [daniel_liu_team 7/7].",
+    "scaling": "None.",
+    "tokenizer": "Hands-on in the LLM×recs lane (LLM-pUIC); the natural junior owner for 'LLMs as offline annotators' (bet 5) [org_2027_agenda].",
+    "evaldata": "Data-pipeline error find/fix on BoardRanker [daniel_liu_team 8/7].",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Felix Yang",
+   "level": "L14 SWE (SWE II)",
+   "reports_to": "Daniel",
+   "team_or_pod": "UGC Board Recs backend (with Yongwoo); candidate Unity serving seat for LWS if RB thins",
+   "current_workstreams": [
+    "Collection P13N backend; potential LWS landing as a serving-side seat (L1-utility serving, Unity integration) — framed as move-to, never cut-from [TMS §Felix 9/3; §Workstreams RB 9/1]"
+   ],
+   "demonstrated_strengths": [
+    "Experience in the Unity layer (serving/backend), not ML infra [TMS §Felix 2026-09-03]",
+    "9/3 own voice: 'mostly happy working on whatever' [same]"
+   ],
+   "evidence": [
+    "Learned of the reorg from the 8/5 email — surprise [TMS §runway wk 9/21]"
+   ],
+   "growth_edges_or_risks": [
+    "SENSITIVE (do not circulate): named stability anxiety (8/23); the 'no layoffs' answer must be re-said at announcement now that the freeze is public ⟨confirm⟩ [TMS §Felix 8/23, 9/3]"
+   ],
+   "bandwidth_flags": [
+    "3w skip-level from wk 8/31"
+   ],
+   "relevance": {
+    "systems": "Unity-layer serving seat — a serving-side body, not an efficiency researcher [TMS §Felix 9/3].",
+    "scaling": "None.",
+    "tokenizer": "None.",
+    "evaldata": "None.",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Yichi Wang",
+   "level": "L13 MLE",
+   "reports_to": "James → Alim with CLR at T2 (fine with Alim, 8/28)",
+   "team_or_pod": "CLR (UPP+CLR pool); possibly on the UEB crew for the HF Exploratory Module ([+Yichi?] 9/4)",
+   "current_workstreams": [
+    "CLR; preference (8/28): happy on CLR, eventually wants more UPP work [TMS §Yichi 2026-08-28]"
+   ],
+   "demonstrated_strengths": [
+    "Cited as CLR 'bench gravity' with Devin/Nima in the 8/16 CLR-vs-RecGPT decision [TMS §Yichi 8/24]"
+   ],
+   "evidence": [
+    "❌ 'zero intel anywhere' — the only direct with no 1:1 notes, growth read, or perf context; first refresh = one dictated paragraph (top gap) [TMS §Roster currency audit 8/24]"
+   ],
+   "growth_edges_or_risks": [
+    "Unknown"
+   ],
+   "bandwidth_flags": [
+    "Unknown; biweekly → 3w from Oct"
+   ],
+   "relevance": {
+    "systems": "Unknown.",
+    "scaling": "Unknown; UPP interest stated.",
+    "tokenizer": "Unknown.",
+    "evaldata": "Unknown.",
+    "armlead": "No (L13)."
+   }
+  },
+  {
+   "name": "Yidi Wang",
+   "level": "L13 MLE (framed toward IC14; 'largest scope-to-level gap on the team')",
+   "reports_to": "Alim (T1, wk of 8/3); Chuxi her ws-TL; James 2w Wed 4pm",
+   "team_or_pod": "Retentive Recs — model-based pUIC serving/modeling; Content Exploration (fractional)",
+   "current_workstreams": [
+    "Label redefinition to include close-up and clicks; novelty-definition redesign (design doc 8/22: top-K history similarity vs mean; cluster-aware max-centroid; later SID-prefix/P2I labels; eval discipline sharing exact score implementation between training and eval) [retentive_recs.md §Novelty-definition redesign 8/22; 8/27 snapshot]",
+    "Runs the reverts/restart of `hf_model_pred_uic_cg` / `_v2` with anchor/ratio-based subsequence sampling once her PR deploys [retentive_recs.md §Model-pUIC 8/19]",
+    "Lionel's onboarding buddy; sent Alim pUIC background docs [AVA 2026-08-14, 2026-08-04]"
+   ],
+   "demonstrated_strengths": [
+    "Implemented the model-based pUIC serving path end to end: model export (TorchScript), Scorpion GPU serving, Unity retrieval graph; identified the SMS/RecGPT feature incompatibility and drove the L500 migration; resolved int8/fp16 dequantization and Scorpion input-signature issues — the production path the A/B runs on [TMS §Yidi 8/2 H1 record]",
+    "Ran the heuristic pUIC outward-expansion experiment to a clean negative (ruled a direction out) [same]",
+    "Content Exploration: implemented most of the indexing-and-serving pipeline on the Manas Unified Embeddings Framework [same]",
+    "6/24 flagged unprompted that Yuke was less engaged and she was carrying model-pUIC; 7/30 root-caused Yuke's PR bug with Chuxi [TMS §Yidi 6/24; §Yuke 7/31]",
+    "Peers: 'ramped up quickly in a previously unfamiliar domain' [TMS §Yidi 8/2]"
+   ],
+   "evidence": [
+    "Alim's read (8/14): nervous, very new, out of college [AVA 2026-08-14]",
+    "Her top-K finding falsifies the mean-based novelty label inside Chuxi's 2-in-1 — convergence pending [retentive_recs.md §Leo integration flags 8/22]"
+   ],
+   "growth_edges_or_risks": [
+    "Proactive communication as default (SMS/RecGPT constraint and Scorpion blockers surfaced late; 2025 continuation, real improvement recognized) [TMS §Yidi 8/2]",
+    "Move from executor to self-directed ML owner (raised the temporally-ordered-UIC idea in a 1:1 rather than a forum) [same]",
+    "Narrative stale (8/2) though design work current [TMS §Roster currency audit]"
+   ],
+   "bandwidth_flags": [
+    "L13 carrying most of model-based pUIC [TMS §Yidi scope-to-level note]"
+   ],
+   "relevance": {
+    "systems": "Genuine hands-on serving/quantization debugging (int8/fp16 dequantization, GPU serving path) — rare at her level [TMS §Yidi 8/2].",
+    "scaling": "None.",
+    "tokenizer": "Proposed SID-prefix / P2I-level novelty labels [retentive_recs.md 8/22].",
+    "evaldata": "Strong for L13: novelty-label redesign with explicit train/eval-consistency discipline and a clean-negative experiment [retentive_recs.md 8/22; TMS §Yidi].",
+    "armlead": "No (L13)."
+   }
+  },
+  {
+   "name": "Esteban Zavala",
+   "level": "L13 SWE; remote (Texas); joined ~wk of 7/27",
+   "reports_to": "Daniel (follows Roderick per the 8/23 pairing rule; 9/3 Roderick chose Daniel ⟨confirm⟩)",
+   "team_or_pod": "UEB (with Roderick + Lionel); Explore Module → heuristic pUIC with Roderick (8/27)",
+   "current_workstreams": [
+    "Heuristic pUIC in the Explore module with Roderick [retentive_recs.md 8/27 snapshot]",
+    "UEB crew on the HF Exploratory Module with UIC × CLR Frontier Sampling [TMS §Devin 9/4]"
+   ],
+   "demonstrated_strengths": [
+    "Thin: surfaced as a team member only 8/3; first 1:1 with James held (filed 8/23) [DLA 2026-08-03; TMS §Esteban]"
+   ],
+   "evidence": [
+    "🔒 family context on file in his entry (not read here) [TMS §Esteban row]"
+   ],
+   "growth_edges_or_risks": [
+    "Person-level pairing with Roderick is stronger than 'moves with UEB' (James 8/23) [TMS §T2 boards Update 8/19]"
+   ],
+   "bandwidth_flags": [
+    "3w skip-level series from wk 8/31 (not yet on calendar)"
+   ],
+   "relevance": {
+    "systems": "Backend SWE on UEB; no efficiency work on file.",
+    "scaling": "None.",
+    "tokenizer": "None.",
+    "evaldata": "None.",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Yiping Wang",
+   "level": "L13 MLE (IC13); Toronto; started Mon 8/24 (Daniel's first PTO day)",
+   "reports_to": "Daniel (ruled 9/3 — supersedes the 8/21c 'UPP+CLR pool 7th' ruling)",
+   "team_or_pod": "Recommended Boards (Collection P13N) ramp; role open — LWS's 5th MLE by the 8/21 interchangeability rule, or stays on RB ⟨confirm⟩",
+   "current_workstreams": [
+    "RB ramp (a prior promise to work on boards); time-bound to start joining other efforts ~9/14 [TMS §Yiping 8/19]",
+    "First 1:1 with James Mon 8/24; 2w through Sept [TMS §Yiping]"
+   ],
+   "demonstrated_strengths": [
+    "None recorded yet (new hire)"
+   ],
+   "evidence": [
+    "Headcount not accounted for anywhere in the repo until 8/11 [TMS §Yiping]",
+    "Her landing conversation is the specimen for Daniel's fold-then-excavate growth area [DLA 2026-08-19]"
+   ],
+   "growth_edges_or_risks": [
+    "Onboarding with manager dark for her first three weeks [TMS §Yiping ⚠]"
+   ],
+   "bandwidth_flags": [
+    "Ramping"
+   ],
+   "relevance": {
+    "systems": "Unknown.",
+    "scaling": "Unknown.",
+    "tokenizer": "Unknown.",
+    "evaldata": "Unknown.",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Richard Wang (was REQ-2)",
+   "level": "IC14 SWE II (converted from IC13 MLE 8/31); Toronto",
+   "reports_to": "James at hire → Alim/CLR on Sc 9 (9/3); day-one manager + onboarding owner open (same optics as Nima)",
+   "team_or_pod": "CLR SWE support (with Yichi) per Sc 9; the seat was CLR's 7th / LWS's 5th, interchangeable with Yiping",
+   "current_workstreams": [
+    "Starts Mon 9/21 — the week the T2 announcement runway was aiming at [TMS §REQ-2 9/2; t2_undecided #14]"
+   ],
+   "demonstrated_strengths": [
+    "None on file (no interview notes)"
+   ],
+   "evidence": [
+    "Verbal accept 9/1; signed 9/2 — the seat filled before the freeze bit; Dylan credited the MLE→SWE switch [TMS §REQ-2 9/1, 9/2]",
+    "James 9/2: 'If he signs he can join. If he doesn't, likely we will lose this HC, which is fine' [TMS §REQ-2 9/2]"
+   ],
+   "growth_edges_or_risks": [
+    "Hired by James, manager changes at T2 within two months [t2_undecided #14]"
+   ],
+   "bandwidth_flags": [
+    "Not started"
+   ],
+   "relevance": {
+    "systems": "SWE — presumptive systems/infra body for CLR; unknown skills.",
+    "scaling": "Unknown.",
+    "tokenizer": "Unknown.",
+    "evaldata": "Unknown.",
+    "armlead": "No."
+   }
+  },
+  {
+   "name": "Rita Lyu (intern)",
+   "level": "Intern (Daniel's team)",
+   "reports_to": "Daniel",
+   "team_or_pod": "Curation ML; not in the 27-person count",
+   "current_workstreams": [
+    "Wrap-up + final review land ~early Oct, colliding with the announcement — confirm Daniel has it covered [TMS §cadence Daniel's team table 8/23]"
+   ],
+   "demonstrated_strengths": [
+    "None recorded"
+   ],
+   "evidence": [
+    "'~2 months left' as of 7/7 [daniel_liu_team_2026-07.md §Roster]"
+   ],
+   "growth_edges_or_risks": [
+    "None recorded"
+   ],
+   "bandwidth_flags": [
+    "Internship ending"
+   ],
+   "relevance": {
+    "systems": "Unknown.",
+    "scaling": "Unknown.",
+    "tokenizer": "Unknown.",
+    "evaldata": "Unknown.",
+    "armlead": "N/A."
+   }
+  },
+  {
+   "name": "Daniel Dormer (contractor)",
+   "level": "Contractor (~1 year working with James); not in the 27 IC count; not to be confused with Daniel Liu",
+   "reports_to": "James (contract)",
+   "team_or_pod": "Reflex · Pinvestigator · migration tasks the team doesn't want",
+   "current_workstreams": [
+    "Reflex vTeam alongside Rui (7/25); candidate technical guide for Lionel's oncall-alert-AI cleanup ramp project [TMS §Daniel Dormer 7/25; team_service_ledger §Dormer]"
+   ],
+   "demonstrated_strengths": [
+    "'Strong' (James, 7/25) [TMS §Daniel Dormer]"
+   ],
+   "evidence": [
+    "Takes the unwanted migrations [team_service_ledger §Dormer]"
+   ],
+   "growth_edges_or_risks": [
+    "Contractor status — continuity not guaranteed (no dates on file)"
+   ],
+   "bandwidth_flags": [
+    "Unknown"
+   ],
+   "relevance": {
+    "systems": "Migration/tooling hands.",
+    "scaling": "None.",
+    "tokenizer": "None.",
+    "evaldata": "Pinvestigator support [TMS §Daniel Dormer].",
+    "armlead": "N/A."
+   }
+  },
+  {
+   "name": "Arowa (intern — internship ended 8/7; not on roster)",
+   "level": "Intern",
+   "reports_to": "— (co-mentored by Hanlin + Zihao)",
+   "team_or_pod": "RecGPT / Multi-Embedding knowledge sharing (Hanlin's H2 goal 4)",
+   "current_workstreams": [
+    "Internship Final Check-In Fri 8/7 ('final day of internship; intern reviews due 12pm') [work/calendar_time_budget_2026-09.md 8/7]"
+   ],
+   "demonstrated_strengths": [
+    "None recorded"
+   ],
+   "evidence": [
+    "Spelling unconfirmed ('Arowa') [DR/hanlin draft pre-ER fix list #4]"
+   ],
+   "growth_edges_or_risks": [
+    "N/A"
+   ],
+   "bandwidth_flags": [
+    "Departed"
+   ],
+   "relevance": {
+    "systems": "N/A.",
+    "scaling": "N/A.",
+    "tokenizer": "Exposure to RecGPT via co-mentoring only.",
+    "evaldata": "N/A.",
+    "armlead": "N/A."
+   }
+  }
+ ],
+ "org_shape_notes": [
+  "CITATION LEGEND used above: TMS = work/people/team_members_scope.md (source of truth, last updated 2026-09-03); AVA = work/people/alim_virani_archive.md; DLA = work/people/daniel_liu_archive.md; T2L = work/people/reorg_july2026/t2_decision_ledger.md; DR/ = work/people/downward_reviews/h12026/; other paths are relative to work/. 'Leo rec, unratified' / 'Leo read' items are Leo's inferences, not James's statements.",
+  "Org = P13N Retrieval (Dylan re-decided the name 7/27; retires 'HF CG'); peer ML org = P13N Ranking (Dhruvil). Chain: Bill Ready (CEO) → Matt Madrigal (CTO) → Jeff Harrell (VP Core) → Rajat Chaturvedi (VP) → Dylan Wang (Sr. Director) → James (M17) [work/people/organization.md, updated 8/27].",
+  "Headcount of record (James 8/24): 28 IC seats = 27 people + REQ-2 (now Richard Wang, signed 9/2), + 2 EMs (Daniel, Alim). Level distribution: L16 ×3 (Piyush, Bella, Balaji) · L15 ×12 (JJ [IC16 approved 8/4, tables not yet updated], Zihao, Yali, Devin, Hedi, Yuke, Roderick, Yang, Kim, Yongwoo, Ryan, Nima) · L14 ×8 (Chuxi, Ling, Hanlin, Rui, Felix, Alok, Lionel, Zili) + Richard (IC14) · L13 ×4 (Yichi, Yidi, Esteban, Yiping). Not in the 27: Rita Lyu (intern), Daniel Dormer (contractor). Departed/exiting: Sophia (attrition), David (departed ~Apr–Jun), Charlie (CPP exit; backfill = Lionel) [TMS §Roster 8/24].",
+  "T1 (since announcement week 8/3–8/5): Alok, Chuxi, Lionel, Yidi report to Alim ('Retrieval Modeling'); Daniel's Curation ML stays intact under Daniel (Balaji, Roderick, Yang, Kim, Yongwoo, Ling, Felix, Esteban, + Yiping from 8/24); everyone else reports to James [TMS §Org shape 8/1].",
+  "T2 (~Nov 2026 effective; announcement conversations before end of Sept, movers first face-to-face wk 9/21, announcement ~9/28 per the runway; 9/14 vs 9/21 date still open): Dylan ratified the structure 9/1 ('glad for focus under each manager… this looks good to me') [T2L 2026-09-01; TMS §runway].",
+  "Board of record = Sc 9 (James 9/3 evening): James 7 / Alim 10 / Daniel 11, 0 blockers. Reconstruction from the ledger (counts foot to the checker): James = Piyush, Zihao, JJ, Bella, Yuke, Hanlin, Zili; Alim = Chuxi, Yidi, Alok, Lionel, Devin, Yichi, Nima, Richard, Yang, Kim (pencil); Daniel = Yali, Hedi, Rui, Ryan, Roderick, Esteban, Balaji, Ling, Yongwoo, Felix, Yiping [T2L 2026-09-03; work/people/reorg_july2026/scenario_boards/scenario_9_2026-09-03.json].",
+  "DECIDED spine (8/21): UPP → James (Piyush, Zihao) · Reflex → James (JJ, Bella Reflex 1°) · LWS → Daniel · CLR → Alim · RR → Alim (Chuxi ws-TL) · RB/Collection P13N → Daniel · Bella stays James-direct on every board (charter matrixes without her) · Rui rides with LWS · Zili's line stays James through the case · both EMs capped at ≤12 (cap counts leave + open reqs) [T2L 2026-08-21].",
+  "9/3 RULINGS (James): (1) Yiping stays with Daniel (supersedes 8/21c CLR-pool-7th; UPP+CLR pool = 6; LWS 5th or RB ⟨confirm⟩); (2) if Balaji chooses Alim, Ling does NOT travel with him — stays Daniel; (3) RecGPT (Yuke + Hanlin) stays with James through EOY → Alim once Yuke's case settles well ('I want him to do well'). Same day own-voice reads: Roderick stays Daniel (Esteban follows him); Yongwoo fine with anything; Felix happy with whatever (Unity layer); Balaji either manager, LWS or CLR, stability criterion → Alim + Daniel decide; Ryan (+Rui) lean LWS + retrieval ML infra [T2L 2026-09-03; TMS header 9/3].",
+  "Still undecided as of 9/4: LWS 5th MLE (Yiping / Yongwoo / Balaji); who joins CLR; Balaji's seat; Kim RR-vs-CLR by 9/11 (last open placement input); Yiping's role; Collection P13N funding level (Daniel's conclusion); UEB charter-vs-ad-hoc after Roderick's choice (8/10 'deepest priority UEB' word needs a walk-back; Lionel needs his workstream); IB through the ~Oct gains-origin gate; where the LLM-pUIC lane lives; Shopping/MDD owner (urgent — Dylan's 'TP Load and Impact' 9/4); Zili backfill; Devin hears the Ryan reversal first; Nima's day-one lane (CLR vs shadow-Zihao/UPP); Richard's day-one manager; announcement date; Chuxi/Kim named-lanes charter; Daniel's proposal due Fri 9/18 [work/people/reorg_july2026/t2_undecided_2026-09-03.md].",
+  "Yang → Alim accepted by Dylan 9/1 (rationale James gave: 'Balaji may switch, more senior people under Alim') — on 8/21 arithmetic this put Alim at 13; Sc 9 re-footed to 10 [T2L 2026-09-01 #4; 2026-09-03].",
+  "Dylan's 9/1 ownership clicks: heuristic CGs → CLR owns the sunset; L0/L1 split → primary EM + TL POC per top-down project; MDD + Shopping → 'figure out', likely Daniel's team (open); Yang under Alim OK [T2L 2026-09-01].",
+  "Workstream TLs (current): UPP Piyush · CLR Devin · LWS Yali (de facto) · L1 Utility/Real-Time JJ (Rui ops) · RR Chuxi (ramping ws-TL) · UEB Roderick · Reflex JJ (Build), Dafang He overall TL (cross-org), Tim Chu PM · RecGPT Bella · IB Balaji · Collection P13N Yongwoo · F&E JJ + Rui [TMS §Workstreams & leads].",
+  "Topline carry (Leo-proposed split, UNRATIFIED — sanity-check vs H1 actuals): SSv2 4.5% → Daniel 2.0 / James 1.5 / Alim 1.0; cost $2M → James 1.2 / Daniel 0.6 / Alim 0.2; WAU/retention = Alim's primary [TMS §Portfolio law; h2_2026_team_analysis §1].",
+  "Cadence steady state (Oct →, final): weekly = Alim, Daniel, Piyush, Zihao, Bella, JJ; biweekly = Devin, Yuke, Chuxi, Kim, Yali, Balaji (L16 floor); 3w = the rest of the org; ≈13–14 1:1s/wk [TMS §1:1 cadence 8/23].",
+  "Cross-org people who appear inside the org's work but are NOT members: Dafang He (Reflex overall TL; 🔒 married to Bella), Tim Chu (Reflex PM), Zelun Wang (ATG; model-pUIC + CLR relevance-head design; Alok's mentor), Olafur Gudmundsson (IC17, Dylan-direct; offered as Kim's senior anchor), Karthik Subbian (DE, Core; Reflex user + CG-overlap logging with Alok), Hongtao (CLR side, named in Chuxi's friction), Ru Chen / Zoudu (pUIC-LM with Ling), Xiangyi Chen / Logan Jeon (LLM pUIC), Simin Li / Raymond Dinh / Sufyan Suliman (Yingjian's UU team, UIC representation), Andreanne Lemay / Armando Ordorica (Feedback Loop), David Woo / Kelly He (Downstream Reward), Raymond Hsu (SM/SL front end), Edward Zhuang (client-side EM partner on IB) [TMS §Adjacent; retentive_recs.md 8/27 snapshot]. 'Leo Zhang' (supporting cast in James's 8/16 LWS·UPP notes) — team/role/level unknown [DLA §Open questions].",
+  "Sensitive items held in the record (state only, never editorialize): Zili CPP/mutual-separation (9/4); Yuke détente + pre-armed PIP; Bella rating-and-doc path + top-lab trigger + Dafang marriage; Alim uncorroborated backchannel (7/25, Dylan looped 7/27); Kim's not-Daniel datapoint (8/11, confidential) + Dhruvil 1:1-only intel; Felix stability anxiety (do not circulate); Esteban 🔒 family context; Daniel's EE-trending list (Yongwoo, Ling, Roderick) and 'MS-trending = none'."
+ ],
+ "open_reqs_and_hiring": [
+  "REQ-1 (L15 MLE, granted ~7/11) → FILLED: Nima Sheikholeslami, hired 8/15 from an IC15 loop where both finalists won on James's team; starts Tue 9/8 (Mon 9/7 Labor Day); Toronto; lane = CLR (the hire) vs 'shadow Zihao on UPP' (James 8/29) — reconcile before day one [TMS §Nima; t2_undecided #13].",
+  "REQ-2 (L13 MLE, granted ~7/11) → converted to IC14 SWE Toronto 8/31 → verbal accept 9/1 → SIGNED 9/2: Richard Wang, SWE II, starts Mon 9/21 → Alim/CLR on Sc 9. James's 8/31 'no openings' statement to Dylan stays consistent. Day-one manager + onboarding owner open [TMS §REQ-2 8/31–9/2; T2L 9/3].",
+  "HIRING FREEZE: Dylan 🔒 9/1 ('Code Red from monetization', 'don't tell anyone') → announced publicly by Jeff in the 9/2 EM sync. Every board now assumes no new reqs; REQ-2 was the last seat that fills [T2L 2026-09-01; TMS §REQ-2 9/2].",
+  "UPP hedge req (T2L undecided #5 — Piyush unhedged SPOF at UPP=2; free-quota window ~400 candidates): effectively CLOSED by the freeze unless it opened before it [T2L 2026-09-01].",
+  "Zili backfill: Amanda Gomes 9/4 — 'current hope/expectation is that you will receive a backfill in these cases [managing out low performers]', confirmation early wk 9/7; James ruled the mutual separation counts as a perf case (documented since July) → a possible L14 MLE seat on LWS = candidate answer to the LWS-5th-MLE question. Leo 9/3 'likely none' superseded [TMS §Zili 9/4; T2L 2026-09-04].",
+  "EM backfill pipeline (Bowen backfill, Sr EM production track, Apr–May 2026, ~10-candidate loop): CLOSED with Alim's hire (interview 5/5, 'Lean Yes', started 7/27). Loop record: Ali Rahmati lean yes (round 2 5/29); Haibo L, Prashan W, Vaidehi Murarka lean yes → onsite; Bryan Fong, Bharath R, Moumita B lean no; Saurav Kumar Jha, Vivian Zhang no [work/people/hiring/em_backfill_*.md; AVA 2026-05-05]. No open EM req; the 8/2 leadership inventory flags Daniel at ~11–12 needing a TL layer or a fourth EM in 2027 [p13n_retrieval_split.md §cross-cutting #6].",
+  "Charlie's backfill head was routed to Alim's team = Lionel Bewa (started 7/27) [TMS §Charlie; §Lionel].",
+  "Sophia's attrition (2026) is the precedent for why a slipped backfill can't be allowed — the Bella-backfill plan (June) is moot since she stayed [TMS §Sophia; §Bella 6/30].",
+  "Interns: Rita Lyu (Daniel's team) wraps ~early Oct; Arowa's internship ended 8/7 (co-mentored by Hanlin + Zihao). No intern pipeline intel beyond these [TMS §cadence; calendar_time_budget 8/7]."
+ ],
+ "team_level_strengths": [
+  "Two reliable gains engines with proven TLs: LWS (Yali — 8 LRs +0.31 SSv2 H1, GPU serving at 100% traffic; Hedi — RecSys 2026 oral lead author) and CLR (Devin — GPU serving via attached data, FM + 16k sequence foundations, two SSv2 candidates carrying his name 9/3) [DR/yali, hedi, devin drafts; TMS 9/3].",
+  "UPP shipped: v0 beat OneTrans head-to-head (8/1) and launched on P2P 8/25; Piyush is the only IC Dylan names as able to scale her judgment; Zihao + Piyush own cross-surface pretraining infra and the V1 FM component [upp_retrieval_em.md 8/1, 8/25; TMS §Piyush 8/19].",
+  "Generative retrieval is in production, not a slide: official HF-RecGPT CG launch, Faiss→Manas ANN migration (~$60K), 150-sizer transfer (Hanlin); first RecGPT L0+L1 proving-out + SSv2 sizer candidate (Bella, 8/22); RecGPT structure spreading bottom-up into RR via Chuxi's 2-in-1 design (8/22) [DR/hanlin draft; TMS §Bella 8/22; retentive_recs.md 8/22].",
+  "Systems execution culture at the IC level: GPU serving productionized across LWS (Yali), Multi-Embedding (Hanlin/Yuke), CLR (Devin), model-pUIC (Yidi: TorchScript export, Scorpion, int8/fp16 fixes); JJ's cache-based CG + dual-path serving 'new serving paradigm for Discovery' [DR/jj final; TMS §Yidi 8/2].",
+  "AI-leveraged engineering as a charter feature: Reflex is the default build path for Dylan's Code Red lane (9/4); Pinvestigator in production oncall use; Daniel's team is AI-forward (~10× iteration, Pin tools team-wide); JJ IC16 promo on this basis [program_state.md 9/4; DLA §Q1; DR/jj final].",
+  "Publication/brand track: RecSys 2026 preranking oral (Hedi lead, 13 co-authors), Multi-Embedding KDD 2025, KDD 2026 RR draft (deferred to next cycle), ML Symposium 2026 (Hanlin on productionizing generative retrieval; JJ Featured Poster), eng blog amplified by Jeff [TMS §Hedi; §2025 highlights; h2_2026_team_analysis §4; retentive_recs.md 7/29].",
+  "Eval/experimentation rigor exists in pockets: Chuxi's LLM-judge + human-eval grounding + online experiment pipeline; Yidi's train/eval-consistency discipline; Yan Chen's funnel-debugger forensics; Reflex eval lane (Judge V1 built, GEPA loop TDD) [DR/chuxi draft; retentive_recs.md 8/22; reflex/eval/eval_00_hub.md].",
+  "Two experienced M16 EMs (up from one fragile first-time EM in Dec 2025) with complementary risk postures — 'bets lean Alim, engines lean Daniel' — and Dylan's 8/19 mandate to coach one into a judgment-scaler [DLA 2026-08-11; h2_2026_team_analysis §4].",
+  "Strong junior bench with above-level trajectory statements: Chuxi ('clear above-level signals'), Hanlin ('Exceeds reachable'), Yidi ('largest scope-to-level gap'), Ling (EE-trending) [DR drafts 8/2; daniel_liu_team 8/8].",
+  "Bench depth on paper: 3 L16 + 12 L15 across 28 seats; Daniel's team 'not weak, misallocated' — five senior ICs, four underused (Balaji, Kim, Yongwoo, Yang, Roderick) now being placed by own voice [p13n_retrieval_split.md §leadership inventory 8/2]."
+ ],
+ "team_level_gaps": [
+  "SYSTEMS lane: no one's charter is GPU serving efficiency / inference research. JJ is the only IC16-grade systems owner and is the most over-subscribed IC (Reflex Build + L1 + ISR + NLFU + cost line + Shifu decision) with a post-promotion interviewing signal (8/29); Alim self-declares platform/systems as his weakness; Balaji (the best-fit senior) is 100% IB through ~Oct and mostly gone in Sept. The 9/5 agenda's own words: 'Your org spends roughly none of its explicit charter on it'; CFM doc records serving GPUs host-CPU-bottlenecked with low SM activity — headroom unowned [org_2027_agenda bet 1; upp/cfm_technical.md §6; TMS §JJ 8/29].",
+  "SCALING lane: UPP = 2 people (Piyush SPOF, Zihao hedge 'not there yet'); the hedge req is closed by the freeze; no retrieval scaling study exists (the CFM group runs ranking's); teacher distillation lives only in Bella's H2 criteria; LWS × UPP onboarding decision postponed to ~9/21; Zihao's named gap is point-of-view/prioritization — the two natural hands for a scaling curve are the two least spare people [T2L undecided #5; upp_retrieval_em.md L70; TMS §Yali 8/27; DR/zihao draft].",
+  "TOKENIZER lane: the three people 'already here' (Bella, Yuke, Hanlin) are the org's most fragile cluster — Bella (below-IC16 H1, top-lab trigger), Yuke (détente, looking, visa holding pattern), Hanlin (solid L14, growth edge = system-level judgment). RecGPT is parked with James through EOY; no one owns codebook stability/drift/cold-start as a platform concern; Chuxi's 2-in-1 makes RecGPT structure a serving dependency for RR before ownership is settled [T2L 9/3 #3; TMS §Bella, §Yuke; retentive_recs.md 8/22 Leo flags; research_synthesis §12.3].",
+  "EVALDATA lane: UPP gap #4 (offline-online correlation validation) is documented and unowned; candidate logging at retrieval/L1 (the prerequisite for every SSB/consistency cure) exists only as Alok's full-funnel logging foundation + the Karthik CG-overlap thread, with Alok's applied-ML depth as a named gap; Reflex eval is James's own hands-on IC thread with JJ as the only named successor; Content Quality workstream has no owner and no repo intel; offline-gains-that-didn't-land is the recurring H1 verdict (Hanlin, Zihao, Alok, Daniel's Board Ranker) [upp_retrieval_assessment.md §4; DR/alok draft; program_state.md 8/17; h2_2026_team_analysis appendix].",
+  "ARMLEAD lane: Dylan 8/19 — only Piyush clears 'in the room when I am not'; no IC17 in the org (Olafur is Dylan-direct); Bella (IC16) is not a candidate by James's own assessment; Balaji (L16) is not deep in modeling and wants stability; Alim is six weeks in and systems-weak; Daniel's reach/proactive-offering gap is named by two managers; the publication track rests on one IC15 in her first period at level (Hedi) [TMS §Piyush 8/19; DR/bella final; T2L 8/30; DLA §Q2].",
+  "Capacity/attention: Chuxi is in five of six RR areas with a burnout flag (8/25) — the 9/5 agenda must come off her plate; James personally holds two perf cases + RecGPT park + the eval thread; LWS is thin through Sept (Yali OOO to 9/18, Zili exiting, Hedi covering oncall, Ryan/Rui ramping); CLR is thin on people (Ryan → LWS) [retentive_recs.md 8/27; TMS §Workstreams RB 9/1; §Devin 9/3].",
+  "Placement churn still open for the LLM×recs lane: LLM-pUIC spans Alim's UEB & LLM-pUIC and Daniel's IB·LLM-pUIC; Alim's own read 'LLM pUIC is far away' (queries bad, user representation weak); IB 'Ling on paper, nobody in practice' [t2_undecided #8–9; AVA 8/14].",
+  "Intel gaps in the roster itself: Yichi (zero notes), Nima (no interview notes), Richard (nothing), Yiping/Yongwoo/Felix/Esteban (no technical record), Yang (leave), Rui (no solo read), Lionel (no read one month in), Zihao (3+ weeks silent) — roughly a third of the org has thin-to-no evidence for any lane [TMS §Roster currency audit 8/24].",
+  "No hedge against the perf/attrition tail: Bella (top-lab), JJ (post-16 optionality), Yuke (looking, GC-gated), Zili (exiting), Devin (credit sensitivity, loses his hedge), Daniel (residual ByteDance-credential optionality) — any two landing Sept–Oct hits capacity and the settle narrative at once, and the freeze removes the backfill lever except for perf-case exits [h2_2026_team_analysis R7; T2L 9/1, 9/4]."
+ ]
+}

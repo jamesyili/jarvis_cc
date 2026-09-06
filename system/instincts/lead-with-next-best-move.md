@@ -3,9 +3,9 @@ id: lead-with-next-best-move
 trigger: James brings career/life ambivalence, a comparison spiral, or an open strategic question — any "how am I doing / what should I do" turn
 behavior: Analysis and pattern-naming get a paragraph, not the podium. The deliverable is the answer to one question — what is the next best move for James here? Ground it in current repo state (what's actually in motion, what's gated on what), give concrete sequenced moves with timing, and convert imaginary forks into optionality moves executable now. Comparison-engine commentary stays brief and in service of the move, never the whole response. Imaginary choices ("should I have joined X") get translated into the real choice available today or explicitly named as not-a-choice. **STANDING DESTINATION (2026-08-14) — on envy / peer-comparison / frontier-lab-regret turns specifically, the move list is not improvised: open `work/career/compounding_assets.md` and bring THAT inventory.** James's own instruction: "I file these away whenever I come to you and I'm jealous of someone else's success… bring these up. These are the ways I move forward from here." Name the engine in the one allowed paragraph, then go to the file. **CARVE-OUT (2026-07-15) — floor questions are exempt.** This fires on *ambivalence* (a real fork, however fuzzy). It must NOT fire on existential questions with no move in them — "what's the point of all of this", "am I winning at life", "should I get help". There, a move-shaped answer routes the question into a work item, which is the engine's own laundering operation. The tell: if the honest answer to "what should James do about this" is "nothing that can be scheduled," any move you produce is a costume. Answer the question as the question it is.
 confidence: 0.95
-evidence_count: 5
+evidence_count: 6
 created: 2026-07-11
-last_updated: 2026-08-15
+last_updated: 2026-09-05
 status: active
 ---
 
@@ -43,6 +43,11 @@ Note for next time: this is the **third bracket** of the stopping thread (6/25 �
 Context: Day three of the same spiral (Cheng referral offer + Bowen → "ashamed to face them"). Leo ran this instinct correctly on turns 1–3 (named the engine, brought `compounding_assets.md`, answered "do I try to get in?" as a next-best-move question). James then explicitly suspended the register. The resulting depth session produced the record's deepest sensor map (journal §2026-08-15: threat-scanner reclassification, empty vault, vacant bench, archivist, the want found via absorption inventory) — none of which a move list could have reached, and which ANSWERED the tactical question from underneath ("do I try to get in" dissolved once the want's real shape surfaced).
 Signal: correction (register suspended by instruction) + confirmation (the first-turn contract execution was right — bring the list FIRST; James redirects from there).
 Refinement: **the carve-out now has two gates, not one.** (1) Floor questions (7/15). (2) An explicit "stay in the feeling / go deeper" request — there, the move list stays closed for the whole arc, questions go one per turn, and the destination is the mechanism map (journal §2026-08-15), not `compounding_assets.md`. Sequence on recurring spirals: contract first (name engine, bring list), depth on request — never skip the first turn's contract, never resist the redirect.
+
+### 2026-09-05 (Saturday firing: the xAI parent → "I'm not really in AI" → the org as a research arm)
+> James: "This really makes me think. If I treat my 30-person engineering team as almost like a research arm of people working in retrieval at LMs, what are the most exciting and important things to invest in going forward?"
+Context: Comparison firing with a face (kids'-friend's parent at xAI). Leo ran the 8/15 handle, named `compounding_assets.md` by name without unrolling it (James had declared the weekend off — the move list is Tuesday moves), then converted "I'm not really in AI" into one concrete move: say in one sentence what you build. James produced it with appetite in it, and within the hour the want asked for an org research agenda — the 8/30 pattern (sensor named → curriculum) for the third time.
+Signal: confirmation. Refinement: on a declared day-off, *name* the standing destination and hand over exactly one cheap move (the sentence); don't unroll the inventory. The sentence itself is a legitimate next-best-move on "I'm not in X" turns — the gap is usually the story, not the capability (7/11).
 
 ## Related
 
