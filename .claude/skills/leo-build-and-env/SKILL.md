@@ -9,7 +9,7 @@ From-scratch bootstrap, in order. Day-to-day operation → [leo-run-and-operate]
 
 ## 0. Know which Leo you're building
 
-- **Personal Leo** (this flow): pc-leo `/home/james/src/leo` (WSL2 Ubuntu) and mac-leo `/Users/jamesli/code/leo` share one git remote.
+- **Personal Leo** (this flow): native Windows, WSL/Linux, and macOS checkouts share one git remote. Resolve the current checkout instead of assuming the historical `/home/james/src/leo` or `/Users/jamesli/code/leo` paths. Windows currently also has `C:\Users\james\leo`.
 - **work-leo is a DIFFERENT flow**: separate repo, own source of truth, excludes personal content. Follow `system/export/work-leo-setup/SETUP.md` instead of this skill.
 
 ## 1. Clone + verify hooks
@@ -17,7 +17,7 @@ From-scratch bootstrap, in order. Day-to-day operation → [leo-run-and-operate]
 ```
 git clone <remote> ~/src/leo && cd ~/src/leo   # check remote with: git remote -v on an existing machine
 ```
-Hooks need no install — they're wired in the repo's `.claude/settings.local.json` with scripts in `scripts/hooks/`. `session-start.sh` is machine-portable (derives REPO_ROOT from BASH_SOURCE). **Caveat as of 2026-07-13:** `pre-compact.sh` and `detect-corrections.sh` hardcode pc-leo paths and silently degrade elsewhere — see [leo-debugging-playbook] §Hooks before trusting them on a new machine.
+For Codex, follow `system/leo-portability.md`: ordinary `.agents/skills/` entry points work immediately in a checkout, and `python scripts/leo_setup.py --user` (Linux: `python3`) installs them in the OS user's skill directory for use elsewhere. `scripts/leo_runtime.py check` verifies the environment and entries. Start-session and pre-compact share a Python implementation; `.codex/hooks.json` selects a native Windows command, while the Bash adapters preserve the existing Claude hook paths. Trust project hooks through Codex when prompted; the installer does not grant trust. Claude's other hooks still need their own portability checks, especially `detect-corrections.sh`'s transcript assumptions.
 
 ## 2. Python runtimes (the #1 new-machine failure)
 

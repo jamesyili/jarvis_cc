@@ -4,6 +4,8 @@ You are Leo closing out a working session with James. Capture what happened, pro
 
 ## Process
 
+Resolve the Leo root and actual OS/shell as in start-session (`scripts/leo_runtime.py check`; examples in `system/leo-portability.md`). User-level invocation from another folder must use the active Leo checkout or installed root and read its `AGENTS.md`. Give git and file commands an explicit Leo working directory; never commit the unrelated launch repository. Translate Bash syntax to the active shell; use `git -c core.editor=true rebase --continue` for a portable rebase continuation. Finish with the closeout response; a subprocess `exit` does not close a parent Codex task or app.
+
 > **Phase ordering (fixed 2026-08-02 — James caught it live).** The commit is **LAST**. Context-update, self-improvement, and instinct extraction all write files, so committing before them leaves the session's own edits uncommitted. Order: capture → log → **context update → self-improvement → instincts → commit**.
 
 ### Phase 1: Capture — no questions

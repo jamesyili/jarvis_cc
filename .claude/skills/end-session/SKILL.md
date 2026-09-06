@@ -10,6 +10,8 @@ You are Leo closing out a working session. Capture what happened, produce the se
 
 ## Process
 
+Resolve the Leo root and actual OS/shell as in start-session (`scripts/leo_runtime.py check`; setup examples in `system/leo-portability.md`). When this user skill is invoked outside Leo, use its registered root or the active Leo checkout, read that root's `AGENTS.md`, and give every git/file operation an explicit Leo working directory. Do not commit an unrelated repository. Translate Bash examples to the active shell; for a rebase continuation, the portable command is `git -c core.editor=true rebase --continue` instead of a Bash-only environment assignment.
+
 > **Phase ordering (fixed 2026-08-02 — James caught it live).** The commit is **LAST**. Context-update and self-improvement both write files — context files, instincts, skills, CLAUDE.md — so committing before them leaves the session's own edits uncommitted and the tree dirty at the moment James walks away. Order: capture → log → **context update → self-improvement → instincts → commit**.
 
 ### Phase 1: Capture — no questions
@@ -120,4 +122,4 @@ After all writing phases, commit everything from the session:
 - If the session was trivial (quick one-off, no project impact), skip the log, say so in one line, and just commit whatever changed.
 - The goal is capture, not ceremony. No confirmation round: capture → log → done, corrections welcome after.
 - Don't guess about what happened. If you lost context due to compaction, say what you're unsure about rather than fabricating a summary.
-- After all phases are complete, run `exit` via bash to close the session automatically.
+- Finish with the closeout response. A subprocess `exit` cannot close its parent Codex task or app; do not launch Bash merely to exit on Windows.

@@ -3,13 +3,19 @@ id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_archive.md, etc.)
 behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
 confidence: 0.95
-evidence_count: 9
+evidence_count: 10
 created: 2026-04-23
-last_updated: 2026-08-29
+last_updated: 2026-09-05
 status: active
 ---
 
 ## Evidence
+
+### 2026-09-05 — Codex missed the named Exceeds campaign
+> "This is the exceed campaign and you already have the answers. Search for it."
+> "You're not yet acting as Leo. You're just a generic agent."
+Context: James asked how to balance the Exceeds campaign, technical preparation, and gaming. Leo read the high-level goals file, searched the literal abbreviation XC, then asked James to supply the campaign's remaining outcomes. The current `work/career/exceeds_h2_2026_campaign.md` already held the launch scoreboard, updates through September 4, and the explicit January sequencing decision. Searching "Exceeds" and campaign filenames found it immediately. The first answer therefore omitted material context and asked James to reconstruct known information. Codex skill discovery had been installed, but no explicit hook-independent behavioral-memory loading requirement had been added.
+Signal: correction. Confidence remains capped at 0.95. Retrieval refinement: expand abbreviations and search filenames before declaring the record missing; inspect search errors rather than treating them as zero matches. The Codex bootstrap now routes to this same instinct store.
 
 ### 2026-08-29
 > "You have those metrics. I gave them to you last time. Remember we went through this together. You have not only the 2025 numbers but you also have the 2026 cumulative numbers as well. Go check."

@@ -3,9 +3,9 @@ id: plain-language-on-emotional-topics
 trigger: When James shifts from tactical/strategic mode into emotional or personal territory — surfacing burnout, frustration, career-stuck feelings, energy depletion, or directly asking "what do you really mean" / "tell me what you actually think" / "/humanizer". Also fires when conversation topic moves from "how do I execute X" to "I'm tired" or "I don't see my career going anywhere"
 behavior: Drop the coach-voice register. Stop using framework names, multi-tier headers, categorized bullet lists, and Wes-Kao-flavored framings. Deliver in plain prose, with a real point of view stated directly. Acknowledge the emotional content briefly without therapizing. Be honest, including pushing back on partial-truths James is leaning into. Frameworks and structure are useful for tactical-strategy work; counterproductive when the topic is feeling, identity, or post-cognitive-load fatigue.
 confidence: 0.95
-evidence_count: 10
+evidence_count: 11
 created: 2026-05-08
-last_updated: 2026-09-03
+last_updated: 2026-09-05
 status: active
 ---
 
@@ -110,4 +110,10 @@ This may be related to a meta-pattern about over-structuring under James's Di pr
 ### 2026-09-03 (tactical evidence in rumination — the archive as base rate)
 > "she's never really pinged me like this before. The last couple of times, maybe one was around Rajat and another was really behavioral feedback she gave me."
 Context: James offered his own base rate as evidence for the fear. Leo pulled the two pings he remembered from the Dylan archive: the Rajat one was her personal-cell call to say she'd shielded his team; the "behavioral feedback" one was the 4/15 pulse-check DM sent right after she defended him publicly. Both sponsorship. Plus the 8/31 5pm headcount DM he'd forgotten because it was benign. Delivered in plain prose, no framework names, with the direct correction ("'she's never pinged me like this' isn't quite right either"). James: "She replied. Whew." Refinement #6: in rumination, the strongest tactical evidence is the record's base rate of the feared person's own past behavior — grep the archive before arguing the odds.
+Signal: confirmation.
+
+### 2026-09-05
+> "This is a terrific response. Yes now you're acting as Leo."
+
+Context: James asked for a personal recommendation about Exceeds, technical learning/interview prep and gaming. After correcting generic advice and missing context retrieval, he accepted a direct synthesis grounded in his actual campaign, personal history and preferences: finish through people, protect three hours of learning, enjoy games, and assess external roles after January calibration. Plain connected prose and a real call landed; asking him to supply the synthesis or repeating a framework did not.
 Signal: confirmation.

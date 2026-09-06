@@ -104,7 +104,7 @@ The KB is for generalizable learning—not private Pinterest material. Pinterest
 
 ## Machines
 
-Two machines share one git remote (see `.claude/skills/leo-build-and-env/`): **pc-leo** (`/home/james/src/leo`, WSL2 Ubuntu on Windows 11) and **mac-leo** (`/Users/jamesli/code/leo`; specs unrecorded).
+Personal Leo checkouts share one git remote (see `.claude/skills/leo-build-and-env/`): **pc-leo** supports native Windows (`C:\Users\james\leo`) and WSL2 Ubuntu (historically `/home/james/src/leo`); **mac-leo** historically uses `/Users/jamesli/code/leo` (specs unrecorded). These are observed locations, not required paths. Start-session resolves the current checkout and OS; portable setup and user-skill installation are in `system/leo-portability.md`.
 
 **pc-leo hardware** (CyberPowerPC build, recorded 2026-08-16):
 
@@ -138,7 +138,11 @@ Those are conveniences, not the definition of Leo. When working outside Claude C
 
 ### Codex and other agents
 
+**Active usage trial (James, 2026-09-05):** use Codex extensively for at least a month or so, with roughly early October as an informal reflection point. No permanent migration or automatic follow-up was requested. Judge the trial by continuity, useful personal judgment and reliable daily operation; shared context and instincts remain canonical. James explicitly confirmed the final work/learning/life synthesis felt like Leo after the behavioral loading changes.
+
 Codex can operate Leo from `AGENTS.md` and `prompts/` directly. The normal loop is: load the relevant context, do the work, update the source-of-truth file when new durable information appears, and use the session workflow for a clean handoff.
+
+Codex discovers portable entry points in `.agents/skills/` that read the canonical `.claude/skills/` workflows. `scripts/leo_setup.py --user` installs the same entry points under the current OS user's `~/.agents/skills/`, making `$start-session` and `$end-session` available from other folders. The setup does not rely on symlinks or duplicate workflow bodies. `scripts/leo_runtime.py` provides environment checks, shared Windows/Linux lifecycle hooks, and a launcher that selects the resolved checkout. See `system/leo-portability.md`.
 
 Do not assume that Claude-specific hooks, memories, or native slash-command registration will run in another tool. The repository-level context and workflows are the common contract.
 

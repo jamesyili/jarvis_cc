@@ -2,7 +2,9 @@
 
 *Created 2026-08-16. Goal: maximize P(Exceeds) in the January 2027 cycle. Why it matters: the Exceeds gates the 2027 grant refresh, which holds household savings at ~$750–800k/yr — the compounding base of the whole wealth table (see 8/16 session). Sequencing decision (James, 8/16): Exceeds first; no external attempts until the cycle lands; no half-pursued interview rounds ever again.*
 
-**Evidence window: now → ~early December. That's ~15 working weeks.** *(8/29 update: runway extends to mid-January calibration — **19 weeks from Mon 8/31 to Fri 1/8** — and the org works through James's PTO weeks; his weeks off are F-5 evidence, not lost runway.)*
+**Evidence window (8/29 correction; live summary reconciled 9/5): through mid-January calibration — 19 weeks from Mon 8/31 to Fri 1/8.** December/early-January landings can count. The early-December packet is amended as results arrive; the org works through James's PTO weeks, which are F-5 evidence, not lost runway.
+
+**September 5 reaffirmation:** James describes the Exceeds campaign as going well and ratified keeping it the near-term work priority while protecting ~3 hours/week of technical learning and real gaming/leisure time. Win through Alim, Daniel and Piyush carrying more; reduce unnecessary personal intervention. No active external campaign until the January cycle lands. This is a direction update, not new launch evidence or closure of any unchecked item. See `self/goals.md`.
 
 ## What a calibration room buys (and discounts)
 
@@ -15,7 +17,7 @@ The case rests on two launch families landing by ~Dec 1:
 1. **UPP launches**
 2. **Retentive Recs / Anticipation launches**
 
-"Landed" means shipped with readable metrics the room can quote — an experiment with a clean win number, not an internal milestone. Reflex stays in the case as the third incubating bet (narrative), but the *numbers* come from these two. **Prereq: measurement zero** — a win that can't be cleanly measured doesn't exist in the room; the 5×-carried measurement item is on the critical path for both launch families. Next step: per launch, name the specific metric, the expected magnitude, and the land-by date — then track slippage weekly, because a launch that slips past November exits the case.
+"Landed" means shipped with readable metrics the room can quote — an experiment with a clean win number, not an internal milestone. Reflex stays in the case as the third incubating bet (narrative), but the *numbers* come from these two. **Prereq: measurement zero** — a win that can't be cleanly measured doesn't exist in the room; the 5×-carried measurement item is on the critical path for both launch families. Next step: per launch, name the specific metric, the expected magnitude, and the land-by date — then track slippage weekly, because later landings need readable metrics available before mid-January calibration (December/early-January results can still count).
 
 **⚠️ 8/19 (SECRET — Dylan, closed-laptop; source: `../people/dylan_wang_archive.md` 8/19): the UPP×SSJ collaboration may stop ~end of Q3 (9/30), refocusing on Ads + Growth.** Consequences for family 1: (a) anything on the SSJ line — the P2P launch candidate included (P2P sits in Kurchi's org; both gates arguably cleared 8/13) — must **land before ~9/30 or exit the case**; her *"let's land, and let's escalate where needed"* is on-record air cover, and the 8/13 Jeff-escalation option now has its blessing. (b) Re-base the UPP expansion story on surviving + new surfaces: HF, Notif, then Ads/Growth (the NLFU/Brian thread and the Sen connect are pre-built Growth legs; Reflex-Ads inbound is the Ads leg). (c) Measurement zero is now on an external clock, not a discipline item — SSJ-line receipts must be banked before the wind-down erases the venue.
 

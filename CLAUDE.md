@@ -2,7 +2,7 @@
 
 **Base context lives in [`AGENTS.md`](./AGENTS.md)** — who James is, primary modes, operating principles, folder structure, context loading guide, NotebookLM integration, KB layout, conventions. Read that first.
 
-This file holds **Claude Code-specific extensions** on top of that base: the slash-command skill registry, custom sub-agents, `settings.local.json` hooks, and the file-based memory system. The skills and agent specifications are canonical here; Codex discovers the skills through `.agents/skills` (a symlink) and loads compatible agents, hooks, and the NotebookLM connection from `.codex/`. Gemini, Cursor, and Aider work from `AGENTS.md` and the flattened workflows in `prompts/`.
+This file holds **Claude Code-specific extensions** on top of that base: the slash-command skill registry, custom sub-agents, `settings.local.json` hooks, and the file-based memory system. The skills and agent specifications are canonical here; Codex discovers ordinary entry-point files in `.agents/skills/` that read `.claude/skills/`, and loads compatible agents, hooks, and the NotebookLM connection from `.codex/`. Install user-level skill entries with `scripts/leo_setup.py --user`. Windows/Linux setup and root detection: `system/leo-portability.md`. Gemini, Cursor, and Aider work from `AGENTS.md` and the flattened workflows in `prompts/`.
 
 ---
 

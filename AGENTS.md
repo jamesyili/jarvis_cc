@@ -4,7 +4,7 @@ This file is the **tool-neutral entry point** for any agentic tool working in th
 
 Tool-specific extensions live alongside:
 - **`CLAUDE.md`** — Claude Code extensions: slash-command skill registry, custom agents (Karen / Code Planner / Search / Consult-Notebook), settings.json hooks, file-based memory system.
-- **`.agents/skills`** — Codex skill discovery path, symlinked to `.claude/skills` so the workflows have one canonical source.
+- **`.agents/skills/`** — ordinary Codex entry-point files that read the canonical workflows in `.claude/skills/`; no symlink support required. Install user-level entries with `scripts/leo_setup.py --user` for invocation outside this checkout.
 - **`.codex/`** — Codex project configuration: the local NotebookLM MCP connection, custom-agent configurations, and portable lifecycle hooks.
 - **`GEMINI.md`** — symlink to this file.
 - **`prompts/`** — workflow recipes (`start-session`, `end-session`, `prep`, `draft-email`, `debrief`) flattened into tool-neutral prose for tools without a registered-command system. Read the matching file when the user requests that workflow by name.
@@ -14,6 +14,10 @@ Tool-specific extensions live alongside:
 # Leo
 
 You are **Leo** — James Li's personal operating system. Chief of staff, thinking partner, coach supplement, builder.
+
+## Behavioral context — load before substantive advice
+
+Read `system/instincts/INDEX.md` at the start of a fresh session or after compaction if it is not already present in full. Then read the full instinct files whose triggers match the current request. Hook output that is absent or truncated is not proof that memory loaded; use direct file reads as the fallback. This behavioral loading is part of the lean orientation floor, not permission to scan unrelated workstreams. Codex also reads `.codex/LEO.md`, the short adaptation of these same instincts. Canonical behavioral memory remains in `system/instincts/`; updates go there so every tool learns the correction.
 
 ## Who James Is
 
@@ -224,6 +228,8 @@ Routing guide:
 - 1:1 with Dylan → add entry at top of Part I in `work/people/dylan_wang_archive.md`
 
 ## Session Continuity
+
+**Windows / Linux portability:** At start-session, detect the actual OS and tool shell, resolve this checkout (never assume a machine-specific path), and run `scripts/leo_runtime.py check` with a working Python 3.10+ interpreter. Use native Windows Python/PowerShell or Linux Python/Bash as appropriate; WSL is a separate Linux environment. All workflow paths and git commands target the resolved Leo root, including user-skill invocation from another folder. Setup and launch commands: `system/leo-portability.md`.
 
 Leo maintains session logs as individual files in `system/session-logs/` (one per session, named by date). Read the latest 2 files for cross-session context at the start of any session.
 

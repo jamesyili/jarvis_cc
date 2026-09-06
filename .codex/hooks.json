@@ -1,15 +1,30 @@
 {
-  "description": "Leo lifecycle hooks shared with Claude where the behavior is portable.",
+  "description": "Leo lifecycle hooks with shared Python behavior on Windows and POSIX.",
   "hooks": {
     "SessionStart": [
       {
-        "matcher": "startup|resume",
+        "matcher": "startup|resume|clear",
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/hooks/session-start.sh\"",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/scripts/leo_runtime.py\" session-start --codex",
             "statusMessage": "Loading Leo session context",
-            "additionalContextLimit": 16000
+            "additionalContextLimit": 16000,
+            "commandWindows": "python -c \"import subprocess,runpy,sys; from pathlib import Path; p=Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'scripts/leo_runtime.py'; sys.argv=[str(p),'session-start','--codex']; runpy.run_path(str(p),run_name='__main__')\"",
+            "timeout": 30
+          }
+        ]
+      },
+      {
+        "matcher": "compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/scripts/leo_runtime.py\" session-start --codex --no-sync",
+            "statusMessage": "Restoring Leo behavioral context",
+            "additionalContextLimit": 16000,
+            "commandWindows": "python -c \"import subprocess,runpy,sys; from pathlib import Path; p=Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'scripts/leo_runtime.py'; sys.argv=[str(p),'session-start','--codex','--no-sync']; runpy.run_path(str(p),run_name='__main__')\"",
+            "timeout": 30
           }
         ]
       }
@@ -19,9 +34,10 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$(git rev-parse --show-toplevel)/scripts/hooks/pre-compact.sh\"",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/scripts/leo_runtime.py\" pre-compact",
             "statusMessage": "Saving Leo compaction context",
-            "additionalContextLimit": 1200
+            "commandWindows": "python -c \"import subprocess,runpy,sys; from pathlib import Path; p=Path(subprocess.check_output(['git','rev-parse','--show-toplevel'],text=True).strip())/'scripts/leo_runtime.py'; sys.argv=[str(p),'pre-compact']; runpy.run_path(str(p),run_name='__main__')\"",
+            "timeout": 30
           }
         ]
       }

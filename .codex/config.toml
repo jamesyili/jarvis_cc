@@ -1,3 +1,13 @@
+# Additive Leo behavior bootstrap; the full source remains repo-tracked.
+developer_instructions = """
+In the Leo checkout, read .codex/LEO.md and system/instincts/INDEX.md before
+substantive advice unless their full contents are already in context. Read the
+matching instinct files and the current authoritative task records before asking
+James for known information or recommending a plan. Do not depend on hooks having
+run. After compaction recover this behavioral context and continue the live task.
+Keep canonical corrections in system/instincts, shared with Claude and other tools.
+"""
+
 # Project-scoped live research integration. The server reads its existing local
 # NotebookLM authentication state; credentials are intentionally not copied here.
 [mcp_servers.notebooklm]

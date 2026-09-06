@@ -2,7 +2,7 @@
 
 > Canonical index of all context files. Read by `/context-update` to identify what exists and what might be stale. Keep descriptions to one line.
 
-Last updated: 2026-09-05 (Codex integration; session logs `2026-09-05.md` and `2026-09-05b.md`; goals/learning purpose and Leo's requested practice-evaluator role; interview-history and current-access clarification; cited interview-source/mock-provider directory; expert-sourcing instinct; end-session/runbook alignment)
+Last updated: 2026-09-05 (deep closeout: accepted year-end balance, Codex month-or-so trial, portable skills/runtime, shared behavioral continuity; latest log 2026-09-05c.md)
 
 ---
 
@@ -18,7 +18,9 @@ Last updated: 2026-09-05 (Codex integration; session logs `2026-09-05.md` and `2
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `goals.md` | Three layers: foundation, H2 commitments, and long-term direction; Director/frontier-lab optionality. 8/29 motivation portfolio; 9/5 personal learning and team capability at RecSys × retrieval × LMs × scaling, with interview depth as an explicit purpose. Earlier charter/staffing status still needs reconciliation against the post-reorg record. | 2026-09-05 |
+| `goals.md` | Three layers and September 5 ratified balance: Exceeds through people, ~3 learning hours weekly, gaming and actual PTO; external opportunities after January calibration. Older charter details explicitly defer to current records. | 2026-09-05 |
+| `self/communication.md` | Personal operating preferences; September 5 month-or-so intensive Codex trial and requirement for context-grounded personal judgment across tools. | 2026-09-05 |
+| `self/journals_and_growth.md` | Personal journal; September 5 accepted balance and qualified reading of lab motivations alongside prior August interpretations. | 2026-09-05 |
 | `health.md` | Kidney stones + metabolic profile: recurrent CaOx stone former, residual 9mm right renal stone under surveillance; 24hr-urine risk factors (Na/Ca/uric acid/oxalate); metabolic-syndrome pattern (TG/HDL/uric acid/BMI/ALT/vit-D). Prioritized action plan (P0: cut sodium hard + cut sugary drinks/limit red meat/beer). Personal targets + monitoring schedule + open Qs for urology/PCP. **7/8 urology follow-up (Dr. Ha) captured:** diet-first ratified, allopurinol deferred, 9 mm stone = monitor + fluids, vitamin D 1,000 IU/day, 4 oz lemon + 2 L water daily, repeat 24-hr urine ~Jan 2027; open = imaging cadence + hydration restore (60→85-100 oz). PCP side still pending. | 2026-07-08 |
 | `family.md` | **NEW 2026-06-11.** The "ordinary James" domain (companion to health.md) — where James is loved/seen as a person, not a performer; born from the June 2026 trip fear-work (antidote to "not the hero" was already at home). Portraits of wife **Fan** + children **Evelyn** and **Ethan** (scaffolded — James to fill in specifics). Two goals: (1) Presence — time/memories, presence>hours; (2) Patience — space/compassion, the anti-engine, flows from self-compassion. Leo usage: protect family time; point back to it (gently) when the hero-engine fires; never frame presence/patience as metrics. | 2026-06-11 |
 | `evelyn_prep/college_runway_2026-07.md` | **NEW 2026-07-18** (folder renamed evelyn→evelyn_prep same day; +v1.1 memory-articulation edge, creative-thinking build, TODO.md added). Evelyn's college-runway research report (deep-research run, 4 workstreams, ~150 sources): elite-bar-development-first plan; nearest decision = **6th-grade private entry, apps fall 2027** (Castilleja ~only enterable at 6th; 4th-grade transcript already counts); school leans Castilleja/Menlo/Harker + MVHS fallback; don't move to PA/Cupertino; counselor plan = components 2027 + Peninsula independent ~2030; activity portfolio = speech + reading→writing arcs + AoPS-style math foundation; decision calendar + verify list. Full cited workstream reports in `evelyn_prep/research/`; actionable list in `evelyn_prep/TODO.md`. | 2026-07-18 |
@@ -36,7 +38,7 @@ Last updated: 2026-09-05 (Codex integration; session logs `2026-09-05.md` and `2
 | `career/self_review_2025.md` | **NEW 2026-07-02.** Year-end 2025 self-review as submitted (Q1-Q6 incl. inclusion/strength/opportunity) — canonical structure template for future review cycles: summary → bolded themes → evidence; learnings with "going forward" changes; team goals + 2 personal areas. | 2026-07-02 |
 | `career/self_review_H1_2026_draft.md` | **NEW 2026-07-02.** H1 2026 self-review draft (3 questions, no rating): transition durability (Bowen→Alim + OOO test) / RR as validated mechanism / beyond-scope AI+platform. `[Bracketed]` numbers need work-leo fill before submit (form locks). Deliberate exclusions listed in header. Emailed 7/2. | 2026-07-02 |
 | `career/q3_2026_operating_plan.md` | **NEW 2026-07-25.** Ratified Q3 operating plan (co-written w/ Leo): Tier 1/2/3 with protect/cut mechanics; scope sweep (whole-team midyear blitz, Zili-PIP×LWS sequencing, hiring, Rita conversion, JJ plate ranking); leader-onboarding design (3-EM weekly staff, IC-taught deep-dives); dial-backs; 3-rule time redesign; Dinesh Tier-1 lane + Sept one-pager. | 2026-07-25 |
-| `career/exceeds_h2_2026_campaign.md` | **NEW 2026-08-16.** The Exceeds-in-January campaign: 5 workstreams (headline numbers CHOSEN = UPP + RR/Anticipation launches · impact ledger Leo maintains · Dylan's-bar convo Sep · one-artifact-per-advocate Jeff/Rajat/Faisal · discount de-risking), 15-wk timeline to ~Dec 1, odds ~70%/75–80% (revised on the 2025 precedent), double-reward counter-framing ("org = investment, H2 numbers = early returns"). Sequencing ratified: Exceeds first, no external attempts until cycle lands, no half-pursued rounds. | 2026-08-16 |
+| `career/exceeds_h2_2026_campaign.md` | Exceeds-in-January campaign; evidence through mid-January, including December/early-January results. September 5 work/learning/life sequence reaffirmed; no new project closures. | 2026-09-05 |
 | `ethanevans_questions/` | Ethan Evans parallel-chat workflow folder. `00_canonical_brief.md` + 8 dimension files (one-question-at-a-time, paste-into-Ethan-customGPT format with `### Response` sections). **04 Jeff (managing-up) + 05 Rajat (managing-up incl. Q1 AI-leveraged-leader centerpiece) DONE 2026-05-02b.** 5 stubs remaining: 01 director-track, 02 career, 03 sponsorship, 06 peers, 07 cross-org, 08 AI-leveraged path. | 2026-05-02 |
 
 ### self/finance/ (NEW 2026-07-13 — long-term financial planning)
@@ -152,9 +154,11 @@ Career-optionality artifacts: OpenAI May 27 call prep, Pinterest EM story bank, 
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `session-logs/` | Individual session handoffs. Latest: `2026-09-05b.md` — learning depth, interview history, source directory and evidence corrections. Earlier `2026-09-05.md` captures the single-copy Codex bridge and pending reopened-session hook check. | 2026-09-05 |
-| `instincts/` | Evidence-backed behavioral rules, indexed in `instincts/INDEX.md`; 9/5 adds `verify-expert-fit-before-recommending` after the profile-based evaluator recommendation failed James's firsthand check. | 2026-09-05 |
-| `leo-overview.md` | Portable, tool-agnostic map of Leo's architecture, context layers, workflows, tool-specific extensions, active strategic shape, and NotebookLM integration. | 2026-08-15 |
+| `session-logs/` | Latest: 2026-09-05c.md — Windows/Linux portability, Codex behavioral continuity, accepted year-end balance and intensive month-or-so Codex trial; earlier same-day logs preserved. | 2026-09-05 |
+| `instincts/` | 102 shared behavioral rules. September 5 context-retrieval correction and confirmations of direct synthesis/plain personal prose; expert-fit correction recorded earlier that day. | 2026-09-05 |
+| `leo-overview.md` | Portable Leo architecture and tool integrations; Windows/Linux setup and September 5 intensive month-or-so Codex trial, with shared memory across tools. | 2026-09-05 |
+| `leo-portability.md` | Windows/Linux/WSL setup, Codex project and user skill entry points, root detection, Python lifecycle hooks, CLI launcher, and validation commands. | 2026-09-05 |
+| `../.codex/LEO.md` | Codex adaptation of Leo's shared instincts: context retrieval, direct judgment, voice, role altitude, and evidence discipline; loaded through additive project instructions and lifecycle hooks. Canonical instincts stay in `system/instincts/`. | 2026-09-05 |
 | `lennys_podcast_pipeline.md` | Lenny's podcast extraction pipeline: purpose, status, next steps, file locations | 2026-04-05 |
 | `karen_observations.md` | Karen's longitudinal pattern tracking | 2026-04-06 |
 
@@ -180,7 +184,7 @@ Career-optionality artifacts: OpenAI May 27 call prep, Pinterest EM story bank, 
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `learning_agenda.md` | 14-week LLM×RecSys + Reflex program (8/31→12/6), ~3 hrs/week; personal depth, team capability and interview readiness. 9/5 adds James's requested Leo practice-evaluator role and source-directory pointer; cadence and named development plans remain open. | 2026-09-05 |
+| `learning_agenda.md` | 14-week LLM×RecSys + Reflex program, ~3 hours weekly; September 5 accepted balance and January external-opportunity sequence; diagnostic and mock cadence still unimplemented. | 2026-09-05 |
 | `clr_codebase_notes.md` | CLR/P2P learning notes from codebase exploration | Unknown |
 | `sources.md` | Knowledge base source registry — 13 curated feeds, sync status | 2026-04-02 |
 | `articles/` | 945 ingested articles across 13 sources, organized by source slug | 2026-04-02 |
