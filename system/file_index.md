@@ -185,6 +185,7 @@ Career-optionality artifacts: OpenAI May 27 call prep, Pinterest EM story bank, 
 | File | Description | Last updated |
 |------|-------------|-------------|
 | `learning_agenda.md` | 14-week LLM×RecSys + Reflex program, ~3 hours weekly; September 5 accepted balance and January external-opportunity sequence; diagnostic and mock cadence still unimplemented. | 2026-09-05 |
+| `learning_progress.md` | Exact learning cursor for `$learn`: lesson/block, pending prompt, answer evidence, source cautions, and phone-display validation. | 2026-09-06 |
 | `clr_codebase_notes.md` | CLR/P2P learning notes from codebase exploration | Unknown |
 | `sources.md` | Knowledge base source registry — 13 curated feeds, sync status | 2026-04-02 |
 | `articles/` | 945 ingested articles across 13 sources, organized by source slug | 2026-04-02 |
