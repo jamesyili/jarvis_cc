@@ -165,6 +165,28 @@ When you pass the deep research, I'll merge it against this, mark where it agree
 
 **§5 correction.** The Nima bullet in §5 above is superseded: default is CLR as hired; UPP only if Alim agrees on 9/8; the word "hedge" is retired. The Roberto half-page stays James's own carried item (Oct deadline in the Exceeds campaign), not delegated.
 
+### 2026-09-06 (later) — The strategy, verbalized (James: "this is very helpful")
+
+**In one sentence:** make P13N Retrieval the team at Pinterest that can scale the user model 10× at flat serving cost, and let everything else follow from that.
+
+**Why.** The three ideas everyone is publishing — sequence models scale like LLMs, retrieval and ranking collapse into one generative model, semantic IDs are the vocabulary connecting them — are free. The serving bill isn't. Whoever runs a bigger user model inside the same GPU budget gets to use those ideas in production. The org already owns the two engines where the bill lands (LWS, the UBR viewer tower), both on GPU, both already split the way LLM serving is moving. Nobody at Pinterest owns "make that cheaper as the model grows," and it is the one thing Jeff has explicitly asked for.
+
+**Three moves, in order.**
+1. **Win the cost argument first.** Cache the user's history across requests the way LLMs cache prompts; quantize; fix the half-idle serving GPUs behind the CPU bottleneck; measure in MFU. JJ's lane, Yali and Devin on the engines. The only lane that pays for itself; it buys credibility for the next two. Presented as cost, never as research.
+2. **Earn the right to scale.** No scaling curve until offline recall predicts online lift for retrieval, which nobody at Pinterest can do today. Extend Hedi's L1 calibration to retrieval inside Piyush's platform. Then the study writes itself, jointly with the CFM group, not against them. The scientific question that is ours alone: how to split compute between embedding tables and dense layers.
+3. **Own the tokenizer, quietly.** SIDs are in five places and no one owns the codebook. No platform announcement: a two-week inventory with Jaewon, the four quality guarantees written into the RecGPT strategy doc already requested from Bella, ownership following from authorship. Generative retrieval stays one nominator with a dense fallback.
+
+**What we don't do.** No second teacher (ATG has one). No RL post-training or reasoning recommenders (ranking's problem; our budget is 10 ms). No headcount (there is none). No "research arm" language (Dylan and Jeff have never said the word; Dylan went skeptical on RecGPT-at-L1 on 8/24).
+
+**Who carries it.** James holds the arm through Q4 and is the only one who can. Piyush is the technical successor, after P2P lands. EMs sponsor what reports to them — Daniel the engines, Alim eventually the bets — and that is where Dylan's requested coaching capital gets spent. External legibility comes from the ML Day stage James already chairs, whose theme is this agenda.
+
+**In a year.** LWS and UBR serve a model several times larger at the same cost, with a published curve on Pinterest data saying how much further it goes. The codebook has an owner and a drift number. Dylan can say in one sentence what the org does: the team that scales user sequences and LLMs.
+
+**The LLM part of user understanding (James asked; two places, kept separate).**
+- *The strategy itself:* the user model becomes the LLM. The FM already trains with a next-token loss over the action sequence; SIDs make pins tokens; scale it and cache its state and it is an LLM of user behavior on a corpus no lab has. That is bets 1–3, not a lane beside them.
+- *The text LLM reading the user — a scoped edge case, not a pillar.* LLM-pUIC is under-performing and un-owned (8/27; Alim: "far away"); a text LLM in the hot path cannot meet 10 ms and for warm users the behavior model already knows more than words. It earns its place in three offline spots: (a) where behavior is thin — low-frequency and new users, the NLFU frame Growth funds; (b) where the product needs words — Anna's Pinner Progression line, readable/editable interests, "why this" (the Q4 LLM-backbone thread); (c) as a teacher, not a server — an LLM producing labels, novelty judgments, and pseudo-interests to train the small sequence model, semantics distilled in offline. Natural home: Daniel's line (he consolidated two LLM user-modeling pipelines into one framework in H1; Ling built the inference pipeline on ATG's models; Daniel asked twice for LLM×recs scope) with Anna's product pull — his LLM want without touching RecGPT. Not the LinkedIn shape (a giant text LLM as ranker): wrong bet for a retrieval org at this QPS this year.
+- *One sentence for Dylan:* we're not putting an LLM in front of the user; we're training the user model like one, and using LLMs offline where behavior runs out.
+
 ## Related
 
 - `upp/cfm_technical.md` §6 (CFM model scaling, in-flight) · `upp/upp_retrieval_assessment.md` §What's Missing · `upp/ubr_design.md`
