@@ -2,14 +2,29 @@
 id: one-name-per-object-before-teaching
 trigger: Teaching, quizzing, or writing review comments on a technical workstream whose working doc has accumulated across multiple sessions — especially when several source documents (other people's) each carry their own vocabulary for the same objects
 behavior: Fix one canonical name per object BEFORE teaching or testing on it. Sweep the working doc for the two collision types — one name covering two objects, and one object carrying several names — and resolve them into a written name-to-object map. Ambiguity in a question Leo asks is Leo's defect, not the learner's wrong answer. If James's answer collides two concepts, check whether Leo's own documents collided them first; usually they did. When source docs disagree on a term, name the collision explicitly and retire the overloaded word rather than picking a winner silently.
-confidence: 0.3
-evidence_count: 1
+confidence: 0.45
+evidence_count: 2
 created: 2026-08-14
-last_updated: 2026-08-14
+last_updated: 2026-09-06
 status: active
 ---
 
 ## Evidence
+
+### 2026-09-06
+> "For this particular case can you show me exactly what is being encoded and what exactly is being decoded? What is the encoder doing and what is the decoder doing?"
+
+Context: TIGER/SID learning. The same words named the content encoder, RQ-VAE
+encoder/decoder, and recommendation Transformer encoder/decoder. James said he
+sometimes used encode/decode interchangeably and wanted interview explanations
+to be understood precisely. He later requested critique of the exact words in
+his practice answers and supplied a preferred foundation → systems → data-flow
+explanation. Attach each component to its input, output, and training target;
+distinguish quantization, reconstruction, autoregressive prediction, and lookup.
+Correct meanings during learning, and assess articulation when he is practicing.
+Do not infer generally weak foundations from terminology uncertainty.
+
+Signal: correction
 
 ### 2026-08-14
 > "I think all of this terminology is fucking confusing and you're using different terminology for different things. Can you write down where all of this terminology is?"

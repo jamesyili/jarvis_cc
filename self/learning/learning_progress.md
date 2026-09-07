@@ -1,6 +1,6 @@
 # Learning progress
 
-Updated: 2026-09-06 15:55, Pacific time.
+Updated: 2026-09-06 18:42, Pacific time.
 
 ## Active course and cursor
 
@@ -9,8 +9,9 @@ Updated: 2026-09-06 15:55, Pacific time.
 - Source: `lessons/w01_generative_rec_map.html`, map in §2; use the correction
   notice before teaching the old classification or numerical claims.
 - Block: `W01-articulation-01`, explain and defend a semantic-ID retrieval design.
-- Current activity: skill refinement; practice is paused. Infer learning versus
-  practice from James's next substantive message, without requiring a mode label.
+- Current activity: session ended at James's request; learning and practice are
+  paused. Infer learning versus practice from his next substantive message,
+  without requiring a mode label. Do not restart the lesson or display test.
 - Status: first architecture prompt delivered; no answer or critique yet. James
   requested a clear separation of learning/help from coached practice.
 - Paused practice prompt: "We currently use a two-tower model and ANN retrieval. You're
@@ -18,7 +19,9 @@ Updated: 2026-09-06 15:55, Pacific time.
   each model learns and from which loss, and how a request becomes a set of
   recommended items. What would you need to demonstrate before choosing it
   over the existing system?"
-- Active learning question: none; this turn is about the skill's behavior.
+- Active learning question: none unanswered. Resume from the saved architecture
+  walkthrough when James wants practice; answer any new learning question
+  first if he returns seeking explanation.
 - Next action: follow his intent. If he asks to learn or for help, explain without
   grading or articulation critique and keep the practice prompt paused. If he
   returns to answering, give room for his explanation, then critique technical
@@ -30,9 +33,12 @@ Updated: 2026-09-06 15:55, Pacific time.
 
 ## Session constraints
 
-- James is on his phone for about 90 minutes, waiting at Ethan's soccer practice.
-- Current request: test lesson 1 display, build a continuation skill, and begin
-  learning. Clarifying questions are welcome as needed, in plain text.
+- Session opened on James's phone during Ethan's soccer practice, with an initial
+  estimate of 90 minutes. That time window has ended; do not carry it forward as
+  a fresh 90-minute allowance or assume next session's device.
+- Original request: test lesson 1 display, build a continuation skill, and begin
+  learning. Closing request: "I'm going to pick up the learning next time.
+  Remember our spot" with end-session. No immediate exercise requested.
 - Research-arm leadership analysis is being handled with Claude Fable; not part
   of this learning session.
 - Visual preference (James, 09:10–09:15): "I do want you to try to visualize since
@@ -53,6 +59,14 @@ Updated: 2026-09-06 15:55, Pacific time.
   phone has already demonstrated access to those files.
 
 ## Evidence and source cautions
+
+- Closeout learner-model reconciliation: the shared repository added
+  `kb/.kb/knowledge_state.json` and the knowledge-state workflow during this
+  session. No concept-level rating was changed here: the short decoder and
+  optimizer answers support the specific distinctions recorded below, not a
+  broad upgrade to proven-depth across all semantic-ID or optimization mechanics.
+  Consult the current learner model when choosing the next block, alongside this
+  exact cursor and the prior-knowledge record. No unrequested diagnostic quiz.
 
 - 2026-09-06 15:55 mode boundary, explicit from James: learning concepts and
   coached open-ended practice are different activities. Asking for explanation
@@ -236,3 +250,7 @@ Updated: 2026-09-06 15:55, Pacific time.
 - 2026-09-06 15:55: refined learn into inferred learning/practice modes with help
   interrupting critique. Preserved articulation-01 as a paused prompt rather than
   treating skill-design questions as an answer or forcing immediate rehearsal.
+- 2026-09-06 18:42: James ended the session and asked to remember the spot.
+  Paused at articulation-01 without an answer; W1 remains open. Session log:
+  `system/session-logs/2026-09-06b.md`. Preserve both learning and practice modes
+  and the confirmed phone diagram route on next resume.
