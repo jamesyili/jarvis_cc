@@ -1,6 +1,6 @@
 # goals.md
 
-Last Updated: 2026-09-05
+Last Updated: 2026-09-07
 
 > **Structure — three layers:**
 > **I. Foundation** — the ground I stand on (ongoing, built through daily reps, scored yes/no).
@@ -184,6 +184,20 @@ Named honestly (8/29 session): I am measuring-stick driven — that's how I've l
 - **Daily grip — the weaning game.** Score = how little the org needs me. Concrete counters: meetings that run without me; decisions that don't route through me; named transfers (Alim → RR/GULP/LLM-pUIC representation; Daniel → LWS/IB; SM/SL declined); weeks off *actually taken* vs. theoretically available (already the January tripwire — this stick's score funds the lifestyle latitude the base case rests on). Aligned with the standing Dylan 1:1 theme (wean the org off James). Let the engine chase the falling number while the identity catches up.
 - **12-month craft stick — the lab bar.** "Could clear an OpenAI/Anthropic loop by mid-2027." The bar without the exit (JJ's frame: interviewing ≠ leaving). Scoreboard: evals/agentic-systems depth built through Reflex, the eval-harness blog post shipped, a mock loop when close. Robust to either branch — Director evidence if the leaving appetite fades, readiness if it persists. **Guard:** any actual leave-now urge is tested only in ordinary calm weeks, never right after a bruising one (reversal-after-hits pattern).
 - **Base stick — health.** Weight → 180, sodium, lipid panel. Daily feedback, fully mine. Grounds the others.
-- **One unsticked garden — on purpose.** Solo grounding trips (2–3/yr; Toronto next, to book), gaming, Leo tinkering. Gaming has explicit room in the September–December balance; no backlog-completion target. Deliberately unmeasured; attaching a stick here poisons the practice ground.
+- **One unsticked garden — on purpose.** Solo grounding trips (2–3/yr; Toronto next, to book), gaming, Leo tinkering. Gaming has explicit room in the September–December balance; no backlog-completion target. Deliberately unmeasured; attaching a stick here poisons the practice ground. **9/7: the garden is also where the finishing lives now — see §Absorption below.**
 
 **Near-term anchor:** the year-end rating. The deliverables slate that makes it realistic is the planning exercise attached to this portfolio — the weaning game and the rating are not in tension: the rating case is *the team* landing its slate, which is what the weaning game produces.
+
+---
+
+## Absorption — what "work is a big part of me" actually means (added 2026-09-07, PROVISIONAL)
+
+> **"Work is a big part of me because absorption is a big part of me."** — Leo, 9/7. James: *"This is gold. Remember it."*
+
+Filed provisional: one session's sample, Leo's framing, James's ratification. Confirm or demote at the calm-week check (~9/19). What it holds:
+
+- **What James loves is losing hours finishing something doable, with a process he enjoys, then the next objective.** His words (9/7, after a Labor Day weekend of games where the recorder was off): *"I did love losing hours trying to do tasks and finish something that is both doable and that I enjoy the process of."* Same signature the 8/15 absorption inventory found at work (Reflex, the recsys frontier, strategizing the week). It is the 8/29 stick rule in its purest form — measurable, mine to control, short loop, a game I'd enjoy winning. Games deliver it pure; work has been the main supplier.
+- **The seat is built to take that shape out of his hands, on purpose.** Manager-of-managers, the weaning game, the Director stick: fewer and fewer things he finishes himself; nothing in the four sticks is finished in an afternoon. The garden (games, Leo tinkering) is where that shape lives now — which is why three days of games produced a pull toward a whole life of them (the stopping thread's fourth bracket: 6/25 · 6/28 · 8/14 · 9/7).
+- **Retirement isn't the variable; the supply of finishable objectives is.** James, 9/7: *"Basically I would need a purpose in early retirement, even if the purpose is to crush the next game objective."* Same finding as 8/17's *"what the F am I gonna do, seriously."* A retired James with that supply is a James working on something.
+- **Consequences.** The learning hours flow when shaped like the weekend (a doable target finished in a sitting — the diagnostic quiz is cut that way) and grind when shaped like the badge; that is the 8/15 learning law, not a discipline problem. The climb does cost finishing — a real cost, not the engine — and the answer is to know where the finishing comes from, so the weaning reads as design and not as loss.
+- **Taste record, from his own backlog (9/7; the ledger itself lives outside the repo, he edits it in the browser).** The 10/10s are doable-but-demanding with visible progression and a finish line (Hades 90 h, Horizon Forbidden West, FFXVI, Tales of Arise, Return to Moria); the drops are open-ended or punishing (Elden Ring at 25 h, Sekiro, Cuphead) or process-dead (Diablo 4, twice). Thirty drops, most under five hours: he abandons freely, which is the opposite of a completion stick. Garden rule stands — Leo does not score the backlog.
