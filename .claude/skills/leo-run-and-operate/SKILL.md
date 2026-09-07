@@ -35,6 +35,8 @@ Skip the log for trivial sessions. `backlog.md` is retired; Notion is the live t
 | Search | `python3 scripts/kb_search.py "query" [--top N]` | **`--rebuild` first if index is older than newest article** — it never auto-invalidates (stale since 2026-04-05) |
 | Rebuild index | `python3 scripts/kb_search.py --rebuild` then `--stats` | |
 | Catalogs | `python3 scripts/build_index.py [--domain hard\|soft]` | regenerates `_index.md` files |
+| Ingest a paper James passes | `python3 scripts/ingest_paper.py <arXiv id\|URL\|.pdf\|.md> --tags ... [--evidence authored\|discussed]` | → `kb/hard/raw/arxiv/`, rebuilds search, reports inherited U/R (skill: `ingest`, 2026-09-07) |
+| Learner model | `python3 scripts/kb_knowledge_state.py {queue\|get\|set\|list\|article\|render\|export\|check}` | James's per-concept understanding/relevance; `set` only on evidence (skill: `knowledge-state`) |
 | Lint | `python3 scripts/kb_lint.py [--domain d] [--json]` | thin articles, broken wikilinks, near-dup slugs |
 | Wiki compile | `python3 scripts/compile_wiki.py {scan\|plan\|compile\|incremental} --domain d [--all\|--concept X]` | shells `claude` CLI; scan batches 150 articles/call; long + token-spending — forecast first |
 | Graph query | `~/.venvs/graphify/bin/python scripts/build_graph.py {stats\|show\|neighbors\|god-nodes\|orphans\|communities\|surprising}` | instant, free |

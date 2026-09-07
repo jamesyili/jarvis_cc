@@ -53,6 +53,8 @@ Triage in this order:
 | `extract_themes.py` fails on paths | **Orphaned** — points at `work/learning/`, which no longer exists | Do not run. Historical only |
 | `migrate.py` does nothing useful | Dead one-shot (learning/ → kb/ migration, source gone) | Do not run |
 
+**Remote/cloud container specifics (2026-09-07):** `export.arxiv.org` is blocked by the egress proxy (urllib `Tunnel connection failed: 403`) — `ingest_paper.py` exits with a plain message; pass a downloaded PDF/.md instead. `pip install pypdf` succeeds but the system `cryptography` package is broken there (`_cffi_backend` missing), so `import pypdf` fails; PDF extraction only works on James's machines (poppler `pdftotext` or a working `pypdf`).
+
 ## Local tooling
 
 | Symptom | Cause | Fix |
