@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/primers-decision-trees-and-ensemble-methods.md
 last_compiled: 2026-04-05
 related: [learning-to-rank, feature-engineering, supervised-learning]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 0  # not obviously relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Decision Trees & Ensemble Methods

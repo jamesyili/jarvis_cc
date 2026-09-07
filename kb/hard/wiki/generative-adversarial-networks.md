@@ -9,6 +9,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/diffusion-models|Diffusion Models]]"
   - "[[hard/wiki/vision-language-models|Vision-Language Models]]"
+understanding: 1  # very little exposure / unknown (default)
+relevance: 0  # not obviously relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Generative Adversarial Networks

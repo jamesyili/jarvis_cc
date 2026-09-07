@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/chip-huyen/generation-configurations-temperature-top-k-top-p-and-test-time-compute.md
 last_compiled: 2026-04-05
 related: [large-language-models, retrieval-augmented-generation]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Prompt Engineering & In-Context Learning

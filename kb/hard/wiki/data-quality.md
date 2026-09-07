@@ -10,6 +10,9 @@ related:
   - "[[hard/wiki/synthetic-data|Synthetic Data for Fine-Tuning]]"
   - "[[hard/wiki/llm-post-training|LLM Post-Training]]"
   - "[[hard/wiki/neural-network-training|Neural Network Training]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Data Quality & Curation

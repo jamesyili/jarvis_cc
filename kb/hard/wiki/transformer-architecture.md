@@ -11,6 +11,9 @@ related:
   - "[[hard/wiki/large-language-models|Large Language Models]]"
   - "[[hard/wiki/llm-inference-serving|LLM Inference & Serving]]"
   - "[[hard/wiki/embeddings-and-representation-learning|Embeddings & Representation Learning]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Transformer Architecture

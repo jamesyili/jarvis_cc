@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/primers-deepseek-v3.md
 last_compiled: 2026-04-05
 related: [transformer-architecture, distributed-training, large-language-models]
+understanding: 1  # very little exposure / unknown (default)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Mixture of Experts (MoE)

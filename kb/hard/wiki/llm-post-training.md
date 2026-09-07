@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/cameron-wolfe/reward-models.md
 last_compiled: 2026-04-05
 related: [rl-for-llms, large-language-models, transfer-learning]
+understanding: 1  # very little exposure / unknown (default)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # LLM Post-Training & Alignment

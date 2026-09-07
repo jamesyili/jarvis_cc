@@ -6,6 +6,9 @@ sources:
   - kb/hard/raw/eugene-yan/push-notifications-what-to-push-what-not-to-push-and-how-often.md
 last_compiled: 2026-04-05
 related: [recommendation-systems, feature-engineering, bandits-exploration-exploitation]
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Personalization Patterns

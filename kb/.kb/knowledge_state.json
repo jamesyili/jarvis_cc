@@ -1,0 +1,2455 @@
+{
+ "version": 1,
+ "created": "2026-09-07",
+ "scales": {
+  "understanding": {
+   "1": "very little exposure / unknown (default)",
+   "2": "basic understanding (assumed where James's background applies)",
+   "3": "proven depth (demonstrated in dialogue/practice, or authored)",
+   "4": "boundary pushing"
+  },
+  "relevance": {
+   "0": "not obviously relevant",
+   "2": "somewhat / potentially relevant",
+   "3": "very relevant"
+  }
+ },
+ "defaults": {
+  "understanding": 1,
+  "relevance": 0
+ },
+ "inheritance": "raw articles: understanding = min over matched concepts, relevance = max; match = article tag == concept tag or concept slug",
+ "concepts": {
+  "a-b-testing": {
+   "name": "A/B Testing & Experimentation",
+   "wiki": "kb/hard/wiki/a-b-testing.md",
+   "tags": [
+    "ab-testing",
+    "experimentation",
+    "causal-inference",
+    "statistical-significance"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "Twelve years of launches; the org's experiment-ledger discipline is his.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Twelve years of launches; the org's experiment-ledger discipline is his.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "ad-systems": {
+   "name": "Ad Systems Design",
+   "wiki": "kb/hard/wiki/ad-systems.md",
+   "tags": [
+    "ad-systems",
+    "ctr-prediction",
+    "auction",
+    "ad-serving",
+    "budget-pacing"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Ads Retrieval collaboration via Dinesh; Pinterest ads-adjacent but not his system.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Ads Retrieval collaboration via Dinesh; Pinterest ads-adjacent but not his system.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "ai-agents-and-agentic-systems": {
+   "name": "AI Agents & Agentic Systems",
+   "wiki": "kb/hard/wiki/ai-agents-and-agentic-systems.md",
+   "tags": [
+    "agents",
+    "agentic-ai",
+    "tool-use",
+    "planning",
+    "mcp"
+   ],
+   "related": [
+    "large-language-models",
+    "retrieval-augmented-generation",
+    "llm-evaluation"
+   ],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "Designed Reflex, Pinkerton, PINvestigator; built Leo (this system) with instincts, hooks, and a KB.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Designed Reflex, Pinkerton, PINvestigator; built Leo (this system) with instincts, hooks, and a KB.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "approximate-nearest-neighbor": {
+   "name": "Approximate Nearest Neighbor Search",
+   "wiki": "kb/hard/wiki/approximate-nearest-neighbor.md",
+   "tags": [
+    "ann",
+    "faiss",
+    "hnsw",
+    "scann",
+    "lsh",
+    "vector-search"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "HNSW/Manas/Faiss serving path owned and reasoned about in depth (UPP deploy path, RecGPT Faiss→Manas migration).",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "HNSW/Manas/Faiss serving path owned and reasoned about in depth (UPP deploy path, RecGPT Faiss→Manas migration).",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "bandits-exploration-exploitation": {
+   "name": "Bandits & Exploration-Exploitation",
+   "wiki": "kb/hard/wiki/bandits-exploration-exploitation.md",
+   "tags": [
+    "bandits",
+    "exploration-exploitation",
+    "ucb",
+    "thompson-sampling",
+    "contextual-bandits"
+   ],
+   "related": [
+    "recommendation-systems",
+    "reinforcement-learning",
+    "counterfactual-evaluation"
+   ],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Exploration module + frontier sampling in production, but the bandit formalism (UCB/Thompson) is baseline, not demonstrated.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Exploration module + frontier sampling in production, but the bandit formalism (UCB/Thompson) is baseline, not demonstrated.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "convolutional-neural-networks": {
+   "name": "Convolutional Neural Networks",
+   "wiki": "kb/hard/wiki/convolutional-neural-networks.md",
+   "tags": [
+    "cnn",
+    "convolution",
+    "pooling",
+    "resnet",
+    "image-classification"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 0,
+   "note": "Content-understanding years; not on the agenda.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Content-understanding years; not on the agenda.",
+     "understanding": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  "counterfactual-evaluation": {
+   "name": "Counterfactual & Offline Policy Evaluation",
+   "wiki": "kb/hard/wiki/counterfactual-evaluation.md",
+   "tags": [
+    "counterfactual",
+    "ips",
+    "off-policy-evaluation",
+    "position-bias"
+   ],
+   "related": [
+    "recsys-evaluation",
+    "bandits-exploration-exploitation",
+    "a-b-testing"
+   ],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "IPS/off-policy evaluation is baseline knowledge; not yet demonstrated on a retrieval problem. Lane-4 prerequisite.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "IPS/off-policy evaluation is baseline knowledge; not yet demonstrated on a retrieval problem. Lane-4 prerequisite.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "data-flywheel": {
+   "name": "Data Flywheel & Feedback Loops",
+   "wiki": "kb/hard/wiki/data-flywheel.md",
+   "tags": [
+    "data-flywheel",
+    "feedback-loops",
+    "labeling",
+    "moat"
+   ],
+   "related": [
+    "ml-production-maintenance",
+    "recommendation-systems",
+    "bandits-exploration-exploitation"
+   ],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "RR feedback loop (FBL) and full-funnel logging are live workstreams he scoped.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "RR feedback loop (FBL) and full-funnel logging are live workstreams he scoped.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "data-quality": {
+   "name": "Data Quality & Curation",
+   "wiki": "kb/hard/wiki/data-quality.md",
+   "tags": [
+    "data-quality",
+    "labeling",
+    "semi-supervised",
+    "active-learning",
+    "annotation"
+   ],
+   "related": [
+    "synthetic-data",
+    "llm-post-training",
+    "neural-network-training"
+   ],
+   "understanding": 3,
+   "relevance": 2,
+   "note": "4–5 years on content quality/integrity; FineWeb-style log filtering is the new angle.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "4–5 years on content quality/integrity; FineWeb-style log filtering is the new angle.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "decision-trees-ensembles": {
+   "name": "Decision Trees & Ensemble Methods",
+   "wiki": "kb/hard/wiki/decision-trees-ensembles.md",
+   "tags": [
+    "decision-trees",
+    "random-forest",
+    "gradient-boosting",
+    "xgboost",
+    "ensemble"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 0,
+   "note": "PhD baseline; not on the agenda.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "PhD baseline; not on the agenda.",
+     "understanding": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  "diffusion-models": {
+   "name": "Diffusion Models",
+   "wiki": "kb/hard/wiki/diffusion-models.md",
+   "tags": [
+    "diffusion",
+    "ddpm",
+    "stable-diffusion",
+    "text-to-image",
+    "latent-diffusion"
+   ],
+   "related": [],
+   "understanding": 1,
+   "relevance": 0,
+   "note": "Not on the agenda.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Not on the agenda."
+    }
+   ]
+  },
+  "distributed-systems": {
+   "name": "Distributed Systems Fundamentals",
+   "wiki": "kb/hard/wiki/distributed-systems.md",
+   "tags": [
+    "distributed-systems",
+    "scalability",
+    "consistent-hashing",
+    "cap-theorem",
+    "message-queues"
+   ],
+   "related": [
+    "ad-systems",
+    "ml-system-design-framework",
+    "mlops-monitoring"
+   ],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Serving-scale systems by practice; CAP/consistent hashing baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Serving-scale systems by practice; CAP/consistent hashing baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "distributed-training": {
+   "name": "Distributed Training & Memory Optimization",
+   "wiki": "kb/hard/wiki/distributed-training.md",
+   "tags": [
+    "distributed-training",
+    "parallelism",
+    "deepspeed",
+    "gradient-checkpointing",
+    "mixed-precision"
+   ],
+   "related": [],
+   "understanding": 1,
+   "relevance": 2,
+   "note": "FSDP/sequence packing matter only if a 1B+ teacher is trained here (ATG's leg); baseline awareness.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "FSDP/sequence packing matter only if a 1B+ teacher is trained here (ATG's leg); baseline awareness.",
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "embeddings-and-representation-learning": {
+   "name": "Embeddings & Representation Learning",
+   "wiki": "kb/hard/wiki/embeddings-and-representation-learning.md",
+   "tags": [
+    "embeddings",
+    "representation-learning",
+    "word2vec",
+    "contrastive"
+   ],
+   "related": [
+    "two-tower-retrieval",
+    "self-supervised-contrastive",
+    "transformer-architecture"
+   ],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "Core of 12 years of retrieval work; omnisage/pinclip consumer.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Core of 12 years of retrieval work; omnisage/pinclip consumer.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "feature-engineering": {
+   "name": "Feature Engineering",
+   "wiki": "kb/hard/wiki/feature-engineering.md",
+   "tags": [
+    "feature-engineering",
+    "categorical-encoding",
+    "temporal-features",
+    "data-preprocessing"
+   ],
+   "related": [
+    "recommendation-systems",
+    "learning-to-rank",
+    "feature-stores"
+   ],
+   "understanding": 3,
+   "relevance": 2,
+   "note": "Twelve years; Pinnability-Light feature-ROI thinking is his org's.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Twelve years; Pinnability-Light feature-ROI thinking is his org's.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "feature-stores": {
+   "name": "Feature Stores",
+   "wiki": "kb/hard/wiki/feature-stores.md",
+   "tags": [
+    "feature-store",
+    "real-time-features",
+    "train-serve-consistency",
+    "feast"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Train/serve consistency is a lived problem; feature-store products baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Train/serve consistency is a lived problem; feature-store products baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "genai-product-strategy": {
+   "name": "GenAI Product Strategy & Moats",
+   "wiki": "kb/hard/wiki/genai-product-strategy.md",
+   "tags": [
+    "genai-strategy",
+    "moats",
+    "build-vs-buy",
+    "open-models",
+    "ai-products"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Safe Journeys GenAI placement doctrine; strategic fluency.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Safe Journeys GenAI placement doctrine; strategic fluency.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "generative-adversarial-networks": {
+   "name": "Generative Adversarial Networks",
+   "wiki": "kb/hard/wiki/generative-adversarial-networks.md",
+   "tags": [
+    "gan",
+    "generative-models",
+    "stylegan",
+    "mode-collapse"
+   ],
+   "related": [
+    "diffusion-models",
+    "vision-language-models"
+   ],
+   "understanding": 1,
+   "relevance": 0,
+   "note": "Not on the agenda.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Not on the agenda."
+    }
+   ]
+  },
+  "generative-ai-platform-design": {
+   "name": "Generative AI Platform Design",
+   "wiki": "kb/hard/wiki/generative-ai-platform-design.md",
+   "tags": [
+    "genai",
+    "llm-platform",
+    "guardrails",
+    "orchestration"
+   ],
+   "related": [
+    "large-language-models",
+    "retrieval-augmented-generation",
+    "llm-patterns"
+   ],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Reflex is a GenAI platform; guardrails/orchestration by practice.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Reflex is a GenAI platform; guardrails/orchestration by practice.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "generative-recommendation": {
+   "name": "Generative Recommendation",
+   "wiki": "kb/hard/wiki/generative-recommendation.md",
+   "tags": [
+    "generative-recsys",
+    "semantic-ids",
+    "hstu",
+    "rq-vae"
+   ],
+   "related": [
+    "recommendation-systems",
+    "llm-recsys",
+    "large-language-models"
+   ],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "RecGPT/PinRec in production under him, but Dylan's 8/24 RecGPT-as-L1 grilling found gaps ('on my toes'). Top of the learning queue; W01 lesson is on it.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "RecGPT/PinRec in production under him, but Dylan's 8/24 RecGPT-as-L1 grilling found gaps ('on my toes'). Top of the learning queue; W01 lesson is on it.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "large-language-models": {
+   "name": "Large Language Models",
+   "wiki": "kb/hard/wiki/large-language-models.md",
+   "tags": [
+    "llm",
+    "gpt",
+    "language-models",
+    "scaling",
+    "context-length",
+    "decoder-only",
+    "chinchilla"
+   ],
+   "related": [
+    "transformer-architecture",
+    "llm-post-training",
+    "rl-for-llms",
+    "llm-evaluation"
+   ],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Strategic and consumer-level fluency; Chinchilla/overtraining/scaling internals read in the 9/6 research, not demonstrated.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Strategic and consumer-level fluency; Chinchilla/overtraining/scaling internals read in the 9/6 research, not demonstrated.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "learning-to-rank": {
+   "name": "Learning to Rank",
+   "wiki": "kb/hard/wiki/learning-to-rank.md",
+   "tags": [
+    "ranking",
+    "ltr",
+    "deep-ranking",
+    "calibration",
+    "lambdamart"
+   ],
+   "related": [
+    "recommendation-systems",
+    "two-tower-retrieval",
+    "feature-engineering"
+   ],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "LWS pre-ranking + L1 utility owner; co-author on the RecSys 2026 preranking oral (Alignment + Accuracy).",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "LWS pre-ranking + L1 utility owner; co-author on the RecSys 2026 preranking oral (Alignment + Accuracy).",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "llm-evaluation": {
+   "name": "LLM Evaluation",
+   "wiki": "kb/hard/wiki/llm-evaluation.md",
+   "tags": [
+    "evals",
+    "llm-as-judge",
+    "benchmarks",
+    "evaluation",
+    "perplexity",
+    "human-eval",
+    "statistical-rigor"
+   ],
+   "related": [
+    "ai-agents-and-agentic-systems",
+    "large-language-models"
+   ],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "Owns the Reflex Evaluation & Evolution thread (judge V1, GEPA calibration, EvalResult contract); eval hub author.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Owns the Reflex Evaluation & Evolution thread (judge V1, GEPA calibration, EvalResult contract); eval hub author.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "llm-hallucination": {
+   "name": "LLM Hallucination",
+   "wiki": "kb/hard/wiki/llm-hallucination.md",
+   "tags": [
+    "hallucination",
+    "factuality",
+    "grounding",
+    "faithfulness"
+   ],
+   "related": [],
+   "understanding": 1,
+   "relevance": 2,
+   "note": "Relevant via GR hallucination (invalid SIDs) and Reflex judge; awareness.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Relevant via GR hallucination (invalid SIDs) and Reflex judge; awareness.",
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "llm-inference-serving": {
+   "name": "LLM Inference & Serving",
+   "wiki": "kb/hard/wiki/llm-inference-serving.md",
+   "tags": [
+    "inference",
+    "kv-cache",
+    "speculative-decoding",
+    "quantization",
+    "serving"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Quantization/KV cache/speculative decoding known from the LLM-scaling research; not demonstrated in dialogue.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Quantization/KV cache/speculative decoding known from the LLM-scaling research; not demonstrated in dialogue.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "llm-patterns": {
+   "name": "LLM Patterns for Products",
+   "wiki": "kb/hard/wiki/llm-patterns.md",
+   "tags": [
+    "llm-patterns",
+    "guardrails",
+    "caching",
+    "defensive-ux",
+    "feedback-collection"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Builds LLM products (Reflex, Leo); patterns known by practice.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Builds LLM products (Reflex, Leo); patterns known by practice.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "llm-post-training": {
+   "name": "LLM Post-Training & Alignment",
+   "wiki": "kb/hard/wiki/llm-post-training.md",
+   "tags": [
+    "rlhf",
+    "sft",
+    "alignment",
+    "dpo",
+    "preference-optimization"
+   ],
+   "related": [],
+   "understanding": 1,
+   "relevance": 2,
+   "note": "Ranking's territory (OneRec DPO); strategic awareness only.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Ranking's territory (OneRec DPO); strategic awareness only.",
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "llm-recsys": {
+   "name": "LLMs in Recommendation Systems",
+   "wiki": "kb/hard/wiki/llm-recsys.md",
+   "tags": [
+    "llm-recsys",
+    "semantic-ids",
+    "generative-recommendation",
+    "bert4rec",
+    "hstu"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "The 2027 agenda's frontier; understanding is strategic, not yet mechanism-level (semantic IDs, HSTU internals).",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "The 2027 agenda's frontier; understanding is strategic, not yet mechanism-level (semantic IDs, HSTU internals).",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "loss-functions": {
+   "name": "Loss Functions",
+   "wiki": "kb/hard/wiki/loss-functions.md",
+   "tags": [
+    "loss-functions",
+    "cross-entropy",
+    "contrastive-loss",
+    "ranking-loss"
+   ],
+   "related": [
+    "neural-network-training",
+    "learning-to-rank",
+    "embeddings-and-representation-learning",
+    "self-supervised-contrastive"
+   ],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "In-batch-negative, sampled-softmax, pairwise distillation losses — designed and debated in CLR/UPP/LWS.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "In-batch-negative, sampled-softmax, pairwise distillation losses — designed and debated in CLR/UPP/LWS.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "mixture-of-experts": {
+   "name": "Mixture of Experts (MoE)",
+   "wiki": "kb/hard/wiki/mixture-of-experts.md",
+   "tags": [
+    "moe",
+    "sparse-models",
+    "expert-routing",
+    "deepseek",
+    "scaling"
+   ],
+   "related": [],
+   "understanding": 1,
+   "relevance": 3,
+   "note": "Relevant to bet 2 (capacity without serving FLOPs); no demonstrated understanding of routing/balancing.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Relevant to bet 2 (capacity without serving FLOPs); no demonstrated understanding of routing/balancing.",
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "ml-production-maintenance": {
+   "name": "ML Production Maintenance",
+   "wiki": "kb/hard/wiki/ml-production-maintenance.md",
+   "tags": [
+    "ml-production",
+    "monitoring",
+    "drift",
+    "retraining",
+    "operational"
+   ],
+   "related": [
+    "mlops-monitoring",
+    "feature-stores",
+    "ml-testing"
+   ],
+   "understanding": 3,
+   "relevance": 2,
+   "note": "Oncall, SEVs, retraining, model versioning across four engines.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Oncall, SEVs, retraining, model versioning across four engines.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "ml-simplicity": {
+   "name": "ML Simplicity First",
+   "wiki": "kb/hard/wiki/ml-simplicity.md",
+   "tags": [
+    "simplicity",
+    "heuristics",
+    "baselines",
+    "ml-first-rule"
+   ],
+   "related": [
+    "ml-system-design-framework",
+    "ml-production-maintenance"
+   ],
+   "understanding": 3,
+   "relevance": 2,
+   "note": "'As few models as possible' consolidation instinct; heuristic-CG sunset.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "'As few models as possible' consolidation instinct; heuristic-CG sunset.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "ml-system-design-framework": {
+   "name": "ML System Design Framework",
+   "wiki": "kb/hard/wiki/ml-system-design-framework.md",
+   "tags": [
+    "system-design",
+    "interview",
+    "ml-pipeline",
+    "scoping",
+    "evaluation"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 2,
+   "note": "Leads system design daily; interview-prep record on file.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Leads system design daily; interview-prep record on file.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "ml-testing": {
+   "name": "ML Testing Strategies",
+   "wiki": "kb/hard/wiki/ml-testing.md",
+   "tags": [
+    "ml-testing",
+    "invariance",
+    "integration-tests",
+    "ci-cd"
+   ],
+   "related": [
+    "mlops-monitoring",
+    "ml-production-maintenance"
+   ],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Staging/correctness gates in Reflex Build; baseline otherwise.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Staging/correctness gates in Reflex Build; baseline otherwise.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "mlops-monitoring": {
+   "name": "MLOps & Model Monitoring",
+   "wiki": "kb/hard/wiki/mlops-monitoring.md",
+   "tags": [
+    "mlops",
+    "monitoring",
+    "drift",
+    "model-versioning",
+    "cd4ml"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Baseline; PINvestigator automates part of it.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Baseline; PINvestigator automates part of it.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "model-compression": {
+   "name": "Model Compression & Quantization",
+   "wiki": "kb/hard/wiki/model-compression.md",
+   "tags": [
+    "quantization",
+    "pruning",
+    "distillation",
+    "model-compression",
+    "on-device"
+   ],
+   "related": [
+    "llm-inference-serving",
+    "large-language-models"
+   ],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "int8/fp16 serving fixes happen on his team; distillation appears in Bella's H2 criteria; his own depth is baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "int8/fp16 serving fixes happen on his team; distillation appears in Bella's H2 criteria; his own depth is baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "neural-network-fundamentals": {
+   "name": "Neural Network Fundamentals",
+   "wiki": "kb/hard/wiki/neural-network-fundamentals.md",
+   "tags": [
+    "neural-networks",
+    "activation",
+    "backpropagation",
+    "fundamentals"
+   ],
+   "related": [
+    "neural-network-training",
+    "regularization",
+    "optimization-algorithms"
+   ],
+   "understanding": 2,
+   "relevance": 0,
+   "note": "PhD baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "PhD baseline.",
+     "understanding": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  "neural-network-training": {
+   "name": "Neural Network Training & Optimization",
+   "wiki": "kb/hard/wiki/neural-network-training.md",
+   "tags": [
+    "training",
+    "optimization",
+    "sgd",
+    "adam",
+    "learning-rate",
+    "debugging"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "PhD baseline; skips elementary loop checks (learn skill note 9/6).",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "PhD baseline; skips elementary loop checks (learn skill note 9/6).",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "object-detection": {
+   "name": "Object Detection",
+   "wiki": "kb/hard/wiki/object-detection.md",
+   "tags": [
+    "object-detection",
+    "yolo",
+    "r-cnn",
+    "bounding-box",
+    "computer-vision"
+   ],
+   "related": [
+    "convolutional-neural-networks",
+    "vision-language-models"
+   ],
+   "understanding": 2,
+   "relevance": 0,
+   "note": "Content-understanding years; not on the agenda.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Content-understanding years; not on the agenda.",
+     "understanding": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  "open-models-ecosystem": {
+   "name": "Open Model Ecosystem",
+   "wiki": "kb/hard/wiki/open-models-ecosystem.md",
+   "tags": [
+    "open-models",
+    "llm-ecosystem",
+    "governance",
+    "deepseek",
+    "qwen"
+   ],
+   "related": [
+    "genai-product-strategy",
+    "large-language-models"
+   ],
+   "understanding": 1,
+   "relevance": 2,
+   "note": "Balaji's 'open-source models as the cost answer' read; awareness.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Balaji's 'open-source models as the cost answer' read; awareness.",
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "optimization-algorithms": {
+   "name": "Optimization Algorithms",
+   "wiki": "kb/hard/wiki/optimization-algorithms.md",
+   "tags": [
+    "optimization",
+    "sgd",
+    "adam",
+    "momentum",
+    "convergence"
+   ],
+   "related": [
+    "neural-network-training",
+    "neural-network-fundamentals"
+   ],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "PhD statistical ML baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "PhD statistical ML baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "personalization-patterns": {
+   "name": "Personalization Patterns",
+   "wiki": "kb/hard/wiki/personalization-patterns.md",
+   "tags": [
+    "personalization",
+    "context-aware",
+    "user-signals",
+    "push-notifications"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "Homefeed personalization at Pinterest scale.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Homefeed personalization at Pinterest scale.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "privacy-federated-learning": {
+   "name": "Privacy & Federated Learning",
+   "wiki": "kb/hard/wiki/privacy-federated-learning.md",
+   "tags": [
+    "privacy",
+    "federated-learning",
+    "differential-privacy",
+    "on-device"
+   ],
+   "related": [
+    "mlops-monitoring",
+    "model-compression"
+   ],
+   "understanding": 1,
+   "relevance": 0,
+   "note": "Not on the agenda.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Not on the agenda."
+    }
+   ]
+  },
+  "prompt-engineering": {
+   "name": "Prompt Engineering & In-Context Learning",
+   "wiki": "kb/hard/wiki/prompt-engineering.md",
+   "tags": [
+    "prompting",
+    "few-shot",
+    "chain-of-thought",
+    "icl",
+    "temperature"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Writes Leo's skills and prompts daily; no formal study.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Writes Leo's skills and prompts daily; no formal study.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "reasoning-models": {
+   "name": "Reasoning Models & Inference-Time Scaling",
+   "wiki": "kb/hard/wiki/reasoning-models.md",
+   "tags": [
+    "reasoning",
+    "o1",
+    "deepseek-r1",
+    "inference-scaling",
+    "chain-of-thought"
+   ],
+   "related": [],
+   "understanding": 1,
+   "relevance": 2,
+   "note": "Test-time compute is outside a 10 ms retrieval budget; awareness only.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Test-time compute is outside a 10 ms retrieval budget; awareness only.",
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "recommendation-systems": {
+   "name": "Recommendation Systems",
+   "wiki": "kb/hard/wiki/recommendation-systems.md",
+   "tags": [
+    "recsys",
+    "ml-system-design",
+    "retrieval",
+    "ranking",
+    "personalization"
+   ],
+   "related": [
+    "two-tower-retrieval",
+    "learning-to-rank",
+    "recsys-embeddings",
+    "reranking"
+   ],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "12 years in recsys; runs the P13N Retrieval org.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "12 years in recsys; runs the P13N Retrieval org.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "recsys-beyond-accuracy": {
+   "name": "RecSys Beyond Accuracy",
+   "wiki": "kb/hard/wiki/recsys-beyond-accuracy.md",
+   "tags": [
+    "diversity",
+    "novelty",
+    "serendipity",
+    "beyond-accuracy",
+    "long-tail"
+   ],
+   "related": [
+    "recommendation-systems",
+    "reranking",
+    "bandits-exploration-exploitation"
+   ],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "Retentive Recs / pUIC novelty and exploration program is his bet; exploratory module launched 9/3.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Retentive Recs / pUIC novelty and exploration program is his bet; exploratory module launched 9/3.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "recsys-case-studies": {
+   "name": "Applied RecSys Case Studies",
+   "wiki": "kb/hard/wiki/recsys-case-studies.md",
+   "tags": [
+    "case-studies",
+    "youtube",
+    "airbnb",
+    "linkedin",
+    "pinterest",
+    "system-design"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 2,
+   "note": "His org is a case study (UPP, CLR GPU serving, ML Day 2025).",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "His org is a case study (UPP, CLR GPU serving, ML Day 2025).",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "recsys-embeddings": {
+   "name": "RecSys Embeddings & Collaborative Filtering",
+   "wiki": "kb/hard/wiki/recsys-embeddings.md",
+   "tags": [
+    "embeddings",
+    "collaborative-filtering",
+    "matrix-factorization",
+    "cold-start",
+    "gnn"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "Embedding-based retrieval, multi-embedding LR (KDD 2025 team paper), cold-start handling — production depth.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Embedding-based retrieval, multi-embedding LR (KDD 2025 team paper), cold-start handling — production depth.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "recsys-evaluation": {
+   "name": "RecSys Evaluation & Bias",
+   "wiki": "kb/hard/wiki/recsys-evaluation.md",
+   "tags": [
+    "evaluation",
+    "ndcg",
+    "position-bias",
+    "calibration",
+    "offline-online"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "Offline↔online alignment is the org's published L1 method (RecSys 2026); UPP gap #4 (retrieval calibration) is the open half.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Offline↔online alignment is the org's published L1 method (RecSys 2026); UPP gap #4 (retrieval calibration) is the open half.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "regularization": {
+   "name": "Regularization & Overfitting",
+   "wiki": "kb/hard/wiki/regularization.md",
+   "tags": [
+    "regularization",
+    "dropout",
+    "batch-norm",
+    "overfitting",
+    "bias-variance"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "PhD baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "PhD baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "reinforcement-learning": {
+   "name": "Reinforcement Learning",
+   "wiki": "kb/hard/wiki/reinforcement-learning.md",
+   "tags": [
+    "rl",
+    "mdp",
+    "policy-gradient",
+    "q-learning",
+    "deep-rl"
+   ],
+   "related": [
+    "bandits-exploration-exploitation",
+    "rl-for-llms",
+    "neural-network-training"
+   ],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "PhD baseline; tabular RL shopping-load tuning ran on his team (Alok).",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "PhD baseline; tabular RL shopping-load tuning ran on his team (Alok).",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "reranking": {
+   "name": "Reranking & Multi-Objective Optimization",
+   "wiki": "kb/hard/wiki/reranking.md",
+   "tags": [
+    "reranking",
+    "multi-objective",
+    "diversity",
+    "fairness",
+    "moo"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "L1 utility diversity/shopping/safety controls; blending seam with Rahul Goutam's team.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "L1 utility diversity/shopping/safety controls; blending seam with Rahul Goutam's team.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "retrieval-augmented-generation": {
+   "name": "Retrieval-Augmented Generation",
+   "wiki": "kb/hard/wiki/retrieval-augmented-generation.md",
+   "tags": [
+    "rag",
+    "retrieval",
+    "generation",
+    "llm",
+    "chunking"
+   ],
+   "related": [
+    "embeddings-and-representation-learning",
+    "large-language-models",
+    "ai-agents-and-agentic-systems"
+   ],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Runs a TF-IDF KB + graph for Leo; RAG as a discipline is baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Runs a TF-IDF KB + graph for Leo; RAG as a discipline is baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "rl-for-llms": {
+   "name": "Reinforcement Learning for LLMs",
+   "wiki": "kb/hard/wiki/rl-for-llms.md",
+   "tags": [
+    "rlhf",
+    "ppo",
+    "grpo",
+    "reinforce",
+    "reasoning",
+    "rlvr",
+    "deepseek-r1",
+    "rft"
+   ],
+   "related": [
+    "reinforcement-learning",
+    "large-language-models",
+    "llm-post-training"
+   ],
+   "understanding": 1,
+   "relevance": 2,
+   "note": "GRPO/RLVR read in the 9/6 research; not demonstrated.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "GRPO/RLVR read in the 9/6 research; not demonstrated.",
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "search-systems": {
+   "name": "Search Systems",
+   "wiki": "kb/hard/wiki/search-systems.md",
+   "tags": [
+    "search",
+    "query-understanding",
+    "bm25",
+    "dense-retrieval",
+    "hybrid-search"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "Search CLR is Dafang's; UBR serves Search as a surface; query understanding baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Search CLR is Dafang's; UBR serves Search as a surface; query understanding baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "self-supervised-contrastive": {
+   "name": "Self-Supervised & Contrastive Learning",
+   "wiki": "kb/hard/wiki/self-supervised-contrastive.md",
+   "tags": [
+    "self-supervised",
+    "contrastive-learning",
+    "simclr",
+    "moco",
+    "clip"
+   ],
+   "related": [
+    "embeddings-and-representation-learning",
+    "vision-language-models",
+    "loss-functions"
+   ],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Uses contrastive objectives daily; the SimCLR/MoCo/CLIP lineage itself is PhD-baseline, not demonstrated.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Uses contrastive objectives daily; the SimCLR/MoCo/CLIP lineage itself is PhD-baseline, not demonstrated.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "sequence-models": {
+   "name": "Sequence Models (RNN/LSTM/SSM)",
+   "wiki": "kb/hard/wiki/sequence-models.md",
+   "tags": [
+    "rnn",
+    "lstm",
+    "gru",
+    "sequence-models",
+    "ssm",
+    "mamba"
+   ],
+   "related": [
+    "transformer-architecture",
+    "large-language-models"
+   ],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "TransAct/16k user-sequence modeling in his stack; SSM/Mamba side is baseline only.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "TransAct/16k user-sequence modeling in his stack; SSM/Mamba side is baseline only.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "supervised-learning": {
+   "name": "Supervised Learning Algorithms",
+   "wiki": "kb/hard/wiki/supervised-learning.md",
+   "tags": [
+    "linear-regression",
+    "logistic-regression",
+    "svm",
+    "naive-bayes",
+    "classification"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 0,
+   "note": "PhD baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "PhD baseline.",
+     "understanding": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  "synthetic-data": {
+   "name": "Synthetic Data for Fine-Tuning",
+   "wiki": "kb/hard/wiki/synthetic-data.md",
+   "tags": [
+    "synthetic-data",
+    "distillation",
+    "self-instruct",
+    "sft",
+    "fine-tuning"
+   ],
+   "related": [
+    "llm-post-training",
+    "data-quality"
+   ],
+   "understanding": 1,
+   "relevance": 2,
+   "note": "Distillation/self-instruct for fine-tuning — awareness.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Distillation/self-instruct for fine-tuning — awareness.",
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "transfer-learning": {
+   "name": "Transfer Learning & Fine-Tuning",
+   "wiki": "kb/hard/wiki/transfer-learning.md",
+   "tags": [
+    "transfer-learning",
+    "fine-tuning",
+    "lora",
+    "peft",
+    "domain-adaptation"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "UPP's fine-tuning ladder (none/into_ft_dhen/late_fusion/both) and the LoRA gap are his platform; PEFT mechanics baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "UPP's fine-tuning ladder (none/into_ft_dhen/late_fusion/both) and the LoRA gap are his platform; PEFT mechanics baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "transformer-architecture": {
+   "name": "Transformer Architecture",
+   "wiki": "kb/hard/wiki/transformer-architecture.md",
+   "tags": [
+    "transformer",
+    "attention",
+    "self-attention",
+    "positional-encoding",
+    "mha",
+    "gqa",
+    "mla",
+    "flashattention"
+   ],
+   "related": [
+    "large-language-models",
+    "llm-inference-serving",
+    "embeddings-and-representation-learning"
+   ],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Interview-prep record (transformers workspace) + W01; attention variants (GQA/MLA/FlashAttention) not yet defended.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Interview-prep record (transformers workspace) + W01; attention variants (GQA/MLA/FlashAttention) not yet defended.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "two-tower-retrieval": {
+   "name": "Two-Tower Retrieval",
+   "wiki": "kb/hard/wiki/two-tower-retrieval.md",
+   "tags": [
+    "retrieval",
+    "two-tower",
+    "dual-encoder",
+    "candidate-generation",
+    "ann"
+   ],
+   "related": [
+    "recommendation-systems",
+    "embeddings-and-representation-learning",
+    "approximate-nearest-neighbor"
+   ],
+   "understanding": 4,
+   "relevance": 3,
+   "note": "Leads the org that runs cross-surface conditional two-tower retrieval (CLR/UBR) in production — a design the 2026 literature review lists as a gap; boundary-pushing by that standard. Correct downward if disputed.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Leads the org that runs cross-surface conditional two-tower retrieval (CLR/UBR) in production — a design the 2026 literature review lists as a gap; boundary-pushing by that standard. Correct downward if disputed.",
+     "understanding": [
+      1,
+      4
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "unsupervised-learning": {
+   "name": "Unsupervised Learning & Clustering",
+   "wiki": "kb/hard/wiki/unsupervised-learning.md",
+   "tags": [
+    "unsupervised-learning",
+    "clustering",
+    "kmeans",
+    "pca",
+    "dimensionality-reduction"
+   ],
+   "related": [
+    "embeddings-and-representation-learning",
+    "supervised-learning",
+    "self-supervised-contrastive"
+   ],
+   "understanding": 2,
+   "relevance": 0,
+   "note": "PhD baseline; k-means resurfaces in RQ-Kmeans codebooks (see semantic-id-tokenization).",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "PhD baseline; k-means resurfaces in RQ-Kmeans codebooks (see semantic-id-tokenization).",
+     "understanding": [
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  "vision-language-models": {
+   "name": "Vision-Language Models",
+   "wiki": "kb/hard/wiki/vision-language-models.md",
+   "tags": [
+    "vlm",
+    "clip",
+    "llava",
+    "multimodal",
+    "vision-encoder"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 2,
+   "note": "5 years content understanding; multimodal item signals (pinclip/omnisage) consumed, VLM internals baseline.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "5 years content understanding; multimodal item signals (pinclip/omnisage) consumed, VLM internals baseline.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      2
+     ]
+    }
+   ]
+  },
+  "semantic-id-tokenization": {
+   "name": "Semantic-ID Tokenization (codebooks, RQ-VAE, collisions, re-minting)",
+   "wiki": null,
+   "tags": [
+    "semantic-ids",
+    "rq-vae",
+    "codebook",
+    "tokenizer",
+    "sid",
+    "collision",
+    "generative-retrieval"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "RQ-VAE codebooks, collision handling, re-tokenization drift — agenda lane 3; knows the shape, has not defended the mechanism.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "RQ-VAE codebooks, collision handling, re-tokenization drift — agenda lane 3; knows the shape, has not defended the mechanism.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "recsys-scaling-laws": {
+   "name": "Scaling Laws for Recommenders (HSTU, Wukong, compute allocation)",
+   "wiki": null,
+   "tags": [
+    "scaling-laws",
+    "hstu",
+    "wukong",
+    "compute-allocation",
+    "scaling"
+   ],
+   "related": [],
+   "understanding": 1,
+   "relevance": 3,
+   "note": "HSTU/Wukong power laws, fixed-FT-compute framing, embedding-vs-dense allocation — agenda lane 2; read about, not yet explained back.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "HSTU/Wukong power laws, fixed-FT-compute framing, embedding-vs-dense allocation — agenda lane 2; read about, not yet explained back.",
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "serving-efficiency-and-user-state-caching": {
+   "name": "Serving Efficiency & User-State Caching (KV/prefix caching, quantization, MFU)",
+   "wiki": null,
+   "tags": [
+    "kv-cache",
+    "prefix-caching",
+    "gpu-serving",
+    "mfu",
+    "quantization",
+    "disaggregation",
+    "serving-cost"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Team productionized GPU serving (LWS, CLR, ME); KV/prefix caching and MFU instrumentation — agenda lane 1 — are known concepts, not demonstrated.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Team productionized GPU serving (LWS, CLR, ME); KV/prefix caching and MFU instrumentation — agenda lane 1 — are known concepts, not demonstrated.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "agent-harnesses-and-self-evolution": {
+   "name": "Agent Harnesses & Self-Evolving Agents",
+   "wiki": null,
+   "tags": [
+    "agent-harness",
+    "agent-evolution",
+    "self-evolving",
+    "skill-evolution",
+    "gepa",
+    "autoharness",
+    "llm-agents",
+    "multi-agent"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Collected the 2026 harness papers (AutoHarness, EvoHarness, GEPA, SkillOS, WikiSkill); Reflex Evolve is the live thread; mechanisms not yet explained back.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Collected the 2026 harness papers (AutoHarness, EvoHarness, GEPA, SkillOS, WikiSkill); Reflex Evolve is the live thread; mechanisms not yet explained back.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "pre-ranking-cross-stage-consistency": {
+   "name": "Pre-Ranking (L1) & Cross-Stage Consistency",
+   "wiki": null,
+   "tags": [
+    "pre-ranking",
+    "preranking",
+    "l1",
+    "cross-stage-consistency",
+    "sample-selection-bias",
+    "rank-distillation"
+   ],
+   "related": [],
+   "understanding": 3,
+   "relevance": 3,
+   "note": "LWS 2025 alignment campaign + RecSys 2026 oral co-author (position 13); the L1 exit criterion is his lane-4 artifact.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "LWS 2025 alignment campaign + RecSys 2026 oral co-author (position 13); the L1 exit criterion is his lane-4 artifact.",
+     "understanding": [
+      1,
+      3
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "user-foundation-models-and-distillation": {
+   "name": "User Foundation Models & Teacher Distillation",
+   "wiki": null,
+   "tags": [
+    "foundation-model",
+    "user-model",
+    "teacher-distillation",
+    "cfm",
+    "pretrain-finetune"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Sponsors UPP's FM→base→surface hierarchy and follows the CFM scaling study; scale-the-teacher is strategy, not yet mechanism.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Sponsors UPP's FM→base→surface hierarchy and follows the CFM scaling study; scale-the-teacher is strategy, not yet mechanism.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "offline-online-calibration-and-candidate-logging": {
+   "name": "Offline→Online Calibration & Candidate Logging",
+   "wiki": null,
+   "tags": [
+    "offline-online",
+    "calibration",
+    "candidate-logging",
+    "full-funnel",
+    "offline-replay"
+   ],
+   "related": [],
+   "understanding": 2,
+   "relevance": 3,
+   "note": "Knows the gap (UPP #4) and Hedi's L1 method exists; has not yet worked the retrieval version.",
+   "updated": "2026-09-07",
+   "updated_by": "claude",
+   "evidence": [
+    {
+     "date": "2026-09-07",
+     "kind": "seed",
+     "by": "claude",
+     "note": "Knows the gap (UPP #4) and Hedi's L1 method exists; has not yet worked the retrieval version.",
+     "understanding": [
+      1,
+      2
+     ],
+     "relevance": [
+      0,
+      3
+     ]
+    }
+   ]
+  }
+ },
+ "updated": "2026-09-07"
+}

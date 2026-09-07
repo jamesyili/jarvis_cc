@@ -11,6 +11,9 @@ related:
   - "[[hard/wiki/recommendation-systems|Recommendation Systems]]"
   - "[[hard/wiki/two-tower-retrieval|Two-Tower Retrieval]]"
   - "[[hard/wiki/feature-engineering|Feature Engineering]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Learning to Rank

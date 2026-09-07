@@ -10,6 +10,9 @@ related:
   - "[[hard/wiki/mlops-monitoring|MLOps Monitoring]]"
   - "[[hard/wiki/feature-stores|Feature Stores]]"
   - "[[hard/wiki/ml-testing|ML Testing]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # ML Production Maintenance

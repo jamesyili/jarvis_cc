@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/cameron-wolfe/vision-large-language-models-vllms.md
 last_compiled: 2026-04-05
 related: [transformer-architecture, large-language-models, diffusion-models, convolutional-neural-networks]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Vision-Language Models

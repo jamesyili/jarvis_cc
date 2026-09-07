@@ -12,6 +12,24 @@ import sys
 from datetime import date
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+try:
+    import kb_knowledge_state as ks
+    KS_STATE = ks.load_state()
+except Exception:  # sidecar absent or unreadable — indexes still build
+    ks, KS_STATE = None, None
+
+
+def knowledge_cols(path, domain="hard"):
+    """Return (understanding, relevance) for a hard-KB file, or ("", "") when no learner model / soft domain."""
+    if not KS_STATE or domain != "hard":
+        return "", ""
+    try:
+        r = ks.inherit(KS_STATE, path)
+        return str(r["understanding"]), str(r["relevance"])
+    except SystemExit:
+        return "", ""
+
 KB = Path(__file__).parent.parent / "kb"
 
 
@@ -61,7 +79,8 @@ def build_raw_index(domain):
                 continue
             title, tags = parse_article_metadata(f)
             rel_path = f.relative_to(KB)
-            entries.append((title, slug_dir.name, tags, str(rel_path)))
+            u, r = knowledge_cols(f, domain)
+            entries.append((title, slug_dir.name, tags, str(rel_path), u, r))
 
     domain_label = "Hard Skills" if domain == "hard" else "Soft Skills"
     source_count = len(set(e[1] for e in entries))
@@ -69,12 +88,13 @@ def build_raw_index(domain):
     lines = [
         f"# {domain_label} — Raw Content Index\n",
         f"> Auto-generated. {len(entries)} articles across {source_count} sources. "
-        f"Last updated: {date.today().isoformat()}\n",
-        "| Title | Source | Tags | Path | Wiki Concepts |",
-        "|-------|--------|------|------|---------------|",
+        f"Last updated: {date.today().isoformat()}. U/R = James's understanding / relevance, inherited from matched concepts "
+        "(see `scripts/kb_knowledge_state.py`).\n",
+        "| Title | Source | Tags | Path | U | R |",
+        "|-------|--------|------|------|---|---|",
     ]
-    for title, source, tags, path in entries:
-        lines.append(f"| {title} | {source} | {tags} | [[{path}]] | |")
+    for title, source, tags, path, u, r in entries:
+        lines.append(f"| {title} | {source} | {tags} | [[{path}]] | {u} | {r} |")
 
     index_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"  {domain}/raw/_index.md: {len(entries)} entries")
@@ -125,17 +145,20 @@ def build_wiki_index(domain):
                 description += "..."
 
         rel_path = f.relative_to(KB)
-        entries.append((concept, description, source_count, related, str(rel_path)))
+        u, r = knowledge_cols(f, domain)
+        entries.append((concept, description, source_count, related, str(rel_path), u, r))
 
     domain_label = "Hard Skills" if domain == "hard" else "Soft Skills"
     lines = [
         f"# {domain_label} — Wiki Index\n",
-        f"> Auto-generated. {len(entries)} concept articles. Last updated: {date.today().isoformat()}\n",
-        "| Concept | Description | Sources | Related |",
-        "|---------|-------------|---------|---------|",
+        f"> Auto-generated. {len(entries)} concept articles. Last updated: {date.today().isoformat()}. "
+        "U = James's understanding (1 little · 2 basic · 3 proven depth · 4 boundary), R = relevance (0 · 2 · 3) — "
+        "from `kb/.kb/knowledge_state.json` via `scripts/kb_knowledge_state.py`.\n",
+        "| Concept | U | R | Description | Sources | Related |",
+        "|---------|---|---|-------------|---------|---------|",
     ]
-    for concept, desc, src_count, related, path in entries:
-        lines.append(f"| [[{path}|{concept}]] | {desc} | {src_count} | {related} |")
+    for concept, desc, src_count, related, path, u, r in entries:
+        lines.append(f"| [[{path}|{concept}]] | {u} | {r} | {desc} | {src_count} | {related} |")
 
     index_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"  {domain}/wiki/_index.md: {len(entries)} entries")

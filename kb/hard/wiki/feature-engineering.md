@@ -11,6 +11,9 @@ related:
   - "[[hard/wiki/recommendation-systems|Recommendation Systems]]"
   - "[[hard/wiki/learning-to-rank|Learning to Rank]]"
   - "[[hard/wiki/feature-stores|Feature Stores]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Feature Engineering

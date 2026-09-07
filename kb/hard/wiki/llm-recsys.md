@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/recommendation-systems-llm.md
 last_compiled: 2026-04-05
 related: [recommendation-systems, large-language-models, two-tower-retrieval]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # LLMs in Recommendation Systems

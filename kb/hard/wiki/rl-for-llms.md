@@ -11,6 +11,9 @@ related:
   - "[[hard/wiki/reinforcement-learning|Reinforcement Learning]]"
   - "[[hard/wiki/large-language-models|Large Language Models]]"
   - "[[hard/wiki/llm-post-training|LLM Post-Training]]"
+understanding: 1  # very little exposure / unknown (default)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Reinforcement Learning for LLMs

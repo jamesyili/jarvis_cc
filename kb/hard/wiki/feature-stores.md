@@ -6,6 +6,9 @@ sources:
   - kb/hard/raw/eugene-yan/a-practical-guide-to-maintaining-machine-learning-in-production.md
 last_compiled: 2026-04-05
 related: [feature-engineering, ml-production-maintenance, mlops-monitoring]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Feature Stores

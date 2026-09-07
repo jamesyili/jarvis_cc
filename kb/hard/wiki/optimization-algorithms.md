@@ -9,6 +9,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/neural-network-training|Neural Network Training]]"
   - "[[hard/wiki/neural-network-fundamentals|Neural Network Fundamentals]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Optimization Algorithms

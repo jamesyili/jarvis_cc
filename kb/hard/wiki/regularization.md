@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/primers-regularization.md
 last_compiled: 2026-04-05
 related: [neural-network-fundamentals, neural-network-training]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Regularization & Overfitting

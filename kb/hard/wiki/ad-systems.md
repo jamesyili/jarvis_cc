@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/ad-online-auction.md
 last_compiled: 2026-04-05
 related: [recommendation-systems, learning-to-rank, distributed-systems]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Ad Systems Design

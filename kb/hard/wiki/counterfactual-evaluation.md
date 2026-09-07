@@ -9,6 +9,9 @@ related:
   - "[[hard/wiki/recsys-evaluation|RecSys Evaluation]]"
   - "[[hard/wiki/bandits-exploration-exploitation|Bandits & Exploration-Exploitation]]"
   - "[[hard/wiki/a-b-testing|A/B Testing]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Counterfactual & Offline Policy Evaluation

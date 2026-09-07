@@ -10,6 +10,9 @@ related:
   - "[[hard/wiki/recommendation-systems|Recommendation Systems]]"
   - "[[hard/wiki/reranking|Reranking]]"
   - "[[hard/wiki/bandits-exploration-exploitation|Bandits & Exploration-Exploitation]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # RecSys Beyond Accuracy

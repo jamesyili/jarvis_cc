@@ -9,6 +9,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/llm-inference-serving|LLM Inference & Serving]]"
   - "[[hard/wiki/large-language-models|Large Language Models]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Model Compression & Quantization

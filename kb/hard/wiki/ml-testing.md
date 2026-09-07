@@ -9,6 +9,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/mlops-monitoring|MLOps Monitoring]]"
   - "[[hard/wiki/ml-production-maintenance|ML Production Maintenance]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # ML Testing Strategies

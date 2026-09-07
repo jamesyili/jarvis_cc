@@ -11,6 +11,9 @@ related:
   - "[[hard/wiki/recommendation-systems|Recommendation Systems]]"
   - "[[hard/wiki/embeddings-and-representation-learning|Embeddings and Representation Learning]]"
   - "[[hard/wiki/approximate-nearest-neighbor|Approximate Nearest Neighbor]]"
+understanding: 4  # boundary pushing
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Two-Tower Retrieval

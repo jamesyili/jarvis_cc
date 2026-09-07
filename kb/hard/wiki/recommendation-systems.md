@@ -13,6 +13,9 @@ related:
   - "[[hard/wiki/learning-to-rank|Learning to Rank]]"
   - "[[hard/wiki/recsys-embeddings|RecSys Embeddings]]"
   - "[[hard/wiki/reranking|Reranking]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Recommendation Systems

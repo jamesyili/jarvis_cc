@@ -12,6 +12,9 @@ related:
   - "[[hard/wiki/two-tower-retrieval|Two-Tower Retrieval]]"
   - "[[hard/wiki/self-supervised-contrastive|Self-Supervised & Contrastive Learning]]"
   - "[[hard/wiki/transformer-architecture|Transformer Architecture]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Embeddings & Representation Learning

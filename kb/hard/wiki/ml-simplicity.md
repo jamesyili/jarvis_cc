@@ -8,6 +8,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/ml-system-design-framework|ML System Design Framework]]"
   - "[[hard/wiki/ml-production-maintenance|ML Production Maintenance]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # ML Simplicity First

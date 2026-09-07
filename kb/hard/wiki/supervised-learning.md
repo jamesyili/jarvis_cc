@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/primers-naive-bayes.md
 last_compiled: 2026-04-05
 related: [neural-network-fundamentals, decision-trees-ensembles, feature-engineering]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 0  # not obviously relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Supervised Learning Algorithms

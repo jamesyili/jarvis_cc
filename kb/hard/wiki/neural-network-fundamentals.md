@@ -12,6 +12,9 @@ related:
   - "[[hard/wiki/neural-network-training|Neural Network Training]]"
   - "[[hard/wiki/regularization|Regularization]]"
   - "[[hard/wiki/optimization-algorithms|Optimization Algorithms]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 0  # not obviously relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Neural Network Fundamentals

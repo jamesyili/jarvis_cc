@@ -10,6 +10,9 @@ related:
   - "[[hard/wiki/large-language-models|Large Language Models]]"
   - "[[hard/wiki/retrieval-augmented-generation|Retrieval-Augmented Generation]]"
   - "[[hard/wiki/llm-patterns|LLM Patterns]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Generative AI Platform Design

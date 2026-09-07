@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/eugene-yan/how-to-measure-and-mitigate-position-bias.md
 last_compiled: 2026-04-05
 related: [recommendation-systems, learning-to-rank, a-b-testing]
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # RecSys Evaluation & Bias

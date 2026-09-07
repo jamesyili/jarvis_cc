@@ -9,6 +9,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/mlops-monitoring|MLOps & Monitoring]]"
   - "[[hard/wiki/model-compression|Model Compression]]"
+understanding: 1  # very little exposure / unknown (default)
+relevance: 0  # not obviously relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Privacy & Federated Learning

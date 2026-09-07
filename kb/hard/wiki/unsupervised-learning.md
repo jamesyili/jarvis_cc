@@ -10,6 +10,9 @@ related:
   - "[[hard/wiki/embeddings-and-representation-learning|Embeddings & Representation Learning]]"
   - "[[hard/wiki/supervised-learning|Supervised Learning]]"
   - "[[hard/wiki/self-supervised-contrastive|Self-Supervised & Contrastive Learning]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 0  # not obviously relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Unsupervised Learning & Clustering

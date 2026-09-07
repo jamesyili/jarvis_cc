@@ -10,6 +10,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/ai-agents-and-agentic-systems|AI Agents & Agentic Systems]]"
   - "[[hard/wiki/large-language-models|Large Language Models]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # LLM Evaluation

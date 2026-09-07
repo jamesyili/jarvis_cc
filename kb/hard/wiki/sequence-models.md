@@ -8,6 +8,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/transformer-architecture|Transformer Architecture]]"
   - "[[hard/wiki/large-language-models|Large Language Models]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Sequence Models (RNN/LSTM/SSM)

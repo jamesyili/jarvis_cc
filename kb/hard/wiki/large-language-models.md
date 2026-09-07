@@ -13,6 +13,9 @@ related:
   - "[[hard/wiki/llm-post-training|LLM Post-Training]]"
   - "[[hard/wiki/rl-for-llms|RL for LLMs]]"
   - "[[hard/wiki/llm-evaluation|LLM Evaluation]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Large Language Models

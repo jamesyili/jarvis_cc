@@ -8,6 +8,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/llm-post-training|LLM Post-Training]]"
   - "[[hard/wiki/data-quality|Data Quality & Curation]]"
+understanding: 1  # very little exposure / unknown (default)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Synthetic Data for Fine-Tuning

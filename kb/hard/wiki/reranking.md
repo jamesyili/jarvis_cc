@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/recommendation-systems-bias.md
 last_compiled: 2026-04-05
 related: [recommendation-systems, bandits-exploration-exploitation, learning-to-rank]
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Reranking & Multi-Objective Optimization

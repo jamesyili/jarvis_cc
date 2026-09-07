@@ -10,6 +10,9 @@ last_compiled: 2026-04-05
 related:
   - "[[hard/wiki/genai-product-strategy|GenAI Product Strategy]]"
   - "[[hard/wiki/large-language-models|Large Language Models]]"
+understanding: 1  # very little exposure / unknown (default)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Open Model Ecosystem

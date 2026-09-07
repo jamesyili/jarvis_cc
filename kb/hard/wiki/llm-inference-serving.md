@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/primers-speculative-decoding.md
 last_compiled: 2026-04-05
 related: [distributed-training, model-compression, transformer-architecture]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # LLM Inference & Serving

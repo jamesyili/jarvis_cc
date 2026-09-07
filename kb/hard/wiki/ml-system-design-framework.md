@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/chapter-2-youtube-video-search.md
 last_compiled: 2026-04-05
 related: [recommendation-systems, feature-engineering, mlops-monitoring]
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # ML System Design Framework

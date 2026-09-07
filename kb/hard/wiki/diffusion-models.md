@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/primers-diffusion-models.md
 last_compiled: 2026-04-05
 related: [generative-adversarial-networks, vision-language-models, convolutional-neural-networks]
+understanding: 1  # very little exposure / unknown (default)
+relevance: 0  # not obviously relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Diffusion Models

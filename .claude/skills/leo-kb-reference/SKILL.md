@@ -66,6 +66,10 @@ Compile flow (`scripts/compile_wiki.py`, shells `claude` CLI, model pinned `clau
 
 **graphify Phase 2** (feed scan from god_nodes/hyperedges instead of LLM-batching raw/) is designed but **frozen by choice** since 2026-04-09 — the tool-builder-trap demotion, with reversal criteria recorded in backlog.md. Don't build it as a side quest; see [leo-research-methodology] on the demotion discipline.
 
+## Learner-model layer (`kb/.kb/knowledge_state.json`, added 2026-09-07)
+
+Per-concept **understanding** (1 little · 2 basic-assumed · 3 proven · 4 boundary) and **relevance** (0/2/3) for James, over the 65 wiki concepts + 7 extras (72). Raw articles inherit by tag/title match (understanding = min, relevance = max). Rendered into wiki frontmatter and the `_index.md` U/R columns by `build_index.py`; human view `self/learning/knowledge_state.md`. Driver: `python3 scripts/kb_knowledge_state.py {init|set|bulk|get|list|queue|article|render|export|check}` — stdlib only, Codex-portable. Written only on evidence by the `learn`, `context-update`, and `ingest` skills; full contract in the `knowledge-state` skill and `system/kb-spec.md` §Learner model. Papers James passes: `scripts/ingest_paper.py` → `kb/hard/raw/arxiv/`.
+
 ## When NOT to use this skill
 
 - Running KB operations → [leo-run-and-operate]

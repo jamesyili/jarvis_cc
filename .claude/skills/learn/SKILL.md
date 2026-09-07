@@ -35,6 +35,27 @@ when James is continuing that practice; a request to learn or get help takes
 precedence. Preserve a paused practice question instead of forcing an answer.
 A direct topic change overrides the cursor; retain the prior point in history.
 
+## Consult the learner model before choosing what to teach
+
+James's per-concept understanding (1–4) and relevance (0/2/3) live in
+`kb/.kb/knowledge_state.json` (skill: `knowledge-state`; design ratified 2026-09-07).
+Before selecting or building a block, run `python3 scripts/kb_knowledge_state.py queue`
+(relevance 3, understanding ≤ 2 — the learning queue) and `get <concept>` for the
+block's concept. Teach at the recorded level: understanding 2 means skip elementary
+checks and go to mechanism; understanding 1 means build the foundation first. The
+agenda still owns the course sequence; the model tells you how deep to start and
+which queue items the sequence is missing.
+
+After a practice answer that clearly demonstrates depth (mechanism explained,
+trade-off defended, counterexample produced, design choice justified), record it:
+`python3 scripts/kb_knowledge_state.py set <concept> --understanding 3 --kind practice
+--by codex|claude --note "<block id>: what he demonstrated, in one line"`. A learning
+exchange in which he restates a mechanism unprompted is `--kind dialogue`. An answer
+that shows the assumed level 2 was wrong goes to 1 with the reason. Reading, a
+displayed page, or a paraphrase of Leo's explanation is not evidence — do not write.
+Never hand-edit the JSON; the `set` command appends dated, attributed evidence and
+refreshes `self/learning/knowledge_state.md`, the wiki frontmatter, and the catalogs.
+
 ## Follow intent: learning or practice
 
 Infer the mode from what James is doing in the current message, not from whether
@@ -171,6 +192,8 @@ not read or learned. Record:
   is not demonstrated improvement until James uses the distinction himself.
 - Exact pending prompt and the action after it is answered. Use stable block IDs
   such as `W01-map-01`; never just "continue W1."
+- Any learner-model writes made this turn (`kb_knowledge_state.py set ...`), so the
+  progress file and the model agree on what was demonstrated.
 - Device/display result, source defects affecting the next block, and deferred
   work. Keep a concise dated history of answered blocks and transitions.
 

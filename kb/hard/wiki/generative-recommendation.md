@@ -9,6 +9,9 @@ related:
   - "[[hard/wiki/recommendation-systems|Recommendation Systems]]"
   - "[[hard/wiki/llm-recsys|LLM for RecSys]]"
   - "[[hard/wiki/large-language-models|Large Language Models]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Generative Recommendation

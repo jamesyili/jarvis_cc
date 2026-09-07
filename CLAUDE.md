@@ -64,6 +64,12 @@ The five most-used workflow skills (`start-session`, `end-session`, `prep`, `dra
 | `/kb-reflect` | Cross-cutting synthesis — themes, contradictions, gaps across KB |
 | `/kb-graph` | Query the knowledge graph — neighbors, god nodes, hyperedges, communities, surprising connections (backed by `kb/.kb/graph/graph.json`) |
 
+### Knowledge Base — repo skills (added 2026-09-07; work in Codex too via `.agents/skills/`)
+| Skill | Trigger |
+|-------|---------|
+| `/ingest` | James passes a paper (arXiv id/URL, PDF, or .md translation) → `scripts/ingest_paper.py` into `kb/hard/raw/arxiv/`, inherits his understanding/relevance, `--evidence authored\|discussed` marks proven depth, rebuilds search. Also the manual RSS/scout entry point. No scraping or scheduling (fenced) |
+| `/knowledge-state` | The learner model over the KB — per-concept understanding (1 little · 2 basic-assumed · 3 proven · 4 boundary) and relevance (0/2/3), inherited by every article; `queue` = relevance 3 & understanding ≤ 2. `learn` and `context-update` write it on evidence; the diagnostic quiz lives at `self/learning/diagnostic_quiz_2026-09.md` |
+
 ### Leo Internals — knowledge-transfer library (added 2026-07-13)
 14 `leo-*` skills in `.claude/skills/` that transfer Leo's operational knowledge to any zero-context session (built via the "train skills before retirement" exercise, 2026-07-12/13). These load by description match rather than slash invocation — the table is for orientation:
 

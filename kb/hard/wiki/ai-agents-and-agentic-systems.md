@@ -12,6 +12,9 @@ related:
   - "[[hard/wiki/large-language-models|Large Language Models]]"
   - "[[hard/wiki/retrieval-augmented-generation|Retrieval-Augmented Generation]]"
   - "[[hard/wiki/llm-evaluation|LLM Evaluation]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # AI Agents & Agentic Systems

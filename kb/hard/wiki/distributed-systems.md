@@ -11,6 +11,9 @@ related:
   - "[[hard/wiki/ad-systems|Ad Systems]]"
   - "[[hard/wiki/ml-system-design-framework|ML System Design Framework]]"
   - "[[hard/wiki/mlops-monitoring|MLOps & Monitoring]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Distributed Systems Fundamentals

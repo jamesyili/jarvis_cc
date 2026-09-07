@@ -5,6 +5,9 @@ sources:
   - kb/hard/raw/eugene-yan/patterns-for-building-llm-based-systems-products.md
 last_compiled: 2026-04-05
 related: [genai-platform, llm-evaluation, retrieval-augmented-generation]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # LLM Patterns for Products

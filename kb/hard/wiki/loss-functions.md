@@ -10,6 +10,9 @@ related:
   - "[[hard/wiki/learning-to-rank|Learning to Rank]]"
   - "[[hard/wiki/embeddings-and-representation-learning|Embeddings & Representation Learning]]"
   - "[[hard/wiki/self-supervised-contrastive|Self-Supervised & Contrastive Learning]]"
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Loss Functions

@@ -11,6 +11,9 @@ related:
   - "[[hard/wiki/bandits-exploration-exploitation|Bandits & Exploration-Exploitation]]"
   - "[[hard/wiki/rl-for-llms|RL for LLMs]]"
   - "[[hard/wiki/neural-network-training|Neural Network Training]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Reinforcement Learning

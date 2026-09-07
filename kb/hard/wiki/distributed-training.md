@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/gradient-accumulation-and-checkpointing.md
 last_compiled: 2026-04-05
 related: [large-language-models, neural-network-training]
+understanding: 1  # very little exposure / unknown (default)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Distributed Training & Memory Optimization

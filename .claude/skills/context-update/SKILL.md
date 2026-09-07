@@ -31,6 +31,7 @@ Scan the current conversation for signals that context files are stale or missin
 - **Goal shifts** — priorities changed, new bets, goals achieved or deprioritized
 - **Communication insights** — new audience playbooks, speaking patterns, feedback received
 - **New files needed** — a new project, person, or domain that doesn't have a file yet
+- **Understanding evidence** — James demonstrated depth on a KB concept in this conversation (designed or defended a mechanism in a real decision, co-authored a paper, ran the experiment himself). Record it in the learner model, not in prose: `python3 scripts/kb_knowledge_state.py set <concept> --understanding 3 --kind work|authored --by claude|codex --note "<artifact and what it showed>"`. Team members' work is not his evidence unless he did the technical reasoning in front of you. If the agenda changed what "relevant" means, adjust `--relevance` the same way. (Skill: `knowledge-state`, 2026-09-07.)
 
 Present proposed updates as a concrete list:
 

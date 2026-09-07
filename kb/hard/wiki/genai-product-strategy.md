@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/chip-huyen/what-i-learned-from-looking-at-900-most-popular-open-source-ai-tools.md
 last_compiled: 2026-04-05
 related: [genai-platform, open-models-ecosystem]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # GenAI Product Strategy & Moats

@@ -11,6 +11,9 @@ related:
   - "[[hard/wiki/embeddings-and-representation-learning|Embeddings & Representation Learning]]"
   - "[[hard/wiki/large-language-models|Large Language Models]]"
   - "[[hard/wiki/ai-agents-and-agentic-systems|AI Agents & Agentic Systems]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Retrieval-Augmented Generation

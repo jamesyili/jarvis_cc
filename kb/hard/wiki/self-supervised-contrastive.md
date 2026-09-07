@@ -9,6 +9,9 @@ related:
   - "[[hard/wiki/embeddings-and-representation-learning|Embeddings & Representation Learning]]"
   - "[[hard/wiki/vision-language-models|Vision-Language Models]]"
   - "[[hard/wiki/loss-functions|Loss Functions]]"
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Self-Supervised & Contrastive Learning

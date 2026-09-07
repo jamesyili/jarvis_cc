@@ -9,6 +9,9 @@ sources:
   - kb/hard/raw/aman-ai/chapter-7-event-recommendation-system.md
 last_compiled: 2026-04-05
 related: [recommendation-systems, two-tower-retrieval, feature-engineering]
+understanding: 3  # proven depth (demonstrated in dialogue/practice, or authored)
+relevance: 2  # somewhat / potentially relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Applied RecSys Case Studies

@@ -7,6 +7,9 @@ sources:
   - kb/hard/raw/aman-ai/primers-transferability-estimation.md
 last_compiled: 2026-04-05
 related: [large-language-models, rl-for-llms]
+understanding: 2  # basic understanding (assumed where James's background applies)
+relevance: 3  # very relevant
+knowledge_updated: 2026-09-07
 ---
 
 # Transfer Learning & Fine-Tuning
