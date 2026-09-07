@@ -8,6 +8,10 @@ James would love to build a game using Codex and is brainstorming what to make w
 
 His description of enjoyable play: "I did love losing hours trying to do tasks and finish something that is both doable and that I enjoy the process of." He sees achievable game objectives as one possible source of purpose in early retirement; the broader reflection is in [the personal journal](../journals_and_growth.md).
 
+**Power fantasy (James, September 7):** "The power fantasy is also very important: power accumulation over time, where I'm almost like a god towards the end and there are some challenges still. An example will be like an RTS where I can spawn tons of units, etc." Overwhelming late-game power with some remaining challenges is an explicit preference. Spawning a large army is an example, not a decision to build an RTS or require armies.
+
+**Design grill in progress:** James explicitly invoked grill-me to clarify what he would enjoy and dislike in a game built together using Codex. Begin with how he wants to control the action. Leo's initial recommendation, awaiting his answer: a directly controlled hero whose growing army mostly acts for itself, with simple commands. Earlier concepts (Emberhold, Borrowed Gods, The Last Hunt) were brainstorms, not selected designs. Multiplayer or an AI playing companion has not been specified by "play together."
+
 ## Source bounds
 
 The tables below are James's supplied list, preserved verbatim. Titles, years, release dates, status categories, hours and scores have not been independently reconciled; upcoming dates are not a verified release calendar. Blank scores remain unknown. High scores under Dropped (including Scarlet Nexus, Khazan and Soul Reaver) should not be interpreted as dislike. Listing a game in Backlog or Upcoming establishes interest, not enjoyment. Individual reasons for enjoyment or dropping, and whether co-op drove Return to Moria's rating, remain unknown.
@@ -132,4 +136,3 @@ The tables below are James's supplied list, preserved verbatim. Titles, years, r
 | Risk of Rain Returns | 2023 | PC | 1 | 2 |
 | Neon White | 2023 | PC | 1 | 2 |
 | Horizon: Burning Shores | 2023 | PS5 | 2 | — |
-
