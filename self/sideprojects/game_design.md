@@ -34,4 +34,10 @@ What it changes in Leo's read:
 
 ### Q1 — Shape of the fantasy
 **Leo's recommended answer:** the arc. Start as one weak body; end as the thing the world obeys. The smashing is the middle of the game, the ruling is the end. Reason: every finished game on his list is embodied, but "absolute control" is a ruler's word.
+**James:** "Smashes everything, can control some small army as part of it."
+**Read after:** the pure embodied form, not the arc. Leo's rec rejected. "Absolute control" means total dominance on the field, with a small commanded force as an extension of him (Dynasty Warriors bodyguards, Wukong's clones, a summon build), not a kingdom to rule. Drops branch 2's "rewriting the rules" ending; the ruling-god variant is off the table.
+
+### Q2 — The loop (the hard part)
+Power that only goes up and a game that stays interesting fight each other. Four known solutions: reset power every run and let the permanent layer grow (Hades); never reset and run a treadmill of bigger numbers (Diablo — dropped twice); never reset and keep the world's scale one step behind the player so he is always slightly overpowered (Dynasty Warriors, Wukong); never reset and end the game at the top.
+**Leo's recommended answer:** no resets. One unbroken climb from nobody to god, the world's scale one step behind him the whole way, and the game ends when he gets there. Runs keep taking the power away, and accumulation is the spine. Cost: this drops the roguelike pick entirely.
 **James:** (pending)
