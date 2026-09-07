@@ -8,9 +8,12 @@ James would love to build a game using Codex and is brainstorming what to make w
 
 His description of enjoyable play: "I did love losing hours trying to do tasks and finish something that is both doable and that I enjoy the process of." He sees achievable game objectives as one possible source of purpose in early retirement; the broader reflection is in [the personal journal](../journals_and_growth.md).
 
-**Power fantasy (James, September 7):** "The power fantasy is also very important: power accumulation over time, where I'm almost like a god towards the end and there are some challenges still. An example will be like an RTS where I can spawn tons of units, etc." Overwhelming late-game power with some remaining challenges is an explicit preference. Spawning a large army is an example, not a decision to build an RTS or require armies.
+**Power fantasy (James, September 7):** "The power fantasy is also very important: power accumulation over time, where I'm almost like a god towards the end and there are some challenges still. An example will be like an RTS where I can spawn tons of units, etc." Overwhelming late-game power with some remaining challenges is an explicit preference. The RTS comparison began as an example; it does not establish an RTS genre, economy, or production system.
 
-**Design grill in progress:** James explicitly invoked grill-me to clarify what he would enjoy and dislike in a game built together using Codex. Begin with how he wants to control the action. Leo's initial recommendation, awaiting his answer: a directly controlled hero whose growing army mostly acts for itself, with simple commands. Earlier concepts (Emberhold, Borrowed Gods, The Last Hunt) were brainstorms, not selected designs. Multiplayer or an AI playing companion has not been specified by "play together."
+**Design grill in progress:** James explicitly invoked grill-me to clarify what he would enjoy and dislike in a game built together using Codex. Earlier concepts (Emberhold, Borrowed Gods, The Last Hunt) were brainstorms, not selected designs. Multiplayer or an AI playing companion has not been specified by "play together."
+
+- **Q1 confirmed:** keep directly controlling the hero as the army grows. James: "Yes absolutely. Part of the growth is my mastery of the hero's abilities." Both accumulated in-game power and the player's growing skill with the hero matter. Leo's suggested mostly autonomous army with simple commands remains a proposed control scheme; exact army controls and scale are open.
+- **Q2 pending:** should most accumulated power persist across sessions and defeats? Leo leans toward a persistent campaign for this particular power fantasy; James's enjoyment of Hades keeps a run-based alternative plausible. No progression-reset or death-penalty decision has been made.
 
 ## Source bounds
 
