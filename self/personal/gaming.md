@@ -1,6 +1,6 @@
 # Gaming preferences and play history
 
-Last updated: 2026-09-07 Pacific.
+Last updated: 2026-09-08 Pacific.
 
 ## Stated preferences and intent
 
@@ -13,7 +13,8 @@ His description of enjoyable play: "I did love losing hours trying to do tasks a
 **Design grill in progress:** James explicitly invoked grill-me to clarify what he would enjoy and dislike in a game built together using Codex. Earlier concepts (Emberhold, Borrowed Gods, The Last Hunt) were brainstorms, not selected designs. Multiplayer or an AI playing companion has not been specified by "play together."
 
 - **Q1 confirmed:** keep directly controlling the hero as the army grows. James: "Yes absolutely. Part of the growth is my mastery of the hero's abilities." Both accumulated in-game power and the player's growing skill with the hero matter. Leo's suggested mostly autonomous army with simple commands remains a proposed control scheme; exact army controls and scale are open.
-- **Q2 pending:** should most accumulated power persist across sessions and defeats? Leo leans toward a persistent campaign for this particular power fantasy; James's enjoyment of Hades keeps a run-based alternative plausible. No progression-reset or death-penalty decision has been made.
+- **Q2 confirmed (September 8):** most accumulated power should survive defeat; persistent progression works if it preserves build experimentation. James: "yes, what I enjoy about the runs is the fact that I can try out new builds, but if I  can do that with persistence then it's fine". The attraction of runs is trying different builds; restarting the power climb is not required. Exact defeat penalties, unit losses, and build-switching rules remain open. Leo recommends making unlocked builds easy to switch between without starting a new character; that implementation detail is not yet ratified.
+- **Q3 pending:** how much hands-on army command would be enjoyable during combat? Leo's recommendation is occasional meaningful orders with routine movement and fighting handled automatically, preserving attention for hero mastery. Exact control scheme remains open.
 
 ## Source bounds
 
