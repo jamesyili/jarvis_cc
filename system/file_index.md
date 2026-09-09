@@ -160,7 +160,7 @@ Career-optionality artifacts: OpenAI May 27 call prep, Pinterest EM story bank, 
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `session-logs/` | Latest: 2026-09-06b.md — mobile semantic-ID learning, working phone diagrams, exact paused architecture prompt, and learning/practice modes; separate research-arm session preserved in 2026-09-06.md. | 2026-09-06 |
+| `session-logs/` | Latest: 2026-09-08.md — IB bulk-save discussion and three photo transcripts, James's public reply, Dhruvil/Dylan alignment before more work, visible-document correction, and email delivery. Prior learning sessions remain in their dated files. | 2026-09-08 |
 | `instincts/` | Shared behavioral memory; September 6 adds learning/practice separation and reinforces precise encoder/decoder naming. INDEX.md is the per-instinct directory. | 2026-09-06 |
 | `leo-overview.md` | Portable Leo architecture and tool integrations; Windows/Linux setup and September 5 intensive month-or-so Codex trial, with shared memory across tools. | 2026-09-05 |
 | `leo-portability.md` | Windows/Linux/WSL setup, Codex project and user skill entry points, root detection, Python lifecycle hooks, CLI launcher, and validation commands. | 2026-09-05 |
