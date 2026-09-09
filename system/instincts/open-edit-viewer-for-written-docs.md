@@ -1,11 +1,11 @@
 ---
 id: open-edit-viewer-for-written-docs
 trigger: Leo writes (or substantially rewrites) a .md doc deliverable for James in a session — a repo artifact James will read/review, not routine context-file updates
-behavior: Launch the doc-viewer edit server for each such doc by default — background, one server per doc on a unique port, report the URL — unless James says not to. Local only, nothing emailed.
-confidence: 0.8
-evidence_count: 2
+behavior: Launch the doc-viewer edit server for each such doc by default — background, one server per doc on a unique port, report the URL — unless James says not to. Keep both the source and visible HTML current throughout the conversation, including while the viewer is open. Preserve actual unsaved edits; mere visibility never blocks an update. Local only, nothing emailed.
+confidence: 0.9
+evidence_count: 3
 created: 2026-07-27
-last_updated: 2026-07-28
+last_updated: 2026-09-08
 status: active
 ---
 
@@ -26,9 +26,16 @@ drafts, reference docs James asked for). Does NOT fire for context-file filing
 (team_members.md, stakeholders.md, session logs, backlog) — opening editors for
 every context update is noise.
 
-**Conflict discipline:** while a doc is open in the edit server, Leo does not
-edit that file mid-review (the 409 guard catches it, but don't create the
-collision). Ask James to save first, or wait.
+**Keep the visible document current:** update the Markdown and refresh its HTML
+as the discussion changes, including while James has it open. Do not defer edits
+or file the continuation elsewhere merely because the viewer is visible. In
+`--edit` mode a source-file write does not automatically refresh the loaded
+preview: reload the page and verify the new content is actually rendered.
+
+**Preserve actual edits:** inspect the editor for unsaved changes before a
+reload. If James has made edits, preserve and merge them into the updated source;
+ask only if a real conflicting edit cannot be resolved. The 409 guard prevents
+stale overwrites; it is not a reason to leave the document stale by default.
 
 **Cleanup:** stop servers at session end — `pkill -f "doc_viewer.py --edit"`.
 
@@ -50,3 +57,10 @@ when he's at the machine.
   (assumed phone-only from photo uploads); James had to ask "open the .md
   file". Also first launched with system `python3` → ModuleNotFoundError;
   the skill documents the venv interpreter. Both codified above.
+- **2026-09-08** — James: "Why would you not update the HTML while it's visible?
+  Always update it, okay?" Leo had followed the former conflict rule and filed
+  later IB discussion in the stakeholder record while the visible document
+  still recommended an earlier course of action. This explicit correction
+  supersedes that prohibition: update source and visible preview in the same
+  turn; protect actual unsaved edits, not hypothetical collisions.
+  Signal: correction.

@@ -33,7 +33,13 @@ Flags:
   success, not failure; verify by the server task dying, not the exit code
   (observed 2026-08-04). Conflict-safe: if the file changed on
   disk after load (e.g. Leo edited it), Save returns 409 and the browser asks
-  before overwriting — so avoid editing a file Leo is also mid-edit on.
+  before overwriting. This guard does not prohibit updating an open document.
+  James's standing instruction (2026-09-08) is to keep the source AND visible
+  HTML current while the conversation evolves. Inspect for actual unsaved
+  browser edits and preserve/merge them, then update the Markdown and reload
+  the same tab. Verify the rendered content: `--edit` does not automatically
+  reload external source-file changes. Never defer an update merely because
+  the viewer is open.
 - `--watch` — keep running; re-renders on every save of the source .md, and the
   page auto-refreshes every 2s (external-editor loop). Exclusive with `--edit`.
   Background it the same way.

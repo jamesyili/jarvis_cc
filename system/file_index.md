@@ -107,7 +107,7 @@ Last updated: 2026-09-08 Pacific (game-design grill: persistent progression with
 
 | File | Description | Last updated |
 |------|-------------|-------------|
-| `intelligent_boards_bulk_save_2026-09.md` | Private IB bulk-save thread record through Michael's acceptance: two photo transcripts, calibration/recovery reasoning and public dynamics. Later James reply, Andrew's agency acknowledgment, and tactical follow-up are in `work/people/stakeholders.md` §9 pending merge after the open-editor review. | 2026-09-08 |
+| `intelligent_boards_bulk_save_2026-09.md` | Private IB bulk-save discussion: three photo transcripts, James's public reply, Andrew's agency acknowledgment, calibration and shared-sequence implications, public dynamics, and current Dhruvil/Dylan alignment before further work. | 2026-09-08 |
 | `personalization_retrieval_org_2027_agenda.md` | **Live working doc** — P13N Retrieval as a research arm on retrieval × LLMs: v0 thesis + six bets (9/5); research diff, team strengths/gaps, keep/pivot/stop, leader slate v1 → refuted → **slate v2**; **the strategy verbalized** (scale the user model 10× at flat serving cost; three moves; what we don't do; who; in a year) + the LLM part of user understanding | 2026-09-06 |
 | `retrieval_preranking_research_synthesis_2026-09-05.md` | James's deep-research synthesis #1, verbatim: retrieval + pre-ranking 2021–2026 (three step-functions, seven synergies, gaps, ten recommendations, factual flags, reading list) | 2026-09-05 |
 | `llm_scaling_research_synthesis_2026-09-06.md` | James's deep-research synthesis #2, verbatim: LLM scaling unlocks 2021–2026 and their intersections with retrieval/L1 (Part 2 ranked list, staged recommendations, caveats) | 2026-09-06 |

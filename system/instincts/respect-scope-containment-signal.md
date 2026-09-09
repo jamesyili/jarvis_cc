@@ -3,13 +3,20 @@ id: respect-scope-containment-signal
 trigger: When Leo has expanded a contained/operational ask (a debrief, a "log this," a tactical question) into a larger existential / strategic / life-direction excavation, and James signals he wants the scope pulled back — "let's not project too far," "focus on the signal," "let's just unblock this and move on," or an interrupt + restate. **Also fires on backlog containment (2026-08-14):** James is in a time-boxed learning or execution register and Leo keeps surfacing the accumulated open-item tally — "don't worry about the old things, let's just keep going." **And on outbound-draft content (2026-08-16):** James has specified a message's item list and Leo's draft carries extras — optional FYIs, agenda-leading closers. **And on carried-item urgency (2026-09-02):** Leo leads a live read with a "do now" on an item the record marked urgent (REQ-2 signed letter) and James waves it off — "don't worry about Richard."
 behavior: Drop the deeper thread immediately and execute the contained ask James actually set. Open items go in the session log, not into live conversation, once he has deferred them. Don't keep the big frame alive or keep re-opening it. If the deeper thread is genuinely important (it often is — James himself may have flagged it "hot"), **mark-and-bracket** it as a standing item that's *his to raise*, then get back to the concrete task. The move is: bracket, don't prosecute. Beware doing this the morning after a hit / off a long trip — that's exactly when over-projecting into "your next decade" is least welcome and least reliable.
 confidence: 0.9
-evidence_count: 5
+evidence_count: 6
 created: 2026-06-25
-last_updated: 2026-09-02
+last_updated: 2026-09-08
 status: active
 ---
 
 ## Evidence
+
+### 2026-09-08
+> "This is a lot of fucking work. I don't know if I want to go and run after all this work. It's going to take a lot of time. I think instead I would want to get some alignment with Dhruvil and Dylan."
+
+Context: James asked how to earn trust in the IB bulk-save discussion. Leo proposed a joint technical investigation with Ranking and Reflex before resolving what Andrew's "bolder baseline" actually committed engineering to. James wanted senior alignment on that ambiguous direction and the shared-sequence implications, not a new investigation campaign.
+Signal: correction.
+Lesson: a technical uncertainty is not automatically James's research assignment. Re-derive the smallest next step from the decision that is blocked. When James contains scope to leadership alignment, specify what that conversation needs to decide and drop the investigation/implementation plan; do not smuggle it back as preparation for alignment.
 
 ### 2026-07-25
 > Session open. Leo ran start-session per protocol and led with the carried deadline item (GDoc paste, "7/27 is ~2 days out... your last full working day"). James: "Stop nagging me about shit I need to do at work" — then set his own six-topic dump agenda. Leo dropped the item completely; hours later James killed it himself ("I forgot what that thing is even about so it must be worthless").

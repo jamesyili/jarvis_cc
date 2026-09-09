@@ -1,16 +1,32 @@
 # Intelligent Boards bulk saves: the discussion and James's response
 
-Private working record for James and Leo. Captured September 8, 2026, Pacific time; updated through Michael's final acceptance reported by James. Includes two source photos, James's views, technical reasoning, and sensitive relationship analysis. The earlier public draft below is superseded. No new reply from James has been reported and Leo has sent nothing to the participants.
+Private working record for James and Leo. Updated September 8, 2026, Pacific time, through James's public reply, Andrew's acknowledgment of the user-agency concern, and James's decision to seek alignment with Dhruvil and Dylan before taking on more work. Includes all three source-photo transcripts, James's views, technical reasoning, and sensitive relationship analysis. Historical recommendations are labeled below. Leo has sent nothing to the participants.
 
 ## Current recommendation
 
-**Let the exchange stand; do not post the earlier corrective reply.** While this document was being written, Michael supplied a concrete negative dogfood experience, Andrew clarified the metadata proposal and explicitly allowed tuning, and Michael closed with: "Yup. Makes sense. I missed the ‘additional metadata’ suggestion" (reported by James; his exact punctuation is preserved in the continuation transcript below).
+**Align with Dhruvil and Dylan on what the bolder baseline would actually commit engineering to.** James prefers this smaller step over Leo's proposed technical investigation. The immediate output is a shared position on the starting treatment and its scope, with any engineering work explicitly justified by that decision. No new investigation, Reflex exercise, or public reply is assigned here.
 
-The shared ground now on record is distinguishable bulk repins, the option to treat them differently, and the ability to tune their influence. Andrew still prefers the bolder baseline and describes different treatment as optional rather than required. This is not agreement on how much calibration must precede a pinner test, a final weight, or a launch decision. Michael's acceptance settles the conversational misunderstanding; it does not establish product success.
+James has already publicly supported optionality and a bold baseline, while raising learned sequence effects and user recovery. Andrew acknowledged the recovery point and suggested more See More / See Less feedback. James reports that Andrew remains insistent on the first point. The screenshot contains no later technical rebuttal to transcribe. Agreement on the desired responsiveness has not established a technical treatment or launch decision.
 
-James's substantive concerns remain useful inputs to experiment scoping, especially recovery: Michael reports needing more than a week of deliberate feed interaction to get out of "pool mode." That is a concrete reported example of effortful recovery, while abandonment remains a hypothesis. Let the owners carry the implementation and test design. James's next contribution is a decision or clarification they need from him, not another public restatement while the exchange has just closed. No acknowledgment is required to preserve his position.
+### What Andrew's "bolder baseline" most likely means
 
-## Earlier public reply — superseded by the thread's resolution; not sent
+Leo's reading of Andrew's actual wording is: keep using the existing repin path and its strong immediate effect; add a bulk-save flag to preserve the option of different treatment; start from the current effect and discount it later if appropriate, instead of making new-signal integration and calibration a prerequisite. This is a preferred starting point and order of work. It does not specify an experiment, an adjustable parameter, or the evidence needed to keep that treatment.
+
+The ambiguity matters at three different scopes:
+
+| Possible scope of "baseline" | What would be agreed | What the thread establishes |
+|---|---|---|
+| Internal dogfood reference | Preserve the current experience as something to compare against. | Andrew's favorable experience is dogfood evidence. |
+| Initial pinner experiment | Start a defined cohort with the current repin treatment and assess the effect. | Andrew wants to experiment; exposure and treatment boundaries are unspecified. |
+| Default treatment across shared consumers | Let bulk saves inherit ordinary-repin treatment through shared sequences and their consumers until changed. | This is a possible consequence to clarify, not an explicit agreement shown in the thread. |
+
+James now adds that the user sequence is also consumed by teacher models and foundation models. On his account, the engineering question therefore reaches beyond tuning one Homefeed model. A frontend experiment does not by itself explain which downstream consumers receive the resulting events or what persists after the experiment ends. The actual propagation and controls have not been inspected here. Logging metadata can preserve provenance without making every consumer immediately adjustable.
+
+The useful alignment with **Dhruvil** is whether they share this distinction and what they understand Andrew to be asking engineering to leave unchanged. **Dylan's** role is to align the acceptable scope and priority across the work involved. This can start from the existing thread and James's known architecture context; a new technical memo or comprehensive test inventory is not a prerequisite. The conversation should resolve the intended starting treatment, the consumers included, and whether any follow-up work merits capacity. It should produce an engineering position that can be discussed openly with Andrew, rather than a private veto or a campaign to win the argument.
+
+James's original differentiation concern remains reasonable. The part to keep provisional is the stronger assertion that every relevant model must be rebuilt or that the metadata path saves no work. His broader sequence point establishes why "we can tune later" needs a concrete meaning; it does not establish every implementation cost. Supporting a strong product response does not settle how generated saves should be represented or propagated.
+
+### Earlier public draft (historical; not sent)
 
 > Andrew, I want to preserve that immediate response too. Keeping the current behavior as a dogfood baseline makes sense, and I'm comfortable with bulk-save metadata if the downstream systems can use it to distinguish these actions.
 >
@@ -20,7 +36,7 @@ James's substantive concerns remain useful inputs to experiment scoping, especia
 
 The draft would have accepted a test baseline, not a launch decision or a prediction that the current strength is right. Its technical requirement remains relevant: an attribute that never reaches the sequence construction/model path cannot enable a change there. Its conversational purpose has now largely been served by Andrew's clarification and Michael's response.
 
-If a later decision would remove the ability to distinguish/adjust the action, or convert the strong baseline into a launch default without a pinner read, James can address that specific decision: "I'm comfortable testing the strong response. I want to make sure we retain the ability to distinguish and adjust these saves, and agree on what would tell us the response is too strong." That is a conditional future line, not a DM to send now. Any resulting decision should come back to the working group.
+The later message James actually sent is transcribed in the third-photo section. This draft is retained only as the history of the discussion, not as a current messaging recommendation.
 
 ## Andrew and the relationship context
 
@@ -52,7 +68,7 @@ Several readings can coexist:
 | Publicly steering the group after concern starts to converge | Plausible and consequential | His seniority, timing, directive language, and channel broadcast can make the preferred direction feel more settled to readers. This is an effect of the intervention; deliberate embarrassment or dominance is not established. |
 | Personally rebuking James or withdrawing support | Weakly supported | The message contains no personal criticism, acknowledges uncertainty, agrees to experiment, and offers a technical accommodation. The broader relationship record includes explicit support for James's judgment and constructive disagreement. |
 
-Before the continuation, a concise public reply acknowledging the immediate product effect and stating the differentiation requirement was appropriate. **After the continuation, the recommendation changes:** Andrew explicitly says they are not disagreeing, permits tuning, and Michael accepts the clarification. The personal-rebuke reading has still less support. Andrew's preference for the bold baseline remains clear, but the thread does not need another participant to restate the resolved representation point. James already expressed his concern publicly; leaving the closing exchange alone does not erase it or imply he endorses every implementation choice.
+Andrew's clarification and Michael's acceptance resolved one misunderstanding about the metadata suggestion. James subsequently chose to reply, and Andrew publicly called his user-agency point a great point. That is further evidence against reading the exchange as a personal rebuke. James's concern about the first point remains, and he now prefers alignment with Dhruvil and Dylan on its concrete meaning. The public setting makes an accurate shared understanding useful; it does not make James responsible for proving the entire alternative or taking on a new project to earn the right to disagree.
 
 The relevant communication reminder is [Pattern 7 in work/communication.md](../communication.md#pattern-7-landing-a-question-with-edge-d88-calibration): a valid technical point can land as deflation when the room is excited. Here the specific acknowledgment is the value of an immediate response; the purpose is learning how to make that work for pinners. No invented positive data or performative praise is needed.
 
@@ -82,11 +98,11 @@ James says users have no way to reverse the effect. Pinterest's public [Refine y
 
 The continuation adds **one concrete reported outcome**: Michael says his pool-board save dominated Explore and Homefeed, reduced diversity, and took more than a week of active feed interaction to recover from. That is evidence of a burdensome experience for one internal user, not a measured population effect. Confusion among ordinary pinners, reduced return behavior, and abandonment remain risks rather than demonstrated outcomes. Another plausible outcome is reduced willingness to explore: if trying one new interest overwhelms established recommendations, a pinner may avoid trying new interests. Conversely, making a strong change understandable and reversible could make people more willing to accept it. User control can support the more responsive product experience Andrew wants.
 
-### What a useful experiment would resolve
+### Earlier experimental considerations (not a work assignment)
 
 The current dogfood experience is a candidate baseline, not proof of a desirable pinner default. A useful comparison would help choose the degree and persistence of the response, establish whether pinners welcome it, and test whether they can correct unwanted effects. The specific treatments, cohort, timing, and owners are work-side decisions not captured here.
 
-Subsequent voluntary engagement and return behavior matter; repins mechanically created by the bulk action itself do not establish satisfaction. Where feasible, examine the affected users and different bulk-save sizes rather than relying only on a whole-population average. These are Leo recommendations, not experiment requirements already ratified by James or the team.
+Subsequent voluntary engagement and return behavior matter; repins mechanically created by the bulk action itself do not establish satisfaction. Leo earlier suggested examining affected users and different bulk-save sizes rather than relying only on a whole-population average. These remain possible evaluation considerations, not ratified requirements or preparation James must complete before alignment.
 
 ## James's statements in this conversation
 
@@ -108,9 +124,21 @@ James then requested this dedicated file and made the political context explicit
 
 The dictated "home fee" is interpreted as Homefeed in analysis; the quoted input is preserved. James's skepticism is a prior he explicitly distinguishes from data. His reaction to the tone is recorded without converting it into a finding about Andrew's intent.
 
+After Michael's acceptance, James wanted to reply with two points: clarify how tuning works when the action enters learned user sequences, and provide a way to reverse unwanted recommendation effects. He preferred questions over declarations because Michael and Andrew are more senior and he wanted Ranking's input. He explicitly left open whether a new event or metadata is the better implementation. His actual public wording follows in the third-photo transcript.
+
+After Andrew acknowledged point #2, James asked about tactical options to earn trust, including a technical recommendation with his team or Ranking, or a Reflex-assisted trade-off discussion. Those were options he was considering, not commitments. Leo's ensuing recommendation expanded into a joint investigation. James then narrowed the scope:
+
+> Also, this is a lot of fucking work. I don't know if I want to go and run after all this work. It's going to take a lot of time. I think instead I would want to get some alignment with Dhruvil and Dylan, actually, because, honestly, my recommendation from the very get-go is pretty reasonable still.
+>
+> It's not just the models that need to be updated; it's also the user sequence that's leveraged in, for example, teacher models, in the foundation models, all those things. It's quite a bit of work to actually test very comprehensively.
+>
+> What does it mean to default to a more aggressive baseline, right? What does it really mean specifically? I think that's where I'm having trouble translating Andrew's intent and guidance.
+
+This is James's current preference. Whether any particular model needs rebuilding remains to be established; his firsthand account of the shared-sequence consumers is the basis for the scope concern.
+
 ## Original Slack thread — partial transcription from the photo
 
-This is a best-effort transcription, not a Slack export. Line wrapping is normalized. Wording is retained where readable, including awkward grammar. `[clipped]` means text leaves the photo; `[unclear]` marks text that cannot be read reliably; bracketed explanations are editorial. Hyperlink labels are retained where readable, but their destinations are unavailable. Emoji, reactions, and most interface controls are omitted. Two photos were supplied by James; the second makes parts of Andrew's original reply clearer. No image copy is stored in the repository. Other windows and sidebar conversations in the second photo are outside this task and are not transcribed.
+This is a best-effort transcription, not a Slack export. Line wrapping is normalized. Wording is retained where readable, including awkward grammar. `[clipped]` means text leaves the photo; `[unclear]` marks text that cannot be read reliably; bracketed explanations are editorial. Hyperlink labels are retained where readable, but their destinations are unavailable. Emoji, reactions, and most interface controls are omitted. Three photos were supplied by James; the second makes parts of Andrew's original reply clearer. No image copy is stored in the repository. Other windows and sidebar conversations in the second photo are outside this task and are not transcribed.
 
 ### Emun Solomon — Today at 12:19 PM
 
@@ -190,7 +218,7 @@ This is a best-effort transcription, not a Slack export. Line wrapping is normal
 
 The baseline sentence above was initially marked unclear; the second photo makes it readable. Andrew explicitly calls for a "bolder, more aggressive treatment" as the default baseline. This still does not establish a pinner-launch decision. The top-nav acronym appears as "BMI"; its expansion is not established here.
 
-## Thread continuation — second photo and James's final update
+## Thread continuation — second photo and Michael's closing reply
 
 ### Michael Weissinger — 3 minutes ago in the second photo
 
@@ -213,14 +241,35 @@ The typing indicator at the bottom says Michael Weissinger is typing. James init
 
 > Yup. Makes sense. I missed the “additional metadata” suggestion
 
-**Evidence limit:** this is Michael accepting Andrew's clarification. It does not retract his pool-mode experience, establish that either treatment works for typical pinners, or bind James to a technical design. It does establish a natural conversational stopping point.
+**Evidence limit:** this is Michael accepting Andrew's clarification. It does not retract his pool-mode experience, establish that either treatment works for typical pinners, or bind James to a technical design. James subsequently continued the thread below.
+
+## James's public reply and Andrew's response — third photo
+
+The phone shows 5:48; Slack timestamps are relative. Readable wording is transcribed verbatim, with line wrapping normalized and reactions omitted. Michael's earlier acceptance is partly visible at the top; the complete wording above is James's supplied quote.
+
+### James Li — 5 mins
+
+> @Andrew Yaroshevsky, I'm aligned on having optionality and moving with a bold baseline.
+> 1. Wrt to the decision of a different event versus metadata for the repin, I'm very open to both paths, though I would imagine we'd need to rebuild ranking and retrieval models for this type of user interaction, since there is very little manual tuning and it's mostly machine learned via sequence modeling in the models themselves. cc @Dhruvil Deven Badani as well.
+> 2. Also, forgive my n00b question around the IB experience, but could we also give pinners a straightforward way to reverse the recommendation impact if they don't welcome the change? Michael's experience shows that we may risk losing pinners who may not understand what changed or how to get back to an experience they enjoy.
+
+### Andrew Yaroshevsky — 3 mins
+
+> Great point on #2 @Emun Solomon @Kirsten Browne
+>
+> Also maybe this is a case when we need to overtrigger See More / See Less to quickly capture “if we did it too much or not” @Lily Li
+
+**Evidence limit:** Andrew acknowledges the agency concern and proposes gathering more corrective feedback. More feedback is not itself an implemented or guaranteed reversal of the bulk-save effect. James reports that Andrew remains insistent on #1; this photo does not show another argument on that point. No additional wording is reconstructed.
 
 ## How the reasoning changed
 
 1. **Initial Leo response:** identified the distinction between immediate responsiveness and strength of inferred preference; recommended accepting metadata while requiring downstream consumers to use it. This was technically useful but reconciled the disagreement too quickly and underweighted the public stakeholder setting.
 2. **After James's two objections:** separated potential integration savings from unavoidable evaluation/calibration, distinguished a collection-level acceptance from many individual choices, added the expectation/recovery problem and the possibility of discouraging exploration. Qualified claims about zero savings, literal irreversibility, and abandonment. Suggested retaining the strong response as a test candidate, not a proven default.
 3. **After James foregrounded the political stakes:** returned to Andrew's original feedback, recent program involvement, and the public broadcast. Replaced the earlier "I do disagree" draft with a shorter reply preserving the technical point without inviting a public technical correction contest.
-4. **After Michael's counterexample, Andrew's clarification, and Michael's acceptance:** the draft itself is superseded. Recommend letting the exchange stand. Distinguish the conversational resolution from the still-open product/calibration choices; retain Michael's burdensome-recovery evidence for experiment scoping.
+4. **After Michael's counterexample, Andrew's clarification, and Michael's acceptance:** Leo recommended letting the exchange stand. James subsequently chose to reply, superseding that recommendation.
+5. **James replied publicly:** he supported optionality and a bold baseline, raised learned sequence effects with Dhruvil tagged, and asked about user recovery. Andrew acknowledged the second point. Leo suggested earning trust through a joint owner-led investigation, potentially using Reflex, and testing the premise that model rebuilding was necessary.
+6. **James contained the workload:** the investigation recommendation was too much work before the intended baseline was even defined. James prefers alignment with Dhruvil and Dylan and adds the teacher/foundation-model consumers of the shared sequence. The current recommendation is that small alignment step; the investigation is not an accepted assignment.
+7. **Visible-document correction:** Leo had kept later source material in the stakeholder record because the document was open in the edit viewer. James explicitly instructed Leo always to update the visible HTML. This document now consolidates the continuation, and the shared viewer rule has been corrected to update both source and preview while preserving actual user edits.
 
 Leo had read Andrew's stakeholder profile before the first answer. That was insufficient: the recommendation did not give enough weight to the existing relationship and the public effect of the message. This is a failure to apply retrieved context, not an absence of the person's record.
 
@@ -230,13 +279,14 @@ Leo had read Andrew's stakeholder profile before the first answer. That was insu
 - The actual scope/cost of using metadata versus a separate event, and the current meaning/deployment state of the UIC filtering discussed in the opener.
 - The effect size, persistence, and distribution of the feed shift, and the experience of representative pinners rather than internal dogfood users.
 - Whether existing board controls reverse this IB effect through the relevant pipelines and are understandable/discoverable to pinners.
-- The agreed experiment, decision owner, engineering owner, timeline, and any later thread messages beyond Michael's closing reply reported by James.
+- What "bolder baseline" commits the group to: dogfood, a bounded pinner treatment, or unchanged treatment through shared consumers; the agreed experiment, decision owner, engineering owner, and timeline.
+- Any later thread messages beyond the third photo and James's account, and whether alignment with Dhruvil/Dylan has happened. No such meeting or decision is reported here.
 
 These are evidence limits for this discussion, not a new task list assigned to James. No claim about a launch, experimental result, Andrew's private intent, or a career consequence is established by the photo.
 
 ## References and provenance
 
-- Two user-supplied Slack photos and James's statements in this conversation, transcribed above. Attachments viewed directly; automated OCR was unavailable, so uncertain text stays marked rather than reconstructed. Michael's closing acceptance comes from James's explicit quote.
+- Three user-supplied Slack photos and James's statements in this conversation, transcribed above. Attachments viewed directly; uncertain text stays marked rather than reconstructed. Michael's closing acceptance comes from James's explicit quote. The shared-sequence teacher/foundation-model concern comes from James's latest firsthand account, not a code audit by Leo.
 - [Andrew's profile and dated interactions](../people/stakeholders.md#9-andrew-yaroshevsky--sr-director-of-product); [original July peer feedback](../../self/writing_style/aspirational_writing_style.md#1-verbatim-sample--h1-2026-mid-year-peer-feedback).
 - [Work communication patterns](../communication.md), especially Pattern 7; [coaching record](../coaching.md), used for response discipline rather than to diagnose James's reaction.
 - [Current Exceeds campaign](../career/exceeds_h2_2026_campaign.md), for present career context rather than relying solely on historical feedback.
