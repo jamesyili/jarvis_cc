@@ -1,15 +1,20 @@
 ---
 id: check-existing-context-before-analyzing
 trigger: When about to analyze or recommend anything about a known stakeholder, project, dynamic, or recurring situation that has documented history in the repo (stakeholders.md, projects/, dylan_archive.md, etc.)
-behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook.
+behavior: Before reasoning from first principles, GREP or read the existing context files for documented playbooks, prior decisions, historical incidents, or relationship analysis. Work WITH existing context, not around it. Surface the existing playbook first; only propose reinventing if James explicitly asks OR if new information genuinely invalidates the prior playbook. Reading a stakeholder profile is not sufficient if the recommendation ignores it; for public responses, apply the person's actual relationship history, the audience, and the intervention's public effect while keeping motives tentative.
 confidence: 0.95
-evidence_count: 10
+evidence_count: 11
 created: 2026-04-23
-last_updated: 2026-09-05
+last_updated: 2026-09-08
 status: active
 ---
 
 ## Evidence
+
+### 2026-09-08 — Andrew's profile was read but underused in public-reply advice
+> "Now do you know who Andrew is? I want to make sure you actually looked up Andrew and understand the whole context behind all of this as you're replying here, because again it's a politically sensitive topic."
+Context: Leo had read Andrew Yaroshevsky's stakeholder profile before advising on an Intelligent Boards Slack thread, but treated the disagreement mostly as a calibration/metadata problem. James explicitly called out Andrew's public intervention and pushy tone, his importance to James's career, and the need to respond with that context in mind. Re-reading the original July feedback established both Andrew's strong support for James's judgment and crucial conversations and his specific patience feedback. The channel broadcast also mattered. Later, Michael's counterexample, Andrew's clarification, and Michael's acceptance changed the recommendation to leaving the exchange closed. No motive or career threat was established.
+Signal: correction to application of retrieved context. Apply the relationship and public setting before drafting; a successful name lookup alone does not satisfy the instinct. Preserve live steering when the discussion resolves while the draft is being written.
 
 ### 2026-09-05 — Codex missed the named Exceeds campaign
 > "This is the exceed campaign and you already have the answers. Search for it."
